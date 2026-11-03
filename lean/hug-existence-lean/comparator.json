@@ -1,0 +1,13 @@
+{
+  "challenge_module": "HugExistenceChallenge",
+  "solution_module": "HugExistenceSolution",
+  "enable_nanoda": true,
+  "theorem_names": [
+    "ActiveHug.Verified.full_coupled_existence_uniqueness"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

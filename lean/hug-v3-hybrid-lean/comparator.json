@@ -1,0 +1,21 @@
+{
+  "challenge_module": "HybridChallenge",
+  "solution_module": "HybridProofs",
+  "enable_nanoda": true,
+  "theorem_names": [
+    "Hybrid.Verified.read_margin_stable",
+    "Hybrid.Verified.decoded_value_stable",
+    "Hybrid.Verified.trace_uniqueness",
+    "Hybrid.Verified.trace_exists",
+    "Hybrid.Verified.assemble_exists_unique",
+    "Hybrid.Verified.event_failure_excluded",
+    "Hybrid.Verified.v3_main_time_order",
+    "Hybrid.Verified.v3_simultaneous_event_order",
+    "Hybrid.Verified.v3_main_conditional"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

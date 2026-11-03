@@ -1,0 +1,49 @@
+{
+  "scope": "Conditional local compatibility of the two existing formulations; not existence of a combined PDE/ODE solution",
+  "theorems": [
+    "HugNavierBridge.Verified.shear_derivative",
+    "HugNavierBridge.Verified.shear_contraction",
+    "HugNavierBridge.Verified.nonzero_shear_not_periodic",
+    "HugNavierBridge.Verified.strain_matching",
+    "HugNavierBridge.Verified.argument_matching",
+    "HugNavierBridge.Verified.guard_diffusion_residual",
+    "HugNavierBridge.Verified.four_rates_agree_iff",
+    "HugNavierBridge.Verified.power_matching",
+    "HugNavierBridge.Verified.power_matching_necessary",
+    "HugNavierBridge.Verified.primary_required_coefficients",
+    "HugNavierBridge.Verified.primary_power_matches",
+    "HugNavierBridge.Verified.same_number_chi_is_not_same_argument",
+    "HugNavierBridge.Verified.nonzero_diffusion_blocks_local_match",
+    "HugNavierBridge.Verified.simultaneous_conditional_bridge"
+  ],
+  "files": {
+    "BridgeModel.lean": "979723e1a633234c67ab4e53e8b91e96519b93c76958132ddf5789c479b0c028",
+    "BridgeChallenge.lean": "8fe4fe821022c8ac2e2366b88d8ed0fb8bcb46140986ba0228d106de58b92677",
+    "HugModel.lean": "6a79142d5fa42642bc47a0246f62b4ab89d0c07ba6257fd0d41e39d6f89b61f5",
+    "ActiveHugModel.lean": "be9d734610480ae9376bfd38b287c2bb9b7758cb50e29109bcf26656a7885f19",
+    "lakefile.toml": "7e5564981a21c4876f9bb7bdb94bd640815974181aa9ec89ff89d691a4dba135",
+    "lake-manifest.json": "203834e806d270959ea43c501298f6e31acb7fa0969988caf62fe17126d65745",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "comparator.json": "b9218800e0916fa81355f325eee8d2f4c9eb78af5ad98a1b4afe68e9c4bf42ea"
+  },
+  "source_files": {
+    "sources/active-guard-METHODS.md": "d1d280ecd06c1f31aaa46c3117b5c84cd6534dd24d19ce10494f633221c047bd",
+    "sources/active-guard-model.py": "e1f83325f63c956d399294b6dda748a34d6f469d8a42319f28e1d02ea3366921",
+    "sources/active-guard-protocol.json": "56ce38b4ddd8b8e94272f563cfd16b92170e48c7c4769dea15b46133a1293b4f",
+    "sources/interaction-equation.md": "5b3621f4832403dd14a07a032b593afed53b53c122d96b858e4a2c6fc959b0ac"
+  },
+  "original_model_unchanged": true,
+  "additional_assumptions": [
+    "Affine simple-shear identification",
+    "A material-path comparison with the same response and guard values",
+    "Uniform-volume projection for the guard dissipation comparison",
+    "Explicit matching conditions are hypotheses/results, not newly installed parameter values"
+  ],
+  "excluded": [
+    "No full momentum PDE formalization or solution",
+    "No pressure or traction-to-Hug force law supplied",
+    "No full-field initial or boundary data supplied",
+    "No new proof of global or local PDE/ODE existence",
+    "No empirical student/assumption mapping"
+  ]
+}

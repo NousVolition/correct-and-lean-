@@ -1,0 +1,1 @@
+The first frozen challenge contained a syntax error: the adjacent <| characters were parsed as function application. No solution file existed. Preserve this invalid reference, then correct spacing and freeze a superseding valid reference before proof creation. No source equation changes.

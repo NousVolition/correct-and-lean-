@@ -1,0 +1,214 @@
+{
+  "checked_on": "2026-10-30",
+  "result": "Scale definition recovered; unrestricted z > 1 is incompatible with unchanged E8 across allowed challenges",
+  "repository": "NousVolition/Nous-Volition",
+  "current_repository_head": "b4ae2c54cd85bfef282c501ecfca83de274e2070",
+  "local_equation_revision": "29 October Monoxide buildup E1-E16",
+  "source_docx": {
+    "path": "C:\\Users\\ziman\\OneDrive\\Desktop\\Plain_Language_Corpus_Math_and_Logic_Corrected.docx",
+    "sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+    "nonempty_body_paragraphs": 624,
+    "selected_passages": [
+      {
+        "nonempty_paragraph": 21,
+        "xml_paragraph": 23,
+        "text": "Preserve “preserves Sens while adjusting Sin.” Here, Sens means personal intent or intended meaning, and Sin means socially constrained or encoded expression. Keep the unusual wording and its distinction. It does not need conventional replacement or treatment as a mathematical theorem."
+      },
+      {
+        "nonempty_paragraph": 24,
+        "xml_paragraph": 27,
+        "text": "Meaning Preserving Revision Rules"
+      },
+      {
+        "nonempty_paragraph": 30,
+        "xml_paragraph": 33,
+        "text": "• Describe before interpreting: State the observable behavior, wording, variable, or relation before assigning motive or meaning."
+      },
+      {
+        "nonempty_paragraph": 128,
+        "xml_paragraph": 133,
+        "text": "A modeled value assigned to preserving intended meaning; not meaning itself."
+      },
+      {
+        "nonempty_paragraph": 138,
+        "xml_paragraph": 143,
+        "text": "3. Context-Sensitive Boundary Modifiers"
+      },
+      {
+        "nonempty_paragraph": 143,
+        "xml_paragraph": 148,
+        "text": "Meaning"
+      },
+      {
+        "nonempty_paragraph": 160,
+        "xml_paragraph": 165,
+        "text": "• OR-03 - Adjust Expression: Decide whether a change in wording or presentation can reduce unnecessary friction without changing intended meaning."
+      },
+      {
+        "nonempty_paragraph": 175,
+        "xml_paragraph": 180,
+        "text": "Can reduce avoidable friction while preserving intended meaning."
+      },
+      {
+        "nonempty_paragraph": 182,
+        "xml_paragraph": 188,
+        "text": "Consistency Rules and Context-Sensitive Thresholds"
+      },
+      {
+        "nonempty_paragraph": 189,
+        "xml_paragraph": 195,
+        "text": "3. Phase 2 - Context-Sensitive Thresholds"
+      },
+      {
+        "nonempty_paragraph": 267,
+        "xml_paragraph": 275,
+        "text": "Matching rules: case-insensitive listed word forms; hyphen and space variants and PDF line breaks normalized; grouped alternatives counted once per occurrence. “White supremacist” counts once in its group. “Anti-racist” is excluded from “Racist”; “hate-crime” contributes one “Hate” occurrence. References are counted separately from the body."
+      },
+      {
+        "nonempty_paragraph": 326,
+        "xml_paragraph": 337,
+        "text": "Context-Sensitive Language and Visibility Model"
+      },
+      {
+        "nonempty_paragraph": 363,
+        "xml_paragraph": 374,
+        "text": "• Which thresholds are intended to be invariant, and which are intentionally context-sensitive?"
+      },
+      {
+        "nonempty_paragraph": 450,
+        "xml_paragraph": 463,
+        "text": "The case study examines how shared vocabulary, sociolects, inside jokes, formatting conventions, and politically meaningful terms can signal membership in an online community. A shibboleth is used here as a metaphor for a membership cue: language can help participants recognize who understands the local norms."
+      },
+      {
+        "nonempty_paragraph": 458,
+        "xml_paragraph": 471,
+        "text": "Socio-Didact is used here in its revised, limited sense: a person who learns unwritten social rules through observation and experience. The observer may notice which words, styles, or contexts change the response they receive and may adapt when useful. The term does not imply unusual intelligence, covert strategy, or mastery of the group."
+      },
+      {
+        "nonempty_paragraph": 470,
+        "xml_paragraph": 483,
+        "text": "Repeated in-group usage can shift the local meaning or social function of a term."
+      },
+      {
+        "nonempty_paragraph": 481,
+        "xml_paragraph": 495,
+        "text": "This paper develops a systems model for examining how people, language, and group boundaries interact in digital spaces. It combines group sociology, fluid-flow metaphors, vector calculus, and pragmatic linguistics. The mathematical models are used as structured ways to describe movement, pressure, thresholds, and changes in a social environment; they are not claims that human groups are literally fluids or that social behavior can be measured with perfect precision. The framework tracks how personal intent (Sens) can be reshaped into socially constrained or encoded expression (Sin), how boundaries become visible through differences in treatment, and how an observer can learn those boundaries without needing to become a central or dominant actor. The Socio-Didact is therefore treated as an adaptive observation mode: someone who learns the unwritten rules of a setting, stays relatively unobtrusive when useful, and adjusts enough to reduce unnecessary friction while preserving intended meaning."
+      },
+      {
+        "nonempty_paragraph": 503,
+        "xml_paragraph": 517,
+        "text": "Treats status or context as a signed field over a specified spatial embedding. Advection carries the field, diffusion spreads it, and a localized source changes it. A network alone does not specify the continuous geometry needed for these derivatives. With constant D_diff ≥ 0 and ∇ · u = 0, the following transport form is also a conservative continuity form."
+      },
+      {
+        "nonempty_paragraph": 506,
+        "xml_paragraph": 520,
+        "text": "Kₕ is a smooth localized kernel of width h > 0 with spatial integral 1. The original δ(x − x₀) is an alternative point-source idealization interpreted as a distribution, not an ordinary smooth function. A stores accumulated input; κ converts that stored quantity to a source rate with the required units. This retains the original memory choice explicitly. Under closed or periodic boundaries, constant positive excess utility can make the total field grow quadratically in time because the stored input is integrated again by the evolution equation. If instantaneous production is intended instead, specify J(t) = γ[U(t) − Ubaseline] with suitable units; that is a different model. Negative excess input may lower this signed field. Initial and boundary data remain necessary. For compressible transport, replace u · ∇S by ∇ · (Su)."
+      },
+      {
+        "nonempty_paragraph": 591,
+        "xml_paragraph": 605,
+        "text": "Socio-Didact is a coined term for a person who learns the unwritten social rules of a network by watching how people and situations are treated. It does not describe a diagnosis, a special cognitive type, or a superior observer. It is simply a functional mode of learning: notice the local rules, notice when they change, and decide how much to adapt while keeping the intended meaning of what you are trying to say or do."
+      },
+      {
+        "nonempty_paragraph": 592,
+        "xml_paragraph": 606,
+        "text": "When adaptation retains intended meaning, the phrase “preserves Sens while adjusting Sin” names that distinction: Sens is personal intent or intended meaning; Sin is its socially constrained or encoded expression. Keep the coined wording and explain it alongside the original when needed. The phrase does not imply changing the intent itself, moral wrongdoing, superior ability, manipulation, or guaranteed success in every setting."
+      },
+      {
+        "nonempty_paragraph": 596,
+        "xml_paragraph": 610,
+        "text": "• OR-03 [Adjust Expression]: Decide whether changing wording or presentation would reduce unnecessary friction without changing the intended meaning."
+      },
+      {
+        "nonempty_paragraph": 624,
+        "xml_paragraph": 638,
+        "text": "The four rows exhaust the binary pairs. Equal decisions establish only outcome consistency for the compared case; they do not establish fairness or a shared rationale. Sens means personal intent or intended meaning; Sin means socially constrained or encoded expression here, not moral wrongdoing. Socio-Didact names a situational learning mode. These local definitions guide interpretation without making unfamiliar language defective or making the author’s model a universal claim."
+      }
+    ],
+    "footer_text": {
+      "word/footer1.xml": "Plain-Language Corpus Revision | Combined Edition"
+    }
+  },
+  "protocol_meanings": {
+    "z=0": "Giving space permits new information to change what I understand.",
+    "z=1": "Giving space is conditional on confirming my existing interpretation.",
+    "intermediate": "An assumed weight of the imposed qualification in the same idea, not a second idea, person, population fraction or measured psychological percentage."
+  },
+  "protocol_assumption_A5": "A5: z is a declared one-dimensional meaning coordinate for this single idea. The imposed end meaning and distances are analyst choices needing author/person review.",
+  "equation_E8": "\\Pr(C_n=1\\mid B_n)=\\eta_n B_n[1-z_{\\rm Clay}(t_n)v_n]",
+  "exact_probability_checks": [
+    {
+      "z": "0",
+      "B": 1,
+      "eta": "4/5",
+      "challenging_v1": "4/5",
+      "confirmation_v0": "4/5",
+      "valid_for_challenge": true
+    },
+    {
+      "z": "1/2",
+      "B": 1,
+      "eta": "4/5",
+      "challenging_v1": "2/5",
+      "confirmation_v0": "4/5",
+      "valid_for_challenge": true
+    },
+    {
+      "z": "1",
+      "B": 1,
+      "eta": "4/5",
+      "challenging_v1": "0",
+      "confirmation_v0": "4/5",
+      "valid_for_challenge": true
+    },
+    {
+      "z": "6/5",
+      "B": 1,
+      "eta": "4/5",
+      "challenging_v1": "-4/25",
+      "confirmation_v0": "4/5",
+      "valid_for_challenge": false
+    },
+    {
+      "z": "2",
+      "B": 1,
+      "eta": "4/5",
+      "challenging_v1": "-4/5",
+      "confirmation_v0": "4/5",
+      "valid_for_challenge": false
+    }
+  ],
+  "constant_above_one_meaning_solution": {
+    "z": "6/5",
+    "interaction_rate": 0,
+    "clarification_rate": 0,
+    "drift": "0"
+  },
+  "distinction": "Meaning ODE permits real-valued out-of-range states algebraically, but prior theorem premises and general probability interpretation do not permit unrestricted z > 1.",
+  "recommendation": "Retain [0,1] for this provisional qualification weight; do not treat it as a cap on understanding. Establish the person-reviewed measurement map before broadening its interpretation.",
+  "new_lean_or_comparator_run": false,
+  "preservation": {
+    "equations_changed": false,
+    "assumptions_changed": false,
+    "original_inventory_files": 79,
+    "prior_package_files": {
+      "as-lean": 30,
+      "as-existence-lean": 36,
+      "as-invariance-lean": 41
+    },
+    "protected_source_hashes": {
+      "C:\\Users\\ziman\\OneDrive\\Desktop\\Plain_Language_Corpus_Math_and_Logic_Corrected.docx": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+      "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\monoxide-buildup\\protocol.json": "cd3da93d6ab15d19fc01813da63a64ca0ba99c5bc027014b9cf3adf2cc7d97f1",
+      "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\outputs\\monoxide-buildup\\candidate-equation-register.json": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318",
+      "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\as-invariance-lean\\ASModel.lean": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513"
+    }
+  },
+  "coverage_limit": "Fresh corrected DOCX text/hash, current published roles and measurement/audit records, and active local protocol/register/formal definitions checked. No exhaustive live Miro canvas refresh or new participant observations.",
+  "source_snapshots": {
+    "current-logical-boundaries.json": "810e0abec42b17841974dfceec77a2260e7dcb3657eb919af61180eec51e5a58",
+    "current-measurement-record.json": "287fa92d3cab5e8edd2ae4552bfd2d2401270b0a0c93d759d108439e3aee23f3",
+    "current-miro-reconciliation.json": "36c5a530fdb174692690c3909f4e5d917679337687f5a3a523f486102f163995",
+    "current-published-passages.json": "bcf55893493b7c3bbfc370ac7181e27c35afa08ab545d1e166ff734cceb32624",
+    "current-role-definitions.json": "63395a180929c47c25afc6bf6181c7d613fb1d727d1b019f4aee38e93ba68b10"
+  }
+}

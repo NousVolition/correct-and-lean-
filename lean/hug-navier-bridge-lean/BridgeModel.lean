@@ -1,0 +1,62 @@
+import ActiveHugModel
+import Mathlib.Data.Matrix.Basic
+
+/- Compatibility audit of the unchanged reduced Hug and the corpus's optional
+Navier--Stokes guard closure. This is NOT a new full coupled PDE model.
+
+The local field comparison assumes an affine physical simple-shear mode and
+identifies local internal-state/guard values with the Hug state. The corpus does
+not establish that mode, its boundary conditions, or a field-to-mode projection.
+Diffusion terms are retained explicitly. `material` means along a fluid path;
+no Eulerian transport term has been silently discarded.
+
+The stress-power projection additionally assumes a uniform guard/strain over the
+declared volume. The coefficient matching conditions are obligations, not new
+choices installed into the user's equations. -/
+namespace HugNavierBridge
+noncomputable section
+open ActiveHug
+
+def shearVelocity (v L y : ℝ) : ℝ := (v/L)*y
+def shearD (v L : ℝ) : Matrix (Fin 2) (Fin 2) ℝ :=
+  !![0, v/(2*L); v/(2*L), 0]
+def contraction (D : Matrix (Fin 2) (Fin 2) ℝ) : ℝ :=
+  ∑ i, ∑ j, (D i j)^2
+def shearInvariant (v L : ℝ) : ℝ := (1/2)*(v/L)^2
+
+-- Required physical coefficient if the two strain arguments are to agree.
+-- This is derived/audited below; it is NOT assigned to a continuum experiment.
+def matchingChi (p : Parameters) : ℝ :=
+  p.chi*(p.length*p.rateReference/p.scale)^2
+
+def fieldArgumentAB (p : Parameters) (chiNS : ℝ) (s : State) : ℝ :=
+  p.theta+p.beta*(s.xB-s.xA)+chiNS*shearInvariant s.v p.length
+def fieldArgumentBA (p : Parameters) (chiNS : ℝ) (s : State) : ℝ :=
+  p.theta+p.beta*(s.xA-s.xB)+chiNS*shearInvariant s.v p.length
+
+def materialGuardAB (p : Parameters) (chiNS : ℝ) (s : State)
+    (diffusivity laplacian : ℝ) : ℝ :=
+  diffusivity*laplacian+guardRate p.tau (fieldArgumentAB p chiNS s) s.gAB
+def materialGuardBA (p : Parameters) (chiNS : ℝ) (s : State)
+    (diffusivity laplacian : ℝ) : ℝ :=
+  diffusivity*laplacian+guardRate p.tau (fieldArgumentBA p chiNS s) s.gBA
+def materialResponseA (p : Parameters) (s : State) (diffusivity laplacian : ℝ) : ℝ :=
+  diffusivity*laplacian+p.lambda*(p.baselineA-s.xA)+p.weightAB*s.gAB*(s.xB-s.xA)
+def materialResponseB (p : Parameters) (s : State) (diffusivity laplacian : ℝ) : ℝ :=
+  diffusivity*laplacian+p.lambda*(p.baselineB-s.xB)+p.weightBA*s.gBA*(s.xA-s.xB)
+
+def projectedGuardPower (p : Parameters) (aAB aBA : ℝ) (s : State) : ℝ :=
+  p.volume*(aAB*s.gAB+aBA*s.gBA)*(s.v/p.length)^2
+
+def FourRatesAgree (p : Parameters) (F : ℝ) (s : State)
+    (kA lA kB lB kgA lgA kgB lgB : ℝ) : Prop :=
+  materialResponseA p s kA lA = (rhs p F s).xA ∧
+  materialResponseB p s kB lB = (rhs p F s).xB ∧
+  materialGuardAB p (matchingChi p) s kgA lgA = (rhs p F s).gAB ∧
+  materialGuardBA p (matchingChi p) s kgB lgB = (rhs p F s).gBA
+
+-- Valid numerical diagnostic state; not an actual PDE solution or student data.
+def probe : State := ⟨0,protocol.scale,0,0,0,0,1/2,1/2⟩
+
+end
+end HugNavierBridge

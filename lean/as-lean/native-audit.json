@@ -1,0 +1,162 @@
+{
+  "native_build": "PASS",
+  "target_statements_identical": true,
+  "target_count": 30,
+  "placeholders_in_solution": false,
+  "forbidden_axioms": false,
+  "frozen_reference_preserved": true,
+  "original_files_preserved": 79,
+  "equation_source_sha256": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318",
+  "axiom_reports": {
+    "saturation_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "effect_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "exchange_no_increase": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "exchange_negative_unchanged": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "exchange_monotone": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "general_smoke_agrees": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "general_clay_agrees": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "total_influence_balance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "received_meaning_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "meaning_rate_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "meaning_lower_boundary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "meaning_upper_boundary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "load_lower_boundary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "activation_nonnegative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "opening_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "registration_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "no_opening_no_registration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "fully_qualified_blocks_challenge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "confirmation_unchanged": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "branch_distribution": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "update_no_contribution": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "update_same_meaning": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "update_is_convex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "update_preserves_simplex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "constant_accumulation_solves": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "constant_exposure_solves": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "constant_exposure_nonnegative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "clearing_solves": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "clearing_preserves_nonnegative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "cleared_equal_meaning_has_zero_drift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  }
+}

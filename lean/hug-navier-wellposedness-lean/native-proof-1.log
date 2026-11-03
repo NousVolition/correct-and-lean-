@@ -1,0 +1,14 @@
+WellposednessProofs.lean:1:0: error: unknown module prefix 'WellposednessTargets'
+
+No directory 'WellposednessTargets' or file 'WellposednessTargets.olean' in the search path entries:
+C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\hug-navier-wellposedness-lean\.lake\build\lib\lean
+C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\hug-navier-single-system-lean\.lake\build\lib\lean
+C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\aesop\.lake\build\lib\lean
+C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\batteries\.lake\build\lib\lean
+C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\importGraph\.lake\build\lib\lean
+C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\LeanSearchClient\.lake\build\lib\lean
+C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\mathlib\.lake\build\lib\lean
+C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\plausible\.lake\build\lib\lean
+C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\proofwidgets\.lake\build\lib\lean
+C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\Qq\.lake\build\lib\lean
+c:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\toolchains\lean-4.34.0-rc2-windows\lib\lean

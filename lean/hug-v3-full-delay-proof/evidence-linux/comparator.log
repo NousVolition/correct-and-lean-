@@ -1,0 +1,57 @@
+Running as unit: hug-v3-full-delay-comparator-20261102.service; invocation ID: 4737b4d1af9742eb843ce242f8de7189
+Building V3FullDelayChallenge
+✔ [3415/3424] Built V3SourceCore (8.9s)
+✔ [3416/3424] Built V3SourceMemory (1.6s)
+✔ [3417/3424] Built V3SourceSocial (1.5s)
+✔ [3418/3424] Built V3SourceFlow (1.4s)
+✔ [3419/3424] Built V3SourceGeometry (7.1s)
+✔ [3420/3424] Built V3SourceSystem (1.3s)
+✔ [3421/3424] Built V3DelayDefinitions (1.1s)
+✔ [3422/3424] Built V3FullCoordinates (2.2s)
+⚠ [3423/3424] Built V3FullDelayChallenge (1.3s)
+warning: V3FullDelayChallenge.lean:10:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:12:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:14:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:16:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:29:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:32:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:40:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:48:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:51:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:54:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:58:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:62:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:66:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:70:8: declaration uses `sorry`
+Build completed successfully (3424 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.FullDelayVerified.full_state_round_trip, HugV3.Source.FullDelayVerified.full_vector_round_trip, HugV3.Source.FullDelayVerified.full_state_equality, HugV3.Source.FullDelayVerified.full_segment_exists_unique, HugV3.Source.FullDelayVerified.history_preserved, HugV3.Source.FullDelayVerified.first_step_is_actual_delayed_rhs, HugV3.Source.FullDelayVerified.full_segment_is_delay_solution_on_step, HugV3.Source.FullDelayVerified.accepted_write_keeps_social, HugV3.Source.FullDelayVerified.completed_event_keeps_social, HugV3.Source.FullDelayVerified.accepted_boundary_keeps_social, HugV3.Source.FullDelayVerified.boundary_deterministic, HugV3.Source.FullDelayVerified.buffered_social_unchanged_by_write, HugV3.Source.FullDelayVerified.full_delayed_trace_has_accepted_writes, HugV3.Source.FullDelayVerified.full_segment_satisfies_original_coordinates, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3FullDelayChallenge
+Building V3FullDelayProofs
+⚠ [3423/3424] Built V3FullDelayProofs (1.6s)
+warning: V3FullDelayProofs.lean:75:28: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: V3FullDelayProofs.lean:89:41: `if_true` has been deprecated: Use `ite_true` instead
+warning: V3FullDelayProofs.lean:90:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: V3FullDelayProofs.lean:79:26: Variable name `hτ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hτ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: V3FullDelayProofs.lean:179:0: 'HugV3.Source.FullDelayVerified.full_segment_exists_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: V3FullDelayProofs.lean:180:0: 'HugV3.Source.FullDelayVerified.full_segment_is_delay_solution_on_step' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: V3FullDelayProofs.lean:181:0: 'HugV3.Source.FullDelayVerified.accepted_boundary_keeps_social' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (3424 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.FullDelayVerified.full_state_round_trip, HugV3.Source.FullDelayVerified.full_vector_round_trip, HugV3.Source.FullDelayVerified.full_state_equality, HugV3.Source.FullDelayVerified.full_segment_exists_unique, HugV3.Source.FullDelayVerified.history_preserved, HugV3.Source.FullDelayVerified.first_step_is_actual_delayed_rhs, HugV3.Source.FullDelayVerified.full_segment_is_delay_solution_on_step, HugV3.Source.FullDelayVerified.accepted_write_keeps_social, HugV3.Source.FullDelayVerified.completed_event_keeps_social, HugV3.Source.FullDelayVerified.accepted_boundary_keeps_social, HugV3.Source.FullDelayVerified.boundary_deterministic, HugV3.Source.FullDelayVerified.buffered_social_unchanged_by_write, HugV3.Source.FullDelayVerified.full_delayed_trace_has_accepted_writes, HugV3.Source.FullDelayVerified.full_segment_satisfies_original_coordinates, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3FullDelayProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 34.019s
+             CPU time consumed: 1min 34.455s
+                   Memory peak: 5.6G (swap: 0B)

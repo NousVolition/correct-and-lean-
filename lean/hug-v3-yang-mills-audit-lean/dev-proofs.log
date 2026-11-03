@@ -1,0 +1,759 @@
+✖ [3114/3115] Building V3YangMillsAuditProofs (9.5s)
+trace: .> LEAN_PATH=/home/nsverify/verification/project/.lake/packages/Cli/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/batteries/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Qq/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/aesop/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/importGraph/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/plausible/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/mathlib/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/lib/lean:/home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/lib/lean /opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/V3YangMillsAuditProofs.lean -o /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/lib/lean/V3YangMillsAuditProofs.olean -i /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/lib/lean/V3YangMillsAuditProofs.ilean -c /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/ir/V3YangMillsAuditProofs.c --setup /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/ir/V3YangMillsAuditProofs.setup.json --json
+error: V3YangMillsAuditProofs.lean:40:2: Type mismatch: After simplification, term
+  h
+ has type
+  @Eq ℝ (∑ j, Matrix.of (mm Q fun i x => v i) j 0 * Matrix.of (mm Q fun i x => v i) j 0)
+    (∑ j, Matrix.of (fun i x => v i) j 0 * Matrix.of (fun i x => v i) j 0)
+but is expected to have type
+  @Eq ℝ (∑ x, (∑ j, Q x j * v j) * ∑ j, Q x j * v j) (∑ x, v x * v x)
+error: V3YangMillsAuditProofs.lean:58:2: Type mismatch: After simplification, term
+  congrArg (fun z => (z - 1) / 2) h
+ has type
+  @Eq ℝ ((∑ j, Matrix.of (mm (Q (point l)) (s.F (point l))) j (axis l) ^ 2 - 1) / 2)
+    ((∑ j, Matrix.of (s.F (point l)) j (axis l) ^ 2 - 1) / 2)
+but is expected to have type
+  @Eq ℝ ((∑ i, mm (Q (point l)) (s.F (point l)) i (axis l) ^ 2 - 1) / 2) ((∑ i, s.F (point l) i (axis l) ^ 2 - 1) / 2)
+error: V3YangMillsAuditProofs.lean:70:60: unsolved goals
+G : Geometry
+s : State
+Q : Particle → Mat
+hQ : ∀ (p : Particle), Orthogonal (Q p)
+hn : ∀ (p : Particle), strainNorm ((rotateFabric Q s).F p) = strainNorm (s.F p)
+⊢ memoryFeature G
+      { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A, ledger := s.ledger,
+        writeWork := s.writeWork, expression := s.expression, context := s.context, normCenter := s.normCenter,
+        logRadius := s.logRadius, relation := s.relation, responses := s.responses, association := s.association } =
+    memoryFeature G s
+warning: V3YangMillsAuditProofs.lean:73:13: This simp argument is unused:
+  memoryFeature
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hn, rotateFabric]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:73:28: This simp argument is unused:
+  hn
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [memoryFeature, rotateFabric]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: V3YangMillsAuditProofs.lean:77:58: unsolved goals
+G : Geometry
+s : State
+Q : Particle → Mat
+hQ : ∀ (p : Particle), Orthogonal (Q p)
+hn : ∀ (p : Particle), strainNorm ((rotateFabric Q s).F p) = strainNorm (s.F p)
+⊢ observations G
+      { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A, ledger := s.ledger,
+        writeWork := s.writeWork, expression := s.expression, context := s.context, normCenter := s.normCenter,
+        logRadius := s.logRadius, relation := s.relation, responses := s.responses, association := s.association } =
+    observations G s
+warning: V3YangMillsAuditProofs.lean:80:13: This simp argument is unused:
+  observations
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hn, rotateFabric]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:80:27: This simp argument is unused:
+  hn
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [observations, rotateFabric]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: V3YangMillsAuditProofs.lean:84:62: unsolved goals
+G : Geometry
+s : State
+Q : Particle → Mat
+hQ : ∀ (p : Particle), Orthogonal (Q p)
+r : Record
+⊢ (r.endTime - r.startTime) *
+      Real.exp
+        ((-sqnorm fun k =>
+              ![r.context 0, r.context 1,
+                      tanh ((0.5 * ∑ p, (G.attach r.recipient p + G.attach r.origin p) * recordChange r p) / 0.12)]
+                    k -
+                  memoryFeature G
+                    { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                      ledger := s.ledger, writeWork := s.writeWork, expression := s.expression, context := s.context,
+                      normCenter := s.normCenter, logRadius := s.logRadius, relation := s.relation,
+                      responses := s.responses, association := s.association }
+                    r.recipient r.origin k -
+                0.15 * tanh (s.association r.recipient r.origin k)) /
+          (2 * 0.32 ^ 2)) =
+    (r.endTime - r.startTime) *
+      Real.exp
+        ((-sqnorm fun k =>
+              ![r.context 0, r.context 1,
+                      tanh ((0.5 * ∑ p, (G.attach r.recipient p + G.attach r.origin p) * recordChange r p) / 0.12)]
+                    k -
+                  memoryFeature G s r.recipient r.origin k -
+                0.15 * tanh (s.association r.recipient r.origin k)) /
+          (2 * 0.32 ^ 2))
+warning: V3YangMillsAuditProofs.lean:85:27: This simp argument is unused:
+  feature_frame_invariant G s Q hQ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [recordWeight, rotateFabric]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: V3YangMillsAuditProofs.lean:90:2: `simp` made no progress
+error: V3YangMillsAuditProofs.lean:95:2: `simp` made no progress
+error: V3YangMillsAuditProofs.lean:99:54: unsolved goals
+G : Geometry
+s : State
+Q : Particle → Mat
+hQ : ∀ (p : Particle), Orthogonal (Q p)
+rs : List (Fin 4 × Record)
+⊢ (0.35 *
+              ∑ i,
+                ∑ j,
+                  (memory G
+                      { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                        ledger := s.ledger, writeWork := s.writeWork, expression := s.expression, context := s.context,
+                        normCenter := s.normCenter, logRadius := s.logRadius, relation := s.relation,
+                        responses := s.responses, association := s.association }
+                      rs i j 0 -
+                    memory G
+                      { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                        ledger := s.ledger, writeWork := s.writeWork, expression := s.expression, context := s.context,
+                        normCenter := s.normCenter, logRadius := s.logRadius, relation := s.relation,
+                        responses := s.responses, association := s.association }
+                      rs i j 1)) /
+            30 -
+          (0.2 * ∑ i, ∑ k, (s.expression i k - intent i k) ^ 2) / 6 +
+        (0.2 *
+            ∑ i,
+              ∑ j,
+                tanh ((Real.exp (s.logRadius i j) - √(∑ k, (s.expression j k - s.normCenter i k) ^ 2)) / 0.4) *
+                  mask i j) /
+          30 +
+      (8e-2 *
+          ∑ i,
+            tanh
+              (observations G
+                { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A, ledger := s.ledger,
+                  writeWork := s.writeWork, expression := s.expression, context := s.context,
+                  normCenter := s.normCenter, logRadius := s.logRadius, relation := s.relation,
+                  responses := s.responses, association := s.association }
+                i 0)) /
+        6 =
+    (0.35 * ∑ i, ∑ j, (memory G s rs i j 0 - memory G s rs i j 1)) / 30 -
+          (0.2 * ∑ i, ∑ k, (s.expression i k - intent i k) ^ 2) / 6 +
+        (0.2 *
+            ∑ i,
+              ∑ j,
+                tanh ((Real.exp (s.logRadius i j) - √(∑ k, (s.expression j k - s.normCenter i k) ^ 2)) / 0.4) *
+                  mask i j) /
+          30 +
+      (8e-2 * ∑ i, tanh (observations G s i 0)) / 6
+warning: V3YangMillsAuditProofs.lean:100:22: This simp argument is unused:
+  retrieval_frame_invariant G s Q hQ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [utility, observations_frame_invariant G s Q hQ, margin, rotateFabric]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:101:4: This simp argument is unused:
+  observations_frame_invariant G s Q hQ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [utility, retrieval_frame_invariant G s Q hQ, margin, rotateFabric]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: V3YangMillsAuditProofs.lean:105:66: unsolved goals
+G : Geometry
+t : ℝ
+s : State
+Q : Particle → Mat
+hQ : ∀ (p : Particle), Orthogonal (Q p)
+rs : List (Fin 4 × Record)
+⊢ {
+      expression := fun i k =>
+        0.8 * (intent i k - s.expression i k) +
+              (∑ j,
+                  (s.responses i j 0 + 0.65 * s.responses i j 1 + 0.8 * s.responses i j 6 - 0.6 * s.responses i j 2) *
+                      (s.expression j k - s.expression i k) /
+                    √(1 + ∑ k, (s.expression j k - s.expression i k) ^ 2)) /
+                5 +
+            (∑ j, s.responses j i 4 * (s.normCenter j k - s.expression i k)) / 5 +
+          (∑ j, (s.responses i j 3 + s.responses i j 5)) / 6 * (intent i k - s.expression i k),
+      context := fun i k =>
+        2 * (0.6 * home i k + 0.4 * room t k - s.context i k) +
+          (∑ j,
+              (-(s.responses i j 0 + s.responses i j 1) * (s.context i k - s.context j k) +
+                s.responses i j 5 * 2 * s.context i k *
+                  (s.context i k - s.context j k - ∑ l, s.context i l * (s.context i l - s.context j l)))) /
+            5,
+      normCenter := fun i k =>
+        0.7 * (0.6 * intent i k + 0.4 * s.expression i k - s.normCenter i k) +
+          (∑ j, (s.responses i j 1 + s.responses i j 6 - s.responses i j 4) * (s.expression j k - s.normCenter i k)) /
+            5,
+      logRadius := fun i j =>
+        1.8 *
+          (Real.log
+              (0.55 +
+                0.45 *
+                  sigmoid
+                    (1.4 * s.relation i j 2 +
+                              memory G
+                                { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                                  ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                                  context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                                  relation := s.relation, responses := s.responses, association := s.association }
+                                rs i j 0 -
+                            memory G
+                              { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                                ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                                context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                                relation := s.relation, responses := s.responses, association := s.association }
+                              rs i j 1 +
+                          s.responses i j 6 -
+                        s.responses i j 4 -
+                      0.3 *
+                        observations G
+                          { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                            ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                            context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                            relation := s.relation, responses := s.responses, association := s.association }
+                          i 0)) -
+            s.logRadius i j),
+      relation := fun i j k =>
+        2 *
+          (![sigmoid
+                    (3 * (∑ k, s.context i k * recognitionBase j k - 0.5) + 0.7 * ((∑ i, s.relation i j 0) / 6) +
+                          0.8 * (s.responses i j 0 + s.responses i j 2) +
+                        memory G
+                          { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                            ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                            context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                            relation := s.relation, responses := s.responses, association := s.association }
+                          rs i j 0 -
+                      0.5 *
+                        memory G
+                          { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                            ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                            context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                            relation := s.relation, responses := s.responses, association := s.association }
+                          rs i j 1),
+                  sigmoid
+                    (3 * (∑ k, s.context i k * authorityBase j k - 0.5) + 0.7 * ((∑ i, s.relation i j 1) / 6) +
+                          0.8 * s.responses j i 4 -
+                        0.8 * s.responses i j 3 +
+                      0.5 *
+                        memory G
+                          { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                            ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                            context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                            relation := s.relation, responses := s.responses, association := s.association }
+                          rs i j 3),
+                  sigmoid
+                    (1.4 * Real.exp ((-∑ k, (s.expression j k - s.expression i k) ^ 2) / 0.6) - 1 +
+                                1.5 *
+                                  memory G
+                                    { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                                      ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                                      context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                                      relation := s.relation, responses := s.responses, association := s.association }
+                                    rs i j 0 -
+                              1.5 *
+                                memory G
+                                  { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                                    ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                                    context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                                    relation := s.relation, responses := s.responses, association := s.association }
+                                  rs i j 1 +
+                            s.responses i j 1 +
+                          s.responses i j 6 -
+                        s.responses i j 2 -
+                      s.responses j i 4)]
+                k *
+              mask i j -
+            s.relation i j k),
+      responses := fun i j k =>
+        4 *
+          (![sigmoid
+                    (-0.7 + 1.8 * s.relation i j 0 + 0.7 * s.relation i j 2 +
+                            memory G
+                              { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                                ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                                context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                                relation := s.relation, responses := s.responses, association := s.association }
+                              rs i j 0 -
+                          memory G
+                            { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                              ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                              context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                              relation := s.relation, responses := s.responses, association := s.association }
+                            rs i j 1 +
+                        0.4 *
+                          sigmoid
+                            ((Real.exp (s.logRadius i j) - √(∑ k, (s.expression j k - s.normCenter i k) ^ 2)) / 0.18) -
+                      0.7 * s.responses i j 3),
+                  sigmoid
+                    (-0.9 + 1.7 * s.relation i j 2 +
+                              Real.exp ((-∑ k, (s.expression j k - s.expression i k) ^ 2) / 0.6) +
+                            memory G
+                              { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                                ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                                context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                                relation := s.relation, responses := s.responses, association := s.association }
+                              rs i j 0 -
+                          memory G
+                            { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                              ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                              context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                              relation := s.relation, responses := s.responses, association := s.association }
+                            rs i j 1 +
+                        0.6 * s.responses i j 6 -
+                      0.5 * s.responses i j 2),
+                  sigmoid
+                    (-1.4 + s.relation i j 0 + 1.1 * (1 - s.relation i j 2) +
+                            0.8 * (1 - Real.exp ((-∑ k, (s.expression j k - s.expression i k) ^ 2) / 0.6)) +
+                          memory G
+                            { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                              ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                              context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                              relation := s.relation, responses := s.responses, association := s.association }
+                            rs i j 1 -
+                        memory G
+                          { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                            ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                            context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                            relation := s.relation, responses := s.responses, association := s.association }
+                          rs i j 0 -
+                      0.6 * s.responses i j 6),
+                  sigmoid
+                    (-1.4 + s.responses j i 4 +
+                            memory G
+                              { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                                ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                                context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                                relation := s.relation, responses := s.responses, association := s.association }
+                              rs i j 1 +
+                          (1 -
+                            sigmoid
+                              ((Real.exp (s.logRadius i j) - √(∑ k, (s.expression j k - s.normCenter i k) ^ 2)) /
+                                0.18)) +
+                        0.3 *
+                          observations G
+                            { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                              ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                              context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                              relation := s.relation, responses := s.responses, association := s.association }
+                            i 1 -
+                      0.5 * s.responses i j 6),
+                  sigmoid
+                    (-1.7 + 1.8 * s.relation j i 1 +
+                          0.9 *
+                            (1 -
+                              sigmoid
+                                ((Real.exp (s.logRadius i j) - √(∑ k, (s.expression j k - s.normCenter i k) ^ 2)) /
+                                  0.18)) +
+                        0.7 * s.responses i j 2 -
+                      0.8 * s.relation i j 2),
+                  sigmoid
+                    (-1.8 +
+                              memory G
+                                { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                                  ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                                  context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                                  relation := s.relation, responses := s.responses, association := s.association }
+                                rs i j 1 +
+                            s.responses j i 4 +
+                          0.5 *
+                            (1 -
+                              sigmoid
+                                ((Real.exp (s.logRadius i j) - √(∑ k, (s.expression j k - s.normCenter i k) ^ 2)) /
+                                  0.18)) +
+                        0.35 *
+                          observations G
+                            { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                              ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                              context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                              relation := s.relation, responses := s.responses, association := s.association }
+                            i 1 -
+                      memory G
+                        { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                          ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                          context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                          relation := s.relation, responses := s.responses, association := s.association }
+                        rs i j 0),
+                  sigmoid
+                    (-1.2 + s.relation i j 2 +
+                            memory G
+                                { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                                  ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                                  context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                                  relation := s.relation, responses := s.responses, association := s.association }
+                                rs i j 1 *
+                              s.relation i j 2 +
+                          0.6 * s.responses i j 1 -
+                        0.7 * s.responses i j 2 +
+                      0.2 *
+                        observations G
+                          { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                            ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                            context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                            relation := s.relation, responses := s.responses, association := s.association }
+                          i 2)]
+                k *
+              ((0.15 + 0.85 * Real.exp ((-∑ k, (s.context i k - s.context j k) ^ 2) / 0.35)) *
+                    (0.3 + 0.7 * s.relation i j 0) *
+                  (1 - 0.6 * s.responses i j 5) *
+                mask i j) -
+            s.responses i j k),
+      association := fun i j k =>
+        1.5 *
+          (2 *
+                (memory G
+                    { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                      ledger := s.ledger, writeWork := s.writeWork, expression := s.expression, context := s.context,
+                      normCenter := s.normCenter, logRadius := s.logRadius, relation := s.relation,
+                      responses := s.responses, association := s.association }
+                    rs i j 0 -
+                  memory G
+                    { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                      ledger := s.ledger, writeWork := s.writeWork, expression := s.expression, context := s.context,
+                      normCenter := s.normCenter, logRadius := s.logRadius, relation := s.relation,
+                      responses := s.responses, association := s.association }
+                    rs i j 1) *
+              tanh
+                (![s.expression j 0 - s.expression i 0, s.expression j 1 - s.expression i 1,
+                    observations G
+                        { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                          ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                          context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                          relation := s.relation, responses := s.responses, association := s.association }
+                        j 1 -
+                      observations G
+                        { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A,
+                          ledger := s.ledger, writeWork := s.writeWork, expression := s.expression,
+                          context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+                          relation := s.relation, responses := s.responses, association := s.association }
+                        i 1]
+                  k) -
+            s.association i j k),
+      utility :=
+        pulse t +
+          0.8 *
+            (utility G
+                { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A, ledger := s.ledger,
+                  writeWork := s.writeWork, expression := s.expression, context := s.context,
+                  normCenter := s.normCenter, logRadius := s.logRadius, relation := s.relation,
+                  responses := s.responses, association := s.association }
+                rs -
+              utilityBaseline),
+      sourceWeights := fun p =>
+        (∑ i,
+            G.attach i p *
+              (Real.exp ((∑ j, ∑ k, s.responses i j k) / 6 + (∑ j, s.relation j i 0) / 6) /
+                ∑ j, Real.exp ((∑ j_1, ∑ k, s.responses j j_1 k) / 6 + (∑ j_1, s.relation j_1 j 0) / 6))) /
+          ∑ q,
+            ∑ i,
+              G.attach i q *
+                (Real.exp ((∑ j, ∑ k, s.responses i j k) / 6 + (∑ j, s.relation j i 0) / 6) /
+                  ∑ j, Real.exp ((∑ j_1, ∑ k, s.responses j j_1 k) / 6 + (∑ j_1, s.relation j_1 j 0) / 6)) } =
+    {
+      expression := fun i k =>
+        0.8 * (intent i k - s.expression i k) +
+              (∑ j,
+                  (s.responses i j 0 + 0.65 * s.responses i j 1 + 0.8 * s.responses i j 6 - 0.6 * s.responses i j 2) *
+                      (s.expression j k - s.expression i k) /
+                    √(1 + ∑ k, (s.expression j k - s.expression i k) ^ 2)) /
+                5 +
+            (∑ j, s.responses j i 4 * (s.normCenter j k - s.expression i k)) / 5 +
+          (∑ j, (s.responses i j 3 + s.responses i j 5)) / 6 * (intent i k - s.expression i k),
+      context := fun i k =>
+        2 * (0.6 * home i k + 0.4 * room t k - s.context i k) +
+          (∑ j,
+              (-(s.responses i j 0 + s.responses i j 1) * (s.context i k - s.context j k) +
+                s.responses i j 5 * 2 * s.context i k *
+                  (s.context i k - s.context j k - ∑ l, s.context i l * (s.context i l - s.context j l)))) /
+            5,
+      normCenter := fun i k =>
+        0.7 * (0.6 * intent i k + 0.4 * s.expression i k - s.normCenter i k) +
+          (∑ j, (s.responses i j 1 + s.responses i j 6 - s.responses i j 4) * (s.expression j k - s.normCenter i k)) /
+            5,
+      logRadius := fun i j =>
+        1.8 *
+          (Real.log
+              (0.55 +
+                0.45 *
+                  sigmoid
+                    (1.4 * s.relation i j 2 + memory G s rs i j 0 - memory G s rs i j 1 + s.responses i j 6 -
+                        s.responses i j 4 -
+                      0.3 * observations G s i 0)) -
+            s.logRadius i j),
+      relation := fun i j k =>
+        2 *
+          (![sigmoid
+                    (3 * (∑ k, s.context i k * recognitionBase j k - 0.5) + 0.7 * ((∑ i, s.relation i j 0) / 6) +
+                          0.8 * (s.responses i j 0 + s.responses i j 2) +
+                        memory G s rs i j 0 -
+                      0.5 * memory G s rs i j 1),
+                  sigmoid
+                    (3 * (∑ k, s.context i k * authorityBase j k - 0.5) + 0.7 * ((∑ i, s.relation i j 1) / 6) +
+                          0.8 * s.responses j i 4 -
+                        0.8 * s.responses i j 3 +
+                      0.5 * memory G s rs i j 3),
+                  sigmoid
+                    (1.4 * Real.exp ((-∑ x, (s.expression j x - s.expression i x) ^ 2) / 0.6) - 1 +
+                                1.5 * memory G s rs i j 0 -
+                              1.5 * memory G s rs i j 1 +
+                            s.responses i j 1 +
+                          s.responses i j 6 -
+                        s.responses i j 2 -
+                      s.responses j i 4)]
+                k *
+              mask i j -
+            s.relation i j k),
+      responses := fun i j k =>
+        4 *
+          (![sigmoid
+                    (-0.7 + 1.8 * s.relation i j 0 + 0.7 * s.relation i j 2 + memory G s rs i j 0 -
+                          memory G s rs i j 1 +
+                        0.4 *
+                          sigmoid
+                            ((Real.exp (s.logRadius i j) - √(∑ k, (s.expression j k - s.normCenter i k) ^ 2)) / 0.18) -
+                      0.7 * s.responses i j 3),
+                  sigmoid
+                    (-0.9 + 1.7 * s.relation i j 2 +
+                              Real.exp ((-∑ x, (s.expression j x - s.expression i x) ^ 2) / 0.6) +
+                            memory G s rs i j 0 -
+                          memory G s rs i j 1 +
+                        0.6 * s.responses i j 6 -
+                      0.5 * s.responses i j 2),
+                  sigmoid
+                    (-1.4 + s.relation i j 0 + 1.1 * (1 - s.relation i j 2) +
+                            0.8 * (1 - Real.exp ((-∑ x, (s.expression j x - s.expression i x) ^ 2) / 0.6)) +
+                          memory G s rs i j 1 -
+                        memory G s rs i j 0 -
+                      0.6 * s.responses i j 6),
+                  sigmoid
+                    (-1.4 + s.responses j i 4 + memory G s rs i j 1 +
+                          (1 -
+                            sigmoid
+                              ((Real.exp (s.logRadius i j) - √(∑ k, (s.expression j k - s.normCenter i k) ^ 2)) /
+                                0.18)) +
+                        0.3 * observations G s i 1 -
+                      0.5 * s.responses i j 6),
+                  sigmoid
+                    (-1.7 + 1.8 * s.relation j i 1 +
+                          0.9 *
+                            (1 -
+                              sigmoid
+                                ((Real.exp (s.logRadius i j) - √(∑ k, (s.expression j k - s.normCenter i k) ^ 2)) /
+                                  0.18)) +
+                        0.7 * s.responses i j 2 -
+                      0.8 * s.relation i j 2),
+                  sigmoid
+                    (-1.8 + memory G s rs i j 1 + s.responses j i 4 +
+                          0.5 *
+                            (1 -
+                              sigmoid
+                                ((Real.exp (s.logRadius i j) - √(∑ k, (s.expression j k - s.normCenter i k) ^ 2)) /
+                                  0.18)) +
+                        0.35 * observations G s i 1 -
+                      memory G s rs i j 0),
+                  sigmoid
+                    (-1.2 + s.relation i j 2 + memory G s rs i j 1 * s.relation i j 2 + 0.6 * s.responses i j 1 -
+                        0.7 * s.responses i j 2 +
+                      0.2 * observations G s i 2)]
+                k *
+              ((0.15 + 0.85 * Real.exp ((-∑ k, (s.context i k - s.context j k) ^ 2) / 0.35)) *
+                    (0.3 + 0.7 * s.relation i j 0) *
+                  (1 - 0.6 * s.responses i j 5) *
+                mask i j) -
+            s.responses i j k),
+      association := fun i j k =>
+        1.5 *
+          (2 * (memory G s rs i j 0 - memory G s rs i j 1) *
+              tanh
+                (![s.expression j 0 - s.expression i 0, s.expression j 1 - s.expression i 1,
+                    observations G s j 1 - observations G s i 1]
+                  k) -
+            s.association i j k),
+      utility := pulse t + 0.8 * (utility G s rs - utilityBaseline),
+      sourceWeights := fun p =>
+        (∑ i,
+            G.attach i p *
+              (Real.exp ((∑ j, ∑ k, s.responses i j k) / 6 + (∑ j, s.relation j i 0) / 6) /
+                ∑ j, Real.exp ((∑ j_1, ∑ k, s.responses j j_1 k) / 6 + (∑ j_1, s.relation j_1 j 0) / 6))) /
+          ∑ q,
+            ∑ i,
+              G.attach i q *
+                (Real.exp ((∑ j, ∑ k, s.responses i j k) / 6 + (∑ j, s.relation j i 0) / 6) /
+                  ∑ j, Real.exp ((∑ j_1, ∑ k, s.responses j j_1 k) / 6 + (∑ j_1, s.relation j_1 j 0) / 6)) }
+warning: V3YangMillsAuditProofs.lean:106:26: This simp argument is unused:
+  retrieval_frame_invariant G s Q hQ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [socialRates, observations_frame_invariant G s Q hQ, utility_frame_invariant G s Q hQ, margin,
+    rotateFabric]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:107:4: This simp argument is unused:
+  observations_frame_invariant G s Q hQ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [socialRates, retrieval_frame_invariant G s Q hQ, utility_frame_invariant G s Q hQ, margin,
+    rotateFabric]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:107:43: This simp argument is unused:
+  utility_frame_invariant G s Q hQ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [socialRates, retrieval_frame_invariant G s Q hQ, observations_frame_invariant G s Q hQ, margin,
+    rotateFabric]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: V3YangMillsAuditProofs.lean:134:29: unsolved goals
+s : State
+startF Q R : Particle → Mat
+hQ : ∀ (p : Particle), Orthogonal (Q p)
+hR : ∀ (p : Particle), Orthogonal (R p)
+id : Fin 3
+hg : ∀ (p : Particle), green ((rotateFabric Q s).F p) = green (s.F p)
+hs : ∀ (p : Particle), green (mm (R p) (startF p)) = green (startF p)
+⊢ (do
+      let records ←
+        readRecords
+            { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A, ledger := s.ledger,
+              writeWork := s.writeWork, expression := s.expression, context := s.context, normCenter := s.normCenter,
+              logRadius := s.logRadius, relation := s.relation, responses := s.responses, association := s.association }
+      pure
+          { origin := (events id).origin, recipient := (events id).recipient, eventID := ⟨↑id, ⋯⟩,
+            startTime := (events id).startTime, endTime := (events id).endTime,
+            predecessors :=
+              ↑(List.map (fun pair => if pair.2.endTime ≤ (events id).startTime then 2 ^ ↑pair.2.eventID else 0)
+                    records).sum,
+            observed := (events id).observed, report := (events id).report,
+            context := fun k => (s.context (events id).origin k + s.context (events id).recipient k) / 2,
+            recognition := s.relation (events id).recipient (events id).origin 0,
+            authority := s.relation (events id).recipient (events id).origin 1,
+            actions := s.responses (events id).origin (events id).recipient,
+            deltaE := fun p k =>
+              green (mm (Q p) (s.F p)) (component k).1 (component k).2 -
+                green (startF p) (component k).1 (component k).2 }) =
+    do
+    let records ← readRecords s
+    pure
+        { origin := (events id).origin, recipient := (events id).recipient, eventID := ⟨↑id, ⋯⟩,
+          startTime := (events id).startTime, endTime := (events id).endTime,
+          predecessors :=
+            ↑(List.map (fun pair => if pair.2.endTime ≤ (events id).startTime then 2 ^ ↑pair.2.eventID else 0)
+                  records).sum,
+          observed := (events id).observed, report := (events id).report,
+          context := fun k => (s.context (events id).origin k + s.context (events id).recipient k) / 2,
+          recognition := s.relation (events id).recipient (events id).origin 0,
+          authority := s.relation (events id).recipient (events id).origin 1,
+          actions := s.responses (events id).origin (events id).recipient,
+          deltaE := fun p k =>
+            green (s.F p) (component k).1 (component k).2 - green (startF p) (component k).1 (component k).2 }
+warning: V3YangMillsAuditProofs.lean:139:24: This simp argument is unused:
+  decoded_records_frame_invariant
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [makeEvent, hg, hs, rotateFabric]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:139:57: This simp argument is unused:
+  hg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [makeEvent, decoded_records_frame_invariant, hs, rotateFabric]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: V3YangMillsAuditProofs.lean:148:72: unsolved goals
+G : Geometry
+s : State
+Q : Particle → Mat
+hQ : ∀ (p : Particle), Orthogonal (Q p)
+target : Cell → ℝ
+⊢ { target := target,
+      heat := fun p => ∑ l, if point l = p then localWeight l * (1 / 20) * (target l - s.b l) ^ 2 / (1 / 50) else 0,
+      work :=
+        storedEnergy G
+              { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A, ledger := s.ledger,
+                writeWork := s.writeWork, expression := s.expression, context := s.context, normCenter := s.normCenter,
+                logRadius := s.logRadius, relation := s.relation, responses := s.responses,
+                association := s.association }
+              target -
+            storedEnergy G
+              { g := s.g, X := s.X, F := fun p => mm (Q p) (s.F p), m := s.m, b := s.b, A := s.A, ledger := s.ledger,
+                writeWork := s.writeWork, expression := s.expression, context := s.context, normCenter := s.normCenter,
+                logRadius := s.logRadius, relation := s.relation, responses := s.responses,
+                association := s.association }
+              s.b +
+          ∑ p, G.V p * ∑ l, if point l = p then localWeight l * (1 / 20) * (target l - s.b l) ^ 2 / (1 / 50) else 0,
+      requiredBudget :=
+        max
+                (∑ l,
+                    G.V (point l) * localWeight l *
+                        fabricGradient (fabricStrain (fun p => mm (Q p) (s.F p)) l) (s.b l) *
+                      (target l - s.b l) +
+                  ∑ p,
+                    G.V p *
+                      ∑ l, if point l = p then localWeight l * (1 / 20) * (target l - s.b l) ^ 2 / (1 / 50) else 0)
+                0 +
+              max
+                (∑ l,
+                  G.V (point l) * localWeight l *
+                      (1 / 2 * (1 / 25) + 1 / 500 * (3 * s.b l ^ 2 - (1 / 50) ^ 2) / (2 * (1 / 50) ^ 4)) *
+                    (target l - s.b l) ^ 2)
+                0 +
+            max (∑ l, G.V (point l) * localWeight l * (1 / 500) * s.b l * (target l - s.b l) ^ 3 / (1 / 50) ^ 4) 0 +
+          max (∑ l, G.V (point l) * localWeight l * (1 / 500) * (target l - s.b l) ^ 4 / (4 * (1 / 50) ^ 4)) 0 } =
+    { target := target,
+      heat := fun p => ∑ l, if point l = p then localWeight l * (1 / 20) * (target l - s.b l) ^ 2 / (1 / 50) else 0,
+      work :=
+        storedEnergy G s target - storedEnergy G s s.b +
+          ∑ p, G.V p * ∑ l, if point l = p then localWeight l * (1 / 20) * (target l - s.b l) ^ 2 / (1 / 50) else 0,
+      requiredBudget :=
+        max
+                (∑ x, G.V (point x) * localWeight x * fabricGradient (fabricStrain s.F x) (s.b x) * (target x - s.b x) +
+                  ∑ p,
+                    G.V p *
+                      ∑ l, if point l = p then localWeight l * (1 / 20) * (target l - s.b l) ^ 2 / (1 / 50) else 0)
+                0 +
+              max
+                (∑ l,
+                  G.V (point l) * localWeight l *
+                      (1 / 2 * (1 / 25) + 1 / 500 * (3 * s.b l ^ 2 - (1 / 50) ^ 2) / (2 * (1 / 50) ^ 4)) *
+                    (target l - s.b l) ^ 2)
+                0 +
+            max (∑ l, G.V (point l) * localWeight l * (1 / 500) * s.b l * (target l - s.b l) ^ 3 / (1 / 50) ^ 4) 0 +
+          max (∑ l, G.V (point l) * localWeight l * (1 / 500) * (target l - s.b l) ^ 4 / (4 * (1 / 50) ^ 4)) 0 }
+warning: V3YangMillsAuditProofs.lean:149:27: This simp argument is unused:
+  stored_frame_invariant G s Q hQ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [writeAccount, fabric_strain_objective s Q hQ, rotateFabric]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:150:4: This simp argument is unused:
+  fabric_strain_objective s Q hQ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [writeAccount, stored_frame_invariant G s Q hQ, rotateFabric]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: V3YangMillsAuditProofs.lean:162:4: `simp` made no progress
+error: V3YangMillsAuditProofs.lean:219:12: Unknown constant `HasDerivWithinAt.sum`
+error: V3YangMillsAuditProofs.lean:217:39: unsolved goals
+Q F : ℝ → Mat
+dQ dF : Mat
+I : Set ℝ
+t : ℝ
+hQ : MatrixDerivWithin Q dQ I t
+hF : MatrixDerivWithin F dF I t
+i j : Axis
+⊢ HasDerivWithinAt (fun τ => (fun τ => mm (Q τ) (F τ)) τ i j) ((mm dQ (F t) + mm (Q t) dF) i j) I t
+Some required targets logged failures:
+- V3YangMillsAuditProofs
+error: build failed

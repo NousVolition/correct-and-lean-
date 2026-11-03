@@ -1,0 +1,22 @@
+{
+  "challenge_module": "FullChallenge",
+  "solution_module": "FullChecks",
+  "enable_nanoda": true,
+  "theorem_names": [
+    "HugNavierSingle.Verified.full_material_energy_balance",
+    "HugNavierSingle.Verified.source_initial_incompressible",
+    "HugNavierSingle.Verified.full_pressure_gauge",
+    "HugNavierSingle.Verified.full_pressure_not_unique",
+    "HugNavierSingle.Verified.guards_inward_at_spatial_boundaries",
+    "HugNavierSingle.Verified.viscosity_and_stress_dissipation",
+    "HugNavierSingle.Verified.full_variable_stress_divergence",
+    "OriginalAS.Verified.original_memory_derivative",
+    "OriginalAS.Verified.original_pressure_gauge",
+    "OriginalAS.Verified.normalized_momentum_equivalent"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "module": "V3TransferDefinitions",
+  "attempt": "native-reference",
+  "status": "TIMEOUT",
+  "seconds_limit": 120,
+  "compiler_diagnostic": "No Lean diagnostic emitted before the Python timeout; no successful native build claimed.",
+  "next_step": "Use the existing Linux Lean toolchain for a bounded reference build with per-module progress, followed by independent fresh Comparator verification. Equations and theorem statements unchanged."
+}

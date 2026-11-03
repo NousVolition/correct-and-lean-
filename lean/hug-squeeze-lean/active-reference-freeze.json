@@ -1,0 +1,20 @@
+{
+  "source_commit": "b4ae2c54cd85bfef282c501ecfca83de274e2070",
+  "scope": "Active Hug guard model; six separate memory-extension properties; no merged equation",
+  "files": {
+    "ActiveHugModel.lean": "be9d734610480ae9376bfd38b287c2bb9b7758cb50e29109bcf26656a7885f19",
+    "ActiveHugChallenge.lean": "fa931e575994ca73aab1a1b1d33d705486101db58c26ddefeb56e3f8e675a451",
+    "sources/active-guard-METHODS.md": "d1d280ecd06c1f31aaa46c3117b5c84cd6534dd24d19ce10494f633221c047bd",
+    "sources/active-guard-model.py": "e1f83325f63c956d399294b6dda748a34d6f469d8a42319f28e1d02ea3366921",
+    "sources/active-guard-protocol.json": "56ce38b4ddd8b8e94272f563cfd16b92170e48c7c4769dea15b46133a1293b4f",
+    "sources/memory-METHODS.md": "fd1c7a2008a33758a4e858f4c1a3cb23d29e1e400ba5441b5d24162e993e323e",
+    "sources/movement-SPECIFICATION_STATUS.md": "2d6243672265427dd77ad0414a1c0df4aae9ef7bf4fa93c4abc589571f955600"
+  },
+  "syntax_correction": {
+    "reason": "Lean reserves local; renamed this argument to own. No expression, parameter, premise or conclusion changed.",
+    "previous_hashes": {
+      "ActiveHugModel.lean": "fd06fc55fbffbadecabd77579888b468e465fdc3b004eb29e1267681cb2c01d3",
+      "ActiveHugChallenge.lean": "b1169ac92f909ed580f067a2548c09d621c289903d13cd128a26a62674cdafd0"
+    }
+  }
+}

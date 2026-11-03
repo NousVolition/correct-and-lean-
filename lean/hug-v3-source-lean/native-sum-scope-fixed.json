@@ -1,0 +1,17 @@
+[
+  {
+    "module": "V3SourceSocial",
+    "exit_code": 0,
+    "seconds": 16.875
+  },
+  {
+    "module": "V3SourceFlow",
+    "exit_code": 0,
+    "seconds": 16.953000000008615
+  },
+  {
+    "module": "V3SourceGeometry",
+    "exit_code": 1,
+    "seconds": 24.046999999991385
+  }
+]

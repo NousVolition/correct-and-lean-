@@ -1,0 +1,129 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,margin=20mm]{geometry}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,tabularx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{microtype}
+
+\definecolor{primary}{RGB}{24,78,119}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=primary,
+  citecolor=primary,
+  urlcolor=primary
+}
+
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\parindent}{0pt}
+\emergencystretch=3em
+
+\newcommand{\takeaway}[2]{%
+  \vspace{6pt}\noindent\colorbox{primary!8}{%
+    \parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+      \vspace{3pt}\raggedright\textbf{\color{primary}#1:}\hspace{0.5em}#2\vspace{3pt}%
+    }%
+  }\vspace{6pt}%
+}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+
+\title{\textbf{\color{primary}A Two-Timescale Delay-Hybrid Formulation: Fast Physical Coordinate $F(t)$ and Buffered Conscious State $x(t - \tau)$}}
+\author{Mathematical Analysis of Method-of-Steps Uniqueness, Reflex Lead Windows, and Viscoelastic Bracing\\
+\small Paired with the Lean 4 Formalization in \texttt{DelayedReflexASProofs.lean}}
+\date{November 1, 2026}
+
+\begin{document}
+\maketitle
+
+\takeaway{Status and Scope}{This document formulates and proves the mathematical properties of the two-timescale delay-hybrid model coupling a fast physical/reflex coordinate $F(t)$ (reacting at present time $t$) with the 7-coordinate two-channel (\texttt{Smoke} and \texttt{Clay}) conscious/social state $x(t)$ from \texttt{ASModel.lean} reacting to a buffered past state $x(t - \tau)$ ($\tau > 0$) and structural memory writes from \texttt{V3EventSpecification.lean}. We establish: (1) unconditional \textbf{Method-of-Steps uniqueness} across each $\tau$-window $[t_0, t_0+\tau]$, (2) existence of the \textbf{reflex-before-awareness window} $[t_{\mathrm{haz}}+\tau_{\mathrm{spinal}},\, t_{\mathrm{haz}}+\tau_{\mathrm{lag}})$, (3) the \textbf{viscoelastic unbraced survival inequality} during sudden impacts, and (4) the \textbf{one-way mirror theorem} showing why forward uniqueness coexists with many-to-one backward collapse at memory stamps. All core theorems are formalized without \texttt{sorry} in \texttt{DelayedReflexASProofs.lean}.}
+
+\section{Formulation of the Two-Timescale Delay-Hybrid System}
+
+Let $\tau > 0$ denote the conscious perceptual/situating lag (e.g.\ $\tau = 15\text{ s}$ for a continuity integration buffer, or $\tau_{\mathrm{lag}} \approx 0.5\text{ s}$ for conscious hazard awareness), and let $0 < \tau_{\mathrm{spinal}} < \tau$ denote the fast spinal/mechanical reflex latency.
+
+On any inter-event interval, the coupled state consists of:
+\begin{enumerate}
+  \item \textbf{Buffered Conscious/Social State $x(t) \in \mathbb{R}^7$ (\texttt{SocialAS.State})}: Evolves the two channels $S_{\mathrm{Smoke}} = x_1$ and $S_{\mathrm{Clay}} = x_2$, the accumulated source $A = x_0$, the loads $L_{\mathrm{fwd}} = x_3, L_{\mathrm{rev}} = x_4$, and the meaning distortions $z_{\mathrm{Smoke}} = x_5, z_{\mathrm{Clay}} = x_6$ via the \textbf{Delay Integral Equation} (\texttt{DelayedIntegralSolution} in \texttt{DelayedReflexASProofs.lean}):
+  \begin{equation}
+    x(t) = x(t_0) + \int_{t_0}^t \texttt{evolution}\big(p,\, i(s),\, x(s - \tau)\big)\,ds, \qquad t \ge t_0,
+    \label{eq:dde_as}
+  \end{equation}
+  with prescribed history buffer $x(s) = \eta(s)$ on $[t_0 - \tau, t_0]$.
+  \item \textbf{Fast Physical/Reflex State $F(t)$ (Present Time $t$)}: Reacts instantaneously to present mechanical loads $f_{\mathrm{haz}}(t)$ and spinal reflex withdrawal at $t_{\mathrm{haz}} + \tau_{\mathrm{spinal}}$, while its muscular/structural bracing level $b_{\mathrm{brace}}(t) := \mathcal{B}(x(t - \tau)) \in [0, 1]$ is controlled by the delayed conscious state $x(t - \tau)$:
+  \begin{equation}
+    \dot{F}(t) = -k_{\mathrm{eff}}\big(b_{\mathrm{brace}}(t)\big)\big(F(t) - b(t)\big) - \zeta F(t) + f_{\mathrm{haz}}(t), \qquad
+    k_{\mathrm{eff}}(b_{\mathrm{brace}}) := k_0 + k_{\mathrm{brace}}\,b_{\mathrm{brace}}.
+    \label{eq:fast_F}
+  \end{equation}
+\end{enumerate}
+
+\section{\texorpdfstring{Uniqueness via the Method of Steps (\texttt{delayedSolution\_unique\_on\_step})}{Uniqueness via the Method of Steps}}
+
+A remarkable consequence of introducing the perceptual lag $\tau > 0$ in \eqref{eq:dde_as} is that on each step $[t_0, t_0 + \tau]$, uniqueness of $x(t)$ requires \emph{no Lipschitz or Gr\"onwall estimate at all}: the right-hand side is already completely determined by the past buffer!
+
+\begin{theorem}[Method-of-Steps Uniqueness for the Delayed System]
+\label{thm:method_of_steps}
+Let $\tau > 0$, and suppose $x, \widetilde{x} : [t_0 - \tau, T] \to \texttt{State}$ both satisfy the delay integral equation \eqref{eq:dde_as} on $[t_0, T]$ with the same initial history buffer $x(s) = \widetilde{x}(s) = \eta(s)$ for all $s \in [t_0 - \tau, t_0]$. Then:
+\begin{enumerate}
+  \item On the first lag window $[t_0, t_0 + \tau]$, for every $s \in [t_0, t]$ we have $s - \tau \in [t_0 - \tau, t_0]$ (\texttt{sub\_tau\_mem\_history\_window}), so $x(s - \tau) = \eta(s - \tau) = \widetilde{x}(s - \tau)$ and hence
+  \begin{equation}
+    x_j(t) - \widetilde{x}_j(t) = \int_{t_0}^t \Big(\texttt{evolution}\big(p, i(s), \eta(s-\tau)\big)_j - \texttt{evolution}\big(p, i(s), \eta(s-\tau)\big)_j\Big)\,ds = 0
+  \end{equation}
+  for all $j \in \{0, \dots, 6\}$ and $t \in [t_0, t_0 + \tau]$ (\texttt{delayedSolution\_unique\_on\_step}).
+  \item By induction on the step index $m \in \mathbb{N}$ across $[t_0 + m\tau,\, t_0 + (m+1)\tau] \cap [t_0, T]$, $x(t) = \widetilde{x}(t)$ for all $t \in [t_0, T]$.
+  \item With $b_{\mathrm{brace}}(t) = \mathcal{B}(x(t - \tau))$ and $b(t)$ uniquely fixed, the fast physical ODE \eqref{eq:fast_F} is a scalar linear ODE in $F(t)$ with dissipative coefficient $-\big(k_{\mathrm{eff}}(b_{\mathrm{brace}}(t)) + \zeta\big) < 0$, so $F(t) = \widetilde{F}(t)$ for all $t \in [t_0, T]$ as well.
+\end{enumerate}
+\end{theorem}
+
+\section{The Reflex Lead Window and Evolutionary Speed-Up}
+
+Suppose a sharp external hazard (such as a blade slip at velocity $v_{\mathrm{haz}} > 0$) begins at time $t_{\mathrm{haz}}$. The fast spinal reflex initiates physical withdrawal at $t_{\mathrm{reflex}} = t_{\mathrm{haz}} + \tau_{\mathrm{spinal}}$, whereas the delayed conscious state $x(t - \tau_{\mathrm{lag}})$ only begins to see post-hazard inputs at $t_{\mathrm{conscious}} = t_{\mathrm{haz}} + \tau_{\mathrm{lag}}$.
+
+\begin{proposition}[Reflex-Before-Awareness Window and Cut Prevention]
+\label{prop:reflex}
+Assume $0 < \tau_{\mathrm{spinal}} < \tau_{\mathrm{lag}}$ and $v_{\mathrm{haz}} > 0$.
+\begin{enumerate}
+  \item \textbf{Non-empty pre-conscious action window (\texttt{reflex\_acts\_before\_conscious\_registration})}: For every $t \in [t_{\mathrm{haz}} + \tau_{\mathrm{spinal}},\, t_{\mathrm{haz}} + \tau_{\mathrm{lag}})$,
+  \begin{equation}
+    t_{\mathrm{haz}} < t_{\mathrm{haz}} + \tau_{\mathrm{spinal}} \le t \qquad \text{and} \qquad t - \tau_{\mathrm{lag}} < t_{\mathrm{haz}}.
+  \end{equation}
+  Thus the physical coordinate $F(t)$ is already executing reflex withdrawal at time $t$ while the conscious buffer $x(t - \tau_{\mathrm{lag}})$ still evaluates the pre-hazard state.
+  \item \textbf{Evolutionary latency reduction (\texttt{faster\_reflex\_prevents\_cut})}: If selection across generations reduces spinal latency from $\tau_{\mathrm{old}}$ to $\tau_{\mathrm{new}} < \tau_{\mathrm{old}}$ such that $v_{\mathrm{haz}}\tau_{\mathrm{new}} < d_{\mathrm{cut}} \le v_{\mathrm{haz}}\tau_{\mathrm{old}}$, then the maximum tissue excursion before withdrawal drops strictly below the severing depth $d_{\mathrm{cut}}$.
+\end{enumerate}
+\end{proposition}
+
+\section{Viscoelastic Crash Survival Under Delayed or Suppressed Bracing}
+
+During a high-speed impact at $t_{\mathrm{impact}} \in [t_{\mathrm{haz}},\, t_{\mathrm{haz}} + \tau_{\mathrm{lag}})$ (or when pharmacological sedation suppresses $b_{\mathrm{brace}}$ to $0$), the fast physical body experiences a strain excursion $\Delta e = l - b > 0$ before conscious bracing $b_{\mathrm{brace}} \in (0, 1]$ can engage.
+
+\begin{proposition}[Unbraced vs.\ Braced Peak Impact Stress, \texttt{unbraced\_survives\_crash\_window}]
+\label{prop:crash}
+Let $k_0 > 0$, $k_{\mathrm{brace}} > 0$, $b_{\mathrm{brace}} \in (0, 1]$, and $l - b > 0$. The unbraced peak traction $\tau_{\mathrm{unbraced}} := \texttt{impactTraction}(k_0, k_{\mathrm{brace}}, 0, l, b) = k_0(l - b)$ and the braced peak traction $\tau_{\mathrm{braced}} := \texttt{impactTraction}(k_0, k_{\mathrm{brace}}, b_{\mathrm{brace}}, l, b) = (k_0 + k_{\mathrm{brace}}b_{\mathrm{brace}})(l - b)$ satisfy
+\begin{equation}
+  \tau_{\mathrm{braced}} - \tau_{\mathrm{unbraced}} = k_{\mathrm{brace}}\,b_{\mathrm{brace}}(l - b) > 0.
+\end{equation}
+Consequently, for any tissue fracture threshold $\tau_{\mathrm{crit}} \in \big(k_0(l - b),\, (k_0 + k_{\mathrm{brace}}b_{\mathrm{brace}})(l - b)\big]$, the unbraced (limp/lagged) state remains strictly below the fracture limit ($\tau_{\mathrm{unbraced}} < \tau_{\mathrm{crit}}$) while the consciously braced state exceeds it ($\tau_{\mathrm{crit}} \le \tau_{\mathrm{braced}}$).
+\end{proposition}
+
+\section{\texorpdfstring{The One-Way Mirror at a Memory Stamp (\texttt{mirror\_write\_is\_many\_to\_one})}{The One-Way Mirror at a Memory Stamp}}
+
+Finally, we formalize why "looking at the system in reverse like a mirror" reveals an asymmetry between the past and the future at scheduled memory writes:
+
+\begin{theorem}[Forward Uniqueness vs.\ Backward Many-to-One Collapse]
+\label{thm:mirror}
+For any rest amplitude $a > 0$ and read margin $\mu_{\mathrm{read}} > 0$, the two distinct pre-event coordinates
+\begin{equation}
+  b_1 := -\mu_{\mathrm{read}}\,a < 0 \qquad \text{and} \qquad b_2 := -2\mu_{\mathrm{read}}\,a < 0
+\end{equation}
+both satisfy $\texttt{ValidEmptyCoordinate}(a, \mu_{\mathrm{read}}, b_i)$ ($i=1,2$) with $b_1 \ne b_2$, yet writing the header bit $1$ maps both pre-event states to the identical post-event coordinate $\texttt{writtenBit}(a, \texttt{true}) = +a$. Thus the forward evolution is uniquely determined, whereas the time-reversed ("mirror") pre-image of $+a$ contains infinitely many valid pre-event states $b^- \in (-\infty, -\mu_{\mathrm{read}}a]$.
+\end{theorem}
+
+\end{document}

@@ -1,0 +1,326 @@
+[
+  {
+    "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\outputs\\full-fluid-transfer-source-review\\sources\\original-corpus\\corrected-corpus.docx",
+    "paragraphs": 638,
+    "hits": [
+      [
+        86,
+        "Outer Boundary Layer"
+      ],
+      [
+        87,
+        "Reference perimeter in the architecture."
+      ],
+      [
+        103,
+        "The framework combines a consistency rule with a spatial boundary metaphor. The first asks whether the same action is evaluated by the same rule across actors. The second represents how close an action is to a modeled response boundary while preserving the actor's intended utility."
+      ],
+      [
+        105,
+        "Formula 2  Boundary Margin Model. Maximize U(α; c) over α ∈ F(i,c) with m(i,c)(α) = ε, where ε > 0."
+      ],
+      [
+        107,
+        "For the boundary model, place actions in a specified metric feature space X. ΩSin(i, c) is its permitted region, with nonempty boundary; F(i,c) = A ∩ ΩSin(i, c). Define m(i,c)(α) as distance to that boundary inside ΩSin, and minus that distance outside; boundary points have margin zero. Ordinary unsigned distance is never negative. The condition m = ε chooses an exact permitted-side edge margin. The alternative m ≥ ε requires minimum clearance and is not the same objective. Either feasible set can be empty; a maximizing action need not exist without further domain and regularity assumptions. These quantities operationalize the metaphor only after a representation and metric are chosen."
+      ],
+      [
+        110,
+        "Boundary-margin track"
+      ],
+      [
+        113,
+        "Spatial boundary mapping"
+      ],
+      [
+        116,
+        "How close is an action to the modeled response boundary?"
+      ],
+      [
+        120,
+        "Boundary condition"
+      ],
+      [
+        123,
+        "2. Spatialized Boundary Geography"
+      ],
+      [
+        134,
+        "Modeled response boundary"
+      ],
+      [
+        135,
+        "Boundary of the actor- and context-specific permitted region in X."
+      ],
+      [
+        137,
+        "Signed boundary margin"
+      ],
+      [
+        138,
+        "Positive on the interior permitted side, zero on the boundary, negative outside."
+      ],
+      [
+        142,
+        "3. Context-Sensitive Boundary Modifiers"
+      ],
+      [
+        143,
+        "The modifier matrix represents possible changes across settings, identities, or audiences. These are parameters to estimate from evidence, not inherent properties of a group. F(i,c) is the set of permitted available actions for actor i in context c. Changing the boundary may change F(i,c); it does not necessarily change the margin for every action in the same way."
+      ],
+      [
+        145,
+        "Boundary change"
+      ],
+      [
+        159,
+        "No available action is permitted. An empty boundary intersection alone would not show this."
+      ],
+      [
+        162,
+        "• OR-01 - Notice the Boundary: Identify where responses noticeably change."
+      ],
+      [
+        196,
+        "Boundary state"
+      ],
+      [
+        212,
+        "Does not yet know the local boundary."
+      ],
+      [
+        218,
+        "Learns how the local response boundary changes across spaces."
+      ],
+      [
+        224,
+        "Mathematical Specification for Boundary-Response Modeling"
+      ],
+      [
+        227,
+        "This section distinguishes three response laws: a sharp threshold with exact inactivity below it, the original tanh approximation with a signed response below threshold, and an optional smooth law with exact inactivity. Smoothness of a scalar switch and smoothness of its composition with a gradient magnitude are separate questions. None establishes a solution to the Clay Mathematics Institute Navier–Stokes problem."
+      ],
+      [
+        265,
+        "A fixed eₖ specifies direction; it does not guarantee drag or energy dissipation. For f to remove kinetic energy pointwise, u · f must be nonpositive. The model still needs a domain, initial and boundary data, a definition or equation for S, and compatible coefficient units. A smooth constitutive response is not a proof of smooth solutions for all time. Pressure, viscosity, yield, and boundary remain modeling language unless independently operationalized."
+      ],
+      [
+        342,
+        "• ΩSin Boundary / Moderation Threshold: The modeled point at which a post changes state, such as being flagged, downranked, or removed."
+      ],
+      [
+        446,
+        "4. Interpretive Boundary"
+      ],
+      [
+        450,
+        "Language, Belonging, and Group Boundary Formation"
+      ],
+      [
+        461,
+        "4. Language, Membership Cues, and Boundary Maintenance"
+      ],
+      [
+        475,
+        "Boundary visibility"
+      ],
+      [
+        519,
+        "Kₕ is a smooth localized kernel of width h > 0 with spatial integral 1. The original δ(x − x₀) is an alternative point-source idealization interpreted as a distribution, not an ordinary smooth function. A stores accumulated input; κ converts that stored quantity to a source rate with the required units. This retains the original memory choice explicitly. Under closed or periodic boundaries, constant positive excess utility can make the total field grow quadratically in time because the stored input is integrated again by the evolution equation. If instantaneous production is intended instead, specify J(t) = γ[U(t) − Ubaseline] with suitable units; that is a different model. Negative excess input may lower this signed field. Initial and boundary data remain necessary. For compressible transport, replace u · ∇S by ∇ · (Su)."
+      ],
+      [
+        543,
+        "System 3  The Boundary Threshold and Response Model"
+      ],
+      [
+        544,
+        "The sharp version defines exactly what happens on both sides: the additional boundary force is zero at and below threshold, and active above it. Zero added force does not mean the whole system is stable; the other terms still evolve. The smooth alternatives and their distinct behavior are specified in the earlier threshold section."
+      ],
+      [
+        550,
+        "Assume constant ρ > 0, µ > 0, and σ ≥ 0; p = P/ρ and ν = µ/ρ connect this equation to the earlier normalized form. The calibration η must give Γcrit the same units as |∇S|. Increasing η lowers Γcrit at fixed τ₀, so the label rigidity does not by itself establish stronger resistance. Fixed-direction forcing is not necessarily dissipative. Initial and boundary data, the S coupling, and a domain are required; smooth activation alone does not establish well-posedness or global regularity."
+      ],
+      [
+        561,
+        "Boundary-response threshold in gradient units."
+      ],
+      [
+        607,
+        "• OR-01 [Notice the Boundary]: Watch for points where the same kind of behavior starts receiving a noticeably different response."
+      ],
+      [
+        613,
+        "6. Boundary and Consistency Checks"
+      ],
+      [
+        614,
+        "This section uses two compact formulas to ask two practical questions: (1) Are similar actions being judged by the same rule across different people or groups? (2) How close is an action to a modeled boundary while still preserving the actor's intended utility?"
+      ],
+      [
+        616,
+        "Formula 2  Boundary Margin Model. Maximize U(α; c) over α ∈ F(i,c) with m(i,c)(α) = ε, where ε > 0. This is the exact-edge version. Use m(i,c)(α) ≥ ε instead for a minimum-clearance version; these are distinct objectives."
+      ]
+    ]
+  },
+  {
+    "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-05\\ca\\outputs\\sims-framework-correction-20261022\\sources\\corrected-corpus.docx",
+    "paragraphs": 638,
+    "hits": [
+      [
+        86,
+        "Outer Boundary Layer"
+      ],
+      [
+        87,
+        "Reference perimeter in the architecture."
+      ],
+      [
+        103,
+        "The framework combines a consistency rule with a spatial boundary metaphor. The first asks whether the same action is evaluated by the same rule across actors. The second represents how close an action is to a modeled response boundary while preserving the actor's intended utility."
+      ],
+      [
+        105,
+        "Formula 2  Boundary Margin Model. Maximize U(α; c) over α ∈ F(i,c) with m(i,c)(α) = ε, where ε > 0."
+      ],
+      [
+        107,
+        "For the boundary model, place actions in a specified metric feature space X. ΩSin(i, c) is its permitted region, with nonempty boundary; F(i,c) = A ∩ ΩSin(i, c). Define m(i,c)(α) as distance to that boundary inside ΩSin, and minus that distance outside; boundary points have margin zero. Ordinary unsigned distance is never negative. The condition m = ε chooses an exact permitted-side edge margin. The alternative m ≥ ε requires minimum clearance and is not the same objective. Either feasible set can be empty; a maximizing action need not exist without further domain and regularity assumptions. These quantities operationalize the metaphor only after a representation and metric are chosen."
+      ],
+      [
+        110,
+        "Boundary-margin track"
+      ],
+      [
+        113,
+        "Spatial boundary mapping"
+      ],
+      [
+        116,
+        "How close is an action to the modeled response boundary?"
+      ],
+      [
+        120,
+        "Boundary condition"
+      ],
+      [
+        123,
+        "2. Spatialized Boundary Geography"
+      ],
+      [
+        134,
+        "Modeled response boundary"
+      ],
+      [
+        135,
+        "Boundary of the actor- and context-specific permitted region in X."
+      ],
+      [
+        137,
+        "Signed boundary margin"
+      ],
+      [
+        138,
+        "Positive on the interior permitted side, zero on the boundary, negative outside."
+      ],
+      [
+        142,
+        "3. Context-Sensitive Boundary Modifiers"
+      ],
+      [
+        143,
+        "The modifier matrix represents possible changes across settings, identities, or audiences. These are parameters to estimate from evidence, not inherent properties of a group. F(i,c) is the set of permitted available actions for actor i in context c. Changing the boundary may change F(i,c); it does not necessarily change the margin for every action in the same way."
+      ],
+      [
+        145,
+        "Boundary change"
+      ],
+      [
+        159,
+        "No available action is permitted. An empty boundary intersection alone would not show this."
+      ],
+      [
+        162,
+        "• OR-01 - Notice the Boundary: Identify where responses noticeably change."
+      ],
+      [
+        196,
+        "Boundary state"
+      ],
+      [
+        212,
+        "Does not yet know the local boundary."
+      ],
+      [
+        218,
+        "Learns how the local response boundary changes across spaces."
+      ],
+      [
+        224,
+        "Mathematical Specification for Boundary-Response Modeling"
+      ],
+      [
+        227,
+        "This section distinguishes three response laws: a sharp threshold with exact inactivity below it, the original tanh approximation with a signed response below threshold, and an optional smooth law with exact inactivity. Smoothness of a scalar switch and smoothness of its composition with a gradient magnitude are separate questions. None establishes a solution to the Clay Mathematics Institute Navier–Stokes problem."
+      ],
+      [
+        265,
+        "A fixed eₖ specifies direction; it does not guarantee drag or energy dissipation. For f to remove kinetic energy pointwise, u · f must be nonpositive. The model still needs a domain, initial and boundary data, a definition or equation for S, and compatible coefficient units. A smooth constitutive response is not a proof of smooth solutions for all time. Pressure, viscosity, yield, and boundary remain modeling language unless independently operationalized."
+      ],
+      [
+        342,
+        "• ΩSin Boundary / Moderation Threshold: The modeled point at which a post changes state, such as being flagged, downranked, or removed."
+      ],
+      [
+        446,
+        "4. Interpretive Boundary"
+      ],
+      [
+        450,
+        "Language, Belonging, and Group Boundary Formation"
+      ],
+      [
+        461,
+        "4. Language, Membership Cues, and Boundary Maintenance"
+      ],
+      [
+        475,
+        "Boundary visibility"
+      ],
+      [
+        519,
+        "Kₕ is a smooth localized kernel of width h > 0 with spatial integral 1. The original δ(x − x₀) is an alternative point-source idealization interpreted as a distribution, not an ordinary smooth function. A stores accumulated input; κ converts that stored quantity to a source rate with the required units. This retains the original memory choice explicitly. Under closed or periodic boundaries, constant positive excess utility can make the total field grow quadratically in time because the stored input is integrated again by the evolution equation. If instantaneous production is intended instead, specify J(t) = γ[U(t) − Ubaseline] with suitable units; that is a different model. Negative excess input may lower this signed field. Initial and boundary data remain necessary. For compressible transport, replace u · ∇S by ∇ · (Su)."
+      ],
+      [
+        543,
+        "System 3  The Boundary Threshold and Response Model"
+      ],
+      [
+        544,
+        "The sharp version defines exactly what happens on both sides: the additional boundary force is zero at and below threshold, and active above it. Zero added force does not mean the whole system is stable; the other terms still evolve. The smooth alternatives and their distinct behavior are specified in the earlier threshold section."
+      ],
+      [
+        550,
+        "Assume constant ρ > 0, µ > 0, and σ ≥ 0; p = P/ρ and ν = µ/ρ connect this equation to the earlier normalized form. The calibration η must give Γcrit the same units as |∇S|. Increasing η lowers Γcrit at fixed τ₀, so the label rigidity does not by itself establish stronger resistance. Fixed-direction forcing is not necessarily dissipative. Initial and boundary data, the S coupling, and a domain are required; smooth activation alone does not establish well-posedness or global regularity."
+      ],
+      [
+        561,
+        "Boundary-response threshold in gradient units."
+      ],
+      [
+        607,
+        "• OR-01 [Notice the Boundary]: Watch for points where the same kind of behavior starts receiving a noticeably different response."
+      ],
+      [
+        613,
+        "6. Boundary and Consistency Checks"
+      ],
+      [
+        614,
+        "This section uses two compact formulas to ask two practical questions: (1) Are similar actions being judged by the same rule across different people or groups? (2) How close is an action to a modeled boundary while still preserving the actor's intended utility?"
+      ],
+      [
+        616,
+        "Formula 2  Boundary Margin Model. Maximize U(α; c) over α ∈ F(i,c) with m(i,c)(α) = ε, where ε > 0. This is the exact-edge version. Use m(i,c)(α) ≥ ε instead for a minimum-clearance version; these are distinct objectives."
+      ]
+    ]
+  }
+]

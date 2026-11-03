@@ -1,0 +1,41 @@
+{
+  "scope": "Whole continuum equation encoding and stated differential/structural theorems; full initial-value existence and uniqueness remain open definitions, not solved challenges.",
+  "theorems": [
+    "HugNavierSingle.Verified.full_material_energy_balance",
+    "HugNavierSingle.Verified.source_initial_incompressible",
+    "HugNavierSingle.Verified.full_pressure_gauge",
+    "HugNavierSingle.Verified.full_pressure_not_unique",
+    "HugNavierSingle.Verified.guards_inward_at_spatial_boundaries",
+    "HugNavierSingle.Verified.viscosity_and_stress_dissipation",
+    "HugNavierSingle.Verified.full_variable_stress_divergence",
+    "OriginalAS.Verified.original_memory_derivative",
+    "OriginalAS.Verified.original_pressure_gauge",
+    "OriginalAS.Verified.normalized_momentum_equivalent"
+  ],
+  "files": {
+    "FullModel.lean": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
+    "OriginalAS.lean": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5",
+    "FullChallenge.lean": "5683128ac009b8ffc5d06abc8388f4bcafee7a54623d83d33bbdb2c116ed8d6a",
+    "lakefile.toml": "cebb9345eb062b0de8aeb4b7060a51175b7d4a2b0790f70e424f4c3f97823d55",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "comparator.json": "b407bb4c0510d4ebe5f9957d75462be6d7696230cdd72e734ff06eb9eb6a5d17",
+    "source-audit.json": "2a8c1ac435df3dd36755d2c2fbc6edf465e25f051ad4602eb2822c9f2b6bdaca"
+  },
+  "source_files": {
+    "sources/interaction.md": "aa9af72b9762ff70204131bc160aec712e4071ec17e6a4f3ac832e2e7a4a5808",
+    "sources/ns_fields_methods.md": "b4a844c9488972267f2dde4ad030b658459063b594743a1de3dc66a77a8c484f",
+    "sources/ns_fields_model.py": "60948e928f31d57e8384f2f7ccd68d4ab9664d6aee3398f82407324bb0f42e30",
+    "sources/ns_protocol.json": "ba767c26ec3324f0441e158475910e12b9d225ab1f99859b534f51c280a3ebae",
+    "sources/original-corpus-passages.json": "5945c73a3a47d787db4b45640675555c08a23b0daa863ce863c92a8e1fb723fa",
+    "sources/original-source-manifest.json": "5bb99f1ef240578bf0d5372a78f23f4a6a3f9f6d1257fffa8d54fad6627f8370"
+  },
+  "unresolved": [
+    "Full PDE initial-value existence",
+    "Full state evolution uniqueness",
+    "Global smooth regularity",
+    "Global guard invariance from initial bounds",
+    "Empirical and semantic calibration of provisional corpus closure"
+  ],
+  "freeze_timing_exception": "The model and challenge were written and compiled before proof construction. The first hash-freeze attempt failed while decoding the old UTF-8 source-audit file with Windows cp1252. The unchanged model and challenge were hashed after the first solution file had been written and its development compile started. This is not represented as a blind preregistration. No challenge was changed to accommodate a proof failure."
+}

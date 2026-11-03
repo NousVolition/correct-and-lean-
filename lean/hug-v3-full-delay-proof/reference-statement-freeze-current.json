@@ -1,0 +1,10 @@
+{
+  "frozen_utc": "2026-11-02T05:17:55.5107481Z",
+  "file": "V3FullDelayChallenge.lean",
+  "sha256": "34b261be8357cdb1a8b9991d26779697d2e7136250538132552b1b476430c67f",
+  "changes": [
+    "Enabled the NNReal notation scope; previous reference preserved.",
+    "Added one original-coordinate derivative correspondence statement before its proof."
+  ],
+  "scope": "Conditional full-state local existence/uniqueness; full hybrid delayed theorem remains unproved."
+}

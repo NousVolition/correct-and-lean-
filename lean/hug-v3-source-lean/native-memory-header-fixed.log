@@ -1,0 +1,6 @@
+V3SourceSocial.lean:50:62: error(lean.unknownIdentifier): Unknown identifier `i`
+V3SourceSocial.lean:50:64: error(lean.unknownIdentifier): Unknown identifier `j`
+V3SourceSocial.lean:109:25: error(lean.unknownIdentifier): Unknown identifier `j`
+V3SourceSocial.lean:112:12: error(lean.unknownIdentifier): Unknown identifier `j`
+V3SourceSocial.lean:112:43: error(lean.unknownIdentifier): Unknown identifier `j`
+V3SourceSocial.lean:112:77: error(lean.unknownIdentifier): Unknown identifier `j`

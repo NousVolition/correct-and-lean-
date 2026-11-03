@@ -1,0 +1,512 @@
+✖ [3117/3118] Building V3YangMillsAuditProofs (9.6s)
+trace: .> LEAN_PATH=/home/nsverify/verification/project/.lake/packages/Cli/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/batteries/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Qq/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/aesop/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/importGraph/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/plausible/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/mathlib/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/lib/lean:/home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/lib/lean /opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/V3YangMillsAuditProofs.lean -o /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/lib/lean/V3YangMillsAuditProofs.olean -i /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/lib/lean/V3YangMillsAuditProofs.ilean -c /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/ir/V3YangMillsAuditProofs.c --setup /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/ir/V3YangMillsAuditProofs.setup.json --json
+error: V3YangMillsAuditProofs.lean:76:60: unsolved goals
+G : Geometry
+s : State
+Q : Particle → Mat
+hQ : ∀ (p : Particle), Orthogonal (Q p)
+hn : ∀ (p : Particle), strainNorm ((rotateFabric Q s).F p) = strainNorm (s.F p)
+i j : Actor
+⊢ ![((rotateFabric Q s).context i 0 + (rotateFabric Q s).context j 0) / 2,
+      ((rotateFabric Q s).context i 1 + (rotateFabric Q s).context j 1) / 2,
+      (tanh ((∑ x, G.attach i x * strainNorm (s.F x)) / 0.12) +
+          tanh ((∑ x, G.attach j x * strainNorm (s.F x)) / 0.12)) /
+        2] =
+    ![(s.context i 0 + s.context j 0) / 2, (s.context i 1 + s.context j 1) / 2,
+      (tanh ((∑ x, G.attach i x * strainNorm (s.F x)) / 0.12) +
+          tanh ((∑ x, G.attach j x * strainNorm (s.F x)) / 0.12)) /
+        2]
+error: V3YangMillsAuditProofs.lean:84:58: unsolved goals
+G : Geometry
+s : State
+Q : Particle → Mat
+hQ : ∀ (p : Particle), Orthogonal (Q p)
+hn : ∀ (p : Particle), strainNorm ((rotateFabric Q s).F p) = strainNorm (s.F p)
+i : Actor
+⊢ ![tanh ((∑ p, G.attach i p * ∑ x, R (rotateFabric Q s).X p x * (rotateFabric Q s).g x 3) / 8e-2),
+      tanh ((∑ x, G.attach i x * strainNorm (s.F x)) / 0.12),
+      tanh ((∑ p, G.attach i p * ∑ x, R (rotateFabric Q s).X p x * (rotateFabric Q s).g x 4) / 3e-2)] =
+    ![tanh ((∑ p, G.attach i p * ∑ x, R s.X p x * s.g x 3) / 8e-2),
+      tanh ((∑ x, G.attach i x * strainNorm (s.F x)) / 0.12),
+      tanh ((∑ p, G.attach i p * ∑ x, R s.X p x * s.g x 4) / 3e-2)]
+error: V3YangMillsAuditProofs.lean:92:62: unsolved goals
+G : Geometry
+s : State
+Q : Particle → Mat
+hQ : ∀ (p : Particle), Orthogonal (Q p)
+r : Record
+⊢ (r.endTime - r.startTime) *
+      Real.exp
+        ((-sqnorm fun k =>
+              ![r.context 0, r.context 1,
+                      tanh ((0.5 * ∑ p, (G.attach r.recipient p + G.attach r.origin p) * recordChange r p) / 0.12)]
+                    k -
+                  memoryFeature G s r.recipient r.origin k -
+                0.15 * tanh ((rotateFabric Q s).association r.recipient r.origin k)) /
+          (2 * 0.32 ^ 2)) =
+    (r.endTime - r.startTime) *
+      Real.exp
+        ((-sqnorm fun k =>
+              ![r.context 0, r.context 1,
+                      tanh ((0.5 * ∑ p, (G.attach r.recipient p + G.attach r.origin p) * recordChange r p) / 0.12)]
+                    k -
+                  memoryFeature G s r.recipient r.origin k -
+                0.15 * tanh (s.association r.recipient r.origin k)) /
+          (2 * 0.32 ^ 2))
+error: V3YangMillsAuditProofs.lean:109:54: unsolved goals
+G : Geometry
+s : State
+Q : Particle → Mat
+hQ : ∀ (p : Particle), Orthogonal (Q p)
+rs : List (Fin 4 × Record)
+⊢ (0.35 * ∑ x, ∑ x_1, (memory G s rs x x_1 0 - memory G s rs x x_1 1)) / 30 -
+          (0.2 * ∑ i, ∑ k, ((rotateFabric Q s).expression i k - intent i k) ^ 2) / 6 +
+        (0.2 * ∑ i, ∑ j, tanh (margin (rotateFabric Q s) i j / 0.4) * mask i j) / 30 +
+      (8e-2 * ∑ x, tanh (observations G s x 0)) / 6 =
+    (0.35 * ∑ x, ∑ x_1, (memory G s rs x x_1 0 - memory G s rs x x_1 1)) / 30 -
+          (0.2 * ∑ i, ∑ k, (s.expression i k - intent i k) ^ 2) / 6 +
+        (0.2 * ∑ i, ∑ j, tanh (margin s i j / 0.4) * mask i j) / 30 +
+      (8e-2 * ∑ x, tanh (observations G s x 0)) / 6
+error: V3YangMillsAuditProofs.lean:115:66: unsolved goals
+G : Geometry
+t : ℝ
+s : State
+Q : Particle → Mat
+hQ : ∀ (p : Particle), Orthogonal (Q p)
+rs : List (Fin 4 × Record)
+⊢ {
+      expression := fun i k =>
+        0.8 * (intent i k - (rotateFabric Q s).expression i k) +
+              (∑ x,
+                  ((rotateFabric Q s).responses i x 0 + 0.65 * (rotateFabric Q s).responses i x 1 +
+                          0.8 * (rotateFabric Q s).responses i x 6 -
+                        0.6 * (rotateFabric Q s).responses i x 2) *
+                      ((rotateFabric Q s).expression x k - (rotateFabric Q s).expression i k) /
+                    √(1 + ∑ x_1, ((rotateFabric Q s).expression x x_1 - (rotateFabric Q s).expression i x_1) ^ 2)) /
+                5 +
+            (∑ x,
+                (rotateFabric Q s).responses x i 4 *
+                  ((rotateFabric Q s).normCenter x k - (rotateFabric Q s).expression i k)) /
+              5 +
+          (∑ j, ((rotateFabric Q s).responses i j 3 + (rotateFabric Q s).responses i j 5)) / 6 *
+            (intent i k - (rotateFabric Q s).expression i k),
+      context := fun i k =>
+        2 * (0.6 * home i k + 0.4 * room t k - (rotateFabric Q s).context i k) +
+          (∑ x,
+              (-((rotateFabric Q s).responses i x 0 + (rotateFabric Q s).responses i x 1) *
+                  ((rotateFabric Q s).context i k - (rotateFabric Q s).context x k) +
+                (rotateFabric Q s).responses i x 5 * 2 * (rotateFabric Q s).context i k *
+                  ((rotateFabric Q s).context i k - (rotateFabric Q s).context x k -
+                    ∑ x_1,
+                      (rotateFabric Q s).context i x_1 *
+                        ((rotateFabric Q s).context i x_1 - (rotateFabric Q s).context x x_1)))) /
+            5,
+      normCenter := fun i k =>
+        0.7 * (0.6 * intent i k + 0.4 * (rotateFabric Q s).expression i k - (rotateFabric Q s).normCenter i k) +
+          (∑ j,
+              ((rotateFabric Q s).responses i j 1 + (rotateFabric Q s).responses i j 6 -
+                  (rotateFabric Q s).responses i j 4) *
+                ((rotateFabric Q s).expression j k - (rotateFabric Q s).normCenter i k)) /
+            5,
+      logRadius := fun i j =>
+        1.8 *
+          (Real.log
+              (0.55 +
+                0.45 *
+                  sigmoid
+                    (1.4 * (rotateFabric Q s).relation i j 2 + memory G s rs i j 0 - memory G s rs i j 1 +
+                          (rotateFabric Q s).responses i j 6 -
+                        (rotateFabric Q s).responses i j 4 -
+                      0.3 * observations G s i 0)) -
+            (rotateFabric Q s).logRadius i j),
+      relation := fun i j k =>
+        2 *
+          (![sigmoid
+                    (3 * (∑ k, (rotateFabric Q s).context i k * recognitionBase j k - 0.5) +
+                            0.7 * ((∑ i, (rotateFabric Q s).relation i j 0) / 6) +
+                          0.8 * ((rotateFabric Q s).responses i j 0 + (rotateFabric Q s).responses i j 2) +
+                        memory G s rs i j 0 -
+                      0.5 * memory G s rs i j 1),
+                  sigmoid
+                    (3 * (∑ k, (rotateFabric Q s).context i k * authorityBase j k - 0.5) +
+                            0.7 * ((∑ i, (rotateFabric Q s).relation i j 1) / 6) +
+                          0.8 * (rotateFabric Q s).responses j i 4 -
+                        0.8 * (rotateFabric Q s).responses i j 3 +
+                      0.5 * memory G s rs i j 3),
+                  sigmoid
+                    (1.4 *
+                                    Real.exp
+                                      ((-∑ x,
+                                            ((rotateFabric Q s).expression j x - (rotateFabric Q s).expression i x) ^
+                                              2) /
+                                        0.6) -
+                                  1 +
+                                1.5 * memory G s rs i j 0 -
+                              1.5 * memory G s rs i j 1 +
+                            (rotateFabric Q s).responses i j 1 +
+                          (rotateFabric Q s).responses i j 6 -
+                        (rotateFabric Q s).responses i j 2 -
+                      (rotateFabric Q s).responses j i 4)]
+                k *
+              mask i j -
+            (rotateFabric Q s).relation i j k),
+      responses := fun i j k =>
+        4 *
+          (![sigmoid
+                    (-0.7 + 1.8 * (rotateFabric Q s).relation i j 0 + 0.7 * (rotateFabric Q s).relation i j 2 +
+                            memory G s rs i j 0 -
+                          memory G s rs i j 1 +
+                        0.4 *
+                          sigmoid
+                            ((Real.exp ((rotateFabric Q s).logRadius i j) -
+                                √(∑ k, ((rotateFabric Q s).expression j k - (rotateFabric Q s).normCenter i k) ^ 2)) /
+                              0.18) -
+                      0.7 * (rotateFabric Q s).responses i j 3),
+                  sigmoid
+                    (-0.9 + 1.7 * (rotateFabric Q s).relation i j 2 +
+                              Real.exp
+                                ((-∑ x, ((rotateFabric Q s).expression j x - (rotateFabric Q s).expression i x) ^ 2) /
+                                  0.6) +
+                            memory G s rs i j 0 -
+                          memory G s rs i j 1 +
+                        0.6 * (rotateFabric Q s).responses i j 6 -
+                      0.5 * (rotateFabric Q s).responses i j 2),
+                  sigmoid
+                    (-1.4 + (rotateFabric Q s).relation i j 0 + 1.1 * (1 - (rotateFabric Q s).relation i j 2) +
+                            0.8 *
+                              (1 -
+                                Real.exp
+                                  ((-∑ x, ((rotateFabric Q s).expression j x - (rotateFabric Q s).expression i x) ^ 2) /
+                                    0.6)) +
+                          memory G s rs i j 1 -
+                        memory G s rs i j 0 -
+                      0.6 * (rotateFabric Q s).responses i j 6),
+                  sigmoid
+                    (-1.4 + (rotateFabric Q s).responses j i 4 + memory G s rs i j 1 +
+                          (1 -
+                            sigmoid
+                              ((Real.exp ((rotateFabric Q s).logRadius i j) -
+                                  √(∑ k, ((rotateFabric Q s).expression j k - (rotateFabric Q s).normCenter i k) ^ 2)) /
+                                0.18)) +
+                        0.3 * observations G s i 1 -
+                      0.5 * (rotateFabric Q s).responses i j 6),
+                  sigmoid
+                    (-1.7 + 1.8 * (rotateFabric Q s).relation j i 1 +
+                          0.9 *
+                            (1 -
+                              sigmoid
+                                ((Real.exp ((rotateFabric Q s).logRadius i j) -
+                                    √(∑ k,
+                                        ((rotateFabric Q s).expression j k - (rotateFabric Q s).normCenter i k) ^ 2)) /
+                                  0.18)) +
+                        0.7 * (rotateFabric Q s).responses i j 2 -
+                      0.8 * (rotateFabric Q s).relation i j 2),
+                  sigmoid
+                    (-1.8 + memory G s rs i j 1 + (rotateFabric Q s).responses j i 4 +
+                          0.5 *
+                            (1 -
+                              sigmoid
+                                ((Real.exp ((rotateFabric Q s).logRadius i j) -
+                                    √(∑ k,
+                                        ((rotateFabric Q s).expression j k - (rotateFabric Q s).normCenter i k) ^ 2)) /
+                                  0.18)) +
+                        0.35 * observations G s i 1 -
+                      memory G s rs i j 0),
+                  sigmoid
+                    (-1.2 + (rotateFabric Q s).relation i j 2 +
+                            memory G s rs i j 1 * (rotateFabric Q s).relation i j 2 +
+                          0.6 * (rotateFabric Q s).responses i j 1 -
+                        0.7 * (rotateFabric Q s).responses i j 2 +
+                      0.2 * observations G s i 2)]
+                k *
+              ((0.15 +
+                      0.85 *
+                        Real.exp
+                          ((-∑ k, ((rotateFabric Q s).context i k - (rotateFabric Q s).context j k) ^ 2) / 0.35)) *
+                    (0.3 + 0.7 * (rotateFabric Q s).relation i j 0) *
+                  (1 - 0.6 * (rotateFabric Q s).responses i j 5) *
+                mask i j) -
+            (rotateFabric Q s).responses i j k),
+      association := fun i j k =>
+        1.5 *
+          (2 * (memory G s rs i j 0 - memory G s rs i j 1) *
+              tanh
+                (![(rotateFabric Q s).expression j 0 - (rotateFabric Q s).expression i 0,
+                    (rotateFabric Q s).expression j 1 - (rotateFabric Q s).expression i 1,
+                    observations G s j 1 - observations G s i 1]
+                  k) -
+            (rotateFabric Q s).association i j k),
+      utility := pulse t + 0.8 * (utility G s rs - utilityBaseline),
+      sourceWeights := fun p =>
+        (∑ x,
+            G.attach x p *
+              (Real.exp
+                  ((∑ j, ∑ k, (rotateFabric Q s).responses x j k) / 6 + (∑ j, (rotateFabric Q s).relation j x 0) / 6) /
+                ∑ x,
+                  Real.exp
+                    ((∑ j, ∑ k, (rotateFabric Q s).responses x j k) / 6 +
+                      (∑ j, (rotateFabric Q s).relation j x 0) / 6))) /
+          ∑ x,
+            ∑ x_1,
+              G.attach x_1 x *
+                (Real.exp
+                    ((∑ j, ∑ k, (rotateFabric Q s).responses x_1 j k) / 6 +
+                      (∑ j, (rotateFabric Q s).relation j x_1 0) / 6) /
+                  ∑ x,
+                    Real.exp
+                      ((∑ j, ∑ k, (rotateFabric Q s).responses x j k) / 6 +
+                        (∑ j, (rotateFabric Q s).relation j x 0) / 6)) } =
+    {
+      expression := fun i k =>
+        0.8 * (intent i k - s.expression i k) +
+              (∑ x,
+                  (s.responses i x 0 + 0.65 * s.responses i x 1 + 0.8 * s.responses i x 6 - 0.6 * s.responses i x 2) *
+                      (s.expression x k - s.expression i k) /
+                    √(1 + ∑ x_1, (s.expression x x_1 - s.expression i x_1) ^ 2)) /
+                5 +
+            (∑ x, s.responses x i 4 * (s.normCenter x k - s.expression i k)) / 5 +
+          (∑ j, (s.responses i j 3 + s.responses i j 5)) / 6 * (intent i k - s.expression i k),
+      context := fun i k =>
+        2 * (0.6 * home i k + 0.4 * room t k - s.context i k) +
+          (∑ x,
+              (-(s.responses i x 0 + s.responses i x 1) * (s.context i k - s.context x k) +
+                s.responses i x 5 * 2 * s.context i k *
+                  (s.context i k - s.context x k - ∑ x_1, s.context i x_1 * (s.context i x_1 - s.context x x_1)))) /
+            5,
+      normCenter := fun i k =>
+        0.7 * (0.6 * intent i k + 0.4 * s.expression i k - s.normCenter i k) +
+          (∑ j, (s.responses i j 1 + s.responses i j 6 - s.responses i j 4) * (s.expression j k - s.normCenter i k)) /
+            5,
+      logRadius := fun i j =>
+        1.8 *
+          (Real.log
+              (0.55 +
+                0.45 *
+                  sigmoid
+                    (1.4 * s.relation i j 2 + memory G s rs i j 0 - memory G s rs i j 1 + s.responses i j 6 -
+                        s.responses i j 4 -
+                      0.3 * observations G s i 0)) -
+            s.logRadius i j),
+      relation := fun i j k =>
+        2 *
+          (![sigmoid
+                    (3 * (∑ k, s.context i k * recognitionBase j k - 0.5) + 0.7 * ((∑ i, s.relation i j 0) / 6) +
+                          0.8 * (s.responses i j 0 + s.responses i j 2) +
+                        memory G s rs i j 0 -
+                      0.5 * memory G s rs i j 1),
+                  sigmoid
+                    (3 * (∑ k, s.context i k * authorityBase j k - 0.5) + 0.7 * ((∑ i, s.relation i j 1) / 6) +
+                          0.8 * s.responses j i 4 -
+                        0.8 * s.responses i j 3 +
+                      0.5 * memory G s rs i j 3),
+                  sigmoid
+                    (1.4 * Real.exp ((-∑ x, (s.expression j x - s.expression i x) ^ 2) / 0.6) - 1 +
+                                1.5 * memory G s rs i j 0 -
+                              1.5 * memory G s rs i j 1 +
+                            s.responses i j 1 +
+                          s.responses i j 6 -
+                        s.responses i j 2 -
+                      s.responses j i 4)]
+                k *
+              mask i j -
+            s.relation i j k),
+      responses := fun i j k =>
+        4 *
+          (![sigmoid
+                    (-0.7 + 1.8 * s.relation i j 0 + 0.7 * s.relation i j 2 + memory G s rs i j 0 -
+                          memory G s rs i j 1 +
+                        0.4 *
+                          sigmoid
+                            ((Real.exp (s.logRadius i j) - √(∑ k, (s.expression j k - s.normCenter i k) ^ 2)) / 0.18) -
+                      0.7 * s.responses i j 3),
+                  sigmoid
+                    (-0.9 + 1.7 * s.relation i j 2 +
+                              Real.exp ((-∑ x, (s.expression j x - s.expression i x) ^ 2) / 0.6) +
+                            memory G s rs i j 0 -
+                          memory G s rs i j 1 +
+                        0.6 * s.responses i j 6 -
+                      0.5 * s.responses i j 2),
+                  sigmoid
+                    (-1.4 + s.relation i j 0 + 1.1 * (1 - s.relation i j 2) +
+                            0.8 * (1 - Real.exp ((-∑ x, (s.expression j x - s.expression i x) ^ 2) / 0.6)) +
+                          memory G s rs i j 1 -
+                        memory G s rs i j 0 -
+                      0.6 * s.responses i j 6),
+                  sigmoid
+                    (-1.4 + s.responses j i 4 + memory G s rs i j 1 +
+                          (1 -
+                            sigmoid
+                              ((Real.exp (s.logRadius i j) - √(∑ k, (s.expression j k - s.normCenter i k) ^ 2)) /
+                                0.18)) +
+                        0.3 * observations G s i 1 -
+                      0.5 * s.responses i j 6),
+                  sigmoid
+                    (-1.7 + 1.8 * s.relation j i 1 +
+                          0.9 *
+                            (1 -
+                              sigmoid
+                                ((Real.exp (s.logRadius i j) - √(∑ k, (s.expression j k - s.normCenter i k) ^ 2)) /
+                                  0.18)) +
+                        0.7 * s.responses i j 2 -
+                      0.8 * s.relation i j 2),
+                  sigmoid
+                    (-1.8 + memory G s rs i j 1 + s.responses j i 4 +
+                          0.5 *
+                            (1 -
+                              sigmoid
+                                ((Real.exp (s.logRadius i j) - √(∑ k, (s.expression j k - s.normCenter i k) ^ 2)) /
+                                  0.18)) +
+                        0.35 * observations G s i 1 -
+                      memory G s rs i j 0),
+                  sigmoid
+                    (-1.2 + s.relation i j 2 + memory G s rs i j 1 * s.relation i j 2 + 0.6 * s.responses i j 1 -
+                        0.7 * s.responses i j 2 +
+                      0.2 * observations G s i 2)]
+                k *
+              ((0.15 + 0.85 * Real.exp ((-∑ k, (s.context i k - s.context j k) ^ 2) / 0.35)) *
+                    (0.3 + 0.7 * s.relation i j 0) *
+                  (1 - 0.6 * s.responses i j 5) *
+                mask i j) -
+            s.responses i j k),
+      association := fun i j k =>
+        1.5 *
+          (2 * (memory G s rs i j 0 - memory G s rs i j 1) *
+              tanh
+                (![s.expression j 0 - s.expression i 0, s.expression j 1 - s.expression i 1,
+                    observations G s j 1 - observations G s i 1]
+                  k) -
+            s.association i j k),
+      utility := pulse t + 0.8 * (utility G s rs - utilityBaseline),
+      sourceWeights := fun p =>
+        (∑ x,
+            G.attach x p *
+              (Real.exp ((∑ j, ∑ k, s.responses x j k) / 6 + (∑ j, s.relation j x 0) / 6) /
+                ∑ x, Real.exp ((∑ j, ∑ k, s.responses x j k) / 6 + (∑ j, s.relation j x 0) / 6))) /
+          ∑ x,
+            ∑ x_1,
+              G.attach x_1 x *
+                (Real.exp ((∑ j, ∑ k, s.responses x_1 j k) / 6 + (∑ j, s.relation j x_1 0) / 6) /
+                  ∑ x, Real.exp ((∑ j, ∑ k, s.responses x j k) / 6 + (∑ j, s.relation j x 0) / 6)) }
+error: V3YangMillsAuditProofs.lean:144:29: unsolved goals
+s : State
+startF Q R : Particle → Mat
+hQ : ∀ (p : Particle), Orthogonal (Q p)
+hR : ∀ (p : Particle), Orthogonal (R p)
+id : Fin 3
+hg : ∀ (p : Particle), green ((rotateFabric Q s).F p) = green (s.F p)
+hs : ∀ (p : Particle), green (mm (R p) (startF p)) = green (startF p)
+⊢ (do
+      let records ← readRecords s
+      pure
+          { origin := (events id).origin, recipient := (events id).recipient, eventID := ⟨↑id, ⋯⟩,
+            startTime := (events id).startTime, endTime := (events id).endTime,
+            predecessors :=
+              ↑(List.map (fun pair => if pair.2.endTime ≤ (events id).startTime then 2 ^ ↑pair.2.eventID else 0)
+                    records).sum,
+            observed := (events id).observed, report := (events id).report,
+            context := fun k =>
+              ((rotateFabric Q s).context (events id).origin k + (rotateFabric Q s).context (events id).recipient k) /
+                2,
+            recognition := (rotateFabric Q s).relation (events id).recipient (events id).origin 0,
+            authority := (rotateFabric Q s).relation (events id).recipient (events id).origin 1,
+            actions := (rotateFabric Q s).responses (events id).origin (events id).recipient,
+            deltaE := fun p k =>
+              green (s.F p) (component k).1 (component k).2 - green (startF p) (component k).1 (component k).2 }) =
+    do
+    let records ← readRecords s
+    pure
+        { origin := (events id).origin, recipient := (events id).recipient, eventID := ⟨↑id, ⋯⟩,
+          startTime := (events id).startTime, endTime := (events id).endTime,
+          predecessors :=
+            ↑(List.map (fun pair => if pair.2.endTime ≤ (events id).startTime then 2 ^ ↑pair.2.eventID else 0)
+                  records).sum,
+          observed := (events id).observed, report := (events id).report,
+          context := fun k => (s.context (events id).origin k + s.context (events id).recipient k) / 2,
+          recognition := s.relation (events id).recipient (events id).origin 0,
+          authority := s.relation (events id).recipient (events id).origin 1,
+          actions := s.responses (events id).origin (events id).recipient,
+          deltaE := fun p k =>
+            green (s.F p) (component k).1 (component k).2 - green (startF p) (component k).1 (component k).2 }
+error: V3YangMillsAuditProofs.lean:158:72: unsolved goals
+G : Geometry
+s : State
+Q : Particle → Mat
+hQ : ∀ (p : Particle), Orthogonal (Q p)
+target : Cell → ℝ
+⊢ { target := target,
+      heat := fun p =>
+        ∑ x, if point x = p then localWeight x * (1 / 20) * (target x - (rotateFabric Q s).b x) ^ 2 / (1 / 50) else 0,
+      work :=
+        storedEnergy G s target - storedEnergy G s (rotateFabric Q s).b +
+          ∑ x,
+            G.V x *
+              ∑ x_1,
+                if point x_1 = x then
+                  localWeight x_1 * (1 / 20) * (target x_1 - (rotateFabric Q s).b x_1) ^ 2 / (1 / 50)
+                else 0,
+      requiredBudget :=
+        max
+                (∑ x,
+                    G.V (point x) * localWeight x * fabricGradient (fabricStrain s.F x) ((rotateFabric Q s).b x) *
+                      (target x - (rotateFabric Q s).b x) +
+                  ∑ x,
+                    G.V x *
+                      ∑ x_1,
+                        if point x_1 = x then
+                          localWeight x_1 * (1 / 20) * (target x_1 - (rotateFabric Q s).b x_1) ^ 2 / (1 / 50)
+                        else 0)
+                0 +
+              max
+                (∑ x,
+                  G.V (point x) * localWeight x *
+                      (1 / 2 * (1 / 25) +
+                        1 / 500 * (3 * (rotateFabric Q s).b x ^ 2 - (1 / 50) ^ 2) / (2 * (1 / 50) ^ 4)) *
+                    (target x - (rotateFabric Q s).b x) ^ 2)
+                0 +
+            max
+              (∑ x,
+                G.V (point x) * localWeight x * (1 / 500) * (rotateFabric Q s).b x *
+                    (target x - (rotateFabric Q s).b x) ^ 3 /
+                  (1 / 50) ^ 4)
+              0 +
+          max
+            (∑ x,
+              G.V (point x) * localWeight x * (1 / 500) * (target x - (rotateFabric Q s).b x) ^ 4 / (4 * (1 / 50) ^ 4))
+            0 } =
+    { target := target,
+      heat := fun p => ∑ x, if point x = p then localWeight x * (1 / 20) * (target x - s.b x) ^ 2 / (1 / 50) else 0,
+      work :=
+        storedEnergy G s target - storedEnergy G s s.b +
+          ∑ x,
+            G.V x *
+              ∑ x_1, if point x_1 = x then localWeight x_1 * (1 / 20) * (target x_1 - s.b x_1) ^ 2 / (1 / 50) else 0,
+      requiredBudget :=
+        max
+                (∑ x, G.V (point x) * localWeight x * fabricGradient (fabricStrain s.F x) (s.b x) * (target x - s.b x) +
+                  ∑ x,
+                    G.V x *
+                      ∑ x_1,
+                        if point x_1 = x then localWeight x_1 * (1 / 20) * (target x_1 - s.b x_1) ^ 2 / (1 / 50) else 0)
+                0 +
+              max
+                (∑ x,
+                  G.V (point x) * localWeight x *
+                      (1 / 2 * (1 / 25) + 1 / 500 * (3 * s.b x ^ 2 - (1 / 50) ^ 2) / (2 * (1 / 50) ^ 4)) *
+                    (target x - s.b x) ^ 2)
+                0 +
+            max (∑ x, G.V (point x) * localWeight x * (1 / 500) * s.b x * (target x - s.b x) ^ 3 / (1 / 50) ^ 4) 0 +
+          max (∑ x, G.V (point x) * localWeight x * (1 / 500) * (target x - s.b x) ^ 4 / (4 * (1 / 50) ^ 4)) 0 }
+error: V3YangMillsAuditProofs.lean:172:4: `dsimp` made no progress
+error: V3YangMillsAuditProofs.lean:231:2: Type mismatch: After simplification, term
+  h
+ has type
+  @HasDerivWithinAt ℝ DenselyNormedField.toNontriviallyNormedField ℝ Real.normedAddCommGroup.toAddCommGroup
+    RCLike.toInnerProductSpaceReal.toModule PseudoMetricSpace.toUniformSpace.toTopologicalSpace ⋯
+    (fun y => ∑ i_1, ((fun τ => Q τ i i_1) * fun τ => F τ i_1 j) y) (∑ x, dQ i x * F t x j + ∑ x, Q t i x * dF x j) I t
+but is expected to have type
+  @HasDerivWithinAt ℝ DenselyNormedField.toNontriviallyNormedField ℝ Real.instAddCommGroup Semiring.toModule
+    PseudoMetricSpace.toUniformSpace.toTopologicalSpace MatrixDerivWithin._proof_1 (fun τ => ∑ k, Q τ i k * F τ k j)
+    (∑ k, dQ i k * F t k j + ∑ k, Q t i k * dF k j) I t
+Some required targets logged failures:
+- V3YangMillsAuditProofs
+error: build failed

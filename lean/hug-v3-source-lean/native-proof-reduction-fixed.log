@@ -1,0 +1,12 @@
+V3SourceProofs.lean:16:12: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  Decidable
+    ((∀ (p : Particle) (k : Direction), sqnorm (fiber G s p k) ≠ 0) ∧
+      (∀ pair ∈ records, outcomeValid pair.2.observed ∧ outcomeValid pair.2.report) ∧
+        (∀ (i j : Actor), 0.12 + exposure G s records i j ≠ 0) ∧
+          (∀ (x : Grid), 1 + occupancy G s x ≠ 0) ∧ ∀ (p : Particle), powerDenominator G s p ≠ 0)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+V3SourceProofs.lean:16:4: error: maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+V3SourceProofs.lean:87:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead

@@ -1,0 +1,48 @@
+HUG AND SQUEEZE — LEAN VERIFICATION RESULTS
+30 October 2026
+
+PASS for the 51 stated mathematical claims. Both Hug versions were checked.
+The complete Hug system and its interpretation are not certified by these results.
+
+Checks completed: Windows Lean build, Linux Lake build, Comparator statement
+matching, Lean kernel and independent nanoda kernel. All accepted the same frozen
+claims. The solution proofs have no placeholders or added axioms; only the three
+listed standard Lean axioms are used. The corpus equations were not changed.
+
+ORIGINAL HUG — 27 claims
+The reciprocal squeeze preserves the product of the horizontal and vertical
+scales and is reversible. The imprint update obeys its stated differential
+equation, remains nonnegative from valid starting data, and stays between its old
+value and the current pressure. Pressure and imprint can exceed 1: here 1 is the
+opening threshold. Once opening starts, lower pressure does not automatically
+close the enclosure. The timed stretch reaches at most 1.08.
+
+A proved limitation: the numerical 'connected' flag can be true while the tip
+gap is still strictly positive. A visible connection is not exact closure or a
+proof of physical contact strength.
+
+LATER ACTIVE HUG — 18 claims
+The guard equation keeps guards initially in [0,1] within that interval along
+the specified continuous integral solutions. The energy derivative matches the
+stated mechanical equations. Material loss and guard damping remove energy under
+their sign assumptions. Passive, unforced energy cannot increase. The active
+drive can increase energy: a concrete state with the unchanged primary protocol
+has strictly positive energy rate. The equal-weight shared/directional comparison
+has matching reduced rates; this is not yet a proof of identical full trajectories.
+
+SEPARATE MEMORY EXTENSION — 6 claims
+The capped source stays bounded; mirrored pair exchange cancels with matching
+weights and is off below the centreline; the threshold response is exactly off
+below threshold. Reversing the gradient sign leaves its force unchanged. That
+force alone cannot distinguish a beneficial from an adverse interpretation.
+The memory force was not merged into the active-guard damper equations.
+
+STILL NEEDS PROOF OR EVIDENCE
+Full coupled existence and uniqueness for the later Hug; the complete memory
+field and its bounds; long-time rhythm, synchronization and recovery; numerical
+solver and floating-point correctness; material contact/rupture; and the link
+between the mathematical states and observations of social interaction.
+
+The package README gives assumptions, source versions, theorem coverage and
+reproduction instructions. Raw logs and verification-report.json retain the
+evidence. The earlier A/S packages were not edited.

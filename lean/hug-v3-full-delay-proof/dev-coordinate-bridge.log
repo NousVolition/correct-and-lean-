@@ -1,0 +1,34 @@
+✔ [3422/3426] Built V3FullCoordinates (9.6s)
+⚠ [3423/3426] Built V3FullDelayChallenge (1.4s)
+warning: V3FullDelayChallenge.lean:10:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:12:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:14:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:16:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:29:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:32:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:40:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:48:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:51:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:54:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:58:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:62:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:66:8: declaration uses `sorry`
+warning: V3FullDelayChallenge.lean:70:8: declaration uses `sorry`
+⚠ [3425/3426] Built V3FullDelayProofs (1.5s)
+warning: V3FullDelayProofs.lean:75:28: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: V3FullDelayProofs.lean:89:41: `if_true` has been deprecated: Use `ite_true` instead
+warning: V3FullDelayProofs.lean:90:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: V3FullDelayProofs.lean:79:26: Variable name `hτ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hτ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: V3FullDelayProofs.lean:179:0: 'HugV3.Source.FullDelayVerified.full_segment_exists_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: V3FullDelayProofs.lean:180:0: 'HugV3.Source.FullDelayVerified.full_segment_is_delay_solution_on_step' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: V3FullDelayProofs.lean:181:0: 'HugV3.Source.FullDelayVerified.accepted_boundary_keeps_social' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (3426 jobs).

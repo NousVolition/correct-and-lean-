@@ -1,0 +1,16 @@
+{
+  "challenge_module": "WellposednessChallenge",
+  "solution_module": "WellposednessProofs",
+  "enable_nanoda": true,
+  "theorem_names": [
+    "HugNavierWellposedness.Verified.perturbation_regular",
+    "HugNavierWellposedness.Verified.nearby_uniform_bound",
+    "HugNavierWellposedness.Verified.exact_rate_difference",
+    "HugNavierWellposedness.Verified.no_uniform_local_rate_bound"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

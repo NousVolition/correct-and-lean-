@@ -1,0 +1,19 @@
+⚠ [3353/3354] Replayed RepairedASProofs
+warning: RepairedASProofs.lean:153:19: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RepairedASProofs.lean:153:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+info: RepairedASProofs.lean:444:0: 'SocialAS.Verified.abs_pos_sub_pos_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:445:0: 'SocialAS.Verified.saturation_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:446:0: 'SocialAS.Verified.generalSDrift_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:447:0: 'SocialAS.Verified.generalSDrift_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:448:0: 'SocialAS.Verified.exchange_lipschitz_in_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:449:0: 'SocialAS.Verified.smokeMeaningDrift_nonneg_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:450:0: 'SocialAS.Verified.smokeMeaningDrift_nonpos_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:451:0: 'SocialAS.Verified.branches_sum_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:452:0: 'SocialAS.Verified.update_preserves_simplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:453:0: 'SocialAS.Verified.integralSolution_unique_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:454:0: 'SocialAS.Verified.integralSolution_sub_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3354 jobs).

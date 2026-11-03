@@ -1,0 +1,317 @@
+✔ [3352/3361] Built V3EventSpecification (7.9s)
+✔ [3353/3361] Built ASModel (7.9s)
+⚠ [3354/3361] Built HugV3InterEventProofs (2.9s)
+warning: HugV3InterEventProofs.lean:75:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: HugV3InterEventProofs.lean:167:0: 'HugV3Event.InterEventVerified.two_load_probe_recovers_rest_strain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: HugV3InterEventProofs.lean:168:0: 'HugV3Event.InterEventVerified.sign_constant_on_margin_ball' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugV3InterEventProofs.lean:169:0: 'HugV3Event.InterEventVerified.fabric_heat_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugV3InterEventProofs.lean:170:0: 'HugV3Event.InterEventVerified.power_limiter_in_unit_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: HugV3InterEventProofs.lean:171:0: 'HugV3Event.InterEventVerified.three_image_shifted_squares_even' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+✖ [3356/3361] Building DelayedReflexASProofs (2.7s)
+trace: .> LEAN_PATH=/home/nsverify/verification/project/.lake/packages/Cli/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/batteries/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Qq/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/aesop/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/importGraph/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/plausible/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/mathlib/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/lib/lean:/home/nsverify/verification/gemini-four-review-dev-20261101/.lake/build/lib/lean /opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean /home/nsverify/verification/gemini-four-review-dev-20261101/DelayedReflexASProofs.lean -o /home/nsverify/verification/gemini-four-review-dev-20261101/.lake/build/lib/lean/DelayedReflexASProofs.olean -i /home/nsverify/verification/gemini-four-review-dev-20261101/.lake/build/lib/lean/DelayedReflexASProofs.ilean -c /home/nsverify/verification/gemini-four-review-dev-20261101/.lake/build/ir/DelayedReflexASProofs.c --setup /home/nsverify/verification/gemini-four-review-dev-20261101/.lake/build/ir/DelayedReflexASProofs.setup.json --json
+error: DelayedReflexASProofs.lean:113:6: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  x (s - tau)
+in the target expression
+  (fun x_1 => evolution p (i x_1) (x (x_1 - tau)) j) s = (fun x => evolution p (i x) (y (x - tau)) j) s
+
+case e_a
+p : Parameters
+i : ℝ → Inputs
+t0 tau : ℝ
+history x y : ℝ → State
+j : Fin 7
+t : ℝ
+ht : t ∈ Icc t0 (t0 + tau)
+left✝⁵ : 0 < tau
+left✝⁴ : ContinuousOn x (Icc t0 (t0 + tau))
+hx_hist : ∀ s ∈ Icc (t0 - tau) t0, x s = history s
+left✝³ :
+  ∀ (j : Fin 7), ∀ t ∈ Icc t0 (t0 + tau), IntervalIntegrable (fun s => evolution p (i s) (x (s - tau)) j) volume t0 t
+hx_eq :
+  ∀ (j : Fin 7), ∀ t ∈ Icc t0 (t0 + tau), x t j = history t0 j + ∫ (s : ℝ) in t0..t, evolution p (i s) (x (s - tau)) j
+left✝² : 0 < tau
+left✝¹ : ContinuousOn y (Icc t0 (t0 + tau))
+hy_hist : ∀ s ∈ Icc (t0 - tau) t0, y s = history s
+left✝ :
+  ∀ (j : Fin 7), ∀ t ∈ Icc t0 (t0 + tau), IntervalIntegrable (fun s => evolution p (i s) (y (s - tau)) j) volume t0 t
+hy_eq :
+  ∀ (j : Fin 7), ∀ t ∈ Icc t0 (t0 + tau), y t j = history t0 j + ∫ (s : ℝ) in t0..t, evolution p (i s) (y (s - tau)) j
+s : ℝ
+hs : s ∈ uIcc t0 t
+hmem : s - tau ∈ Icc (t0 - tau) t0
+⊢ (fun x_1 => evolution p (i x_1) (x (x_1 - tau)) j) s = (fun x => evolution p (i x) (y (x - tau)) j) s
+warning: DelayedReflexASProofs.lean:128:5: Variable name `h_faster` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h_faster
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: DelayedReflexASProofs.lean:146:5: Variable name `h_old_cut` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h_old_cut
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: DelayedReflexASProofs.lean:203:0: 'DelayedReflexAS.delayedSolution_unique_on_step' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+info: DelayedReflexASProofs.lean:204:0: 'DelayedReflexAS.reflex_acts_before_conscious_registration' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DelayedReflexASProofs.lean:205:0: 'DelayedReflexAS.faster_reflex_prevents_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DelayedReflexASProofs.lean:206:0: 'DelayedReflexAS.unbraced_peak_stress_lt_braced' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DelayedReflexASProofs.lean:207:0: 'DelayedReflexAS.unbraced_survives_crash_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DelayedReflexASProofs.lean:208:0: 'DelayedReflexAS.mirror_write_is_many_to_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3358/3361] Built ASProofs (12s)
+warning: ASProofs.lean:153:19: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ASProofs.lean:153:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+info: ASProofs.lean:444:0: 'SocialAS.Verified.abs_pos_sub_pos_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:445:0: 'SocialAS.Verified.saturation_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:446:0: 'SocialAS.Verified.generalSDrift_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:447:0: 'SocialAS.Verified.generalSDrift_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:448:0: 'SocialAS.Verified.exchange_lipschitz_in_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:449:0: 'SocialAS.Verified.smokeMeaningDrift_nonneg_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:450:0: 'SocialAS.Verified.smokeMeaningDrift_nonpos_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:451:0: 'SocialAS.Verified.branches_sum_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:452:0: 'SocialAS.Verified.update_preserves_simplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:453:0: 'SocialAS.Verified.integralSolution_unique_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:454:0: 'SocialAS.Verified.integralSolution_sub_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+✖ [3360/3361] Building CombinedASHugProofs (12s)
+trace: .> LEAN_PATH=/home/nsverify/verification/project/.lake/packages/Cli/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/batteries/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Qq/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/aesop/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/importGraph/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/plausible/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/mathlib/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/lib/lean:/home/nsverify/verification/gemini-four-review-dev-20261101/.lake/build/lib/lean /opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean /home/nsverify/verification/gemini-four-review-dev-20261101/CombinedASHugProofs.lean -o /home/nsverify/verification/gemini-four-review-dev-20261101/.lake/build/lib/lean/CombinedASHugProofs.olean -i /home/nsverify/verification/gemini-four-review-dev-20261101/.lake/build/lib/lean/CombinedASHugProofs.ilean -c /home/nsverify/verification/gemini-four-review-dev-20261101/.lake/build/ir/CombinedASHugProofs.c --setup /home/nsverify/verification/gemini-four-review-dev-20261101/.lake/build/ir/CombinedASHugProofs.setup.json --json
+error: CombinedASHugProofs.lean:138:40: Invalid simp theorem: Expected a proposition, but found
+  Bool → ℝ
+error: CombinedASHugProofs.lean:138:40: Ambiguous term
+  indicator
+Possible interpretations:
+  SocialAS.indicator : Bool → ℝ
+  
+  Set.indicator : Set ?m.35 → (?m.35 → ?m.36) → ?m.35 → ?m.36
+error: CombinedASHugProofs.lean:138:40: Ambiguous term
+  indicator
+Possible interpretations:
+  SocialAS.indicator : Bool → ℝ
+  
+  Set.indicator : Set ?m.35 → (?m.35 → ?m.36) → ?m.35 → ?m.36
+error: CombinedASHugProofs.lean:138:40: Ambiguous term
+  indicator
+Possible interpretations:
+  SocialAS.indicator : Bool → ℝ
+  
+  Set.indicator : Set ?m.35 → (?m.35 → ?m.36) → ?m.35 → ?m.36
+error: CombinedASHugProofs.lean:137:66: unsolved goals
+case false.left
+⊢ 0 ≤ SocialAS.indicator false
+
+case false.right
+⊢ SocialAS.indicator false ≤ 1
+
+case true.left
+⊢ 0 ≤ SocialAS.indicator true
+
+case true.right
+⊢ SocialAS.indicator true ≤ 1
+error: CombinedASHugProofs.lean:165:18: linarith failed to find a contradiction
+case left
+p : Parameters
+x : State
+left✝¹⁸ : 0 ≤ p.gamma
+left✝¹⁷ : 0 ≤ p.kappa
+left✝¹⁶ : 0 < p.decay
+left✝¹⁵ : 0 ≤ p.wSmokeClay
+left✝¹⁴ : 0 ≤ p.wClaySmoke
+left✝¹³ : 0 ≤ p.KSmoke
+left✝¹² : 0 ≤ p.KClay
+left✝¹¹ : p.KSmoke + p.KClay = 1
+left✝¹⁰ : 0 ≤ p.threshold
+hrStar : 0 < p.rStar
+left✝⁹ : UnitInterval p.eta
+left✝⁸ : UnitInterval p.beta
+left✝⁷ : 0 ≤ p.alpha
+left✝⁶ : 0 < p.loadStar
+left✝⁵ : 0 < p.meaningStar
+left✝⁴ : UnitInterval p.chiMax
+left✝³ : UnitInterval p.thetaMax
+left✝² : UnitInterval p.imposedForward
+left✝¹ : UnitInterval p.imposedReverse
+left✝ : UnitInterval p.refSmoke
+right✝ : UnitInterval p.refClay
+hg0 : 0 ≤ p.g
+hg1 : p.g ≤ 1
+hp00 : 0 ≤ p.p0
+hp01 : p.p0 ≤ 1
+r : ℝ := opportunityActivation p.g (activation (x 2) p.threshold)
+hr : 0 ≤ r
+hden : 0 < p.rStar + r
+hne : p.rStar + r ≠ 0
+hfrac0 : 0 ≤ r / (p.rStar + r)
+hfrac1 : r / (p.rStar + r) ≤ 1
+a✝ : p.g * (p.p0 + (1 - p.p0) * r / (p.rStar + r)) < 0
+⊢ False
+failed
+error: CombinedASHugProofs.lean:165:18: linarith failed to find a contradiction
+case right
+p : Parameters
+x : State
+left✝¹⁸ : 0 ≤ p.gamma
+left✝¹⁷ : 0 ≤ p.kappa
+left✝¹⁶ : 0 < p.decay
+left✝¹⁵ : 0 ≤ p.wSmokeClay
+left✝¹⁴ : 0 ≤ p.wClaySmoke
+left✝¹³ : 0 ≤ p.KSmoke
+left✝¹² : 0 ≤ p.KClay
+left✝¹¹ : p.KSmoke + p.KClay = 1
+left✝¹⁰ : 0 ≤ p.threshold
+hrStar : 0 < p.rStar
+left✝⁹ : UnitInterval p.eta
+left✝⁸ : UnitInterval p.beta
+left✝⁷ : 0 ≤ p.alpha
+left✝⁶ : 0 < p.loadStar
+left✝⁵ : 0 < p.meaningStar
+left✝⁴ : UnitInterval p.chiMax
+left✝³ : UnitInterval p.thetaMax
+left✝² : UnitInterval p.imposedForward
+left✝¹ : UnitInterval p.imposedReverse
+left✝ : UnitInterval p.refSmoke
+right✝ : UnitInterval p.refClay
+hg0 : 0 ≤ p.g
+hg1 : p.g ≤ 1
+hp00 : 0 ≤ p.p0
+hp01 : p.p0 ≤ 1
+r : ℝ := opportunityActivation p.g (activation (x 2) p.threshold)
+hr : 0 ≤ r
+hden : 0 < p.rStar + r
+hne : p.rStar + r ≠ 0
+hfrac0 : 0 ≤ r / (p.rStar + r)
+hfrac1 : r / (p.rStar + r) ≤ 1
+a✝ : 1 < p.g * (p.p0 + (1 - p.p0) * r / (p.rStar + r))
+⊢ False
+failed
+error: CombinedASHugProofs.lean:178:18: linarith failed to find a contradiction
+case left
+p : Parameters
+x : State
+challenge : ℝ
+B : Bool
+left✝²² : 0 ≤ p.gamma
+left✝²¹ : 0 ≤ p.kappa
+left✝²⁰ : 0 < p.decay
+left✝¹⁹ : 0 ≤ p.wSmokeClay
+left✝¹⁸ : 0 ≤ p.wClaySmoke
+left✝¹⁷ : 0 ≤ p.KSmoke
+left✝¹⁶ : 0 ≤ p.KClay
+left✝¹⁵ : p.KSmoke + p.KClay = 1
+left✝¹⁴ : 0 ≤ p.threshold
+left✝¹³ : 0 < p.rStar
+left✝¹² : UnitInterval p.g
+left✝¹¹ : UnitInterval p.p0
+left✝¹⁰ : UnitInterval p.beta
+left✝⁹ : 0 ≤ p.alpha
+left✝⁸ : 0 < p.loadStar
+left✝⁷ : 0 < p.meaningStar
+left✝⁶ : UnitInterval p.chiMax
+left✝⁵ : UnitInterval p.thetaMax
+left✝⁴ : UnitInterval p.imposedForward
+left✝³ : UnitInterval p.imposedReverse
+left✝² : UnitInterval p.refSmoke
+right✝¹ : UnitInterval p.refClay
+left✝¹ : 0 ≤ x 3
+left✝ : 0 ≤ x 4
+right✝ : UnitInterval (x 6)
+he0 : 0 ≤ p.eta
+he1 : p.eta ≤ 1
+hz0 : 0 ≤ x 5
+hz1 : x 5 ≤ 1
+hc0 : 0 ≤ challenge
+hc1 : challenge ≤ 1
+hi0 : 0 ≤ SocialAS.indicator B
+hi1 : SocialAS.indicator B ≤ 1
+a✝ : p.eta * (1 - x 5 * challenge) * SocialAS.indicator B < 0
+⊢ False
+failed
+error: CombinedASHugProofs.lean:178:18: linarith failed to find a contradiction
+case right
+p : Parameters
+x : State
+challenge : ℝ
+B : Bool
+left✝²² : 0 ≤ p.gamma
+left✝²¹ : 0 ≤ p.kappa
+left✝²⁰ : 0 < p.decay
+left✝¹⁹ : 0 ≤ p.wSmokeClay
+left✝¹⁸ : 0 ≤ p.wClaySmoke
+left✝¹⁷ : 0 ≤ p.KSmoke
+left✝¹⁶ : 0 ≤ p.KClay
+left✝¹⁵ : p.KSmoke + p.KClay = 1
+left✝¹⁴ : 0 ≤ p.threshold
+left✝¹³ : 0 < p.rStar
+left✝¹² : UnitInterval p.g
+left✝¹¹ : UnitInterval p.p0
+left✝¹⁰ : UnitInterval p.beta
+left✝⁹ : 0 ≤ p.alpha
+left✝⁸ : 0 < p.loadStar
+left✝⁷ : 0 < p.meaningStar
+left✝⁶ : UnitInterval p.chiMax
+left✝⁵ : UnitInterval p.thetaMax
+left✝⁴ : UnitInterval p.imposedForward
+left✝³ : UnitInterval p.imposedReverse
+left✝² : UnitInterval p.refSmoke
+right✝¹ : UnitInterval p.refClay
+left✝¹ : 0 ≤ x 3
+left✝ : 0 ≤ x 4
+right✝ : UnitInterval (x 6)
+he0 : 0 ≤ p.eta
+he1 : p.eta ≤ 1
+hz0 : 0 ≤ x 5
+hz1 : x 5 ≤ 1
+hc0 : 0 ≤ challenge
+hc1 : challenge ≤ 1
+hi0 : 0 ≤ SocialAS.indicator B
+hi1 : SocialAS.indicator B ≤ 1
+a✝ : 1 < p.eta * (1 - x 5 * challenge) * SocialAS.indicator B
+⊢ False
+failed
+error: CombinedASHugProofs.lean:211:4: linarith failed to find a contradiction
+case left
+beta : ℝ
+C : Bool
+H M : Meaning
+hb0 : 0 ≤ beta
+hb1 : beta ≤ 1
+hH0 : ∀ (j : Fin 2), 0 ≤ H j
+hHsum : ∑ j, H j = 1
+hM0 : ∀ (j : Fin 2), 0 ≤ M j
+hMsum : ∑ j, M j = 1
+hi0 : 0 ≤ SocialAS.indicator C
+hi1 : SocialAS.indicator C ≤ 1
+j : Fin 2
+hjH : 0 ≤ H j
+hjM : 0 ≤ M j
+a✝ : H j + beta * (SocialAS.indicator C * (M j - H j)) < 0
+⊢ False
+failed
+info: CombinedASHugProofs.lean:294:0: 'CombinedASHug.combined_probe_recovers_written_bit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CombinedASHugProofs.lean:295:0: 'CombinedASHug.clay_encounter_branches_simplex' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+info: CombinedASHugProofs.lean:296:0: 'CombinedASHug.combined_event_preserves_valid_and_jumps' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+info: CombinedASHugProofs.lean:297:0: 'CombinedASHug.combined_trajectory_continuous_AS_but_discontinuous_full' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: CombinedASHugProofs.lean:298:0: 'CombinedASHug.combined_hybrid_uniqueness_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+Some required targets logged failures:
+- DelayedReflexASProofs
+- CombinedASHugProofs
+error: build failed

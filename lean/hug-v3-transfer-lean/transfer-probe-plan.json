@@ -1,0 +1,31 @@
+{
+  "scope": "Fresh unchanged full main simulation, followed by full-RHS local comparisons at the actual post-first-write state. These comparisons are not alternate integrated trajectories.",
+  "source_case": "main",
+  "student": 1,
+  "first_teacher": 0,
+  "second_teacher": 2,
+  "capture_event_id": 0,
+  "capture_time": 0.4,
+  "cooperation_increment": 0.1,
+  "numerical_identity_absolute_tolerance": 1e-10,
+  "probes": [
+    "Baseline: actual full state immediately after the first scheduled write",
+    "Response comparison: same full state with response[1,0,cooperation] increased by 0.1; same equations and parameters",
+    "Memory comparison: same full state with all fabric cells set to the existing empty-code rest state; all other coordinates unchanged; same equations and parameters"
+  ],
+  "checks": [
+    "All three full RHS evaluations succeed with finite results",
+    "The response comparison preserves decoded records",
+    "Norm-rate difference equals increment*(expression[first]-norm[student])/5",
+    "Other partner expression rate and current log-radius rate remain unchanged in response comparison",
+    "Squared-guard-rate difference equals 2*increment/5 times alignment",
+    "The real first record supplies positive evidence for its stored pair; no direct record is reassigned to the second pair",
+    "The first-pair cooperation rate is higher with the positive imprint than with empty material code"
+  ],
+  "assumptions": [
+    "Student and teacher names are interpretive aliases for existing actors; all six agents remain",
+    "Giving speaking space is an interpretation of the modeled encounter, not a measured variable",
+    "The response increment and empty-code state are local diagnostic inputs, not learned or observed changes",
+    "The fresh numerical run is not a proof of exact continuous-time existence, uniqueness, or demographic behavior"
+  ]
+}

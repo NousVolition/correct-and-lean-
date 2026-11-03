@@ -1,0 +1,524 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=20mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,mathtools,hyperref,microtype}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\emergencystretch=2em
+\begin{document}
+\section*{Local existence and conditional hybrid uniqueness for Hug structural memory v3}
+
+Corrected proof, revision 2  /  October 31, 2026
+
+\textbf{Scope.} This proves local existence and uniqueness between events for the exact-real interpretation of the unchanged, fixed finite-grid \texttt{hug-structural-memory-v3} equations on the admissible open domain defined below. It also proves uniqueness of admissible hybrid trajectories, conditional on continuation and successful scheduled writes. It does not prove unconditional existence through time 1.6, a spatial continuum limit, floating-point correctness, or a Lean certificate.
+
+The model equations, coefficients, initial conditions, event schedule and all 21 sealed files are unchanged. This revision corrects proof hypotheses, derived bounds and algebra. The supplied draft is preserved separately. The returning student and the idea "Giving someone space to speak can change what I understand" remain interpretation metadata; no new actor mapping or measured score is assigned. This proof is separate from the Triangle Hug version and its 0--8 illustrative cycle.
+
+\subsection*{1. Fixed source and mathematical interpretation}
+
+Fix the sealed \texttt{main} configuration and all source-defined external arrays and initialization constants. Set n = 16, P = 384 material points, K = 24 directions, N = 6 social roles and four structural slots. Each slot has 4,658 bytes, or 37,264 bits; the structural vector has 149,056 coordinates. The ambient continuous state space is the Euclidean space of the complete source state dictionary:
+
+
+
+\[
+\mathcal S=\mathbb R^D,\qquad
+D=5n^3+12P+2KP+149056+6+6N+14N^2=193122.
+\]
+
+
+
+This counts velocity, transported context, temperature, material position X, deformation F, directional exposure m, structural rest strain b, the accumulator, ledgers, write work and all social coordinates. Physical constraints may select a subset of this ambient space; the dimension is not a claim of independent divergence-free coordinates. Event-start deformation snapshots are additional hybrid runner data, not omitted continuous derivatives.
+
+Let f(t,s) denote the entire \texttt{rhs} from \texttt{continuum.py}, including its \texttt{social\_base.py} and \texttt{structural\_hug.py} overrides. The equations considered throughout are exactly
+
+
+
+\[
+\dot s=f(t,s),
+\]
+
+
+
+with every source component retained. FFTs, sums, products, elementary functions and norms are interpreted as their finite-dimensional exact-real maps. Byte packing, parsing, CRC and rounding are discrete source operations; rounding uses the source's nearest-integer, ties-to-even rule. This interpretation does not assert that floating-point evaluation equals exact arithmetic.
+
+The source checkpoint partition is
+
+
+
+\[
+(t_0,t_1,t_2,t_3,t_4,t_5)=(0,0.2,0.4,0.8,1.2,1.6).
+\]
+
+
+
+Events 0, 1 and 2 have intervals [0,0.4], [0.2,0.8] and [0.8,1.2]. Between checkpoints, the dictionary of captured start deformations is constant and the continuous state follows f. The body quadrature, attachments, direction weights and other initialization arrays remain the source-defined fixed constants.
+
+\subsection*{2. A domain on which the whole right-hand side is defined}
+
+Put a = 0.02 and m\_read = 0.25a = 0.005. For a strict sign pattern of b, decode the corresponding finite bit array using the unchanged source codec. Call that pattern \textbf{admissible for the continuous RHS} when all slots parse successfully and every nonempty decoded record has a nonnegative duration and every present observed or recipient-reported outcome lies in [-1,1]. Parsing already enforces the source header and actor/event index checks. Other decoded numerical fields are finite because the payload has fixed finite size.
+
+Nonnegative duration is sufficient here; zero duration contributes zero weight. It is deliberately allowed because rounding can map a short positive input interval to equal encoded endpoints. This domain does not silently identify successful parsing with successful writing. Capacity, duplicate IDs, predecessor masks, schema restrictions, encoding range and work budgets remain write-time requirements.
+
+Define the corrected open domain
+
+
+
+\[
+\begin{aligned}
+\Omega_*:=\{s\in\mathcal S:\;&\|F_pa_k\|_2>0\quad\text{for every }p,k,\\
+&|b_l|>m_{\rm read}\quad\text{for every }l,\\
+&\text{the sign pattern of }b\text{ is admissible for the continuous RHS}\}.
+\end{aligned}
+\]
+
+
+
+The additional record conditions restrict the theorem's domain; they do not edit the reader, writer or any differential equation. They are needed: the unchanged reader accepts some correctly checksummed records with invalid durations or outcomes. Such records were counterexamples to the original draft's domain-wide claims.
+
+\textbf{Lemma 1 (exact probe and local decoder constancy).} The exact probe recovers b. On a sufficiently small full-state ball about any point of \(\Omega_*\), the decoded bits and records are constant, while b itself remains a varying continuous coordinate.
+
+\textbf{Proof.} With k\_micro = 0.04 and the two source probe loads l\_plus and l\_minus,
+
+
+
+\[
+\widehat b_l
+=\frac12\sum_{\pm}\left(l_{\pm}-\frac{k_{\rm micro}(l_{\pm}-b_l)}{k_{\rm micro}}\right)
+=b_l.
+\]
+
+
+
+For s0 in \(\Omega_*\), define the positive finite margins
+
+
+
+\[
+\rho_b=\min_l|b_l^0|-m_{\rm read},\qquad
+\rho_F=\min_{p,k}\|F_p^0a_k\|_2,
+\qquad r=\tfrac14\min\{1,\rho_b,\rho_F\}>0.
+\]
+
+
+
+Use the ordinary Euclidean norm of all D coordinates, with matrix components flattened. If the distance from s to s0 is at most 2r, then each b coordinate changes by at most 2r and each vector F\_pa\_k changes in norm by at most 2r, because the directions are unit vectors. Consequently
+
+
+
+\[
+|b_l|\ge m_{\rm read}+\rho_b/2,\qquad
+\|F_pa_k\|_2\ge\rho_F/2.
+\]
+
+
+
+No bit changes sign. Deterministic packing and decoding therefore return the same checksum status and records, including the same semantic validity. Thus the closed full-state ball K = closure(B\_2r(s0)) lies in \(\Omega_*\) and is compact. These balls prove openness. They also supply bounded neighborhoods for local estimates; the original cylinder constraining only b and F was not a compact full-state ball. QED.
+
+The initial state belongs to \(\Omega_*\): F\_p is the identity, all b coordinates are -a, and all slots decode as empty. This establishes non-vacuity without asserting that the entire future trajectory stays in \(\Omega_*\).
+
+\subsection*{3. Fixed-grid spatial maps and transport}
+
+All grid-array norms in this section are unweighted Euclidean norms. Fourier normalization is paired consistently between forward and inverse transforms. Each source Fourier multiplier is bounded on the fixed finite grid. Taking a real part is a contraction. The mask and masked Leray projector have operator norm at most one, with equality on appropriate constant modes. The full, unfiltered gradient and the centered-difference gradient satisfy
+
+
+
+\[
+\|\nabla_{\rm spec}\|_{\rm op}\le\pi\sqrt3\,n,
+\qquad
+\|\nabla_{\rm cd}\|_{\rm op}\le\sqrt3\,n.
+\]
+
+
+
+\textbf{Proof.} Every Fourier component has absolute wavenumber at most pi n per axis. Plancherel gives the first bound by summing the squares of the three derivative symbols. Each centered-difference symbol is i n sin(2 pi f\_j/n), giving the second bound. Nyquist real-part handling can decrease the actual norm and cannot invalidate these upper bounds. Divergence is also a bounded finite linear map. QED.
+
+The smaller bound 2 pi n/sqrt(3) is valid for a gradient restricted to the dealiased range |f\_j| < n/3. It must not be assigned to the source's full \texttt{grad}, which has no internal mask. The transported context is not automatically restricted to that range.
+
+The context transport is discrete diffusion plus a bilinear map of velocity and context. Let T(C,u) denote that unchanged map. A conservative full-space estimate is
+
+
+
+\[
+\begin{aligned}
+\|T(C,u)-T(\widetilde C,\widetilde u)\|_2
+&\le12n^2D_{\rm diff}\|C-\widetilde C\|_2\\
+&\quad+6n\bigl(\|u\|_2\|C-\widetilde C\|_2
++\|\widetilde C\|_2\|u-\widetilde u\|_2\bigr).
+\end{aligned}
+\]
+
+
+
+\textbf{Proof.} Each face-context average is an L2 contraction. The source face-velocity multiplier is a phase times two sinc factors and has modulus at most one, so that map is also an L2 contraction. Each flux difference has operator norm at most 2n. For pointwise products use the bound by the product of the L-infinity and L2 norms, followed by L-infinity <= L2. Split the difference of products in the usual two terms and sum the three axes. The centered diffusion operator has norm at most 12n\textsuperscript{2}D\_diff. These estimates give the displayed inequality and hence local Lipschitz continuity, without assuming that spectral face interpolation is an L-infinity contraction. QED.
+
+\subsection*{4. Mechanical and thermal kernels}
+
+The source mechanical matrix M(X) is a tensor product of finite trigonometric sums. Each sum has bounded coefficients and frequencies. Thus M is smooth, bounded and globally Lipschitz, with constants depending on the fixed grid and widths.
+
+For the thermal width w = 0.045 define
+
+
+
+\[
+\psi(\delta)=\sum_{\sigma\in\{-1,0,1\}}
+e^{-(\delta+\sigma)^2/(2w^2)},\qquad
+\widetilde\psi(z)=\psi\bigl(((z+1/2)\bmod1)-1/2\bigr).
+\]
+
+
+
+\textbf{Lemma 2 (wrapped thermal kernel).} The periodic extension is continuous and globally Lipschitz, although its derivative need not agree across the seam. The source's normalized three-dimensional thermal kernel R is globally Lipschitz, nonnegative and row-stochastic.
+
+\textbf{Proof.} Symmetry of the three shifts gives evenness and the correct seam identity
+
+
+
+\[
+\psi(1/2)=\psi(-1/2)=2e^{-1/(8w^2)}+e^{-9/(8w^2)}.
+\]
+
+
+
+Each Gaussian derivative has absolute value at most 1/(w sqrt(e)). Therefore the derivative on each open seam interval is bounded by
+
+
+
+\[
+L_\psi=\frac{3}{w\sqrt e}.
+\]
+
+
+
+Split any finite interval at its finitely many seams, apply the derivative bound on each piece and use continuity at their endpoints. This proves the global Lipschitz estimate without differentiating at a seam.
+
+For any particle and axis there is a grid point within periodic distance 1/(2n). Its central Gaussian term gives the normalization bound
+
+
+
+\[
+Z_{p,j}(X)=\sum_{m=0}^{n-1}\widetilde\psi(X_{p,j}-x_m)
+\ge z_{\min}:=e^{-1/(8n^2w^2)}>0.
+\]
+
+
+
+For one axis write f(x) for one Gaussian factor, Z(x) for the row sum, and r\_m(x) = f(x)/Z(x). The correct quotient identity is
+
+
+
+\[
+r_m(x)-r_m(y)
+=\frac{f(x)-f(y)-r_m(y)[Z(x)-Z(y)]}{Z(x)}.
+\]
+
+
+
+Since 0 <= r\_m <= 1, this implies
+
+
+
+\[
+|r_m(x)-r_m(y)|\le C_R|x-y|,
+\qquad C_R=\frac{(1+n)L_\psi}{z_{\min}}.
+\]
+
+
+
+The three-dimensional entries are products of three factors in [0,1]. Telescoping the product, squaring the resulting bound and summing over particles and grid points gives the explicit finite estimate
+
+
+
+\[
+\|R(X)-R(Y)\|_F\le\sqrt{3n^3}\,C_R\|X-Y\|_F.
+\]
+
+
+
+Every factor is nonnegative and normalized, so each tensor-product row sums to one. QED.
+
+\subsection*{5. Activation, constitutive laws and all denominators}
+
+The following are the unchanged source expressions, interpreted in exact arithmetic. Their bounds are proof statements, not new evolution laws.
+
+\subsubsection*{5.1 Regularized threshold force}
+
+The selected source branch uses positive delta = 0.003 and epsilon = 0.012:
+
+
+
+\[
+q(g)=\sqrt{\|g\|_2^2+\delta^2}-\sqrt{\Gamma^2+\delta^2},
+\qquad
+a_e(q)=\begin{cases}0,&q\le0,\\q e^{-\epsilon^2/q^2},&q>0.\end{cases}
+\]
+
+
+
+The gradient of q has norm at most one. For q > 0,
+
+
+
+\[
+a_e'(q)=(1+2\epsilon^2/q^2)e^{-\epsilon^2/q^2}.
+\]
+
+
+
+Put v = epsilon\textsuperscript{2}/q\textsuperscript{2}. The derivative of (1+2v)e^-v is (1-2v)e^-v, so its maximum is 2/sqrt(e), attained at v = 1/2. Every higher right derivative at zero is a polynomial in 1/q times the same decaying exponential and tends to zero. Thus a\_e is smooth and globally Lipschitz with exact constant 2/sqrt(e). The source force C -> -sigma a\_e(q(gradient\_cd C)) e\_x is therefore globally Lipschitz with bound 2 sigma sqrt(3) n/sqrt(e).
+
+\subsubsection*{5.2 Viscosity, directional exposure and writing power}
+
+The unchanged viscosity is
+
+
+
+\[
+\nu(\theta)=\nu_0e^{-\beta_{\rm th}\tanh(\theta/0.03)},
+\qquad
+\nu_0e^{-\beta_{\rm th}}\le\nu(\theta)\le\nu_0e^{\beta_{\rm th}},
+\]
+
+
+
+where nu0 = 0.015 and beta\_th = 0.35. It is smooth and globally Lipschitz. Hence the viscous heating Qv = 2 nu D:D is nonnegative and locally Lipschitz in velocity and temperature.
+
+For the source directional rate r = d^T D\_p d, put r\_plus = max(r,0) and r\_minus = max(-r,0). The source split is
+
+
+
+\[
+\operatorname{raw}_{\pm}(r)
+=w_{\rm rate}\frac{r_{\pm}^2}{r_{\pm}^2+s_{\rm rate}^2},
+\qquad
+\left|\operatorname{raw}_{\pm}'(r)\right|
+\le\frac{3\sqrt3\,w_{\rm rate}}{8s_{\rm rate}}.
+\]
+
+
+
+These maps are nonnegative and C1, including at zero: squaring the positive part makes the one-sided derivatives agree. Differentiating the positive branch yields 2w\_rate r s\_rate\textsuperscript{2}/(r\textsuperscript{2}+s\_rate\textsuperscript{2})\textsuperscript{2}, whose maximum occurs at r = s\_rate/sqrt(3). The negative branch has the same absolute bound.
+
+The source's quadrature volumes, direction weights, material constants and thermal weights are positive or nonnegative as appropriate. Its sensitivity Y is a positive constant times exp(-m/m\_scale) times a squared strain. Consequently, for every finite exact-real state where the material expressions are defined,
+
+
+
+\[
+\begin{gathered}
+\mathrm{occ}=R^TV/\Delta v\ge0,\qquad
+\mathrm{avail}=R[Q_v/(1+\mathrm{occ})]\ge0,\\
+\mathrm{rawpower}_p=\sum_{k,\pm}Y_{p,k,\pm}\operatorname{raw}_{p,k,\pm}\ge0,\\
+\mathrm{den}_p=p_{\rm floor}+\eta\,\mathrm{avail}_p+\mathrm{rawpower}_p
+\ge p_{\rm floor}=10^{-5}.
+\end{gathered}
+\]
+
+
+
+Thus the source limiter eta avail/den and its writing and extraction products are locally Lipschitz. This argument does not require nonnegative m, and does not assert positive conductivity for every arbitrary negative-m state. It establishes the regularity needed here.
+
+\subsubsection*{5.3 Fiber normalization and structural fabric}
+
+The only normalized material directions are d = F\_pa\_k and d/||d||. On the compact ball from Lemma 1 their lengths are uniformly bounded below by rho\_F/2. The normalized direction dyads are smooth there with bounded derivatives. Combining them with the source exponentials in m, finite sums, M and R proves local Lipschitz regularity of the anisotropic conductivity, heat flux, elastic stress and material energy terms.
+
+The structural fabric uses the unchanged local strain and potential
+
+
+
+\[
+e_l(F)=\tfrac12(\|F_{p(l),\cdot,\alpha(l)}\|_2^2-1),\qquad
+W_l(e,b)=\tfrac12 k_{\rm micro}(e-b)^2
++\frac{H_{\rm well}}4\bigl((b/a)^2-1\bigr)^2.
+\]
+
+
+
+Its force, derivative with respect to b, relaxation rate -mu\_fab partial\_b W, heating mu\_fab (partial\_b W)\textsuperscript{2} and assembled stress are polynomials in F and b. They are smooth and locally Lipschitz. The structural derivative of write work is zero between events; its discrete increment is handled in Section 8.
+
+\subsection*{6. Social coupling and retrieval}
+
+The source strain sensor uses
+
+
+
+\[
+E(F_p)=\tfrac12(F_p^TF_p-I),\qquad\|E(F_p)\|_F.
+\]
+
+
+
+The norm need not be differentiable at E = 0, but
+
+
+
+\[
+\bigl|\|E(F)\|_F-\|E(G)\|_F\bigr|
+\le\tfrac12(\|F\|_F+\|G\|_F)\|F-G\|_F.
+\]
+
+
+
+Likewise, the source permission distance ||e\_j - norm\_i|| is Lipschitz in its two arguments. Adding exp(logradius) gives a locally Lipschitz margin. Differentiability of either norm at zero is not required.
+
+On a decoder ball from Lemma 1 the decoded record list is fixed. For each record with at least one present outcome, its outcome score, evidence vector, encoded tensor change, context and duration are fixed. The source cue is locally Lipschitz in the current context, F and association. Its difference from the stored feature, including the fixed field-feedback multiplier, is therefore locally Lipschitz. Each retrieval weight is
+
+
+
+\[
+w_m(s)=\Delta t_m\exp\!\left(-\frac{\|\mathrm{diff}_m(s)\|_2^2}{2w_{\rm hist}^2}\right)\ge0.
+\]
+
+
+
+Records with no outcome are skipped exactly as in the source. Nonnegative durations in \(\Omega_*\) establish the displayed sign. The retrieval expressions retain the source numerator, evidence channels and old-exposure indicator; for every directed pair their common denominator obeys
+
+
+
+\[
+p_{\rm hist}+\sum_m w_m(s)\ge p_{\rm hist}=0.12.
+\]
+
+
+
+Thus all retrieval outputs are locally Lipschitz. This proof does not claim a positive denominator for every record that merely passes CRC.
+
+The remaining social operations are fixed finite sums and products, norms already covered, sigmoid, tanh, exponentials, softmax, the bounded displacement delta/sqrt(1+||delta||\textsuperscript{2}), and log(0.55+0.45 sigmoid(z)). Their denominators or log arguments are strictly positive. The attachment matrix has nonnegative rows summing to one. Therefore source allocation from its transpose times a softmax vector has total one before the source's normalization, so that normalization is also well-defined.
+
+The room function is smooth in time. The prescribed signed sin\textsuperscript{2} pulse is continuous, including at 0, 0.5 and 1; its first derivative also matches there. Higher smoothness across those joins is not needed. All other explicit time inputs are fixed. It follows that the expression, context, norm, logradius, relation, response, association and accumulator derivatives, the scalar-source allocation and all ledgers are jointly continuous in (t,s) and locally Lipschitz in s, uniformly on bounded time intervals inside a fixed decoder ball.
+
+\subsection*{7. Complete inter-event existence and uniqueness}
+
+\textbf{Theorem 1.} At every s0 in \(\Omega_*\) and time t* strictly before the next scheduled checkpoint, the complete source RHS is continuous in time and locally Lipschitz in state, uniformly on a sufficiently small time interval. There is a unique local C1 solution starting from s0 before that checkpoint. Any two admissible inter-event solutions with the same initial state agree on their common interval of existence.
+
+\textbf{Proof of the RHS claim.} Take the compact full-state ball K from Lemma 1. The preceding sections cover each source construction. Velocity derivatives are built from finite spatial maps, pointwise products, the bounded-grid stress spread, threshold force, viscosity and projection. Context derivatives use the finite-volume transport and accumulator-dependent source. Temperature derivatives use advection, conductivity, heating, release and extraction. Position and deformation derivatives use M u and (M gradient u)F. Directional exposure uses the writing limiter. Fabric and write-work derivatives are covered in Section 5.3. Social derivatives, accumulator and all ledgers are covered in Section 6. No derivative or state coordinate is dropped.
+
+On K every continuous state coordinate is bounded, fiber lengths are bounded away from zero, records are fixed and every variable denominator used above has a positive lower bound. Finite products of bounded Lipschitz factors are Lipschitz. For quotients, use the positive denominator and the identity used in Section 4. Finite sums and compositions preserve the property. These facts give a finite L\_K, uniform in time on a bounded closed time interval, such that
+
+
+
+\[
+\|f(t,s)-f(t,\widetilde s)\|_2\le L_K\|s-\widetilde s\|_2
+\qquad(s,\widetilde s\in K).
+\]
+
+
+
+This establishes local Lipschitz regularity for the complete finite-dimensional RHS, not a resolution-independent estimate. QED for this claim.
+
+\textbf{Proof of local existence.} On the compact time-state neighborhood, continuity also bounds f by a finite M\_K. Choose a positive h smaller than the time to the next checkpoint, with h M\_K < r and h L\_K < 1 (zero constants impose no restriction). On continuous paths starting at s0 and lying in the closed radius-r ball, the map
+
+
+
+\[
+(\mathcal Pv)(t)=s_0+\int_{t_*}^{t}f(\tau,v(\tau))\,d\tau
+\]
+
+
+
+maps the set to itself and is a contraction in the supremum norm. Completeness and the contraction theorem give a unique fixed point. Continuity of f makes it C1 and a solution of the complete ODE, staying in \(\Omega_*\). QED for local existence.
+
+\textbf{Proof of inter-event uniqueness.} Suppose s and s\_tilde are two solutions with the same initial state. At any time where they agree, continuity places both trajectories for a short time in a common compact decoder ball. There define
+
+
+
+\[
+E_{\rm diff}(t)=\tfrac12\|s(t)-\widetilde s(t)\|_2^2.
+\]
+
+
+
+The local Lipschitz estimate and Cauchy-Schwarz give
+
+
+
+\[
+\dot E_{\rm diff}(t)
+=\langle s-\widetilde s,f(t,s)-f(t,\widetilde s)\rangle
+\le2L_KE_{\rm diff}(t).
+\]
+
+
+
+Multiplying by exp(-2L\_K t), or applying Grönwall, shows that zero initial difference stays zero on that neighborhood. If equality had a first finite endpoint inside the common interval, continuity and the same local argument at that endpoint would extend it, a contradiction. Equality therefore holds throughout the common interval; if both finite left limits exist at its final endpoint, those left limits agree. QED.
+
+This is local existence and uniqueness on the admissible open domain. The theorem alone supplies no uniform bound preventing unbounded state growth or approach to the domain boundary before the next event.
+
+\subsection*{8. Scheduled events and conditional hybrid uniqueness}
+
+Retain the source dictionary of captured start deformation arrays. At time zero capture any starts. After each continuous segment, process ending events in declared list order using the current state and the corresponding stored start array, then remove that event's stored start. Capture starts for the following interval after the ending writes. At a shared checkpoint this is the source order; F itself is unchanged by a write, but the complete state and dictionary still require the stated order.
+
+If E\_q = (epsilon\_1,...,epsilon\_r) is the ordered list of endings at t\_q, define the sequential updates
+
+
+
+\[
+\begin{aligned}
+s^{(0)}&=s(t_q^-),\\
+\mathrm{rec}_j&=\mathrm{make\_event}(s^{(j-1)},F_{{\rm start},\epsilon_j},\epsilon_j),\\
+s^{(j)}&=\mathrm{write\_event}(s^{(j-1)},\mathrm{rec}_j)_0
+\quad(1\le j\le r),\\
+s(t_q)&=s^{(r)}.
+\end{aligned}
+\]
+
+
+
+This is notation for the unchanged source composition, not a new reset law. Every successful write includes capacity and duplicate-ID checks, record/schema checks, quantization, CRC packing, the work-budget checks, the structural replacement, the source's filtered heat injection and write-work increment. The exact signed-16-bit encoding condition is
+
+
+
+\[
+-32768\le\operatorname{rint}(x/q)\le32767.
+\]
+
+
+
+The admissibility condition includes a nonnegative work value, a budget at least the source-required budget and defined execution of all diagnostics. The polynomial-root diagnostic in \texttt{prepare\_write} is not being replaced by an invented bound or a sampled maximum. It is part of the successful deterministic source execution assumption. Its reported peak is not the source's budget acceptance criterion: the source uses its conservative sum of positive work-polynomial coefficients.
+
+\textbf{Lemma 3 (successful writes preserve the repaired domain).} In the declared main configuration and schedule, a successful write from \(\Omega_*\) has its updated state in \(\Omega_*\).
+
+\textbf{Proof.} A successful write leaves F unchanged, so fiber lengths stay nonzero. All previously used slots remain unchanged, while every coordinate in the new slot is exactly +a or -a, strictly beyond the read margin. The source constructs a valid packed record and checksum. The scheduled main durations are positive after clock quantization. Its supplied observed/reported outcomes, quantized at 0.0001, remain in [-1,1]. The other encoded features are finite. Thus the new sign pattern is admissible for the continuous RHS. The finite heat and work changes affect unrestricted state coordinates and introduce no additional denominator. Therefore the updated state belongs to \(\Omega_*\). QED.
+
+More generally, the same argument applies whenever a successful encoding has nonnegative decoded duration and admissible decoded outcomes. For the selected decimal quantization steps, nearest-integer rounding is monotone, and rounding a value in [-1,1] to multiples of 0.0001 remains in [-1,1]. No claim of guaranteed write success follows from this preservation lemma.
+
+\textbf{Theorem 2 (conditional full hybrid uniqueness).} Fix the same initial complete state, empty initial start dictionary, declared inputs and event order. Suppose two hybrid trajectories exist through T = 1.6, follow the complete ODE in \(\Omega_*\) between checkpoints, have finite pre-write limits in \(\Omega_*\), and execute every scheduled source write successfully. Then their continuous states and captured-start dictionaries agree at every time. The trajectories are right-continuous, have left limits, and are C1 between jumps.
+
+\textbf{Proof.} Initial states and initial captures agree. If the states and dictionaries agree immediately after a checkpoint, Theorem 1 implies equality on the next inter-event interval and equality of the assumed finite left limits. The first ending record is a deterministic function of equal inputs, so its successful write gives equal outputs. Repeat through the finite ordered ending list. The same entries are removed, and subsequent captures copy equal F arrays. Lemma 3 supplies the next domain membership. Induction over all checkpoints proves the statement. Jumps are represented as right-continuous resets; no differentiability or continuity across a nonzero write is asserted. QED.
+
+The theorem proves \textbf{at most one admissible complete trajectory}. It does not prove there is one: continuation to each checkpoint, finite valid left limits and successful write execution remain substantive requirements. They are not replaced by an assumption that the full equation is Lipschitz or that the desired conclusion is true.
+
+\subsection*{9. The unchanged Heun step is a partial deterministic map}
+
+For a fixed step h, the source Heun update is
+
+
+
+\[
+k_1=f(t,s),\qquad s_{\rm pred}=s+hk_1,\qquad
+k_2=f(t+h,s_{\rm pred}),\qquad
+\Phi_h(t,s)=s+\tfrac h2(k_1+k_2).
+\]
+
+
+
+On the sufficient stage domain
+
+
+
+\[
+\mathcal D_{t,h}=\{s\in\Omega_*:s+hf(t,s)\in\Omega_*\},
+\]
+
+
+
+both RHS evaluations are defined, so the update is single-valued. To iterate the method with these hypotheses, its output must also belong to \(\Omega_*\). The unchanged source may accept additional states outside this sufficient mathematical domain; no claim that this is its maximal machine-execution domain is made.
+
+If every stage, output and scheduled write is defined and admissible, induction gives a unique discrete sequence. This statement concerns deterministic evaluation; it does not prove that stages remain admissible, that the method converges, or that floating-point values equal the exact-real solution.
+
+\subsection*{10. Verification boundary and preserved evidence}
+
+The accompanying testing packet retains the original LaTeX, all sealed source files, the earlier review including its failed dependency attempt, this corrected proof, the correction register and new verification receipts. The checks test source preservation, the repaired domain against the previous counterexamples, finite-grid bounds, kernel identities, activation/rate calculations and source write behavior. They supplement the written proof and are not substituted for universal analytical arguments.
+
+No new full-v3 Lean/nanoda certification, continuum-limit theorem, a priori continuation theorem, pressure/crushing law or empirical social conclusion is claimed. Earlier checked event lemmas remain historical evidence with their original limited scope. The triangle version is unchanged and none of its tests certify this model.
+
+\end{document}

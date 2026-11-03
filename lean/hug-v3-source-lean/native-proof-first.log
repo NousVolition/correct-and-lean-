@@ -1,0 +1,44 @@
+V3SourceProofs.lean:17:4: error: Tactic `split` failed: Could not split an `if` or `match` expression in the type
+  (do
+      let records ← some records
+      if
+            (∀ (p : Particle) (k : Direction), sqnorm (fiber G s p k) ≠ 0) ∧
+              (∀ pair ∈ records, outcomeValid pair.2.observed ∧ outcomeValid pair.2.report) ∧
+                (∀ (i j : Actor), 0.12 + exposure G s records i j ≠ 0) ∧
+                  (∀ (x : Grid), 1 + occupancy G s x ≠ 0) ∧ ∀ (p : Particle), powerDenominator G s p ≠ 0 then
+          some (rhsFromRecords G t s records)
+        else none) =
+    some d
+of `h`
+
+Hint: Use `set_option trace.split.failure true` to display additional diagnostic information
+
+case some
+G : Geometry
+t : ℝ
+s d : State
+records : List (Fin 4 × Record)
+hr : readRecords s = some records
+h :
+  (do
+      let records ← some records
+      if
+            (∀ (p : Particle) (k : Direction), sqnorm (fiber G s p k) ≠ 0) ∧
+              (∀ pair ∈ records, outcomeValid pair.2.observed ∧ outcomeValid pair.2.report) ∧
+                (∀ (i j : Actor), 0.12 + exposure G s records i j ≠ 0) ∧
+                  (∀ (x : Grid), 1 + occupancy G s x ≠ 0) ∧ ∀ (p : Particle), powerDenominator G s p ≠ 0 then
+          some (rhsFromRecords G t s records)
+        else none) =
+    some d
+⊢ ∃ records_1, some records = some records_1 ∧ d = rhsFromRecords G t s records_1
+V3SourceProofs.lean:16:19: warning: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hr] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+V3SourceProofs.lean:83:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+V3SourceProofs.lean:89:56: error: maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information

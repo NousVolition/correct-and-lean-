@@ -1,0 +1,23 @@
+{
+  "run_id": "20261101T053111.490037Z",
+  "model": "hug-structural-memory-v3",
+  "proof_revision": 2,
+  "scope": "Finite static checks and analytical identities; not a time-integrated run or full formal certificate.",
+  "checks": [
+    {
+      "name": "original_displayed_equations_exactly_retained",
+      "passed": true,
+      "count": 30
+    }
+  ],
+  "status": "FAIL_OR_INCOMPLETE",
+  "exception": "Traceback (most recent call last):\n  File \"C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\work\\verify_corrected_hug_proof.py\", line 62, in <module>\n    import sympy as sp\nModuleNotFoundError: No module named 'sympy'\n",
+  "preservation": {
+    "original_21": true,
+    "prior_snapshot_21": true,
+    "run_snapshot_21": true,
+    "frozen_inputs": true,
+    "triangle_files": true,
+    "original_attachment": true
+  }
+}

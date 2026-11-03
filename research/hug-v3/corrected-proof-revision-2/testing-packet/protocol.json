@@ -1,0 +1,31 @@
+{
+  "model": "hug-structural-memory-v3",
+  "proof_revision": 2,
+  "scope": "Static source-bound verification supporting the written conditional proof; no full trajectory or kernel certification.",
+  "source_edits_allowed": false,
+  "runtime_config": "unchanged sealed main declaration, gate required",
+  "tolerances": {"algebra_absolute": 1e-12, "relative_operator_slack": 1e-12, "normalized_kernel_sum": 1e-12},
+  "random_seed": 20261031,
+  "checks": [
+    "all 21 original, prior-review and new snapshot files match the existing source seal",
+    "original attachment and equation blocks preserved exactly",
+    "triangle model and its preserved source snapshots unchanged",
+    "main declaration gate accepts unchanged configuration",
+    "actual state coordinate count and scheduled checkpoint partition",
+    "corrected domain accepts empty initial state and valid decoded records",
+    "corrected domain rejects negative-duration and out-of-range-outcome counterexamples",
+    "zero-duration encoded record allowed and retrieval denominator stays positive",
+    "probe analog values can change while decoded bits and records remain fixed",
+    "full-state closed-ball margins agree with the revised analytical radius",
+    "corrected spectral bound covers all finite-grid mode symbols and former counterexample",
+    "centered-difference and conservative transport bounds on deterministic sample arrays",
+    "Gaussian seam value, quotient identity, row sums and positive normalization",
+    "symbolic activation and rate derivative extrema",
+    "successful static writes at declared main event metadata preserve corrected domain",
+    "duplicate write rejection leaves input state unchanged",
+    "source quantizer accepts -32768 and 32767 and rejects both adjacent outside values",
+    "proof formula strings retained in generated LaTeX and rendered HTML",
+    "PDF text, page bounds, missing-math errors and visual page inspection"
+  ],
+  "exclusions": ["global continuation to 1.6", "new Lean or nanoda run", "floating-point equivalence proof", "continuum limit", "physical pressure/crushing claims", "triangle simulation"]
+}

@@ -1,0 +1,43 @@
+InputRegularity.lean:13:13: error: don't know how to synthesize implicit argument `μ`
+  @ContinuousOn.aestronglyMeasurable ℝ ℝ Real.measurableSpace PseudoMetricSpace.toUniformSpace.toTopologicalSpace
+    PseudoMetricSpace.toUniformSpace.toTopologicalSpace (secondCountableTopologyEither_of_right ℝ ℝ)
+    BorelSpace.opensMeasurable PseudoEMetricSpace.pseudoMetrizableSpace f (Icc a b \ ↑cuts) ?m.73 hcont
+    (MeasurableSet.diff measurableSet_Icc (Finset.measurableSet cuts))
+context:
+f : ℝ → ℝ
+a b : ℝ
+cuts : Finset ℝ
+hcont : ContinuousOn f (Icc a b \ ↑cuts)
+M : ℝ
+hbound : ∀ t ∈ Icc a b, |f t| ≤ M
+heq : Icc a b \ ↑cuts =ᵐ[volume] Icc a b
+⊢ Measure ℝ
+InputRegularity.lean:13:7: error: failed to infer `have` declaration type
+InputRegularity.lean:9:73: error: unsolved goals
+f : ℝ → ℝ
+a b : ℝ
+cuts : Finset ℝ
+hcont : ContinuousOn f (Icc a b \ ↑cuts)
+M : ℝ
+hbound : ∀ t ∈ Icc a b, |f t| ≤ M
+heq : Icc a b \ ↑cuts =ᵐ[volume] Icc a b
+⊢ IntegrableOn f (Icc a b) volume
+InputRegularity.lean:21:39: error: Application type mismatch: The argument
+  integrableOn h
+has type
+  IntegrableOn f (Icc a b) volume
+but is expected to have type
+  IntegrableOn f (uIcc a b) volume
+in the application
+  IntegrableOn.intervalIntegrable (integrableOn h)
+InputRegularity.lean:25:10: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  LE Type
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+InputRegularity.lean:25:12: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat Type 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Type
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.

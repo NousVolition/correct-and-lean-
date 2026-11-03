@@ -1,0 +1,58 @@
+Lean verification of the audited Navier-Stokes commit
+
+PASS. The full Lean build, Comparator reference comparison and axiom check, independent nanoda check, and Lean kernel replay all completed successfully. The requested execution check is finalized.
+
+Exact source: f9e8bc5b38b6e212696e8a30e3e91517af887bbd
+Repository: https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd
+Lean: 4.34.0-rc2, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d
+Final Linux check: 2026-10-29T06:20:44+00:00 to 2026-10-29T06:38:44+00:00 (UTC)
+Comparator exit code: 0
+
+Verified results
+- Full native lake build: passed, 11,424 jobs, all default targets NavierStokes, Euler, and ComparatorChallenges.
+- Fresh Linux solution build inside Comparator: passed, 9,371 jobs, including 609 NavierStokes modules required by the final solution.
+- Comparator matched both target statements and their referenced definitions to the committed challenge, and checked their permitted axioms.
+- Independent nanoda: "nanoda kernel accepts the solution".
+- Lean kernel replay: "Lean default kernel accepts the solution".
+- Final Comparator result: "Your solution is okay!"; service exit 0/SUCCESS.
+
+The two verified targets
+1. NavierStokes.Comparator.navier_stokes_breakdown_R3
+2. NavierStokes.Comparator.navier_stokes_breakdown_periodic
+
+For each, Lean reported exactly [propext, Classical.choice, Quot.sound]. Comparator allowed only those three axioms, with nanoda enabled. No sorryAx or additional axiom was accepted in the solution proof closure. The two intentional sorry placeholders in the reference challenge specify statements for comparison; they are not accepted as proofs of the solution.
+
+Effect on m+4 versus m+5
+The earlier source audit found that every named direct caller retains or supplies the actual five-derivative requirement. Downstream quantitative classes provide bounds at every finite order, and repeated inversions budget the extra derivatives explicitly. The full build and the final independent checks now confirm that those requirements are discharged in the formal development and that both final formal theorems verify. The m+4/m+5 mismatch does not invalidate these formal final theorems at this commit.
+
+This result does not independently prove the paper's sharper m+4 estimate or certify every informal step in the paper. Comparator checks the committed formal reference statements and their referenced definitions. It does not establish equivalence with the user's corpus or validate or invalidate the separate A/S history mechanism. The earlier source audit remains a historical record; its then-unperformed build and Comparator checks have now been completed here.
+
+Integrity and execution conditions
+A fresh Linux checkout was fixed to the exact audited commit. The source tree and all 11 dependency trees were clean before and after checking; every dependency revision matched lake-manifest.json. The challenge, solution adapter, configuration, toolchain specification, and lockfile hashes were unchanged during the Linux run. Windows CRLF and Linux LF configuration hashes differ only in newline representation; the committed Git blob and parsed settings agree.
+
+The run used Ubuntu 26.04.1 LTS on WSL2, kernel 6.18.54.1-microsoft-standard-WSL2, as unprivileged user nsverify (uid 1000). Actual Landrun was used, with the documented systemd RestrictAddressFamilies=~AF_UNIX guard. Landlock ABI 7 was detected. Control probes verified that an allowed write succeeded, a prohibited write was denied, and AF_UNIX socket creation was denied. Windows interop was disabled for this new distro. No fake-landrun was used and no proof check was disabled.
+
+Tool revisions
+- Comparator: 19e111e2141cf333c7daff0f64c5f24acc91dd2e
+- lean4export: cacf989bd75f608700820f6afc595f32e7a99a4d
+- Landrun: ec104f6edc1e14d7fec6d31146f1ec6f9c192c5a
+- nanoda_lib 0.4.30: d0a02cc5defadd683f62f9d078f41688314fa31f
+
+The only custom launcher sets LEAN_NUM_THREADS=8 and passes all arguments to the unchanged pinned lake executable. It changes resource use, not proof sources or checking rules. The full invocation, launcher source, executable hashes, configuration, dependency revisions, and source hashes are recorded in comparator-linux-evidence.json.
+
+Comparator took 17 minutes 59.878 seconds, with recorded peak memory 18.7 GB and no swap use. The earlier native six-worker build was deliberately interrupted to increase parallelism; the subsequent twelve-worker full build passed. That interruption is preserved in the evidence and was not a proof rejection.
+
+Evidence files
+- comparator-linux.log: complete Linux Comparator output and final acceptance messages.
+- comparator-linux-evidence.json: execution details and final integrity checks.
+- comparator-isolation.log: Landrun and AF_UNIX control probes.
+- lean-verification-evidence.json: combined native and Linux evidence with checksums.
+- lean-build-complete.log: successful full native build, including both final axiom reports.
+- lean-build-initial-interrupted.log: earlier native build progress before the worker change.
+- lean-mathlib-cache.log: native dependency/cache preparation.
+- inverse-estimate-dependency-audit.txt: earlier call-site audit and derivative-budget reasoning.
+
+Primary references
+https://github.com/leanprover/lean4/releases/tag/v4.34.0-rc2
+https://github.com/leanprover/comparator/blob/19e111e2141cf333c7daff0f64c5f24acc91dd2e/README.md
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/ComparatorChallenges/NavierStokes.json

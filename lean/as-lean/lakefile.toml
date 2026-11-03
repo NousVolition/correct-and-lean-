@@ -1,0 +1,27 @@
+name = "ASProof"
+version = "0.1.0"
+defaultTargets = ["ASProofs", "ASOpenClaims"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+
+[[require]]
+name = "Comparator"
+scope = "leanprover"
+git = "https://github.com/leanprover/comparator.git"
+rev = "19e111e2141cf333c7daff0f64c5f24acc91dd2e"
+
+[[lean_lib]]
+name = "ASModel"
+
+[[lean_lib]]
+name = "ASProofs"
+
+[[lean_lib]]
+name = "ASChallenge"
+
+[[lean_lib]]
+name = "ASOpenClaims"

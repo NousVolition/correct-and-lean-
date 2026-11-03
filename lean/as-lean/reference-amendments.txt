@@ -1,0 +1,5 @@
+Before proof implementation: grouped structure fields were incorrectly read
+as binders by Lean. They were expanded to one typed field per line. No field,
+equation, theorem statement or hypothesis changed. The initial freeze record
+is retained as reference-freeze-initial-syntax.json. The final pre-proof
+reference-freeze.json records the corrected declaration syntax.

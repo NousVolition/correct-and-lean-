@@ -1,0 +1,13 @@
+{
+  "target": "SocialAS.Verified.full_existence_uniqueness",
+  "statement": "SocialAS.Open.FullExistenceUniqueness",
+  "scope": "Exact prior full coupled integral-solution target, including switched bounded inputs; no equation or assumption changes",
+  "files": {
+    "ASModel.lean": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513",
+    "ASOpenClaims.lean": "632f32a31874e7b57f40590b3abd41e2dee043ff7a6fe7e5b5d27bda116f135a",
+    "ASExistenceChallenge.lean": "0082334b1a62f89626f670f4ae5975c7c46721bb702a7997a9c53fcedaecb1a5",
+    "source-equations.json": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318",
+    "source-protocol.json": "cd3da93d6ab15d19fc01813da63a64ca0ba99c5bc027014b9cf3adf2cc7d97f1",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
+  }
+}

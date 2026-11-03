@@ -1,0 +1,34 @@
+{
+  "files": {
+    "comparator.json": "58bb2acfab83cc604fc49193fadbc949e236dd5f578b52df89072c58248fa567",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "ce38af5052028835f7388b6327f6f1a59f387de4517061087de05c05dc20a805",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "V3DelayChallenge.lean": "7b9521e251af62735b18fb335d927a975171849548d9ae39bb2a290f8a4c15da",
+    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
+  },
+  "theorems": [
+    "HugV3.Source.DelayVerified.socialFrom_self",
+    "HugV3.Source.DelayVerified.present_physical_blocks",
+    "HugV3.Source.DelayVerified.buffered_social_blocks",
+    "HugV3.Source.DelayVerified.material_records_remain_present",
+    "HugV3.Source.DelayVerified.zero_delay_recovers_original",
+    "HugV3.Source.DelayVerified.delay_preserves_current_physical_rate",
+    "HugV3.Source.DelayVerified.delay_uses_buffered_social_rate",
+    "HugV3.Source.DelayVerified.buffer_reads_strictly_past",
+    "HugV3.Source.DelayVerified.history_zero_delay"
+  ],
+  "frozen_utc": "2026-11-01T23:14:10.677296+00:00",
+  "scope": "Nine timing/projection identities only. No delayed trajectory, existence, uniqueness, invariance or stability theorem.",
+  "syntax_amendment": {
+    "original_manifest_sha256": "fb414a2df1931cbcc2a949e890d8ff9b32d251957434806f8ab5673d1fce1dca",
+    "reason": "Multiline structure-update layout corrected. Initial source and manifest retained. No theorem or equation change.",
+    "amended_utc": "2026-11-01T23:16:29.093594+00:00"
+  }
+}

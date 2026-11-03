@@ -1,0 +1,31 @@
+Running as unit: hug-v3-hybrid-comparator-20261101.service; invocation ID: 5dc2f15dba084505bbed5edb23ff8e49
+Building HybridChallenge
+✔ [3032/3035] Built HybridSpecification (9.8s)
+✔ [3033/3035] Built V3HybridSpecification (1.7s)
+⚠ [3034/3035] Built HybridChallenge (1.6s)
+warning: HybridChallenge.lean:6:8: declaration uses `sorry`
+warning: HybridChallenge.lean:11:8: declaration uses `sorry`
+warning: HybridChallenge.lean:16:8: declaration uses `sorry`
+warning: HybridChallenge.lean:21:8: declaration uses `sorry`
+warning: HybridChallenge.lean:25:8: declaration uses `sorry`
+warning: HybridChallenge.lean:31:8: declaration uses `sorry`
+warning: HybridChallenge.lean:35:8: declaration uses `sorry`
+warning: HybridChallenge.lean:37:8: declaration uses `sorry`
+warning: HybridChallenge.lean:42:8: declaration uses `sorry`
+Build completed successfully (3035 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, Hybrid.Verified.read_margin_stable, Hybrid.Verified.decoded_value_stable, Hybrid.Verified.trace_uniqueness, Hybrid.Verified.trace_exists, Hybrid.Verified.assemble_exists_unique, Hybrid.Verified.event_failure_excluded, Hybrid.Verified.v3_main_time_order, Hybrid.Verified.v3_simultaneous_event_order, Hybrid.Verified.v3_main_conditional, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from HybridChallenge
+Building HybridProofs
+⚠ [3034/3035] Built HybridProofs (1.7s)
+warning: HybridProofs.lean:85:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+Build completed successfully (3035 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, Hybrid.Verified.read_margin_stable, Hybrid.Verified.decoded_value_stable, Hybrid.Verified.trace_uniqueness, Hybrid.Verified.trace_exists, Hybrid.Verified.assemble_exists_unique, Hybrid.Verified.event_failure_excluded, Hybrid.Verified.v3_main_time_order, Hybrid.Verified.v3_simultaneous_event_order, Hybrid.Verified.v3_main_conditional, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from HybridProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 31.703s
+             CPU time consumed: 25.518s
+                   Memory peak: 4.6G (swap: 0B)

@@ -1,0 +1,44 @@
+BridgeSolution.lean:7:2: error: Type mismatch: After simplification, term
+  HasDerivAt.const_mul (v / L) (hasDerivAt_id y)
+ has type
+  @HasDerivAt ℝ DenselyNormedField.toNontriviallyNormedField ℝ Real.normedCommRing.toAddCommGroup
+    (NormedAlgebra.toNormedSpace ℝ).toModule PseudoMetricSpace.toUniformSpace.toTopologicalSpace ⋯ (fun y => v / L * y)
+    (v / L) y
+but is expected to have type
+  @HasDerivAt ℝ DenselyNormedField.toNontriviallyNormedField ℝ Real.instAddCommGroup Semiring.toModule
+    PseudoMetricSpace.toUniformSpace.toTopologicalSpace ⋯ (shearVelocity v L) (v / L) y
+BridgeSolution.lean:13:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+BridgeSolution.lean:24:6: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+BridgeSolution.lean:24:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+BridgeSolution.lean:73:9: error: Application type mismatch: The argument
+  ha
+has type
+  p.volume * aAB = p.length ^ 2 * p.damping
+but is expected to have type
+  p.volume * aAB = p.damping * p.length ^ 2
+in the application
+  And.intro ha
+'HugNavierBridge.Verified.shear_derivative' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'HugNavierBridge.Verified.shear_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierBridge.Verified.nonzero_shear_not_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierBridge.Verified.strain_matching' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierBridge.Verified.argument_matching' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierBridge.Verified.guard_diffusion_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierBridge.Verified.four_rates_agree_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierBridge.Verified.power_matching' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierBridge.Verified.power_matching_necessary' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'HugNavierBridge.Verified.primary_required_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierBridge.Verified.primary_power_matches' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierBridge.Verified.same_number_chi_is_not_same_argument' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HugNavierBridge.Verified.nonzero_diffusion_blocks_local_match' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HugNavierBridge.Verified.simultaneous_conditional_bridge' depends on axioms: [propext, Classical.choice, Quot.sound]

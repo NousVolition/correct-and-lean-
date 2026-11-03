@@ -1,0 +1,10 @@
+⚠ [3114/3116] Replayed V3DelayProofs
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3115/3116] Built V3MemoryRulesProofs (9.7s)
+Build completed successfully (3116 jobs).

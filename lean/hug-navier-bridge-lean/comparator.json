@@ -1,0 +1,26 @@
+{
+  "challenge_module": "BridgeChallenge",
+  "solution_module": "BridgeSolution",
+  "enable_nanoda": true,
+  "theorem_names": [
+    "HugNavierBridge.Verified.shear_derivative",
+    "HugNavierBridge.Verified.shear_contraction",
+    "HugNavierBridge.Verified.nonzero_shear_not_periodic",
+    "HugNavierBridge.Verified.strain_matching",
+    "HugNavierBridge.Verified.argument_matching",
+    "HugNavierBridge.Verified.guard_diffusion_residual",
+    "HugNavierBridge.Verified.four_rates_agree_iff",
+    "HugNavierBridge.Verified.power_matching",
+    "HugNavierBridge.Verified.power_matching_necessary",
+    "HugNavierBridge.Verified.primary_required_coefficients",
+    "HugNavierBridge.Verified.primary_power_matches",
+    "HugNavierBridge.Verified.same_number_chi_is_not_same_argument",
+    "HugNavierBridge.Verified.nonzero_diffusion_blocks_local_match",
+    "HugNavierBridge.Verified.simultaneous_conditional_bridge"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

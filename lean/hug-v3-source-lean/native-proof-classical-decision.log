@@ -1,0 +1,4 @@
+V3SourceProofs.lean:18:4: error: maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+V3SourceProofs.lean:89:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead

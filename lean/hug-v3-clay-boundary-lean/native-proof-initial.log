@@ -1,0 +1,191 @@
+V3ClayProofs.lean:40:40: error: linarith failed to find a contradiction
+case h1
+s : ℝ → State
+a b : ℝ
+l : Cell
+hc : ContinuousOn (fun t => (s t).b l) (Icc a b)
+hd : ∀ t ∈ Ico a b, HasDerivWithinAt (fun τ => (s τ).b l) (fabricRate (fabricStrain (s t).F l) ((s t).b l)) (Ici t) t
+ha : 3 / 500 ≤ (s a).b l
+t : ℝ
+ht : t ∈ Ico a b
+heq : (-fun t => (s t).b l) t = -(3 / 500)
+a✝ : (s t).b l < 3 / 500
+⊢ False
+failed
+V3ClayProofs.lean:45:2: error: linarith failed to find a contradiction
+s : ℝ → State
+a b : ℝ
+l : Cell
+hc : ContinuousOn (fun t => (s t).b l) (Icc a b)
+hd : ∀ t ∈ Ico a b, HasDerivWithinAt (fun τ => (s τ).b l) (fabricRate (fabricStrain (s t).F l) ((s t).b l)) (Ici t) t
+ha : 3 / 500 ≤ (s a).b l
+bound : ∀ ⦃x : ℝ⦄, x ∈ Icc a b → (-fun t => (s t).b l) x ≤ -(3 / 500)
+t : ℝ
+ht : t ∈ Icc a b
+this : (-fun t => (s t).b l) t ≤ -(3 / 500)
+a✝ : (s t).b l < 3 / 500
+⊢ False
+failed
+V3ClayProofs.lean:60:6: error: Type mismatch
+  negative_buffer_inward (s t).F l (hF t ht)
+has type
+  fabricRate (fabricStrain (s t).F l) (-3 / 500) < 0
+but is expected to have type
+  fabricRate (fabricStrain (s t).F l) (-(3 / 500)) < 0
+V3ClayProofs.lean:110:4: error: Tactic `split` failed: Could not split an `if` or `match` expression in the type
+  (have account := writeAccount G s (targetFabric s slot bytes);
+    if account.requiredBudget > 1 / 50 ∨ account.work < 0 then none
+    else
+      have heatGrid := fun x => (∑ p, R s.X p x * G.V p * account.heat p) / dv;
+      pure
+        { g := fun x j => s.g x j + if j = 4 then filt heatGrid x else 0, X := s.X, F := s.F, m := s.m,
+          b := account.target, A := s.A, ledger := s.ledger, writeWork := s.writeWork + account.work,
+          expression := s.expression, context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+          relation := s.relation, responses := s.responses, association := s.association }) =
+    some w
+of `hw`
+
+Hint: Use `set_option trace.split.failure true` to display additional diagnostic information
+
+case isFalse
+G : Geometry
+s w : State
+r : Record
+hs : ClayBuffer s
+hw✝² :
+  (do
+      let records ← readRecords s
+      if (records.any fun r_1 => r_1.2.eventID == r.eventID) = true then none
+        else do
+          let free ← List.find? (fun slot => !records.any fun r => r.1 == slot) (List.ofFn fun slot => slot)
+          let bytes ← payload r
+          have account : WriteAccount := writeAccount G s (targetFabric s free bytes)
+          if account.requiredBudget > 1 / 50 ∨ account.work < 0 then none
+            else
+              have heatGrid := fun x => (∑ p, R s.X p x * G.V p * account.heat p) / dv;
+              pure
+                { g := fun x j => s.g x j + if j = 4 then filt heatGrid x else 0, X := s.X, F := s.F, m := s.m,
+                  b := account.target, A := s.A, ledger := s.ledger, writeWork := s.writeWork + account.work,
+                  expression := s.expression, context := s.context, normCenter := s.normCenter,
+                  logRadius := s.logRadius, relation := s.relation, responses := s.responses,
+                  association := s.association }) =
+    some w
+records : List (Fin 4 × Record)
+left✝² : readRecords s = some records
+h✝ : ¬(records.any fun r_1 => r_1.2.eventID == r.eventID) = true
+hw✝¹ :
+  (do
+      let free ← List.find? (fun slot => !records.any fun r => r.1 == slot) (List.ofFn fun slot => slot)
+      let bytes ← payload r
+      have account : WriteAccount := writeAccount G s (targetFabric s free bytes)
+      if account.requiredBudget > 1 / 50 ∨ account.work < 0 then none
+        else
+          have heatGrid := fun x => (∑ p, R s.X p x * G.V p * account.heat p) / dv;
+          pure
+            { g := fun x j => s.g x j + if j = 4 then filt heatGrid x else 0, X := s.X, F := s.F, m := s.m,
+              b := account.target, A := s.A, ledger := s.ledger, writeWork := s.writeWork + account.work,
+              expression := s.expression, context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+              relation := s.relation, responses := s.responses, association := s.association }) =
+    some w
+slot : Fin 4
+left✝¹ : List.find? (fun slot => !records.any fun r => r.1 == slot) (List.ofFn fun slot => slot) = some slot
+hw✝ :
+  (do
+      let bytes ← payload r
+      have account : WriteAccount := writeAccount G s (targetFabric s slot bytes)
+      if account.requiredBudget > 1 / 50 ∨ account.work < 0 then none
+        else
+          have heatGrid := fun x => (∑ p, R s.X p x * G.V p * account.heat p) / dv;
+          pure
+            { g := fun x j => s.g x j + if j = 4 then filt heatGrid x else 0, X := s.X, F := s.F, m := s.m,
+              b := account.target, A := s.A, ledger := s.ledger, writeWork := s.writeWork + account.work,
+              expression := s.expression, context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+              relation := s.relation, responses := s.responses, association := s.association }) =
+    some w
+bytes : List ℕ
+left✝ : payload r = some bytes
+hw :
+  (have account := writeAccount G s (targetFabric s slot bytes);
+    if account.requiredBudget > 1 / 50 ∨ account.work < 0 then none
+    else
+      have heatGrid := fun x => (∑ p, R s.X p x * G.V p * account.heat p) / dv;
+      pure
+        { g := fun x j => s.g x j + if j = 4 then filt heatGrid x else 0, X := s.X, F := s.F, m := s.m,
+          b := account.target, A := s.A, ledger := s.ledger, writeWork := s.writeWork + account.work,
+          expression := s.expression, context := s.context, normCenter := s.normCenter, logRadius := s.logRadius,
+          relation := s.relation, responses := s.responses, association := s.association }) =
+    some w
+⊢ ClayBuffer w
+V3ClayProofs.lean:154:52: error: unsolved goals
+s : State
+records : List (Fin 4 × Record)
+h : ¬∀ (l : Cell), 1 / 200 ≤ |probeEstimate s l|
+hr :
+  (∀ (x : Cell), 200⁻¹ ≤ |probeEstimate s x|) ∧
+    ((((unpack (slotBytes s 0)).bind fun r => some (Option.map (fun record => (0, record)) r)).bind fun __do_lift =>
+            (((unpack (slotBytes s 1)).bind fun r => some (Option.map (fun record => (1, record)) r)).bind
+                  fun __do_lift =>
+                  (((unpack (slotBytes s 2)).bind fun r => some (Option.map (fun record => (2, record)) r)).bind
+                        fun __do_lift =>
+                        (((unpack (slotBytes s 3)).bind fun r => some (Option.map (fun record => (3, record)) r)).bind
+                              fun __do_lift => some [__do_lift]).bind
+                          fun __do_lift_1 => some (__do_lift :: __do_lift_1)).bind
+                    fun __do_lift_1 => some (__do_lift :: __do_lift_1)).bind
+              fun __do_lift_1 => some (__do_lift :: __do_lift_1)).bind
+        fun rows => some (List.filterMap (fun x => x) rows)) =
+      some records
+⊢ False
+V3ClayProofs.lean:156:22: warning: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [readRecords] at hr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+V3ClayProofs.lean:203:8: error: Tactic `rewrite` failed: motive is not type correct:
+  fun _a =>
+    (if _a then 2 ^ ↑bit else 0) = if 0 < probeEstimate (s a) (cellAt slot ⟨↑byte * 8 + ↑bit, ⋯⟩) then 2 ^ ↑bit else 0
+Error: Application type mismatch: The argument
+  Real.decidableLT 0 (probeEstimate (s t) (cellAt slot ⟨↑byte * 8 + ↑bit, ⋯⟩))
+has type
+  Decidable (0 < probeEstimate (s t) (cellAt slot ⟨↑byte * 8 + ↑bit, ⋯⟩))
+but is expected to have type
+  Decidable _a
+in the application
+  @ite ℕ _a (Real.decidableLT 0 (probeEstimate (s t) (cellAt slot ⟨↑byte * 8 + ↑bit, ⋯⟩)))
+
+Explanation: The rewrite tactic rewrites an expression 'e' using an equality 'a = b' by the following process. First, it looks for all 'a' in 'e'. Second, it tries to abstract these occurrences of 'a' to create a function 'm := fun _a => ...', called the *motive*, with the property that 'm a' is definitionally equal to 'e'. Third, we observe that 'congrArg' implies that 'm a = m b', which can be used with lemmas such as 'Eq.mpr' to change the goal. However, if 'e' depends on specific properties of 'a', then the motive 'm' might not typecheck.
+
+Possible solutions: use rewrite's 'occs' configuration option to limit which occurrences are rewritten, or use 'simp' or 'conv' mode, which have strategies for certain kinds of dependencies (these tactics can handle proofs and 'Decidable' instances whose types depend on the rewritten term, and 'simp' can apply user-defined '@[congr]' theorems as well).
+
+s : ℝ → State
+a b : ℝ
+hc : ∀ (l : Cell), ContinuousOn (fun t => (s t).b l) (Icc a b)
+hr : ∀ t ∈ Icc a b, ∃ records, readRecords (s t) = some records
+t : ℝ
+ht : t ∈ Icc a b
+hab : a ≤ b
+ha : a ∈ Icc a b
+hm : ∀ x ∈ Icc a b, ∀ (l : Cell), 1 / 200 ≤ |(s x).b l|
+hsign : ∀ (l : Cell), 0 < probeEstimate (s t) l ↔ 0 < probeEstimate (s a) l
+slot : Fin 4
+byte : Fin 4658
+bit : Fin 8
+a✝ : bit ∈ Finset.univ
+⊢ (if 0 < probeEstimate (s t) (cellAt slot ⟨↑byte * 8 + ↑bit, ⋯⟩) then 2 ^ ↑bit else 0) =
+    if 0 < probeEstimate (s a) (cellAt slot ⟨↑byte * 8 + ↑bit, ⋯⟩) then 2 ^ ↑bit else 0
+V3ClayProofs.lean:208:51: warning: `if_false` has been deprecated: Use `ite_false` instead
+V3ClayProofs.lean:208:33: warning: This simp argument is unused:
+  not_true_eq_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [readRecords, hgt, hga, if_false, hbytes]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+V3ClayProofs.lean:208:51: warning: This simp argument is unused:
+  if_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [readRecords, hgt, hga, not_true_eq_false, hbytes]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

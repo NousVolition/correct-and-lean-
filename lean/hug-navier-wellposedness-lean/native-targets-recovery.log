@@ -1,0 +1,4 @@
+WellposednessChallenge.lean:8:8: warning: declaration uses `sorry`
+WellposednessChallenge.lean:12:8: warning: declaration uses `sorry`
+WellposednessChallenge.lean:15:8: warning: declaration uses `sorry`
+WellposednessChallenge.lean:18:8: warning: declaration uses `sorry`

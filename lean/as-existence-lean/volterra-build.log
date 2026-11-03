@@ -1,0 +1,50 @@
+Volterra.lean:18:0: warning: automatically included section variable(s) unused in theorem `Volterra.extend_continuous`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Volterra.lean:21:8: warning: automatically included section variable(s) unused in theorem `Volterra.extend_val`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Volterra.lean:131:43: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+Volterra.lean:142:10: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  extend hab ycurve s
+in the target expression
+  (fun x => F x (extend hab ycurve x)) s = (fun x => F x (y x)) s
+
+case e_a
+E : Type u_1
+inst✝² : NormedAddCommGroup E
+inst✝¹ : NormedSpace ℝ E
+inst✝ : CompleteSpace E
+a b : ℝ
+hab : a ≤ b
+F : ℝ → E → E
+x₀ : E
+K : ℝ≥0
+hint : ∀ (x : ℝ → E), ContinuousOn x (Icc a b) → IntervalIntegrable (fun t => F t (x t)) volume a b
+hlip : ∀ t ∈ Icc a b, LipschitzWith K (F t)
+x : Curve a b E
+hx : IsFixedPt (step hab F x₀ hint) x
+hunique : ∀ (y : Curve a b E), IsFixedPt (step hab F x₀ hint) y → y = x
+hxval : ∀ (t : ↑(Icc a b)), x t = x₀ + ∫ (s : ℝ) in a..↑t, F s (extend hab x s)
+y : ℝ → E
+hy : Solution F a b x₀ y
+ycurve : Curve a b E := { toFun := (Icc a b).restrict y, continuous_toFun := ⋯ }
+hext : ∀ t ∈ Icc a b, extend hab ycurve t = y t
+t : ↑(Icc a b)
+s : ℝ
+hs : s ∈ uIcc a ↑t
+⊢ (fun x => F x (extend hab ycurve x)) s = (fun x => F x (y x)) s
+Volterra.lean:146:4: error: Type mismatch: After simplification, term
+  h
+ has type
+  @Eq E ({ toFun := (Icc a b).restrict y, continuous_toFun := ⋯ } ⟨t, ht⟩) (x ⟨t, ht⟩)
+but is expected to have type
+  @Eq E (y t) (x ⟨t, ht⟩)

@@ -1,0 +1,28 @@
+{
+  "source_commits": {
+    "original": "7fbc7f28f685c86f824d7587aff91feedf20d3da",
+    "later": "b4ae2c54cd85bfef282c501ecfca83de274e2070"
+  },
+  "unchanged_model_file": "ActiveHugModel.lean",
+  "unchanged_model_sha256": "be9d734610480ae9376bfd38b287c2bb9b7758cb50e29109bcf26656a7885f19",
+  "prior_package_receipt": {
+    "archive": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\outputs\\hug-squeeze-lean-proof-package.zip",
+    "sha256": "19cffa63173d76cbe2e1a5e09b34dbc9d033f41295870653d4c4bb6ae62b8af1",
+    "bytes": 73215,
+    "files": 42,
+    "claims": 51,
+    "result": "PASS for stated scope"
+  },
+  "source_snapshot_hashes": {
+    "sources/active-guard-METHODS.md": "d1d280ecd06c1f31aaa46c3117b5c84cd6534dd24d19ce10494f633221c047bd",
+    "sources/active-guard-model.py": "e1f83325f63c956d399294b6dda748a34d6f469d8a42319f28e1d02ea3366921",
+    "sources/active-guard-protocol.json": "56ce38b4ddd8b8e94272f563cfd16b92170e48c7c4769dea15b46133a1293b4f",
+    "sources/hug_envelope.py": "ca9ecb26d42a629c89d73e19216c3d2a0da2b77c8bccd5b6ab0064a1b225a83c",
+    "sources/interaction-equation.md": "5b3621f4832403dd14a07a032b593afed53b53c122d96b858e4a2c6fc959b0ac",
+    "sources/memory-METHODS.md": "fd1c7a2008a33758a4e858f4c1a3cb23d29e1e400ba5441b5d24162e993e323e",
+    "sources/movement-SPECIFICATION_STATUS.md": "2d6243672265427dd77ad0414a1c0df4aae9ef7bf4fa93c4abc589571f955600",
+    "sources/norm-entropy-mirror.md": "0ecd9b9c68241c5194e6dac3a3cf3f917ff8095fe685084140091a6d90cb1bd3",
+    "sources/pressure_envelope.py": "0e49e34fdde4b9f9d6f62b428dcffcef8f64cd70a743d0acacee5c71d01b8146",
+    "sources/soft-envelope.md": "d00daaf72ceaf23089164ee4f6ca33d73dd18e0aa4b65fb501b0735ed694c242"
+  }
+}

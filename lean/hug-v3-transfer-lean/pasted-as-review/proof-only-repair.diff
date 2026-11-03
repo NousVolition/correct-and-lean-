@@ -1,0 +1,160 @@
+--- Original supplied PastedASProofs.lean
++++ RepairedASProofs.lean
+@@ -22,9 +22,9 @@
+ 5. **Encounter probability bounds and meaning-simplex preservation (E6–E10)**,
+    proving `opening` and `conditionalRegistration` lie in `[0, 1]`, `branches p q` forms
+    a 3-outcome probability simplex, `update beta false H M = H`, and `update` preserves `Simplex`.
+-6. **Integral-equation uniqueness results (`IntegralSolution`)**, including unconditional
+-   uniqueness of the accumulated source coordinate `x t 0 = y t 0`, the exact integral
+-   difference identity for all seven coordinates, and cascade uniqueness.
++6. **Integral-equation uniqueness results (`IntegralSolution`)**, including
++   uniqueness of the accumulated source coordinate for shared external input `x t 0 = y t 0`, the exact integral
++   difference identity for all seven coordinates, and coordinate uniqueness conditional on equal drifts (not a completed cascade proof).
+ -/
+ 
+ namespace SocialAS.Verified
+@@ -150,8 +150,7 @@
+       |L₁ - L₂| / scale - scale * |L₁ - L₂| / ((L₁ + scale) * (L₂ + scale)) =
+         |L₁ - L₂| * ((L₁ + scale) * (L₂ + scale) - scale * scale) /
+           (scale * ((L₁ + scale) * (L₂ + scale))) := by
+-    field_simp
+-    ring
++    field_simp <;> ring
+   have hnonneg :
+       0 ≤ |L₁ - L₂| * ((L₁ + scale) * (L₂ + scale) - scale * scale) /
+         (scale * ((L₁ + scale) * (L₂ + scale))) := by
+@@ -182,17 +181,27 @@
+ theorem exchange_lipschitz_in_gap {w chi : ℝ} (hw : 0 ≤ w) (hchi : UnitInterval chi)
+     (g₁ g₂ : ℝ) :
+     |exchange w chi g₁ - exchange w chi g₂| ≤ w * |g₁ - g₂| := by
+-  rcases hchi with ⟨hchi0, hchi1⟩
++  rcases hchi with ⟨hc0, hc1⟩
++  have hraw : |(g₁-chi*pos g₁)-(g₂-chi*pos g₂)| ≤ |g₁-g₂| := by
++    rcases le_total g₁ 0 with h₁ | h₁ <;> rcases le_total g₂ 0 with h₂ | h₂
++    · simp [pos_of_nonpos h₁,pos_of_nonpos h₂]
++    · rw [pos_of_nonpos h₁,pos_of_nonneg h₂]
++      have ha : g₁-chi*0-(g₂-chi*g₂) ≤ 0 := by
++        nlinarith [mul_nonneg (sub_nonneg.mpr hc1) h₂]
++      rw [abs_of_nonpos ha,abs_of_nonpos (by linarith : g₁-g₂≤0)]
++      nlinarith [mul_nonneg hc0 h₂]
++    · rw [pos_of_nonneg h₁,pos_of_nonpos h₂]
++      have ha : 0 ≤ g₁-chi*g₁-(g₂-chi*0) := by
++        nlinarith [mul_nonneg (sub_nonneg.mpr hc1) h₁]
++      rw [abs_of_nonneg ha,abs_of_nonneg (by linarith : 0≤g₁-g₂)]
++      nlinarith [mul_nonneg hc0 h₁]
++    · rw [pos_of_nonneg h₁,pos_of_nonneg h₂]
++      have heq : (g₁-chi*g₁)-(g₂-chi*g₂)=(1-chi)*(g₁-g₂) := by ring
++      rw [heq,abs_mul,abs_of_nonneg (sub_nonneg.mpr hc1)]
++      nlinarith [mul_nonneg hc0 (abs_nonneg (g₁-g₂))]
+   unfold exchange
+-  rcases le_total g₁ 0 with hg₁ | hg₁ <;> rcases le_total g₂ 0 with hg₂ | hg₂
+-  · rw [pos_of_nonpos hg₁, pos_of_nonpos hg₂, abs_le]
+-    constructor <;> nlinarith [le_abs_self (g₁ - g₂), neg_le_abs (g₁ - g₂)]
+-  · rw [pos_of_nonpos hg₁, pos_of_nonneg hg₂, abs_le]
+-    constructor <;> nlinarith [le_abs_self (g₁ - g₂), neg_le_abs (g₁ - g₂)]
+-  · rw [pos_of_nonneg hg₁, pos_of_nonpos hg₂, abs_le]
+-    constructor <;> nlinarith [le_abs_self (g₁ - g₂), neg_le_abs (g₁ - g₂)]
+-  · rw [pos_of_nonneg hg₁, pos_of_nonneg hg₂, abs_le]
+-    constructor <;> nlinarith [le_abs_self (g₁ - g₂), neg_le_abs (g₁ - g₂)]
++  rw [← mul_sub,abs_mul,abs_of_nonneg hw]
++  exact mul_le_mul_of_nonneg_left hraw hw
+ 
+ /-! ## 4. Inward-Pointing Boundary Conditions for `StateOK` (E12, E14–E16) -/
+ 
+@@ -200,8 +209,7 @@
+     (halpha : 0 ≤ alpha) (hexp : 0 ≤ exposure) :
+     0 ≤ loadDrift alpha h exposure clear 0 := by
+   rcases indicator_unit h with ⟨hind0, _⟩
+-  unfold loadDrift
+-  nlinarith
++  simpa [loadDrift] using mul_nonneg (mul_nonneg halpha hind0) hexp
+ 
+ theorem loadDrift_lipschitz_in_L (alpha : ℝ) (h : Bool) (exposure clear L₁ L₂ : ℝ) :
+     loadDrift alpha h exposure clear L₁ - loadDrift alpha h exposure clear L₂ =
+@@ -310,28 +318,36 @@
+ theorem opening_unit {g p0 r rStar : ℝ}
+     (hg : UnitInterval g) (hp0 : UnitInterval p0) (hr : 0 ≤ r) (hrStar : 0 < rStar) :
+     UnitInterval (opening g p0 r rStar) := by
+-  rcases hg with ⟨hg0, hg1⟩
+-  rcases hp0 with ⟨hp00, hp01⟩
+-  have hden : 0 < rStar + r := by linarith
+-  have hne : rStar + r ≠ 0 := ne_of_gt hden
+-  have hfrac0 : 0 ≤ r / (rStar + r) := div_nonneg hr (le_of_lt hden)
+-  have hfrac1 : r / (rStar + r) ≤ 1 := by
+-    have hdiff : 1 - r / (rStar + r) = rStar / (rStar + r) := by
+-      field_simp
+-      ring
+-    have hpos : 0 ≤ rStar / (rStar + r) := div_nonneg (le_of_lt hrStar) (le_of_lt hden)
+-    linarith
++  rcases hg with ⟨hg0,hg1⟩
++  rcases hp0 with ⟨hp00,hp01⟩
++  have hd : 0 < rStar+r := by linarith
++  have hf0 : 0 ≤ r/(rStar+r) := div_nonneg hr hd.le
++  have hf1 : r/(rStar+r) ≤ 1 := (div_le_one hd).mpr (by linarith)
++  have hb0 : 0 ≤ p0+(1-p0)*(r/(rStar+r)) :=
++    add_nonneg hp00 (mul_nonneg (sub_nonneg.mpr hp01) hf0)
++  have hb1 : p0+(1-p0)*(r/(rStar+r)) ≤ 1 := by
++    have := mul_le_mul_of_nonneg_left hf1 (sub_nonneg.mpr hp01)
++    nlinarith
+   unfold opening
+-  constructor <;> nlinarith
++  rw [mul_div_assoc]
++  constructor
++  · exact mul_nonneg hg0 hb0
++  · nlinarith [mul_le_mul_of_nonneg_left hb1 hg0]
+ 
+ theorem registration_unit {eta z challenge : ℝ}
+     (heta : UnitInterval eta) (hz : UnitInterval z) (hch : UnitInterval challenge) :
+     UnitInterval (registration eta z challenge) := by
+-  rcases heta with ⟨he0, he1⟩
+-  rcases hz with ⟨hz0, hz1⟩
+-  rcases hch with ⟨hc0, hc1⟩
++  rcases heta with ⟨he0,he1⟩
++  rcases hz with ⟨hz0,hz1⟩
++  rcases hch with ⟨hc0,hc1⟩
++  have hp0 : 0 ≤ z*challenge := mul_nonneg hz0 hc0
++  have hp1 : z*challenge ≤ 1 := by nlinarith
++  have hb0 : 0 ≤ 1-z*challenge := sub_nonneg.mpr hp1
++  have hb1 : 1-z*challenge ≤ 1 := by linarith
+   unfold registration
+-  constructor <;> nlinarith
++  constructor
++  · exact mul_nonneg he0 hb0
++  · nlinarith [mul_le_mul_of_nonneg_left hb1 he0]
+ 
+ theorem conditionalRegistration_unit {eta z challenge : ℝ} (B : Bool)
+     (heta : UnitInterval eta) (hz : UnitInterval z) (hch : UnitInterval challenge) :
+@@ -361,18 +377,23 @@
+ theorem update_preserves_simplex {beta : ℝ} (C : Bool) {H M : Meaning}
+     (hbeta : UnitInterval beta) (hH : Simplex H) (hM : Simplex M) :
+     Simplex (update beta C H M) := by
+-  rcases hbeta with ⟨hb0, hb1⟩
+-  rcases hH with ⟨hH0, hHsum⟩
+-  rcases hM with ⟨hM0, hMsum⟩
+-  rcases indicator_unit C with ⟨hi0, hi1⟩
++  rcases hbeta with ⟨hb0,hb1⟩
++  rcases hH with ⟨hH0,hHsum⟩
++  rcases hM with ⟨hM0,hMsum⟩
++  rcases indicator_unit C with ⟨hi0,hi1⟩
++  have hw0 : 0 ≤ beta*indicator C := mul_nonneg hb0 hi0
++  have hw1 : beta*indicator C ≤ 1 := by nlinarith
+   constructor
+   · intro j
+-    have hjH : 0 ≤ H j := hH0 j
+-    have hjM : 0 ≤ M j := hM0 j
+-    unfold update information
+-    nlinarith
+-  · simp only [update, information, Fin.sum_univ_two] at hHsum hMsum ⊢
+-    linear_combination (1 - beta * indicator C) * hHsum + (beta * indicator C) * hMsum
++    have heq : update beta C H M j =
++        (1-beta*indicator C)*H j+(beta*indicator C)*M j := by
++      unfold update information
++      ring
++    rw [heq]
++    exact add_nonneg (mul_nonneg (sub_nonneg.mpr hw1) (hH0 j))
++      (mul_nonneg hw0 (hM0 j))
++  · simp only [update,information,Fin.sum_univ_two] at hHsum hMsum ⊢
++    linear_combination (1-beta*indicator C)*hHsum+(beta*indicator C)*hMsum
+ 
+ /-! ## 6. Integral-Equation (`IntegralSolution`) Uniqueness Theorems -/
+ 

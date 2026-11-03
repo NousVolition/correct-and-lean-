@@ -1,0 +1,10 @@
+Stages.lean:75:4: error: Type mismatch: After simplification, term
+  hA
+ has type
+  And (Volterra.Solution (fun t v => accumulatedDrift p.gamma (i t).utility p.baseline) a b (initial 0) A)
+    (∀ (y : ℝ → ℝ),
+      Volterra.Solution (fun t v => accumulatedDrift p.gamma (i t).utility p.baseline) a b (initial 0) y →
+        EqOn y A (Icc a b))
+but is expected to have type
+  And (Volterra.Solution (aField p i) a b (initial 0) A)
+    (∀ (other : ℝ → ℝ), Volterra.Solution (aField p i) a b (initial 0) other → EqOn other A (Icc a b))

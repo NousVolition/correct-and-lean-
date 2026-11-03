@@ -1,0 +1,160 @@
+{
+  "run_id": "20261101T053322.089427Z",
+  "model": "hug-structural-memory-v3",
+  "proof_revision": 2,
+  "scope": "Finite static checks and analytical identities; not a time-integrated run or full formal certificate.",
+  "checks": [
+    {
+      "name": "original_displayed_equations_exactly_retained",
+      "passed": true,
+      "count": 30
+    },
+    {
+      "name": "unchanged_main_declaration_gate",
+      "passed": true,
+      "manifest_sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514"
+    },
+    {
+      "name": "coordinate_count",
+      "passed": true,
+      "count": 193122
+    },
+    {
+      "name": "checkpoint_partition",
+      "passed": true,
+      "actual": [
+        0.0,
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6
+      ]
+    },
+    {
+      "name": "corrected_domain_accepts_initial",
+      "passed": true
+    },
+    {
+      "name": "counterexamples_rejected_by_corrected_domain",
+      "passed": true,
+      "old_reader_accepts_negative": true,
+      "old_reader_accepts_invalid_outcome": true
+    },
+    {
+      "name": "valid_and_zero_duration_records_admitted",
+      "passed": true
+    },
+    {
+      "name": "zero_duration_denominator",
+      "passed": true,
+      "minimum": 0.12
+    },
+    {
+      "name": "probe_values_change_without_bit_change",
+      "passed": true
+    },
+    {
+      "name": "full_state_ball_margins",
+      "passed": true,
+      "radius": 0.00375,
+      "lower_bit_margin": 0.0075,
+      "lower_fiber_length": 0.9924999999999999
+    },
+    {
+      "name": "full_grid_spectral_bound",
+      "passed": true,
+      "all_modes": 4096,
+      "max_symbol": 87.06236948324245,
+      "corrected_bound": 87.06236948324245,
+      "previous_counterexample": 76.1795732978372
+    },
+    {
+      "name": "transport_and_centered_difference_samples",
+      "passed": true,
+      "samples": 12,
+      "max_transport_bound_ratio": 0.0011673068887164352,
+      "scope": "Finite examples supplement the analytical inequalities."
+    },
+    {
+      "name": "correct_gaussian_seam",
+      "passed": true,
+      "value": 3.1097726781299906e-27
+    },
+    {
+      "name": "thermal_kernel_nonnegative_row_sums",
+      "passed": true,
+      "max_row_error": 4.440892098500626e-16
+    },
+    {
+      "name": "thermal_quotient_and_positive_normalization",
+      "passed": true,
+      "max_identity_error": 8.326672684688674e-17,
+      "minimum_normalizer": 1.8046445240182605,
+      "proven_lower_bound": 0.7857421897581356
+    },
+    {
+      "name": "symbolic_activation_and_rate_bounds",
+      "passed": true,
+      "activation_max": "2*exp(-1/2)",
+      "rate_critical_derivative": "0"
+    },
+    {
+      "name": "declared_metadata_static_writes_preserve_domain",
+      "passed": true,
+      "writes": [
+        {
+          "event_id": 0,
+          "required_budget": 2.5433649570671165e-07,
+          "budget": 0.02,
+          "work": 5.0867299141342324e-08
+        },
+        {
+          "event_id": 1,
+          "required_budget": 3.282145420941163e-07,
+          "budget": 0.02,
+          "work": 6.564290841882326e-08
+        },
+        {
+          "event_id": 2,
+          "required_budget": 2.3356800691903208e-07,
+          "budget": 0.02,
+          "work": 4.671360138380642e-08
+        }
+      ],
+      "scope": "Static F=I fixtures, not the physical trajectory at event times."
+    },
+    {
+      "name": "rejected_duplicate_write_preserves_input",
+      "passed": true
+    },
+    {
+      "name": "exact_signed_encoding_range",
+      "passed": true,
+      "accepted": [
+        -32768,
+        32767
+      ],
+      "rejected": [
+        -32769,
+        32768
+      ]
+    }
+  ],
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0",
+    "dependency_path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\full-deps"
+  },
+  "status": "PASS_TARGETED_CHECKS",
+  "preservation": {
+    "original_21": true,
+    "prior_snapshot_21": true,
+    "run_snapshot_21": true,
+    "frozen_inputs": true,
+    "triangle_files": true,
+    "original_attachment": true
+  }
+}

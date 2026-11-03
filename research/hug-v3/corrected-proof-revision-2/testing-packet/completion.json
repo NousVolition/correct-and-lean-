@@ -1,0 +1,15 @@
+{
+  "stage": "completed-corrected-proof-packet",
+  "proof_revision": 2,
+  "status": "COMPLETE_WRITTEN_CONDITIONAL_PROOF",
+  "targeted_checks": "PASS",
+  "check_count": 19,
+  "source_files_unchanged": 21,
+  "pdf_pages": 9,
+  "display_formulas": 34,
+  "lean_or_nanoda_run": false,
+  "unconditional_continuation_proved": false,
+  "continuum_limit_proved": false,
+  "triangle_model_changed": false,
+  "verified_at_utc": "2026-11-01T05:38:37.333735+00:00"
+}

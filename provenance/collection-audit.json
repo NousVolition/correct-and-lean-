@@ -1,0 +1,1607 @@
+{
+  "checked_at_utc": "2026-11-03T05:30:48.873060+00:00",
+  "scope": "Publication integrity audit; no Lean build, numerical rerun or new proof verification. Source locations were read only.",
+  "copied_files_sha256_matched": 1218,
+  "source_changes": [],
+  "recorded_file_hashes_matched": 205,
+  "recorded_file_hash_checks": [
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "ASModel.lean",
+      "expected_sha256": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513",
+      "matched_file": "lean/as-existence-lean/ASModel.lean"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "ASOpenClaims.lean",
+      "expected_sha256": "632f32a31874e7b57f40590b3abd41e2dee043ff7a6fe7e5b5d27bda116f135a",
+      "matched_file": "lean/as-existence-lean/ASOpenClaims.lean"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "ASExistenceChallenge.lean",
+      "expected_sha256": "0082334b1a62f89626f670f4ae5975c7c46721bb702a7997a9c53fcedaecb1a5",
+      "matched_file": "lean/as-existence-lean/ASExistenceChallenge.lean"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "source-equations.json",
+      "expected_sha256": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318",
+      "matched_file": "lean/as-existence-lean/source-equations.json"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "source-protocol.json",
+      "expected_sha256": "cd3da93d6ab15d19fc01813da63a64ca0ba99c5bc027014b9cf3adf2cc7d97f1",
+      "matched_file": "lean/as-existence-lean/source-protocol.json"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "ASProofs.lean",
+      "expected_sha256": "fd8663671930a451c579f27d780714e9d5fd967f3001ab9399ee16a68d47e74d",
+      "matched_file": "lean/as-existence-lean/ASProofs.lean"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "Volterra.lean",
+      "expected_sha256": "26906df3b92869c297524e14c09b8bb5c15d6de60f8e7b0dbd93785d759f0952",
+      "matched_file": "lean/as-existence-lean/Volterra.lean"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "InputRegularity.lean",
+      "expected_sha256": "d72f752fb11751772cffdbd7fc3d637b5175c3c76f72e0bf6fbef64d79455af2",
+      "matched_file": "lean/as-existence-lean/InputRegularity.lean"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "IntegralBarrier.lean",
+      "expected_sha256": "ddf0ba93eebdcce1f8e0c6b1de5d6e4b9662dbaebd744abbdfe6292678602858",
+      "matched_file": "lean/as-existence-lean/IntegralBarrier.lean"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "ScalarSubsystems.lean",
+      "expected_sha256": "92dc743220868c23e0b18feaa6f901277623dd0708f599e59a8e6d563aae7383",
+      "matched_file": "lean/as-existence-lean/ScalarSubsystems.lean"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "PairTools.lean",
+      "expected_sha256": "2db13bd123a901369f658af6497f5bf0bea3d5fd1e3544fe39bd851a42c697d3",
+      "matched_file": "lean/as-existence-lean/PairTools.lean"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "InfluenceSubsystem.lean",
+      "expected_sha256": "e3100bb6eb8f7690eec4290272d84c8c9d807a18afc3522bf917607b9c54b0c3",
+      "matched_file": "lean/as-existence-lean/InfluenceSubsystem.lean"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "MeaningSubsystem.lean",
+      "expected_sha256": "7dc5ca0fc818cc7042cdd9ae3d54b8cd45d12bd4c25cd525448f87bf78ff64f5",
+      "matched_file": "lean/as-existence-lean/MeaningSubsystem.lean"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "Stages.lean",
+      "expected_sha256": "64d9af0cdc6e82f7a2d19a312a40f5590d2940dc7b3965ce62fdd6c1e15b7bd2",
+      "matched_file": "lean/as-existence-lean/Stages.lean"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "FullAssembly.lean",
+      "expected_sha256": "03c5b6735d188b9aa8d98480cacd5c40fc22535496aea1ac1972c3fdeaf5285b",
+      "matched_file": "lean/as-existence-lean/FullAssembly.lean"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "ASExistenceSolution.lean",
+      "expected_sha256": "6d38a06e81a5475c0f599f63c57ea2773342b18858a491f57fedb45a30f8d4dc",
+      "matched_file": "lean/as-existence-lean/ASExistenceSolution.lean"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "existence-reference-freeze.json",
+      "expected_sha256": "a650a81a3742be14b85d5c9d327d9388233db544e4f7776145e9d1d5995d9364",
+      "matched_file": "lean/as-existence-lean/existence-reference-freeze.json"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "lakefile.toml",
+      "expected_sha256": "b45d9732ec340f8dbc9eb91856cc1cfb27f061579318f88c2db8302f1b44ec0e",
+      "matched_file": "lean/as-existence-lean/lakefile.toml"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "lake-manifest.json",
+      "expected_sha256": "340dcf5fa43f3cb3d51fa46ae2705d1bd3c31b16e3666f6c089c9051cf9cb7ef",
+      "matched_file": "lean/as-existence-lean/lake-manifest.json"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "comparator.json",
+      "expected_sha256": "ae89719579ec36be1c9bde7c47f8bbbb1f36058d7cb8e3dc92dc981ed9902c26",
+      "matched_file": "lean/as-existence-lean/comparator.json"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "evidence-linux/comparator.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/as-existence-lean/evidence-linux/comparator.exit"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "evidence-linux/comparator.finished",
+      "expected_sha256": "940f8264214d30e26946958e548c5ee1ae6425776e16ee95b3eb5c0eb3c7d949",
+      "matched_file": "lean/as-existence-lean/evidence-linux/comparator.finished"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "evidence-linux/comparator.log",
+      "expected_sha256": "574945b3ecaa1b10a257eac4c1153f49770742983a96701cf83d35e406aac19a",
+      "matched_file": "lean/as-existence-lean/evidence-linux/comparator.log"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "evidence-linux/comparator.started",
+      "expected_sha256": "6045b887c284a81153cd44ed2c654b5f01952c30b192843de5a399c21ae72528",
+      "matched_file": "lean/as-existence-lean/evidence-linux/comparator.started"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "evidence-linux/lake-build.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/as-existence-lean/evidence-linux/lake-build.exit"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "evidence-linux/lake-build.log",
+      "expected_sha256": "5327c1f532aea573dc62b0c8225f259e848191e646aa66631009e4a0ab677a4b",
+      "matched_file": "lean/as-existence-lean/evidence-linux/lake-build.log"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "evidence-linux/postflight.json",
+      "expected_sha256": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+      "matched_file": "lean/as-existence-lean/evidence-linux/postflight.json"
+    },
+    {
+      "package": "as-existence-lean",
+      "recorded_path": "evidence-linux/preflight.json",
+      "expected_sha256": "fec8c7452263f3d9dcd4c8f7af5de284b69bf01189ee53eb8e63af4c5247322a",
+      "matched_file": "lean/as-existence-lean/evidence-linux/preflight.json"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "ASExistenceChallenge.lean",
+      "expected_sha256": "0082334b1a62f89626f670f4ae5975c7c46721bb702a7997a9c53fcedaecb1a5",
+      "matched_file": "lean/as-invariance-lean/ASExistenceChallenge.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "ASExistenceSolution.lean",
+      "expected_sha256": "6d38a06e81a5475c0f599f63c57ea2773342b18858a491f57fedb45a30f8d4dc",
+      "matched_file": "lean/as-invariance-lean/ASExistenceSolution.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "ASInvarianceChallenge.lean",
+      "expected_sha256": "27d741303e8dab4e2915d56dd45e46e9893ff59365ab2f3d5ad20e1eb0b29a5b",
+      "matched_file": "lean/as-invariance-lean/ASInvarianceChallenge.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "ASInvarianceSolution.lean",
+      "expected_sha256": "bc8c7aadcc87e058a2273efe966ccb93645b1f0fac067fdfc27d898a3c5f500a",
+      "matched_file": "lean/as-invariance-lean/ASInvarianceSolution.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "ASModel.lean",
+      "expected_sha256": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513",
+      "matched_file": "lean/as-invariance-lean/ASModel.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "ASOpenClaims.lean",
+      "expected_sha256": "632f32a31874e7b57f40590b3abd41e2dee043ff7a6fe7e5b5d27bda116f135a",
+      "matched_file": "lean/as-invariance-lean/ASOpenClaims.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "ASProofs.lean",
+      "expected_sha256": "fd8663671930a451c579f27d780714e9d5fd967f3001ab9399ee16a68d47e74d",
+      "matched_file": "lean/as-invariance-lean/ASProofs.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "ClippedConstruction.lean",
+      "expected_sha256": "6a81d1a55daae36fbb21591b34ea1f8b023d8d8e5ffaea8551c7e1087427caa5",
+      "matched_file": "lean/as-invariance-lean/ClippedConstruction.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "CoupledMeaningBounds.lean",
+      "expected_sha256": "fb3c116383d7e782c6cce4e4ccf0ed361513022c83e9c2b25d344530779def96",
+      "matched_file": "lean/as-invariance-lean/CoupledMeaningBounds.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "FullAssembly.lean",
+      "expected_sha256": "03c5b6735d188b9aa8d98480cacd5c40fc22535496aea1ac1972c3fdeaf5285b",
+      "matched_file": "lean/as-invariance-lean/FullAssembly.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "InfluenceSubsystem.lean",
+      "expected_sha256": "e3100bb6eb8f7690eec4290272d84c8c9d807a18afc3522bf917607b9c54b0c3",
+      "matched_file": "lean/as-invariance-lean/InfluenceSubsystem.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "InputRegularity.lean",
+      "expected_sha256": "d72f752fb11751772cffdbd7fc3d637b5175c3c76f72e0bf6fbef64d79455af2",
+      "matched_file": "lean/as-invariance-lean/InputRegularity.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "IntegralBarrier.lean",
+      "expected_sha256": "ddf0ba93eebdcce1f8e0c6b1de5d6e4b9662dbaebd744abbdfe6292678602858",
+      "matched_file": "lean/as-invariance-lean/IntegralBarrier.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "MeaningBounds.lean",
+      "expected_sha256": "90388969a9cc17e41952eea0110e734dbfa8f6ebc6c72e04dc8142fd1e95ee3f",
+      "matched_file": "lean/as-invariance-lean/MeaningBounds.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "MeaningSubsystem.lean",
+      "expected_sha256": "7dc5ca0fc818cc7042cdd9ae3d54b8cd45d12bd4c25cd525448f87bf78ff64f5",
+      "matched_file": "lean/as-invariance-lean/MeaningSubsystem.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "PairTools.lean",
+      "expected_sha256": "2db13bd123a901369f658af6497f5bf0bea3d5fd1e3544fe39bd851a42c697d3",
+      "matched_file": "lean/as-invariance-lean/PairTools.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "ScalarSubsystems.lean",
+      "expected_sha256": "92dc743220868c23e0b18feaa6f901277623dd0708f599e59a8e6d563aae7383",
+      "matched_file": "lean/as-invariance-lean/ScalarSubsystems.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "Stages.lean",
+      "expected_sha256": "64d9af0cdc6e82f7a2d19a312a40f5590d2940dc7b3965ce62fdd6c1e15b7bd2",
+      "matched_file": "lean/as-invariance-lean/Stages.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "Volterra.lean",
+      "expected_sha256": "26906df3b92869c297524e14c09b8bb5c15d6de60f8e7b0dbd93785d759f0952",
+      "matched_file": "lean/as-invariance-lean/Volterra.lean"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "source-equations.json",
+      "expected_sha256": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318",
+      "matched_file": "lean/as-invariance-lean/source-equations.json"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "source-protocol.json",
+      "expected_sha256": "cd3da93d6ab15d19fc01813da63a64ca0ba99c5bc027014b9cf3adf2cc7d97f1",
+      "matched_file": "lean/as-invariance-lean/source-protocol.json"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "invariance-reference-freeze.json",
+      "expected_sha256": "6aed36796f9f81167099585dde6e9acb6288260f44cacdfcfa9a701630a810a5",
+      "matched_file": "lean/as-invariance-lean/invariance-reference-freeze.json"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "lakefile.toml",
+      "expected_sha256": "ef7b8d0b52bb10f37b866585003a6bd2a3225a3964267f27951f26840be14ee2",
+      "matched_file": "lean/as-invariance-lean/lakefile.toml"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "lake-manifest.json",
+      "expected_sha256": "40e780bc3be531555a40ae7181ab673087a93161714ee8d2033be7a31810b090",
+      "matched_file": "lean/as-invariance-lean/lake-manifest.json"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "comparator.json",
+      "expected_sha256": "860bb091faff2147d452ec08268f406083dc3c95d86d64fb28bbe2bfc5969f43",
+      "matched_file": "lean/as-invariance-lean/comparator.json"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "evidence-linux/comparator.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/as-invariance-lean/evidence-linux/comparator.exit"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "evidence-linux/comparator.finished",
+      "expected_sha256": "affe46b720bc45b3c92650bbde9e3b71d5bf3b48b55b7050a1cf5dce106beda3",
+      "matched_file": "lean/as-invariance-lean/evidence-linux/comparator.finished"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "evidence-linux/comparator.log",
+      "expected_sha256": "7766a906694ece26b5c2289629512b37308f1115f6995fb58dfcb8b5e3cf88b4",
+      "matched_file": "lean/as-invariance-lean/evidence-linux/comparator.log"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "evidence-linux/comparator.started",
+      "expected_sha256": "6fffeabfb64085aed96abb43830487d2d918f94cf7868014d9c3b9eea058fdda",
+      "matched_file": "lean/as-invariance-lean/evidence-linux/comparator.started"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "evidence-linux/lake-build.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/as-invariance-lean/evidence-linux/lake-build.exit"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "evidence-linux/lake-build.log",
+      "expected_sha256": "ae394e8340c63629520f260f367956f2e7c4880c127326cc59270805df822c6a",
+      "matched_file": "lean/as-invariance-lean/evidence-linux/lake-build.log"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "evidence-linux/postflight.json",
+      "expected_sha256": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+      "matched_file": "lean/as-invariance-lean/evidence-linux/postflight.json"
+    },
+    {
+      "package": "as-invariance-lean",
+      "recorded_path": "evidence-linux/preflight.json",
+      "expected_sha256": "6b8330d343445735721b334d9038521c88c2244c406381e8d9d050171f7ba2ff",
+      "matched_file": "lean/as-invariance-lean/evidence-linux/preflight.json"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "ASModel.lean",
+      "expected_sha256": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513",
+      "matched_file": "lean/as-lean/ASModel.lean"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "ASChallenge.lean",
+      "expected_sha256": "7cfde5677c27ef54f99062f4386c8251525806722a3dedfb63711f728cfa1f6b",
+      "matched_file": "lean/as-lean/ASChallenge.lean"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "ASOpenClaims.lean",
+      "expected_sha256": "632f32a31874e7b57f40590b3abd41e2dee043ff7a6fe7e5b5d27bda116f135a",
+      "matched_file": "lean/as-lean/ASOpenClaims.lean"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "comparator.json",
+      "expected_sha256": "4d675b87134e33f288c6ab3a89d7b95280051f8d8b060cb733986e50da552e04",
+      "matched_file": "lean/as-lean/comparator.json"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "source-equations.json",
+      "expected_sha256": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318",
+      "matched_file": "lean/as-lean/source-equations.json"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "source-protocol.json",
+      "expected_sha256": "cd3da93d6ab15d19fc01813da63a64ca0ba99c5bc027014b9cf3adf2cc7d97f1",
+      "matched_file": "lean/as-lean/source-protocol.json"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "lakefile.toml",
+      "expected_sha256": "c2db8a9c90f76c66d779d0f2acffb3fb686b3df2cc3ff585e48bb05f938404eb",
+      "matched_file": "lean/as-lean/lakefile.toml"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "lake-manifest.json",
+      "expected_sha256": "97853a182e5c15a52a3eb65ce9f625fa729212a2ee58279732af3194554b8f2d",
+      "matched_file": "lean/as-lean/lake-manifest.json"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "ASProofs.lean",
+      "expected_sha256": "fd8663671930a451c579f27d780714e9d5fd967f3001ab9399ee16a68d47e74d",
+      "matched_file": "lean/as-lean/ASProofs.lean"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "reference-freeze.json",
+      "expected_sha256": "c77d07eac6687cbb759f9cb243aa08d5e9de476051e7d20829570d51bde5fea8",
+      "matched_file": "lean/as-lean/reference-freeze.json"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "evidence-linux/comparator.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/as-lean/evidence-linux/comparator.exit"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "evidence-linux/comparator.finished",
+      "expected_sha256": "dbd1585ed066238dbeb88b1e442fe47c2d70218f20735c0a5c04ffc2551d843b",
+      "matched_file": "lean/as-lean/evidence-linux/comparator.finished"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "evidence-linux/comparator.log",
+      "expected_sha256": "da9c4df4c8d186d9f7a8a958917164a610572933ddbac765ed2e54f89abef379",
+      "matched_file": "lean/as-lean/evidence-linux/comparator.log"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "evidence-linux/comparator.started",
+      "expected_sha256": "df9258415e0b8b087b1056dcaa92e6f1ddb17bdbf8efde6ffd132cb606a67308",
+      "matched_file": "lean/as-lean/evidence-linux/comparator.started"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "evidence-linux/lake-build.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/as-lean/evidence-linux/lake-build.exit"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "evidence-linux/lake-build.log",
+      "expected_sha256": "c3b2db60734046a9e2f729e4dbad4cf146e60f21ba29eaaed869c9cc716200f1",
+      "matched_file": "lean/as-lean/evidence-linux/lake-build.log"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "evidence-linux/postflight.json",
+      "expected_sha256": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+      "matched_file": "lean/as-lean/evidence-linux/postflight.json"
+    },
+    {
+      "package": "as-lean",
+      "recorded_path": "evidence-linux/preflight.json",
+      "expected_sha256": "9d2298e871993f14fcd451931904a307bfe2ee54168f1ec20c2fbc21e30b4727",
+      "matched_file": "lean/as-lean/evidence-linux/preflight.json"
+    },
+    {
+      "package": "hug-existence-lean",
+      "recorded_path": "native-final.log",
+      "expected_sha256": "fc85551f3470a26d1a1893c52cdd06b8339105146750bb06057550f5690c8a00",
+      "matched_file": "lean/hug-existence-lean/native-final.log"
+    },
+    {
+      "package": "hug-existence-lean",
+      "recorded_path": "native-final.exit",
+      "expected_sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "matched_file": "lean/hug-existence-lean/native-final.exit"
+    },
+    {
+      "package": "hug-existence-lean",
+      "recorded_path": "verification-inputs.json",
+      "expected_sha256": "a806693ddcaf4885df2f45950670a665831612c4c064a5566f754cbfce31285c",
+      "matched_file": "lean/hug-existence-lean/verification-inputs.json"
+    },
+    {
+      "package": "hug-existence-lean",
+      "recorded_path": "existence-reference-freeze.json",
+      "expected_sha256": "b29056a545d1519ff10fa50c961dc27b9431b1fe70a5a57cf5731302b645e8dc",
+      "matched_file": "lean/hug-existence-lean/existence-reference-freeze.json"
+    },
+    {
+      "package": "hug-existence-lean",
+      "recorded_path": "evidence-linux/comparator.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-existence-lean/evidence-linux/comparator.exit"
+    },
+    {
+      "package": "hug-existence-lean",
+      "recorded_path": "evidence-linux/comparator.finished",
+      "expected_sha256": "88c3bb8d678bbe6074ac6d9f2e8f3d3d62e8302efbfcd6c40b99a08e0320d080",
+      "matched_file": "lean/hug-existence-lean/evidence-linux/comparator.finished"
+    },
+    {
+      "package": "hug-existence-lean",
+      "recorded_path": "evidence-linux/comparator.log",
+      "expected_sha256": "09e9d901c99b13bed93c73248299bf01446cf4a5be5b21aa17e2a015b4a9c80e",
+      "matched_file": "lean/hug-existence-lean/evidence-linux/comparator.log"
+    },
+    {
+      "package": "hug-existence-lean",
+      "recorded_path": "evidence-linux/comparator.started",
+      "expected_sha256": "893528cef15aaceb4d3e173d5c813ab3625a98326668369ce9060c4aaf806bb9",
+      "matched_file": "lean/hug-existence-lean/evidence-linux/comparator.started"
+    },
+    {
+      "package": "hug-existence-lean",
+      "recorded_path": "evidence-linux/lake-build.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-existence-lean/evidence-linux/lake-build.exit"
+    },
+    {
+      "package": "hug-existence-lean",
+      "recorded_path": "evidence-linux/lake-build.log",
+      "expected_sha256": "6e23eb0d071e1fb45e06e9e79fc03bb112ede9240efdd22251bdd3cf8f091880",
+      "matched_file": "lean/hug-existence-lean/evidence-linux/lake-build.log"
+    },
+    {
+      "package": "hug-existence-lean",
+      "recorded_path": "evidence-linux/postflight.json",
+      "expected_sha256": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+      "matched_file": "lean/hug-existence-lean/evidence-linux/postflight.json"
+    },
+    {
+      "package": "hug-existence-lean",
+      "recorded_path": "evidence-linux/preflight.json",
+      "expected_sha256": "789c8d5e49c2bd9304306b8f03b716c2f2c967fc80c886e0d244d68d22b1f00e",
+      "matched_file": "lean/hug-existence-lean/evidence-linux/preflight.json"
+    },
+    {
+      "package": "hug-squeeze-lean",
+      "recorded_path": "native-final.log",
+      "expected_sha256": "3d410c720da1f8a73cae9fb813bc706486a3e2bcaa4bf5b0622d0b74d610de43",
+      "matched_file": "lean/hug-squeeze-lean/native-final.log"
+    },
+    {
+      "package": "hug-squeeze-lean",
+      "recorded_path": "native-final.exit",
+      "expected_sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "matched_file": "lean/hug-squeeze-lean/native-final.exit"
+    },
+    {
+      "package": "hug-squeeze-lean",
+      "recorded_path": "verification-inputs.json",
+      "expected_sha256": "ee24170dc88f5340e0c2af76fa45768e0d6a70fedf63ae7b7de15c5d525794cb",
+      "matched_file": "lean/hug-squeeze-lean/verification-inputs.json"
+    },
+    {
+      "package": "hug-squeeze-lean",
+      "recorded_path": "evidence-linux/comparator.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-squeeze-lean/evidence-linux/comparator.exit"
+    },
+    {
+      "package": "hug-squeeze-lean",
+      "recorded_path": "evidence-linux/comparator.finished",
+      "expected_sha256": "5f4b70d0a46c1ced0511804926f3d83e78456ed5d204aadf15efe6d1df9aac62",
+      "matched_file": "lean/hug-squeeze-lean/evidence-linux/comparator.finished"
+    },
+    {
+      "package": "hug-squeeze-lean",
+      "recorded_path": "evidence-linux/comparator.log",
+      "expected_sha256": "d9e4981c733c510a8aa2db21b43f84135ec2e433ee81c3992fb0494e4d35eef2",
+      "matched_file": "lean/hug-squeeze-lean/evidence-linux/comparator.log"
+    },
+    {
+      "package": "hug-squeeze-lean",
+      "recorded_path": "evidence-linux/comparator.started",
+      "expected_sha256": "0a7b99cbe24a1582f645e3af4a9a340b9389ced971fde4cb93fa553f96f008f6",
+      "matched_file": "lean/hug-squeeze-lean/evidence-linux/comparator.started"
+    },
+    {
+      "package": "hug-squeeze-lean",
+      "recorded_path": "evidence-linux/lake-build.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-squeeze-lean/evidence-linux/lake-build.exit"
+    },
+    {
+      "package": "hug-squeeze-lean",
+      "recorded_path": "evidence-linux/lake-build.log",
+      "expected_sha256": "8a38ddd55383446878be25a5df52043a8bfee7363e71dce4aed33fc0c2226882",
+      "matched_file": "lean/hug-squeeze-lean/evidence-linux/lake-build.log"
+    },
+    {
+      "package": "hug-squeeze-lean",
+      "recorded_path": "evidence-linux/postflight.json",
+      "expected_sha256": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+      "matched_file": "lean/hug-squeeze-lean/evidence-linux/postflight.json"
+    },
+    {
+      "package": "hug-squeeze-lean",
+      "recorded_path": "evidence-linux/preflight.json",
+      "expected_sha256": "0b929cf3ff7c38c341c61d0466adf3344ce194152d0467dcea2ed08524fadefc",
+      "matched_file": "lean/hug-squeeze-lean/evidence-linux/preflight.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "comparator.json",
+      "expected_sha256": "b10b297013d6ba700fdf8382a832a2b72ec9fd0fe4291daa5a0a3e435b74327b",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/comparator.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "lake-manifest.json",
+      "expected_sha256": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/lake-manifest.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "lakefile.toml",
+      "expected_sha256": "a88e0177858e722f079c3866ce897a775ec696543e0513775b2f9107e343932d",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/lakefile.toml"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "reference-freeze.json",
+      "expected_sha256": "e7de8dca21a11935b2c54f0ad87234c2a9a35d2e1be3daaac8f0575b9b1c41d4",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/reference-freeze.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "run-linux-check.sh",
+      "expected_sha256": "c2ad04879a1c3a5c7ab5aa779ef0f58a9b1e36062e5f221df7de5e771ae0f040",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/run-linux-check.sh"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "source-audit.json",
+      "expected_sha256": "937b7605773b6459412bc3cc23c9d46a8b1d711ac68178fe884d14b4b70972c1",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/source-audit.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "V3ClayChallenge.lean",
+      "expected_sha256": "b04f52da1f7bc2f639629314992f7d1e5b6ed9ed01c942f040d6b935dd95fc80",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3ClayChallenge.lean"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "V3ClayDefinitions.lean",
+      "expected_sha256": "4c33c0f6bf7895a75203459bdf78343c62041e0d565949040945699f5bdd7424",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3ClayDefinitions.lean"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "V3ClayProofs.lean",
+      "expected_sha256": "c56133b0691a5b9c2d381fdbbb00435831f3c8772cebd1c33eb0d8fc366a1843",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3ClayProofs.lean"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "V3ClayTrajectoryChallenge.lean",
+      "expected_sha256": "cceba91bc421c8fac2a5b0a223369da9b5bce18bcf13241d0527b2e6f9dbba30",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3ClayTrajectoryChallenge.lean"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "V3ClayTrajectoryProofs.lean",
+      "expected_sha256": "f3f6a976ef092fa9487365ec416b0773009dfb223f60a578b3ce64910cc475a4",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3ClayTrajectoryProofs.lean"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "V3SourceCore.lean",
+      "expected_sha256": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3SourceCore.lean"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "V3SourceFlow.lean",
+      "expected_sha256": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3SourceFlow.lean"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "V3SourceGeometry.lean",
+      "expected_sha256": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3SourceGeometry.lean"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "V3SourceMemory.lean",
+      "expected_sha256": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3SourceMemory.lean"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "V3SourceProofs.lean",
+      "expected_sha256": "bc33166378e84da1ffb2391c2c22250cb30ad3d6db69d367df539522b769f885",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3SourceProofs.lean"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "V3SourceSocial.lean",
+      "expected_sha256": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3SourceSocial.lean"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "V3SourceSystem.lean",
+      "expected_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3SourceSystem.lean"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/continuum.py",
+      "expected_sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/continuum.py"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/equation_register.csv",
+      "expected_sha256": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/equation_register.csv"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/literal_registry.json",
+      "expected_sha256": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/literal_registry.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/parameter_bounds.json",
+      "expected_sha256": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/parameter_bounds.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/preflight.py",
+      "expected_sha256": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/preflight.py"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/protocol.json",
+      "expected_sha256": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/protocol.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/rule_changes.json",
+      "expected_sha256": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/rule_changes.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/run.py",
+      "expected_sha256": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/run.py"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/social_base.py",
+      "expected_sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/social_base.py"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/source_seal.json",
+      "expected_sha256": "b815846bd7afe1aa1a91430c40b658fc44a4d13add5432de0aed424530bedea0",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/source_seal.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/structural_hug.py",
+      "expected_sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/structural_hug.py"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/study_chain.csv",
+      "expected_sha256": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/study_chain.csv"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/test_structure.py",
+      "expected_sha256": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/test_structure.py"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/declarations/grid24.json",
+      "expected_sha256": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/declarations/grid24.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/declarations/main.json",
+      "expected_sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/declarations/main.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/declarations/no_read_feedback.json",
+      "expected_sha256": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/declarations/no_read_feedback.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/declarations/particles640.json",
+      "expected_sha256": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/declarations/particles640.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/declarations/slow_fabric.json",
+      "expected_sha256": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/declarations/slow_fabric.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/declarations/time_half.json",
+      "expected_sha256": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/declarations/time_half.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/declarations/unit.json",
+      "expected_sha256": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/declarations/unit.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/reference_gate/parameter_bounds.json",
+      "expected_sha256": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/reference_gate/parameter_bounds.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/reference_gate/run_manifest.py",
+      "expected_sha256": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/sources/reference_gate/run_manifest.py"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "evidence-linux/comparator.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/evidence-linux/comparator.exit"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "evidence-linux/comparator.finished",
+      "expected_sha256": "f085e2cbc9f48124d36c32a55f19224e7b854e8e06a9af9744aefdc8440efd75",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/evidence-linux/comparator.finished"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "evidence-linux/comparator.log",
+      "expected_sha256": "ee93298eafbc2b03eff826d018e18fb24f25a9507124b557d9b89ddca1ecfd7c",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/evidence-linux/comparator.log"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "evidence-linux/comparator.started",
+      "expected_sha256": "485c2abe94a7ed89d82f1aff7fff4d8648350762bde4b6ca7f6526409694fbc9",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/evidence-linux/comparator.started"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "evidence-linux/lake-build.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/evidence-linux/lake-build.exit"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "evidence-linux/lake-build.log",
+      "expected_sha256": "35e1e6654ccc395bdf3bdf66133472263cdfee90d6aee7cc9eb388a83d8fa30a",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/evidence-linux/lake-build.log"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "evidence-linux/postflight.json",
+      "expected_sha256": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/evidence-linux/postflight.json"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "evidence-linux/preflight.json",
+      "expected_sha256": "f6bbf52de049d8a309f8b97e90cd42c1c6fd3aaf9ecad279b3c18e5a989a34df",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/evidence-linux/preflight.json"
+    },
+    {
+      "package": "hug-v3-delay-lean",
+      "recorded_path": "comparator.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-v3-delay-lean/evidence-linux/comparator.exit"
+    },
+    {
+      "package": "hug-v3-delay-lean",
+      "recorded_path": "comparator.finished",
+      "expected_sha256": "7d14dc09b747513993c39b4c2a39f77ba6c8ba178fba5c48bdc524b3125d46c9",
+      "matched_file": "lean/hug-v3-delay-lean/evidence-linux/comparator.finished"
+    },
+    {
+      "package": "hug-v3-delay-lean",
+      "recorded_path": "comparator.log",
+      "expected_sha256": "c01e63a13d3d87e481a53c02dc7d233b12825e4ed1b2f232b575126f9c42c52c",
+      "matched_file": "lean/hug-v3-delay-lean/evidence-linux/comparator.log"
+    },
+    {
+      "package": "hug-v3-delay-lean",
+      "recorded_path": "comparator.started",
+      "expected_sha256": "5262a78a2973d0a1d86f3a408ecb12f1280f3cd5e6972a463b2766fcce19e770",
+      "matched_file": "lean/hug-v3-delay-lean/evidence-linux/comparator.started"
+    },
+    {
+      "package": "hug-v3-delay-lean",
+      "recorded_path": "lake-build.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-v3-delay-lean/evidence-linux/lake-build.exit"
+    },
+    {
+      "package": "hug-v3-delay-lean",
+      "recorded_path": "lake-build.log",
+      "expected_sha256": "fabe460ffab6b9ede9d7ae399a3aca2aed770e3de030d7e381ad9556ce44bc6f",
+      "matched_file": "lean/hug-v3-delay-lean/evidence-linux/lake-build.log"
+    },
+    {
+      "package": "hug-v3-delay-lean",
+      "recorded_path": "postflight.json",
+      "expected_sha256": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+      "matched_file": "lean/hug-v3-delay-lean/evidence-linux/postflight.json"
+    },
+    {
+      "package": "hug-v3-delay-lean",
+      "recorded_path": "preflight.json",
+      "expected_sha256": "6ecb34a72f940d602a71d7a01006184465061741ce2301fca7e746861eccf3d5",
+      "matched_file": "lean/hug-v3-delay-lean/evidence-linux/preflight.json"
+    },
+    {
+      "package": "hug-v3-full-delay-proof",
+      "recorded_path": "comparator.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-v3-full-delay-proof/evidence-linux/comparator.exit"
+    },
+    {
+      "package": "hug-v3-full-delay-proof",
+      "recorded_path": "comparator.finished",
+      "expected_sha256": "0e6fb80ce06a49aef1949d02e5b28b7397e4e7de7c654d2fb7ecf689497a0e1e",
+      "matched_file": "lean/hug-v3-full-delay-proof/evidence-linux/comparator.finished"
+    },
+    {
+      "package": "hug-v3-full-delay-proof",
+      "recorded_path": "comparator.log",
+      "expected_sha256": "8ddaaa47ea43009f73320889f1731b6fd620a20fbbfafd0c12a7441f2560bbe0",
+      "matched_file": "lean/hug-v3-full-delay-proof/evidence-linux/comparator.log"
+    },
+    {
+      "package": "hug-v3-full-delay-proof",
+      "recorded_path": "comparator.started",
+      "expected_sha256": "858fc7557b4201ad0cc7c4b6db255a7f2691f8b7b05e7c668938e59a8414b112",
+      "matched_file": "lean/hug-v3-full-delay-proof/evidence-linux/comparator.started"
+    },
+    {
+      "package": "hug-v3-full-delay-proof",
+      "recorded_path": "lake-build.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-v3-full-delay-proof/evidence-linux/lake-build.exit"
+    },
+    {
+      "package": "hug-v3-full-delay-proof",
+      "recorded_path": "lake-build.log",
+      "expected_sha256": "dd5cc9f6bfd829103df4e6488191db0cec662a1133da83381b1fdbde68c6272b",
+      "matched_file": "lean/hug-v3-full-delay-proof/evidence-linux/lake-build.log"
+    },
+    {
+      "package": "hug-v3-full-delay-proof",
+      "recorded_path": "postflight.json",
+      "expected_sha256": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+      "matched_file": "lean/hug-v3-full-delay-proof/evidence-linux/postflight.json"
+    },
+    {
+      "package": "hug-v3-full-delay-proof",
+      "recorded_path": "preflight.json",
+      "expected_sha256": "d9bf0fefede82933780d8dee27654e7edf2892cb023c54da068f6da2aceead52",
+      "matched_file": "lean/hug-v3-full-delay-proof/evidence-linux/preflight.json"
+    },
+    {
+      "package": "hug-v3-gemini-review",
+      "recorded_path": "V3DelayDefinitions.lean",
+      "expected_sha256": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+      "matched_file": "lean/hug-v3-delay-lean/V3DelayDefinitions.lean"
+    },
+    {
+      "package": "hug-v3-gemini-review",
+      "recorded_path": "V3SourceCore.lean",
+      "expected_sha256": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3SourceCore.lean"
+    },
+    {
+      "package": "hug-v3-gemini-review",
+      "recorded_path": "V3SourceFlow.lean",
+      "expected_sha256": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3SourceFlow.lean"
+    },
+    {
+      "package": "hug-v3-gemini-review",
+      "recorded_path": "V3SourceGeometry.lean",
+      "expected_sha256": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3SourceGeometry.lean"
+    },
+    {
+      "package": "hug-v3-gemini-review",
+      "recorded_path": "V3SourceMemory.lean",
+      "expected_sha256": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3SourceMemory.lean"
+    },
+    {
+      "package": "hug-v3-gemini-review",
+      "recorded_path": "V3SourceSocial.lean",
+      "expected_sha256": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3SourceSocial.lean"
+    },
+    {
+      "package": "hug-v3-gemini-review",
+      "recorded_path": "V3SourceSystem.lean",
+      "expected_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "matched_file": "lean/hug-v3-clay-boundary-lean/V3SourceSystem.lean"
+    },
+    {
+      "package": "hug-v3-gemini-review",
+      "recorded_path": "comparator.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-v3-gemini-review/evidence-linux/comparator.exit"
+    },
+    {
+      "package": "hug-v3-gemini-review",
+      "recorded_path": "comparator.finished",
+      "expected_sha256": "90a9341504f8ba5b8bf24bec93c0b52056516c90ba225b16c43dd17d040419ae",
+      "matched_file": "lean/hug-v3-gemini-review/evidence-linux/comparator.finished"
+    },
+    {
+      "package": "hug-v3-gemini-review",
+      "recorded_path": "comparator.log",
+      "expected_sha256": "c422c85f6b5de1ed69142e9ac4f272834685038a449aac0b7dcd5a8c4ff9adf9",
+      "matched_file": "lean/hug-v3-gemini-review/evidence-linux/comparator.log"
+    },
+    {
+      "package": "hug-v3-gemini-review",
+      "recorded_path": "comparator.started",
+      "expected_sha256": "9b2545c87d0daaf7c632902fc6c105eec64b4cc294b3c08560cc642bde363670",
+      "matched_file": "lean/hug-v3-gemini-review/evidence-linux/comparator.started"
+    },
+    {
+      "package": "hug-v3-gemini-review",
+      "recorded_path": "lake-build.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-v3-gemini-review/evidence-linux/lake-build.exit"
+    },
+    {
+      "package": "hug-v3-gemini-review",
+      "recorded_path": "lake-build.log",
+      "expected_sha256": "5aec8474e578e16838ec0ffe582ad7a458cbe52ff8c4980900a7c50157bcad7e",
+      "matched_file": "lean/hug-v3-gemini-review/evidence-linux/lake-build.log"
+    },
+    {
+      "package": "hug-v3-gemini-review",
+      "recorded_path": "postflight.json",
+      "expected_sha256": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+      "matched_file": "lean/hug-v3-gemini-review/evidence-linux/postflight.json"
+    },
+    {
+      "package": "hug-v3-gemini-review",
+      "recorded_path": "preflight.json",
+      "expected_sha256": "e2cddd7c3a72438b47783c06ad8852ab44add69950e1cddc6e851b6f70cbda9b",
+      "matched_file": "lean/hug-v3-gemini-review/evidence-linux/preflight.json"
+    },
+    {
+      "package": "hug-v3-memory-rules-lean",
+      "recorded_path": "comparator.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-v3-memory-rules-lean/evidence-linux/comparator.exit"
+    },
+    {
+      "package": "hug-v3-memory-rules-lean",
+      "recorded_path": "comparator.finished",
+      "expected_sha256": "ac67a28899f844626b2bdef352b0479ee04d2ff60a5d8dfcb6b6d05c9da2cdf6",
+      "matched_file": "lean/hug-v3-memory-rules-lean/evidence-linux/comparator.finished"
+    },
+    {
+      "package": "hug-v3-memory-rules-lean",
+      "recorded_path": "comparator.log",
+      "expected_sha256": "2d557f2f61017bba3694671f7715fc8fc50a120c740aed099b5d09c8f435183a",
+      "matched_file": "lean/hug-v3-memory-rules-lean/evidence-linux/comparator.log"
+    },
+    {
+      "package": "hug-v3-memory-rules-lean",
+      "recorded_path": "comparator.started",
+      "expected_sha256": "b692daa1c698f0fd9bdc40891c1b73bb864398e24f8b3b0e39d37f8a2bead9e2",
+      "matched_file": "lean/hug-v3-memory-rules-lean/evidence-linux/comparator.started"
+    },
+    {
+      "package": "hug-v3-memory-rules-lean",
+      "recorded_path": "lake-build.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-v3-memory-rules-lean/evidence-linux/lake-build.exit"
+    },
+    {
+      "package": "hug-v3-memory-rules-lean",
+      "recorded_path": "lake-build.log",
+      "expected_sha256": "c965cd58b11451effde3484678ae59d04b7e52b5ce0570c5c9b8cea1337826fe",
+      "matched_file": "lean/hug-v3-memory-rules-lean/evidence-linux/lake-build.log"
+    },
+    {
+      "package": "hug-v3-memory-rules-lean",
+      "recorded_path": "postflight.json",
+      "expected_sha256": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+      "matched_file": "lean/hug-v3-memory-rules-lean/evidence-linux/postflight.json"
+    },
+    {
+      "package": "hug-v3-memory-rules-lean",
+      "recorded_path": "preflight.json",
+      "expected_sha256": "b6368a19cf0c7a6fdd1e8247f14c30641c625e72e5ee8acaaa61ffe810180d8e",
+      "matched_file": "lean/hug-v3-memory-rules-lean/evidence-linux/preflight.json"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "comparator.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-v3-transfer-lean/evidence-linux/comparator.exit"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "comparator.finished",
+      "expected_sha256": "bb9bb81bfb8f137bb99a72dd6e5e5c4e618e58e0a8d2075c234208423493026e",
+      "matched_file": "lean/hug-v3-transfer-lean/evidence-linux/comparator.finished"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "comparator.log",
+      "expected_sha256": "dd5fb79433714998f13f2936bcf501bebed3e98647bb8315544ff0a6cbc31a7c",
+      "matched_file": "lean/hug-v3-transfer-lean/evidence-linux/comparator.log"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "comparator.started",
+      "expected_sha256": "cad4b355804e468ff963779600b57532627b6a415cb996702f7fb814fc6af391",
+      "matched_file": "lean/hug-v3-transfer-lean/evidence-linux/comparator.started"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "lake-build.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-v3-transfer-lean/evidence-linux/lake-build.exit"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "lake-build.log",
+      "expected_sha256": "23e61857e0ba85aae32051a5e4a1f5d39158f1c581b8e3b64f078f1908060bbb",
+      "matched_file": "lean/hug-v3-transfer-lean/evidence-linux/lake-build.log"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "postflight.json",
+      "expected_sha256": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+      "matched_file": "lean/hug-v3-transfer-lean/evidence-linux/postflight.json"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "preflight.json",
+      "expected_sha256": "c856674c21926b8228e738e2417f9166f62dbcb51b77ea4a8be22a47c988623a",
+      "matched_file": "lean/hug-v3-transfer-lean/evidence-linux/preflight.json"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "comparator.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-v3-transfer-lean/evidence-linux/comparator.exit"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "comparator.finished",
+      "expected_sha256": "649fd9d110e9510896d05977f4cf5e8948d048530e868000ff54f1b738ebd4a6",
+      "matched_file": "lean/hug-v3-transfer-lean/pasted-as-review/evidence-linux/comparator.finished"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "comparator.log",
+      "expected_sha256": "86c23ab1f08641fa70e8d5b7a76abe49d97eb0054b55ef012f0c7f7bd7a770d2",
+      "matched_file": "lean/hug-v3-transfer-lean/pasted-as-review/evidence-linux/comparator.log"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "comparator.started",
+      "expected_sha256": "60c23933f5d076e5cdf9eb92eeada8b468d9732f81244164c86985e767e85b20",
+      "matched_file": "lean/hug-v3-transfer-lean/pasted-as-review/evidence-linux/comparator.started"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "lake-build.exit",
+      "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "matched_file": "lean/hug-v3-transfer-lean/evidence-linux/lake-build.exit"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "lake-build.log",
+      "expected_sha256": "7b58106642493a68a213f6cbffa473e34df1783953fce47854887b86d7846bdb",
+      "matched_file": "lean/hug-v3-transfer-lean/pasted-as-review/evidence-linux/lake-build.log"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "postflight.json",
+      "expected_sha256": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+      "matched_file": "lean/hug-v3-transfer-lean/evidence-linux/postflight.json"
+    },
+    {
+      "package": "hug-v3-transfer-lean",
+      "recorded_path": "preflight.json",
+      "expected_sha256": "10633db7c98aac828c7379b47818b3966b30a629988f9a2ab8b3478a3ef5b151",
+      "matched_file": "lean/hug-v3-transfer-lean/pasted-as-review/evidence-linux/preflight.json"
+    }
+  ],
+  "recorded_hash_mismatches": [],
+  "unresolved_recorded_paths": [
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/__pycache__/continuum.cpython-312.pyc",
+      "expected_sha256": "c1c6c9c6b2169755630cbff4e9c1e11bdcfc82ed27366354a3d922f61430faa5"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/__pycache__/preflight.cpython-312.pyc",
+      "expected_sha256": "525e123c194eb62def4a24452ee31d21986ecb25077c5a2f123a9b7cb348acd3"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/__pycache__/social_base.cpython-312.pyc",
+      "expected_sha256": "f2c485f7c94ff0fc60ba2dd223f407c4b8f131c0bff2b5df886677b5e63de5aa"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/__pycache__/structural_hug.cpython-312.pyc",
+      "expected_sha256": "5543fa2bc432ce4a232a95c0703a233f6d5223760bb4c94a576db84fd34997a1"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "sources/reference_gate/__pycache__/run_manifest.cpython-312.pyc",
+      "expected_sha256": "2c507cd970e311fc1e231e054b3a9891ef98ca63167d28c6e31e3da43496e69c"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+      "expected_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "/home/nsverify/verification/bin/lake",
+      "expected_sha256": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "/home/nsverify/verification/bin/landrun",
+      "expected_sha256": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator",
+      "expected_sha256": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export",
+      "expected_sha256": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e"
+    },
+    {
+      "package": "hug-v3-clay-boundary-lean",
+      "recorded_path": "/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin",
+      "expected_sha256": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+    }
+  ],
+  "entrypoint_link_checks": [
+    {
+      "document": "README.md",
+      "target": "PROOF-STATUS.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "lean/README.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "research/hug-v3/corrected-proof-revision-2/proof.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "research/hug-v3/corrected-proof-revision-2/corrected-proof.pdf",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "research/hug-v3/continuation-proof/continuation-proof.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "research/matched-stretch/final-matrix/README.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "research/comparisons/README.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "provenance/files.json",
+      "exists": true
+    },
+    {
+      "document": "PROOF-STATUS.md",
+      "target": "research/hug-v3/corrected-proof-revision-2/proof.md",
+      "exists": true
+    },
+    {
+      "document": "PROOF-STATUS.md",
+      "target": "research/hug-v3/corrected-proof-revision-2/testing-packet/completion.json",
+      "exists": true
+    },
+    {
+      "document": "PROOF-STATUS.md",
+      "target": "research/hug-v3/continuation-proof/continuation-proof.md",
+      "exists": true
+    },
+    {
+      "document": "PROOF-STATUS.md",
+      "target": "research/hug-v3/continuation-proof/checks.json",
+      "exists": true
+    },
+    {
+      "document": "PROOF-STATUS.md",
+      "target": "research/matched-stretch/final-matrix/README.md",
+      "exists": true
+    },
+    {
+      "document": "PROOF-STATUS.md",
+      "target": "research/matched-stretch/evidence/",
+      "exists": true
+    },
+    {
+      "document": "PROOF-STATUS.md",
+      "target": "lean/README.md",
+      "exists": true
+    },
+    {
+      "document": "PROOF-STATUS.md",
+      "target": "provenance/files.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "as-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "as-lean/verification-receipt.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "as-existence-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "as-existence-lean/verification-receipt.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "as-invariance-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "as-invariance-lean/verification-receipt.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-squeeze-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-squeeze-lean/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-existence-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-existence-lean/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-navier-bridge-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-navier-bridge-lean/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-navier-full-audit-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-navier-full-audit-lean/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-navier-single-system-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-navier-single-system-lean/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-navier-wellposedness-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-navier-wellposedness-lean/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-proof-attempt/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-proof-attempt/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-hybrid-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-hybrid-lean/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-source-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-source-lean/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-transfer-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-transfer-lean/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-delay-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-delay-lean/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-full-delay-proof/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-full-delay-proof/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-memory-rules-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-memory-rules-lean/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-clay-boundary-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-clay-boundary-lean/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-yang-mills-audit-lean/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-yang-mills-audit-lean/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-gemini-review/",
+      "exists": true
+    },
+    {
+      "document": "lean/README.md",
+      "target": "hug-v3-gemini-review/verification-report.json",
+      "exists": true
+    },
+    {
+      "document": "research/matched-stretch/README.md",
+      "target": "final-matrix/README.md",
+      "exists": true
+    },
+    {
+      "document": "research/matched-stretch/README.md",
+      "target": "final-matrix/matrix-verification.json",
+      "exists": true
+    },
+    {
+      "document": "research/matched-stretch/README.md",
+      "target": "evidence/publication-record.json",
+      "exists": true
+    },
+    {
+      "document": "research/comparisons/README.md",
+      "target": "lean-verification-report.txt",
+      "exists": true
+    },
+    {
+      "document": "research/comparisons/README.md",
+      "target": "as-equation-audit.txt",
+      "exists": true
+    },
+    {
+      "document": "research/comparisons/README.md",
+      "target": "meaning-scale-audit.txt",
+      "exists": true
+    },
+    {
+      "document": "research/comparisons/README.md",
+      "target": "hug-navier-single-system-scope-correction.md",
+      "exists": true
+    }
+  ],
+  "credential_pattern_files": [],
+  "historical_records_are_not_new_proofs": true,
+  "unresolved_path_explanation": "Only historical compiler/tool executables and Python bytecode caches are excluded. Their old hashes are retained without claiming fresh verification."
+}

@@ -1,0 +1,16 @@
+✔ [3106/3115] Built V3SourceCore (9.4s)
+✔ [3107/3115] Built V3SourceMemory (1.6s)
+✔ [3108/3115] Built V3SourceSocial (1.5s)
+✔ [3109/3115] Built V3SourceFlow (1.3s)
+✔ [3110/3115] Built V3SourceGeometry (7.4s)
+✔ [3111/3115] Built V3SourceSystem (1.3s)
+✔ [3112/3115] Built V3DelayDefinitions (1.2s)
+✖ [3113/3115] Building V3YangMillsAuditDefinitions (1.1s)
+trace: .> LEAN_PATH=/home/nsverify/verification/project/.lake/packages/Cli/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/batteries/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Qq/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/aesop/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/importGraph/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/plausible/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/mathlib/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/lib/lean:/home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/lib/lean /opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/V3YangMillsAuditDefinitions.lean -o /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/lib/lean/V3YangMillsAuditDefinitions.olean -i /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/lib/lean/V3YangMillsAuditDefinitions.ilean -c /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/ir/V3YangMillsAuditDefinitions.c --setup /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/ir/V3YangMillsAuditDefinitions.setup.json --json
+error: V3YangMillsAuditDefinitions.lean:12:2: failed to synthesize instance of type class
+  HMul (Matrix Axis Axis ℝ) Mat ?m.8
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+Some required targets logged failures:
+- V3YangMillsAuditDefinitions
+error: build failed

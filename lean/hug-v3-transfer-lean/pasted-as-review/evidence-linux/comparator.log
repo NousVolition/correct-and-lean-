@@ -1,0 +1,81 @@
+Running as unit: as-pasted-repair-comparator-20261101.service; invocation ID: de30abc82d0d432bbabffd26db11227a
+Building PastedASChallenge
+✔ [3352/3354] Built ASModel (1.6s)
+⚠ [3353/3354] Built PastedASChallenge (1.7s)
+warning: PastedASChallenge.lean:8:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:10:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:12:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:14:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:16:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:18:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:20:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:22:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:24:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:26:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:29:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:32:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:35:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:38:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:42:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:46:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:50:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:54:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:58:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:63:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:67:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:70:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:73:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:80:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:84:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:88:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:92:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:96:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:100:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:105:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:110:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:114:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:118:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:122:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:126:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:130:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:134:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:138:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:141:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:144:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:147:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:151:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:158:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:166:8: declaration uses `sorry`
+Build completed successfully (3354 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SocialAS.Verified.pos_nonneg, SocialAS.Verified.self_le_pos, SocialAS.Verified.pos_of_nonneg, SocialAS.Verified.pos_of_nonpos, SocialAS.Verified.pos_eq_zero_of_nonpos, SocialAS.Verified.abs_pos_sub_pos_le, SocialAS.Verified.indicator_false, SocialAS.Verified.indicator_true, SocialAS.Verified.indicator_unit, SocialAS.Verified.saturation_nonneg, SocialAS.Verified.one_sub_saturation, SocialAS.Verified.saturation_le_one, SocialAS.Verified.saturation_unit, SocialAS.Verified.effect_unit, SocialAS.Verified.chiForward_unit, SocialAS.Verified.chiReverse_unit, SocialAS.Verified.thetaForward_unit, SocialAS.Verified.thetaReverse_unit, SocialAS.Verified.saturation_sub_identity, SocialAS.Verified.saturation_lipschitz, SocialAS.Verified.generalSDrift_zero, SocialAS.Verified.generalSDrift_one, SocialAS.Verified.total_S_drift_balance, SocialAS.Verified.exchange_lipschitz_in_gap, SocialAS.Verified.loadDrift_nonneg_at_zero, SocialAS.Verified.loadDrift_lipschitz_in_L, SocialAS.Verified.receivedMeaning_unit, SocialAS.Verified.meaningRate_nonneg, SocialAS.Verified.meaningDrift_nonneg_at_zero, SocialAS.Verified.meaningDrift_nonpos_at_one, SocialAS.Verified.smokeMeaningDrift_nonneg_at_zero, SocialAS.Verified.smokeMeaningDrift_nonpos_at_one, SocialAS.Verified.clayMeaningDrift_nonneg_at_zero, SocialAS.Verified.clayMeaningDrift_nonpos_at_one, SocialAS.Verified.opening_unit, SocialAS.Verified.registration_unit, SocialAS.Verified.conditionalRegistration_unit, SocialAS.Verified.branches_nonneg, SocialAS.Verified.branches_sum_eq_one, SocialAS.Verified.update_false_eq_self, SocialAS.Verified.update_preserves_simplex, SocialAS.Verified.integralSolution_unique_A, SocialAS.Verified.integralSolution_sub_eq, SocialAS.Verified.integralSolution_coord_unique_of_drift_eq, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from PastedASChallenge
+Building RepairedASProofs
+⚠ [3353/3354] Built RepairedASProofs (9.6s)
+warning: RepairedASProofs.lean:153:19: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RepairedASProofs.lean:153:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+info: RepairedASProofs.lean:444:0: 'SocialAS.Verified.abs_pos_sub_pos_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:445:0: 'SocialAS.Verified.saturation_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:446:0: 'SocialAS.Verified.generalSDrift_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:447:0: 'SocialAS.Verified.generalSDrift_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:448:0: 'SocialAS.Verified.exchange_lipschitz_in_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:449:0: 'SocialAS.Verified.smokeMeaningDrift_nonneg_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:450:0: 'SocialAS.Verified.smokeMeaningDrift_nonpos_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:451:0: 'SocialAS.Verified.branches_sum_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:452:0: 'SocialAS.Verified.update_preserves_simplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:453:0: 'SocialAS.Verified.integralSolution_unique_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:454:0: 'SocialAS.Verified.integralSolution_sub_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3354 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SocialAS.Verified.pos_nonneg, SocialAS.Verified.self_le_pos, SocialAS.Verified.pos_of_nonneg, SocialAS.Verified.pos_of_nonpos, SocialAS.Verified.pos_eq_zero_of_nonpos, SocialAS.Verified.abs_pos_sub_pos_le, SocialAS.Verified.indicator_false, SocialAS.Verified.indicator_true, SocialAS.Verified.indicator_unit, SocialAS.Verified.saturation_nonneg, SocialAS.Verified.one_sub_saturation, SocialAS.Verified.saturation_le_one, SocialAS.Verified.saturation_unit, SocialAS.Verified.effect_unit, SocialAS.Verified.chiForward_unit, SocialAS.Verified.chiReverse_unit, SocialAS.Verified.thetaForward_unit, SocialAS.Verified.thetaReverse_unit, SocialAS.Verified.saturation_sub_identity, SocialAS.Verified.saturation_lipschitz, SocialAS.Verified.generalSDrift_zero, SocialAS.Verified.generalSDrift_one, SocialAS.Verified.total_S_drift_balance, SocialAS.Verified.exchange_lipschitz_in_gap, SocialAS.Verified.loadDrift_nonneg_at_zero, SocialAS.Verified.loadDrift_lipschitz_in_L, SocialAS.Verified.receivedMeaning_unit, SocialAS.Verified.meaningRate_nonneg, SocialAS.Verified.meaningDrift_nonneg_at_zero, SocialAS.Verified.meaningDrift_nonpos_at_one, SocialAS.Verified.smokeMeaningDrift_nonneg_at_zero, SocialAS.Verified.smokeMeaningDrift_nonpos_at_one, SocialAS.Verified.clayMeaningDrift_nonneg_at_zero, SocialAS.Verified.clayMeaningDrift_nonpos_at_one, SocialAS.Verified.opening_unit, SocialAS.Verified.registration_unit, SocialAS.Verified.conditionalRegistration_unit, SocialAS.Verified.branches_nonneg, SocialAS.Verified.branches_sum_eq_one, SocialAS.Verified.update_false_eq_self, SocialAS.Verified.update_preserves_simplex, SocialAS.Verified.integralSolution_unique_A, SocialAS.Verified.integralSolution_sub_eq, SocialAS.Verified.integralSolution_coord_unique_of_drift_eq, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from RepairedASProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 19.071s
+             CPU time consumed: 1min 25.228s
+                   Memory peak: 1.2G (swap: 0B)

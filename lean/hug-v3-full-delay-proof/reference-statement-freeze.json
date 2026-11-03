@@ -1,0 +1,6 @@
+{
+  "frozen_utc": "2026-11-02T05:13:53.9992077Z",
+  "file": "V3FullDelayChallenge.lean",
+  "sha256": "7418de24690c713150053bd60808d48793c0380eb85fa67981076d575bea9119",
+  "scope": "Conditional full-state local existence/uniqueness and exact history/write properties. NOT full hybrid delayed existence/uniqueness."
+}

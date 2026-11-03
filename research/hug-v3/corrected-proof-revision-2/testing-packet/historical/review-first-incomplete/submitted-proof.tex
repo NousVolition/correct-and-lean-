@@ -1,0 +1,377 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,margin=20mm]{geometry}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,tabularx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{microtype}
+
+\definecolor{primary}{RGB}{24,78,119}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=primary,
+  citecolor=primary,
+  urlcolor=primary
+}
+
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\parindent}{0pt}
+\emergencystretch=2em
+
+\newcommand{\takeaway}[2]{%
+  \vspace{6pt}\noindent\colorbox{primary!8}{%
+    \parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+      \vspace{3pt}\textbf{\color{primary}#1:}\hspace{0.5em}#2\vspace{3pt}%
+    }%
+  }\vspace{6pt}%
+}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+
+\title{\textbf{\color{primary}An Explicit Inter-Event and Hybrid Uniqueness Proof for \texttt{hug-structural-memory-v3}}}
+\author{Mathematical Analysis of the Exact-Real Fixed-Grid Source Realization\\
+\small Grounded in \texttt{continuum.py}, \texttt{social\_base.py}, \texttt{structural\_hug.py}, \texttt{run.py}, and \texttt{LOCAL\_PROOF\_ROUTE.md}}
+\date{October 31, 2026}
+
+\begin{document}
+\maketitle
+
+\takeaway{Status and Scope}{This document is a complete written mathematical proof of inter-event local Lipschitz regularity, inter-event ODE uniqueness, and deterministic hybrid event-to-event uniqueness for the unchanged \texttt{hug-structural-memory-v3} source package under its exact-real arithmetic interpretation on the fixed finite spatial realization. It preserves the returning student, the idea \emph{``Giving someone space to speak can change what I understand,''} all 21 sealed source files, and the 193,122-coordinate \texttt{main} state space. It is not yet formalized in Lean 4, does not prove a priori global continuation to $t=1.6$ without admissibility hypotheses at event times, and does not claim an infinite-dimensional spatial continuum limit ($n \to \infty$, $P \to \infty$).}
+
+\section{Hybrid State Space and Why Global Smooth Uniqueness Fails}
+
+Unlike the two-dimensional six-field continuum PDE in \texttt{FullModel.lean}, the \texttt{hug-structural-memory-v3} system is a coupled 3D fluid--material--thermal--social hybrid dynamical system with scheduled discrete memory-writing jumps. For a fixed configuration (in \texttt{main}: grid resolution $n=16$ on $[-1/2, 1/2)^3$ with $\Delta x = 1/n$ and $\Delta v = \Delta x^3$, body quadrature $P = N_r N_\theta N_\phi = 4 \times 8 \times 12 = 384$ points on the reference ellipsoid with semi-axes $(0.22, 0.17, 0.19)$, $K = 3 \times 8 = 24$ material fiber directions $a_k \in S^2$, $N = 6$ social roles, and $C_{\mathrm{cap}} = 4$ structural slots of $B_{\mathrm{slot}} = 2(23 + 6P) + 4 = 4,658$ bytes $= 37,264$ bits each, totaling $S_{\mathrm{fab}} = 149,056$ bistable rest-strain cells), the continuous state lives in the finite-dimensional Euclidean space
+\begin{equation}
+  \mathcal{S} \cong \mathbb{R}^{D}, \qquad D = 5n^3 + 3P + 9P + 2KP + S_{\mathrm{fab}} + 6 + (6N + 14N^2) = 193,122,
+\end{equation}
+equipped with the standard Euclidean inner product $\langle \cdot, \cdot \rangle$ and norm $\|s\|_2$.
+
+\begin{table}[!ht]
+\centering
+\small
+\begin{tabularx}{\textwidth}{llrr>{\raggedright\arraybackslash}X}
+\toprule
+\textbf{State Key} & \textbf{Symbol} & \textbf{Shape (\texttt{main})} & \textbf{Coords} & \textbf{Physical / Social Role in Source} \\
+\midrule
+\texttt{g[...,:3]} & $u$ & $(16,16,16,3)$ & $12,288$ & Dealiased 3D periodic velocity field ($\nabla_{\mathrm{spec}}\cdot u = 0$) \\
+\texttt{g[...,3]} & $C$ & $(16,16,16)$ & $4,096$ & Finite-volume transported context scalar \\
+\texttt{g[...,4]} & $\theta$ & $(16,16,16)$ & $4,096$ & Excess temperature field above baseline $1$ \\
+\texttt{X} & $X$ & $(384,3)$ & $1,152$ & Lagrangian material quadrature positions \\
+\texttt{F} & $F$ & $(384,3,3)$ & $3,456$ & Material deformation gradient tensors \\
+\texttt{m} & $m$ & $(384,24,2)$ & $18,432$ & Extension/shortening directional exposure records \\
+\texttt{b} & $b$ & $(149056,)$ & $149,056$ & Bistable rest-strain inclusions across $4$ code slots \\
+\texttt{A}, \texttt{ledger}, \texttt{write\_work} & $A,\ell,w_{\mathrm{wr}}$ & $(1,), (4,), (1,)$ & $6$ & Source accumulator, energy/source ledgers, write work \\
+\texttt{expression}, \texttt{context}, \texttt{norm} & $e, c, \bar{e}$ & $3 \times (6,2)$ & $36$ & Actor expression, 2-simplex context, norm centers \\
+\texttt{logradius} & $\lambda$ & $(6,6)$ & $36$ & Log permission radii $\log r_{ij}$ \\
+\texttt{relation} & $B$ & $(6,6,3)$ & $108$ & Off-diagonal recognition, authority, and trust maps \\
+\texttt{responses} & $r$ & $(6,6,7)$ & $252$ & Directed 7-mode response strengths \\
+\texttt{association} & $\alpha$ & $(6,6,3)$ & $108$ & Retrieval cue shifts \\
+\bottomrule
+\end{tabularx}
+\caption{Exact decomposition of the $D = 193,122$ real coordinates in the \texttt{main} state dictionary (\texttt{source-audit.json}).}
+\end{table}
+
+In addition to $s(t) \in \mathcal{S}$, the hybrid runner (\texttt{run.py:29--44}) maintains a finite dictionary of captured start deformations $\mathcal{F}_{\mathrm{start}}(t) : I_{\mathrm{act}}(t) \to \mathbb{R}^{P \times 3 \times 3}$ indexed by the active event IDs $I_{\mathrm{act}}(t) \subset \{0, \dots, 14\}$. Let
+\begin{equation}
+  0 = t_0 < t_1 < t_2 < \dots < t_M = T_{\mathrm{end}}
+\end{equation}
+be the sorted union of $\{0, T_{\mathrm{end}}\}$ and all declared event start and end times $\{t_{\mathrm{start}}(\varepsilon), t_{\mathrm{end}}(\varepsilon)\}_{\varepsilon \in \mathcal{E}}$ (for \texttt{main}, $(t_0, \dots, t_5) = (0.0, 0.2, 0.4, 0.8, 1.2, 1.6)$).
+
+By the six theorems already verified by Lean and \texttt{nanoda} in \texttt{V3EventProofs.lean} (\texttt{event\_prevents\_continuity}, \texttt{event\_prevents\_derivative}, \texttt{full\_state\_prevents\_continuity}), any trajectory that executes \texttt{write\_event} at an endpoint $t_q = t_{\mathrm{end}}(\varepsilon)$ experiences an instantaneous jump in the target slot's rest-strain coordinates $b_l$ (specifically, the least significant bit of $\mathrm{MAGIC}=1729$ is $1$, jumping an empty coordinate from $b_l(t_q^-) \le -\mu_{\mathrm{read}}a < 0$ to $b_l(t_q) = +a > 0$), alongside a discrete heat injection into $\theta$ and an increment to $w_{\mathrm{wr}}$. Consequently, uniqueness must be formulated for \textbf{piecewise-$C^1$ right-continuous trajectories with left limits (c\`adl\`ag)} across the partition $[t_q, t_{q+1})$.
+
+\section{\texorpdfstring{The Valid Open Domain $\Omega_{\mathrm{valid}}$ Satisfies Strict Read and Fiber Margins}{The Valid Open Domain Satisfies Strict Read and Fiber Margins}}
+
+Following \texttt{LOCAL\_PROOF\_ROUTE.md}, the right-hand side $\mathcal{F}(t, s)$ defined by \texttt{Solver.rhs} in \texttt{continuum.py:186}, \texttt{social\_base.py:144}, and \texttt{structural\_hug.py:179} has two potential singularities or discontinuities in $\mathcal{S}$:
+\begin{enumerate}
+  \item Division by the deformed fiber length $\|d_{p,k}(F)\|_2 = \|F_p a_k\|_2$ in the anisotropic thermal conductivity tensor $K_{\mathrm{extra}}$ (\texttt{continuum.py:175}), and
+  \item Switching of the discrete bit decoder $\mathbf{1}_{\{\widehat{b}_l > 0\}}$ and its refusal guard $\min_l |\widehat{b}_l| < \mu_{\mathrm{read}} a$ in \texttt{bits\_from\_probe} (\texttt{structural\_hug.py:86}).
+\end{enumerate}
+
+\begin{definition}[Valid Open Domain $\Omega_{\mathrm{valid}}$]
+Let $a = \texttt{rest\_amplitude} = 0.02$, $\mu_{\mathrm{read}} = \texttt{read\_margin} = 0.25$, and $k_{\mathrm{micro}} = \texttt{micro\_k} = 0.04 > 0$. Define $\Omega_{\mathrm{valid}} \subset \mathcal{S}$ as the set of states $s \in \mathcal{S}$ satisfying:
+\begin{align}
+  \|F_p a_k\|_2 &> 0 \qquad \forall p \in \{0, \dots, P-1\},\ \forall k \in \{0, \dots, K-1\}, \label{eq:fiber_pos}\\
+  |b_l| &> \mu_{\mathrm{read}}\, a \qquad \forall l \in \{0, \dots, S_{\mathrm{fab}}-1\}, \label{eq:well_margin}
+\end{align}
+and such that the bit string $\beta(b) = (\mathbf{1}_{\{b_l > 0\}})_{l=0}^{S_{\mathrm{fab}}-1} \in \{0,1\}^{S_{\mathrm{fab}}}$ packed by \texttt{decode\_probe} (\texttt{structural\_hug.py}, lines 126--133) passes \texttt{unpack} without raising \texttt{MemoryReadError} on every non-zero slot.
+\end{definition}
+
+\begin{lemma}[Openness of $\Omega_{\mathrm{valid}}$ and Local Constancy of the Material Decoder]
+\label{lem:decoder_const}
+The set $\Omega_{\mathrm{valid}}$ is open in $\mathcal{S}$. Moreover, for every $s^{(0)} \in \Omega_{\mathrm{valid}}$, let
+\begin{equation}
+  \rho_b(s^{(0)}) := \min_{0 \le l < S_{\mathrm{fab}}} |b_l^{(0)}| - \mu_{\mathrm{read}}\, a > 0, \qquad
+  \rho_F(s^{(0)}) := \min_{p, k} \|F_p^{(0)} a_k\|_2 > 0.
+\end{equation}
+Then on the open neighborhood
+\begin{equation}
+  \mathcal{U}(s^{(0)}) := \left\{ s \in \mathcal{S} : \|b - b^{(0)}\|_\infty < \tfrac{1}{2}\rho_b(s^{(0)}) \text{ and } \max_{p,k} \|(F_p - F_p^{(0)})a_k\|_2 < \tfrac{1}{2}\rho_F(s^{(0)}) \right\} \subset \Omega_{\mathrm{valid}},
+\end{equation}
+the inferred rest strain $\widehat{b}(F, b)$, the decoded bit vector $\beta(b)$, the CRC32 verification status, and the ordered list of decoded material records $\mathcal{R}(s) = \texttt{read\_material}(s)$ are \textbf{strictly constant}.
+\end{lemma}
+
+\begin{proof}
+In exact real arithmetic, \texttt{probe} (\texttt{structural\_hug.py:75--81}) evaluates two axial loads $l_\pm = e_l(F) \pm q_{\mathrm{probe}}$ with tractions $\tau_\pm = k_{\mathrm{micro}}(l_\pm - b_l)$. Since $k_{\mathrm{micro}} \ne 0$, \texttt{probe\_recovers\_rest\_strain} (\texttt{V3EventProofs.lean:9}) gives
+\begin{equation}
+  \widehat{b}_l(F, b) = \frac{1}{2}\sum_{\pm}\left(l_\pm - \frac{k_{\mathrm{micro}}(l_\pm - b_l)}{k_{\mathrm{micro}}}\right) = b_l \qquad \forall l \in \{0, \dots, S_{\mathrm{fab}}-1\}.
+\end{equation}
+For any $s \in \mathcal{U}(s^{(0)})$ and every index $l$, the triangle inequality gives
+\begin{equation}
+  |b_l| \ge |b_l^{(0)}| - |b_l - b_l^{(0)}| > (\mu_{\mathrm{read}}a + \rho_b(s^{(0)})) - \tfrac{1}{2}\rho_b(s^{(0)}) = \mu_{\mathrm{read}}a + \tfrac{1}{2}\rho_b(s^{(0)}) > \mu_{\mathrm{read}}a,
+\end{equation}
+and $b_l$ cannot cross zero because $|b_l - b_l^{(0)}| < \frac{1}{2}\rho_b(s^{(0)}) < |b_l^{(0)}|$. Thus $\mathrm{sgn}(b_l) = \mathrm{sgn}(b_l^{(0)})$ for all $l$. Since \texttt{bits\_from\_probe} returns $\beta_l = \mathbf{1}_{\{b_l > 0\}}$, and \texttt{decode\_probe} / \texttt{unpack} (\texttt{structural\_hug.py:113--133}) are deterministic functions of the bit array $\beta$ alone, the CRC32 check, header check, and decoded records $\mathcal{R}(s) = \mathcal{R}(s^{(0)})$ are identical for all $s \in \mathcal{U}(s^{(0)})$. Similarly, $\|F_p a_k\|_2 \ge \|F_p^{(0)} a_k\|_2 - \|(F_p - F_p^{(0)})a_k\|_2 > \frac{1}{2}\rho_F(s^{(0)}) > 0$, proving $\mathcal{U}(s^{(0)}) \subset \Omega_{\mathrm{valid}}$ is open.
+\end{proof}
+
+\section{Componentwise Local Lipschitz Bounds for the Complete v3 RHS}
+
+We now verify the seven analytical requirements of \texttt{LOCAL\_PROOF\_ROUTE.md} by establishing explicit local Lipschitz bounds for every operator in $\mathcal{F}(t, s)$ on any compact subset $K \subset \Omega_{\mathrm{valid}}$ (and on every local ball $\mathcal{U}(s^{(0)})$).
+
+\subsection{Finite-Grid Spectral and Finite-Volume Operators (Item 1)}
+
+\begin{lemma}[Boundedness of Fixed-Grid Spatial Operators]
+\label{lem:grid_ops}
+For any fixed even grid size $n \in 2\mathbb{N}$, the discrete Fourier transform $\widehat{\cdot}$ (\texttt{hat}), inverse transform (\texttt{real}), dealiasing filter $\mathcal{M}$ (\texttt{filter}), spectral gradient $\nabla_{\mathrm{spec}}$ (\texttt{grad}), spectral divergence $\nabla_{\mathrm{spec}}\cdot$ (\texttt{divergence}), Leray--Helmholtz projector $\mathbb{P}$ (\texttt{project}), and central-difference gradient $\nabla_{\mathrm{cd}}$ are linear maps on finite-dimensional real vector spaces, hence bounded and globally Lipschitz:
+\begin{equation}
+  \|\mathcal{M}\|_{\mathrm{op}} = 1, \quad \|\mathbb{P}\|_{\mathrm{op}} = 1, \quad \|\nabla_{\mathrm{spec}}\|_{\mathrm{op}} \le \frac{2\pi n}{\sqrt{3}}, \quad \|\nabla_{\mathrm{cd}}\|_{\mathrm{op}} \le \sqrt{3}\,n.
+\end{equation}
+Moreover, the finite-volume transport map $\mathcal{T}_{\mathrm{ctx}}(C, u) = \texttt{context\_transport}(C, u)$ (\texttt{continuum.py}, lines 112--127) is a sum of a linear discrete diffusion operator and a bilinear advection operator in $(u, C)$, hence smooth ($C^\infty$) and locally Lipschitz on $\mathbb{R}^{n^3} \times \mathbb{R}^{3n^3}$:
+\begin{equation}
+  \|\mathcal{T}_{\mathrm{ctx}}(C, u) - \mathcal{T}_{\mathrm{ctx}}(\widetilde{C}, \widetilde{u})\|_2 \le 12 n^2 D_{\mathrm{diff}} \|C - \widetilde{C}\|_2 + 6n\left(\|u\|_\infty \|C - \widetilde{C}\|_2 + \|\widetilde{C}\|_\infty \|u - \widetilde{u}\|_2\right).
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+By Plancherel's theorem on $(\mathbb{Z}/n\mathbb{Z})^3$, multiplication in Fourier space by $m(k)$ has $\ell^2$ operator norm $\max_k |m(k)|$. For $\mathcal{M}$, $m(k) \in \{0, 1\}$; for $\mathbb{P}$, $I - \frac{k \otimes k}{\|k\|_2^2}$ is an orthogonal projection on each mode $k \ne 0$; for $\nabla_{\mathrm{spec}}$, $|i k_j| \le \pi n$; and for $\nabla_{\mathrm{cd}}$, the symbol is $\frac{i\sin(2\pi f_j/n)}{\Delta x}$ bounded by $n$. In \texttt{context\_transport}, the face velocity $u_f^{(j)} = \mathcal{F}^{-1}(\widehat{u}_j m_{\mathrm{face}}^{(j)})$ uses $|m_{\mathrm{face}}^{(j)}(k)| = |e^{i k_j \Delta x/2}\prod_{r\ne j}\mathrm{sinc}(k_r \Delta x/(2\pi))| \le 1$, so $\|u_f^{(j)}\|_2 \le \|u_j\|_2$, and the flux difference is linear in $C$ plus bilinear in $(u_f, C)$.
+\end{proof}
+
+\subsection{\texorpdfstring{Mechanical Spreading $M(X)$ and Periodic Wrapped Thermal Kernel $R(X)$ (Item 4)}{Mechanical Spreading M(X) and Periodic Wrapped Thermal Kernel R(X) (Item 4)}}
+
+A subtle non-smoothness highlighted in \texttt{LOCAL\_PROOF\_ROUTE.md} (Item 4) occurs in \texttt{matrices(X)} (\texttt{continuum.py:129--150}): while the mechanical interpolation weight $W_j(X_{p,j}, x_m)$ is a finite trigonometric polynomial, the thermal weight wraps $\delta = ((X_{p,j} - x_m + \frac{1}{2}) \bmod 1) - \frac{1}{2} \in [-\frac{1}{2}, \frac{1}{2})$ and evaluates a truncated 3-image Gaussian sum.
+
+\begin{lemma}[Global Lipschitz Regularity of $M(X)$ and Wrapped $R(X)$]
+\label{lem:kernels}
+For every $X \in \mathbb{R}^{P \times 3}$:
+\begin{enumerate}
+  \item The mechanical interpolation matrix $M(X) \in \mathbb{R}^{P \times n^3}$ has $C^\infty$ entries bounded by $|M_{p,m}(X)| \le 1$, with globally bounded gradient $\|\nabla_X M(X)\|_{\mathrm{op}} \le C_M < \infty$.
+  \item For each coordinate axis $j \in \{0,1,2\}$, define the 1-periodic wrapped 3-image Gaussian function on $\mathbb{R}$:
+  \begin{equation}
+    \widetilde{\psi}(z) := \psi\!\left(\left(\left(z + \tfrac{1}{2}\right) \bmod 1\right) - \tfrac{1}{2}\right), \qquad \psi(\delta) := \sum_{\sigma \in \{-1, 0, 1\}} \exp\!\left(-\frac{(\delta + \sigma)^2}{2 w_{\mathrm{th}}^2}\right),
+  \end{equation}
+  where $w_{\mathrm{th}} = \texttt{thermal\_width} = 0.045$. Although $\widetilde{\psi}'(z)$ has a finite jump across the periodic seam $z \in \mathbb{Z} + \frac{1}{2}$, $\widetilde{\psi}$ is \textbf{continuous everywhere on $\mathbb{R}$}, strictly positive, and piecewise $C^\infty$ with
+  \begin{equation}
+    |\widetilde{\psi}(z_1) - \widetilde{\psi}(z_2)| \le L_\psi |z_1 - z_2| \qquad \forall z_1, z_2 \in \mathbb{R}, \qquad L_\psi := \sup_{\delta \in (-1/2, 1/2)} |\psi'(\delta)| \le \frac{3}{w_{\mathrm{th}}\sqrt{e}}.
+  \end{equation}
+  \item For every particle $p$ and axis $j$, the normalization denominator $Z_{p,j}(X) := \sum_{m=0}^{n-1} \widetilde{\psi}(X_{p,j} - x_m)$ satisfies
+  \begin{equation}
+    Z_{p,j}(X) \ge \exp\!\left(-\frac{1}{8 n^2 w_{\mathrm{th}}^2}\right) > 0 \qquad \forall X \in \mathbb{R}^{P \times 3},
+  \end{equation}
+  and the normalized tensor-product kernel $R(X) \in \mathbb{R}^{P \times n^3}$ is nonnegative, row-stochastic ($\sum_{m} R_{p,m}(X) = 1$), and \textbf{globally Lipschitz} on $\mathbb{R}^{P \times 3}$:
+  \begin{equation}
+    \|R(X) - R(\widetilde{X})\|_F \le L_R \|X - \widetilde{X}\|_F \qquad \forall X, \widetilde{X} \in \mathbb{R}^{P \times 3}.
+  \end{equation}
+\end{enumerate}
+\end{lemma}
+
+\begin{proof}
+For (1), $W_j(z) = \frac{1}{n}\sum_{|f|<n/3} \cos(2\pi f z)e^{-2\pi^2 f^2 w_{\mathrm{mech}}^2}$ is a finite sum of cosines with $|W_j(z)| \le 1$ and $|W_j'(z)| \le \frac{2\pi}{3}n$.
+
+For (2), because the shift set $\{-1, 0, 1\}$ is symmetric ($\sigma \mapsto -\sigma$), $\psi(-\delta) = \psi(\delta)$ for all $\delta \in \mathbb{R}$. Consequently, at the periodic seam $\delta = \pm \frac{1}{2}$, the left and right limits of $\widetilde{\psi}$ coincide:
+\begin{equation}
+  \lim_{z \to (k + 1/2)^-} \widetilde{\psi}(z) = \psi(1/2) = \psi(-1/2) = \lim_{z \to (k + 1/2)^+} \widetilde{\psi}(z)
+  = e^{-1/(8 w_{\mathrm{th}}^2)} + e^{-9/(8 w_{\mathrm{th}}^2)} + e^{-25/(8 w_{\mathrm{th}}^2)}.
+\end{equation}
+Hence $\widetilde{\psi} \in C^0(\mathbb{R})$. On each open interval $(k - \frac{1}{2}, k + \frac{1}{2})$, $\widetilde{\psi}$ is $C^\infty$ and each Gaussian term $g_\sigma(\delta) = e^{-(\delta+\sigma)^2/(2w_{\mathrm{th}}^2)}$ satisfies $|g_\sigma'(\delta)| \le \frac{1}{w_{\mathrm{th}}\sqrt{e}}$. By the fundamental theorem of calculus for continuous, piecewise-$C^1$ functions on $\mathbb{R}$, $|\widetilde{\psi}(z_1) - \widetilde{\psi}(z_2)| \le (\sup_{\delta \in (-1/2, 1/2)} |\psi'(\delta)|)|z_1 - z_2| \le \frac{3}{w_{\mathrm{th}}\sqrt{e}}|z_1 - z_2|$.
+
+For (3), given any $X_{p,j} \in \mathbb{R}$, there exists a grid node $x_{m^*} \in \{-\frac{1}{2}, -\frac{1}{2}+\frac{1}{n}, \dots, \frac{1}{2}-\frac{1}{n}\}$ within periodic distance $|\delta_{p,j,m^*}| \le \frac{1}{2n}$. Thus $Z_{p,j}(X) \ge \psi(\delta_{p,j,m^*}) \ge \exp(-1/(8 n^2 w_{\mathrm{th}}^2)) =: z_{\min} > 0$. For each 1D factor $R^{(j)}_{p,m}(X) = \frac{\widetilde{\psi}(X_{p,j}-x_m)}{Z_{p,j}(X)} \in [0, 1]$, we have
+\begin{equation}
+  |R^{(j)}_{p,m}(X) - R^{(j)}_{p,m}(\widetilde{X})|
+  = \left|\frac{\widetilde{\psi}(X_{p,j}-x_m) - R^{(j)}_{p,m}(X) Z_{p,j}(X)}{Z_{p,j}(\widetilde{X})}\right|
+  \le \frac{(1 + n) L_\psi}{z_{\min}} |X_{p,j} - \widetilde{X}_{p,j}|.
+\end{equation}
+Since $R_{p,(m_0,m_1,m_2)}(X) = \prod_{j=0}^2 R^{(j)}_{p,m_j}(X)$ and each factor lies in $[0, 1]$, telescoping the triple product gives $|R_{p,m}(X) - R_{p,m}(\widetilde{X})| \le \frac{(1+n)L_\psi}{z_{\min}}\sum_{j=0}^2 |X_{p,j} - \widetilde{X}_{p,j}|$, proving global Lipschitz continuity.
+\end{proof}
+
+\subsection{Regularized Gradient Excess and Exact-Off Flat Activation (Item 3)}
+
+In \texttt{continuum.py:217--224}, the context threshold force uses the regularized gradient excess $q_{\delta}^*$ and the exact-off activation branch:
+\begin{equation}
+  q(g_C) = \sqrt{\|g_C\|_2^2 + \delta^2} - \sqrt{\Gamma^2 + \delta^2}, \qquad
+  a_e(q) = \begin{cases}
+    0, & q \le 0, \\
+    q \exp\!\left(-\dfrac{\epsilon^2}{q^2}\right), & q > 0,
+  \end{cases}
+\end{equation}
+where $g_C = \nabla_{\mathrm{cd}} C$, $\delta = 0.003 > 0$, $\Gamma = 0.015$, and $\epsilon = 0.012 > 0$.
+
+\begin{lemma}[Smoothness and Global Lipschitz Constant of the Exact-Off Activation]
+\label{lem:activation}
+For any $\delta > 0$ and $\epsilon > 0$:
+\begin{enumerate}
+  \item The map $g_C \mapsto q(g_C)$ is $C^\infty(\mathbb{R}^3)$ and globally $1$-Lipschitz: $|q(g_C) - q(\widetilde{g}_C)| \le \|g_C - \widetilde{g}_C\|_2$.
+  \item The exact-off activation $a_e : \mathbb{R} \to \mathbb{R}$ belongs to $C^\infty(\mathbb{R})$ with $a_e^{(m)}(0) = 0$ for all $m \ge 0$, and is \textbf{globally Lipschitz on $\mathbb{R}$} with exact Lipschitz constant $2/\sqrt{e}$:
+  \begin{equation}
+    0 \le a_e'(q) \le \frac{2}{\sqrt{e}} \approx 1.21306 \qquad \forall q \in \mathbb{R}.
+  \end{equation}
+  Consequently, the force map $C \mapsto \mathrm{force}(C) = -\sigma\, a_e(q(\nabla_{\mathrm{cd}} C))\, e_x$ is $C^\infty$ and globally Lipschitz on $\mathbb{R}^{n^3}$ with Lipschitz constant $\frac{2\sigma\sqrt{3}\,n}{\sqrt{e}}$.
+\end{enumerate}
+\end{lemma}
+
+\begin{proof}
+For $g_C \in \mathbb{R}^3$, $\nabla_{g_C} q(g_C) = \frac{g_C}{\sqrt{\|g_C\|_2^2 + \delta^2}}$ satisfies $\|\nabla_{g_C} q\|_2 = \frac{\|g_C\|_2}{\sqrt{\|g_C\|_2^2 + \delta^2}} < 1$. For $q > 0$, differentiating $a_e(q) = q e^{-\epsilon^2/q^2}$ yields
+\begin{equation}
+  a_e'(q) = \left(1 + \frac{2\epsilon^2}{q^2}\right)\exp\!\left(-\frac{\epsilon^2}{q^2}\right) > 0.
+\end{equation}
+Substituting $u = \epsilon^2/q^2 \in (0, \infty)$ gives $\phi(u) := (1 + 2u)e^{-u}$, which satisfies $\lim_{u \to \infty} \phi(u) = 0$ (hence $\lim_{q \to 0^+} a_e'(q) = 0 = a_e'(0)$) and $\phi'(u) = (1 - 2u)e^{-u}$. Thus $\phi(u)$ attains its unique global maximum on $(0, \infty)$ at $u = 1/2$, where $\phi(1/2) = 2e^{-1/2} = 2/\sqrt{e}$. By induction, for every $m \ge 1$ and $q > 0$, $a_e^{(m)}(q) = P_m(q^{-1})e^{-\epsilon^2/q^2}$ for a polynomial $P_m$, which vanishes as $q \to 0^+$, confirming $a_e \in C^\infty(\mathbb{R})$.
+\end{proof}
+
+\begin{remark}[Optional Activation Branches]
+If \texttt{branch == 'sharp'}, $a_0(q) = \max(q, 0)$ is globally $1$-Lipschitz. If \texttt{branch == 'tanh'}, $a_t(q) = \frac{1}{2}q(1 + \tanh(q/\epsilon))$ is $C^\infty(\mathbb{R})$ and locally Lipschitz on bounded sets.
+\end{remark}
+
+\subsection{Constitutive Rates, Positive Viscosity, and Power-Floor Limiter (Items 2 \& 5)}
+
+We next check the material constitutive map (\texttt{continuum.py}, lines 158--206) and bistable fabric (\texttt{structural\_hug.py}, lines 58--74).
+
+\begin{lemma}[Strict Positivity and Local Lipschitz Continuity of Constitutive, Thermal, and Limiter Maps]
+\label{lem:constitutive}
+For every state $s \in \Omega_{\mathrm{valid}}$:
+\begin{enumerate}
+  \item \textbf{Temperature-dependent viscosity}: $\nu(\theta) = \nu_0 \exp(-\beta_{\mathrm{th}}\tanh(\theta/0.03))$ with $\nu_0 = 0.015$ and $\beta_{\mathrm{th}} = 0.35$ is $C^\infty(\mathbb{R})$, globally Lipschitz, and uniformly bounded above and below by positive constants:
+  \begin{equation}
+    0 < \nu_{\min} := \nu_0 e^{-\beta_{\mathrm{th}}} \le \nu(\theta) \le \nu_{\max} := \nu_0 e^{\beta_{\mathrm{th}}} < \infty \qquad \forall \theta \in \mathbb{R}.
+  \end{equation}
+  Hence the viscous heating rate $Q_v = 2\nu(\theta)\|D\|_F^2$ is nonnegative everywhere ($Q_v \ge 0$) and locally Lipschitz in $(u, \theta)$.
+  \item \textbf{Signed exposure rate split}: For $r = d_{p,k}^\top D_p d_{p,k} \in \mathbb{R}$ and $r_\pm = \max(\pm r, 0)$, the raw writing rate in \texttt{continuum.py:173--174},
+  \begin{equation}
+    \mathrm{raw}_\pm(r) = w_{\mathrm{rate}}\left(\frac{r_\pm}{\sqrt{r_\pm^2 + s_{\mathrm{rate}}^2}}\right)^2 = w_{\mathrm{rate}} \frac{r_\pm^2}{r_\pm^2 + s_{\mathrm{rate}}^2}, \qquad s_{\mathrm{rate}} = 0.04 > 0,
+  \end{equation}
+  belongs to $C^1(\mathbb{R})$, is nonnegative ($\mathrm{raw}_\pm(r) \in [0, w_{\mathrm{rate}})$), and is globally Lipschitz on $\mathbb{R}$ with
+  \begin{equation}
+    \left|\frac{d}{dr}\mathrm{raw}_\pm(r)\right| = w_{\mathrm{rate}} \frac{2 r_\pm s_{\mathrm{rate}}^2}{(r_\pm^2 + s_{\mathrm{rate}}^2)^2} \le \frac{3\sqrt{3}\,w_{\mathrm{rate}}}{8 s_{\mathrm{rate}}}.
+  \end{equation}
+  \item \textbf{Strictly positive power-floor denominator}: Because $R(X) \ge 0$, $V_p > 0$, $\Delta v > 0$, and $Q_v \ge 0$, the grid occupancy $\mathrm{occ} = R(X)^\top V / \Delta v \ge 0$ and particle available power $\mathrm{avail}_p = (R(X)[Q_v/(1+\mathrm{occ})])_p \ge 0$ are nonnegative. Likewise, the sensitivity $Y_{p,k,\pm} = \frac{G_m}{2 m_{\mathrm{scale}}}e^{-m_{p,k,\pm}/m_{\mathrm{scale}}}e_{p,k}^2 w_k \ge 0$ and $\mathrm{raw}_{p,k,\pm} \ge 0$ yield $\mathrm{rawpower}_p = \sum_{k,\pm} Y_{p,k,\pm}\mathrm{raw}_{p,k,\pm} \ge 0$. Therefore, the limiter denominator in \texttt{continuum.py:199} satisfies
+  \begin{equation}
+    \mathrm{den}_p(s) := p_{\mathrm{floor}} + \eta\,\mathrm{avail}_p(s) + \mathrm{rawpower}_p(s) \ge p_{\mathrm{floor}} = 10^{-5} > 0 \qquad \forall s \in \mathcal{S}.
+  \end{equation}
+  Consequently, $\mathrm{limiter}_p(s) = \frac{\eta\,\mathrm{avail}_p(s)}{\mathrm{den}_p(s)} \in [0,1]$, $\dot{m}_{p,k,\pm} = \mathrm{limiter}_p\,\mathrm{raw}_{p,k,\pm}$, and the grid thermal extraction $\mathrm{extraction}$ are locally Lipschitz on $\mathcal{S}$.
+  \item \textbf{Normalized fiber conductivity on $\Omega_{\mathrm{valid}}$}: On any compact set $K \subset \Omega_{\mathrm{valid}}$, let $\delta_F(K) := \min_{s \in K} \min_{p,k} \|F_p a_k\|_2 > 0$. Since $d \mapsto \frac{d}{\|d\|_2} \otimes \frac{d}{\|d\|_2}$ is $C^\infty$ on $\{d \in \mathbb{R}^3 : \|d\|_2 \ge \delta_F(K)\}$ with derivative bounded by $2/\delta_F(K)$, the anisotropic conductivity tensor $K_{\mathrm{extra}}(F, m)$ and heat flux $-K(X, F, m)\nabla_{\mathrm{spec}}\theta$ are locally Lipschitz on $\Omega_{\mathrm{valid}}$.
+  \item \textbf{Bistable fabric constitutive law}: The axial strain $e_l(F) = \frac{1}{2}(\|F_{p(l),\cdot,\alpha(l)}\|_2^2 - 1)$, quartic potential $w(e_l, b_l) = \frac{1}{2}k_{\mathrm{micro}}(e_l - b_l)^2 + \frac{H_{\mathrm{well}}}{4}((b_l/a)^2 - 1)^2$, force $k_{\mathrm{micro}}(e_l - b_l)$, gradient $g_l(F, b) = \partial_{b_l} w$, relaxation rate $\dot{b}_l = -\mu_{\mathrm{fab}}g_l$, heat release $\mu_{\mathrm{fab}}g_l^2$, and fabric stress $\tau_{\mathrm{fab}}(F, b)$ are polynomial in $(F, b)$, hence $C^\infty$ and locally Lipschitz on $\mathcal{S}$.
+\end{enumerate}
+\end{lemma}
+
+\begin{proof}
+Items (1), (4), and (5) follow directly from chain-rule differentiation on smooth compositions. For (2), note that $h(r) := \max(r, 0)^2 = r_+^2$ is $C^1(\mathbb{R})$ with $h'(r) = 2r_+$, so $\mathrm{raw}_+(r) = w_{\mathrm{rate}}\frac{r_+^2}{r_+^2 + s_{\mathrm{rate}}^2}$ is $C^1(\mathbb{R})$ with maximum derivative at $r_+ = s_{\mathrm{rate}}/\sqrt{3}$. For (3), nonnegativity of $\mathrm{avail}_p(s)$ and $\mathrm{rawpower}_p(s)$ holds for all finite states $s \in \mathcal{S}$ without requiring $m \ge 0$, because $e^{-m/m_{\mathrm{scale}}} > 0$, $e_{p,k}^2 \ge 0$, $w_k > 0$, and $\mathrm{raw}_{p,k,\pm} \ge 0$. Since $x \mapsto x^{-1}$ is $C^\infty$ with derivative $-x^{-2}$ bounded in magnitude by $p_{\mathrm{floor}}^{-2} = 10^{10}$ on $[p_{\mathrm{floor}}, \infty)$, the rational quotients $\mathrm{limiter}_p$ and $\mathrm{rawpower}_p/\mathrm{den}_p$ are locally Lipschitz functions of $(\mathrm{avail}_p, \mathrm{rawpower}_p)$ and hence of $s$.
+\end{proof}
+
+\subsection{Non-Differentiable Norms in Social/Sensor Couplings and Retrieval (Items 2 \& 6)}
+
+As noted in \texttt{LOCAL\_PROOF\_ROUTE.md} (Item 2), two expressions in \texttt{social\_base.py} and \texttt{structural\_hug.py} use Euclidean/Frobenius norms that are not differentiable when their arguments vanish, yet are globally Lipschitz everywhere:
+\begin{enumerate}
+  \item \textbf{Objective Green--Lagrange strain sensor} (\texttt{continuum.py:15--20}, \texttt{social\_base.py:84, 219}):
+  \begin{equation}
+    E(F_p) = \frac{1}{2}\left(F_p^\top F_p - I_3\right), \qquad \mathrm{strain\_magnitude}(F)_p = \|E(F_p)\|_F.
+  \end{equation}
+  At the initial state $F_p = I_3$, $E(F_p) = 0$, where $\|\cdot\|_F$ is not differentiable. However, by the reverse triangle inequality,
+  \begin{equation}
+    \big|\|E(F_p)\|_F - \|E(\widetilde{F}_p)\|_F\big| \le \|E(F_p) - E(\widetilde{F}_p)\|_F \le \frac{1}{2}\left(\|F_p\|_F + \|\widetilde{F}_p\|_F\right)\|F_p - \widetilde{F}_p\|_F,
+  \end{equation}
+  so $F \mapsto \mathrm{strain\_magnitude}(F)$ is locally Lipschitz on all of $\mathbb{R}^{P \times 3 \times 3}$.
+  \item \textbf{Disk permission margins} (\texttt{social\_base.py:127--129}):
+  \begin{equation}
+    \mathrm{margin}_{i,j}(s) = \exp(\lambda_{i,j}) - \|e_j - \bar{e}_i\|_2.
+  \end{equation}
+  Even if $e_j = \bar{e}_i$, the reverse triangle inequality gives $\big|\|e_j - \bar{e}_i\|_2 - \|\widetilde{e}_j - \widetilde{\bar{e}}_i\|_2\big| \le \|e_j - \widetilde{e}_j\|_2 + \|\bar{e}_i - \widetilde{\bar{e}}_i\|_2$, so $\mathrm{margin}_{i,j}(s)$ is locally Lipschitz on all of $\mathcal{S}$.
+\end{enumerate}
+
+\begin{lemma}[Local Lipschitz Continuity of Material Retrieval and Social RHS on $\Omega_{\mathrm{valid}}$]
+\label{lem:social_lipschitz}
+On each neighborhood $\mathcal{U}(s^{(0)}) \subset \Omega_{\mathrm{valid}}$ from Lemma~\ref{lem:decoder_const}, the decoded record list $\mathcal{R}(s) = \mathcal{R}(s^{(0)}) = \{(\mathrm{slot}_m, r_m)\}_{m=1}^{M_0}$ is constant, and the retrieval operator $\mathrm{retrieve}(t, s)$ (\texttt{structural\_hug.py:184--202}),
+\begin{equation}
+  \mathrm{mem}_{i,j}(s) = f_{\mathrm{read}}\frac{\sum_{m : (r_m)_{\mathrm{rec}}=i,\, (r_m)_{\mathrm{orig}}=j} w_m(s)\, \mathrm{ev}_m}{p_{\mathrm{hist}} + \sum_{m : (r_m)_{\mathrm{rec}}=i,\, (r_m)_{\mathrm{orig}}=j} w_m(s)},
+\end{equation}
+where $w_m(s) = (t_{\mathrm{end},m} - t_{\mathrm{start},m})\exp\!\left(-\frac{\|\mathrm{diff}_m(s)\|_2^2}{2 w_{\mathrm{hist}}^2}\right) \ge 0$ and $p_{\mathrm{hist}} = \texttt{history\_prior} = 0.12 > 0$, is locally Lipschitz in $s \in \mathcal{U}(s^{(0)})$. Consequently, the entire social derivative map $(\dot{e}, \dot{c}, \dot{\bar{e}}, \dot{\lambda}, \dot{B}, \dot{r}, \dot{\alpha}, \dot{A}, \dot{\ell}, \dot{w}_{\mathrm{wr}})$ and source allocation kernel $R(X)^\top w_{\mathrm{src}}(s)/\Delta v$ are locally Lipschitz on $\Omega_{\mathrm{valid}}$.
+\end{lemma}
+
+\begin{proof}
+For each fixed record $r_m \in \mathcal{R}(s^{(0)})$ with non-null outcome score $y_m \in [-1, 1]$, the stored tensor change $\Delta E_m$, context $r_{m,\mathrm{ctx}}$, evidence vector $\mathrm{ev}_m$, and duration $\Delta t_m = t_{\mathrm{end},m} - t_{\mathrm{start},m} > 0$ are constant on $\mathcal{U}(s^{(0)})$. The retrieval difference $\mathrm{diff}_m(s)$ depends on $s$ solely through $\mathrm{cue}_{i,j}(s) = \mathrm{memory\_feature}_{i,j}(c, F) + 0.15\tanh(\alpha_{i,j})$. Since $\mathrm{memory\_feature}$ is a composition of $\tanh$ and the locally Lipschitz strain norm $\|E(F_p)\|_F$, $\mathrm{cue}_{i,j}(s)$ is locally Lipschitz. The Gaussian $\xi \mapsto \exp(-\|\xi\|_2^2/(2 w_{\mathrm{hist}}^2))$ is $C^\infty$ and globally Lipschitz on $\mathbb{R}^3$. Because $w_m(s) \ge 0$, the denominator $p_{\mathrm{hist}} + \mathrm{exposure}_{i,j}(s)$ is uniformly bounded below by $p_{\mathrm{hist}} = 0.12 > 0$. Finally, all remaining operations in \texttt{social\_rhs} (\texttt{expit}, \texttt{softmax} over $N=6$ actors, $\frac{\delta}{\sqrt{1+\|\delta\|_2^2}}$, $\log(0.55 + 0.45\,\mathrm{expit}(\cdot))$ where the argument is $\ge 0.55 > 0$, $\tanh$, and polynomial combinations) are $C^\infty$ on $\mathbb{R}$, completing the proof.
+\end{proof}
+
+\section{Main Uniqueness Theorems: Inter-Event Gr\"onwall and Hybrid Composition}
+
+Combining Lemmas~\ref{lem:decoder_const}--\ref{lem:social_lipschitz}, we obtain the inter-event uniqueness theorem and its extension across scheduled memory-writing events.
+
+\begin{theorem}[Inter-Event Local Existence and Uniqueness on $\Omega_{\mathrm{valid}}$]
+\label{thm:inter_event}
+Let $[t_q, t_{q+1})$ be any inter-event subinterval of the checkpoint partition.
+\begin{enumerate}
+  \item \textbf{Local Lipschitz property}: For every compact subset $K \subset \Omega_{\mathrm{valid}}$ on which the decoded bit vector $\beta(b)$ is constant (in particular, on every closed ball $\overline{\mathcal{U}(s^{(0)})} \subset \Omega_{\mathrm{valid}}$), there exists a finite constant $L_K > 0$ depending only on $K$ and the fixed configuration parameters such that
+  \begin{equation}
+    \|\mathcal{F}(t, s) - \mathcal{F}(t, \widetilde{s})\|_2 \le L_K \|s - \widetilde{s}\|_2 \qquad \forall t \in [t_q, t_{q+1}),\ \forall s, \widetilde{s} \in K.
+  \end{equation}
+  Moreover, $t \mapsto \mathcal{F}(t, s)$ is piecewise $C^\infty$ and bounded on $[t_q, t_{q+1})$ (with possible derivative corner only at $t = 0.5$ or $t = 1.0$ from the prescribed pulse $\texttt{input}(t)$).
+  \item \textbf{Local Picard--Lindel\"of existence}: For every $t_* \in [t_q, t_{q+1})$ and $s_* \in \Omega_{\mathrm{valid}}$, there exists $\delta > 0$ and a unique $C^1$ (piecewise-$C^1$ across $t \in \{0.5, 1.0\}$) solution $s : [t_*, t_* + \delta] \to \Omega_{\mathrm{valid}}$ to $\dot{s}(t) = \mathcal{F}(t, s(t))$ with $s(t_*) = s_*$.
+  \item \textbf{Global inter-event uniqueness}: Suppose $s, \widetilde{s} : [t_q, t_{\mathrm{exit}}] \to \Omega_{\mathrm{valid}}$ are two continuous, piecewise-$C^1$ solutions to $\dot{s}(t) = \mathcal{F}(t, s(t))$ on $[t_q, t_{\mathrm{exit}}] \subset [t_q, t_{q+1}]$ with the same initial state $s(t_q) = \widetilde{s}(t_q)$. Then
+  \begin{equation}
+    s(t) = \widetilde{s}(t) \qquad \forall t \in [t_q, t_{\mathrm{exit}}].
+  \end{equation}
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+Part (1) follows by summing the componentwise Lipschitz bounds of Lemmas~\ref{lem:decoder_const}--\ref{lem:social_lipschitz}, noting that all finite products and compositions of locally Lipschitz functions on the compact set $K \subset \mathbb{R}^D$ are Lipschitz with a constant $L_K$ depending only on $\sup_{s \in K}\|s\|_2$, $\inf_{s \in K}\min_{p,k}\|F_p a_k\|_2 > 0$, and the fixed configuration constants. Part (2) is the standard Picard--Lindel\"of theorem on $\mathcal{U}(s_*)$.
+
+For Part (3), let $I_{\mathrm{eq}} := \{t \in [t_q, t_{\mathrm{exit}}] : s(\tau) = \widetilde{s}(\tau) \text{ for all } \tau \in [t_q, t]\}$. Clearly $t_q \in I_{\mathrm{eq}}$, and by continuity of $s$ and $\widetilde{s}$, $I_{\mathrm{eq}} = [t_q, t^*]$ for some maximal $t^* \in [t_q, t_{\mathrm{exit}}]$. Suppose for contradiction that $t^* < t_{\mathrm{exit}}$. Since $s(t^*) = \widetilde{s}(t^*) =: s^* \in \Omega_{\mathrm{valid}}$, Lemma~\ref{lem:decoder_const} provides an open ball $\mathcal{U}(s^*) \subset \Omega_{\mathrm{valid}}$ on which $\beta(b)$ is constant. By continuity of $s$ and $\widetilde{s}$ at $t^*$, there exists $\eta \in (0, t_{\mathrm{exit}} - t^*]$ such that $s(t), \widetilde{s}(t) \in \overline{\mathcal{U}_{1/2}(s^*)} =: K \subset \mathcal{U}(s^*)$ for all $t \in [t^*, t^* + \eta]$. Define the difference energy
+\begin{equation}
+  E_{\mathrm{diff}}(t) := \frac{1}{2}\|s(t) - \widetilde{s}(t)\|_2^2, \qquad t \in [t^*, t^* + \eta].
+\end{equation}
+Then $E_{\mathrm{diff}}(t^*) = 0$, $E_{\mathrm{diff}}(t) \ge 0$, and for all $t \in [t^*, t^* + \eta]$ (outside the at most two pulse transition points $\{0.5, 1.0\}$), Cauchy--Schwarz and Part (1) yield
+\begin{equation}
+  \frac{d}{dt}E_{\mathrm{diff}}(t) = \big\langle s(t) - \widetilde{s}(t),\, \mathcal{F}(t, s(t)) - \mathcal{F}(t, \widetilde{s}(t)) \big\rangle
+  \le \|s(t) - \widetilde{s}(t)\|_2 \, L_K \|s(t) - \widetilde{s}(t)\|_2 = 2 L_K E_{\mathrm{diff}}(t).
+\end{equation}
+By Gr\"onwall's inequality, $E_{\mathrm{diff}}(t) \le E_{\mathrm{diff}}(t^*) e^{2 L_K (t - t^*)} = 0$ for all $t \in [t^*, t^* + \eta]$, contradicting the maximality of $t^*$. Thus $t^* = t_{\mathrm{exit}}$ and $s \equiv \widetilde{s}$ on $[t_q, t_{\mathrm{exit}}]$.
+\end{proof}
+
+\begin{corollary}[Uniqueness of the Full Hybrid Trajectory Across Scheduled Events]
+\label{cor:hybrid}
+Let $(s(t), \mathcal{F}_{\mathrm{start}}(t))$ and $(\widetilde{s}(t), \widetilde{\mathcal{F}}_{\mathrm{start}}(t))$ be two hybrid trajectories on $[0, T_{\mathrm{end}}]$ starting from the same initial state $s(0) = \widetilde{s}(0) = \texttt{so.initial}() \in \Omega_{\mathrm{valid}}$ and $\mathcal{F}_{\mathrm{start}}(0^-) = \widetilde{\mathcal{F}}_{\mathrm{start}}(0^-) = \emptyset$, such that on each subinterval $[t_q, t_{q+1})$ both trajectories satisfy $\dot{s} = \mathcal{F}(t, s)$ in $\Omega_{\mathrm{valid}}$, possess left limits $s(t_{q+1}^-), \widetilde{s}(t_{q+1}^-) \in \Omega_{\mathrm{valid}}$, and at each checkpoint $t_q$ execute the exact \texttt{run.py} transition rules:
+\begin{enumerate}
+  \item For every event $\varepsilon$ with $t_{\mathrm{start}}(\varepsilon) = t_q$, capture $\mathcal{F}_{\mathrm{start}}(t_q)[\varepsilon_{\mathrm{id}}] := F(t_q)$.
+  \item For every event $\varepsilon$ with $t_{\mathrm{end}}(\varepsilon) = t_q$, construct $\mathrm{rec} := \texttt{make\_event}(s(t_q^-), \mathcal{F}_{\mathrm{start}}[\varepsilon_{\mathrm{id}}], \varepsilon)$ and update $s(t_q) := \texttt{write\_event}(s(t_q^-), \mathrm{rec})_0$ (assuming the admissibility checks in \texttt{prepare\_write} succeed).
+\end{enumerate}
+Then $(s(t), \mathcal{F}_{\mathrm{start}}(t)) = (\widetilde{s}(t), \widetilde{\mathcal{F}}_{\mathrm{start}}(t))$ for all $t \in [0, T_{\mathrm{end}}]$. Furthermore, for the discrete-time Heun integrator $s^{n+1} = \Phi_{\Delta t}(t_n, s^n)$ in \texttt{run.py:32}, $\Phi_{\Delta t}(t_n, \cdot)$ is a deterministic single-valued map on $\Omega_{\mathrm{valid}}$, so the discrete-time hybrid trajectory is also unique whenever defined.
+\end{corollary}
+
+\begin{proof}
+Proceed by induction on the checkpoint index $q \in \{0, \dots, M-1\}$. At $t_0 = 0$, $s(0^-) = \widetilde{s}(0^-)$ and any event starting at $t_0 = 0$ captures the identical array $F(0) = \widetilde{F}(0) = I_3$. If $(s(t_q), \mathcal{F}_{\mathrm{start}}(t_q)) = (\widetilde{s}(t_q), \widetilde{\mathcal{F}}_{\mathrm{start}}(t_q))$, then Theorem~\ref{thm:inter_event}(3) gives $s(t) = \widetilde{s}(t)$ on $[t_q, t_{q+1})$ and hence equality of the left limits $s(t_{q+1}^-) = \widetilde{s}(t_{q+1}^-)$ by continuity of the extended solutions on $[t_q, t_{q+1}]$. Because \texttt{make\_event} (\texttt{structural\_hug.py:213--222}) and \texttt{write\_event} (\texttt{structural\_hug.py:223--231}) are deterministic functions of $(s(t_{q+1}^-), \mathcal{F}_{\mathrm{start}}[\varepsilon_{\mathrm{id}}], \varepsilon)$ processed in the fixed declared list order of \texttt{events}, the post-write state $s(t_{q+1}) = \widetilde{s}(t_{q+1})$ and updated dictionary $\mathcal{F}_{\mathrm{start}}(t_{q+1}) = \widetilde{\mathcal{F}}_{\mathrm{start}}(t_{q+1})$ coincide. Finally, note that \texttt{write\_event} sets $b_l = \pm a$ on the newly written slot (so $|b_l| = a > \mu_{\mathrm{read}}a = 0.005$) and leaves $F$ and all previously written slots unchanged, so $s(t_{q+1}) \in \Omega_{\mathrm{valid}}$ whenever $s(t_{q+1}^-) \in \Omega_{\mathrm{valid}}$ and the write succeeds.
+\end{proof}
+
+\section{Summary of Formalization Obligations for Lean 4}
+
+\begin{table}[!ht]
+\centering
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{4.3cm}>{\raggedright\arraybackslash}p{4.3cm}>{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Proof Component} & \textbf{Mathematical Status Here} & \textbf{Remaining Obligation for Lean 4 / Comparator} \\
+\midrule
+Event jump obstruction (\texttt{V3EventProofs.lean}) & Proved and kernel-checked (6 theorems) & Already verified by Lean 4.34.0-rc2 and \texttt{nanoda} \\
+Local constancy of decoder on $\mathcal{U}(s^{(0)})$ & Proved in Lemma~\ref{lem:decoder_const} & Formalize $\min_l |b_l| > \mu_{\mathrm{read}}a \implies \mathrm{sgn}(b_l)$ constant on $\|b - b^{(0)}\|_\infty < \rho_b/2$ \\
+Wrapped Gaussian $R(X)$ Lipschitz bound & Proved in Lemma~\ref{lem:kernels} & Formalize even symmetry $\psi(-\delta)=\psi(\delta)$ at $\delta = \pm 1/2$ and piecewise-$C^1$ Lipschitz gluing \\
+Exact-off flat activation $a_e(q)$ & Proved in Lemma~\ref{lem:activation} ($0 \le a_e'(q) \le 2/\sqrt{e}$) & Formalize $a_e'(q) = (1+2\epsilon^2/q^2)e^{-\epsilon^2/q^2} \le 2/\sqrt{e}$ and mean-value Lipschitz bound \\
+Positive viscosity \& power-floor limiter & Proved in Lemma~\ref{lem:constitutive} ($\mathrm{den}_p \ge 10^{-5}$) & Formalize $\mathrm{avail}_p \ge 0$, $\mathrm{rawpower}_p \ge 0$, and quotient Lipschitz bound on $[p_{\mathrm{floor}}, \infty)$ \\
+Inter-event Gr\"onwall uniqueness & Proved in Theorem~\ref{thm:inter_event} & Instantiate mathlib's Picard--Lindel\"of / Gr\"onwall uniqueness lemma on $\mathcal{U}(s^*)$ \\
+Continuation \& write admissibility to $t=1.6$ & Assumed as trajectory hypothesis in Corollary~\ref{cor:hybrid} & Requires a priori or interval-arithmetic bounds showing $\|F_p a_k\|_2 > 0$, $|b_l| > 0.005$, $|\mathrm{rint}(x/q)| \le 32767$, and $\mathrm{required\_budget} \le 0.02$ \\
+\bottomrule
+\end{tabularx}
+\caption{Comparison between the mathematical proof established in this document and the remaining Lean 4 verification steps.}
+\end{table}
+
+\end{document}

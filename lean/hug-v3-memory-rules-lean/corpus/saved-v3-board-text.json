@@ -1,0 +1,307 @@
+[
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687912872561",
+    "text": "Static invariance and dynamic memory are separate models"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687912872562",
+    "text": "The corrected architecture distinguishes reciprocal rescaling from a field driven by accumulated input."
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687912872563",
+    "text": " System 1: reciprocal scaling  M = diag(λ, 1/λ), λ > 0 (λS)(R/λ) = SR = Q The product is algebraically invariant. This supplies no time conservation or equilibrium law."
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687912872564",
+    "text": " System 2: source memory  A(t) = ∫₀ᵗ γ[U(s) − Ubaseline] ds J(t) = κA(t) Under closed/periodic conditions, constant positive excess can yield quadratic total-field growth."
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687912872565",
+    "text": " An instantaneous alternative  J(t) = γ[U(t) − Ubaseline] This is a different model from accumulated input. Negative excess may lower the signed field. No time-update rule should be silently substituted."
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687912872566",
+    "text": "Transport law and conditions∂S/∂t + u · ∇S = D_diff ∇²S + Kₕ(x − x₀)J(t)For the conservative interpretation shown: constant D_diff ≥ 0 and ∇ · u = 0. Compressible transport instead uses ∇ · (Su).Specify the continuous embedding, initial/boundary data, and units. Kₕ has integral 1; a Dirac point source is a distributional alternative."
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687912872567",
+    "text": "System 3: stress conventionT = µ₀[∇u + (∇u)ᵀ] for the stated incompressible Newtonian analogy. The earlier µ₀∇u is not the full symmetric stress."
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687912872568",
+    "text": "Source: same attached DOCX · Contents 10, Systems 1–3. Scalar S in the static model and field S(x,t) belong to separate model definitions."
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065204",
+    "text": " Excess input ΔU  U − Ubaseline"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065205",
+    "text": " Accumulated input A  A′ = γΔU; A(0) = 0"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065206",
+    "text": " Source rate J  J = κA; ∫Kₕ dx = 1"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065207",
+    "text": " Field S(x,t)  Transport + diffusion + localized source KₕJ"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065208",
+    "text": " Velocity u  Momentum equation"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065209",
+    "text": " Response force f  −(σ/ρ)a(q)eₖ"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065210",
+    "text": " Threshold excess q  |∇S| − Γcrit"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065211",
+    "text": "13 · Memory can feed a threshold response"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065212",
+    "text": "The source supplies the component equations. The dashed return path proposes a shared, coupled S–u model."
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065213",
+    "text": "A checkable consequenceLet M(t) = ∫S(x,t) dx. With zero net boundary flux, ∫Kₕ dx = 1 and A(0) = 0:M′ = κA. Constant ΔU = c givesM(t) = M(0) + ½κγct².The quadratic term comes from two integrations."
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065214",
+    "text": "Strengthen the couplingSpecify a shared domain, initial and boundary data, compatible units, the meaning of S, and one response law. Distinguish accumulation from instant production.Keep the proof obligations separate: rᵧ = 0 is coordinate alignment; SR is a static invariant; neither proves dynamic stability. Fixed-direction forcing requires its own energy-sign check."
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065215",
+    "text": "Source: Contents 2, 5 and 10; mass balance derived under the stated conditions. Memory model · Response laws · Alignment. · Strengthening roadmap"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065217",
+    "text": "integrate"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065218",
+    "text": "scale"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065219",
+    "text": "injects into field"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065220",
+    "text": "take gradient magnitude"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065221",
+    "text": "activate"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065222",
+    "text": "force"
+  },
+  {
+    "file": "structural_source_0.json",
+    "id": "3458764687916065223",
+    "text": "couple u into transport"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065133",
+    "text": " Sens  Meaning to preserve"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065134",
+    "text": " Sin / action α  Wording and presentation"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065136",
+    "text": " Observed reception  Decision, credibility or visibility"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065137",
+    "text": " Utility model  A proxy for preserving meaning in context"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065138",
+    "text": " Observer mode  Notice rules; adjust when useful"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065139",
+    "text": " Declared context  Audience, history, platform and rule"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065140",
+    "text": " Hypothesis A  Altered wording responds to automated moderation.  Need policy or outcome evidence tied to wording."
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065141",
+    "text": " Compare matched cases  Match meaning/context. Vary wording; log history. Both roles can coexist."
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065142",
+    "text": " Hypothesis B  Membership signaling may explain the wording. Check reception in context."
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065143",
+    "text": "12 · Meaning, adaptation and competing explanations"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065144",
+    "text": "Connect the observer rules to expression and reception, then test what the language is doing in a particular setting."
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065145",
+    "text": "Strengthen here: define what counts as preserving meaning and how reception is recorded. One visible word form does not identify its function or a speaker’s private motive."
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065146",
+    "text": "Source: Contents 1, 3–4 and 9–10. Local definitions · Comparison scope · Language hypotheses. · Strengthening roadmap"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065317",
+    "text": " Verified: 90 lexical occurrences  70 body + 20 reference titles. Six term counts corrected from the original total of 83. Counting alone does not decide bias."
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065318",
+    "text": " Next: assess interpretation  Version, matching rules and source context checked. Independent human coding agreement remains open. Assess warranted use separately."
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065319",
+    "text": " Current: a boundary hypothesis  Language may change reception. The table uses chosen assumptions. It does not measure a dialect effect or derive thresholds from alignment."
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065320",
+    "text": " Next: a matched comparison  Record meaning, wording, actor, context, history, policy and outcome consistently. Gate: compare alternatives and repeated cases; declare which differences should be invariant."
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065321",
+    "text": " Current: possible compounding  Stored input has an explicit equation. Repeated moderation penalties do not yet have an empirical time-update law. These are different claims."
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065322",
+    "text": " Next: test a time-update rule  Specify prior flags → later scores. Compare with a no-history model. Gate: evaluate held-out sequences; report uncertainty and alternatives."
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065323",
+    "text": "14 · Where stronger evidence changes the claim"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065324",
+    "text": "Three concrete bridges from the current document to a more defensible result. Each leads to a roadmap milestone."
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065325",
+    "text": "Strengthening proposals based on Contents 6–10. Reported counts and hypotheses · Synthetic scenario · Accumulated input. · Strengthening roadmap"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065149",
+    "text": "express"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065151",
+    "text": "receive"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065152",
+    "text": "model value"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065153",
+    "text": "guides"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065154",
+    "text": "learn from treatment"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065155",
+    "text": "adjust presentation"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065156",
+    "text": "conditions comparison"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065157",
+    "text": "test A"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065158",
+    "text": "test B"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065326",
+    "text": "recover and reproduce"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065327",
+    "text": "isolate the comparison"
+  },
+  {
+    "file": "structural_extra_0.json",
+    "id": "3458764687916065328",
+    "text": "specify and test memory"
+  }
+]

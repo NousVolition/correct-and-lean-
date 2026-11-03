@@ -1,0 +1,42 @@
+{
+  "challenge_module": "ASChallenge",
+  "solution_module": "ASProofs",
+  "enable_nanoda": true,
+  "theorem_names": [
+    "SocialAS.Verified.saturation_bounds",
+    "SocialAS.Verified.effect_bounds",
+    "SocialAS.Verified.exchange_no_increase",
+    "SocialAS.Verified.exchange_negative_unchanged",
+    "SocialAS.Verified.exchange_monotone",
+    "SocialAS.Verified.general_smoke_agrees",
+    "SocialAS.Verified.general_clay_agrees",
+    "SocialAS.Verified.total_influence_balance",
+    "SocialAS.Verified.received_meaning_bounds",
+    "SocialAS.Verified.meaning_rate_bounds",
+    "SocialAS.Verified.meaning_lower_boundary",
+    "SocialAS.Verified.meaning_upper_boundary",
+    "SocialAS.Verified.load_lower_boundary",
+    "SocialAS.Verified.activation_nonnegative",
+    "SocialAS.Verified.opening_bounds",
+    "SocialAS.Verified.registration_bounds",
+    "SocialAS.Verified.no_opening_no_registration",
+    "SocialAS.Verified.fully_qualified_blocks_challenge",
+    "SocialAS.Verified.confirmation_unchanged",
+    "SocialAS.Verified.branch_distribution",
+    "SocialAS.Verified.update_no_contribution",
+    "SocialAS.Verified.update_same_meaning",
+    "SocialAS.Verified.update_is_convex",
+    "SocialAS.Verified.update_preserves_simplex",
+    "SocialAS.Verified.constant_accumulation_solves",
+    "SocialAS.Verified.constant_exposure_solves",
+    "SocialAS.Verified.constant_exposure_nonnegative",
+    "SocialAS.Verified.clearing_solves",
+    "SocialAS.Verified.clearing_preserves_nonnegative",
+    "SocialAS.Verified.cleared_equal_meaning_has_zero_drift"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "ASModel.lean": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513",
+    "comparator.json": "60c7bf9a8eb5512882bbd49307623ed7cc4d9d865e9d06f56a520f466579125c",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "ed19c69bae98ac74d271aa439859d5d0aaf3d51a59dfbf6ff3434b975803e847",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "PastedASChallenge.lean": "ddcbe6b2d1100db65f50c4f0b6a207502ba388bac4d7668a74857292517a8d9f",
+    "PastedASProofs.lean": "354d8d253ee8bd29a4382769b9259d46ea4ab75c47ec08905fa69ebec378fba9",
+    "reference-freeze.json": "b3c030df6f36953a48290eb6351b5441a133176b5b0c103bad61a3438c222367",
+    "RepairedASProofs.lean": "f8f563247b520ebb36efddfd993b3a9ebabe2a733db1b7f8aad93d0e479f98d7",
+    "run-linux-check.sh": "c54bfbf0339a18d744583073e7589009af845e9fcd03fa5cd7ce02e4f8042f05"
+  },
+  "scope": "44 original supplied ASModel statements; six proof-body repairs; no full coupled uniqueness claim."
+}

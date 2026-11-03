@@ -1,0 +1,27 @@
+InputRegularity.lean:18:15: error: don't know how to synthesize implicit argument `C`
+  @HasFiniteIntegral.of_bounded ℝ ℝ Real.measureSpace.toMeasurableSpace (volume.restrict (Icc a b))
+    Real.normedAddCommGroup (Real.isFiniteMeasure_restrict_Icc a b) f ?m.136 ?m.137
+context:
+f : ℝ → ℝ
+a b : ℝ
+cuts : Finset ℝ
+hcont : ContinuousOn f (Icc a b \ ↑cuts)
+M : ℝ
+hbound : ∀ t ∈ Icc a b, |f t| ≤ M
+heq : Icc a b \ ↑cuts =ᵐ[volume] Icc a b
+hm : AEStronglyMeasurable f (volume.restrict (Icc a b \ ↑cuts))
+hmeasure : volume.restrict (Icc a b \ ↑cuts) = volume.restrict (Icc a b)
+hm' : AEStronglyMeasurable f (volume.restrict (Icc a b))
+⊢ ℝ
+InputRegularity.lean:10:73: error: unsolved goals
+f : ℝ → ℝ
+a b : ℝ
+cuts : Finset ℝ
+hcont : ContinuousOn f (Icc a b \ ↑cuts)
+M : ℝ
+hbound : ∀ t ∈ Icc a b, |f t| ≤ M
+heq : Icc a b \ ↑cuts =ᵐ[volume] Icc a b
+hm : AEStronglyMeasurable f (volume.restrict (Icc a b \ ↑cuts))
+hmeasure : volume.restrict (Icc a b \ ↑cuts) = volume.restrict (Icc a b)
+hm' : AEStronglyMeasurable f (volume.restrict (Icc a b))
+⊢ IntegrableOn f (Icc a b) volume

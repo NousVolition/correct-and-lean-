@@ -1,0 +1,2007 @@
+{
+  "scope": "Bounded source search; full tree metadata, targeted full-text queries and 15 selected full source files, not an exhaustive read of every corpus document.",
+  "heads": [
+    {
+      "branch": "main",
+      "commit": "b4ae2c54cd85bfef282c501ecfca83de274e2070",
+      "tree": "7bd433d4314df01a211523382aa58947a950b2ce",
+      "url": "https://github.com/NousVolition/Nous-Volition/commit/b4ae2c54cd85bfef282c501ecfca83de274e2070"
+    },
+    {
+      "branch": "main",
+      "commit": "7fbc7f28f685c86f824d7587aff91feedf20d3da",
+      "tree": "51107209f1103592661c4043aab244f3a38a2d64",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/commit/7fbc7f28f685c86f824d7587aff91feedf20d3da"
+    }
+  ],
+  "trees": [
+    {
+      "id": "tree_nous",
+      "sha": "7bd433d4314df01a211523382aa58947a950b2ce",
+      "truncated": false,
+      "entry_count": 2451,
+      "selected": [
+        {
+          "path": "studies/community-mimesis/corpus_equations.py",
+          "sha": "e0d1658fe04a7ac1893d294709fc2d09c26184f1",
+          "size": 5147
+        },
+        {
+          "path": "studies/community-two-in-one-field/run_equations.py",
+          "sha": "0f15ec0f218b426c988ef79a6d5249ff11cc3b32",
+          "size": 4286
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/ACTIVE_HUG_METHODS.md",
+          "sha": "b9b0f9bd2f121127456a4125765b3509161986d6",
+          "size": 10858
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/HUG_CALIBRATION_METHODS.md",
+          "sha": "2f7de7d70c611d24b84a488ae875d38fb85b80bb",
+          "size": 9599
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/HUG_ORBIT_METHODS.md",
+          "sha": "735a3437e0a8220645ffbc4ba64b090e3678d4ab",
+          "size": 6603
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/HUG_RHYTHM_METHODS.md",
+          "sha": "42913a500b95184a7c6f36f3527d9f46b604ccb1",
+          "size": 8251
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/HUG_ROBUSTNESS_METHODS.md",
+          "sha": "afff9946953f80b807224d149acd4e02579efda2",
+          "size": 8187
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/HUG_SIMS_METHODS.md",
+          "sha": "5de0b315a599401ff3030fb5c1f8048a94e9ec0c",
+          "size": 9928
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/HUG_SYNC_METHODS.md",
+          "sha": "789de2738101685ea78b01074b741309e7a9b9fd",
+          "size": 6422
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/active_hug.py",
+          "sha": "914e77e757a87c2fe66c9659249dccf8c2ac9a26",
+          "size": 14333
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/hug_calibration.py",
+          "sha": "3c73990e91fd7222476bfecc2536978799645ac2",
+          "size": 18856
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/hug_orbits.py",
+          "sha": "a5c52b474853a5be688e47ce4a79ce91b2731a6b",
+          "size": 8496
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/hug_rhythm.py",
+          "sha": "f30e9f291197fb725fc21b9fab74218e8c406cbf",
+          "size": 16206
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/hug_robustness.py",
+          "sha": "9dedcc4f251ec66718d08c859c7a1b6299d48b09",
+          "size": 18882
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/hug_sims.py",
+          "sha": "66c98b6419cee2ecfdcfc28f86be285300e5003b",
+          "size": 9212
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/hug_source/hug_model.py",
+          "sha": "3611065d8bef4e93ba1e4a5e5e08ef15062b4cd1",
+          "size": 5203
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/hug_source/source/hug_envelope.py",
+          "sha": "ea9b0bca014349ffef2e474d16a2637184749ce8",
+          "size": 4839
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/hug_source/source/pressure_envelope.py",
+          "sha": "e1c0247a3b20985a7c31252756d9e819fb41616c",
+          "size": 2828
+        },
+        {
+          "path": "studies/dynamics-fractals-sims/hug_sync.py",
+          "sha": "b279948fdf2c2d110e1f4977380050458eb98d6a",
+          "size": 12318
+        },
+        {
+          "path": "studies/hug-active-guard/METHODS.md",
+          "sha": "986dcdd559f40beb91527348737e2791cd94e873",
+          "size": 11068
+        },
+        {
+          "path": "studies/hug-active-guard/README.md",
+          "sha": "dc214ca271c60382befa297dc3122b52df5a70dd",
+          "size": 2749
+        },
+        {
+          "path": "studies/hug-active-guard/analyze.py",
+          "sha": "b3e92b13adbb2801c91220b757c5e59feff5dedd",
+          "size": 10290
+        },
+        {
+          "path": "studies/hug-active-guard/model.py",
+          "sha": "e98864b4a2d763a0b8d36f2b76961df0e774506e",
+          "size": 6154
+        },
+        {
+          "path": "studies/hug-active-guard/run.py",
+          "sha": "acff462e37e42b4555cee9d5fb8f7aec4baffd4d",
+          "size": 3339
+        },
+        {
+          "path": "studies/hug-active-guard/verify_saved.py",
+          "sha": "c175b6b6c3b404e332273d61db063fd276e88101",
+          "size": 4709
+        },
+        {
+          "path": "studies/hug-breakdown/README.md",
+          "sha": "a8d4bfad3e974d39c2d99c3f2bfae7d9318fe47b",
+          "size": 21583
+        },
+        {
+          "path": "studies/hug-breakdown/combined_shelter.py",
+          "sha": "b6ab8866ffc9a6cd2070f63fc8b6bfb69fe7ced4",
+          "size": 2848
+        },
+        {
+          "path": "studies/hug-breakdown/fluid_shelter.py",
+          "sha": "8e675648d5e47a4b65e651a5c8965f91f6074585",
+          "size": 11474
+        },
+        {
+          "path": "studies/hug-breakdown/hug_breakdown.py",
+          "sha": "0bc336dd7f2aa8d3b4ce291e238129f6268e2218",
+          "size": 7859
+        },
+        {
+          "path": "studies/hug-breakdown/materials.py",
+          "sha": "8466dcaa9a7f03830e7f64a7ebdc4638d40592b3",
+          "size": 15597
+        },
+        {
+          "path": "studies/hug-breakdown/run_combined_sweep.py",
+          "sha": "a694b0222ef06803ccb6460515dd50c6da915335",
+          "size": 5155
+        },
+        {
+          "path": "studies/hug-breakdown/run_fluid_sweep.py",
+          "sha": "99526e71d30b8dcda9c54d59b96174671689b2d8",
+          "size": 6354
+        },
+        {
+          "path": "studies/hug-breakdown/run_materials_sweep.py",
+          "sha": "46d53964d844972664d50b557fbcd45969d69750",
+          "size": 6514
+        },
+        {
+          "path": "studies/hug-breakdown/run_smoke_vs_hardwater.py",
+          "sha": "a21a91b28aab03a2d2233cb7cb008e9eb3149ee7",
+          "size": 6103
+        },
+        {
+          "path": "studies/hug-breakdown/run_sweep.py",
+          "sha": "df2c8699eeae387210f0e58b684c2c86c2c6a9ca",
+          "size": 4260
+        },
+        {
+          "path": "studies/hug-guard-sync/METHODS.md",
+          "sha": "5905fbc9ec89b4043303da196eeb063bddc890b6",
+          "size": 8202
+        },
+        {
+          "path": "studies/hug-guard-sync/README.md",
+          "sha": "a8b0012f9c56bc9edafdb7e107fcd22e2be04976",
+          "size": 1653
+        },
+        {
+          "path": "studies/hug-guard-sync/analyze_sync.py",
+          "sha": "871876520b67903d7b1770712fc3bad0fd1d53bf",
+          "size": 7400
+        },
+        {
+          "path": "studies/hug-guard-sync/guard_sync.py",
+          "sha": "3f23b0505fda7ce2550c672eb880c4c93a8be864",
+          "size": 7488
+        },
+        {
+          "path": "studies/hug-guard-sync/verify_saved.py",
+          "sha": "a100ef1ba7b6cd73f9d3e44af10c5e5ce72bb24d",
+          "size": 5274
+        },
+        {
+          "path": "studies/hug-memory-continuity/METHODS.md",
+          "sha": "6341efc1069e194ff836c9d13993bdd655f8ee1a",
+          "size": 10833
+        },
+        {
+          "path": "studies/hug-memory-continuity/README.md",
+          "sha": "5aa80fb0da054522c19f74e68a36117ae5eafb17",
+          "size": 3590
+        },
+        {
+          "path": "studies/hug-memory-continuity/REFERENCE.md",
+          "sha": "00fe01f8971df2e49baeacfb14392527762dd7f5",
+          "size": 4722
+        },
+        {
+          "path": "studies/hug-memory-continuity/analyze.py",
+          "sha": "3e84dd1e6ffdda086da1cda7204b589550e0c28a",
+          "size": 7122
+        },
+        {
+          "path": "studies/hug-memory-continuity/model.py",
+          "sha": "8ee2672e436a1221666f1787a680667ac2d10d4d",
+          "size": 7485
+        },
+        {
+          "path": "studies/hug-memory-continuity/run.py",
+          "sha": "63c4695386a1197d1a1d920eed78794377ab7439",
+          "size": 1807
+        },
+        {
+          "path": "studies/hug-memory-continuity/verify_saved.py",
+          "sha": "b59347ca1a8049158823a0d8e68debe26655a1d6",
+          "size": 4709
+        },
+        {
+          "path": "studies/hug-memory-feedback/METHODS.md",
+          "sha": "66b2b3c1d1bdf00fcfda7393a6182edcd9727ed8",
+          "size": 9542
+        },
+        {
+          "path": "studies/hug-memory-feedback/README.md",
+          "sha": "d81e1635761a56e9ed21b55726c987a018319591",
+          "size": 3039
+        },
+        {
+          "path": "studies/hug-memory-feedback/analyze.py",
+          "sha": "5029d99c1e52336d74929a5a8c036cb9955ce816",
+          "size": 8506
+        },
+        {
+          "path": "studies/hug-memory-feedback/baseline.py",
+          "sha": "8ee2672e436a1221666f1787a680667ac2d10d4d",
+          "size": 7485
+        },
+        {
+          "path": "studies/hug-memory-feedback/model.py",
+          "sha": "f979299213e0c07754b7fd287270633b4a99cf72",
+          "size": 3329
+        },
+        {
+          "path": "studies/hug-memory-feedback/run.py",
+          "sha": "297444ffc3dabc88e7a70bf0309c83579e0196db",
+          "size": 1299
+        },
+        {
+          "path": "studies/hug-memory-feedback/verify_saved.py",
+          "sha": "bf5002a8c637738a72d73d672af48d57674de1ae",
+          "size": 4283
+        },
+        {
+          "path": "studies/hug-movement-sweep/METHODS.md",
+          "sha": "1df0cf6e10fd5ff4d050ba1bf2813e6f4a10a4ac",
+          "size": 8275
+        },
+        {
+          "path": "studies/hug-movement-sweep/README.md",
+          "sha": "539e9e62960f7ad46bfdf5d620d17bd92b9b5c80",
+          "size": 3045
+        },
+        {
+          "path": "studies/hug-movement-sweep/SPECIFICATION_STATUS.md",
+          "sha": "172dc16534662950130338335e78334076e73277",
+          "size": 8549
+        },
+        {
+          "path": "studies/hug-movement-sweep/TESTING_STRUCTURE.md",
+          "sha": "62ad9019fc808669137fe4346989dea73956ddb1",
+          "size": 8827
+        },
+        {
+          "path": "studies/hug-movement-sweep/VERIFICATION_NOTE.md",
+          "sha": "67a7c04c35bb07592d83855080aea6d82db46a25",
+          "size": 2176
+        },
+        {
+          "path": "studies/hug-movement-sweep/analyze.py",
+          "sha": "d74474826d0108a540ddb14252c5da41dd4f737c",
+          "size": 8642
+        },
+        {
+          "path": "studies/hug-movement-sweep/baseline.py",
+          "sha": "8ee2672e436a1221666f1787a680667ac2d10d4d",
+          "size": 7485
+        },
+        {
+          "path": "studies/hug-movement-sweep/feedback.py",
+          "sha": "f979299213e0c07754b7fd287270633b4a99cf72",
+          "size": 3329
+        },
+        {
+          "path": "studies/hug-movement-sweep/model.py",
+          "sha": "7b33009b662ce0647ddbda389f0b008aaf64f2ba",
+          "size": 676
+        },
+        {
+          "path": "studies/hug-movement-sweep/package.py",
+          "sha": "75f6e1f3bee99362b1ee3073f66f12e34f8c24cf",
+          "size": 1258
+        },
+        {
+          "path": "studies/hug-movement-sweep/run.py",
+          "sha": "44667bb0b381adf41de0572e79bc4d25e5f865e0",
+          "size": 1471
+        },
+        {
+          "path": "studies/hug-movement-sweep/verify_saved.py",
+          "sha": "befbfddcf97be5777a47ccc39e392be01e543101",
+          "size": 4580
+        }
+      ]
+    },
+    {
+      "id": "tree_sources",
+      "sha": "51107209f1103592661c4043aab244f3a38a2d64",
+      "truncated": false,
+      "entry_count": 7883,
+      "selected": [
+        {
+          "path": "math/continue_hug_refinement.py",
+          "sha": "7f27c735b788072bf66e7a3deb072397dccd1305",
+          "size": 8272
+        },
+        {
+          "path": "math/extend_hug_refinement.py",
+          "sha": "6704901ba9a6b66523fff051ee27307344293e93",
+          "size": 20512
+        },
+        {
+          "path": "math/hug_energy_balance.py",
+          "sha": "ee4d453436c5e24db6fd9da30665add690b2d6e6",
+          "size": 9570
+        },
+        {
+          "path": "math/hug_envelope.py",
+          "sha": "27df38edb3c267e619b3685d6ff6a62a13abd6f4",
+          "size": 4738
+        },
+        {
+          "path": "math/hug_method_grid.py",
+          "sha": "c10ec39e4bf2a9193804cec2ddd9b9223fcc49f0",
+          "size": 7058
+        },
+        {
+          "path": "math/hug_method_interval.py",
+          "sha": "6a7e628ceaffaa34b6bfe3877d7b8a9a828daf0d",
+          "size": 11372
+        },
+        {
+          "path": "math/hug_method_refinement.py",
+          "sha": "70ecc6cf74ef08e18007c21d13ba04d2ccd18a87",
+          "size": 7908
+        },
+        {
+          "path": "math/hug_refinement.py",
+          "sha": "eb03e873e8c4d2b57905c3834ac23bb8e08bbcec",
+          "size": 7556
+        },
+        {
+          "path": "math/hug_resolution.py",
+          "sha": "b309ae758c5630202d295dc220811d57b16ec716",
+          "size": 12870
+        },
+        {
+          "path": "math/hug_shape.py",
+          "sha": "d3c2cdf85aa08d483d6e92e977e903afbb948961",
+          "size": 12116
+        },
+        {
+          "path": "math/hug_step_energy.py",
+          "sha": "ab4c0017bd673de098f5a2ff649395825bf91d3c",
+          "size": 13729
+        },
+        {
+          "path": "math/hug_time_method.py",
+          "sha": "a1ecaca5ce5c8fbbd45fcf71780f3a9aed68a24f",
+          "size": 11789
+        },
+        {
+          "path": "math/hugged_ring.py",
+          "sha": "18f1af8268a5799a0cc2a5e891caac04eab2c90d",
+          "size": 4893
+        },
+        {
+          "path": "math/imports/hug-ns/BOUND.md",
+          "sha": "95f140e94213b6aefd1b49119a2bc008274db632",
+          "size": 2409
+        },
+        {
+          "path": "math/imports/hug-ns/DIAGNOSTIC-STATUS.md",
+          "sha": "00a3e82602a4eaf11a0d49600fc3761cfcb7bd4c",
+          "size": 4269
+        },
+        {
+          "path": "math/imports/hug-ns/README.md",
+          "sha": "eb9535d39a76bf00411c0d48b0eeac268026af7c",
+          "size": 3158
+        },
+        {
+          "path": "math/imports/hug-ns/RESULTS-REVIEW.md",
+          "sha": "63d5a272eb94a9043bb45c1894a247964c8f2803",
+          "size": 4657
+        },
+        {
+          "path": "math/imports/hug-ns/REVIEW.md",
+          "sha": "6bc594e51fe0b309d4a05a3570c3697f45785a9f",
+          "size": 3590
+        },
+        {
+          "path": "math/imports/hug-ns/climb-bound.md",
+          "sha": "d71c083c89da40b2852ea7f9eefed52f223b3f89",
+          "size": 1640
+        },
+        {
+          "path": "math/imports/hug-ns/corrected_v1/README.md",
+          "sha": "1810bb27b42e470f464b4242b858a710fc0447f8",
+          "size": 7360
+        },
+        {
+          "path": "math/imports/hug-ns/corrected_v1/__init__.py",
+          "sha": "797cda71d7f1d427760ba5b7e8e39155de3d2ed5",
+          "size": 66
+        },
+        {
+          "path": "math/imports/hug-ns/corrected_v1/run.py",
+          "sha": "4d2ff2fd11adfd3d2401cbc52a896367379c38e4",
+          "size": 4935
+        },
+        {
+          "path": "math/imports/hug-ns/corrected_v1/solver.py",
+          "sha": "9af57c746a2e3aa872836626ea01660ad7a50662",
+          "size": 9560
+        },
+        {
+          "path": "math/imports/hug-ns/corrected_v1/verify.py",
+          "sha": "56c01b526de270536f5800862278bae167a76cd5",
+          "size": 5126
+        },
+        {
+          "path": "math/imports/hug-ns/diagnostic_audit.py",
+          "sha": "20a1c50cb884123c1c5666ce5a0e2e6d19040105",
+          "size": 4159
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-calibration/README.md",
+          "sha": "4cfe13c4080dbaf35ca5afb94ad05cfddec622af",
+          "size": 1929
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-calibration/analyze_mirror_calibration.py",
+          "sha": "3f876f1290f50b5750a7827f2b412d53dbab627c",
+          "size": 11208
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-calibration/clay_hug.py",
+          "sha": "43b8f0acb83a88f72a5e84b0c71b2b72d7d6e42a",
+          "size": 6953
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-calibration/mirror_calibration.py",
+          "sha": "db4b9f6f9a1df42a0198044c1b95cde3d620128b",
+          "size": 6965
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-calibration/paired_verify.py",
+          "sha": "d529ea7b31f7bbdf57e4b0f5e73f0ceca4c57a1f",
+          "size": 346
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-calibration/run_all.py",
+          "sha": "d529ea7b31f7bbdf57e4b0f5e73f0ceca4c57a1f",
+          "size": 346
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-calibration/signed_calibration.py",
+          "sha": "d529ea7b31f7bbdf57e4b0f5e73f0ceca4c57a1f",
+          "size": 346
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/FINALIZED-MODEL.md",
+          "sha": "0fd6f9111a2e2c0bc4f1334033bc76467cb320e9",
+          "size": 165
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/MODEL.md",
+          "sha": "5b982fe150287993c9a4e80811813713306fe11b",
+          "size": 5558
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/README.md",
+          "sha": "5c3d3c1677a2fb95c3c5c973dd4a942aadf36e3a",
+          "size": 5338
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/breathing-rerun/README.md",
+          "sha": "bfaee00134ff17d0f2206742080abdfacaf6104c",
+          "size": 4683
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/breathing-rerun/breathing_rerun.py",
+          "sha": "ac494c41f82f8dece6a0f8ba8506e9d6b91f892c",
+          "size": 3349
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/breathing-rerun/clay_hug.py",
+          "sha": "43b8f0acb83a88f72a5e84b0c71b2b72d7d6e42a",
+          "size": 6953
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/breathing-rerun/one-lean/README.md",
+          "sha": "b5e0111780e647d55a7d3c668003f2fd5e64a67f",
+          "size": 2102
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/breathing-rerun/one-lean/clay_hug.py",
+          "sha": "43b8f0acb83a88f72a5e84b0c71b2b72d7d6e42a",
+          "size": 6953
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/breathing-rerun/one-lean/one_lean.py",
+          "sha": "a6f4d8e1d6d1a74e67e1536d9e9090923c02a0c5",
+          "size": 2800
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/breathing-rerun/one-lean/reproduce.py",
+          "sha": "356c718ec6fe64efca8543ec807c2bfe3349934e",
+          "size": 582
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/breathing-rerun/reproduce.py",
+          "sha": "bef62b2f4e53adef5c5030f0e206ba8ab2d61e01",
+          "size": 809
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/breathing-rerun/timeline/README.md",
+          "sha": "d72b82ba09887fd27dccc7ce4279d588bcc94c4d",
+          "size": 5994
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/breathing-rerun/timeline/analyze_trace.py",
+          "sha": "0ccdf27031230c0a4f5d2d57c073d8de1d59952d",
+          "size": 8835
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/breathing-rerun/timeline/trace.py",
+          "sha": "253a6331b3dfb8f4cea3cc463d71d6467d406960",
+          "size": 5190
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/dynamic-q/GRID65.md",
+          "sha": "150d4435b5ee972c136293d11ccb38eabbbfd186",
+          "size": 2673
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/dynamic-q/README.md",
+          "sha": "3ae5d173a82eefbe0a8589399835d8f3673b01e0",
+          "size": 5632
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/dynamic-q/analyze.py",
+          "sha": "73b3658e74826ab8e8714d4b9a87249e208e32d0",
+          "size": 18221
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/dynamic-q/analyze65.py",
+          "sha": "15ed346daa3ba8ec61b5c448418f24f8762da1d0",
+          "size": 6975
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/dynamic-q/refine65.py",
+          "sha": "71ef9688f8d8b6b8a1de57c4bb834b94bdd8266f",
+          "size": 1891
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/dynamic-q/reproduce.py",
+          "sha": "4607e5b36151cd779d8ccdf51ed8fd602430b242",
+          "size": 628
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/dynamic-q/reproduce65.py",
+          "sha": "1c010644d17033efcf16c424de5a4aaab00b7b2a",
+          "size": 891
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/dynamic-q/source/clay_hug.py",
+          "sha": "43b8f0acb83a88f72a5e84b0c71b2b72d7d6e42a",
+          "size": 6953
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/dynamic-q/source/fluid_sources.py",
+          "sha": "40a1805936801e7f46fbb9ad3fbb8e23410137f3",
+          "size": 2936
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/dynamic-q/study.py",
+          "sha": "2e02d8644669a08f80d16f680105b2f27ade3fed",
+          "size": 13273
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/first-change-audit/README.md",
+          "sha": "12e7c0d2de07d3eb5f6e1b211f5fe69129a7b647",
+          "size": 7712
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/first-change-audit/audit.py",
+          "sha": "08472af3ca0ce90ba42f1ab7745d28b4c7dad3bd",
+          "size": 12720
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/first-change-audit/source/clay_hug.py",
+          "sha": "43b8f0acb83a88f72a5e84b0c71b2b72d7d6e42a",
+          "size": 6953
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/first-change-audit/source/diagnostics.py",
+          "sha": "568ee7e6b0d754a42a017e57466601a54891794d",
+          "size": 6925
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/first-change-audit/source/numerics.py",
+          "sha": "4e7be540f4601e976cf701a35c814e898829fbc5",
+          "size": 9410
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/methods-controls/METHODS.md",
+          "sha": "7fbcf8c917ee7572ed9f1000fd4b178990b583a1",
+          "size": 13148
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/methods-controls/README.md",
+          "sha": "7be92a75f9fded15a3db818319066c56b25e87e3",
+          "size": 8548
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/methods-controls/analyze.py",
+          "sha": "ef33de1d38215e345f1e7543464f89f2b49171dc",
+          "size": 9365
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/methods-controls/audit_saved.py",
+          "sha": "003bb03492dd3777c150ed79d4bd13140987eb6c",
+          "size": 4872
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/methods-controls/check_circulation.py",
+          "sha": "e4278c96885eef06ef6afa129bf2bcc86f238257",
+          "size": 662
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/methods-controls/check_diagnostics.py",
+          "sha": "6255d03f0b1eba6c664976c09d2bea697927bf24",
+          "size": 1907
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/methods-controls/diagnostics.py",
+          "sha": "568ee7e6b0d754a42a017e57466601a54891794d",
+          "size": 6925
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/methods-controls/source/clay_hug.py",
+          "sha": "43b8f0acb83a88f72a5e84b0c71b2b72d7d6e42a",
+          "size": 6953
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/methods-controls/study.py",
+          "sha": "aeca6346da9d5a3b3731d85f72455b7eaa45abe7",
+          "size": 7127
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/methods-controls/uploaded/clay_hug.py",
+          "sha": "43b8f0acb83a88f72a5e84b0c71b2b72d7d6e42a",
+          "size": 6953
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/methods-controls/uploaded/dashboard.py",
+          "sha": "ede8bc3050f98baaa0be8f66ab48da5e4ca152da",
+          "size": 4217
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/model-layers/FLUID.md",
+          "sha": "3d643ffecacbe4be59601b19c1f4ea7cc934c6d3",
+          "size": 9606
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/model-layers/README.md",
+          "sha": "ac745aead342a163a3f1227df3b5d76cca64545e",
+          "size": 4401
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/model-layers/analyze_fluid.py",
+          "sha": "427d97cc748844d05cdcc38214c1eb8a55b20224",
+          "size": 9244
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/model-layers/check_forcing.py",
+          "sha": "989da019b3c828320d927f5793d2ad8971fb05e6",
+          "size": 1092
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/model-layers/run_fluid.py",
+          "sha": "2c4d5d0bf492e0bf1d906c605f90dc83f5e95c9f",
+          "size": 7455
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/model-layers/run_reduced.py",
+          "sha": "ce9b4e57239adb91699f5582da27dbb0e1584f65",
+          "size": 7422
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/model-layers/source/clay_hug.py",
+          "sha": "43b8f0acb83a88f72a5e84b0c71b2b72d7d6e42a",
+          "size": 6953
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/model-layers/source/diagnostics.py",
+          "sha": "568ee7e6b0d754a42a017e57466601a54891794d",
+          "size": 6925
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/run_all.py",
+          "sha": "96ddb9d5db7ab5fbd0a05e9645feaa9946d4f4fa",
+          "size": 465
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/source-attribution/README.md",
+          "sha": "955de93f21fe3290ae07327a15f1c27cab19b7b1",
+          "size": 3184
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/source-attribution/analyze_sources.py",
+          "sha": "c85377d4db016326c78ca5a5741cbe2e575dd3b4",
+          "size": 10577
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/source-attribution/measure_sources.py",
+          "sha": "eab806fd498e4a260390477308dbf95717c700b1",
+          "size": 7459
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/source-attribution/reproduce.py",
+          "sha": "37f14aab185d60d6ffb50bc536c7719301486653",
+          "size": 986
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/source-attribution/source/clay_hug.py",
+          "sha": "43b8f0acb83a88f72a5e84b0c71b2b72d7d6e42a",
+          "size": 6953
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/source-attribution/source/fluid_sources.py",
+          "sha": "40a1805936801e7f46fbb9ad3fbb8e23410137f3",
+          "size": 2936
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/source/clay_hug.py",
+          "sha": "43b8f0acb83a88f72a5e84b0c71b2b72d7d6e42a",
+          "size": 6953
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/source/fluid_break_to_2.py",
+          "sha": "badc7afbd3c389464a48edafa21115a58022d729",
+          "size": 2520
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/source/fluid_correction.py",
+          "sha": "6070f6eab3136ea9fbf433b7acac78619b8038b5",
+          "size": 2384
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/source/fluid_pitchfork.py",
+          "sha": "00dfb4937e427c312981dce33c08f2b9e72e3728",
+          "size": 2565
+        },
+        {
+          "path": "math/imports/hug-ns/mirror-fluid/source/fluid_sources.py",
+          "sha": "40a1805936801e7f46fbb9ad3fbb8e23410137f3",
+          "size": 2936
+        },
+        {
+          "path": "math/imports/hug-ns/review_checks.py",
+          "sha": "fa094e2552f5231b44771806928b7f89c7d50169",
+          "size": 8406
+        },
+        {
+          "path": "math/imports/hug-ns/run.py",
+          "sha": "ca7285aa3efa6a57bfdb76ddf77ccf9a86c20e12",
+          "size": 2730
+        },
+        {
+          "path": "math/imports/hug-ns/solver.py",
+          "sha": "4c7eaa5959d68e41a9a51d6f517a5c08fe2de39e",
+          "size": 8103
+        },
+        {
+          "path": "math/imports/hug-ns/step-12-bound.md",
+          "sha": "1c27bbf04c05482af71d99cfd48720f5b202d0eb",
+          "size": 992
+        },
+        {
+          "path": "math/imports/hug-ns/step-12.md",
+          "sha": "239059856645a6e9638fb0f74130a8353dd4266d",
+          "size": 1935
+        },
+        {
+          "path": "math/navier.py",
+          "sha": "97a5fd10290d2c06d9fb26cf78f886226d526d27",
+          "size": 13478
+        },
+        {
+          "path": "math/notes/hug-boundary.md",
+          "sha": "04d52af8d96f36c09a72cfe3ae99af897831edf4",
+          "size": 84070
+        },
+        {
+          "path": "tools/check_hug_packages.py",
+          "sha": "a461e0a0b7b6eca3f0a75c84197e651194ff3b72",
+          "size": 6330
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "id": "loads",
+      "results": [
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/dynamics-fractals-sims/hug_sims_report.py",
+          "path": "studies/dynamics-fractals-sims/hug_sims_report.py",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/dynamics-fractals-sims/hug_sims_report.py",
+          "display_title": "studies/dynamics-fractals-sims/hug_sims_report.py",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "    return f'''<section id=\"hug\"><h2>Historical batch 8 · the earlier threshold Hug</h2>\n<p><strong>Historical model.</strong> Current Hug/SIMS tests use <a href=\"#clay\">the updated clay formula</a>. The results below retain the older equations.</p>\n<p>Your Hug geometry, pressure-memory extension, fluid initialization, and later stress work were located in <a href=\"https://github.com/NousVolition/My-Sources-Project-ALL/tree/b20d1dcf25fb7e97bcceb9a09d0883d30bf08e8c/reports/hug-dynamics\">My-Sources-Project-ALL</a>. Five source files are preserved byte for byte here, including the nine original geometry and pressure tests. This batch uses the reduced lean-and-memory equations; the fluid and Lorenz extensions remain separately identified in the <a href=\"hug_sources.json\">source inventory</a>.</p>\n<p>Each SIM has lean q, velocity v, and fading memory m. We add reciprocal neighbor attraction to the original lean acceleration: <code>q′=v; v′=(r+c m)q−q³−d v−2Lq</code>. The original loading/recovery times and pressure pulse remain intact. Four conditions reuse 32 starts on each of three networks, producing <strong>384 main trajectories</strong> plus 72 numerical and reflection controls.</p>\n<figure><img src=\"figures/hug_sims.png\" alt=\"Hug-driven SIMS mean lean, pressure memory and local stability, participant spread, and final unanimous choices\"><figcaption>Top-left traces use the first predefined starting seed. Bottom panels summarize all 32 starts in each condition. The cubic term limits growth; convergence near zero is counted as undecided. These are explicit participant response rules.</figcaption></figure>\n<p>The maximum RK4-versus-adaptive discrepancy is {error:.3g}; independent DOP853/Radau, half-step, reflection, and energy-budget controls pass the thresholds fixed in the <a href=\"hug_sims_protocol.json\">protocol</a>. Opening preserves your original irreversible geometry rule. It does not change contacts or reduce the prescribed pressure.</p>\n<h3>A control that catches a known failure</h3><p>A pressure pulse lasting 0.001 is missed entirely by the original steps 0.02 and 0.01. Both report zero memory. Splitting at the pulse boundary gives a sampled peak memory of {pulse['resolved_peak_memory']:.7f}; two independent adaptive methods agree within {pulse['independent_max_state_difference']:.2g}. Agreement between two coarse steps alone would have hidden this error. The main experiment uses a resolved four-unit pulse.</p>",
+              "matches": [
+                {
+                  "text": "hug",
+                  "indices": [
+                    28,
+                    31
+                  ]
+                },
+                {
+                  "text": "Hug",
+                  "indices": [
+                    81,
+                    84
+                  ]
+                },
+                {
+                  "text": "Hug",
+                  "indices": [
+                    136,
+                    139
+                  ]
+                },
+                {
+                  "text": "Hug",
+                  "indices": [
+                    259,
+                    262
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    273,
+                    281
+                  ]
+                },
+                {
+                  "text": "hug",
+                  "indices": [
+                    478,
+                    481
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    613,
+                    621
+                  ]
+                },
+                {
+                  "text": "hug",
+                  "indices": [
+                    761,
+                    764
+                  ]
+                },
+                {
+                  "text": "traction",
+                  "indices": [
+                    891,
+                    899
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    1029,
+                    1037
+                  ]
+                },
+                {
+                  "text": "hug",
+                  "indices": [
+                    1240,
+                    1243
+                  ]
+                },
+                {
+                  "text": "Hug",
+                  "indices": [
+                    1259,
+                    1262
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    1286,
+                    1294
+                  ]
+                },
+                {
+                  "text": "hug",
+                  "indices": [
+                    1824,
+                    1827
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    1975,
+                    1983
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    2041,
+                    2049
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-movement-sweep/SPECIFICATION_STATUS.md",
+          "path": "studies/hug-movement-sweep/SPECIFICATION_STATUS.md",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-movement-sweep/SPECIFICATION_STATUS.md",
+          "display_title": "studies/hug-movement-sweep/SPECIFICATION_STATUS.md",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "\n| Required item | What the existing surrogate actually uses | What remains to be specified for a full Hug field model |\n|---|---|---|",
+              "matches": [
+                {
+                  "text": "Hug",
+                  "indices": [
+                    103,
+                    106
+                  ]
+                }
+              ]
+            },
+            {
+              "property": "content",
+              "fragment": "| Domain | A periodic angular field on a reference ring of radius .05 m; one mechanical shear mode with L=.1 m and an assigned volume | The spatial fluid/solid regions, dimension, geometry, thickness and interfaces |\n| Boundary conditions | Periodicity for S around the ring; the shape follows an affine map. There is no independently solved pressure/velocity boundary problem | Velocity or traction conditions, pressure constraint, S flux/value conditions, and external/interface conditions |\n| Initial u and S | S=0 and A=0; mechanical velocity and internal Burgers strains start at zero. Displacement is .025 mm or -.14 mm times the movement setting; u=(d_dot Y/L,0) follows the mode | Spatial initial fields compatible with the chosen domain, boundaries, incompressibility and body geometry; pressure treatment |",
+              "matches": [
+                {
+                  "text": "pressure",
+                  "indices": [
+                    342,
+                    350
+                  ]
+                },
+                {
+                  "text": "traction",
+                  "indices": [
+                    391,
+                    399
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    412,
+                    420
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    796,
+                    804
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/math/notes/hug-boundary.md",
+          "path": "math/notes/hug-boundary.md",
+          "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/math/notes/hug-boundary.md",
+          "display_title": "math/notes/hug-boundary.md",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "\r\n[Diagnostic code](../hug_resolution.py) · [Independent checks](../tests/test_hug_resolution.py) · [Measurements and spectra](../results/hug-resolution.json) · [Measurement table](../results/hug-resolution.csv)\r\n\r",
+              "matches": [
+                {
+                  "text": "hug",
+                  "indices": [
+                    23,
+                    26
+                  ]
+                }
+              ]
+            },
+            {
+              "property": "content",
+              "fragment": "\r\n- **14 focused checks passed:** unchanged constant fields; known forward-Euler sine-shear decay on two grids; a steady inviscid flow whose pressure correction cancels the entire quadratic term; a random field checked against the original loop implementation; expected scaling with Δt on identical inputs; removal of initial gradient energy; invalid inputs.\r\n- All 28 input checkpoint hashes match prior provenance. Each probe starts at the previously recorded energy and viscous loss rate. The input arrays are preserved by the diagnostic, and the existing numerical-source fingerprint is unchanged.\r",
+              "matches": [
+                {
+                  "text": "pressure",
+                  "indices": [
+                    141,
+                    149
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/README.md",
+          "path": "README.md",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/README.md",
+          "display_title": "README.md",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "\r\nThe seventh batch applies the supplied dynamics inside a continuous-state SIMS experiment: 20 participants follow linear, reversible, or driven-relaxation rules on three matched networks. It measures alignment separately from bounded attraction and choice agreement, tests a reversal intervention, and separates response speed from the final target. Its 1,632 trajectories and 24 additional mathematical/participant tests are documented in [the SIMS response methods](studies/dynamics-fractals-sims/SIMS_RESPONSE_METHODS.md).\r\n\r\nThe historical eighth batch locates and pins the earlier threshold-Hug equations, reproduces nine original checks, and applies lean, damping and pressure memory to 384 matched SIMS runs. It adds 72 separate numerical/reflection controls and reproduces the missed short-pressure-pulse failure. See [the Hug/SIMS methods and outcomes](studies/dynamics-fractals-sims/HUG_SIMS_METHODS.md).\r\n\r\nThe current ninth batch replaces the active Hug/SIMS response with the updated Burgers clay formula. It reruns 384 matched SIMS trajectories, adds 128 uncoupled comparisons and 24 independent solver controls, and verifies immediate deformation, delayed recovery and retained strain. The current model has no opening-at-1 trigger. See [the clay SIMS methods and results](studies/dynamics-fractals-sims/CLAY_SIMS_METHODS.md).\r\n\r",
+              "matches": [
+                {
+                  "text": "traction",
+                  "indices": [
+                    238,
+                    246
+                  ]
+                },
+                {
+                  "text": "Hug",
+                  "indices": [
+                    598,
+                    601
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    676,
+                    684
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    800,
+                    808
+                  ]
+                },
+                {
+                  "text": "Hug",
+                  "indices": [
+                    833,
+                    836
+                  ]
+                },
+                {
+                  "text": "HUG",
+                  "indices": [
+                    895,
+                    898
+                  ]
+                },
+                {
+                  "text": "Hug",
+                  "indices": [
+                    964,
+                    967
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/dynamics-fractals-sims/README.md",
+          "path": "studies/dynamics-fractals-sims/README.md",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/dynamics-fractals-sims/README.md",
+          "display_title": "studies/dynamics-fractals-sims/README.md",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "\r\n**New: [test the orbital input directly with the clay Hug](HUG_ORBIT_METHODS.md).** Twenty-eight material trajectories and 28 independent solver controls check the actual Hug outline, deformation, recovery, retained strain and work/energy balance. These are separate from the SIMS run counts.\r\n\r\n**New: [circular and eccentric Jupiter-moon orbits applied inside clay SIMS](ORBIT_METHODS.md).** Pasiphae, Elara, Himalia, Europa, Callisto and Thebe have paired circular/reference-eccentric orbit controls. Six eccentric pressure signals share one circular participant baseline; all 672 new runs use the current clay formula.\r\n\r\n**Current Hug/SIMS: [the updated clay formula, rerun and checks](CLAY_SIMS_METHODS.md).** It replaces the opening-threshold model for current work and adds 128 uncoupled comparisons plus 24 independent solver runs.\r\n\r",
+              "matches": [
+                {
+                  "text": "Hug",
+                  "indices": [
+                    56,
+                    59
+                  ]
+                },
+                {
+                  "text": "HUG",
+                  "indices": [
+                    61,
+                    64
+                  ]
+                },
+                {
+                  "text": "Hug",
+                  "indices": [
+                    173,
+                    176
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    520,
+                    528
+                  ]
+                },
+                {
+                  "text": "Hug",
+                  "indices": [
+                    638,
+                    641
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/dynamics-fractals-sims/report.html",
+          "path": "studies/dynamics-fractals-sims/report.html",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/dynamics-fractals-sims/report.html",
+          "display_title": "studies/dynamics-fractals-sims/report.html",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "<details><summary>Historical: the earlier threshold-based Hug experiment</summary><section id=\"hug\"><h2>Historical batch 8 · the earlier threshold Hug</h2>\r\n<p><strong>Historical model.</strong> Current Hug/SIMS tests use <a href=\"#clay\">the updated clay formula</a>. The results below retain the older equations.</p>\r\n<p>Your Hug geometry, pressure-memory extension, fluid initialization, and later stress work were located in <a href=\"https://github.com/NousVolition/My-Sources-Project-ALL/tree/b20d1dcf25fb7e97bcceb9a09d0883d30bf08e8c/reports/hug-dynamics\">My-Sources-Project-ALL</a>. Five source files are preserved byte for byte here, including the nine original geometry and pressure tests. This batch uses the reduced lean-and-memory equations; the fluid and Lorenz extensions remain separately identified in the <a href=\"hug_sources.json\">source inventory</a>.</p>\r\n<p>Each SIM has lean q, velocity v, and fading memory m. We add reciprocal neighbor attraction to the original lean acceleration: <code>q′=v; v′=(r+c m)q−q³−d v−2Lq</code>. The original loading/recovery times and pressure pulse remain intact. Four conditions reuse 32 starts on each of three networks, producing <strong>384 main trajectories</strong> plus 72 numerical and reflection controls.</p>\r\n<figure><img src=\"figures/hug_sims.png\" alt=\"Hug-driven SIMS mean lean, pressure memory and local stability, participant spread, and final unanimous choices\"><figcaption>Top-left traces use the first predefined starting seed. Bottom panels summarize all 32 starts in each condition. The cubic term limits growth; convergence near zero is counted as undecided. These are explicit participant response rules.</figcaption></figure>\r\n<p>The maximum RK4-versus-adaptive discrepancy is 2.35e-06; independent DOP853/Radau, half-step, reflection, and energy-budget controls pass the thresholds fixed in the <a href=\"hug_sims_protocol.json\">protocol</a>. Opening preserves your original irreversible geometry rule. It does not change contacts or reduce the prescribed pressure.</p>\r\n<h3>A control that catches a known failure</h3><p>A pressure pulse lasting 0.001 is missed entirely by the original steps 0.02 and 0.01. Both report zero memory. Splitting at the pulse boundary gives a sampled peak memory of 0.0624613; two independent adaptive methods agree within 3.3e-11. Agreement between two coarse steps alone would have hidden this error. The main experiment uses a resolved four-unit pulse.</p>\r",
+              "matches": [
+                {
+                  "text": "Hug",
+                  "indices": [
+                    58,
+                    61
+                  ]
+                },
+                {
+                  "text": "hug",
+                  "indices": [
+                    95,
+                    98
+                  ]
+                },
+                {
+                  "text": "Hug",
+                  "indices": [
+                    148,
+                    151
+                  ]
+                },
+                {
+                  "text": "Hug",
+                  "indices": [
+                    204,
+                    207
+                  ]
+                },
+                {
+                  "text": "Hug",
+                  "indices": [
+                    328,
+                    331
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    342,
+                    350
+                  ]
+                },
+                {
+                  "text": "hug",
+                  "indices": [
+                    547,
+                    550
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    682,
+                    690
+                  ]
+                },
+                {
+                  "text": "hug",
+                  "indices": [
+                    830,
+                    833
+                  ]
+                },
+                {
+                  "text": "traction",
+                  "indices": [
+                    961,
+                    969
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    1099,
+                    1107
+                  ]
+                },
+                {
+                  "text": "hug",
+                  "indices": [
+                    1311,
+                    1314
+                  ]
+                },
+                {
+                  "text": "Hug",
+                  "indices": [
+                    1330,
+                    1333
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    1357,
+                    1365
+                  ]
+                },
+                {
+                  "text": "hug",
+                  "indices": [
+                    1893,
+                    1896
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    2044,
+                    2052
+                  ]
+                },
+                {
+                  "text": "pressure",
+                  "indices": [
+                    2111,
+                    2119
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/language/conversation-study/sources/source-01.txt",
+          "path": "language/conversation-study/sources/source-01.txt",
+          "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/language/conversation-study/sources/source-01.txt",
+          "display_title": "language/conversation-study/sources/source-01.txt",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "So on a legal prescription label, the official chemical representation is always Oxycodone Extended-Release.\nNow that we have cleared up the official naming rules, would you like to:\n• Look into what year the FDA officially banned companies from using terms like \"Contin\" on new generic labels?\n• See how other common medicines (like everyday blood pressure or allergy pills) write out their \"extended-release\" names?\n• Switch to a completely different topic?\nThis is for informational purposes only. For medical advice or diagnosis, consult a professional. AI responses may include mistakes. Learn more\nYou said: Oxytocin is the natural bonding hormone (Swift + Birth)/ im not giving birth to my dog, or my friends?",
+              "matches": [
+                {
+                  "text": "pressure",
+                  "indices": [
+                    353,
+                    361
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/language/conversation-study/sources/source-02.txt",
+          "path": "language/conversation-study/sources/source-02.txt",
+          "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/language/conversation-study/sources/source-02.txt",
+          "display_title": "language/conversation-study/sources/source-02.txt",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "• This has nothing to do with making the pill release slowly or making it hard to crush.\n2. The Polyethylene Oxide Matrix (The Engineering Layer)\nThe \"continuous structural engineering process\" refers to the physical pill capsule itself. To make the new abuse-deterrent OxyContin tablets, engineers don't touch the ketone bond. Instead, they mix the oxycodone drug with a high-tech polymer called polyethylene oxide.\n• They subject this mixture to extreme heat, pressure, and time.\n• This physical process forces the plastic-like polymer chains to tightly interlock, creating an incredibly hard, rubbery dual-polymer matrix.\n• It is this plastic-like matrix shield that physically forces the medicine to trickle out continuously over 12 hours and turns the pill into un-crushable gel if tampered with.\nThe Bottom Line: When a patient takes the medicine, the engineered plastic matrix slowly dissolves in the stomach over half a day. As the matrix melts away, it slowly releases the individual oxycodone molecules into the bloodstream. Those molecules—carrying their locked-in ketone shapes—then travel up to the brain to block the pain. So, the engineered matrix acts as the time-release cage, while the ketone is part of the actual key that unlocks relief. Now that you have mapped out the difference between the physical pill engineering and the chemical structure, would you like to: Look into what other household items use polyethylene oxide (the plastic matrix)? Pivot to a completely different scientific topic?",
+              "matches": [
+                {
+                  "text": "pressure",
+                  "indices": [
+                    466,
+                    474
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/language/conversation-study/record-index.json",
+          "path": "language/conversation-study/record-index.json",
+          "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/language/conversation-study/record-index.json",
+          "display_title": "language/conversation-study/record-index.json",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "      \"reply_start\": 624,\n      \"reply_end\": 632,\n      \"user\": \"Oxycodone Continuous/ is that the fda name?\",\n      \"reply_with_ui\": \"No, Oxycodone Continuous is not the FDA name.\\nThe official, required FDA generic name is Oxycodone Extended-Release.\\nThe FDA does not use the word \\\"continuous\\\" anywhere in the official drug name because, as you noted earlier, \\\"Contin\\\" was just a private corporate brand name created by Purdue Pharma. When the FDA stepped in to standardize the medical language, they completely dropped the marketing term and replaced it with the official scientific category: Extended-Release.\\nSo on a legal prescription label, the official chemical representation is always Oxycodone Extended-Release.\\nNow that we have cleared up the official naming rules, would you like to:\\n• Look into what year the FDA officially banned companies from using terms like \\\"Contin\\\" on new generic labels?\\n• See how other common medicines (like everyday blood pressure or allergy pills) write out their \\\"extended-release\\\" names?\\n• Switch to a completely different topic?\\nThis is for informational purposes only. For medical advice or diagnosis, consult a professional. AI responses may include mistakes. Learn more\",\n      \"metadata_boundary\": \"reply may include source cards and UI notices\"\n    },\n    {",
+              "matches": [
+                {
+                  "text": "pressure",
+                  "indices": [
+                    978,
+                    986
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interface",
+      "results": [
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-movement-sweep/SPECIFICATION_STATUS.md",
+          "path": "studies/hug-movement-sweep/SPECIFICATION_STATUS.md",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-movement-sweep/SPECIFICATION_STATUS.md",
+          "display_title": "studies/hug-movement-sweep/SPECIFICATION_STATUS.md",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "| Response branch | Smooth exact-off: a(q)=0 for q<=0; q exp[-(epsilon/q)²] otherwise. Gamma=epsilon=1 m^-1 under the surrogate's dimensionless-S convention | Explicit choice between sharp exact-off, original signed tanh and smooth exact-off for the intended field run. These branches have different below-threshold behavior |\n| Gradient regularization | Unregularized magnitude: q_excess=sqrt(g)|partial_s S|-Gamma; no delta regularization | Choose original magnitude, shifted-cutoff regularization, or cutoff-preserving regularization, and state delta and its units. Epsilon smooths the scalar response; it is not delta |\n| Clay constitutive law | An added linear Burgers element with assigned moduli/viscosities, plus a spring, effective inertia and powered feedback | A stated material law with its strain range, state variables and calibration. The effective oscillator mass is not a material density inferred from the assigned volume |\n| Fluid/body coupling | Affine x=X+(d/L)Y, y=Y; u follows d_dot. A projected field force drives the mechanical mode. There is no resolved fluid traction/contact solution | Kinematic interface conditions, stress/traction balance, possible slip/permeability, transport across the interface and an energy-consistent coupling to the chosen solid law |\n| Mimetic evolution and material coupling | The added exchange term below acts on S and influences motion indirectly through the projected field force | A separately stated doubling state, pairing rule, graded physical-position weighting, evolution law and coupling. The user's spatial intent alone does not specify these mechanisms |\n\nThe source force coefficient sigma_response is distinct from clay stress tau. With the surrogate's dimensionless S, a has units m^-1 and its assigned sigma_response in Pa makes b a force density (N/m³); the mode force is its weighted volume projection. This is a dimensional convention for the surrogate, not a physical identification of S or a derivation of a clay material law from the corpus.",
+              "matches": [
+                {
+                  "text": "Kinematic",
+                  "indices": [
+                    1115,
+                    1124
+                  ]
+                },
+                {
+                  "text": "interface",
+                  "indices": [
+                    1125,
+                    1134
+                  ]
+                },
+                {
+                  "text": "interface",
+                  "indices": [
+                    1221,
+                    1230
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-breakdown/README.md",
+          "path": "studies/hug-breakdown/README.md",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-breakdown/README.md",
+          "display_title": "studies/hug-breakdown/README.md",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "* USGS hardness classes: https://www.usgs.gov/water-science-school/science/hardness-water\n* Engineering ToolBox air viscosity: https://www.engineeringtoolbox.com/air-absolute-kinematic-viscosity-d_601.html\n* Mulholland & Croarkin, Fire and Materials 24:227 (2000)",
+              "matches": [
+                {
+                  "text": "kinematic",
+                  "indices": [
+                    175,
+                    184
+                  ]
+                }
+              ]
+            },
+            {
+              "property": "content",
+              "fragment": "* Sharqawy et al., Desalination and Water Treatment 16:354 (2010)\n* Weissenborn & Pugh, J. Colloid Interface Sci. 184:550 (1996)\n* Choi et al., Combust. Flame 102:161 (1995)",
+              "matches": [
+                {
+                  "text": "Interface",
+                  "indices": [
+                    99,
+                    108
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-breakdown/materials.py",
+          "path": "studies/hug-breakdown/materials.py",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-breakdown/materials.py",
+          "display_title": "studies/hug-breakdown/materials.py",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "    \"ETB_air\": \"Engineering ToolBox, Air - dynamic and kinematic viscosity / density vs \"\n               \"temperature, https://www.engineeringtoolbox.com/air-absolute-kinematic-viscosity-d_601.html\",\n    \"IAPWS_ST\": \"IAPWS R1-76(2014) Surface tension of ordinary water substance (72.74 mN/m at 20 C)\",",
+              "matches": [
+                {
+                  "text": "kinematic",
+                  "indices": [
+                    55,
+                    64
+                  ]
+                },
+                {
+                  "text": "kinematic",
+                  "indices": [
+                    167,
+                    176
+                  ]
+                }
+              ]
+            },
+            {
+              "property": "content",
+              "fragment": "    \"WEISSENBORN\": \"Weissenborn & Pugh (1996), Surface tension of aqueous solutions of electrolytes, \"\n                   \"J. Colloid Interface Sci. 184:550-563 (salts raise sigma ~1-3 mN/m per mol/L)\",\n    \"MULHOLLAND\": \"Mulholland & Croarkin (2000), Specific extinction coefficient of flame generated \"",
+              "matches": [
+                {
+                  "text": "Interface",
+                  "indices": [
+                    134,
+                    143
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/quantum-water-pilot/build_report.py",
+          "path": "reports/quantum-water-pilot/build_report.py",
+          "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/quantum-water-pilot/build_report.py",
+          "display_title": "reports/quantum-water-pilot/build_report.py",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "('later_visc','Ragueneau, Caupin & Issenmann (2022), supplemental viscosity measurements','https://arxiv.org/pdf/2112.09024'),\n('interface_flow','Yoon & Yoon (2018), silica-interface HPLC flow observations','https://www.nature.com/articles/s41598-018-24886-y'),\n('mills','Mills, J. Physical Chemistry 77, 685 (1973), table III','https://fenix.ciencias.ulisboa.pt/downloadFile/2533412229372806/Mills1973.pdf'),",
+              "matches": [
+                {
+                  "text": "interface",
+                  "indices": [
+                    129,
+                    138
+                  ]
+                },
+                {
+                  "text": "interface",
+                  "indices": [
+                    173,
+                    182
+                  ]
+                }
+              ]
+            },
+            {
+              "property": "content",
+              "fragment": "    dump(root/'fast-flow-material-comparison.json',fast)\n    content.append(f\"<p>For comparison, using the same 96³ grid for both liquids gives an H₂O–D₂O velocity-field difference of {100*fast['relative_material_field_difference']:.3f}% relative to H₂O, with final RMS speeds {1000*fast['H2O_rms_velocity_ms']:.3f} and {1000*fast['D2O_rms_velocity_ms']:.3f} mm/s. That is the material-property comparison. It is distinct from the successive-grid differences above. In this unforced constant-density velocity equation, the material dependence enters through kinematic viscosity μ/ρ; these inputs still come from measured-property correlations.</p>\")\n    content.append(f\"<p>The smaller isotope-difference field deserves its own precision check. Its magnitude changes only from {100*fast['material_field_difference_on_n64']:.4f}% to {100*fast['relative_material_field_difference']:.4f}% of the H₂O field between 64³ and 96³. However, the difference field itself changes by {100*fast['isotope_difference_field_grid_sensitivity']:.2f}% relative to its own smaller norm. Thus the overall-flow 1% screen passes, while a 1%-accurate spatial map of the isotope effect has not been established. This is an additional diagnostic of saved fields, not a replacement for the predeclared screen.</p>\")",
+              "matches": [
+                {
+                  "text": "kinematic",
+                  "indices": [
+                    567,
+                    576
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/substance-interactions/interface_flow_tests/make_report.py",
+          "path": "studies/substance-interactions/interface_flow_tests/make_report.py",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/substance-interactions/interface_flow_tests/make_report.py",
+          "display_title": "studies/substance-interactions/interface_flow_tests/make_report.py",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "{table([x for x in w['structure'] if x['name'].startswith('primary') and x['layer']!='other'],[('name','Seed'),('layer','Planar group'),('HDL_fraction_classified','HDL-like fraction'),('coverage','Classifiable fraction'),('unclassified','Unclassified molecule-frames')])}\r\n<p>Bulk means |z| &lt; 0.5 nm from the recentered slab middle. Interface means within 0.25 nm of the fitted half-density position on either side. These are <strong>planar groups, not intrinsic ITIM surface layers</strong>. All stored analysis frames are spaced 20 ps apart. Surface tension measurements do not validate these particular ψ populations; no matching direct experimental population measurement was found.</p>\r\n<h3>New water measurements and independence</h3>\r",
+              "matches": [
+                {
+                  "text": "Interface",
+                  "indices": [
+                    336,
+                    345
+                  ]
+                }
+              ]
+            },
+            {
+              "property": "content",
+              "fragment": "{table(f['summary'],flowcols)}\r\n<p>The projected area is π(D/2)<sup>2</sup> a<sup>−2/3</sup>, where a is the streamwise/transverse axis ratio and D is volume-equivalent diameter. Drag uses this area, not the sphere area. Air properties used for physical comparisons are explicit assumptions: density 1.204 kg/m³ and kinematic viscosity 1.5 × 10<sup>−5</sup> m²/s; water density 998.2 kg/m³ and gravity 9.80665 m/s². The 2.5 mm comparisons have Reynolds numbers around 1,067 and 1,300. Re = 2,500 can instead represent, for example, D = 4.5 mm at 8.33 m/s under the same viscosity; that case has no matched new measurement here.</p>\r\n{table(f['sensitivity'],[('base','Reference'),('change','Control'),('relative_Cd_change_percent','Drag change, %')])}\r",
+              "matches": [
+                {
+                  "text": "kinematic",
+                  "indices": [
+                    320,
+                    329
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/substance-interactions/interface_flow_tests/report.html",
+          "path": "studies/substance-interactions/interface_flow_tests/report.html",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/substance-interactions/interface_flow_tests/report.html",
+          "display_title": "studies/substance-interactions/interface_flow_tests/report.html",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "<div class=\"tablewrap\"><table><thead><tr><th>Run</th><th>Status</th><th>Re</th><th>Cells / D</th><th>Mean drag coefficient</th><th>First averaging half</th><th>Second averaging half</th></tr></thead><tbody><tr><td>low_re20</td><td>completed</td><td>20</td><td>20</td><td>2.964</td><td>2.964</td><td>2.964</td></tr><tr><td>micev_dvs</td><td>completed</td><td>1300</td><td>20</td><td>0.7185</td><td>0.6806</td><td>0.7564</td></tr><tr><td>micev_dvs_aspect084</td><td>completed</td><td>1300</td><td>20</td><td>0.6837</td><td>0.6457</td><td>0.7217</td></tr><tr><td>micev_parsivel</td><td>completed</td><td>1067</td><td>20</td><td>0.7238</td><td>0.7</td><td>0.7475</td></tr><tr><td>re1500_d20</td><td>completed</td><td>1500</td><td>20</td><td>0.7362</td><td>0.6926</td><td>0.7799</td></tr><tr><td>re1500_d28</td><td>completed</td><td>1500</td><td>28</td><td>0.6971</td><td>0.6871</td><td>0.7072</td></tr><tr><td>re1500_no_sgs</td><td>numerical_guard_failed</td><td>1500</td><td>20</td><td>None</td><td>1.3</td><td>0.9777</td></tr><tr><td>re1500_seed97</td><td>completed</td><td>1500</td><td>20</td><td>0.7169</td><td>0.6768</td><td>0.7571</td></tr><tr><td>re1500_slow</td><td>completed</td><td>1500</td><td>20</td><td>0.736</td><td>0.7071</td><td>0.7649</td></tr><tr><td>re1500_sphere</td><td>completed</td><td>1500</td><td>20</td><td>0.6598</td><td>0.6515</td><td>0.6682</td></tr><tr><td>re1500_wide</td><td>completed</td><td>1500</td><td>20</td><td>0.6806</td><td>0.6362</td><td>0.725</td></tr><tr><td>re2500_d20</td><td>completed</td><td>2500</td><td>20</td><td>0.5704</td><td>0.5638</td><td>0.577</td></tr><tr><td>re2500_d28</td><td>completed</td><td>2500</td><td>28</td><td>0.7244</td><td>0.7719</td><td>0.6768</td></tr><tr><td>terminal_re1000</td><td>completed</td><td>1000</td><td>20</td><td>0.7559</td><td>0.6804</td><td>0.8313</td></tr><tr><td>terminal_re800</td><td>completed</td><td>800</td><td>20</td><td>0.753</td><td>0.6872</td><td>0.8188</td></tr></tbody></table></div>\r\n<p>The projected area is π(D/2)<sup>2</sup> a<sup>−2/3</sup>, where a is the streamwise/transverse axis ratio and D is volume-equivalent diameter. Drag uses this area, not the sphere area. Air properties used for physical comparisons are explicit assumptions: density 1.204 kg/m³ and kinematic viscosity 1.5 × 10<sup>−5</sup> m²/s; water density 998.2 kg/m³ and gravity 9.80665 m/s². The 2.5 mm comparisons have Reynolds numbers around 1,067 and 1,300. Re = 2,500 can instead represent, for example, D = 4.5 mm at 8.33 m/s under the same viscosity; that case has no matched new measurement here.</p>\r\n<div class=\"tablewrap\"><table><thead><tr><th>Reference</th><th>Control</th><th>Drag change, %</th></tr></thead><tbody><tr><td>re1500_d20</td><td>grid 20 to 28</td><td>-5.311</td></tr><tr><td>re2500_d20</td><td>grid 20 to 28</td><td>26.98</td></tr><tr><td>re1500_d20</td><td>transverse 5D to 7D; length 12D to 16D</td><td>-7.554</td></tr><tr><td>re1500_d20</td><td>lattice speed 0.06 to 0.03</td><td>-0.03141</td></tr><tr><td>re1500_d20</td><td>wake seed 31 to 97</td><td>-2.621</td></tr><tr><td>re1500_d20</td><td>aspect 0.7 to 1</td><td>-10.38</td></tr><tr><td>micev_dvs</td><td>aspect 0.7 to 0.84</td><td>-4.842</td></tr></tbody></table></div>\r",
+              "matches": [
+                {
+                  "text": "kinematic",
+                  "indices": [
+                    2268,
+                    2277
+                  ]
+                }
+              ]
+            },
+            {
+              "property": "content",
+              "fragment": "<p>These rows use the measured speed to set Reynolds number and then test conditional force balance. They are not independent predictions of that speed. Separately, solving force balance with the computed Cd(Re) curve gives <strong>5.32 m/s</strong>, by interpolation between computed cases, without fitting to either measurement. This result still assumes a fixed shape and still air. Missing matched shape, relative airflow and precise thermodynamic conditions prevent attributing the discrepancy to any single mechanism.</p>\r\n<div class=\"card caution\"><strong>What this does not yet resolve</strong><p>A real liquid drop can deform, oscillate and circulate internally. A fixed no-slip wall does not reproduce that interface. These tests add resolved external-flow fields; they do not yet replace the earlier collection model, simulate smoke-particle capture, or validate collision/coalescence. Humidity-driven phoresis, particle trajectories and retention are not added to this particular flow solver.</p></div>\r\n<h2>Checks, provenance and reproduction</h2>\r",
+              "matches": [
+                {
+                  "text": "interface",
+                  "indices": [
+                    717,
+                    726
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/substance-interactions/deformable_raindrop_tests/make_report.py",
+          "path": "studies/substance-interactions/deformable_raindrop_tests/make_report.py",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/substance-interactions/deformable_raindrop_tests/make_report.py",
+          "display_title": "studies/substance-interactions/deformable_raindrop_tests/make_report.py",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "# Animation uses the actual larger-initial-disturbance trace. It is explicitly\r\n# labelled a reduced shape calculation, never a fully moving-interface CFD.\r\nv=trace['larger_initial'];frames=[]\r",
+              "matches": [
+                {
+                  "text": "interface",
+                  "indices": [
+                    141,
+                    150
+                  ]
+                }
+              ]
+            },
+            {
+              "property": "content",
+              "fragment": "labels={'surface_tension_N_m':'Surface tension ±3%','rho_air_kg_m3':'Air density ±5%',\r\n 'nu_air_m2_s':'Air kinematic viscosity ±5%','rho_water_kg_m3':'Water density ±0.2%',\r\n 'drop_diameter':'Diameter ±2%','cd_10percent_diagnostic':'Gas drag coefficient ±10%',\r",
+              "matches": [
+                {
+                  "text": "kinematic",
+                  "indices": [
+                    110,
+                    119
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "current_force",
+      "results": [
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/README.md",
+          "path": "README.md",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/README.md",
+          "display_title": "README.md",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "\r\n**[Compare the old and updated Hug](studies/hug-active-guard/README.md).** The declared reduced model retains the clay oscillator and adds internal participant states, evolving directional guards and passive resistance. Across 128 trajectories at two accuracy settings, the autonomous rhythm and circular/all six eccentric orbital repeats persist; the no-orbit swing is 27.6% smaller. Frozen, shared, direction-swapped and energy-off controls explain what changed. Includes 19 unit tests, independent solver and cycle-stability checks, [three plots](studies/hug-active-guard/report.html) and an [offline comparison player](studies/hug-active-guard/player.html). These are synthetic results; prior stiffness-switch recovery delays are not recalculated.\r\n\r",
+              "matches": [
+                {
+                  "text": "hug-active-guard",
+                  "indices": [
+                    46,
+                    62
+                  ]
+                },
+                {
+                  "text": "hug-active-guard",
+                  "indices": [
+                    560,
+                    576
+                  ]
+                },
+                {
+                  "text": "hug-active-guard",
+                  "indices": [
+                    633,
+                    649
+                  ]
+                }
+              ]
+            },
+            {
+              "property": "content",
+              "fragment": "\r\n**[Open the hug-breakdown study](studies/hug-breakdown/README.md).** Two small 2D Navier–Stokes models test how a hugged fluid holds, breaks and recovers under an outside push. The first has a yielding clay wall that can heal. The second has a water and fog shelter using real density and viscosity ratios and surface tension. Once broken, the water shelter never re-closed. A third model puts the two together: a water layer with a clay lining. Up to a push of P = 20 it held better than either wall alone; at P = 40 the result depended on the case. A materials sweep swaps in hard water, hydrogen peroxide, smoke, CO2 and helium, and a separate smoke vs hard water test shows a smoke ring, which has no surface tension, breaks at every push while a hard-water ring behaves like plain water. Source, sweep scripts, 40 passing tests, figures and saved results are included. These are 2D models with walls and forcing. They are not the Clay Millennium problem setup and make no claim about real people.\r\n\r",
+              "matches": [
+                {
+                  "text": "Navier",
+                  "indices": [
+                    84,
+                    90
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "full_joint",
+      "results": [
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-memory-continuity/METHODS.md",
+          "path": "studies/hug-memory-continuity/METHODS.md",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-memory-continuity/METHODS.md",
+          "display_title": "studies/hug-memory-continuity/METHODS.md",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "\nThe source's Newtonian momentum equation is not silently described as a Burgers clay law. This experiment uses its specified force density in a separately declared mechanical projection. Reference points (x,y) move by r=(x+d*y/L,y), with displacement mode phi=(y/L,0). Virtual work gives\n",
+              "matches": [
+                {
+                  "text": "Burgers",
+                  "indices": [
+                    73,
+                    80
+                  ]
+                }
+              ]
+            },
+            {
+              "property": "content",
+              "fragment": "\nThis is a one-mode mechanical realization, not a solution of the complete moving-boundary Navier-Stokes equations or a contact/fracture model. S is represented along material coordinates, where D_t S becomes a time derivative. Diffusion and gradients use the reference arc length (a small-strain approximation). There is no extra strain feedback on the reference field, so equal exposure histories give equal material-coordinate S under different orbital inputs. The displayed deformation is magnified and cannot establish preserved physical contact.\n",
+              "matches": [
+                {
+                  "text": "Navier",
+                  "indices": [
+                    91,
+                    97
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-active-guard/METHODS.md",
+          "path": "studies/hug-active-guard/METHODS.md",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-active-guard/METHODS.md",
+          "display_title": "studies/hug-active-guard/METHODS.md",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "\nThe full loop is motion -> shear rate -> directed guards -> resistance -> motion, with participant states and guards continuously influencing one another. Current values enter every integration stage. Increasing a guard increases transmission of abstract influence **and**, under this optional closure, mechanical damping. That common assignment is an assumption to test, not the meaning of every possible guard.\n\nThere is no replacement of the Burgers material law, no new reference-gradient material energy, no Navier-Stokes field, and no contact or rupture calculation in this comparison. No irreversible memory is assigned to the guards. The internal clay strains remain separate from the abstract participant/guard states. All parameters are synthetic; no clay observations were added.\n\n## Matched comparison\n",
+              "matches": [
+                {
+                  "text": "Burgers",
+                  "indices": [
+                    446,
+                    453
+                  ]
+                },
+                {
+                  "text": "Navier",
+                  "indices": [
+                    514,
+                    520
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/README.md",
+          "path": "README.md",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/README.md",
+          "display_title": "README.md",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "\r\n**[Open the larger-movement study](studies/hug-movement-sweep/README.md).** The [specification register](studies/hug-movement-sweep/SPECIFICATION_STATUS.md) distinguishes corpus laws, the user's graded upper-region mimetic intent, and the assistant-added capped source, relaxation, pair exchange and Burgers mechanics. The completed runs test that reduced surrogate; full-field domain, boundary, S/input/kernel and material/interface specifications remain open. Tests six actual movement settings without an orbit and with circular and eccentric forcing, plus fixed-orbital-force controls. Across 96 main trajectories and 204 refinements, movement increasingly restructures the expressed field but no matched case crosses the predeclared rhythm-change bands. When external force stays fixed, orbital repetition is lost in both paired models; this is not attributed to memory feedback. Includes the [testing structure](studies/hug-movement-sweep/TESTING_STRUCTURE.md), source-law fidelity checks, 20 unit tests, saved-data verification, [plots](studies/hug-movement-sweep/report.html), and [animations](studies/hug-movement-sweep/player.html). Large synthetic shears are stress tests of the reduced equations, not calibrated finite-strain clay behavior.\r\n\r",
+              "matches": [
+                {
+                  "text": "Burgers",
+                  "indices": [
+                    302,
+                    309
+                  ]
+                }
+              ]
+            },
+            {
+              "property": "content",
+              "fragment": "\r\n**[Open the hug-breakdown study](studies/hug-breakdown/README.md).** Two small 2D Navier–Stokes models test how a hugged fluid holds, breaks and recovers under an outside push. The first has a yielding clay wall that can heal. The second has a water and fog shelter using real density and viscosity ratios and surface tension. Once broken, the water shelter never re-closed. A third model puts the two together: a water layer with a clay lining. Up to a push of P = 20 it held better than either wall alone; at P = 40 the result depended on the case. A materials sweep swaps in hard water, hydrogen peroxide, smoke, CO2 and helium, and a separate smoke vs hard water test shows a smoke ring, which has no surface tension, breaks at every push while a hard-water ring behaves like plain water. Source, sweep scripts, 40 passing tests, figures and saved results are included. These are 2D models with walls and forcing. They are not the Clay Millennium problem setup and make no claim about real people.\r\n\r",
+              "matches": [
+                {
+                  "text": "Navier",
+                  "indices": [
+                    84,
+                    90
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-memory-feedback/METHODS.md",
+          "path": "studies/hug-memory-feedback/METHODS.md",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-memory-feedback/METHODS.md",
+          "display_title": "studies/hug-memory-feedback/METHODS.md",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "\nThis is a declared angular projection of the material equation, not a complete two-dimensional Navier–Stokes/clay calculation. Radial redistribution, resolved contact, fracture, hydration and moving sources relative to the clay are absent. The affine shear velocity is supplied by the mechanical mode rather than independently solving the corpus's pressure and momentum field. The reference-ring quadrature is part of the retained reduced model. This limitation cannot be removed by a prettier shape animation.\n",
+              "matches": [
+                {
+                  "text": "Navier",
+                  "indices": [
+                    96,
+                    102
+                  ]
+                }
+              ]
+            },
+            {
+              "property": "content",
+              "fragment": "\nThe inherited baseline is preserved byte for byte as baseline.py, with its hash pinned in protocol.json. Its Burgers strains, inertia, spring, powered feedback, orbit waveform and force scale are unchanged. The five scenarios are:\n",
+              "matches": [
+                {
+                  "text": "Burgers",
+                  "indices": [
+                    110,
+                    117
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-memory-continuity/protocol.json",
+          "path": "studies/hug-memory-continuity/protocol.json",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-memory-continuity/protocol.json",
+          "display_title": "studies/hug-memory-continuity/protocol.json",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "    {\"id\":\"reminder-001\",\"origin\":\"neighbor account\",\"route\":\"later re-exposure; no new claim of direct participation\",\"channel\":2,\"start_s\":950,\"end_s\":970,\"rate_per_s\":0.025,\"center_rad\":4.1}\n  ],\n  \"ancestry_channel\": {\"enabled\":false,\"reason\":\"No human genetic or epigenetic transmission coefficient is established by the cited reference data. Generational attenuation here concerns communicated exposure, not inherited autobiographical memory.\"},\n  \"numerics\": {\"main_nodes\":32,\"main_max_step_s\":0.15,\"main_rtol\":2e-8,\"main_atol\":2e-10,\"fine_nodes\":64,\"fine_max_step_s\":0.075,\"fine_rtol\":2e-10,\"fine_atol\":2e-12},\n  \"diagnostics\": {\"window_s\":57,\"amplitude_recovery_fraction\":0.8,\"quiet_fraction\":0.1,\"repeat_tolerance_scaled\":0.01,\"repeat_window_orbits\":10,\"phase_match_horizon_s\":1800},\n  \"interpretation\": \"Bounded expression is an explicit extension: a saturated source and relaxation affect S, never the immutable event ledger or accumulated A in retained arms. Finite-volume transport uses material coordinates on a reference ring. The source fixed-direction force is projected onto a declared shear mode with a Burgers material response. This is not a full moving-boundary Navier-Stokes/clay solver. No coefficients are estimated from adoption counts, biological ancestry, sex, trauma severity or norm conformity. Opposing and aligning exchange name mathematical feedback signs, not human moral traits. All records are fictional.\"\n}",
+              "matches": [
+                {
+                  "text": "Burgers",
+                  "indices": [
+                    1123,
+                    1130
+                  ]
+                },
+                {
+                  "text": "Navier",
+                  "indices": [
+                    1185,
+                    1191
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "id": "hug_breakdown_readme",
+      "file": "sources/hug_breakdown_readme.md",
+      "url": "https://github.com/NousVolition/Nous-Volition/blob/main/studies/hug-breakdown/README.md",
+      "git_blob_sha": "a8d4bfad3e974d39c2d99c3f2bfae7d9318fe47b",
+      "sha256": "fdba96d1ac86fe732ae5f88c2f7f78e2cb164966b5d160a0275695bc9ee1e353"
+    },
+    {
+      "id": "hug_breakdown_code",
+      "file": "sources/hug_breakdown_code.py",
+      "url": "https://github.com/NousVolition/Nous-Volition/blob/main/studies/hug-breakdown/hug_breakdown.py",
+      "git_blob_sha": "0bc336dd7f2aa8d3b4ce291e238129f6268e2218",
+      "sha256": "b86aaf58dd3fd72f0bd8860d52fe62bb0c35d119f8a713ba40db7cefa13f90e5"
+    },
+    {
+      "id": "feedback_methods",
+      "file": "sources/feedback_methods.md",
+      "url": "https://github.com/NousVolition/Nous-Volition/blob/main/studies/hug-memory-feedback/METHODS.md",
+      "git_blob_sha": "66b2b3c1d1bdf00fcfda7393a6182edcd9727ed8",
+      "sha256": "16097bc510e33078e72cee1a2ffdc66dad42df5c26de96532233d13fd542afc2"
+    },
+    {
+      "id": "active_model",
+      "file": "sources/active_model.py",
+      "url": "https://github.com/NousVolition/Nous-Volition/blob/main/studies/hug-active-guard/model.py",
+      "git_blob_sha": "e98864b4a2d763a0b8d36f2b76961df0e774506e",
+      "sha256": "8b5652c389328bf8991fbe1ff0bd0117792bf7156d4424e0043979d23397bdf7"
+    },
+    {
+      "id": "active_methods",
+      "file": "sources/active_methods.md",
+      "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-active-guard/METHODS.md",
+      "git_blob_sha": "986dcdd559f40beb91527348737e2791cd94e873",
+      "sha256": "96e9d6c6584111257bf0bf2c1857f46cae63dfeee0a52369dcad3c5bb645231a"
+    },
+    {
+      "id": "interaction",
+      "file": "sources/interaction.md",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/interaction-equation.md",
+      "git_blob_sha": "1a179410a981cbf20350c1200134dc01becb84d3",
+      "sha256": "aa9af72b9762ff70204131bc160aec712e4071ec17e6a4f3ac832e2e7a4a5808"
+    },
+    {
+      "id": "ns_fields_methods",
+      "file": "sources/ns_fields_methods.md",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/main/reports/sims-navier-stokes-guard/METHODS.md",
+      "git_blob_sha": "b76db69edbfc994bc3b983fb47711df63786e60d",
+      "sha256": "b4a844c9488972267f2dde4ad030b658459063b594743a1de3dc66a77a8c484f"
+    },
+    {
+      "id": "ns_fields_model",
+      "file": "sources/ns_fields_model.py",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/sims-navier-stokes-guard/model.py",
+      "git_blob_sha": "f58e53c70ce50322161b4f091428c9b52c3350ed",
+      "sha256": "60948e928f31d57e8384f2f7ccd68d4ab9664d6aee3398f82407324bb0f42e30"
+    },
+    {
+      "id": "ns_protocol",
+      "file": "sources/ns_protocol.json",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/sims-navier-stokes-guard/protocol.json",
+      "git_blob_sha": "e1ee675aa5df71d5a603b3654993fdf62435e063",
+      "sha256": "ba767c26ec3324f0441e158475910e12b9d225ab1f99859b534f51c280a3ebae"
+    },
+    {
+      "id": "movement_spec",
+      "file": "sources/movement_spec.md",
+      "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-movement-sweep/SPECIFICATION_STATUS.md",
+      "git_blob_sha": "172dc16534662950130338335e78334076e73277",
+      "sha256": "69b54155130d4fc4fb21f2c2cd5e9b436013f42ffd9b94dd215644de72f49024"
+    },
+    {
+      "id": "hugged_ring",
+      "file": "sources/hugged_ring.py",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/math/hugged_ring.py",
+      "git_blob_sha": "18f1af8268a5799a0cc2a5e891caac04eab2c90d",
+      "sha256": "59826cc3bfa4f7868823f169c5f8df552387f7616c448dc16259f502ff39e8df"
+    },
+    {
+      "id": "mirror_model",
+      "file": "sources/mirror_model.md",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/math/imports/hug-ns/mirror-fluid/MODEL.md",
+      "git_blob_sha": "5b982fe150287993c9a4e80811813713306fe11b",
+      "sha256": "e764eeb90497ff1fa8dd7998e546b29af5278c0479790e8ddd941f22daa085e7"
+    },
+    {
+      "id": "dynamic_q",
+      "file": "sources/dynamic_q.md",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/math/imports/hug-ns/mirror-fluid/dynamic-q/README.md",
+      "git_blob_sha": "3ae5d173a82eefbe0a8589399835d8f3673b01e0",
+      "sha256": "157aae2773d9463f2479c411b46e7d7dd1091d3ac12e56cdd9c105d8493d243b"
+    },
+    {
+      "id": "corrected_model",
+      "file": "sources/corrected_model.md",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/math/imports/hug-ns/corrected_v1/README.md",
+      "git_blob_sha": "1810bb27b42e470f464b4242b858a710fc0447f8",
+      "sha256": "a93970b32721834d3a725e781ed66066ef067b16ab36d3fb71eae99fd3a6806b"
+    },
+    {
+      "id": "finalized_mirror",
+      "file": "sources/finalized_mirror.md",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/math/imports/hug-ns/mirror-fluid/FINALIZED-MODEL.md",
+      "git_blob_sha": "0fd6f9111a2e2c0bc4f1334033bc76467cb320e9",
+      "sha256": "5acf15276083f4c5f608cfd59989ff96885f8fabe57b28bfd5200f02761c5e21"
+    }
+  ],
+  "prior_snapshot_comparison": [
+    {
+      "file": "active_methods.md",
+      "fresh_sha256": "96e9d6c6584111257bf0bf2c1857f46cae63dfeee0a52369dcad3c5bb645231a",
+      "prior_sha256": "d1d280ecd06c1f31aaa46c3117b5c84cd6534dd24d19ce10494f633221c047bd",
+      "byte_identical": false,
+      "difference": "line endings and trailing blank line only; non-newline text is identical"
+    },
+    {
+      "file": "active_model.py",
+      "fresh_sha256": "8b5652c389328bf8991fbe1ff0bd0117792bf7156d4424e0043979d23397bdf7",
+      "prior_sha256": "e1f83325f63c956d399294b6dda748a34d6f469d8a42319f28e1d02ea3366921",
+      "byte_identical": false,
+      "difference": "line endings and trailing blank line only; non-newline text is identical"
+    },
+    {
+      "file": "interaction.md",
+      "fresh_sha256": "aa9af72b9762ff70204131bc160aec712e4071ec17e6a4f3ac832e2e7a4a5808",
+      "prior_sha256": "5b3621f4832403dd14a07a032b593afed53b53c122d96b858e4a2c6fc959b0ac",
+      "byte_identical": false,
+      "difference": "line endings and trailing blank line only; non-newline text is identical"
+    }
+  ],
+  "local_original": {
+    "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-05\\ca\\outputs\\sims-framework-correction-20261022\\sources\\corrected-corpus.docx",
+    "sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+    "xml_paragraph_count": 638,
+    "manifest_path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-29\\your-system-contains-a-valid-accumulated\\outputs\\social-fluidity-exact-v1\\source-manifest.json",
+    "manifest_sha256": "5bb99f1ef240578bf0d5372a78f23f4a6a3f9f6d1257fffa8d54fad6627f8370",
+    "exact_passages_freshly_matched": 15
+  }
+}

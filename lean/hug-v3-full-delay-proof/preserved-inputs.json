@@ -1,0 +1,52 @@
+[
+  {
+    "file": "V3SourceCore.lean",
+    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-delay-lean\\V3SourceCore.lean",
+    "sha256": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27"
+  },
+  {
+    "file": "V3SourceGeometry.lean",
+    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-delay-lean\\V3SourceGeometry.lean",
+    "sha256": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f"
+  },
+  {
+    "file": "V3SourceMemory.lean",
+    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-delay-lean\\V3SourceMemory.lean",
+    "sha256": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07"
+  },
+  {
+    "file": "V3SourceSocial.lean",
+    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-delay-lean\\V3SourceSocial.lean",
+    "sha256": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007"
+  },
+  {
+    "file": "V3SourceFlow.lean",
+    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-delay-lean\\V3SourceFlow.lean",
+    "sha256": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651"
+  },
+  {
+    "file": "V3SourceSystem.lean",
+    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-delay-lean\\V3SourceSystem.lean",
+    "sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
+  },
+  {
+    "file": "V3DelayDefinitions.lean",
+    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-delay-lean\\V3DelayDefinitions.lean",
+    "sha256": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295"
+  },
+  {
+    "file": "V3DelayProofs.lean",
+    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-delay-lean\\V3DelayProofs.lean",
+    "sha256": "a21e672f3309abee5e49b1767d475483591076a681c38229461cbf30e0247fdc"
+  },
+  {
+    "file": "lake-manifest.json",
+    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-delay-lean\\lake-manifest.json",
+    "sha256": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029"
+  },
+  {
+    "file": "lean-toolchain",
+    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-delay-lean\\lean-toolchain",
+    "sha256": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "challenge_module": "V3SourceChallenge",
+  "solution_module": "V3SourceProofs",
+  "enable_nanoda": true,
+  "theorem_names": [
+    "HugV3.Source.Verified.rhs_fabric_equation",
+    "HugV3.Source.Verified.rhs_accumulator_equation",
+    "HugV3.Source.Verified.fabric_strain_lower_bound",
+    "HugV3.Source.Verified.positive_read_boundary_inward",
+    "HugV3.Source.Verified.negative_read_boundary_inward_iff",
+    "HugV3.Source.Verified.negative_read_boundary_under_two",
+    "HugV3.Source.Verified.large_deformation_not_automatic",
+    "HugV3.Source.Verified.written_cell_restores_margin",
+    "HugV3.Source.Verified.crc_reference_vector"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

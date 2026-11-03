@@ -1,0 +1,13 @@
+{
+  "challenge_module": "ASExistenceChallenge",
+  "solution_module": "ASExistenceSolution",
+  "enable_nanoda": true,
+  "theorem_names": [
+    "SocialAS.Verified.full_existence_uniqueness"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

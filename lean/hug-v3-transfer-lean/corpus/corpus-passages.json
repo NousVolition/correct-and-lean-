@@ -1,0 +1,77 @@
+{
+  "docx": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-05\\ca\\outputs\\sims-framework-correction-20261022\\sources\\corrected-corpus.docx",
+  "sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+  "selected_verified_passages": [
+    {
+      "docx_xml_paragraphs": [
+        23
+      ],
+      "text": "Preserve “preserves Sens while adjusting Sin.” Here, Sens means personal intent or intended meaning, and Sin means socially constrained or encoded expression. Keep the unusual wording and its distinction. It does not need conventional replacement or treatment as a mathematical theorem."
+    },
+    {
+      "docx_xml_paragraphs": [
+        144
+      ],
+      "text": "The modifier matrix represents possible changes across settings, identities, or audiences. These are parameters to estimate from evidence, not inherent properties of a group. F(i,c) is the set of permitted available actions for actor i in context c. Changing the boundary may change F(i,c); it does not necessarily change the margin for every action in the same way."
+    },
+    {
+      "docx_xml_paragraphs": [
+        164
+      ],
+      "text": "• OR-02 - Notice Context Changes: Check whether identity, audience, setting, or group membership changes how the same action is treated."
+    },
+    {
+      "docx_xml_paragraphs": [
+        471
+      ],
+      "text": "Socio-Didact is used here in its revised, limited sense: a person who learns unwritten social rules through observation and experience. The observer may notice which words, styles, or contexts change the response they receive and may adapt when useful. The term does not imply unusual intelligence, covert strategy, or mastery of the group."
+    },
+    {
+      "docx_xml_paragraphs": [
+        495
+      ],
+      "text": "This paper develops a systems model for examining how people, language, and group boundaries interact in digital spaces. It combines group sociology, fluid-flow metaphors, vector calculus, and pragmatic linguistics. The mathematical models are used as structured ways to describe movement, pressure, thresholds, and changes in a social environment; they are not claims that human groups are literally fluids or that social behavior can be measured with perfect precision. The framework tracks how personal intent (Sens) can be reshaped into socially constrained or encoded expression (Sin), how boundaries become visible through differences in treatment, and how an observer can learn those boundaries without needing to become a central or dominant actor. The Socio-Didact is therefore treated as an adaptive observation mode: someone who learns the unwritten rules of a setting, stays relatively unobtrusive when useful, and adjusts enough to reduce unnecessary friction while preserving intended meaning."
+    },
+    {
+      "docx_xml_paragraphs": [
+        606
+      ],
+      "text": "When adaptation retains intended meaning, the phrase “preserves Sens while adjusting Sin” names that distinction: Sens is personal intent or intended meaning; Sin is its socially constrained or encoded expression. Keep the coined wording and explain it alongside the original when needed. The phrase does not imply changing the intent itself, moral wrongdoing, superior ability, manipulation, or guaranteed success in every setting."
+    },
+    {
+      "docx_xml_paragraphs": [
+        607
+      ],
+      "text": "A Socio-Didact may be quiet, peripheral, or easy to overlook. The useful skill is not control over the group; it is familiarity with the setting. Over time, the observer may learn which behaviors attract attention, which cues signal belonging, where friction tends to appear, and when it is easier to stay unobtrusive. The term describes adaptation to a social environment, not mastery over it."
+    },
+    {
+      "docx_xml_paragraphs": [
+        609
+      ],
+      "text": "• OR-02 [Notice Context Changes]: Check whether identity, audience, setting, or group membership changes how an action is interpreted."
+    }
+  ],
+  "fresh_connected_sources": [
+    {
+      "file": "sources\\connections.json",
+      "sha256": "bc4f8719e2b74d8a10bb2139a276b558c043b3ab6c2bae4bd56969129a9e6ca7",
+      "github_blob": "bb1467c2c8d77f82aec77e9917a330ab0172fb7d"
+    },
+    {
+      "file": "sources\\encounters-methods.json",
+      "sha256": "57486e0e9d611b9b1bc3fb6a6557d29479b6389528fd74493ab16cec83ddbb1b",
+      "github_blob": "f76daa2c589b98f7fdeb4caee14c782cb28a677c"
+    },
+    {
+      "file": "sources\\encounters-readme.json",
+      "sha256": "c9ad1f690e9150cc107b452391637752965da4f815cf5238ec4faf830a140045",
+      "github_blob": "5fbf9734286e333e469bb51b6afc5ec7823e4851"
+    },
+    {
+      "file": "sources\\measurement-record.json",
+      "sha256": "9a9ef1a1e8d5704cf044423ac5307b1b18e03969ffa68169ed67910b11ca610e",
+      "github_blob": "751b70ee395f66bd1214989364ba649128b25d47"
+    }
+  ],
+  "author_precedence": "Latest conversation treats fluid forms as traits. Earlier fixed speaking/listening definitions are historical and are not reinstated here."
+}

@@ -1,0 +1,150 @@
+{
+  "status": "Scoped A/S analytical audit completed; not full formal or empirical validation",
+  "checked_at_utc": "2026-10-29T06:55:17.941297+00:00",
+  "source": {
+    "user_selected_document": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-09\\referenced-chatgpt-conversation-this-is-an\\output\\pdf\\openai-navier-stokes-cross-audit-with-feedback-path.pdf",
+    "pdf_sha256": "34bc25fddad22e85af9152b856594c8bd2acfac9ba1d032ad136670d351cabae",
+    "pdf_pages_from_latest_record": 25,
+    "updated_report": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-09\\referenced-chatgpt-conversation-this-is-an\\outputs\\navier-stokes-cross-audit-20261028\\report.html",
+    "updated_report_sha256": "b860ea8b4830e245ef78db31eeb15e4c12f66ac18eb68264a5f31f6bad66c81e",
+    "published_repository": "NousVolition/Nous-Volition",
+    "current_main_checked": "b4ae2c54cd85bfef282c501ecfca83de274e2070",
+    "corpus_extract_git_blob": "f7905eeba0bec052b005c56779c8ff2fedea1f16",
+    "equation_register_git_blob": "0098b1999500cedfd364cd9a659425a0f199b5e2",
+    "current_published_passages_equal_retained_extract": true,
+    "current_published_equation_register_matches_updated_report_register": true,
+    "paragraphs": [
+      229,
+      230,
+      261,
+      262,
+      263,
+      264,
+      265,
+      517,
+      518,
+      519,
+      545,
+      547,
+      548,
+      549,
+      550
+    ],
+    "original_corrected_docx_independently_retranscribed": false,
+    "selected_document_and_report_unchanged_at_finish": true
+  },
+  "checks": [
+    {
+      "name": "Persistent source after finite pulse",
+      "result": {
+        "A_at_3": "1",
+        "M_at_3": "5/2"
+      },
+      "scope": "Exact rational evaluation of the integrated mass identity for unit intervals, gamma=kappa=1, A0=M0=0, normalized kernel and zero boundary flux. No PDE trajectory was simulated."
+    },
+    {
+      "name": "Input-order memory",
+      "result": {
+        "plus_then_minus": {
+          "A": "0",
+          "M": "1"
+        },
+        "minus_then_plus": {
+          "A": "0",
+          "M": "-1"
+        }
+      },
+      "scope": "Exact mass identity. Different scalar totals do not by themselves establish different velocities."
+    },
+    {
+      "name": "Original tanh law below threshold",
+      "result": {
+        "a_minus_epsilon_over_epsilon": -0.11920292202211757
+      },
+      "scope": "Direct evaluation at epsilon=1; values scale with epsilon."
+    },
+    {
+      "name": "Exact uniform-field tanh counterexample",
+      "result": {
+        "Gamma": 1,
+        "epsilon": 1,
+        "sigma_over_rho": 1,
+        "A": 0,
+        "U_minus_baseline": 0,
+        "S": "any spatial constant",
+        "u": "alpha*t*e",
+        "p": "spatial constant",
+        "alpha": 0.11920292202211757,
+        "kinetic_energy_per_volume_at_t1": 0.007104668309305522,
+        "energy_rate_per_volume_at_t1": 0.014209336618611044
+      },
+      "scope": "An exact solution on a periodic domain: A and S derivatives, convection, diffusion, and divergence vanish; momentum reduces to u_t=alpha*e. Demonstrates nonzero below-threshold forcing and energy growth without excess input for this branch, not finite-time blowup."
+    },
+    {
+      "name": "Sharp-force positive-work counterexample",
+      "result": {
+        "mean_activation": 0.43599112417691754,
+        "quadrature_crosscheck": 0.4359911241769174,
+        "initial_energy_rate_per_volume": 0.43599112417691754
+      },
+      "scope": "Periodic (2pi)^2 domain, S0=2 sin(x), u0=(0,-1), e=(0,1), Gamma=1, sigma/rho=1, U=baseline, A=0. Initial viscous loss is zero; exact force work is positive. This evaluates an initial-rate identity, not a numerical trajectory."
+    },
+    {
+      "name": "Tanh radial constitutive cusp",
+      "result": {
+        "Gamma_over_epsilon": 1,
+        "right_derivative": -0.09078424878489547,
+        "left_derivative": 0.09078424878489547,
+        "difference_quotient_right": -0.09078419872798893,
+        "difference_quotient_left": 0.09078419872798893
+      },
+      "scope": "Restriction v=(s,0) of a_t(|v|-Gamma), at s=0. Unequal one-sided derivatives disprove automatic differentiability in the gradient variable. Special parameter cancellations are not ruled out by this example."
+    },
+    {
+      "name": "Regularized threshold distinction",
+      "result": {
+        "Gamma": 1.0,
+        "delta": 0.5,
+        "uncalibrated_onset": 1.4142135623730951,
+        "uncalibrated_q_at_Gamma": -0.3819660112501051,
+        "calibrated_q_at_Gamma": 0.0
+      },
+      "scope": "Direct algebra: the two optional gradient regularizations are distinct laws."
+    },
+    {
+      "name": "Scaling identity spot checks",
+      "result": {
+        "lambda": 3,
+        "laws": [
+          "sharp",
+          "tanh",
+          "smooth_off"
+        ],
+        "q_values": [
+          -1,
+          0,
+          0.2,
+          1
+        ]
+      },
+      "scope": "Finite arithmetic cross-check only. The all-value identity a(lambda*q;lambda*epsilon)=lambda*a(q;epsilon) follows algebraically and is proved in the report."
+    }
+  ],
+  "method": "Direct analytical derivations and counterexamples, exact rational arithmetic, and small formula evaluations. No new PDE simulation or Lean run.",
+  "preservation": {
+    "corpus_edits": 0,
+    "updated_document_edits": 0,
+    "running_study_changes": 0,
+    "new_trajectories": 0,
+    "external_publication": false
+  },
+  "historical_numerical_evidence": "Current repository history study was read as a published result; its trajectories and reported tests were not rerun or independently certified in this audit.",
+  "script_sha256": "762af33d2e24298e02ea6d7586a800a41ccb1029dc3b7e1c22aae8de11864637",
+  "report": {
+    "file": "as-equation-audit.txt",
+    "sha256": "e91e31f29df865eb0c51658ffd2064c3dcb5a6eaa7db3d56de257f63802c1853",
+    "bytes": 16818
+  },
+  "verification_type": "Analytical identities and counterexamples with bounded arithmetic checks; no full PDE formalization or new trajectory.",
+  "working_copy_preparation_note": "An extra trailing blank line in the local CSV transport copy was removed to restore equality with the retrieved register. Reads were set explicitly to UTF-8. No corpus or selected document was edited."
+}

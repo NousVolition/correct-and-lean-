@@ -1,0 +1,22 @@
+FullAssembly.lean:26:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  x t j
+in the target expression
+  (fun t => x t j) t = initial j + ∫ (s : ℝ) in a..t, F s ((fun t => x t j) s)
+
+case refine_2
+p : Parameters
+i : ℝ → Inputs
+a b : ℝ
+initial : State
+x : ℝ → State
+hab : a ≤ b
+hx : IntegralSolution p i a b initial x
+j : Fin 7
+F : ℝ → ℝ → ℝ
+hmatch : ∀ t ∈ Icc a b, F t (x t j) = evolution p (i t) (x t) j
+hc : ContinuousOn x (Icc a b)
+t : ℝ
+ht : t ∈ Icc a b
+⊢ (fun t => x t j) t = initial j + ∫ (s : ℝ) in a..t, F s ((fun t => x t j) s)
+FullAssembly.lean:32:2: warning: Left-hand side of simp theorem is headed by a `.other` key in the discrimination tree (e.g. because it is a lambda expression). This theorem will be tried against all expressions that also have a `.other` key as head, which can cause slowdowns. This may be acceptable for `local` or `scoped` simp lemmas.
+Use `set_option warning.simp.otherHead false` to disable this warning.

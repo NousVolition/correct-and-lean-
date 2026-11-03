@@ -1,0 +1,4 @@
+V3SourceMemory.lean:58:27: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  HAppend (List ℕ) (List ℤ) ?m.148
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.

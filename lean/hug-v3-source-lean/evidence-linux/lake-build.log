@@ -1,0 +1,3 @@
+⚠ [3112/3113] Replayed V3SourceProofs
+warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+Build completed successfully (3113 jobs).

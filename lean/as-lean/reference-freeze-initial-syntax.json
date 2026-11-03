@@ -1,0 +1,20 @@
+{
+  "stage": "reference statements frozen before proof implementation",
+  "files": {
+    "ASModel.lean": "d9c26eb9be2d365e8446aa0215787bb6c14385df9a95218ad0fa41e32e3cc817",
+    "ASChallenge.lean": "7cfde5677c27ef54f99062f4386c8251525806722a3dedfb63711f728cfa1f6b",
+    "ASOpenClaims.lean": "632f32a31874e7b57f40590b3abd41e2dee043ff7a6fe7e5b5d27bda116f135a",
+    "comparator.json": "4d675b87134e33f288c6ab3a89d7b95280051f8d8b060cb733986e50da552e04",
+    "source-equations.json": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318",
+    "source-protocol.json": "cd3da93d6ab15d19fc01813da63a64ca0ba99c5bc027014b9cf3adf2cc7d97f1",
+    "lakefile.toml": "c2db8a9c90f76c66d779d0f2acffb3fb686b3df2cc3ff585e48bb05f938404eb",
+    "lake-manifest.json": "97853a182e5c15a52a3eb65ce9f625fa729212a2ee58279732af3194554b8f2d",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
+  },
+  "target_count": 30,
+  "open_targets": [
+    "SocialAS.Open.FullExistenceUniqueness",
+    "SocialAS.Open.FullStateInvariance",
+    "SocialAS.Open.FullSuppressionComparison"
+  ]
+}

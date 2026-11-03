@@ -1,0 +1,53 @@
+{
+  "pdf_pages": 9,
+  "page_images": 9,
+  "extracted_text_length": 23981,
+  "checks": [
+    {
+      "page": 1,
+      "characters": 2532,
+      "outside_page": []
+    },
+    {
+      "page": 2,
+      "characters": 2268,
+      "outside_page": []
+    },
+    {
+      "page": 3,
+      "characters": 2287,
+      "outside_page": []
+    },
+    {
+      "page": 4,
+      "characters": 1109,
+      "outside_page": []
+    },
+    {
+      "page": 5,
+      "characters": 1975,
+      "outside_page": []
+    },
+    {
+      "page": 6,
+      "characters": 2192,
+      "outside_page": []
+    },
+    {
+      "page": 7,
+      "characters": 2665,
+      "outside_page": []
+    },
+    {
+      "page": 8,
+      "characters": 2986,
+      "outside_page": []
+    },
+    {
+      "page": 9,
+      "characters": 2330,
+      "outside_page": []
+    }
+  ],
+  "visual_review": "PASS; see visual-review.json"
+}

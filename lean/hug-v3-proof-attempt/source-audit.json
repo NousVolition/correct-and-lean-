@@ -1,0 +1,408 @@
+{
+  "selected_by_user": "later full Hug v3",
+  "selected_at_utc": "2026-11-01T04:54:09.893870+00:00",
+  "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3",
+  "source_seal_sha256": "b815846bd7afe1aa1a91430c40b658fc44a4d13add5432de0aed424530bedea0",
+  "sealed_files": 21,
+  "all_source_hashes_match": true,
+  "main_case_coordinate_counts": {
+    "velocity_context_temperature": 20480,
+    "material_position": 1152,
+    "deformation_gradient": 3456,
+    "directional_records": 18432,
+    "structural_memory": 149056,
+    "accumulator": 1,
+    "energy_and_source_ledgers": 4,
+    "writing_work": 1,
+    "expression": 12,
+    "context": 12,
+    "norm": 12,
+    "log_permission_radius": 36,
+    "recognition_authority_trust": 108,
+    "response_strengths": 252,
+    "retrieval_association": 108
+  },
+  "main_case_real_coordinate_total": 193122,
+  "scope": "The counts describe the source main fixture, not a replacement equation or a continuum-limit theorem.",
+  "agent": "The same returning student",
+  "idea": "Giving someone space to speak can change what I understand.",
+  "agent_mapping": "Preserved interpretation metadata; no synthetic actor index or measured score has been assigned.",
+  "functions": [
+    {
+      "file": "continuum.py",
+      "name": "strain_tensor",
+      "line": 15,
+      "end_line": 17
+    },
+    {
+      "file": "continuum.py",
+      "name": "strain_magnitude",
+      "line": 19,
+      "end_line": 20
+    },
+    {
+      "file": "continuum.py",
+      "name": "body_quadrature",
+      "line": 60,
+      "end_line": 68
+    },
+    {
+      "file": "continuum.py",
+      "name": "__init__",
+      "line": 72,
+      "end_line": 91
+    },
+    {
+      "file": "continuum.py",
+      "name": "hat",
+      "line": 93,
+      "end_line": 93
+    },
+    {
+      "file": "continuum.py",
+      "name": "real",
+      "line": 94,
+      "end_line": 94
+    },
+    {
+      "file": "continuum.py",
+      "name": "filter",
+      "line": 95,
+      "end_line": 96
+    },
+    {
+      "file": "continuum.py",
+      "name": "grad",
+      "line": 97,
+      "end_line": 99
+    },
+    {
+      "file": "continuum.py",
+      "name": "divergence",
+      "line": 100,
+      "end_line": 103
+    },
+    {
+      "file": "continuum.py",
+      "name": "project",
+      "line": 104,
+      "end_line": 110
+    },
+    {
+      "file": "continuum.py",
+      "name": "context_transport",
+      "line": 112,
+      "end_line": 127
+    },
+    {
+      "file": "continuum.py",
+      "name": "matrices",
+      "line": 129,
+      "end_line": 150
+    },
+    {
+      "file": "continuum.py",
+      "name": "initial",
+      "line": 152,
+      "end_line": 156
+    },
+    {
+      "file": "continuum.py",
+      "name": "material",
+      "line": 158,
+      "end_line": 178
+    },
+    {
+      "file": "continuum.py",
+      "name": "input",
+      "line": 180,
+      "end_line": 184
+    },
+    {
+      "file": "continuum.py",
+      "name": "rhs",
+      "line": 186,
+      "end_line": 281
+    },
+    {
+      "file": "continuum.py",
+      "name": "extra_constitutive",
+      "line": 283,
+      "end_line": 284
+    },
+    {
+      "file": "continuum.py",
+      "name": "coupling",
+      "line": 286,
+      "end_line": 287
+    },
+    {
+      "file": "continuum.py",
+      "name": "step",
+      "line": 289,
+      "end_line": 293
+    },
+    {
+      "file": "continuum.py",
+      "name": "add",
+      "line": 290,
+      "end_line": 290
+    },
+    {
+      "file": "social_base.py",
+      "name": "offdiag",
+      "line": 41,
+      "end_line": 42
+    },
+    {
+      "file": "social_base.py",
+      "name": "run",
+      "line": 232,
+      "end_line": 267
+    },
+    {
+      "file": "social_base.py",
+      "name": "__init__",
+      "line": 45,
+      "end_line": 66
+    },
+    {
+      "file": "social_base.py",
+      "name": "initial",
+      "line": 68,
+      "end_line": 82
+    },
+    {
+      "file": "social_base.py",
+      "name": "memory_feature",
+      "line": 84,
+      "end_line": 86
+    },
+    {
+      "file": "social_base.py",
+      "name": "episode",
+      "line": 88,
+      "end_line": 98
+    },
+    {
+      "file": "social_base.py",
+      "name": "append_record",
+      "line": 100,
+      "end_line": 104
+    },
+    {
+      "file": "social_base.py",
+      "name": "retrieve",
+      "line": 106,
+      "end_line": 125
+    },
+    {
+      "file": "social_base.py",
+      "name": "margins",
+      "line": 127,
+      "end_line": 129
+    },
+    {
+      "file": "social_base.py",
+      "name": "room",
+      "line": 131,
+      "end_line": 135
+    },
+    {
+      "file": "social_base.py",
+      "name": "utility",
+      "line": 137,
+      "end_line": 142
+    },
+    {
+      "file": "social_base.py",
+      "name": "social_rhs",
+      "line": 144,
+      "end_line": 214
+    },
+    {
+      "file": "social_base.py",
+      "name": "coupling",
+      "line": 216,
+      "end_line": 222
+    },
+    {
+      "file": "social_base.py",
+      "name": "step",
+      "line": 224,
+      "end_line": 230
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "outcome_score",
+      "line": 39,
+      "end_line": 44
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "__init__",
+      "line": 48,
+      "end_line": 56
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "initial",
+      "line": 57,
+      "end_line": 57
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "local_strain",
+      "line": 58,
+      "end_line": 60
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "energy_force",
+      "line": 61,
+      "end_line": 66
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "constitutive",
+      "line": 67,
+      "end_line": 74
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "probe",
+      "line": 75,
+      "end_line": 81
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "bits_from_probe",
+      "line": 82,
+      "end_line": 87
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "quant",
+      "line": 88,
+      "end_line": 91
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "payload",
+      "line": 92,
+      "end_line": 112
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "unpack",
+      "line": 113,
+      "end_line": 125
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "decode_probe",
+      "line": 126,
+      "end_line": 133
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "read",
+      "line": 134,
+      "end_line": 134
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "energy",
+      "line": 135,
+      "end_line": 135
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "prepare_write",
+      "line": 136,
+      "end_line": 165
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "__init__",
+      "line": 168,
+      "end_line": 172
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "append_record",
+      "line": 173,
+      "end_line": 173
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "episode",
+      "line": 174,
+      "end_line": 174
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "initial",
+      "line": 175,
+      "end_line": 178
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "extra_constitutive",
+      "line": 179,
+      "end_line": 181
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "read_material",
+      "line": 182,
+      "end_line": 183
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "retrieve",
+      "line": 184,
+      "end_line": 202
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "utility",
+      "line": 203,
+      "end_line": 208
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "step",
+      "line": 209,
+      "end_line": 212
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "make_event",
+      "line": 213,
+      "end_line": 222
+    },
+    {
+      "file": "structural_hug.py",
+      "name": "write_event",
+      "line": 223,
+      "end_line": 231
+    },
+    {
+      "file": "run.py",
+      "name": "run_case",
+      "line": 6,
+      "end_line": 68
+    },
+    {
+      "file": "run.py",
+      "name": "save",
+      "line": 14,
+      "end_line": 26
+    }
+  ],
+  "full_requested_proof": "UNFINISHED",
+  "formalization_boundary": "The entire Python RHS, Fourier/finite-volume operators, decoder and write protocol have NOT yet been proved equivalent to a Lean model.",
+  "comparator_scope": "Only explicitly named event-obstruction lemmas, if they pass; never a full v3 existence/uniqueness certificate.",
+  "unchanged": "Original equations, source configuration, original files and all earlier Lean packages"
+}

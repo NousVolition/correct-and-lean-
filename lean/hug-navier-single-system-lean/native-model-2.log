@@ -1,0 +1,10 @@
+FullChallenge.lean:9:8: warning: declaration uses `sorry`
+FullChallenge.lean:16:8: warning: declaration uses `sorry`
+FullChallenge.lean:18:8: warning: declaration uses `sorry`
+FullChallenge.lean:23:8: warning: declaration uses `sorry`
+FullChallenge.lean:30:8: warning: declaration uses `sorry`
+FullChallenge.lean:39:8: warning: declaration uses `sorry`
+FullChallenge.lean:47:8: warning: declaration uses `sorry`
+FullChallenge.lean:64:8: warning: declaration uses `sorry`
+FullChallenge.lean:68:8: warning: declaration uses `sorry`
+FullChallenge.lean:76:8: warning: declaration uses `sorry`

@@ -1,0 +1,44 @@
+FULL COUPLED LATER HUG — EXISTENCE AND UNIQUENESS
+30 October 2026
+
+PASS. The exact frozen theorem passed the Windows Lean build, Linux Lake build,
+Comparator, Lean's kernel and the independent nanoda kernel. The equations and
+the earlier Hug and A/S proof packages were preserved.
+
+WHAT IS NOW PROVED
+For the unchanged primary directional Hug settings, every real initial state
+with both guards in [0,1], and every continuous prescribed force, has a unique
+solution on any finite forward time interval. All eight states evolve together:
+displacement, velocity, two material strains, two participant states and two
+directional guards. The solution satisfies the differential equations at every
+interior time and both guards remain in [0,1].
+
+This goes beyond a short-time existence result: the interval can be arbitrarily
+long. No finite-time breakdown occurs under these assumptions. Uniqueness means
+that the same initial state, force and parameter settings give the same trajectory.
+The formal statement is interval-by-interval, with agreement on overlapping
+intervals; it does not assert uniqueness of arbitrary values outside an interval.
+
+HOW THE NONLINEAR PROBLEM WAS HANDLED
+The nonlinear squeeze term prevents simply assuming global Lipschitz continuity.
+The proof instead establishes growing finite-time bounds for the six unrestricted
+states and 0-to-1 bounds for the guards. An auxiliary bounded field constructs the
+solution, and a separate proved identity removes that auxiliary projection along
+the entire path. The final theorem is about the original equations.
+
+ASSUMPTIONS AND LIMITS
+The theorem uses the already frozen primary parameter set, including unit weights
+in both influence directions. The force must be continuous on the chosen interval,
+and the initial guards must lie in [0,1]. No smallness assumption is made on the
+other initial states, no trajectory bound is assumed, and no state is frozen.
+
+It does not yet prove the same result for every other parameter/control variant,
+the separate full memory-field extension, a stable rhythm, synchronization,
+recovery time, physical contact, or a measured social interpretation. Numerical
+solver and floating-point correctness are separate questions.
+
+Theorem: ActiveHug.Verified.full_coupled_existence_uniqueness
+Exact statement: HugFullClaim.lean
+Proof entry point: HugExistenceSolution.lean
+Evidence: verification-report.json, native-final.log and evidence-linux/
+Detailed assumptions and proof explanation: README.md

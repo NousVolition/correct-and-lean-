@@ -1,0 +1,356 @@
+{
+  "status": "frozen before numerical execution; source-informed candidate with explicit assumptions",
+  "scope": "Same one agent, one moving idea: giving someone space to speak can change what I understand. Smoke and Clay are inward positions.",
+  "definition": "For this candidate, Monoxide is an interaction-imposed suppression of meaning-preserving reception or reconsideration of this idea, against the agent's intended meaning or freedom to question/refuse. Ordinary adaptation, disagreement, voluntary refusal and delay alone do not establish this condition.",
+  "horizon": 12,
+  "dt_values": [
+    0.04,
+    0.02,
+    0.01
+  ],
+  "reference_tolerance": 1e-11,
+  "finest_error_limit": 1e-07,
+  "parameters": {
+    "gamma": 1,
+    "kappa": 0.5,
+    "lambda": 0.5,
+    "w_Clay_Smoke": 1,
+    "w_Smoke_Clay": 1,
+    "K_Smoke": 1,
+    "K_Clay": 0,
+    "Gamma": 0.4,
+    "g": 0.9,
+    "p0": 0.1,
+    "r_star": 0.5,
+    "eta": 0.8,
+    "beta": 0.5,
+    "alpha": 0.5,
+    "L_star": 1,
+    "s_star": 0.5,
+    "imposed_z": 1,
+    "reference_z": 0
+  },
+  "initial": {
+    "A": 0,
+    "Smoke": 0,
+    "Clay": 0,
+    "L_forward": 0,
+    "L_reverse": 0,
+    "z_Smoke": 0,
+    "z_Clay": 0
+  },
+  "input": {
+    "U_baseline": 0,
+    "excess_on_0_to_2": 1,
+    "excess_after_2": 0
+  },
+  "scenarios": [
+    {
+      "id": "none",
+      "name": "No adverse exposure",
+      "h": 1,
+      "forward_exposure": 0,
+      "reverse_exposure": 0,
+      "windows": [
+        [
+          0,
+          6
+        ]
+      ],
+      "chi_max": 0.75,
+      "theta_max": 0.8,
+      "clear_after": null,
+      "clear_rate": 0,
+      "clarify_after": null,
+      "clarify_rate": 0
+    },
+    {
+      "id": "suppression",
+      "name": "Buildup and suppression only",
+      "h": 1,
+      "forward_exposure": 1,
+      "reverse_exposure": 0,
+      "windows": [
+        [
+          0,
+          6
+        ]
+      ],
+      "chi_max": 0.75,
+      "theta_max": 0,
+      "clear_after": null,
+      "clear_rate": 0,
+      "clarify_after": null,
+      "clarify_rate": 0
+    },
+    {
+      "id": "distortion",
+      "name": "Buildup and distortion only",
+      "h": 1,
+      "forward_exposure": 1,
+      "reverse_exposure": 0,
+      "windows": [
+        [
+          0,
+          6
+        ]
+      ],
+      "chi_max": 0,
+      "theta_max": 0.8,
+      "clear_after": null,
+      "clear_rate": 0,
+      "clarify_after": null,
+      "clarify_rate": 0
+    },
+    {
+      "id": "combined",
+      "name": "Buildup plus suppression and distortion",
+      "h": 1,
+      "forward_exposure": 1,
+      "reverse_exposure": 0,
+      "windows": [
+        [
+          0,
+          6
+        ]
+      ],
+      "chi_max": 0.75,
+      "theta_max": 0.8,
+      "clear_after": null,
+      "clear_rate": 0,
+      "clarify_after": null,
+      "clarify_rate": 0
+    },
+    {
+      "id": "stop3",
+      "name": "Exposure stops at time 3",
+      "h": 1,
+      "forward_exposure": 1,
+      "reverse_exposure": 0,
+      "windows": [
+        [
+          0,
+          3
+        ]
+      ],
+      "chi_max": 0.75,
+      "theta_max": 0.8,
+      "clear_after": null,
+      "clear_rate": 0,
+      "clarify_after": null,
+      "clarify_rate": 0
+    },
+    {
+      "id": "clear_load",
+      "name": "Exposure stops at 6; clear load",
+      "h": 1,
+      "forward_exposure": 1,
+      "reverse_exposure": 0,
+      "windows": [
+        [
+          0,
+          6
+        ]
+      ],
+      "chi_max": 0.75,
+      "theta_max": 0.8,
+      "clear_after": 6,
+      "clear_rate": 1,
+      "clarify_after": null,
+      "clarify_rate": 0
+    },
+    {
+      "id": "clear_and_clarify",
+      "name": "Clear load and clarify meaning after 6",
+      "h": 1,
+      "forward_exposure": 1,
+      "reverse_exposure": 0,
+      "windows": [
+        [
+          0,
+          6
+        ]
+      ],
+      "chi_max": 0.75,
+      "theta_max": 0.8,
+      "clear_after": 6,
+      "clear_rate": 1,
+      "clarify_after": 6,
+      "clarify_rate": 0.75
+    },
+    {
+      "id": "nonadverse",
+      "name": "Same nominal exposure, h=0",
+      "h": 0,
+      "forward_exposure": 1,
+      "reverse_exposure": 0,
+      "windows": [
+        [
+          0,
+          6
+        ]
+      ],
+      "chi_max": 0.75,
+      "theta_max": 0.8,
+      "clear_after": null,
+      "clear_rate": 0,
+      "clarify_after": null,
+      "clarify_rate": 0
+    },
+    {
+      "id": "reverse",
+      "name": "Adverse exposure in reverse direction",
+      "h": 1,
+      "forward_exposure": 0,
+      "reverse_exposure": 1,
+      "windows": [
+        [
+          0,
+          6
+        ]
+      ],
+      "chi_max": 0.75,
+      "theta_max": 0.8,
+      "clear_after": null,
+      "clear_rate": 0,
+      "clarify_after": null,
+      "clarify_rate": 0
+    },
+    {
+      "id": "both",
+      "name": "Adverse exposure in both directions",
+      "h": 1,
+      "forward_exposure": 1,
+      "reverse_exposure": 1,
+      "windows": [
+        [
+          0,
+          6
+        ]
+      ],
+      "chi_max": 0.75,
+      "theta_max": 0.8,
+      "clear_after": null,
+      "clear_rate": 0,
+      "clarify_after": null,
+      "clarify_rate": 0
+    },
+    {
+      "id": "two_pulses",
+      "name": "Two exposure pulses: 0-2 and 4-6",
+      "h": 1,
+      "forward_exposure": 1,
+      "reverse_exposure": 0,
+      "windows": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "chi_max": 0.75,
+      "theta_max": 0.8,
+      "clear_after": null,
+      "clear_rate": 0,
+      "clarify_after": null,
+      "clarify_rate": 0
+    },
+    {
+      "id": "continuous4",
+      "name": "Equal total exposure: 0-4",
+      "h": 1,
+      "forward_exposure": 1,
+      "reverse_exposure": 0,
+      "windows": [
+        [
+          0,
+          4
+        ]
+      ],
+      "chi_max": 0.75,
+      "theta_max": 0.8,
+      "clear_after": null,
+      "clear_rate": 0,
+      "clarify_after": null,
+      "clarify_rate": 0
+    }
+  ],
+  "state_order": [
+    "Smoke",
+    "Clay",
+    "L_forward",
+    "L_reverse",
+    "z_Smoke",
+    "z_Clay"
+  ],
+  "semantic_coordinate": {
+    "z=0": "Giving space permits new information to change what I understand.",
+    "z=1": "Giving space is conditional on confirming my existing interpretation.",
+    "intermediate": "An assumed weight of the imposed qualification in the same idea, not a second idea, person, population fraction or measured psychological percentage."
+  },
+  "readout": {
+    "time": 12,
+    "H_before": [
+      0.8,
+      0.2
+    ],
+    "accurate_message": [
+      0,
+      1
+    ],
+    "misleading_message": [
+      1,
+      0
+    ],
+    "external_reference": [
+      0,
+      1
+    ],
+    "coordinate_meaning": [
+      "unwillingness explanation",
+      "practical constraint explanation"
+    ],
+    "method": "Enumerate B,C branches exactly. No simulated sampled event is presented as an observation. Each scenario is an alternative run of the same agent.",
+    "accurate_challenge_indicator": 1,
+    "misleading_confirmation_indicator": 0
+  },
+  "assumptions": [
+    "A1: Adverse exposure E>=0 and h are independently attributed inputs, not inferred from disagreement or a desired simulation outcome. Unknown values remain unknown.",
+    "A2: L is a new retained adverse-exposure state, distinct from the original signed A. Its accumulation borrows the corpus memory architecture by analogy; no corpus Monoxide law is claimed.",
+    "A3: L has no automatic decay. Explicit c_L represents an assumed clearing intervention. Stopping exposure does not erase earlier load.",
+    "A4: Saturating chi and theta share L but have separate gains; this common cause and its saturation are modeling assumptions.",
+    "A5: z is a declared one-dimensional meaning coordinate for this single idea. The imposed end meaning and distances are analyst choices needing author/person review.",
+    "A6: Meaning moves between the same two inward positions at k, a new availability-dependent rate distinct from the net scalar influence difference. Neither position is another agent.",
+    "A7: Explicit clarification c_z anchors the interpretation to the declared original meaning. Clearing load alone need not undo a meaning already retained.",
+    "A8: v_n identifies whether the incoming contribution challenges the prior interpretation; (1-z*v_n) is a proposed selective-registration rule. It is not a general claim about truth or a complete model of cognition.",
+    "A9: The zero initial load and original meaning are declared synthetic starting conditions, not a substitute for unknown personal history. All time and coefficient scales are illustrative."
+  ],
+  "verification": [
+    "12 scenarios, 3 RK4 step sizes; event-aligned inputs and interventions",
+    "Independent Dormand-Prince reference for 4 S/z states using analytically propagated load; finest error below 1e-7 and refinement checked",
+    "Exact load balance and no-Monoxide S solution; semantic interval invariance and convex received meaning; accurate-challenge and misleading-confirmation branches",
+    "Zero input, nonadverse, suppression-only, distortion-only, pulse timing and separate repair controls",
+    "Prior artifacts preserved and equation changes audited"
+  ],
+  "protected_files": {
+    "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\outputs\\monoxide-corpus-revision\\candidate-equation-register.json": "8dc6b1f6dcedac2fa07ead05e67a8c65731724cbb1cb9c06486b1f542eaad9ff",
+    "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\outputs\\monoxide-corpus-revision\\results.json": "fcdcfd70811bf373dc77ae15f2810f42693d7d20712901933b81f24e8ae927bf",
+    "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\output\\pdf\\monoxide-corpus-revision-and-tests.pdf": "7d5c9f3c848778391c61ea3e7ca23c5c76b89975bd8320afb0f6599a83d61961",
+    "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\output\\pdf\\updated-as-equations-smoke-clay-monoxide.pdf": "c511a8b1f55e2d50127956697d37300658d9c1c479eae9103b5e5e4a7047473c",
+    "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\updated-equations\\equation-register.json": "35329d97021ddac3d625d1039f7c7f5f992ddd8f35d9b91b9ff51c0b945bc89b",
+    "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\outputs\\monoxide-comparison\\results.json": "31c5f490c837650dd5f5e9c58fb22d85ad3003cb630c946fec6480e082b0f3ea",
+    "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\outputs\\monoxide-comparison\\monoxide-comparison-report.pdf": "19853ccfbd2f41ecf1da1dd0da85d3f84daf6a7a365c8e03592955f3fb9c53f8"
+  },
+  "source_snapshots": {
+    "exact-passages.json": "1aa8a00f57b17fd393b66c933736b0267a682c627b94d1d07d2286cc4eebae45",
+    "measurement-record.json": "9a9ef1a1e8d5704cf044423ac5307b1b18e03969ffa68169ed67910b11ca610e",
+    "miro-connections.json": "0965a9ee7b349dcd94f52a1e7b19dba4d4574b8570fd4cf75742d2211d646fc0",
+    "record-tests.json": "49fda68adede193b38019bc96a1ebf787501a9d05632303361b5188ac7f15a04",
+    "roles.json": "af689065970ebc249d232fc3919010f87e43191cd6972ad5fc84151dd1081556",
+    "source-chain.json": "3ed394bb6e95fef6e3952c974730309cbb71fb43f8acdf21508c5a63023cb00f"
+  },
+  "stop_rule": "Finish after the 36 matched trajectories, stated controls, numerical verification and visually reviewed report. No unrelated empirical datasets or physical-fluid solver is rerun."
+}

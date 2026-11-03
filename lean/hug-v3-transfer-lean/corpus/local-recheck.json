@@ -1,0 +1,64 @@
+{
+  "docx_sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+  "hash_matches_prior_extraction": true,
+  "read_only": true,
+  "passages": [
+    {
+      "paragraphs": [
+        23
+      ],
+      "exact_text_match": true,
+      "source_text": "Preserve “preserves Sens while adjusting Sin.” Here, Sens means personal intent or intended meaning, and Sin means socially constrained or encoded expression. Keep the unusual wording and its distinction. It does not need conventional replacement or treatment as a mathematical theorem."
+    },
+    {
+      "paragraphs": [
+        144
+      ],
+      "exact_text_match": true,
+      "source_text": "The modifier matrix represents possible changes across settings, identities, or audiences. These are parameters to estimate from evidence, not inherent properties of a group. F(i,c) is the set of permitted available actions for actor i in context c. Changing the boundary may change F(i,c); it does not necessarily change the margin for every action in the same way."
+    },
+    {
+      "paragraphs": [
+        164
+      ],
+      "exact_text_match": true,
+      "source_text": "• OR-02 - Notice Context Changes: Check whether identity, audience, setting, or group membership changes how the same action is treated."
+    },
+    {
+      "paragraphs": [
+        471
+      ],
+      "exact_text_match": true,
+      "source_text": "Socio-Didact is used here in its revised, limited sense: a person who learns unwritten social rules through observation and experience. The observer may notice which words, styles, or contexts change the response they receive and may adapt when useful. The term does not imply unusual intelligence, covert strategy, or mastery of the group."
+    },
+    {
+      "paragraphs": [
+        495
+      ],
+      "exact_text_match": true,
+      "source_text": "This paper develops a systems model for examining how people, language, and group boundaries interact in digital spaces. It combines group sociology, fluid-flow metaphors, vector calculus, and pragmatic linguistics. The mathematical models are used as structured ways to describe movement, pressure, thresholds, and changes in a social environment; they are not claims that human groups are literally fluids or that social behavior can be measured with perfect precision. The framework tracks how personal intent (Sens) can be reshaped into socially constrained or encoded expression (Sin), how boundaries become visible through differences in treatment, and how an observer can learn those boundaries without needing to become a central or dominant actor. The Socio-Didact is therefore treated as an adaptive observation mode: someone who learns the unwritten rules of a setting, stays relatively unobtrusive when useful, and adjusts enough to reduce unnecessary friction while preserving intended meaning."
+    },
+    {
+      "paragraphs": [
+        606
+      ],
+      "exact_text_match": true,
+      "source_text": "When adaptation retains intended meaning, the phrase “preserves Sens while adjusting Sin” names that distinction: Sens is personal intent or intended meaning; Sin is its socially constrained or encoded expression. Keep the coined wording and explain it alongside the original when needed. The phrase does not imply changing the intent itself, moral wrongdoing, superior ability, manipulation, or guaranteed success in every setting."
+    },
+    {
+      "paragraphs": [
+        607
+      ],
+      "exact_text_match": true,
+      "source_text": "A Socio-Didact may be quiet, peripheral, or easy to overlook. The useful skill is not control over the group; it is familiarity with the setting. Over time, the observer may learn which behaviors attract attention, which cues signal belonging, where friction tends to appear, and when it is easier to stay unobtrusive. The term describes adaptation to a social environment, not mastery over it."
+    },
+    {
+      "paragraphs": [
+        609
+      ],
+      "exact_text_match": true,
+      "source_text": "• OR-02 [Notice Context Changes]: Check whether identity, audience, setting, or group membership changes how an action is interpreted."
+    }
+  ],
+  "remote_sources": "Historical saved records; no fresh remote search in this test."
+}

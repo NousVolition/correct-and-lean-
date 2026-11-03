@@ -1,0 +1,51 @@
+Running as unit: hug-v3-events-comparator-20261101.service; invocation ID: ba2833bb5e534b06b4d4812df7dc1879
+Building V3EventChallenge
+✔ [3047/3049] Built V3EventSpecification (9.0s)
+⚠ [3048/3049] Built V3EventChallenge (1.4s)
+warning: V3EventChallenge.lean:7:8: declaration uses `sorry`
+warning: V3EventChallenge.lean:10:8: declaration uses `sorry`
+warning: V3EventChallenge.lean:12:8: declaration uses `sorry`
+warning: V3EventChallenge.lean:15:8: declaration uses `sorry`
+warning: V3EventChallenge.lean:18:8: declaration uses `sorry`
+warning: V3EventChallenge.lean:21:8: declaration uses `sorry`
+Build completed successfully (3049 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3Event.Verified.probe_recovers_rest_strain, HugV3Event.Verified.header_first_bit_is_one, HugV3Event.Verified.valid_empty_coordinate_changes, HugV3Event.Verified.event_prevents_continuity, HugV3Event.Verified.event_prevents_derivative, HugV3Event.Verified.full_state_prevents_continuity, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3EventChallenge
+Building V3EventProofs
+⚠ [3048/3049] Built V3EventProofs (1.8s)
+warning: V3EventProofs.lean:11:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3EventProofs.lean:20:39: `if_true` has been deprecated: Use `ite_true` instead
+warning: V3EventProofs.lean:20:25: This simp argument is unused:
+  Bool.true_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [writtenBit, if_true, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3EventProofs.lean:30:39: `if_true` has been deprecated: Use `ite_true` instead
+warning: V3EventProofs.lean:30:25: This simp argument is unused:
+  Bool.true_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [writtenBit, if_true, mul_one] at hvalue
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: V3EventProofs.lean:46:0: 'HugV3Event.Verified.probe_recovers_rest_strain' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: V3EventProofs.lean:47:0: 'HugV3Event.Verified.header_first_bit_is_one' depends on axioms: [propext]
+info: V3EventProofs.lean:48:0: 'HugV3Event.Verified.valid_empty_coordinate_changes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: V3EventProofs.lean:49:0: 'HugV3Event.Verified.event_prevents_continuity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: V3EventProofs.lean:50:0: 'HugV3Event.Verified.event_prevents_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: V3EventProofs.lean:51:0: 'HugV3Event.Verified.full_state_prevents_continuity' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3049 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3Event.Verified.probe_recovers_rest_strain, HugV3Event.Verified.header_first_bit_is_one, HugV3Event.Verified.valid_empty_coordinate_changes, HugV3Event.Verified.event_prevents_continuity, HugV3Event.Verified.event_prevents_derivative, HugV3Event.Verified.full_state_prevents_continuity, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3EventProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 37.112s
+             CPU time consumed: 31.353s
+                   Memory peak: 4.7G (swap: 0B)

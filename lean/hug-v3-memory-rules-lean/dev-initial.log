@@ -1,0 +1,47 @@
+✔ [3106/3118] Built V3SourceCore (9.2s)
+✔ [3107/3118] Built V3SourceMemory (1.5s)
+✔ [3108/3118] Built V3SourceSocial (1.5s)
+✔ [3109/3118] Built V3SourceFlow (1.4s)
+✔ [3110/3118] Built V3SourceGeometry (7.2s)
+✔ [3111/3118] Built V3SourceSystem (1.3s)
+✔ [3112/3118] Built V3DelayDefinitions (1.1s)
+✔ [3113/3118] Built V3MemoryRulesDefinitions (1.2s)
+⚠ [3114/3118] Built V3DelayProofs (1.3s)
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3115/3118] Built V3MemoryRulesChallenge (1.3s)
+warning: V3MemoryRulesChallenge.lean:9:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:12:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:17:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:20:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:24:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:28:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:33:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:38:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:42:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:46:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:54:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:62:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:67:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:70:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:76:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:79:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:82:8: declaration uses `sorry`
+✖ [3117/3118] Building V3MemoryRulesProofs (11s)
+trace: .> LEAN_PATH=/home/nsverify/verification/project/.lake/packages/Cli/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/batteries/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Qq/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/aesop/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/importGraph/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/plausible/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/mathlib/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/lib/lean:/home/nsverify/verification/hug-v3-memory-rules-dev-20261102/.lake/build/lib/lean /opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean /home/nsverify/verification/hug-v3-memory-rules-dev-20261102/V3MemoryRulesProofs.lean -o /home/nsverify/verification/hug-v3-memory-rules-dev-20261102/.lake/build/lib/lean/V3MemoryRulesProofs.olean -i /home/nsverify/verification/hug-v3-memory-rules-dev-20261102/.lake/build/lib/lean/V3MemoryRulesProofs.ilean -c /home/nsverify/verification/hug-v3-memory-rules-dev-20261102/.lake/build/ir/V3MemoryRulesProofs.c --setup /home/nsverify/verification/hug-v3-memory-rules-dev-20261102/.lake/build/ir/V3MemoryRulesProofs.setup.json --json
+warning: V3MemoryRulesProofs.lean:33:10: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+error: V3MemoryRulesProofs.lean:110:9: (deterministic) timeout at `isDefEq`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+Some required targets logged failures:
+- V3MemoryRulesProofs
+error: build failed

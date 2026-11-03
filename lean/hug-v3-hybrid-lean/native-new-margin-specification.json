@@ -1,0 +1,12 @@
+[
+  {
+    "module": "V3HybridSpecification",
+    "exit_code": 0,
+    "seconds": 19.453000000008615
+  },
+  {
+    "module": "HybridChallenge",
+    "exit_code": 0,
+    "seconds": 19.73399999999674
+  }
+]

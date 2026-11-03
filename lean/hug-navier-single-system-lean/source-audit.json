@@ -1,0 +1,48 @@
+{
+  "scope": "Read-only comparison with already recovered pinned corpus files; no new full-corpus or remote freshness claim.",
+  "inherited_recovery": "hug-navier-full-audit-lean/source-audit.json",
+  "heads": [
+    {
+      "branch": "main",
+      "commit": "b4ae2c54cd85bfef282c501ecfca83de274e2070",
+      "tree": "7bd433d4314df01a211523382aa58947a950b2ce",
+      "url": "https://github.com/NousVolition/Nous-Volition/commit/b4ae2c54cd85bfef282c501ecfca83de274e2070"
+    },
+    {
+      "branch": "main",
+      "commit": "7fbc7f28f685c86f824d7587aff91feedf20d3da",
+      "tree": "51107209f1103592661c4043aab244f3a38a2d64",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/commit/7fbc7f28f685c86f824d7587aff91feedf20d3da"
+    }
+  ],
+  "user_interpretation": "HugandNavier is one shared continuum with relationships inside the flow.",
+  "selected_equations": "Full six-field directional closure in sources/ns_fields_methods.md; this source calls its law provisional.",
+  "earlier_branch": "Full corrected-corpus A/S-Navier differential equations are separately represented in arbitrary dimension; not silently merged with the guard closure.",
+  "original_inputs_preserved": true,
+  "files": {
+    "interaction.md": {
+      "sha256": "aa9af72b9762ff70204131bc160aec712e4071ec17e6a4f3ac832e2e7a4a5808",
+      "identical_to_previous_source": true
+    },
+    "ns_fields_methods.md": {
+      "sha256": "b4a844c9488972267f2dde4ad030b658459063b594743a1de3dc66a77a8c484f",
+      "identical_to_previous_source": true
+    },
+    "ns_fields_model.py": {
+      "sha256": "60948e928f31d57e8384f2f7ccd68d4ab9664d6aee3398f82407324bb0f42e30",
+      "identical_to_previous_source": true
+    },
+    "ns_protocol.json": {
+      "sha256": "ba767c26ec3324f0441e158475910e12b9d225ab1f99859b534f51c280a3ebae",
+      "identical_to_previous_source": true
+    },
+    "original-corpus-passages.json": {
+      "sha256": "5945c73a3a47d787db4b45640675555c08a23b0daa863ce863c92a8e1fb723fa",
+      "identical_to_previous_source": true
+    },
+    "original-source-manifest.json": {
+      "sha256": "5bb99f1ef240578bf0d5372a78f23f4a6a3f9f6d1257fffa8d54fad6627f8370",
+      "identical_to_previous_source": true
+    }
+  }
+}

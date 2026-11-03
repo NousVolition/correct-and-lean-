@@ -1,0 +1,77 @@
+Running as unit: as-existence-comparator-20261029.service; invocation ID: bf0877ff740248e8a57af75ef1ddfe27
+Building ASExistenceChallenge
+✔ [2666/2669] Built ASModel (8.8s)
+✔ [2667/2669] Built ASOpenClaims (1.3s)
+⚠ [2668/2669] Built ASExistenceChallenge (1.2s)
+warning: ASExistenceChallenge.lean:6:8: declaration uses `sorry`
+Build completed successfully (2669 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SocialAS.Verified.full_existence_uniqueness, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from ASExistenceChallenge
+Building ASExistenceSolution
+ℹ [3416/3427] Built ASProofs (1.9s)
+info: ASProofs.lean:221:0: 'SocialAS.Verified.saturation_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:222:0: 'SocialAS.Verified.effect_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:223:0: 'SocialAS.Verified.exchange_no_increase' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:224:0: 'SocialAS.Verified.exchange_negative_unchanged' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:225:0: 'SocialAS.Verified.exchange_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:226:0: 'SocialAS.Verified.general_smoke_agrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:227:0: 'SocialAS.Verified.general_clay_agrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:228:0: 'SocialAS.Verified.total_influence_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:229:0: 'SocialAS.Verified.received_meaning_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:230:0: 'SocialAS.Verified.meaning_rate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:231:0: 'SocialAS.Verified.meaning_lower_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:232:0: 'SocialAS.Verified.meaning_upper_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:233:0: 'SocialAS.Verified.load_lower_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:234:0: 'SocialAS.Verified.activation_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:235:0: 'SocialAS.Verified.opening_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:236:0: 'SocialAS.Verified.registration_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:237:0: 'SocialAS.Verified.no_opening_no_registration' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:238:0: 'SocialAS.Verified.fully_qualified_blocks_challenge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:239:0: 'SocialAS.Verified.confirmation_unchanged' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:240:0: 'SocialAS.Verified.branch_distribution' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:241:0: 'SocialAS.Verified.update_no_contribution' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:242:0: 'SocialAS.Verified.update_same_meaning' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:243:0: 'SocialAS.Verified.update_is_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:244:0: 'SocialAS.Verified.update_preserves_simplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:245:0: 'SocialAS.Verified.constant_accumulation_solves' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:246:0: 'SocialAS.Verified.constant_exposure_solves' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:247:0: 'SocialAS.Verified.constant_exposure_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:248:0: 'SocialAS.Verified.clearing_solves' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:249:0: 'SocialAS.Verified.clearing_preserves_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:250:0: 'SocialAS.Verified.cleared_equal_meaning_has_zero_drift' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3417/3427] Built InputRegularity (3.1s)
+⚠ [3418/3427] Built Volterra (3.6s)
+warning: Volterra.lean:18:0: automatically included section variable(s) unused in theorem `Volterra.extend_continuous`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Volterra.lean:21:8: automatically included section variable(s) unused in theorem `Volterra.extend_val`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3419/3427] Built IntegralBarrier (1.6s)
+✔ [3420/3427] Built PairTools (1.8s)
+✔ [3421/3427] Built ScalarSubsystems (1.8s)
+✔ [3422/3427] Built InfluenceSubsystem (2.0s)
+✔ [3423/3427] Built MeaningSubsystem (2.4s)
+✔ [3424/3427] Built Stages (1.8s)
+✔ [3425/3427] Built FullAssembly (2.0s)
+ℹ [3426/3427] Built ASExistenceSolution (1.4s)
+info: ASExistenceSolution.lean:15:0: 'SocialAS.Verified.full_existence_uniqueness' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3427 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SocialAS.Verified.full_existence_uniqueness, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from ASExistenceSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 46.800s
+             CPU time consumed: 1min 54.184s
+                   Memory peak: 5.9G (swap: 0B)

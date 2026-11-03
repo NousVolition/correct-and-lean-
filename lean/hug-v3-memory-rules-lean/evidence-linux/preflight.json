@@ -1,0 +1,117 @@
+{
+  "uid": 1000,
+  "solution_precompiled": false,
+  "source_files": {
+    "comparator.json": "6d599b1daa189feab4fcbff4e18a26740b1ec1c00c66a9148fd48533f786a0fb",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "87be17cccf3f315e6f55c02777b48127a6c2b5c4310b75230ee16b617cbcbb08",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "run-linux-check.sh": "fdcca66115388bb1068a31867b8e94ceb3442f157a0f492cc50bbcc8564b782a",
+    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+    "V3DelayProofs.lean": "a21e672f3309abee5e49b1767d475483591076a681c38229461cbf30e0247fdc",
+    "V3MemoryRulesChallenge.lean": "05f3ff9cbc3ab4889949988c8cd155789f36d403d823993f935c34829747ae4d",
+    "V3MemoryRulesDefinitions.lean": "6849f65909065ca3929e15ed08947cc9859e2adc82c513a8544a9065ba321dec",
+    "V3MemoryRulesProofs.lean": "c42d82f6a82d8e2ad68d7b3b09e6e06c81d48c0872c4a0827eb900b980acfd04",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
+  },
+  "dependencies": [
+    {
+      "name": "Comparator",
+      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "clean": true
+    },
+    {
+      "name": "mathlib",
+      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "clean": true
+    },
+    {
+      "name": "lean4export",
+      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "clean": true
+    },
+    {
+      "name": "plausible",
+      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "clean": true
+    },
+    {
+      "name": "importGraph",
+      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+      "clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "clean": true
+    },
+    {
+      "name": "aesop",
+      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "clean": true
+    },
+    {
+      "name": "Qq",
+      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "clean": true
+    },
+    {
+      "name": "batteries",
+      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+      "clean": true
+    },
+    {
+      "name": "Cli",
+      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "clean": true
+    }
+  ],
+  "binaries": {
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/nsverify/verification/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
+    "/home/nsverify/verification/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
+    "/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
+    "/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
+    "/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+  },
+  "config": {
+    "enable_nanoda": true,
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "challenge_module": "V3MemoryRulesChallenge",
+    "theorem_names": [
+      "HugV3.Source.MemoryRulesVerified.report_without_observation",
+      "HugV3.Source.MemoryRulesVerified.both_missing_ignored",
+      "HugV3.Source.MemoryRulesVerified.opposing_reports_zero",
+      "HugV3.Source.MemoryRulesVerified.different_reports_same_score",
+      "HugV3.Source.MemoryRulesVerified.time_translation_weight",
+      "HugV3.Source.MemoryRulesVerified.closer_cue_increases_weight",
+      "HugV3.Source.MemoryRulesVerified.association_changes_cue",
+      "HugV3.Source.MemoryRulesVerified.changed_context_and_association_keep_record_bytes",
+      "HugV3.Source.MemoryRulesVerified.exposure_adds_across_records",
+      "HugV3.Source.MemoryRulesVerified.weighted_memory_merge",
+      "HugV3.Source.MemoryRulesVerified.opposite_events_both_influence",
+      "HugV3.Source.MemoryRulesVerified.source_partner_remains_identified",
+      "HugV3.Source.MemoryRulesVerified.self_record_rejected",
+      "HugV3.Source.MemoryRulesVerified.buffered_cue_mixes_current_body_past_context",
+      "HugV3.Source.MemoryRulesVerified.buffered_records_current",
+      "HugV3.Source.MemoryRulesVerified.zero_delay_unchanged",
+      "HugV3.Source.MemoryRulesVerified.only_selected_history_samples"
+    ],
+    "solution_module": "V3MemoryRulesProofs"
+  },
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)"
+}

@@ -1,0 +1,173 @@
+{
+  "checked_at_utc": "2026-11-02T05:19:04.189915+00:00",
+  "scope": "Static source/rational checks; no time integration, no new model, no Lean run",
+  "full_continuation_proved": false,
+  "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-transfer-lean\\sources",
+  "source_files": 21,
+  "source_hashes_before": {
+    "continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+    "social_base.py": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+    "structural_hug.py": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+    "run.py": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+    "test_structure.py": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36",
+    "preflight.py": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+    "reference_gate/run_manifest.py": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
+    "reference_gate/parameter_bounds.json": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
+    "equation_register.csv": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc",
+    "study_chain.csv": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c",
+    "parameter_bounds.json": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0",
+    "protocol.json": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77",
+    "rule_changes.json": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917",
+    "literal_registry.json": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273",
+    "declarations/main.json": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+    "declarations/time_half.json": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
+    "declarations/grid24.json": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c",
+    "declarations/particles640.json": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793",
+    "declarations/no_read_feedback.json": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a",
+    "declarations/slow_fabric.json": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956",
+    "declarations/unit.json": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe"
+  },
+  "source_hashes_after": {
+    "continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+    "social_base.py": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+    "structural_hug.py": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+    "run.py": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+    "test_structure.py": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36",
+    "preflight.py": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+    "reference_gate/run_manifest.py": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
+    "reference_gate/parameter_bounds.json": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
+    "equation_register.csv": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc",
+    "study_chain.csv": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c",
+    "parameter_bounds.json": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0",
+    "protocol.json": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77",
+    "rule_changes.json": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917",
+    "literal_registry.json": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273",
+    "declarations/main.json": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+    "declarations/time_half.json": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
+    "declarations/grid24.json": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c",
+    "declarations/particles640.json": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793",
+    "declarations/no_read_feedback.json": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a",
+    "declarations/slow_fabric.json": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956",
+    "declarations/unit.json": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe"
+  },
+  "all_source_hashes_match_seal": true,
+  "reference_proof": {
+    "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-corrected\\revision-2\\proof.md",
+    "sha256": "83bffb6e7233509f030e4929696c0147ad4b032cf07831317dd9b830cf450491"
+  },
+  "config_unchanged": true,
+  "schedule_unchanged": true,
+  "schedule": [
+    {
+      "event_id": 0,
+      "origin": 0,
+      "recipient": 1,
+      "start": 0.0,
+      "end": 0.4,
+      "observed": 0.6,
+      "recipient_report": 0.5
+    },
+    {
+      "event_id": 1,
+      "origin": 2,
+      "recipient": 1,
+      "start": 0.2,
+      "end": 0.8,
+      "observed": -0.5,
+      "recipient_report": -0.7
+    },
+    {
+      "event_id": 2,
+      "origin": 1,
+      "recipient": 0,
+      "start": 0.8,
+      "end": 1.2,
+      "observed": null,
+      "recipient_report": 0.2
+    }
+  ],
+  "capacity": 4,
+  "fabric_exact_algebra": {
+    "linear": "31/125",
+    "cubic": "625",
+    "positive_006_boundary_min_rate": "353/1000000",
+    "negative_006_boundary_max_rate_if_column_squared_le_2": "-353/1000000",
+    "sufficient_integrated_positive_strain_bound_through_1p6": "871/125",
+    "bound_discharged_for_main_trajectory": false
+  },
+  "consequences_if_all_column_squared_lengths_le_2": {
+    "hypothesis_discharged_for_main_trajectory": false,
+    "fabric_absolute_upper_bound": "1/40",
+    "upper_boundary_max_rate": "-821/320000",
+    "lower_boundary_min_rate": "821/320000",
+    "absolute_delta_E_component_bound": 2,
+    "positive_coefficient_density_bounds": [
+      "65349/3200000",
+      "922671/32000000",
+      "729/25600",
+      "6561/512000"
+    ],
+    "total_fabric_mass_upper_bound": "39083/1312500",
+    "required_budget_upper_bound": 0.0026962370666785713,
+    "required_budget_upper_bound_exact": "75494637867/28000000000000",
+    "declared_budget": 0.02,
+    "nonnegative_work_does_not_follow": true
+  },
+  "static_energy_and_transport_crosscheck": {
+    "trajectory_or_timestep_executed": false,
+    "mechanical_identity_residual": 2.710505431213761e-20,
+    "context_transport_identity_residual": 0.0,
+    "directional_storage_power": 2.784855301300257e-06,
+    "directional_power_upper_bound": 0.00014672490597537088,
+    "max_absolute_trace_interpolated_velocity_gradient": 0.0,
+    "scope": "One nontrivial static RHS evaluation supports identities; not a universal proof"
+  },
+  "static_write_counterexample": {
+    "reachable_from_main_initial_state": "NOT ESTABLISHED; no trajectory claim",
+    "F": "identity",
+    "all_b": "-1/100",
+    "decoded_before": [],
+    "event_id": 0,
+    "payload_parses": true,
+    "ones_count": 64,
+    "bits_per_slot": 37264,
+    "weighted_one_fraction": 0.0017089365632647082,
+    "required_fraction_for_nonnegative_work": 0.012625,
+    "per_zero_bit_work_density": "-101/4000000",
+    "per_one_bit_work_density": "7899/4000000",
+    "exact_work_for_fixed_binary_quadrature_weights": "-1571225187301326740583041/9671406556917033397649408000000",
+    "exact_work_decimal": -1.6246087661133215e-07,
+    "source_arithmetic_work": -1.6246087661133554e-07,
+    "source_required_budget": 1.1499968273310199e-06,
+    "declared_budget": 0.02,
+    "work_polynomial_coefficients": [
+      0.0,
+      -8.561000346467991e-07,
+      -4.5635766929555643e-07,
+      8.8566203494441e-07,
+      2.643347923866098e-07
+    ],
+    "source_rejection": "insufficient writing work budget or undeclared recovery path",
+    "conclusion": "Read validity and bounded deformation do not alone imply write acceptance"
+  },
+  "coarse_bound_attempt": {
+    "scope": "Before first write at 0.4; deliberately conservative analytic bound conditional only on remaining in read domain",
+    "horizon": 0.4,
+    "expression_norm_bound": 3.694313269530714,
+    "A_bound": 0.16607527461115976,
+    "C_h_norm_bound": 4.25152703004569,
+    "sqrt_two_mechanical_energy_bound": 7.541283593349324,
+    "minimum_particle_volume": 3.158000872045711e-07,
+    "column_square_bound": 2251066442.639686,
+    "positive_strain_integral_bound": 450213288.32793725,
+    "does_not_close_memory_clearance": true
+  },
+  "checked_claims_not_certified": [
+    "Exact main trajectory stays strictly above decoder margin",
+    "Exact main material-change payload fits encoding range",
+    "Exact main write work is nonnegative and required budget <= 0.02",
+    "Source polynomial-root diagnostic succeeds on every actual write",
+    "Full exact-real trajectory existence through 1.6",
+    "Numerical approximation error and floating-point correctness"
+  ]
+}

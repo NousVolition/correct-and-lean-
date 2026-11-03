@@ -1,0 +1,32 @@
+{
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "challenge_module": "V3YangMillsAuditChallenge",
+  "theorem_names": [
+    "HugV3.Source.YMAuditVerified.green_objective",
+    "HugV3.Source.YMAuditVerified.strain_norm_objective",
+    "HugV3.Source.YMAuditVerified.fiber_strain_objective",
+    "HugV3.Source.YMAuditVerified.fabric_strain_objective",
+    "HugV3.Source.YMAuditVerified.decoded_records_frame_invariant",
+    "HugV3.Source.YMAuditVerified.observations_frame_invariant",
+    "HugV3.Source.YMAuditVerified.retrieval_frame_invariant",
+    "HugV3.Source.YMAuditVerified.social_rates_frame_invariant",
+    "HugV3.Source.YMAuditVerified.accepted_rhs_social_frame_invariant",
+    "HugV3.Source.YMAuditVerified.event_record_frame_invariant",
+    "HugV3.Source.YMAuditVerified.write_account_frame_invariant",
+    "HugV3.Source.YMAuditVerified.memory_write_frame_equivariant",
+    "HugV3.Source.YMAuditVerified.retrieval_ignores_list_order",
+    "HugV3.Source.YMAuditVerified.full_rate_ignores_list_order",
+    "HugV3.Source.YMAuditVerified.actual_deformation_component",
+    "HugV3.Source.YMAuditVerified.deformation_product_rule",
+    "HugV3.Source.YMAuditVerified.actual_full_rhs_frame_defect",
+    "HugV3.Source.YMAuditVerified.quarter_turn_is_orthogonal",
+    "HugV3.Source.YMAuditVerified.explicit_nonzero_frame_defect",
+    "HugV3.Source.YMAuditVerified.naive_rotation_covariance_fails"
+  ],
+  "solution_module": "V3YangMillsAuditProofs"
+}

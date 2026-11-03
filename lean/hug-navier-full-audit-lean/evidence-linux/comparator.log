@@ -1,0 +1,42 @@
+Running as unit: hug-navier-full-audit-comparator-20261031.service; invocation ID: 108eec55661a4ad0aaa0e796875da699
+Building AuditChallenge
+✔ [3416/3420] Built HugModel (9.7s)
+✔ [3417/3420] Built ActiveHugModel (2.3s)
+✔ [3418/3420] Built FullEquationSpecification (1.7s)
+⚠ [3419/3420] Built AuditChallenge (1.5s)
+warning: AuditChallenge.lean:5:8: declaration uses `sorry`
+warning: AuditChallenge.lean:8:8: declaration uses `sorry`
+warning: AuditChallenge.lean:12:8: declaration uses `sorry`
+warning: AuditChallenge.lean:15:8: declaration uses `sorry`
+warning: AuditChallenge.lean:20:8: declaration uses `sorry`
+warning: AuditChallenge.lean:23:8: declaration uses `sorry`
+warning: AuditChallenge.lean:27:8: declaration uses `sorry`
+Build completed successfully (3420 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugNavierFullAudit.Verified.acceleration_force_difference, HugNavierFullAudit.Verified.force_recovered_from_acceleration, HugNavierFullAudit.Verified.same_acceleration_iff_same_force, HugNavierFullAudit.Verified.same_motion_requires_same_force, HugNavierFullAudit.Verified.energy_input_difference, HugNavierFullAudit.Verified.zero_speed_energy_not_force, HugNavierFullAudit.Verified.nonuniform_initial_requires_spatial_map, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from AuditChallenge
+Building AuditSolution
+ℹ [3419/3420] Built AuditSolution (1.9s)
+info: AuditSolution.lean:59:0: 'HugNavierFullAudit.Verified.acceleration_force_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditSolution.lean:60:0: 'HugNavierFullAudit.Verified.force_recovered_from_acceleration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AuditSolution.lean:61:0: 'HugNavierFullAudit.Verified.same_acceleration_iff_same_force' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AuditSolution.lean:62:0: 'HugNavierFullAudit.Verified.same_motion_requires_same_force' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditSolution.lean:63:0: 'HugNavierFullAudit.Verified.energy_input_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditSolution.lean:64:0: 'HugNavierFullAudit.Verified.zero_speed_energy_not_force' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditSolution.lean:65:0: 'HugNavierFullAudit.Verified.nonuniform_initial_requires_spatial_map' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (3420 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugNavierFullAudit.Verified.acceleration_force_difference, HugNavierFullAudit.Verified.force_recovered_from_acceleration, HugNavierFullAudit.Verified.same_acceleration_iff_same_force, HugNavierFullAudit.Verified.same_motion_requires_same_force, HugNavierFullAudit.Verified.energy_input_difference, HugNavierFullAudit.Verified.zero_speed_energy_not_force, HugNavierFullAudit.Verified.nonuniform_initial_requires_spatial_map, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from AuditSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 44.111s
+             CPU time consumed: 38.115s
+                   Memory peak: 5G (swap: 0B)

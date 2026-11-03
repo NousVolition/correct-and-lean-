@@ -1,0 +1,29 @@
+{
+  "gate": "accepted main",
+  "main_manifest_sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+  "geometry_file_sha256": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+  "array_shapes": {
+    "sourceX0": [
+      384,
+      3
+    ],
+    "sourceV": [
+      384
+    ],
+    "sourceDirections": [
+      24,
+      3
+    ],
+    "sourceDirectionWeights": [
+      24
+    ]
+  },
+  "attach_shape": [
+    6,
+    384
+  ],
+  "minimum_volume": 3.158000872045711e-07,
+  "minimum_direction_weight": 0.20833333333333337,
+  "representation": "Exact rational values of exported binary64 static geometry; arithmetic in model definitions is real arithmetic and printed decimal coefficients are exact rationals.",
+  "scope": "No fluid simulation. Constructor export is checked by shape/value extraction, not a formal compiler-correctness theorem."
+}

@@ -1,0 +1,287 @@
+{
+  "checked_utc": "2026-11-03T05:04:11.2734185Z",
+  "read_only": true,
+  "preserved_inputs": [
+    {
+      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-memory-rules-lean\\V3SourceCore.lean",
+      "sha256": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-yang-mills-audit-lean\\V3SourceCore.lean",
+      "unchanged": true,
+      "file": "V3SourceCore.lean"
+    },
+    {
+      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-memory-rules-lean\\V3SourceGeometry.lean",
+      "sha256": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-yang-mills-audit-lean\\V3SourceGeometry.lean",
+      "unchanged": true,
+      "file": "V3SourceGeometry.lean"
+    },
+    {
+      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-memory-rules-lean\\V3SourceMemory.lean",
+      "sha256": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-yang-mills-audit-lean\\V3SourceMemory.lean",
+      "unchanged": true,
+      "file": "V3SourceMemory.lean"
+    },
+    {
+      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-memory-rules-lean\\V3SourceSocial.lean",
+      "sha256": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-yang-mills-audit-lean\\V3SourceSocial.lean",
+      "unchanged": true,
+      "file": "V3SourceSocial.lean"
+    },
+    {
+      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-memory-rules-lean\\V3SourceFlow.lean",
+      "sha256": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-yang-mills-audit-lean\\V3SourceFlow.lean",
+      "unchanged": true,
+      "file": "V3SourceFlow.lean"
+    },
+    {
+      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-memory-rules-lean\\V3SourceSystem.lean",
+      "sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-yang-mills-audit-lean\\V3SourceSystem.lean",
+      "unchanged": true,
+      "file": "V3SourceSystem.lean"
+    },
+    {
+      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-memory-rules-lean\\V3DelayDefinitions.lean",
+      "sha256": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-yang-mills-audit-lean\\V3DelayDefinitions.lean",
+      "unchanged": true,
+      "file": "V3DelayDefinitions.lean"
+    },
+    {
+      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-memory-rules-lean\\lake-manifest.json",
+      "sha256": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-yang-mills-audit-lean\\lake-manifest.json",
+      "unchanged": true,
+      "file": "lake-manifest.json"
+    },
+    {
+      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-memory-rules-lean\\lean-toolchain",
+      "sha256": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-yang-mills-audit-lean\\lean-toolchain",
+      "unchanged": true,
+      "file": "lean-toolchain"
+    }
+  ],
+  "sealed_source_copies": [
+    {
+      "sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\continuum.py",
+      "unchanged": true
+    },
+    {
+      "sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\social_base.py",
+      "unchanged": true
+    },
+    {
+      "sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\structural_hug.py",
+      "unchanged": true
+    },
+    {
+      "sha256": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\run.py",
+      "unchanged": true
+    },
+    {
+      "sha256": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\test_structure.py",
+      "unchanged": true
+    },
+    {
+      "sha256": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\preflight.py",
+      "unchanged": true
+    },
+    {
+      "sha256": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\reference_gate\\run_manifest.py",
+      "unchanged": true
+    },
+    {
+      "sha256": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\reference_gate\\parameter_bounds.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\equation_register.csv",
+      "unchanged": true
+    },
+    {
+      "sha256": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\study_chain.csv",
+      "unchanged": true
+    },
+    {
+      "sha256": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\parameter_bounds.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\protocol.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\rule_changes.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\literal_registry.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\declarations\\main.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\declarations\\time_half.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\declarations\\grid24.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\declarations\\particles640.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\declarations\\no_read_feedback.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\declarations\\slow_fabric.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\declarations\\unit.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\continuum.py",
+      "unchanged": true
+    },
+    {
+      "sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\social_base.py",
+      "unchanged": true
+    },
+    {
+      "sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\structural_hug.py",
+      "unchanged": true
+    },
+    {
+      "sha256": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\run.py",
+      "unchanged": true
+    },
+    {
+      "sha256": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\test_structure.py",
+      "unchanged": true
+    },
+    {
+      "sha256": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\preflight.py",
+      "unchanged": true
+    },
+    {
+      "sha256": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\reference_gate\\run_manifest.py",
+      "unchanged": true
+    },
+    {
+      "sha256": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\reference_gate\\parameter_bounds.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\equation_register.csv",
+      "unchanged": true
+    },
+    {
+      "sha256": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\study_chain.csv",
+      "unchanged": true
+    },
+    {
+      "sha256": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\parameter_bounds.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\protocol.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\rule_changes.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\literal_registry.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\declarations\\main.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\declarations\\time_half.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\declarations\\grid24.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\declarations\\particles640.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\declarations\\no_read_feedback.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\declarations\\slow_fabric.json",
+      "unchanged": true
+    },
+    {
+      "sha256": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe",
+      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\declarations\\unit.json",
+      "unchanged": true
+    }
+  ],
+  "corpus": {
+    "sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+    "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-05\\ca\\outputs\\sims-framework-correction-20261022\\sources\\corrected-corpus.docx",
+    "unchanged": true
+  },
+  "all_unchanged": true
+}

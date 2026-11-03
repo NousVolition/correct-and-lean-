@@ -1,0 +1,138 @@
+[
+  {
+    "id": "P01",
+    "text": "\n\\mathcal S=\\mathbb R^D,\\qquad\nD=5n^3+12P+2KP+149056+6+6N+14N^2=193122.\n"
+  },
+  {
+    "id": "P02",
+    "text": "\n\\dot s=f(t,s),\n"
+  },
+  {
+    "id": "P03",
+    "text": "\n(t_0,t_1,t_2,t_3,t_4,t_5)=(0,0.2,0.4,0.8,1.2,1.6).\n"
+  },
+  {
+    "id": "P04",
+    "text": "\n\\begin{aligned}\n\\Omega_*:=\\{s\\in\\mathcal S:\\;&\\|F_pa_k\\|_2>0\\quad\\text{for every }p,k,\\\\\n&|b_l|>m_{\\rm read}\\quad\\text{for every }l,\\\\\n&\\text{the sign pattern of }b\\text{ is admissible for the continuous RHS}\\}.\n\\end{aligned}\n"
+  },
+  {
+    "id": "P05",
+    "text": "\n\\widehat b_l\n=\\frac12\\sum_{\\pm}\\left(l_{\\pm}-\\frac{k_{\\rm micro}(l_{\\pm}-b_l)}{k_{\\rm micro}}\\right)\n=b_l.\n"
+  },
+  {
+    "id": "P06",
+    "text": "\n\\rho_b=\\min_l|b_l^0|-m_{\\rm read},\\qquad\n\\rho_F=\\min_{p,k}\\|F_p^0a_k\\|_2,\n\\qquad r=\\tfrac14\\min\\{1,\\rho_b,\\rho_F\\}>0.\n"
+  },
+  {
+    "id": "P07",
+    "text": "\n|b_l|\\ge m_{\\rm read}+\\rho_b/2,\\qquad\n\\|F_pa_k\\|_2\\ge\\rho_F/2.\n"
+  },
+  {
+    "id": "P08",
+    "text": "\n\\|\\nabla_{\\rm spec}\\|_{\\rm op}\\le\\pi\\sqrt3\\,n,\n\\qquad\n\\|\\nabla_{\\rm cd}\\|_{\\rm op}\\le\\sqrt3\\,n.\n"
+  },
+  {
+    "id": "P09",
+    "text": "\n\\begin{aligned}\n\\|T(C,u)-T(\\widetilde C,\\widetilde u)\\|_2\n&\\le12n^2D_{\\rm diff}\\|C-\\widetilde C\\|_2\\\\\n&\\quad+6n\\bigl(\\|u\\|_2\\|C-\\widetilde C\\|_2\n+\\|\\widetilde C\\|_2\\|u-\\widetilde u\\|_2\\bigr).\n\\end{aligned}\n"
+  },
+  {
+    "id": "P10",
+    "text": "\n\\psi(\\delta)=\\sum_{\\sigma\\in\\{-1,0,1\\}}\ne^{-(\\delta+\\sigma)^2/(2w^2)},\\qquad\n\\widetilde\\psi(z)=\\psi\\bigl(((z+1/2)\\bmod1)-1/2\\bigr).\n"
+  },
+  {
+    "id": "P11",
+    "text": "\n\\psi(1/2)=\\psi(-1/2)=2e^{-1/(8w^2)}+e^{-9/(8w^2)}.\n"
+  },
+  {
+    "id": "P12",
+    "text": "\nL_\\psi=\\frac{3}{w\\sqrt e}.\n"
+  },
+  {
+    "id": "P13",
+    "text": "\nZ_{p,j}(X)=\\sum_{m=0}^{n-1}\\widetilde\\psi(X_{p,j}-x_m)\n\\ge z_{\\min}:=e^{-1/(8n^2w^2)}>0.\n"
+  },
+  {
+    "id": "P14",
+    "text": "\nr_m(x)-r_m(y)\n=\\frac{f(x)-f(y)-r_m(y)[Z(x)-Z(y)]}{Z(x)}.\n"
+  },
+  {
+    "id": "P15",
+    "text": "\n|r_m(x)-r_m(y)|\\le C_R|x-y|,\n\\qquad C_R=\\frac{(1+n)L_\\psi}{z_{\\min}}.\n"
+  },
+  {
+    "id": "P16",
+    "text": "\n\\|R(X)-R(Y)\\|_F\\le\\sqrt{3n^3}\\,C_R\\|X-Y\\|_F.\n"
+  },
+  {
+    "id": "P17",
+    "text": "\nq(g)=\\sqrt{\\|g\\|_2^2+\\delta^2}-\\sqrt{\\Gamma^2+\\delta^2},\n\\qquad\na_e(q)=\\begin{cases}0,&q\\le0,\\\\q e^{-\\epsilon^2/q^2},&q>0.\\end{cases}\n"
+  },
+  {
+    "id": "P18",
+    "text": "\na_e'(q)=(1+2\\epsilon^2/q^2)e^{-\\epsilon^2/q^2}.\n"
+  },
+  {
+    "id": "P19",
+    "text": "\n\\nu(\\theta)=\\nu_0e^{-\\beta_{\\rm th}\\tanh(\\theta/0.03)},\n\\qquad\n\\nu_0e^{-\\beta_{\\rm th}}\\le\\nu(\\theta)\\le\\nu_0e^{\\beta_{\\rm th}},\n"
+  },
+  {
+    "id": "P20",
+    "text": "\n\\operatorname{raw}_{\\pm}(r)\n=w_{\\rm rate}\\frac{r_{\\pm}^2}{r_{\\pm}^2+s_{\\rm rate}^2},\n\\qquad\n\\left|\\operatorname{raw}_{\\pm}'(r)\\right|\n\\le\\frac{3\\sqrt3\\,w_{\\rm rate}}{8s_{\\rm rate}}.\n"
+  },
+  {
+    "id": "P21",
+    "text": "\n\\begin{gathered}\n\\mathrm{occ}=R^TV/\\Delta v\\ge0,\\qquad\n\\mathrm{avail}=R[Q_v/(1+\\mathrm{occ})]\\ge0,\\\\\n\\mathrm{rawpower}_p=\\sum_{k,\\pm}Y_{p,k,\\pm}\\operatorname{raw}_{p,k,\\pm}\\ge0,\\\\\n\\mathrm{den}_p=p_{\\rm floor}+\\eta\\,\\mathrm{avail}_p+\\mathrm{rawpower}_p\n\\ge p_{\\rm floor}=10^{-5}.\n\\end{gathered}\n"
+  },
+  {
+    "id": "P22",
+    "text": "\ne_l(F)=\\tfrac12(\\|F_{p(l),\\cdot,\\alpha(l)}\\|_2^2-1),\\qquad\nW_l(e,b)=\\tfrac12 k_{\\rm micro}(e-b)^2\n+\\frac{H_{\\rm well}}4\\bigl((b/a)^2-1\\bigr)^2.\n"
+  },
+  {
+    "id": "P23",
+    "text": "\nE(F_p)=\\tfrac12(F_p^TF_p-I),\\qquad\\|E(F_p)\\|_F.\n"
+  },
+  {
+    "id": "P24",
+    "text": "\n\\bigl|\\|E(F)\\|_F-\\|E(G)\\|_F\\bigr|\n\\le\\tfrac12(\\|F\\|_F+\\|G\\|_F)\\|F-G\\|_F.\n"
+  },
+  {
+    "id": "P25",
+    "text": "\nw_m(s)=\\Delta t_m\\exp\\!\\left(-\\frac{\\|\\mathrm{diff}_m(s)\\|_2^2}{2w_{\\rm hist}^2}\\right)\\ge0.\n"
+  },
+  {
+    "id": "P26",
+    "text": "\np_{\\rm hist}+\\sum_m w_m(s)\\ge p_{\\rm hist}=0.12.\n"
+  },
+  {
+    "id": "P27",
+    "text": "\n\\|f(t,s)-f(t,\\widetilde s)\\|_2\\le L_K\\|s-\\widetilde s\\|_2\n\\qquad(s,\\widetilde s\\in K).\n"
+  },
+  {
+    "id": "P28",
+    "text": "\n(\\mathcal Pv)(t)=s_0+\\int_{t_*}^{t}f(\\tau,v(\\tau))\\,d\\tau\n"
+  },
+  {
+    "id": "P29",
+    "text": "\nE_{\\rm diff}(t)=\\tfrac12\\|s(t)-\\widetilde s(t)\\|_2^2.\n"
+  },
+  {
+    "id": "P30",
+    "text": "\n\\dot E_{\\rm diff}(t)\n=\\langle s-\\widetilde s,f(t,s)-f(t,\\widetilde s)\\rangle\n\\le2L_KE_{\\rm diff}(t).\n"
+  },
+  {
+    "id": "P31",
+    "text": "\n\\begin{aligned}\ns^{(0)}&=s(t_q^-),\\\\\n\\mathrm{rec}_j&=\\mathrm{make\\_event}(s^{(j-1)},F_{{\\rm start},\\epsilon_j},\\epsilon_j),\\\\\ns^{(j)}&=\\mathrm{write\\_event}(s^{(j-1)},\\mathrm{rec}_j)_0\n\\quad(1\\le j\\le r),\\\\\ns(t_q)&=s^{(r)}.\n\\end{aligned}\n"
+  },
+  {
+    "id": "P32",
+    "text": "\n-32768\\le\\operatorname{rint}(x/q)\\le32767.\n"
+  },
+  {
+    "id": "P33",
+    "text": "\nk_1=f(t,s),\\qquad s_{\\rm pred}=s+hk_1,\\qquad\nk_2=f(t+h,s_{\\rm pred}),\\qquad\n\\Phi_h(t,s)=s+\\tfrac h2(k_1+k_2).\n"
+  },
+  {
+    "id": "P34",
+    "text": "\n\\mathcal D_{t,h}=\\{s\\in\\Omega_*:s+hf(t,s)\\in\\Omega_*\\},\n"
+  }
+]

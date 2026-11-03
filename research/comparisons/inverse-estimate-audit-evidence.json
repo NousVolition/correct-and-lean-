@@ -1,0 +1,210 @@
+{
+  "checked_utc": "2026-10-29T04:17:38.503687+00:00",
+  "user_date": "2026-10-28 America/Los_Angeles",
+  "commit": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "tracked_lean_files_searched": 2659,
+  "finding": "All explicit named direct calls inspected preserve or supply the m+5 bounds; no missing-derivative gap found from this mismatch in the checked interfaces.",
+  "source_occurrences": {
+    "norm_derivativeWord_inverse_le": [
+      {
+        "file": "NavierStokes/SmoothFamilyTorusInverse.lean",
+        "line": 1059
+      },
+      {
+        "file": "NavierStokes/SmoothFamilyTorusInverse.lean",
+        "line": 1135
+      }
+    ],
+    "mixedJet_inverse_bound": [
+      {
+        "file": "NavierStokes/ParametricTorusInverse.lean",
+        "line": 654
+      },
+      {
+        "file": "NavierStokes/SmoothFamilyTorusInverse.lean",
+        "line": 1082
+      }
+    ],
+    "inverse_finiteJets": [
+      {
+        "file": "NavierStokes/GaugeAliasDecay.lean",
+        "line": 34
+      },
+      {
+        "file": "NavierStokes/SmoothFamilyTorusInverse.lean",
+        "line": 865
+      },
+      {
+        "file": "NavierStokes/UniformFourierAlias.lean",
+        "line": 616
+      },
+      {
+        "file": "NavierStokes/UniformFourierAlias.lean",
+        "line": 809
+      }
+    ],
+    "realInverse_finiteJets": [
+      {
+        "file": "NavierStokes/PhysicalMeanDomain.lean",
+        "line": 1246
+      },
+      {
+        "file": "NavierStokes/UniformFourierAlias.lean",
+        "line": 611
+      },
+      {
+        "file": "NavierStokes/UniformFourierAlias.lean",
+        "line": 1037
+      },
+      {
+        "file": "NavierStokes/VariableGaugeMean.lean",
+        "line": 2469
+      }
+    ],
+    "familyInverse_finiteJets": [
+      {
+        "file": "NavierStokes/UniformFourierAlias.lean",
+        "line": 804
+      },
+      {
+        "file": "NavierStokes/UniformFourierAlias.lean",
+        "line": 859
+      },
+      {
+        "file": "NavierStokes/UniformFourierAlias.lean",
+        "line": 879
+      }
+    ],
+    "familyInverse_finiteJets_fiber": [
+      {
+        "file": "NavierStokes/GaugeAliasDecay.lean",
+        "line": 29
+      },
+      {
+        "file": "NavierStokes/GaugeAliasDecay.lean",
+        "line": 59
+      }
+    ]
+  },
+  "cited_source_integrity": [
+    {
+      "path": "NavierStokes/SmoothFamilyTorusInverse.lean",
+      "git_blob": "c607eb6f2460a3ba55dc2218072cd504bf6253bf",
+      "sha256_local": "bf69fee4ee505d054993cd0acceac3f8baa287599bb72e2c5e0eec021bef4f84",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/ParametricTorusInverse.lean",
+      "git_blob": "37be58e0e68b8fd8f24b7f8b5e0da18620db7529",
+      "sha256_local": "8b43c3160503ed39b84f105d5652bc3de0f53e11af9c08aadedf50746e2f9e02",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/SmoothFourierData.lean",
+      "git_blob": "1de68214bc1f62781e3fbaac44f294a25d97886d",
+      "sha256_local": "2c5359afb384ad2b01be0ff5ccff4a2775a56654e1f81a78f52921b588b9630c",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/UniformFourierAlias.lean",
+      "git_blob": "5ee72dc9c200126e6b703cd6a567a3468900b8f6",
+      "sha256_local": "68daef5768cc2ad93fc5ea6783b7a89e85c235868ba6e39ff6c0fe9f74f7a78d",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/GaugeAliasDecay.lean",
+      "git_blob": "89cb21017dcafdde68e72782c027cd3f4f00361d",
+      "sha256_local": "bf3fbd425f207c2a04da108e1dbb888569c2f9aefaa6bec6d4a70d8620cbcf98",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/PhysicalMeanDomain.lean",
+      "git_blob": "de78f2e6847832761c39d2423f2d62bcd3e2ebd5",
+      "sha256_local": "f9da4c45d31b617a3df24d69e8680cb7762ae436bf9601d07f70ebe07cf47684",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/VariableGaugeMean.lean",
+      "git_blob": "ed8867676207b2f0faec2c3a95d13616b8cd6426",
+      "sha256_local": "661ff3fde61a8b88805195b8a8324ea44000eb98b278c880c10974f8b8666669",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/WeightedClasses.lean",
+      "git_blob": "d2f007a4e61314c396ca268024133c223d5ea150",
+      "sha256_local": "061d441b09cb55e41c90141b1a4fd66f9ab0ffe8d7b90fff93474896b816c3f1",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/ActualMeanPhysicalData.lean",
+      "git_blob": "d113352c357901c56f68d049d1b2734353f504dc",
+      "sha256_local": "50b3c6fad80958931bfb24021d58408f47b55c4e4099c3088c47e72263ac8407",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/ActualPhysicalStageBounds.lean",
+      "git_blob": "1dbf6073113d26ab8347babb74360a8d72722104",
+      "sha256_local": "cfc7a96ca9bceaf3e8c47d185f49ddecf19760f355a77e6d8233f29d267e31b9",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/GluedStageEstimates.lean",
+      "git_blob": "69e00cf8b2e7da224b13c19f24fdad07854abcbf",
+      "sha256_local": "5d058b1a944355fcb59dc4d532ef0d51af681375021513998e472297c1c4153e",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/ActualCandidateAssembly.lean",
+      "git_blob": "820bd414afdb55d4d74a78be357311e6b234a2e4",
+      "sha256_local": "4ccb3cf45b65669f43da240f93da8f318b7da7c224f21abf1f460dfb13889332",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/R3/ActualCandidate.lean",
+      "git_blob": "fef263fb3e99e1d452885a30ba1bdf237b27f7c1",
+      "sha256_local": "10d520775b13f42c60e76dc0315308bdeec88d655ca53f0292afc27bd8c4d3d4",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/R3/Theorem.lean",
+      "git_blob": "4151e7c90a9de31d8454fc49932b066d475bed08",
+      "sha256_local": "4866eda03f9a34794a2b6f46a1215c9e7b8470d93b21d1c5647032a1b4516155",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/PeriodicPaperTheorem.lean",
+      "git_blob": "e7cdc29594f635a0eebf6967352a148be1b818e9",
+      "sha256_local": "c4adafaf50cb99e8fbd29cd6a7d43c06c6aa5d675ab4bb4a34000aabfd526573",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/ComparatorR3Theorem.lean",
+      "git_blob": "3d651180befa2348b02d4507a7892940eeb89abd",
+      "sha256_local": "f9cbb034f11eb35c2158ad59c6a1beb57fb8c276563eed15df29194590ad4521",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/ComparatorTheorem.lean",
+      "git_blob": "b92d0efd0a59660d9fd484a35fc2c45c4829b65f",
+      "sha256_local": "fecc372e58744c7b5559ff14572b6f3c338580dab1e6889c905ae0ddb8f060cd",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    },
+    {
+      "path": "NavierStokes/ComparatorSolution.lean",
+      "git_blob": "cc232068cd384dbbddce2753b1fc4a4017c0f2d7",
+      "sha256_local": "a13d3534019132e5e70c62a87406c0c565aa9420b317abd793e36a997b828c7b",
+      "matches_pinned_git_blob_after_crlf_normalization": true
+    }
+  ],
+  "verification_mode": "Source inspection plus an independent local mathematical Fourier-series argument",
+  "lean_build_run": false,
+  "comparator_run": false,
+  "compiled_dependency_graph": false,
+  "runtime_limit": "No Lean or Lake executable found in checked environment; no default .elan installation found.",
+  "full_global_proof_certified": false,
+  "isolated_m_plus_4_argument": "Derived manually, conditional on stated Diophantine divisor bound, smooth periodic zero-mean input; not formalized.",
+  "static_graph_limit": "Exploratory lexical graph could not resolve all elaborated dependencies and was not used as a certificate. Relevant source chain inspected manually.",
+  "original_corpus_or_report_edits": 0,
+  "report_sha256": "641fa215fea81dd72757f888653acaf0bbb8378ec040bf3880f70d22ac71c769",
+  "scan_script_sha256": "aab12e5b03757bbf6f2cde145a26ff5f2ae207b52d8a3743d9667d3406242f56"
+}

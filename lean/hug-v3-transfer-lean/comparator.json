@@ -1,0 +1,26 @@
+{
+  "challenge_module": "V3TransferChallenge",
+  "solution_module": "V3TransferProofs",
+  "enable_nanoda": true,
+  "theorem_names": [
+    "HugV3.Source.TransferVerified.memory_stays_with_original_pair",
+    "HugV3.Source.TransferVerified.positive_record_has_positive_evidence",
+    "HugV3.Source.TransferVerified.positive_record_increases_cooperation_rate",
+    "HugV3.Source.TransferVerified.cooperation_changes_shared_norm_rate",
+    "HugV3.Source.TransferVerified.other_person_expression_rate_unchanged",
+    "HugV3.Source.TransferVerified.radius_rate_unchanged_at_comparison",
+    "HugV3.Source.TransferVerified.squared_guard_has_same_positive_side",
+    "HugV3.Source.TransferVerified.squared_guard_derivative_on_full_state",
+    "HugV3.Source.TransferVerified.transfer_to_distinct_partner_guard_rate",
+    "HugV3.Source.TransferVerified.domain_checked_transfer",
+    "HugV3.Source.TransferVerified.positive_alignment_opens_guard_instantaneously",
+    "HugV3.Source.TransferVerified.orthogonal_alignment_has_zero_instantaneous_transfer",
+    "HugV3.Source.TransferVerified.initial_coordinate_example",
+    "HugV3.Source.TransferVerified.full_trace_guard_observable"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "requested": "Existence and uniqueness of the unchanged full shared Hug-Navier PDE, with Lean and Comparator verification.",
+  "agent": "Same returning student; no new agent or permanent fluid identity.",
+  "idea": "Giving someone space to speak can change what I understand.",
+  "equations_changed": false,
+  "full_model_sha256": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
+  "previous_full_model_sha256": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
+  "original_initial_data_replaced": false,
+  "diagnostic": "Nearby smooth periodic fields test the regularity of the exact full PDE right-hand side. They are not substituted initial data for an existence claim.",
+  "source_files": {
+    "interaction.md": "aa9af72b9762ff70204131bc160aec712e4071ec17e6a4f3ac832e2e7a4a5808",
+    "ns_fields_methods.md": "b4a844c9488972267f2dde4ad030b658459063b594743a1de3dc66a77a8c484f",
+    "ns_fields_model.py": "60948e928f31d57e8384f2f7ccd68d4ab9664d6aee3398f82407324bb0f42e30",
+    "ns_protocol.json": "ba767c26ec3324f0441e158475910e12b9d225ab1f99859b534f51c280a3ebae",
+    "original-corpus-passages.json": "5945c73a3a47d787db4b45640675555c08a23b0daa863ce863c92a8e1fb723fa",
+    "original-source-manifest.json": "5bb99f1ef240578bf0d5372a78f23f4a6a3f9f6d1257fffa8d54fad6627f8370"
+  }
+}

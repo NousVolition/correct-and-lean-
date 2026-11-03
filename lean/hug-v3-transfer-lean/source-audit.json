@@ -1,0 +1,79 @@
+{
+  "selected_model": "Sealed hug-structural-memory-v3 main",
+  "source_directory": "C:/Users/ziman/Documents/Codex/2026-10-08/referenced-chatgpt-conversation-this-is-an-2/outputs/hug-structural-memory-v3",
+  "agent": "The same returning student",
+  "idea": "Giving someone space to speak can change what I understand.",
+  "scope": "Concrete proposed real-arithmetic transcription of all state-rate blocks and dynamical memory-write acceptance/update rules.",
+  "full_existence_uniqueness": "UNPROVED",
+  "source_correspondence": "MANUAL_TRANSCRIPTION_NOT_KERNEL_PROVED",
+  "comparator_scope": "Nine concrete equation/boundary/codec lemmas only; not the full trajectory theorem.",
+  "explicit_limits": [
+    "Finite main realization, not an infinite-dimensional continuum theorem",
+    "Static binary64 geometry is embedded as exact rationals; printed decimal coefficients are exact real decimals",
+    "No equivalence theorem for floating-point arithmetic or NumPy/SciPy/FFT execution",
+    "The write-work peak diagnostic is not a state update or acceptance criterion and is not transcribed",
+    "Output-only pressure/energy diagnostics and display archives are not evolving state blocks",
+    "The source RHS has explicit partial-domain checks for failed exact-real evaluation"
+  ],
+  "definitions": [
+    "V3SourceCore",
+    "V3SourceGeometry",
+    "V3SourceMemory",
+    "V3SourceSocial",
+    "V3SourceFlow",
+    "V3SourceSystem",
+    "V3SourceChallenge"
+  ],
+  "geometry": {
+    "gate": "accepted main",
+    "main_manifest_sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+    "geometry_file_sha256": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "array_shapes": {
+      "sourceX0": [
+        384,
+        3
+      ],
+      "sourceV": [
+        384
+      ],
+      "sourceDirections": [
+        24,
+        3
+      ],
+      "sourceDirectionWeights": [
+        24
+      ]
+    },
+    "attach_shape": [
+      6,
+      384
+    ],
+    "minimum_volume": 3.158000872045711e-07,
+    "minimum_direction_weight": 0.20833333333333337,
+    "representation": "Exact rational values of exported binary64 static geometry; arithmetic in model definitions is real arithmetic and printed decimal coefficients are exact rationals.",
+    "scope": "No fluid simulation. Constructor export is checked by shape/value extraction, not a formal compiler-correctness theorem."
+  },
+  "source_files": {
+    "continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+    "social_base.py": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+    "structural_hug.py": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+    "run.py": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+    "test_structure.py": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36",
+    "preflight.py": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+    "reference_gate/run_manifest.py": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
+    "reference_gate/parameter_bounds.json": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
+    "equation_register.csv": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc",
+    "study_chain.csv": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c",
+    "parameter_bounds.json": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0",
+    "protocol.json": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77",
+    "rule_changes.json": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917",
+    "literal_registry.json": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273",
+    "declarations/main.json": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+    "declarations/time_half.json": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
+    "declarations/grid24.json": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c",
+    "declarations/particles640.json": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793",
+    "declarations/no_read_feedback.json": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a",
+    "declarations/slow_fabric.json": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956",
+    "declarations/unit.json": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe"
+  }
+}

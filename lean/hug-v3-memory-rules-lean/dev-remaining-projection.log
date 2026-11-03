@@ -1,0 +1,29 @@
+⚠ [3114/3116] Replayed V3DelayProofs
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✖ [3115/3116] Building V3MemoryRulesProofs (9.3s)
+trace: .> LEAN_PATH=/home/nsverify/verification/project/.lake/packages/Cli/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/batteries/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Qq/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/aesop/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/importGraph/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/plausible/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/mathlib/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/lib/lean:/home/nsverify/verification/hug-v3-memory-rules-dev-20261102/.lake/build/lib/lean /opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean /home/nsverify/verification/hug-v3-memory-rules-dev-20261102/V3MemoryRulesProofs.lean -o /home/nsverify/verification/hug-v3-memory-rules-dev-20261102/.lake/build/lib/lean/V3MemoryRulesProofs.olean -i /home/nsverify/verification/hug-v3-memory-rules-dev-20261102/.lake/build/lib/lean/V3MemoryRulesProofs.ilean -c /home/nsverify/verification/hug-v3-memory-rules-dev-20261102/.lake/build/ir/V3MemoryRulesProofs.c --setup /home/nsverify/verification/hug-v3-memory-rules-dev-20261102/.lake/build/ir/V3MemoryRulesProofs.setup.json --json
+error: V3MemoryRulesProofs.lean:112:85: unsolved goals
+G : Geometry
+present past : State
+i j : Actor
+⊢ (![(past.context i 1 + past.context j 1) / 2,
+          (tanh ((∑ p, G.attach i p * strainNorm (present.F p)) / 0.12) +
+              tanh ((∑ p, G.attach j p * strainNorm (present.F p)) / 0.12)) /
+            2] ∘
+        Fin.succ)
+      0 =
+    (![(present.context i 1 + present.context j 1) / 2,
+          (tanh ((∑ p, G.attach i p * strainNorm (present.F p)) / 0.12) +
+              tanh ((∑ p, G.attach j p * strainNorm (present.F p)) / 0.12)) /
+            2] ∘
+        Fin.succ)
+      0
+Some required targets logged failures:
+- V3MemoryRulesProofs
+error: build failed

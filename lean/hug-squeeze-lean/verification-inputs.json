@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-30",
+  "target_count": 51,
+  "files": {
+    "ActiveHugChallenge.lean": "fa931e575994ca73aab1a1b1d33d705486101db58c26ddefeb56e3f8e675a451",
+    "ActiveHugModel.lean": "be9d734610480ae9376bfd38b287c2bb9b7758cb50e29109bcf26656a7885f19",
+    "ActiveHugSolution.lean": "f9ecbc13c50713f85cf8a3268652798be83f03efb0548b7a3ee39d3725415483",
+    "HugAllChallenge.lean": "6931bc01f3adf6fae2fd71492df84dd89051d51271b7ba4b4e6ea63bcec2c991",
+    "HugAllSolution.lean": "ece19d811aaa973afa6f6ad1d22c5fecedd37bdd3a66d9dcff621aa2fa0d876a",
+    "HugBarrier.lean": "1fd724d9e2530e148ab3a114a5b52daa8fa6be180ec09c307451b771ac118bd7",
+    "HugChallenge.lean": "e5bbfd8ac2cfe9729ab6814d2ebdac2bddf0e50c18c20a3d540dd79e60bedfd2",
+    "HugModel.lean": "6a79142d5fa42642bc47a0246f62b4ab89d0c07ba6257fd0d41e39d6f89b61f5",
+    "HugSolution.lean": "5e9cabf5ce0af815f6f5724b6433ada5a8a51d7cd2b64318a5e593580acb55a5",
+    "lakefile.toml": "351e9c761566851a42a9a10f841caebafeb1cf1f9e027c6fb9a9bfc930f75d6d",
+    "lake-manifest.json": "769ac35d33e73c507b32e69a6f411f770a3fe1f785e9c6552cdbd89108863a5d",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "comparator.json": "3d1a038e066bac4efd530002ff8f6cae2632f9ca1743a4574bddd9ea90eef63e",
+    "reference-freeze.json": "809cfe9f336433d00626b94e94f4f3a3e8cbc924421e32095476eeeb3c3d55ca",
+    "active-reference-freeze.json": "133b6f63a6251896381d16b55199a4bf2c9dba2a12e8d306bf6d25b3e1512f4e",
+    "sources/active-guard-METHODS.md": "d1d280ecd06c1f31aaa46c3117b5c84cd6534dd24d19ce10494f633221c047bd",
+    "sources/active-guard-model.py": "e1f83325f63c956d399294b6dda748a34d6f469d8a42319f28e1d02ea3366921",
+    "sources/active-guard-protocol.json": "56ce38b4ddd8b8e94272f563cfd16b92170e48c7c4769dea15b46133a1293b4f",
+    "sources/hug_envelope.py": "ca9ecb26d42a629c89d73e19216c3d2a0da2b77c8bccd5b6ab0064a1b225a83c",
+    "sources/interaction-equation.md": "5b3621f4832403dd14a07a032b593afed53b53c122d96b858e4a2c6fc959b0ac",
+    "sources/memory-METHODS.md": "fd1c7a2008a33758a4e858f4c1a3cb23d29e1e400ba5441b5d24162e993e323e",
+    "sources/movement-SPECIFICATION_STATUS.md": "2d6243672265427dd77ad0414a1c0df4aae9ef7bf4fa93c4abc589571f955600",
+    "sources/norm-entropy-mirror.md": "0ecd9b9c68241c5194e6dac3a3cf3f917ff8095fe685084140091a6d90cb1bd3",
+    "sources/pressure_envelope.py": "0e49e34fdde4b9f9d6f62b428dcffcef8f64cd70a743d0acacee5c71d01b8146",
+    "sources/soft-envelope.md": "d00daaf72ceaf23089164ee4f6ca33d73dd18e0aa4b65fb501b0735ed694c242"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "Original pressure-responsive Hug and shared reciprocal squeeze geometry; later active-Hug/SIMS excluded",
+  "source_commit": "7fbc7f28f685c86f824d7587aff91feedf20d3da",
+  "arithmetic": "Exact real transcription of displayed decimal constants; not a floating-point execution proof",
+  "files": {
+    "HugModel.lean": "6a79142d5fa42642bc47a0246f62b4ab89d0c07ba6257fd0d41e39d6f89b61f5",
+    "HugChallenge.lean": "e5bbfd8ac2cfe9729ab6814d2ebdac2bddf0e50c18c20a3d540dd79e60bedfd2",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
+  },
+  "source_files": {
+    "sources/hug_envelope.py": "ca9ecb26d42a629c89d73e19216c3d2a0da2b77c8bccd5b6ab0064a1b225a83c",
+    "sources/interaction-equation.md": "5b3621f4832403dd14a07a032b593afed53b53c122d96b858e4a2c6fc959b0ac",
+    "sources/norm-entropy-mirror.md": "0ecd9b9c68241c5194e6dac3a3cf3f917ff8095fe685084140091a6d90cb1bd3",
+    "sources/pressure_envelope.py": "0e49e34fdde4b9f9d6f62b428dcffcef8f64cd70a743d0acacee5c71d01b8146",
+    "sources/soft-envelope.md": "d00daaf72ceaf23089164ee4f6ca33d73dd18e0aa4b65fb501b0735ed694c242"
+  }
+}

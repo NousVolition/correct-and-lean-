@@ -1,0 +1,236 @@
+{
+  "run_id": "20261101T051856.361354Z",
+  "model": "hug-structural-memory-v3",
+  "scope": "Targeted source review, algebra and counterexamples; not a trajectory, full proof or new Lean run.",
+  "source_preservation_before": [
+    {
+      "file": "continuum.py",
+      "expected": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+      "original": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+      "proof_snapshot": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3"
+    },
+    {
+      "file": "social_base.py",
+      "expected": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+      "original": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+      "proof_snapshot": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8"
+    },
+    {
+      "file": "structural_hug.py",
+      "expected": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+      "original": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+      "proof_snapshot": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a"
+    },
+    {
+      "file": "run.py",
+      "expected": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+      "original": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+      "proof_snapshot": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4"
+    },
+    {
+      "file": "test_structure.py",
+      "expected": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36",
+      "original": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36",
+      "proof_snapshot": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36"
+    },
+    {
+      "file": "preflight.py",
+      "expected": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+      "original": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+      "proof_snapshot": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4"
+    },
+    {
+      "file": "reference_gate/run_manifest.py",
+      "expected": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
+      "original": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
+      "proof_snapshot": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f"
+    },
+    {
+      "file": "reference_gate/parameter_bounds.json",
+      "expected": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
+      "original": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
+      "proof_snapshot": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0"
+    },
+    {
+      "file": "equation_register.csv",
+      "expected": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc",
+      "original": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc",
+      "proof_snapshot": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc"
+    },
+    {
+      "file": "study_chain.csv",
+      "expected": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c",
+      "original": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c",
+      "proof_snapshot": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c"
+    },
+    {
+      "file": "parameter_bounds.json",
+      "expected": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0",
+      "original": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0",
+      "proof_snapshot": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0"
+    },
+    {
+      "file": "protocol.json",
+      "expected": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77",
+      "original": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77",
+      "proof_snapshot": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77"
+    },
+    {
+      "file": "rule_changes.json",
+      "expected": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917",
+      "original": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917",
+      "proof_snapshot": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917"
+    },
+    {
+      "file": "literal_registry.json",
+      "expected": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273",
+      "original": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273",
+      "proof_snapshot": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273"
+    },
+    {
+      "file": "declarations/main.json",
+      "expected": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+      "original": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+      "proof_snapshot": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514"
+    },
+    {
+      "file": "declarations/time_half.json",
+      "expected": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
+      "original": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
+      "proof_snapshot": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83"
+    },
+    {
+      "file": "declarations/grid24.json",
+      "expected": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c",
+      "original": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c",
+      "proof_snapshot": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c"
+    },
+    {
+      "file": "declarations/particles640.json",
+      "expected": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793",
+      "original": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793",
+      "proof_snapshot": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793"
+    },
+    {
+      "file": "declarations/no_read_feedback.json",
+      "expected": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a",
+      "original": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a",
+      "proof_snapshot": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a"
+    },
+    {
+      "file": "declarations/slow_fabric.json",
+      "expected": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956",
+      "original": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956",
+      "proof_snapshot": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956"
+    },
+    {
+      "file": "declarations/unit.json",
+      "expected": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe",
+      "original": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe",
+      "proof_snapshot": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe"
+    }
+  ],
+  "checks": {
+    "dimension": {
+      "actual": 193122,
+      "claimed": 193122
+    },
+    "checkpoint_partition": [
+      0.0,
+      0.2,
+      0.4,
+      0.8,
+      1.2,
+      1.6
+    ],
+    "spectral_gradient_counterexample": {
+      "n": 16,
+      "mode": [
+        7,
+        7,
+        7
+      ],
+      "measured_norm_ratio": 76.1795732978372,
+      "exact_ratio": "14*pi*sqrt(3)",
+      "claimed_upper_bound": 58.04157965549497,
+      "correction_safe_full_space_bound": 87.06236948324245,
+      "contradicts_bound": true
+    },
+    "analog_vs_decoded": {
+      "first_before": -0.02,
+      "first_after": -0.019,
+      "perturbation": 0.001,
+      "allowed_half_margin": 0.0075,
+      "same_bits": true,
+      "records_before": [],
+      "records_after": []
+    },
+    "decoded_outcome_domain_gap": {
+      "unpack_succeeds": true,
+      "decoded_observed": 2.0,
+      "later_outcome_error": "outcome outside declared [-1,1]",
+      "produced_by_valid_writer": false
+    },
+    "retrieval_denominator_counterexample": {
+      "unpack_succeeds": true,
+      "decoded_duration": -0.12,
+      "minimum_absolute_b": 0.02,
+      "required_b_threshold": 0.005,
+      "minimum_sampled_fiber_length": 0.9999999999999999,
+      "cue_difference_is_zero": true,
+      "exposure": -0.12,
+      "denominator": 0.0,
+      "exact_rational_denominator": "0",
+      "all_retrieval_values_finite": false,
+      "warnings": [
+        "divide by zero encountered in divide",
+        "invalid value encountered in divide",
+        "divide by zero encountered in divide"
+      ],
+      "produced_by_valid_writer": false,
+      "claim_scope": "All states in the submitted Omega_valid, not reachability from the main initial state"
+    },
+    "wrapped_gaussian_seam": {
+      "width": 0.045,
+      "direct": 3.1097726781299906e-27,
+      "submitted": 1.5548863390649953e-27,
+      "corrected": 3.1097726781299906e-27,
+      "corrected_expression": "2 exp(-1/(8 w^2)) + exp(-9/(8 w^2))",
+      "submitted_equality_is_false": true
+    },
+    "quotient_identity": {
+      "node_index": 9,
+      "lhs": 0.143545704750076,
+      "submitted_rhs": 0.0,
+      "algebra": "Submitted numerator is identically psi(X)-[psi(X)/Z(X)]*Z(X)=0."
+    },
+    "flat_activation": {
+      "analytic_derivative": "(1+2 epsilon^2/q^2) exp(-epsilon^2/q^2)",
+      "maximizer": "q=sqrt(2)*epsilon",
+      "exact_bound": "2/sqrt(e)",
+      "bound": 1.2130613194252668,
+      "assessment": "Correct for positive epsilon; analytic check, not an exhaustive numerical proof."
+    }
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "scientific_packages": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\full-deps"
+  },
+  "declaration_gate": {
+    "case": "main",
+    "manifest_sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+    "accepted": true
+  },
+  "status": "REVIEW_COMPLETE_SUBMITTED_PROOF_NOT_VALID_AS_WRITTEN",
+  "source_preservation_after": {
+    "all_21_originals_match_seal": true,
+    "all_21_prior_snapshots_match_seal": true,
+    "all_21_review_snapshots_match_seal": true,
+    "attachment_unchanged": true,
+    "frozen_review_inputs_unchanged": true,
+    "triangle_trial_unchanged": true
+  }
+}

@@ -1,0 +1,90 @@
+'SocialAS.Verified.saturation_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.effect_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.exchange_no_increase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.exchange_negative_unchanged' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.exchange_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.general_smoke_agrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.general_clay_agrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.total_influence_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.received_meaning_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.meaning_rate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.meaning_lower_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.meaning_upper_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.load_lower_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.activation_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.opening_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.registration_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.no_opening_no_registration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.fully_qualified_blocks_challenge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.confirmation_unchanged' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.branch_distribution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.update_no_contribution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.update_same_meaning' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.update_is_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.update_preserves_simplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.constant_accumulation_solves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.constant_exposure_solves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.constant_exposure_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.clearing_solves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.clearing_preserves_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.cleared_equal_meaning_has_zero_drift' depends on axioms: [propext, Classical.choice, Quot.sound]
+MeaningSubsystem.lean:95:6: error: linarith failed to find a contradiction
+case hlip.«0»
+a b : ℝ
+hab : a ≤ b
+p : Parameters
+i : ℝ → Inputs
+kf kr tf tr : ℝ → ℝ
+initial : Pair
+Wf Wr : ℝ≥0
+hKf : ContinuousOn kf (Icc a b)
+hKr : ContinuousOn kr (Icc a b)
+hTf : ContinuousOn tf (Icc a b)
+hTr : ContinuousOn tr (Icc a b)
+hbKf : ∀ t ∈ Icc a b, 0 ≤ kf t ∧ kf t ≤ ↑Wf
+hbKr : ∀ t ∈ Icc a b, 0 ≤ kr t ∧ kr t ≤ ↑Wr
+hbTf : ∀ t ∈ Icc a b, UnitInterval (tf t)
+hbTr : ∀ t ∈ Icc a b, UnitInterval (tr t)
+hC0 : Open.PiecewiseContinuousBounded (fun t => (i t).clarifySmoke) a b
+hC1 : Open.PiecewiseContinuousBounded (fun t => (i t).clarifyClay) a b
+M0 : ℝ≥0
+hm0 : ∀ t ∈ Icc a b, |(i t).clarifySmoke| ≤ ↑M0
+M1 : ℝ≥0
+hm1 : ∀ t ∈ Icc a b, |(i t).clarifyClay| ≤ ↑M1
+K : ℝ≥0 := 2 * (Wf + Wr) + M0 + M1
+t : ℝ
+ht : t ∈ Icc a b
+x y : Pair
+a✝ : (2 * (↑Wf + ↑Wr) + ↑M0 + ↑M1) * dist x y < (2 * ↑Wr + ↑M0) * dist x y
+⊢ False
+failed
+MeaningSubsystem.lean:103:6: error: linarith failed to find a contradiction
+case hlip.«1»
+a b : ℝ
+hab : a ≤ b
+p : Parameters
+i : ℝ → Inputs
+kf kr tf tr : ℝ → ℝ
+initial : Pair
+Wf Wr : ℝ≥0
+hKf : ContinuousOn kf (Icc a b)
+hKr : ContinuousOn kr (Icc a b)
+hTf : ContinuousOn tf (Icc a b)
+hTr : ContinuousOn tr (Icc a b)
+hbKf : ∀ t ∈ Icc a b, 0 ≤ kf t ∧ kf t ≤ ↑Wf
+hbKr : ∀ t ∈ Icc a b, 0 ≤ kr t ∧ kr t ≤ ↑Wr
+hbTf : ∀ t ∈ Icc a b, UnitInterval (tf t)
+hbTr : ∀ t ∈ Icc a b, UnitInterval (tr t)
+hC0 : Open.PiecewiseContinuousBounded (fun t => (i t).clarifySmoke) a b
+hC1 : Open.PiecewiseContinuousBounded (fun t => (i t).clarifyClay) a b
+M0 : ℝ≥0
+hm0 : ∀ t ∈ Icc a b, |(i t).clarifySmoke| ≤ ↑M0
+M1 : ℝ≥0
+hm1 : ∀ t ∈ Icc a b, |(i t).clarifyClay| ≤ ↑M1
+K : ℝ≥0 := 2 * (Wf + Wr) + M0 + M1
+t : ℝ
+ht : t ∈ Icc a b
+x y : Pair
+a✝ : (2 * (↑Wf + ↑Wr) + ↑M0 + ↑M1) * dist x y < (2 * ↑Wf + ↑M1) * dist x y
+⊢ False
+failed

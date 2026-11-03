@@ -1,0 +1,46 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"message\":\"Warning: approximate search bounds for [doc] can cause incorrect layout placement. Read the returned IDs or bbox scope with the canvas read tool; use data-rendered-bounds when present.\",\"total_items\":1123,\"total_results\":22,\"results\":[{\"id\":\"3458764688386370433\",\"type\":\"doc\",\"scope\":{\"x\":2200,\"y\":47000,\"width\":784,\"height\":1105},\"matches\":{\"identity\":[\"identity\"]}},{\"id\":\"3458764688386370434\",\"type\":\"doc\",\"scope\":{\"x\":1100,\"y\":47000,\"width\":784,\"height\":1105},\"matches\":{\"identity\":[\"identity\"]}}]}"
+    }
+  ],
+  "structuredContent": {
+    "message": "Warning: approximate search bounds for [doc] can cause incorrect layout placement. Read the returned IDs or bbox scope with the canvas read tool; use data-rendered-bounds when present.",
+    "total_items": 1123,
+    "total_results": 22,
+    "results": [
+      {
+        "id": "3458764688386370433",
+        "type": "doc",
+        "scope": {
+          "x": 2200,
+          "y": 47000,
+          "width": 784,
+          "height": 1105
+        },
+        "matches": {
+          "identity": [
+            "identity"
+          ]
+        }
+      },
+      {
+        "id": "3458764688386370434",
+        "type": "doc",
+        "scope": {
+          "x": 1100,
+          "y": 47000,
+          "width": 784,
+          "height": 1105
+        },
+        "matches": {
+          "identity": [
+            "identity"
+          ]
+        }
+      }
+    ]
+  },
+  "isError": false
+}

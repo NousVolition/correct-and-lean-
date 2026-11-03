@@ -1,0 +1,17 @@
+[
+  {
+    "module": "V3EventSpecification",
+    "exit_code": 0,
+    "seconds": 15.905999999988126
+  },
+  {
+    "module": "V3EventChallenge",
+    "exit_code": 0,
+    "seconds": 15.359000000025844
+  },
+  {
+    "module": "V3EventProofs",
+    "exit_code": 0,
+    "seconds": 17.187999999994645
+  }
+]

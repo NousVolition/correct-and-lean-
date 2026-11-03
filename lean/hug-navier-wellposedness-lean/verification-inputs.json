@@ -1,0 +1,35 @@
+{
+  "files": {
+    "comparator.json": "32591d00430dd49e9be05a19292ec5dd5deca33174cbec13c09eb05a2f97bbd9",
+    "FullChecks.lean": "f838c6dd4855e2d8f0c0ab1c49ee73259ace3f9d13695dd18351a09a9ac7c24f",
+    "FullModel.lean": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "83e082629f215a9d5d342c8b681a49203f2d98eec8c076665a85f3381280231e",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "OriginalAS.lean": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5",
+    "reference-freeze.json": "5f3825701e57ff653ac19ed715f4695027ce1bff94fddd26348c887ec300671d",
+    "run-linux-check.sh": "d87d8c91f5b3dae2a1bb3424a06be278cdce77f83e6a392981b5d560c65a95d2",
+    "source-audit.json": "5374586d8232a9a1104e62fb8b2f90992749ede2b1df6f25108983cb95ac3c21",
+    "sources/interaction.md": "aa9af72b9762ff70204131bc160aec712e4071ec17e6a4f3ac832e2e7a4a5808",
+    "sources/ns_fields_methods.md": "b4a844c9488972267f2dde4ad030b658459063b594743a1de3dc66a77a8c484f",
+    "sources/ns_fields_model.py": "60948e928f31d57e8384f2f7ccd68d4ab9664d6aee3398f82407324bb0f42e30",
+    "sources/ns_protocol.json": "ba767c26ec3324f0441e158475910e12b9d225ab1f99859b534f51c280a3ebae",
+    "sources/original-corpus-passages.json": "5945c73a3a47d787db4b45640675555c08a23b0daa863ce863c92a8e1fb723fa",
+    "sources/original-source-manifest.json": "5bb99f1ef240578bf0d5372a78f23f4a6a3f9f6d1257fffa8d54fad6627f8370",
+    "WellposednessChallenge.lean": "56b80cb248fb54f4f89d2b52fd9dd56bdad6f587b424cbb540ae6cb7044d3b59",
+    "WellposednessProofs.lean": "8cbcfa3fb90d813f7050ce9e776cab8e40a87175a1abc42f8c19ad54ef3bea74",
+    "WellposednessTargets.lean": "5c013dc34f7559782e0d375958681e4b37ace7b952f94d1dd1b21dea32c3f35a"
+  },
+  "requested_existence_and_uniqueness": "UNPROVED",
+  "diagnostic_theorem_count": 4,
+  "source_equations_changed": false,
+  "source_initial_data_changed": false,
+  "diagnostic_fields_are_not_replacement_initial_data": true,
+  "ordinary_written_uniqueness_argument": "Not Lean-verified; stronger joint classical regularity assumptions are explicit.",
+  "development_notes": [
+    "The initial native target compile completed after 114.6 seconds; its shell was interrupted as it began the challenge compile.",
+    "An early proof compile failed because the target build had not yet returned its module; this was an orchestration error.",
+    "A sequential recovery compiled the targets successfully; the proof then needed explicit derivative points and a sign-parenthesization correction.",
+    "All mathematical challenge statements and source equations remained unchanged."
+  ]
+}

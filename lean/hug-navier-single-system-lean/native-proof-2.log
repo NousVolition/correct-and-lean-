@@ -1,0 +1,48 @@
+FullChecks.lean:33:23: warning: This simp argument is unused:
+  pow_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [partialX, Nat.cast_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+FullChecks.lean:51:23: warning: This simp argument is unused:
+  pow_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [partialY, Nat.cast_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+FullChecks.lean:193:2: error: Tactic `rfl` failed: The left-hand side
+  2 * deriv (fun x => viscosity z (x, r.2)) r.1 * partialX z.ux (r.1, r.2) +
+      2 * viscosity z (r.1, r.2) * deriv (fun x => partialX z.ux (x, r.2)) r.1 +
+    (deriv (fun y => viscosity z (r.1, y)) r.2 * (partialY z.ux (r.1, r.2) + partialX z.uy (r.1, r.2)) +
+      viscosity z (r.1, r.2) *
+        (deriv (fun y => partialY z.ux (r.1, y)) r.2 + deriv (fun y => partialX z.uy (r.1, y)) r.2))
+is not definitionally equal to the right-hand side
+  2 * partialX (viscosity z) r * partialX z.ux r + 2 * viscosity z r * partialX (partialX z.ux) r +
+      partialY (viscosity z) r * (partialY z.ux r + partialX z.uy r) +
+    viscosity z r * (partialY (partialY z.ux) r + partialY (partialX z.uy) r)
+
+z : Fields
+r : Point
+hnu : Differentiable ℝ (viscosity z)
+ha : Differentiable ℝ (partialX z.ux)
+hb : Differentiable ℝ (partialY z.ux)
+hc : Differentiable ℝ (partialX z.uy)
+hxx :
+  deriv (fun i => 2 * viscosity z (i, r.2) * partialX z.ux (i, r.2)) r.1 =
+    2 * deriv (fun x => viscosity z (x, r.2)) r.1 * partialX z.ux (r.1, r.2) +
+      2 * viscosity z (r.1, r.2) * deriv (fun x => partialX z.ux (x, r.2)) r.1
+hxy :
+  deriv (fun i => viscosity z (r.1, i) * (partialY z.ux (r.1, i) + partialX z.uy (r.1, i))) r.2 =
+    deriv (fun y => viscosity z (r.1, y)) r.2 * (partialY z.ux (r.1, r.2) + partialX z.uy (r.1, r.2)) +
+      viscosity z (r.1, r.2) *
+        (deriv (fun y => partialY z.ux (r.1, y)) r.2 + deriv (fun y => partialX z.uy (r.1, y)) r.2)
+⊢ 2 * deriv (fun x => viscosity z (x, r.2)) r.1 * partialX z.ux (r.1, r.2) +
+        2 * viscosity z (r.1, r.2) * deriv (fun x => partialX z.ux (x, r.2)) r.1 +
+      (deriv (fun y => viscosity z (r.1, y)) r.2 * (partialY z.ux (r.1, r.2) + partialX z.uy (r.1, r.2)) +
+        viscosity z (r.1, r.2) *
+          (deriv (fun y => partialY z.ux (r.1, y)) r.2 + deriv (fun y => partialX z.uy (r.1, y)) r.2)) =
+    2 * partialX (viscosity z) r * partialX z.ux r + 2 * viscosity z r * partialX (partialX z.ux) r +
+        partialY (viscosity z) r * (partialY z.ux r + partialX z.uy r) +
+      viscosity z r * (partialY (partialY z.ux) r + partialY (partialX z.uy) r)

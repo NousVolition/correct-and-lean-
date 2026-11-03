@@ -1,0 +1,122 @@
+[
+  {
+    "id": "original-display-001",
+    "text": "\\begin{equation}\n  \\mathcal{S} \\cong \\mathbb{R}^{D}, \\qquad D = 5n^3 + 3P + 9P + 2KP + S_{\\mathrm{fab}} + 6 + (6N + 14N^2) = 193,122,\n\\end{equation}"
+  },
+  {
+    "id": "original-display-002",
+    "text": "\\begin{equation}\n  0 = t_0 < t_1 < t_2 < \\dots < t_M = T_{\\mathrm{end}}\n\\end{equation}"
+  },
+  {
+    "id": "original-display-003",
+    "text": "\\begin{align}\n  \\|F_p a_k\\|_2 &> 0 \\qquad \\forall p \\in \\{0, \\dots, P-1\\},\\ \\forall k \\in \\{0, \\dots, K-1\\}, \\label{eq:fiber_pos}\\\\\n  |b_l| &> \\mu_{\\mathrm{read}}\\, a \\qquad \\forall l \\in \\{0, \\dots, S_{\\mathrm{fab}}-1\\}, \\label{eq:well_margin}\n\\end{align}"
+  },
+  {
+    "id": "original-display-004",
+    "text": "\\begin{equation}\n  \\rho_b(s^{(0)}) := \\min_{0 \\le l < S_{\\mathrm{fab}}} |b_l^{(0)}| - \\mu_{\\mathrm{read}}\\, a > 0, \\qquad\n  \\rho_F(s^{(0)}) := \\min_{p, k} \\|F_p^{(0)} a_k\\|_2 > 0.\n\\end{equation}"
+  },
+  {
+    "id": "original-display-005",
+    "text": "\\begin{equation}\n  \\mathcal{U}(s^{(0)}) := \\left\\{ s \\in \\mathcal{S} : \\|b - b^{(0)}\\|_\\infty < \\tfrac{1}{2}\\rho_b(s^{(0)}) \\text{ and } \\max_{p,k} \\|(F_p - F_p^{(0)})a_k\\|_2 < \\tfrac{1}{2}\\rho_F(s^{(0)}) \\right\\} \\subset \\Omega_{\\mathrm{valid}},\n\\end{equation}"
+  },
+  {
+    "id": "original-display-006",
+    "text": "\\begin{equation}\n  \\widehat{b}_l(F, b) = \\frac{1}{2}\\sum_{\\pm}\\left(l_\\pm - \\frac{k_{\\mathrm{micro}}(l_\\pm - b_l)}{k_{\\mathrm{micro}}}\\right) = b_l \\qquad \\forall l \\in \\{0, \\dots, S_{\\mathrm{fab}}-1\\}.\n\\end{equation}"
+  },
+  {
+    "id": "original-display-007",
+    "text": "\\begin{equation}\n  |b_l| \\ge |b_l^{(0)}| - |b_l - b_l^{(0)}| > (\\mu_{\\mathrm{read}}a + \\rho_b(s^{(0)})) - \\tfrac{1}{2}\\rho_b(s^{(0)}) = \\mu_{\\mathrm{read}}a + \\tfrac{1}{2}\\rho_b(s^{(0)}) > \\mu_{\\mathrm{read}}a,\n\\end{equation}"
+  },
+  {
+    "id": "original-display-008",
+    "text": "\\begin{equation}\n  \\|\\mathcal{M}\\|_{\\mathrm{op}} = 1, \\quad \\|\\mathbb{P}\\|_{\\mathrm{op}} = 1, \\quad \\|\\nabla_{\\mathrm{spec}}\\|_{\\mathrm{op}} \\le \\frac{2\\pi n}{\\sqrt{3}}, \\quad \\|\\nabla_{\\mathrm{cd}}\\|_{\\mathrm{op}} \\le \\sqrt{3}\\,n.\n\\end{equation}"
+  },
+  {
+    "id": "original-display-009",
+    "text": "\\begin{equation}\n  \\|\\mathcal{T}_{\\mathrm{ctx}}(C, u) - \\mathcal{T}_{\\mathrm{ctx}}(\\widetilde{C}, \\widetilde{u})\\|_2 \\le 12 n^2 D_{\\mathrm{diff}} \\|C - \\widetilde{C}\\|_2 + 6n\\left(\\|u\\|_\\infty \\|C - \\widetilde{C}\\|_2 + \\|\\widetilde{C}\\|_\\infty \\|u - \\widetilde{u}\\|_2\\right).\n\\end{equation}"
+  },
+  {
+    "id": "original-display-010",
+    "text": "\\begin{equation}\n    \\widetilde{\\psi}(z) := \\psi\\!\\left(\\left(\\left(z + \\tfrac{1}{2}\\right) \\bmod 1\\right) - \\tfrac{1}{2}\\right), \\qquad \\psi(\\delta) := \\sum_{\\sigma \\in \\{-1, 0, 1\\}} \\exp\\!\\left(-\\frac{(\\delta + \\sigma)^2}{2 w_{\\mathrm{th}}^2}\\right),\n  \\end{equation}"
+  },
+  {
+    "id": "original-display-011",
+    "text": "\\begin{equation}\n    |\\widetilde{\\psi}(z_1) - \\widetilde{\\psi}(z_2)| \\le L_\\psi |z_1 - z_2| \\qquad \\forall z_1, z_2 \\in \\mathbb{R}, \\qquad L_\\psi := \\sup_{\\delta \\in (-1/2, 1/2)} |\\psi'(\\delta)| \\le \\frac{3}{w_{\\mathrm{th}}\\sqrt{e}}.\n  \\end{equation}"
+  },
+  {
+    "id": "original-display-012",
+    "text": "\\begin{equation}\n    Z_{p,j}(X) \\ge \\exp\\!\\left(-\\frac{1}{8 n^2 w_{\\mathrm{th}}^2}\\right) > 0 \\qquad \\forall X \\in \\mathbb{R}^{P \\times 3},\n  \\end{equation}"
+  },
+  {
+    "id": "original-display-013",
+    "text": "\\begin{equation}\n    \\|R(X) - R(\\widetilde{X})\\|_F \\le L_R \\|X - \\widetilde{X}\\|_F \\qquad \\forall X, \\widetilde{X} \\in \\mathbb{R}^{P \\times 3}.\n  \\end{equation}"
+  },
+  {
+    "id": "original-display-014",
+    "text": "\\begin{equation}\n  \\lim_{z \\to (k + 1/2)^-} \\widetilde{\\psi}(z) = \\psi(1/2) = \\psi(-1/2) = \\lim_{z \\to (k + 1/2)^+} \\widetilde{\\psi}(z)\n  = e^{-1/(8 w_{\\mathrm{th}}^2)} + e^{-9/(8 w_{\\mathrm{th}}^2)} + e^{-25/(8 w_{\\mathrm{th}}^2)}.\n\\end{equation}"
+  },
+  {
+    "id": "original-display-015",
+    "text": "\\begin{equation}\n  |R^{(j)}_{p,m}(X) - R^{(j)}_{p,m}(\\widetilde{X})|\n  = \\left|\\frac{\\widetilde{\\psi}(X_{p,j}-x_m) - R^{(j)}_{p,m}(X) Z_{p,j}(X)}{Z_{p,j}(\\widetilde{X})}\\right|\n  \\le \\frac{(1 + n) L_\\psi}{z_{\\min}} |X_{p,j} - \\widetilde{X}_{p,j}|.\n\\end{equation}"
+  },
+  {
+    "id": "original-display-016",
+    "text": "\\begin{equation}\n  q(g_C) = \\sqrt{\\|g_C\\|_2^2 + \\delta^2} - \\sqrt{\\Gamma^2 + \\delta^2}, \\qquad\n  a_e(q) = \\begin{cases}\n    0, & q \\le 0, \\\\\n    q \\exp\\!\\left(-\\dfrac{\\epsilon^2}{q^2}\\right), & q > 0,\n  \\end{cases}\n\\end{equation}"
+  },
+  {
+    "id": "original-display-017",
+    "text": "\\begin{equation}\n    0 \\le a_e'(q) \\le \\frac{2}{\\sqrt{e}} \\approx 1.21306 \\qquad \\forall q \\in \\mathbb{R}.\n  \\end{equation}"
+  },
+  {
+    "id": "original-display-018",
+    "text": "\\begin{equation}\n  a_e'(q) = \\left(1 + \\frac{2\\epsilon^2}{q^2}\\right)\\exp\\!\\left(-\\frac{\\epsilon^2}{q^2}\\right) > 0.\n\\end{equation}"
+  },
+  {
+    "id": "original-display-019",
+    "text": "\\begin{equation}\n    0 < \\nu_{\\min} := \\nu_0 e^{-\\beta_{\\mathrm{th}}} \\le \\nu(\\theta) \\le \\nu_{\\max} := \\nu_0 e^{\\beta_{\\mathrm{th}}} < \\infty \\qquad \\forall \\theta \\in \\mathbb{R}.\n  \\end{equation}"
+  },
+  {
+    "id": "original-display-020",
+    "text": "\\begin{equation}\n    \\mathrm{raw}_\\pm(r) = w_{\\mathrm{rate}}\\left(\\frac{r_\\pm}{\\sqrt{r_\\pm^2 + s_{\\mathrm{rate}}^2}}\\right)^2 = w_{\\mathrm{rate}} \\frac{r_\\pm^2}{r_\\pm^2 + s_{\\mathrm{rate}}^2}, \\qquad s_{\\mathrm{rate}} = 0.04 > 0,\n  \\end{equation}"
+  },
+  {
+    "id": "original-display-021",
+    "text": "\\begin{equation}\n    \\left|\\frac{d}{dr}\\mathrm{raw}_\\pm(r)\\right| = w_{\\mathrm{rate}} \\frac{2 r_\\pm s_{\\mathrm{rate}}^2}{(r_\\pm^2 + s_{\\mathrm{rate}}^2)^2} \\le \\frac{3\\sqrt{3}\\,w_{\\mathrm{rate}}}{8 s_{\\mathrm{rate}}}.\n  \\end{equation}"
+  },
+  {
+    "id": "original-display-022",
+    "text": "\\begin{equation}\n    \\mathrm{den}_p(s) := p_{\\mathrm{floor}} + \\eta\\,\\mathrm{avail}_p(s) + \\mathrm{rawpower}_p(s) \\ge p_{\\mathrm{floor}} = 10^{-5} > 0 \\qquad \\forall s \\in \\mathcal{S}.\n  \\end{equation}"
+  },
+  {
+    "id": "original-display-023",
+    "text": "\\begin{equation}\n    E(F_p) = \\frac{1}{2}\\left(F_p^\\top F_p - I_3\\right), \\qquad \\mathrm{strain\\_magnitude}(F)_p = \\|E(F_p)\\|_F.\n  \\end{equation}"
+  },
+  {
+    "id": "original-display-024",
+    "text": "\\begin{equation}\n    \\big|\\|E(F_p)\\|_F - \\|E(\\widetilde{F}_p)\\|_F\\big| \\le \\|E(F_p) - E(\\widetilde{F}_p)\\|_F \\le \\frac{1}{2}\\left(\\|F_p\\|_F + \\|\\widetilde{F}_p\\|_F\\right)\\|F_p - \\widetilde{F}_p\\|_F,\n  \\end{equation}"
+  },
+  {
+    "id": "original-display-025",
+    "text": "\\begin{equation}\n    \\mathrm{margin}_{i,j}(s) = \\exp(\\lambda_{i,j}) - \\|e_j - \\bar{e}_i\\|_2.\n  \\end{equation}"
+  },
+  {
+    "id": "original-display-026",
+    "text": "\\begin{equation}\n  \\mathrm{mem}_{i,j}(s) = f_{\\mathrm{read}}\\frac{\\sum_{m : (r_m)_{\\mathrm{rec}}=i,\\, (r_m)_{\\mathrm{orig}}=j} w_m(s)\\, \\mathrm{ev}_m}{p_{\\mathrm{hist}} + \\sum_{m : (r_m)_{\\mathrm{rec}}=i,\\, (r_m)_{\\mathrm{orig}}=j} w_m(s)},\n\\end{equation}"
+  },
+  {
+    "id": "original-display-027",
+    "text": "\\begin{equation}\n    \\|\\mathcal{F}(t, s) - \\mathcal{F}(t, \\widetilde{s})\\|_2 \\le L_K \\|s - \\widetilde{s}\\|_2 \\qquad \\forall t \\in [t_q, t_{q+1}),\\ \\forall s, \\widetilde{s} \\in K.\n  \\end{equation}"
+  },
+  {
+    "id": "original-display-028",
+    "text": "\\begin{equation}\n    s(t) = \\widetilde{s}(t) \\qquad \\forall t \\in [t_q, t_{\\mathrm{exit}}].\n  \\end{equation}"
+  },
+  {
+    "id": "original-display-029",
+    "text": "\\begin{equation}\n  E_{\\mathrm{diff}}(t) := \\frac{1}{2}\\|s(t) - \\widetilde{s}(t)\\|_2^2, \\qquad t \\in [t^*, t^* + \\eta].\n\\end{equation}"
+  },
+  {
+    "id": "original-display-030",
+    "text": "\\begin{equation}\n  \\frac{d}{dt}E_{\\mathrm{diff}}(t) = \\big\\langle s(t) - \\widetilde{s}(t),\\, \\mathcal{F}(t, s(t)) - \\mathcal{F}(t, \\widetilde{s}(t)) \\big\\rangle\n  \\le \\|s(t) - \\widetilde{s}(t)\\|_2 \\, L_K \\|s(t) - \\widetilde{s}(t)\\|_2 = 2 L_K E_{\\mathrm{diff}}(t).\n\\end{equation}"
+  }
+]

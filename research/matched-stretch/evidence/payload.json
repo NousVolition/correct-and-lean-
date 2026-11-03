@@ -1,0 +1,156 @@
+[
+  {
+    "path": "reports/matched-stretch/final-matrix/all-runs.csv",
+    "encoding": "utf-8",
+    "sha256": "b0e58d28be2169aa4d8f58a3324d2ff07356904bee014f547b16e9e202f0e653",
+    "git_blob_sha": "34d45669cecab86cca7e69df094fd44b84703847",
+    "size": 10853
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/analysis.json",
+    "encoding": "utf-8",
+    "sha256": "d0d34804a2468b899ab78ff3ead8d20ec44f71a715cdee2d55edb0d2e859109c",
+    "git_blob_sha": "32d5087c8858e4df2fb1758cbe6eed4fbe37a0e9",
+    "size": 661931
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/baseline-curves.png",
+    "encoding": "base64",
+    "sha256": "383dc51e950f2491026f86fe5b3da66a4616c128e97b06541799e247406ddc0b",
+    "git_blob_sha": "645de2688f0b104c365b28b8a62aba295fa3bca4",
+    "size": 267062
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/final-run.json",
+    "encoding": "utf-8",
+    "sha256": "a5946ded076527debb1cf354b4eeff52f405233dabd40f6a71da481d0cef4716",
+    "git_blob_sha": "788a3009df0a3c7a553dee35f6aabfd950c7d345",
+    "size": 106979
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/initial-audit.json",
+    "encoding": "utf-8",
+    "sha256": "925532f206d4b4d09736b829a97b13e191dacc20c919d573b571af6eca6a1b6e",
+    "git_blob_sha": "bc90b0ccd4d934609518b0fbcc785744cd73d095",
+    "size": 8537
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/matrix-verification.json",
+    "encoding": "utf-8",
+    "sha256": "80c191463597b8b25cc1b2dd0384c70e6fa3f626edf6e315609cc13486167caa",
+    "git_blob_sha": "90273d2f47286abf6ea08526c25090d73c6af79b",
+    "size": 30046
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/numerics.py",
+    "encoding": "utf-8",
+    "sha256": "22b169971aaf2efd56d47f685495a575e1622edd56c199b07a785fc97e952f46",
+    "git_blob_sha": "4e7be540f4601e976cf701a35c814e898829fbc5",
+    "size": 9410
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/parameters.png",
+    "encoding": "base64",
+    "sha256": "5ff25b25d568a406a8212ae97372a4c350d1f768b2ecf45389b92994846c5c74",
+    "git_blob_sha": "0f500e78c89d4a8057e035879fe7721243c54afb",
+    "size": 290126
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/perturbation-rates.csv",
+    "encoding": "utf-8",
+    "sha256": "f0ff7299502373cab927cfbffa3f80bb3fc60d2aae31c3b743725927e66207cd",
+    "git_blob_sha": "007b52af05ea47b81a7b2940af8a655e9574daf0",
+    "size": 3889
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/perturbations.png",
+    "encoding": "base64",
+    "sha256": "db775a810203c50059ff3a718465dd52cc90b353814100975a812acbfd0ab7e2",
+    "git_blob_sha": "063652e720de71ca7b00c042fa8bc478608642cd",
+    "size": 200113
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/protocol.json",
+    "encoding": "utf-8",
+    "sha256": "bf298547c07e2d0548cef30985554a5c14e16b35871bf3f61baab6a159cfc65c",
+    "git_blob_sha": "c9fe1ffa375daeb481fe40abeb51c7e44f4028cf",
+    "size": 10375
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/README.md",
+    "encoding": "utf-8",
+    "sha256": "c1b49d2d82c2b3d34faf26eed33dde1859a1b531d622416439e7b1124093cb81",
+    "git_blob_sha": "f1fd9de437fac0ffc4141f5e6a2430deb613351d",
+    "size": 7478
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/recurrence.png",
+    "encoding": "base64",
+    "sha256": "fa057a20d5841d56acaf94b58a682def3637507251b176433de7793ce752069b",
+    "git_blob_sha": "ac64c642af1f4a3208642ec108ee18af2856fa47",
+    "size": 155801
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/refinement.png",
+    "encoding": "base64",
+    "sha256": "f2c7496a5bcbdfec7a6a2a9447b00ad525aaa520246d6fff1e3c5833329b242e",
+    "git_blob_sha": "9fe54d11b09b4b7d91466734dd7d316cb00ba1b0",
+    "size": 192507
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/run_suite.py",
+    "encoding": "utf-8",
+    "sha256": "270da92c7e69e123aa1aa79e449e894dc3acca4a06e41a54b9419b61efff0d07",
+    "git_blob_sha": "c51c53d58f33229d7ab7cc15ebf8fdf5d9db74e4",
+    "size": 13053
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/spectra.png",
+    "encoding": "base64",
+    "sha256": "34cd4f8748d3d05e9572723ebe78d0d9a61e84b503fd24a45125edfeeb43f615",
+    "git_blob_sha": "ba2f58b2ff60eae55cfdc7802ee6b51ba2e95e11",
+    "size": 119705
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/verification-early64.json",
+    "encoding": "utf-8",
+    "sha256": "3eee0afe4be1981489a0c82a12f5e6dd7cdf2d46476e96bca685830a2b8a6148",
+    "git_blob_sha": "f3038c5f8fe752698b025146f79e6d7001290745",
+    "size": 208738
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/verification-final-field.json",
+    "encoding": "utf-8",
+    "sha256": "9d05028ffd614e5c821f8b1f72e4c8700f53812013408f6b7f2fa7397ab365e4",
+    "git_blob_sha": "e32936c38812d8de303c02bc57f75b2b7a477d3b",
+    "size": 111682
+  },
+  {
+    "path": "reports/matched-stretch/final-matrix/widths-budgets.png",
+    "encoding": "base64",
+    "sha256": "9d9e4b9330025bae80437e92dbc87e5f6f2709a85c0dbf9a137fbbb897fc12c4",
+    "git_blob_sha": "1d0d46ab3e930292c9809be71ecc860cd9212a11",
+    "size": 236934
+  },
+  {
+    "path": "reports/matched-stretch/README.md",
+    "encoding": "utf-8",
+    "sha256": "8c511994c8586f4236b73e64e053eee135979cc116b193189f8df8c680912b56",
+    "git_blob_sha": "fd841817b1a63d308ae159aa0d22f21ed586d486",
+    "size": 13813
+  },
+  {
+    "path": "reports/matched-stretch/runs/baseline-n256-half/result.json",
+    "encoding": "utf-8",
+    "sha256": "a5946ded076527debb1cf354b4eeff52f405233dabd40f6a71da481d0cef4716",
+    "git_blob_sha": "788a3009df0a3c7a553dee35f6aabfd950c7d345",
+    "size": 106979
+  },
+  {
+    "path": "STATUS.md",
+    "encoding": "utf-8",
+    "sha256": "4f01c3b9f463e34544c4018ac83ab1f4e15c16e53d3dafb73d1b6a8c08385ada",
+    "git_blob_sha": "3057a21610a4b9d569efb2bd8cc9931f5dabf2ab",
+    "size": 21995
+  }
+]

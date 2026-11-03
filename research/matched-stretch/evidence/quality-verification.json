@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "payload_files": 22,
+  "markdown_links_checked": 156,
+  "payload_bytes": 2788006,
+  "historical_sections_retained": true,
+  "numerical_verification": "passed",
+  "images": "All seven charts visually inspected; axes, labels, legends and curves readable."
+}

@@ -1,0 +1,65 @@
+⚠ [3048/3359] Replayed HugV3InterEventProofs
+warning: HugV3InterEventProofs.lean:75:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: HugV3InterEventProofs.lean:167:0: 'HugV3Event.InterEventVerified.two_load_probe_recovers_rest_strain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: HugV3InterEventProofs.lean:168:0: 'HugV3Event.InterEventVerified.sign_constant_on_margin_ball' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugV3InterEventProofs.lean:169:0: 'HugV3Event.InterEventVerified.fabric_heat_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugV3InterEventProofs.lean:170:0: 'HugV3Event.InterEventVerified.power_limiter_in_unit_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: HugV3InterEventProofs.lean:171:0: 'HugV3Event.InterEventVerified.three_image_shifted_squares_even' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [3355/3359] Replayed ASProofs
+warning: ASProofs.lean:153:19: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ASProofs.lean:153:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+info: ASProofs.lean:444:0: 'SocialAS.Verified.abs_pos_sub_pos_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:445:0: 'SocialAS.Verified.saturation_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:446:0: 'SocialAS.Verified.generalSDrift_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:447:0: 'SocialAS.Verified.generalSDrift_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:448:0: 'SocialAS.Verified.exchange_lipschitz_in_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:449:0: 'SocialAS.Verified.smokeMeaningDrift_nonneg_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:450:0: 'SocialAS.Verified.smokeMeaningDrift_nonpos_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:451:0: 'SocialAS.Verified.branches_sum_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:452:0: 'SocialAS.Verified.update_preserves_simplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:453:0: 'SocialAS.Verified.integralSolution_unique_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:454:0: 'SocialAS.Verified.integralSolution_sub_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3356/3359] Replayed CombinedASHugProofs
+info: CombinedASHugProofs.lean:314:0: 'CombinedASHug.combined_probe_recovers_written_bit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CombinedASHugProofs.lean:315:0: 'CombinedASHug.clay_encounter_branches_simplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CombinedASHugProofs.lean:316:0: 'CombinedASHug.combined_event_preserves_valid_and_jumps' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CombinedASHugProofs.lean:317:0: 'CombinedASHug.combined_trajectory_continuous_AS_but_discontinuous_full' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: CombinedASHugProofs.lean:318:0: 'CombinedASHug.combined_hybrid_uniqueness_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3357/3359] Replayed DelayedReflexASProofs
+warning: DelayedReflexASProofs.lean:129:5: Variable name `h_faster` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h_faster
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: DelayedReflexASProofs.lean:147:5: Variable name `h_old_cut` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h_old_cut
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: DelayedReflexASProofs.lean:204:0: 'DelayedReflexAS.delayedSolution_unique_on_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DelayedReflexASProofs.lean:205:0: 'DelayedReflexAS.reflex_acts_before_conscious_registration' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DelayedReflexASProofs.lean:206:0: 'DelayedReflexAS.faster_reflex_prevents_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DelayedReflexASProofs.lean:207:0: 'DelayedReflexAS.unbraced_peak_stress_lt_braced' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DelayedReflexASProofs.lean:208:0: 'DelayedReflexAS.unbraced_survives_crash_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DelayedReflexASProofs.lean:209:0: 'DelayedReflexAS.mirror_write_is_many_to_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3359 jobs).

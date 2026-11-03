@@ -1,0 +1,63 @@
+HugSolution.lean:36:47: warning: Variable name `ht` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ht
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+ActiveHugSolution.lean:62:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ActiveHugSolution.lean:133:31: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'Hug.Verified.pressure_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.pressure_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.pressure_above_one_allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.tau_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.memory_update_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.imprint_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.no_time_no_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.constant_pressure_ode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.memory_above_one_reachable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.zero_pressure_retains_imprint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.breathing_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.pressure_scale_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.reciprocal_squeeze_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.reciprocal_area_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.inverse_stretch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.mirror_arms' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.exact_tip_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.tolerance_is_not_exact_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.timed_stretch_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.timed_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.smoothstep_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.opening_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.opening_latched' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.lower_pressure_does_not_reclose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.full_open_after_duration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.step_preserves_state' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.Verified.repeated_steps_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.protocol_physical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.sigmoid_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.strain_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.guard_points_inward' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.guard_interval_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.energy_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.energy_chain_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.energy_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.material_loss_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.guard_loss_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.passive_unforced_energy_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.active_energy_can_increase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.participant_difference_closes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.directional_guard_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.shared_directional_sum_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.zero_damper_recovers_old_acceleration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.display_shear_reversible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.display_preserves_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.capped_source_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.capped_source_sign_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.pair_off_below_centre' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.paired_exchange_cancels' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.response_exactly_off' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Verified.sign_reversal_same_force' depends on axioms: [propext, Classical.choice, Quot.sound]

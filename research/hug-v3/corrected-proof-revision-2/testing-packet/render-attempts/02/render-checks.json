@@ -1,0 +1,14 @@
+{
+  "status": "PASS_BROWSER_MATH_RENDER",
+  "mathCount": 34,
+  "mathErrors": [],
+  "overflows": [],
+  "source_sha256": "83bffb6e7233509f030e4929696c0147ad4b032cf07831317dd9b830cf450491",
+  "mathjax_version": "3.2.2",
+  "mathjax_sha256": "d4295dc33744836935c1399feece5159577b34c5c8ffb9f1c6324cd82e03a882",
+  "html_sha256": "af0127ae62bdbe7e07947a5ab126c7cbdc47605b63cbc111e17bc6ac981f1df1",
+  "tex_sha256": "cc64979509fc58ac8dbb7978ee57ec0c009e46320d1505b29c71cfa88054fadb",
+  "formula_texts_identical_in_tex": true,
+  "render_method": "Local MathJax SVG in Chrome PDF, generated from the same Markdown master; TeX compiler unavailable, editable TeX not compiled.",
+  "visual_page_review": "PASS; see visual-review.json"
+}

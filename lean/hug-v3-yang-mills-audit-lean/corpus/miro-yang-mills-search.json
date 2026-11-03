@@ -1,0 +1,16 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total_items\":1123,\"total_results\":0}"
+      }
+    ],
+    "structuredContent": {
+      "total_items": 1123,
+      "total_results": 0
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,105 @@
+Navier–Stokes inverse-estimate audit — 28 October 2026, Pacific time
+
+Finding: the checked source explicitly supplies or retains the m+5 hypotheses at every named call site of the cited lemma and its full-jet counterpart. Downstream quantitative classes provide bounds at every finite order, and the repeated-inverse estimates budget the derivative cost. This audit found no missing-derivative gap caused by the m+4/m+5 discrepancy. It is a source and mathematical audit, not a new Lean/Comparator certificate of the complete theorem.
+
+Version and scope
+
+Repository: https://github.com/openai/NavierStokesAndEuler
+Commit: f9e8bc5b38b6e212696e8a30e3e91517af887bbd
+The full checked-out snapshot contains 2,659 tracked Lean files. Searches covered that complete snapshot. A second scan masked comments and strings before counting named references. The working tree was clean after inspection. Neither the user's corpus nor the earlier comparison PDF was changed.
+
+1. The particular lemma quoted in the earlier audit
+
+SmoothFamilyTorusInverse.norm_derivativeWord_inverse_le is declared at SmoothFamilyTorusInverse.lean:1059. Its two high-order hypotheses bound the pure first-coordinate derivative of order |w|+5 of the source slice and of its coordinate-swapped slice. The bound on the source itself is also required.
+
+There is exactly one explicit reference outside its declaration: line 1135, inside SmoothFamilyTorusInverse.mixedJet_inverse_bound, which begins at line 1082. That caller retains the same |w|+5 requirements as hypotheses on the parameter jet. It constructs hb0, hb1 and hb2 by applying the bounded multilinear parameter jet to the chosen vectors. The resulting common constant is C times the product of their norms. It passes all three bounds to the inverse lemma. The final ring step rearranges the multiplicative constant; it does not change the derivative order.
+
+The name mixedJet_inverse_bound occurs only at two declarations in the snapshot: this declaration and the separate ParametricTorusInverse declaration at line 654. There are no further explicit named uses. This establishes the named-reference result; no compiled proof-term dependency graph was extracted, so it is not presented as a kernel-certified unused-code result.
+
+Source: https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/SmoothFamilyTorusInverse.lean#L1059-L1136
+
+2. The five-derivative estimate actually used downstream
+
+SmoothFamilyTorusInverse.inverse_finiteJets, lines 865–875, is a separate full-tensor estimate. It is proved from applyMultiplier_finiteJets with multiplier growth order 1. Its input order n+1+4 becomes n+5. These are full mixed derivatives, so this estimate should not be identified verbatim with the paper's torus-only C^m estimate.
+
+Its three explicit callers are:
+
+• UniformFourierAlias.realInverse_finiteJets, lines 611–624: assumes bounds for every derivative j <= m+5. Complexification preserves the required norms, so hsource directly supplies them.
+• UniformFourierAlias.familyInverse_finiteJets, lines 804–821: assumes FiniteJetBound (m+5), transfers the same order through the product-coordinate rearrangement, and applies the inverse estimate.
+• GaugeAliasDecay.familyInverse_finiteJets_fiber, lines 29–45: assumes FiniteJetBound (m+5) on the specified fiber and transfers exactly that bound to the product-domain version.
+
+All three retain the actual numerical bound, not merely smoothness. No caller substitutes an m+4 bound for m+5.
+
+Sources:
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/SmoothFamilyTorusInverse.lean#L844-L875
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/UniformFourierAlias.lean#L611-L624
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/UniformFourierAlias.lean#L804-L821
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/GaugeAliasDecay.lean#L29-L73
+
+3. Where the stronger bounds come from
+
+WeightedClasses.MemClass, lines 107–113, quantifies: for every finite derivative order m, there exist constants C and p such that the derivative bounds hold uniformly over the family index and points, for every j <= m. MeanClass is the corresponding weighted specialization. C and p may change with m; they are not assumed uniform over every derivative order at once.
+
+The complete explicit uses of realInverse_finiteJets are in:
+• UniformFourierAlias.meanClass_realInverse: supplies loss=5 to fiberOperator_preserves_meanClass. That general proof asks hf.bounds (m+loss), at line 1002, then constructs the actual input bound for all i <= m+loss.
+• PhysicalMeanDomain.meanClass_temporalInverse: asks hclass.bounds (m+5), line 1247. Fiber localization preserves the required jets, and the proof passes the resulting bound at line 1263.
+• VariableGaugeMean.meanClass_temporalInverse_moving: asks hclass.bounds (m+5), line 2471, preserves those jets under localization, and passes the bound at line 2488.
+
+Thus the conclusion follows from quantitative all-order family estimates. Smoothness by itself would not establish a uniform bound over a varying family; the code supplies the stronger quantitative property.
+
+The two explicit uses of familyInverse_finiteJets occur in UniformFourierAlias.totalIntegral_finiteJets and exactAlias_finiteJets. Both instantiate inverse loss=5 and require m+6p source orders for p integrations by parts. Each step spends five orders on inversion and one on a radial derivative. GaugeAliasDecay.sourceJet_finiteJets_fiber makes the same arithmetic explicit: (m+1)+5+6p = m+6(p+1).
+
+UniformFourierAlias.meanClass_alias_superflat, lines 1148–1165, chooses a finite integration order and then extracts the source estimate at m+6p. Higher-order constants/polynomial degrees are allowed by the all-order class; the same epsilon exponent is preserved by the inverse-class steps. This is genuine derivative budgeting, not an appeal to an unspecified extra derivative.
+
+Sources:
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/WeightedClasses.lean#L105-L116
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/UniformFourierAlias.lean#L979-L1038
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/PhysicalMeanDomain.lean#L1234-L1267
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/VariableGaugeMean.lean#L2458-L2492
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/UniformFourierAlias.lean#L843-L880
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/UniformFourierAlias.lean#L1131-L1165
+
+4. Connection to the final theorem
+
+A manually inspected source route runs from inverse_finiteJets through realInverse_finiteJets and the moving temporal MeanClass bounds. VariableGaugeMean then propagates the bound through desiredIncrement, temporalAtIndex and temporalStreamPotential (lines 2494–2521 and 2734–2748). ActualMeanPhysicalData.initialTemporal_class supplies its source class from ActualInitialMean.primary_bounds and applies that result (lines 531–548). initialTemporal_nativeJets and ActualPhysicalStageBounds.actualInitialTemporalInput package the resulting bounds for the constructed fields (lines 563–566 and 844–848 respectively).
+
+GluedStageEstimates uses that constructed input in its smoothness and finite-background bounds (lines 311–321 and 379–440); actualStageEstimates packages those conclusions (lines 684–725). ActualCandidateAssembly.estimates, witness and selected_witness use this stage record (lines 1090–1098 and 1153–1181). NavierStokesR3.ActualCandidate.selected_candidate_one_with_initial_rest consumes selected_witness (lines 143–153). Theorem.lean then constructs theorem_1_1_with_initial_rest and theorem_1_1 (lines 25–50). The periodic corollary obtains its candidate from the same whole-space theorem (PeriodicPaperTheorem.lean:155–162). ComparatorSolution exposes both final results.
+
+The final source statements do not leave an m+5 regularity assumption on an external input: their external parameter is positive viscosity, with fields constructed existentially. This inspection traces the relevant source route and the derivative-budget interface. It does not re-prove every lemma within the global construction or certify all its definitions.
+
+Sources:
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/ActualMeanPhysicalData.lean#L531-L566
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/ActualPhysicalStageBounds.lean#L844-L848
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/GluedStageEstimates.lean#L379-L440
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/ActualCandidateAssembly.lean#L1090-L1181
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/R3/ActualCandidate.lean#L143-L153
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/R3/Theorem.lean#L25-L50
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/PeriodicPaperTheorem.lean#L155-L162
+https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/ComparatorSolution.lean
+
+5. Independent mathematical check of the isolated m+4 estimate
+
+Assume a smooth zero-mean function F on the unit two-torus, N = v dot grad, and the paper's nonresonance/divisor bound |v dot k|^(-1) <= C(1+|k|) for nonzero integer k. This assumption is kept explicit; the entire global construction is not inferred from it.
+
+Set n=|k|_infinity >= 1. Select a coordinate whose frequency has magnitude n. Integrating the Fourier coefficient by parts m+4 times in that coordinate gives
+
+  |F_hat(k)| <= (2*pi*n)^(-(m+4)) * ||F||_(C^(m+4)).
+
+For any output multi-index alpha with |alpha| <= m, differentiation contributes at most a constant times n^m, and the inverse multiplier contributes at most a constant times n. Consequently each differentiated inverse-series term is bounded by
+
+  C_m * ||F||_(C^(m+4)) * n^(-3).
+
+There are exactly 8n integer lattice points with infinity norm n. The sum is therefore controlled by 8 * sum_(n>=1) n^(-2), which converges. The Weierstrass bound controls the supremum of every derivative up to order m and yields the paper's local C^m <= C_m C^(m+4) estimate. Smooth input permits the same reasoning at every order. The zero Fourier mode is fixed to zero.
+
+The Lean coefficient_seminorm_bound instead uses a lattice majorant with fourth-power decay and requests p+4 derivatives for the p-th weighted Fourier moment. The inverse uses moment p=m+1, hence m+5. This explains the extra derivative as a conservative proof route; it is not a counterexample to the sharper m+4 bound. The hand argument above has not been formalized or compiled here.
+
+Paper: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf#page=95 (Lemma 8.6 and proof on page 96)
+Lean: https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes/SmoothFourierData.lean#L343-L387
+
+6. Verification boundary
+
+Newly performed: full-snapshot named-reference searches; comment/string-masked occurrence counts; manual inspection of all named direct call sites described above; manual inspection of the higher-order class and iteration bounds; source tracing into the constructed candidate and final theorem adapters; the isolated Fourier summability argument.
+
+Not performed: a Lean build, Comparator run, extraction of compiled proof-term dependencies, or certification of the complete 166-page proof. No Lean/Lake executable was found in the checked environment; the repository requires Lean 4.34.0-rc2 and matching dependencies. Existing metadata's self-assessment was not treated as a new verified result. An exploratory lexical graph was not sufficient to resolve all namespace/dot-notation dependencies and is not used as proof of a complete dependency chain; the source route above was inspected manually.
+
+Conclusion limited to this issue: the m+4/m+5 mismatch is real as a difference between the displayed paper estimate and the cited Lean estimate. The inspected uses explicitly account for five derivatives, and this review found no resulting unsatisfied hypothesis or derivative-budget failure at the checked interfaces. This finding strengthens the earlier audit; it does not turn that audit into full theorem certification.

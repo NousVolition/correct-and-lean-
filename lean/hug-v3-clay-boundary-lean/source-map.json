@@ -1,0 +1,447 @@
+{
+  "scope": "Traceable source-function mapping and narrow fresh arithmetic checks; no full correspondence theorem.",
+  "mappings": [
+    {
+      "source": "continuum.py",
+      "source_function": "strain_tensor",
+      "start_line": 15,
+      "end_line": 17,
+      "proposed_lean_definitions": [
+        "green"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "continuum.py",
+      "source_function": "strain_magnitude",
+      "start_line": 19,
+      "end_line": 20,
+      "proposed_lean_definitions": [
+        "strainNorm"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "continuum.py",
+      "source_function": "body_quadrature",
+      "start_line": 60,
+      "end_line": 68,
+      "proposed_lean_definitions": [
+        "sourceGeometry (constructor export)"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "continuum.py",
+      "source_function": "hat",
+      "start_line": 93,
+      "end_line": 93,
+      "proposed_lean_definitions": [
+        "hat"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "continuum.py",
+      "source_function": "real",
+      "start_line": 94,
+      "end_line": 94,
+      "proposed_lean_definitions": [
+        "realGrid"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "continuum.py",
+      "source_function": "filter",
+      "start_line": 95,
+      "end_line": 96,
+      "proposed_lean_definitions": [
+        "filt"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "continuum.py",
+      "source_function": "grad",
+      "start_line": 97,
+      "end_line": 99,
+      "proposed_lean_definitions": [
+        "grad"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "continuum.py",
+      "source_function": "divergence",
+      "start_line": 100,
+      "end_line": 103,
+      "proposed_lean_definitions": [
+        "divergence"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "continuum.py",
+      "source_function": "project",
+      "start_line": 104,
+      "end_line": 110,
+      "proposed_lean_definitions": [
+        "project"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "continuum.py",
+      "source_function": "context_transport",
+      "start_line": 112,
+      "end_line": 127,
+      "proposed_lean_definitions": [
+        "contextTransport"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "continuum.py",
+      "source_function": "matrices",
+      "start_line": 129,
+      "end_line": 150,
+      "proposed_lean_definitions": [
+        "M",
+        "R"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "continuum.py",
+      "source_function": "material",
+      "start_line": 158,
+      "end_line": 178,
+      "proposed_lean_definitions": [
+        "fiber",
+        "fiberStrain",
+        "fiberRate",
+        "effective",
+        "rawRate",
+        "sensitivity",
+        "materialStress",
+        "extraConductivity"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "continuum.py",
+      "source_function": "input",
+      "start_line": 180,
+      "end_line": 184,
+      "proposed_lean_definitions": [
+        "pulse"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "continuum.py",
+      "source_function": "rhs",
+      "start_line": 186,
+      "end_line": 281,
+      "proposed_lean_definitions": [
+        "rhsFromRecords",
+        "rhs"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "social_base.py",
+      "source_function": "memory_feature",
+      "start_line": 84,
+      "end_line": 86,
+      "proposed_lean_definitions": [
+        "memoryFeature"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "social_base.py",
+      "source_function": "margins",
+      "start_line": 127,
+      "end_line": 129,
+      "proposed_lean_definitions": [
+        "margin"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "social_base.py",
+      "source_function": "room",
+      "start_line": 131,
+      "end_line": 135,
+      "proposed_lean_definitions": [
+        "room"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "social_base.py",
+      "source_function": "social_rhs",
+      "start_line": 144,
+      "end_line": 214,
+      "proposed_lean_definitions": [
+        "socialRates"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "social_base.py",
+      "source_function": "coupling",
+      "start_line": 216,
+      "end_line": 222,
+      "proposed_lean_definitions": [
+        "observations",
+        "socialRates"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "outcome_score",
+      "start_line": 39,
+      "end_line": 44,
+      "proposed_lean_definitions": [
+        "outcomeValid",
+        "score"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "initial",
+      "start_line": 57,
+      "end_line": 57,
+      "proposed_lean_definitions": [
+        "initial",
+        "utilityBaseline"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "local_strain",
+      "start_line": 58,
+      "end_line": 60,
+      "proposed_lean_definitions": [
+        "fabricStrain"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "energy_force",
+      "start_line": 61,
+      "end_line": 66,
+      "proposed_lean_definitions": [
+        "fabricEnergy",
+        "fabricGradient"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "constitutive",
+      "start_line": 67,
+      "end_line": 74,
+      "proposed_lean_definitions": [
+        "fabricHeat",
+        "fabricStress",
+        "fabricRate"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "probe",
+      "start_line": 75,
+      "end_line": 81,
+      "proposed_lean_definitions": [
+        "probeEstimate"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "bits_from_probe",
+      "start_line": 82,
+      "end_line": 87,
+      "proposed_lean_definitions": [
+        "slotBytes",
+        "readRecords"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "quant",
+      "start_line": 88,
+      "end_line": 91,
+      "proposed_lean_definitions": [
+        "roundEven",
+        "quant"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "payload",
+      "start_line": 92,
+      "end_line": 112,
+      "proposed_lean_definitions": [
+        "payload"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "unpack",
+      "start_line": 113,
+      "end_line": 125,
+      "proposed_lean_definitions": [
+        "unpack"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "decode_probe",
+      "start_line": 126,
+      "end_line": 133,
+      "proposed_lean_definitions": [
+        "readRecords"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "read",
+      "start_line": 134,
+      "end_line": 134,
+      "proposed_lean_definitions": [
+        "readRecords"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "energy",
+      "start_line": 135,
+      "end_line": 135,
+      "proposed_lean_definitions": [
+        "storedEnergy"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "prepare_write",
+      "start_line": 136,
+      "end_line": 165,
+      "proposed_lean_definitions": [
+        "writeAccount",
+        "writeEvent"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "initial",
+      "start_line": 175,
+      "end_line": 178,
+      "proposed_lean_definitions": [
+        "initial",
+        "utilityBaseline"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "retrieve",
+      "start_line": 184,
+      "end_line": 202,
+      "proposed_lean_definitions": [
+        "recordWeight",
+        "exposure",
+        "memory"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "utility",
+      "start_line": 203,
+      "end_line": 208,
+      "proposed_lean_definitions": [
+        "utility"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "make_event",
+      "start_line": 213,
+      "end_line": 222,
+      "proposed_lean_definitions": [
+        "makeEvent"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "structural_hug.py",
+      "source_function": "write_event",
+      "start_line": 223,
+      "end_line": 231,
+      "proposed_lean_definitions": [
+        "writeEvent"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    },
+    {
+      "source": "run.py",
+      "source_function": "run_case",
+      "start_line": 6,
+      "end_line": 68,
+      "proposed_lean_definitions": [
+        "events",
+        "boundary",
+        "capture",
+        "completeEvent",
+        "Solves"
+      ],
+      "status": "Manually transcribed; correspondence not kernel-proved"
+    }
+  ],
+  "original_sealed_files_unchanged": true,
+  "source_crc_reference": {
+    "input_ascii": "123456789",
+    "zlib_crc32": 3421780262,
+    "lean_reference_value": 3421780262,
+    "match": true
+  },
+  "historical_deformation": {
+    "file": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\results\\main_display.npz",
+    "sha256": "1b81e6451b5786d39fd46540fd3c8b941ed29f32e3296b9e925846693af5194b",
+    "time_samples": 57,
+    "maximum_sampled_squared_column_norm": 1.1638610965125313,
+    "inward_boundary_threshold": 2.161875,
+    "scope": "Read-only historical sampled Heun data, not a new simulation, not an interval enclosure, not a continuous-time proof."
+  },
+  "excluded_from_dynamical_transcription": [
+    "Numerical Heun error/roundoff semantics",
+    "Output-only pressure and energy diagnostics",
+    "Output/display archives",
+    "Peak-work diagnostic roots"
+  ],
+  "remaining": [
+    "Prove the proposed definitions correspond to the intended exact-real source",
+    "Prove complete local regularity/existence/uniqueness",
+    "Prove continuous-time bounds that ensure read validity and endpoint reachability",
+    "Prove every full payload/write passes capacity, range and work checks from the actual initial condition"
+  ]
+}

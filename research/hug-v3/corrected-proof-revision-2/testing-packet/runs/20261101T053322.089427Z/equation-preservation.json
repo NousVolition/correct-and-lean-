@@ -1,0 +1,19 @@
+{
+  "status": "exact_text_match",
+  "exact_match": true,
+  "reference_count": 30,
+  "candidate_count": 30,
+  "missing_ids": [],
+  "added_ids": [],
+  "shared_equation_order_changed": false,
+  "changed_equations": [],
+  "original_source_transcription_verified": false,
+  "rendered_appearance_verified": false,
+  "mathematical_equivalence_verified": false,
+  "scope": "Exact decoded strings and record order only; no normalization, source extraction, rendering, or algebra",
+  "reference_sha256": "bb7d8bac5e3e89d378977b740bdc24ad30356844e8bbd19ef3f4fd340d8d83b9",
+  "candidate_sha256": "bb7d8bac5e3e89d378977b740bdc24ad30356844e8bbd19ef3f4fd340d8d83b9",
+  "script_sha256": "eb18d8e68deeda38c4b4d48c924cf1852d2a15a49b61c8ca91e8a8c3d6b30371",
+  "input_helper_sha256": "b59c8f70474b2ed1fcd41a3ae57642ede3885c8dc27050c8b9a350ce1d6298f2",
+  "python_version": "3.12.14"
+}

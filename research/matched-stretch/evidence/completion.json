@@ -1,0 +1,87 @@
+{
+  "status": "complete, independently verified, published, GitHub checks passed and mirrored",
+  "commit": "f7b923c40011b2c3a261dc118959f75259cb5ce4",
+  "base": "7fbc7f28f685c86f824d7587aff91feedf20d3da",
+  "tree": "f7c31e8fe1b67a15c611cf40739b622b6c1cdcdc",
+  "payload_files": 22,
+  "unchanged_blobs_preserved": 7199,
+  "all_uploaded_git_blob_hashes_matched": true,
+  "report": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/f7b923c40011b2c3a261dc118959f75259cb5ce4/reports/matched-stretch/final-matrix/README.md",
+  "remote_payload_sha256_verified": 22,
+  "local_mirror_files_verified": 7221,
+  "local_mirror_verified": true,
+  "delivery_status": "delivered",
+  "updated_epoch": 1793582221.7561069,
+  "completed_utc": "2026-11-02T01:52:16.964214+00:00",
+  "original_jobs": 48,
+  "model_endpoint": 0.4,
+  "saved_outputs_per_run": 41,
+  "new_saved_fields_remeasured": 574,
+  "retained_independently_verified_jobs": 34,
+  "records_audited": 1968,
+  "all_remote_payload_hashes_verified": true,
+  "ci": "All four checks and both workflows passed",
+  "checks": [
+    {
+      "name": "Analyze (python)",
+      "conclusion": "success",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/actions/runs/41371212758/job/125041877511"
+    },
+    {
+      "name": "checks",
+      "conclusion": "success",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/actions/runs/41371212730/job/125041877339"
+    },
+    {
+      "name": "Analyze (actions)",
+      "conclusion": "success",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/actions/runs/41371212758/job/125041877336"
+    },
+    {
+      "name": "Original water study \u2014 Windows reference platform",
+      "conclusion": "success",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/actions/runs/41371212730/job/125041877113"
+    }
+  ],
+  "ci_runs": [
+    {
+      "id": 41371212730,
+      "name": "Project checks",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/actions/runs/41371212730"
+    },
+    {
+      "id": 41371212758,
+      "name": "CodeQL Advanced",
+      "url": "https://github.com/NousVolition/My-Sources-Project-ALL/actions/runs/41371212758"
+    }
+  ],
+  "all_previous_completed_conditions_accounted_for": [
+    "completed_vortex_final_publication",
+    "completed_viscosity128_nu0p01_publication",
+    "completed_viscosity01_disturbance_publication",
+    "completed_viscosity0p1_disturbance_publication"
+  ],
+  "evidence_directory": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-09\\referenced-chatgpt-conversation-this-is-an\\outputs\\matched-stretch-followup\\final-matrix-20261102T0050Z",
+  "cleanup_status": "complete; study task removed and heartbeat deleted",
+  "delivery": {
+    "status": "delivered",
+    "delivered_utc": "2026-11-02T01:52:46.462484+00:00",
+    "channel": "current chat commentary; final notification follows cleanup",
+    "report": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/f7b923c40011b2c3a261dc118959f75259cb5ce4/reports/matched-stretch/final-matrix/README.md",
+    "commit": "f7b923c40011b2c3a261dc118959f75259cb5ce4",
+    "message": "All 48 runs reached t=0.40; final report independently verified and published; GitHub and mirror checks passed; convergence limitations retained."
+  },
+  "cleanup": {
+    "completed_utc": "2026-11-02T01:52:48.3922971Z",
+    "automation_deletion": "deleted",
+    "study_processes_absent": true,
+    "status": "passed",
+    "controller_lock_absent": true,
+    "task_absent": true,
+    "history_preserved": true,
+    "task_removed": "Codex-MatchedStretch-FinalRun",
+    "automation_id": "track-matched-stretch-tests",
+    "all_cleanup_complete": true,
+    "finalized_utc": "2026-11-02T01:53:38.072641+00:00"
+  }
+}

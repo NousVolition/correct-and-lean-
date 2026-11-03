@@ -1,0 +1,32 @@
+⚠ [3418/3430] Replayed Volterra
+warning: Volterra.lean:18:0: automatically included section variable(s) unused in theorem `Volterra.extend_continuous`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Volterra.lean:21:8: automatically included section variable(s) unused in theorem `Volterra.extend_val`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3421/3430] Replayed ActiveHugSolution
+warning: ActiveHugSolution.lean:62:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ActiveHugSolution.lean:133:31: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3425/3430] Replayed HugTools
+warning: HugTools.lean:36:66: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3427/3430] Replayed HugBounds
+warning: HugBounds.lean:103:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: HugBounds.lean:113:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+ℹ [3429/3430] Replayed HugExistenceSolution
+info: HugExistenceSolution.lean:11:0: 'ActiveHug.Verified.full_coupled_existence_uniqueness' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3430 jobs).

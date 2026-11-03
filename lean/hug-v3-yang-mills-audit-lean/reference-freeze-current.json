@@ -1,0 +1,43 @@
+{
+  "frozen_utc": "2026-11-02T06:54:58.1863551Z",
+  "scope": "Objective strain, instantaneous social and memory invariances, record-list permutation, actual deformation rate and a precise obstruction to naive frame covariance. No full Yang-Mills equivalence or existence-uniqueness claim.",
+  "theorems": [
+    "HugV3.Source.YMAuditVerified.green_objective",
+    "HugV3.Source.YMAuditVerified.strain_norm_objective",
+    "HugV3.Source.YMAuditVerified.fiber_strain_objective",
+    "HugV3.Source.YMAuditVerified.fabric_strain_objective",
+    "HugV3.Source.YMAuditVerified.decoded_records_frame_invariant",
+    "HugV3.Source.YMAuditVerified.observations_frame_invariant",
+    "HugV3.Source.YMAuditVerified.retrieval_frame_invariant",
+    "HugV3.Source.YMAuditVerified.social_rates_frame_invariant",
+    "HugV3.Source.YMAuditVerified.accepted_rhs_social_frame_invariant",
+    "HugV3.Source.YMAuditVerified.event_record_frame_invariant",
+    "HugV3.Source.YMAuditVerified.write_account_frame_invariant",
+    "HugV3.Source.YMAuditVerified.memory_write_frame_equivariant",
+    "HugV3.Source.YMAuditVerified.retrieval_ignores_list_order",
+    "HugV3.Source.YMAuditVerified.full_rate_ignores_list_order",
+    "HugV3.Source.YMAuditVerified.actual_deformation_component",
+    "HugV3.Source.YMAuditVerified.deformation_product_rule",
+    "HugV3.Source.YMAuditVerified.actual_full_rhs_frame_defect",
+    "HugV3.Source.YMAuditVerified.quarter_turn_is_orthogonal",
+    "HugV3.Source.YMAuditVerified.explicit_nonzero_frame_defect",
+    "HugV3.Source.YMAuditVerified.naive_rotation_covariance_fails"
+  ],
+  "files": {
+    "comparator.json": "f3435faf845bbfe3c3f4f429fbc15bae169854a09fefa08836a642558b1086f7",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "645ec8fc4a1cb6389a40304e816f27318cd918d8182481388c65c8b3a010cbf5",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "V3YangMillsAuditChallenge.lean": "ad9c6b58d002c859215310c2307a60ac270f39db768f60279ba4677dfd2c8177",
+    "V3YangMillsAuditDefinitions.lean": "88ca4b9afe5bba1a235895f00216d8b8c2d61c76b09073a9f5978f76f9221051"
+  },
+  "revision": 2,
+  "revision_reason": "Corrected only the audit-side matrix type notation in Orthogonal to Matrix.of Q after a Lean typeclass error. All twenty challenge statements and all original Hug definitions remain byte-identical. Revision 1 is retained."
+}

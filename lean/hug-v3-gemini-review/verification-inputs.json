@@ -1,0 +1,20 @@
+{
+  "files": {
+    "AllGeminiProofs.lean": "d5ee9b703f58bd2794a91229a8a91818ae42fabac752475f97e596423c75c39d",
+    "ASModel.lean": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513",
+    "ASProofs.lean": "f8f563247b520ebb36efddfd993b3a9ebabe2a733db1b7f8aad93d0e479f98d7",
+    "CombinedASHugProofs.lean": "5dc9500087a1f99d4c81c102eeff40c439c7de6f0dff885ad2a83c27e3668d11",
+    "comparator.json": "88874f60907a2455e73881b4a3ce7c0a56f47cd8fa2ae736c03f17e64977d62a",
+    "DelayedReflexASProofs.lean": "87ad776193f389ade3aa921ee9ffb37148b629323051aa7d8afa910d6f486bb4",
+    "GeminiChallenge.lean": "67a1ff8acaccde274e3a3d2fab3ac87310b73e66ca386e93e4dd7b77874e6bd2",
+    "HugV3InterEventProofs.lean": "55e8177efb97a2a325685b0a93075db509d1f98d64aa9f41df89a2b7e80830f1",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "18c0e4c2063a348626229ac99e8255428ab82c9fd85391dc403f6a3be97099b7",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "preservation-checks.json": "aab3809777126303a13d7ed23b2d0e7f7143757ac157bb6c308f2cb928ef3d9f",
+    "reference-freeze.json": "f8895f679503171378aedabdfcdf461da1a1b9159798b2414b1c8542056f38f3",
+    "run-linux-check.sh": "cf668c2ac70d050788b6e42e46fb40328ec99d8252a54b316f56525697870d2c",
+    "V3EventSpecification.lean": "c32643d7c28b8cd5d8759880390c0e1b5c84783c11a3b96f96209e07188e1f88"
+  },
+  "scope": "77 supplied theorem statements; imports/proof bodies repaired; no claim of full Hug v3 delayed hybrid existence or uniqueness."
+}

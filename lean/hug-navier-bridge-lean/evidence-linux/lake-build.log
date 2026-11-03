@@ -1,0 +1,29 @@
+⚠ [3419/3420] Replayed BridgeSolution
+warning: BridgeSolution.lean:13:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: BridgeSolution.lean:24:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: BridgeSolution.lean:24:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+info: BridgeSolution.lean:110:0: 'HugNavierBridge.Verified.shear_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BridgeSolution.lean:111:0: 'HugNavierBridge.Verified.shear_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BridgeSolution.lean:112:0: 'HugNavierBridge.Verified.nonzero_shear_not_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BridgeSolution.lean:113:0: 'HugNavierBridge.Verified.strain_matching' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BridgeSolution.lean:114:0: 'HugNavierBridge.Verified.argument_matching' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BridgeSolution.lean:115:0: 'HugNavierBridge.Verified.guard_diffusion_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BridgeSolution.lean:116:0: 'HugNavierBridge.Verified.four_rates_agree_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BridgeSolution.lean:117:0: 'HugNavierBridge.Verified.power_matching' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BridgeSolution.lean:118:0: 'HugNavierBridge.Verified.power_matching_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BridgeSolution.lean:119:0: 'HugNavierBridge.Verified.primary_required_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BridgeSolution.lean:120:0: 'HugNavierBridge.Verified.primary_power_matches' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BridgeSolution.lean:121:0: 'HugNavierBridge.Verified.same_number_chi_is_not_same_argument' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: BridgeSolution.lean:122:0: 'HugNavierBridge.Verified.nonzero_diffusion_blocks_local_match' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: BridgeSolution.lean:123:0: 'HugNavierBridge.Verified.simultaneous_conditional_bridge' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3420 jobs).

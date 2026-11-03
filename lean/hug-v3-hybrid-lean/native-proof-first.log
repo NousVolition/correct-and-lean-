@@ -1,0 +1,19 @@
+HybridProofs.lean:77:2: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  Decidable (∃ pair, Step S k start pair.1 pair.2)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+HybridProofs.lean:84:18: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+HybridProofs.lean:84:6: warning: declaration uses `sorry`
+HybridProofs.lean:81:16: warning: declaration uses `sorry`
+HybridProofs.lean:82:5: warning: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+HybridProofs.lean:85:2: warning: Unused tactic linter: `exact Classical.choose_spec h` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+HybridProofs.lean:85:2: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`

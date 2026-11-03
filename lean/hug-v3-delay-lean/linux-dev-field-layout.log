@@ -1,0 +1,20 @@
+✔ [3112/3116] Built V3DelayDefinitions (9.0s)
+⚠ [3113/3116] Built V3DelayProofs (1.4s)
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3115/3116] Built V3DelayChallenge (1.4s)
+warning: V3DelayChallenge.lean:7:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:9:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:11:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:13:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:15:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:17:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:21:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:25:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:27:8: declaration uses `sorry`
+Build completed successfully (3116 jobs).

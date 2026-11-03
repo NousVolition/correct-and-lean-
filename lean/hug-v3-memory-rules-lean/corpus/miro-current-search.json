@@ -1,0 +1,339 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"message\":\"Warning: approximate search bounds for [doc, table] can cause incorrect layout placement. Read the returned IDs or bbox scope with the canvas read tool; use data-rendered-bounds when present.\",\"total_items\":1123,\"total_results\":22,\"results\":[{\"id\":\"3458764687916065070\",\"type\":\"textArea\",\"parent\":\"3458764687916065061\",\"scope\":{\"x\":-4140,\"y\":4022,\"width\":1680,\"height\":1},\"matches\":{\"half\":[\"half\"]}},{\"id\":\"3458764687918055243\",\"type\":\"shape\",\"parent\":\"3458764687918055187\",\"scope\":{\"x\":-6240,\"y\":3440,\"width\":720,\"height\":410},\"matches\":{\"partial\":[\"partial\"]}},{\"id\":\"3458764688055517599\",\"type\":\"textArea\",\"parent\":\"3458764688055411860\",\"scope\":{\"x\":15978,\"y\":18612,\"width\":746,\"height\":1},\"matches\":{\"identity\":[\"identity\"]}},{\"id\":\"3458764688169288664\",\"type\":\"textArea\",\"parent\":\"3458764688169288636\",\"scope\":{\"x\":4482,\"y\":-7244,\"width\":656,\"height\":103},\"matches\":{\"future\":[\"future\"]}},{\"id\":\"3458764688322802603\",\"type\":\"shape\",\"parent\":\"3458764688322802594\",\"scope\":{\"x\":64,\"y\":22908,\"width\":1008,\"height\":250},\"matches\":{\"half\":[\"half\"]}},{\"id\":\"3458764688323948958\",\"type\":\"textArea\",\"parent\":\"3458764688322802594\",\"scope\":{\"x\":64,\"y\":23301,\"width\":2072,\"height\":1},\"matches\":{\"partial\":[\"partial\"]}},{\"id\":\"3458764688323948951\",\"type\":\"shape\",\"parent\":\"3458764688323948942\",\"scope\":{\"x\":64,\"y\":24520,\"width\":640,\"height\":256},\"matches\":{\"partial\":[\"PARTIAL\"]}},{\"id\":\"3458764688323948952\",\"type\":\"shape\",\"parent\":\"3458764688323948942\",\"scope\":{\"x\":864,\"y\":24268,\"width\":1272,\"height\":136},\"matches\":{\"partial\":[\"partial\"]}},{\"id\":\"3458764688514454805\",\"type\":\"textArea\",\"parent\":\"3458764688514454759\",\"scope\":{\"x\":2864,\"y\":53532,\"width\":1016,\"height\":26},\"matches\":{\"identity\":[\"identity\"]}},{\"id\":\"3458764688514454825\",\"type\":\"textArea\",\"parent\":\"3458764688514454759\",\"scope\":{\"x\":4104,\"y\":53927,\"width\":1016,\"height\":64},\"matches\":{\"identity\":[\"identity\"]}},{\"id\":\"3458764688514454827\",\"type\":\"textArea\",\"parent\":\"3458764688514454759\",\"scope\":{\"x\":4104,\"y\":54172,\"width\":1016,\"height\":26},\"matches\":{\"identity\":[\"identity\"]}},{\"id\":\"3458764688514454888\",\"type\":\"textArea\",\"parent\":\"3458764688514454761\",\"scope\":{\"x\":2864,\"y\":55794,\"width\":1016,\"height\":26},\"matches\":{\"partial\":[\"PARTIAL\"]}},{\"id\":\"3458764688514454892\",\"type\":\"textArea\",\"parent\":\"3458764688514454761\",\"scope\":{\"x\":2864,\"y\":56131,\"width\":1016,\"height\":53},\"matches\":{\"half\":[\"Half\"]}},{\"id\":\"3458764687912872595\",\"type\":\"table\",\"scope\":{\"x\":3464,\"y\":620,\"width\":1,\"height\":1},\"matches\":{\"buffer\":[\"buffer\"]}},{\"id\":\"3458764687921912123\",\"type\":\"table\",\"scope\":{\"x\":-5327,\"y\":12695,\"width\":1,\"height\":1},\"matches\":{\"identity\":[\"identity\"]}},{\"id\":\"3458764688323881762\",\"type\":\"doc\",\"scope\":{\"x\":0,\"y\":25456,\"width\":784,\"height\":1105},\"matches\":{\"partial\":[\"partial\"],\"identity\":[\"identity\"]}},{\"id\":\"3458764688323881765\",\"type\":\"doc\",\"scope\":{\"x\":1888,\"y\":25456,\"width\":784,\"height\":1105},\"matches\":{\"partial\":[\"Partial\"]}},{\"id\":\"3458764688385112808\",\"type\":\"doc\",\"scope\":{\"x\":0,\"y\":32280,\"width\":784,\"height\":1105},\"matches\":{\"identity\":[\"identity\"]}},{\"id\":\"3458764688385112809\",\"type\":\"doc\",\"scope\":{\"x\":1100,\"y\":32280,\"width\":784,\"height\":1105},\"matches\":{\"half\":[\"half\"],\"partial\":[\"partial\"]}},{\"id\":\"3458764688385112810\",\"type\":\"doc\",\"scope\":{\"x\":2200,\"y\":32280,\"width\":784,\"height\":1105},\"matches\":{\"half\":[\"half\"]}}],\"next_cursor\":20}"
+      }
+    ],
+    "structuredContent": {
+      "message": "Warning: approximate search bounds for [doc, table] can cause incorrect layout placement. Read the returned IDs or bbox scope with the canvas read tool; use data-rendered-bounds when present.",
+      "total_items": 1123,
+      "total_results": 22,
+      "results": [
+        {
+          "id": "3458764687916065070",
+          "type": "textArea",
+          "parent": "3458764687916065061",
+          "scope": {
+            "x": -4140,
+            "y": 4022,
+            "width": 1680,
+            "height": 1
+          },
+          "matches": {
+            "half": [
+              "half"
+            ]
+          }
+        },
+        {
+          "id": "3458764687918055243",
+          "type": "shape",
+          "parent": "3458764687918055187",
+          "scope": {
+            "x": -6240,
+            "y": 3440,
+            "width": 720,
+            "height": 410
+          },
+          "matches": {
+            "partial": [
+              "partial"
+            ]
+          }
+        },
+        {
+          "id": "3458764688055517599",
+          "type": "textArea",
+          "parent": "3458764688055411860",
+          "scope": {
+            "x": 15978,
+            "y": 18612,
+            "width": 746,
+            "height": 1
+          },
+          "matches": {
+            "identity": [
+              "identity"
+            ]
+          }
+        },
+        {
+          "id": "3458764688169288664",
+          "type": "textArea",
+          "parent": "3458764688169288636",
+          "scope": {
+            "x": 4482,
+            "y": -7244,
+            "width": 656,
+            "height": 103
+          },
+          "matches": {
+            "future": [
+              "future"
+            ]
+          }
+        },
+        {
+          "id": "3458764688322802603",
+          "type": "shape",
+          "parent": "3458764688322802594",
+          "scope": {
+            "x": 64,
+            "y": 22908,
+            "width": 1008,
+            "height": 250
+          },
+          "matches": {
+            "half": [
+              "half"
+            ]
+          }
+        },
+        {
+          "id": "3458764688323948958",
+          "type": "textArea",
+          "parent": "3458764688322802594",
+          "scope": {
+            "x": 64,
+            "y": 23301,
+            "width": 2072,
+            "height": 1
+          },
+          "matches": {
+            "partial": [
+              "partial"
+            ]
+          }
+        },
+        {
+          "id": "3458764688323948951",
+          "type": "shape",
+          "parent": "3458764688323948942",
+          "scope": {
+            "x": 64,
+            "y": 24520,
+            "width": 640,
+            "height": 256
+          },
+          "matches": {
+            "partial": [
+              "PARTIAL"
+            ]
+          }
+        },
+        {
+          "id": "3458764688323948952",
+          "type": "shape",
+          "parent": "3458764688323948942",
+          "scope": {
+            "x": 864,
+            "y": 24268,
+            "width": 1272,
+            "height": 136
+          },
+          "matches": {
+            "partial": [
+              "partial"
+            ]
+          }
+        },
+        {
+          "id": "3458764688514454805",
+          "type": "textArea",
+          "parent": "3458764688514454759",
+          "scope": {
+            "x": 2864,
+            "y": 53532,
+            "width": 1016,
+            "height": 26
+          },
+          "matches": {
+            "identity": [
+              "identity"
+            ]
+          }
+        },
+        {
+          "id": "3458764688514454825",
+          "type": "textArea",
+          "parent": "3458764688514454759",
+          "scope": {
+            "x": 4104,
+            "y": 53927,
+            "width": 1016,
+            "height": 64
+          },
+          "matches": {
+            "identity": [
+              "identity"
+            ]
+          }
+        },
+        {
+          "id": "3458764688514454827",
+          "type": "textArea",
+          "parent": "3458764688514454759",
+          "scope": {
+            "x": 4104,
+            "y": 54172,
+            "width": 1016,
+            "height": 26
+          },
+          "matches": {
+            "identity": [
+              "identity"
+            ]
+          }
+        },
+        {
+          "id": "3458764688514454888",
+          "type": "textArea",
+          "parent": "3458764688514454761",
+          "scope": {
+            "x": 2864,
+            "y": 55794,
+            "width": 1016,
+            "height": 26
+          },
+          "matches": {
+            "partial": [
+              "PARTIAL"
+            ]
+          }
+        },
+        {
+          "id": "3458764688514454892",
+          "type": "textArea",
+          "parent": "3458764688514454761",
+          "scope": {
+            "x": 2864,
+            "y": 56131,
+            "width": 1016,
+            "height": 53
+          },
+          "matches": {
+            "half": [
+              "Half"
+            ]
+          }
+        },
+        {
+          "id": "3458764687912872595",
+          "type": "table",
+          "scope": {
+            "x": 3464,
+            "y": 620,
+            "width": 1,
+            "height": 1
+          },
+          "matches": {
+            "buffer": [
+              "buffer"
+            ]
+          }
+        },
+        {
+          "id": "3458764687921912123",
+          "type": "table",
+          "scope": {
+            "x": -5327,
+            "y": 12695,
+            "width": 1,
+            "height": 1
+          },
+          "matches": {
+            "identity": [
+              "identity"
+            ]
+          }
+        },
+        {
+          "id": "3458764688323881762",
+          "type": "doc",
+          "scope": {
+            "x": 0,
+            "y": 25456,
+            "width": 784,
+            "height": 1105
+          },
+          "matches": {
+            "partial": [
+              "partial"
+            ],
+            "identity": [
+              "identity"
+            ]
+          }
+        },
+        {
+          "id": "3458764688323881765",
+          "type": "doc",
+          "scope": {
+            "x": 1888,
+            "y": 25456,
+            "width": 784,
+            "height": 1105
+          },
+          "matches": {
+            "partial": [
+              "Partial"
+            ]
+          }
+        },
+        {
+          "id": "3458764688385112808",
+          "type": "doc",
+          "scope": {
+            "x": 0,
+            "y": 32280,
+            "width": 784,
+            "height": 1105
+          },
+          "matches": {
+            "identity": [
+              "identity"
+            ]
+          }
+        },
+        {
+          "id": "3458764688385112809",
+          "type": "doc",
+          "scope": {
+            "x": 1100,
+            "y": 32280,
+            "width": 784,
+            "height": 1105
+          },
+          "matches": {
+            "half": [
+              "half"
+            ],
+            "partial": [
+              "partial"
+            ]
+          }
+        },
+        {
+          "id": "3458764688385112810",
+          "type": "doc",
+          "scope": {
+            "x": 2200,
+            "y": 32280,
+            "width": 784,
+            "height": 1105
+          },
+          "matches": {
+            "half": [
+              "half"
+            ]
+          }
+        }
+      ],
+      "next_cursor": 20
+    },
+    "isError": false
+  }
+}

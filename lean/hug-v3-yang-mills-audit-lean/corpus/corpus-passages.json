@@ -1,0 +1,49 @@
+{
+  "checked_utc": "2026-11-02T06:43:29.3818479Z",
+  "coverage": 638,
+  "source_sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+  "read_only": true,
+  "matches": [
+    {
+      "paragraph": 51,
+      "text": "Within-context consistency is distinguished from invariance across contexts and from fairness.",
+      "math_objects": 0
+    },
+    {
+      "paragraph": 222,
+      "text": "Consistency within a context can coexist with different thresholds across contexts. A contradiction arises only if the same policy also asserts invariance over the very differences it allows to change outcomes. Actor-specific modifiers need an explicit rule and justification; relabeling an identity difference as context does not settle a fairness audit.",
+      "math_objects": 0
+    },
+    {
+      "paragraph": 374,
+      "text": "• Which thresholds are intended to be invariant, and which are intentionally context-sensitive?",
+      "math_objects": 0
+    },
+    {
+      "paragraph": 497,
+      "text": "System 1: The Static Invariance Matrix",
+      "math_objects": 0
+    },
+    {
+      "paragraph": 498,
+      "text": "Tracks a paired rescaling of two scalar variables. For λ > 0, scaling S by λ and R by 1/λ preserves their product. This is an algebraic invariance under a specified transformation; no equilibrium or time conservation follows without a dynamical model. The precise description is a product preserved under reciprocal scaling. This transformation property does not establish stability or boundedness of a subsequent time evolution.",
+      "math_objects": 0
+    },
+    {
+      "paragraph": 515,
+      "text": "Product invariant under the stated reciprocal rescaling; not an established dynamic equilibrium.",
+      "math_objects": 0
+    },
+    {
+      "paragraph": 517,
+      "text": "Treats status or context as a signed field over a specified spatial embedding. Advection carries the field, diffusion spreads it, and a localized source changes it. A network alone does not specify the continuous geometry needed for these derivatives. With constant D_diff ≥ 0 and ∇ · u = 0, the following transport form is also a conservative continuity form.",
+      "math_objects": 0
+    },
+    {
+      "paragraph": 520,
+      "text": "Kₕ is a smooth localized kernel of width h > 0 with spatial integral 1. The original δ(x − x₀) is an alternative point-source idealization interpreted as a distribution, not an ordinary smooth function. A stores accumulated input; κ converts that stored quantity to a source rate with the required units. This retains the original memory choice explicitly. Under closed or periodic boundaries, constant positive excess utility can make the total field grow quadratically in time because the stored input is integrated again by the evolution equation. If instantaneous production is intended instead, specify J(t) = γ[U(t) − Ubaseline] with suitable units; that is a different model. Negative excess input may lower this signed field. Initial and boundary data remain necessary. For compressible transport, replace u · ∇S by ∇ · (Su).",
+      "math_objects": 0
+    }
+  ],
+  "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-05\\ca\\outputs\\sims-framework-correction-20261022\\sources\\corrected-corpus.docx"
+}

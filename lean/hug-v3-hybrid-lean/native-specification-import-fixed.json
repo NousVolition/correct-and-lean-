@@ -1,0 +1,17 @@
+[
+  {
+    "module": "HybridSpecification",
+    "exit_code": 0,
+    "seconds": 19.67200000002049
+  },
+  {
+    "module": "V3HybridSpecification",
+    "exit_code": 0,
+    "seconds": 18.390999999974156
+  },
+  {
+    "module": "HybridChallenge",
+    "exit_code": 0,
+    "seconds": 18.5
+  }
+]

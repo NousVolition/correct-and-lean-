@@ -1,0 +1,176 @@
+{
+  "uid": 1000,
+  "solution_precompiled": false,
+  "source_files": {
+    "AllGeminiProofs.lean": "d5ee9b703f58bd2794a91229a8a91818ae42fabac752475f97e596423c75c39d",
+    "ASModel.lean": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513",
+    "ASProofs.lean": "f8f563247b520ebb36efddfd993b3a9ebabe2a733db1b7f8aad93d0e479f98d7",
+    "CombinedASHugProofs.lean": "5dc9500087a1f99d4c81c102eeff40c439c7de6f0dff885ad2a83c27e3668d11",
+    "comparator.json": "88874f60907a2455e73881b4a3ce7c0a56f47cd8fa2ae736c03f17e64977d62a",
+    "DelayedReflexASProofs.lean": "87ad776193f389ade3aa921ee9ffb37148b629323051aa7d8afa910d6f486bb4",
+    "GeminiChallenge.lean": "67a1ff8acaccde274e3a3d2fab3ac87310b73e66ca386e93e4dd7b77874e6bd2",
+    "HugV3InterEventProofs.lean": "55e8177efb97a2a325685b0a93075db509d1f98d64aa9f41df89a2b7e80830f1",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "18c0e4c2063a348626229ac99e8255428ab82c9fd85391dc403f6a3be97099b7",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "preservation-checks.json": "aab3809777126303a13d7ed23b2d0e7f7143757ac157bb6c308f2cb928ef3d9f",
+    "reference-freeze.json": "f8895f679503171378aedabdfcdf461da1a1b9159798b2414b1c8542056f38f3",
+    "run-linux-check.sh": "cf668c2ac70d050788b6e42e46fb40328ec99d8252a54b316f56525697870d2c",
+    "V3EventSpecification.lean": "c32643d7c28b8cd5d8759880390c0e1b5c84783c11a3b96f96209e07188e1f88"
+  },
+  "dependencies": [
+    {
+      "name": "Comparator",
+      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "clean": true
+    },
+    {
+      "name": "mathlib",
+      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "clean": true
+    },
+    {
+      "name": "lean4export",
+      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "clean": true
+    },
+    {
+      "name": "plausible",
+      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "clean": true
+    },
+    {
+      "name": "importGraph",
+      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+      "clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "clean": true
+    },
+    {
+      "name": "aesop",
+      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "clean": true
+    },
+    {
+      "name": "Qq",
+      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "clean": true
+    },
+    {
+      "name": "batteries",
+      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+      "clean": true
+    },
+    {
+      "name": "Cli",
+      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "clean": true
+    }
+  ],
+  "binaries": {
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/nsverify/verification/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
+    "/home/nsverify/verification/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
+    "/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
+    "/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
+    "/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+  },
+  "config": {
+    "challenge_module": "GeminiChallenge",
+    "solution_module": "AllGeminiProofs",
+    "theorem_names": [
+      "HugV3Event.InterEventVerified.two_load_probe_recovers_rest_strain",
+      "HugV3Event.InterEventVerified.sign_constant_on_margin_ball",
+      "HugV3Event.InterEventVerified.fabric_heat_nonneg",
+      "HugV3Event.InterEventVerified.traction_eq_neg_elastic_gradient",
+      "HugV3Event.InterEventVerified.power_limiter_den_ge_floor",
+      "HugV3Event.InterEventVerified.power_limiter_den_pos",
+      "HugV3Event.InterEventVerified.power_limiter_in_unit_interval",
+      "HugV3Event.InterEventVerified.three_image_shifted_squares_even",
+      "SocialAS.Verified.pos_nonneg",
+      "SocialAS.Verified.self_le_pos",
+      "SocialAS.Verified.pos_of_nonneg",
+      "SocialAS.Verified.pos_of_nonpos",
+      "SocialAS.Verified.pos_eq_zero_of_nonpos",
+      "SocialAS.Verified.abs_pos_sub_pos_le",
+      "SocialAS.Verified.indicator_false",
+      "SocialAS.Verified.indicator_true",
+      "SocialAS.Verified.indicator_unit",
+      "SocialAS.Verified.saturation_nonneg",
+      "SocialAS.Verified.one_sub_saturation",
+      "SocialAS.Verified.saturation_le_one",
+      "SocialAS.Verified.saturation_unit",
+      "SocialAS.Verified.effect_unit",
+      "SocialAS.Verified.chiForward_unit",
+      "SocialAS.Verified.chiReverse_unit",
+      "SocialAS.Verified.thetaForward_unit",
+      "SocialAS.Verified.thetaReverse_unit",
+      "SocialAS.Verified.saturation_sub_identity",
+      "SocialAS.Verified.saturation_lipschitz",
+      "SocialAS.Verified.generalSDrift_zero",
+      "SocialAS.Verified.generalSDrift_one",
+      "SocialAS.Verified.total_S_drift_balance",
+      "SocialAS.Verified.exchange_lipschitz_in_gap",
+      "SocialAS.Verified.loadDrift_nonneg_at_zero",
+      "SocialAS.Verified.loadDrift_lipschitz_in_L",
+      "SocialAS.Verified.receivedMeaning_unit",
+      "SocialAS.Verified.meaningRate_nonneg",
+      "SocialAS.Verified.meaningDrift_nonneg_at_zero",
+      "SocialAS.Verified.meaningDrift_nonpos_at_one",
+      "SocialAS.Verified.smokeMeaningDrift_nonneg_at_zero",
+      "SocialAS.Verified.smokeMeaningDrift_nonpos_at_one",
+      "SocialAS.Verified.clayMeaningDrift_nonneg_at_zero",
+      "SocialAS.Verified.clayMeaningDrift_nonpos_at_one",
+      "SocialAS.Verified.opening_unit",
+      "SocialAS.Verified.registration_unit",
+      "SocialAS.Verified.conditionalRegistration_unit",
+      "SocialAS.Verified.branches_nonneg",
+      "SocialAS.Verified.branches_sum_eq_one",
+      "SocialAS.Verified.update_false_eq_self",
+      "SocialAS.Verified.update_preserves_simplex",
+      "SocialAS.Verified.integralSolution_unique_A",
+      "SocialAS.Verified.integralSolution_sub_eq",
+      "SocialAS.Verified.integralSolution_coord_unique_of_drift_eq",
+      "CombinedASHug.continuous_toProd",
+      "CombinedASHug.continuous_asState",
+      "CombinedASHug.continuous_meaningDist",
+      "CombinedASHug.continuous_fabricCoord",
+      "CombinedASHug.combined_probe_recovers_rest_strain",
+      "CombinedASHug.combined_probe_recovers_written_bit",
+      "CombinedASHug.abs_writtenBit_eq",
+      "CombinedASHug.written_bit_satisfies_well_margin",
+      "CombinedASHug.pos_nonneg",
+      "CombinedASHug.indicator_unit",
+      "CombinedASHug.clay_opportunity_nonneg",
+      "CombinedASHug.clay_opening_unit",
+      "CombinedASHug.smoke_conditionalRegistration_unit",
+      "CombinedASHug.clay_encounter_branches_simplex",
+      "CombinedASHug.update_preserves_simplex",
+      "CombinedASHug.combined_event_preserves_valid_and_jumps",
+      "CombinedASHug.combined_trajectory_continuous_AS_but_discontinuous_full",
+      "CombinedASHug.combined_hybrid_uniqueness_transfer",
+      "DelayedReflexAS.sub_tau_mem_history_window",
+      "DelayedReflexAS.delayedSolution_unique_on_step",
+      "DelayedReflexAS.reflex_acts_before_conscious_registration",
+      "DelayedReflexAS.faster_reflex_prevents_cut",
+      "DelayedReflexAS.unbraced_peak_stress_lt_braced",
+      "DelayedReflexAS.unbraced_survives_crash_window",
+      "DelayedReflexAS.mirror_write_is_many_to_one"
+    ],
+    "enable_nanoda": true,
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ]
+  },
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)"
+}

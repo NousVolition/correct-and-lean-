@@ -1,0 +1,125 @@
+{
+  "uid": 1000,
+  "solution_precompiled": false,
+  "dependencies": [
+    {
+      "name": "Comparator",
+      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "clean": true
+    },
+    {
+      "name": "mathlib",
+      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "clean": true
+    },
+    {
+      "name": "lean4export",
+      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "clean": true
+    },
+    {
+      "name": "plausible",
+      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "clean": true
+    },
+    {
+      "name": "importGraph",
+      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+      "clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "clean": true
+    },
+    {
+      "name": "aesop",
+      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "clean": true
+    },
+    {
+      "name": "Qq",
+      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "clean": true
+    },
+    {
+      "name": "batteries",
+      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+      "clean": true
+    },
+    {
+      "name": "Cli",
+      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "clean": true
+    }
+  ],
+  "source_files": {
+    "ASModel.lean": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513",
+    "ASChallenge.lean": "7cfde5677c27ef54f99062f4386c8251525806722a3dedfb63711f728cfa1f6b",
+    "ASOpenClaims.lean": "632f32a31874e7b57f40590b3abd41e2dee043ff7a6fe7e5b5d27bda116f135a",
+    "comparator.json": "4d675b87134e33f288c6ab3a89d7b95280051f8d8b060cb733986e50da552e04",
+    "source-equations.json": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318",
+    "source-protocol.json": "cd3da93d6ab15d19fc01813da63a64ca0ba99c5bc027014b9cf3adf2cc7d97f1",
+    "lakefile.toml": "c2db8a9c90f76c66d779d0f2acffb3fb686b3df2cc3ff585e48bb05f938404eb",
+    "lake-manifest.json": "97853a182e5c15a52a3eb65ce9f625fa729212a2ee58279732af3194554b8f2d",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "ASProofs.lean": "fd8663671930a451c579f27d780714e9d5fd967f3001ab9399ee16a68d47e74d",
+    "reference-freeze.json": "c77d07eac6687cbb759f9cb243aa08d5e9de476051e7d20829570d51bde5fea8"
+  },
+  "binaries": {
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/nsverify/verification/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
+    "/home/nsverify/verification/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
+    "/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
+    "/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
+    "/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+  },
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "config": {
+    "challenge_module": "ASChallenge",
+    "solution_module": "ASProofs",
+    "enable_nanoda": true,
+    "theorem_names": [
+      "SocialAS.Verified.saturation_bounds",
+      "SocialAS.Verified.effect_bounds",
+      "SocialAS.Verified.exchange_no_increase",
+      "SocialAS.Verified.exchange_negative_unchanged",
+      "SocialAS.Verified.exchange_monotone",
+      "SocialAS.Verified.general_smoke_agrees",
+      "SocialAS.Verified.general_clay_agrees",
+      "SocialAS.Verified.total_influence_balance",
+      "SocialAS.Verified.received_meaning_bounds",
+      "SocialAS.Verified.meaning_rate_bounds",
+      "SocialAS.Verified.meaning_lower_boundary",
+      "SocialAS.Verified.meaning_upper_boundary",
+      "SocialAS.Verified.load_lower_boundary",
+      "SocialAS.Verified.activation_nonnegative",
+      "SocialAS.Verified.opening_bounds",
+      "SocialAS.Verified.registration_bounds",
+      "SocialAS.Verified.no_opening_no_registration",
+      "SocialAS.Verified.fully_qualified_blocks_challenge",
+      "SocialAS.Verified.confirmation_unchanged",
+      "SocialAS.Verified.branch_distribution",
+      "SocialAS.Verified.update_no_contribution",
+      "SocialAS.Verified.update_same_meaning",
+      "SocialAS.Verified.update_is_convex",
+      "SocialAS.Verified.update_preserves_simplex",
+      "SocialAS.Verified.constant_accumulation_solves",
+      "SocialAS.Verified.constant_exposure_solves",
+      "SocialAS.Verified.constant_exposure_nonnegative",
+      "SocialAS.Verified.clearing_solves",
+      "SocialAS.Verified.clearing_preserves_nonnegative",
+      "SocialAS.Verified.cleared_equal_meaning_has_zero_drift"
+    ],
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ]
+  }
+}

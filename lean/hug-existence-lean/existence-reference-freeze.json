@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-30",
+  "scope": "All eight primary directional protocol states; every finite forward interval; continuous prescribed force; initial guards in [0,1]",
+  "files": {
+    "HugModel.lean": "6a79142d5fa42642bc47a0246f62b4ab89d0c07ba6257fd0d41e39d6f89b61f5",
+    "ActiveHugModel.lean": "be9d734610480ae9376bfd38b287c2bb9b7758cb50e29109bcf26656a7885f19",
+    "HugFullClaim.lean": "bddda36f0d3f484ffcb5fa0540fe608306fd6e17476875b0f13c99cd41ebd9ba",
+    "HugExistenceChallenge.lean": "0570e7126e3692b8d807509c66c32eb17ca047f2ded8cae4a24b0f35abaae10b",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
+  }
+}

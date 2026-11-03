@@ -1,0 +1,5 @@
+# Separate comparison and audit research
+
+The saved [Navier–Stokes verification report](lean-verification-report.txt) concerns the separate upstream `openai/NavierStokesAndEuler` development at commit `f9e8bc5b38b6e212696e8a30e3e91517af887bbd`. The upstream source is [linked at that exact commit](https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd), not presented as a user-authored proof. The build and independent-kernel evidence here are historical records; those checks were not rerun for this publication.
+
+The [A/S equation audit](as-equation-audit.txt), [meaning-scale audit](meaning-scale-audit.txt), and [Hug–Navier scope correction](hug-navier-single-system-scope-correction.md) preserve their original findings and qualifications. They concern different definitions and cannot be substituted for a full Hug v3 continuation proof.

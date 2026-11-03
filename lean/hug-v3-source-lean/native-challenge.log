@@ -1,0 +1,17 @@
+V3SourceChallenge.lean:6:8: warning: declaration uses `sorry`
+V3SourceChallenge.lean:10:8: warning: declaration uses `sorry`
+V3SourceChallenge.lean:15:8: warning: declaration uses `sorry`
+V3SourceChallenge.lean:18:8: warning: declaration uses `sorry`
+V3SourceChallenge.lean:21:8: warning: declaration uses `sorry`
+V3SourceChallenge.lean:25:8: warning: declaration uses `sorry`
+V3SourceChallenge.lean:29:8: warning: declaration uses `sorry`
+V3SourceChallenge.lean:35:45: error: unexpected token ':='; expected term
+V3SourceChallenge.lean:35:6: error: Application type mismatch: The argument
+  1 / 200
+has type
+  ℝ
+but is expected to have type
+  Prop
+in the application
+  |targetFabric s slot bytes l| = 1 / 50 ∧ 1 / 200
+V3SourceChallenge.lean:37:8: warning: declaration uses `sorry`

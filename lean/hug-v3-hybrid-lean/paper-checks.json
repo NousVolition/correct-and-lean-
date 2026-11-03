@@ -1,0 +1,36 @@
+{
+  "scope": "New source-method unit checks and finite-grid operator counterexample. No evolved main trajectory was simulated.",
+  "declaration_gate": {
+    "case": "main",
+    "accepted": true,
+    "manifest_sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514"
+  },
+  "draft_sha256": "6962654468b09dcccb22a4775fdb9eb19d231e5db5bb460c746c7c1be87b1012",
+  "crc_valid_but_semantically_invalid_outcome": {
+    "unpack_and_probe_accepted": true,
+    "observed": 2.0,
+    "downstream_outcome_error": "outcome outside declared [-1,1]"
+  },
+  "crc_valid_but_reversed_interval": {
+    "unpack_and_probe_accepted": true,
+    "start": 0.12,
+    "end": 0.0,
+    "duration": "-3/25",
+    "matching_cue_denominator": "0",
+    "qualification": "Constructed state in the proposed paper domain; not asserted reachable from the declared initial condition or through the writer."
+  },
+  "unfiltered_spectral_gradient": {
+    "n": 16,
+    "mode": [
+      7,
+      7,
+      7
+    ],
+    "measured_norm_ratio": 76.17957329783718,
+    "exact_ratio": "14*pi*sqrt(3)",
+    "proposed_upper_bound": 58.04157965549497,
+    "correct_safe_unfiltered_bound": "sqrt(3)*pi*n",
+    "dealiased_bound": "2*pi*n/sqrt(3) applies on masked modes"
+  },
+  "equations_and_sealed_sources_unchanged": true
+}

@@ -1,0 +1,15 @@
+{
+  "theorem_count": 44,
+  "unchanged_theorem_headers": true,
+  "unchanged_ASModel": true,
+  "original_user_attachment_preserved": true,
+  "repaired_proofs": [
+    "saturation_lipschitz",
+    "exchange_lipschitz_in_gap",
+    "loadDrift_nonneg_at_zero",
+    "opening_unit",
+    "registration_unit",
+    "update_preserves_simplex"
+  ],
+  "comment_corrections": "Shared-input and conditional-coordinate uniqueness scope made explicit; no theorem or equation changes."
+}

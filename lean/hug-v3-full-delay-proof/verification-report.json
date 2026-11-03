@@ -1,0 +1,148 @@
+{
+  "verified_utc": "2026-11-02T05:24:24.2185613Z",
+  "overall_status": "PARTIAL: full hybrid delayed existence and uniqueness remain UNPROVED",
+  "new_verified_result": "Conditional existence and uniqueness for the complete state on a certified interval and ball; exact history and accepted-write properties",
+  "claim_count": 14,
+  "lean_build_exit": 0,
+  "comparator_exit": 0,
+  "lean_kernel": true,
+  "nanoda_kernel": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "theorem_names": [
+    "HugV3.Source.FullDelayVerified.full_state_round_trip",
+    "HugV3.Source.FullDelayVerified.full_vector_round_trip",
+    "HugV3.Source.FullDelayVerified.full_state_equality",
+    "HugV3.Source.FullDelayVerified.full_segment_exists_unique",
+    "HugV3.Source.FullDelayVerified.history_preserved",
+    "HugV3.Source.FullDelayVerified.first_step_is_actual_delayed_rhs",
+    "HugV3.Source.FullDelayVerified.full_segment_is_delay_solution_on_step",
+    "HugV3.Source.FullDelayVerified.accepted_write_keeps_social",
+    "HugV3.Source.FullDelayVerified.completed_event_keeps_social",
+    "HugV3.Source.FullDelayVerified.accepted_boundary_keeps_social",
+    "HugV3.Source.FullDelayVerified.boundary_deterministic",
+    "HugV3.Source.FullDelayVerified.buffered_social_unchanged_by_write",
+    "HugV3.Source.FullDelayVerified.full_delayed_trace_has_accepted_writes",
+    "HugV3.Source.FullDelayVerified.full_segment_satisfies_original_coordinates"
+  ],
+  "full_theorem": "HugV3.Source.FullDelay.FullDelayedExistenceUniqueness",
+  "full_theorem_status": "UNPROVED PROPOSITION",
+  "full_theorem_submitted": false,
+  "source_model_coordinates": 193122,
+  "same_agent": "The same returning student",
+  "same_idea": "Giving someone space to speak can change what I understand.",
+  "equations_changed": false,
+  "original_sealed_sources_checked": 21,
+  "original_sealed_sources_unchanged": true,
+  "saved_source_copies_unchanged": true,
+  "preserved_input_copies_exact": true,
+  "analytic_hypotheses": [
+    "Complete-rate Lipschitz bound on the declared ball",
+    "Time continuity with prescribed past",
+    "Complete-rate bound and L*(b-a) <= radius",
+    "Compatibility with the original accepted partial RHS on the entire ball and interval"
+  ],
+  "hypotheses_instantiated_for_actual_trajectory": false,
+  "delay_step_conditions": [
+    "Positive constant lag",
+    "Step length at most lag",
+    "History agrees with the step initial state"
+  ],
+  "unresolved": [
+    "Actual full-rate regularity and accepted-domain neighborhood",
+    "Continuation, nonvanishing fibers and readability bounds",
+    "Successful construction, encoding, capacity, budget and nonnegative writing work",
+    "Assembly through every step and event to time 1.6",
+    "Source-transcription correspondence",
+    "A specified rule for the latest variable/partial/mixed/reconstructed memory interpretation"
+  ],
+  "latest_user_timing": "Immediate or delayed experience; inaccurate/mixed content; later solo partial reconstruction",
+  "latest_user_timing_fully_implemented": false,
+  "new_simulation": false,
+  "native_decide_used_in_new_proofs": false,
+  "scope_of_sorry": "Only reference challenge placeholders; no sorryAx allowed in solution proof closure",
+  "runtime_environment": {
+    "distro": "Ubuntu on WSL",
+    "uid": 1000,
+    "real_landrun": true,
+    "af_unix_restricted": true,
+    "fresh_solution": true,
+    "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+    "dependencies": [
+      {
+        "name": "Comparator",
+        "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+        "clean": true
+      },
+      {
+        "name": "mathlib",
+        "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+        "clean": true
+      },
+      {
+        "name": "lean4export",
+        "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+        "clean": true
+      },
+      {
+        "name": "plausible",
+        "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+        "clean": true
+      },
+      {
+        "name": "LeanSearchClient",
+        "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+        "clean": true
+      },
+      {
+        "name": "importGraph",
+        "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+        "clean": true
+      },
+      {
+        "name": "proofwidgets",
+        "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+        "clean": true
+      },
+      {
+        "name": "aesop",
+        "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+        "clean": true
+      },
+      {
+        "name": "Qq",
+        "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+        "clean": true
+      },
+      {
+        "name": "batteries",
+        "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+        "clean": true
+      },
+      {
+        "name": "Cli",
+        "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+        "clean": true
+      }
+    ]
+  },
+  "preflight_file": "evidence-linux/preflight.json",
+  "postflight": {
+    "source_hashes_unchanged": true,
+    "dependency_commits_unchanged": true,
+    "dependency_sources_clean": true
+  },
+  "evidence_hashes": {
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.finished": "0e6fb80ce06a49aef1949d02e5b28b7397e4e7de7c654d2fb7ecf689497a0e1e",
+    "comparator.log": "8ddaaa47ea43009f73320889f1731b6fd620a20fbbfafd0c12a7441f2560bbe0",
+    "comparator.started": "858fc7557b4201ad0cc7c4b6db255a7f2691f8b7b05e7c668938e59a8414b112",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "dd5cc9f6bfd829103df4e6488191db0cec662a1133da83381b1fdbde68c6272b",
+    "postflight.json": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+    "preflight.json": "d9bf0fefede82933780d8dee27654e7edf2892cb023c54da068f6da2aceead52"
+  }
+}

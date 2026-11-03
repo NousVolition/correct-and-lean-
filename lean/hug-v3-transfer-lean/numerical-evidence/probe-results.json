@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "plan_sha256": "2f196716497aaad8549f06c4b37cc826cbf24fd82dde739193795b0cbd7fec3b",
+  "full_coordinates": 193122,
+  "main_steps": 321,
+  "main_seconds": 55.30838084220886,
+  "main_final": {
+    "energy_error": 3.952678169919844e-11,
+    "source_error": 6.938893903907228e-18,
+    "det_error": 1.5231611527610767e-09,
+    "deformation": 0.08997840489095386,
+    "speed": 0.03823425664166073,
+    "min_well_margin": 0.9933526924519155,
+    "decoded_events": [
+      0,
+      1,
+      2
+    ],
+    "decoded_strain_error": 4.99917288088391e-05,
+    "structural_change": 9.160638950057997
+  },
+  "actual_capture_time": 0.4,
+  "norm_rate_difference": [
+    0.022144004766854117,
+    -0.00748823069370666
+  ],
+  "norm_rate_expected": [
+    0.022144004766854124,
+    -0.0074882306937066505
+  ],
+  "alignment": 0.5167968469991853,
+  "squared_guard_rate_difference": 0.020671873879967412,
+  "squared_guard_rate_expected": 0.020671873879967412,
+  "first_pair_benefit_with_imprint": 0.4230769214686383,
+  "first_pair_benefit_empty": 0.0,
+  "second_pair_direct_benefit": 0.0,
+  "first_pair_cooperation_rate_with_imprint": 0.2388972619027498,
+  "first_pair_cooperation_rate_empty": 0.13547504708320246,
+  "second_pair_cooperation_rate_difference_from_memory_probe": 0.0,
+  "accumulator_rate_difference_from_memory_probe": 0.0003158974346965798,
+  "full_field_rate_difference_l2_from_memory_probe": 0.0010259801235998785,
+  "max_identity_error": 9.540979117872439e-18,
+  "errors": {
+    "norm_rate": 9.540979117872439e-18,
+    "other_expression_rate": 0.0,
+    "radius_rate": 0.0,
+    "squared_guard_rate": 0.0,
+    "memory_after_response_change": 0.0
+  },
+  "limits": [
+    "Student and teacher names are interpretive aliases for existing actors; all six agents remain",
+    "Giving speaking space is an interpretation of the modeled encounter, not a measured variable",
+    "The response increment and empty-code state are local diagnostic inputs, not learned or observed changes",
+    "The fresh numerical run is not a proof of exact continuous-time existence, uniqueness, or demographic behavior"
+  ],
+  "probe_interpretation": "Fresh unchanged full main simulation, followed by full-RHS local comparisons at the actual post-first-write state. These comparisons are not alternate integrated trajectories.",
+  "source_files_unchanged": true
+}

@@ -1,0 +1,189 @@
+YOUR UPDATED A/S EQUATION — DIRECT MATHEMATICAL AUDIT
+28 October 2026, America/Los_Angeles
+
+Conclusion
+
+The updated A/S system has an explicit accumulated-input state and a genuine field-feedback loop. Several consequences can be derived exactly, and there are consistent special-case solutions. I found no algebraic contradiction in the corrected coupled equations. This is not a general existence, uniqueness, global-regularity, stability, or empirical-validation certificate.
+
+The concrete failures concern particular interpretations: the original tanh law is not an exact off-switch; a fixed force direction does not guarantee energy removal; accumulated scalar history does not guarantee a distinguishable velocity response; and automatic boundedness for all time is incompatible with some allowed persistent inputs. The updated corpus already acknowledges several of these distinctions. They are not all newly discovered errors in the corrected document.
+
+1. The version and equations actually checked
+
+The user-selected document is the updated 25-page openai-navier-stokes-cross-audit-with-feedback-path.pdf, SHA256 34bc25fddad22e85af9152b856594c8bd2acfac9ba1d032ad136670d351cabae. Its current HTML and pinned equation register were checked against its latest revision record. The updated field-feedback clarification was read directly.
+
+A fresh read of NousVolition/Nous-Volition main returned commit b4ae2c54cd85bfef282c501ecfca83de274e2070. Its published corpus excerpts and equation register agree with the retained A/S passages and the updated document's register. The original corrected Word document was not independently retranscribed in this audit; the authority used here is the selected updated document plus the currently published exact paragraph excerpts.
+
+Primary source passages: P229–230, P261–265, P517–519, P545, P547–550.
+https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/community-mimesis/corpus_extract.json
+https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/community-chain-audit/equation_register.csv
+
+The system, with only notation abbreviated, is:
+
+  A'(t) = gamma [U(t) - U_baseline],       J(t) = kappa A(t),
+  S_t + u dot grad(S) = D_diff Laplacian(S) + K_h(x-x0) J(t),
+  q = |grad S| - Gamma_crit,
+  f = -(sigma/rho) a(q) e_k,
+  u_t + (u dot grad)u = -grad(p) + nu Laplacian(u) + f,
+  div(u) = 0,
+  T = mu0 [grad(u) + grad(u)^T].
+
+The corpus writes A(t) as an integral from its declared origin, where A(0)=0. At a later observation start, A need not be zero: its previous history must be retained or explicitly supplied. A is a scalar accumulator; S is the spatial field. The corpus q is algebraic, not an additional dynamical variable.
+
+K_h is a smooth localized kernel with integral 1. The point-source delta is a separate distributional idealization. The three activation alternatives are kept separate:
+
+  sharp:       a_0(q) = max(q,0);
+  tanh:        a_t(q) = q[1+tanh(q/epsilon)]/2, epsilon>0;
+  exact-off:   a_e(q) = 0 for q<=0; q exp[-(epsilon/q)^2] for q>0.
+
+No response law, forgetting term, new equation, or replacement input was silently selected. The decision/choice examples in the newer document are outside this audit.
+
+2. What is valid
+
+2.1 The feedback loop is already present
+
+The written dependencies are:
+
+  input history -> A -> J -> S -> |grad S| -> force -> u -> transport of S.
+
+In particular, S -> force -> u -> S is a closed field-feedback loop. It needs no additional return-path equation. U(t) may legitimately be a prescribed external input. An autonomous rule generating U would be needed only for a separately claimed internally generated input model.
+
+Two histories can have equal present U but different A. At an instant when u and S otherwise agree, their S time derivatives differ by kappa K_h deltaA. Their gradient time derivatives differ by kappa grad(K_h) deltaA. This establishes a route for history to affect later forcing, not a guarantee that every history difference does so.
+
+2.2 Persistent memory and the scalar-total identity
+
+Assume a fixed domain with periodic boundaries, or boundary conditions that make both net advective and diffusive scalar flux zero. Assume integral K_h=1 on that domain and enough regularity for the integrations. Let M(t)=integral S(x,t) dx. Direct integration gives:
+
+  M'(t) = kappa A(t).
+
+For constant gamma and kappa, at observation start t0:
+
+  M(t) = M(t0) + kappa A(t0)(t-t0)
+         + kappa gamma integral_[t0,t] (t-s)[U(s)-U_baseline] ds.
+
+This follows from the actual equations; it is not an added memory law.
+
+With unit coefficients, zero initial A and M, and excess input +1 on [0,1) followed by zero:
+
+  A(t)=1 and M(t)=t-1/2 for t>=1.
+
+The source persists after the input ends. With +1 then -1 over consecutive unit intervals, A(2)=0 and M(2)=1. Reversing the order gives A(2)=0 and M(2)=-1. Thus the field can retain timing information beyond the present accumulator. These examples were checked with exact rational arithmetic.
+
+The term memory is accurate for accumulated influence. A is not a lossless record of every past input; different histories can have the same integral. Negative excess input can reduce or cancel A without inserting forgetting. S is signed in the corrected source, so negative values are not by themselves a failure.
+
+2.3 Threshold properties, including a useful positive result
+
+The sharp law has an exact off-region and is continuous, but has a derivative kink at its threshold.
+
+The tanh law is smooth as a scalar function of q, with the signed negative tail stated in the corrected source.
+
+The exact-off law is C-infinity in q, including its threshold. In fact, for fixed epsilon>0 and Gamma_crit>=0, a_e(|v|-Gamma_crit) is also C-infinity in the vector v without needing the optional gradient regularization. For Gamma_crit>0 it is identically zero in a neighborhood of v=0; away from v=0 the norm is smooth, and the activation is flat at the threshold. For Gamma_crit=0, |v| exp[-epsilon^2/|v|^2] and all its derivatives extend by zero at v=0, because exponential decay dominates every inverse power. This is a property of the supplied exact-off alternative, not of tanh or the sharp law.
+
+The optional q_delta and q_delta_star have the threshold distinction described by the corpus. For Gamma=1 and delta=1/2, q_delta becomes positive only above |grad S|=sqrt(2), while q_delta_star preserves onset at |grad S|=1. Neither is substituted in this audit.
+
+2.4 Conditional finite-time energy estimates are available
+
+Here the assumptions are a finite periodic domain, D_diff>0, nu>0, smooth K_h in L2, a prescribed locally integrable input U, finite initial L2 fields, and a solution sufficiently regular on the interval being estimated. Let norms and inner products be spatial L2 quantities.
+
+The scalar identity is:
+
+  (1/2) d/dt ||S||_2^2 + D_diff ||grad S||_2^2
+       = kappa A <K_h,S>.
+
+It yields
+
+  ||S(t)||_2 <= ||S(t0)||_2 + |kappa| ||K_h||_2 integral_[t0,t] |A(s)| ds,
+
+and therefore a finite time-integral of ||grad S||_2^2 on every finite interval where these assumptions hold. All three response laws satisfy |a(q)|<=|q|. With c=sigma/rho>=0 and domain volume V:
+
+  ||f||_2 <= c [||grad S||_2 + Gamma_crit sqrt(V)].
+
+Consequently f has a finite L2 time-space bound on such a finite interval. The velocity energy identity gives
+
+  ||u(t)||_2 <= ||u(t0)||_2 + integral_[t0,t] ||f(s)||_2 ds.
+
+These are useful a priori energy estimates for this coupled system. They do not control all velocity derivatives, establish continuation of a smooth solution, or prove uniform bounds as t tends to infinity. If D_diff=0, the stated scalar dissipation argument no longer supplies the gradient integral and cannot be reused unchanged.
+
+3. What fails, with explicit counterexamples or identities
+
+3.1 “The tanh version switches off below threshold” is false
+
+At q=-epsilon:
+
+  a_t(-epsilon) = -0.119202922... epsilon.
+
+More strongly, take a periodic domain, Gamma=epsilon=1, sigma/rho=1, U=U_baseline, A=0, spatially constant S, and constant pressure. With e=e_k and alpha=(1-tanh(1))/2:
+
+  u(x,t)=alpha t e,       alpha=0.119202922...
+
+is an exact solution from rest. Convection, diffusion and divergence vanish; S and A stay constant; momentum reduces to u_t=alpha e. Its kinetic energy per unit volume is alpha^2 t^2/2. Thus this tanh branch can drive flow and increase energy at zero excess input and zero S gradient. This is allowed by its written force, but contradicts a strict off-switch or “no driving below threshold” interpretation.
+
+It is not a finite-time singularity. It is also not automatically a physical conservation-law violation: a body force can supply energy, but its physical source must then be accounted for. Sharp and exact-off laws do not produce this particular background force.
+
+If instead the intended domain is all of R^d with decaying grad S and finite-energy velocity relative to rest, the tanh force with Gamma>0 and sigma>0 approaches a nonzero spatial constant. That conflicts with simply treating it as a decaying, square-integrable force in that setting. Domain and background conventions matter; the periodic example itself remains consistent.
+
+3.2 “The fixed-direction force is always damping” is false
+
+For smooth periodic solutions, direct integration of momentum gives:
+
+  (1/2) d/dt integral |u|^2 dx
+     = -nu integral |grad u|^2 dx
+       -(sigma/rho) integral a(q)(u dot e_k) dx.
+
+The last term has no fixed sign. For a sharp-law example on a (2pi)^2 periodic domain, choose initially:
+
+  S=2 sin(x), u=(0,-1), e_k=(0,1), Gamma=1, sigma/rho=1,
+  U=U_baseline, A=0.
+
+These are smooth divergence-free initial data with a permitted localized kernel (its source is zero here). Initial viscous loss is zero, while the energy input per unit volume is
+
+  average max(2|cos(x)|-1,0) = 2sqrt(3)/pi - 2/3
+                             = 0.435991124... > 0.
+
+The exact integral was cross-checked by quadrature. This disproves unconditional damping even for the nonnegative sharp response. An analogous positive-work initial state is available for exact-off wherever its activation is positive. These examples test general claims about the constitutive law; they do not pretend to be simulations of a particular supplied vortex.
+
+3.3 Constant mean velocity is not generally preserved
+
+On a periodic domain with periodic pressure:
+
+  d/dt average(u) = -(sigma/rho) average[a(q)] e_k.
+
+For sharp and exact-off, nonzero positive activation has a nonzero mean acceleration in the fixed direction. Periodic pressure cannot remove that mean. A solver that forcibly deletes it would change the model. The inspected current published solver explicitly retains the velocity zero mode; that source check is consistent with this requirement.
+
+3.4 “Different retained history must yield different motion” is false
+
+An exact symmetry of all three branches is:
+
+  S -> -S, A -> -A, U-U_baseline -> -(U-U_baseline),
+  u -> u, p -> p.
+
+The S and A equations change sign consistently. |grad S|, q and f do not change. Thus distinct signed fields and input histories can be associated with precisely the same fluid motion. This holds with the same coefficients and kernel; the mirrored initial/history data are part of the construction. It does not say that all history changes are invisible or that the memory mechanism is absent.
+
+There is also a scale ambiguity if the S scale and parameters are unfixed. For lambda>0, scale S, Gamma and epsilon by lambda, kappa by lambda, and sigma by 1/lambda, leaving A, U, u and p unchanged. Since a(lambda q;lambda epsilon)=lambda a(q;epsilon), all three laws preserve the same velocity and pressure. Optional gradient delta must scale too if used. Therefore motion alone cannot identify both the scalar scale and these coefficients. Algebra establishes the general symmetry; finite arithmetic samples only cross-check it.
+
+3.5 Unqualified boundedness or full smoothness does not follow
+
+For constant positive excess input with kappa gamma>0 and zero boundary flux, M has a positive quadratic term. A nonzero accumulator after a finite pulse makes M grow linearly afterward. A claim that every allowed input produces a uniformly bounded scalar total for all time is therefore false. This does not imply finite-time blowup or force growth: force depends on gradients, not the spatial total.
+
+For tanh, smoothness in q does not automatically give smoothness as a function of grad S. Restrict v=(s,0), take Gamma=epsilon=1, and inspect a_t(|s|-1). Its right derivative at zero is approximately -0.090784249 and its left derivative is the opposite. Thus it is not differentiable there. Special parameter cancellations must be assessed separately; this example disproves the blanket smooth-composition claim. Lack of classical differentiability of a constitutive map is not itself proof of nonexistence or ill-posedness in every solution class.
+
+4. What still needs specification or proof
+
+These are outstanding mathematical or empirical tasks, not assertions that the corresponding claim is false:
+
+- A definite initial-boundary-value problem: dimension and domain; boundary conditions; u0, S0 and accumulator history; chosen response law; coefficients; kernel and its normalization; and prescribed U(t). If U is intended to be generated by the state, its generation rule must be stated. A supplied external U is sufficient for a driven model and is not a missing field-feedback path.
+- Units and interpretation: [u]=L/time; [nu]=[D_diff]=L^2/time; [q]=[Gamma]=[epsilon]=[delta]=[S]/L; a normalized kernel has units L^(-d); [J]=[S] L^d/time; [kappa]=[J]/[A]; [gamma]=[A]/([U] time); and [sigma/rho]=L^2/([S] time^2). These can be made consistent, but the physical or abstract units must be chosen. If T is the same physical Newtonian stress that generates the momentum viscosity, mu0=rho nu is the required matching closure; if T is a separately defined diagnostic, that identification is an additional modeling decision.
+- Well-posedness in the stated function spaces: existence, uniqueness, continuous dependence and an appropriate treatment of any nonsmooth activation or point-source alternative. The smooth-kernel system should not inherit classical assumptions from a delta-source idealization without analysis.
+- Any global regularity, stability, long-time bound or singularity claim: the finite-time L2 estimates above do not settle higher-derivative control. A proof needs to address the actual coupled forcing and input class. Automatic scalar boundedness already fails for the persistent inputs described above.
+- A specific memory-to-flow claim: specify which histories, initial fields, time interval and observable are to be distinguished. The symmetry counterexample means a universal distinguishability claim is impossible from velocity alone.
+- Empirical meaning and calibration, if the fields represent physical material or human experience: specify and validate observations for S, A and U, parameter scales and outputs. An equation or a simulation does not by itself identify memory content, meaning, decision-making or a material mechanism.
+
+5. Existing tests and the boundary of this audit
+
+The current corpus already reports direct coupled A/S tests in its history/application study, including input-order comparisons, mirrored-field checks, refinement checks, and scalar/energy/divergence diagnostics. It explicitly distinguishes synthetic equation trials from an empirically validated model. I read that report and the current field solver; I did not rerun those trajectories or independently certify their reported numerical results here.
+
+https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/community-two-in-one-application/README.md
+https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/community-full-field/field.py
+
+Newly performed in this audit: version/hash and current-source checks; direct reading of the updated field-feedback clarification; analytical mass and energy identities; exact history examples; exact/initial-rate counterexamples; reflection and scaling derivations; activation regularity and threshold checks; and eight recorded arithmetic/analytic check records. These are documented in as-equation-audit-evidence.json. Formula-evaluation checks are not a machine-checked proof of the full PDE.
+
+No corpus equation, selected document, running study, response law, threshold or source coefficient was changed. No new trajectory, independent model, external publication or OpenAI theorem check was launched. The requested scoped audit is complete; general theorem and empirical-validation claims remain open within the limits stated above.

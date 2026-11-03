@@ -1,0 +1,122 @@
+[
+  {
+    "paragraph": 229,
+    "text": "∂u/∂t + (u · ∇)u = −∇p + ν∇²u + f,     ∇ · u = 0.",
+    "docx_xml_paragraphs": [
+      230
+    ],
+    "evidence": "Exact text freshly matched to the corrected Word notes; paragraph number is the published extraction index."
+  },
+  {
+    "paragraph": 230,
+    "text": "f = −(σ/ρ) a(q) eₖ,     q = |∇S| − Γcrit.",
+    "docx_xml_paragraphs": [
+      231
+    ],
+    "evidence": "Exact text freshly matched to the corrected Word notes; paragraph number is the published extraction index."
+  },
+  {
+    "paragraph": 261,
+    "text": "Choose the response law a before using the equation. Sharp threshold: a₀(q) = max(q, 0), so the added force is zero for q ≤ 0 and proportional to q for q > 0. This law is continuous but not differentiable at q = 0.",
+    "docx_xml_paragraphs": [
+      262
+    ],
+    "evidence": "Exact text freshly matched to the corrected Word notes; paragraph number is the published extraction index."
+  },
+  {
+    "paragraph": 262,
+    "text": "Original tanh choice: aₜ(q) = q[1 + tanh(q/ε)]/2, with ε > 0. It is smooth as a function of q, but for finite q < 0 it is negative and nonzero. For example, aₜ(−ε) ≈ −0.119203ε. The force therefore reverses direction below threshold when σ > 0; it does not simply switch off. A small tail may be intentional, but its sign and interpretation must be stated.",
+    "docx_xml_paragraphs": [
+      263
+    ],
+    "evidence": "Exact text freshly matched to the corrected Word notes; paragraph number is the published extraction index."
+  },
+  {
+    "paragraph": 263,
+    "text": "Zero-gradient concern: |v| is not differentiable at v = 0. Composing it with tanh does not automatically remove that issue; a particular composition can have cancellations, which need checking. For a smooth alternative, use gδ(v) = √(v · v + δ²) − δ with δ > 0, and qδ = gδ(∇S) − Γcrit. This changes the gradient measure near zero and is a modeling choice.",
+    "docx_xml_paragraphs": [
+      264
+    ],
+    "evidence": "Exact text freshly matched to the corrected Word notes; paragraph number is the published extraction index."
+  },
+  {
+    "paragraph": 264,
+    "text": "Optional smooth exact-off response: aε(q) = 0 for q ≤ 0, and aε(q) = q exp[−(ε/q)²] for q > 0. For fixed ε > 0 this scalar function is C∞, including the join at zero. Using aε(qδ) with fixed δ > 0 makes the constitutive response smooth in the gradient variable and exactly zero when qδ ≤ 0. This is an alternative to the tanh law, not a property of it. Its positive onset in the original magnitude is |∇S| > √(Γcrit² + 2δΓcrit), so the threshold must be calibrated in the chosen measure. To retain the original cutoff |∇S| = Γcrit instead, use the calibrated excess qδ* = √(|∇S|² + δ²) − √(Γcrit² + δ²). It has the same sign as |∇S| − Γcrit for Γcrit ≥ 0. Using aε(qδ*) gives a smooth exact-off alternative with that original cutoff; the response above it is still a changed constitutive law.",
+    "docx_xml_paragraphs": [
+      265
+    ],
+    "evidence": "Exact text freshly matched to the corrected Word notes; paragraph number is the published extraction index."
+  },
+  {
+    "paragraph": 265,
+    "text": "A fixed eₖ specifies direction; it does not guarantee drag or energy dissipation. For f to remove kinetic energy pointwise, u · f must be nonpositive. The model still needs a domain, initial and boundary data, a definition or equation for S, and compatible coefficient units. A smooth constitutive response is not a proof of smooth solutions for all time. Pressure, viscosity, yield, and boundary remain modeling language unless independently operationalized.",
+    "docx_xml_paragraphs": [
+      266
+    ],
+    "evidence": "Exact text freshly matched to the corrected Word notes; paragraph number is the published extraction index."
+  },
+  {
+    "paragraph": 517,
+    "text": "∂S/∂t + u · ∇S = D_diff ∇²S + Kₕ(x − x₀) J(t).",
+    "docx_xml_paragraphs": [
+      518
+    ],
+    "evidence": "Exact text freshly matched to the corrected Word notes; paragraph number is the published extraction index."
+  },
+  {
+    "paragraph": 518,
+    "text": "A(t) = ∫₀ᵗ γ[U(s) − Ubaseline] ds,     J(t) = κ A(t).",
+    "docx_xml_paragraphs": [
+      519
+    ],
+    "evidence": "Exact text freshly matched to the corrected Word notes; paragraph number is the published extraction index."
+  },
+  {
+    "paragraph": 519,
+    "text": "Kₕ is a smooth localized kernel of width h > 0 with spatial integral 1. The original δ(x − x₀) is an alternative point-source idealization interpreted as a distribution, not an ordinary smooth function. A stores accumulated input; κ converts that stored quantity to a source rate with the required units. This retains the original memory choice explicitly. Under closed or periodic boundaries, constant positive excess utility can make the total field grow quadratically in time because the stored input is integrated again by the evolution equation. If instantaneous production is intended instead, specify J(t) = γ[U(t) − Ubaseline] with suitable units; that is a different model. Negative excess input may lower this signed field. Initial and boundary data remain necessary. For compressible transport, replace u · ∇S by ∇ · (Su).",
+    "docx_xml_paragraphs": [
+      520
+    ],
+    "evidence": "Exact text freshly matched to the corrected Word notes; paragraph number is the published extraction index."
+  },
+  {
+    "paragraph": 545,
+    "text": "T = µ₀[∇u + (∇u)ᵀ],     µ₀ > 0.",
+    "docx_xml_paragraphs": [
+      546
+    ],
+    "evidence": "Exact text freshly matched to the corrected Word notes; paragraph number is the published extraction index."
+  },
+  {
+    "paragraph": 547,
+    "text": "Γcrit ≥ 0. Optional calibration: Γcrit = τ₀/η, with τ₀ ≥ 0 and η > 0.",
+    "docx_xml_paragraphs": [
+      548
+    ],
+    "evidence": "Exact text freshly matched to the corrected Word notes; paragraph number is the published extraction index."
+  },
+  {
+    "paragraph": 548,
+    "text": "q = |∇S| − Γcrit;     a₀(q) = 0 if q ≤ 0, and a₀(q) = q if q > 0.",
+    "docx_xml_paragraphs": [
+      549
+    ],
+    "evidence": "Exact text freshly matched to the corrected Word notes; paragraph number is the published extraction index."
+  },
+  {
+    "paragraph": 549,
+    "text": "ρ[∂u/∂t + (u · ∇)u] = −∇P + µ∇²u − σ a₀(q)eₖ,     ∇ · u = 0.",
+    "docx_xml_paragraphs": [
+      550
+    ],
+    "evidence": "Exact text freshly matched to the corrected Word notes; paragraph number is the published extraction index."
+  },
+  {
+    "paragraph": 550,
+    "text": "Assume constant ρ > 0, µ > 0, and σ ≥ 0; p = P/ρ and ν = µ/ρ connect this equation to the earlier normalized form. The calibration η must give Γcrit the same units as |∇S|. Increasing η lowers Γcrit at fixed τ₀, so the label rigidity does not by itself establish stronger resistance. Fixed-direction forcing is not necessarily dissipative. Initial and boundary data, the S coupling, and a domain are required; smooth activation alone does not establish well-posedness or global regularity.",
+    "docx_xml_paragraphs": [
+      551
+    ],
+    "evidence": "Exact text freshly matched to the corrected Word notes; paragraph number is the published extraction index."
+  }
+]

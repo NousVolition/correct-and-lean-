@@ -1,0 +1,21 @@
+{
+  "challenge_module": "V3DelayChallenge",
+  "solution_module": "V3DelayProofs",
+  "enable_nanoda": true,
+  "theorem_names": [
+    "HugV3.Source.DelayVerified.socialFrom_self",
+    "HugV3.Source.DelayVerified.present_physical_blocks",
+    "HugV3.Source.DelayVerified.buffered_social_blocks",
+    "HugV3.Source.DelayVerified.material_records_remain_present",
+    "HugV3.Source.DelayVerified.zero_delay_recovers_original",
+    "HugV3.Source.DelayVerified.delay_preserves_current_physical_rate",
+    "HugV3.Source.DelayVerified.delay_uses_buffered_social_rate",
+    "HugV3.Source.DelayVerified.buffer_reads_strictly_past",
+    "HugV3.Source.DelayVerified.history_zero_delay"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

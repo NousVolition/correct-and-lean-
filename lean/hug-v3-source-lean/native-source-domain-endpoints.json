@@ -1,0 +1,22 @@
+[
+  {
+    "module": "V3SourceMemory",
+    "exit_code": 0,
+    "seconds": 15.764999999984866
+  },
+  {
+    "module": "V3SourceSocial",
+    "exit_code": 0,
+    "seconds": 15.703000000008615
+  },
+  {
+    "module": "V3SourceFlow",
+    "exit_code": 0,
+    "seconds": 15.60999999998603
+  },
+  {
+    "module": "V3SourceSystem",
+    "exit_code": 0,
+    "seconds": 15.469000000011874
+  }
+]

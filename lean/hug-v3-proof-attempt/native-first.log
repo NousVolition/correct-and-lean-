@@ -1,0 +1,31 @@
+V3EventChallenge.lean:7:8: warning: declaration uses `sorry`
+V3EventChallenge.lean:10:8: warning: declaration uses `sorry`
+V3EventChallenge.lean:12:8: warning: declaration uses `sorry`
+V3EventChallenge.lean:15:8: warning: declaration uses `sorry`
+V3EventChallenge.lean:18:8: warning: declaration uses `sorry`
+V3EventChallenge.lean:21:8: warning: declaration uses `sorry`
+V3EventProofs.lean:11:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+V3EventProofs.lean:20:39: warning: `if_true` has been deprecated: Use `ite_true` instead
+V3EventProofs.lean:20:25: warning: This simp argument is unused:
+  Bool.true_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [writtenBit, if_true, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+V3EventProofs.lean:30:39: warning: `if_true` has been deprecated: Use `ite_true` instead
+V3EventProofs.lean:30:25: warning: This simp argument is unused:
+  Bool.true_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [writtenBit, if_true, mul_one] at hvalue
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'HugV3Event.Verified.probe_recovers_rest_strain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugV3Event.Verified.header_first_bit_is_one' depends on axioms: [propext]
+'HugV3Event.Verified.valid_empty_coordinate_changes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugV3Event.Verified.event_prevents_continuity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugV3Event.Verified.event_prevents_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugV3Event.Verified.full_state_prevents_continuity' depends on axioms: [propext, Classical.choice, Quot.sound]

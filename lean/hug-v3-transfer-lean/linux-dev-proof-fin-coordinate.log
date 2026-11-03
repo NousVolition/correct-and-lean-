@@ -1,0 +1,67 @@
+✖ [3135/3136] Building V3TransferProofs (9.9s)
+trace: .> LEAN_PATH=/home/nsverify/verification/project/.lake/packages/Cli/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/batteries/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Qq/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/aesop/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/importGraph/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/plausible/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/mathlib/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/lib/lean:/home/nsverify/verification/hug-v3-transfer-dev-20261101/.lake/build/lib/lean /opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean /home/nsverify/verification/hug-v3-transfer-dev-20261101/V3TransferProofs.lean -o /home/nsverify/verification/hug-v3-transfer-dev-20261101/.lake/build/lib/lean/V3TransferProofs.olean -i /home/nsverify/verification/hug-v3-transfer-dev-20261101/.lake/build/lib/lean/V3TransferProofs.ilean -c /home/nsverify/verification/hug-v3-transfer-dev-20261101/.lake/build/ir/V3TransferProofs.c --setup /home/nsverify/verification/hug-v3-transfer-dev-20261101/.lake/build/ir/V3TransferProofs.setup.json --json
+error: V3TransferProofs.lean:142:44: unsolved goals
+case e'_9
+s : ℝ → State
+d : State
+I : Set ℝ
+t : ℝ
+i j : Actor
+left✝¹⁰ : ∀ (x : Grid) (k : Fin 5), (fun f => HasDerivWithinAt (fun τ => f (s τ)) (f d) I t) fun s => s.g x k
+left✝⁹ : ∀ (p : Particle) (i : Axis), (fun f => HasDerivWithinAt (fun τ => f (s τ)) (f d) I t) fun s => s.X p i
+left✝⁸ : ∀ (p : Particle) (i j : Axis), (fun f => HasDerivWithinAt (fun τ => f (s τ)) (f d) I t) fun s => s.F p i j
+left✝⁷ :
+  ∀ (p : Particle) (k : Direction) (a : Fin 2),
+    (fun f => HasDerivWithinAt (fun τ => f (s τ)) (f d) I t) fun s => s.m p k a
+left✝⁶ : ∀ (l : Cell), (fun f => HasDerivWithinAt (fun τ => f (s τ)) (f d) I t) fun s => s.b l
+left✝⁵ : HasDerivWithinAt (fun τ => (s τ).A) d.A I t
+left✝⁴ : ∀ (k : Fin 4), (fun f => HasDerivWithinAt (fun τ => f (s τ)) (f d) I t) fun s => s.ledger k
+left✝³ : HasDerivWithinAt (fun τ => (s τ).writeWork) d.writeWork I t
+he : ∀ (i : Actor) (k : Fin 2), (fun f => HasDerivWithinAt (fun τ => f (s τ)) (f d) I t) fun s => s.expression i k
+left✝² : ∀ (i : Actor) (k : Fin 2), (fun f => HasDerivWithinAt (fun τ => f (s τ)) (f d) I t) fun s => s.context i k
+hn : ∀ (i : Actor) (k : Fin 2), (fun f => HasDerivWithinAt (fun τ => f (s τ)) (f d) I t) fun s => s.normCenter i k
+hl : ∀ (i j : Actor), (fun f => HasDerivWithinAt (fun τ => f (s τ)) (f d) I t) fun s => s.logRadius i j
+left✝¹ : ∀ (i j : Actor) (k : Fin 3), (fun f => HasDerivWithinAt (fun τ => f (s τ)) (f d) I t) fun s => s.relation i j k
+left✝ : ∀ (i j : Actor) (k : Fin 7), (fun f => HasDerivWithinAt (fun τ => f (s τ)) (f d) I t) fun s => s.responses i j k
+right✝ :
+  ∀ (i j : Actor) (k : Fin 3), (fun f => HasDerivWithinAt (fun τ => f (s τ)) (f d) I t) fun s => s.association i j k
+hexp :
+  HasDerivWithinAt ((fun x => Real.exp ((fun s => s.logRadius i j) (s x))) ^ 2)
+    (↑2 * Real.exp ((fun s => s.logRadius i j) (s t)) ^ (2 - 1) *
+      (Real.exp ((fun s => s.logRadius i j) (s t)) * (fun s => s.logRadius i j) d))
+    I t
+hsum :
+  HasDerivWithinAt
+    (∑ i_1, ((fun τ => (fun s => s.expression j i_1) (s τ)) - fun τ => (fun s => s.normCenter i i_1) (s τ)) ^ 2)
+    (∑ i_1,
+      ↑2 * ((fun τ => (fun s => s.expression j i_1) (s τ)) - fun τ => (fun s => s.normCenter i i_1) (s τ)) t ^ (2 - 1) *
+        ((fun s => s.expression j i_1) d - (fun s => s.normCenter i i_1) d))
+    I t
+⊢ 2 *
+      (((s t).expression j 0 - (s t).normCenter i 0) * (d.expression j 0 - d.normCenter i 0) +
+        ((s t).expression j 1 - (s t).normCenter i 1) * (d.expression j 1 - d.normCenter i 1)) =
+    2 * (((s t).expression j 0 - (s t).normCenter i 0) * (d.expression j 0 - d.normCenter i 0)) +
+      2 * (((s t).expression j 1 - (s t).normCenter i 1) * (d.expression j 1 - d.normCenter i 1))
+warning: V3TransferProofs.lean:148:10: This simp argument is unused:
+  guardSquared
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [guardSquaredRate, Finset.mul_sum, pow_two, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3TransferProofs.lean:148:40: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [guardSquared, guardSquaredRate, pow_two, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3TransferProofs.lean:152:32: Variable name `hpartners` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpartners
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Some required targets logged failures:
+- V3TransferProofs
+error: build failed

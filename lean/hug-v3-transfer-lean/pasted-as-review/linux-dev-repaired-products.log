@@ -1,0 +1,64 @@
+⚠ [3353/3356] Built PastedASChallenge (2.7s)
+warning: PastedASChallenge.lean:8:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:10:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:12:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:14:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:16:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:18:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:20:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:22:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:24:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:26:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:29:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:32:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:35:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:38:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:42:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:46:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:50:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:54:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:58:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:63:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:67:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:70:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:73:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:80:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:84:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:88:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:92:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:96:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:100:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:105:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:110:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:114:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:118:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:122:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:126:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:130:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:134:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:138:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:141:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:144:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:147:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:151:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:158:8: declaration uses `sorry`
+warning: PastedASChallenge.lean:166:8: declaration uses `sorry`
+⚠ [3355/3356] Built RepairedASProofs (10s)
+warning: RepairedASProofs.lean:153:19: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RepairedASProofs.lean:153:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+info: RepairedASProofs.lean:444:0: 'SocialAS.Verified.abs_pos_sub_pos_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:445:0: 'SocialAS.Verified.saturation_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:446:0: 'SocialAS.Verified.generalSDrift_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:447:0: 'SocialAS.Verified.generalSDrift_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:448:0: 'SocialAS.Verified.exchange_lipschitz_in_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:449:0: 'SocialAS.Verified.smokeMeaningDrift_nonneg_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:450:0: 'SocialAS.Verified.smokeMeaningDrift_nonpos_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:451:0: 'SocialAS.Verified.branches_sum_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:452:0: 'SocialAS.Verified.update_preserves_simplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:453:0: 'SocialAS.Verified.integralSolution_unique_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RepairedASProofs.lean:454:0: 'SocialAS.Verified.integralSolution_sub_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3356 jobs).

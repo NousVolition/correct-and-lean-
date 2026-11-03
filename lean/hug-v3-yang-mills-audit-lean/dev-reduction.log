@@ -1,0 +1,76 @@
+✖ [3117/3118] Building V3YangMillsAuditProofs (9.7s)
+trace: .> LEAN_PATH=/home/nsverify/verification/project/.lake/packages/Cli/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/batteries/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Qq/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/aesop/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/importGraph/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/plausible/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/mathlib/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/lib/lean:/home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/lib/lean /opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/V3YangMillsAuditProofs.lean -o /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/lib/lean/V3YangMillsAuditProofs.olean -i /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/lib/lean/V3YangMillsAuditProofs.ilean -c /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/ir/V3YangMillsAuditProofs.c --setup /home/nsverify/verification/hug-v3-yang-mills-audit-dev-20261102/.lake/build/ir/V3YangMillsAuditProofs.setup.json --json
+error: V3YangMillsAuditProofs.lean:179:4: Tactic `split` failed: Could not split an `if` or `match` expression in the goal
+
+Hint: Use `set_option trace.split.failure true` to display additional diagnostic information
+
+case some
+G : Geometry
+s : State
+Q : Particle → Mat
+hQ : ∀ (p : Particle), Orthogonal (Q p)
+r : Record
+ht : ∀ (slot : Fin 4) (bytes : List ℕ), targetFabric (rotateFabric Q s) slot bytes = targetFabric s slot bytes
+rs : List (Fin 4 × Record)
+hr : readRecords s = some rs
+⊢ (do
+      let records ← some rs
+      if (records.any fun r_1 => r_1.2.eventID == r.eventID) = true then none
+        else do
+          let free ← List.find? (fun slot => !records.any fun r => r.1 == slot) (List.ofFn fun slot => slot)
+          let bytes ← payload r
+          if
+                (writeAccount G s (targetFabric s free bytes)).requiredBudget > 1 / 50 ∨
+                  (writeAccount G s (targetFabric s free bytes)).work < 0 then
+              none
+            else
+              pure
+                {
+                  g := fun x j =>
+                    (rotateFabric Q s).g x j +
+                      if j = 4 then
+                        filt
+                          (fun x =>
+                            (∑ x_1,
+                                R (rotateFabric Q s).X x_1 x * G.V x_1 *
+                                  (writeAccount G s (targetFabric s free bytes)).heat x_1) /
+                              dv)
+                          x
+                      else 0,
+                  X := (rotateFabric Q s).X, F := (rotateFabric Q s).F, m := (rotateFabric Q s).m,
+                  b := (writeAccount G s (targetFabric s free bytes)).target, A := (rotateFabric Q s).A,
+                  ledger := (rotateFabric Q s).ledger,
+                  writeWork := (rotateFabric Q s).writeWork + (writeAccount G s (targetFabric s free bytes)).work,
+                  expression := (rotateFabric Q s).expression, context := (rotateFabric Q s).context,
+                  normCenter := (rotateFabric Q s).normCenter, logRadius := (rotateFabric Q s).logRadius,
+                  relation := (rotateFabric Q s).relation, responses := (rotateFabric Q s).responses,
+                  association := (rotateFabric Q s).association }) =
+    Option.map (rotateFabric Q) do
+      let records ← some rs
+      if (records.any fun r_1 => r_1.2.eventID == r.eventID) = true then none
+        else do
+          let free ← List.find? (fun slot => !records.any fun r => r.1 == slot) (List.ofFn fun slot => slot)
+          let bytes ← payload r
+          if
+                (writeAccount G s (targetFabric s free bytes)).requiredBudget > 1 / 50 ∨
+                  (writeAccount G s (targetFabric s free bytes)).work < 0 then
+              none
+            else
+              pure
+                {
+                  g := fun x j =>
+                    s.g x j +
+                      if j = 4 then
+                        filt
+                          (fun x =>
+                            (∑ p, R s.X p x * G.V p * (writeAccount G s (targetFabric s free bytes)).heat p) / dv)
+                          x
+                      else 0,
+                  X := s.X, F := s.F, m := s.m, b := (writeAccount G s (targetFabric s free bytes)).target, A := s.A,
+                  ledger := s.ledger, writeWork := s.writeWork + (writeAccount G s (targetFabric s free bytes)).work,
+                  expression := s.expression, context := s.context, normCenter := s.normCenter,
+                  logRadius := s.logRadius, relation := s.relation, responses := s.responses,
+                  association := s.association }
+Some required targets logged failures:
+- V3YangMillsAuditProofs
+error: build failed

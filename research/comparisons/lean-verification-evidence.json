@@ -1,0 +1,384 @@
+{
+  "overall_status": "PASS: full Lean build, Comparator reference comparison and axiom check, Lean kernel replay, and independent nanoda check all passed",
+  "recorded_at": "2026-10-29T06:41:25.062459+00:00",
+  "repository": "https://github.com/openai/NavierStokesAndEuler",
+  "commit": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "source_working_tree_clean": true,
+  "lean_version_output": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "dependencies": [
+    {
+      "name": "Comparator",
+      "expected": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "actual": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "matches": true,
+      "working_tree_status": ""
+    },
+    {
+      "name": "mathlib",
+      "expected": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "actual": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "matches": true,
+      "working_tree_status": ""
+    },
+    {
+      "name": "lean4export",
+      "expected": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "actual": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "matches": true,
+      "working_tree_status": ""
+    },
+    {
+      "name": "plausible",
+      "expected": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "actual": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "matches": true,
+      "working_tree_status": ""
+    },
+    {
+      "name": "LeanSearchClient",
+      "expected": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "actual": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "matches": true,
+      "working_tree_status": ""
+    },
+    {
+      "name": "importGraph",
+      "expected": "d8823026ac7ef130c253089d95685f9877b95323",
+      "actual": "d8823026ac7ef130c253089d95685f9877b95323",
+      "matches": true,
+      "working_tree_status": ""
+    },
+    {
+      "name": "proofwidgets",
+      "expected": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "actual": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "matches": true,
+      "working_tree_status": ""
+    },
+    {
+      "name": "aesop",
+      "expected": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "actual": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "matches": true,
+      "working_tree_status": ""
+    },
+    {
+      "name": "Qq",
+      "expected": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "actual": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "matches": true,
+      "working_tree_status": ""
+    },
+    {
+      "name": "batteries",
+      "expected": "d54dddc581e08be364c278052863524bff7a99a9",
+      "actual": "d54dddc581e08be364c278052863524bff7a99a9",
+      "matches": true,
+      "working_tree_status": ""
+    },
+    {
+      "name": "Cli",
+      "expected": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "actual": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "matches": true,
+      "working_tree_status": ""
+    }
+  ],
+  "build": {
+    "command": "lake build",
+    "default_targets": [
+      "NavierStokes",
+      "Euler",
+      "ComparatorChallenges"
+    ],
+    "exit_code": 0,
+    "completion_message": "Build completed successfully (11424 jobs).",
+    "started": "2026-10-28T21:45:26.3399506-07:00",
+    "finished": "2026-10-28T23:03:09.5792243-07:00",
+    "successfully_compiled_project_modules_across_runs": {
+      "NavierStokes": 817,
+      "Euler": 1840,
+      "ComparatorChallenges": 2
+    },
+    "workers": 12,
+    "initial_run_note": "The initial six-worker build was deliberately interrupted after checking available memory, solely to resume with twelve workers. Its exit code 1 records this interruption, not a proof failure. Completed artifacts are reused by Lake. The definitive subsequent result is in build-12workers.exit and build-12workers.log."
+  },
+  "mathlib_cache": {
+    "command": "lake exe cache get",
+    "exit_code": 0,
+    "downloaded_and_unpacked_files": 8747
+  },
+  "final_theorems": [
+    {
+      "name": "NavierStokes.Comparator.navier_stokes_breakdown_R3",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "sorryAx": false
+    },
+    {
+      "name": "NavierStokes.Comparator.navier_stokes_breakdown_periodic",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "sorryAx": false
+    }
+  ],
+  "comparator": {
+    "status": "PASS",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.NavierStokes",
+      "solution_module": "NavierStokes.ComparatorSolution",
+      "enable_nanoda": true,
+      "theorem_names": [
+        "NavierStokes.Comparator.navier_stokes_breakdown_R3",
+        "NavierStokes.Comparator.navier_stokes_breakdown_periodic"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "configuration_sha256": "7610ecead7b390d80ff7f4229a3ff8f18d630e046f7ad1de4f92c7e8e76845b8",
+    "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+    "remaining": null,
+    "fake_landrun_used": false,
+    "nanoda_disabled": false,
+    "exit_code": 0,
+    "configuration_sha256_platform": "Linux LF checkout",
+    "windows_configuration_sha256": "3ef191c3484d61c163e57abc7e1405d7ccd336d121ba1120f1643cc61c84cc58",
+    "configuration_newline_note": "Windows checkout uses CRLF; normalizing only CRLF to LF matches the Linux configuration hash. Both have the same committed Git blob and parsed configuration.",
+    "started_at_utc": "2026-10-29T06:20:44+00:00",
+    "finished_at_utc": "2026-10-29T06:38:44+00:00",
+    "explicit_acceptance_messages": [
+      "Build completed successfully (9371 jobs).",
+      "nanoda kernel accepts the solution",
+      "Lean default kernel accepts the solution",
+      "Your solution is okay!"
+    ],
+    "reference_statement_and_referenced_definition_comparison": "PASS, as required before final Comparator success",
+    "permitted_axiom_check": "PASS",
+    "nanoda": "PASS",
+    "lean_kernel_replay": "PASS",
+    "fresh_linux_solution_build": "PASS: 609 NavierStokes modules compiled; Build completed successfully (9371 jobs).",
+    "linux_evidence_file": "comparator-linux-evidence.json",
+    "log": "comparator-linux.log",
+    "checking_tools": [
+      {
+        "name": "Comparator",
+        "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+        "clean": true,
+        "binary": "/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator",
+        "sha256": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a"
+      },
+      {
+        "name": "lean4export",
+        "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+        "clean": true,
+        "binary": "/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export",
+        "sha256": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e"
+      },
+      {
+        "name": "Landrun",
+        "commit": "ec104f6edc1e14d7fec6d31146f1ec6f9c192c5a",
+        "clean": true,
+        "binary": "/home/nsverify/verification/bin/landrun",
+        "sha256": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04"
+      },
+      {
+        "name": "nanoda",
+        "commit": "d0a02cc5defadd683f62f9d078f41688314fa31f",
+        "clean": true,
+        "binary": "/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin",
+        "sha256": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+      }
+    ]
+  },
+  "wsl": {
+    "version": "3.0.3.0",
+    "kernel": "6.18.54.1-1",
+    "installer_sha256": "ae977286974255bd26bf925f00f40f5692c6b2084155cbc0563c09aea091f211",
+    "installer_signature": "Valid Microsoft Corporation Authenticode signature",
+    "installer_exit": 0,
+    "virtual_machine_platform_exit": 3010,
+    "restart_required": false,
+    "automatic_restart_performed": false,
+    "linux_distribution_installed": true,
+    "hypervisor_present": true,
+    "restart_prerequisite": "Resolved before this resumed run; no Windows restart was performed by the agent.",
+    "distribution": "Ubuntu 26.04.1 LTS",
+    "linux_kernel": "6.18.54.1-microsoft-standard-WSL2",
+    "verification_user": "nsverify",
+    "uid": 1000,
+    "windows_interop_enabled": false
+  },
+  "toolchain_archives": [
+    {
+      "file": "lean-4.34.0-rc2-windows.tar.zst",
+      "sha256": "b777ecceb5edf651ee0840b7ef455098844b44203bad09310a661cf1a73ffb10",
+      "published_checksum_matched": true,
+      "installed": true
+    },
+    {
+      "file": "lean-4.34.0-rc2-linux.tar.zst",
+      "sha256": "3d011041203acacf300d343a39673f7d233743397993797c941346ae9e5df1a8",
+      "published_checksum_matched": true,
+      "installed": true,
+      "staged_for_after_restart": false
+    }
+  ],
+  "files": [
+    {
+      "file": "lean-build-initial-interrupted.log",
+      "sha256": "728819acab0f632f148d46b5c9429919d7a637caca83e7e65cb97addafe86b4c",
+      "bytes": 8815
+    },
+    {
+      "file": "lean-build-complete.log",
+      "sha256": "6c0332e277409085c28ab676c512d6bcf032e4231d65d076274cbb42cbfa3796",
+      "bytes": 155693
+    },
+    {
+      "file": "lean-mathlib-cache.log",
+      "sha256": "6e97cd7ab9a0567e94be6f608222bd6f7e151075d873c4909495e19c4516bb9c",
+      "bytes": 34221
+    },
+    {
+      "file": "comparator-linux.log",
+      "sha256": "a936ef715072527b747585fa3db25d6314ee5a33b9d7a07e93ab77d00a940b20",
+      "bytes": 40421
+    },
+    {
+      "file": "comparator-isolation.log",
+      "sha256": "ce9770c016f448986062920795075c9075fc055e3c44a76d26f7bba9bd227938",
+      "bytes": 552
+    },
+    {
+      "file": "comparator-linux-evidence.json",
+      "sha256": "dda1777490b4ce10dd2bbe238152fcf69b0122f2c1fbbe4f9d702204195d884f",
+      "bytes": 13303
+    }
+  ],
+  "scope_limits": [
+    "The native full build and fresh Linux Comparator run verify the two formal Navier-Stokes target theorems at the specified commit and unchanged challenge configuration.",
+    "Both targets use only propext, Classical.choice and Quot.sound; no sorryAx or additional axiom is permitted in their exported proof closure.",
+    "The m+5 requirement is satisfied in the formal proof and does not invalidate these final formal statements. This run does not independently establish the paper's sharper m+4 estimate.",
+    "Comparator checks correspondence to the committed formal reference statements and referenced definitions; it does not certify every informal claim or every paper-to-formalization interpretation.",
+    "This check does not validate or invalidate the user's separate A/S history mechanism or establish equivalence to the corpus model.",
+    "No proof sources, dependency lockfile, toolchain specification, Comparator configuration, or checker source were edited. The resource launcher only limits Lean parallelism to eight workers."
+  ],
+  "verification_history": [
+    {
+      "recorded_at": "2026-10-28T23:03:25.506051-07:00",
+      "status": "PARTIAL: Lean build and final theorem axiom checks passed; Comparator/nanoda not run",
+      "note": "Historical Windows-only checkpoint. The Linux check below supersedes the former pending-restart and untested-Comparator status."
+    }
+  ],
+  "linux_lean_version_output": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "linux_source_and_dependency_integrity": {
+    "source_clean": true,
+    "dependencies": [
+      {
+        "name": "Comparator",
+        "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+        "clean": true
+      },
+      {
+        "name": "mathlib",
+        "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+        "clean": true
+      },
+      {
+        "name": "lean4export",
+        "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+        "clean": true
+      },
+      {
+        "name": "plausible",
+        "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+        "clean": true
+      },
+      {
+        "name": "LeanSearchClient",
+        "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+        "clean": true
+      },
+      {
+        "name": "importGraph",
+        "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+        "clean": true
+      },
+      {
+        "name": "proofwidgets",
+        "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+        "clean": true
+      },
+      {
+        "name": "aesop",
+        "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+        "clean": true
+      },
+      {
+        "name": "Qq",
+        "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+        "clean": true
+      },
+      {
+        "name": "batteries",
+        "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+        "clean": true
+      },
+      {
+        "name": "Cli",
+        "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+        "clean": true
+      }
+    ],
+    "files_unchanged_since_preflight": [
+      {
+        "path": "lean-toolchain",
+        "git_blob": "b814d987e0c93cb99938be934d9b277778495ba1",
+        "sha256": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+        "unchanged_after_run": true
+      },
+      {
+        "path": "lakefile.toml",
+        "git_blob": "9ebc030daf98b40aeb90636ef2016d791ad5dd3a",
+        "sha256": "97b2804da5b9a2cd0aaf44ce42b7c39e9947beff9d2ac01a11e0d3d867af1c09",
+        "unchanged_after_run": true
+      },
+      {
+        "path": "lake-manifest.json",
+        "git_blob": "f07a8454cb6200d90bcc4371bc9965e9f8f46c7d",
+        "sha256": "5ec1dc8e009008d0efb9601cd38f6ba54e753fd538b0e5f8c3e6c5ec72ee1e09",
+        "unchanged_after_run": true
+      },
+      {
+        "path": "ComparatorChallenges/NavierStokes.lean",
+        "git_blob": "673fb19e26e60818d446363afd953f618719f99b",
+        "sha256": "0cd193b8d5cbd0266e6e2f72e68dd5abcdcf2430ebd435dd9289737e9aa7da61",
+        "unchanged_after_run": true
+      },
+      {
+        "path": "ComparatorChallenges/NavierStokes.json",
+        "git_blob": "b5fd32b1211faf7d282dac09d70be5527da9f486",
+        "sha256": "7610ecead7b390d80ff7f4229a3ff8f18d630e046f7ad1de4f92c7e8e76845b8",
+        "unchanged_after_run": true
+      },
+      {
+        "path": "NavierStokes/ComparatorSolution.lean",
+        "git_blob": "cc232068cd384dbbddce2753b1fc4a4017c0f2d7",
+        "sha256": "52950d5d618a8d34c9bfbdb16641c81c276e97b6d7fd2a76c08577353f0b0227",
+        "unchanged_after_run": true
+      }
+    ]
+  }
+}

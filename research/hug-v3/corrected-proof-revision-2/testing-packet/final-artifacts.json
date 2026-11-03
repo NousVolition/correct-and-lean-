@@ -1,0 +1,841 @@
+{
+  "proof_revision": 2,
+  "files": [
+    {
+      "path": "corrected-proof.pdf",
+      "sha256": "1aad4091f97ad096efe10dc26f86ebd091f017e3d3cb41f4a089e1f82c0b1930",
+      "bytes": 624775
+    },
+    {
+      "path": "CORRECTIONS.md",
+      "sha256": "07aa5f31da14aea1d65239b24bc2a9324edcf0d9e3e1a6c1ca74350611ddc809",
+      "bytes": 3862
+    },
+    {
+      "path": "proof.html",
+      "sha256": "af0127ae62bdbe7e07947a5ab126c7cbdc47605b63cbc111e17bc6ac981f1df1",
+      "bytes": 2139257
+    },
+    {
+      "path": "proof.md",
+      "sha256": "83bffb6e7233509f030e4929696c0147ad4b032cf07831317dd9b830cf450491",
+      "bytes": 27125
+    },
+    {
+      "path": "proof.tex",
+      "sha256": "cc64979509fc58ac8dbb7978ee57ec0c009e46320d1505b29c71cfa88054fadb",
+      "bytes": 28201
+    },
+    {
+      "path": "testing-packet\\completion.json",
+      "sha256": "9fd971f6e8e6aa07eefcfd257aa7a39cc3ad45ed35d4ec03966eb7041c21a7a2",
+      "bytes": 466
+    },
+    {
+      "path": "testing-packet\\corrected-formula-register.json",
+      "sha256": "3dbcfb426bb48ee2710a6891d7bada38414401605ae3ee2eb7209291d040bb9c",
+      "bytes": 5247
+    },
+    {
+      "path": "testing-packet\\finalize-packet.py",
+      "sha256": "91e4749a64cea9f62a9d8e27a0f29e2dae27a924132dfe24b2d7bf94689c6373",
+      "bytes": 6022
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\checks.json",
+      "sha256": "378714711cf0c5e425722c57755e480bc985a9bb1899da3624810cff9d887ad7",
+      "bytes": 10475
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\input-manifest.json",
+      "sha256": "fab5f7c0885f37faeaf86778bb677148aeb27b3e57396bea3977e19ffd3e01de",
+      "bytes": 8464
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\prior-evidence\\LOCAL_PROOF_ROUTE.md",
+      "sha256": "f87f458e22628fa490b2ed2c03a910369d980a9f9bc8c435d397c8e2f2498a6c",
+      "bytes": 3950
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\prior-evidence\\source-audit.json",
+      "sha256": "fd640b5909e044fc39b5de0029a5cf6f9618f76705804590ebaf2dc6c8b27001",
+      "bytes": 9106
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\prior-evidence\\V3EventProofs.lean",
+      "sha256": "903c5b76a6a70880eedbc55ba26ea19b0d38b9bef9aaf203ee551cdaaa114d12",
+      "bytes": 2042
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\prior-evidence\\V3EventSpecification.lean",
+      "sha256": "c32643d7c28b8cd5d8759880390c0e1b5c84783c11a3b96f96209e07188e1f88",
+      "bytes": 1794
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\prior-evidence\\verification-report.json",
+      "sha256": "421676d0805241b6f53f3f31cbe47d88b643fde3d83012f4cddb56ec5d57240a",
+      "bytes": 2915
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\review-checks.py",
+      "sha256": "b4e23bf92dfa3f8400ed61c2000cde65b9c134f778daaaaa8be4b5112108b4ba",
+      "bytes": 10582
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\REVIEW.md",
+      "sha256": "e19a4557a1c3ace4703173297aa50ed57ac276932d853e3796d392ca766245bb",
+      "bytes": 13341
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\continuum.py",
+      "sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+      "bytes": 15758
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\declarations\\grid24.json",
+      "sha256": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c",
+      "bytes": 176326
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\declarations\\main.json",
+      "sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+      "bytes": 176321
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\declarations\\no_read_feedback.json",
+      "sha256": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a",
+      "bytes": 176327
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\declarations\\particles640.json",
+      "sha256": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793",
+      "bytes": 176332
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\declarations\\slow_fabric.json",
+      "sha256": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956",
+      "bytes": 176331
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\declarations\\time_half.json",
+      "sha256": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
+      "bytes": 176329
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\declarations\\unit.json",
+      "sha256": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe",
+      "bytes": 175448
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\equation_register.csv",
+      "sha256": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc",
+      "bytes": 1612
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\literal_registry.json",
+      "sha256": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273",
+      "bytes": 45346
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\parameter_bounds.json",
+      "sha256": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0",
+      "bytes": 344641
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\preflight.py",
+      "sha256": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+      "bytes": 2535
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\protocol.json",
+      "sha256": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77",
+      "bytes": 17597
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\reference_gate\\parameter_bounds.json",
+      "sha256": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
+      "bytes": 5248
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\reference_gate\\run_manifest.py",
+      "sha256": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
+      "bytes": 14307
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\rule_changes.json",
+      "sha256": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917",
+      "bytes": 29345
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\run.py",
+      "sha256": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+      "bytes": 4673
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\social_base.py",
+      "sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+      "bytes": 15981
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\source_seal.json",
+      "sha256": "b815846bd7afe1aa1a91430c40b658fc44a4d13add5432de0aed424530bedea0",
+      "bytes": 2020
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\structural_hug.py",
+      "sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+      "bytes": 14124
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\study_chain.csv",
+      "sha256": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c",
+      "bytes": 9161
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\sources\\test_structure.py",
+      "sha256": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36",
+      "bytes": 12435
+    },
+    {
+      "path": "testing-packet\\historical\\review-completed\\submitted-proof.tex",
+      "sha256": "6962654468b09dcccb22a4775fdb9eb19d231e5db5bb460c746c7c1be87b1012",
+      "bytes": 40633
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\checks.json",
+      "sha256": "601fbdacfc9d309af39e64062209aff529f3d5f2fc04845ef49c34621b7f2856",
+      "bytes": 7568
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\input-manifest.json",
+      "sha256": "f8fb0db3b8ba53527e52ea6beedde7fe82612f454ea1897dec2b084733bdee23",
+      "bytes": 8464
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\prior-evidence\\LOCAL_PROOF_ROUTE.md",
+      "sha256": "f87f458e22628fa490b2ed2c03a910369d980a9f9bc8c435d397c8e2f2498a6c",
+      "bytes": 3950
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\prior-evidence\\source-audit.json",
+      "sha256": "fd640b5909e044fc39b5de0029a5cf6f9618f76705804590ebaf2dc6c8b27001",
+      "bytes": 9106
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\prior-evidence\\V3EventProofs.lean",
+      "sha256": "903c5b76a6a70880eedbc55ba26ea19b0d38b9bef9aaf203ee551cdaaa114d12",
+      "bytes": 2042
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\prior-evidence\\V3EventSpecification.lean",
+      "sha256": "c32643d7c28b8cd5d8759880390c0e1b5c84783c11a3b96f96209e07188e1f88",
+      "bytes": 1794
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\prior-evidence\\verification-report.json",
+      "sha256": "421676d0805241b6f53f3f31cbe47d88b643fde3d83012f4cddb56ec5d57240a",
+      "bytes": 2915
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\review-checks.py",
+      "sha256": "05c65d3eb064f2debb4db7eb658e43c6c12007b801b5522ef9ed5dedc61854f5",
+      "bytes": 10258
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\continuum.py",
+      "sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+      "bytes": 15758
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\declarations\\grid24.json",
+      "sha256": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c",
+      "bytes": 176326
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\declarations\\main.json",
+      "sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+      "bytes": 176321
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\declarations\\no_read_feedback.json",
+      "sha256": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a",
+      "bytes": 176327
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\declarations\\particles640.json",
+      "sha256": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793",
+      "bytes": 176332
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\declarations\\slow_fabric.json",
+      "sha256": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956",
+      "bytes": 176331
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\declarations\\time_half.json",
+      "sha256": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
+      "bytes": 176329
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\declarations\\unit.json",
+      "sha256": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe",
+      "bytes": 175448
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\equation_register.csv",
+      "sha256": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc",
+      "bytes": 1612
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\literal_registry.json",
+      "sha256": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273",
+      "bytes": 45346
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\parameter_bounds.json",
+      "sha256": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0",
+      "bytes": 344641
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\preflight.py",
+      "sha256": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+      "bytes": 2535
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\protocol.json",
+      "sha256": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77",
+      "bytes": 17597
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\reference_gate\\parameter_bounds.json",
+      "sha256": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
+      "bytes": 5248
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\reference_gate\\run_manifest.py",
+      "sha256": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
+      "bytes": 14307
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\rule_changes.json",
+      "sha256": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917",
+      "bytes": 29345
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\run.py",
+      "sha256": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+      "bytes": 4673
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\social_base.py",
+      "sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+      "bytes": 15981
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\source_seal.json",
+      "sha256": "b815846bd7afe1aa1a91430c40b658fc44a4d13add5432de0aed424530bedea0",
+      "bytes": 2020
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\structural_hug.py",
+      "sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+      "bytes": 14124
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\study_chain.csv",
+      "sha256": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c",
+      "bytes": 9161
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\sources\\test_structure.py",
+      "sha256": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36",
+      "bytes": 12435
+    },
+    {
+      "path": "testing-packet\\historical\\review-first-incomplete\\submitted-proof.tex",
+      "sha256": "6962654468b09dcccb22a4775fdb9eb19d231e5db5bb460c746c7c1be87b1012",
+      "bytes": 40633
+    },
+    {
+      "path": "testing-packet\\PACKET.md",
+      "sha256": "fc8b0dea0adbb1c4bb556312aa7a0821846510c783ff9be312c7460f21f61d13",
+      "bytes": 6131
+    },
+    {
+      "path": "testing-packet\\pdf-layout-checks.json",
+      "sha256": "2500deb485f412a8f8c0ae3f0264e1addecf7e9aca6ff06454b708ec6871f760",
+      "bytes": 924
+    },
+    {
+      "path": "testing-packet\\protocol.json",
+      "sha256": "5f8264d25a52ceebafb72781ce5159ab3b09314fe9bc288fc3ba97f1c9f40f4a",
+      "bytes": 2137
+    },
+    {
+      "path": "testing-packet\\render-attempts\\01\\corrected-proof.pdf",
+      "sha256": "f55f9b76a7c4d1d1a6da78c3a79419bcc5a8cc9bccec3d431c772f343da4c06e",
+      "bytes": 624775
+    },
+    {
+      "path": "testing-packet\\render-attempts\\01\\render-checks.json",
+      "sha256": "54ffaf55749e0299667571f2ce445bc88699f38575d29caa85b6d6238c98d111",
+      "bytes": 700
+    },
+    {
+      "path": "testing-packet\\render-attempts\\01\\renderer.cjs",
+      "sha256": "a40f81099bbab9489ee73a0ef862f77e2a8c4fbf0a60b0b34534dedd618f6979",
+      "bytes": 6634
+    },
+    {
+      "path": "testing-packet\\render-attempts\\02\\corrected-proof.pdf",
+      "sha256": "1aad4091f97ad096efe10dc26f86ebd091f017e3d3cb41f4a089e1f82c0b1930",
+      "bytes": 624775
+    },
+    {
+      "path": "testing-packet\\render-attempts\\02\\pdf-layout-checks.json",
+      "sha256": "2500deb485f412a8f8c0ae3f0264e1addecf7e9aca6ff06454b708ec6871f760",
+      "bytes": 924
+    },
+    {
+      "path": "testing-packet\\render-attempts\\02\\proof.html",
+      "sha256": "af0127ae62bdbe7e07947a5ab126c7cbdc47605b63cbc111e17bc6ac981f1df1",
+      "bytes": 2139257
+    },
+    {
+      "path": "testing-packet\\render-attempts\\02\\proof.md",
+      "sha256": "83bffb6e7233509f030e4929696c0147ad4b032cf07831317dd9b830cf450491",
+      "bytes": 27125
+    },
+    {
+      "path": "testing-packet\\render-attempts\\02\\proof.tex",
+      "sha256": "cc64979509fc58ac8dbb7978ee57ec0c009e46320d1505b29c71cfa88054fadb",
+      "bytes": 28201
+    },
+    {
+      "path": "testing-packet\\render-attempts\\02\\provenance.json",
+      "sha256": "f816d851a8cd867bbf502f7e4ad718965547948f162d31436d45180421c203b2",
+      "bytes": 561
+    },
+    {
+      "path": "testing-packet\\render-attempts\\02\\render-checks.json",
+      "sha256": "a3b9998723b4c79355b8b159834508ef14697187354f7bd887ad699915ca0f27",
+      "bytes": 734
+    },
+    {
+      "path": "testing-packet\\render-attempts\\02\\render_corrected_hug_proof.cjs",
+      "sha256": "af316174156d8aea30fb6e1ffee95912e5989a8511f9e2dbb77e122a2616f826",
+      "bytes": 6745
+    },
+    {
+      "path": "testing-packet\\render-attempts\\02\\visual-review.json",
+      "sha256": "f645a32dcff1c3e140df453f1c7f7c36b1e24cc5575471a3f310ec41e75d454b",
+      "bytes": 686
+    },
+    {
+      "path": "testing-packet\\render-checks.json",
+      "sha256": "a3b9998723b4c79355b8b159834508ef14697187354f7bd887ad699915ca0f27",
+      "bytes": 734
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\checks.json",
+      "sha256": "b3fa36a95eaa731b35a3df17d0fa88a023a4dc1780d25e8330a81c139e6a0bdf",
+      "bytes": 853
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\equation-preservation.json",
+      "sha256": "e27040999dab53a263777d0b46308f6b4337de59d1040b0580e538d046ee4c02",
+      "bytes": 883
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\historical\\earlier-formal-verification.json",
+      "sha256": "421676d0805241b6f53f3f31cbe47d88b643fde3d83012f4cddb56ec5d57240a",
+      "bytes": 2915
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\historical\\prior-review-checks.json",
+      "sha256": "378714711cf0c5e425722c57755e480bc985a9bb1899da3624810cff9d887ad7",
+      "bytes": 10475
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\input-manifest.json",
+      "sha256": "505e14f62160ede51fd0c61083e924b7b9ec1e4e46e973d1e0522ee7eb772675",
+      "bytes": 8479
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\inputs\\CORRECTIONS.md",
+      "sha256": "07aa5f31da14aea1d65239b24bc2a9324edcf0d9e3e1a6c1ca74350611ddc809",
+      "bytes": 3862
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\inputs\\original-submitted-proof.tex",
+      "sha256": "6962654468b09dcccb22a4775fdb9eb19d231e5db5bb460c746c7c1be87b1012",
+      "bytes": 40633
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\inputs\\proof.md",
+      "sha256": "83bffb6e7233509f030e4929696c0147ad4b032cf07831317dd9b830cf450491",
+      "bytes": 27125
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\inputs\\protocol.json",
+      "sha256": "5f8264d25a52ceebafb72781ce5159ab3b09314fe9bc288fc3ba97f1c9f40f4a",
+      "bytes": 2137
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\original-equations-reference.json",
+      "sha256": "bb7d8bac5e3e89d378977b740bdc24ad30356844e8bbd19ef3f4fd340d8d83b9",
+      "bytes": 8518
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\original-equations-retained.json",
+      "sha256": "bb7d8bac5e3e89d378977b740bdc24ad30356844e8bbd19ef3f4fd340d8d83b9",
+      "bytes": 8518
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\continuum.py",
+      "sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+      "bytes": 15758
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\declarations\\grid24.json",
+      "sha256": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c",
+      "bytes": 176326
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\declarations\\main.json",
+      "sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+      "bytes": 176321
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\declarations\\no_read_feedback.json",
+      "sha256": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a",
+      "bytes": 176327
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\declarations\\particles640.json",
+      "sha256": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793",
+      "bytes": 176332
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\declarations\\slow_fabric.json",
+      "sha256": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956",
+      "bytes": 176331
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\declarations\\time_half.json",
+      "sha256": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
+      "bytes": 176329
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\declarations\\unit.json",
+      "sha256": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe",
+      "bytes": 175448
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\equation_register.csv",
+      "sha256": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc",
+      "bytes": 1612
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\literal_registry.json",
+      "sha256": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273",
+      "bytes": 45346
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\parameter_bounds.json",
+      "sha256": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0",
+      "bytes": 344641
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\preflight.py",
+      "sha256": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+      "bytes": 2535
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\protocol.json",
+      "sha256": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77",
+      "bytes": 17597
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\reference_gate\\parameter_bounds.json",
+      "sha256": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
+      "bytes": 5248
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\reference_gate\\run_manifest.py",
+      "sha256": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
+      "bytes": 14307
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\rule_changes.json",
+      "sha256": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917",
+      "bytes": 29345
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\run.py",
+      "sha256": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+      "bytes": 4673
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\social_base.py",
+      "sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+      "bytes": 15981
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\source_seal.json",
+      "sha256": "b815846bd7afe1aa1a91430c40b658fc44a4d13add5432de0aed424530bedea0",
+      "bytes": 2020
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\structural_hug.py",
+      "sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+      "bytes": 14124
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\study_chain.csv",
+      "sha256": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c",
+      "bytes": 9161
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\sources\\test_structure.py",
+      "sha256": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36",
+      "bytes": 12435
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053111.490037Z\\verification.py",
+      "sha256": "b9903a26f016176356a8e43019dad552277ad9de1e664bd92619417c01bcded3",
+      "bytes": 12412
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\checks.json",
+      "sha256": "4b9fd4e51583d5056690145352ddf2b651545a9b3836f73835537155d1317968",
+      "bytes": 4360
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\equation-preservation.json",
+      "sha256": "e27040999dab53a263777d0b46308f6b4337de59d1040b0580e538d046ee4c02",
+      "bytes": 883
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\historical\\earlier-formal-verification.json",
+      "sha256": "421676d0805241b6f53f3f31cbe47d88b643fde3d83012f4cddb56ec5d57240a",
+      "bytes": 2915
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\historical\\prior-review-checks.json",
+      "sha256": "378714711cf0c5e425722c57755e480bc985a9bb1899da3624810cff9d887ad7",
+      "bytes": 10475
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\input-manifest.json",
+      "sha256": "5efa9ed01fe2be276a069bb0d7cf8ee3e9c7453059990209eaf7fdc987e94a7b",
+      "bytes": 8479
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\inputs\\CORRECTIONS.md",
+      "sha256": "07aa5f31da14aea1d65239b24bc2a9324edcf0d9e3e1a6c1ca74350611ddc809",
+      "bytes": 3862
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\inputs\\original-submitted-proof.tex",
+      "sha256": "6962654468b09dcccb22a4775fdb9eb19d231e5db5bb460c746c7c1be87b1012",
+      "bytes": 40633
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\inputs\\proof.md",
+      "sha256": "83bffb6e7233509f030e4929696c0147ad4b032cf07831317dd9b830cf450491",
+      "bytes": 27125
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\inputs\\protocol.json",
+      "sha256": "5f8264d25a52ceebafb72781ce5159ab3b09314fe9bc288fc3ba97f1c9f40f4a",
+      "bytes": 2137
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\original-equations-reference.json",
+      "sha256": "bb7d8bac5e3e89d378977b740bdc24ad30356844e8bbd19ef3f4fd340d8d83b9",
+      "bytes": 8518
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\original-equations-retained.json",
+      "sha256": "bb7d8bac5e3e89d378977b740bdc24ad30356844e8bbd19ef3f4fd340d8d83b9",
+      "bytes": 8518
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\continuum.py",
+      "sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+      "bytes": 15758
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\declarations\\grid24.json",
+      "sha256": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c",
+      "bytes": 176326
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\declarations\\main.json",
+      "sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+      "bytes": 176321
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\declarations\\no_read_feedback.json",
+      "sha256": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a",
+      "bytes": 176327
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\declarations\\particles640.json",
+      "sha256": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793",
+      "bytes": 176332
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\declarations\\slow_fabric.json",
+      "sha256": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956",
+      "bytes": 176331
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\declarations\\time_half.json",
+      "sha256": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
+      "bytes": 176329
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\declarations\\unit.json",
+      "sha256": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe",
+      "bytes": 175448
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\equation_register.csv",
+      "sha256": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc",
+      "bytes": 1612
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\literal_registry.json",
+      "sha256": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273",
+      "bytes": 45346
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\parameter_bounds.json",
+      "sha256": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0",
+      "bytes": 344641
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\preflight.py",
+      "sha256": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+      "bytes": 2535
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\protocol.json",
+      "sha256": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77",
+      "bytes": 17597
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\reference_gate\\parameter_bounds.json",
+      "sha256": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
+      "bytes": 5248
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\reference_gate\\run_manifest.py",
+      "sha256": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
+      "bytes": 14307
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\rule_changes.json",
+      "sha256": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917",
+      "bytes": 29345
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\run.py",
+      "sha256": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+      "bytes": 4673
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\social_base.py",
+      "sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+      "bytes": 15981
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\source_seal.json",
+      "sha256": "b815846bd7afe1aa1a91430c40b658fc44a4d13add5432de0aed424530bedea0",
+      "bytes": 2020
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\structural_hug.py",
+      "sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+      "bytes": 14124
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\study_chain.csv",
+      "sha256": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c",
+      "bytes": 9161
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\sources\\test_structure.py",
+      "sha256": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36",
+      "bytes": 12435
+    },
+    {
+      "path": "testing-packet\\runs\\20261101T053322.089427Z\\verification.py",
+      "sha256": "5b886e8dba4423b143ee324be2b7437b139d8cae74bfa9345287fd9ee113938b",
+      "bytes": 12467
+    },
+    {
+      "path": "testing-packet\\runs.jsonl",
+      "sha256": "da5f66f8cd3850ed2ed8a1825ac3d2fe2f77ab03b04549b840ddaa16411ef9eb",
+      "bytes": 990
+    },
+    {
+      "path": "testing-packet\\source-manifest.json",
+      "sha256": "2b232830d24af53f5346edef06f872f1e42da12647f8eb763fadcd124bca2c2d",
+      "bytes": 8698
+    },
+    {
+      "path": "testing-packet\\visual-pages\\page-1.png",
+      "sha256": "93cb75c53fab4a2635f5aab7141bb4dda2d5e6aff4e8f7d7d7b6960f70120599",
+      "bytes": 273162
+    },
+    {
+      "path": "testing-packet\\visual-pages\\page-2.png",
+      "sha256": "7928fa511ae7d9dc09a5913031519c015f1245af7bd60085989652d7967d144b",
+      "bytes": 265145
+    },
+    {
+      "path": "testing-packet\\visual-pages\\page-3.png",
+      "sha256": "9ad6585d62424fe69bb62674ab99d8a3baf93a993a1f8689302b882d2c924002",
+      "bytes": 261408
+    },
+    {
+      "path": "testing-packet\\visual-pages\\page-4.png",
+      "sha256": "b117d1ee14926d56fb1fbeec73a3ed6cb7038f4a86784d5de9e6a463050a48e9",
+      "bytes": 159070
+    },
+    {
+      "path": "testing-packet\\visual-pages\\page-5.png",
+      "sha256": "2603d3dffa08d1c8cda16dd86fa4ecc45086aef6cd4b7f00f7b86073b99ed304",
+      "bytes": 236744
+    },
+    {
+      "path": "testing-packet\\visual-pages\\page-6.png",
+      "sha256": "54da16389165b543699e6c23f2d53f453507799046f0fb75c6ac8045ebb3ce9f",
+      "bytes": 245269
+    },
+    {
+      "path": "testing-packet\\visual-pages\\page-7.png",
+      "sha256": "102c96916e06cc969df44bf6e549b74b3617b6c84ea0b83e9c453fb8cca6d72a",
+      "bytes": 290702
+    },
+    {
+      "path": "testing-packet\\visual-pages\\page-8.png",
+      "sha256": "aba66d17ae8604c8f2c232209a48416b7f3ab8e8d54216c4dd3e0156da962dca",
+      "bytes": 314117
+    },
+    {
+      "path": "testing-packet\\visual-pages\\page-9.png",
+      "sha256": "f98a5a08c29fd768658293a09bee129e872f2c35b2959f871dd53f46009b0c41",
+      "bytes": 242359
+    },
+    {
+      "path": "testing-packet\\visual-review.json",
+      "sha256": "f645a32dcff1c3e140df453f1c7f7c36b1e24cc5575471a3f310ec41e75d454b",
+      "bytes": 686
+    }
+  ],
+  "scope": "Final files; this manifest does not hash itself."
+}

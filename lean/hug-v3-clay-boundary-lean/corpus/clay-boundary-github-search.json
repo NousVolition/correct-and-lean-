@@ -1,0 +1,670 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "results": [
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/math/notes/hug-boundary.md",
+        "path": "math/notes/hug-boundary.md",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/math/notes/hug-boundary.md",
+        "display_title": "math/notes/hug-boundary.md",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "\r\nWidths measure the distribution of motion. They do not measure material-boundary displacement or isolate pressure as a cause. The timed breathing animation is not imposed during fluid evolution. At most 0.054675% of energy lies in the selected outer face bands at the new shape checkpoints. The fixed periodic coordinate cut and finite sampling remain limitations.\r\n\r",
+            "matches": [
+              {
+                "text": "boundary",
+                "indices": [
+                  74,
+                  82
+                ]
+              }
+            ]
+          },
+          {
+            "property": "content",
+            "fragment": "\r\n[Diagnostic code](../hug_resolution.py) · [Independent checks](../tests/test_hug_resolution.py) · [Measurements and spectra](../results/hug-resolution.json) · [Measurement table](../results/hug-resolution.csv)\r\n\r",
+            "matches": [
+              {
+                "text": "hug",
+                "indices": [
+                  23,
+                  26
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/math/reports/hug-boundary.html",
+        "path": "math/reports/hug-boundary.html",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/math/reports/hug-boundary.html",
+        "display_title": "math/reports/hug-boundary.html",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "<p>The actual closed hug shapes your maintained smooth ring’s stream function. The flow becomes smoothly zero before the cube faces, while the inner core retains the original analytic field.</p>\r\n<div class=\"badge\">Boundary mismatch: 0 · External force: 0</div>\r\n<p><strong>9 new checks passed</strong>, along with 7 existing integration checks. Four short runs used the existing cube solver.</p>\r\n<figure><img src=\"../figures/hug-ring-boundary.png\" alt=\"Meridional flow inside the actual closed hug, with an unchanged inner core and a smooth weight that reaches zero before the cube faces.\"><figcaption>The existing closed pose is sampled once to prepare the starting field. Streamlines show the meridional flow; swirl remains in the full three-dimensional field.</figcaption></figure>\r\n<!-- METHOD_REFINEMENT_START -->\r\n<section id=\"method-refinement\"><h2>Do the remaining differences shrink?</h2>\r\n<p><strong>The remaining differences shrink when the averaging step is halved again.</strong> At 0.41 the energy difference shrinks by 3.961, and the absolute velocity difference by 4.002.</p>\r",
+            "matches": [
+              {
+                "text": "hug",
+                "indices": [
+                  21,
+                  24
+                ]
+              },
+              {
+                "text": "Boundary",
+                "indices": [
+                  217,
+                  225
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  430,
+                  433
+                ]
+              },
+              {
+                "text": "boundary",
+                "indices": [
+                  439,
+                  447
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  499,
+                  502
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/files/hug-boundary-results.html",
+        "path": "reports/files/hug-boundary-results.html",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/files/hug-boundary-results.html",
+        "display_title": "reports/files/hug-boundary-results.html",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "<p>The actual closed hug shapes your maintained smooth ring’s stream function. The flow becomes smoothly zero before the cube faces, while the inner core retains the original analytic field.</p>\r\r\n<div class=\"badge\">Boundary mismatch: 0 · External force: 0</div>\r\r\n<p><strong>9 new checks passed</strong>, along with 7 existing integration checks. Four short runs used the existing cube solver.</p>\r\r\n<figure><img src=\"hug-ring-boundary.png\" alt=\"Meridional flow inside the actual closed hug, with an unchanged inner core and a smooth weight that reaches zero before the cube faces.\"><figcaption>The existing closed pose is sampled once to prepare the starting field. Streamlines show the meridional flow; swirl remains in the full three-dimensional field.</figcaption></figure>\r\r\n<!-- METHOD_REFINEMENT_START -->\r\r\n<section id=\"method-refinement\"><h2>Do the remaining differences shrink?</h2>\r\r\n<p><strong>The remaining differences shrink when the averaging step is halved again.</strong> At 0.41 the energy difference shrinks by 3.961, and the absolute velocity difference by 4.002.</p>\r\r",
+            "matches": [
+              {
+                "text": "hug",
+                "indices": [
+                  21,
+                  24
+                ]
+              },
+              {
+                "text": "Boundary",
+                "indices": [
+                  218,
+                  226
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  422,
+                  425
+                ]
+              },
+              {
+                "text": "boundary",
+                "indices": [
+                  431,
+                  439
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  491,
+                  494
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-hug/README.md",
+        "path": "reports/clay-hug/README.md",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-hug/README.md",
+        "display_title": "reports/clay-hug/README.md",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "node test_playback.cjs\r\n```\r\n\r\n`clay_hug.py` defines the model and integrators. `validate_model.py` checks independent analytic bond responses, energy gradients, contact gradients, reciprocal work, rotation symmetry and uncoupled Lorenz behavior. `run_stress.py` saves each actual configuration. `run_followup.py` repeats the strong drive with smaller time steps, retaining the inaccurate original attempts. `build_report.py` derives comparisons, charts and playback from those saved trajectories. `verify_results.py` audits the evidence, provenance and boundary crossings at saved times.\r\n\r\nIn saved states, columns are all node coordinates, all bond rest lengths, Lorenz X/Y/Z, accumulated Lorenz-native work, viscous loss, internal-flow loss, and work into the material. Each run saves its mesh, reference coordinates, times and object outline. A positive port-work rate means work entering the material; a negative rate means work returning from it.\r\n\r",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  32,
+                  36
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  37,
+                  40
+                ]
+              },
+              {
+                "text": "boundary",
+                "indices": [
+                  554,
+                  562
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-hug/verify_results.py",
+        "path": "reports/clay-hug/verify_results.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-hug/verify_results.py",
+        "display_title": "reports/clay-hug/verify_results.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "from dataclasses import asdict\nimport hashlib,json\nimport numpy as np\nfrom clay_hug import Parameters, Mesh\nfrom run_stress import summarize\n\nROOT=Path(__file__).resolve().parent;DATA=ROOT/'data'",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  75,
+                  79
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  80,
+                  83
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-mesh-accuracy/resolved/mesh_hug.py",
+        "path": "reports/clay-mesh-accuracy/resolved/mesh_hug.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-mesh-accuracy/resolved/mesh_hug.py",
+        "display_title": "reports/clay-mesh-accuracy/resolved/mesh_hug.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "\"\"\"\nfrom dataclasses import dataclass\nimport numpy as np\nfrom clay_hug import Mesh as SpringMesh, object_gap, object_outline\nfrom contact_hug import barrier\nfrom cell_hug import Mesh as CellMesh, Parameters as CellParameters, shape_values\n",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  62,
+                  66
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  67,
+                  70
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  138,
+                  141
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  167,
+                  170
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-cell-stress/contact_hug.py",
+        "path": "reports/clay-cell-stress/contact_hug.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-cell-stress/contact_hug.py",
+        "display_title": "reports/clay-cell-stress/contact_hug.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "\"\"\"\nfrom dataclasses import dataclass\nimport numpy as np\nfrom clay_hug import Parameters as OldParameters, Mesh as OldMesh, object_gap, object_outline\n\n\n@dataclass(frozen=True)",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  62,
+                  66
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  67,
+                  70
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-mesh-accuracy/production/mesh_hug.py",
+        "path": "reports/clay-mesh-accuracy/production/mesh_hug.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-mesh-accuracy/production/mesh_hug.py",
+        "display_title": "reports/clay-mesh-accuracy/production/mesh_hug.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "\"\"\"\nfrom dataclasses import dataclass\nimport numpy as np\nfrom clay_hug import Mesh as SpringMesh, object_gap, object_outline\nfrom contact_hug import barrier\nfrom cell_hug import Mesh as CellMesh, Parameters as CellParameters, shape_values\n",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  62,
+                  66
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  67,
+                  70
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  138,
+                  141
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  167,
+                  170
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-mesh-accuracy/contact_hug.py",
+        "path": "reports/clay-mesh-accuracy/contact_hug.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-mesh-accuracy/contact_hug.py",
+        "display_title": "reports/clay-mesh-accuracy/contact_hug.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "\"\"\"\nfrom dataclasses import dataclass\nimport numpy as np\nfrom clay_hug import Parameters as OldParameters, Mesh as OldMesh, object_gap, object_outline\n\n\n@dataclass(frozen=True)",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  62,
+                  66
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  67,
+                  70
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-contact-stress/contact_hug.py",
+        "path": "reports/clay-contact-stress/contact_hug.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-contact-stress/contact_hug.py",
+        "display_title": "reports/clay-contact-stress/contact_hug.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "\"\"\"\nfrom dataclasses import dataclass\nimport numpy as np\nfrom clay_hug import Parameters as OldParameters, Mesh as OldMesh, object_gap, object_outline\n\n\n@dataclass(frozen=True)",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  62,
+                  66
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  67,
+                  70
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-hug/build_report.py",
+        "path": "reports/clay-hug/build_report.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-hug/build_report.py",
+        "display_title": "reports/clay-hug/build_report.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "<p>The selected target is 1e-4 maximum scaled state discrepancy for the short solver comparisons, 1e-3 normalized work-balance residual, 0.02 maximum radial overlap and cell area above 10% of its reference area. Accepted solver checks passed: {accepted_checks_passed}. Original check results are preserved alongside the finer strong-drive follow-up. Coarse guard stops: {stop_names}. Completed cases missing the overlap target: {misses}. Completed cases missing the work-balance target: {budget}. Original stopped runs are preserved; their guard stops are not labeled physical fracture.</p>\n<p>The original alpha=2 paired runs at step 0.001 completed but had large work-balance errors. Completion and an intact mesh did not make those answers accurate. They are excluded from the comparison table and playback; their step-0.00025 repeats are explicitly named resolved-alpha2. Short-time agreement is insufficient to establish reliability for a longer, more deformed run. The report includes the original failures rather than silently replacing them.</p>\n<p>The largest completed material balance residual is {summary['largest_completed_material_budget_error']:.3e}. Contact is a penalty approximation: small overlap is allowed, and stiffness/mesh checks measure its sensitivity. The square now exerts an actual penalty force, but it is a soft boundary rather than an exact impenetrable constraint. Increasing contact stiffness and decreasing viscosity make the numerical problem harder; reduced steps are tested explicitly.</p>\n<p>Spatial comparison of the steady-formed inner boundary gives adjacent-grid radial RMS differences {spatial[0]['radial_rms_error']:.5f} and {spatial[1]['radial_rms_error']:.5f}. This is a measured convergence result, not a declaration that the finest mesh is exact. The cohesive bond mesh can retain directional/discretization effects; it is not a calibrated isotropic continuum constitutive law.</p>\n<h2>Limits of the result</h2><p>This implementation covers a 2-D cross-section, fixed rigid objects, frictionless contact, a compressible cohesive band, yielding rest lengths and fading memory. It does not include a full 3-D body, adhesion, friction, fracture, general remeshing, material passing through itself, a pressure-dependent soil-clay law, temperature, quantum effects or resolved water flow. Severe folding or inverted cells requires another contact/remeshing method. There are no measured material parameters or experimental reciprocal-drive benchmarks for this proposed hug, so numerical verification is not experimental validation.</p>\n<p>Lorenz supplies a small dynamical reservoir. This test establishes a connection between a deformable material and that reservoir. It does not establish an exact connection to Navier–Stokes or solve its regularity problem. The earlier fluid experiments remain separate.</p>\n<h2>Reproduce</h2><pre>python -m pip install -r requirements-lock.txt",
+            "matches": [
+              {
+                "text": "boundary",
+                "indices": [
+                  1343,
+                  1351
+                ]
+              },
+              {
+                "text": "boundary",
+                "indices": [
+                  1577,
+                  1585
+                ]
+              },
+              {
+                "text": "clay",
+                "indices": [
+                  2270,
+                  2274
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  2513,
+                  2516
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-long-stress/solver/contact_hug.py",
+        "path": "reports/clay-long-stress/solver/contact_hug.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-long-stress/solver/contact_hug.py",
+        "display_title": "reports/clay-long-stress/solver/contact_hug.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "\"\"\"\nfrom dataclasses import dataclass\nimport numpy as np\nfrom clay_hug import Parameters as OldParameters, Mesh as OldMesh, object_gap, object_outline\n\n\n@dataclass(frozen=True)",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  62,
+                  66
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  67,
+                  70
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-mesh-accuracy/model/contact_hug.py",
+        "path": "reports/clay-mesh-accuracy/model/contact_hug.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-mesh-accuracy/model/contact_hug.py",
+        "display_title": "reports/clay-mesh-accuracy/model/contact_hug.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "\"\"\"\nfrom dataclasses import dataclass\nimport numpy as np\nfrom clay_hug import Parameters as OldParameters, Mesh as OldMesh, object_gap, object_outline\n\n\n@dataclass(frozen=True)",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  62,
+                  66
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  67,
+                  70
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-mesh-accuracy/solver/contact_hug.py",
+        "path": "reports/clay-mesh-accuracy/solver/contact_hug.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-mesh-accuracy/solver/contact_hug.py",
+        "display_title": "reports/clay-mesh-accuracy/solver/contact_hug.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "\"\"\"\nfrom dataclasses import dataclass\nimport numpy as np\nfrom clay_hug import Parameters as OldParameters, Mesh as OldMesh, object_gap, object_outline\n\n\n@dataclass(frozen=True)",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  62,
+                  66
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  67,
+                  70
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-mesh-accuracy/refined/contact_hug.py",
+        "path": "reports/clay-mesh-accuracy/refined/contact_hug.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-mesh-accuracy/refined/contact_hug.py",
+        "display_title": "reports/clay-mesh-accuracy/refined/contact_hug.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "\"\"\"\nfrom dataclasses import dataclass\nimport numpy as np\nfrom clay_hug import Parameters as OldParameters, Mesh as OldMesh, object_gap, object_outline\n\n\n@dataclass(frozen=True)",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  62,
+                  66
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  67,
+                  70
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-gap-refinement/solver/contact_hug.py",
+        "path": "reports/clay-gap-refinement/solver/contact_hug.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-gap-refinement/solver/contact_hug.py",
+        "display_title": "reports/clay-gap-refinement/solver/contact_hug.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "\"\"\"\nfrom dataclasses import dataclass\nimport numpy as np\nfrom clay_hug import Parameters as OldParameters, Mesh as OldMesh, object_gap, object_outline\n\n\n@dataclass(frozen=True)",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  62,
+                  66
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  67,
+                  70
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-mesh-accuracy/resolved/contact_hug.py",
+        "path": "reports/clay-mesh-accuracy/resolved/contact_hug.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-mesh-accuracy/resolved/contact_hug.py",
+        "display_title": "reports/clay-mesh-accuracy/resolved/contact_hug.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "\"\"\"\nfrom dataclasses import dataclass\nimport numpy as np\nfrom clay_hug import Parameters as OldParameters, Mesh as OldMesh, object_gap, object_outline\n\n\n@dataclass(frozen=True)",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  62,
+                  66
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  67,
+                  70
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-resolved-stress/solver/contact_hug.py",
+        "path": "reports/clay-resolved-stress/solver/contact_hug.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-resolved-stress/solver/contact_hug.py",
+        "display_title": "reports/clay-resolved-stress/solver/contact_hug.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "\"\"\"\nfrom dataclasses import dataclass\nimport numpy as np\nfrom clay_hug import Parameters as OldParameters, Mesh as OldMesh, object_gap, object_outline\n\n\n@dataclass(frozen=True)",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  62,
+                  66
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  67,
+                  70
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-gap-refinement/baseline/contact_hug.py",
+        "path": "reports/clay-gap-refinement/baseline/contact_hug.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-gap-refinement/baseline/contact_hug.py",
+        "display_title": "reports/clay-gap-refinement/baseline/contact_hug.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "\"\"\"\nfrom dataclasses import dataclass\nimport numpy as np\nfrom clay_hug import Parameters as OldParameters, Mesh as OldMesh, object_gap, object_outline\n\n\n@dataclass(frozen=True)",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  62,
+                  66
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  67,
+                  70
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-gap-refinement/numerical/contact_hug.py",
+        "path": "reports/clay-gap-refinement/numerical/contact_hug.py",
+        "display_url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/clay-gap-refinement/numerical/contact_hug.py",
+        "display_title": "reports/clay-gap-refinement/numerical/contact_hug.py",
+        "text_matches": [
+          {
+            "property": "content",
+            "fragment": "\"\"\"\nfrom dataclasses import dataclass\nimport numpy as np\nfrom clay_hug import Parameters as OldParameters, Mesh as OldMesh, object_gap, object_outline\n\n\n@dataclass(frozen=True)",
+            "matches": [
+              {
+                "text": "clay",
+                "indices": [
+                  62,
+                  66
+                ]
+              },
+              {
+                "text": "hug",
+                "indices": [
+                  67,
+                  70
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "isError": false
+}

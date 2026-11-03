@@ -1,0 +1,1 @@
+'SocialAS.Verified.full_existence_uniqueness' depends on axioms: [propext, Classical.choice, Quot.sound]

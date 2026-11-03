@@ -1,0 +1,67 @@
+WellposednessProofs.lean:38:14: error: don't know how to synthesize implicit argument `d'`
+  @HasDerivAt.const_mul ℝ DenselyNormedField.toNontriviallyNormedField ?m.133 ℝ Real.normedCommRing.toNormedRing
+    Real.instRCLike.toNormedAlgebra (fun x => Real.cos (↑n * x)) (-Real.sin (↑n * ?m.133) * ↑n) (1 / ↑n ^ 2)
+    (HasDerivAt.cos (hasDerivAt_const_mul ↑n))
+context:
+n : ℕ
+r : Point
+hb :
+  HasDerivAt (fun x => -11 / 20 + 3 / 20 * Real.cos (id x) + 1 / 10 * Real.sin r.2) (3 / 20 * (-Real.sin (id r.1) * 1))
+    r.1
+⊢ ℝ
+WellposednessProofs.lean:38:14: error: don't know how to synthesize implicit argument `x`
+  @HasDerivAt.const_mul ℝ DenselyNormedField.toNontriviallyNormedField ?m.133 ℝ Real.normedCommRing.toNormedRing
+    Real.instRCLike.toNormedAlgebra (fun x => Real.cos (↑n * x)) (-Real.sin (↑n * ?m.133) * ↑n) (1 / ↑n ^ 2)
+    (HasDerivAt.cos (hasDerivAt_const_mul ↑n))
+context:
+n : ℕ
+r : Point
+hb :
+  HasDerivAt (fun x => -11 / 20 + 3 / 20 * Real.cos (id x) + 1 / 10 * Real.sin r.2) (3 / 20 * (-Real.sin (id r.1) * 1))
+    r.1
+⊢ ℝ
+WellposednessProofs.lean:38:14: error: don't know how to synthesize implicit argument `x`
+  @HasDerivAt.cos (fun y => ↑n * y) ↑n ?m.133 (hasDerivAt_const_mul ↑n)
+context:
+n : ℕ
+r : Point
+hb :
+  HasDerivAt (fun x => -11 / 20 + 3 / 20 * Real.cos (id x) + 1 / 10 * Real.sin r.2) (3 / 20 * (-Real.sin (id r.1) * 1))
+    r.1
+⊢ ℝ
+WellposednessProofs.lean:38:15: error: don't know how to synthesize implicit argument `x`
+  @hasDerivAt_const_mul ℝ DenselyNormedField.toNontriviallyNormedField ?m.133 ↑n
+context:
+n : ℕ
+r : Point
+hb :
+  HasDerivAt (fun x => -11 / 20 + 3 / 20 * Real.cos (id x) + 1 / 10 * Real.sin r.2) (3 / 20 * (-Real.sin (id r.1) * 1))
+    r.1
+⊢ ℝ
+WellposednessProofs.lean:38:7: error: failed to infer `have` declaration type
+WellposednessProofs.lean:35:48: error: unsolved goals
+n : ℕ
+r : Point
+hb :
+  HasDerivAt (fun x => -11 / 20 + 3 / 20 * Real.cos (id x) + 1 / 10 * Real.sin r.2) (3 / 20 * (-Real.sin (id r.1) * 1))
+    r.1
+⊢ partialX (nearby n).xA r = -(3 / 20) * Real.sin r.1 - 1 / ↑n ^ 2 * ↑n * Real.sin (↑n * r.1)
+WellposednessProofs.lean:68:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  deriv (fun i => -3 / 20 * Real.sin i - 1 / ↑n ^ 2 * ↑n * Real.sin (↑n * i)) r.1
+in the target expression
+  deriv (fun x => -(3 / 20) * Real.sin x - 1 / ↑n ^ 2 * ↑n * Real.sin (↑n * x)) r.1 +
+      deriv (fun y => 1 / 10 * Real.cos y) r.2 =
+    -(3 / 20) * Real.cos r.1 - 1 / 10 * Real.sin r.2 - 1 / ↑n ^ 2 * ↑n ^ 2 * Real.cos (↑n * r.1)
+
+n : ℕ
+r : Point
+hx :
+  HasDerivAt (fun i => -3 / 20 * Real.sin i - 1 / ↑n ^ 2 * ↑n * Real.sin (↑n * i))
+    (-3 / 20 * (Real.cos r.1 * 1) - 1 / ↑n ^ 2 * ↑n * (Real.cos (↑n * r.1) * ↑n)) r.1
+hy : HasDerivAt (fun y => 1 / 10 * Real.cos y) (1 / 10 * (-Real.sin r.2 * 1)) r.2
+⊢ deriv (fun x => -(3 / 20) * Real.sin x - 1 / ↑n ^ 2 * ↑n * Real.sin (↑n * x)) r.1 +
+      deriv (fun y => 1 / 10 * Real.cos y) r.2 =
+    -(3 / 20) * Real.cos r.1 - 1 / 10 * Real.sin r.2 - 1 / ↑n ^ 2 * ↑n ^ 2 * Real.cos (↑n * r.1)
+WellposednessProofs.lean:83:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`

@@ -1,0 +1,141 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "results": [
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/sims-recovery-entrainment/verify_results.py",
+          "path": "studies/sims-recovery-entrainment/verify_results.py",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/sims-recovery-entrainment/verify_results.py",
+          "display_title": "studies/sims-recovery-entrainment/verify_results.py",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "    lookup={(t['config']['seed'],t['config']['topology'],t['config']['balance'],t['config']['memory'],t['schedule']):i for i,t in enumerate(tasks)}\n    no_anticipation=[]\n    for key,i in lookup.items():",
+              "matches": [
+                {
+                  "text": "anticipation",
+                  "indices": [
+                    155,
+                    167
+                  ]
+                }
+              ]
+            },
+            {
+              "property": "content",
+              "fragment": "        if key[-1]=='never':\n            no_anticipation.append(np.array_equal(x[i,:20],x[lookup[(*key[:-1],'late')],:20]))\n            no_anticipation.append(np.array_equal(x[i,:4],x[lookup[(*key[:-1],'early')],:4]))",
+              "matches": [
+                {
+                  "text": "anticipation",
+                  "indices": [
+                    44,
+                    56
+                  ]
+                },
+                {
+                  "text": "anticipation",
+                  "indices": [
+                    139,
+                    151
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/sims-recovery-entrainment/build_report.py",
+          "path": "studies/sims-recovery-entrainment/build_report.py",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/sims-recovery-entrainment/build_report.py",
+          "display_title": "studies/sims-recovery-entrainment/build_report.py",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "<p>The overdamped junction equation has this same form after nondimensionalization. Keeping its inertia term permits distinct responses to rising and falling drive. The undamped pendulum instead conserves energy; it has centers and separatrices, not damping-induced attractors. The <a href=\"worked_models.html\">model atlas</a> gives the equations, deductions, checks, and diagrams.</p>\n<h2>How far the evidence goes</h2>\n<p>All uncertainty intervals use 10,000 bootstrap samples of 12 independent seed averages per discovery or replication split. They are descriptive and unadjusted for multiple comparisons. SIMS, rounds, network arrangements, and paired counterfactuals are not independent replicates. Mathematical integration error and uncertainty about the modeling assumptions are separate questions.</p>\n<p>{v['unit_tests']} main unit tests passed; 12 selected recovery trajectories reran exactly; every matched prefix passed the no-anticipation check; sampled network results retained the same locking classifications at half the integration step. Supplemental checks cover energy balance, simplex invariance, exact solutions, eigenvalues, and vector-field winding.</p>\n<p>One circuit value near the critical point was strongly sensitive to settling time: at β=10 and normalized current 1, mean voltage changed from 0.471 to 0.995. We preserve both outputs. The later fixed-bias diagnostic separates initial-state dependence from timestep error; no precise bifurcation location is inferred from that single finite-window value.</p>\n<footer>The original six-group results remain in <a href=\"https://github.com/NousVolition/Nous-Volition/tree/main/studies/social-organization\">social-organization</a>. Source material for the new mathematical examples is the user-supplied page extracts; the atlas identifies the visible figures and exercises. The cropped heteroclinic question remains pending its missing equations.</footer>'''\n    Path('report.html').write_text(page('SIMS: recovery, shared rhythms, and arrangement',body),encoding='utf-8')",
+              "matches": [
+                {
+                  "text": "anticipation",
+                  "indices": [
+                    939,
+                    951
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/sims-recovery-entrainment/transient_memory.py",
+          "path": "studies/sims-recovery-entrainment/transient_memory.py",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/sims-recovery-entrainment/transient_memory.py",
+          "display_title": "studies/sims-recovery-entrainment/transient_memory.py",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "    checks=dict(finite=bool(np.isfinite(states).all()),nonnegative=bool(states.min()>=0),\n                half_step_agreement=refinement<1e-5,permutation_equivariance=permutation_error<1e-14,\n                analytic_trace=trace_error<1e-10,no_history_effect_without_feedback=all(gain_zero),\n                no_anticipation_of_cue=all(prefix),duplicate_design_matches=all(duplicate),\n                axial_saddle_eigenvalues=bool(np.allclose(eigen,[-1,-.6,-.6,-.6,-.6,.3])))\n    return dict(checks=checks,maximum_half_step_difference=refinement,refined_runs=len(subset),\n                permutation_error=permutation_error,trace_error=trace_error,axial_eigenvalues=eigen.tolist())",
+              "matches": [
+                {
+                  "text": "anticipation",
+                  "indices": [
+                    311,
+                    323
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/sims-recovery-entrainment/verification.json",
+          "path": "studies/sims-recovery-entrainment/verification.json",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/sims-recovery-entrainment/verification.json",
+          "display_title": "studies/sims-recovery-entrainment/verification.json",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "    \"frozen_sources\": true,\r\n    \"expected_shape\": true,\r\n    \"finite_and_bounded\": true,\r\n    \"no_anticipation_all_matched_cases\": true,\r\n    \"selected_exact_reruns\": true,\r\n    \"network_step_refinement\": true,\r\n    \"unit_tests\": true\r",
+              "matches": [
+                {
+                  "text": "anticipation",
+                  "indices": [
+                    99,
+                    111
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/sims-recovery-entrainment/test_experiments.py",
+          "path": "studies/sims-recovery-entrainment/test_experiments.py",
+          "display_url": "https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/sims-recovery-entrainment/test_experiments.py",
+          "display_title": "studies/sims-recovery-entrainment/test_experiments.py",
+          "text_matches": [
+            {
+              "property": "content",
+              "fragment": "        a=self.old.run(c,True);b=run(replace(c,rounds=480),True,[(40,80)])\n        np.testing.assert_equal(a['events'],b['events'][:120])\n\n    def test_no_anticipation_and_empty_schedule(self):\n        c=Config(n=30,rounds=120,stress=1,memory=1,transitions=1)\n        a=run(c,True,[]);b=run(c,True,[(60,80)])\n        self.assertEqual(a['digest'],self.old.run(replace(c,stress=0))['digest'])",
+              "matches": [
+                {
+                  "text": "anticipation",
+                  "indices": [
+                    155,
+                    167
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "isError": false
+  }
+}

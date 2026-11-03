@@ -1,0 +1,107 @@
+{
+  "uid": 1000,
+  "solution_precompiled": false,
+  "source_files": {
+    "comparator.json": "32591d00430dd49e9be05a19292ec5dd5deca33174cbec13c09eb05a2f97bbd9",
+    "FullChecks.lean": "f838c6dd4855e2d8f0c0ab1c49ee73259ace3f9d13695dd18351a09a9ac7c24f",
+    "FullModel.lean": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "83e082629f215a9d5d342c8b681a49203f2d98eec8c076665a85f3381280231e",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "OriginalAS.lean": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5",
+    "reference-freeze.json": "5f3825701e57ff653ac19ed715f4695027ce1bff94fddd26348c887ec300671d",
+    "run-linux-check.sh": "d87d8c91f5b3dae2a1bb3424a06be278cdce77f83e6a392981b5d560c65a95d2",
+    "source-audit.json": "5374586d8232a9a1104e62fb8b2f90992749ede2b1df6f25108983cb95ac3c21",
+    "sources/interaction.md": "aa9af72b9762ff70204131bc160aec712e4071ec17e6a4f3ac832e2e7a4a5808",
+    "sources/ns_fields_methods.md": "b4a844c9488972267f2dde4ad030b658459063b594743a1de3dc66a77a8c484f",
+    "sources/ns_fields_model.py": "60948e928f31d57e8384f2f7ccd68d4ab9664d6aee3398f82407324bb0f42e30",
+    "sources/ns_protocol.json": "ba767c26ec3324f0441e158475910e12b9d225ab1f99859b534f51c280a3ebae",
+    "sources/original-corpus-passages.json": "5945c73a3a47d787db4b45640675555c08a23b0daa863ce863c92a8e1fb723fa",
+    "sources/original-source-manifest.json": "5bb99f1ef240578bf0d5372a78f23f4a6a3f9f6d1257fffa8d54fad6627f8370",
+    "WellposednessChallenge.lean": "56b80cb248fb54f4f89d2b52fd9dd56bdad6f587b424cbb540ae6cb7044d3b59",
+    "WellposednessProofs.lean": "8cbcfa3fb90d813f7050ce9e776cab8e40a87175a1abc42f8c19ad54ef3bea74",
+    "WellposednessTargets.lean": "5c013dc34f7559782e0d375958681e4b37ace7b952f94d1dd1b21dea32c3f35a"
+  },
+  "dependencies": [
+    {
+      "name": "Comparator",
+      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "clean": true
+    },
+    {
+      "name": "mathlib",
+      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "clean": true
+    },
+    {
+      "name": "lean4export",
+      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "clean": true
+    },
+    {
+      "name": "plausible",
+      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "clean": true
+    },
+    {
+      "name": "importGraph",
+      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+      "clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "clean": true
+    },
+    {
+      "name": "aesop",
+      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "clean": true
+    },
+    {
+      "name": "Qq",
+      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "clean": true
+    },
+    {
+      "name": "batteries",
+      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+      "clean": true
+    },
+    {
+      "name": "Cli",
+      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "clean": true
+    }
+  ],
+  "binaries": {
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/nsverify/verification/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
+    "/home/nsverify/verification/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
+    "/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
+    "/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
+    "/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+  },
+  "config": {
+    "challenge_module": "WellposednessChallenge",
+    "solution_module": "WellposednessProofs",
+    "enable_nanoda": true,
+    "theorem_names": [
+      "HugNavierWellposedness.Verified.perturbation_regular",
+      "HugNavierWellposedness.Verified.nearby_uniform_bound",
+      "HugNavierWellposedness.Verified.exact_rate_difference",
+      "HugNavierWellposedness.Verified.no_uniform_local_rate_bound"
+    ],
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ]
+  },
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)"
+}

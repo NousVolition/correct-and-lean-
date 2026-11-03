@@ -1,0 +1,46 @@
+'SocialAS.Verified.saturation_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.effect_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.exchange_no_increase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.exchange_negative_unchanged' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.exchange_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.general_smoke_agrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.general_clay_agrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.total_influence_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.received_meaning_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.meaning_rate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.meaning_lower_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.meaning_upper_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.load_lower_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.activation_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.opening_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.registration_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.no_opening_no_registration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.fully_qualified_blocks_challenge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.confirmation_unchanged' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.branch_distribution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.update_no_contribution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.update_same_meaning' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.update_is_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.update_preserves_simplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.constant_accumulation_solves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.constant_exposure_solves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.constant_exposure_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.clearing_solves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.clearing_preserves_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.cleared_equal_meaning_has_zero_drift' depends on axioms: [propext, Classical.choice, Quot.sound]
+Volterra.lean:18:0: warning: automatically included section variable(s) unused in theorem `Volterra.extend_continuous`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Volterra.lean:21:8: warning: automatically included section variable(s) unused in theorem `Volterra.extend_val`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'SocialAS.Verified.full_existence_uniqueness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SocialAS.Verified.full_state_invariance' depends on axioms: [propext, Classical.choice, Quot.sound]

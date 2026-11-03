@@ -1,0 +1,175 @@
+✔ [3352/3355] Built ASModel (6.6s)
+✖ [3354/3355] Building PastedASProofs (9.4s)
+trace: .> LEAN_PATH=/home/nsverify/verification/project/.lake/packages/Cli/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/batteries/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Qq/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/aesop/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/importGraph/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/plausible/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/mathlib/.lake/build/lib/lean:/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/lib/lean:/home/nsverify/verification/as-pasted-review-dev-20261101/.lake/build/lib/lean /opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean /home/nsverify/verification/as-pasted-review-dev-20261101/PastedASProofs.lean -o /home/nsverify/verification/as-pasted-review-dev-20261101/.lake/build/lib/lean/PastedASProofs.olean -i /home/nsverify/verification/as-pasted-review-dev-20261101/.lake/build/lib/lean/PastedASProofs.ilean -c /home/nsverify/verification/as-pasted-review-dev-20261101/.lake/build/ir/PastedASProofs.c --setup /home/nsverify/verification/as-pasted-review-dev-20261101/.lake/build/ir/PastedASProofs.setup.json --json
+error: PastedASProofs.lean:154:4: No goals to be solved
+error: PastedASProofs.lean:191:20: linarith failed to find a contradiction
+case inl.inr.left
+w chi : ℝ
+hw : 0 ≤ w
+g₁ g₂ : ℝ
+hchi0 : 0 ≤ chi
+hchi1 : chi ≤ 1
+hg₁ : g₁ ≤ 0
+hg₂ : 0 ≤ g₂
+a✝ : w * (g₁ - chi * 0) - w * (g₂ - chi * g₂) < -(w * |g₁ - g₂|)
+⊢ False
+failed
+error: PastedASProofs.lean:191:20: linarith failed to find a contradiction
+case inl.inr.right
+w chi : ℝ
+hw : 0 ≤ w
+g₁ g₂ : ℝ
+hchi0 : 0 ≤ chi
+hchi1 : chi ≤ 1
+hg₁ : g₁ ≤ 0
+hg₂ : 0 ≤ g₂
+a✝ : w * |g₁ - g₂| < w * (g₁ - chi * 0) - w * (g₂ - chi * g₂)
+⊢ False
+failed
+error: PastedASProofs.lean:193:20: linarith failed to find a contradiction
+case inr.inl.left
+w chi : ℝ
+hw : 0 ≤ w
+g₁ g₂ : ℝ
+hchi0 : 0 ≤ chi
+hchi1 : chi ≤ 1
+hg₁ : 0 ≤ g₁
+hg₂ : g₂ ≤ 0
+a✝ : w * (g₁ - chi * g₁) - w * (g₂ - chi * 0) < -(w * |g₁ - g₂|)
+⊢ False
+failed
+error: PastedASProofs.lean:193:20: linarith failed to find a contradiction
+case inr.inl.right
+w chi : ℝ
+hw : 0 ≤ w
+g₁ g₂ : ℝ
+hchi0 : 0 ≤ chi
+hchi1 : chi ≤ 1
+hg₁ : 0 ≤ g₁
+hg₂ : g₂ ≤ 0
+a✝ : w * |g₁ - g₂| < w * (g₁ - chi * g₁) - w * (g₂ - chi * 0)
+⊢ False
+failed
+error: PastedASProofs.lean:195:20: linarith failed to find a contradiction
+case inr.inr.left
+w chi : ℝ
+hw : 0 ≤ w
+g₁ g₂ : ℝ
+hchi0 : 0 ≤ chi
+hchi1 : chi ≤ 1
+hg₁ : 0 ≤ g₁
+hg₂ : 0 ≤ g₂
+a✝ : w * (g₁ - chi * g₁) - w * (g₂ - chi * g₂) < -(w * |g₁ - g₂|)
+⊢ False
+failed
+error: PastedASProofs.lean:195:20: linarith failed to find a contradiction
+case inr.inr.right
+w chi : ℝ
+hw : 0 ≤ w
+g₁ g₂ : ℝ
+hchi0 : 0 ≤ chi
+hchi1 : chi ≤ 1
+hg₁ : 0 ≤ g₁
+hg₂ : 0 ≤ g₂
+a✝ : w * |g₁ - g₂| < w * (g₁ - chi * g₁) - w * (g₂ - chi * g₂)
+⊢ False
+failed
+error: PastedASProofs.lean:204:2: linarith failed to find a contradiction
+alpha exposure clear : ℝ
+h : Bool
+halpha : 0 ≤ alpha
+hexp : 0 ≤ exposure
+hind0 : 0 ≤ indicator h
+right✝ : indicator h ≤ 1
+a✝ : alpha * indicator h * exposure - clear * 0 < 0
+⊢ False
+failed
+error: PastedASProofs.lean:325:18: linarith failed to find a contradiction
+case left
+g p0 r rStar : ℝ
+hr : 0 ≤ r
+hrStar : 0 < rStar
+hg0 : 0 ≤ g
+hg1 : g ≤ 1
+hp00 : 0 ≤ p0
+hp01 : p0 ≤ 1
+hden : 0 < rStar + r
+hne : rStar + r ≠ 0
+hfrac0 : 0 ≤ r / (rStar + r)
+hfrac1 : r / (rStar + r) ≤ 1
+a✝ : g * (p0 + (1 - p0) * r / (rStar + r)) < 0
+⊢ False
+failed
+error: PastedASProofs.lean:325:18: linarith failed to find a contradiction
+case right
+g p0 r rStar : ℝ
+hr : 0 ≤ r
+hrStar : 0 < rStar
+hg0 : 0 ≤ g
+hg1 : g ≤ 1
+hp00 : 0 ≤ p0
+hp01 : p0 ≤ 1
+hden : 0 < rStar + r
+hne : rStar + r ≠ 0
+hfrac0 : 0 ≤ r / (rStar + r)
+hfrac1 : r / (rStar + r) ≤ 1
+a✝ : 1 < g * (p0 + (1 - p0) * r / (rStar + r))
+⊢ False
+failed
+error: PastedASProofs.lean:334:18: linarith failed to find a contradiction
+case left
+eta z challenge : ℝ
+he0 : 0 ≤ eta
+he1 : eta ≤ 1
+hz0 : 0 ≤ z
+hz1 : z ≤ 1
+hc0 : 0 ≤ challenge
+hc1 : challenge ≤ 1
+a✝ : eta * (1 - z * challenge) < 0
+⊢ False
+failed
+error: PastedASProofs.lean:334:18: linarith failed to find a contradiction
+case right
+eta z challenge : ℝ
+he0 : 0 ≤ eta
+he1 : eta ≤ 1
+hz0 : 0 ≤ z
+hz1 : z ≤ 1
+hc0 : 0 ≤ challenge
+hc1 : challenge ≤ 1
+a✝ : 1 < eta * (1 - z * challenge)
+⊢ False
+failed
+error: PastedASProofs.lean:373:4: linarith failed to find a contradiction
+case left
+beta : ℝ
+C : Bool
+H M : Meaning
+hb0 : 0 ≤ beta
+hb1 : beta ≤ 1
+hH0 : ∀ (j : Fin 2), 0 ≤ H j
+hHsum : ∑ j, H j = 1
+hM0 : ∀ (j : Fin 2), 0 ≤ M j
+hMsum : ∑ j, M j = 1
+hi0 : 0 ≤ indicator C
+hi1 : indicator C ≤ 1
+j : Fin 2
+hjH : 0 ≤ H j
+hjM : 0 ≤ M j
+a✝ : H j + beta * (indicator C * (M j - H j)) < 0
+⊢ False
+failed
+info: PastedASProofs.lean:423:0: 'SocialAS.Verified.abs_pos_sub_pos_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PastedASProofs.lean:424:0: 'SocialAS.Verified.saturation_lipschitz' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+info: PastedASProofs.lean:425:0: 'SocialAS.Verified.generalSDrift_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PastedASProofs.lean:426:0: 'SocialAS.Verified.generalSDrift_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PastedASProofs.lean:427:0: 'SocialAS.Verified.exchange_lipschitz_in_gap' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+info: PastedASProofs.lean:428:0: 'SocialAS.Verified.smokeMeaningDrift_nonneg_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PastedASProofs.lean:429:0: 'SocialAS.Verified.smokeMeaningDrift_nonpos_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PastedASProofs.lean:430:0: 'SocialAS.Verified.branches_sum_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PastedASProofs.lean:431:0: 'SocialAS.Verified.update_preserves_simplex' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+info: PastedASProofs.lean:432:0: 'SocialAS.Verified.integralSolution_unique_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PastedASProofs.lean:433:0: 'SocialAS.Verified.integralSolution_sub_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+Some required targets logged failures:
+- PastedASProofs
+error: build failed

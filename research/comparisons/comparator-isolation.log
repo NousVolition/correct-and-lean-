@@ -1,0 +1,12 @@
+LANDLOCK_ABI=7
+touch: cannot touch '/home/nsverify/verification/isolation-probe/denied/blocked': Permission denied
+LANDRUN_ALLOWED_WRITE=PASS
+LANDRUN_DENIED_WRITE=PASS
+Running as unit: ns-unix-isolation-probe.service; invocation ID: 667b122b58594bd9a209f9d1216e19f7
+AF_UNIX_RESTRICTION=PASS
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 13ms
+             CPU time consumed: 13ms
+                   Memory peak: 3.9M (swap: 0B)
+ISOLATION_PROBE_COMPLETE

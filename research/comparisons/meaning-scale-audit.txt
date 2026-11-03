@@ -1,0 +1,116 @@
+Meaning scale audit
+30 October 2026
+
+Finding
+
+In the current A/S candidate, z=1 is the endpoint of a proposed qualification
+weight for one idea. It does not mean maximum knowledge, complete understanding,
+or the limit of a person's development. The equation and its assumptions were
+not changed during this audit.
+
+The same agent and idea are retained: “Giving someone space to speak can change
+what I understand.” Smoke and Clay remain that agent's inward speaking and
+listening positions. Their separate z values describe the qualification carried
+by this same idea at each position.
+
+What zero and one mean
+
+The active protocol explicitly records:
+  z=0: “Giving space permits new information to change what I understand.”
+  z=1: “Giving space is conditional on confirming my existing interpretation.”
+Intermediate values are assumed weights of the imposed qualification. They are
+not measured percentages of a person, population fractions, a second idea, or
+a total quantity of understanding.
+
+This definition is in work/monoxide-buildup/protocol.json, semantic_coordinate.
+Assumption A5 explicitly says the one-dimensional coordinate, imposed endpoint
+and distances are analyst choices needing author/person review. The scale was
+introduced in the Monoxide buildup candidate; the earlier equation register did
+not contain this z dynamics. The existing report also labels the scales provisional.
+
+What the source corpus supports
+
+The corrected Desktop corpus was freshly read as text. Its SHA256 remains
+01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf, matching the
+published audit source. It contains 624 nonempty body paragraphs. It distinguishes
+preserving intended meaning (Sens) from adapting its expression (Sin), and a
+numerical utility assigned to preserving meaning from meaning itself. It does
+not supply this later z endpoint definition or an empirical ceiling on understanding.
+
+The currently published role definitions retain one person and one moving idea.
+The measurement record requires before/after wording, claim, target, force,
+implications, and person-judged meaning retention. It says state scales and
+observation functions must be fixed before prediction. Those records support
+reviewing a meaning change; they do not calibrate a universal 0-to-1 scale.
+
+Above one in the unchanged equations
+
+The meaning differential equation can algebraically be evaluated above one.
+For example, setting both meaning states to 1.2 and setting interaction and
+clarification rates to zero gives zero meaning drift, so both stay at 1.2.
+This deliberately violates StateOK and is outside the invariance theorem.
+
+However, unrestricted z>1 is incompatible with the full candidate's unchanged
+registration rule E8:
+  Pr(C=1 | B) = eta B (1 - z_Clay v).
+
+For an expressed challenging contribution, B=1 and v=1. Using the existing
+illustrative eta=0.8 gives the following exact rational results:
+
+  z_Clay     Challenging contribution     Confirming contribution (v=0)
+  0          0.8                         0.8
+  0.5        0.4                         0.8
+  1          0                           0.8
+  1.2       -0.16                        0.8
+  2         -0.8                         0.8
+
+A negative result cannot be a probability. For any eta>0, B=1 and v=1, every
+z_Clay>1 has this problem. Zero eta/B or a confirming contribution can mask it;
+that does not make unrestricted above-one states valid for all allowed encounters.
+This is a check of the existing formula, not a revised probability or a clipped
+output. No participant observations or new Lean/Comparator run are claimed here.
+
+Decision and missing connection
+
+Retain [0,1] for z under the current provisional qualification-weight meaning.
+Allowing above-one values as general valid states of the full candidate would
+require a separately justified semantic and mathematical revision. This audit
+makes no such revision. Values above one are useful out-of-domain diagnostics.
+
+Increasing accumulated experience, influence or retained adverse exposure does
+not require z>1: A and S have no unit-interval restriction, and L has no upper
+bound of one. Saturating effects do not imply that the accumulated load stops.
+The later understanding update H is a separate construct, not identical to z.
+
+What remains unresolved is whether this proposed qualification axis faithfully
+represents the author's intended idea and a person's reported experience. The
+missing items are author/person-reviewed endpoint meanings; an observation rule
+for assigning intermediate values with uncertainty; evidence that a single axis
+is sufficient; and evidence for linking that coordinate to selective registration.
+More severe pressure, a new kind of distortion, and more understanding cannot
+automatically be encoded as “z greater than 1” without specifying what changes.
+
+The Lean invariance proof remains valid under its original premises. It proves
+preservation of the declared interval, not the adequacy of that social scale.
+The assistant's earlier framing of this as a possible ceiling on understanding
+was too broad; the active protocol assigns z the narrower qualification meaning.
+
+Evidence and preservation
+
+Current published repository head checked:
+  NousVolition/Nous-Volition b4ae2c54cd85bfef282c501ecfca83de274e2070.
+Current local candidate checked: Monoxide buildup E1-E16, 29 October 2026.
+Primary source: C:/Users/ziman/OneDrive/Desktop/Plain_Language_Corpus_Math_and_Logic_Corrected.docx.
+Published records checked: SITUATIONAL_ROLES.md, MEASUREMENT_RECORD.md,
+exact_corpus_passages.json, MIRO_CONNECTIONS.md and LOGICAL_BOUNDARIES.md.
+Live Miro canvases were not exhaustively refreshed; no new observations were collected.
+
+The 79 files in the original corpus/equation audit inventory are unchanged.
+All manifest-listed files in the earlier local, existence and invariance proof
+packages are unchanged (30, 36 and 41 files respectively). The current protocol,
+equation register, model definitions and corrected source document passed
+preservation checks. No new scientific claims are inferred from those hashes.
+
+Exact arithmetic, source extracts, current-source metadata and preservation
+results are in meaning-scale-audit-evidence.json. Retrieved source snapshots
+are under work/meaning-scale-audit/sources.

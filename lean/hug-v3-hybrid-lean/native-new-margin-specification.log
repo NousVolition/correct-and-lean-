@@ -1,0 +1,9 @@
+HybridChallenge.lean:6:8: warning: declaration uses `sorry`
+HybridChallenge.lean:11:8: warning: declaration uses `sorry`
+HybridChallenge.lean:16:8: warning: declaration uses `sorry`
+HybridChallenge.lean:21:8: warning: declaration uses `sorry`
+HybridChallenge.lean:25:8: warning: declaration uses `sorry`
+HybridChallenge.lean:31:8: warning: declaration uses `sorry`
+HybridChallenge.lean:35:8: warning: declaration uses `sorry`
+HybridChallenge.lean:37:8: warning: declaration uses `sorry`
+HybridChallenge.lean:42:8: warning: declaration uses `sorry`

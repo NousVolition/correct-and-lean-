@@ -1,0 +1,30 @@
+{
+  "HugV3InterEventProofs": {
+    "theorems": 8,
+    "statements_unchanged": true,
+    "nonproof_declarations_unchanged": true,
+    "source_sha256": "4320a19c0cb3c9199c1d6423815437bc2321d6643a0a53cf6c6f9da642593fee",
+    "candidate_sha256": "55e8177efb97a2a325685b0a93075db509d1f98d64aa9f41df89a2b7e80830f1"
+  },
+  "ASProofs": {
+    "theorems": 44,
+    "statements_unchanged": true,
+    "nonproof_declarations_unchanged": true,
+    "source_sha256": "354d8d253ee8bd29a4382769b9259d46ea4ab75c47ec08905fa69ebec378fba9",
+    "candidate_sha256": "f8f563247b520ebb36efddfd993b3a9ebabe2a733db1b7f8aad93d0e479f98d7"
+  },
+  "CombinedASHugProofs": {
+    "theorems": 18,
+    "statements_unchanged": true,
+    "nonproof_declarations_unchanged": true,
+    "source_sha256": "39ebac8e5ecf4d0348f14094f9285c2d653b26abb87c8b6e5d8163d8f4ee1c20",
+    "candidate_sha256": "5dc9500087a1f99d4c81c102eeff40c439c7de6f0dff885ad2a83c27e3668d11"
+  },
+  "DelayedReflexASProofs": {
+    "theorems": 7,
+    "statements_unchanged": true,
+    "nonproof_declarations_unchanged": true,
+    "source_sha256": "cbb5f1dd59191d9784143c6b5229dea0bcb128eaf58132cdb56d75584a849120",
+    "candidate_sha256": "87ad776193f389ade3aa921ee9ffb37148b629323051aa7d8afa910d6f486bb4"
+  }
+}
