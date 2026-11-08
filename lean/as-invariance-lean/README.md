@@ -2,7 +2,7 @@
 
 This package proves `SocialAS.Verified.full_state_invariance`, with exactly
 the previously recorded type `SocialAS.Open.FullStateInvariance`. See
-`verification-receipt.json` for the completed checking result and evidence.
+`verification-report.json` for the completed checking result and evidence.
 
 The model retains **one agent and one idea: “Giving someone space to speak
 can change what I understand.”** Smoke and Clay remain that agent's inward
@@ -75,7 +75,7 @@ is a required checked step before the original theorem is obtained.
 | `evidence-linux/comparator.log` | Comparator and both proof-kernel results |
 | `evidence-linux/lake-build.log` | Fresh Linux ordinary build |
 | `evidence-linux/postflight.json` | Source and dependency preservation checks |
-| `verification-receipt.json` | Final outcome and evidence hashes |
+| `verification-report.json` | Final outcome and evidence hashes |
 
 The build uses Lean 4.34.0-rc2, mathlib commit
 `85e3a25e006c35636f0e53b0e9296caca2685bc0`, and Comparator commit
@@ -105,3 +105,12 @@ The theorem guarantees the mathematical meaning states remain within their
 declared interval under the stated premises. It does not establish that a larger
 meaning value is socially better, that Monoxide always worsens an outcome, or
 that observed human experience follows the equations.
+
+## Comparator references
+
+The current question is `ASInvarianceChallenge.lean`. Its solution is
+`ASInvarianceSolution.lean`. The sibling `ASExistenceChallenge.lean` is an
+archived copy of the preceding A/S existence question, retained at its original
+path for the recorded package hashes. The invariance solution imports the
+proved existence modules. Its default build checks the invariance solution.
+[Current Comparator targets](comparator.json)

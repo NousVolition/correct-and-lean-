@@ -36,7 +36,7 @@ def main():
     started=time.time()
     baseline_folder=STUDY/'runs/baseline-n256-base'
     baseline_result=read(baseline_folder/'result.json')
-    baseline_evidence_path=Path(r'C:/Users/ziman/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an/outputs/matched-stretch-followup/baseline256-20261015/verification-baseline-n256-base.json')
+    baseline_evidence_path=Path(os.environ['MATCHED_STRETCH_BASELINE'])
     baseline_evidence=read(baseline_evidence_path)
     assert baseline_evidence['status']=='passed' and baseline_evidence['fields_checked']==41
     assert baseline_evidence['result_sha256']==sha(baseline_folder/'result.json')

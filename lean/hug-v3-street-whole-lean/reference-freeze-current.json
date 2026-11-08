@@ -35,7 +35,7 @@
     "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
     "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
     "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
-    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
+    "V3SourceSystem.lean": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
   },
   "revisions": [],
   "scope": "Proposed street-context input interpretation, exact cue/record sensitivity, original activation diagnostics, and accepted full-rate/write bindings. No calibrated traffic encoder or new evolution law."

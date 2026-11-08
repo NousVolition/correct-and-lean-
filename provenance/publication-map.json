@@ -1,0 +1,2094 @@
+{
+  "source_commit": "fda9dd0f916e4f9c737597d3e75190384a9206ed",
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "original_path": ".github/workflows/lean-build.yml",
+      "original_sha256": "cd2c4337682c1db01c2e80a9c00eb85650c1db926d073ae6dc62ced9b2a04fc3",
+      "public_path": ".github/workflows/lean-build.yml",
+      "public_sha256": "5153f5a557c774734272d4f4af099acc403560a78830e5c941160077496b3fd1"
+    },
+    {
+      "original_path": "README.md",
+      "original_sha256": "98834244054df8e09a61635f1b2bb5f1468c0092ebf48c1b1809d19eb9a8c66d",
+      "public_path": "README.md",
+      "public_sha256": "bc2b46178dab9b07d0ab56952e2f199e1c8f1af3b0d8aafb213e837025c38ebf"
+    },
+    {
+      "original_path": "lean/README.md",
+      "original_sha256": "6e44219bb907c0635381f0c79e492a8f6bb9b68de164bcffbbcbb6f9e9f5c7b9",
+      "public_path": "lean/README.md",
+      "public_sha256": "451498aeb4fec56c5725691f4a41af9ce243d23ed87c2e2dfb1169ed98945b3e"
+    },
+    {
+      "original_path": "lean/as-existence-lean/ASOpenClaims.lean",
+      "original_sha256": "632f32a31874e7b57f40590b3abd41e2dee043ff7a6fe7e5b5d27bda116f135a",
+      "public_path": "lean/as-existence-lean/ASOpenClaims.lean",
+      "public_sha256": "35d9616b57001b7f510dadd1e878d162de2c67bb60a9e1015aaffe7eccf3aa19"
+    },
+    {
+      "original_path": "lean/as-existence-lean/README.md",
+      "original_sha256": "e3554e0331c722a9c083cb0d51d31a2959fe4aba9597797fde139a16b5d3c3e4",
+      "public_path": "lean/as-existence-lean/README.md",
+      "public_sha256": "fbf0affd59ce05a9d20ccb591684061eaa069520cb5fa8e1965712b13ea2fd5c"
+    },
+    {
+      "original_path": "lean/as-existence-lean/evidence-linux/preflight.json",
+      "original_sha256": "fec8c7452263f3d9dcd4c8f7af5de284b69bf01189ee53eb8e63af4c5247322a",
+      "public_path": "lean/as-existence-lean/evidence-linux/preflight.json",
+      "public_sha256": "511f050d5dd62f40134314a7127730f5e2191a1e905abd0d7cd8f644218b64f1"
+    },
+    {
+      "original_path": "lean/as-existence-lean/existence-reference-freeze.json",
+      "original_sha256": "a650a81a3742be14b85d5c9d327d9388233db544e4f7776145e9d1d5995d9364",
+      "public_path": "lean/as-existence-lean/existence-reference-freeze.json",
+      "public_sha256": "916be31ffe182f71d6d0ebfa063e46a7a863ea1d7279223638d406e292c689b8"
+    },
+    {
+      "original_path": "lean/as-existence-lean/package-manifest.json",
+      "original_sha256": "20c3defe6d6a60e73b1c6040564a2ced9acf0bb19f3bb0ab054da57a55db9e11",
+      "public_path": "lean/as-existence-lean/package-manifest.json",
+      "public_sha256": "97cd835d85d1b2f679aadf25f00194741e749131287e895c39f564d4aca549ee"
+    },
+    {
+      "original_path": "lean/as-existence-lean/run-linux-check.sh",
+      "original_sha256": "57ec9a52c45635e1b61b4943e526478916aa5cff0f07ce56432c6bd4a8f6101e",
+      "public_path": "lean/as-existence-lean/run-linux-check.sh",
+      "public_sha256": "8adef414027dc78960b936de412b666fee65dc8ce53a51af667dff69b08a36fb"
+    },
+    {
+      "original_path": "lean/as-existence-lean/source-protocol.json",
+      "original_sha256": "cd3da93d6ab15d19fc01813da63a64ca0ba99c5bc027014b9cf3adf2cc7d97f1",
+      "public_path": "lean/as-existence-lean/source-protocol.json",
+      "public_sha256": "51a8c4e85f76717a52a3a0310ddefc96a162b4b70708db3ff52b3ee9b1230d92"
+    },
+    {
+      "original_path": "lean/as-existence-lean/verification-inputs.json",
+      "original_sha256": "264aca23a8a54d8a1ec8e1aabecf776e0be8c0fa8fc5b329fdfc052d068e33ac",
+      "public_path": "lean/as-existence-lean/verification-inputs.json",
+      "public_sha256": "56924f7c5a2609033da356c5e5a70782f4fee5174b891a972cd2e52e39aa6c2c"
+    },
+    {
+      "original_path": "lean/as-existence-lean/verification-receipt.json",
+      "original_sha256": "9fa1618814ecd93d6f811906864230053702e6bef20df14d7467a6a4c6330851",
+      "public_path": "lean/as-existence-lean/evidence-linux/historical-report.json",
+      "public_sha256": "9fa1618814ecd93d6f811906864230053702e6bef20df14d7467a6a4c6330851"
+    },
+    {
+      "original_path": "lean/as-invariance-lean/ASOpenClaims.lean",
+      "original_sha256": "632f32a31874e7b57f40590b3abd41e2dee043ff7a6fe7e5b5d27bda116f135a",
+      "public_path": "lean/as-invariance-lean/ASOpenClaims.lean",
+      "public_sha256": "35d9616b57001b7f510dadd1e878d162de2c67bb60a9e1015aaffe7eccf3aa19"
+    },
+    {
+      "original_path": "lean/as-invariance-lean/README.md",
+      "original_sha256": "03ca578388adf1cbee5ef3ae2ec52f4094e361b0d73e81cd550658a97d766ca4",
+      "public_path": "lean/as-invariance-lean/README.md",
+      "public_sha256": "5d2c3553a57d056526c280d38c66735b96f351a28669a6e2bca15e80fa726b0c"
+    },
+    {
+      "original_path": "lean/as-invariance-lean/evidence-linux/preflight.json",
+      "original_sha256": "6b8330d343445735721b334d9038521c88c2244c406381e8d9d050171f7ba2ff",
+      "public_path": "lean/as-invariance-lean/evidence-linux/preflight.json",
+      "public_sha256": "987d651050c5d2815742404892cbb840da8df09b636ffebe78f8d49504e6a8c0"
+    },
+    {
+      "original_path": "lean/as-invariance-lean/invariance-reference-freeze.json",
+      "original_sha256": "6aed36796f9f81167099585dde6e9acb6288260f44cacdfcfa9a701630a810a5",
+      "public_path": "lean/as-invariance-lean/invariance-reference-freeze.json",
+      "public_sha256": "d73e219edb3bf2b5df6d9c330f8402c59a9469a7c0d0975e3f5057d5c44e5a71"
+    },
+    {
+      "original_path": "lean/as-invariance-lean/package-manifest.json",
+      "original_sha256": "0c384cb8a94dc2c79185a2714f2f78ccd46f9dba6b98d6d3cf488823f382727a",
+      "public_path": "lean/as-invariance-lean/package-manifest.json",
+      "public_sha256": "68a7f0c475e228036973e56335cec6a9645a68eab11fc653a906704584d42ed3"
+    },
+    {
+      "original_path": "lean/as-invariance-lean/run-linux-check.sh",
+      "original_sha256": "6090cfcf7c2494e8fde3dce22e9e4e1c178b5f578cb423d4fac480b1ff36a5a2",
+      "public_path": "lean/as-invariance-lean/run-linux-check.sh",
+      "public_sha256": "c18479ea061b41bb0227e12fece157d0a3ba0ef3b7607e8fb98b2bb4393da579"
+    },
+    {
+      "original_path": "lean/as-invariance-lean/source-protocol.json",
+      "original_sha256": "cd3da93d6ab15d19fc01813da63a64ca0ba99c5bc027014b9cf3adf2cc7d97f1",
+      "public_path": "lean/as-invariance-lean/source-protocol.json",
+      "public_sha256": "51a8c4e85f76717a52a3a0310ddefc96a162b4b70708db3ff52b3ee9b1230d92"
+    },
+    {
+      "original_path": "lean/as-invariance-lean/verification-inputs.json",
+      "original_sha256": "fb495cf73d0bd5c270a7bfbe0714658664e8f5c96d595f211ca7809422074feb",
+      "public_path": "lean/as-invariance-lean/verification-inputs.json",
+      "public_sha256": "30b279f4ffb5af64364a0e3a14ba6aae1ef325de99b1b50823191736759ddbf0"
+    },
+    {
+      "original_path": "lean/as-invariance-lean/verification-receipt.json",
+      "original_sha256": "e5170c1717e857760a15029a9d079abb12215fb7408231b7272f24a9327369b3",
+      "public_path": "lean/as-invariance-lean/evidence-linux/historical-report.json",
+      "public_sha256": "e5170c1717e857760a15029a9d079abb12215fb7408231b7272f24a9327369b3"
+    },
+    {
+      "original_path": "lean/as-lean/ASOpenClaims.lean",
+      "original_sha256": "632f32a31874e7b57f40590b3abd41e2dee043ff7a6fe7e5b5d27bda116f135a",
+      "public_path": "lean/as-lean/ASOpenClaims.lean",
+      "public_sha256": "35d9616b57001b7f510dadd1e878d162de2c67bb60a9e1015aaffe7eccf3aa19"
+    },
+    {
+      "original_path": "lean/as-lean/README.md",
+      "original_sha256": "0b694e14fe97c2f597ad0884d11627ae680c4a2108c9867af49ffa8ba36fc5a9",
+      "public_path": "lean/as-lean/README.md",
+      "public_sha256": "9f3a47fd33f294247a28d3a366ac70f094505dbea11c417489d994e76e2a7065"
+    },
+    {
+      "original_path": "lean/as-lean/evidence-linux/preflight.json",
+      "original_sha256": "9d2298e871993f14fcd451931904a307bfe2ee54168f1ec20c2fbc21e30b4727",
+      "public_path": "lean/as-lean/evidence-linux/preflight.json",
+      "public_sha256": "70e8c26a1ca3948af30115f4a2a264bfd92ace2069a16ccf230b9e09d5c1997a"
+    },
+    {
+      "original_path": "lean/as-lean/package-manifest.json",
+      "original_sha256": "7d56e6d11f9ecf94e58eafbbb6c063c78d89730869af0ce8bfa8c3d1e8af8e95",
+      "public_path": "lean/as-lean/package-manifest.json",
+      "public_sha256": "0abc439b2bd64fbcb2649ede9b79d9b47ecca87b0a0c73efdb0002acf6bca866"
+    },
+    {
+      "original_path": "lean/as-lean/reference-freeze.json",
+      "original_sha256": "c77d07eac6687cbb759f9cb243aa08d5e9de476051e7d20829570d51bde5fea8",
+      "public_path": "lean/as-lean/reference-freeze.json",
+      "public_sha256": "629fe7ffceec148a1d6d54b5e73e48a8eb5a242dacf8c76218a240ee67a44a5a"
+    },
+    {
+      "original_path": "lean/as-lean/run-linux-check.sh",
+      "original_sha256": "c6a2513f90940c889244e9f6b39b3e1bbda50fa4218e21f35b32588af1ef96f1",
+      "public_path": "lean/as-lean/run-linux-check.sh",
+      "public_sha256": "f31c55d33a144f76e9bc7578e93e103069ecdb81157e50be28e50d94e08b6c2f"
+    },
+    {
+      "original_path": "lean/as-lean/source-preservation.json",
+      "original_sha256": "17bcda2c066b65254845cabd8143ef660c5a565b1b415ead777c81ffc22886b2",
+      "public_path": "lean/as-lean/source-preservation.json",
+      "public_sha256": "6abbddcfe1be632387e53dbdc033e484769d5f6b2602a752da271abd7c609731"
+    },
+    {
+      "original_path": "lean/as-lean/source-protocol.json",
+      "original_sha256": "cd3da93d6ab15d19fc01813da63a64ca0ba99c5bc027014b9cf3adf2cc7d97f1",
+      "public_path": "lean/as-lean/source-protocol.json",
+      "public_sha256": "51a8c4e85f76717a52a3a0310ddefc96a162b4b70708db3ff52b3ee9b1230d92"
+    },
+    {
+      "original_path": "lean/as-lean/verification-inputs.json",
+      "original_sha256": "1a6b82296a629ee43d0a2e11118375ca3f66c34465d0e3e87577fe3c36e4472b",
+      "public_path": "lean/as-lean/verification-inputs.json",
+      "public_sha256": "479af9d579c9c48e22e49bdd2e98e40999bb4e6cdef9e2f856815b2e02b382fb"
+    },
+    {
+      "original_path": "lean/as-lean/verification-receipt.json",
+      "original_sha256": "ac33f3f8ea16ec7eaf6d8a5e7bf66ef859fa0db325bde617d1a8e5f393f7f587",
+      "public_path": "lean/as-lean/evidence-linux/historical-report.json",
+      "public_sha256": "ac33f3f8ea16ec7eaf6d8a5e7bf66ef859fa0db325bde617d1a8e5f393f7f587"
+    },
+    {
+      "original_path": "lean/clay-problems-lean-audit/evidence-linux/preflight.json",
+      "original_sha256": "7aae03c9682f8c79935be28ad255162ee022db20b9e478e1e6898e0af6503baa",
+      "public_path": "lean/clay-problems-lean-audit/evidence-linux/preflight.json",
+      "public_sha256": "2ce3dc60dac74ae88c4cd624032151fa5302248ece6bc92dd59a471bf63e9602"
+    },
+    {
+      "original_path": "lean/clay-problems-lean-audit/run-linux-check.sh",
+      "original_sha256": "096709312f9339cba44bd9816421c7ee4cdc95180817042e84dfe35db410a761",
+      "public_path": "lean/clay-problems-lean-audit/run-linux-check.sh",
+      "public_sha256": "5d03a67629c976fdd34c92a43e3e55886765a03db77af5d8c9989435ad9c3602"
+    },
+    {
+      "original_path": "lean/clay-problems-lean-audit/verification-inputs.json",
+      "original_sha256": "486a2a1e2c9ea259d0f2fb7a89e5d03d3a67ea4bc533784c139b9a9fd729c44f",
+      "public_path": "lean/clay-problems-lean-audit/verification-inputs.json",
+      "public_sha256": "7653c439bbcf6417cbb2ae4208881199dea2a989472a612358c6e7640513dc9a"
+    },
+    {
+      "original_path": "lean/clay-problems-lean-audit/verification-report.json",
+      "original_sha256": "5e65c9ed1252173053b21323de132043c388295ca96c41f961908c974d9b7461",
+      "public_path": "lean/clay-problems-lean-audit/evidence-linux/historical-report.json",
+      "public_sha256": "9672401ebf2d05720f2df69b5d878b1cee9504139207922bc98e080ba396c4ed"
+    },
+    {
+      "original_path": "lean/fabric-frame-transition-audit/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/fabric-frame-transition-audit/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/fabric-frame-transition-audit/V3YangMillsAuditProofs.lean",
+      "original_sha256": "caa310ca0fe5208c35af5f05dd7ec468975349b53a1106d5bbdd42f9c4807aca",
+      "public_path": "lean/fabric-frame-transition-audit/V3YangMillsAuditProofs.lean",
+      "public_sha256": "b6fd8cfe296a38936b2db3d2b8dfc993a7e6844ab57ad05c1d91676e4609e5ff"
+    },
+    {
+      "original_path": "lean/fabric-frame-transition-audit/evidence-linux/preflight.json",
+      "original_sha256": "3f79bf6831ced526a23b84f79a586e266f1fd48fddec4d2073ffab373a4bde73",
+      "public_path": "lean/fabric-frame-transition-audit/evidence-linux/preflight.json",
+      "public_sha256": "50a966dee9ab7db72ea1f4b9e2925fc03655cde870738041d701d8bfedf7e2bb"
+    },
+    {
+      "original_path": "lean/fabric-frame-transition-audit/reference-freeze-current.json",
+      "original_sha256": "d40fe17ee158f42ded53a1e8d13b52fcdc53e820cea746a26c9004fe76f3693b",
+      "public_path": "lean/fabric-frame-transition-audit/reference-freeze-current.json",
+      "public_sha256": "f69673ff1647fdcc446408097e1bd6702505351557d817c89b1cf9380cedf615"
+    },
+    {
+      "original_path": "lean/fabric-frame-transition-audit/run-linux-check.sh",
+      "original_sha256": "8825a7cb845ec5a9975d6b8505173202bc09354aa52ed5e75041aa633a692985",
+      "public_path": "lean/fabric-frame-transition-audit/run-linux-check.sh",
+      "public_sha256": "a13e558bb81fe74c9269bf3263ed40c9d93a3836bf9a492533d91641087ec196"
+    },
+    {
+      "original_path": "lean/fabric-frame-transition-audit/verification-inputs.json",
+      "original_sha256": "ee8ee13392bfc93f8c9c29537a0dc4bc82d60bbaaaf913b8805db2a324300ba3",
+      "public_path": "lean/fabric-frame-transition-audit/verification-inputs.json",
+      "public_sha256": "d3d81745ce2938dbd3d28982edac2af2f83462484215956ff2a5a2e471ef7ba8"
+    },
+    {
+      "original_path": "lean/fabric-frame-transition-audit/verification-report.json",
+      "original_sha256": "f8cd63e9850478aa07058e129a95f7ab21baf0780fac91c2f0b5fc256e35c543",
+      "public_path": "lean/fabric-frame-transition-audit/evidence-linux/historical-report.json",
+      "public_sha256": "f8cd63e9850478aa07058e129a95f7ab21baf0780fac91c2f0b5fc256e35c543"
+    },
+    {
+      "original_path": "lean/hearth-wizard-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hearth-wizard-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hearth-wizard-lean/evidence-linux/preflight.json",
+      "original_sha256": "4b425a9f9bb0137d6714cc7a2d46511a64e6a03f873bb08c1add6b1f31ffebb5",
+      "public_path": "lean/hearth-wizard-lean/evidence-linux/preflight.json",
+      "public_sha256": "8d58daed3e62f41606e62ce38ad33681d53bdd907bed8a8741792c2c08ec5a1b"
+    },
+    {
+      "original_path": "lean/hearth-wizard-lean/reference-freeze-current.json",
+      "original_sha256": "b1828397df7194429105790fecd5b3169aa225e3f36ec4da82f4eb270cd9187b",
+      "public_path": "lean/hearth-wizard-lean/reference-freeze-current.json",
+      "public_sha256": "c81fac2eceb15bdb51f66870e3da588474bb24f40caa7824e3eb07f778511ee4"
+    },
+    {
+      "original_path": "lean/hearth-wizard-lean/run-linux-check.sh",
+      "original_sha256": "ff92cbb7da9b459d95d456847d7988f7c57de4b5384693603faabcd5dc337aff",
+      "public_path": "lean/hearth-wizard-lean/run-linux-check.sh",
+      "public_sha256": "2ca87cf8700325a397662f87e99baaa827b539fc5233668eec9d89d12f705428"
+    },
+    {
+      "original_path": "lean/hearth-wizard-lean/verification-inputs.json",
+      "original_sha256": "206f30329a8d256644cd94f57869889bc3fc99a966dcaf44b5b74a89af3dc76d",
+      "public_path": "lean/hearth-wizard-lean/verification-inputs.json",
+      "public_sha256": "7698497e8e4e7463b413d4925a991d7b0c56f4a6c17212dfd2e003ca8a79f21d"
+    },
+    {
+      "original_path": "lean/hearth-wizard-lean/verification-report.json",
+      "original_sha256": "a6f915dcb9fce3d131d6bc324b72c3e6f93f7314adbeb03a8624d9ee7bda8d70",
+      "public_path": "lean/hearth-wizard-lean/evidence-linux/historical-report.json",
+      "public_sha256": "a6f915dcb9fce3d131d6bc324b72c3e6f93f7314adbeb03a8624d9ee7bda8d70"
+    },
+    {
+      "original_path": "lean/hug-existence-lean/build-dev.sh",
+      "original_sha256": "dde59256a7a5c128a412b8f1ef8dd6f698ed0929d139d833797f70f9b63238e5",
+      "public_path": "lean/hug-existence-lean/build-dev.sh",
+      "public_sha256": "d86ca569e7935a4796befc1feb2d158c14fe02dc56acb27d9fe916b48d8b7e2f"
+    },
+    {
+      "original_path": "lean/hug-existence-lean/evidence-linux/preflight.json",
+      "original_sha256": "789c8d5e49c2bd9304306b8f03b716c2f2c967fc80c886e0d244d68d22b1f00e",
+      "public_path": "lean/hug-existence-lean/evidence-linux/preflight.json",
+      "public_sha256": "b6ade67c396577b36d5ebc56368a5441c9d0735bfa59c55a5a73efdb3c736b85"
+    },
+    {
+      "original_path": "lean/hug-existence-lean/package-manifest.json",
+      "original_sha256": "8156790ca35446a24e579c9b578298c5ec4e8687dfb4b15e8d68c6af914e21f8",
+      "public_path": "lean/hug-existence-lean/package-manifest.json",
+      "public_sha256": "2d3e5f3ddb9445f226e6776c59127940a0ca3d52e6dba52eeebf303da11268cb"
+    },
+    {
+      "original_path": "lean/hug-existence-lean/run-linux-check.sh",
+      "original_sha256": "098fd5905080ffa307713cbaf2b4a2f7840c6d2eafddc838131d554e3519fe5c",
+      "public_path": "lean/hug-existence-lean/run-linux-check.sh",
+      "public_sha256": "2c4ae8826f1ae0551729a757f1e377935c402214b364774016c98abd86dac109"
+    },
+    {
+      "original_path": "lean/hug-existence-lean/source-provenance.json",
+      "original_sha256": "aa4723afd801af9b2734afbc8bcced02426d5715a8cf29bbf0a95220cf55a63d",
+      "public_path": "lean/hug-existence-lean/source-provenance.json",
+      "public_sha256": "5df317871148b075d523d351d931469a1a7ca9d47904f177b1ed184db29205fa"
+    },
+    {
+      "original_path": "lean/hug-existence-lean/verification-inputs.json",
+      "original_sha256": "a806693ddcaf4885df2f45950670a665831612c4c064a5566f754cbfce31285c",
+      "public_path": "lean/hug-existence-lean/verification-inputs.json",
+      "public_sha256": "854e78189ac047a8a8fecf7b416a92c411066ee612d36b61f3c0fb079688b595"
+    },
+    {
+      "original_path": "lean/hug-existence-lean/verification-report.json",
+      "original_sha256": "95cb99b7590e1436a4b24e36b45bbac38a3371f92a4cd30993b03bd73cc97d93",
+      "public_path": "lean/hug-existence-lean/evidence-linux/historical-report.json",
+      "public_sha256": "df51e6909efbbabae513a061be28fee0abcf260b5329c98d3c87cf4c7e0968b9"
+    },
+    {
+      "original_path": "lean/hug-navier-bridge-lean/evidence-linux/preflight.json",
+      "original_sha256": "d3efe6c018f96555fd4843c05323d1f66a8eb283d064c0df20768757739d900f",
+      "public_path": "lean/hug-navier-bridge-lean/evidence-linux/preflight.json",
+      "public_sha256": "aa10a28de59ce20722dced8cfbd60e2b4547e1212a397ce0cc80be5358b1ce34"
+    },
+    {
+      "original_path": "lean/hug-navier-bridge-lean/native-development-2.log",
+      "original_sha256": "c43f470c0baf733b380201ffa97e5d7f608d86cdf2e6eb9b8a9ebc1ba04ede90",
+      "public_path": "lean/hug-navier-bridge-lean/native-development-2.log",
+      "public_sha256": "e05852a9bca93c65ae76b1b6a55d79440c2fe70b45077fb99560041139b0b612"
+    },
+    {
+      "original_path": "lean/hug-navier-bridge-lean/run-linux-check.sh",
+      "original_sha256": "7b288f1e550149dc2a6fce540e912f81ed4334fa583e53e50d623f2af1311bf9",
+      "public_path": "lean/hug-navier-bridge-lean/run-linux-check.sh",
+      "public_sha256": "c4424a240edcc409aa1f8e537ac589d5e956907079aa06ee7b111356b5a969c2"
+    },
+    {
+      "original_path": "lean/hug-navier-bridge-lean/verification-inputs.json",
+      "original_sha256": "941a55c88db9cb3b05d778de2c33df79b243eef55f0ddbbe0f91134551ae15b5",
+      "public_path": "lean/hug-navier-bridge-lean/verification-inputs.json",
+      "public_sha256": "1ce8d9cbf30874d2e282ca7d6cef95e23f723c2bf7cd86fe5d0790d87ccf13d4"
+    },
+    {
+      "original_path": "lean/hug-navier-bridge-lean/verification-report.json",
+      "original_sha256": "bdd838ecb641da044b840a3e3efcf91c7d60b67aaffc68c8dc1433b651deee6d",
+      "public_path": "lean/hug-navier-bridge-lean/evidence-linux/historical-report.json",
+      "public_sha256": "bdd838ecb641da044b840a3e3efcf91c7d60b67aaffc68c8dc1433b651deee6d"
+    },
+    {
+      "original_path": "lean/hug-navier-full-audit-lean/evidence-linux/preflight.json",
+      "original_sha256": "ac280331f80f1201b0d036c1e54cc6688afaba9df18a702b5a92b1bc7e9b5943",
+      "public_path": "lean/hug-navier-full-audit-lean/evidence-linux/preflight.json",
+      "public_sha256": "551a450e85cca23817649d719792e7740b180c2aa2211ef5e2fa9b67cc5a66fb"
+    },
+    {
+      "original_path": "lean/hug-navier-full-audit-lean/reference-freeze.json",
+      "original_sha256": "d6bd72e9ebe0d08323068b1c07a6a2f72c3b142ea34eea8fcca7832d5ece17a3",
+      "public_path": "lean/hug-navier-full-audit-lean/reference-freeze.json",
+      "public_sha256": "ef8c0efdb744f8f0cb161df6dcef6639a99cf06c3bbc8d03dcbe3a42a4d40907"
+    },
+    {
+      "original_path": "lean/hug-navier-full-audit-lean/run-linux-check.sh",
+      "original_sha256": "53f91931312ced54bc8e3acf1f14a719eace7fccb8bff588039d971a0c4959cf",
+      "public_path": "lean/hug-navier-full-audit-lean/run-linux-check.sh",
+      "public_sha256": "75f88946236c658f519685a43a70f30751b98785265c6b09d8c446a38060c929"
+    },
+    {
+      "original_path": "lean/hug-navier-full-audit-lean/source-audit.json",
+      "original_sha256": "d4f34f571cb3b378f3632d9e3fd21f1c1d07e0fac66432ff71dc9ff6cb4e1fe9",
+      "public_path": "lean/hug-navier-full-audit-lean/source-audit.json",
+      "public_sha256": "a3fca58aea684346dd57d244aca9fb1176cceaf0d8f55c976a1617cfc2ff7538"
+    },
+    {
+      "original_path": "lean/hug-navier-full-audit-lean/sources/original-source-manifest.json",
+      "original_sha256": "5bb99f1ef240578bf0d5372a78f23f4a6a3f9f6d1257fffa8d54fad6627f8370",
+      "public_path": "lean/hug-navier-full-audit-lean/sources/original-source-manifest.json",
+      "public_sha256": "0a93f00b13f08c799b507ec4900a673bd45280f75015aa70fda77aae046a9639"
+    },
+    {
+      "original_path": "lean/hug-navier-full-audit-lean/verification-inputs.json",
+      "original_sha256": "b03d261996fbcd76af9296e51827d541d084b87d69157b0bf3fb683e461bf00d",
+      "public_path": "lean/hug-navier-full-audit-lean/verification-inputs.json",
+      "public_sha256": "ade64c6a4f787704f087187b78ec6d31c5f372ce4d5c53deda2f2d55d43311e4"
+    },
+    {
+      "original_path": "lean/hug-navier-full-audit-lean/verification-report.json",
+      "original_sha256": "edc5d376b673e24615c0ac844f42d6241853d331e61eff2263109ae62ff2d7e8",
+      "public_path": "lean/hug-navier-full-audit-lean/evidence-linux/historical-report.json",
+      "public_sha256": "edc5d376b673e24615c0ac844f42d6241853d331e61eff2263109ae62ff2d7e8"
+    },
+    {
+      "original_path": "lean/hug-navier-single-system-lean/evidence-linux/preflight.json",
+      "original_sha256": "eac89b30cbdf776946165ad919ad20c60cec4132dac23c52f859ce606dd4686b",
+      "public_path": "lean/hug-navier-single-system-lean/evidence-linux/preflight.json",
+      "public_sha256": "913b194ac8bd0e93468995f4468a1a381fa51abba44d6e16572cd47bb8277923"
+    },
+    {
+      "original_path": "lean/hug-navier-single-system-lean/reference-freeze.json",
+      "original_sha256": "7b32211a54ffbc68746b4e157d04791532b8f6ee899f6947ca3a405df188ff23",
+      "public_path": "lean/hug-navier-single-system-lean/reference-freeze.json",
+      "public_sha256": "3eccf7dca9c6e83deca8c94b2542eed423141e2beeeea078ac327d26baf3f773"
+    },
+    {
+      "original_path": "lean/hug-navier-single-system-lean/run-linux-check.sh",
+      "original_sha256": "c130ca34164befe35f95a4e64ebcdc166f9fbe667810a8b2d05f997a3353cd44",
+      "public_path": "lean/hug-navier-single-system-lean/run-linux-check.sh",
+      "public_sha256": "0c380ae207e3ae404b64aa2a40f5f54c000517028871ab650b8c3fd4e18b81a0"
+    },
+    {
+      "original_path": "lean/hug-navier-single-system-lean/sources/original-source-manifest.json",
+      "original_sha256": "5bb99f1ef240578bf0d5372a78f23f4a6a3f9f6d1257fffa8d54fad6627f8370",
+      "public_path": "lean/hug-navier-single-system-lean/sources/original-source-manifest.json",
+      "public_sha256": "0a93f00b13f08c799b507ec4900a673bd45280f75015aa70fda77aae046a9639"
+    },
+    {
+      "original_path": "lean/hug-navier-single-system-lean/verification-inputs.json",
+      "original_sha256": "035e9ac1c7128c83ad4230f53b90a7e6c22b85620aac6cd112954052d10136df",
+      "public_path": "lean/hug-navier-single-system-lean/verification-inputs.json",
+      "public_sha256": "2478838a541f71e2cee6f325130257794904f0a319730e27588b13532eb5b089"
+    },
+    {
+      "original_path": "lean/hug-navier-single-system-lean/verification-report.json",
+      "original_sha256": "3f81f17565b4e72eb473699bf760684286c12071e6510e9d1bbed10369d0014b",
+      "public_path": "lean/hug-navier-single-system-lean/evidence-linux/historical-report.json",
+      "public_sha256": "3f81f17565b4e72eb473699bf760684286c12071e6510e9d1bbed10369d0014b"
+    },
+    {
+      "original_path": "lean/hug-navier-wellposedness-lean/WellposednessTargets.lean",
+      "original_sha256": "5c013dc34f7559782e0d375958681e4b37ace7b952f94d1dd1b21dea32c3f35a",
+      "public_path": "lean/hug-navier-wellposedness-lean/WellposednessTargets.lean",
+      "public_sha256": "033e1809bf8071ef1a1922d24c4591ad63a5d6c547ca6d4222a55af4ad7e9d47"
+    },
+    {
+      "original_path": "lean/hug-navier-wellposedness-lean/evidence-linux/preflight.json",
+      "original_sha256": "c4fa8c1443f3a5ae5c095716ad5e74695e4c0992341c619148e51419b1901699",
+      "public_path": "lean/hug-navier-wellposedness-lean/evidence-linux/preflight.json",
+      "public_sha256": "232ae0b276561d8fcbdb1e7515b49846b967ab4e9a9e9e151cc649f703b74ce1"
+    },
+    {
+      "original_path": "lean/hug-navier-wellposedness-lean/native-proof-1.log",
+      "original_sha256": "01bcebd2b93cefbf7a9064f0d02300be3f697d05b1c87e213d96a8527e87e620",
+      "public_path": "lean/hug-navier-wellposedness-lean/native-proof-1.log",
+      "public_sha256": "1269b60b26bc92a0d8cb102c0fa6fc618989ca150b1b05fce38e6150e93fedbb"
+    },
+    {
+      "original_path": "lean/hug-navier-wellposedness-lean/reference-freeze.json",
+      "original_sha256": "5f3825701e57ff653ac19ed715f4695027ce1bff94fddd26348c887ec300671d",
+      "public_path": "lean/hug-navier-wellposedness-lean/reference-freeze.json",
+      "public_sha256": "4c4b88c5ad2143bbd658c6b48c8340fe06de3f45755c41b56e1eb9bf8fb3ca87"
+    },
+    {
+      "original_path": "lean/hug-navier-wellposedness-lean/run-linux-check.sh",
+      "original_sha256": "d87d8c91f5b3dae2a1bb3424a06be278cdce77f83e6a392981b5d560c65a95d2",
+      "public_path": "lean/hug-navier-wellposedness-lean/run-linux-check.sh",
+      "public_sha256": "36fb47d476e639f8c54de3f138060ab21db46a5737d211f3c0a7edb39da51a40"
+    },
+    {
+      "original_path": "lean/hug-navier-wellposedness-lean/sources/original-source-manifest.json",
+      "original_sha256": "5bb99f1ef240578bf0d5372a78f23f4a6a3f9f6d1257fffa8d54fad6627f8370",
+      "public_path": "lean/hug-navier-wellposedness-lean/sources/original-source-manifest.json",
+      "public_sha256": "0a93f00b13f08c799b507ec4900a673bd45280f75015aa70fda77aae046a9639"
+    },
+    {
+      "original_path": "lean/hug-navier-wellposedness-lean/verification-inputs.json",
+      "original_sha256": "a0d194361710bd5c6e8ac76809f8150047d3a09e0207338414422187e2fd6197",
+      "public_path": "lean/hug-navier-wellposedness-lean/verification-inputs.json",
+      "public_sha256": "42126f0fec8b8a8422e5a1d64de9723684b1261a7b0b42429904593ef670ca03"
+    },
+    {
+      "original_path": "lean/hug-navier-wellposedness-lean/verification-report.json",
+      "original_sha256": "faf843389a659976108153212b11ca53e08276b1823c82e870a7ef3303029529",
+      "public_path": "lean/hug-navier-wellposedness-lean/evidence-linux/historical-report.json",
+      "public_sha256": "faf843389a659976108153212b11ca53e08276b1823c82e870a7ef3303029529"
+    },
+    {
+      "original_path": "lean/hug-squeeze-lean/evidence-linux/preflight.json",
+      "original_sha256": "0b929cf3ff7c38c341c61d0466adf3344ce194152d0467dcea2ed08524fadefc",
+      "public_path": "lean/hug-squeeze-lean/evidence-linux/preflight.json",
+      "public_sha256": "bb09b88561daea952343d455df81e1b4665c5fa895f2702728dca6039c9c6b8d"
+    },
+    {
+      "original_path": "lean/hug-squeeze-lean/package-manifest.json",
+      "original_sha256": "08f4f5446c702e20aa43388eb6e69179665989349bf2dfac87b49a889022aa25",
+      "public_path": "lean/hug-squeeze-lean/package-manifest.json",
+      "public_sha256": "19ed4b5f4fe9ea04a50093020cff2613f23b0e8a22ca03fda19f04dcf1190c4c"
+    },
+    {
+      "original_path": "lean/hug-squeeze-lean/run-linux-check.sh",
+      "original_sha256": "1e6ef656f66511b4e9d5d46b2a96aa3073cef1b2c54b45112cf81998e4ea93b3",
+      "public_path": "lean/hug-squeeze-lean/run-linux-check.sh",
+      "public_sha256": "afadb917210879cf31838d632a0416f8657e5973f6351231ed91747449f99809"
+    },
+    {
+      "original_path": "lean/hug-squeeze-lean/verification-report.json",
+      "original_sha256": "50674eae9ddd6181ea9b33b79442cc153d0c62a269351121f2bdf051cebbf97c",
+      "public_path": "lean/hug-squeeze-lean/evidence-linux/historical-report.json",
+      "public_sha256": "882b46a88ff09f11365b149a53caa44a1786b9c617abf7e83ca81a472af4bcbd"
+    },
+    {
+      "original_path": "lean/hug-v3-apple-band-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-apple-band-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-apple-band-lean/V3YangMillsAuditProofs.lean",
+      "original_sha256": "caa310ca0fe5208c35af5f05dd7ec468975349b53a1106d5bbdd42f9c4807aca",
+      "public_path": "lean/hug-v3-apple-band-lean/V3YangMillsAuditProofs.lean",
+      "public_sha256": "b6fd8cfe296a38936b2db3d2b8dfc993a7e6844ab57ad05c1d91676e4609e5ff"
+    },
+    {
+      "original_path": "lean/hug-v3-apple-band-lean/evidence-linux/preflight.json",
+      "original_sha256": "78e4c25ff275f088436f68af85fbabcf597f90e2dc33cddbade3c8c50dc35893",
+      "public_path": "lean/hug-v3-apple-band-lean/evidence-linux/preflight.json",
+      "public_sha256": "a351e3b1a45edd4f39e14b540c455a0a4c2ccec87b22fdb61241ac68c128acfa"
+    },
+    {
+      "original_path": "lean/hug-v3-apple-band-lean/reference-freeze-current.json",
+      "original_sha256": "6b05b06eeb2d4854eafd612e3c1adc4d313dff51e4f05b6d2449a8623d86a02a",
+      "public_path": "lean/hug-v3-apple-band-lean/reference-freeze-current.json",
+      "public_sha256": "137e8e077940dc918c4cb0a2d133e1726d29d3ff4ee57a3b258eb91204682b19"
+    },
+    {
+      "original_path": "lean/hug-v3-apple-band-lean/run-linux-check.sh",
+      "original_sha256": "5febb151dc5951486c964be428452fd9d6b4e858979ec6592939ab352f742b44",
+      "public_path": "lean/hug-v3-apple-band-lean/run-linux-check.sh",
+      "public_sha256": "c271b72c5f1f9493adc8f57fbab5238c89c3d9a847dfeea356255ba64eb70553"
+    },
+    {
+      "original_path": "lean/hug-v3-apple-band-lean/verification-inputs.json",
+      "original_sha256": "94b7a995a3a9190ecc44e2249e7a760c2dc08d2fc8b59198318dbdab34b56e0a",
+      "public_path": "lean/hug-v3-apple-band-lean/verification-inputs.json",
+      "public_sha256": "03b202b469e2ed4798f01f70bf7d8ee2f0dfb50ce3879d6f39c0dd68490ea7fb"
+    },
+    {
+      "original_path": "lean/hug-v3-apple-band-lean/verification-report.json",
+      "original_sha256": "0299837d55a592b0afb0883d2955b8a708312881566c93db61752957355032ab",
+      "public_path": "lean/hug-v3-apple-band-lean/evidence-linux/historical-report.json",
+      "public_sha256": "0299837d55a592b0afb0883d2955b8a708312881566c93db61752957355032ab"
+    },
+    {
+      "original_path": "lean/hug-v3-apple-existence-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-apple-existence-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-apple-existence-lean/V3YangMillsAuditProofs.lean",
+      "original_sha256": "caa310ca0fe5208c35af5f05dd7ec468975349b53a1106d5bbdd42f9c4807aca",
+      "public_path": "lean/hug-v3-apple-existence-lean/V3YangMillsAuditProofs.lean",
+      "public_sha256": "b6fd8cfe296a38936b2db3d2b8dfc993a7e6844ab57ad05c1d91676e4609e5ff"
+    },
+    {
+      "original_path": "lean/hug-v3-apple-existence-lean/evidence-linux/preflight.json",
+      "original_sha256": "df15d8ce6e9aba768f561d82f1bbd27b1f0f596e9ac51ead0200546a8e44e60b",
+      "public_path": "lean/hug-v3-apple-existence-lean/evidence-linux/preflight.json",
+      "public_sha256": "7373f77aeac487a892764708ea5c0b2f85a5d165b7b4e8888c10a93d6e8a1498"
+    },
+    {
+      "original_path": "lean/hug-v3-apple-existence-lean/lakefile.toml",
+      "original_sha256": "b05a406decd1b0bf7c1f9d7404ef2ea8e4b933069c5e41293c9e161c4d9627fc",
+      "public_path": "lean/hug-v3-apple-existence-lean/lakefile.toml",
+      "public_sha256": "232f4e4bce4aeaf5c987e6028f24cc55f114853a34825786a0315f1d628be13a"
+    },
+    {
+      "original_path": "lean/hug-v3-apple-existence-lean/reference-freeze-current.json",
+      "original_sha256": "34d7d8e2de09760128848457ce0a743e5cd3a3e61966321288f616d2eb8b7c5a",
+      "public_path": "lean/hug-v3-apple-existence-lean/reference-freeze-current.json",
+      "public_sha256": "6ebf97ddecf0727b3ce545b935c4152748a37bb8c2e18fcf9244227df97434bd"
+    },
+    {
+      "original_path": "lean/hug-v3-apple-existence-lean/run-linux-check.sh",
+      "original_sha256": "e512922262a39bf2b50930fbb6cbeb65795e3519c153578d31e6743d93ddf056",
+      "public_path": "lean/hug-v3-apple-existence-lean/run-linux-check.sh",
+      "public_sha256": "4e4b60bc87f32995a86060abd9ac271ab2ca9d462f4624b0c3dcfaf88d6f3f19"
+    },
+    {
+      "original_path": "lean/hug-v3-apple-existence-lean/verification-inputs.json",
+      "original_sha256": "fcf08f429e9f5cb772faaa5d9545b23dbf90d45e78d59e7103db47fe10d5fa7d",
+      "public_path": "lean/hug-v3-apple-existence-lean/verification-inputs.json",
+      "public_sha256": "a09880226c527d77a99a13a2016b489243a9be8572a25748eadf2e9f7b85e23c"
+    },
+    {
+      "original_path": "lean/hug-v3-apple-existence-lean/verification-report.json",
+      "original_sha256": "c2f12e6b68d378b8fca42aee7b5febef015c3a620f951195b56a7219a367092c",
+      "public_path": "lean/hug-v3-apple-existence-lean/evidence-linux/historical-report.json",
+      "public_sha256": "c2f12e6b68d378b8fca42aee7b5febef015c3a620f951195b56a7219a367092c"
+    },
+    {
+      "original_path": "lean/hug-v3-bridge-return-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-bridge-return-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-bridge-return-lean/evidence-linux/preflight.json",
+      "original_sha256": "055578a5d543a526ebd531f28e90022726d11f7c3eccb8ba2d180cf16cb62bc4",
+      "public_path": "lean/hug-v3-bridge-return-lean/evidence-linux/preflight.json",
+      "public_sha256": "4ce3d5f1e0b4c7a7f1c260c1972ba8e08d06065695828421dabe2c18b91011bf"
+    },
+    {
+      "original_path": "lean/hug-v3-bridge-return-lean/reference-freeze-current.json",
+      "original_sha256": "84aa32681a770d1baf236ed12d95c25fe99ac678acf6f1e9627d3c56a9015088",
+      "public_path": "lean/hug-v3-bridge-return-lean/reference-freeze-current.json",
+      "public_sha256": "3e0cafd9baa2b76ee1865ff9ce423b2cb7f95cf8df8cf6ccb138f597c61fe7b9"
+    },
+    {
+      "original_path": "lean/hug-v3-bridge-return-lean/run-linux-check.sh",
+      "original_sha256": "6398ddb45e24ffc1163857b04653520fe039687c489dfc1eb3a08af2e5ec1a8e",
+      "public_path": "lean/hug-v3-bridge-return-lean/run-linux-check.sh",
+      "public_sha256": "0664a1aa502909e11563422563c0ec50aed0e25ef45307fb91834e72da90af8b"
+    },
+    {
+      "original_path": "lean/hug-v3-bridge-return-lean/verification-inputs.json",
+      "original_sha256": "1e81cbbecc18e3094024b4187c282655c7ff216a5aa418497e5252b5e34b22f2",
+      "public_path": "lean/hug-v3-bridge-return-lean/verification-inputs.json",
+      "public_sha256": "b0ea174bdc3b24606ffad131970c048b70ac385fb1f1665e0e963b575eff6c76"
+    },
+    {
+      "original_path": "lean/hug-v3-bridge-return-lean/verification-report.json",
+      "original_sha256": "7aa578b6ed5d14e9d6d8b086b12e79e9158ef645cbf2c578c319bf7c5ebd0f64",
+      "public_path": "lean/hug-v3-bridge-return-lean/evidence-linux/historical-report.json",
+      "public_sha256": "9559329790dfa61ee672eb817f72be3fa71085af6d0958ccbd31f99641bec70f"
+    },
+    {
+      "original_path": "lean/hug-v3-child-access-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-child-access-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-child-access-lean/evidence-linux/preflight.json",
+      "original_sha256": "75451047e4759e92a91ae99e291eb4f581506f1b0c09e26ace5615d5c5b9e9cc",
+      "public_path": "lean/hug-v3-child-access-lean/evidence-linux/preflight.json",
+      "public_sha256": "169d015a529b3b15c7e3424c0d7e4f7ed49712351190af8ea5ea196d464c57fc"
+    },
+    {
+      "original_path": "lean/hug-v3-child-access-lean/reference-freeze-current.json",
+      "original_sha256": "5ce2b36bd8156355db45a099647e87df318944f517b002baf51fe575d542385b",
+      "public_path": "lean/hug-v3-child-access-lean/reference-freeze-current.json",
+      "public_sha256": "d2b033f204207af6d805d4b4f524867c623c7c66321d1c0171d8f28ea86e0376"
+    },
+    {
+      "original_path": "lean/hug-v3-child-access-lean/run-linux-check.sh",
+      "original_sha256": "fedf773845394a97895d683561ca0b84fd9fdc1d04e3e7a93567a6a2a12eeb6a",
+      "public_path": "lean/hug-v3-child-access-lean/run-linux-check.sh",
+      "public_sha256": "908b2a9461de346ffb3d892f4fa3aa0de979b94ce1aad341d27bc1cbb6b1b6a9"
+    },
+    {
+      "original_path": "lean/hug-v3-child-access-lean/verification-inputs.json",
+      "original_sha256": "383be4ca8b4d94d9c5411157882342b93174583702ee9ea1e2f9ef0758dc80bd",
+      "public_path": "lean/hug-v3-child-access-lean/verification-inputs.json",
+      "public_sha256": "62f908f131249f614a69132d69e4a41f33ade9a75cc87c9720ba789b6206e29d"
+    },
+    {
+      "original_path": "lean/hug-v3-child-access-lean/verification-report.json",
+      "original_sha256": "64eb76cb66cdf02c0880ef6332843b4458a2c61a129ed8711a4fa4a9b26a1a60",
+      "public_path": "lean/hug-v3-child-access-lean/evidence-linux/historical-report.json",
+      "public_sha256": "64eb76cb66cdf02c0880ef6332843b4458a2c61a129ed8711a4fa4a9b26a1a60"
+    },
+    {
+      "original_path": "lean/hug-v3-child-account-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-child-account-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-child-account-lean/evidence-linux/preflight.json",
+      "original_sha256": "bb43cb94d460c34bcf085ee3f3cd2dcd5f9a7427ad84b942aa0d0a43d71a0322",
+      "public_path": "lean/hug-v3-child-account-lean/evidence-linux/preflight.json",
+      "public_sha256": "16fbc3f441514c31a8c2dea03360c65980a9533e58f7ce1490367b2481600646"
+    },
+    {
+      "original_path": "lean/hug-v3-child-account-lean/reference-freeze-current.json",
+      "original_sha256": "2a04411a32c8e9f058991e08f1d92c98c528876ce533f6e470738e070859ad5a",
+      "public_path": "lean/hug-v3-child-account-lean/reference-freeze-current.json",
+      "public_sha256": "b5745c6afbe0355e29e3d742119dfe341d7c39484b418f1989ed4b6a64e2a142"
+    },
+    {
+      "original_path": "lean/hug-v3-child-account-lean/run-linux-check.sh",
+      "original_sha256": "5b5d4caaeb15703c7c55e70b0d3701599a492237e6a758af140712911364834a",
+      "public_path": "lean/hug-v3-child-account-lean/run-linux-check.sh",
+      "public_sha256": "bec7e4af88af5a04aecc86d52f112bfab545fa22b41579a24086e278d82ac53f"
+    },
+    {
+      "original_path": "lean/hug-v3-child-account-lean/verification-inputs.json",
+      "original_sha256": "04c7362a925a28ffe7220a81e1d3ddc3affb788bcb8b6a4160bda4476e90285e",
+      "public_path": "lean/hug-v3-child-account-lean/verification-inputs.json",
+      "public_sha256": "f25a402a1649bf44972e5d143c4e4361c98e002e138e8b702d5d8779c55b3c57"
+    },
+    {
+      "original_path": "lean/hug-v3-child-account-lean/verification-report.json",
+      "original_sha256": "7567befc719c12fd12dbc7c4986864e73d48ea44fa73e5301e8efd7a98ba5dfc",
+      "public_path": "lean/hug-v3-child-account-lean/evidence-linux/historical-report.json",
+      "public_sha256": "7567befc719c12fd12dbc7c4986864e73d48ea44fa73e5301e8efd7a98ba5dfc"
+    },
+    {
+      "original_path": "lean/hug-v3-child-witness-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-child-witness-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-child-witness-lean/evidence-linux/preflight.json",
+      "original_sha256": "8a6fce9140b293563ac773064d4c2db6330640b549c79750e4ebc3d49a5802a6",
+      "public_path": "lean/hug-v3-child-witness-lean/evidence-linux/preflight.json",
+      "public_sha256": "b3b785bcab769cc2f1d06804022a5a4703943bf53a4dbdcacae94680bc6e898b"
+    },
+    {
+      "original_path": "lean/hug-v3-child-witness-lean/reference-freeze-current.json",
+      "original_sha256": "279c2bcd5aca0cffce5bd284910df820284c4852d2efe2c20510e8b21bc77667",
+      "public_path": "lean/hug-v3-child-witness-lean/reference-freeze-current.json",
+      "public_sha256": "9adb78b9d97911f9e45e8a9c05e9265a856fb46834add93631b00ad1a1f6c358"
+    },
+    {
+      "original_path": "lean/hug-v3-child-witness-lean/run-linux-check.sh",
+      "original_sha256": "f4f4f1c3930cb3f4ea21802d28c7345356446fa722359b0697b930d5d40c062d",
+      "public_path": "lean/hug-v3-child-witness-lean/run-linux-check.sh",
+      "public_sha256": "ab0f000c56c2f19d2db01847e8ebc178947b1caf35b2ef3e753605a5107edce4"
+    },
+    {
+      "original_path": "lean/hug-v3-child-witness-lean/verification-inputs.json",
+      "original_sha256": "7a9d53112a1a53a7b407a0440f35db583378c4dddf6d5982059f62d3745dbd8d",
+      "public_path": "lean/hug-v3-child-witness-lean/verification-inputs.json",
+      "public_sha256": "4c7a66844d6965cb40007bdd77f7e80d964c9453abcfd83c23658c3a6b2f4b29"
+    },
+    {
+      "original_path": "lean/hug-v3-child-witness-lean/verification-report.json",
+      "original_sha256": "1b2dcb9d04bdc06f7781d399f0d338cfc8fb0cc8bc6383eca8abad86d9ff7d8c",
+      "public_path": "lean/hug-v3-child-witness-lean/evidence-linux/historical-report.json",
+      "public_sha256": "1b2dcb9d04bdc06f7781d399f0d338cfc8fb0cc8bc6383eca8abad86d9ff7d8c"
+    },
+    {
+      "original_path": "lean/hug-v3-clay-boundary-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-clay-boundary-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-clay-boundary-lean/corpus/clay-boundary-corpus-extract.json",
+      "original_sha256": "bf96ae1f47be7963896c3d1dcb180b4c3b81e6c44cdde0cdefd63190de0bb548",
+      "public_path": "lean/hug-v3-clay-boundary-lean/corpus/clay-boundary-corpus-extract.json",
+      "public_sha256": "764159deab596c1edf2ad3fdc254705d27bef15f55dab3d0178bdab62dceab4b"
+    },
+    {
+      "original_path": "lean/hug-v3-clay-boundary-lean/evidence-linux/preflight.json",
+      "original_sha256": "f6bbf52de049d8a309f8b97e90cd42c1c6fd3aaf9ecad279b3c18e5a989a34df",
+      "public_path": "lean/hug-v3-clay-boundary-lean/evidence-linux/preflight.json",
+      "public_sha256": "fa6c0f61827fa46e2a5b6c61142ba3b2b551bd1ff305e6f4bad4dfa130625621"
+    },
+    {
+      "original_path": "lean/hug-v3-clay-boundary-lean/reference-freeze.json",
+      "original_sha256": "e7de8dca21a11935b2c54f0ad87234c2a9a35d2e1be3daaac8f0575b9b1c41d4",
+      "public_path": "lean/hug-v3-clay-boundary-lean/reference-freeze.json",
+      "public_sha256": "1f9a96fab432544d25a46fdcd75b90670bb6a24201ae7a9d4f33bc8b65189120"
+    },
+    {
+      "original_path": "lean/hug-v3-clay-boundary-lean/run-linux-check.sh",
+      "original_sha256": "c2ad04879a1c3a5c7ab5aa779ef0f58a9b1e36062e5f221df7de5e771ae0f040",
+      "public_path": "lean/hug-v3-clay-boundary-lean/run-linux-check.sh",
+      "public_sha256": "8e136e58c4b08baefc5227aec60298fd041a294b6c0023a796ba849c38ca6dab"
+    },
+    {
+      "original_path": "lean/hug-v3-clay-boundary-lean/source-audit.json",
+      "original_sha256": "937b7605773b6459412bc3cc23c9d46a8b1d711ac68178fe884d14b4b70972c1",
+      "public_path": "lean/hug-v3-clay-boundary-lean/source-audit.json",
+      "public_sha256": "8aa59f92ae6face5a32a870c0e2a1352b298bc6d71cabda993a2bb2505f46292"
+    },
+    {
+      "original_path": "lean/hug-v3-clay-boundary-lean/source-map.json",
+      "original_sha256": "648b9fd06730e9db614b30c9cd55a5053aaffa5e7e3e751705c3304be103d131",
+      "public_path": "lean/hug-v3-clay-boundary-lean/source-map.json",
+      "public_sha256": "8ace013e2d7f84b24fe58637ec301e7bcdad47a7881a0712ab74593845885b43"
+    },
+    {
+      "original_path": "lean/hug-v3-clay-boundary-lean/verification-inputs.json",
+      "original_sha256": "42d345a66940287571a2f366ee1f53d6ae53442ce0879a807deb6a82730716d7",
+      "public_path": "lean/hug-v3-clay-boundary-lean/verification-inputs.json",
+      "public_sha256": "7f8d237f05003f649f01cf36397014996877a46caff8bdb8258921beb3b97980"
+    },
+    {
+      "original_path": "lean/hug-v3-clay-boundary-lean/verification-report.json",
+      "original_sha256": "b2d517b49063b65d412ebbddf44ebeb65cf76e7d7542906fde38e5b7e798c642",
+      "public_path": "lean/hug-v3-clay-boundary-lean/evidence-linux/historical-report.json",
+      "public_sha256": "2e658f804c88ecf4b829f373f104940cf9d23d274f2c20a38c05e9f1f2a3ff89"
+    },
+    {
+      "original_path": "lean/hug-v3-coexistence-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-coexistence-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-coexistence-lean/evidence-linux/preflight.json",
+      "original_sha256": "e6e69b7d8c850a69b87bd070ee10068f9867e884ac9c10fb97c8556f6ce23fe0",
+      "public_path": "lean/hug-v3-coexistence-lean/evidence-linux/preflight.json",
+      "public_sha256": "522f3f7a254b44a2047bee02bbe93ec6cb9d6804dab9252cb2ec313512a46e0a"
+    },
+    {
+      "original_path": "lean/hug-v3-coexistence-lean/reference-freeze-current.json",
+      "original_sha256": "b8e488377056aef4ba5bda00e4041261b8db71f4e87c998a2612c21105f3cabd",
+      "public_path": "lean/hug-v3-coexistence-lean/reference-freeze-current.json",
+      "public_sha256": "71b5b1810640ea4ac2c326826057753683352a7ff9eeb1e2152f1dc8723049b8"
+    },
+    {
+      "original_path": "lean/hug-v3-coexistence-lean/run-linux-check.sh",
+      "original_sha256": "f61ab7be0264419829bcc8781a260dec7e29a3488ccd34d0c430525c117c4363",
+      "public_path": "lean/hug-v3-coexistence-lean/run-linux-check.sh",
+      "public_sha256": "be07ac3f641a5558780e9ca7326bfa8f01e6dc082e071c2037511d533f1acadb"
+    },
+    {
+      "original_path": "lean/hug-v3-coexistence-lean/verification-inputs.json",
+      "original_sha256": "4055366b68d8c4eddfd601e4c11843b63a4cfdf74d5d10875d7eedcae9cdaf7a",
+      "public_path": "lean/hug-v3-coexistence-lean/verification-inputs.json",
+      "public_sha256": "b7bfc746b3b4a9b22f0ee3b03d1238e514153c46c0cc97fdea1cef06423e49fd"
+    },
+    {
+      "original_path": "lean/hug-v3-coexistence-lean/verification-report.json",
+      "original_sha256": "76a18d778378e49ea0bcc42d0053221cb449b7fd6ddaddc638215ec22eeff32c",
+      "public_path": "lean/hug-v3-coexistence-lean/evidence-linux/historical-report.json",
+      "public_sha256": "4f7463634a2cb760b977fdec69dd30cb796dfc29a70c38e9708f34d7b918b3fd"
+    },
+    {
+      "original_path": "lean/hug-v3-courier-weaver-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-courier-weaver-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-courier-weaver-lean/evidence-linux/preflight.json",
+      "original_sha256": "3f24688795d64907f9046141939f14dca69c783e1ff73f48a63f170d0fa4136f",
+      "public_path": "lean/hug-v3-courier-weaver-lean/evidence-linux/preflight.json",
+      "public_sha256": "e9b961f05761fa7903572d8c0a60ffb850fd94feae1e0ea03e834578ff75af92"
+    },
+    {
+      "original_path": "lean/hug-v3-courier-weaver-lean/reference-freeze-current.json",
+      "original_sha256": "af0f5a79a0a3c583d9367d4cc73e1ce8e58c1d1981c3ddec4bd66ecc241a1438",
+      "public_path": "lean/hug-v3-courier-weaver-lean/reference-freeze-current.json",
+      "public_sha256": "a533f8ede872e8316405d561cb89d9123b234f0fe7ee0d362fe8ff7bb5b31c82"
+    },
+    {
+      "original_path": "lean/hug-v3-courier-weaver-lean/run-linux-check.sh",
+      "original_sha256": "b579253ba5b2423609449d0f7d9639a4ad5b121b2d05627098fd809ec66a4c94",
+      "public_path": "lean/hug-v3-courier-weaver-lean/run-linux-check.sh",
+      "public_sha256": "ce06ed864e4ec22acd3c1c9a4e2831d4b61aa7445cdce33e22191ba9a744e044"
+    },
+    {
+      "original_path": "lean/hug-v3-courier-weaver-lean/verification-inputs.json",
+      "original_sha256": "72aa16e33507a34050f2ab0a52582536e0a0ae526a0c123ad977781f0291c487",
+      "public_path": "lean/hug-v3-courier-weaver-lean/verification-inputs.json",
+      "public_sha256": "c92084526ef9c31fb14aedfdade538b3407316b352b03dcc8d756d93f3288490"
+    },
+    {
+      "original_path": "lean/hug-v3-courier-weaver-lean/verification-report.json",
+      "original_sha256": "f7e2242b9b115d117c1b6af43492d3bd2b193190b6842c609da4f6ae6395ebdb",
+      "public_path": "lean/hug-v3-courier-weaver-lean/evidence-linux/historical-report.json",
+      "public_sha256": "f7e2242b9b115d117c1b6af43492d3bd2b193190b6842c609da4f6ae6395ebdb"
+    },
+    {
+      "original_path": "lean/hug-v3-delay-lean/Hug-v3-DDE-extension.md",
+      "original_sha256": "03a6278e1669e24c7e8947a14ae3cdcbe982736c92206ead4c0a76177da26949",
+      "public_path": "lean/hug-v3-delay-lean/Hug-v3-DDE-extension.md",
+      "public_sha256": "07f37f3a9ecfd36afac6fc1aec3f36b9154d22b2ba4ad62639922e14599bfcef"
+    },
+    {
+      "original_path": "lean/hug-v3-delay-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-delay-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-delay-lean/evidence-linux/preflight.json",
+      "original_sha256": "6ecb34a72f940d602a71d7a01006184465061741ce2301fca7e746861eccf3d5",
+      "public_path": "lean/hug-v3-delay-lean/evidence-linux/preflight.json",
+      "public_sha256": "2080bf0696f27f7b5af4e39b4c6e1886b4fd63796442055a9abc9801bc21c904"
+    },
+    {
+      "original_path": "lean/hug-v3-delay-lean/linux-dev-routing.log",
+      "original_sha256": "c3e4fabe6be8040df20704974eca9bc86162844a63c4c234bf81b6c15f08b8e4",
+      "public_path": "lean/hug-v3-delay-lean/linux-dev-routing.log",
+      "public_sha256": "76ffeebcfb2544321b254c04f7ebb9f2e043c7e0b77cdf851dd6b429d9336a9d"
+    },
+    {
+      "original_path": "lean/hug-v3-delay-lean/reference-freeze-current.json",
+      "original_sha256": "ca987fc82d542b254bf4d9956c5e9d215f091cb2fc9c6a55e328e6c1d545b901",
+      "public_path": "lean/hug-v3-delay-lean/reference-freeze-current.json",
+      "public_sha256": "3b513fe2bedab78b5834ed3fcad161577aa245014b90aba0161a8535d5a174ac"
+    },
+    {
+      "original_path": "lean/hug-v3-delay-lean/run-linux-check.sh",
+      "original_sha256": "d986e7b7e249cb0e7e71a367fcce7c274f793900f5b6bacbf08b960092257dee",
+      "public_path": "lean/hug-v3-delay-lean/run-linux-check.sh",
+      "public_sha256": "fb6b1a1910a1f62a0f1b680a62952fb9c7890b51a14ff1b822f4d53d3ede8b3f"
+    },
+    {
+      "original_path": "lean/hug-v3-delay-lean/run-linux-development.sh",
+      "original_sha256": "88ed9a0fa74fd9a5c63d976d72d142866410f3c91574b0d021efa9dca79c3238",
+      "public_path": "lean/hug-v3-delay-lean/run-linux-development.sh",
+      "public_sha256": "e8dafe3205aa7752d54469fe02ebf6619a6ec26810259a0ccddaa4f815818d95"
+    },
+    {
+      "original_path": "lean/hug-v3-delay-lean/verification-inputs.json",
+      "original_sha256": "5c4ce6f68ef160e40901ebc63358885a7936d845a4c2c7afc70949868b0ae8d3",
+      "public_path": "lean/hug-v3-delay-lean/verification-inputs.json",
+      "public_sha256": "a58e9ee5b8c9f3a21ee168859660a5b7cc5c592c2980e5b335df72f2fb9a659e"
+    },
+    {
+      "original_path": "lean/hug-v3-delay-lean/verification-report.json",
+      "original_sha256": "54f788e17fb583b1605e672707b45ad6c55f7b18e65c057141d03028e3e70a32",
+      "public_path": "lean/hug-v3-delay-lean/evidence-linux/historical-report.json",
+      "public_sha256": "54f788e17fb583b1605e672707b45ad6c55f7b18e65c057141d03028e3e70a32"
+    },
+    {
+      "original_path": "lean/hug-v3-full-covariance-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-full-covariance-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-full-covariance-lean/V3YangMillsAuditProofs.lean",
+      "original_sha256": "caa310ca0fe5208c35af5f05dd7ec468975349b53a1106d5bbdd42f9c4807aca",
+      "public_path": "lean/hug-v3-full-covariance-lean/V3YangMillsAuditProofs.lean",
+      "public_sha256": "b6fd8cfe296a38936b2db3d2b8dfc993a7e6844ab57ad05c1d91676e4609e5ff"
+    },
+    {
+      "original_path": "lean/hug-v3-full-covariance-lean/evidence-linux/preflight.json",
+      "original_sha256": "c264bdd4d03aa122dcbb58e209796d81f6dfa54f528a0409580d7fa40f202cec",
+      "public_path": "lean/hug-v3-full-covariance-lean/evidence-linux/preflight.json",
+      "public_sha256": "92fe8268118f59476dac03c8b7ed623e7c7eeb100e65158a2e7138b9d022155f"
+    },
+    {
+      "original_path": "lean/hug-v3-full-covariance-lean/reference-freeze-current.json",
+      "original_sha256": "372f283fb4c11d90e6ff5f726283b8a4922f65c5bd60896eb8585a82c4acc78c",
+      "public_path": "lean/hug-v3-full-covariance-lean/reference-freeze-current.json",
+      "public_sha256": "266cb13ebb0cf0d3234d3b80fe2d8dd748c00acb935acd97f936142ad2cd1563"
+    },
+    {
+      "original_path": "lean/hug-v3-full-covariance-lean/run-linux-check.sh",
+      "original_sha256": "a9bd7c2d958c6ab3ea3d3d14a010e9fafa9574134305e55a2b2ed418b8cfd856",
+      "public_path": "lean/hug-v3-full-covariance-lean/run-linux-check.sh",
+      "public_sha256": "10fd5ed93b29f15abcc1da11740a71bd458f23d9422fa167c615a078bbe80915"
+    },
+    {
+      "original_path": "lean/hug-v3-full-covariance-lean/verification-inputs.json",
+      "original_sha256": "8fc30bf213a81930429500ddc16424df50b00b6123f4e3246694c50c7c87bb56",
+      "public_path": "lean/hug-v3-full-covariance-lean/verification-inputs.json",
+      "public_sha256": "72775e40176f1537debcb7c6578c61be45b7fee814c7fe349ec7ca2dad43fab5"
+    },
+    {
+      "original_path": "lean/hug-v3-full-covariance-lean/verification-report.json",
+      "original_sha256": "5d01388b82e2fd020d24de1b50dbd17530e9503840c36724f27e389416fa2d9c",
+      "public_path": "lean/hug-v3-full-covariance-lean/evidence-linux/historical-report.json",
+      "public_sha256": "7758efd608297bd54939a2d0f7fac3ed3eafb3e6a63698d05daea094bdcab547"
+    },
+    {
+      "original_path": "lean/hug-v3-full-delay-proof/V3FullCoordinates.lean",
+      "original_sha256": "7df9309f83ade868dfa9e5589192c16103baf6df02433164ea2edcb0953cb71b",
+      "public_path": "lean/hug-v3-full-delay-proof/V3FullCoordinates.lean",
+      "public_sha256": "a1a591e82d2a84ce6e4fcf5aba4f596ee7903aeff52386cb95b7b93ef740eb6b"
+    },
+    {
+      "original_path": "lean/hug-v3-full-delay-proof/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-full-delay-proof/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-full-delay-proof/dev-initial.log",
+      "original_sha256": "d466428911ed17a9680862fe15e35a60a62c06e09701b824ca706f67dac9abc6",
+      "public_path": "lean/hug-v3-full-delay-proof/dev-initial.log",
+      "public_sha256": "d081110f8ff000a5e79dd58c2f60d4022036e5227e79ea994e45fea380185f0c"
+    },
+    {
+      "original_path": "lean/hug-v3-full-delay-proof/evidence-linux/preflight.json",
+      "original_sha256": "d9bf0fefede82933780d8dee27654e7edf2892cb023c54da068f6da2aceead52",
+      "public_path": "lean/hug-v3-full-delay-proof/evidence-linux/preflight.json",
+      "public_sha256": "d4c1aaf43a02319d1390eadd1e6bcf1a0f5a852d0c701a8125acc7545b5933ad"
+    },
+    {
+      "original_path": "lean/hug-v3-full-delay-proof/preserved-inputs.json",
+      "original_sha256": "27149da624e541b7412250e8d4e6967b1bcd375baa8226dca8e7e69087d64428",
+      "public_path": "lean/hug-v3-full-delay-proof/preserved-inputs.json",
+      "public_sha256": "2c3802100ed7dbe969239b040b86262c27ee01d52953b9121182c6c46272fc8b"
+    },
+    {
+      "original_path": "lean/hug-v3-full-delay-proof/reference-freeze-current.json",
+      "original_sha256": "a43d0200902f8eb33af48b2331f9345040df44c4692d01b01cc668a501d43f15",
+      "public_path": "lean/hug-v3-full-delay-proof/reference-freeze-current.json",
+      "public_sha256": "20c14cea9c82461cc0f71abc24d2d77ee26c167c0b838dbcdecc27dc368a1379"
+    },
+    {
+      "original_path": "lean/hug-v3-full-delay-proof/run-development.sh",
+      "original_sha256": "2f19535b699cc8736acb6fcc198701d56d12800d3dd40b2033ef3b78ee8892c3",
+      "public_path": "lean/hug-v3-full-delay-proof/run-development.sh",
+      "public_sha256": "0f24de75e219754f1d03539bbf7aba0a9a41518f1bc54d9ed247ab80853c00c0"
+    },
+    {
+      "original_path": "lean/hug-v3-full-delay-proof/run-linux-check.sh",
+      "original_sha256": "92331299ce9c6c4482ff2ec71ea21b71bad6ab99dd69307bc56b4661fd7ae709",
+      "public_path": "lean/hug-v3-full-delay-proof/run-linux-check.sh",
+      "public_sha256": "2799f39ffb4e4dc8a9bb686150f7971746d17dd85d79cab70c9d91f7d809f292"
+    },
+    {
+      "original_path": "lean/hug-v3-full-delay-proof/source-preservation-check.json",
+      "original_sha256": "b982dffe6ebabdf0c9764b494050eef957208b9936595077f33678b6214cb786",
+      "public_path": "lean/hug-v3-full-delay-proof/source-preservation-check.json",
+      "public_sha256": "c16a9428218a7f6f7ffc9057097ccb256c62a743fc041cec19946e150ca6da2a"
+    },
+    {
+      "original_path": "lean/hug-v3-full-delay-proof/verification-inputs.json",
+      "original_sha256": "c0fd36f32bc21b553dfac8a52610695e322167621d5816de6e97269a476fa4bd",
+      "public_path": "lean/hug-v3-full-delay-proof/verification-inputs.json",
+      "public_sha256": "d2b9899cbe0998a63bc8a0afd7c895472baf954a8c4144f0d949de9508c46ec5"
+    },
+    {
+      "original_path": "lean/hug-v3-full-delay-proof/verification-report.json",
+      "original_sha256": "961dddf196ed6f775493a91488dcd851fcf23fbc886792365320d0a965bb7630",
+      "public_path": "lean/hug-v3-full-delay-proof/evidence-linux/historical-report.json",
+      "public_sha256": "961dddf196ed6f775493a91488dcd851fcf23fbc886792365320d0a965bb7630"
+    },
+    {
+      "original_path": "lean/hug-v3-gemini-review/CombinedASHugProofs.lean",
+      "original_sha256": "5dc9500087a1f99d4c81c102eeff40c439c7de6f0dff885ad2a83c27e3668d11",
+      "public_path": "lean/hug-v3-gemini-review/CombinedASHugProofs.lean",
+      "public_sha256": "431239c43ce3411a3e395948b6731402bf8d9015d5e7b428e0a912f85cd3e00d"
+    },
+    {
+      "original_path": "lean/hug-v3-gemini-review/DelayedReflexASProofs.lean",
+      "original_sha256": "87ad776193f389ade3aa921ee9ffb37148b629323051aa7d8afa910d6f486bb4",
+      "public_path": "lean/hug-v3-gemini-review/DelayedReflexASProofs.lean",
+      "public_sha256": "0ee40ccaec2cf11ec0e5f7c49bc3171cacf38f2e8203c01b70436f6442cf78b3"
+    },
+    {
+      "original_path": "lean/hug-v3-gemini-review/evidence-linux/preflight.json",
+      "original_sha256": "e2cddd7c3a72438b47783c06ad8852ab44add69950e1cddc6e851b6f70cbda9b",
+      "public_path": "lean/hug-v3-gemini-review/evidence-linux/preflight.json",
+      "public_sha256": "eea61ec4dd0c17ad451ca888b237b3ec38a97c01cc1bfada400b5d06e9623392"
+    },
+    {
+      "original_path": "lean/hug-v3-gemini-review/linux-dev-import-fixed.log",
+      "original_sha256": "f859326516b296adbb3ea73a0af75172f85e625fae6b2721585e1a808db29ef3",
+      "public_path": "lean/hug-v3-gemini-review/linux-dev-import-fixed.log",
+      "public_sha256": "128a2f8c220a2f388e4d64f8aba44e24bb81b0d109349bb317f06ceffe988eb8"
+    },
+    {
+      "original_path": "lean/hug-v3-gemini-review/originals/ASProofs-historical-build.log",
+      "original_sha256": "afa0df48ec4b251f11c608b9be63207869c75f72186c338c5a6b3cd2a8187fe7",
+      "public_path": "lean/hug-v3-gemini-review/originals/ASProofs-historical-build.log",
+      "public_sha256": "05262843c820845a43148fbcf872247579014035f5f530b9555dfc75122730cd"
+    },
+    {
+      "original_path": "lean/hug-v3-gemini-review/run-linux-check-initial.txt",
+      "original_sha256": "31b7555c54d54318877948ad14521a21056cd119a7570680e955cf4115a2bb8f",
+      "public_path": "lean/hug-v3-gemini-review/run-linux-check-initial.txt",
+      "public_sha256": "ebc78dc7236f18b938a058ab55ed22aaec205afa54f3f7283e899516e20da071"
+    },
+    {
+      "original_path": "lean/hug-v3-gemini-review/run-linux-check.sh",
+      "original_sha256": "cf668c2ac70d050788b6e42e46fb40328ec99d8252a54b316f56525697870d2c",
+      "public_path": "lean/hug-v3-gemini-review/run-linux-check.sh",
+      "public_sha256": "45aeb22342ad26e600c748558b81aa2d39250004557718f301760993432ceb8b"
+    },
+    {
+      "original_path": "lean/hug-v3-gemini-review/run-linux-development.sh",
+      "original_sha256": "5b1e44e145ba721d1a98dc603b5f04fbc151071a9fee9477c5a672b7df64e484",
+      "public_path": "lean/hug-v3-gemini-review/run-linux-development.sh",
+      "public_sha256": "cdaa31026d638f104e2651de07db4f3159ae2bf91f8c9f90708ca085d7daec4d"
+    },
+    {
+      "original_path": "lean/hug-v3-gemini-review/source-receipt.json",
+      "original_sha256": "0d7466aa7c545d17cb6f02c876fe556ba37071b5e7e4fe0240d2b130dadccf5e",
+      "public_path": "lean/hug-v3-gemini-review/source-receipt.json",
+      "public_sha256": "80e057cbff95e6609fb49bb6b3141f643f2a8453c46e980112ceb28f6fb5f9f0"
+    },
+    {
+      "original_path": "lean/hug-v3-gemini-review/verification-inputs.json",
+      "original_sha256": "2f5a05d49c957b495362e67a7c45c58809d3c3de2ae6b7e81b9fb23a516aa78e",
+      "public_path": "lean/hug-v3-gemini-review/verification-inputs.json",
+      "public_sha256": "785f3acab3f4402a9ddcf4d3b26141a647864fd141c7c50f50b4187d64a87bc1"
+    },
+    {
+      "original_path": "lean/hug-v3-gemini-review/verification-report.json",
+      "original_sha256": "b56e76d171c887b03eaa30eb9255859070bc770900fe0686ef9aeacf392b3b18",
+      "public_path": "lean/hug-v3-gemini-review/evidence-linux/historical-report.json",
+      "public_sha256": "0862e82b63a9ca3f6103eb568fcf16e312d1fb2e51fd148639d5e42bac08d4d2"
+    },
+    {
+      "original_path": "lean/hug-v3-hearth-readout-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-hearth-readout-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-hearth-readout-lean/evidence-linux/preflight.json",
+      "original_sha256": "3533e9cb88eb4368a7d86ae82d36f70a53899f28ecd47d15762ac8dd3ba28155",
+      "public_path": "lean/hug-v3-hearth-readout-lean/evidence-linux/preflight.json",
+      "public_sha256": "37753b459719e162661327d26858d757c8f272bf1b60b00a20787868a820b1ed"
+    },
+    {
+      "original_path": "lean/hug-v3-hearth-readout-lean/reference-freeze-current.json",
+      "original_sha256": "b2d8310cdee35586ff643aa32276be46660ecfa7e5ed8cd60babe824c25e9c94",
+      "public_path": "lean/hug-v3-hearth-readout-lean/reference-freeze-current.json",
+      "public_sha256": "34ce4f35105e8693934aad8494fbb837458f969cb17a0983cae35c3a6d68ba17"
+    },
+    {
+      "original_path": "lean/hug-v3-hearth-readout-lean/run-linux-check.sh",
+      "original_sha256": "74945831e02996119ea2d13917969ba67240ef0f30d6785b671f9f2bbd5e28be",
+      "public_path": "lean/hug-v3-hearth-readout-lean/run-linux-check.sh",
+      "public_sha256": "538e767b76ec5ed09986d6b2e1feeb57e86364dce6cd13e94cc9b5f6c56e9d12"
+    },
+    {
+      "original_path": "lean/hug-v3-hearth-readout-lean/verification-inputs.json",
+      "original_sha256": "2207d81de552a416ee8857a53c3190bf8b5462352766a58cc07eaddca00c5aae",
+      "public_path": "lean/hug-v3-hearth-readout-lean/verification-inputs.json",
+      "public_sha256": "451cc01fdabacd945b847219edc9f6847319073712cef442443aca90269451bf"
+    },
+    {
+      "original_path": "lean/hug-v3-hearth-readout-lean/verification-report.json",
+      "original_sha256": "f18d831460e0633cee8f9f28656d94b5d3c3c68236098d83baa45001c1148f21",
+      "public_path": "lean/hug-v3-hearth-readout-lean/evidence-linux/historical-report.json",
+      "public_sha256": "f18d831460e0633cee8f9f28656d94b5d3c3c68236098d83baa45001c1148f21"
+    },
+    {
+      "original_path": "lean/hug-v3-hybrid-lean/V3HybridSpecification.lean",
+      "original_sha256": "40fe33df26c34f7fc8df5dfe244b420bd251d80b45e20cf9818a8f57d28e437b",
+      "public_path": "lean/hug-v3-hybrid-lean/V3HybridSpecification.lean",
+      "public_sha256": "6ced42c4089e849666513f85aedeee40aa48dfda714bb23ed9ad4c50e13ebdef"
+    },
+    {
+      "original_path": "lean/hug-v3-hybrid-lean/evidence-linux/preflight.json",
+      "original_sha256": "f4d5e66b21e3f989f22d901dd6e24bd378390cfab8aa41c14ecc170071b1eb9d",
+      "public_path": "lean/hug-v3-hybrid-lean/evidence-linux/preflight.json",
+      "public_sha256": "9864d1db8f03e10a87e1bb0c8f296db240dd47d2aa44d0c09151a765379e915a"
+    },
+    {
+      "original_path": "lean/hug-v3-hybrid-lean/native-specification.log",
+      "original_sha256": "38f169ef60a85cb49dbe03d9c783b88dfeef0dd3ef08dccf5ba857dc9cc4ccf8",
+      "public_path": "lean/hug-v3-hybrid-lean/native-specification.log",
+      "public_sha256": "54f0632ca14c704e927db968a90a6310c2cf0f31d98e0853dc1decca7030902f"
+    },
+    {
+      "original_path": "lean/hug-v3-hybrid-lean/reference-freeze.json",
+      "original_sha256": "6cadbab35d1946f1bd75bd16cdbc0cb4a292114acd9cd1c25c3fd6e6f000006f",
+      "public_path": "lean/hug-v3-hybrid-lean/reference-freeze.json",
+      "public_sha256": "5a54ec307506ddb3a69d8b8534a70004b9f9280c15e576e22e5f656a80a196ee"
+    },
+    {
+      "original_path": "lean/hug-v3-hybrid-lean/run-linux-check.sh",
+      "original_sha256": "01d1ec1883d80bb67adf10d10e63e761557673041d35792e3e4e22b5b0e1b07d",
+      "public_path": "lean/hug-v3-hybrid-lean/run-linux-check.sh",
+      "public_sha256": "b59bd256708b331c4b50091b70c7dca5f23ad39710b2cd5cab0f44ff2948bd98"
+    },
+    {
+      "original_path": "lean/hug-v3-hybrid-lean/source-audit.json",
+      "original_sha256": "addc28dbbabc8a41cda275155b480100495798b3b1cc0bc3b4974ce026ffa3a7",
+      "public_path": "lean/hug-v3-hybrid-lean/source-audit.json",
+      "public_sha256": "2ee7c02087458b48128d37b33b1d21a7729d74d6e25547e5996f633f3b1504a2"
+    },
+    {
+      "original_path": "lean/hug-v3-hybrid-lean/verification-inputs.json",
+      "original_sha256": "60689d21ed27272ba8a70bf42d25e378059ca05f8f4c0718d1435b29ef1e2339",
+      "public_path": "lean/hug-v3-hybrid-lean/verification-inputs.json",
+      "public_sha256": "27e344954f9e084db3c95450661a45042f793ac5dbc411f6edbd71f09420ff1f"
+    },
+    {
+      "original_path": "lean/hug-v3-hybrid-lean/verification-report.json",
+      "original_sha256": "3ae248eefb9e719859ffc9a2d40c8b7427d29af2d2b323031b078116665f98aa",
+      "public_path": "lean/hug-v3-hybrid-lean/evidence-linux/historical-report.json",
+      "public_sha256": "3ae248eefb9e719859ffc9a2d40c8b7427d29af2d2b323031b078116665f98aa"
+    },
+    {
+      "original_path": "lean/hug-v3-joint-frame-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-joint-frame-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-joint-frame-lean/V3YangMillsAuditProofs.lean",
+      "original_sha256": "caa310ca0fe5208c35af5f05dd7ec468975349b53a1106d5bbdd42f9c4807aca",
+      "public_path": "lean/hug-v3-joint-frame-lean/V3YangMillsAuditProofs.lean",
+      "public_sha256": "b6fd8cfe296a38936b2db3d2b8dfc993a7e6844ab57ad05c1d91676e4609e5ff"
+    },
+    {
+      "original_path": "lean/hug-v3-joint-frame-lean/evidence-linux/preflight.json",
+      "original_sha256": "a19414db892b9acd9204b311fdd760b3d9ae1b883a85f12f42ce1d78b83b0bb9",
+      "public_path": "lean/hug-v3-joint-frame-lean/evidence-linux/preflight.json",
+      "public_sha256": "9d4445dd3b368672df8088bc9841d49ce3d8145e7089d053333b9ffbaa6933f3"
+    },
+    {
+      "original_path": "lean/hug-v3-joint-frame-lean/reference-freeze-current.json",
+      "original_sha256": "4c865b2f19a2703443513622ea80b526e113eb120d43c07cbd98aaf58ee4eaed",
+      "public_path": "lean/hug-v3-joint-frame-lean/reference-freeze-current.json",
+      "public_sha256": "aeb31834a364a3997e2705845283f4ac05a9f9f4a33dbfaab7354ebb5c605723"
+    },
+    {
+      "original_path": "lean/hug-v3-joint-frame-lean/run-linux-check.sh",
+      "original_sha256": "a741ebeac1e19c88714d0666d1ae5b0688c16245925e960a53465382ac80e15f",
+      "public_path": "lean/hug-v3-joint-frame-lean/run-linux-check.sh",
+      "public_sha256": "d6bf90eb288dd36753866fc0fdce67ba4a1278c4bd5a68483237b46ac011d9fd"
+    },
+    {
+      "original_path": "lean/hug-v3-joint-frame-lean/verification-inputs.json",
+      "original_sha256": "1542b7687bc310594d1a4266fcc8a2533559c89e0259d174709fe7a5c35aa02c",
+      "public_path": "lean/hug-v3-joint-frame-lean/verification-inputs.json",
+      "public_sha256": "78ef4f8f2c7dee47f1d1a0276a956abe3096af273a6f85bd66d65b05bb565521"
+    },
+    {
+      "original_path": "lean/hug-v3-joint-frame-lean/verification-report.json",
+      "original_sha256": "964c63c62acea3357c099fd9a348c1ba695fb5a0b863062b08e8c2ad3c9c9aa0",
+      "public_path": "lean/hug-v3-joint-frame-lean/evidence-linux/historical-report.json",
+      "public_sha256": "33b660bd085e941258e128592e4d1cc078d2122d05a879d2cf2d1853512bc8d9"
+    },
+    {
+      "original_path": "lean/hug-v3-memory-rules-lean/AUDIT.md",
+      "original_sha256": "9ef378e505007c5b1c5846283bd8be199c33b4134fee5ba35f7510d0c94f2997",
+      "public_path": "lean/hug-v3-memory-rules-lean/AUDIT.md",
+      "public_sha256": "0cd09f6d92a4fd459a171fe782bf425025fdcfe9643a3c663f66eb983c5fcec9"
+    },
+    {
+      "original_path": "lean/hug-v3-memory-rules-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-memory-rules-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-memory-rules-lean/corpus/corrected-corpus-fresh.json",
+      "original_sha256": "b20d85af92ebc568f418ac3ccb2d35c925439c30aba3aec611c713cc32a946c7",
+      "public_path": "lean/hug-v3-memory-rules-lean/corpus/corrected-corpus-fresh.json",
+      "public_sha256": "51fd1a42f1613cfbb6f9abe8a88fc753d822cf2350d2f258c9f31e204bdafe5f"
+    },
+    {
+      "original_path": "lean/hug-v3-memory-rules-lean/dev-cue-projection.log",
+      "original_sha256": "faab100366aef1ae0f7f6ed0b3077d5433a747d3f052fff28d138654fd2c6ac1",
+      "public_path": "lean/hug-v3-memory-rules-lean/dev-cue-projection.log",
+      "public_sha256": "a80e5abacb87d729ec06716cd20d15f260f6862bfdfb20afbdde8e26491801bc"
+    },
+    {
+      "original_path": "lean/hug-v3-memory-rules-lean/dev-initial.log",
+      "original_sha256": "dc794cc6e57112bffd786fefa000633f3c8e56aba64d6ee6571b848f9415fd43",
+      "public_path": "lean/hug-v3-memory-rules-lean/dev-initial.log",
+      "public_sha256": "250b82511e094e7d60ce18c6c96fa5f3eadccea389e29fd0327b0af274cc6628"
+    },
+    {
+      "original_path": "lean/hug-v3-memory-rules-lean/dev-remaining-projection.log",
+      "original_sha256": "85e3b65fd0f163250c6bc128072c5da5786b5d11f802f5c8af27d3f83a8ae2bb",
+      "public_path": "lean/hug-v3-memory-rules-lean/dev-remaining-projection.log",
+      "public_sha256": "c1648e4565a0c5f5321f462b498724e4b6e711a9de900d300a456a12aa845ae0"
+    },
+    {
+      "original_path": "lean/hug-v3-memory-rules-lean/dev-targeted-payload.log",
+      "original_sha256": "45f4035183097e0d153a423648025c1a7789a617b031431c01659b95b72e9269",
+      "public_path": "lean/hug-v3-memory-rules-lean/dev-targeted-payload.log",
+      "public_sha256": "178a96abe8d1de552b02d8fa1d460da870c11b513bcaa910fd9e57ca5a35eacb"
+    },
+    {
+      "original_path": "lean/hug-v3-memory-rules-lean/evidence-linux/preflight.json",
+      "original_sha256": "b6368a19cf0c7a6fdd1e8247f14c30641c625e72e5ee8acaaa61ffe810180d8e",
+      "public_path": "lean/hug-v3-memory-rules-lean/evidence-linux/preflight.json",
+      "public_sha256": "489117af4748769354f386979bd122b620ac57d4a0b5f6bb4edfa0859befd4b6"
+    },
+    {
+      "original_path": "lean/hug-v3-memory-rules-lean/preserved-inputs.json",
+      "original_sha256": "bcd22d4af848f83bf5c8fb776e6afc44c6c69a09dc8261b9e817b712be862ec6",
+      "public_path": "lean/hug-v3-memory-rules-lean/preserved-inputs.json",
+      "public_sha256": "29fb4dddb21325a2dee233f665f093fdb8f60e7bfce5cb1d970f8bc3e1322936"
+    },
+    {
+      "original_path": "lean/hug-v3-memory-rules-lean/run-development.sh",
+      "original_sha256": "3a7e06611014c8b235db0a3a1fa2ca74d244d37d45cc1e8e0a0ec06e201dfb5f",
+      "public_path": "lean/hug-v3-memory-rules-lean/run-development.sh",
+      "public_sha256": "00ab32887bd85180535c711afe535681fef0a02d675a90e34ce791ea075202c4"
+    },
+    {
+      "original_path": "lean/hug-v3-memory-rules-lean/run-linux-check.sh",
+      "original_sha256": "fdcca66115388bb1068a31867b8e94ceb3442f157a0f492cc50bbcc8564b782a",
+      "public_path": "lean/hug-v3-memory-rules-lean/run-linux-check.sh",
+      "public_sha256": "24bbb38f8760929131adbe0a9a38d2c77b676f6bd0115fe6d05130fa15775463"
+    },
+    {
+      "original_path": "lean/hug-v3-memory-rules-lean/source-preservation-check.json",
+      "original_sha256": "a968df5e6cd1a37f54a26dcbf81c8cf6b6ad4af981342c98bbcb49d409709853",
+      "public_path": "lean/hug-v3-memory-rules-lean/source-preservation-check.json",
+      "public_sha256": "e6b3a3c97c84a05efa56f86474255aa2e4b08edfc10d481810d116b3dbc6ef6a"
+    },
+    {
+      "original_path": "lean/hug-v3-memory-rules-lean/verification-inputs.json",
+      "original_sha256": "5922dc24cda8369b962991752824c92f1a5fceafa14f7bee36fd274f80394027",
+      "public_path": "lean/hug-v3-memory-rules-lean/verification-inputs.json",
+      "public_sha256": "621aa70a28a4df5ffa0b038fcd4df1db96bba92dbbddf82c4b9d04505d82a445"
+    },
+    {
+      "original_path": "lean/hug-v3-memory-rules-lean/verification-report.json",
+      "original_sha256": "a6dfd0f7437ea8a51e6f63b3471f30666fb415872f7de9d598b868790df13a71",
+      "public_path": "lean/hug-v3-memory-rules-lean/evidence-linux/historical-report.json",
+      "public_sha256": "29dc5d1c95ee172579fbdb4f598287b78065a1ac1979182398dd710bf3489558"
+    },
+    {
+      "original_path": "lean/hug-v3-o-rumination-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-o-rumination-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-o-rumination-lean/evidence-linux/preflight.json",
+      "original_sha256": "5c3ec8d84f2c20bc531cd511e0e1055fc472dcec1e0569f1d87325182234bcca",
+      "public_path": "lean/hug-v3-o-rumination-lean/evidence-linux/preflight.json",
+      "public_sha256": "504da5a3ae4d9d7c07371dce710dd66bf2202845ab606039f9ea6e5164358e64"
+    },
+    {
+      "original_path": "lean/hug-v3-o-rumination-lean/reference-freeze-current.json",
+      "original_sha256": "fb46358f5d4d7aa779cbd30cb2791bcc313f84f5747c7db9d7e317bf8e055420",
+      "public_path": "lean/hug-v3-o-rumination-lean/reference-freeze-current.json",
+      "public_sha256": "fe641112d1cfb7703b56d86ce5bac0c206ee4b49409a88fc951891ca4d5385a5"
+    },
+    {
+      "original_path": "lean/hug-v3-o-rumination-lean/run-linux-check.sh",
+      "original_sha256": "f844a88f050ab4df87614bb591131ea72311fa9bd4355645012f4ac5d3157b36",
+      "public_path": "lean/hug-v3-o-rumination-lean/run-linux-check.sh",
+      "public_sha256": "df4a58ac3de4284f73d2040ad590fe1e1cb67df5f85ff4e4de1935af2f06c739"
+    },
+    {
+      "original_path": "lean/hug-v3-o-rumination-lean/verification-inputs.json",
+      "original_sha256": "78957bdd4c4bae909c7dce4c6cd938e7305547a5918f989ba3659dda441b9009",
+      "public_path": "lean/hug-v3-o-rumination-lean/verification-inputs.json",
+      "public_sha256": "2745983a1041cd1baa5453821620a078a8cc4340cddcc972a68625fc9ff982f9"
+    },
+    {
+      "original_path": "lean/hug-v3-o-rumination-lean/verification-report.json",
+      "original_sha256": "6d7d5e0e7a8e78d9cc1f15ecd11bd97c5e9390feb463013b9b692e3b96efa506",
+      "public_path": "lean/hug-v3-o-rumination-lean/evidence-linux/historical-report.json",
+      "public_sha256": "b691a63001baa213447e48ad52520b3fbedf78c1679a956cd6916442dd70070a"
+    },
+    {
+      "original_path": "lean/hug-v3-occupied-space-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-occupied-space-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-occupied-space-lean/evidence-linux/preflight.json",
+      "original_sha256": "42ef8ea700ae5e9eb5c480c7053020c8d3c9afa81117a5da90d573d0d5d8aea3",
+      "public_path": "lean/hug-v3-occupied-space-lean/evidence-linux/preflight.json",
+      "public_sha256": "e20d6813a182e0a3a9bcb5441c9d5959539671a113a980486fc31a167e1be017"
+    },
+    {
+      "original_path": "lean/hug-v3-occupied-space-lean/reference-freeze-current.json",
+      "original_sha256": "aed03f01ad7f28f1ff8f593c7e624d3eefd20188fae3d9501717cec98dfc9d78",
+      "public_path": "lean/hug-v3-occupied-space-lean/reference-freeze-current.json",
+      "public_sha256": "9f06c784359b22da6ec6f8b86a75ea36f17abe0a9b6e3081d12c4fdc9b94a69b"
+    },
+    {
+      "original_path": "lean/hug-v3-occupied-space-lean/run-linux-check.sh",
+      "original_sha256": "a32108de62498074f0f1b3481da1927ab532d98e8a6b5d4ff8d7763d4ae4e98a",
+      "public_path": "lean/hug-v3-occupied-space-lean/run-linux-check.sh",
+      "public_sha256": "b3b60f5138d4c1b1870ad688ae29c2aada40a852a2d53abd1f87fb0cccc699e6"
+    },
+    {
+      "original_path": "lean/hug-v3-occupied-space-lean/verification-inputs.json",
+      "original_sha256": "ac0ed39331a881416d6095f66531c4a65e1f427417f750971bec30d231526620",
+      "public_path": "lean/hug-v3-occupied-space-lean/verification-inputs.json",
+      "public_sha256": "126c0d8d241d18be13f89657a0a548815f4e02455a04559f5555d55bb7a8840a"
+    },
+    {
+      "original_path": "lean/hug-v3-occupied-space-lean/verification-report.json",
+      "original_sha256": "7bb313f7db0c030aed47c75564e8415ea9d2431f73d2310eb6a1a5f9928fe670",
+      "public_path": "lean/hug-v3-occupied-space-lean/evidence-linux/historical-report.json",
+      "public_sha256": "e121ad63c3ff7a6035b5409d5c26c771a08b8ceca48623630c9116b5718bcc4f"
+    },
+    {
+      "original_path": "lean/hug-v3-paint-value-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-paint-value-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-paint-value-lean/evidence-linux/preflight.json",
+      "original_sha256": "87e3a7e9c04742c1bf071f3ef596c789ed55875458de19ff5eee7e77f99d51f2",
+      "public_path": "lean/hug-v3-paint-value-lean/evidence-linux/preflight.json",
+      "public_sha256": "3ec0174a385036d02dd00ec07c6e48bf500fdaf6b1a294ff63468e1b1ff8e40e"
+    },
+    {
+      "original_path": "lean/hug-v3-paint-value-lean/reference-freeze-current.json",
+      "original_sha256": "5f1f84e723472d297b315fd71259aa94cf8e6ebd22c522c47e98df654bb07169",
+      "public_path": "lean/hug-v3-paint-value-lean/reference-freeze-current.json",
+      "public_sha256": "1b984a1febe0454d0eb3c6bfd7cbd369a7c88e53f42e3dcd98c815a22dfca1ed"
+    },
+    {
+      "original_path": "lean/hug-v3-paint-value-lean/run-linux-check.sh",
+      "original_sha256": "113b8d13d811864c062eaa735c09943705c185ab94efe167e1b6d54abf23aef8",
+      "public_path": "lean/hug-v3-paint-value-lean/run-linux-check.sh",
+      "public_sha256": "b77bf7e45cf1708630df7cede6c5e47854d2c5e764d735dbe0862ae46d296488"
+    },
+    {
+      "original_path": "lean/hug-v3-paint-value-lean/verification-inputs.json",
+      "original_sha256": "df2b3be7e108b402415cbfb716aafec689eade8b93b76d4cb6d9c0d0e7e75427",
+      "public_path": "lean/hug-v3-paint-value-lean/verification-inputs.json",
+      "public_sha256": "5eb46330d90730ed7144488b86b80409a483b78f9152a248a5bb454df6464870"
+    },
+    {
+      "original_path": "lean/hug-v3-paint-value-lean/verification-report.json",
+      "original_sha256": "f6d05d0be4f2c0b684a8604e307e82f174dc3d1a2b56bcbacb5215dc3bb562a0",
+      "public_path": "lean/hug-v3-paint-value-lean/evidence-linux/historical-report.json",
+      "public_sha256": "f6d05d0be4f2c0b684a8604e307e82f174dc3d1a2b56bcbacb5215dc3bb562a0"
+    },
+    {
+      "original_path": "lean/hug-v3-proof-attempt/PROOF_STATUS.md",
+      "original_sha256": "251bf4229446de9ff226409e0867bfd0793401a891dccd222c3b94bff1b71c95",
+      "public_path": "lean/hug-v3-proof-attempt/PROOF_STATUS.md",
+      "public_sha256": "fc030453fc6347a58f2cd4a67318e48b5f168ebc32bf477d54cd4db3cb3f4d85"
+    },
+    {
+      "original_path": "lean/hug-v3-proof-attempt/evidence-linux/preflight.json",
+      "original_sha256": "93ff3ce200df6afe1a57aa2262d0eeadccf8680f053b1fb9dbfaa1def39c8f03",
+      "public_path": "lean/hug-v3-proof-attempt/evidence-linux/preflight.json",
+      "public_sha256": "15571e05347125bb268286e713f2df84ebe8c1b4f051e5d9a34356776f2ff2b5"
+    },
+    {
+      "original_path": "lean/hug-v3-proof-attempt/reference-freeze.json",
+      "original_sha256": "204e745a020d9a73dd0bce22f4736f7aaa9646de94ffa734e2e6a5840d048e09",
+      "public_path": "lean/hug-v3-proof-attempt/reference-freeze.json",
+      "public_sha256": "b11c9a5204a51cad11f9d70eca374431e1f91e1078d250a7a9a617a91bd2fa95"
+    },
+    {
+      "original_path": "lean/hug-v3-proof-attempt/run-linux-check.sh",
+      "original_sha256": "fe7f3b43723d7462372f861440114a7bbabcc86579bf3815a10027c27baed32f",
+      "public_path": "lean/hug-v3-proof-attempt/run-linux-check.sh",
+      "public_sha256": "7d77f774ea31e43b0839b92e7ad5c4790d11a3995434c338ff81263ff85b5d9e"
+    },
+    {
+      "original_path": "lean/hug-v3-proof-attempt/source-audit.json",
+      "original_sha256": "fd640b5909e044fc39b5de0029a5cf6f9618f76705804590ebaf2dc6c8b27001",
+      "public_path": "lean/hug-v3-proof-attempt/source-audit.json",
+      "public_sha256": "99ae3efa397d92314984c67de81c842a90f850740d24dcf2982bc7d19f9afbaa"
+    },
+    {
+      "original_path": "lean/hug-v3-proof-attempt/verification-inputs.json",
+      "original_sha256": "f0907fb4bbb97b037957fb6b1ec5f16c8a0f657e97ec6132d3230cc0079d4a3f",
+      "public_path": "lean/hug-v3-proof-attempt/verification-inputs.json",
+      "public_sha256": "1a33abc48f083a89464ebd406232994506ddf5f94865b8576247ce28ed119310"
+    },
+    {
+      "original_path": "lean/hug-v3-proof-attempt/verification-report.json",
+      "original_sha256": "421676d0805241b6f53f3f31cbe47d88b643fde3d83012f4cddb56ec5d57240a",
+      "public_path": "lean/hug-v3-proof-attempt/evidence-linux/historical-report.json",
+      "public_sha256": "421676d0805241b6f53f3f31cbe47d88b643fde3d83012f4cddb56ec5d57240a"
+    },
+    {
+      "original_path": "lean/hug-v3-source-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-source-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-source-lean/evidence-linux/preflight.json",
+      "original_sha256": "74305a747860e3bc34f7a860b230386ef4e42f00b1be4eb651bc650a6011c535",
+      "public_path": "lean/hug-v3-source-lean/evidence-linux/preflight.json",
+      "public_sha256": "e14b260090a012354b0227730d088eb2e1ba404ba2891b1b71525ba3327d116a"
+    },
+    {
+      "original_path": "lean/hug-v3-source-lean/native-memory-first.log",
+      "original_sha256": "882c988b0a7c2840a115bd1390b03f4224dbeac4f12b4787b6fcd6ee05587003",
+      "public_path": "lean/hug-v3-source-lean/native-memory-first.log",
+      "public_sha256": "cbf1f3763e351e624c2764b8bd6f32197c830a3ae906509167375d7127cda9f6"
+    },
+    {
+      "original_path": "lean/hug-v3-source-lean/reference-freeze.json",
+      "original_sha256": "823e0f2fc9c4ce5dfe545fc53b6caf8bdd91359d300189e765166b275bbb1fec",
+      "public_path": "lean/hug-v3-source-lean/reference-freeze.json",
+      "public_sha256": "cbd7fd0947c509d31f5879294379ab5dd8117820d318407c6583ce4e0fca61b8"
+    },
+    {
+      "original_path": "lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/source-audit.json",
+      "original_sha256": "937b7605773b6459412bc3cc23c9d46a8b1d711ac68178fe884d14b4b70972c1",
+      "public_path": "lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/source-audit.json",
+      "public_sha256": "8aa59f92ae6face5a32a870c0e2a1352b298bc6d71cabda993a2bb2505f46292"
+    },
+    {
+      "original_path": "lean/hug-v3-source-lean/run-linux-check.sh",
+      "original_sha256": "920af1f59c33832bb7c28563e5c1cabde5bbe82bb95f619446ba64b5e481a76e",
+      "public_path": "lean/hug-v3-source-lean/run-linux-check.sh",
+      "public_sha256": "19ee47718f9c2f1118f4a1966b06e879315fb5e2abcb9dc39879004ba0f405c7"
+    },
+    {
+      "original_path": "lean/hug-v3-source-lean/source-audit.json",
+      "original_sha256": "937b7605773b6459412bc3cc23c9d46a8b1d711ac68178fe884d14b4b70972c1",
+      "public_path": "lean/hug-v3-source-lean/source-audit.json",
+      "public_sha256": "8aa59f92ae6face5a32a870c0e2a1352b298bc6d71cabda993a2bb2505f46292"
+    },
+    {
+      "original_path": "lean/hug-v3-source-lean/source-map.json",
+      "original_sha256": "648b9fd06730e9db614b30c9cd55a5053aaffa5e7e3e751705c3304be103d131",
+      "public_path": "lean/hug-v3-source-lean/source-map.json",
+      "public_sha256": "8ace013e2d7f84b24fe58637ec301e7bcdad47a7881a0712ab74593845885b43"
+    },
+    {
+      "original_path": "lean/hug-v3-source-lean/verification-inputs.json",
+      "original_sha256": "bda11c33d74fca7efab59495d863f88f90ec6dc28c2b5dbdce3f5fe9c2373cf1",
+      "public_path": "lean/hug-v3-source-lean/verification-inputs.json",
+      "public_sha256": "789d08159324015864d954223408f42aa82c1817000cfb104a83d1c590b8ccb8"
+    },
+    {
+      "original_path": "lean/hug-v3-source-lean/verification-report.json",
+      "original_sha256": "e7e7b2e2998834065010fc4e03787112331d8754717d80693108936bcf74ae84",
+      "public_path": "lean/hug-v3-source-lean/evidence-linux/historical-report.json",
+      "public_sha256": "95dd0645722cec8a01bbc51108aa67547779b123a7e6b9632aa05f9283851045"
+    },
+    {
+      "original_path": "lean/hug-v3-street-whole-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-street-whole-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-street-whole-lean/evidence-linux/preflight.json",
+      "original_sha256": "fbb326fffbf4ba709eaf661892ddcf0a0db4787ddc45598da738ffb75add8b48",
+      "public_path": "lean/hug-v3-street-whole-lean/evidence-linux/preflight.json",
+      "public_sha256": "205f1c7ee07810c36d71e81523f0c6e0b13855e9286141ae522f040a71dd2522"
+    },
+    {
+      "original_path": "lean/hug-v3-street-whole-lean/reference-freeze-current.json",
+      "original_sha256": "88e9b0148a7c62939ccc043ddc131870c03fe8bbeecc1448557cf5ee6e3652de",
+      "public_path": "lean/hug-v3-street-whole-lean/reference-freeze-current.json",
+      "public_sha256": "59ff10d3df19a9bb7098f7a45f0382127b90908dc13a1e65edb9a8fc171913e3"
+    },
+    {
+      "original_path": "lean/hug-v3-street-whole-lean/run-linux-check.sh",
+      "original_sha256": "12dda5a5f9fb974441d84dc9a8a5f7163ec357419d55996bdc25285376ded655",
+      "public_path": "lean/hug-v3-street-whole-lean/run-linux-check.sh",
+      "public_sha256": "e10c61598b0bac9cb7b1c734096b68e7c693ee6446050874270834306198b8a5"
+    },
+    {
+      "original_path": "lean/hug-v3-street-whole-lean/verification-inputs.json",
+      "original_sha256": "d74b85da39a657b09fb2b996b454cc427313d0d1951ce9cbceb8d67c6e6c7982",
+      "public_path": "lean/hug-v3-street-whole-lean/verification-inputs.json",
+      "public_sha256": "448b24d1e5c0eebfd46eb64e55a4811f532157f336a2908077909c532318a6bd"
+    },
+    {
+      "original_path": "lean/hug-v3-street-whole-lean/verification-report.json",
+      "original_sha256": "9fb0798ce46ab3e87f115601b7efed3b775ca63c2ef5342fcab71eb25e89e5f6",
+      "public_path": "lean/hug-v3-street-whole-lean/evidence-linux/historical-report.json",
+      "public_sha256": "63a315d9a2d15ab365e415267c7d4916d2919de7736ea2b7359cbef793d1d404"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-transfer-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/corpus/corpus-passages.json",
+      "original_sha256": "d31c878c6f2d00818ac0ca29c2ce367ea9d742f7a039bbaef85948a1ec5e64b8",
+      "public_path": "lean/hug-v3-transfer-lean/corpus/corpus-passages.json",
+      "public_sha256": "40cb82678faa2144ecda66d899a4dc095e999c27bc4ed515d8945d5a1bc1bcbf"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/evidence-linux/preflight.json",
+      "original_sha256": "c856674c21926b8228e738e2417f9166f62dbcb51b77ea4a8be22a47c988623a",
+      "public_path": "lean/hug-v3-transfer-lean/evidence-linux/preflight.json",
+      "public_sha256": "7762e40715318aefbda09e33c9dff1b1c52ab14c48fe91f0f6456b4cbf45176c"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/linux-dev-proof-fin-coordinate.log",
+      "original_sha256": "7742cb2b5c5cae8418b24f51279779dc5c20a0c27084e22936b2e6dac6087579",
+      "public_path": "lean/hug-v3-transfer-lean/linux-dev-proof-fin-coordinate.log",
+      "public_sha256": "e8af89cc24deae87628ada6c7405bbb20a4425ce8eaba16eda5cf155f90a84f3"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/linux-dev-proof-initial.log",
+      "original_sha256": "ccedd6d8db68883225ca4e5b1317265cabba81bfdef315d5a572838589f42915",
+      "public_path": "lean/hug-v3-transfer-lean/linux-dev-proof-initial.log",
+      "public_sha256": "dac7ddeae1871b71e97e46964dbfbe0fe277405e958fbb00cfdb47ae1ad0c6ee"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/linux-dev-proof-repair.log",
+      "original_sha256": "2bb35e3a10ff2a094e39831e0b46291923b6f12cd4c2c76daf525ca6774af129",
+      "public_path": "lean/hug-v3-transfer-lean/linux-dev-proof-repair.log",
+      "public_sha256": "52d2164113c6207184b8f87d9c3522be1524aae7e2e8a8aac2a37009be6968f0"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/pasted-as-review.md",
+      "original_sha256": "625a1f7348da46183994a99866c0e78de13bd04d3483c87c6815b6d418e19b93",
+      "public_path": "lean/hug-v3-transfer-lean/pasted-as-review.md",
+      "public_sha256": "ee05130b10b7a5ccf379b2c5cb5202e10b6a6f038a333785eba94119b4b1a5dd"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/pasted-as-review/evidence-linux/preflight.json",
+      "original_sha256": "10633db7c98aac828c7379b47818b3966b30a629988f9a2ab8b3478a3ef5b151",
+      "public_path": "lean/hug-v3-transfer-lean/pasted-as-review/evidence-linux/preflight.json",
+      "public_sha256": "42cbc3d45abe058789b822c0d04d6b624e02b38fd91be455f2aa34c4e591356a"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/pasted-as-review/linux-dev-original.log",
+      "original_sha256": "afa0df48ec4b251f11c608b9be63207869c75f72186c338c5a6b3cd2a8187fe7",
+      "public_path": "lean/hug-v3-transfer-lean/pasted-as-review/linux-dev-original.log",
+      "public_sha256": "05262843c820845a43148fbcf872247579014035f5f530b9555dfc75122730cd"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/pasted-as-review/run-linux-check.sh",
+      "original_sha256": "c54bfbf0339a18d744583073e7589009af845e9fcd03fa5cd7ce02e4f8042f05",
+      "public_path": "lean/hug-v3-transfer-lean/pasted-as-review/run-linux-check.sh",
+      "public_sha256": "524e089f9e2709c85e1af11d963cf062295390a8f551b641b96a1f19ff88845f"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/pasted-as-review/run-linux-development.sh",
+      "original_sha256": "49bba9f67bfcbb8a1ee2d67296228f620b4548b1d1f4dd84cfe6abe7713207da",
+      "public_path": "lean/hug-v3-transfer-lean/pasted-as-review/run-linux-development.sh",
+      "public_sha256": "df62a974b84541e9d8421e2f260142e096a29b4198a5ee9867005dc6feca5976"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/pasted-as-review/source-receipt.json",
+      "original_sha256": "f02533d83f58f0aef295c6fef5c91e04e6e453bbe252ce412e80cb05ce983609",
+      "public_path": "lean/hug-v3-transfer-lean/pasted-as-review/source-receipt.json",
+      "public_sha256": "f6d9da30d37b9add6b09c7eac6a52a2af8c75fba8859522916b81f9737f975a3"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/reference-freeze.json",
+      "original_sha256": "a3f2e561e8da0f31d5593771e1dd6b7fe877f884bd420f90c62e7f3e89a20bb4",
+      "public_path": "lean/hug-v3-transfer-lean/reference-freeze.json",
+      "public_sha256": "e6e333fdce3c211287a6968ccaa9a0bae799f2c038a71a7936a9f6a558667c81"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/run-linux-check.sh",
+      "original_sha256": "87120393a4e4081b5073cd513f7fe15bfbec4a6edb3ca73ee763479073eb996d",
+      "public_path": "lean/hug-v3-transfer-lean/run-linux-check.sh",
+      "public_sha256": "b9d91ffee97bfaa45608f583c1c72a7b9a27318859a7e56090f2742f1f32c4ef"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/run-linux-development.sh",
+      "original_sha256": "5fb49b82562cfcefc573bada0fc5d0c35bac44b72eb29939f82b195b1f6e0dc0",
+      "public_path": "lean/hug-v3-transfer-lean/run-linux-development.sh",
+      "public_sha256": "52f6181e2000e2dea4d28ce75871da7d692eb1d980fe610942aa8241afeeb832"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/source-audit.json",
+      "original_sha256": "937b7605773b6459412bc3cc23c9d46a8b1d711ac68178fe884d14b4b70972c1",
+      "public_path": "lean/hug-v3-transfer-lean/source-audit.json",
+      "public_sha256": "8aa59f92ae6face5a32a870c0e2a1352b298bc6d71cabda993a2bb2505f46292"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/source-map.json",
+      "original_sha256": "648b9fd06730e9db614b30c9cd55a5053aaffa5e7e3e751705c3304be103d131",
+      "public_path": "lean/hug-v3-transfer-lean/source-map.json",
+      "public_sha256": "8ace013e2d7f84b24fe58637ec301e7bcdad47a7881a0712ab74593845885b43"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/transfer-report.md",
+      "original_sha256": "1d75c4cd37bcd31ddc08b87a2b0ca146ecda03b8e4e20e40196199a62b329124",
+      "public_path": "lean/hug-v3-transfer-lean/transfer-report.md",
+      "public_sha256": "1685d7569e8d314c1928b304c2b75c4c51f43cf96eb1b94b9efa5f19a9594055"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/verification-inputs.json",
+      "original_sha256": "94cb1ca428cd667d32bdad20b32987d076d71daba15abfc4ad4743067cae18ce",
+      "public_path": "lean/hug-v3-transfer-lean/verification-inputs.json",
+      "public_sha256": "eb73f8b71a9bdad0b16b8a456d17989c33657b5625d131bc105a96e3a49dd222"
+    },
+    {
+      "original_path": "lean/hug-v3-transfer-lean/verification-report.json",
+      "original_sha256": "b4e5f37bc0f4c74b195b78b4140d911f259b81b7ad5bf91f9b53f01d3a440891",
+      "public_path": "lean/hug-v3-transfer-lean/evidence-linux/historical-report.json",
+      "public_sha256": "b4e5f37bc0f4c74b195b78b4140d911f259b81b7ad5bf91f9b53f01d3a440891"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean",
+      "original_sha256": "caa310ca0fe5208c35af5f05dd7ec468975349b53a1106d5bbdd42f9c4807aca",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean",
+      "public_sha256": "b6fd8cfe296a38936b2db3d2b8dfc993a7e6844ab57ad05c1d91676e4609e5ff"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/check-preservation.ps1",
+      "original_sha256": "771aac3745c2f9e59f551ee2579aaa94c1fd7bc1e87777a98c972538a0f5eda1",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/check-preservation.ps1",
+      "public_sha256": "27a5c901ddb0b331bc5b0b5c3cf9faa7467ca7bc3055cacc9d0a238432d57ab3"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/corpus/corpus-passages.json",
+      "original_sha256": "4ca1ad9ef6a968cabc5da33788f56250815e89aa94fae600dd9462f37d9342ff",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/corpus/corpus-passages.json",
+      "public_sha256": "23f9d8a3b97244fde689f2761b1ddfd70e833a6bd95d42c06f7e54bf888b52a8"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/dev-explicit-projections.log",
+      "original_sha256": "8aa35f3b1105bc07fe5a672d3e73fedc9219baa60006c99ed65a4a8c63290359",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/dev-explicit-projections.log",
+      "public_sha256": "be802fee6ca2f73c055848958be5f54f15be4c03e209fc17787b98515874ba08"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/dev-first.log",
+      "original_sha256": "327d993edc8a437a8fcb81344c608835794acc927903b1b11c85a1f27469ee4e",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/dev-first.log",
+      "public_sha256": "72b72a42a50280023432f0c37b31a2efc14382fb434b6b3e029f45dc96c5f043"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/dev-option-bind-diagnosis.log",
+      "original_sha256": "1cc973f0ab9d69424b7c821cac716765d3d08275fab52627e6f2142bebe45c53",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/dev-option-bind-diagnosis.log",
+      "public_sha256": "372ddfef0f754bdb27dc926b3205b30b5959fcbef0f32265285e203a61e2c929"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/dev-proofs.log",
+      "original_sha256": "dd48ab2bc9ac16e4302f20e66ae5ffdb6a099dcb687cafedd7d35363d4b54d28",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/dev-proofs.log",
+      "public_sha256": "b9d8108c9f89436fd1c948ef7a91995498e53ec6b31ee174b5e820395e652342"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/dev-reduction.log",
+      "original_sha256": "8537556786c90a79df6d7236cc29ef6b3947a3825909ed54d79b2151c869e49c",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/dev-reduction.log",
+      "public_sha256": "9b227f2036a5ee0c7c136c0c11835dfae5374b77c386cb280f6302bfb6d88941"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/evidence-linux/preflight.json",
+      "original_sha256": "13dab3983665309627b630eedca19a13d431c15ec05a2fc41759db23dcd918c5",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/evidence-linux/preflight.json",
+      "public_sha256": "5748c4ce7e7a56b7d004130af20280d200a635cee11dda0a1d8c0f3fe1a6615a"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/preserved-inputs.json",
+      "original_sha256": "4506f6e5208dd4c095796306f1fc631ba9c35472af57d58e8c46b62ee6136233",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/preserved-inputs.json",
+      "public_sha256": "9eae78db0310e4013af7359dc6c5adea737df63c41350cf6ef8dc671e6f47217"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/reference-freeze-current.json",
+      "original_sha256": "e325afb168308c50d7079091424e6a06a96e6d117958491875bc0093edba668c",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/reference-freeze-current.json",
+      "public_sha256": "1e9042ea3533dd3099fd50fec0b98f0a12d50873453513c989311fa0a0c4dd0e"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/run-development.sh",
+      "original_sha256": "0d1e00a10b8484daa9e4ee070346464e269ea52ef8e44a257d997f7a68280b4f",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/run-development.sh",
+      "public_sha256": "1ea126d0fd43b2c497bfb124aaddd84b719ae44c30e9e0baf299ef2c528fe9c3"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/run-linux-check.sh",
+      "original_sha256": "51ee498cb9b6fda27bda9357d38f54c67edf03ec0d8db2f9cba79582ddc832e2",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/run-linux-check.sh",
+      "public_sha256": "fc2f395f64929d99e677f4e7eeed9d12e75f585285c558051120c6e091e45019"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/source-preservation-check.json",
+      "original_sha256": "66301e839d660052cd61439e2135bf80d550f9805250f99a4244c34ea8f2bcd3",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/source-preservation-check.json",
+      "public_sha256": "9d592f5bd425d8852b06c5e0405beae8e9660d567373d0032b39bb36eeeef19f"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/verification-inputs.json",
+      "original_sha256": "c436ead30ff6e72f74fbc8d277f2793cbba001d3d34fc77731f99f67f148c3fc",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/verification-inputs.json",
+      "public_sha256": "29006fadde423714a2839b6e48c6a502db16ebad0b87900bf79600d30cb2f311"
+    },
+    {
+      "original_path": "lean/hug-v3-yang-mills-audit-lean/verification-report.json",
+      "original_sha256": "1ab713f3b03f71afb134192616ce2bbf5b7b872efbdfe8c3e7544866c5d36f31",
+      "public_path": "lean/hug-v3-yang-mills-audit-lean/evidence-linux/historical-report.json",
+      "public_sha256": "1ab713f3b03f71afb134192616ce2bbf5b7b872efbdfe8c3e7544866c5d36f31"
+    },
+    {
+      "original_path": "lean/mira-local-paths-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/mira-local-paths-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/mira-local-paths-lean/evidence-linux/preflight.json",
+      "original_sha256": "f95d70390796e917e71870b6f568e1c888d4403eb528a55f247b337b8989face",
+      "public_path": "lean/mira-local-paths-lean/evidence-linux/preflight.json",
+      "public_sha256": "c0564343176bf04902c6655409cfa35eacb96ffdb8083922906471796f753561"
+    },
+    {
+      "original_path": "lean/mira-local-paths-lean/reference-freeze-current.json",
+      "original_sha256": "a347fbeac03250b0a5d642841b509a7c72780dc4b916c4e16ad580310120bb2d",
+      "public_path": "lean/mira-local-paths-lean/reference-freeze-current.json",
+      "public_sha256": "d06580717fb8018329fd7b1f5799966c1190ef57dd0ffca50abbebb0b6e778e2"
+    },
+    {
+      "original_path": "lean/mira-local-paths-lean/run-linux-check.sh",
+      "original_sha256": "f7d5dc5ebcc31e152d1c01ef33b74a3671125f1ec448ff4ba78ab6c7bb51765d",
+      "public_path": "lean/mira-local-paths-lean/run-linux-check.sh",
+      "public_sha256": "2b842c279646e71b872012eef7cdecbb1197d2b6a91b3b28a610f4f463e55d10"
+    },
+    {
+      "original_path": "lean/mira-local-paths-lean/verification-inputs.json",
+      "original_sha256": "b97ad06387b5c959257ba6da03f76f6318b5b17943afd09261a6dd16552e3ca0",
+      "public_path": "lean/mira-local-paths-lean/verification-inputs.json",
+      "public_sha256": "514cc154e0e11272aa7b4fdc8e1b3c274c3fc7b80e97e1eb4918da649a5122fa"
+    },
+    {
+      "original_path": "lean/mira-local-paths-lean/verification-report.json",
+      "original_sha256": "8e2a619eb660be9d4bedf5b55150138491477d5ce6a5b5b97bf2effa0fd32368",
+      "public_path": "lean/mira-local-paths-lean/evidence-linux/historical-report.json",
+      "public_sha256": "a45a3e26610736a7127cbff16d4bdb0fba3b78d08389c5343910fe8f22e224ec"
+    },
+    {
+      "original_path": "lean/person-environment-pnp-lean/V3SourceSystem.lean",
+      "original_sha256": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "public_path": "lean/person-environment-pnp-lean/V3SourceSystem.lean",
+      "public_sha256": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    {
+      "original_path": "lean/person-environment-pnp-lean/evidence-linux/preflight.json",
+      "original_sha256": "c3e82601059b576bcb88348d6a0cb3fda1a5c3a617058b3b5bd3af3b8f4b78e2",
+      "public_path": "lean/person-environment-pnp-lean/evidence-linux/preflight.json",
+      "public_sha256": "f23e43773987d66a6153f2cdb6eb86bec8958547ec0e204c94e095c547f93113"
+    },
+    {
+      "original_path": "lean/person-environment-pnp-lean/reference-freeze-current.json",
+      "original_sha256": "9b1cd666e3d32cc19ce447b72eb50ecbd5ceb7027dfb412e5f6b0611a388e8d6",
+      "public_path": "lean/person-environment-pnp-lean/reference-freeze-current.json",
+      "public_sha256": "282b85ff00f9aa92be7e3c517c92d6bffbb0c9367e5e49418ce14f4ab175bbd8"
+    },
+    {
+      "original_path": "lean/person-environment-pnp-lean/run-linux-check.sh",
+      "original_sha256": "f2288b0ebed272d16eaae1c8fc4ff4b3b422edfad9255ce7000c0b7bb48786a8",
+      "public_path": "lean/person-environment-pnp-lean/run-linux-check.sh",
+      "public_sha256": "80c3958364c558d1edeea95514b986b89bd7089ce58c65cbf06c4308ccb07ae4"
+    },
+    {
+      "original_path": "lean/person-environment-pnp-lean/verification-inputs.json",
+      "original_sha256": "250a61c7ed636b2b4269bb5b927c3057ea349031d812a7146db252c6a80a80da",
+      "public_path": "lean/person-environment-pnp-lean/verification-inputs.json",
+      "public_sha256": "eb27b08b7a9bed030730d8c32026f99fd707765d0e5a1bad116e84c516409073"
+    },
+    {
+      "original_path": "lean/person-environment-pnp-lean/verification-report.json",
+      "original_sha256": "6169c0ecdfd678c6fa5c789d74e429dc9f146d31ba6c165aff72c0ec67481c0a",
+      "public_path": "lean/person-environment-pnp-lean/evidence-linux/historical-report.json",
+      "public_sha256": "fcf4444007300a13aa4f432dc30df6a69bc87c5d9cd1c750fa81d0469ea26eca"
+    },
+    {
+      "original_path": "provenance/collection-audit.json",
+      "original_sha256": "979583d3e25ebf25a51e623e84b98b2e23634aa1976823df0235afa5b423ff05",
+      "public_path": "provenance/collection-audit.json",
+      "public_sha256": "6cb5fa74285a46986a2bb1eba9f2159c8476da6bdd19f1dfefdbed1d797da168"
+    },
+    {
+      "original_path": "provenance/green-objective-2026-11-08/README.md",
+      "original_sha256": "28d4aca92525772545e712a4d13e309db3b20d6212e8e66c2300f7a92b6dc7b0",
+      "public_path": "provenance/green-objective-2026-11-08/README.md",
+      "public_sha256": "4f301812baca6b4f0e6c4b585ed292fb0a7edd67bafc727b692a6257bfee5f66"
+    },
+    {
+      "original_path": "provenance/green-objective-2026-11-08/preflight.json",
+      "original_sha256": "13dab3983665309627b630eedca19a13d431c15ec05a2fc41759db23dcd918c5",
+      "public_path": "provenance/green-objective-2026-11-08/preflight.json",
+      "public_sha256": "5748c4ce7e7a56b7d004130af20280d200a635cee11dda0a1d8c0f3fe1a6615a"
+    },
+    {
+      "original_path": "provenance/historical-local-links.json",
+      "original_sha256": "a149c218293e1e6a41edae70b2acd2c06e42381bb230aa01fc723d35c63f6e74",
+      "public_path": "provenance/historical-local-links.json",
+      "public_sha256": "d9ae2e01d245d6723a19605b383470fe87bca08e45bb99ec66b302b27ad92be8"
+    },
+    {
+      "original_path": "provenance/package-status.json",
+      "original_sha256": "870ca6efffd0a8552cffe994139b913925eb1bca8f808cf8c01dae45bfb48f29",
+      "public_path": "provenance/package-status.json",
+      "public_sha256": "83bc1562b6134296937c1da2a8619c12a559a2edf49ba77f1b2004bf2631af9b"
+    },
+    {
+      "original_path": "research/comparisons/as-equation-audit-evidence.json",
+      "original_sha256": "aa0e3c27e45ac954ed52dd75d169a48f723d08cb72261306a23e117d3a83583a",
+      "public_path": "research/comparisons/as-equation-audit-evidence.json",
+      "public_sha256": "7715a51edc61c7bf48ce7a976898d4de981919d919c30c079d5c84b3aae5848c"
+    },
+    {
+      "original_path": "research/comparisons/comparator-isolation.log",
+      "original_sha256": "ce9770c016f448986062920795075c9075fc055e3c44a76d26f7bba9bd227938",
+      "public_path": "research/comparisons/comparator-isolation.log",
+      "public_sha256": "c65c4fc63aa03e3cc90b61982d41e18fe7162b691b8fd45588b6b05e0c251805"
+    },
+    {
+      "original_path": "research/comparisons/comparator-linux-evidence.json",
+      "original_sha256": "dda1777490b4ce10dd2bbe238152fcf69b0122f2c1fbbe4f9d702204195d884f",
+      "public_path": "research/comparisons/comparator-linux-evidence.json",
+      "public_sha256": "5e25e4c8533074b5113b583745d1237e9c78b11504a0284fbc41a3d3ee5d5c25"
+    },
+    {
+      "original_path": "research/comparisons/lean-verification-evidence.json",
+      "original_sha256": "dcccc54fa800749808025734f5bce9bec4b11b7604d3dc8c4dd53a401052da45",
+      "public_path": "research/comparisons/lean-verification-evidence.json",
+      "public_sha256": "ce7454bfa40c693c3e82e6b9d5ca118194072aeac90ff743214107d3d28c57d6"
+    },
+    {
+      "original_path": "research/comparisons/meaning-scale-audit-evidence.json",
+      "original_sha256": "a906c6f18ac035ff7d02e8cdd650508c7d456806a9f1170277e503b65e946ae4",
+      "public_path": "research/comparisons/meaning-scale-audit-evidence.json",
+      "public_sha256": "9d2ac82bb54e3d3d92570394edd27f0fecab748270490bc6c6a056d789e6c2ab"
+    },
+    {
+      "original_path": "research/comparisons/meaning-scale-audit.txt",
+      "original_sha256": "aeed9ba7545a35699286e0221b0d14b0f943b4550bf354fba21b7d4638e478ba",
+      "public_path": "research/comparisons/meaning-scale-audit.txt",
+      "public_sha256": "befa1bc37feb1623b19d09c56ceda4192983a546b329ce456784882009f20a6e"
+    },
+    {
+      "original_path": "research/hug-v3/continuation-proof/check_proof_obligations.py",
+      "original_sha256": "1a6ec68ee5b5d919adc0739406922618922653e041c25e8ed2650fb4e654f781",
+      "public_path": "research/hug-v3/continuation-proof/check_proof_obligations.py",
+      "public_sha256": "bc996a659c11c71a8faf750604c42c991c29da162810b45ac2962ce4e7194eaf"
+    },
+    {
+      "original_path": "research/hug-v3/continuation-proof/checks.json",
+      "original_sha256": "7874098cd607397d059f45c5a9e8e8ff507d066227837d0fad012b05a065da79",
+      "public_path": "research/hug-v3/continuation-proof/checks.json",
+      "public_sha256": "570999190f061010369ed1c1309c23fb77675ed1e390f3ff4bb667cc845b2304"
+    },
+    {
+      "original_path": "research/hug-v3/continuation-proof/continuation-proof.md",
+      "original_sha256": "8c761592dfe0e2b12b5b65d3f4b863ae24b3f5e8a391b030091330d42641e245",
+      "public_path": "research/hug-v3/continuation-proof/continuation-proof.md",
+      "public_sha256": "4d44e92dc9b2554f306ee7283ae5a88cf1056f6d88f440f24f57759f8fafeb2f"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/finalize-packet.py",
+      "original_sha256": "91e4749a64cea9f62a9d8e27a0f29e2dae27a924132dfe24b2d7bf94689c6373",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/finalize-packet.py",
+      "public_sha256": "944723ad0facf7454bcf145a71d52e4761e2cd73ca9f9e025abc86ad520f29b6"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-completed/checks.json",
+      "original_sha256": "378714711cf0c5e425722c57755e480bc985a9bb1899da3624810cff9d887ad7",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-completed/checks.json",
+      "public_sha256": "ecf8faa7793175d0e907f7cab326d270e15b8e605949e9fe7cc65c8c95de93b1"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-completed/input-manifest.json",
+      "original_sha256": "fab5f7c0885f37faeaf86778bb677148aeb27b3e57396bea3977e19ffd3e01de",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-completed/input-manifest.json",
+      "public_sha256": "8f03c016d59401294b1ba463d74bab5e5e1bf67386d4fbcc7ee6ac6241161cd9"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-completed/prior-evidence/source-audit.json",
+      "original_sha256": "fd640b5909e044fc39b5de0029a5cf6f9618f76705804590ebaf2dc6c8b27001",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-completed/prior-evidence/source-audit.json",
+      "public_sha256": "99ae3efa397d92314984c67de81c842a90f850740d24dcf2982bc7d19f9afbaa"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-completed/review-checks.py",
+      "original_sha256": "b4e23bf92dfa3f8400ed61c2000cde65b9c134f778daaaaa8be4b5112108b4ba",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-completed/review-checks.py",
+      "public_sha256": "27ca7c73a92eb4ca4aec52579e4f8b9672d77eaca3602fe0d73fd99be1949285"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-first-incomplete/checks.json",
+      "original_sha256": "601fbdacfc9d309af39e64062209aff529f3d5f2fc04845ef49c34621b7f2856",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-first-incomplete/checks.json",
+      "public_sha256": "7a6b6a3625c03acb74688cb6218ec0af8a91875b582683cff5c88563a58ada93"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-first-incomplete/input-manifest.json",
+      "original_sha256": "f8fb0db3b8ba53527e52ea6beedde7fe82612f454ea1897dec2b084733bdee23",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-first-incomplete/input-manifest.json",
+      "public_sha256": "2c0f9927bc550407c9f5789c0a1bf94b530c96ed0cef102c784dc847fc464ad9"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-first-incomplete/prior-evidence/source-audit.json",
+      "original_sha256": "fd640b5909e044fc39b5de0029a5cf6f9618f76705804590ebaf2dc6c8b27001",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-first-incomplete/prior-evidence/source-audit.json",
+      "public_sha256": "99ae3efa397d92314984c67de81c842a90f850740d24dcf2982bc7d19f9afbaa"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-first-incomplete/review-checks.py",
+      "original_sha256": "05c65d3eb064f2debb4db7eb658e43c6c12007b801b5522ef9ed5dedc61854f5",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/historical/review-first-incomplete/review-checks.py",
+      "public_sha256": "7631ea7dbf90ccf6c180936f10f578cf417dc16571adc0671a3d53bbd50bd4a2"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/render-attempts/01/renderer.cjs",
+      "original_sha256": "a40f81099bbab9489ee73a0ef862f77e2a8c4fbf0a60b0b34534dedd618f6979",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/render-attempts/01/renderer.cjs",
+      "public_sha256": "8395cc9acf163b7fe955f1324dcd74cd5608cb777c4ad5994438a9f9f2ce2a73"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/render-attempts/02/render_corrected_hug_proof.cjs",
+      "original_sha256": "af316174156d8aea30fb6e1ffee95912e5989a8511f9e2dbb77e122a2616f826",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/render-attempts/02/render_corrected_hug_proof.cjs",
+      "public_sha256": "05b7a81cb3cf6a8a79582f825a215abf55bfe9b97335d87b21717f5bfa469f66"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs.jsonl",
+      "original_sha256": "da5f66f8cd3850ed2ed8a1825ac3d2fe2f77ab03b04549b840ddaa16411ef9eb",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs.jsonl",
+      "public_sha256": "0ada658c2355bd33a50fed57220c7894bd0577acc047b578026d0cb407e64ad7"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053111.490037Z/checks.json",
+      "original_sha256": "b3fa36a95eaa731b35a3df17d0fa88a023a4dc1780d25e8330a81c139e6a0bdf",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053111.490037Z/checks.json",
+      "public_sha256": "2d0e6fd1f14668c0c8830ba3ac1f61a8b0fe2a5f57d5e41b1cd42d5966a3f184"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053111.490037Z/historical/prior-review-checks.json",
+      "original_sha256": "378714711cf0c5e425722c57755e480bc985a9bb1899da3624810cff9d887ad7",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053111.490037Z/historical/prior-review-checks.json",
+      "public_sha256": "ecf8faa7793175d0e907f7cab326d270e15b8e605949e9fe7cc65c8c95de93b1"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053111.490037Z/input-manifest.json",
+      "original_sha256": "505e14f62160ede51fd0c61083e924b7b9ec1e4e46e973d1e0522ee7eb772675",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053111.490037Z/input-manifest.json",
+      "public_sha256": "1246e55caee6366c216ad90a7a134ea7f6e2541cbafdf40887c4168a435abab5"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053111.490037Z/verification.py",
+      "original_sha256": "b9903a26f016176356a8e43019dad552277ad9de1e664bd92619417c01bcded3",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053111.490037Z/verification.py",
+      "public_sha256": "b2378080a38acf573db9a7d72671bef3e9f174bc1d5cc57f59fd9024a08faaf0"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053322.089427Z/checks.json",
+      "original_sha256": "4b9fd4e51583d5056690145352ddf2b651545a9b3836f73835537155d1317968",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053322.089427Z/checks.json",
+      "public_sha256": "befd8c04049e706a979161305e1527675ca5f0ebf7ac7830fa9c83e0dc47004e"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053322.089427Z/historical/prior-review-checks.json",
+      "original_sha256": "378714711cf0c5e425722c57755e480bc985a9bb1899da3624810cff9d887ad7",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053322.089427Z/historical/prior-review-checks.json",
+      "public_sha256": "ecf8faa7793175d0e907f7cab326d270e15b8e605949e9fe7cc65c8c95de93b1"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053322.089427Z/input-manifest.json",
+      "original_sha256": "5efa9ed01fe2be276a069bb0d7cf8ee3e9c7453059990209eaf7fdc987e94a7b",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053322.089427Z/input-manifest.json",
+      "public_sha256": "c23ed649eb3314e4fa3a0b286357498aa6efae55ffe026b21583a1ef628e51d1"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053322.089427Z/verification.py",
+      "original_sha256": "5b886e8dba4423b143ee324be2b7437b139d8cae74bfa9345287fd9ee113938b",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/runs/20261101T053322.089427Z/verification.py",
+      "public_sha256": "06f16aa8aeee54e6f4fbde1f0115ce5e1eaef85337c7854d9343bd5d6a76fa5f"
+    },
+    {
+      "original_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/source-manifest.json",
+      "original_sha256": "2b232830d24af53f5346edef06f872f1e42da12647f8eb763fadcd124bca2c2d",
+      "public_path": "research/hug-v3/corrected-proof-revision-2/testing-packet/source-manifest.json",
+      "public_sha256": "3d503e4343b81101afe7e33a016d7437ed1aeb32e23674bbd7e105fcb5e0a1f9"
+    },
+    {
+      "original_path": "research/matched-stretch/evidence/audit_matrix.py",
+      "original_sha256": "f8b3cca3c4244ca051fbaf0a271e80ddeca1ba9631f926d2bf9286079f8cf860",
+      "public_path": "research/matched-stretch/evidence/audit_matrix.py",
+      "public_sha256": "0191d0b65637c3f7cdca355342a4165b1d03f9707183606d9d3f8f3ba69abde6"
+    },
+    {
+      "original_path": "research/matched-stretch/evidence/completion.json",
+      "original_sha256": "412536413510291abaeb021a1299e35d0301bc58db9aaf6b7a5c306c4b467f35",
+      "public_path": "research/matched-stretch/evidence/completion.json",
+      "public_sha256": "a037d0affa690199f4eadc40a1cb1583dc8816d830cde0e2d94fedd734c5b57e"
+    },
+    {
+      "original_path": "research/matched-stretch/evidence/publication-record.json",
+      "original_sha256": "412536413510291abaeb021a1299e35d0301bc58db9aaf6b7a5c306c4b467f35",
+      "public_path": "research/matched-stretch/evidence/publication-record.json",
+      "public_sha256": "a037d0affa690199f4eadc40a1cb1583dc8816d830cde0e2d94fedd734c5b57e"
+    },
+    {
+      "original_path": "research/matched-stretch/evidence/verify_early64.py",
+      "original_sha256": "3f4e366329465986dd8a1840376b49bc49fae886494791b6dff5c17a3c948a8f",
+      "public_path": "research/matched-stretch/evidence/verify_early64.py",
+      "public_sha256": "a62b64f4e5adbdcef416bced518d31fe7e1f8edf38c445d1bd4344dfaeb72b39"
+    },
+    {
+      "original_path": "research/matched-stretch/evidence/verify_final_fields.py",
+      "original_sha256": "a27645d33aaf2985f75674437340dc3fdf06aa9039a7d8bce54fdbd100420df9",
+      "public_path": "research/matched-stretch/evidence/verify_final_fields.py",
+      "public_sha256": "f05cbeec6b491340e295cf934e62dc9b8d3b1630e8a88ba9ef7320bb6132e04e"
+    }
+  ]
+}

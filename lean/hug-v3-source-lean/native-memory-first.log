@@ -1,13 +1,13 @@
 V3SourceMemory.lean:1:0: error: unknown module prefix 'V3SourceCore'
 
 No directory 'V3SourceCore' or file 'V3SourceCore.olean' in the search path entries:
-C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\hug-v3-source-lean\.lake\build\lib\lean
-C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\aesop\.lake\build\lib\lean
-C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\batteries\.lake\build\lib\lean
-C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\importGraph\.lake\build\lib\lean
-C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\LeanSearchClient\.lake\build\lib\lean
-C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\mathlib\.lake\build\lib\lean
-C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\plausible\.lake\build\lib\lean
-C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\proofwidgets\.lake\build\lib\lean
-C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\Qq\.lake\build\lib\lean
-c:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\toolchains\lean-4.34.0-rc2-windows\lib\lean
+external-source/b4c69e487787ff51/lean
+external-source/2f65b3510b473d36/lean
+external-source/ed33e9687620e5e9/lean
+external-source/51741a5618ee9314/lean
+external-source/1c9a3e51a6736f14/lean
+external-source/888c18e6ff6acec4/lean
+external-source/d795567d80472962/lean
+external-source/3894828d88d4d189/lean
+external-source/3f394e8fd83a65e1/lean
+external-source/f4580508af78542c/lean

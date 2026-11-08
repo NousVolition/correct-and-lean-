@@ -4,11 +4,11 @@
     "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
     "lakefile.toml": "e488ef72592336f5f958840aad191477a37fb71bea6b82cdbc69a8bb79eb836b",
     "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
-    "reference-freeze-current.json": "a43d0200902f8eb33af48b2331f9345040df44c4692d01b01cc668a501d43f15",
-    "run-linux-check.sh": "92331299ce9c6c4482ff2ec71ea21b71bad6ab99dd69307bc56b4661fd7ae709",
+    "reference-freeze-current.json": "20c14cea9c82461cc0f71abc24d2d77ee26c167c0b838dbcdecc27dc368a1379",
+    "run-linux-check.sh": "2799f39ffb4e4dc8a9bb686150f7971746d17dd85d79cab70c9d91f7d809f292",
     "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
     "V3DelayProofs.lean": "a21e672f3309abee5e49b1767d475483591076a681c38229461cbf30e0247fdc",
-    "V3FullCoordinates.lean": "7df9309f83ade868dfa9e5589192c16103baf6df02433164ea2edcb0953cb71b",
+    "V3FullCoordinates.lean": "a1a591e82d2a84ce6e4fcf5aba4f596ee7903aeff52386cb95b7b93ef740eb6b",
     "V3FullDelayChallenge.lean": "34b261be8357cdb1a8b9991d26779697d2e7136250538132552b1b476430c67f",
     "V3FullDelayProofs.lean": "eb884a6457cb2e93784ac72a940471addc26994479215152d53220449c9a1bd8",
     "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
@@ -16,7 +16,7 @@
     "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
     "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
     "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
-    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
+    "V3SourceSystem.lean": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
   },
   "scope": "New conditional analysis bridge, not a completed proof of the full trajectory."
 }

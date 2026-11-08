@@ -7,8 +7,8 @@ import sys
 from datetime import datetime, timezone
 
 OUT = Path(__file__).resolve().parent
-SOURCE = Path('C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-transfer-lean/sources')
-PROOF = Path('C:/Users/ziman/Documents/Codex/2026-10-31/ca/outputs/hug-v3-proof-corrected/revision-2/proof.md')
+SOURCE = OUT.parents[2] / 'lean' / 'hug-v3-transfer-lean' / 'sources'
+PROOF = OUT.parent / 'corrected-proof-revision-2' / 'proof.md'
 
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()

@@ -1,10 +1,11 @@
 """Audit completed records, retained evidence, and report calculations without advancing a solver."""
 from pathlib import Path
+import os
 from datetime import datetime,timezone
 import json,hashlib,sys
 import numpy as np
-S=Path(r'C:/Users/ziman/Documents/Codex/2026-10-05/ca/work/matched-stretch-study')
-C=Path(r'C:/Users/ziman/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an')
+S=Path(os.environ['MATCHED_STRETCH_STUDY'])
+C=Path(os.environ['MATCHED_STRETCH_WORKSPACE'])
 P=Path(__file__).resolve().parent
 def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()

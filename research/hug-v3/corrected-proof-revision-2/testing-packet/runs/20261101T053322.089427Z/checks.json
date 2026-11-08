@@ -146,7 +146,7 @@
     "numpy": "2.3.5",
     "scipy": "1.18.1",
     "sympy": "1.14.0",
-    "dependency_path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\full-deps"
+    "dependency_path": "external-source/8d286d3c31b51fb3/full-deps"
   },
   "status": "PASS_TARGETED_CHECKS",
   "preservation": {

@@ -4,9 +4,9 @@ These packages retain their individual model definitions, assumptions and histor
 
 | Package | Recorded result | Evidence |
 | --- | --- | --- |
-| [as-lean](as-lean/) | PASS for 30 scoped claims; full coupled model remains unproved | [record](as-lean/verification-receipt.json) |
-| [as-existence-lean](as-existence-lean/) | PASS | [record](as-existence-lean/verification-receipt.json) |
-| [as-invariance-lean](as-invariance-lean/) | PASS | [record](as-invariance-lean/verification-receipt.json) |
+| [as-lean](as-lean/) | PASS for 30 scoped claims; full coupled model remains unproved | [record](as-lean/verification-report.json) |
+| [as-existence-lean](as-existence-lean/) | PASS | [record](as-existence-lean/verification-report.json) |
+| [as-invariance-lean](as-invariance-lean/) | PASS | [record](as-invariance-lean/verification-report.json) |
 | [hug-squeeze-lean](hug-squeeze-lean/) | PASS for 51 specified claims; full Hug system not certified | [record](hug-squeeze-lean/verification-report.json) |
 | [hug-existence-lean](hug-existence-lean/) | PASS: exact frozen full coupled theorem | [record](hug-existence-lean/verification-report.json) |
 | [hug-navier-bridge-lean](hug-navier-bridge-lean/) | PARTIAL: conditional compatibility verified; a full combined PDE/ODE system remains unspecified and unproved | [record](hug-navier-bridge-lean/verification-report.json) |
@@ -28,7 +28,7 @@ Challenge files can contain intentional placeholders defining a target. An unfin
 
 ## Further Lean packages
 
-Each directory below is a separate Lake project. From that directory, use its pinned toolchain and run `lake build`. The Comparator configuration names the challenge, solution, allowed axioms and target declarations. The saved reports and Linux logs record the original checks. The check scripts use the Linux paths and dependencies of that verification environment.
+Each directory below is a separate Lake project. From that directory, use its pinned toolchain and run `lake build`. The Comparator configuration names the challenge, solution, allowed axioms and target declarations. The saved reports and Linux logs record the original checks. The historical scripts accept a configurable verification directory. The current CI instructions follow below.
 
 | Package | Comparator targets | Saved verification |
 | --- | ---: | --- |
@@ -56,3 +56,36 @@ Each directory below is a separate Lake project. From that directory, use its pi
 The apple existence package records a conditional schedule theorem. Unconditional existence and uniqueness through all three memory writes remains open. Files kept in original, portable, references and reference-history directories retain their separate roles.
 
 [Source hashes and publication scope](../provenance/lean-additions-2026-11-07.json).
+
+## Reproduce the checks
+
+From the repository root, run the inexpensive checks with Python 3.11 or later.
+
+~~~sh
+python3 -m unittest discover -s scripts/tests
+python3 scripts/lean_package_report.py check
+python3 scripts/check_public_paths.py
+~~~
+
+The source check follows the local imports of each configured solution and rejects standalone occurrences of `sorry`, `axiom`, `native_decide`, `sorryAx` anywhere in those files, including comments. The challenge statement is outside that closure. The independent kernel checks also cover imported dependencies. The policy permits only `propext`, `Classical.choice` and `Quot.sound`.
+
+To replay a package, start with a clean package checkout on Linux with the pinned Lean toolchain, Go, Rust, Landlock and systemd available. Use a non-root user. Run the following commands from the repository root. Choose a package by setting `pkg`.
+
+~~~bash
+set -euo pipefail
+repo=$PWD
+pkg=hug-v3-apple-existence-lean
+scratch=$(mktemp -d)
+bash scripts/build-comparator-tools.sh "$scratch/tools"
+cd "lean/$pkg"
+lake exe cache get
+bash "$repo/scripts/compare-package.sh" "$scratch/tools" "$scratch/evidence"
+lake build 2>&1 | tee "$scratch/evidence/lake-build.log"
+echo 0 > "$scratch/evidence/lake-build.exit"
+python3 "$repo/scripts/lean_package_report.py" axioms . --output "$scratch/evidence/axioms.json"
+python3 "$repo/scripts/lean_package_report.py" ci-report . "$scratch/evidence"
+~~~
+
+Comparator runs before the local solution build. It compares the challenge and solution declarations and exports the solution for nanoda and the default Lean kernel. The default Apple build now builds the solution; its reference remains available as an explicit Comparator target. The axiom file lists the dependencies Lean reported for each named theorem. [Pinned Comparator documentation](https://github.com/leanprover/comparator/blob/19e111e2141cf333c7daff0f64c5f24acc91dd2e/README.md)
+
+Each `verification-report.json` contains exactly six fields. `comparator`, `lean_kernel`, `nanoda`, `lean_build` record the outcomes of the four checks. PASS requires explicit successful evidence, FAIL records a reported failure, NOT_RUN means there is no record that the check ran, and UNKNOWN means the available evidence cannot settle its outcome. `scope` describes the result, and `open_items` lists claims outside that result. Each package’s checked-in report reflects its saved Linux run. The more detailed prior report is archived in `evidence-linux/historical-report.json`. Fresh CI reports and their logs are attached to the corresponding workflow run.

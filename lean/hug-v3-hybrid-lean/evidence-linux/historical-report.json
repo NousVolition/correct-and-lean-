@@ -1,0 +1,105 @@
+{
+  "checked_at_utc": "2026-11-01T05:24:32.187554+00:00",
+  "overall_status": "PARTIAL_CONDITIONAL_HYBRID_ASSEMBLY_VERIFIED_FULL_V3_THEOREM_UNPROVED",
+  "selected_model": "hug-structural-memory-v3 main fixed-grid exact-real interpretation",
+  "conditional_assembly": "PASS",
+  "abstract_margin_and_bit_value_stability": "PASS",
+  "source_bound_full_RHS": "NOT_FORMALIZED",
+  "source_bound_event_map_and_codec": "NOT_FORMALIZED",
+  "full_v3_segment_existence": "NOT_PROVED",
+  "full_v3_segment_uniqueness": "NOT_PROVED_IN_LEAN",
+  "continuation_and_write_success_through_1_6": "NOT_PROVED",
+  "full_unconditional_model_theorem_submitted_to_comparator": false,
+  "unresolved_hypotheses": [
+    "Source-equivalent law and event implementation",
+    "Correct initial state and successful capture",
+    "StepSolvability over each full interval and successful admissible boundary update",
+    "SegmentUniqueness derived from the full unchanged RHS"
+  ],
+  "native_lean": [
+    {
+      "module": "HybridSpecification",
+      "exit_code": 0,
+      "seconds": 19.67200000002049,
+      "evidence": "native-specification-import-fixed.json"
+    },
+    {
+      "module": "V3HybridSpecification",
+      "exit_code": 0,
+      "seconds": 19.453000000008615,
+      "evidence": "native-new-margin-specification.json"
+    },
+    {
+      "module": "HybridChallenge",
+      "exit_code": 0,
+      "seconds": 19.73399999999674,
+      "evidence": "native-new-margin-specification.json"
+    },
+    {
+      "module": "HybridProofs",
+      "exit_code": 0,
+      "seconds": 19.82799999997951,
+      "evidence": "native-proof-choice-fixed.json"
+    }
+  ],
+  "comparator": {
+    "status": "PASS",
+    "theorem_count": 9,
+    "theorems": [
+      "Hybrid.Verified.read_margin_stable",
+      "Hybrid.Verified.decoded_value_stable",
+      "Hybrid.Verified.trace_uniqueness",
+      "Hybrid.Verified.trace_exists",
+      "Hybrid.Verified.assemble_exists_unique",
+      "Hybrid.Verified.event_failure_excluded",
+      "Hybrid.Verified.v3_main_time_order",
+      "Hybrid.Verified.v3_simultaneous_event_order",
+      "Hybrid.Verified.v3_main_conditional"
+    ],
+    "scope": "Exactly the nine conditional assembly, schedule and margin declarations; not full v3 existence/uniqueness.",
+    "lean_kernel": "PASS",
+    "nanoda_kernel": "PASS",
+    "real_landrun": true,
+    "nonroot_uid": 1000,
+    "fresh_solution_directory": true,
+    "reference_frozen_before_proof_creation": true,
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "log": "evidence-linux/comparator.log"
+  },
+  "lake_build": "PASS",
+  "original_sealed_source_files_verified": 21,
+  "original_sources_unchanged": true,
+  "frozen_inputs_unchanged": true,
+  "pinned_dependencies_unchanged": true,
+  "numerical_state_coordinate_count": 193122,
+  "count_scope": "Excludes event-start snapshots and immutable configuration; all numerical state blocks retained.",
+  "same_agent": "The same returning student; interpretation only, no fabricated actor mapping",
+  "same_idea": "Giving someone space to speak can change what I understand.",
+  "paper_review": {
+    "status": "CORRECTIONS_REQUIRED",
+    "manuscript_sha256": "6962654468b09dcccb22a4775fdb9eb19d231e5db5bb460c746c7c1be87b1012",
+    "new_checks": "paper-checks.json",
+    "source_gate": {
+      "case": "main",
+      "accepted": true,
+      "manifest_sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514"
+    },
+    "findings": [
+      "CRC/header acceptance does not ensure valid outcomes or durations",
+      "Unfiltered spectral-gradient bound fails at mode (7,7,7)",
+      "Manuscript also needs Gaussian seam, normalization identity, compact-ball and event-order corrections"
+    ],
+    "no_reachability_claim_for_counterexample_states": true
+  },
+  "historical_evidence": "Earlier six event lemmas not rerun; current run checks its own nine claims.",
+  "limitations": [
+    "No complete main fluid trajectory newly simulated",
+    "No formal continuum limit, floating-point correspondence or empirical validation",
+    "No theorem of cadlag regularity without a continuous-segment law instantiation",
+    "A deprecated tactic lemma warning remains; reference-only placeholders are confined to HybridChallenge.lean"
+  ]
+}

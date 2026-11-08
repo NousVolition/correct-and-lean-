@@ -1,7 +1,7 @@
 import ASModel
 
 /- These are precise remaining proof obligations, not theorems or axioms.
-No `sorry` is used. The verified Comparator targets are listed separately.
+Comparator checks the separate target list.
 Finite jumps in the forcing are allowed; all equations stay unchanged. -/
 namespace SocialAS.Open
 open SocialAS

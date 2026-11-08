@@ -2,6 +2,8 @@
 
 This collection brings together the existing A/S and Hug Lean packages, corrected written proofs, and the completed matched-stretch numerical study. It preserves the original equations, the recorded successful checks, the failed attempts and the remaining open claims. These concern several different models; a proof for one does not certify the others.
 
+In a Comparator reference, `sorry` in `*Challenge.lean` is the Comparator question. The proofs are in the solution module named by each package’s `comparator.json`. CI rejects proof placeholders throughout that module’s local imports and checks the axioms of every configured solution theorem.
+
 ## Start here
 
 ### What `green_objective` proves
@@ -9,7 +11,7 @@ This collection brings together the existing A/S and Hug Lean packages, correcte
 Changing the frame of a deformation preserves its Green strain. For any real 3 × 3 matrix `F` and any orthogonal matrix `Q` (`QᵀQ = I`), the theorem proves `green (QF) = green F`. The reason is that `(QF)ᵀ(QF) = FᵀF`, and Green strain is `(FᵀF − I)/2`. The result concerns this strain measurement. Whether the full dynamics have the same symmetry is a separate question. [Definition of Green strain](https://github.com/NousVolition/correct-and-lean-/blob/1f6fdc546eaedda451b5e38b6dff957260581023/lean/hug-v3-yang-mills-audit-lean/V3SourceCore.lean#L15-L30) · [Lean statement and proof](https://github.com/NousVolition/correct-and-lean-/blob/1f6fdc546eaedda451b5e38b6dff957260581023/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L14-L33)
 
 1. **Open the [fresh verification receipt](provenance/green-objective-2026-11-08/README.md).** On 8 November 2026 UTC, Comparator checked the frozen set of 20 declarations including `green_objective`. Both nanoda and Lean’s default kernel accepted the exported solution. The [transcript, lines 51–56](provenance/green-objective-2026-11-08/comparator.log#L51-L56), shows the theorem name and both acceptance messages.
-2. **[Rerun the check on Linux](provenance/green-objective-2026-11-08/README.md#rerun-the-check).** The instructions give the tested environment, the exact source revision and the outputs to compare. The GitHub auto-build reports compilation. The separate Comparator run produces the evidence of kernel acceptance.
+2. **[Rerun the check on Linux](provenance/green-objective-2026-11-08/README.md#rerun-the-check).** The instructions give the tested environment, the exact source revision and the outputs to compare. The dated receipt records a specific replay. The [CI workflow](.github/workflows/lean-build.yml) also runs Comparator with both kernels, builds the default targets and queries Lean about each solution theorem’s axioms.
 
 ### Portfolio index
 
@@ -19,7 +21,7 @@ Changing the frame of a deformation preserves its Green strain. For any real 3 �
 - [Hug v3 continuation work](research/hug-v3/continuation-proof/continuation-proof.md): additional written bounds and static checks; the full all-write validity theorem remains unfinished.
 - [Matched-stretch final report and seven charts](research/matched-stretch/final-matrix/README.md): all 48 original runs reached t = 0.40; independent numerical auditing passed, while spatial and finest-timestep convergence screens failed.
 - [Comparison and audit records](research/comparisons/README.md): the separate Navier–Stokes formal-development audit and A/S comparisons, with their original scope statements.
-- [File provenance and SHA256 manifest](provenance/files.json).
+- [Publication notes and file digests](provenance/PUBLICATION.md), including the [original collection manifest](provenance/files.json).
 
 ## How to read “verified”
 
@@ -31,6 +33,6 @@ The full Hug v3 continuation through every scheduled memory write is still open.
 
 ## Preservation and use
 
-Existing research files are copied byte for byte. Their historical local paths, chronology, failed builds, reference challenges and unfinished targets are retained. Use the navigation above for current status; an older README may describe work later extended by another package. Compiler caches, downloaded dependencies and unrelated ongoing work are not included. The original simulation field archive remains at its existing location; the numerical collection contains the published report, summarized data, source, result records and verification evidence.
+The historical receipts name the source revision and record the original outcomes, including failures. The public copies use repository-relative paths and stable labels for external sources. The publication map records the original and current digests of the affected files. Earlier Git revisions keep their original contents. [Publication notes](provenance/PUBLICATION.md)
 
-Each Lean directory has its own `lean-toolchain`, `lakefile.toml` and lockfile. Follow that package's README and default targets. Historical verification scripts may contain machine-specific paths. This collection is not a single combined executable model, and no new equations or simulations were introduced to publish it.
+Every Lean directory has its own toolchain, Lake configuration and dependency lockfile. Its `verification-report.json` gives the scope of the checked statements, the four checker outcomes and the remaining open items. GitHub Actions publishes fresh evidence separately for each package it verifies. [Package index and reproduction instructions](lean/README.md)

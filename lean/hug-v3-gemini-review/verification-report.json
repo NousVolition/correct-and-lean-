@@ -1,89 +1,15 @@
 {
-  "review_date_local": "2026-11-01",
-  "timezone": "America/Los_Angeles",
-  "verified_utc": "2026-11-01T23:55:51+00:00",
-  "status": "PASS for 77 repaired supplied statements; full Hug v3 delayed hybrid existence/uniqueness remains unproved",
-  "supplied_files_passed_without_repair": false,
-  "theorem_count": 77,
-  "counts": {
-    "HugV3InterEventProofs": 8,
-    "ASProofs": 44,
-    "CombinedASHugProofs": 18,
-    "DelayedReflexASProofs": 7
-  },
-  "lean_build_exit": 0,
-  "comparator_exit": 0,
-  "lean_kernel": true,
-  "nanoda_kernel": true,
-  "fresh_solution_build": true,
-  "pinned_clean_dependencies": true,
-  "original_attachments_unchanged": true,
-  "theorem_statements_unchanged": true,
-  "nonproof_definitions_unchanged": true,
-  "full_model_files_unchanged": {
-    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
-    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
-    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
-    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
-    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
-    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
-    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
-  },
-  "permitted_axioms": [
-    "propext",
-    "Quot.sound",
-    "Classical.choice"
-  ],
-  "repairs": {
-    "HugV3InterEventProofs": [
-      "Add missing V3EventSpecification import; no proof-body changes"
-    ],
-    "ASProofs": [
-      "saturation_lipschitz",
-      "exchange_lipschitz_in_gap",
-      "loadDrift_nonneg_at_zero",
-      "opening_unit",
-      "registration_unit",
-      "update_preserves_simplex"
-    ],
-    "CombinedASHugProofs": [
-      "User correction: mport -> import",
-      "indicator_unit",
-      "clay_opening_unit",
-      "smoke_conditionalRegistration_unit",
-      "update_preserves_simplex"
-    ],
-    "DelayedReflexASProofs": [
-      "delayedSolution_unique_on_step: explicit function-application reduction before rewriting"
-    ]
-  },
-  "reused_historical_evidence": "ASProofs original source is byte-identical to previously failed original; six prior proof repairs reused. Repaired proofs received a fresh combined build and Comparator check.",
-  "initial_comparator_setup_failure": {
-    "stage": "input-copy preflight before Comparator invocation",
-    "missing_file": "preservation-checks.json",
-    "retained_directory": "/home/nsverify/verification/gemini-four-check-20261101",
-    "correction": "Added file to copy list, froze updated harness inputs, used a new empty check directory"
-  },
-  "checked_directory": "/home/nsverify/verification/gemini-four-check-20261101-complete-inputs",
-  "same_agent": "The same returning student",
-  "same_idea": "Giving someone space to speak can change what I understand.",
-  "simulation_run": false,
-  "scope_limits": [
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Seventy-seven repaired statements from the supplied inter-event, A/S, hybrid and delayed modules under their stated predicates.",
+  "open_items": [
     "Delayed uniqueness is for existing seven-coordinate A/S integral solutions on one delay interval, with shared fixed input and history.",
     "fastPhysicalDrift is defined but absent from the solution predicate and every theorem.",
     "Combined event equality assumes equal complete pre-event states.",
     "No full source write admissibility, capacity, heat/budget, buffer-retention, or all-event continuation theorem.",
     "Boundary drift lemmas do not prove delayed invariance; report contains an analytical, not Lean-checked, counterexample.",
     "Reflex, crash and mirror labels exceed their scalar formal conclusions; no empirical validation claimed."
-  ],
-  "evidence_hashes": {
-    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
-    "comparator.finished": "90a9341504f8ba5b8bf24bec93c0b52056516c90ba225b16c43dd17d040419ae",
-    "comparator.log": "c422c85f6b5de1ed69142e9ac4f272834685038a449aac0b7dcd5a8c4ff9adf9",
-    "comparator.started": "9b2545c87d0daaf7c632902fc6c105eec64b4cc294b3c08560cc642bde363670",
-    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
-    "lake-build.log": "5aec8474e578e16838ec0ffe582ad7a458cbe52ff8c4980900a7c50157bcad7e",
-    "postflight.json": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
-    "preflight.json": "e2cddd7c3a72438b47783c06ad8852ab44add69950e1cddc6e851b6f70cbda9b"
-  }
+  ]
 }

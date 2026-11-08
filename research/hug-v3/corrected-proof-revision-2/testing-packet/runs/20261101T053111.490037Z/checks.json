@@ -11,7 +11,7 @@
     }
   ],
   "status": "FAIL_OR_INCOMPLETE",
-  "exception": "Traceback (most recent call last):\n  File \"C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\work\\verify_corrected_hug_proof.py\", line 62, in <module>\n    import sympy as sp\nModuleNotFoundError: No module named 'sympy'\n",
+  "exception": "Traceback (most recent call last):\n  File \"external-source/f6bd2e527a732e1d/verify_corrected_hug_proof.py\", line 62, in <module>\n    import sympy as sp\nModuleNotFoundError: No module named 'sympy'\n",
   "preservation": {
     "original_21": true,
     "prior_snapshot_21": true,

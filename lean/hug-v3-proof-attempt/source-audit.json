@@ -1,7 +1,7 @@
 {
   "selected_by_user": "later full Hug v3",
   "selected_at_utc": "2026-11-01T04:54:09.893870+00:00",
-  "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3",
+  "source": "lean/hug-v3-source-lean/sources",
   "source_seal_sha256": "b815846bd7afe1aa1a91430c40b658fc44a4d13add5432de0aed424530bedea0",
   "sealed_files": 21,
   "all_source_hashes_match": true,

@@ -4,7 +4,7 @@ The user selected the later `hug-structural-memory-v3` model. This attempt prese
 
 ## Exact selected source
 
-Source directory: `C:/Users/ziman/Documents/Codex/2026-10-08/referenced-chatgpt-conversation-this-is-an-2/outputs/hug-structural-memory-v3`.
+Source directory: `lean/hug-v3-source-lean/sources`.
 
 All 21 entries in the original source seal were checked and matched. Their files are copied unchanged into `sources/`. The source's original `main` declaration gate also accepted the copied inputs. Its declaration SHA256 is `f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514`. The gate says `claims_corpus_validation: false`; accepting a declaration is not a mathematical or empirical validation.
 

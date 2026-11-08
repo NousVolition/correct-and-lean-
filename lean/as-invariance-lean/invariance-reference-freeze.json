@@ -4,10 +4,10 @@
   "scope": "Exact prior state-invariance target: both meaning coordinates in [0,1] and both adverse-history loads nonnegative, under original premises",
   "files": {
     "ASModel.lean": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513",
-    "ASOpenClaims.lean": "632f32a31874e7b57f40590b3abd41e2dee043ff7a6fe7e5b5d27bda116f135a",
+    "ASOpenClaims.lean": "35d9616b57001b7f510dadd1e878d162de2c67bb60a9e1015aaffe7eccf3aa19",
     "ASInvarianceChallenge.lean": "27d741303e8dab4e2915d56dd45e46e9893ff59365ab2f3d5ad20e1eb0b29a5b",
     "source-equations.json": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318",
-    "source-protocol.json": "cd3da93d6ab15d19fc01813da63a64ca0ba99c5bc027014b9cf3adf2cc7d97f1",
+    "source-protocol.json": "51a8c4e85f76717a52a3a0310ddefc96a162b4b70708db3ff52b3ee9b1230d92",
     "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
   }
 }

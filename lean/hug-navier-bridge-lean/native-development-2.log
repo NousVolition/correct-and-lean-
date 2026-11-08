@@ -1,1 +1,1 @@
-BridgeModel.lean:1:0: error: object file 'C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\work\NavierStokesAndEuler-audit\.lake\packages\mathlib\.lake\build\lib\lean\Mathlib\Data\Matrix\Notation.olean' of module Mathlib.Data.Matrix.Notation does not exist
+BridgeModel.lean:1:0: error: object file 'external-source/98d3549e821a26cf/Notation.olean' of module Mathlib.Data.Matrix.Notation does not exist

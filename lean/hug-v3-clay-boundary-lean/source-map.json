@@ -425,7 +425,7 @@
     "match": true
   },
   "historical_deformation": {
-    "file": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\results\\main_display.npz",
+    "file": "external-source/b569048024c81f6e/main_display.npz",
     "sha256": "1b81e6451b5786d39fd46540fd3c8b941ed29f32e3296b9e925846693af5194b",
     "time_samples": 57,
     "maximum_sampled_squared_column_norm": 1.1638610965125313,

@@ -1,0 +1,175 @@
+{
+  "checked_utc": "2026-11-07T03:05:52.900999+00:00",
+  "result": "PASS for 20 formal claims. Partial for the child's witnessed reinterpretation: indirect propagation tested; exposure and specific meaning remain unidentified.",
+  "lean_build": "PASS",
+  "comparator": "PASS",
+  "kernels": [
+    "Lean default",
+    "nanoda"
+  ],
+  "theorems": [
+    "HugV3.Source.WitnessVerified.declared_event_roles",
+    "HugV3.Source.WitnessVerified.actual_built_record_keeps_its_participants",
+    "HugV3.Source.WitnessVerified.record_does_not_enter_bystander_retrieval",
+    "HugV3.Source.WitnessVerified.first_two_records_have_no_child_channel",
+    "HugV3.Source.WitnessVerified.original_personal_rate_uses_present_relationships",
+    "HugV3.Source.WitnessVerified.record_scores_have_no_instant_personal_rate",
+    "HugV3.Source.WitnessVerified.adverse_record_changes_fathers_recognition_rate",
+    "HugV3.Source.WitnessVerified.matched_tests_keep_setting",
+    "HugV3.Source.WitnessVerified.fathers_rating_enters_childs_recognition",
+    "HugV3.Source.WitnessVerified.childs_recognition_changes_cooperation_rate",
+    "HugV3.Source.WitnessVerified.own_cooperation_enters_context_rate",
+    "HugV3.Source.WitnessVerified.changed_neighbor_context_enters_child_rate",
+    "HugV3.Source.WitnessVerified.uncoupled_neighbor_context_has_zero_effect",
+    "HugV3.Source.WitnessVerified.declared_context_response_example",
+    "HugV3.Source.WitnessVerified.an_eligible_old_record_can_be_reweighted",
+    "HugV3.Source.WitnessVerified.all_accepted_checkpoints_keep_person_and_setting",
+    "HugV3.Source.WitnessVerified.actual_trace_context_rate",
+    "HugV3.Source.WitnessVerified.actual_trace_has_no_checkpoint_jump_in_context",
+    "HugV3.Source.WitnessVerified.nonzero_rate_entails_a_later_change",
+    "HugV3.Source.WitnessVerified.distinct_personal_rates_with_same_public_history"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "lean": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "meaning_and_evidence": {
+    "direct_third_party_read": "No direct retrieval by a different recipient.",
+    "instant_at_write": "c_i, shared C and current pairwise margins stay fixed at accepted writes; the instantaneous context rate does not take a record list directly.",
+    "indirect": "Father’s record can change his responses or recognition; the original interpersonal and context terms provide indirect paths.",
+    "strictly_fixed_history": "Matched C and margins across an interval are explicit assumptions of the two-native-segment theorem; it does not construct such histories.",
+    "missing": "No native seen/unseen input, no calibrated link between c_i and revisiting the child's own crossing, and no evidence of the child's actual interpretation."
+  },
+  "numerical": {
+    "status": "completed",
+    "scenario": "Full original main plus diagnostic continuations of a different outcome record.",
+    "plan_sha256": "cf06e72118b104fb835ed65ed511c17a968663eb87f3c262866705ee526388f7",
+    "main_final_decoded": [
+      0,
+      1,
+      2
+    ],
+    "main_steps": 321,
+    "coordinate_count": 193122,
+    "fork_shared_C_max_difference": 0.0,
+    "fork_margin_max_difference": 0.0,
+    "fork_context_max_difference": 0.0,
+    "fork_samples": [
+      {
+        "time": 0.8,
+        "child_context": [
+          0.8529517535913943,
+          0.14704824640860564
+        ],
+        "child_rate": [
+          -0.05415592399449205,
+          0.054155923994492275
+        ],
+        "dad_context": [
+          0.4085787109424493,
+          0.5914212890575509
+        ],
+        "child_retrieval_from_officer": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "child_retrieval_from_dad": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dad_harm_from_officer": 0.4999999989074966,
+        "father_exposure_to_child_record": 0.34395504391421977,
+        "earlier_record_digest": "c0f964c38ef7f11bcc046af9f38fee724b136d5a3a14df2acd9f3db94f7c3812",
+        "event_ids": [
+          0,
+          1
+        ]
+      },
+      {
+        "time": 0.8,
+        "child_context": [
+          0.8529517535913943,
+          0.14704824640860564
+        ],
+        "child_rate": [
+          -0.05415592399449205,
+          0.054155923994492275
+        ],
+        "dad_context": [
+          0.4085787109424493,
+          0.5914212890575509
+        ],
+        "child_retrieval_from_officer": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "child_retrieval_from_dad": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dad_harm_from_officer": 0.0,
+        "father_exposure_to_child_record": 0.34395504391421977,
+        "earlier_record_digest": "c0f964c38ef7f11bcc046af9f38fee724b136d5a3a14df2acd9f3db94f7c3812",
+        "event_ids": [
+          0,
+          1
+        ]
+      }
+    ],
+    "coarse_child_original_minus_missing": [
+      [
+        -3.4570634228625607e-06,
+        3.457063422446227e-06
+      ],
+      [
+        -3.833621678328569e-06,
+        3.833621678106525e-06
+      ]
+    ],
+    "refined_child_original_minus_missing": [
+      [
+        -3.456384969457993e-06,
+        3.456384968986148e-06
+      ],
+      [
+        -3.83373104806406e-06,
+        3.833731047897526e-06
+      ]
+    ],
+    "paired_contrast_resolution_difference_max": 6.784534600789982e-10,
+    "control_replay_max_abs_over_full_state": 0.0,
+    "sealed_inputs_match": true,
+    "witness_comparison_identified": false
+  },
+  "preserved_model_files": {
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
+  },
+  "sealed_program_count": 21,
+  "sealed_inputs_match": true,
+  "postflight": {
+    "source_hashes_unchanged": true,
+    "dependency_commits_unchanged": true,
+    "dependency_sources_clean": true
+  },
+  "development_revision": [
+    {
+      "prior": "development/reference-freeze-v1.json",
+      "changes": "Parentheses corrected Lean parsing of a leading negative term in the context projection. All 19 prior targets are byte-for-byte preserved. A twentieth target tests matched public C and permission margins throughout two valid full-state segments."
+    }
+  ]
+}

@@ -1,130 +1,14 @@
 {
-  "generated_at_utc": "2026-11-01T02:35:11.700825+00:00",
-  "overall_status": "PARTIAL: conditional compatibility verified; a full combined PDE/ODE system remains unspecified and unproved",
-  "compatibility_status": "PASS",
-  "theorem_count": 14,
-  "native_lean": {
-    "exit": 0,
-    "log": "native-development-5.log"
-  },
-  "linux_comparator": {
-    "exit": 0,
-    "log": "evidence-linux/comparator.log",
-    "nanoda_kernel": "PASS",
-    "lean_kernel": "PASS",
-    "started": "2026-11-01T02:32:40+00:00",
-    "finished": "2026-11-01T02:33:26+00:00"
-  },
-  "linux_lake_build": {
-    "exit": 0,
-    "log": "evidence-linux/lake-build.log"
-  },
-  "axioms": [
-    "propext",
-    "Quot.sound",
-    "Classical.choice"
-  ],
-  "placeholder_policy": "Reference-only sorry declarations in BridgeChallenge; no unfinished proofs in the solution",
-  "original_hug_equations_unchanged": true,
-  "source_snapshots_unchanged": true,
-  "frozen_reference_statements_unchanged": true,
-  "source_and_dependency_checks": {
-    "source_hashes_unchanged": true,
-    "dependency_commits_unchanged": true,
-    "dependency_sources_clean": true
-  },
-  "assumptions": [
-    "Affine simple-shear mode and identification of local field values with the Hug coordinates",
-    "Matching local reaction coefficients and no additional s_A or s_B state inputs",
-    "Material-path rate comparison; Laplacian values are symbolic, not solved fields",
-    "Uniform-volume projection of guard-only viscous dissipation",
-    "Required coefficient values are conditional matching results, not installed changes to a fluid experiment"
-  ],
-  "derived_primary_matching_values": {
-    "chi_NS_s_squared": 500000,
-    "a_AB_Pa_s": 1000,
-    "a_BA_Pa_s": 1000
-  },
-  "proved_obstructions": [
-    "Using the same numerical chi without strain-unit conversion can change the guard argument",
-    "Nonzero diffusion contributions prevent exact equality with the selected Hug local rates",
-    "Nonzero affine shear is incompatible with transverse periodic velocity values"
-  ],
-  "not_established": [
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Conditional compatibility and obstructions for a proposed joint Hug and Navier–Stokes coupling.",
+  "open_items": [
     "A full combined momentum PDE and Hug ODE solution",
     "Reciprocal pressure/traction/load coupling and its complete energy budget",
     "Compatible joint geometry, boundary and initial data",
     "Existence, uniqueness, regularity or guard invariance for the complete joint system",
     "An empirical mapping from the returning student, experience or the teaching assistant to these state variables"
-  ],
-  "historical_evidence_not_rerun": "The previous full eight-state Hug existence theorem; its prescribed-force conclusion is not a theorem for unknown fluid-coupled forcing",
-  "interpretation": {
-    "agent": "same returning student",
-    "idea": "Giving someone space to speak can change what I understand",
-    "traits": "No fixed Smoke/Clay role or replacement agent introduced; interpretation remains uncalibrated"
-  },
-  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
-  "dependencies": [
-    {
-      "name": "Comparator",
-      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
-      "clean": true
-    },
-    {
-      "name": "mathlib",
-      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
-      "clean": true
-    },
-    {
-      "name": "lean4export",
-      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
-      "clean": true
-    },
-    {
-      "name": "plausible",
-      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
-      "clean": true
-    },
-    {
-      "name": "LeanSearchClient",
-      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
-      "clean": true
-    },
-    {
-      "name": "importGraph",
-      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
-      "clean": true
-    },
-    {
-      "name": "proofwidgets",
-      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
-      "clean": true
-    },
-    {
-      "name": "aesop",
-      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
-      "clean": true
-    },
-    {
-      "name": "Qq",
-      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
-      "clean": true
-    },
-    {
-      "name": "batteries",
-      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
-      "clean": true
-    },
-    {
-      "name": "Cli",
-      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
-      "clean": true
-    }
-  ],
-  "development_notes": [
-    "Early PowerShell launcher stopped after no progress; direct Python compiler invocation succeeded",
-    "One frozen-model import path was repaired; original import and initial freeze retained",
-    "Proof elaboration and multiplication-order issues were fixed without changing propositions",
-    "Final compiler warnings concern proof tactic style, not unfinished solution proofs"
   ]
 }

@@ -8,7 +8,7 @@
     "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
     "V3SourceProofs.lean": "bc33166378e84da1ffb2391c2c22250cb30ad3d6db69d367df539522b769f885",
     "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
-    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "V3SourceSystem.lean": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d",
     "lakefile.toml": "a88e0177858e722f079c3866ce897a775ec696543e0513775b2f9107e343932d",
     "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
     "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
@@ -36,12 +36,7 @@
     "sources/declarations/time_half.json": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
     "sources/declarations/unit.json": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe",
     "sources/reference_gate/parameter_bounds.json": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
-    "sources/reference_gate/run_manifest.py": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
-    "sources/__pycache__/continuum.cpython-312.pyc": "c1c6c9c6b2169755630cbff4e9c1e11bdcfc82ed27366354a3d922f61430faa5",
-    "sources/__pycache__/preflight.cpython-312.pyc": "525e123c194eb62def4a24452ee31d21986ecb25077c5a2f123a9b7cb348acd3",
-    "sources/__pycache__/social_base.cpython-312.pyc": "f2c485f7c94ff0fc60ba2dd223f407c4b8f131c0bff2b5df886677b5e63de5aa",
-    "sources/__pycache__/structural_hug.cpython-312.pyc": "5543fa2bc432ce4a232a95c0703a233f6d5223760bb4c94a576db84fd34997a1",
-    "sources/reference_gate/__pycache__/run_manifest.cpython-312.pyc": "2c507cd970e311fc1e231e054b3a9891ef98ca63167d28c6e31e3da43496e69c"
+    "sources/reference_gate/run_manifest.py": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f"
   },
   "theorems": [
     "HugV3.Source.ClayVerified.probe_recovers_cell",

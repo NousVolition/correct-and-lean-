@@ -96,7 +96,7 @@ def Agreement (a b : Trace) : Prop :=
   ∀ k<5, ∀ t ∈ Icc (time k) (time (k+1)), a.path k t=b.path k t
 
 -- The user's actual requested target. It is a proposition, not a proved
--- theorem, and is deliberately not filled with a placeholder or an axiom.
+-- theorem. Its proof is open.
 def FullExistenceUniqueness : Prop :=
   ∃ tr, Solves tr ∧ ∀ other, Solves other → Agreement tr other
 

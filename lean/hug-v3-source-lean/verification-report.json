@@ -1,132 +1,13 @@
 {
-  "checked_at_utc": "2026-11-01T05:59:57.806402+00:00",
-  "user_facing_date": "2026-10-31 America/Los_Angeles",
-  "overall_status": "INCOMPLETE_FULL_HUG_V3_EXISTENCE_UNIQUENESS_NOT_PROVED",
-  "concrete_source_transcription": "PROPOSED_AND_TYPECHECKED",
-  "abstract_law_and_event_callbacks_in_full_target": false,
-  "full_active_state_rate_blocks_represented": true,
-  "dynamical_memory_write_acceptance_and_updates_represented": true,
-  "source_python_to_lean_correspondence": "NOT_KERNEL_PROVED",
-  "full_local_existence_uniqueness": "NOT_PROVED_IN_LEAN",
-  "full_continuation_and_write_success_through_1_6": "NOT_PROVED",
-  "full_existence_uniqueness": "NOT_PROVED",
-  "full_goal_declaration": "HugV3.Source.FullExistenceUniqueness (unproved proposition)",
-  "full_goal_submitted_to_comparator": false,
-  "comparator": {
-    "status": "PASS",
-    "scope": "Exactly nine concrete component, boundary and CRC statements.",
-    "theorem_count": 9,
-    "theorems": [
-      "HugV3.Source.Verified.rhs_fabric_equation",
-      "HugV3.Source.Verified.rhs_accumulator_equation",
-      "HugV3.Source.Verified.fabric_strain_lower_bound",
-      "HugV3.Source.Verified.positive_read_boundary_inward",
-      "HugV3.Source.Verified.negative_read_boundary_inward_iff",
-      "HugV3.Source.Verified.negative_read_boundary_under_two",
-      "HugV3.Source.Verified.large_deformation_not_automatic",
-      "HugV3.Source.Verified.written_cell_restores_margin",
-      "HugV3.Source.Verified.crc_reference_vector"
-    ],
-    "lean_kernel": "PASS",
-    "nanoda_kernel": "PASS",
-    "real_landrun": true,
-    "nonroot_uid": 1000,
-    "fresh_solution_directory": true,
-    "permitted_axioms": [
-      "propext",
-      "Quot.sound",
-      "Classical.choice"
-    ],
-    "log": "evidence-linux/comparator.log"
-  },
-  "native_lean": [
-    {
-      "module": "V3SourceCore",
-      "exit_code": 0,
-      "seconds": 16.76500000001397,
-      "evidence": "native-core-and-memory-decision.json"
-    },
-    {
-      "module": "V3SourceGeometry",
-      "exit_code": 0,
-      "seconds": 21.75,
-      "evidence": "native-geometry-index-fixed.json"
-    },
-    {
-      "module": "V3SourceMemory",
-      "exit_code": 0,
-      "seconds": 15.764999999984866,
-      "evidence": "native-source-domain-endpoints.json"
-    },
-    {
-      "module": "V3SourceSocial",
-      "exit_code": 0,
-      "seconds": 15.703000000008615,
-      "evidence": "native-source-domain-endpoints.json"
-    },
-    {
-      "module": "V3SourceFlow",
-      "exit_code": 0,
-      "seconds": 15.60999999998603,
-      "evidence": "native-source-domain-endpoints.json"
-    },
-    {
-      "module": "V3SourceSystem",
-      "exit_code": 0,
-      "seconds": 15.469000000011874,
-      "evidence": "native-source-domain-endpoints.json"
-    },
-    {
-      "module": "V3SourceChallenge",
-      "exit_code": 0,
-      "seconds": 16.03100000001723,
-      "evidence": "native-challenge-spacing-fixed.json"
-    },
-    {
-      "module": "V3SourceProofs",
-      "exit_code": 0,
-      "seconds": 17.515999999974156,
-      "evidence": "native-proof-option-recovery.json"
-    }
-  ],
-  "lake_build": "PASS",
-  "reference_revision": 2,
-  "reference_frozen_before_solution": true,
-  "invalid_preproof_syntax_reference_preserved": true,
-  "reference_history": {
-    "path": "reference-history/invalid-reference-syntax-v1/reference-freeze.json",
-    "sha256": "21bb10722836221d43f75e74df4e53bd6cc3ae6c73b03002b2719cdd1bbf9f8b",
-    "reason": "Corrected the <| token ambiguity in one reference statement before any proof file was created; no mathematical or source change."
-  },
-  "original_sealed_source_files_unchanged": 21,
-  "verification_inputs_unchanged": true,
-  "dependency_commits_and_sources_unchanged": true,
-  "numerical_state_real_coordinates": 193122,
-  "separate_event_start_snapshots": true,
-  "agent": "The same returning student; no fabricated actor assignment",
-  "idea": "Giving someone space to speak can change what I understand.",
-  "source_function_map_count": 39,
-  "new_analytic_result": {
-    "positive_threshold_inward_lower_bound": "259/1600000",
-    "negative_threshold_rate": "squared_deformation_column_norm/1000 - 3459/1600000",
-    "negative_threshold_strict_inward_iff": "squared_deformation_column_norm < 3459/1600",
-    "invariant_bound_imposed_on_equations": false,
-    "trajectory_satisfies_bound": "NOT_PROVED"
-  },
-  "historical_samples": {
-    "file": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\results\\main_display.npz",
-    "sha256": "1b81e6451b5786d39fd46540fd3c8b941ed29f32e3296b9e925846693af5194b",
-    "time_samples": 57,
-    "maximum_sampled_squared_column_norm": 1.1638610965125313,
-    "inward_boundary_threshold": 2.161875,
-    "scope": "Read-only historical sampled Heun data, not a new simulation, not an interval enclosure, not a continuous-time proof."
-  },
-  "new_full_fluid_simulation": false,
-  "limitations": [
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Nine scoped results over the exact-real transcription of the main fixed-grid system and its event definitions.",
+  "open_items": [
     "Manual exact-real transcription; source correspondence remains unproved",
     "Source-computed geometry embedded as exact rationals and decimal coefficients read as exact real decimals",
     "No floating-point/Heun equivalence or infinite-dimensional continuum theorem",
-    "No proof that every write is reached, accepted, or correctly round-tripped through the complete codec",
-    "One retained deprecated tactic-name warning; proof placeholders occur only in the reference challenge"
+    "No proof that every write is reached, accepted, or correctly round-tripped through the complete codec"
   ]
 }

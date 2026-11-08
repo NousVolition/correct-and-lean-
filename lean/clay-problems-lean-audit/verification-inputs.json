@@ -10,6 +10,6 @@
     "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
     "comparator.json": "b8c20637899005c5d08533e64eb59da8717183cdd394ff13547f3422bd2363de",
     "reference-freeze-current.json": "86d44a8a4a4f0617ed43956663d5bf6d4dc4b2ccc56fe538129f070ed44b5c74",
-    "run-linux-check.sh": "096709312f9339cba44bd9816421c7ee4cdc95180817042e84dfe35db410a761"
+    "run-linux-check.sh": "5d03a67629c976fdd34c92a43e3e55886765a03db77af5d8c9989435ad9c3602"
   }
 }

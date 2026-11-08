@@ -1,0 +1,153 @@
+{
+  "verification_status": "PASS",
+  "overall_request_status": "PARTIAL",
+  "overall_scope": "Twelve scoped consequences of the unchanged full equations; no instantiated full-O detector or proof of person/group durability after internal rumination ends.",
+  "verified_utc": "2026-11-04T03:09:40.620582+00:00",
+  "theorem_count": 12,
+  "theorems": [
+    "HugV3.Source.ORuminationVerified.full_rhs_association_equation",
+    "HugV3.Source.ORuminationVerified.full_rhs_source_equation",
+    "HugV3.Source.ORuminationVerified.association_restarts_from_zero",
+    "HugV3.Source.ORuminationVerified.balanced_channels_positive_equal",
+    "HugV3.Source.ORuminationVerified.balanced_channels_zero_association_drive",
+    "HugV3.Source.ORuminationVerified.full_trace_association_relaxation",
+    "HugV3.Source.ORuminationVerified.finite_relaxation_retains_nonzero_association",
+    "HugV3.Source.ORuminationVerified.full_trace_relaxation_with_retained_records",
+    "HugV3.Source.ORuminationVerified.full_trace_zero_total_source_retains_accumulator",
+    "HugV3.Source.ORuminationVerified.zero_association_does_not_freeze_student",
+    "HugV3.Source.ORuminationVerified.delayed_association_reads_buffered_value",
+    "HugV3.Source.ORuminationVerified.delayed_rate_can_move_at_present_zero"
+  ],
+  "comparator_exit": 0,
+  "lake_build_exit": 0,
+  "lean_kernel_accepted": true,
+  "nanoda_kernel_accepted": true,
+  "fresh_solution": true,
+  "non_root_uid": 1000,
+  "isolation": "Landrun and systemd RestrictAddressFamilies=~AF_UNIX",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "dependencies": [
+    {
+      "name": "Comparator",
+      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "clean": true
+    },
+    {
+      "name": "mathlib",
+      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "clean": true
+    },
+    {
+      "name": "lean4export",
+      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "clean": true
+    },
+    {
+      "name": "plausible",
+      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "clean": true
+    },
+    {
+      "name": "importGraph",
+      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+      "clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "clean": true
+    },
+    {
+      "name": "aesop",
+      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "clean": true
+    },
+    {
+      "name": "Qq",
+      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "clean": true
+    },
+    {
+      "name": "batteries",
+      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+      "clean": true
+    },
+    {
+      "name": "Cli",
+      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "clean": true
+    }
+  ],
+  "binaries": {
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "$VERIFY_ROOT/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
+    "$VERIFY_ROOT/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
+    "$VERIFY_ROOT/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
+    "$VERIFY_ROOT/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
+    "$VERIFY_ROOT/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+  },
+  "started": "2026-11-04T03:08:33+00:00",
+  "finished": "2026-11-04T03:09:34+00:00",
+  "source_preservation": {
+    "all_unchanged": true,
+    "original_source_files": 21,
+    "inherited_inputs": 18,
+    "corpus_sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+    "frozen_statement_revisions": 0
+  },
+  "equations_changed": false,
+  "new_numerical_simulation": false,
+  "agent": "Returning student, actor 1; teachers 0 and 2; original six-actor fixture",
+  "idea": "Giving someone space to speak can change what I understand.",
+  "meaning_of_force": "Internal rumination; not identified with an existing scalar or mechanical input.",
+  "meanings": {
+    "A": "bridge",
+    "d": "durability of person and group",
+    "ZERO": {
+      "Z": "shape of history",
+      "E": "direction",
+      "R": "flow",
+      "O": "starting point/destination; actual occurrence with relevant truth independently verified"
+    }
+  },
+  "conditional_scope": {
+    "full_rate_results": "Successful decoded-record read and original RHS domain acceptance retained.",
+    "full_trace_results": "Assume Solves tr; do not construct a full solution. Zero-drive hypotheses must hold throughout the selected inter-event interval.",
+    "relaxation": "One association coordinate of the complete nondelayed solution; not a reduced replacement system or a DDE decay claim.",
+    "cancellation_diagnostic": "Supplied positive-duration record list; does not assert payload validity, actual writes or reachability by the fixed event fixture.",
+    "norm_center_diagnostic": "Exact original initial-state/no-record rhsFromRecords evaluation; no assertion of acceptance or reachability at arbitrary time.",
+    "delay": "Exact accepted saved buffered RHS and a conditional nonzero derivative; no delayed trajectory, stability, existence or uniqueness proof.",
+    "completion_interface": "FullO and CompletionAndDurability remain uninstantiated specifications, not proved detectors or claims."
+  },
+  "unresolved": [
+    "Observation of the same idea and a verification procedure for its actual occurrence",
+    "Observation of internal rumination ending and its link to existing states",
+    "Durability property for both person and group and proof it persists after rumination ends",
+    "Refresh/intake gates grounded in the user completion and capacity criteria",
+    "Actual departure and verified return along a full trajectory",
+    "Full existence, uniqueness and successful continuation through every event and delay",
+    "Variable timing, mixed and reimagined-memory selection rules",
+    "Python/NumPy-to-Lean refinement, continuum limit and empirical validation",
+    "Universal applicability or a universal rise-and-return law"
+  ],
+  "evidence_sha256": {
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.finished": "c02e9b7e8fd2bb7acb58a70bcf05a3a55cd37366f99d9bd822b6c2176513c212",
+    "comparator.log": "36d1236ae41d233ce2770c3252561a3988db55d7495ca6b0205e2fdaa5615902",
+    "comparator.started": "bd83e54f4fb34e69ffc10c8b5bc8f049d1faf9d7ed20cd363e13294024b16eee",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "1f1f7b91da5179f4e0da6bee29d5d5ceece0a22a91224039a3a164da5af11047",
+    "postflight.json": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+    "preflight.json": "5c3ec8d84f2c20bc531cd511e0e1055fc472dcec1e0569f1d87325182234bcca"
+  }
+}

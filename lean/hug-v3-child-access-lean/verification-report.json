@@ -1,93 +1,10 @@
 {
-  "checked_utc": "2026-11-07T03:22:55.711141+00:00",
-  "result": "PASS for 13 formal targets. Direct-evidence histories differ. Full Hug has no native exposure-to-interpretation rule for this event; the child's reading is unassessed.",
-  "named_theorem_count": 13,
-  "sealed_input_file_count": 21,
-  "named_theorems_from_solution_export": [
-    "HugV3.Source.AccessVerified.paired_diaries_on_the_timeline",
-    "HugV3.Source.AccessVerified.native_trace_set_for_either_diary",
-    "HugV3.Source.AccessVerified.native_history_cannot_identify_direct_access",
-    "HugV3.Source.AccessVerified.actual_incident_stays_scored_for_dad",
-    "HugV3.Source.AccessVerified.incident_record_excludes_unfinished_predecessor",
-    "HugV3.Source.AccessVerified.later_record_to_child_links_both_earlier_events",
-    "HugV3.Source.AccessVerified.predecessor_bits_do_not_drive_direct_retrieval",
-    "HugV3.Source.AccessVerified.earlier_dad_records_still_outside_child_channel",
-    "HugV3.Source.AccessVerified.missing_or_wrong_crossing_is_unassessed",
-    "HugV3.Source.AccessVerified.observed_access_allows_different_report_patterns",
-    "HugV3.Source.AccessVerified.different_validated_readings_require_different_personal_contexts",
-    "HugV3.Source.AccessVerified.conditional_response_difference_uses_original_c_rate",
-    "HugV3.Source.AccessVerified.conditional_increment_can_be_zero_or_have_either_sign"
-  ],
-  "solution_export_log_line": 77,
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
   "lean_build": "PASS",
-  "isolated_comparator": "PASS",
-  "lean_default_kernel": "PASS",
-  "nanoda_kernel": "PASS",
-  "toolchain": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
-  "permitted_axioms": [
-    "propext",
-    "Quot.sound",
-    "Classical.choice"
-  ],
-  "preserved_model_count": 6,
-  "sealed_program_count": 21,
-  "exact_claim": "For unchanged native inputs, either diary is compatible with the same full trace set. Earlier directed records remain inaccessible through child-specific retrieval. The later history mask links both events without identifying sight.",
-  "numerical_endpoint": {
-    "status": "PASS for the exposure-log-only control",
-    "plan_sha256": "ec6a4a9dd04379e5e96c26a77b94688c4058291d7113d1e805f0aa38e58cdff8",
-    "independent_runs": 2,
-    "coordinates_per_run": 193122,
-    "steps_per_run": 321,
-    "writes_per_run": 3,
-    "full_state_samples_compared": 328,
-    "full_native_states_bit_identical": true,
-    "C_and_all_margins_identical_between_arms": true,
-    "child_max_abs_between_arms": 0.0,
-    "same_child_initial": [
-      0.9,
-      0.1
-    ],
-    "same_child_final": [
-      0.6448751208409651,
-      0.35512487915903446
-    ],
-    "father_record_fixed_in_both": [
-      -0.5,
-      -0.7000000000000001
-    ],
-    "child_direct_evidence_ids": {
-      "sees": [
-        0,
-        1
-      ],
-      "misses": [
-        0
-      ]
-    },
-    "third_record_predecessor_mask_in_both": 3,
-    "empirical_reading_difference": null,
-    "cause_identified": false,
-    "sealed_program_inputs_match": true
-  },
-  "limits": "The exposure log is external, not a native neural or sensory mechanism. There is no child outcome report in either arm and no calibrated map from the child's context to a particular reading. Zero between the simulated arms does not establish zero real-world effect.",
-  "previous_audits": [
-    {
-      "package": "hug-v3-paint-value-lean",
-      "final_verified_theorem_count": 19,
-      "last_exported_theorem": "HugV3.Source.PaintCalibrationVerified.opposite_fields_have_same_original_force",
-      "sealed_input_file_count": 16
-    },
-    {
-      "package": "hug-v3-child-witness-lean",
-      "final_verified_theorem_count": 20,
-      "last_exported_theorem": "HugV3.Source.WitnessVerified.distinct_personal_rates_with_same_public_history",
-      "sealed_input_file_count": 19,
-      "initial_reference_theorem_count": 19
-    }
-  ],
-  "postflight": {
-    "source_hashes_unchanged": true,
-    "dependency_commits_unchanged": true,
-    "dependency_sources_clean": true
-  }
+  "scope": "Thirteen claims about differing direct-evidence histories in the child crossing example.",
+  "open_items": [
+    "The exposure log is external, not a native neural or sensory mechanism. There is no child outcome report in either arm and no calibrated map from the child's context to a particular reading. Zero between the simulated arms does not establish zero real-world effect."
+  ]
 }

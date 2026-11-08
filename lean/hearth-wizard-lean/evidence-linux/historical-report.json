@@ -1,0 +1,66 @@
+{
+  "checked_utc": "2026-11-07T04:49:41.767842+00:00",
+  "result": "PASS for the 22 named mathematical statements in the isolated two-kernel check",
+  "standalone_lean_build": {
+    "result": "PASS",
+    "named_theorems": 16,
+    "sha256": "cdb2ffd1ec1654f3b043483a39010cb644773e155b2f1c120ec098ff1c9cb4f5"
+  },
+  "lake_build": "PASS",
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda_kernel": "PASS",
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "actual_unique_solution_exports": 22,
+  "theorems": [
+    "Wizard.fromFin_toFin",
+    "Wizard.toFin_fromFin",
+    "CommutatorMatrix.diag_zero",
+    "CommutatorMatrix.bracket_antisymm",
+    "CommutatorMatrix.sum_all_vanishes",
+    "CommutatorMatrix.quadratic_form_zero",
+    "CommutatorMatrix.bracket_self",
+    "CommutatorMatrix.sum_all_brackets",
+    "CommutatorMatrix.form_basis_pair",
+    "CommutatorMatrix.form_antisymm",
+    "CommutatorMatrix.form_bilinear",
+    "CommutatorMatrix.form_alternating",
+    "CommutatorMatrix.centrality_criterion",
+    "CommutatorMatrix.central_lift_satisfies_jacobi",
+    "CommutatorMatrix.arbitrary_skew_lift_can_fail_jacobi",
+    "CommutatorMatrix.finite_kinetic_energy_rate",
+    "HearthAudit.shear_smooth_and_periodic",
+    "HearthAudit.shear_solves_stationary_forced_momentum",
+    "HearthAudit.shear_companion_integrals",
+    "HearthAudit.companion_identity_fails",
+    "HearthAudit.hug_viscous_heat_nonnegative",
+    "HearthAudit.hug_temperature_contains_hearth_source"
+  ],
+  "categories": {
+    "submitted_algebra": 6,
+    "additional_algebra": 10,
+    "continuum_shear_and_counterexample": 4,
+    "unchanged_Hug_v3_source": 2
+  },
+  "source_provenance": {
+    "original_bytes": 5300,
+    "original_sha256": "5982efae01fde67c448e8dc1fe95e866a2a53265bc6da13edb2dba164b7aa0fd",
+    "companion_sha256": "aa4b3a7484724d53679f28b087d4cb6effe05ab88c06b3da0934965b50a20b96",
+    "six_Hug_modules_byte_identical": true,
+    "all_six_submitted_signature_texts_preserved": true
+  },
+  "original_submission": "Does not compile as received. Unavailable import, four missing sum-negation arguments and a truncated comment.",
+  "jacobi": "Proved when every result lies along the central Hearth. A skew matrix with two nonzero pairs gives Jacobi component -1.",
+  "companion_identity": "Refuted by smooth periodic stationary forced shear for every positive dynamic viscosity. The passed theorem proves the negation.",
+  "scope": "The exchange coefficients are input data. Deriving them from the fluid operators and general 3D regularity are outside these theorems.",
+  "postflight": {
+    "source_hashes_unchanged": true,
+    "dependency_commits_unchanged": true,
+    "dependency_sources_clean": true
+  }
+}

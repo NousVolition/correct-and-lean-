@@ -16,9 +16,9 @@ The intended theorem is existence of the complete admissible trajectory through 
 
 Sources:
 
-- [Frozen source directory](C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-transfer-lean/sources).
-- [Existing corrected local proof](C:/Users/ziman/Documents/Codex/2026-10-31/ca/outputs/hug-v3-proof-corrected/revision-2/proof.md), especially its exact-real interpretation, admissible domain Ω*, and successful-write preservation lemma.
-- [New static check evidence](C:/Users/ziman/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an/outputs/hug-v3-continuation-proof/checks.json).
+- [Frozen source directory](../../../lean/hug-v3-transfer-lean/sources).
+- [Existing corrected local proof](../corrected-proof-revision-2/proof.md), especially its exact-real interpretation, admissible domain Ω*, and successful-write preservation lemma.
+- [New static check evidence](checks.json).
 
 All 21 source files were checked against their existing seal before and after the static checks; all matched. The existing proof and model files were only read. Decimal coefficients below have their mathematical values in the existing exact-real interpretation; the additional source-arithmetic checks are explicitly separate from that interpretation.
 
@@ -217,7 +217,7 @@ Therefore the remaining inter-event obstruction is reaching the memory-read boun
 
 ## 5. Memory-clearance lemmas from the unchanged fabric equation
 
-The pointwise ±0.006 barrier and its conditional first-crossing argument are already covered by the [earlier Clay-boundary Lean package](C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-clay-boundary-lean/CLAY_BOUNDARY_REPORT.md), with its stated solution and deformation assumptions. They are rederived below to connect the new estimates to that existing result; that historical Lean verification was not rerun. The accumulated-strain criterion later in this section is an additional written argument, not a newly certified Lean theorem.
+The pointwise ±0.006 barrier and its conditional first-crossing argument are already covered by the [earlier Clay-boundary Lean package](../../../lean/hug-v3-clay-boundary-lean/CLAY_BOUNDARY_REPORT.md), with its stated solution and deformation assumptions. They are rederived below to connect the new estimates to that existing result; that historical Lean verification was not rerun. The accumulated-strain criterion later in this section is an additional written argument, not a newly certified Lean theorem.
 
 Writing e_l=(|F_{p,·,α}|²−1)/2, the fabric equation with the declared coefficients simplifies exactly to
 

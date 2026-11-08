@@ -1,0 +1,187 @@
+{
+  "generated_at_utc": "2026-11-01T03:08:55.352127+00:00",
+  "overall_status": "PARTIAL: corpus search and formal audit completed; full joint evolution remains unspecified and unproved",
+  "full_joint_evolution": "NOT VERIFIED",
+  "full_joint_trajectory_check": "NOT RUN: no reciprocal coupling law for the current eight-state Hug and the six-field NS/SIMS model was located in the inspected sources",
+  "source_search": {
+    "read_only": true,
+    "repo_heads": [
+      {
+        "branch": "main",
+        "commit": "b4ae2c54cd85bfef282c501ecfca83de274e2070",
+        "tree": "7bd433d4314df01a211523382aa58947a950b2ce",
+        "url": "https://github.com/NousVolition/Nous-Volition/commit/b4ae2c54cd85bfef282c501ecfca83de274e2070"
+      },
+      {
+        "branch": "main",
+        "commit": "7fbc7f28f685c86f824d7587aff91feedf20d3da",
+        "tree": "51107209f1103592661c4043aab244f3a38a2d64",
+        "url": "https://github.com/NousVolition/My-Sources-Project-ALL/commit/7fbc7f28f685c86f824d7587aff91feedf20d3da"
+      }
+    ],
+    "complete_tree_entry_counts": [
+      2451,
+      7883
+    ],
+    "selected_full_files": 15,
+    "all_selected_git_blob_hashes_verified": true,
+    "original_docx_sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+    "original_passages_freshly_matched": 15,
+    "scope_limit": "Bounded source search; full tree metadata, targeted full-text queries and 15 selected full source files, not an exhaustive read of every corpus document."
+  },
+  "lean_equation_specification": {
+    "status": "TYPECHECKED",
+    "file": "FullEquationSpecification.lean",
+    "hug_rates": 8,
+    "fluid_field_rates": 6,
+    "scope": "Both full source equation sets are represented; SeparateEvolutions is a conjunction, not a reciprocal joint coupling",
+    "regularity": "C2 spatial fields, C1 pressure and pointwise temporal derivatives are explicit requirements, not proved conclusions",
+    "source_transcription": "Manually reviewed against retrieved equations and implementation; Lean compilation does not prove faithfulness to prose"
+  },
+  "audit_propositions": {
+    "status": "PASS",
+    "count": 7,
+    "native_lean_exit": 0,
+    "linux_comparator_exit": 0,
+    "linux_lake_build_exit": 0,
+    "lean_kernel": "PASS",
+    "nanoda_kernel": "PASS",
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "reference_only_placeholders": "AuditChallenge only; no unfinished proof, added axiom or unsafe declaration in AuditSolution",
+    "log": "evidence-linux/comparator.log",
+    "started": "2026-11-01T03:05:53+00:00",
+    "finished": "2026-11-01T03:06:37+00:00"
+  },
+  "new_findings": [
+    "The corpus already contains a complete six-field NS/SIMS feedback loop and its domain/initial conditions",
+    "Older wall-integrity and memory-projection models provide distinct coupling mechanisms, not a sourced coupling of the current eight-state Hug",
+    "Force change determines acceleration change, and identical complete Hug motion requires identical force history",
+    "Equal instantaneous power at zero speed does not determine force or acceleration",
+    "The source fluid initial state cannot be reproduced by copying one scalar Hug state uniformly over space"
+  ],
+  "still_needs_specification": [
+    "Clock/unit conversion",
+    "State--field observation or projection map",
+    "Evolving fluid load on Hug",
+    "Reciprocal Hug action on fluid",
+    "Compatible joint geometry and initial/boundary data",
+    "Energy accounting without double-counting resistance"
+  ],
+  "still_needs_proof": [
+    "Full joint existence and uniqueness in a stated solution class",
+    "Field and interface regularity",
+    "Incompressibility and coupled guard bounds",
+    "Reciprocal work/energy balance",
+    "Continuation or breakdown conditions for the stated horizon",
+    "Pressure uniqueness modulo an additive time function, or after a gauge choice"
+  ],
+  "preservation": {
+    "original_hug_model_byte_identical": true,
+    "prior_bridge_inputs_unchanged": true,
+    "corrected_word_corpus_unchanged": true,
+    "new_inputs_and_dependencies_unchanged": {
+      "source_hashes_unchanged": true,
+      "dependency_commits_unchanged": true,
+      "dependency_sources_clean": true
+    },
+    "prior_source_snapshot_formatting_differences": [
+      {
+        "file": "active_methods.md",
+        "fresh_sha256": "96e9d6c6584111257bf0bf2c1857f46cae63dfeee0a52369dcad3c5bb645231a",
+        "prior_sha256": "d1d280ecd06c1f31aaa46c3117b5c84cd6534dd24d19ce10494f633221c047bd",
+        "byte_identical": false,
+        "difference": "line endings and trailing blank line only; non-newline text is identical"
+      },
+      {
+        "file": "active_model.py",
+        "fresh_sha256": "8b5652c389328bf8991fbe1ff0bd0117792bf7156d4424e0043979d23397bdf7",
+        "prior_sha256": "e1f83325f63c956d399294b6dda748a34d6f469d8a42319f28e1d02ea3366921",
+        "byte_identical": false,
+        "difference": "line endings and trailing blank line only; non-newline text is identical"
+      },
+      {
+        "file": "interaction.md",
+        "fresh_sha256": "aa9af72b9762ff70204131bc160aec712e4071ec17e6a4f3ac832e2e7a4a5808",
+        "prior_sha256": "5b3621f4832403dd14a07a032b593afed53b53c122d96b858e4a2c6fc959b0ac",
+        "byte_identical": false,
+        "difference": "line endings and trailing blank line only; non-newline text is identical"
+      }
+    ]
+  },
+  "assumptions_not_installed": [
+    "Older wall/yielding law",
+    "Memory-field projection inside current Hug",
+    "Affine velocity reduction",
+    "Zero diffusion",
+    "Earlier derived shear/viscosity matching numbers",
+    "A zero or prescribed artificial fluid feedback"
+  ],
+  "agent_and_idea": {
+    "agent": "same returning student",
+    "idea": "Giving someone space to speak can change what I understand",
+    "empirical_mapping": "Not established; labels retained without identifying actual beliefs with inferred expectations"
+  },
+  "historical_evidence": "Prior Hug existence, prior 14-claim bridge and saved numerical fluid results were not rerun or counted as new full-system proof",
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "dependencies": [
+    {
+      "name": "Comparator",
+      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "clean": true
+    },
+    {
+      "name": "mathlib",
+      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "clean": true
+    },
+    {
+      "name": "lean4export",
+      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "clean": true
+    },
+    {
+      "name": "plausible",
+      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "clean": true
+    },
+    {
+      "name": "importGraph",
+      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+      "clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "clean": true
+    },
+    {
+      "name": "aesop",
+      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "clean": true
+    },
+    {
+      "name": "Qq",
+      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "clean": true
+    },
+    {
+      "name": "batteries",
+      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+      "clean": true
+    },
+    {
+      "name": "Cli",
+      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "clean": true
+    }
+  ]
+}

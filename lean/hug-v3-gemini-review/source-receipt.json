@@ -1,6 +1,6 @@
 {
   "HugV3InterEventProofs": {
-    "attachment": "C:\\Users\\ziman\\.codex\\attachments\\b5c3986f-fb10-4f83-969c-4024af2616b6\\Pasted text.txt",
+    "attachment": "external-source/e0c6fcb0e6b5effc/Pasted text.txt",
     "sha256": "4320a19c0cb3c9199c1d6423815437bc2321d6643a0a53cf6c6f9da642593fee",
     "original_copy_sha256": "4320a19c0cb3c9199c1d6423815437bc2321d6643a0a53cf6c6f9da642593fee",
     "theorem_count": 8,
@@ -16,11 +16,11 @@
     ]
   },
   "ASProofs": {
-    "attachment": "C:\\Users\\ziman\\.codex\\attachments\\96e09845-25e4-405c-a97f-426d37bfbc0a\\Pasted text.txt",
+    "attachment": "external-source/0802c48012487aa2/Pasted text.txt",
     "sha256": "354d8d253ee8bd29a4382769b9259d46ea4ab75c47ec08905fa69ebec378fba9",
     "original_copy_sha256": "354d8d253ee8bd29a4382769b9259d46ea4ab75c47ec08905fa69ebec378fba9",
-    "historical_byte_identity": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-transfer-lean\\pasted-as-review\\PastedASProofs.lean",
-    "historical_original_build_failed": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-transfer-lean\\pasted-as-review\\linux-dev-original.log",
+    "historical_byte_identity": "lean/hug-v3-transfer-lean/pasted-as-review/PastedASProofs.lean",
+    "historical_original_build_failed": "lean/hug-v3-transfer-lean/pasted-as-review/linux-dev-original.log",
     "theorem_count": 44,
     "theorems": [
       "SocialAS.Verified.pos_nonneg",
@@ -70,7 +70,7 @@
     ]
   },
   "CombinedASHugProofs": {
-    "attachment": "C:\\Users\\ziman\\.codex\\attachments\\5a9db287-1c6f-4d8d-97a1-28c7e691108a\\Pasted text.txt",
+    "attachment": "external-source/eca0436a8f9bf99c/Pasted text.txt",
     "sha256": "39ebac8e5ecf4d0348f14094f9285c2d653b26abb87c8b6e5d8163d8f4ee1c20",
     "original_copy_sha256": "39ebac8e5ecf4d0348f14094f9285c2d653b26abb87c8b6e5d8163d8f4ee1c20",
     "theorem_count": 18,
@@ -96,7 +96,7 @@
     ]
   },
   "DelayedReflexASProofs": {
-    "attachment": "C:\\Users\\ziman\\.codex\\attachments\\3d62d9a6-5427-4234-8aa2-31cff5abefe9\\Pasted text.txt",
+    "attachment": "external-source/1843440f25c1a231/Pasted text.txt",
     "sha256": "cbb5f1dd59191d9784143c6b5229dea0bcb128eaf58132cdb56d75584a849120",
     "original_copy_sha256": "cbb5f1dd59191d9784143c6b5229dea0bcb128eaf58132cdb56d75584a849120",
     "theorem_count": 7,
@@ -111,19 +111,19 @@
     ]
   },
   "ASModel.lean": {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\as-lean\\ASModel.lean",
+    "source": "lean/as-lean/ASModel.lean",
     "sha256": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513"
   },
   "V3EventSpecification.lean": {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\V3EventSpecification.lean",
+    "source": "lean/hug-v3-proof-attempt/V3EventSpecification.lean",
     "sha256": "c32643d7c28b8cd5d8759880390c0e1b5c84783c11a3b96f96209e07188e1f88"
   },
   "lake-manifest.json": {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-delay-lean\\lake-manifest.json",
+    "source": "lean/hug-v3-delay-lean/lake-manifest.json",
     "sha256": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029"
   },
   "lean-toolchain": {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-delay-lean\\lean-toolchain",
+    "source": "lean/hug-v3-delay-lean/lean-toolchain",
     "sha256": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
   }
 }

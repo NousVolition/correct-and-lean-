@@ -1,0 +1,15 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Thirty scoped statements about E1–E16 in the seven-coordinate A/S model with Monoxide buildup.",
+  "open_items": [
+    "Full existence/uniqueness and state invariance are outside this original package and subsequently proved in as-existence-lean and as-invariance-lean.",
+    "FullSuppressionComparison remains open.",
+    "Repeated-encounter stochastic process and event coupling",
+    "Certified error bounds for the numerical solver",
+    "General comparison of distortion, reception and changed understanding",
+    "Empirical identification and validation of social variables"
+  ]
+}

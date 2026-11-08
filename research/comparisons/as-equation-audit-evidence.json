@@ -2,10 +2,10 @@
   "status": "Scoped A/S analytical audit completed; not full formal or empirical validation",
   "checked_at_utc": "2026-10-29T06:55:17.941297+00:00",
   "source": {
-    "user_selected_document": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-09\\referenced-chatgpt-conversation-this-is-an\\output\\pdf\\openai-navier-stokes-cross-audit-with-feedback-path.pdf",
+    "user_selected_document": "external-source/8dbdfa89ad503992/openai-navier-stokes-cross-audit-with-feedback-path.pdf",
     "pdf_sha256": "34bc25fddad22e85af9152b856594c8bd2acfac9ba1d032ad136670d351cabae",
     "pdf_pages_from_latest_record": 25,
-    "updated_report": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-09\\referenced-chatgpt-conversation-this-is-an\\outputs\\navier-stokes-cross-audit-20261028\\report.html",
+    "updated_report": "external-source/73312490cd15ed09/report.html",
     "updated_report_sha256": "b860ea8b4830e245ef78db31eeb15e4c12f66ac18eb68264a5f31f6bad66c81e",
     "published_repository": "NousVolition/Nous-Volition",
     "current_main_checked": "b4ae2c54cd85bfef282c501ecfca83de274e2070",

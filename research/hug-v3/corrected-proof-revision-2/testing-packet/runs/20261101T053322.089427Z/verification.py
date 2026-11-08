@@ -1,16 +1,17 @@
 """Append a frozen proof-verification run without modifying any model source."""
 from pathlib import Path
+import os
 from datetime import datetime, timezone
 from fractions import Fraction
 import sys, json, shutil, hashlib, re, subprocess, warnings, traceback
 sys.dont_write_bytecode=True
-ROOT=Path(r'C:\Users\ziman\Documents\Codex\2026-10-31\ca')
+ROOT=Path(os.environ['PROOF_WORKSPACE'])
 REV=ROOT/'outputs/hug-v3-proof-corrected/revision-2'
 PACK=REV/'testing-packet'
 PRIOR=ROOT/'outputs/hug-v3-proof-review/20261101T051856.361354Z'
-ATTACH=Path(r'C:\Users\ziman\.codex\attachments\56912d7e-687c-448d-b8a2-13f301b7ac58\Pasted text.txt')
-DEPS=Path(r'C:\Users\ziman\Documents\Codex\2026-10-08\referenced-chatgpt-conversation-this-is-an-2\work\full-deps')
-SKILL=Path(r'C:\Users\ziman\.codex\plugins\cache\nous-volition-local\lexical-lens-draft\2.7.0-draft.11\skills\discrete-math-logic')
+ATTACH=Path(os.environ['PROOF_ATTACHMENT'])
+DEPS=Path(os.environ['PROOF_DEPS'])
+SKILL=Path(os.environ['PROOF_SKILL'])
 RUN=datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ')
 OUT=PACK/'runs'/RUN
 OUT.mkdir(parents=True,exist_ok=False)

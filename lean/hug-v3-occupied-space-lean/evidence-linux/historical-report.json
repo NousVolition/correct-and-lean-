@@ -1,0 +1,163 @@
+{
+  "verified_utc": "2026-11-05T02:56:03.150853+00:00",
+  "formal_verification": "PASS",
+  "whole_region_exclusion_from_declared_initial_state": "REFUTED",
+  "semantic_identification": "PROPOSED: corpus-grounded available-action regions, not a validated measurement of experienced personal space",
+  "author_selected_reading": "The whole region they can occupy",
+  "theorem_count": 15,
+  "theorems": [
+    "HugV3.Source.OccupiedSpaceVerified.margin_is_original",
+    "HugV3.Source.OccupiedSpaceVerified.region_matches_half_permission",
+    "HugV3.Source.OccupiedSpaceVerified.soft_permission_positive",
+    "HugV3.Source.OccupiedSpaceVerified.region_contains_owners_center",
+    "HugV3.Source.OccupiedSpaceVerified.same_audience_regions_overlap",
+    "HugV3.Source.OccupiedSpaceVerified.initial_zero_in_every_guard",
+    "HugV3.Source.OccupiedSpaceVerified.initial_zero_in_every_whole_region",
+    "HugV3.Source.OccupiedSpaceVerified.initial_exclusion_refuted",
+    "HugV3.Source.OccupiedSpaceVerified.full_hybrid_exclusion_refuted",
+    "HugV3.Source.OccupiedSpaceVerified.write_preserves_personal_pulley",
+    "HugV3.Source.OccupiedSpaceVerified.write_preserves_whole_regions",
+    "HugV3.Source.OccupiedSpaceVerified.boundary_preserves_whole_regions",
+    "HugV3.Source.OccupiedSpaceVerified.boundary_preserves_exclusion_status",
+    "HugV3.Source.OccupiedSpaceVerified.delay_uses_buffered_regions",
+    "HugV3.Source.OccupiedSpaceVerified.full_region_motion"
+  ],
+  "comparator_exit": 0,
+  "lake_build_exit": 0,
+  "lean_kernel_accepted": true,
+  "nanoda_kernel_accepted": true,
+  "fresh_solution": true,
+  "non_root_uid": 1000,
+  "isolation": "Landrun with systemd RestrictAddressFamilies=~AF_UNIX",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "dependencies": [
+    {
+      "name": "Comparator",
+      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "clean": true
+    },
+    {
+      "name": "mathlib",
+      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "clean": true
+    },
+    {
+      "name": "lean4export",
+      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "clean": true
+    },
+    {
+      "name": "plausible",
+      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "clean": true
+    },
+    {
+      "name": "importGraph",
+      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+      "clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "clean": true
+    },
+    {
+      "name": "aesop",
+      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "clean": true
+    },
+    {
+      "name": "Qq",
+      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "clean": true
+    },
+    {
+      "name": "batteries",
+      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+      "clean": true
+    },
+    {
+      "name": "Cli",
+      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "clean": true
+    }
+  ],
+  "binaries": {
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "$VERIFY_ROOT/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
+    "$VERIFY_ROOT/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
+    "$VERIFY_ROOT/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
+    "$VERIFY_ROOT/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
+    "$VERIFY_ROOT/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+  },
+  "source_preservation": {
+    "equations_changed": false,
+    "sealed_original_files": 21,
+    "inherited_Lean_modules": 16,
+    "inherited_inputs_including_toolchain_manifest": 18,
+    "all_hashes_match": true,
+    "corpus_sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+    "reference_statement_revisions": 0,
+    "definition_revisions": 0
+  },
+  "agent": "Returning student actor 1; teachers 0 and 2; all six original actors retained",
+  "idea": "Giving someone space to speak can change what I understand.",
+  "meanings": {
+    "A": "bridge",
+    "d": "durability of person and group, not decay",
+    "ZERO": "history, direction, flow and verified occurrence/return at O"
+  },
+  "full_state": {
+    "evolving_blocks": 15,
+    "evolving_coordinates": 193122,
+    "reduced_dynamics_used": false
+  },
+  "definition": {
+    "guard_orientation": "owner admits visitor expression",
+    "available_region": "Intersection of positive geometric guard regions over arbitrary selected nonself audience members",
+    "threshold": "Exactly original soft permit > 1/2; no new hard gate in the vector field",
+    "exclusion": "Pairwise disjoint regions for all distinct actors"
+  },
+  "conclusions": {
+    "initial": "An exact shared expression-space point lies in every original directed guard region, hence every available region under every audience selection.",
+    "full_hybrid": "Assuming the original Solves predicate, exclusion throughout all checkpoints and segments is false because it fails at the required start.",
+    "writes": "Successful writes preserve each actor social view and the regions at the write instant; they need not preserve the complete full state.",
+    "boundaries": "All successful original boundary maps preserve regions and the truth value of exclusion.",
+    "continuous": "The derived region score obeys its derivative identity along an accepted full RHS and full-solution trace.",
+    "delay": "The observation on socialFrom present past equals the past-state observation; no delayed trajectory theorem is claimed."
+  },
+  "initial_rational_diagnostic": {
+    "all_six_owners": true,
+    "all_30_nonself_regions": true,
+    "fresh_simulation": false
+  },
+  "not_proved": [
+    "Semantic validity of action-region occupied space",
+    "Conscious self-directed agency",
+    "Actual simultaneous occupancy rather than overlapping available possibilities",
+    "Preservation or failure from a different, initially disjoint state",
+    "Full O verification and lasting understanding/durability",
+    "Full existence and uniqueness through every event and delay",
+    "Python-to-Lean refinement or a continuum PDE theorem"
+  ],
+  "evidence_sha256": {
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.finished": "433225c5067ee1f414adcd89e6889699d0e7244991871a3d31319f1a7dc890ec",
+    "comparator.log": "fe01dfe3c98576689d177f82ce51d57b214639eca4da066bcbf64b0a0a7c9794",
+    "comparator.started": "7222c26e5f767357c211905d61795cc1067e892cd4f8296e3beb9ac844a017f1",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "29619f2fded2b920ca8ac369d569ea28527e8e6f6df83470202c43b18e446b7a",
+    "postflight.json": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+    "preflight.json": "42ef8ea700ae5e9eb5c480c7053020c8d3c9afa81117a5da90d573d0d5d8aea3"
+  }
+}

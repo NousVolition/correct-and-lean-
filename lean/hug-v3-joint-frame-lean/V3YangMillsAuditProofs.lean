@@ -3,7 +3,7 @@ import Mathlib.Analysis.Calculus.Deriv.Add
 import Mathlib.Analysis.Calculus.Deriv.Mul
 
 /-! Proofs about the unchanged full Hug v3 definitions. No challenge import,
-replacement dynamics, admitted theorem or additional axiom is used. -/
+replacement dynamics, admitted theorem or additional assumption is used. -/
 namespace HugV3.Source.YMAuditVerified
 noncomputable section
 attribute [local instance] Classical.propDecidable

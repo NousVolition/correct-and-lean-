@@ -1,120 +1,13 @@
 {
-  "status": "PASS",
-  "scope": "Twenty frozen comparison theorems over unchanged full Hug v3 definitions; not Yang-Mills equivalence or full existence and uniqueness",
-  "recorded_utc": "2026-11-03T05:07:06.2402106Z",
-  "started": "2026-11-03T05:03:47+00:00",
-  "finished": "2026-11-03T05:04:39+00:00",
-  "theorem_count": 20,
-  "theorems": [
-    "HugV3.Source.YMAuditVerified.green_objective",
-    "HugV3.Source.YMAuditVerified.strain_norm_objective",
-    "HugV3.Source.YMAuditVerified.fiber_strain_objective",
-    "HugV3.Source.YMAuditVerified.fabric_strain_objective",
-    "HugV3.Source.YMAuditVerified.decoded_records_frame_invariant",
-    "HugV3.Source.YMAuditVerified.observations_frame_invariant",
-    "HugV3.Source.YMAuditVerified.retrieval_frame_invariant",
-    "HugV3.Source.YMAuditVerified.social_rates_frame_invariant",
-    "HugV3.Source.YMAuditVerified.accepted_rhs_social_frame_invariant",
-    "HugV3.Source.YMAuditVerified.event_record_frame_invariant",
-    "HugV3.Source.YMAuditVerified.write_account_frame_invariant",
-    "HugV3.Source.YMAuditVerified.memory_write_frame_equivariant",
-    "HugV3.Source.YMAuditVerified.retrieval_ignores_list_order",
-    "HugV3.Source.YMAuditVerified.full_rate_ignores_list_order",
-    "HugV3.Source.YMAuditVerified.actual_deformation_component",
-    "HugV3.Source.YMAuditVerified.deformation_product_rule",
-    "HugV3.Source.YMAuditVerified.actual_full_rhs_frame_defect",
-    "HugV3.Source.YMAuditVerified.quarter_turn_is_orthogonal",
-    "HugV3.Source.YMAuditVerified.explicit_nonzero_frame_defect",
-    "HugV3.Source.YMAuditVerified.naive_rotation_covariance_fails"
-  ],
-  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
-  "comparator_exit": 0,
-  "lake_build_exit": 0,
-  "nanoda_accepted": true,
-  "lean_kernel_accepted": true,
-  "permitted_axioms": [
-    "propext",
-    "Quot.sound",
-    "Classical.choice"
-  ],
-  "reference_revision": 2,
-  "fresh_solution": true,
-  "non_root_uid": 1000,
-  "isolation": "Landrun with systemd AF_UNIX restriction",
-  "dependencies": [
-    {
-      "name": "Comparator",
-      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
-      "clean": true
-    },
-    {
-      "name": "mathlib",
-      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
-      "clean": true
-    },
-    {
-      "name": "lean4export",
-      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
-      "clean": true
-    },
-    {
-      "name": "plausible",
-      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
-      "clean": true
-    },
-    {
-      "name": "LeanSearchClient",
-      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
-      "clean": true
-    },
-    {
-      "name": "importGraph",
-      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
-      "clean": true
-    },
-    {
-      "name": "proofwidgets",
-      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
-      "clean": true
-    },
-    {
-      "name": "aesop",
-      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
-      "clean": true
-    },
-    {
-      "name": "Qq",
-      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
-      "clean": true
-    },
-    {
-      "name": "batteries",
-      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
-      "clean": true
-    },
-    {
-      "name": "Cli",
-      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
-      "clean": true
-    }
-  ],
-  "inputs_unchanged": true,
-  "postflight": {
-    "source_hashes_unchanged": true,
-    "dependency_commits_unchanged": true,
-    "dependency_sources_clean": true
-  },
-  "preservation_checked_utc": "2026-11-03T05:04:11.2734185Z",
-  "preserved_inputs": 9,
-  "sealed_original_and_saved_files": 42,
-  "corpus_unchanged": true,
-  "equations_unchanged": true,
-  "numerical_simulations_run": 0,
-  "unproved": [
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Twenty comparison statements for Green strain, frame transformations and evolution in Hug v3.",
+  "open_items": [
     "Full Yang-Mills structure and dynamical equivalence",
     "Full hybrid and delayed existence, uniqueness and continuation",
     "Formal equivalence of exact-real Lean transcription with Python numerical execution",
     "Empirical interpretation of the student, idea and response variables"
-  ],
-  "warnings": "Two unused simp arguments in proof source; reference challenge placeholders excluded from solution imports and rejected as solution axioms."
+  ]
 }

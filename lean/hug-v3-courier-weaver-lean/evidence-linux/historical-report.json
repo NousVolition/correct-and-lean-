@@ -1,0 +1,58 @@
+{
+  "checked_utc": "2026-11-07T05:15:15.086741+00:00",
+  "named_theorem_count": 13,
+  "result": "PASS for the thirteen named formal statements",
+  "theorems_from_actual_solution_export": [
+    "HugV3.Source.CW.spectral_integration_by_parts",
+    "HugV3.Source.CW.raw_weaver_work_is_minus_heat",
+    "HugV3.Source.CW.raw_courier_work_is_zero",
+    "HugV3.Source.CW.accepted_velocity_decomposes",
+    "HugV3.Source.CW.bracket_as_velocity_derivative",
+    "HugV3.Source.CW.reversed_native_roles",
+    "HugV3.Source.CW.pairing_reverses_and_heat_agrees",
+    "HugV3.Source.CW.no_common_coefficient_at_nonzero_pair",
+    "HugV3.Source.CW.dot_pair_is_symmetric",
+    "HugV3.Source.CW.coefficient_at_single_state",
+    "HugV3.Source.CW.initial_state_does_not_identify_coefficient",
+    "HugV3.Source.CW.same_accepted_rate_allows_any_wizard_entry",
+    "HugV3.Source.CW.retained_velocity_work"
+  ],
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "fresh_lake_build": "PASS",
+  "isolated_comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda_kernel": "PASS",
+  "allowed_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "physical_result": "For any state, the raw Weaver's kinetic work equals minus mean Hearth heat. The same holds after projection and filtering when velocity is fixed by both. The Courier's kinetic work is zero under the respective conditions.",
+  "coefficient_result": "The state-level dot pairing reverses while heat is fixed. An exact nonzero pairing and its reversed state have no common scalar coefficient. At positive heat the state-specific ratio is unique.",
+  "commutator_result": "DC[W]-DW[C] is proved as a componentwise directional derivative of the actual velocity operators with other coordinates fixed. It is a vector field. The corpus does not specify a scalar reading of that field for the wizard matrix.",
+  "numerics": [
+    {
+      "time": 0.0,
+      "original_ratio": null,
+      "reversed_ratio": null
+    },
+    {
+      "time": 1.2,
+      "original_ratio": -0.0004011781169143924,
+      "reversed_ratio": 0.0004011781169143924
+    },
+    {
+      "time": 1.6,
+      "original_ratio": -0.0006471285605206203,
+      "reversed_ratio": 0.0006471285605206203
+    }
+  ],
+  "scope": "Saved states are floating-point evidence. Their exact nonzero readings, full trajectory-wide invariance, and a scalar factorization of the directional bracket are not established.",
+  "six_model_modules_identical_to_project_and_master": true,
+  "wizard_definitions_preserved": true,
+  "postflight": {
+    "source_hashes_unchanged": true,
+    "dependency_commits_unchanged": true,
+    "dependency_sources_clean": true
+  }
+}

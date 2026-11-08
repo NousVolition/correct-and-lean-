@@ -336,13 +336,13 @@
     "Prior artifacts preserved and equation changes audited"
   ],
   "protected_files": {
-    "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\outputs\\monoxide-corpus-revision\\candidate-equation-register.json": "8dc6b1f6dcedac2fa07ead05e67a8c65731724cbb1cb9c06486b1f542eaad9ff",
-    "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\outputs\\monoxide-corpus-revision\\results.json": "fcdcfd70811bf373dc77ae15f2810f42693d7d20712901933b81f24e8ae927bf",
-    "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\output\\pdf\\monoxide-corpus-revision-and-tests.pdf": "7d5c9f3c848778391c61ea3e7ca23c5c76b89975bd8320afb0f6599a83d61961",
-    "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\output\\pdf\\updated-as-equations-smoke-clay-monoxide.pdf": "c511a8b1f55e2d50127956697d37300658d9c1c479eae9103b5e5e4a7047473c",
-    "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\updated-equations\\equation-register.json": "35329d97021ddac3d625d1039f7c7f5f992ddd8f35d9b91b9ff51c0b945bc89b",
-    "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\outputs\\monoxide-comparison\\results.json": "31c5f490c837650dd5f5e9c58fb22d85ad3003cb630c946fec6480e082b0f3ea",
-    "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\outputs\\monoxide-comparison\\monoxide-comparison-report.pdf": "19853ccfbd2f41ecf1da1dd0da85d3f84daf6a7a365c8e03592955f3fb9c53f8"
+    "external-source/a305e013769d866e/candidate-equation-register.json": "8dc6b1f6dcedac2fa07ead05e67a8c65731724cbb1cb9c06486b1f542eaad9ff",
+    "external-source/4013e3bbe9646a3c/results.json": "fcdcfd70811bf373dc77ae15f2810f42693d7d20712901933b81f24e8ae927bf",
+    "external-source/9054d76a8b90f458/monoxide-corpus-revision-and-tests.pdf": "7d5c9f3c848778391c61ea3e7ca23c5c76b89975bd8320afb0f6599a83d61961",
+    "external-source/62b6b90b6b792653/updated-as-equations-smoke-clay-monoxide.pdf": "c511a8b1f55e2d50127956697d37300658d9c1c479eae9103b5e5e4a7047473c",
+    "external-source/787cd1eb305784d8/equation-register.json": "35329d97021ddac3d625d1039f7c7f5f992ddd8f35d9b91b9ff51c0b945bc89b",
+    "external-source/91bebaed88252626/results.json": "31c5f490c837650dd5f5e9c58fb22d85ad3003cb630c946fec6480e082b0f3ea",
+    "external-source/8c6ca5ccad7929f0/monoxide-comparison-report.pdf": "19853ccfbd2f41ecf1da1dd0da85d3f84daf6a7a365c8e03592955f3fb9c53f8"
   },
   "source_snapshots": {
     "exact-passages.json": "1aa8a00f57b17fd393b66c933736b0267a682c627b94d1d07d2286cc4eebae45",

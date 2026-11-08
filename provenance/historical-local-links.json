@@ -1,90 +1,90 @@
 [
   {
     "document": "lean/hug-v3-delay-lean/Hug-v3-DDE-extension.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-delay-lean/V3DelayDefinitions.lean"
+    "target": "lean/hug-v3-delay-lean/V3DelayDefinitions.lean"
   },
   {
     "document": "lean/hug-v3-delay-lean/Hug-v3-DDE-extension.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-delay-lean/V3DelayProofs.lean"
+    "target": "lean/hug-v3-delay-lean/V3DelayProofs.lean"
   },
   {
     "document": "lean/hug-v3-delay-lean/Hug-v3-DDE-extension.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-delay-lean/extension-register.json"
+    "target": "lean/hug-v3-delay-lean/extension-register.json"
   },
   {
     "document": "lean/hug-v3-delay-lean/Hug-v3-DDE-extension.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-delay-lean/verification-report.json"
+    "target": "lean/hug-v3-delay-lean/verification-report.json"
   },
   {
     "document": "lean/hug-v3-delay-lean/Hug-v3-DDE-extension.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-delay-lean/evidence-linux/comparator.log"
+    "target": "lean/hug-v3-delay-lean/evidence-linux/comparator.log"
   },
   {
     "document": "lean/hug-v3-memory-rules-lean/AUDIT.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-memory-rules-lean/verification-report.json"
+    "target": "lean/hug-v3-memory-rules-lean/verification-report.json"
   },
   {
     "document": "lean/hug-v3-memory-rules-lean/AUDIT.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-memory-rules-lean/evidence-linux/comparator.log"
+    "target": "lean/hug-v3-memory-rules-lean/evidence-linux/comparator.log"
   },
   {
     "document": "lean/hug-v3-memory-rules-lean/AUDIT.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-memory-rules-lean/V3SourceSocial.lean:21"
+    "target": "lean/hug-v3-memory-rules-lean/V3SourceSocial.lean#L21"
   },
   {
     "document": "lean/hug-v3-transfer-lean/pasted-as-review.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean"
+    "target": "lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean"
   },
   {
     "document": "lean/hug-v3-transfer-lean/pasted-as-review.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-transfer-lean/pasted-as-review/PastedASProofs.lean"
+    "target": "lean/hug-v3-transfer-lean/pasted-as-review/PastedASProofs.lean"
   },
   {
     "document": "lean/hug-v3-transfer-lean/pasted-as-review.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-transfer-lean/pasted-as-review/proof-only-repair.diff"
+    "target": "lean/hug-v3-transfer-lean/pasted-as-review/proof-only-repair.diff"
   },
   {
     "document": "lean/hug-v3-transfer-lean/pasted-as-review.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-transfer-lean/pasted-as-review/linux-dev-original.log"
+    "target": "lean/hug-v3-transfer-lean/pasted-as-review/linux-dev-original.log"
   },
   {
     "document": "lean/hug-v3-transfer-lean/pasted-as-review.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-transfer-lean/pasted-as-review/evidence-linux/comparator.log"
+    "target": "lean/hug-v3-transfer-lean/pasted-as-review/evidence-linux/comparator.log"
   },
   {
     "document": "lean/hug-v3-transfer-lean/transfer-report.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/outputs/hug-v3-transfer/pasted-as-review.md"
+    "target": "lean/hug-v3-transfer-lean/pasted-as-review.md"
   },
   {
     "document": "lean/hug-v3-transfer-lean/transfer-report.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-transfer-lean/V3TransferProofs.lean"
+    "target": "lean/hug-v3-transfer-lean/V3TransferProofs.lean"
   },
   {
     "document": "lean/hug-v3-transfer-lean/transfer-report.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-transfer-lean/evidence-linux/comparator.log"
+    "target": "lean/hug-v3-transfer-lean/evidence-linux/comparator.log"
   },
   {
     "document": "lean/hug-v3-transfer-lean/transfer-report.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-transfer-lean/numerical-evidence/probe-results.json"
+    "target": "lean/hug-v3-transfer-lean/numerical-evidence/probe-results.json"
   },
   {
     "document": "lean/hug-v3-transfer-lean/transfer-report.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-transfer-lean/verification-report.json"
+    "target": "lean/hug-v3-transfer-lean/verification-report.json"
   },
   {
     "document": "research/hug-v3/continuation-proof/continuation-proof.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-transfer-lean/sources"
+    "target": "lean/hug-v3-transfer-lean/sources"
   },
   {
     "document": "research/hug-v3/continuation-proof/continuation-proof.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-31/ca/outputs/hug-v3-proof-corrected/revision-2/proof.md"
+    "target": "research/hug-v3/corrected-proof-revision-2/proof.md"
   },
   {
     "document": "research/hug-v3/continuation-proof/continuation-proof.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an/outputs/hug-v3-continuation-proof/checks.json"
+    "target": "research/hug-v3/continuation-proof/checks.json"
   },
   {
     "document": "research/hug-v3/continuation-proof/continuation-proof.md",
-    "target": "C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-clay-boundary-lean/CLAY_BOUNDARY_REPORT.md"
+    "target": "lean/hug-v3-clay-boundary-lean/CLAY_BOUNDARY_REPORT.md"
   }
 ]

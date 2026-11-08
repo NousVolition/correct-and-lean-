@@ -18,7 +18,7 @@
     "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
     "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
     "comparator.json": "a96de4cfe15038efe4858ebd4d02d7cb57c686093d0430f26adc8402e4f5af3a",
-    "source-audit.json": "d4f34f571cb3b378f3632d9e3fd21f1c1d07e0fac66432ff71dc9ff6cb4e1fe9"
+    "source-audit.json": "a3fca58aea684346dd57d244aca9fb1176cceaf0d8f55c976a1617cfc2ff7538"
   },
   "source_files": {
     "sources/active_methods.md": "96e9d6c6584111257bf0bf2c1857f46cae63dfeee0a52369dcad3c5bb645231a",
@@ -37,7 +37,7 @@
     "sources/ns_fields_model.py": "60948e928f31d57e8384f2f7ccd68d4ab9664d6aee3398f82407324bb0f42e30",
     "sources/ns_protocol.json": "ba767c26ec3324f0441e158475910e12b9d225ab1f99859b534f51c280a3ebae",
     "sources/original-corpus-passages.json": "5945c73a3a47d787db4b45640675555c08a23b0daa863ce863c92a8e1fb723fa",
-    "sources/original-source-manifest.json": "5bb99f1ef240578bf0d5372a78f23f4a6a3f9f6d1257fffa8d54fad6627f8370",
+    "sources/original-source-manifest.json": "0a93f00b13f08c799b507ec4900a673bd45280f75015aa70fda77aae046a9639",
     "sources/original-word-paragraphs.json": "d9c23d1ac5766a54d2f31ece666dd15f442a381501452d39e8d4b47e58562d5f"
   },
   "unresolved": [

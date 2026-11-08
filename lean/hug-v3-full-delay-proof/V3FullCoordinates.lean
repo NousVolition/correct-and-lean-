@@ -98,7 +98,7 @@ def frozenRate (G : Geometry) (records : List (Fin 4 × Record))
   encode (Delay.socialFrom (rhsFromRecords G t (decode z) records)
     (rhsFromRecords G t (Delay.socialFrom (decode z) (history (t-τ))) records))
 
-/-- This is an obligation, not an axiom or a theorem that decoding/acceptance holds. -/
+/-- This obligation requires a proof of decoding and acceptance. -/
 def Compatible (G : Geometry) (records : List (Fin 4 × Record))
     (history : ℝ → State) (τ a b : ℝ) (center : FullVector) (radius : ℝ≥0) : Prop :=
   ∀ t ∈ Icc a b, ∀ z ∈ closedBall center radius,

@@ -3,127 +3,127 @@
   "source_checks": [
     {
       "file": "continuum.py",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\continuum.py",
+      "source": "lean/hug-v3-source-lean/sources/continuum.py",
       "matches_saved_source": true,
       "sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3"
     },
     {
       "file": "social_base.py",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\social_base.py",
+      "source": "lean/hug-v3-source-lean/sources/social_base.py",
       "matches_saved_source": true,
       "sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8"
     },
     {
       "file": "structural_hug.py",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\structural_hug.py",
+      "source": "lean/hug-v3-source-lean/sources/structural_hug.py",
       "matches_saved_source": true,
       "sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a"
     },
     {
       "file": "run.py",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\run.py",
+      "source": "lean/hug-v3-source-lean/sources/run.py",
       "matches_saved_source": true,
       "sha256": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4"
     },
     {
       "file": "test_structure.py",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\test_structure.py",
+      "source": "lean/hug-v3-source-lean/sources/test_structure.py",
       "matches_saved_source": true,
       "sha256": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36"
     },
     {
       "file": "preflight.py",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\preflight.py",
+      "source": "lean/hug-v3-source-lean/sources/preflight.py",
       "matches_saved_source": true,
       "sha256": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4"
     },
     {
       "file": "reference_gate/run_manifest.py",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\reference_gate\\run_manifest.py",
+      "source": "lean/hug-v3-source-lean/sources/reference_gate/run_manifest.py",
       "matches_saved_source": true,
       "sha256": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f"
     },
     {
       "file": "reference_gate/parameter_bounds.json",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\reference_gate\\parameter_bounds.json",
+      "source": "lean/hug-v3-source-lean/sources/reference_gate/parameter_bounds.json",
       "matches_saved_source": true,
       "sha256": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0"
     },
     {
       "file": "equation_register.csv",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\equation_register.csv",
+      "source": "lean/hug-v3-source-lean/sources/equation_register.csv",
       "matches_saved_source": true,
       "sha256": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc"
     },
     {
       "file": "study_chain.csv",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\study_chain.csv",
+      "source": "lean/hug-v3-source-lean/sources/study_chain.csv",
       "matches_saved_source": true,
       "sha256": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c"
     },
     {
       "file": "parameter_bounds.json",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\parameter_bounds.json",
+      "source": "lean/hug-v3-source-lean/sources/parameter_bounds.json",
       "matches_saved_source": true,
       "sha256": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0"
     },
     {
       "file": "protocol.json",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\protocol.json",
+      "source": "lean/hug-v3-source-lean/sources/protocol.json",
       "matches_saved_source": true,
       "sha256": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77"
     },
     {
       "file": "rule_changes.json",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\rule_changes.json",
+      "source": "lean/hug-v3-source-lean/sources/rule_changes.json",
       "matches_saved_source": true,
       "sha256": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917"
     },
     {
       "file": "literal_registry.json",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\literal_registry.json",
+      "source": "lean/hug-v3-source-lean/sources/literal_registry.json",
       "matches_saved_source": true,
       "sha256": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273"
     },
     {
       "file": "declarations/main.json",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\declarations\\main.json",
+      "source": "lean/hug-v3-source-lean/sources/declarations/main.json",
       "matches_saved_source": true,
       "sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514"
     },
     {
       "file": "declarations/time_half.json",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\declarations\\time_half.json",
+      "source": "lean/hug-v3-source-lean/sources/declarations/time_half.json",
       "matches_saved_source": true,
       "sha256": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83"
     },
     {
       "file": "declarations/grid24.json",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\declarations\\grid24.json",
+      "source": "lean/hug-v3-source-lean/sources/declarations/grid24.json",
       "matches_saved_source": true,
       "sha256": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c"
     },
     {
       "file": "declarations/particles640.json",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\declarations\\particles640.json",
+      "source": "lean/hug-v3-source-lean/sources/declarations/particles640.json",
       "matches_saved_source": true,
       "sha256": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793"
     },
     {
       "file": "declarations/no_read_feedback.json",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\declarations\\no_read_feedback.json",
+      "source": "lean/hug-v3-source-lean/sources/declarations/no_read_feedback.json",
       "matches_saved_source": true,
       "sha256": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a"
     },
     {
       "file": "declarations/slow_fabric.json",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\declarations\\slow_fabric.json",
+      "source": "lean/hug-v3-source-lean/sources/declarations/slow_fabric.json",
       "matches_saved_source": true,
       "sha256": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956"
     },
     {
       "file": "declarations/unit.json",
-      "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-source-lean\\sources\\declarations\\unit.json",
+      "source": "lean/hug-v3-source-lean/sources/declarations/unit.json",
       "matches_saved_source": true,
       "sha256": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe"
     }
@@ -184,127 +184,127 @@
   "original_source_checks": [
     {
       "file": "continuum.py",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\continuum.py",
+      "path": "lean/hug-v3-source-lean/sources/continuum.py",
       "matches_seal": true,
       "sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3"
     },
     {
       "file": "social_base.py",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\social_base.py",
+      "path": "lean/hug-v3-source-lean/sources/social_base.py",
       "matches_seal": true,
       "sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8"
     },
     {
       "file": "structural_hug.py",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\structural_hug.py",
+      "path": "lean/hug-v3-source-lean/sources/structural_hug.py",
       "matches_seal": true,
       "sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a"
     },
     {
       "file": "run.py",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\run.py",
+      "path": "lean/hug-v3-source-lean/sources/run.py",
       "matches_seal": true,
       "sha256": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4"
     },
     {
       "file": "test_structure.py",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\test_structure.py",
+      "path": "lean/hug-v3-source-lean/sources/test_structure.py",
       "matches_seal": true,
       "sha256": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36"
     },
     {
       "file": "preflight.py",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\preflight.py",
+      "path": "lean/hug-v3-source-lean/sources/preflight.py",
       "matches_seal": true,
       "sha256": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4"
     },
     {
       "file": "reference_gate/run_manifest.py",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\reference_gate\\run_manifest.py",
+      "path": "lean/hug-v3-source-lean/sources/reference_gate/run_manifest.py",
       "matches_seal": true,
       "sha256": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f"
     },
     {
       "file": "reference_gate/parameter_bounds.json",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\reference_gate\\parameter_bounds.json",
+      "path": "lean/hug-v3-source-lean/sources/reference_gate/parameter_bounds.json",
       "matches_seal": true,
       "sha256": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0"
     },
     {
       "file": "equation_register.csv",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\equation_register.csv",
+      "path": "lean/hug-v3-source-lean/sources/equation_register.csv",
       "matches_seal": true,
       "sha256": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc"
     },
     {
       "file": "study_chain.csv",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\study_chain.csv",
+      "path": "lean/hug-v3-source-lean/sources/study_chain.csv",
       "matches_seal": true,
       "sha256": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c"
     },
     {
       "file": "parameter_bounds.json",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\parameter_bounds.json",
+      "path": "lean/hug-v3-source-lean/sources/parameter_bounds.json",
       "matches_seal": true,
       "sha256": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0"
     },
     {
       "file": "protocol.json",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\protocol.json",
+      "path": "lean/hug-v3-source-lean/sources/protocol.json",
       "matches_seal": true,
       "sha256": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77"
     },
     {
       "file": "rule_changes.json",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\rule_changes.json",
+      "path": "lean/hug-v3-source-lean/sources/rule_changes.json",
       "matches_seal": true,
       "sha256": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917"
     },
     {
       "file": "literal_registry.json",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\literal_registry.json",
+      "path": "lean/hug-v3-source-lean/sources/literal_registry.json",
       "matches_seal": true,
       "sha256": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273"
     },
     {
       "file": "declarations/main.json",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\declarations\\main.json",
+      "path": "lean/hug-v3-source-lean/sources/declarations/main.json",
       "matches_seal": true,
       "sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514"
     },
     {
       "file": "declarations/time_half.json",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\declarations\\time_half.json",
+      "path": "lean/hug-v3-source-lean/sources/declarations/time_half.json",
       "matches_seal": true,
       "sha256": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83"
     },
     {
       "file": "declarations/grid24.json",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\declarations\\grid24.json",
+      "path": "lean/hug-v3-source-lean/sources/declarations/grid24.json",
       "matches_seal": true,
       "sha256": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c"
     },
     {
       "file": "declarations/particles640.json",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\declarations\\particles640.json",
+      "path": "lean/hug-v3-source-lean/sources/declarations/particles640.json",
       "matches_seal": true,
       "sha256": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793"
     },
     {
       "file": "declarations/no_read_feedback.json",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\declarations\\no_read_feedback.json",
+      "path": "lean/hug-v3-source-lean/sources/declarations/no_read_feedback.json",
       "matches_seal": true,
       "sha256": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a"
     },
     {
       "file": "declarations/slow_fabric.json",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\declarations\\slow_fabric.json",
+      "path": "lean/hug-v3-source-lean/sources/declarations/slow_fabric.json",
       "matches_seal": true,
       "sha256": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956"
     },
     {
       "file": "declarations/unit.json",
-      "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-structural-memory-v3\\declarations\\unit.json",
+      "path": "lean/hug-v3-source-lean/sources/declarations/unit.json",
       "matches_seal": true,
       "sha256": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe"
     }

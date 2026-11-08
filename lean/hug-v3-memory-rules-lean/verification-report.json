@@ -1,65 +1,10 @@
 {
-  "verified_utc": "2026-11-02T05:45:40.3382146Z",
-  "overall_status": "PARTIAL: existing memory and fixed-delay rules verified; variable timing, reconstructed episodes and anticipation cost remain unspecified",
-  "submitted_claims_status": "PASS",
-  "claim_count": 17,
-  "theorem_names": [
-    "HugV3.Source.MemoryRulesVerified.report_without_observation",
-    "HugV3.Source.MemoryRulesVerified.both_missing_ignored",
-    "HugV3.Source.MemoryRulesVerified.opposing_reports_zero",
-    "HugV3.Source.MemoryRulesVerified.different_reports_same_score",
-    "HugV3.Source.MemoryRulesVerified.time_translation_weight",
-    "HugV3.Source.MemoryRulesVerified.closer_cue_increases_weight",
-    "HugV3.Source.MemoryRulesVerified.association_changes_cue",
-    "HugV3.Source.MemoryRulesVerified.changed_context_and_association_keep_record_bytes",
-    "HugV3.Source.MemoryRulesVerified.exposure_adds_across_records",
-    "HugV3.Source.MemoryRulesVerified.weighted_memory_merge",
-    "HugV3.Source.MemoryRulesVerified.opposite_events_both_influence",
-    "HugV3.Source.MemoryRulesVerified.source_partner_remains_identified",
-    "HugV3.Source.MemoryRulesVerified.self_record_rejected",
-    "HugV3.Source.MemoryRulesVerified.buffered_cue_mixes_current_body_past_context",
-    "HugV3.Source.MemoryRulesVerified.buffered_records_current",
-    "HugV3.Source.MemoryRulesVerified.zero_delay_unchanged",
-    "HugV3.Source.MemoryRulesVerified.only_selected_history_samples"
-  ],
-  "lean_build_exit": 0,
-  "comparator_exit": 0,
-  "lean_kernel": true,
-  "nanoda_kernel": true,
-  "permitted_axioms": [
-    "propext",
-    "Quot.sound",
-    "Classical.choice"
-  ],
-  "reference_frozen_before_proofs": true,
-  "frozen_reference_unchanged": true,
-  "solution_precompiled_before_comparator": false,
-  "source_model_coordinates": 193122,
-  "equations_changed": false,
-  "original_sealed_sources_checked": 21,
-  "saved_sealed_source_copies_checked": 21,
-  "preserved_package_inputs": 10,
-  "source_preservation_evidence": "source-preservation-check.json",
-  "new_simulation": false,
-  "empirical_validation": false,
-  "full_existence_uniqueness_proved": false,
-  "variable_delay_law_added": false,
-  "anticipation_cost_law_added": false,
-  "same_agent": "The returning student, actor 1; first teacher 0 and second teacher 2",
-  "same_idea": "Giving someone space to speak can change what I understand.",
-  "interpretation_assumptions": [
-    "Actor labels are aliases for the unchanged six-actor fixture, not measured people",
-    "Changing retrieval relevance is a candidate connection to reinterpretation, not a complete generative reconstruction law",
-    "Physical write work is not identified with personal mental effort",
-    "Literal spatial axes are not identified with the three retrieval features"
-  ],
-  "claim_conditions": [
-    "Strict cue-weight comparison requires positive record duration",
-    "Merged memory formula requires nonzero component denominators",
-    "Mixed-sign evidence theorem assumes same directed pair, positive durations and opposite scored outcomes",
-    "State comparisons do not establish those states lie on the actual trajectory"
-  ],
-  "remaining": [
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Seventeen results on present-state retrieval, weighted memories, partner identity and the fixed-delay convention.",
+  "open_items": [
     "Variable timing selection and prehistory",
     "Partial and mixed reconstruction law with provenance",
     "New solo event representation",
@@ -68,83 +13,5 @@
     "Full hybrid delayed existence and uniqueness",
     "Machine-checked Python-to-real-definition correspondence",
     "Empirical calibration"
-  ],
-  "runtime_environment": {
-    "landrun_binary": "/home/nsverify/verification/bin/landrun",
-    "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
-    "uid": 1000,
-    "af_unix_restricted": true,
-    "dependencies": [
-      {
-        "name": "Comparator",
-        "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
-        "clean": true
-      },
-      {
-        "name": "mathlib",
-        "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
-        "clean": true
-      },
-      {
-        "name": "lean4export",
-        "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
-        "clean": true
-      },
-      {
-        "name": "plausible",
-        "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
-        "clean": true
-      },
-      {
-        "name": "LeanSearchClient",
-        "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
-        "clean": true
-      },
-      {
-        "name": "importGraph",
-        "commit": "d8823026ac7ef130c253089d95685f9877b95323",
-        "clean": true
-      },
-      {
-        "name": "proofwidgets",
-        "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
-        "clean": true
-      },
-      {
-        "name": "aesop",
-        "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
-        "clean": true
-      },
-      {
-        "name": "Qq",
-        "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
-        "clean": true
-      },
-      {
-        "name": "batteries",
-        "commit": "d54dddc581e08be364c278052863524bff7a99a9",
-        "clean": true
-      },
-      {
-        "name": "Cli",
-        "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
-        "clean": true
-      }
-    ]
-  },
-  "postflight": {
-    "source_hashes_unchanged": true,
-    "dependency_commits_unchanged": true,
-    "dependency_sources_clean": true
-  },
-  "evidence_hashes": {
-    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
-    "comparator.finished": "ac67a28899f844626b2bdef352b0479ee04d2ff60a5d8dfcb6b6d05c9da2cdf6",
-    "comparator.log": "2d557f2f61017bba3694671f7715fc8fc50a120c740aed099b5d09c8f435183a",
-    "comparator.started": "b692daa1c698f0fd9bdc40891c1b73bb864398e24f8b3b0e39d37f8a2bead9e2",
-    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
-    "lake-build.log": "c965cd58b11451effde3484678ae59d04b7e52b5ce0570c5c9b8cea1337826fe",
-    "postflight.json": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
-    "preflight.json": "b6368a19cf0c7a6fdd1e8247f14c30641c625e72e5ee8acaaa61ffe810180d8e"
-  }
+  ]
 }

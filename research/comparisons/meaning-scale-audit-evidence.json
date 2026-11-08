@@ -5,7 +5,7 @@
   "current_repository_head": "b4ae2c54cd85bfef282c501ecfca83de274e2070",
   "local_equation_revision": "29 October Monoxide buildup E1-E16",
   "source_docx": {
-    "path": "C:\\Users\\ziman\\OneDrive\\Desktop\\Plain_Language_Corpus_Math_and_Logic_Corrected.docx",
+    "path": "external-source/7d78b4c2c17cecfa/Plain_Language_Corpus_Math_and_Logic_Corrected.docx",
     "sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
     "nonempty_body_paragraphs": 624,
     "selected_passages": [
@@ -197,10 +197,10 @@
       "as-invariance-lean": 41
     },
     "protected_source_hashes": {
-      "C:\\Users\\ziman\\OneDrive\\Desktop\\Plain_Language_Corpus_Math_and_Logic_Corrected.docx": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
-      "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\monoxide-buildup\\protocol.json": "cd3da93d6ab15d19fc01813da63a64ca0ba99c5bc027014b9cf3adf2cc7d97f1",
-      "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\outputs\\monoxide-buildup\\candidate-equation-register.json": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318",
-      "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\as-invariance-lean\\ASModel.lean": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513"
+      "external-source/7d78b4c2c17cecfa/Plain_Language_Corpus_Math_and_Logic_Corrected.docx": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+      "external-source/6ae4763ad23872b7/protocol.json": "cd3da93d6ab15d19fc01813da63a64ca0ba99c5bc027014b9cf3adf2cc7d97f1",
+      "external-source/084e9d7e82926dd8/candidate-equation-register.json": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318",
+      "lean/as-invariance-lean/ASModel.lean": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513"
     }
   },
   "coverage_limit": "Fresh corrected DOCX text/hash, current published roles and measurement/audit records, and active local protocol/register/formal definitions checked. No exhaustive live Miro canvas refresh or new participant observations.",

@@ -19,13 +19,13 @@
     "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
     "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
     "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
-    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "V3SourceSystem.lean": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d",
     "V3SourceChallenge.lean": "56f30b6faecbb7f485a5267c35018021a14183beb72ab269fb32104e66409ba0",
     "lakefile.toml": "2eeda2c078c594f7a4bc5ce0ccecf120727e9eb09fcb2ead1244176df8132118",
     "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
     "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
     "comparator.json": "71bf56c82661bb5b11b7f8719e88eee934ccd308f000b451350cd12e673506e9",
-    "source-audit.json": "937b7605773b6459412bc3cc23c9d46a8b1d711ac68178fe884d14b4b70972c1"
+    "source-audit.json": "8aa59f92ae6face5a32a870c0e2a1352b298bc6d71cabda993a2bb2505f46292"
   },
   "source_files": {
     "sources/continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
