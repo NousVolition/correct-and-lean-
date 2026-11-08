@@ -1,0 +1,129 @@
+name: Lean build
+
+on:
+  push:
+    branches: [main]
+    paths: ['lean/**', '.github/workflows/lean-build.yml']
+  pull_request:
+    branches: [main]
+    paths: ['lean/**', '.github/workflows/lean-build.yml']
+  workflow_dispatch:
+    inputs:
+      package:
+        description: Package name under lean/ (leave blank for all)
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lean-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  packages:
+    runs-on: ubuntu-24.04
+    outputs:
+      selected: ${{ steps.select.outputs.packages }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - id: select
+        name: Select Lake packages
+        shell: python
+        env:
+          EVENT: ${{ github.event_name }}
+          BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+          REQUESTED: ${{ inputs.package }}
+        run: |
+          import json
+          import os
+          import subprocess
+          from pathlib import Path
+
+          root = Path("lean")
+          packages = sorted(
+              directory for directory in root.iterdir()
+              if directory.is_dir()
+              and any((directory / name).is_file() for name in ("lakefile.toml", "lakefile.lean"))
+          )
+          if not packages:
+              raise SystemExit("No Lake packages found directly under lean/")
+
+          selected = packages
+          if os.environ["EVENT"] == "workflow_dispatch":
+              requested = os.environ.get("REQUESTED", "").strip()
+              if requested:
+                  selected = [p for p in packages if p.name == requested]
+                  if not selected:
+                      raise SystemExit(f"Unknown Lean package: {requested!r}")
+          else:
+              base = os.environ.get("BASE", "")
+              if base and set(base) != {"0"}:
+                  # A force push may make the old base unavailable. Build all in that case.
+                  available = subprocess.run(
+                      ["git", "cat-file", "-e", base + "^{commit}"], capture_output=True
+                  ).returncode == 0
+                  if available:
+                      delta = subprocess.check_output([
+                          "git", "diff", "--no-renames", "--name-only", "-z", base, "HEAD", "--"
+                      ])
+                      changed = set(os.fsdecode(delta).split("\0"))
+                      if ".github/workflows/lean-build.yml" not in changed:
+                          roots = {"/".join(path.split("/")[:2]) for path in changed}
+                          selected = [p for p in packages if p.as_posix() in roots]
+
+          for directory in selected:
+              for name in ("lean-toolchain", "lake-manifest.json"):
+                  if not (directory / name).is_file():
+                      raise SystemExit(f"Missing required package pin: {directory / name}")
+
+          paths = [p.as_posix() for p in selected]
+          print("Selected packages:", paths)
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              print("packages=" + json.dumps(paths), file=output)
+
+  build:
+    needs: packages
+    if: needs.packages.outputs.selected != '[]'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        directory: ${{ fromJSON(needs.packages.outputs.selected) }}
+    name: Lake build (${{ matrix.directory }})
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: leanprover/lean-action@ba3fdfe5c4476c925da13bf11a005ddb47e47aee # v1
+        with:
+          lake-package-directory: ${{ matrix.directory }}
+          auto-config: 'false'
+          build: 'false'
+          use-mathlib-cache: 'false'
+          use-github-cache: 'false'
+      - name: Fetch mathlib build cache
+        working-directory: ${{ matrix.directory }}
+        env:
+          MATHLIB_CACHE_GET_URL: https://cache.mathlib.org/mathlib4
+        shell: bash
+        run: |
+          if ! jq -e 'any(.packages[]; .name == "mathlib")' lake-manifest.json > /dev/null; then
+            exit 0
+          fi
+          for delay in 0 5 15; do
+            sleep "$delay"
+            if lake exe cache get; then
+              exit 0
+            fi
+          done
+          exit 1
+      - name: Build declared Lean targets
+        working-directory: ${{ matrix.directory }}
+        run: lake build
