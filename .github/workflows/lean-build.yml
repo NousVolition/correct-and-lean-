@@ -103,12 +103,16 @@ jobs:
           persist-credentials: false
       - name: Build pinned Landrun and nanoda
         run: bash scripts/build-comparator-tools.sh "$RUNNER_TEMP/checker-tools"
+      - name: Fetch and verify the pinned Lean release once
+        run: bash scripts/ci-lean-toolchain.sh fetch "$RUNNER_TEMP/checker-tools"
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: checker-tools
           path: ${{ runner.temp }}/checker-tools/
           if-no-files-found: error
           overwrite: true
+          retention-days: 1
+          compression-level: 0
 
   build:
     needs: [packages, checker-tools]
@@ -125,13 +129,13 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           persist-credentials: false
-      - uses: leanprover/lean-action@ba3fdfe5c4476c925da13bf11a005ddb47e47aee # v1
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
         with:
-          lake-package-directory: ${{ matrix.directory }}
-          auto-config: 'false'
-          build: 'false'
-          use-mathlib-cache: 'false'
-          use-github-cache: 'false'
+          name: checker-tools
+          path: ${{ runner.temp }}/checker-tools
+      - name: Install this package's pinned Lean from the checked archive
+        working-directory: ${{ matrix.directory }}
+        run: bash "$GITHUB_WORKSPACE/scripts/ci-lean-toolchain.sh" install "$RUNNER_TEMP/checker-tools" "$RUNNER_TEMP/lean-toolchain"
       - name: Fetch mathlib build cache
         id: dependencies
         working-directory: ${{ matrix.directory }}
@@ -149,10 +153,6 @@ jobs:
             fi
           done
           exit 1
-      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
-        with:
-          name: checker-tools
-          path: ${{ runner.temp }}/checker-tools
       - name: Compare the frozen statements and check both kernels
         working-directory: ${{ matrix.directory }}
         run: |

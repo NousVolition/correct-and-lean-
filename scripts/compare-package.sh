@@ -12,8 +12,9 @@ if [[ -d .lake/build && -n $(find .lake/build -type f -name '*.olean' -print -qu
 fi
 
 # Put the toolchain binaries ahead of the elan shims for isolated child builds.
-if command -v elan >/dev/null; then
-  export PATH="$(dirname "$(elan which lake)"):$PATH"
+if [[ $(dirname "$(command -v lake)") == "${ELAN_HOME:-$HOME/.elan}/bin" ]]; then
+  real_lake=$(elan which lake)
+  export PATH="$(dirname "$real_lake"):$PATH"
 fi
 lake build Comparator/comparator lean4export/lean4export
 comparator=$(realpath .lake/packages/Comparator/.lake/build/bin/comparator)
