@@ -105,6 +105,25 @@ jobs:
         with:
           lake-package-directory: ${{ matrix.directory }}
           auto-config: 'false'
-          build: 'true'
-          use-mathlib-cache: 'true'
+          build: 'false'
+          use-mathlib-cache: 'false'
           use-github-cache: 'false'
+      - name: Fetch mathlib build cache
+        working-directory: ${{ matrix.directory }}
+        env:
+          MATHLIB_CACHE_GET_URL: https://cache.mathlib.org/mathlib4
+        shell: bash
+        run: |
+          if ! jq -e 'any(.packages[]; .name == "mathlib")' lake-manifest.json > /dev/null; then
+            exit 0
+          fi
+          for delay in 0 5 15; do
+            sleep "$delay"
+            if lake exe cache get; then
+              exit 0
+            fi
+          done
+          exit 1
+      - name: Build declared Lean targets
+        working-directory: ${{ matrix.directory }}
+        run: lake build
