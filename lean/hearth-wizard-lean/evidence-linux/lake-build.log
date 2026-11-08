@@ -1,0 +1,23 @@
+⚠ [8772/8774] Replayed WizardBracket
+warning: WizardBracket.lean:95:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: WizardBracket.lean:95:77: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: WizardBracket.lean:104:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: WizardBracket.lean:104:66: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: WizardBracket.lean:113:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: WizardBracket.lean:113:75: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [8773/8774] Replayed HearthProofs
+warning: HearthProofs.lean:63:35: This simp argument is unused:
+  diff01
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [vorticity, shear_gradient, diff10, diff20, diff21]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HearthProofs.lean:63:42: This simp argument is unused:
+  diff10
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [vorticity, shear_gradient, diff01, diff20, diff21]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (8774 jobs).

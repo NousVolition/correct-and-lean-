@@ -1,0 +1,121 @@
+{
+  "uid": 1000,
+  "solution_precompiled": false,
+  "source_files": {
+    "AccessDefinitions.lean": "9d7d08a554a2e1359f318ef67f7e31b7ad56871511617d4f7c0294fb8e9e9a6c",
+    "AccessProofs.lean": "abe416303d776d8337794d302daa88f6fa836d34daa111c63b97a7d532f15523",
+    "AccountChallenge.lean": "2db44b169e9f65667d46b4de90c3d81ee172c18e7bd2ca2b620ab8342f916d10",
+    "AccountDefinitions.lean": "12316adb920871bd514ca6c35f41616f264384a07e2d7fc61652948e88e7a65c",
+    "AccountProofs.lean": "4a73a64e70bf4ffc65523fda41412529d68ec02cc67b6a69c06fc11b149aedb0",
+    "StreetWholeDefinitions.lean": "ec883d3aa4620bd4f2774a4428ee9a756bdb75a60978e549a9f0668af38435a7",
+    "StreetWholeProofs.lean": "ccd30074abe60d664cfe5b775a661e1923390983716b602316fff9190078ba21",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "V3TransferDefinitions.lean": "160c70e7250161f2248dcbecfb6f92d1a61623498329d6fe5220bbe30d1b1ce7",
+    "V3TransferProofs.lean": "602989250085298c16f3b18ac22c1e0b1d82bc7ceb0d0b2bcb0d58c2ff802437",
+    "WitnessDefinitions.lean": "a9d90f6246e6a9a066ab70227e88ce61368ee10063de96148eb27af080d8fd93",
+    "WitnessProofs.lean": "37b9d3ff64a45a271fc1dbb05b12293bd1e960d524aac68feef1d495993cae75",
+    "lakefile.toml": "1df4098f3c5edf58b5c7dc7a2c76541953f8ea2448e2ff76fe0b53cdf911337a",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "comparator.json": "4892d460ce28eb328b72dd170b8c160178c103d5c3d0fc7887d496715f3fc973",
+    "reference-freeze-current.json": "2a04411a32c8e9f058991e08f1d92c98c528876ce533f6e470738e070859ad5a",
+    "run-linux-check.sh": "5b5d4caaeb15703c7c55e70b0d3701599a492237e6a758af140712911364834a"
+  },
+  "dependencies": [
+    {
+      "name": "Comparator",
+      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "clean": true
+    },
+    {
+      "name": "mathlib",
+      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "clean": true
+    },
+    {
+      "name": "lean4export",
+      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "clean": true
+    },
+    {
+      "name": "plausible",
+      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "clean": true
+    },
+    {
+      "name": "importGraph",
+      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+      "clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "clean": true
+    },
+    {
+      "name": "aesop",
+      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "clean": true
+    },
+    {
+      "name": "Qq",
+      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "clean": true
+    },
+    {
+      "name": "batteries",
+      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+      "clean": true
+    },
+    {
+      "name": "Cli",
+      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "clean": true
+    }
+  ],
+  "binaries": {
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/nsverify/verification/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
+    "/home/nsverify/verification/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
+    "/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
+    "/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
+    "/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+  },
+  "config": {
+    "enable_nanoda": true,
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "challenge_module": "AccountChallenge",
+    "solution_module": "AccountProofs",
+    "theorem_names": [
+      "HugV3.Source.AccountVerified.account_without_separate_rating_preserves_input",
+      "HugV3.Source.AccountVerified.attributed_current_rating_uses_only_report_field",
+      "HugV3.Source.AccountVerified.crossing_reference_and_current_rating_have_distinct_targets",
+      "HugV3.Source.AccountVerified.words_and_direct_sight_do_not_choose_a_number",
+      "HugV3.Source.AccountVerified.declared_third_record_is_childs_later_report",
+      "HugV3.Source.AccountVerified.score_uses_independent_observation_only_when_present",
+      "HugV3.Source.AccountVerified.private_report_enters_signed_retrieval",
+      "HugV3.Source.AccountVerified.neutral_report_and_missing_report_are_distinguishable",
+      "HugV3.Source.AccountVerified.rating_changes_three_response_rates",
+      "HugV3.Source.AccountVerified.accepted_report_writes_preserve_immediate_context_and_agreement",
+      "HugV3.Source.AccountVerified.heun_context_difference_for_a_changed_child_response",
+      "HugV3.Source.AccountVerified.two_coordinate_direction_of_the_next_step",
+      "HugV3.Source.AccountVerified.a_validated_contrast_determines_only_the_stated_change",
+      "HugV3.Source.AccountVerified.a_direction_alone_admits_distinct_context_weights"
+    ]
+  },
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)"
+}

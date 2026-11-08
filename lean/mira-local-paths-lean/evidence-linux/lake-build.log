@@ -1,0 +1,12 @@
+ℹ [3136/3137] Built MiraLocalExamples (1.2s)
+info: MiraLocalExamples.lean:6:0: [0, 1, 2, 3]
+info: MiraLocalExamples.lean:7:0: [0, 2, 1]
+info: MiraLocalExamples.lean:8:0: [0, 1, 2, 1, 3]
+info: MiraLocalExamples.lean:9:0: [0, 1, 2]
+info: MiraLocalExamples.lean:11:0: true
+info: MiraLocalExamples.lean:13:0: 'MiraLocal.Verified.joined_visits_every_chamber_once_iff_coverage' depends on axioms: [propext, Quot.sound]
+info: MiraLocalExamples.lean:14:0: 'MiraLocal.Verified.trap_prefix_cannot_be_completed_by_appending' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MiraLocalExamples.lean:15:0: 'MiraLocal.Verified.full_hug_interface_joins' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3137 jobs).

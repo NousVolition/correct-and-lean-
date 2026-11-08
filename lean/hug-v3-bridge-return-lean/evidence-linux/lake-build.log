@@ -1,0 +1,19 @@
+⚠ [3124/3139] Replayed V3SourceProofs
+warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [3129/3139] Replayed V3DelayProofs
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3138/3139] Replayed V3BridgeReturnProofs
+warning: V3BridgeReturnProofs.lean:84:49: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: V3BridgeReturnProofs.lean:197:13: Variable name `hk` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hk
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (3139 jobs).

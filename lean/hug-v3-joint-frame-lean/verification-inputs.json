@@ -1,0 +1,25 @@
+{
+  "sealed_utc": "2026-11-03T06:15:26.2828282Z",
+  "files": {
+    "comparator.json": "e70ebb65eec8e6adea046e5be9df9486ea55cf710c44e28b85988e1cff9fc160",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "097115040e14c882463c9d7cfa87c8f00c0b26f4aa8b2ebdfb0e843bb9fd5cc7",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "reference-freeze-current.json": "4c865b2f19a2703443513622ea80b526e113eb120d43c07cbd98aaf58ee4eaed",
+    "run-linux-check.sh": "a741ebeac1e19c88714d0666d1ae5b0688c16245925e960a53465382ac80e15f",
+    "V3CovarianceDefinitions.lean": "f28ee1a1500f4e8d325d21e75b4355c859f1ef3636ccea8232272a1f3d0231d8",
+    "V3CovarianceProofs.lean": "026b785377519ac64ab46d214fd2274f818a597b085f15cd9d8e445394f93d91",
+    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+    "V3JointFrameChallenge.lean": "6f9ca71face1adea5b0dfaf9e1feccfa0aeb4b724d65d8462e349e47ffa9320f",
+    "V3JointFrameDefinitions.lean": "494f068062242f6642d91008abe264007aefb85ed6480317e22c4269668dafca",
+    "V3JointFrameProofs.lean": "e0ffccfd8318550c566eb176fb0a4bd991fb074e2f007b1e0243bbe07a35c50c",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "V3YangMillsAuditDefinitions.lean": "88ca4b9afe5bba1a235895f00216d8b8c2d61c76b09073a9f5978f76f9221051",
+    "V3YangMillsAuditProofs.lean": "caa310ca0fe5208c35af5f05dd7ec468975349b53a1106d5bbdd42f9c4807aca"
+  }
+}

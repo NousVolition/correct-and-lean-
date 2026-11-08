@@ -1,0 +1,45 @@
+Running as unit: hug-courier-weaver-comparator-20261106.service; invocation ID: 54c873ce82bb48ce9bf104f244d300c6
+Building CWEnergyChallenge
+✔ [8763/8773] Built V3SourceCore (9.1s)
+✔ [8764/8773] Built V3SourceMemory (1.9s)
+✔ [8765/8773] Built V3SourceSocial (1.7s)
+✔ [8766/8773] Built V3SourceFlow (1.6s)
+✔ [8767/8773] Built V3SourceGeometry (8.3s)
+✔ [8768/8773] Built V3SourceSystem (1.5s)
+✔ [8769/8773] Built WizardDefinitions (15s)
+✔ [8770/8773] Built CWDefinitions (2.6s)
+⚠ [8771/8773] Built CWChallenge (2.6s)
+warning: CWChallenge.lean:7:8: declaration uses `sorry`
+warning: CWChallenge.lean:10:8: declaration uses `sorry`
+warning: CWChallenge.lean:13:8: declaration uses `sorry`
+warning: CWChallenge.lean:16:8: declaration uses `sorry`
+warning: CWChallenge.lean:21:8: declaration uses `sorry`
+warning: CWChallenge.lean:25:8: declaration uses `sorry`
+warning: CWChallenge.lean:30:8: declaration uses `sorry`
+warning: CWChallenge.lean:33:8: declaration uses `sorry`
+warning: CWChallenge.lean:36:8: declaration uses `sorry`
+warning: CWChallenge.lean:38:8: declaration uses `sorry`
+warning: CWChallenge.lean:41:8: declaration uses `sorry`
+warning: CWChallenge.lean:45:8: declaration uses `sorry`
+⚠ [8772/8773] Built CWEnergyChallenge (2.8s)
+warning: CWEnergyChallenge.lean:6:8: declaration uses `sorry`
+Build completed successfully (8773 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.CW.spectral_integration_by_parts, HugV3.Source.CW.raw_weaver_work_is_minus_heat, HugV3.Source.CW.raw_courier_work_is_zero, HugV3.Source.CW.accepted_velocity_decomposes, HugV3.Source.CW.bracket_as_velocity_derivative, HugV3.Source.CW.reversed_native_roles, HugV3.Source.CW.pairing_reverses_and_heat_agrees, HugV3.Source.CW.no_common_coefficient_at_nonzero_pair, HugV3.Source.CW.dot_pair_is_symmetric, HugV3.Source.CW.coefficient_at_single_state, HugV3.Source.CW.initial_state_does_not_identify_coefficient, HugV3.Source.CW.same_accepted_rate_allows_any_wizard_entry, HugV3.Source.CW.retained_velocity_work, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from CWEnergyChallenge
+Building CWAll
+✔ [8771/8776] Built CWSpectral (3.1s)
+✔ [8772/8776] Built CWWork (7.0s)
+✔ [8773/8776] Built CWProofs (2.0s)
+✔ [8774/8776] Built CWBalance (3.2s)
+✔ [8775/8776] Built CWAll (2.3s)
+Build completed successfully (8776 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.CW.spectral_integration_by_parts, HugV3.Source.CW.raw_weaver_work_is_minus_heat, HugV3.Source.CW.raw_courier_work_is_zero, HugV3.Source.CW.accepted_velocity_decomposes, HugV3.Source.CW.bracket_as_velocity_derivative, HugV3.Source.CW.reversed_native_roles, HugV3.Source.CW.pairing_reverses_and_heat_agrees, HugV3.Source.CW.no_common_coefficient_at_nonzero_pair, HugV3.Source.CW.dot_pair_is_symmetric, HugV3.Source.CW.coefficient_at_single_state, HugV3.Source.CW.initial_state_does_not_identify_coefficient, HugV3.Source.CW.same_accepted_rate_allows_any_wizard_entry, HugV3.Source.CW.retained_velocity_work, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from CWAll
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 22.751s
+             CPU time consumed: 1min 40.218s
+                   Memory peak: 9.3G (swap: 0B)

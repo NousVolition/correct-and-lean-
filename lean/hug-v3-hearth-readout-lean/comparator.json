@@ -1,0 +1,24 @@
+{
+  "challenge_module": "HRWitnessChallenge",
+  "solution_module": "HRAll",
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "theorem_names": [
+    "HugV3.Source.HearthReadout.native_heat_form",
+    "HugV3.Source.HearthReadout.accepted_work_and_heat_ledgers",
+    "HugV3.Source.HearthReadout.ordered_heat_derivative",
+    "HugV3.Source.HearthReadout.ordered_kinetic_derivative",
+    "HugV3.Source.HearthReadout.changing_order",
+    "HugV3.Source.HearthReadout.signed_heat_bound",
+    "HugV3.Source.HearthReadout.zero_heat_has_zero_signed_response",
+    "HugV3.Source.HearthReadout.work_is_heat_response_along_courier",
+    "HugV3.Source.HearthReadout.velocity_reversal",
+    "HugV3.Source.HearthReadout.nonzero_signed_reading_excludes_shared_multiplier",
+    "HugV3.Source.HearthReadout.encounter_multiplier_criterion",
+    "HugV3.Source.HearthReadout.recorded_encounter_refutes_constant_ratio"
+  ]
+}

@@ -1,0 +1,191 @@
+Running as unit: hug-v3-joint-frame-comparator-20261103.service; invocation ID: 21ac8e1629944ad6b19114e6819ab7ff
+Building V3JointFrameChallenge
+✔ [3109/3122] Built V3SourceCore (9.2s)
+✔ [3110/3122] Built V3SourceMemory (1.5s)
+✔ [3111/3122] Built V3SourceSocial (1.5s)
+✔ [3112/3122] Built V3SourceFlow (1.4s)
+✔ [3113/3122] Built V3SourceGeometry (7.1s)
+✔ [3114/3122] Built V3SourceSystem (1.3s)
+✔ [3115/3122] Built V3DelayDefinitions (1.2s)
+✔ [3116/3122] Built V3YangMillsAuditDefinitions (1.2s)
+⚠ [3117/3122] Built V3YangMillsAuditProofs (2.7s)
+warning: V3YangMillsAuditProofs.lean:186:19: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:190:21: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3118/3122] Built V3CovarianceDefinitions (1.4s)
+⚠ [3119/3122] Built V3CovarianceProofs (2.5s)
+warning: V3CovarianceProofs.lean:99:26: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sqnorm, Pi.neg_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:144:47: This simp argument is unused:
+  normfiber_signed
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [extraConductivity, effective, sm, fiber_signed]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:145:26: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sqnorm, Pi.neg_apply, neg_div, mul_neg, neg_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:151:26: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.neg_apply, mul_neg, neg_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:284:32: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:412:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+✔ [3120/3122] Built V3JointFrameDefinitions (1.3s)
+⚠ [3121/3122] Built V3JointFrameChallenge (1.3s)
+warning: V3JointFrameChallenge.lean:6:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:8:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:9:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:10:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:12:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:13:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:15:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:17:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:18:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:19:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:21:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:24:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:26:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:28:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:30:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:32:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:35:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:37:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:38:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:40:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:42:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:44:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:46:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:49:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:51:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:53:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:55:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:58:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:60:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:63:8: declaration uses `sorry`
+warning: V3JointFrameChallenge.lean:68:8: declaration uses `sorry`
+Build completed successfully (3122 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.JointFrameVerified.quarter_scale, HugV3.Source.JointFrameVerified.quarter_dot, HugV3.Source.JointFrameVerified.quarter_norm, HugV3.Source.JointFrameVerified.grid_inverse, HugV3.Source.JointFrameVerified.grid_sum, HugV3.Source.JointFrameVerified.centered_gradient_covariant, HugV3.Source.JointFrameVerified.force_amplitude_invariant, HugV3.Source.JointFrameVerified.original_force_recovered, HugV3.Source.JointFrameVerified.driving_direction_rotates, HugV3.Source.JointFrameVerified.joint_force_covariant, HugV3.Source.JointFrameVerified.force_work_density_invariant, HugV3.Source.JointFrameVerified.original_momentum_recovered, HugV3.Source.JointFrameVerified.original_full_rates_recovered, HugV3.Source.JointFrameVerified.original_accepted_rates_recovered, HugV3.Source.JointFrameVerified.non_driving_rates_unchanged, HugV3.Source.JointFrameVerified.force_work_ledger_invariant, HugV3.Source.JointFrameVerified.green_spatially_invariant, HugV3.Source.JointFrameVerified.records_spatially_invariant, HugV3.Source.JointFrameVerified.memory_feature_invariant, HugV3.Source.JointFrameVerified.retrieval_invariant, HugV3.Source.JointFrameVerified.event_record_invariant, HugV3.Source.JointFrameVerified.write_account_invariant, HugV3.Source.JointFrameVerified.write_equivariant_under_thermal_compatibility, HugV3.Source.JointFrameVerified.capture_equivariant, HugV3.Source.JointFrameVerified.buffer_commutes, HugV3.Source.JointFrameVerified.original_delay_recovered, HugV3.Source.JointFrameVerified.derivative_covariant, HugV3.Source.JointFrameVerified.continuity_covariant, HugV3.Source.JointFrameVerified.kinematic_matrix_covariance, HugV3.Source.JointFrameVerified.full_deformation_covariant_if_gradient_transforms, HugV3.Source.JointFrameVerified.social_rates_invariant_if_observations_match, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3JointFrameChallenge
+Building V3JointFrameProofs
+⚠ [3117/3122] Replayed V3YangMillsAuditProofs
+warning: V3YangMillsAuditProofs.lean:186:19: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:190:21: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3119/3122] Replayed V3CovarianceProofs
+warning: V3CovarianceProofs.lean:99:26: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sqnorm, Pi.neg_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:144:47: This simp argument is unused:
+  normfiber_signed
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [extraConductivity, effective, sm, fiber_signed]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:145:26: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sqnorm, Pi.neg_apply, neg_div, mul_neg, neg_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:151:26: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.neg_apply, mul_neg, neg_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:284:32: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:412:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [3121/3122] Built V3JointFrameProofs (2.9s)
+warning: V3JointFrameProofs.lean:37:53: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3JointFrameProofs.lean:42:80: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3JointFrameProofs.lean:206:19: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3JointFrameProofs.lean:210:21: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3JointFrameProofs.lean:222:32: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (3122 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.JointFrameVerified.quarter_scale, HugV3.Source.JointFrameVerified.quarter_dot, HugV3.Source.JointFrameVerified.quarter_norm, HugV3.Source.JointFrameVerified.grid_inverse, HugV3.Source.JointFrameVerified.grid_sum, HugV3.Source.JointFrameVerified.centered_gradient_covariant, HugV3.Source.JointFrameVerified.force_amplitude_invariant, HugV3.Source.JointFrameVerified.original_force_recovered, HugV3.Source.JointFrameVerified.driving_direction_rotates, HugV3.Source.JointFrameVerified.joint_force_covariant, HugV3.Source.JointFrameVerified.force_work_density_invariant, HugV3.Source.JointFrameVerified.original_momentum_recovered, HugV3.Source.JointFrameVerified.original_full_rates_recovered, HugV3.Source.JointFrameVerified.original_accepted_rates_recovered, HugV3.Source.JointFrameVerified.non_driving_rates_unchanged, HugV3.Source.JointFrameVerified.force_work_ledger_invariant, HugV3.Source.JointFrameVerified.green_spatially_invariant, HugV3.Source.JointFrameVerified.records_spatially_invariant, HugV3.Source.JointFrameVerified.memory_feature_invariant, HugV3.Source.JointFrameVerified.retrieval_invariant, HugV3.Source.JointFrameVerified.event_record_invariant, HugV3.Source.JointFrameVerified.write_account_invariant, HugV3.Source.JointFrameVerified.write_equivariant_under_thermal_compatibility, HugV3.Source.JointFrameVerified.capture_equivariant, HugV3.Source.JointFrameVerified.buffer_commutes, HugV3.Source.JointFrameVerified.original_delay_recovered, HugV3.Source.JointFrameVerified.derivative_covariant, HugV3.Source.JointFrameVerified.continuity_covariant, HugV3.Source.JointFrameVerified.kinematic_matrix_covariance, HugV3.Source.JointFrameVerified.full_deformation_covariant_if_gradient_transforms, HugV3.Source.JointFrameVerified.social_rates_invariant_if_observations_match, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3JointFrameProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 58.541s
+             CPU time consumed: 1min 8.283s
+                   Memory peak: 5.1G (swap: 0B)

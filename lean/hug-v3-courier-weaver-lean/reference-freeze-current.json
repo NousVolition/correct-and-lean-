@@ -1,0 +1,34 @@
+{
+  "frozen_utc": "2026-11-07T05:07:48.689057+00:00",
+  "theorems": [
+    "HugV3.Source.CW.spectral_integration_by_parts",
+    "HugV3.Source.CW.raw_weaver_work_is_minus_heat",
+    "HugV3.Source.CW.raw_courier_work_is_zero",
+    "HugV3.Source.CW.accepted_velocity_decomposes",
+    "HugV3.Source.CW.bracket_as_velocity_derivative",
+    "HugV3.Source.CW.reversed_native_roles",
+    "HugV3.Source.CW.pairing_reverses_and_heat_agrees",
+    "HugV3.Source.CW.no_common_coefficient_at_nonzero_pair",
+    "HugV3.Source.CW.dot_pair_is_symmetric",
+    "HugV3.Source.CW.coefficient_at_single_state",
+    "HugV3.Source.CW.initial_state_does_not_identify_coefficient",
+    "HugV3.Source.CW.same_accepted_rate_allows_any_wizard_entry",
+    "HugV3.Source.CW.retained_velocity_work"
+  ],
+  "files": {
+    "CWChallenge.lean": "cb5ae9a59a9e5ae84a477337a67a0216bc51f63ef367b877f68f966dab7ddcd9",
+    "CWEnergyChallenge.lean": "5cb3821e3de4324aa4c8bbb2d96359f68e80b8eb29320a67228eecf4f8d2ef42",
+    "CWDefinitions.lean": "b00938b6370c25ee19dbf0969968c95e9f28738a732c19f2132a1c207dd34d02",
+    "WizardDefinitions.lean": "5e39da94310dc5ecf103560db9cd2e4ddda6bcf44d52856dbe59cfdbe9c1b1cc",
+    "comparator.json": "33cc5487f7a9b32f88dc3f015af98d8e9570eebae64c1d5896eef19866d0e7ec"
+  },
+  "source_files": {
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
+  },
+  "addition": "One additional statement about filtered, projected velocities. All twelve earlier statement texts are unchanged."
+}

@@ -1,0 +1,120 @@
+Running as unit: hug-v3-full-covariance-comparator-20261103.service; invocation ID: 34b7beaa04564b32b0bee55c854ea4fe
+Building V3CovarianceChallenge
+✔ [3109/3120] Built V3SourceCore (8.0s)
+✔ [3110/3120] Built V3SourceMemory (1.5s)
+✔ [3111/3120] Built V3SourceSocial (1.5s)
+✔ [3112/3120] Built V3SourceFlow (1.3s)
+✔ [3113/3120] Built V3SourceGeometry (6.9s)
+✔ [3114/3120] Built V3SourceSystem (1.3s)
+✔ [3115/3120] Built V3DelayDefinitions (1.1s)
+✔ [3116/3120] Built V3YangMillsAuditDefinitions (1.1s)
+⚠ [3117/3120] Built V3YangMillsAuditProofs (2.5s)
+warning: V3YangMillsAuditProofs.lean:186:19: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:190:21: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3118/3120] Built V3CovarianceDefinitions (1.1s)
+⚠ [3119/3120] Built V3CovarianceChallenge (1.2s)
+warning: V3CovarianceChallenge.lean:8:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:10:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:12:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:14:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:16:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:18:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:20:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:23:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:25:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:28:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:30:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:32:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:34:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:36:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:38:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:42:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:46:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:49:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:52:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:55:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:57:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:60:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:62:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:64:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:66:8: declaration uses `sorry`
+warning: V3CovarianceChallenge.lean:68:8: declaration uses `sorry`
+Build completed successfully (3120 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.CovarianceVerified.state_involution, HugV3.Source.CovarianceVerified.same_social_state, HugV3.Source.CovarianceVerified.material_stress_invariant, HugV3.Source.CovarianceVerified.fabric_stress_invariant, HugV3.Source.CovarianceVerified.extra_conductivity_invariant, HugV3.Source.CovarianceVerified.fiber_rate_invariant, HugV3.Source.CovarianceVerified.full_rhs_equivariant, HugV3.Source.CovarianceVerified.accepted_rhs_equivariant, HugV3.Source.CovarianceVerified.event_record_invariant, HugV3.Source.CovarianceVerified.write_equivariant, HugV3.Source.CovarianceVerified.capture_equivariant, HugV3.Source.CovarianceVerified.complete_event_equivariant, HugV3.Source.CovarianceVerified.all_boundaries_equivariant, HugV3.Source.CovarianceVerified.buffer_commutes, HugV3.Source.CovarianceVerified.delayed_rhs_equivariant, HugV3.Source.CovarianceVerified.delayed_history_equivariant, HugV3.Source.CovarianceVerified.derivative_covariant, HugV3.Source.CovarianceVerified.continuity_covariant, HugV3.Source.CovarianceVerified.delayed_segment_covariant, HugV3.Source.CovarianceVerified.original_solution_predicate, HugV3.Source.CovarianceVerified.full_trace_covariant, HugV3.Source.CovarianceVerified.initial_reversal_is_not_fixed, HugV3.Source.CovarianceVerified.forcing_has_fixed_direction, HugV3.Source.CovarianceVerified.gradient_witness_norm, HugV3.Source.CovarianceVerified.witness_force_nonzero, HugV3.Source.CovarianceVerified.quarter_turn_force_not_covariant, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3CovarianceChallenge
+Building V3CovarianceProofs
+⚠ [3117/3120] Replayed V3YangMillsAuditProofs
+warning: V3YangMillsAuditProofs.lean:186:19: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:190:21: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3119/3120] Built V3CovarianceProofs (2.4s)
+warning: V3CovarianceProofs.lean:99:26: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sqnorm, Pi.neg_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:144:47: This simp argument is unused:
+  normfiber_signed
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [extraConductivity, effective, sm, fiber_signed]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:145:26: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sqnorm, Pi.neg_apply, neg_div, mul_neg, neg_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:151:26: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.neg_apply, mul_neg, neg_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:284:32: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:412:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+Build completed successfully (3120 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.CovarianceVerified.state_involution, HugV3.Source.CovarianceVerified.same_social_state, HugV3.Source.CovarianceVerified.material_stress_invariant, HugV3.Source.CovarianceVerified.fabric_stress_invariant, HugV3.Source.CovarianceVerified.extra_conductivity_invariant, HugV3.Source.CovarianceVerified.fiber_rate_invariant, HugV3.Source.CovarianceVerified.full_rhs_equivariant, HugV3.Source.CovarianceVerified.accepted_rhs_equivariant, HugV3.Source.CovarianceVerified.event_record_invariant, HugV3.Source.CovarianceVerified.write_equivariant, HugV3.Source.CovarianceVerified.capture_equivariant, HugV3.Source.CovarianceVerified.complete_event_equivariant, HugV3.Source.CovarianceVerified.all_boundaries_equivariant, HugV3.Source.CovarianceVerified.buffer_commutes, HugV3.Source.CovarianceVerified.delayed_rhs_equivariant, HugV3.Source.CovarianceVerified.delayed_history_equivariant, HugV3.Source.CovarianceVerified.derivative_covariant, HugV3.Source.CovarianceVerified.continuity_covariant, HugV3.Source.CovarianceVerified.delayed_segment_covariant, HugV3.Source.CovarianceVerified.original_solution_predicate, HugV3.Source.CovarianceVerified.full_trace_covariant, HugV3.Source.CovarianceVerified.initial_reversal_is_not_fixed, HugV3.Source.CovarianceVerified.forcing_has_fixed_direction, HugV3.Source.CovarianceVerified.gradient_witness_norm, HugV3.Source.CovarianceVerified.witness_force_nonzero, HugV3.Source.CovarianceVerified.quarter_turn_force_not_covariant, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3CovarianceProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 52.108s
+             CPU time consumed: 57.094s
+                   Memory peak: 5.1G (swap: 0B)

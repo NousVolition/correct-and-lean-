@@ -1,0 +1,23 @@
+{
+  "sealed_utc": "2026-11-03T05:46:12.0244877Z",
+  "files": {
+    "comparator.json": "e28583946c98b82f5173478bb72c990e7c3ef354fda8a2118b5021f70f3cea5f",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "fe11494f2c9a3ea4854ad7f27bfb5c97c32a55498a94c7136c96fbac4d1b4aae",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "reference-freeze-current.json": "372f283fb4c11d90e6ff5f726283b8a4922f65c5bd60896eb8585a82c4acc78c",
+    "run-linux-check.sh": "a9bd7c2d958c6ab3ea3d3d14a010e9fafa9574134305e55a2b2ed418b8cfd856",
+    "V3CovarianceChallenge.lean": "20f33f9f4dfdbc0805f6e67e15d7ca07fd83cdec84753b3192f86c65a82e0a4d",
+    "V3CovarianceDefinitions.lean": "f28ee1a1500f4e8d325d21e75b4355c859f1ef3636ccea8232272a1f3d0231d8",
+    "V3CovarianceProofs.lean": "026b785377519ac64ab46d214fd2274f818a597b085f15cd9d8e445394f93d91",
+    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "V3YangMillsAuditDefinitions.lean": "88ca4b9afe5bba1a235895f00216d8b8c2d61c76b09073a9f5978f76f9221051",
+    "V3YangMillsAuditProofs.lean": "caa310ca0fe5208c35af5f05dd7ec468975349b53a1106d5bbdd42f9c4807aca"
+  }
+}

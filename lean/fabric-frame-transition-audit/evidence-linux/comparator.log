@@ -1,0 +1,50 @@
+Running as unit: fabric-transfer-comparator-20261107.service; invocation ID: 91db3b26a4714d9fa9a3c8b5d209405c
+Building TransitionChallenge
+✔ [8763/8773] Built V3SourceCore (9.1s)
+✔ [8764/8773] Built V3SourceMemory (1.5s)
+✔ [8765/8773] Built V3SourceSocial (1.5s)
+✔ [8766/8773] Built V3SourceFlow (1.3s)
+✔ [8767/8773] Built V3SourceGeometry (7.0s)
+✔ [8768/8773] Built V3SourceSystem (1.3s)
+✔ [8769/8773] Built V3DelayDefinitions (1.1s)
+✔ [8770/8773] Built V3YangMillsAuditDefinitions (1.1s)
+✔ [8771/8773] Built TransitionDefinitions (13s)
+⚠ [8772/8773] Built TransitionChallenge (2.4s)
+warning: TransitionChallenge.lean:7:8: declaration uses `sorry`
+warning: TransitionChallenge.lean:10:8: declaration uses `sorry`
+warning: TransitionChallenge.lean:13:8: declaration uses `sorry`
+warning: TransitionChallenge.lean:16:8: declaration uses `sorry`
+warning: TransitionChallenge.lean:19:8: declaration uses `sorry`
+warning: TransitionChallenge.lean:24:8: declaration uses `sorry`
+warning: TransitionChallenge.lean:30:8: declaration uses `sorry`
+Build completed successfully (8773 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.FrameTransition.actual_accepted_fabric_rate, HugV3.Source.FrameTransition.state_readout_transfers, HugV3.Source.FrameTransition.rate_law_all_fabrics_iff, HugV3.Source.FrameTransition.moving_frame_residual, HugV3.Source.FrameTransition.fabric_segment_transfers, HugV3.Source.FrameTransition.quarter_paths_follow_their_rates, HugV3.Source.FrameTransition.quarter_initial_agreement_and_opposite_strain_rates, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from TransitionChallenge
+Building TransitionProofs
+⚠ [8772/8774] Built V3YangMillsAuditProofs (2.6s)
+warning: V3YangMillsAuditProofs.lean:186:19: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:190:21: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8773/8774] Built TransitionProofs (3.0s)
+Build completed successfully (8774 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.FrameTransition.actual_accepted_fabric_rate, HugV3.Source.FrameTransition.state_readout_transfers, HugV3.Source.FrameTransition.rate_law_all_fabrics_iff, HugV3.Source.FrameTransition.moving_frame_residual, HugV3.Source.FrameTransition.fabric_segment_transfers, HugV3.Source.FrameTransition.quarter_paths_follow_their_rates, HugV3.Source.FrameTransition.quarter_initial_agreement_and_opposite_strain_rates, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from TransitionProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 17.497s
+             CPU time consumed: 1min 19.762s
+                   Memory peak: 9.2G (swap: 0B)

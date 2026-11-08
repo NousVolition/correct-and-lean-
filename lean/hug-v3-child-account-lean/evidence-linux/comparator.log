@@ -1,0 +1,91 @@
+Running as unit: hug-v3-child-account-comparator-20261106e.service; invocation ID: 52c72a5f59894c3db4769a87f9341781
+Building AccountChallenge
+✔ [3128/3140] Built V3SourceCore (9.6s)
+✔ [3129/3140] Built V3SourceMemory (1.8s)
+✔ [3130/3140] Built V3SourceSocial (1.7s)
+✔ [3131/3140] Built V3SourceFlow (1.6s)
+✔ [3132/3140] Built V3SourceGeometry (7.9s)
+✔ [3133/3140] Built V3SourceSystem (1.4s)
+✔ [3134/3140] Built StreetWholeDefinitions (1.5s)
+✔ [3135/3140] Built V3TransferDefinitions (1.6s)
+✔ [3136/3140] Built WitnessDefinitions (1.4s)
+✔ [3137/3140] Built AccessDefinitions (1.4s)
+✔ [3138/3140] Built AccountDefinitions (1.5s)
+⚠ [3139/3140] Built AccountChallenge (1.5s)
+warning: AccountChallenge.lean:7:8: declaration uses `sorry`
+warning: AccountChallenge.lean:10:8: declaration uses `sorry`
+warning: AccountChallenge.lean:15:8: declaration uses `sorry`
+warning: AccountChallenge.lean:21:8: declaration uses `sorry`
+warning: AccountChallenge.lean:25:8: declaration uses `sorry`
+warning: AccountChallenge.lean:29:8: declaration uses `sorry`
+warning: AccountChallenge.lean:35:8: declaration uses `sorry`
+warning: AccountChallenge.lean:42:8: declaration uses `sorry`
+warning: AccountChallenge.lean:51:8: declaration uses `sorry`
+warning: AccountChallenge.lean:61:8: declaration uses `sorry`
+warning: AccountChallenge.lean:68:8: declaration uses `sorry`
+warning: AccountChallenge.lean:76:8: declaration uses `sorry`
+warning: AccountChallenge.lean:84:8: declaration uses `sorry`
+warning: AccountChallenge.lean:88:8: declaration uses `sorry`
+Build completed successfully (3140 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.AccountVerified.account_without_separate_rating_preserves_input, HugV3.Source.AccountVerified.attributed_current_rating_uses_only_report_field, HugV3.Source.AccountVerified.crossing_reference_and_current_rating_have_distinct_targets, HugV3.Source.AccountVerified.words_and_direct_sight_do_not_choose_a_number, HugV3.Source.AccountVerified.declared_third_record_is_childs_later_report, HugV3.Source.AccountVerified.score_uses_independent_observation_only_when_present, HugV3.Source.AccountVerified.private_report_enters_signed_retrieval, HugV3.Source.AccountVerified.neutral_report_and_missing_report_are_distinguishable, HugV3.Source.AccountVerified.rating_changes_three_response_rates, HugV3.Source.AccountVerified.accepted_report_writes_preserve_immediate_context_and_agreement, HugV3.Source.AccountVerified.heun_context_difference_for_a_changed_child_response, HugV3.Source.AccountVerified.two_coordinate_direction_of_the_next_step, HugV3.Source.AccountVerified.a_validated_contrast_determines_only_the_stated_change, HugV3.Source.AccountVerified.a_direction_alone_admits_distinct_context_weights, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from AccountChallenge
+Building AccountProofs
+⚠ [3139/3144] Built StreetWholeProofs (2.1s)
+warning: StreetWholeProofs.lean:26:53: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: StreetWholeProofs.lean:202:104: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3140/3144] Built V3TransferProofs (2.1s)
+warning: V3TransferProofs.lean:148:10: This simp argument is unused:
+  guardSquared
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [guardSquaredRate, Finset.mul_sum, pow_two, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3TransferProofs.lean:148:40: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [guardSquared, guardSquaredRate, pow_two, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3TransferProofs.lean:147:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3TransferProofs.lean:148:74: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3TransferProofs.lean:152:32: Variable name `hpartners` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpartners
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3141/3144] Built WitnessProofs (2.4s)
+info: WitnessProofs.lean:31:14: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: WitnessProofs.lean:31:10: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WitnessProofs.lean:188:11: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3142/3144] Built AccessProofs (1.9s)
+⚠ [3143/3144] Built AccountProofs (2.3s)
+warning: AccountProofs.lean:219:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+Build completed successfully (3144 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.AccountVerified.account_without_separate_rating_preserves_input, HugV3.Source.AccountVerified.attributed_current_rating_uses_only_report_field, HugV3.Source.AccountVerified.crossing_reference_and_current_rating_have_distinct_targets, HugV3.Source.AccountVerified.words_and_direct_sight_do_not_choose_a_number, HugV3.Source.AccountVerified.declared_third_record_is_childs_later_report, HugV3.Source.AccountVerified.score_uses_independent_observation_only_when_present, HugV3.Source.AccountVerified.private_report_enters_signed_retrieval, HugV3.Source.AccountVerified.neutral_report_and_missing_report_are_distinguishable, HugV3.Source.AccountVerified.rating_changes_three_response_rates, HugV3.Source.AccountVerified.accepted_report_writes_preserve_immediate_context_and_agreement, HugV3.Source.AccountVerified.heun_context_difference_for_a_changed_child_response, HugV3.Source.AccountVerified.two_coordinate_direction_of_the_next_step, HugV3.Source.AccountVerified.a_validated_contrast_determines_only_the_stated_change, HugV3.Source.AccountVerified.a_direction_alone_admits_distinct_context_weights, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from AccountProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 2.055s
+             CPU time consumed: 1min 18.185s
+                   Memory peak: 5.3G (swap: 0B)

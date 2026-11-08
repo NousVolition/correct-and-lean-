@@ -1,0 +1,15 @@
+{
+  "sealed_utc": "2026-11-05T03:28:27.886154+00:00",
+  "files": {
+    "ContextChallenge.lean": "fbbd5fbdc05487f17735ec4715f63873c8718f36d57194ecbb982b7130ec7e15",
+    "ContextDefinitions.lean": "5af6ee583212530bfa48ac799b1c7e5a08837d960ac2f8d782a8494039ecd85d",
+    "ContextProofs.lean": "3cb2e8334922e61969d95ef81cab88970a5374e0aa91cf0c85f1825961897435",
+    "StatementInventory.lean": "1702f5b78cb124f906ed61931d4bc3c337b84d2616a44218271882d2348d03c1",
+    "lakefile.toml": "d32129995434e8597bdd13a4152c9b8e85cbab03eedf901aacb4db965a8e5b3c",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "comparator.json": "b8c20637899005c5d08533e64eb59da8717183cdd394ff13547f3422bd2363de",
+    "reference-freeze-current.json": "86d44a8a4a4f0617ed43956663d5bf6d4dc4b2ccc56fe538129f070ed44b5c74",
+    "run-linux-check.sh": "096709312f9339cba44bd9816421c7ee4cdc95180817042e84dfe35db410a761"
+  }
+}

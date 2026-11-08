@@ -1,0 +1,46 @@
+⚠ [3137/3140] Replayed StreetWholeProofs
+warning: StreetWholeProofs.lean:26:53: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: StreetWholeProofs.lean:202:104: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3138/3140] Replayed V3TransferProofs
+warning: V3TransferProofs.lean:148:10: This simp argument is unused:
+  guardSquared
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [guardSquaredRate, Finset.mul_sum, pow_two, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3TransferProofs.lean:148:40: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [guardSquared, guardSquaredRate, pow_two, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3TransferProofs.lean:147:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3TransferProofs.lean:148:74: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3TransferProofs.lean:152:32: Variable name `hpartners` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpartners
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3139/3140] Replayed WitnessProofs
+info: WitnessProofs.lean:31:14: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: WitnessProofs.lean:31:10: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WitnessProofs.lean:188:11: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3140 jobs).

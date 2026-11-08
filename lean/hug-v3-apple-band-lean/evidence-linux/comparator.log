@@ -1,0 +1,77 @@
+Running as unit: apple-band-comparator-20261107.service; invocation ID: 7f11e030eaa94e2eb09766eba79cd703
+Building AppleSkinChallenge
+✔ [8763/8782] Built V3SourceCore (9.2s)
+✔ [8764/8782] Built V3SourceMemory (1.6s)
+✔ [8765/8782] Built V3SourceSocial (1.4s)
+✔ [8766/8782] Built V3SourceFlow (1.3s)
+✔ [8767/8782] Built V3SourceGeometry (7.1s)
+✔ [8768/8782] Built V3SourceSystem (1.2s)
+✔ [8769/8782] Built V3DelayDefinitions (1.2s)
+✔ [8770/8782] Built StreetWholeDefinitions (1.2s)
+✔ [8771/8782] Built V3TransferDefinitions (1.4s)
+✔ [8772/8782] Built V3YangMillsAuditDefinitions (1.1s)
+✔ [8773/8782] Built WitnessDefinitions (1.2s)
+✔ [8774/8782] Built AccessDefinitions (1.3s)
+✔ [8775/8782] Built AccountDefinitions (1.3s)
+✔ [8776/8782] Built TransitionDefinitions (12s)
+✔ [8777/8782] Built AppleBandDefinitions (2.5s)
+✔ [8778/8782] Built AppleFlowDefinitions (2.3s)
+⚠ [8779/8782] Built AppleBandChallenge (2.5s)
+warning: AppleBandChallenge.lean:6:8: declaration uses `sorry`
+warning: AppleBandChallenge.lean:8:8: declaration uses `sorry`
+warning: AppleBandChallenge.lean:12:8: declaration uses `sorry`
+warning: AppleBandChallenge.lean:15:8: declaration uses `sorry`
+warning: AppleBandChallenge.lean:18:8: declaration uses `sorry`
+warning: AppleBandChallenge.lean:22:8: declaration uses `sorry`
+warning: AppleBandChallenge.lean:26:8: declaration uses `sorry`
+warning: AppleBandChallenge.lean:29:8: declaration uses `sorry`
+warning: AppleBandChallenge.lean:35:8: declaration uses `sorry`
+warning: AppleBandChallenge.lean:38:8: declaration uses `sorry`
+warning: AppleBandChallenge.lean:43:8: declaration uses `sorry`
+⚠ [8780/8782] Built AppleFlowChallenge (2.3s)
+warning: AppleFlowChallenge.lean:8:8: declaration uses `sorry`
+warning: AppleFlowChallenge.lean:13:8: declaration uses `sorry`
+warning: AppleFlowChallenge.lean:16:8: declaration uses `sorry`
+⚠ [8781/8782] Built AppleSkinChallenge (2.2s)
+warning: AppleSkinChallenge.lean:7:8: declaration uses `sorry`
+Build completed successfully (8782 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.AppleBand.reference_band_contracts, HugV3.Source.AppleBand.continuous_map_carries_contraction, HugV3.Source.AppleBand.moving_skin_carries_contraction, HugV3.Source.AppleBand.homeomorphic_transport_iff, HugV3.Source.AppleBand.accepted_position_and_fabric_rates, HugV3.Source.AppleBand.accepted_step_moves_every_particle, HugV3.Source.AppleBand.accepted_boundary_keeps_material, HugV3.Source.AppleBand.accepted_chain_carries_band, HugV3.Source.AppleBand.full_segment_local_band, HugV3.Source.AppleBand.stretch_expands_tips_and_preserves_contraction, HugV3.Source.AppleBand.small_step_preserves_distinct_points, HugV3.Source.AppleBand.continuous_grid_history_has_global_space_bounds, HugV3.Source.AppleBand.accepted_boundary_keeps_velocity, HugV3.Source.AppleBand.full_trace_material_flow_carries_band, HugV3.Source.AppleBand.band_on_the_embedded_skin_at_each_time, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from AppleSkinChallenge
+Building AppleRealFlow
+⚠ [8779/8787] Built StreetWholeProofs (1.9s)
+warning: StreetWholeProofs.lean:26:53: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: StreetWholeProofs.lean:202:104: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8780/8787] Built V3YangMillsAuditProofs (2.9s)
+warning: V3YangMillsAuditProofs.lean:186:19: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:190:21: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8781/8787] Built AppleFlowBounds (3.1s)
+✔ [8782/8787] Built AppleBandTopology (3.1s)
+✔ [8783/8787] Built TransitionProofs (3.2s)
+✔ [8784/8787] Built AppleBandProofs (2.0s)
+✔ [8785/8787] Built AppleTraceVelocity (2.5s)
+✔ [8786/8787] Built AppleRealFlow (2.0s)
+Build completed successfully (8787 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.AppleBand.reference_band_contracts, HugV3.Source.AppleBand.continuous_map_carries_contraction, HugV3.Source.AppleBand.moving_skin_carries_contraction, HugV3.Source.AppleBand.homeomorphic_transport_iff, HugV3.Source.AppleBand.accepted_position_and_fabric_rates, HugV3.Source.AppleBand.accepted_step_moves_every_particle, HugV3.Source.AppleBand.accepted_boundary_keeps_material, HugV3.Source.AppleBand.accepted_chain_carries_band, HugV3.Source.AppleBand.full_segment_local_band, HugV3.Source.AppleBand.stretch_expands_tips_and_preserves_contraction, HugV3.Source.AppleBand.small_step_preserves_distinct_points, HugV3.Source.AppleBand.continuous_grid_history_has_global_space_bounds, HugV3.Source.AppleBand.accepted_boundary_keeps_velocity, HugV3.Source.AppleBand.full_trace_material_flow_carries_band, HugV3.Source.AppleBand.band_on_the_embedded_skin_at_each_time, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from AppleRealFlow
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 2min 11.513s
+             CPU time consumed: 2min 37.351s
+                   Memory peak: 10.2G (swap: 0B)

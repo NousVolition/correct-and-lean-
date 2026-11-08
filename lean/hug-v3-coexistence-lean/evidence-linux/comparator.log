@@ -1,0 +1,106 @@
+Running as unit: hug-v3-coexistence-comparator-20261103.service; invocation ID: c3a38af53760464884f2496864d1df77
+Building V3CoexistenceChallenge
+✔ [3134/3155] Built V3SourceCore (9.4s)
+✔ [3135/3155] Built V3SourceMemory (1.6s)
+✔ [3136/3155] Built V3SourceSocial (1.6s)
+✔ [3137/3155] Built V3SourceFlow (1.4s)
+✔ [3138/3155] Built V3SourceGeometry (7.3s)
+✔ [3139/3155] Built V3SourceSystem (1.3s)
+✔ [3140/3155] Built V3ClayDefinitions (1.5s)
+✔ [3141/3155] Built V3DelayDefinitions (1.5s)
+✔ [3142/3155] Built V3TransferDefinitions (1.6s)
+⚠ [3143/3155] Built V3SourceProofs (1.8s)
+warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+✔ [3144/3155] Built V3MemoryRulesDefinitions (1.4s)
+⚠ [3145/3155] Built V3DelayProofs (1.5s)
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3146/3155] Built V3ClayProofs (1.8s)
+✔ [3147/3155] Built V3ClayTrajectoryProofs (1.5s)
+✔ [3148/3155] Built V3MemoryRulesProofs (1.0s)
+✔ [3149/3155] Built V3BridgeReturnDefinitions (1.4s)
+⚠ [3150/3155] Built V3BridgeReturnProofs (1.8s)
+warning: V3BridgeReturnProofs.lean:84:49: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: V3BridgeReturnProofs.lean:197:13: Variable name `hk` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hk
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3151/3155] Built V3ORuminationDefinitions (1.2s)
+⚠ [3152/3155] Built V3ORuminationProofs (2.6s)
+warning: V3ORuminationProofs.lean:113:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3ORuminationProofs.lean:233:5: Variable name `hnow` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnow
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3153/3155] Built V3CoexistenceDefinitions (1.2s)
+⚠ [3154/3155] Built V3CoexistenceChallenge (1.3s)
+warning: V3CoexistenceChallenge.lean:7:8: declaration uses `sorry`
+warning: V3CoexistenceChallenge.lean:11:8: declaration uses `sorry`
+warning: V3CoexistenceChallenge.lean:15:8: declaration uses `sorry`
+warning: V3CoexistenceChallenge.lean:21:8: declaration uses `sorry`
+warning: V3CoexistenceChallenge.lean:28:8: declaration uses `sorry`
+warning: V3CoexistenceChallenge.lean:33:8: declaration uses `sorry`
+warning: V3CoexistenceChallenge.lean:41:8: declaration uses `sorry`
+warning: V3CoexistenceChallenge.lean:46:8: declaration uses `sorry`
+warning: V3CoexistenceChallenge.lean:51:8: declaration uses `sorry`
+warning: V3CoexistenceChallenge.lean:61:8: declaration uses `sorry`
+warning: V3CoexistenceChallenge.lean:64:8: declaration uses `sorry`
+warning: V3CoexistenceChallenge.lean:70:8: declaration uses `sorry`
+Build completed successfully (3155 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.CoexistenceVerified.accepted_full_norm_rate, HugV3.Source.CoexistenceVerified.same_instant_norm_rate_with_any_association, HugV3.Source.CoexistenceVerified.full_trace_alignment_derivative, HugV3.Source.CoexistenceVerified.full_segment_alignment_floor, HugV3.Source.CoexistenceVerified.full_segment_association_floor, HugV3.Source.CoexistenceVerified.full_segment_coexistence, HugV3.Source.CoexistenceVerified.write_preserves_coexistence, HugV3.Source.CoexistenceVerified.boundary_preserves_coexistence, HugV3.Source.CoexistenceVerified.full_hybrid_conditional_coexistence, HugV3.Source.CoexistenceVerified.erosion_witness_has_coexisting_markers, HugV3.Source.CoexistenceVerified.active_association_allows_alignment_erosion, HugV3.Source.CoexistenceVerified.delayed_full_norm_rate, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3CoexistenceChallenge
+Building V3CoexistenceProofs
+⚠ [3124/3155] Replayed V3SourceProofs
+warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [3129/3155] Replayed V3DelayProofs
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3138/3155] Replayed V3BridgeReturnProofs
+warning: V3BridgeReturnProofs.lean:84:49: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: V3BridgeReturnProofs.lean:197:13: Variable name `hk` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hk
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3151/3155] Replayed V3ORuminationProofs
+warning: V3ORuminationProofs.lean:113:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3ORuminationProofs.lean:233:5: Variable name `hnow` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnow
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3154/3155] Built V3CoexistenceProofs (3.1s)
+warning: V3CoexistenceProofs.lean:41:8: `continuousOn_finset_sum` has been deprecated: Use `continuousOn_finsetSum` instead
+warning: V3CoexistenceProofs.lean:115:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: V3CoexistenceProofs.lean:118:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+Build completed successfully (3155 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.CoexistenceVerified.accepted_full_norm_rate, HugV3.Source.CoexistenceVerified.same_instant_norm_rate_with_any_association, HugV3.Source.CoexistenceVerified.full_trace_alignment_derivative, HugV3.Source.CoexistenceVerified.full_segment_alignment_floor, HugV3.Source.CoexistenceVerified.full_segment_association_floor, HugV3.Source.CoexistenceVerified.full_segment_coexistence, HugV3.Source.CoexistenceVerified.write_preserves_coexistence, HugV3.Source.CoexistenceVerified.boundary_preserves_coexistence, HugV3.Source.CoexistenceVerified.full_hybrid_conditional_coexistence, HugV3.Source.CoexistenceVerified.erosion_witness_has_coexisting_markers, HugV3.Source.CoexistenceVerified.active_association_allows_alignment_erosion, HugV3.Source.CoexistenceVerified.delayed_full_norm_rate, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3CoexistenceProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 6.052s
+             CPU time consumed: 1min 21.526s
+                   Memory peak: 5.7G (swap: 0B)

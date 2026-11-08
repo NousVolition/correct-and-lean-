@@ -1,0 +1,22 @@
+{
+  "sealed_utc": "2026-11-05T21:22:35.875249+00:00",
+  "files": {
+    "MiraLocalChallenge.lean": "52bb108507b348ad52269bd12e46950ff76cfd00d195d07d67a64995d8181588",
+    "MiraLocalDefinitions.lean": "1d58eba77eb2b71a74fa34df699a355fcbb3cb6de942c62fab2a06f2556287f2",
+    "MiraLocalExamples.lean": "9968ea049e505865b91dd5500baf69de2d524b8a4d025a5bda86c9375fb8573b",
+    "MiraLocalProofs.lean": "4ccfc83bb32c5006b4df964a707f16efb59938d51a03901c5eb6d7b61ffc42ae",
+    "PersonEnvironmentDefinitions.lean": "ea0e58b7945a3677bbd4bef19d40ea0fb44f6c7ba9aaaadb30736ce2ab13a43a",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "lakefile.toml": "d5d132cd336193213cde44a601785efa64aa0c8ef82a0fc7dcf024c1a224ad5b",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "comparator.json": "bc5400cbbe08a9dbe28df88e65950b5f1bc0e3686ba7184ec5c57092d91688e8",
+    "reference-freeze-current.json": "a347fbeac03250b0a5d642841b509a7c72780dc4b916c4e16ad580310120bb2d",
+    "run-linux-check.sh": "f7d5dc5ebcc31e152d1c01ef33b74a3671125f1ec448ff4ba78ab6c7bb51765d"
+  }
+}

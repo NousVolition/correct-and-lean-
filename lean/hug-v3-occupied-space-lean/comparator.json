@@ -1,0 +1,27 @@
+{
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "challenge_module": "V3OccupiedSpaceChallenge",
+  "solution_module": "V3OccupiedSpaceProofs",
+  "theorem_names": [
+    "HugV3.Source.OccupiedSpaceVerified.margin_is_original",
+    "HugV3.Source.OccupiedSpaceVerified.region_matches_half_permission",
+    "HugV3.Source.OccupiedSpaceVerified.soft_permission_positive",
+    "HugV3.Source.OccupiedSpaceVerified.region_contains_owners_center",
+    "HugV3.Source.OccupiedSpaceVerified.same_audience_regions_overlap",
+    "HugV3.Source.OccupiedSpaceVerified.initial_zero_in_every_guard",
+    "HugV3.Source.OccupiedSpaceVerified.initial_zero_in_every_whole_region",
+    "HugV3.Source.OccupiedSpaceVerified.initial_exclusion_refuted",
+    "HugV3.Source.OccupiedSpaceVerified.full_hybrid_exclusion_refuted",
+    "HugV3.Source.OccupiedSpaceVerified.write_preserves_personal_pulley",
+    "HugV3.Source.OccupiedSpaceVerified.write_preserves_whole_regions",
+    "HugV3.Source.OccupiedSpaceVerified.boundary_preserves_whole_regions",
+    "HugV3.Source.OccupiedSpaceVerified.boundary_preserves_exclusion_status",
+    "HugV3.Source.OccupiedSpaceVerified.delay_uses_buffered_regions",
+    "HugV3.Source.OccupiedSpaceVerified.full_region_motion"
+  ]
+}

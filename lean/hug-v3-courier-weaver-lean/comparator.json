@@ -1,0 +1,25 @@
+{
+  "challenge_module": "CWEnergyChallenge",
+  "solution_module": "CWAll",
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "theorem_names": [
+    "HugV3.Source.CW.spectral_integration_by_parts",
+    "HugV3.Source.CW.raw_weaver_work_is_minus_heat",
+    "HugV3.Source.CW.raw_courier_work_is_zero",
+    "HugV3.Source.CW.accepted_velocity_decomposes",
+    "HugV3.Source.CW.bracket_as_velocity_derivative",
+    "HugV3.Source.CW.reversed_native_roles",
+    "HugV3.Source.CW.pairing_reverses_and_heat_agrees",
+    "HugV3.Source.CW.no_common_coefficient_at_nonzero_pair",
+    "HugV3.Source.CW.dot_pair_is_symmetric",
+    "HugV3.Source.CW.coefficient_at_single_state",
+    "HugV3.Source.CW.initial_state_does_not_identify_coefficient",
+    "HugV3.Source.CW.same_accepted_rate_allows_any_wizard_entry",
+    "HugV3.Source.CW.retained_velocity_work"
+  ]
+}

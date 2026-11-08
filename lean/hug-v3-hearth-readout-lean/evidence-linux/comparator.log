@@ -1,0 +1,48 @@
+Running as unit: hug-hearth-readout-comparator-20261106.service; invocation ID: cbd9c0b9ac294089878ef4ee5e569893
+Building HRWitnessChallenge
+✔ [8763/8775] Built V3SourceCore (8.3s)
+✔ [8764/8775] Built V3SourceMemory (1.7s)
+✔ [8765/8775] Built V3SourceSocial (1.7s)
+✔ [8766/8775] Built V3SourceFlow (1.6s)
+✔ [8767/8775] Built V3SourceGeometry (7.7s)
+✔ [8768/8775] Built V3SourceSystem (1.4s)
+✔ [8769/8775] Built WizardDefinitions (14s)
+✔ [8770/8775] Built CWDefinitions (2.3s)
+✔ [8771/8775] Built HRDefinitions (2.2s)
+⚠ [8772/8775] Built HRChallenge (2.5s)
+warning: HRChallenge.lean:8:8: declaration uses `sorry`
+warning: HRChallenge.lean:11:8: declaration uses `sorry`
+warning: HRChallenge.lean:15:8: declaration uses `sorry`
+warning: HRChallenge.lean:18:8: declaration uses `sorry`
+warning: HRChallenge.lean:21:8: declaration uses `sorry`
+warning: HRChallenge.lean:26:8: declaration uses `sorry`
+warning: HRChallenge.lean:28:8: declaration uses `sorry`
+warning: HRChallenge.lean:30:8: declaration uses `sorry`
+warning: HRChallenge.lean:34:8: declaration uses `sorry`
+warning: HRChallenge.lean:38:8: declaration uses `sorry`
+warning: HRChallenge.lean:41:8: declaration uses `sorry`
+✔ [8773/8775] Built HRWitnessData (2.5s)
+⚠ [8774/8775] Built HRWitnessChallenge (2.5s)
+warning: HRWitnessChallenge.lean:7:8: declaration uses `sorry`
+Build completed successfully (8775 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.HearthReadout.native_heat_form, HugV3.Source.HearthReadout.accepted_work_and_heat_ledgers, HugV3.Source.HearthReadout.ordered_heat_derivative, HugV3.Source.HearthReadout.ordered_kinetic_derivative, HugV3.Source.HearthReadout.changing_order, HugV3.Source.HearthReadout.signed_heat_bound, HugV3.Source.HearthReadout.zero_heat_has_zero_signed_response, HugV3.Source.HearthReadout.work_is_heat_response_along_courier, HugV3.Source.HearthReadout.velocity_reversal, HugV3.Source.HearthReadout.nonzero_signed_reading_excludes_shared_multiplier, HugV3.Source.HearthReadout.encounter_multiplier_criterion, HugV3.Source.HearthReadout.recorded_encounter_refutes_constant_ratio, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from HRWitnessChallenge
+Building HRAll
+✔ [8773/8780] Built CWSpectral (2.7s)
+✔ [8774/8780] Built HRQuadratic (2.7s)
+✔ [8775/8780] Built CWWork (7.6s)
+✔ [8776/8780] Built CWProofs (2.8s)
+✔ [8777/8780] Built CWBalance (2.7s)
+✔ [8778/8780] Built HRProofs (2.9s)
+✔ [8779/8780] Built HRAll (2.5s)
+Build completed successfully (8780 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.HearthReadout.native_heat_form, HugV3.Source.HearthReadout.accepted_work_and_heat_ledgers, HugV3.Source.HearthReadout.ordered_heat_derivative, HugV3.Source.HearthReadout.ordered_kinetic_derivative, HugV3.Source.HearthReadout.changing_order, HugV3.Source.HearthReadout.signed_heat_bound, HugV3.Source.HearthReadout.zero_heat_has_zero_signed_response, HugV3.Source.HearthReadout.work_is_heat_response_along_courier, HugV3.Source.HearthReadout.velocity_reversal, HugV3.Source.HearthReadout.nonzero_signed_reading_excludes_shared_multiplier, HugV3.Source.HearthReadout.encounter_multiplier_criterion, HugV3.Source.HearthReadout.recorded_encounter_refutes_constant_ratio, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from HRAll
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 22.065s
+             CPU time consumed: 1min 43.556s
+                   Memory peak: 9.9G (swap: 0B)

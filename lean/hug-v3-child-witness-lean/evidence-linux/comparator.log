@@ -1,0 +1,92 @@
+Running as unit: hug-v3-child-witness-comparator-20261106c.service; invocation ID: 7c2ee2c3ba06479ea663dde056176eaf
+Building WitnessChallenge
+✔ [3128/3138] Built V3SourceCore (9.0s)
+✔ [3129/3138] Built V3SourceMemory (1.5s)
+✔ [3130/3138] Built V3SourceSocial (1.5s)
+✔ [3131/3138] Built V3SourceFlow (1.3s)
+✔ [3132/3138] Built V3SourceGeometry (6.0s)
+✔ [3133/3138] Built V3SourceSystem (1.3s)
+✔ [3134/3138] Built StreetWholeDefinitions (1.2s)
+✔ [3135/3138] Built V3TransferDefinitions (1.3s)
+✔ [3136/3138] Built WitnessDefinitions (1.1s)
+⚠ [3137/3138] Built WitnessChallenge (1.3s)
+warning: WitnessChallenge.lean:8:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:15:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:20:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:26:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:30:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:34:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:38:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:46:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:52:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:59:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:64:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:69:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:74:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:81:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:85:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:95:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:98:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:103:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:107:8: declaration uses `sorry`
+warning: WitnessChallenge.lean:113:8: declaration uses `sorry`
+Build completed successfully (3138 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.WitnessVerified.declared_event_roles, HugV3.Source.WitnessVerified.actual_built_record_keeps_its_participants, HugV3.Source.WitnessVerified.record_does_not_enter_bystander_retrieval, HugV3.Source.WitnessVerified.first_two_records_have_no_child_channel, HugV3.Source.WitnessVerified.original_personal_rate_uses_present_relationships, HugV3.Source.WitnessVerified.record_scores_have_no_instant_personal_rate, HugV3.Source.WitnessVerified.adverse_record_changes_fathers_recognition_rate, HugV3.Source.WitnessVerified.matched_tests_keep_setting, HugV3.Source.WitnessVerified.fathers_rating_enters_childs_recognition, HugV3.Source.WitnessVerified.childs_recognition_changes_cooperation_rate, HugV3.Source.WitnessVerified.own_cooperation_enters_context_rate, HugV3.Source.WitnessVerified.changed_neighbor_context_enters_child_rate, HugV3.Source.WitnessVerified.uncoupled_neighbor_context_has_zero_effect, HugV3.Source.WitnessVerified.declared_context_response_example, HugV3.Source.WitnessVerified.an_eligible_old_record_can_be_reweighted, HugV3.Source.WitnessVerified.all_accepted_checkpoints_keep_person_and_setting, HugV3.Source.WitnessVerified.actual_trace_context_rate, HugV3.Source.WitnessVerified.actual_trace_has_no_checkpoint_jump_in_context, HugV3.Source.WitnessVerified.nonzero_rate_entails_a_later_change, HugV3.Source.WitnessVerified.distinct_personal_rates_with_same_public_history, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from WitnessChallenge
+Building WitnessProofs
+⚠ [3137/3140] Built StreetWholeProofs (1.8s)
+warning: StreetWholeProofs.lean:26:53: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: StreetWholeProofs.lean:202:104: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3138/3140] Built V3TransferProofs (1.9s)
+warning: V3TransferProofs.lean:148:10: This simp argument is unused:
+  guardSquared
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [guardSquaredRate, Finset.mul_sum, pow_two, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3TransferProofs.lean:148:40: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [guardSquared, guardSquaredRate, pow_two, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3TransferProofs.lean:147:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3TransferProofs.lean:148:74: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3TransferProofs.lean:152:32: Variable name `hpartners` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpartners
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3139/3140] Built WitnessProofs (2.0s)
+info: WitnessProofs.lean:31:14: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: WitnessProofs.lean:31:10: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WitnessProofs.lean:188:11: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3140 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.WitnessVerified.declared_event_roles, HugV3.Source.WitnessVerified.actual_built_record_keeps_its_participants, HugV3.Source.WitnessVerified.record_does_not_enter_bystander_retrieval, HugV3.Source.WitnessVerified.first_two_records_have_no_child_channel, HugV3.Source.WitnessVerified.original_personal_rate_uses_present_relationships, HugV3.Source.WitnessVerified.record_scores_have_no_instant_personal_rate, HugV3.Source.WitnessVerified.adverse_record_changes_fathers_recognition_rate, HugV3.Source.WitnessVerified.matched_tests_keep_setting, HugV3.Source.WitnessVerified.fathers_rating_enters_childs_recognition, HugV3.Source.WitnessVerified.childs_recognition_changes_cooperation_rate, HugV3.Source.WitnessVerified.own_cooperation_enters_context_rate, HugV3.Source.WitnessVerified.changed_neighbor_context_enters_child_rate, HugV3.Source.WitnessVerified.uncoupled_neighbor_context_has_zero_effect, HugV3.Source.WitnessVerified.declared_context_response_example, HugV3.Source.WitnessVerified.an_eligible_old_record_can_be_reweighted, HugV3.Source.WitnessVerified.all_accepted_checkpoints_keep_person_and_setting, HugV3.Source.WitnessVerified.actual_trace_context_rate, HugV3.Source.WitnessVerified.actual_trace_has_no_checkpoint_jump_in_context, HugV3.Source.WitnessVerified.nonzero_rate_entails_a_later_change, HugV3.Source.WitnessVerified.distinct_personal_rates_with_same_public_history, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from WitnessProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 52.028s
+             CPU time consumed: 1min 3.419s
+                   Memory peak: 5.3G (swap: 0B)

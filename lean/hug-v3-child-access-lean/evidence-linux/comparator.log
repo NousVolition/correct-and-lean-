@@ -1,0 +1,87 @@
+Running as unit: hug-v3-child-access-comparator-20261106d.service; invocation ID: d06935ae98ce4815a969804875d6e6e7
+Building AccessChallenge
+✔ [3128/3139] Built V3SourceCore (8.0s)
+✔ [3129/3139] Built V3SourceMemory (1.7s)
+✔ [3130/3139] Built V3SourceSocial (1.7s)
+✔ [3131/3139] Built V3SourceFlow (1.5s)
+✔ [3132/3139] Built V3SourceGeometry (7.4s)
+✔ [3133/3139] Built V3SourceSystem (1.4s)
+✔ [3134/3139] Built StreetWholeDefinitions (1.3s)
+✔ [3135/3139] Built V3TransferDefinitions (1.4s)
+✔ [3136/3139] Built WitnessDefinitions (1.2s)
+✔ [3137/3139] Built AccessDefinitions (1.3s)
+⚠ [3138/3139] Built AccessChallenge (1.3s)
+warning: AccessChallenge.lean:7:8: declaration uses `sorry`
+warning: AccessChallenge.lean:13:8: declaration uses `sorry`
+warning: AccessChallenge.lean:16:8: declaration uses `sorry`
+warning: AccessChallenge.lean:20:8: declaration uses `sorry`
+warning: AccessChallenge.lean:24:8: declaration uses `sorry`
+warning: AccessChallenge.lean:29:8: declaration uses `sorry`
+warning: AccessChallenge.lean:36:8: declaration uses `sorry`
+warning: AccessChallenge.lean:45:8: declaration uses `sorry`
+warning: AccessChallenge.lean:51:8: declaration uses `sorry`
+warning: AccessChallenge.lean:56:8: declaration uses `sorry`
+warning: AccessChallenge.lean:65:8: declaration uses `sorry`
+warning: AccessChallenge.lean:70:8: declaration uses `sorry`
+warning: AccessChallenge.lean:77:8: declaration uses `sorry`
+Build completed successfully (3139 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.AccessVerified.paired_diaries_on_the_timeline, HugV3.Source.AccessVerified.native_trace_set_for_either_diary, HugV3.Source.AccessVerified.native_history_cannot_identify_direct_access, HugV3.Source.AccessVerified.actual_incident_stays_scored_for_dad, HugV3.Source.AccessVerified.incident_record_excludes_unfinished_predecessor, HugV3.Source.AccessVerified.later_record_to_child_links_both_earlier_events, HugV3.Source.AccessVerified.predecessor_bits_do_not_drive_direct_retrieval, HugV3.Source.AccessVerified.earlier_dad_records_still_outside_child_channel, HugV3.Source.AccessVerified.missing_or_wrong_crossing_is_unassessed, HugV3.Source.AccessVerified.observed_access_allows_different_report_patterns, HugV3.Source.AccessVerified.different_validated_readings_require_different_personal_contexts, HugV3.Source.AccessVerified.conditional_response_difference_uses_original_c_rate, HugV3.Source.AccessVerified.conditional_increment_can_be_zero_or_have_either_sign, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from AccessChallenge
+Building AccessProofs
+⚠ [3138/3142] Built StreetWholeProofs (1.0s)
+warning: StreetWholeProofs.lean:26:53: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: StreetWholeProofs.lean:202:104: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3139/3142] Built V3TransferProofs (2.0s)
+warning: V3TransferProofs.lean:148:10: This simp argument is unused:
+  guardSquared
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [guardSquaredRate, Finset.mul_sum, pow_two, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3TransferProofs.lean:148:40: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [guardSquared, guardSquaredRate, pow_two, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3TransferProofs.lean:147:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3TransferProofs.lean:148:74: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3TransferProofs.lean:152:32: Variable name `hpartners` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpartners
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3140/3142] Built WitnessProofs (2.1s)
+info: WitnessProofs.lean:31:14: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: WitnessProofs.lean:31:10: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WitnessProofs.lean:188:11: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3141/3142] Built AccessProofs (1.6s)
+Build completed successfully (3142 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.AccessVerified.paired_diaries_on_the_timeline, HugV3.Source.AccessVerified.native_trace_set_for_either_diary, HugV3.Source.AccessVerified.native_history_cannot_identify_direct_access, HugV3.Source.AccessVerified.actual_incident_stays_scored_for_dad, HugV3.Source.AccessVerified.incident_record_excludes_unfinished_predecessor, HugV3.Source.AccessVerified.later_record_to_child_links_both_earlier_events, HugV3.Source.AccessVerified.predecessor_bits_do_not_drive_direct_retrieval, HugV3.Source.AccessVerified.earlier_dad_records_still_outside_child_channel, HugV3.Source.AccessVerified.missing_or_wrong_crossing_is_unassessed, HugV3.Source.AccessVerified.observed_access_allows_different_report_patterns, HugV3.Source.AccessVerified.different_validated_readings_require_different_personal_contexts, HugV3.Source.AccessVerified.conditional_response_difference_uses_original_c_rate, HugV3.Source.AccessVerified.conditional_increment_can_be_zero_or_have_either_sign, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from AccessProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 54.452s
+             CPU time consumed: 1min 7.655s
+                   Memory peak: 5.3G (swap: 0B)

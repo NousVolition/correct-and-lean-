@@ -1,0 +1,16 @@
+{
+  "frozen_utc": "2026-11-05T03:27:41.755018+00:00",
+  "theorems": [
+    "ContextAudit.Verified.city_only_iff_same_result",
+    "ContextAudit.Verified.differing_people_prevent_city_only",
+    "ContextAudit.Verified.example_cannot_forget_person"
+  ],
+  "files": {
+    "ContextDefinitions.lean": "5af6ee583212530bfa48ac799b1c7e5a08837d960ac2f8d782a8494039ecd85d",
+    "ContextChallenge.lean": "fbbd5fbdc05487f17735ec4715f63873c8718f36d57194ecbb982b7130ec7e15",
+    "comparator.json": "b8c20637899005c5d08533e64eb59da8717183cdd394ff13547f3422bd2363de"
+  },
+  "source_files": {},
+  "revisions": [],
+  "scope": "Only the contextual omission criterion, not any Millennium conjecture."
+}

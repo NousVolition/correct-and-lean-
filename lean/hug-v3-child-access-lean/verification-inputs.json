@@ -1,0 +1,26 @@
+{
+  "sealed_utc": "2026-11-07T03:21:14.289075+00:00",
+  "files": {
+    "AccessChallenge.lean": "88a6ae7bb417dd3bdf8a0651897a54e409a4ee39c1f6374d016dcfcb16c2b908",
+    "AccessDefinitions.lean": "9d7d08a554a2e1359f318ef67f7e31b7ad56871511617d4f7c0294fb8e9e9a6c",
+    "AccessProofs.lean": "abe416303d776d8337794d302daa88f6fa836d34daa111c63b97a7d532f15523",
+    "StreetWholeDefinitions.lean": "ec883d3aa4620bd4f2774a4428ee9a756bdb75a60978e549a9f0668af38435a7",
+    "StreetWholeProofs.lean": "ccd30074abe60d664cfe5b775a661e1923390983716b602316fff9190078ba21",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "V3TransferDefinitions.lean": "160c70e7250161f2248dcbecfb6f92d1a61623498329d6fe5220bbe30d1b1ce7",
+    "V3TransferProofs.lean": "602989250085298c16f3b18ac22c1e0b1d82bc7ceb0d0b2bcb0d58c2ff802437",
+    "WitnessDefinitions.lean": "a9d90f6246e6a9a066ab70227e88ce61368ee10063de96148eb27af080d8fd93",
+    "WitnessProofs.lean": "37b9d3ff64a45a271fc1dbb05b12293bd1e960d524aac68feef1d495993cae75",
+    "lakefile.toml": "ede20d1521655ad01de18a32a985cae6cba78b9bc0ad1dc3f87af76e2f560c59",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "comparator.json": "bf31a4efee62ae3e541bbccb627b7f955f43707efaec0f60af8406f244c2990c",
+    "reference-freeze-current.json": "5ce2b36bd8156355db45a099647e87df318944f517b002baf51fe575d542385b",
+    "run-linux-check.sh": "fedf773845394a97895d683561ca0b84fd9fdc1d04e3e7a93567a6a2a12eeb6a"
+  }
+}

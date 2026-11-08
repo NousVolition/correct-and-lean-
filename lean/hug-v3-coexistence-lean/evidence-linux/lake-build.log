@@ -1,0 +1,33 @@
+⚠ [3124/3155] Replayed V3SourceProofs
+warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [3129/3155] Replayed V3DelayProofs
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3138/3155] Replayed V3BridgeReturnProofs
+warning: V3BridgeReturnProofs.lean:84:49: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: V3BridgeReturnProofs.lean:197:13: Variable name `hk` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hk
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3151/3155] Replayed V3ORuminationProofs
+warning: V3ORuminationProofs.lean:113:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3ORuminationProofs.lean:233:5: Variable name `hnow` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnow
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3154/3155] Replayed V3CoexistenceProofs
+warning: V3CoexistenceProofs.lean:41:8: `continuousOn_finset_sum` has been deprecated: Use `continuousOn_finsetSum` instead
+warning: V3CoexistenceProofs.lean:115:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: V3CoexistenceProofs.lean:118:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+Build completed successfully (3155 jobs).

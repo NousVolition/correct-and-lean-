@@ -1,0 +1,30 @@
+{
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "challenge_module": "V3BridgeReturnChallenge",
+  "solution_module": "V3BridgeReturnProofs",
+  "theorem_names": [
+    "HugV3.Source.BridgeReturnVerified.write_preserves_person_group_state",
+    "HugV3.Source.BridgeReturnVerified.write_preserves_source_accumulator",
+    "HugV3.Source.BridgeReturnVerified.write_work_nondecreasing",
+    "HugV3.Source.BridgeReturnVerified.write_preserves_destination",
+    "HugV3.Source.BridgeReturnVerified.same_destination_with_new_residue",
+    "HugV3.Source.BridgeReturnVerified.successful_write_retains_occupied_slot_bytes",
+    "HugV3.Source.BridgeReturnVerified.full_trace_retains_records_between_writes",
+    "HugV3.Source.BridgeReturnVerified.conditional_fabric_durability_through_full_trace",
+    "HugV3.Source.BridgeReturnVerified.full_trace_write_work_constant_between_writes",
+    "HugV3.Source.BridgeReturnVerified.full_trace_write_work_nondecreasing_at_checkpoints",
+    "HugV3.Source.BridgeReturnVerified.positive_write_work_precludes_full_reset",
+    "HugV3.Source.BridgeReturnVerified.record_relevance_positive_and_bounded",
+    "HugV3.Source.BridgeReturnVerified.stable_record_with_changed_relevance",
+    "HugV3.Source.BridgeReturnVerified.declared_route_closes_at_first_teacher",
+    "HugV3.Source.BridgeReturnVerified.no_later_declared_reply_to_student",
+    "HugV3.Source.BridgeReturnVerified.witness_preserves_original_intent_expression",
+    "HugV3.Source.BridgeReturnVerified.expression_rate_can_leave_intent",
+    "HugV3.Source.BridgeReturnVerified.accepted_full_rate_can_leave_intent"
+  ]
+}

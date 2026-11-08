@@ -1,0 +1,84 @@
+Running as unit: apple-existence-comparator-20261107.service; invocation ID: e22b563e79cb468ea7d34ad75cd7ab20
+Building AppleExistenceChallenge
+✔ [8763/8781] Built V3SourceCore (9.1s)
+✔ [8764/8781] Built V3SourceMemory (1.6s)
+✔ [8765/8781] Built V3SourceSocial (1.6s)
+✔ [8766/8781] Built V3SourceFlow (1.4s)
+✔ [8767/8781] Built V3SourceGeometry (7.1s)
+✔ [8768/8781] Built V3SourceSystem (1.2s)
+✔ [8769/8781] Built StreetWholeDefinitions (1.3s)
+✔ [8770/8781] Built V3DelayDefinitions (1.3s)
+✔ [8771/8781] Built V3TransferDefinitions (1.4s)
+✔ [8772/8781] Built V3YangMillsAuditDefinitions (1.2s)
+✔ [8773/8781] Built WitnessDefinitions (1.3s)
+✔ [8774/8781] Built AccessDefinitions (1.2s)
+✔ [8775/8781] Built AccountDefinitions (1.3s)
+✔ [8776/8781] Built TransitionDefinitions (12s)
+✔ [8777/8781] Built AppleBandDefinitions (2.5s)
+✔ [8778/8781] Built AppleFlowDefinitions (2.2s)
+✔ [8779/8781] Built AppleExistenceDefinitions (2.8s)
+⚠ [8780/8781] Built AppleExistenceChallenge (2.5s)
+warning: AppleExistenceChallenge.lean:8:8: declaration uses `sorry`
+warning: AppleExistenceChallenge.lean:10:8: declaration uses `sorry`
+warning: AppleExistenceChallenge.lean:12:8: declaration uses `sorry`
+warning: AppleExistenceChallenge.lean:15:8: declaration uses `sorry`
+warning: AppleExistenceChallenge.lean:17:8: declaration uses `sorry`
+warning: AppleExistenceChallenge.lean:20:8: declaration uses `sorry`
+warning: AppleExistenceChallenge.lean:27:8: declaration uses `sorry`
+warning: AppleExistenceChallenge.lean:31:8: declaration uses `sorry`
+warning: AppleExistenceChallenge.lean:33:8: declaration uses `sorry`
+warning: AppleExistenceChallenge.lean:35:8: declaration uses `sorry`
+warning: AppleExistenceChallenge.lean:39:8: declaration uses `sorry`
+warning: AppleExistenceChallenge.lean:43:8: declaration uses `sorry`
+warning: AppleExistenceChallenge.lean:48:8: declaration uses `sorry`
+Build completed successfully (8781 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.AppleExistence.initial_read_is_empty, HugV3.Source.AppleExistence.source_power_floor, HugV3.Source.AppleExistence.initial_full_rate_defined, HugV3.Source.AppleExistence.full_coordinate_round_trip, HugV3.Source.AppleExistence.packed_derivative_iff, HugV3.Source.AppleExistence.tube_supplies_unique_full_segment, HugV3.Source.AppleExistence.material_carrier_unique_on_trace, HugV3.Source.AppleExistence.full_apple_iff_source, HugV3.Source.AppleExistence.certificate_gives_full_apple, HugV3.Source.AppleExistence.initial_ball_full_rate_defined, HugV3.Source.AppleExistence.rounding_seam_switches_fabric_bit, HugV3.Source.AppleExistence.opposite_codes_preclude_one_domain_ball, HugV3.Source.AppleExistence.recorded_cell_precludes_one_domain_ball, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from AppleExistenceChallenge
+Building AppleExistenceProofs
+✔ [8780/8797] Built V3ClayDefinitions (1.6s)
+⚠ [8781/8797] Built V3SourceProofs (2.0s)
+warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [8782/8797] Built StreetWholeProofs (2.3s)
+warning: StreetWholeProofs.lean:26:53: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: StreetWholeProofs.lean:202:104: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8783/8797] Built V3YangMillsAuditProofs (3.4s)
+warning: V3YangMillsAuditProofs.lean:186:19: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:190:21: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8784/8797] Built V3ClayProofs (2.1s)
+✔ [8785/8797] Built ApplePackedProofs (3.6s)
+✔ [8786/8797] Built AppleBandTopology (3.8s)
+✔ [8787/8797] Built AppleFlowBounds (3.8s)
+✔ [8788/8797] Built TransitionProofs (3.5s)
+✔ [8789/8797] Built AppleBandProofs (3.2s)
+✔ [8790/8797] Built AppleTraceVelocity (2.6s)
+✔ [8791/8797] Built AppleTubeProofs (3.0s)
+✔ [8792/8797] Built AppleRealFlow (3.2s)
+✔ [8793/8797] Built AppleCarrierUniqueness (2.7s)
+✔ [8794/8797] Built AppleInitialProofs (16s)
+✔ [8795/8797] Built AppleScheduleProofs (2.5s)
+✔ [8796/8797] Built AppleExistenceProofs (2.1s)
+Build completed successfully (8797 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.AppleExistence.initial_read_is_empty, HugV3.Source.AppleExistence.source_power_floor, HugV3.Source.AppleExistence.initial_full_rate_defined, HugV3.Source.AppleExistence.full_coordinate_round_trip, HugV3.Source.AppleExistence.packed_derivative_iff, HugV3.Source.AppleExistence.tube_supplies_unique_full_segment, HugV3.Source.AppleExistence.material_carrier_unique_on_trace, HugV3.Source.AppleExistence.full_apple_iff_source, HugV3.Source.AppleExistence.certificate_gives_full_apple, HugV3.Source.AppleExistence.initial_ball_full_rate_defined, HugV3.Source.AppleExistence.rounding_seam_switches_fabric_bit, HugV3.Source.AppleExistence.opposite_codes_preclude_one_domain_ball, HugV3.Source.AppleExistence.recorded_cell_precludes_one_domain_ball, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from AppleExistenceProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 2min 25.821s
+             CPU time consumed: 3min 30.772s
+                   Memory peak: 11.2G (swap: 0B)

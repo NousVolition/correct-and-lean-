@@ -1,0 +1,17 @@
+⚠ [3113/3116] Replayed StreetWholeProofs
+warning: StreetWholeProofs.lean:26:53: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: StreetWholeProofs.lean:202:104: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [3115/3116] Built StreetWholeExamples (1.5s)
+info: StreetWholeExamples.lean:68:0: 'HugV3.Source.StreetWholeVerified.nonzero_context_shift_reduces_matched_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: StreetWholeExamples.lean:69:0: 'HugV3.Source.StreetWholeVerified.accepted_full_rhs_keeps_the_coupling' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: StreetWholeExamples.lean:70:0: 'HugV3.Source.StreetWholeVerified.larger_band_edge_is_on' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: StreetWholeExamples.lean:71:0: 'HugV3.Source.StreetWholeVerified.successful_write_preserves_person_and_line' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (3116 jobs).

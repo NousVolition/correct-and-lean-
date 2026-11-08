@@ -1,0 +1,203 @@
+{
+  "checked_utc": "2026-11-05T05:08:19.516792+00:00",
+  "user_date": "2026-11-04 America/Los_Angeles",
+  "result": "PASS for 21 scoped auxiliary claims; P-versus-NP connection remains conditional",
+  "lean_build": "PASS",
+  "comparator": "PASS",
+  "independent_nanoda": "PASS",
+  "theorems": [
+    "PersonEnvironment.Verified.scan_sound",
+    "PersonEnvironment.Verified.scan_none_iff",
+    "PersonEnvironment.Verified.scan_checks_le_length",
+    "PersonEnvironment.Verified.failed_scan_checks_every_candidate",
+    "PersonEnvironment.Verified.certificate_membership",
+    "PersonEnvironment.Verified.certificate_count",
+    "PersonEnvironment.Verified.memory_first_sound",
+    "PersonEnvironment.Verified.memory_first_none_iff",
+    "PersonEnvironment.Verified.memory_first_finds_iff",
+    "PersonEnvironment.Verified.different_experience_preserves_decision",
+    "PersonEnvironment.Verified.changed_person_same_check_preserves_decision",
+    "PersonEnvironment.Verified.successful_memory_skips_fallback",
+    "PersonEnvironment.Verified.failed_memory_adds_checks",
+    "PersonEnvironment.Verified.rejecting_fallback_exact_count",
+    "PersonEnvironment.Verified.faithful_checker_gives_valid_answer",
+    "PersonEnvironment.Verified.full_hug_current_context_checked",
+    "PersonEnvironment.Verified.original_guard_is_unchanged",
+    "PersonEnvironment.Verified.original_retrieval_is_unchanged",
+    "PersonEnvironment.Verified.memory_only_can_miss_answer",
+    "PersonEnvironment.Verified.different_memory_same_answer_different_checks",
+    "PersonEnvironment.Verified.stale_answer_is_rechecked"
+  ],
+  "semantic_status": "Proposed corpus-to-computation bridge, not empirical validation or a definition of P and NP",
+  "p_equals_np_proved": false,
+  "p_not_equal_np_proved": false,
+  "original_lean_files_preserved": 270,
+  "original_model_copies_preserved": 6,
+  "corrected_corpus_preserved": true,
+  "reference_targets_unchanged": true,
+  "no_sorry_admit_added_axiom_or_native_decide_in_solution": true,
+  "numeric_diagnostics": [
+    {
+      "scenario": "good remembered candidate",
+      "answer": [
+        true
+      ],
+      "checker_calls": 1
+    },
+    {
+      "scenario": "failed memory then same bounded fallback",
+      "answer": [
+        true
+      ],
+      "checker_calls": 4
+    },
+    {
+      "scenario": "changed criterion rejects old answer",
+      "answer": [
+        false
+      ],
+      "checker_calls": 3
+    },
+    {
+      "scenario": "all reject at certificate length bound 3",
+      "answer": null,
+      "checker_calls": 15
+    }
+  ],
+  "cost_scope": "Checker invocations only; excludes checker implementation cost, candidate generation, learning, encoding, retrieval, filtering, and materializing the fallback.",
+  "unproved_connections": [
+    "Derive a candidate generator from the unchanged Hug retrieval and guard rules.",
+    "Define intended correctness and prove the current checker faithful to it.",
+    "Encode the relevant full person/environment information finitely without changing the decision.",
+    "Provide an executable checker with polynomial runtime and a polynomial witness bound.",
+    "Account for all preparation and computation costs and give a uniform complexity proof.",
+    "Prove validity during an evolving encounter, including any needed rechecking protocol."
+  ],
+  "no_new_full_hug_simulation_or_existence_theorem": true,
+  "preflight": {
+    "uid": 1000,
+    "solution_precompiled": false,
+    "source_files": {
+      "PersonEnvironmentChallenge.lean": "512bc2e3f136447c00f7621c0568e7d450d07a58c44f8011fced37061a048dcb",
+      "PersonEnvironmentDefinitions.lean": "ea0e58b7945a3677bbd4bef19d40ea0fb44f6c7ba9aaaadb30736ce2ab13a43a",
+      "PersonEnvironmentExamples.lean": "771d7bdde4312de0e0479a2b2940b4bf03c800c149c54a35129a5c04af18642c",
+      "PersonEnvironmentProofs.lean": "bccc6497425775b4fc71b100de81fa046ce280616bfff8b28ede3f2572e8f320",
+      "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+      "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+      "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+      "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+      "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+      "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+      "lakefile.toml": "945497e0d78f711a078886134fb484d714f8d1cf0c2184b4cf171815767b3d92",
+      "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+      "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+      "comparator.json": "cfa57056a0ab75e3086798fb8bbfd6008ff1785abfd892b238f8648f7322f880",
+      "reference-freeze-current.json": "9b1cd666e3d32cc19ce447b72eb50ecbd5ceb7027dfb412e5f6b0611a388e8d6",
+      "run-linux-check.sh": "f2288b0ebed272d16eaae1c8fc4ff4b3b422edfad9255ce7000c0b7bb48786a8"
+    },
+    "dependencies": [
+      {
+        "name": "Comparator",
+        "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+        "clean": true
+      },
+      {
+        "name": "mathlib",
+        "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+        "clean": true
+      },
+      {
+        "name": "lean4export",
+        "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+        "clean": true
+      },
+      {
+        "name": "plausible",
+        "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+        "clean": true
+      },
+      {
+        "name": "LeanSearchClient",
+        "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+        "clean": true
+      },
+      {
+        "name": "importGraph",
+        "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+        "clean": true
+      },
+      {
+        "name": "proofwidgets",
+        "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+        "clean": true
+      },
+      {
+        "name": "aesop",
+        "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+        "clean": true
+      },
+      {
+        "name": "Qq",
+        "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+        "clean": true
+      },
+      {
+        "name": "batteries",
+        "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+        "clean": true
+      },
+      {
+        "name": "Cli",
+        "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+        "clean": true
+      }
+    ],
+    "binaries": {
+      "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "/home/nsverify/verification/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
+      "/home/nsverify/verification/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
+      "/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
+      "/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
+      "/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+    },
+    "config": {
+      "enable_nanoda": true,
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "challenge_module": "PersonEnvironmentChallenge",
+      "solution_module": "PersonEnvironmentProofs",
+      "theorem_names": [
+        "PersonEnvironment.Verified.scan_sound",
+        "PersonEnvironment.Verified.scan_none_iff",
+        "PersonEnvironment.Verified.scan_checks_le_length",
+        "PersonEnvironment.Verified.failed_scan_checks_every_candidate",
+        "PersonEnvironment.Verified.certificate_membership",
+        "PersonEnvironment.Verified.certificate_count",
+        "PersonEnvironment.Verified.memory_first_sound",
+        "PersonEnvironment.Verified.memory_first_none_iff",
+        "PersonEnvironment.Verified.memory_first_finds_iff",
+        "PersonEnvironment.Verified.different_experience_preserves_decision",
+        "PersonEnvironment.Verified.changed_person_same_check_preserves_decision",
+        "PersonEnvironment.Verified.successful_memory_skips_fallback",
+        "PersonEnvironment.Verified.failed_memory_adds_checks",
+        "PersonEnvironment.Verified.rejecting_fallback_exact_count",
+        "PersonEnvironment.Verified.faithful_checker_gives_valid_answer",
+        "PersonEnvironment.Verified.full_hug_current_context_checked",
+        "PersonEnvironment.Verified.original_guard_is_unchanged",
+        "PersonEnvironment.Verified.original_retrieval_is_unchanged",
+        "PersonEnvironment.Verified.memory_only_can_miss_answer",
+        "PersonEnvironment.Verified.different_memory_same_answer_different_checks",
+        "PersonEnvironment.Verified.stale_answer_is_rechecked"
+      ]
+    },
+    "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)"
+  },
+  "postflight": {
+    "source_hashes_unchanged": true,
+    "dependency_commits_unchanged": true,
+    "dependency_sources_clean": true
+  }
+}

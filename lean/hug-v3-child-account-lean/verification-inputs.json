@@ -1,0 +1,28 @@
+{
+  "sealed_utc": "2026-11-07T04:16:59.073129+00:00",
+  "files": {
+    "AccessDefinitions.lean": "9d7d08a554a2e1359f318ef67f7e31b7ad56871511617d4f7c0294fb8e9e9a6c",
+    "AccessProofs.lean": "abe416303d776d8337794d302daa88f6fa836d34daa111c63b97a7d532f15523",
+    "AccountChallenge.lean": "2db44b169e9f65667d46b4de90c3d81ee172c18e7bd2ca2b620ab8342f916d10",
+    "AccountDefinitions.lean": "12316adb920871bd514ca6c35f41616f264384a07e2d7fc61652948e88e7a65c",
+    "AccountProofs.lean": "4a73a64e70bf4ffc65523fda41412529d68ec02cc67b6a69c06fc11b149aedb0",
+    "StreetWholeDefinitions.lean": "ec883d3aa4620bd4f2774a4428ee9a756bdb75a60978e549a9f0668af38435a7",
+    "StreetWholeProofs.lean": "ccd30074abe60d664cfe5b775a661e1923390983716b602316fff9190078ba21",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "V3TransferDefinitions.lean": "160c70e7250161f2248dcbecfb6f92d1a61623498329d6fe5220bbe30d1b1ce7",
+    "V3TransferProofs.lean": "602989250085298c16f3b18ac22c1e0b1d82bc7ceb0d0b2bcb0d58c2ff802437",
+    "WitnessDefinitions.lean": "a9d90f6246e6a9a066ab70227e88ce61368ee10063de96148eb27af080d8fd93",
+    "WitnessProofs.lean": "37b9d3ff64a45a271fc1dbb05b12293bd1e960d524aac68feef1d495993cae75",
+    "lakefile.toml": "1df4098f3c5edf58b5c7dc7a2c76541953f8ea2448e2ff76fe0b53cdf911337a",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "comparator.json": "4892d460ce28eb328b72dd170b8c160178c103d5c3d0fc7887d496715f3fc973",
+    "reference-freeze-current.json": "2a04411a32c8e9f058991e08f1d92c98c528876ce533f6e470738e070859ad5a",
+    "run-linux-check.sh": "5b5d4caaeb15703c7c55e70b0d3701599a492237e6a758af140712911364834a"
+  }
+}

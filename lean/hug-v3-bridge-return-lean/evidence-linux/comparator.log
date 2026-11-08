@@ -1,0 +1,77 @@
+Running as unit: hug-v3-bridge-return-comparator-20261103.service; invocation ID: 6642883f1ac64694919c44e612be7af5
+Building V3BridgeReturnChallenge
+✔ [3117/3133] Built V3SourceCore (9.7s)
+✔ [3118/3133] Built V3SourceMemory (1.7s)
+✔ [3119/3133] Built V3SourceSocial (1.6s)
+✔ [3120/3133] Built V3SourceFlow (1.5s)
+✔ [3121/3133] Built V3SourceGeometry (7.7s)
+✔ [3122/3133] Built V3SourceSystem (1.4s)
+✔ [3123/3133] Built V3DelayDefinitions (1.3s)
+✔ [3124/3133] Built V3ClayDefinitions (1.4s)
+⚠ [3125/3133] Built V3SourceProofs (1.6s)
+warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+✔ [3126/3133] Built V3MemoryRulesDefinitions (1.3s)
+⚠ [3127/3133] Built V3DelayProofs (1.4s)
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3128/3133] Built V3ClayProofs (1.8s)
+✔ [3129/3133] Built V3MemoryRulesProofs (2.1s)
+✔ [3130/3133] Built V3ClayTrajectoryProofs (1.5s)
+✔ [3131/3133] Built V3BridgeReturnDefinitions (1.4s)
+⚠ [3132/3133] Built V3BridgeReturnChallenge (1.4s)
+warning: V3BridgeReturnChallenge.lean:8:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:11:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:14:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:17:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:22:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:27:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:32:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:36:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:43:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:47:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:50:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:54:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:58:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:66:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:71:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:75:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:78:8: declaration uses `sorry`
+warning: V3BridgeReturnChallenge.lean:82:8: declaration uses `sorry`
+Build completed successfully (3133 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.BridgeReturnVerified.write_preserves_person_group_state, HugV3.Source.BridgeReturnVerified.write_preserves_source_accumulator, HugV3.Source.BridgeReturnVerified.write_work_nondecreasing, HugV3.Source.BridgeReturnVerified.write_preserves_destination, HugV3.Source.BridgeReturnVerified.same_destination_with_new_residue, HugV3.Source.BridgeReturnVerified.successful_write_retains_occupied_slot_bytes, HugV3.Source.BridgeReturnVerified.full_trace_retains_records_between_writes, HugV3.Source.BridgeReturnVerified.conditional_fabric_durability_through_full_trace, HugV3.Source.BridgeReturnVerified.full_trace_write_work_constant_between_writes, HugV3.Source.BridgeReturnVerified.full_trace_write_work_nondecreasing_at_checkpoints, HugV3.Source.BridgeReturnVerified.positive_write_work_precludes_full_reset, HugV3.Source.BridgeReturnVerified.record_relevance_positive_and_bounded, HugV3.Source.BridgeReturnVerified.stable_record_with_changed_relevance, HugV3.Source.BridgeReturnVerified.declared_route_closes_at_first_teacher, HugV3.Source.BridgeReturnVerified.no_later_declared_reply_to_student, HugV3.Source.BridgeReturnVerified.witness_preserves_original_intent_expression, HugV3.Source.BridgeReturnVerified.expression_rate_can_leave_intent, HugV3.Source.BridgeReturnVerified.accepted_full_rate_can_leave_intent, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3BridgeReturnChallenge
+Building V3BridgeReturnProofs
+⚠ [3123/3132] Replayed V3SourceProofs
+warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [3128/3132] Replayed V3DelayProofs
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3138/3139] Built V3BridgeReturnProofs (1.9s)
+warning: V3BridgeReturnProofs.lean:84:49: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: V3BridgeReturnProofs.lean:197:13: Variable name `hk` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hk
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (3139 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.BridgeReturnVerified.write_preserves_person_group_state, HugV3.Source.BridgeReturnVerified.write_preserves_source_accumulator, HugV3.Source.BridgeReturnVerified.write_work_nondecreasing, HugV3.Source.BridgeReturnVerified.write_preserves_destination, HugV3.Source.BridgeReturnVerified.same_destination_with_new_residue, HugV3.Source.BridgeReturnVerified.successful_write_retains_occupied_slot_bytes, HugV3.Source.BridgeReturnVerified.full_trace_retains_records_between_writes, HugV3.Source.BridgeReturnVerified.conditional_fabric_durability_through_full_trace, HugV3.Source.BridgeReturnVerified.full_trace_write_work_constant_between_writes, HugV3.Source.BridgeReturnVerified.full_trace_write_work_nondecreasing_at_checkpoints, HugV3.Source.BridgeReturnVerified.positive_write_work_precludes_full_reset, HugV3.Source.BridgeReturnVerified.record_relevance_positive_and_bounded, HugV3.Source.BridgeReturnVerified.stable_record_with_changed_relevance, HugV3.Source.BridgeReturnVerified.declared_route_closes_at_first_teacher, HugV3.Source.BridgeReturnVerified.no_later_declared_reply_to_student, HugV3.Source.BridgeReturnVerified.witness_preserves_original_intent_expression, HugV3.Source.BridgeReturnVerified.expression_rate_can_leave_intent, HugV3.Source.BridgeReturnVerified.accepted_full_rate_can_leave_intent, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3BridgeReturnProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 910ms
+             CPU time consumed: 1min 12.534s
+                   Memory peak: 5.4G (swap: 0B)

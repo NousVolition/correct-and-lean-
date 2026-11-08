@@ -1,0 +1,30 @@
+{
+  "sealed_utc": "2026-11-04T03:08:14.989117+00:00",
+  "files": {
+    "V3BridgeReturnDefinitions.lean": "e2d6c33158d28f7037a4d865a48a57c0bb1bb6df7762ded8682e6b46f458aff0",
+    "V3BridgeReturnProofs.lean": "a49dcf6910a04c03042f42972ce3cd3b124fc3d491ab12b32277100e7f9c8a1a",
+    "V3ClayDefinitions.lean": "4c33c0f6bf7895a75203459bdf78343c62041e0d565949040945699f5bdd7424",
+    "V3ClayProofs.lean": "c56133b0691a5b9c2d381fdbbb00435831f3c8772cebd1c33eb0d8fc366a1843",
+    "V3ClayTrajectoryProofs.lean": "f3f6a976ef092fa9487365ec416b0773009dfb223f60a578b3ce64910cc475a4",
+    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+    "V3DelayProofs.lean": "a21e672f3309abee5e49b1767d475483591076a681c38229461cbf30e0247fdc",
+    "V3MemoryRulesDefinitions.lean": "6849f65909065ca3929e15ed08947cc9859e2adc82c513a8544a9065ba321dec",
+    "V3MemoryRulesProofs.lean": "c42d82f6a82d8e2ad68d7b3b09e6e06c81d48c0872c4a0827eb900b980acfd04",
+    "V3ORuminationChallenge.lean": "ab157ef01d7b6966a74e80e9e613ddb8e16abbcae37fda7ff30e3d746fdc6e65",
+    "V3ORuminationDefinitions.lean": "e85a42c5280fb742c1a357e38d0328b2bd01e20dfcd343f7820f0c7e2e46229e",
+    "V3ORuminationProofs.lean": "88b7604e5d279daf19200d3bac9f92f8cb66de07e3e8df6d5d91c0a4228d15e6",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceProofs.lean": "bc33166378e84da1ffb2391c2c22250cb30ad3d6db69d367df539522b769f885",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "lakefile.toml": "916a5c8dda1fc0ea301c51769518b34d17d8afaf8c2ca2a96cb62abfa6da7363",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "comparator.json": "e62f3b55b6b8455bc7135a226db0095188eadea36d28bfc7ea650defd3093377",
+    "reference-freeze-current.json": "fb46358f5d4d7aa779cbd30cb2791bcc313f84f5747c7db9d7e317bf8e055420",
+    "run-linux-check.sh": "f844a88f050ab4df87614bb591131ea72311fa9bd4355645012f4ac5d3157b36"
+  }
+}

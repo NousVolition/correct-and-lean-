@@ -1,0 +1,30 @@
+{
+  "frozen_utc": "2026-11-07T20:38:47.488161+00:00",
+  "theorems": [
+    "HugV3.Source.FrameTransition.actual_accepted_fabric_rate",
+    "HugV3.Source.FrameTransition.state_readout_transfers",
+    "HugV3.Source.FrameTransition.rate_law_all_fabrics_iff",
+    "HugV3.Source.FrameTransition.moving_frame_residual",
+    "HugV3.Source.FrameTransition.fabric_segment_transfers",
+    "HugV3.Source.FrameTransition.quarter_paths_follow_their_rates",
+    "HugV3.Source.FrameTransition.quarter_initial_agreement_and_opposite_strain_rates"
+  ],
+  "files": {
+    "TransitionDefinitions.lean": "4f472019c51838505e77d5d803851ad009558c36c46db16d27cd7e3427889cf5",
+    "TransitionChallenge.lean": "5ab743b19b591fd95043b16e30380e273cbdafcb95df0b52a70235dd00a194c1",
+    "comparator.json": "5124353e8dc61ff08c934670b9146cd67be42f32a1241b74995e4c858a48f4f3"
+  },
+  "source_files": {
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+    "V3YangMillsAuditDefinitions.lean": "88ca4b9afe5bba1a235895f00216d8b8c2d61c76b09073a9f5978f76f9221051",
+    "V3YangMillsAuditProofs.lean": "caa310ca0fe5208c35af5f05dd7ec468975349b53a1106d5bbdd42f9c4807aca",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "challenge_module": "V3CovarianceChallenge",
+  "theorem_names": [
+    "HugV3.Source.CovarianceVerified.state_involution",
+    "HugV3.Source.CovarianceVerified.same_social_state",
+    "HugV3.Source.CovarianceVerified.material_stress_invariant",
+    "HugV3.Source.CovarianceVerified.fabric_stress_invariant",
+    "HugV3.Source.CovarianceVerified.extra_conductivity_invariant",
+    "HugV3.Source.CovarianceVerified.fiber_rate_invariant",
+    "HugV3.Source.CovarianceVerified.full_rhs_equivariant",
+    "HugV3.Source.CovarianceVerified.accepted_rhs_equivariant",
+    "HugV3.Source.CovarianceVerified.event_record_invariant",
+    "HugV3.Source.CovarianceVerified.write_equivariant",
+    "HugV3.Source.CovarianceVerified.capture_equivariant",
+    "HugV3.Source.CovarianceVerified.complete_event_equivariant",
+    "HugV3.Source.CovarianceVerified.all_boundaries_equivariant",
+    "HugV3.Source.CovarianceVerified.buffer_commutes",
+    "HugV3.Source.CovarianceVerified.delayed_rhs_equivariant",
+    "HugV3.Source.CovarianceVerified.delayed_history_equivariant",
+    "HugV3.Source.CovarianceVerified.derivative_covariant",
+    "HugV3.Source.CovarianceVerified.continuity_covariant",
+    "HugV3.Source.CovarianceVerified.delayed_segment_covariant",
+    "HugV3.Source.CovarianceVerified.original_solution_predicate",
+    "HugV3.Source.CovarianceVerified.full_trace_covariant",
+    "HugV3.Source.CovarianceVerified.initial_reversal_is_not_fixed",
+    "HugV3.Source.CovarianceVerified.forcing_has_fixed_direction",
+    "HugV3.Source.CovarianceVerified.gradient_witness_norm",
+    "HugV3.Source.CovarianceVerified.witness_force_nonzero",
+    "HugV3.Source.CovarianceVerified.quarter_turn_force_not_covariant"
+  ],
+  "solution_module": "V3CovarianceProofs"
+}

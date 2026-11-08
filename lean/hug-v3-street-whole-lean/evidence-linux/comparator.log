@@ -1,0 +1,52 @@
+Running as unit: hug-v3-street-whole-comparator-20261106.service; invocation ID: c8f20065152c4a2484f570df64e43f99
+Building StreetWholeChallenge
+✔ [3106/3114] Built V3SourceCore (9.1s)
+✔ [3107/3114] Built V3SourceMemory (1.6s)
+✔ [3108/3114] Built V3SourceSocial (1.5s)
+✔ [3109/3114] Built V3SourceFlow (1.3s)
+✔ [3110/3114] Built V3SourceGeometry (7.1s)
+✔ [3111/3114] Built V3SourceSystem (1.2s)
+✔ [3112/3114] Built StreetWholeDefinitions (1.2s)
+⚠ [3113/3114] Built StreetWholeChallenge (1.2s)
+warning: StreetWholeChallenge.lean:9:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:14:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:18:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:23:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:28:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:31:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:37:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:40:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:46:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:51:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:55:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:60:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:66:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:70:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:79:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:86:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:93:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:96:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:99:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:102:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:105:8: declaration uses `sorry`
+warning: StreetWholeChallenge.lean:112:8: declaration uses `sorry`
+Build completed successfully (3114 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.StreetWholeVerified.full_input_keeps_all_other_coordinates, HugV3.Source.StreetWholeVerified.line_enters_original_observation, HugV3.Source.StreetWholeVerified.line_keeps_body_and_heat_readings, HugV3.Source.StreetWholeVerified.line_keeps_records_and_current_relevance, HugV3.Source.StreetWholeVerified.line_keeps_current_guard, HugV3.Source.StreetWholeVerified.personal_context_keeps_physical_state_and_records, HugV3.Source.StreetWholeVerified.personal_context_total_preserved, HugV3.Source.StreetWholeVerified.personal_context_stays_in_unit_interval, HugV3.Source.StreetWholeVerified.shifted_record_cue_coordinates, HugV3.Source.StreetWholeVerified.original_weight_uses_current_cue, HugV3.Source.StreetWholeVerified.matched_record_weight_after_context_shift, HugV3.Source.StreetWholeVerified.nonzero_context_shift_reduces_matched_weight, HugV3.Source.StreetWholeVerified.record_weight_bounded_by_duration, HugV3.Source.StreetWholeVerified.accepted_full_rhs_keeps_the_coupling, HugV3.Source.StreetWholeVerified.original_guard_rate_uses_line_observation_and_experience, HugV3.Source.StreetWholeVerified.constant_signal_shift_keeps_gradient_and_force, HugV3.Source.StreetWholeVerified.band_edge_gradient, HugV3.Source.StreetWholeVerified.band_center_does_not_activate, HugV3.Source.StreetWholeVerified.small_band_edge_is_off, HugV3.Source.StreetWholeVerified.larger_band_edge_is_on, HugV3.Source.StreetWholeVerified.successful_write_preserves_person_and_line, HugV3.Source.StreetWholeVerified.self_addressed_episode_is_rejected, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from StreetWholeChallenge
+Building StreetWholeProofs
+⚠ [3113/3114] Built StreetWholeProofs (1.6s)
+warning: StreetWholeProofs.lean:26:53: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: StreetWholeProofs.lean:202:104: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3114 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.StreetWholeVerified.full_input_keeps_all_other_coordinates, HugV3.Source.StreetWholeVerified.line_enters_original_observation, HugV3.Source.StreetWholeVerified.line_keeps_body_and_heat_readings, HugV3.Source.StreetWholeVerified.line_keeps_records_and_current_relevance, HugV3.Source.StreetWholeVerified.line_keeps_current_guard, HugV3.Source.StreetWholeVerified.personal_context_keeps_physical_state_and_records, HugV3.Source.StreetWholeVerified.personal_context_total_preserved, HugV3.Source.StreetWholeVerified.personal_context_stays_in_unit_interval, HugV3.Source.StreetWholeVerified.shifted_record_cue_coordinates, HugV3.Source.StreetWholeVerified.original_weight_uses_current_cue, HugV3.Source.StreetWholeVerified.matched_record_weight_after_context_shift, HugV3.Source.StreetWholeVerified.nonzero_context_shift_reduces_matched_weight, HugV3.Source.StreetWholeVerified.record_weight_bounded_by_duration, HugV3.Source.StreetWholeVerified.accepted_full_rhs_keeps_the_coupling, HugV3.Source.StreetWholeVerified.original_guard_rate_uses_line_observation_and_experience, HugV3.Source.StreetWholeVerified.constant_signal_shift_keeps_gradient_and_force, HugV3.Source.StreetWholeVerified.band_edge_gradient, HugV3.Source.StreetWholeVerified.band_center_does_not_activate, HugV3.Source.StreetWholeVerified.small_band_edge_is_off, HugV3.Source.StreetWholeVerified.larger_band_edge_is_on, HugV3.Source.StreetWholeVerified.successful_write_preserves_person_and_line, HugV3.Source.StreetWholeVerified.self_addressed_episode_is_rejected, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from StreetWholeProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 45.563s
+             CPU time consumed: 47.443s
+                   Memory peak: 5.1G (swap: 0B)

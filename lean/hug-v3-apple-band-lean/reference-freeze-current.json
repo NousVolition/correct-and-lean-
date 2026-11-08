@@ -1,0 +1,48 @@
+{
+  "frozen_utc": "2026-11-07T21:29:44.675859+00:00",
+  "theorems": [
+    "HugV3.Source.AppleBand.reference_band_contracts",
+    "HugV3.Source.AppleBand.continuous_map_carries_contraction",
+    "HugV3.Source.AppleBand.moving_skin_carries_contraction",
+    "HugV3.Source.AppleBand.homeomorphic_transport_iff",
+    "HugV3.Source.AppleBand.accepted_position_and_fabric_rates",
+    "HugV3.Source.AppleBand.accepted_step_moves_every_particle",
+    "HugV3.Source.AppleBand.accepted_boundary_keeps_material",
+    "HugV3.Source.AppleBand.accepted_chain_carries_band",
+    "HugV3.Source.AppleBand.full_segment_local_band",
+    "HugV3.Source.AppleBand.stretch_expands_tips_and_preserves_contraction",
+    "HugV3.Source.AppleBand.small_step_preserves_distinct_points",
+    "HugV3.Source.AppleBand.continuous_grid_history_has_global_space_bounds",
+    "HugV3.Source.AppleBand.accepted_boundary_keeps_velocity",
+    "HugV3.Source.AppleBand.full_trace_material_flow_carries_band",
+    "HugV3.Source.AppleBand.band_on_the_embedded_skin_at_each_time"
+  ],
+  "source_files": {
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+    "V3YangMillsAuditDefinitions.lean": "88ca4b9afe5bba1a235895f00216d8b8c2d61c76b09073a9f5978f76f9221051",
+    "V3YangMillsAuditProofs.lean": "caa310ca0fe5208c35af5f05dd7ec468975349b53a1106d5bbdd42f9c4807aca",
+    "TransitionDefinitions.lean": "4f472019c51838505e77d5d803851ad009558c36c46db16d27cd7e3427889cf5",
+    "TransitionProofs.lean": "2cb27d35aac794f724f6617ba2b06c5c56dc81712931b708a499ff3fe7269123",
+    "V3TransferDefinitions.lean": "160c70e7250161f2248dcbecfb6f92d1a61623498329d6fe5220bbe30d1b1ce7",
+    "StreetWholeDefinitions.lean": "ec883d3aa4620bd4f2774a4428ee9a756bdb75a60978e549a9f0668af38435a7",
+    "StreetWholeProofs.lean": "ccd30074abe60d664cfe5b775a661e1923390983716b602316fff9190078ba21",
+    "WitnessDefinitions.lean": "a9d90f6246e6a9a066ab70227e88ce61368ee10063de96148eb27af080d8fd93",
+    "AccessDefinitions.lean": "9d7d08a554a2e1359f318ef67f7e31b7ad56871511617d4f7c0294fb8e9e9a6c",
+    "AccountDefinitions.lean": "12316adb920871bd514ca6c35f41616f264384a07e2d7fc61652948e88e7a65c"
+  },
+  "files": {
+    "AppleBandChallenge.lean": "e888c88c8ee4ee180aea167cbeae34f0740483a9a9be953b567155c44e09f8c9",
+    "AppleBandDefinitions.lean": "4d416df8caa73ce9e34e3ef86fe871e856e83460eaeba26dea70419f5e69bc5f",
+    "comparator.json": "4f0f0270c4484896cec25ac76e405d1bff8b0e56943c80814201805493d90248",
+    "AppleFlowDefinitions.lean": "71cfbac5ac162c82b324d9685686872d499b1352d194acdc2e4473aa11606b9c",
+    "AppleFlowChallenge.lean": "5d8385a6b6f36abfbfca3e416557ada1d90a95eb0a2c80a25051ceb66680abe7",
+    "AppleSkinChallenge.lean": "ce3af200fdcd37cfe0dafe4547963f08904bab93665091c608706e13d52ff781"
+  },
+  "addition": "Explicit embedded skin and contraction at every fixed observation time, in addition to the moving-time result."
+}

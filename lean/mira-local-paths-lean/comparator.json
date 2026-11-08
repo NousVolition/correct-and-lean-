@@ -1,0 +1,30 @@
+{
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "challenge_module": "MiraLocalChallenge",
+  "solution_module": "MiraLocalProofs",
+  "theorem_names": [
+    "MiraLocal.Verified.joining_preserves_no_repeats",
+    "MiraLocal.Verified.every_joined_route_is_a_path",
+    "MiraLocal.Verified.joined_visits_every_chamber_once_iff_coverage",
+    "MiraLocal.Verified.joined_length_sufficient",
+    "MiraLocal.Verified.stuck_prefix_has_no_simple_extension",
+    "MiraLocal.Verified.good_local_units_join",
+    "MiraLocal.Verified.good_complete_route",
+    "MiraLocal.Verified.trap_map_is_connected",
+    "MiraLocal.Verified.trap_prefix_locally_valid",
+    "MiraLocal.Verified.trap_prefix_stuck_and_incomplete",
+    "MiraLocal.Verified.trap_prefix_cannot_be_completed_by_appending",
+    "MiraLocal.Verified.individual_units_can_overlap",
+    "MiraLocal.Verified.overlap_join_fails",
+    "MiraLocal.Verified.valid_prefix_without_coverage_not_complete",
+    "MiraLocal.Verified.changing_environment_mixed_checks_not_snapshot",
+    "MiraLocal.Verified.full_hug_interface_joins",
+    "MiraLocal.Verified.original_guard_is_unchanged",
+    "MiraLocal.Verified.original_retrieval_is_unchanged"
+  ]
+}

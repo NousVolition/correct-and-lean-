@@ -1,0 +1,45 @@
+Running as unit: mira-local-paths-comparator-20261105.service; invocation ID: 2d34dc6a81524bab9d717305840b3066
+Building MiraLocalChallenge
+✔ [3126/3135] Built V3SourceCore (9.1s)
+✔ [3127/3135] Built V3SourceMemory (1.8s)
+✔ [3128/3135] Built V3SourceSocial (1.6s)
+✔ [3129/3135] Built V3SourceFlow (1.5s)
+✔ [3130/3135] Built V3SourceGeometry (7.5s)
+✔ [3131/3135] Built V3SourceSystem (1.3s)
+✔ [3132/3135] Built PersonEnvironmentDefinitions (1.4s)
+✔ [3133/3135] Built MiraLocalDefinitions (1.5s)
+⚠ [3134/3135] Built MiraLocalChallenge (1.3s)
+warning: MiraLocalChallenge.lean:9:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:13:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:16:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:20:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:24:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:27:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:29:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:31:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:33:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:36:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:39:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:42:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:45:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:48:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:51:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:55:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:60:8: declaration uses `sorry`
+warning: MiraLocalChallenge.lean:65:8: declaration uses `sorry`
+Build completed successfully (3135 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, MiraLocal.Verified.joining_preserves_no_repeats, MiraLocal.Verified.every_joined_route_is_a_path, MiraLocal.Verified.joined_visits_every_chamber_once_iff_coverage, MiraLocal.Verified.joined_length_sufficient, MiraLocal.Verified.stuck_prefix_has_no_simple_extension, MiraLocal.Verified.good_local_units_join, MiraLocal.Verified.good_complete_route, MiraLocal.Verified.trap_map_is_connected, MiraLocal.Verified.trap_prefix_locally_valid, MiraLocal.Verified.trap_prefix_stuck_and_incomplete, MiraLocal.Verified.trap_prefix_cannot_be_completed_by_appending, MiraLocal.Verified.individual_units_can_overlap, MiraLocal.Verified.overlap_join_fails, MiraLocal.Verified.valid_prefix_without_coverage_not_complete, MiraLocal.Verified.changing_environment_mixed_checks_not_snapshot, MiraLocal.Verified.full_hug_interface_joins, MiraLocal.Verified.original_guard_is_unchanged, MiraLocal.Verified.original_retrieval_is_unchanged, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from MiraLocalChallenge
+Building MiraLocalProofs
+✔ [3134/3135] Built MiraLocalProofs (1.3s)
+Build completed successfully (3135 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, MiraLocal.Verified.joining_preserves_no_repeats, MiraLocal.Verified.every_joined_route_is_a_path, MiraLocal.Verified.joined_visits_every_chamber_once_iff_coverage, MiraLocal.Verified.joined_length_sufficient, MiraLocal.Verified.stuck_prefix_has_no_simple_extension, MiraLocal.Verified.good_local_units_join, MiraLocal.Verified.good_complete_route, MiraLocal.Verified.trap_map_is_connected, MiraLocal.Verified.trap_prefix_locally_valid, MiraLocal.Verified.trap_prefix_stuck_and_incomplete, MiraLocal.Verified.trap_prefix_cannot_be_completed_by_appending, MiraLocal.Verified.individual_units_can_overlap, MiraLocal.Verified.overlap_join_fails, MiraLocal.Verified.valid_prefix_without_coverage_not_complete, MiraLocal.Verified.changing_environment_mixed_checks_not_snapshot, MiraLocal.Verified.full_hug_interface_joins, MiraLocal.Verified.original_guard_is_unchanged, MiraLocal.Verified.original_retrieval_is_unchanged, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from MiraLocalProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 44.200s
+             CPU time consumed: 44.783s
+                   Memory peak: 5.1G (swap: 0B)

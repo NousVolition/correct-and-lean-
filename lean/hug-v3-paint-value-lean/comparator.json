@@ -1,0 +1,31 @@
+{
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "challenge_module": "PaintCalibrationChallenge",
+  "solution_module": "PaintCalibrationProofs",
+  "theorem_names": [
+    "HugV3.Source.PaintCalibrationVerified.declared_start",
+    "HugV3.Source.PaintCalibrationVerified.accepted_original_field_rate",
+    "HugV3.Source.PaintCalibrationVerified.private_context_comparison",
+    "HugV3.Source.PaintCalibrationVerified.footprint_compares_full_inputs",
+    "HugV3.Source.PaintCalibrationVerified.same_footprint_and_person_distinct_values",
+    "HugV3.Source.PaintCalibrationVerified.unfixed_background_allows_any_contrast",
+    "HugV3.Source.PaintCalibrationVerified.independent_field_total_recovers_contrast",
+    "HugV3.Source.PaintCalibrationVerified.marked_cell_has_positive_volume",
+    "HugV3.Source.PaintCalibrationVerified.original_transport_redistributes_field",
+    "HugV3.Source.PaintCalibrationVerified.spatial_total_rate_from_original_source",
+    "HugV3.Source.PaintCalibrationVerified.unit_kernel_rate",
+    "HugV3.Source.PaintCalibrationVerified.positive_attachments_normalize_original_kernel",
+    "HugV3.Source.PaintCalibrationVerified.positive_attachments_see_a_marked_cell",
+    "HugV3.Source.PaintCalibrationVerified.original_readout_affine",
+    "HugV3.Source.PaintCalibrationVerified.bounded_channel_for_profile",
+    "HugV3.Source.PaintCalibrationVerified.zero_sensitivity_erases_contrast",
+    "HugV3.Source.PaintCalibrationVerified.calibrated_sensor_recovers_signed_contrast",
+    "HugV3.Source.PaintCalibrationVerified.one_exact_reading_identifies_height",
+    "HugV3.Source.PaintCalibrationVerified.opposite_fields_have_same_original_force"
+  ]
+}
