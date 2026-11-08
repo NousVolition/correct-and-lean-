@@ -1,0 +1,164 @@
+{
+  "verification_status": "PASS",
+  "overall_request_status": "PARTIAL",
+  "scope": "Conditional full nondelayed hybrid coexistence of candidate state markers, plus fresh numerical observation; semantic retained understanding and rumination mapping remain unproved.",
+  "verified_at": "2026-11-04T03:46:42.642291+00:00",
+  "theorem_count": 12,
+  "theorems": [
+    "HugV3.Source.CoexistenceVerified.accepted_full_norm_rate",
+    "HugV3.Source.CoexistenceVerified.same_instant_norm_rate_with_any_association",
+    "HugV3.Source.CoexistenceVerified.full_trace_alignment_derivative",
+    "HugV3.Source.CoexistenceVerified.full_segment_alignment_floor",
+    "HugV3.Source.CoexistenceVerified.full_segment_association_floor",
+    "HugV3.Source.CoexistenceVerified.full_segment_coexistence",
+    "HugV3.Source.CoexistenceVerified.write_preserves_coexistence",
+    "HugV3.Source.CoexistenceVerified.boundary_preserves_coexistence",
+    "HugV3.Source.CoexistenceVerified.full_hybrid_conditional_coexistence",
+    "HugV3.Source.CoexistenceVerified.erosion_witness_has_coexisting_markers",
+    "HugV3.Source.CoexistenceVerified.active_association_allows_alignment_erosion",
+    "HugV3.Source.CoexistenceVerified.delayed_full_norm_rate"
+  ],
+  "comparator_exit": 0,
+  "lake_build_exit": 0,
+  "lean_kernel_accepted": true,
+  "nanoda_kernel_accepted": true,
+  "fresh_solution": true,
+  "non_root_uid": 1000,
+  "isolation": "Landrun and systemd RestrictAddressFamilies=~AF_UNIX",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "dependencies": [
+    {
+      "name": "Comparator",
+      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "clean": true
+    },
+    {
+      "name": "mathlib",
+      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "clean": true
+    },
+    {
+      "name": "lean4export",
+      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "clean": true
+    },
+    {
+      "name": "plausible",
+      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "clean": true
+    },
+    {
+      "name": "importGraph",
+      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+      "clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "clean": true
+    },
+    {
+      "name": "aesop",
+      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "clean": true
+    },
+    {
+      "name": "Qq",
+      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "clean": true
+    },
+    {
+      "name": "batteries",
+      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+      "clean": true
+    },
+    {
+      "name": "Cli",
+      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "clean": true
+    }
+  ],
+  "binaries": {
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/nsverify/verification/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
+    "/home/nsverify/verification/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
+    "/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
+    "/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
+    "/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+  },
+  "source_preservation": {
+    "all_unchanged": true,
+    "original_source_files": 21,
+    "inherited_inputs": 21,
+    "corpus_sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+    "theorem_statement_revisions": 0,
+    "new_definition_syntax_repairs": 1
+  },
+  "equations_changed": false,
+  "agent": "Returning student actor 1; teachers 0 and 2; all six original actors retained",
+  "idea": "Giving someone space to speak can change what I understand.",
+  "meanings": {
+    "A": "bridge",
+    "d": "durability of person and group",
+    "ZERO": "history, direction, flow, verified occurrence/return"
+  },
+  "quiet_rumination_required": false,
+  "conditional_scope": {
+    "hybrid": "Assumes Solves tr, starting positive markers and strict inward vector-field conditions on every remaining segment. Does not prove full existence, reachability or discharge inward conditions.",
+    "markers": "Separate positive directional norm alignment for every actor; one positive student/first-teacher association; positive writing work. Not validated human-meaning observations.",
+    "events": "Exact preservation through successful original writes and capture/boundary operations; no assumption that all arbitrary attempted writes succeed.",
+    "diagnostic": "Full input state satisfies markers while alignment rate is negative; not a reached or domain-accepted full trajectory or threshold-crossing theorem.",
+    "delay": "Exact accepted delayed norm-rate identity only; no delayed retention or well-posedness theorem."
+  },
+  "numerical": {
+    "status": "OBSERVED",
+    "fresh_run": true,
+    "equations_unchanged": true,
+    "steps": 321,
+    "coordinates": 193122,
+    "nodes_checked": 163,
+    "interval": [
+      0.8,
+      1.6
+    ],
+    "all_six_marker_floors_observed": true,
+    "association_floor_observed": true,
+    "positive_residue_observed": true,
+    "table_recomputed": true,
+    "versions": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "numpy": "2.3.5",
+      "scipy": "1.16.3"
+    },
+    "limits": "Saved-node finite nondelayed simulation; no refinement/error bound, exact continuous-time proof, causal learning comparison or psychological measurement."
+  },
+  "unresolved": [
+    "Validated observation of the same idea and retained understanding for person and group",
+    "Link between human rumination/residue and state observations",
+    "Discharge inward conditions and starting-marker reachability for exact declared trajectory",
+    "Full existence and uniqueness through all events and delays",
+    "Full-O verification and refresh/intake gate",
+    "Variable timing and reimagined-memory rules",
+    "Python-to-Lean refinement, continuum limit and empirical validation"
+  ],
+  "evidence_sha256": {
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.finished": "7c5b572f2a87e8505254429629f009ae42c6b348619caac900e3e81cf28702ff",
+    "comparator.log": "f557f1f762afe45b7b71f5cbd61778f9e15f1bf9289821de1f8b26effa4ecfff",
+    "comparator.started": "1751db1dca006a59a6cae13c68f9432f6ef896b7efc22f44262cfd13b3783474",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "dd1e8f3884435a1e2f2c7f7558655b05c5762a31dc860592f0237328e81210ca",
+    "postflight.json": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+    "preflight.json": "e6e69b7d8c850a69b87bd070ee10068f9867e884ac9c10fb97c8556f6ce23fe0"
+  }
+}

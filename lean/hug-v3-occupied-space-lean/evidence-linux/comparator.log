@@ -1,0 +1,104 @@
+Running as unit: hug-v3-occupied-space-comparator-20261104.service; invocation ID: 8145c27d226046bfa76f4e474c473350
+Building V3OccupiedSpaceChallenge
+✔ [3123/3141] Built V3SourceCore (9.2s)
+✔ [3124/3141] Built V3SourceMemory (1.6s)
+✔ [3125/3141] Built V3SourceSocial (1.5s)
+✔ [3126/3141] Built V3SourceFlow (1.4s)
+✔ [3127/3141] Built V3SourceGeometry (7.2s)
+✔ [3128/3141] Built V3SourceSystem (1.3s)
+✔ [3129/3141] Built V3DelayDefinitions (1.2s)
+✔ [3130/3141] Built V3ClayDefinitions (1.3s)
+⚠ [3131/3141] Built V3SourceProofs (1.5s)
+warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+✔ [3132/3141] Built V3MemoryRulesDefinitions (1.2s)
+⚠ [3133/3141] Built V3DelayProofs (1.3s)
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3134/3141] Built V3ClayProofs (1.7s)
+✔ [3135/3141] Built V3MemoryRulesProofs (1.9s)
+✔ [3136/3141] Built V3ClayTrajectoryProofs (1.4s)
+✔ [3137/3141] Built V3BridgeReturnDefinitions (1.3s)
+⚠ [3138/3141] Built V3BridgeReturnProofs (1.7s)
+warning: V3BridgeReturnProofs.lean:84:49: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: V3BridgeReturnProofs.lean:197:13: Variable name `hk` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hk
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3139/3141] Built V3OccupiedSpaceDefinitions (1.2s)
+⚠ [3140/3141] Built V3OccupiedSpaceChallenge (1.2s)
+warning: V3OccupiedSpaceChallenge.lean:10:8: declaration uses `sorry`
+warning: V3OccupiedSpaceChallenge.lean:13:8: declaration uses `sorry`
+warning: V3OccupiedSpaceChallenge.lean:16:8: declaration uses `sorry`
+warning: V3OccupiedSpaceChallenge.lean:19:8: declaration uses `sorry`
+warning: V3OccupiedSpaceChallenge.lean:22:8: declaration uses `sorry`
+warning: V3OccupiedSpaceChallenge.lean:25:8: declaration uses `sorry`
+warning: V3OccupiedSpaceChallenge.lean:28:8: declaration uses `sorry`
+warning: V3OccupiedSpaceChallenge.lean:31:8: declaration uses `sorry`
+warning: V3OccupiedSpaceChallenge.lean:34:8: declaration uses `sorry`
+warning: V3OccupiedSpaceChallenge.lean:37:8: declaration uses `sorry`
+warning: V3OccupiedSpaceChallenge.lean:40:8: declaration uses `sorry`
+warning: V3OccupiedSpaceChallenge.lean:44:8: declaration uses `sorry`
+warning: V3OccupiedSpaceChallenge.lean:48:8: declaration uses `sorry`
+warning: V3OccupiedSpaceChallenge.lean:52:8: declaration uses `sorry`
+warning: V3OccupiedSpaceChallenge.lean:55:8: declaration uses `sorry`
+Build completed successfully (3141 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.OccupiedSpaceVerified.margin_is_original, HugV3.Source.OccupiedSpaceVerified.region_matches_half_permission, HugV3.Source.OccupiedSpaceVerified.soft_permission_positive, HugV3.Source.OccupiedSpaceVerified.region_contains_owners_center, HugV3.Source.OccupiedSpaceVerified.same_audience_regions_overlap, HugV3.Source.OccupiedSpaceVerified.initial_zero_in_every_guard, HugV3.Source.OccupiedSpaceVerified.initial_zero_in_every_whole_region, HugV3.Source.OccupiedSpaceVerified.initial_exclusion_refuted, HugV3.Source.OccupiedSpaceVerified.full_hybrid_exclusion_refuted, HugV3.Source.OccupiedSpaceVerified.write_preserves_personal_pulley, HugV3.Source.OccupiedSpaceVerified.write_preserves_whole_regions, HugV3.Source.OccupiedSpaceVerified.boundary_preserves_whole_regions, HugV3.Source.OccupiedSpaceVerified.boundary_preserves_exclusion_status, HugV3.Source.OccupiedSpaceVerified.delay_uses_buffered_regions, HugV3.Source.OccupiedSpaceVerified.full_region_motion, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3OccupiedSpaceChallenge
+Building V3OccupiedSpaceProofs
+⚠ [3124/3152] Replayed V3SourceProofs
+warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [3129/3152] Replayed V3DelayProofs
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3138/3152] Replayed V3BridgeReturnProofs
+warning: V3BridgeReturnProofs.lean:84:49: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: V3BridgeReturnProofs.lean:197:13: Variable name `hk` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hk
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3151/3152] Built V3OccupiedSpaceProofs (2.1s)
+warning: V3OccupiedSpaceProofs.lean:136:10: This simp argument is unused:
+  regionScore
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [regionScoreRate, Finset.mul_sum, pow_two, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3OccupiedSpaceProofs.lean:136:40: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [regionScore, regionScoreRate, pow_two, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3OccupiedSpaceProofs.lean:135:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3OccupiedSpaceProofs.lean:136:76: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3152 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.OccupiedSpaceVerified.margin_is_original, HugV3.Source.OccupiedSpaceVerified.region_matches_half_permission, HugV3.Source.OccupiedSpaceVerified.soft_permission_positive, HugV3.Source.OccupiedSpaceVerified.region_contains_owners_center, HugV3.Source.OccupiedSpaceVerified.same_audience_regions_overlap, HugV3.Source.OccupiedSpaceVerified.initial_zero_in_every_guard, HugV3.Source.OccupiedSpaceVerified.initial_zero_in_every_whole_region, HugV3.Source.OccupiedSpaceVerified.initial_exclusion_refuted, HugV3.Source.OccupiedSpaceVerified.full_hybrid_exclusion_refuted, HugV3.Source.OccupiedSpaceVerified.write_preserves_personal_pulley, HugV3.Source.OccupiedSpaceVerified.write_preserves_whole_regions, HugV3.Source.OccupiedSpaceVerified.boundary_preserves_whole_regions, HugV3.Source.OccupiedSpaceVerified.boundary_preserves_exclusion_status, HugV3.Source.OccupiedSpaceVerified.delay_uses_buffered_regions, HugV3.Source.OccupiedSpaceVerified.full_region_motion, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3OccupiedSpaceProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 58.896s
+             CPU time consumed: 1min 9.856s
+                   Memory peak: 5.4G (swap: 0B)

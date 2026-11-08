@@ -1,0 +1,127 @@
+name = "AppleExistenceAudit"
+version = "0.1.0"
+defaultTargets = ["AppleExistenceProofs", "AppleExistenceChallenge"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+
+[[require]]
+name = "Comparator"
+scope = "leanprover"
+git = "https://github.com/leanprover/comparator.git"
+rev = "19e111e2141cf333c7daff0f64c5f24acc91dd2e"
+
+
+
+
+[[lean_lib]]
+name = "AccessDefinitions"
+
+[[lean_lib]]
+name = "AccountDefinitions"
+
+[[lean_lib]]
+name = "AppleBandDefinitions"
+
+[[lean_lib]]
+name = "AppleBandProofs"
+
+[[lean_lib]]
+name = "AppleBandTopology"
+
+[[lean_lib]]
+name = "AppleFlowBounds"
+
+[[lean_lib]]
+name = "AppleFlowDefinitions"
+
+[[lean_lib]]
+name = "AppleRealFlow"
+
+[[lean_lib]]
+name = "AppleTraceVelocity"
+
+[[lean_lib]]
+name = "StreetWholeDefinitions"
+
+[[lean_lib]]
+name = "StreetWholeProofs"
+
+[[lean_lib]]
+name = "TransitionDefinitions"
+
+[[lean_lib]]
+name = "TransitionProofs"
+
+[[lean_lib]]
+name = "V3ClayDefinitions"
+
+[[lean_lib]]
+name = "V3ClayProofs"
+
+[[lean_lib]]
+name = "V3ClayTrajectoryProofs"
+
+[[lean_lib]]
+name = "V3DelayDefinitions"
+
+[[lean_lib]]
+name = "V3SourceCore"
+
+[[lean_lib]]
+name = "V3SourceFlow"
+
+[[lean_lib]]
+name = "V3SourceGeometry"
+
+[[lean_lib]]
+name = "V3SourceMemory"
+
+[[lean_lib]]
+name = "V3SourceProofs"
+
+[[lean_lib]]
+name = "V3SourceSocial"
+
+[[lean_lib]]
+name = "V3SourceSystem"
+
+[[lean_lib]]
+name = "V3TransferDefinitions"
+
+[[lean_lib]]
+name = "V3YangMillsAuditDefinitions"
+
+[[lean_lib]]
+name = "V3YangMillsAuditProofs"
+
+[[lean_lib]]
+name = "WitnessDefinitions"
+
+[[lean_lib]]
+name = "AppleExistenceDefinitions"
+
+[[lean_lib]]
+name = "AppleExistenceChallenge"
+
+[[lean_lib]]
+name = "AppleInitialProofs"
+
+[[lean_lib]]
+name = "ApplePackedProofs"
+
+[[lean_lib]]
+name = "AppleTubeProofs"
+
+[[lean_lib]]
+name = "AppleCarrierUniqueness"
+
+[[lean_lib]]
+name = "AppleScheduleProofs"
+
+[[lean_lib]]
+name = "AppleExistenceProofs"
+

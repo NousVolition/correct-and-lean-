@@ -1,0 +1,56 @@
+{
+  "frozen_utc": "2026-11-04T03:32:07.538690+00:00",
+  "revisions": [
+    {
+      "utc": "2026-11-04T03:37:04.656801+00:00",
+      "file": "V3CoexistenceDefinitions.lean",
+      "before_sha256": "081007f19d73b9ab97f80cf957fadf74efb3d47b051f107e21839d82ba55b68d",
+      "after_sha256": "e53b6e6dba76868a6a7c70fba43c1b1c97c6528df6bc4fe50da31b239ee400ac",
+      "reason": "Repair Lean field-layout syntax in new erosionWitness definition after initial parser failure. Same three field updates, values and meanings; theorem statements and all inherited equations unchanged.",
+      "theorem_statements_changed": false,
+      "inherited_equations_changed": false
+    }
+  ],
+  "theorems": [
+    "HugV3.Source.CoexistenceVerified.accepted_full_norm_rate",
+    "HugV3.Source.CoexistenceVerified.same_instant_norm_rate_with_any_association",
+    "HugV3.Source.CoexistenceVerified.full_trace_alignment_derivative",
+    "HugV3.Source.CoexistenceVerified.full_segment_alignment_floor",
+    "HugV3.Source.CoexistenceVerified.full_segment_association_floor",
+    "HugV3.Source.CoexistenceVerified.full_segment_coexistence",
+    "HugV3.Source.CoexistenceVerified.write_preserves_coexistence",
+    "HugV3.Source.CoexistenceVerified.boundary_preserves_coexistence",
+    "HugV3.Source.CoexistenceVerified.full_hybrid_conditional_coexistence",
+    "HugV3.Source.CoexistenceVerified.erosion_witness_has_coexisting_markers",
+    "HugV3.Source.CoexistenceVerified.active_association_allows_alignment_erosion",
+    "HugV3.Source.CoexistenceVerified.delayed_full_norm_rate"
+  ],
+  "files": {
+    "V3CoexistenceDefinitions.lean": "e53b6e6dba76868a6a7c70fba43c1b1c97c6528df6bc4fe50da31b239ee400ac",
+    "V3CoexistenceChallenge.lean": "9c6c5120be642eb780374cfbab0c86f3bb16eb3489f72215c0ea2cb915b06b3b",
+    "comparator.json": "20b0b535ba114ba3ff1660c385d18cdcd86e8ec1015d4c69ee8ad74c22083055"
+  },
+  "source_files": {
+    "V3BridgeReturnDefinitions.lean": "e2d6c33158d28f7037a4d865a48a57c0bb1bb6df7762ded8682e6b46f458aff0",
+    "V3BridgeReturnProofs.lean": "a49dcf6910a04c03042f42972ce3cd3b124fc3d491ab12b32277100e7f9c8a1a",
+    "V3ClayDefinitions.lean": "4c33c0f6bf7895a75203459bdf78343c62041e0d565949040945699f5bdd7424",
+    "V3ClayProofs.lean": "c56133b0691a5b9c2d381fdbbb00435831f3c8772cebd1c33eb0d8fc366a1843",
+    "V3ClayTrajectoryProofs.lean": "f3f6a976ef092fa9487365ec416b0773009dfb223f60a578b3ce64910cc475a4",
+    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+    "V3DelayProofs.lean": "a21e672f3309abee5e49b1767d475483591076a681c38229461cbf30e0247fdc",
+    "V3MemoryRulesDefinitions.lean": "6849f65909065ca3929e15ed08947cc9859e2adc82c513a8544a9065ba321dec",
+    "V3MemoryRulesProofs.lean": "c42d82f6a82d8e2ad68d7b3b09e6e06c81d48c0872c4a0827eb900b980acfd04",
+    "V3ORuminationDefinitions.lean": "e85a42c5280fb742c1a357e38d0328b2bd01e20dfcd343f7820f0c7e2e46229e",
+    "V3ORuminationProofs.lean": "88b7604e5d279daf19200d3bac9f92f8cb66de07e3e8df6d5d91c0a4228d15e6",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceProofs.lean": "bc33166378e84da1ffb2391c2c22250cb30ad3d6db69d367df539522b769f885",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "V3TransferDefinitions.lean": "160c70e7250161f2248dcbecfb6f92d1a61623498329d6fe5220bbe30d1b1ce7"
+  }
+}

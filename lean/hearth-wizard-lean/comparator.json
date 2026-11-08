@@ -1,0 +1,34 @@
+{
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "challenge_module": "HearthChallenge",
+  "solution_module": "HearthProofs",
+  "theorem_names": [
+    "Wizard.fromFin_toFin",
+    "Wizard.toFin_fromFin",
+    "CommutatorMatrix.diag_zero",
+    "CommutatorMatrix.bracket_antisymm",
+    "CommutatorMatrix.sum_all_vanishes",
+    "CommutatorMatrix.quadratic_form_zero",
+    "CommutatorMatrix.bracket_self",
+    "CommutatorMatrix.sum_all_brackets",
+    "CommutatorMatrix.form_basis_pair",
+    "CommutatorMatrix.form_antisymm",
+    "CommutatorMatrix.form_bilinear",
+    "CommutatorMatrix.form_alternating",
+    "CommutatorMatrix.centrality_criterion",
+    "CommutatorMatrix.central_lift_satisfies_jacobi",
+    "CommutatorMatrix.arbitrary_skew_lift_can_fail_jacobi",
+    "CommutatorMatrix.finite_kinetic_energy_rate",
+    "HearthAudit.shear_smooth_and_periodic",
+    "HearthAudit.shear_solves_stationary_forced_momentum",
+    "HearthAudit.shear_companion_integrals",
+    "HearthAudit.companion_identity_fails",
+    "HearthAudit.hug_viscous_heat_nonnegative",
+    "HearthAudit.hug_temperature_contains_hearth_source"
+  ]
+}

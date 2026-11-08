@@ -1,0 +1,27 @@
+{
+  "challenge_module": "AppleSkinChallenge",
+  "solution_module": "AppleRealFlow",
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "theorem_names": [
+    "HugV3.Source.AppleBand.reference_band_contracts",
+    "HugV3.Source.AppleBand.continuous_map_carries_contraction",
+    "HugV3.Source.AppleBand.moving_skin_carries_contraction",
+    "HugV3.Source.AppleBand.homeomorphic_transport_iff",
+    "HugV3.Source.AppleBand.accepted_position_and_fabric_rates",
+    "HugV3.Source.AppleBand.accepted_step_moves_every_particle",
+    "HugV3.Source.AppleBand.accepted_boundary_keeps_material",
+    "HugV3.Source.AppleBand.accepted_chain_carries_band",
+    "HugV3.Source.AppleBand.full_segment_local_band",
+    "HugV3.Source.AppleBand.stretch_expands_tips_and_preserves_contraction",
+    "HugV3.Source.AppleBand.small_step_preserves_distinct_points",
+    "HugV3.Source.AppleBand.continuous_grid_history_has_global_space_bounds",
+    "HugV3.Source.AppleBand.accepted_boundary_keeps_velocity",
+    "HugV3.Source.AppleBand.full_trace_material_flow_carries_band",
+    "HugV3.Source.AppleBand.band_on_the_embedded_skin_at_each_time"
+  ]
+}

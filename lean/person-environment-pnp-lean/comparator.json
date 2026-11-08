@@ -1,0 +1,33 @@
+{
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "challenge_module": "PersonEnvironmentChallenge",
+  "solution_module": "PersonEnvironmentProofs",
+  "theorem_names": [
+    "PersonEnvironment.Verified.scan_sound",
+    "PersonEnvironment.Verified.scan_none_iff",
+    "PersonEnvironment.Verified.scan_checks_le_length",
+    "PersonEnvironment.Verified.failed_scan_checks_every_candidate",
+    "PersonEnvironment.Verified.certificate_membership",
+    "PersonEnvironment.Verified.certificate_count",
+    "PersonEnvironment.Verified.memory_first_sound",
+    "PersonEnvironment.Verified.memory_first_none_iff",
+    "PersonEnvironment.Verified.memory_first_finds_iff",
+    "PersonEnvironment.Verified.different_experience_preserves_decision",
+    "PersonEnvironment.Verified.changed_person_same_check_preserves_decision",
+    "PersonEnvironment.Verified.successful_memory_skips_fallback",
+    "PersonEnvironment.Verified.failed_memory_adds_checks",
+    "PersonEnvironment.Verified.rejecting_fallback_exact_count",
+    "PersonEnvironment.Verified.faithful_checker_gives_valid_answer",
+    "PersonEnvironment.Verified.full_hug_current_context_checked",
+    "PersonEnvironment.Verified.original_guard_is_unchanged",
+    "PersonEnvironment.Verified.original_retrieval_is_unchanged",
+    "PersonEnvironment.Verified.memory_only_can_miss_answer",
+    "PersonEnvironment.Verified.different_memory_same_answer_different_checks",
+    "PersonEnvironment.Verified.stale_answer_is_rechecked"
+  ]
+}

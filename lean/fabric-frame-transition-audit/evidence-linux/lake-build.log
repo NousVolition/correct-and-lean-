@@ -1,0 +1,16 @@
+⚠ [8770/8774] Replayed V3YangMillsAuditProofs
+warning: V3YangMillsAuditProofs.lean:186:19: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:190:21: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (8774 jobs).

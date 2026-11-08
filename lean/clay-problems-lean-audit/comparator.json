@@ -1,0 +1,15 @@
+{
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "challenge_module": "ContextChallenge",
+  "solution_module": "ContextProofs",
+  "theorem_names": [
+    "ContextAudit.Verified.city_only_iff_same_result",
+    "ContextAudit.Verified.differing_people_prevent_city_only",
+    "ContextAudit.Verified.example_cannot_forget_person"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "challenge_module": "V3JointFrameChallenge",
+  "solution_module": "V3JointFrameProofs",
+  "theorem_names": [
+    "HugV3.Source.JointFrameVerified.quarter_scale",
+    "HugV3.Source.JointFrameVerified.quarter_dot",
+    "HugV3.Source.JointFrameVerified.quarter_norm",
+    "HugV3.Source.JointFrameVerified.grid_inverse",
+    "HugV3.Source.JointFrameVerified.grid_sum",
+    "HugV3.Source.JointFrameVerified.centered_gradient_covariant",
+    "HugV3.Source.JointFrameVerified.force_amplitude_invariant",
+    "HugV3.Source.JointFrameVerified.original_force_recovered",
+    "HugV3.Source.JointFrameVerified.driving_direction_rotates",
+    "HugV3.Source.JointFrameVerified.joint_force_covariant",
+    "HugV3.Source.JointFrameVerified.force_work_density_invariant",
+    "HugV3.Source.JointFrameVerified.original_momentum_recovered",
+    "HugV3.Source.JointFrameVerified.original_full_rates_recovered",
+    "HugV3.Source.JointFrameVerified.original_accepted_rates_recovered",
+    "HugV3.Source.JointFrameVerified.non_driving_rates_unchanged",
+    "HugV3.Source.JointFrameVerified.force_work_ledger_invariant",
+    "HugV3.Source.JointFrameVerified.green_spatially_invariant",
+    "HugV3.Source.JointFrameVerified.records_spatially_invariant",
+    "HugV3.Source.JointFrameVerified.memory_feature_invariant",
+    "HugV3.Source.JointFrameVerified.retrieval_invariant",
+    "HugV3.Source.JointFrameVerified.event_record_invariant",
+    "HugV3.Source.JointFrameVerified.write_account_invariant",
+    "HugV3.Source.JointFrameVerified.write_equivariant_under_thermal_compatibility",
+    "HugV3.Source.JointFrameVerified.capture_equivariant",
+    "HugV3.Source.JointFrameVerified.buffer_commutes",
+    "HugV3.Source.JointFrameVerified.original_delay_recovered",
+    "HugV3.Source.JointFrameVerified.derivative_covariant",
+    "HugV3.Source.JointFrameVerified.continuity_covariant",
+    "HugV3.Source.JointFrameVerified.kinematic_matrix_covariance",
+    "HugV3.Source.JointFrameVerified.full_deformation_covariant_if_gradient_transforms",
+    "HugV3.Source.JointFrameVerified.social_rates_invariant_if_observations_match"
+  ]
+}

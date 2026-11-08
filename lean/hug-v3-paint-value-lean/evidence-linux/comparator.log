@@ -1,0 +1,46 @@
+Running as unit: hug-v3-paint-value-comparator-20261106b.service; invocation ID: f0c4186d2ddd49069ee679e44b15a309
+Building PaintCalibrationChallenge
+✔ [3106/3115] Built V3SourceCore (9.3s)
+✔ [3107/3115] Built V3SourceMemory (1.6s)
+✔ [3108/3115] Built V3SourceSocial (1.5s)
+✔ [3109/3115] Built V3SourceFlow (1.4s)
+✔ [3110/3115] Built V3SourceGeometry (7.2s)
+✔ [3111/3115] Built V3SourceSystem (1.3s)
+✔ [3112/3115] Built StreetWholeDefinitions (1.1s)
+✔ [3113/3115] Built PaintCalibrationDefinitions (1.1s)
+⚠ [3114/3115] Built PaintCalibrationChallenge (1.2s)
+warning: PaintCalibrationChallenge.lean:8:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:11:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:18:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:26:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:33:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:41:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:44:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:48:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:51:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:54:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:59:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:63:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:67:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:71:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:75:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:80:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:84:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:89:8: declaration uses `sorry`
+warning: PaintCalibrationChallenge.lean:94:8: declaration uses `sorry`
+Build completed successfully (3115 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.PaintCalibrationVerified.declared_start, HugV3.Source.PaintCalibrationVerified.accepted_original_field_rate, HugV3.Source.PaintCalibrationVerified.private_context_comparison, HugV3.Source.PaintCalibrationVerified.footprint_compares_full_inputs, HugV3.Source.PaintCalibrationVerified.same_footprint_and_person_distinct_values, HugV3.Source.PaintCalibrationVerified.unfixed_background_allows_any_contrast, HugV3.Source.PaintCalibrationVerified.independent_field_total_recovers_contrast, HugV3.Source.PaintCalibrationVerified.marked_cell_has_positive_volume, HugV3.Source.PaintCalibrationVerified.original_transport_redistributes_field, HugV3.Source.PaintCalibrationVerified.spatial_total_rate_from_original_source, HugV3.Source.PaintCalibrationVerified.unit_kernel_rate, HugV3.Source.PaintCalibrationVerified.positive_attachments_normalize_original_kernel, HugV3.Source.PaintCalibrationVerified.positive_attachments_see_a_marked_cell, HugV3.Source.PaintCalibrationVerified.original_readout_affine, HugV3.Source.PaintCalibrationVerified.bounded_channel_for_profile, HugV3.Source.PaintCalibrationVerified.zero_sensitivity_erases_contrast, HugV3.Source.PaintCalibrationVerified.calibrated_sensor_recovers_signed_contrast, HugV3.Source.PaintCalibrationVerified.one_exact_reading_identifies_height, HugV3.Source.PaintCalibrationVerified.opposite_fields_have_same_original_force, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from PaintCalibrationChallenge
+Building PaintCalibrationProofs
+✔ [3114/3115] Built PaintCalibrationProofs (1.6s)
+Build completed successfully (3115 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.PaintCalibrationVerified.declared_start, HugV3.Source.PaintCalibrationVerified.accepted_original_field_rate, HugV3.Source.PaintCalibrationVerified.private_context_comparison, HugV3.Source.PaintCalibrationVerified.footprint_compares_full_inputs, HugV3.Source.PaintCalibrationVerified.same_footprint_and_person_distinct_values, HugV3.Source.PaintCalibrationVerified.unfixed_background_allows_any_contrast, HugV3.Source.PaintCalibrationVerified.independent_field_total_recovers_contrast, HugV3.Source.PaintCalibrationVerified.marked_cell_has_positive_volume, HugV3.Source.PaintCalibrationVerified.original_transport_redistributes_field, HugV3.Source.PaintCalibrationVerified.spatial_total_rate_from_original_source, HugV3.Source.PaintCalibrationVerified.unit_kernel_rate, HugV3.Source.PaintCalibrationVerified.positive_attachments_normalize_original_kernel, HugV3.Source.PaintCalibrationVerified.positive_attachments_see_a_marked_cell, HugV3.Source.PaintCalibrationVerified.original_readout_affine, HugV3.Source.PaintCalibrationVerified.bounded_channel_for_profile, HugV3.Source.PaintCalibrationVerified.zero_sensitivity_erases_contrast, HugV3.Source.PaintCalibrationVerified.calibrated_sensor_recovers_signed_contrast, HugV3.Source.PaintCalibrationVerified.one_exact_reading_identifies_height, HugV3.Source.PaintCalibrationVerified.opposite_fields_have_same_original_force, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from PaintCalibrationProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 47.550s
+             CPU time consumed: 48.243s
+                   Memory peak: 5.1G (swap: 0B)

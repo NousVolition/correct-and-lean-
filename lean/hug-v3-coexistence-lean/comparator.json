@@ -1,0 +1,24 @@
+{
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "challenge_module": "V3CoexistenceChallenge",
+  "solution_module": "V3CoexistenceProofs",
+  "theorem_names": [
+    "HugV3.Source.CoexistenceVerified.accepted_full_norm_rate",
+    "HugV3.Source.CoexistenceVerified.same_instant_norm_rate_with_any_association",
+    "HugV3.Source.CoexistenceVerified.full_trace_alignment_derivative",
+    "HugV3.Source.CoexistenceVerified.full_segment_alignment_floor",
+    "HugV3.Source.CoexistenceVerified.full_segment_association_floor",
+    "HugV3.Source.CoexistenceVerified.full_segment_coexistence",
+    "HugV3.Source.CoexistenceVerified.write_preserves_coexistence",
+    "HugV3.Source.CoexistenceVerified.boundary_preserves_coexistence",
+    "HugV3.Source.CoexistenceVerified.full_hybrid_conditional_coexistence",
+    "HugV3.Source.CoexistenceVerified.erosion_witness_has_coexisting_markers",
+    "HugV3.Source.CoexistenceVerified.active_association_allows_alignment_erosion",
+    "HugV3.Source.CoexistenceVerified.delayed_full_norm_rate"
+  ]
+}

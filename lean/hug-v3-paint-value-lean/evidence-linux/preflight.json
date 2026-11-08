@@ -1,0 +1,119 @@
+{
+  "uid": 1000,
+  "solution_precompiled": false,
+  "source_files": {
+    "PaintCalibrationChallenge.lean": "10e0d616bda6b87e5a9cf7cab904e5a22533f3a718856997cc432f082f0401a8",
+    "PaintCalibrationDefinitions.lean": "b9c79ffaaa9147d6b7c5e813d18d2bee811b7b26fbdeaa62b86d6b1774af0bf0",
+    "PaintCalibrationProofs.lean": "6b92dbc95801cb2245e822d25e10ae63c7a96f0b0b47798ef9df448af9e18807",
+    "StreetWholeDefinitions.lean": "ec883d3aa4620bd4f2774a4428ee9a756bdb75a60978e549a9f0668af38435a7",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "lakefile.toml": "3f60e436d249d8f0ab09d665baea4991392ccf2339eb7e978d4b130eee9c14ec",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "comparator.json": "b09a9a408232e47f155f9cc452a8eac01942ff6ba906c66206e18d9e8a60040b",
+    "reference-freeze-current.json": "5f1f84e723472d297b315fd71259aa94cf8e6ebd22c522c47e98df654bb07169",
+    "run-linux-check.sh": "113b8d13d811864c062eaa735c09943705c185ab94efe167e1b6d54abf23aef8"
+  },
+  "dependencies": [
+    {
+      "name": "Comparator",
+      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "clean": true
+    },
+    {
+      "name": "mathlib",
+      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "clean": true
+    },
+    {
+      "name": "lean4export",
+      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "clean": true
+    },
+    {
+      "name": "plausible",
+      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "clean": true
+    },
+    {
+      "name": "importGraph",
+      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+      "clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "clean": true
+    },
+    {
+      "name": "aesop",
+      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "clean": true
+    },
+    {
+      "name": "Qq",
+      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "clean": true
+    },
+    {
+      "name": "batteries",
+      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+      "clean": true
+    },
+    {
+      "name": "Cli",
+      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "clean": true
+    }
+  ],
+  "binaries": {
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/nsverify/verification/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
+    "/home/nsverify/verification/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
+    "/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
+    "/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
+    "/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+  },
+  "config": {
+    "enable_nanoda": true,
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "challenge_module": "PaintCalibrationChallenge",
+    "solution_module": "PaintCalibrationProofs",
+    "theorem_names": [
+      "HugV3.Source.PaintCalibrationVerified.declared_start",
+      "HugV3.Source.PaintCalibrationVerified.accepted_original_field_rate",
+      "HugV3.Source.PaintCalibrationVerified.private_context_comparison",
+      "HugV3.Source.PaintCalibrationVerified.footprint_compares_full_inputs",
+      "HugV3.Source.PaintCalibrationVerified.same_footprint_and_person_distinct_values",
+      "HugV3.Source.PaintCalibrationVerified.unfixed_background_allows_any_contrast",
+      "HugV3.Source.PaintCalibrationVerified.independent_field_total_recovers_contrast",
+      "HugV3.Source.PaintCalibrationVerified.marked_cell_has_positive_volume",
+      "HugV3.Source.PaintCalibrationVerified.original_transport_redistributes_field",
+      "HugV3.Source.PaintCalibrationVerified.spatial_total_rate_from_original_source",
+      "HugV3.Source.PaintCalibrationVerified.unit_kernel_rate",
+      "HugV3.Source.PaintCalibrationVerified.positive_attachments_normalize_original_kernel",
+      "HugV3.Source.PaintCalibrationVerified.positive_attachments_see_a_marked_cell",
+      "HugV3.Source.PaintCalibrationVerified.original_readout_affine",
+      "HugV3.Source.PaintCalibrationVerified.bounded_channel_for_profile",
+      "HugV3.Source.PaintCalibrationVerified.zero_sensitivity_erases_contrast",
+      "HugV3.Source.PaintCalibrationVerified.calibrated_sensor_recovers_signed_contrast",
+      "HugV3.Source.PaintCalibrationVerified.one_exact_reading_identifies_height",
+      "HugV3.Source.PaintCalibrationVerified.opposite_fields_have_same_original_force"
+    ]
+  },
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)"
+}

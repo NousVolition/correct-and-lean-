@@ -1,0 +1,21 @@
+{
+  "sealed_utc": "2026-11-07T02:24:25.046748+00:00",
+  "files": {
+    "PaintCalibrationChallenge.lean": "10e0d616bda6b87e5a9cf7cab904e5a22533f3a718856997cc432f082f0401a8",
+    "PaintCalibrationDefinitions.lean": "b9c79ffaaa9147d6b7c5e813d18d2bee811b7b26fbdeaa62b86d6b1774af0bf0",
+    "PaintCalibrationProofs.lean": "6b92dbc95801cb2245e822d25e10ae63c7a96f0b0b47798ef9df448af9e18807",
+    "StreetWholeDefinitions.lean": "ec883d3aa4620bd4f2774a4428ee9a756bdb75a60978e549a9f0668af38435a7",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "lakefile.toml": "3f60e436d249d8f0ab09d665baea4991392ccf2339eb7e978d4b130eee9c14ec",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "comparator.json": "b09a9a408232e47f155f9cc452a8eac01942ff6ba906c66206e18d9e8a60040b",
+    "reference-freeze-current.json": "5f1f84e723472d297b315fd71259aa94cf8e6ebd22c522c47e98df654bb07169",
+    "run-linux-check.sh": "113b8d13d811864c062eaa735c09943705c185ab94efe167e1b6d54abf23aef8"
+  }
+}

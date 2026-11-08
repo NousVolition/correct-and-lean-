@@ -1,0 +1,25 @@
+{
+  "challenge_module": "AppleExistenceChallenge",
+  "solution_module": "AppleExistenceProofs",
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "theorem_names": [
+    "HugV3.Source.AppleExistence.initial_read_is_empty",
+    "HugV3.Source.AppleExistence.source_power_floor",
+    "HugV3.Source.AppleExistence.initial_full_rate_defined",
+    "HugV3.Source.AppleExistence.full_coordinate_round_trip",
+    "HugV3.Source.AppleExistence.packed_derivative_iff",
+    "HugV3.Source.AppleExistence.tube_supplies_unique_full_segment",
+    "HugV3.Source.AppleExistence.material_carrier_unique_on_trace",
+    "HugV3.Source.AppleExistence.full_apple_iff_source",
+    "HugV3.Source.AppleExistence.certificate_gives_full_apple",
+    "HugV3.Source.AppleExistence.initial_ball_full_rate_defined",
+    "HugV3.Source.AppleExistence.rounding_seam_switches_fabric_bit",
+    "HugV3.Source.AppleExistence.opposite_codes_preclude_one_domain_ball",
+    "HugV3.Source.AppleExistence.recorded_cell_precludes_one_domain_ball"
+  ]
+}

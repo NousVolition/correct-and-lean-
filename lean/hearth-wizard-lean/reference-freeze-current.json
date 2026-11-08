@@ -1,0 +1,44 @@
+{
+  "frozen_utc": "2026-11-07T04:35:34.482014+00:00",
+  "theorems": [
+    "Wizard.fromFin_toFin",
+    "Wizard.toFin_fromFin",
+    "CommutatorMatrix.diag_zero",
+    "CommutatorMatrix.bracket_antisymm",
+    "CommutatorMatrix.sum_all_vanishes",
+    "CommutatorMatrix.quadratic_form_zero",
+    "CommutatorMatrix.bracket_self",
+    "CommutatorMatrix.sum_all_brackets",
+    "CommutatorMatrix.form_basis_pair",
+    "CommutatorMatrix.form_antisymm",
+    "CommutatorMatrix.form_bilinear",
+    "CommutatorMatrix.form_alternating",
+    "CommutatorMatrix.centrality_criterion",
+    "CommutatorMatrix.central_lift_satisfies_jacobi",
+    "CommutatorMatrix.arbitrary_skew_lift_can_fail_jacobi",
+    "CommutatorMatrix.finite_kinetic_energy_rate",
+    "HearthAudit.shear_smooth_and_periodic",
+    "HearthAudit.shear_solves_stationary_forced_momentum",
+    "HearthAudit.shear_companion_integrals",
+    "HearthAudit.companion_identity_fails",
+    "HearthAudit.hug_viscous_heat_nonnegative",
+    "HearthAudit.hug_temperature_contains_hearth_source"
+  ],
+  "files": {
+    "WizardDefinitions.lean": "5e39da94310dc5ecf103560db9cd2e4ddda6bcf44d52856dbe59cfdbe9c1b1cc",
+    "HearthDefinitions.lean": "d6350fdbe08ae6f1a95e7391957a070f369e21a598445f3ce9e06ae765812b03",
+    "HearthChallenge.lean": "bcca1f7c2ec8a49688ddeac39be15fd61c1bebf549cd0c06171ae9c647b17801",
+    "comparator.json": "b027bd8b1c69925005f12be73bfbfd5cd5a61f494ed16f1f33fb5e5d18a42c5b"
+  },
+  "source_files": {
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
+  },
+  "original_submitted_statements": 6,
+  "scope": "Six completed submitted Wizard/algebra statements, their scalar/bilinear/optional central interpretation, and separately named companion-sheet and unchanged Hug heat checks.",
+  "revision": "Opened the pinned mathlib smoothness notation scope before the shear statements; all 22 statements are textually identical."
+}

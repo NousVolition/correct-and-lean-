@@ -1,0 +1,25 @@
+{
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "challenge_module": "AccessChallenge",
+  "solution_module": "AccessProofs",
+  "theorem_names": [
+    "HugV3.Source.AccessVerified.paired_diaries_on_the_timeline",
+    "HugV3.Source.AccessVerified.native_trace_set_for_either_diary",
+    "HugV3.Source.AccessVerified.native_history_cannot_identify_direct_access",
+    "HugV3.Source.AccessVerified.actual_incident_stays_scored_for_dad",
+    "HugV3.Source.AccessVerified.incident_record_excludes_unfinished_predecessor",
+    "HugV3.Source.AccessVerified.later_record_to_child_links_both_earlier_events",
+    "HugV3.Source.AccessVerified.predecessor_bits_do_not_drive_direct_retrieval",
+    "HugV3.Source.AccessVerified.earlier_dad_records_still_outside_child_channel",
+    "HugV3.Source.AccessVerified.missing_or_wrong_crossing_is_unassessed",
+    "HugV3.Source.AccessVerified.observed_access_allows_different_report_patterns",
+    "HugV3.Source.AccessVerified.different_validated_readings_require_different_personal_contexts",
+    "HugV3.Source.AccessVerified.conditional_response_difference_uses_original_c_rate",
+    "HugV3.Source.AccessVerified.conditional_increment_can_be_zero_or_have_either_sign"
+  ]
+}

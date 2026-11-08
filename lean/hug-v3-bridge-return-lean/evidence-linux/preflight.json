@@ -1,0 +1,125 @@
+{
+  "uid": 1000,
+  "solution_precompiled": false,
+  "source_files": {
+    "comparator.json": "c6010caf9d83456bdc803a50631bc75db524b9f8a53621145c036fedcd01e758",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "1cac8be79fb7ece8e4e21121ca77c7d92efcb01515e5c0722eb68376217856c9",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "reference-freeze-current.json": "84aa32681a770d1baf236ed12d95c25fe99ac678acf6f1e9627d3c56a9015088",
+    "run-linux-check.sh": "6398ddb45e24ffc1163857b04653520fe039687c489dfc1eb3a08af2e5ec1a8e",
+    "V3BridgeReturnChallenge.lean": "cfa90a7e4a85534b3ceacc7efec28ee7ef8452a5f49613296b0caaf598252ad7",
+    "V3BridgeReturnDefinitions.lean": "e2d6c33158d28f7037a4d865a48a57c0bb1bb6df7762ded8682e6b46f458aff0",
+    "V3BridgeReturnProofs.lean": "a49dcf6910a04c03042f42972ce3cd3b124fc3d491ab12b32277100e7f9c8a1a",
+    "V3ClayDefinitions.lean": "4c33c0f6bf7895a75203459bdf78343c62041e0d565949040945699f5bdd7424",
+    "V3ClayProofs.lean": "c56133b0691a5b9c2d381fdbbb00435831f3c8772cebd1c33eb0d8fc366a1843",
+    "V3ClayTrajectoryProofs.lean": "f3f6a976ef092fa9487365ec416b0773009dfb223f60a578b3ce64910cc475a4",
+    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+    "V3DelayProofs.lean": "a21e672f3309abee5e49b1767d475483591076a681c38229461cbf30e0247fdc",
+    "V3MemoryRulesDefinitions.lean": "6849f65909065ca3929e15ed08947cc9859e2adc82c513a8544a9065ba321dec",
+    "V3MemoryRulesProofs.lean": "c42d82f6a82d8e2ad68d7b3b09e6e06c81d48c0872c4a0827eb900b980acfd04",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceProofs.lean": "bc33166378e84da1ffb2391c2c22250cb30ad3d6db69d367df539522b769f885",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
+  },
+  "dependencies": [
+    {
+      "name": "Comparator",
+      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "clean": true
+    },
+    {
+      "name": "mathlib",
+      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "clean": true
+    },
+    {
+      "name": "lean4export",
+      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "clean": true
+    },
+    {
+      "name": "plausible",
+      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "clean": true
+    },
+    {
+      "name": "importGraph",
+      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+      "clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "clean": true
+    },
+    {
+      "name": "aesop",
+      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "clean": true
+    },
+    {
+      "name": "Qq",
+      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "clean": true
+    },
+    {
+      "name": "batteries",
+      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+      "clean": true
+    },
+    {
+      "name": "Cli",
+      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "clean": true
+    }
+  ],
+  "binaries": {
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/nsverify/verification/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
+    "/home/nsverify/verification/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
+    "/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
+    "/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
+    "/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+  },
+  "config": {
+    "enable_nanoda": true,
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "challenge_module": "V3BridgeReturnChallenge",
+    "solution_module": "V3BridgeReturnProofs",
+    "theorem_names": [
+      "HugV3.Source.BridgeReturnVerified.write_preserves_person_group_state",
+      "HugV3.Source.BridgeReturnVerified.write_preserves_source_accumulator",
+      "HugV3.Source.BridgeReturnVerified.write_work_nondecreasing",
+      "HugV3.Source.BridgeReturnVerified.write_preserves_destination",
+      "HugV3.Source.BridgeReturnVerified.same_destination_with_new_residue",
+      "HugV3.Source.BridgeReturnVerified.successful_write_retains_occupied_slot_bytes",
+      "HugV3.Source.BridgeReturnVerified.full_trace_retains_records_between_writes",
+      "HugV3.Source.BridgeReturnVerified.conditional_fabric_durability_through_full_trace",
+      "HugV3.Source.BridgeReturnVerified.full_trace_write_work_constant_between_writes",
+      "HugV3.Source.BridgeReturnVerified.full_trace_write_work_nondecreasing_at_checkpoints",
+      "HugV3.Source.BridgeReturnVerified.positive_write_work_precludes_full_reset",
+      "HugV3.Source.BridgeReturnVerified.record_relevance_positive_and_bounded",
+      "HugV3.Source.BridgeReturnVerified.stable_record_with_changed_relevance",
+      "HugV3.Source.BridgeReturnVerified.declared_route_closes_at_first_teacher",
+      "HugV3.Source.BridgeReturnVerified.no_later_declared_reply_to_student",
+      "HugV3.Source.BridgeReturnVerified.witness_preserves_original_intent_expression",
+      "HugV3.Source.BridgeReturnVerified.expression_rate_can_leave_intent",
+      "HugV3.Source.BridgeReturnVerified.accepted_full_rate_can_leave_intent"
+    ]
+  },
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)"
+}

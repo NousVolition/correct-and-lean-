@@ -1,0 +1,34 @@
+{
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "challenge_module": "StreetWholeChallenge",
+  "solution_module": "StreetWholeProofs",
+  "theorem_names": [
+    "HugV3.Source.StreetWholeVerified.full_input_keeps_all_other_coordinates",
+    "HugV3.Source.StreetWholeVerified.line_enters_original_observation",
+    "HugV3.Source.StreetWholeVerified.line_keeps_body_and_heat_readings",
+    "HugV3.Source.StreetWholeVerified.line_keeps_records_and_current_relevance",
+    "HugV3.Source.StreetWholeVerified.line_keeps_current_guard",
+    "HugV3.Source.StreetWholeVerified.personal_context_keeps_physical_state_and_records",
+    "HugV3.Source.StreetWholeVerified.personal_context_total_preserved",
+    "HugV3.Source.StreetWholeVerified.personal_context_stays_in_unit_interval",
+    "HugV3.Source.StreetWholeVerified.shifted_record_cue_coordinates",
+    "HugV3.Source.StreetWholeVerified.original_weight_uses_current_cue",
+    "HugV3.Source.StreetWholeVerified.matched_record_weight_after_context_shift",
+    "HugV3.Source.StreetWholeVerified.nonzero_context_shift_reduces_matched_weight",
+    "HugV3.Source.StreetWholeVerified.record_weight_bounded_by_duration",
+    "HugV3.Source.StreetWholeVerified.accepted_full_rhs_keeps_the_coupling",
+    "HugV3.Source.StreetWholeVerified.original_guard_rate_uses_line_observation_and_experience",
+    "HugV3.Source.StreetWholeVerified.constant_signal_shift_keeps_gradient_and_force",
+    "HugV3.Source.StreetWholeVerified.band_edge_gradient",
+    "HugV3.Source.StreetWholeVerified.band_center_does_not_activate",
+    "HugV3.Source.StreetWholeVerified.small_band_edge_is_off",
+    "HugV3.Source.StreetWholeVerified.larger_band_edge_is_on",
+    "HugV3.Source.StreetWholeVerified.successful_write_preserves_person_and_line",
+    "HugV3.Source.StreetWholeVerified.self_addressed_episode_is_rejected"
+  ]
+}

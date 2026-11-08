@@ -1,0 +1,41 @@
+{
+  "frozen_utc": "2026-11-05T05:02:03.062986+00:00",
+  "theorems": [
+    "PersonEnvironment.Verified.scan_sound",
+    "PersonEnvironment.Verified.scan_none_iff",
+    "PersonEnvironment.Verified.scan_checks_le_length",
+    "PersonEnvironment.Verified.failed_scan_checks_every_candidate",
+    "PersonEnvironment.Verified.certificate_membership",
+    "PersonEnvironment.Verified.certificate_count",
+    "PersonEnvironment.Verified.memory_first_sound",
+    "PersonEnvironment.Verified.memory_first_none_iff",
+    "PersonEnvironment.Verified.memory_first_finds_iff",
+    "PersonEnvironment.Verified.different_experience_preserves_decision",
+    "PersonEnvironment.Verified.changed_person_same_check_preserves_decision",
+    "PersonEnvironment.Verified.successful_memory_skips_fallback",
+    "PersonEnvironment.Verified.failed_memory_adds_checks",
+    "PersonEnvironment.Verified.rejecting_fallback_exact_count",
+    "PersonEnvironment.Verified.faithful_checker_gives_valid_answer",
+    "PersonEnvironment.Verified.full_hug_current_context_checked",
+    "PersonEnvironment.Verified.original_guard_is_unchanged",
+    "PersonEnvironment.Verified.original_retrieval_is_unchanged",
+    "PersonEnvironment.Verified.memory_only_can_miss_answer",
+    "PersonEnvironment.Verified.different_memory_same_answer_different_checks",
+    "PersonEnvironment.Verified.stale_answer_is_rechecked"
+  ],
+  "files": {
+    "PersonEnvironmentDefinitions.lean": "ea0e58b7945a3677bbd4bef19d40ea0fb44f6c7ba9aaaadb30736ce2ab13a43a",
+    "PersonEnvironmentChallenge.lean": "512bc2e3f136447c00f7621c0568e7d450d07a58c44f8011fced37061a048dcb",
+    "comparator.json": "cfa57056a0ab75e3086798fb8bbfd6008ff1785abfd892b238f8648f7322f880"
+  },
+  "source_files": {
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
+  },
+  "revisions": [],
+  "scope": "Auxiliary finite certificate search and checking, parameterized by the full unchanged Hug state; not P equals NP or a human-truth theorem."
+}

@@ -1,0 +1,50 @@
+Running as unit: person-environment-pnp-comparator-20261104.service; invocation ID: 0e01a504355a47228e946a74bc5261b7
+Building PersonEnvironmentChallenge
+✔ [3106/3114] Built V3SourceCore (9.9s)
+✔ [3107/3114] Built V3SourceMemory (1.7s)
+✔ [3108/3114] Built V3SourceSocial (1.6s)
+✔ [3109/3114] Built V3SourceFlow (1.5s)
+✔ [3110/3114] Built V3SourceGeometry (7.7s)
+✔ [3111/3114] Built V3SourceSystem (1.4s)
+✔ [3112/3114] Built PersonEnvironmentDefinitions (1.3s)
+⚠ [3113/3114] Built PersonEnvironmentChallenge (1.2s)
+warning: PersonEnvironmentChallenge.lean:5:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:9:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:12:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:15:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:20:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:23:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:26:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:31:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:36:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:41:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:47:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:54:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:60:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:67:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:70:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:77:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:83:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:86:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:91:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:95:8: declaration uses `sorry`
+warning: PersonEnvironmentChallenge.lean:99:8: declaration uses `sorry`
+Build completed successfully (3114 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, PersonEnvironment.Verified.scan_sound, PersonEnvironment.Verified.scan_none_iff, PersonEnvironment.Verified.scan_checks_le_length, PersonEnvironment.Verified.failed_scan_checks_every_candidate, PersonEnvironment.Verified.certificate_membership, PersonEnvironment.Verified.certificate_count, PersonEnvironment.Verified.memory_first_sound, PersonEnvironment.Verified.memory_first_none_iff, PersonEnvironment.Verified.memory_first_finds_iff, PersonEnvironment.Verified.different_experience_preserves_decision, PersonEnvironment.Verified.changed_person_same_check_preserves_decision, PersonEnvironment.Verified.successful_memory_skips_fallback, PersonEnvironment.Verified.failed_memory_adds_checks, PersonEnvironment.Verified.rejecting_fallback_exact_count, PersonEnvironment.Verified.faithful_checker_gives_valid_answer, PersonEnvironment.Verified.full_hug_current_context_checked, PersonEnvironment.Verified.original_guard_is_unchanged, PersonEnvironment.Verified.original_retrieval_is_unchanged, PersonEnvironment.Verified.memory_only_can_miss_answer, PersonEnvironment.Verified.different_memory_same_answer_different_checks, PersonEnvironment.Verified.stale_answer_is_rechecked, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from PersonEnvironmentChallenge
+Building PersonEnvironmentProofs
+⚠ [3113/3114] Built PersonEnvironmentProofs (1.4s)
+warning: PersonEnvironmentProofs.lean:33:43: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3114 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, PersonEnvironment.Verified.scan_sound, PersonEnvironment.Verified.scan_none_iff, PersonEnvironment.Verified.scan_checks_le_length, PersonEnvironment.Verified.failed_scan_checks_every_candidate, PersonEnvironment.Verified.certificate_membership, PersonEnvironment.Verified.certificate_count, PersonEnvironment.Verified.memory_first_sound, PersonEnvironment.Verified.memory_first_none_iff, PersonEnvironment.Verified.memory_first_finds_iff, PersonEnvironment.Verified.different_experience_preserves_decision, PersonEnvironment.Verified.changed_person_same_check_preserves_decision, PersonEnvironment.Verified.successful_memory_skips_fallback, PersonEnvironment.Verified.failed_memory_adds_checks, PersonEnvironment.Verified.rejecting_fallback_exact_count, PersonEnvironment.Verified.faithful_checker_gives_valid_answer, PersonEnvironment.Verified.full_hug_current_context_checked, PersonEnvironment.Verified.original_guard_is_unchanged, PersonEnvironment.Verified.original_retrieval_is_unchanged, PersonEnvironment.Verified.memory_only_can_miss_answer, PersonEnvironment.Verified.different_memory_same_answer_different_checks, PersonEnvironment.Verified.stale_answer_is_rechecked, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from PersonEnvironmentProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 42.319s
+             CPU time consumed: 42.594s
+                   Memory peak: 5.1G (swap: 0B)

@@ -1,0 +1,39 @@
+{
+  "frozen_utc": "2026-11-07T03:16:57.714727+00:00",
+  "theorems": [
+    "HugV3.Source.AccessVerified.paired_diaries_on_the_timeline",
+    "HugV3.Source.AccessVerified.native_trace_set_for_either_diary",
+    "HugV3.Source.AccessVerified.native_history_cannot_identify_direct_access",
+    "HugV3.Source.AccessVerified.actual_incident_stays_scored_for_dad",
+    "HugV3.Source.AccessVerified.incident_record_excludes_unfinished_predecessor",
+    "HugV3.Source.AccessVerified.later_record_to_child_links_both_earlier_events",
+    "HugV3.Source.AccessVerified.predecessor_bits_do_not_drive_direct_retrieval",
+    "HugV3.Source.AccessVerified.earlier_dad_records_still_outside_child_channel",
+    "HugV3.Source.AccessVerified.missing_or_wrong_crossing_is_unassessed",
+    "HugV3.Source.AccessVerified.observed_access_allows_different_report_patterns",
+    "HugV3.Source.AccessVerified.different_validated_readings_require_different_personal_contexts",
+    "HugV3.Source.AccessVerified.conditional_response_difference_uses_original_c_rate",
+    "HugV3.Source.AccessVerified.conditional_increment_can_be_zero_or_have_either_sign"
+  ],
+  "files": {
+    "StreetWholeDefinitions.lean": "ec883d3aa4620bd4f2774a4428ee9a756bdb75a60978e549a9f0668af38435a7",
+    "StreetWholeProofs.lean": "ccd30074abe60d664cfe5b775a661e1923390983716b602316fff9190078ba21",
+    "V3TransferDefinitions.lean": "160c70e7250161f2248dcbecfb6f92d1a61623498329d6fe5220bbe30d1b1ce7",
+    "V3TransferProofs.lean": "602989250085298c16f3b18ac22c1e0b1d82bc7ceb0d0b2bcb0d58c2ff802437",
+    "WitnessDefinitions.lean": "a9d90f6246e6a9a066ab70227e88ce61368ee10063de96148eb27af080d8fd93",
+    "WitnessProofs.lean": "37b9d3ff64a45a271fc1dbb05b12293bd1e960d524aac68feef1d495993cae75",
+    "AccessDefinitions.lean": "9d7d08a554a2e1359f318ef67f7e31b7ad56871511617d4f7c0294fb8e9e9a6c",
+    "AccessChallenge.lean": "88a6ae7bb417dd3bdf8a0651897a54e409a4ee39c1f6374d016dcfcb16c2b908",
+    "comparator.json": "bf31a4efee62ae3e541bbccb627b7f955f43707efaec0f60af8406f244c2990c"
+  },
+  "source_files": {
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
+  },
+  "revisions": [],
+  "scope": "Paired direct access with fixed native incident, original full model, predecessor links, personal-context identifiability and missing before/after formulations."
+}

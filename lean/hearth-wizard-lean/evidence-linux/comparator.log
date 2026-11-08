@@ -1,0 +1,71 @@
+Running as unit: hearth-wizard-comparator-20261106.service; invocation ID: d445b6b01ee2418b8e0dbe92630ae76d
+Building HearthChallenge
+✔ [8763/8772] Built V3SourceCore (7.0s)
+✔ [8764/8772] Built V3SourceMemory (1.6s)
+✔ [8765/8772] Built V3SourceSocial (1.6s)
+✔ [8766/8772] Built V3SourceFlow (1.4s)
+✔ [8767/8772] Built V3SourceGeometry (7.5s)
+✔ [8768/8772] Built V3SourceSystem (1.4s)
+✔ [8769/8772] Built WizardDefinitions (16s)
+✔ [8770/8772] Built HearthDefinitions (2.3s)
+⚠ [8771/8772] Built HearthChallenge (2.5s)
+warning: HearthChallenge.lean:8:8: declaration uses `sorry`
+warning: HearthChallenge.lean:10:8: declaration uses `sorry`
+warning: HearthChallenge.lean:18:8: declaration uses `sorry`
+warning: HearthChallenge.lean:20:8: declaration uses `sorry`
+warning: HearthChallenge.lean:23:8: declaration uses `sorry`
+warning: HearthChallenge.lean:26:8: declaration uses `sorry`
+warning: HearthChallenge.lean:29:8: declaration uses `sorry`
+warning: HearthChallenge.lean:31:8: declaration uses `sorry`
+warning: HearthChallenge.lean:34:8: declaration uses `sorry`
+warning: HearthChallenge.lean:37:8: declaration uses `sorry`
+warning: HearthChallenge.lean:40:8: declaration uses `sorry`
+warning: HearthChallenge.lean:44:8: declaration uses `sorry`
+warning: HearthChallenge.lean:46:8: declaration uses `sorry`
+warning: HearthChallenge.lean:49:8: declaration uses `sorry`
+warning: HearthChallenge.lean:52:8: declaration uses `sorry`
+warning: HearthChallenge.lean:55:8: declaration uses `sorry`
+warning: HearthChallenge.lean:64:8: declaration uses `sorry`
+warning: HearthChallenge.lean:68:8: declaration uses `sorry`
+warning: HearthChallenge.lean:72:8: declaration uses `sorry`
+warning: HearthChallenge.lean:76:8: declaration uses `sorry`
+warning: HearthChallenge.lean:79:8: declaration uses `sorry`
+warning: HearthChallenge.lean:82:8: declaration uses `sorry`
+Build completed successfully (8772 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, Wizard.fromFin_toFin, Wizard.toFin_fromFin, CommutatorMatrix.diag_zero, CommutatorMatrix.bracket_antisymm, CommutatorMatrix.sum_all_vanishes, CommutatorMatrix.quadratic_form_zero, CommutatorMatrix.bracket_self, CommutatorMatrix.sum_all_brackets, CommutatorMatrix.form_basis_pair, CommutatorMatrix.form_antisymm, CommutatorMatrix.form_bilinear, CommutatorMatrix.form_alternating, CommutatorMatrix.centrality_criterion, CommutatorMatrix.central_lift_satisfies_jacobi, CommutatorMatrix.arbitrary_skew_lift_can_fail_jacobi, CommutatorMatrix.finite_kinetic_energy_rate, HearthAudit.shear_smooth_and_periodic, HearthAudit.shear_solves_stationary_forced_momentum, HearthAudit.shear_companion_integrals, HearthAudit.companion_identity_fails, HearthAudit.hug_viscous_heat_nonnegative, HearthAudit.hug_temperature_contains_hearth_source, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from HearthChallenge
+Building HearthProofs
+✔ [8771/8774] Built SevenWizardAlgebra (2.5s)
+⚠ [8772/8774] Built WizardBracket (2.6s)
+warning: WizardBracket.lean:95:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: WizardBracket.lean:95:77: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: WizardBracket.lean:104:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: WizardBracket.lean:104:66: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: WizardBracket.lean:113:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: WizardBracket.lean:113:75: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [8773/8774] Built HearthProofs (2.6s)
+warning: HearthProofs.lean:63:35: This simp argument is unused:
+  diff01
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [vorticity, shear_gradient, diff10, diff20, diff21]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HearthProofs.lean:63:42: This simp argument is unused:
+  diff10
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [vorticity, shear_gradient, diff01, diff20, diff21]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (8774 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, Wizard.fromFin_toFin, Wizard.toFin_fromFin, CommutatorMatrix.diag_zero, CommutatorMatrix.bracket_antisymm, CommutatorMatrix.sum_all_vanishes, CommutatorMatrix.quadratic_form_zero, CommutatorMatrix.bracket_self, CommutatorMatrix.sum_all_brackets, CommutatorMatrix.form_basis_pair, CommutatorMatrix.form_antisymm, CommutatorMatrix.form_bilinear, CommutatorMatrix.form_alternating, CommutatorMatrix.centrality_criterion, CommutatorMatrix.central_lift_satisfies_jacobi, CommutatorMatrix.arbitrary_skew_lift_can_fail_jacobi, CommutatorMatrix.finite_kinetic_energy_rate, HearthAudit.shear_smooth_and_periodic, HearthAudit.shear_solves_stationary_forced_momentum, HearthAudit.shear_companion_integrals, HearthAudit.companion_identity_fails, HearthAudit.hug_viscous_heat_nonnegative, HearthAudit.hug_temperature_contains_hearth_source, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from HearthProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 49.387s
+             CPU time consumed: 2min 1.751s
+                   Memory peak: 9.4G (swap: 0B)

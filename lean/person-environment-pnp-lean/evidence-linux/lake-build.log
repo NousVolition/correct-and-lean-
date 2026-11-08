@@ -1,0 +1,13 @@
+⚠ [3113/3116] Replayed PersonEnvironmentProofs
+warning: PersonEnvironmentProofs.lean:33:43: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [3115/3116] Built PersonEnvironmentExamples (1.2s)
+info: PersonEnvironmentExamples.lean:6:0: { answer := some [true], checks := 1 }
+info: PersonEnvironmentExamples.lean:7:0: { answer := some [true], checks := 4 }
+info: PersonEnvironmentExamples.lean:8:0: { answer := some [false], checks := 3 }
+info: PersonEnvironmentExamples.lean:9:0: { answer := none, checks := 15 }
+info: PersonEnvironmentExamples.lean:11:0: 'PersonEnvironment.Verified.memory_first_finds_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PersonEnvironmentExamples.lean:12:0: 'PersonEnvironment.Verified.rejecting_fallback_exact_count' depends on axioms: [propext, Quot.sound]
+info: PersonEnvironmentExamples.lean:13:0: 'PersonEnvironment.Verified.full_hug_current_context_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3116 jobs).

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "CWAll.lean": "82fdcf77dc674abc3b1d3bdc4845762bcf7b1b6c267b5cf6a39ba62c8d320bb6",
+    "CWBalance.lean": "5aa023fdc3d1e038fa2bc97fb681609bda55d88b1f938bfcf5392f2ae0d22b1a",
+    "CWChallenge.lean": "cb5ae9a59a9e5ae84a477337a67a0216bc51f63ef367b877f68f966dab7ddcd9",
+    "CWDefinitions.lean": "b00938b6370c25ee19dbf0969968c95e9f28738a732c19f2132a1c207dd34d02",
+    "CWEnergyChallenge.lean": "5cb3821e3de4324aa4c8bbb2d96359f68e80b8eb29320a67228eecf4f8d2ef42",
+    "CWProofs.lean": "6b61204f1dedcc778d04040f9babc3e479db4f3872545fd589f951d7e55168cf",
+    "CWSpectral.lean": "ba893b444e1ba9793aabbace3299f12f874b4c32edd5cd10ab48cd0304bd0d1c",
+    "CWWork.lean": "aa4b179929ff82d607c87292e83e0742b93d2d0a570391eed77037c7f5305748",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "WizardDefinitions.lean": "5e39da94310dc5ecf103560db9cd2e4ddda6bcf44d52856dbe59cfdbe9c1b1cc",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "lakefile.toml": "22df8365c898580a569987c734643921a0486707df75178de642aa2f87cc00a6",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "comparator.json": "33cc5487f7a9b32f88dc3f015af98d8e9570eebae64c1d5896eef19866d0e7ec",
+    "reference-freeze-current.json": "af0f5a79a0a3c583d9367d4cc73e1ce8e58c1d1981c3ddec4bd66ecc241a1438",
+    "run-linux-check.sh": "b579253ba5b2423609449d0f7d9639a4ad5b121b2d05627098fd809ec66a4c94"
+  }
+}

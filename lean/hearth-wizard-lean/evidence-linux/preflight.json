@@ -1,0 +1,124 @@
+{
+  "uid": 1000,
+  "solution_precompiled": false,
+  "source_files": {
+    "HearthChallenge.lean": "bcca1f7c2ec8a49688ddeac39be15fd61c1bebf549cd0c06171ae9c647b17801",
+    "HearthDefinitions.lean": "d6350fdbe08ae6f1a95e7391957a070f369e21a598445f3ce9e06ae765812b03",
+    "HearthProofs.lean": "f83c779bc7fa5ad378db641b1d2aab811cd74af4b543829bdaeece5648516531",
+    "SevenWizardAlgebra.lean": "1ab6236264c1c0b9eed6d3d31bc64a651e7328f99bfe479c2ac3c7ce0552014a",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "WizardBracket.lean": "62b10930f5affd542ec6848ed2a436c5beb9efda1f7594fcd7a123552a7e2ef7",
+    "WizardDefinitions.lean": "5e39da94310dc5ecf103560db9cd2e4ddda6bcf44d52856dbe59cfdbe9c1b1cc",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "lakefile.toml": "9603dde15bfbec0666bb83600562ddc5ca4642f1c07458079944042953a8b31e",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "comparator.json": "b027bd8b1c69925005f12be73bfbfd5cd5a61f494ed16f1f33fb5e5d18a42c5b",
+    "reference-freeze-current.json": "b1828397df7194429105790fecd5b3169aa225e3f36ec4da82f4eb270cd9187b",
+    "run-linux-check.sh": "ff92cbb7da9b459d95d456847d7988f7c57de4b5384693603faabcd5dc337aff"
+  },
+  "dependencies": [
+    {
+      "name": "Comparator",
+      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "clean": true
+    },
+    {
+      "name": "mathlib",
+      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "clean": true
+    },
+    {
+      "name": "lean4export",
+      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "clean": true
+    },
+    {
+      "name": "plausible",
+      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "clean": true
+    },
+    {
+      "name": "importGraph",
+      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+      "clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "clean": true
+    },
+    {
+      "name": "aesop",
+      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "clean": true
+    },
+    {
+      "name": "Qq",
+      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "clean": true
+    },
+    {
+      "name": "batteries",
+      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+      "clean": true
+    },
+    {
+      "name": "Cli",
+      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "clean": true
+    }
+  ],
+  "binaries": {
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/nsverify/verification/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
+    "/home/nsverify/verification/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
+    "/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
+    "/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
+    "/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+  },
+  "config": {
+    "enable_nanoda": true,
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "challenge_module": "HearthChallenge",
+    "solution_module": "HearthProofs",
+    "theorem_names": [
+      "Wizard.fromFin_toFin",
+      "Wizard.toFin_fromFin",
+      "CommutatorMatrix.diag_zero",
+      "CommutatorMatrix.bracket_antisymm",
+      "CommutatorMatrix.sum_all_vanishes",
+      "CommutatorMatrix.quadratic_form_zero",
+      "CommutatorMatrix.bracket_self",
+      "CommutatorMatrix.sum_all_brackets",
+      "CommutatorMatrix.form_basis_pair",
+      "CommutatorMatrix.form_antisymm",
+      "CommutatorMatrix.form_bilinear",
+      "CommutatorMatrix.form_alternating",
+      "CommutatorMatrix.centrality_criterion",
+      "CommutatorMatrix.central_lift_satisfies_jacobi",
+      "CommutatorMatrix.arbitrary_skew_lift_can_fail_jacobi",
+      "CommutatorMatrix.finite_kinetic_energy_rate",
+      "HearthAudit.shear_smooth_and_periodic",
+      "HearthAudit.shear_solves_stationary_forced_momentum",
+      "HearthAudit.shear_companion_integrals",
+      "HearthAudit.companion_identity_fails",
+      "HearthAudit.hug_viscous_heat_nonnegative",
+      "HearthAudit.hug_temperature_contains_hearth_source"
+    ]
+  },
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)"
+}

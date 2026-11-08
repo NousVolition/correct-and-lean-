@@ -1,0 +1,27 @@
+import V3DelayDefinitions
+import Mathlib.Data.Matrix.Mul
+
+/-! Comparison maps and observables only. No Hug evolution, constitutive law,
+delay, event, encoding or memory-writing rule is replaced or added.
+Orthogonal comparisons here need not be symmetries of the full dynamics. -/
+namespace HugV3.Source.YMAudit
+noncomputable section
+open scoped BigOperators
+
+def Orthogonal (Q : Mat) : Prop :=
+  (Matrix.of Q).transpose * Matrix.of Q = 1
+
+def rotateFabric (Q : Particle → Mat) (s : State) : State :=
+  {s with F := fun p => mm (Q p) (s.F p)}
+
+def MatrixDerivWithin (f : ℝ → Mat) (df : Mat) (I : Set ℝ) (t : ℝ) : Prop :=
+  ∀ i j, HasDerivWithinAt (fun τ => f τ i j) (df i j) I t
+
+def frameDefect (Q dQ L F : Mat) : Mat :=
+  mm dQ F + mm Q (mm L F) - mm L (mm Q F)
+
+def quarterTurn : Mat := ![![0,-1,0],![1,0,0],![0,0,1]]
+def diagonalRate : Mat := ![![1,0,0],![0,-1,0],![0,0,0]]
+
+end
+end HugV3.Source.YMAudit

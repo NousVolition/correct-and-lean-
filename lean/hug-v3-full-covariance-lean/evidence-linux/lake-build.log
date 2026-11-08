@@ -1,0 +1,53 @@
+⚠ [3117/3120] Replayed V3YangMillsAuditProofs
+warning: V3YangMillsAuditProofs.lean:186:19: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:190:21: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3119/3120] Replayed V3CovarianceProofs
+warning: V3CovarianceProofs.lean:99:26: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sqnorm, Pi.neg_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:144:47: This simp argument is unused:
+  normfiber_signed
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [extraConductivity, effective, sm, fiber_signed]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:145:26: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sqnorm, Pi.neg_apply, neg_div, mul_neg, neg_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:151:26: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.neg_apply, mul_neg, neg_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:284:32: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3CovarianceProofs.lean:412:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+Build completed successfully (3120 jobs).

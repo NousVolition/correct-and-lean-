@@ -1,0 +1,49 @@
+{
+  "frozen_utc": "2026-11-07T03:00:05.324223+00:00",
+  "theorems": [
+    "HugV3.Source.WitnessVerified.declared_event_roles",
+    "HugV3.Source.WitnessVerified.actual_built_record_keeps_its_participants",
+    "HugV3.Source.WitnessVerified.record_does_not_enter_bystander_retrieval",
+    "HugV3.Source.WitnessVerified.first_two_records_have_no_child_channel",
+    "HugV3.Source.WitnessVerified.original_personal_rate_uses_present_relationships",
+    "HugV3.Source.WitnessVerified.record_scores_have_no_instant_personal_rate",
+    "HugV3.Source.WitnessVerified.adverse_record_changes_fathers_recognition_rate",
+    "HugV3.Source.WitnessVerified.matched_tests_keep_setting",
+    "HugV3.Source.WitnessVerified.fathers_rating_enters_childs_recognition",
+    "HugV3.Source.WitnessVerified.childs_recognition_changes_cooperation_rate",
+    "HugV3.Source.WitnessVerified.own_cooperation_enters_context_rate",
+    "HugV3.Source.WitnessVerified.changed_neighbor_context_enters_child_rate",
+    "HugV3.Source.WitnessVerified.uncoupled_neighbor_context_has_zero_effect",
+    "HugV3.Source.WitnessVerified.declared_context_response_example",
+    "HugV3.Source.WitnessVerified.an_eligible_old_record_can_be_reweighted",
+    "HugV3.Source.WitnessVerified.all_accepted_checkpoints_keep_person_and_setting",
+    "HugV3.Source.WitnessVerified.actual_trace_context_rate",
+    "HugV3.Source.WitnessVerified.actual_trace_has_no_checkpoint_jump_in_context",
+    "HugV3.Source.WitnessVerified.nonzero_rate_entails_a_later_change",
+    "HugV3.Source.WitnessVerified.distinct_personal_rates_with_same_public_history"
+  ],
+  "files": {
+    "StreetWholeDefinitions.lean": "ec883d3aa4620bd4f2774a4428ee9a756bdb75a60978e549a9f0668af38435a7",
+    "StreetWholeProofs.lean": "ccd30074abe60d664cfe5b775a661e1923390983716b602316fff9190078ba21",
+    "V3TransferDefinitions.lean": "160c70e7250161f2248dcbecfb6f92d1a61623498329d6fe5220bbe30d1b1ce7",
+    "V3TransferProofs.lean": "602989250085298c16f3b18ac22c1e0b1d82bc7ceb0d0b2bcb0d58c2ff802437",
+    "WitnessDefinitions.lean": "a9d90f6246e6a9a066ab70227e88ce61368ee10063de96148eb27af080d8fd93",
+    "WitnessChallenge.lean": "af69e7b12bbd9048867c0c552384d6bc9c059be4d6e73725c353c3bbb548ab98",
+    "comparator.json": "9f37efa2ec24cc910e65d22f4295b1f0081447e69638735490047a6f93f68719"
+  },
+  "source_files": {
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
+  },
+  "revisions": [
+    {
+      "prior": "development/reference-freeze-v1.json",
+      "changes": "Parentheses corrected Lean parsing of a leading negative term in the context projection. All 19 prior targets are byte-for-byte preserved. A twentieth target tests matched public C and permission margins throughout two valid full-state segments."
+    }
+  ],
+  "scope": "Unchanged full-state projections, native event roles, directed witness access, indirect response and personal-context transfer, old-record retrieval, full-trace segments and all accepted checkpoints. No sight or meaning encoder introduced."
+}

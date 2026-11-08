@@ -1,0 +1,26 @@
+{
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "challenge_module": "AccountChallenge",
+  "solution_module": "AccountProofs",
+  "theorem_names": [
+    "HugV3.Source.AccountVerified.account_without_separate_rating_preserves_input",
+    "HugV3.Source.AccountVerified.attributed_current_rating_uses_only_report_field",
+    "HugV3.Source.AccountVerified.crossing_reference_and_current_rating_have_distinct_targets",
+    "HugV3.Source.AccountVerified.words_and_direct_sight_do_not_choose_a_number",
+    "HugV3.Source.AccountVerified.declared_third_record_is_childs_later_report",
+    "HugV3.Source.AccountVerified.score_uses_independent_observation_only_when_present",
+    "HugV3.Source.AccountVerified.private_report_enters_signed_retrieval",
+    "HugV3.Source.AccountVerified.neutral_report_and_missing_report_are_distinguishable",
+    "HugV3.Source.AccountVerified.rating_changes_three_response_rates",
+    "HugV3.Source.AccountVerified.accepted_report_writes_preserve_immediate_context_and_agreement",
+    "HugV3.Source.AccountVerified.heun_context_difference_for_a_changed_child_response",
+    "HugV3.Source.AccountVerified.two_coordinate_direction_of_the_next_step",
+    "HugV3.Source.AccountVerified.a_validated_contrast_determines_only_the_stated_change",
+    "HugV3.Source.AccountVerified.a_direction_alone_admits_distinct_context_weights"
+  ]
+}

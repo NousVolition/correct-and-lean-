@@ -1,0 +1,39 @@
+{
+  "frozen_utc": "2026-11-05T21:20:55.411390+00:00",
+  "theorems": [
+    "MiraLocal.Verified.joining_preserves_no_repeats",
+    "MiraLocal.Verified.every_joined_route_is_a_path",
+    "MiraLocal.Verified.joined_visits_every_chamber_once_iff_coverage",
+    "MiraLocal.Verified.joined_length_sufficient",
+    "MiraLocal.Verified.stuck_prefix_has_no_simple_extension",
+    "MiraLocal.Verified.good_local_units_join",
+    "MiraLocal.Verified.good_complete_route",
+    "MiraLocal.Verified.trap_map_is_connected",
+    "MiraLocal.Verified.trap_prefix_locally_valid",
+    "MiraLocal.Verified.trap_prefix_stuck_and_incomplete",
+    "MiraLocal.Verified.trap_prefix_cannot_be_completed_by_appending",
+    "MiraLocal.Verified.individual_units_can_overlap",
+    "MiraLocal.Verified.overlap_join_fails",
+    "MiraLocal.Verified.valid_prefix_without_coverage_not_complete",
+    "MiraLocal.Verified.changing_environment_mixed_checks_not_snapshot",
+    "MiraLocal.Verified.full_hug_interface_joins",
+    "MiraLocal.Verified.original_guard_is_unchanged",
+    "MiraLocal.Verified.original_retrieval_is_unchanged"
+  ],
+  "files": {
+    "PersonEnvironmentDefinitions.lean": "ea0e58b7945a3677bbd4bef19d40ea0fb44f6c7ba9aaaadb30736ce2ab13a43a",
+    "MiraLocalDefinitions.lean": "1d58eba77eb2b71a74fa34df699a355fcbb3cb6de942c62fab2a06f2556287f2",
+    "MiraLocalChallenge.lean": "52bb108507b348ad52269bd12e46950ff76cfd00d195d07d67a64995d8181588",
+    "comparator.json": "bc5400cbbe08a9dbe28df88e65950b5f1bc0e3686ba7184ec5c57092d91688e8"
+  },
+  "source_files": {
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
+  },
+  "revisions": [],
+  "scope": "Auxiliary path composition and exact counterexamples in a graph extracted by an explicit interface from unchanged full Hug input; no P/NP conclusion."
+}

@@ -1,0 +1,53 @@
+{
+  "frozen_utc": "2026-11-07T22:12:58.466967+00:00",
+  "theorems": [
+    "HugV3.Source.AppleExistence.initial_read_is_empty",
+    "HugV3.Source.AppleExistence.source_power_floor",
+    "HugV3.Source.AppleExistence.initial_full_rate_defined",
+    "HugV3.Source.AppleExistence.full_coordinate_round_trip",
+    "HugV3.Source.AppleExistence.packed_derivative_iff",
+    "HugV3.Source.AppleExistence.tube_supplies_unique_full_segment",
+    "HugV3.Source.AppleExistence.material_carrier_unique_on_trace",
+    "HugV3.Source.AppleExistence.full_apple_iff_source",
+    "HugV3.Source.AppleExistence.certificate_gives_full_apple",
+    "HugV3.Source.AppleExistence.initial_ball_full_rate_defined",
+    "HugV3.Source.AppleExistence.rounding_seam_switches_fabric_bit",
+    "HugV3.Source.AppleExistence.opposite_codes_preclude_one_domain_ball",
+    "HugV3.Source.AppleExistence.recorded_cell_precludes_one_domain_ball"
+  ],
+  "files": {
+    "comparator.json": "65b9d9d5954389bbf9f2b9a1242d121c4f851e9505b4f91e42a6eb6209971ae2",
+    "AppleExistenceDefinitions.lean": "1a9bb5e303d20c87a895c7d48a9f5c2ea72114510a6fad5d10bd7cd3ce64a411",
+    "AppleExistenceChallenge.lean": "73a5a8d7466ee76b06324f3071e0f8938be7b9e3b8b58a624bbfb406eba9e0e2"
+  },
+  "source_files": {
+    "AccessDefinitions.lean": "9d7d08a554a2e1359f318ef67f7e31b7ad56871511617d4f7c0294fb8e9e9a6c",
+    "AccountDefinitions.lean": "12316adb920871bd514ca6c35f41616f264384a07e2d7fc61652948e88e7a65c",
+    "AppleBandDefinitions.lean": "4d416df8caa73ce9e34e3ef86fe871e856e83460eaeba26dea70419f5e69bc5f",
+    "AppleBandProofs.lean": "b9b489a590d473d5d9a84a0cdb3a847fd3231b48e781ec7149b21a56d2dc38be",
+    "AppleBandTopology.lean": "abd6427fd82103b264f6e42e686666cf1eeab57bc6700d4bb4012a639afd8281",
+    "AppleFlowBounds.lean": "e28edfec9adaa52d4e85e2a07253fbf1f4909a07479f8761aba07597cc8eabfb",
+    "AppleFlowDefinitions.lean": "71cfbac5ac162c82b324d9685686872d499b1352d194acdc2e4473aa11606b9c",
+    "AppleRealFlow.lean": "972974331cc0d48c614e4dd653de90276adfcd7949a8dd8cf4bc6aa6af1bea3b",
+    "AppleTraceVelocity.lean": "07039d2ebc4abe0bf376123e1b6546d77da220685a1a31cd0a77a8200f62c36b",
+    "StreetWholeDefinitions.lean": "ec883d3aa4620bd4f2774a4428ee9a756bdb75a60978e549a9f0668af38435a7",
+    "StreetWholeProofs.lean": "ccd30074abe60d664cfe5b775a661e1923390983716b602316fff9190078ba21",
+    "TransitionDefinitions.lean": "4f472019c51838505e77d5d803851ad009558c36c46db16d27cd7e3427889cf5",
+    "TransitionProofs.lean": "2cb27d35aac794f724f6617ba2b06c5c56dc81712931b708a499ff3fe7269123",
+    "V3ClayDefinitions.lean": "4c33c0f6bf7895a75203459bdf78343c62041e0d565949040945699f5bdd7424",
+    "V3ClayProofs.lean": "c56133b0691a5b9c2d381fdbbb00435831f3c8772cebd1c33eb0d8fc366a1843",
+    "V3ClayTrajectoryProofs.lean": "f3f6a976ef092fa9487365ec416b0773009dfb223f60a578b3ce64910cc475a4",
+    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceProofs.lean": "bc33166378e84da1ffb2391c2c22250cb30ad3d6db69d367df539522b769f885",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "V3TransferDefinitions.lean": "160c70e7250161f2248dcbecfb6f92d1a61623498329d6fe5220bbe30d1b1ce7",
+    "V3YangMillsAuditDefinitions.lean": "88ca4b9afe5bba1a235895f00216d8b8c2d61c76b09073a9f5978f76f9221051",
+    "V3YangMillsAuditProofs.lean": "caa310ca0fe5208c35af5f05dd7ec468975349b53a1106d5bbdd42f9c4807aca",
+    "WitnessDefinitions.lean": "a9d90f6246e6a9a066ab70227e88ce61368ee10063de96148eb27af080d8fd93"
+  }
+}

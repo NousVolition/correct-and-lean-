@@ -1,0 +1,90 @@
+Running as unit: hug-v3-o-rumination-comparator-20261103.service; invocation ID: 54e280a9f53a4808aa1bc93ecad0045a
+Building V3ORuminationChallenge
+✔ [3134/3152] Built V3SourceCore (8.0s)
+✔ [3135/3152] Built V3SourceMemory (1.8s)
+✔ [3136/3152] Built V3SourceSocial (1.7s)
+✔ [3137/3152] Built V3SourceFlow (1.4s)
+✔ [3138/3152] Built V3SourceGeometry (7.5s)
+✔ [3139/3152] Built V3SourceSystem (1.4s)
+✔ [3140/3152] Built V3ClayDefinitions (1.3s)
+✔ [3141/3152] Built V3DelayDefinitions (1.3s)
+⚠ [3142/3152] Built V3SourceProofs (1.6s)
+warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+✔ [3143/3152] Built V3MemoryRulesDefinitions (1.3s)
+⚠ [3144/3152] Built V3DelayProofs (1.4s)
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3145/3152] Built V3ClayProofs (1.8s)
+✔ [3146/3152] Built V3MemoryRulesProofs (1.9s)
+✔ [3147/3152] Built V3ClayTrajectoryProofs (1.5s)
+✔ [3148/3152] Built V3BridgeReturnDefinitions (1.3s)
+⚠ [3149/3152] Built V3BridgeReturnProofs (1.7s)
+warning: V3BridgeReturnProofs.lean:84:49: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: V3BridgeReturnProofs.lean:197:13: Variable name `hk` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hk
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3150/3152] Built V3ORuminationDefinitions (1.3s)
+⚠ [3151/3152] Built V3ORuminationChallenge (1.3s)
+warning: V3ORuminationChallenge.lean:7:8: declaration uses `sorry`
+warning: V3ORuminationChallenge.lean:12:8: declaration uses `sorry`
+warning: V3ORuminationChallenge.lean:17:8: declaration uses `sorry`
+warning: V3ORuminationChallenge.lean:23:8: declaration uses `sorry`
+warning: V3ORuminationChallenge.lean:29:8: declaration uses `sorry`
+warning: V3ORuminationChallenge.lean:33:8: declaration uses `sorry`
+warning: V3ORuminationChallenge.lean:42:8: declaration uses `sorry`
+warning: V3ORuminationChallenge.lean:51:8: declaration uses `sorry`
+warning: V3ORuminationChallenge.lean:61:8: declaration uses `sorry`
+warning: V3ORuminationChallenge.lean:68:8: declaration uses `sorry`
+warning: V3ORuminationChallenge.lean:73:8: declaration uses `sorry`
+warning: V3ORuminationChallenge.lean:80:8: declaration uses `sorry`
+Build completed successfully (3152 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.ORuminationVerified.full_rhs_association_equation, HugV3.Source.ORuminationVerified.full_rhs_source_equation, HugV3.Source.ORuminationVerified.association_restarts_from_zero, HugV3.Source.ORuminationVerified.balanced_channels_positive_equal, HugV3.Source.ORuminationVerified.balanced_channels_zero_association_drive, HugV3.Source.ORuminationVerified.full_trace_association_relaxation, HugV3.Source.ORuminationVerified.finite_relaxation_retains_nonzero_association, HugV3.Source.ORuminationVerified.full_trace_relaxation_with_retained_records, HugV3.Source.ORuminationVerified.full_trace_zero_total_source_retains_accumulator, HugV3.Source.ORuminationVerified.zero_association_does_not_freeze_student, HugV3.Source.ORuminationVerified.delayed_association_reads_buffered_value, HugV3.Source.ORuminationVerified.delayed_rate_can_move_at_present_zero, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3ORuminationChallenge
+Building V3ORuminationProofs
+⚠ [3124/3152] Replayed V3SourceProofs
+warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [3129/3152] Replayed V3DelayProofs
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3138/3152] Replayed V3BridgeReturnProofs
+warning: V3BridgeReturnProofs.lean:84:49: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: V3BridgeReturnProofs.lean:197:13: Variable name `hk` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hk
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3151/3152] Built V3ORuminationProofs (2.5s)
+warning: V3ORuminationProofs.lean:113:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3ORuminationProofs.lean:233:5: Variable name `hnow` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnow
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (3152 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.ORuminationVerified.full_rhs_association_equation, HugV3.Source.ORuminationVerified.full_rhs_source_equation, HugV3.Source.ORuminationVerified.association_restarts_from_zero, HugV3.Source.ORuminationVerified.balanced_channels_positive_equal, HugV3.Source.ORuminationVerified.balanced_channels_zero_association_drive, HugV3.Source.ORuminationVerified.full_trace_association_relaxation, HugV3.Source.ORuminationVerified.finite_relaxation_retains_nonzero_association, HugV3.Source.ORuminationVerified.full_trace_relaxation_with_retained_records, HugV3.Source.ORuminationVerified.full_trace_zero_total_source_retains_accumulator, HugV3.Source.ORuminationVerified.zero_association_does_not_freeze_student, HugV3.Source.ORuminationVerified.delayed_association_reads_buffered_value, HugV3.Source.ORuminationVerified.delayed_rate_can_move_at_present_zero, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3ORuminationProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 555ms
+             CPU time consumed: 1min 12.610s
+                   Memory peak: 5.4G (swap: 0B)

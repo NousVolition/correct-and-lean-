@@ -1,0 +1,32 @@
+{
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "challenge_module": "WitnessChallenge",
+  "solution_module": "WitnessProofs",
+  "theorem_names": [
+    "HugV3.Source.WitnessVerified.declared_event_roles",
+    "HugV3.Source.WitnessVerified.actual_built_record_keeps_its_participants",
+    "HugV3.Source.WitnessVerified.record_does_not_enter_bystander_retrieval",
+    "HugV3.Source.WitnessVerified.first_two_records_have_no_child_channel",
+    "HugV3.Source.WitnessVerified.original_personal_rate_uses_present_relationships",
+    "HugV3.Source.WitnessVerified.record_scores_have_no_instant_personal_rate",
+    "HugV3.Source.WitnessVerified.adverse_record_changes_fathers_recognition_rate",
+    "HugV3.Source.WitnessVerified.matched_tests_keep_setting",
+    "HugV3.Source.WitnessVerified.fathers_rating_enters_childs_recognition",
+    "HugV3.Source.WitnessVerified.childs_recognition_changes_cooperation_rate",
+    "HugV3.Source.WitnessVerified.own_cooperation_enters_context_rate",
+    "HugV3.Source.WitnessVerified.changed_neighbor_context_enters_child_rate",
+    "HugV3.Source.WitnessVerified.uncoupled_neighbor_context_has_zero_effect",
+    "HugV3.Source.WitnessVerified.declared_context_response_example",
+    "HugV3.Source.WitnessVerified.an_eligible_old_record_can_be_reweighted",
+    "HugV3.Source.WitnessVerified.all_accepted_checkpoints_keep_person_and_setting",
+    "HugV3.Source.WitnessVerified.actual_trace_context_rate",
+    "HugV3.Source.WitnessVerified.actual_trace_has_no_checkpoint_jump_in_context",
+    "HugV3.Source.WitnessVerified.nonzero_rate_entails_a_later_change",
+    "HugV3.Source.WitnessVerified.distinct_personal_rates_with_same_public_history"
+  ]
+}

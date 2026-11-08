@@ -1,0 +1,19 @@
+{
+  "challenge_module": "TransitionChallenge",
+  "solution_module": "TransitionProofs",
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "theorem_names": [
+    "HugV3.Source.FrameTransition.actual_accepted_fabric_rate",
+    "HugV3.Source.FrameTransition.state_readout_transfers",
+    "HugV3.Source.FrameTransition.rate_law_all_fabrics_iff",
+    "HugV3.Source.FrameTransition.moving_frame_residual",
+    "HugV3.Source.FrameTransition.fabric_segment_transfers",
+    "HugV3.Source.FrameTransition.quarter_paths_follow_their_rates",
+    "HugV3.Source.FrameTransition.quarter_initial_agreement_and_opposite_strain_rates"
+  ]
+}

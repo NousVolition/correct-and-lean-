@@ -1,0 +1,135 @@
+{
+  "uid": 1000,
+  "solution_precompiled": false,
+  "source_files": {
+    "comparator.json": "e70ebb65eec8e6adea046e5be9df9486ea55cf710c44e28b85988e1cff9fc160",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "097115040e14c882463c9d7cfa87c8f00c0b26f4aa8b2ebdfb0e843bb9fd5cc7",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "reference-freeze-current.json": "4c865b2f19a2703443513622ea80b526e113eb120d43c07cbd98aaf58ee4eaed",
+    "run-linux-check.sh": "a741ebeac1e19c88714d0666d1ae5b0688c16245925e960a53465382ac80e15f",
+    "V3CovarianceDefinitions.lean": "f28ee1a1500f4e8d325d21e75b4355c859f1ef3636ccea8232272a1f3d0231d8",
+    "V3CovarianceProofs.lean": "026b785377519ac64ab46d214fd2274f818a597b085f15cd9d8e445394f93d91",
+    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+    "V3JointFrameChallenge.lean": "6f9ca71face1adea5b0dfaf9e1feccfa0aeb4b724d65d8462e349e47ffa9320f",
+    "V3JointFrameDefinitions.lean": "494f068062242f6642d91008abe264007aefb85ed6480317e22c4269668dafca",
+    "V3JointFrameProofs.lean": "e0ffccfd8318550c566eb176fb0a4bd991fb074e2f007b1e0243bbe07a35c50c",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "V3YangMillsAuditDefinitions.lean": "88ca4b9afe5bba1a235895f00216d8b8c2d61c76b09073a9f5978f76f9221051",
+    "V3YangMillsAuditProofs.lean": "caa310ca0fe5208c35af5f05dd7ec468975349b53a1106d5bbdd42f9c4807aca"
+  },
+  "dependencies": [
+    {
+      "name": "Comparator",
+      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "clean": true
+    },
+    {
+      "name": "mathlib",
+      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "clean": true
+    },
+    {
+      "name": "lean4export",
+      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "clean": true
+    },
+    {
+      "name": "plausible",
+      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "clean": true
+    },
+    {
+      "name": "importGraph",
+      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+      "clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "clean": true
+    },
+    {
+      "name": "aesop",
+      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "clean": true
+    },
+    {
+      "name": "Qq",
+      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "clean": true
+    },
+    {
+      "name": "batteries",
+      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+      "clean": true
+    },
+    {
+      "name": "Cli",
+      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "clean": true
+    }
+  ],
+  "binaries": {
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/nsverify/verification/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
+    "/home/nsverify/verification/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
+    "/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
+    "/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
+    "/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+  },
+  "config": {
+    "enable_nanoda": true,
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "challenge_module": "V3JointFrameChallenge",
+    "solution_module": "V3JointFrameProofs",
+    "theorem_names": [
+      "HugV3.Source.JointFrameVerified.quarter_scale",
+      "HugV3.Source.JointFrameVerified.quarter_dot",
+      "HugV3.Source.JointFrameVerified.quarter_norm",
+      "HugV3.Source.JointFrameVerified.grid_inverse",
+      "HugV3.Source.JointFrameVerified.grid_sum",
+      "HugV3.Source.JointFrameVerified.centered_gradient_covariant",
+      "HugV3.Source.JointFrameVerified.force_amplitude_invariant",
+      "HugV3.Source.JointFrameVerified.original_force_recovered",
+      "HugV3.Source.JointFrameVerified.driving_direction_rotates",
+      "HugV3.Source.JointFrameVerified.joint_force_covariant",
+      "HugV3.Source.JointFrameVerified.force_work_density_invariant",
+      "HugV3.Source.JointFrameVerified.original_momentum_recovered",
+      "HugV3.Source.JointFrameVerified.original_full_rates_recovered",
+      "HugV3.Source.JointFrameVerified.original_accepted_rates_recovered",
+      "HugV3.Source.JointFrameVerified.non_driving_rates_unchanged",
+      "HugV3.Source.JointFrameVerified.force_work_ledger_invariant",
+      "HugV3.Source.JointFrameVerified.green_spatially_invariant",
+      "HugV3.Source.JointFrameVerified.records_spatially_invariant",
+      "HugV3.Source.JointFrameVerified.memory_feature_invariant",
+      "HugV3.Source.JointFrameVerified.retrieval_invariant",
+      "HugV3.Source.JointFrameVerified.event_record_invariant",
+      "HugV3.Source.JointFrameVerified.write_account_invariant",
+      "HugV3.Source.JointFrameVerified.write_equivariant_under_thermal_compatibility",
+      "HugV3.Source.JointFrameVerified.capture_equivariant",
+      "HugV3.Source.JointFrameVerified.buffer_commutes",
+      "HugV3.Source.JointFrameVerified.original_delay_recovered",
+      "HugV3.Source.JointFrameVerified.derivative_covariant",
+      "HugV3.Source.JointFrameVerified.continuity_covariant",
+      "HugV3.Source.JointFrameVerified.kinematic_matrix_covariance",
+      "HugV3.Source.JointFrameVerified.full_deformation_covariant_if_gradient_transforms",
+      "HugV3.Source.JointFrameVerified.social_rates_invariant_if_observations_match"
+    ]
+  },
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)"
+}

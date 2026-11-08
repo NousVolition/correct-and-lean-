@@ -1,0 +1,139 @@
+{
+  "uid": 1000,
+  "solution_precompiled": false,
+  "source_files": {
+    "AccessDefinitions.lean": "9d7d08a554a2e1359f318ef67f7e31b7ad56871511617d4f7c0294fb8e9e9a6c",
+    "AccountDefinitions.lean": "12316adb920871bd514ca6c35f41616f264384a07e2d7fc61652948e88e7a65c",
+    "AppleBandDefinitions.lean": "4d416df8caa73ce9e34e3ef86fe871e856e83460eaeba26dea70419f5e69bc5f",
+    "AppleBandProofs.lean": "b9b489a590d473d5d9a84a0cdb3a847fd3231b48e781ec7149b21a56d2dc38be",
+    "AppleBandTopology.lean": "abd6427fd82103b264f6e42e686666cf1eeab57bc6700d4bb4012a639afd8281",
+    "AppleCarrierUniqueness.lean": "4293d3e9ec599115df8115d7a0bbf99134b9308ef0efa6a201e29e4cb0329a60",
+    "AppleExistenceChallenge.lean": "73a5a8d7466ee76b06324f3071e0f8938be7b9e3b8b58a624bbfb406eba9e0e2",
+    "AppleExistenceDefinitions.lean": "1a9bb5e303d20c87a895c7d48a9f5c2ea72114510a6fad5d10bd7cd3ce64a411",
+    "AppleExistenceProofs.lean": "986dc8c74890b4827447639062f8c23430094d4fc4ac964c51629779ad933977",
+    "AppleFlowBounds.lean": "e28edfec9adaa52d4e85e2a07253fbf1f4909a07479f8761aba07597cc8eabfb",
+    "AppleFlowDefinitions.lean": "71cfbac5ac162c82b324d9685686872d499b1352d194acdc2e4473aa11606b9c",
+    "AppleInitialProofs.lean": "ce0428e3809002a7c7aed8a1fe964903851764be9f1880dff3a4cde494f37912",
+    "ApplePackedProofs.lean": "d78f1c770cfe0f9f148f1cffc0d9c7336e9116dfde22c3be3f844848d4747e8f",
+    "AppleRealFlow.lean": "972974331cc0d48c614e4dd653de90276adfcd7949a8dd8cf4bc6aa6af1bea3b",
+    "AppleScheduleProofs.lean": "db71d133ad3b6993e0760e9bc74fc42277c8e4717baf9e6e50ef9a9ee03f75eb",
+    "AppleTraceVelocity.lean": "07039d2ebc4abe0bf376123e1b6546d77da220685a1a31cd0a77a8200f62c36b",
+    "AppleTubeProofs.lean": "3e03c1b958be2f73d7a4b1ca3b35687d15fc61a30d25b74fedd02d4828bd4710",
+    "comparator.json": "65b9d9d5954389bbf9f2b9a1242d121c4f851e9505b4f91e42a6eb6209971ae2",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "b05a406decd1b0bf7c1f9d7404ef2ea8e4b933069c5e41293c9e161c4d9627fc",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "reference-freeze-current.json": "34d7d8e2de09760128848457ce0a743e5cd3a3e61966321288f616d2eb8b7c5a",
+    "run-linux-check.sh": "e512922262a39bf2b50930fbb6cbeb65795e3519c153578d31e6743d93ddf056",
+    "StreetWholeDefinitions.lean": "ec883d3aa4620bd4f2774a4428ee9a756bdb75a60978e549a9f0668af38435a7",
+    "StreetWholeProofs.lean": "ccd30074abe60d664cfe5b775a661e1923390983716b602316fff9190078ba21",
+    "TransitionDefinitions.lean": "4f472019c51838505e77d5d803851ad009558c36c46db16d27cd7e3427889cf5",
+    "TransitionProofs.lean": "2cb27d35aac794f724f6617ba2b06c5c56dc81712931b708a499ff3fe7269123",
+    "V3ClayDefinitions.lean": "4c33c0f6bf7895a75203459bdf78343c62041e0d565949040945699f5bdd7424",
+    "V3ClayProofs.lean": "c56133b0691a5b9c2d381fdbbb00435831f3c8772cebd1c33eb0d8fc366a1843",
+    "V3ClayTrajectoryProofs.lean": "f3f6a976ef092fa9487365ec416b0773009dfb223f60a578b3ce64910cc475a4",
+    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceProofs.lean": "bc33166378e84da1ffb2391c2c22250cb30ad3d6db69d367df539522b769f885",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "V3TransferDefinitions.lean": "160c70e7250161f2248dcbecfb6f92d1a61623498329d6fe5220bbe30d1b1ce7",
+    "V3YangMillsAuditDefinitions.lean": "88ca4b9afe5bba1a235895f00216d8b8c2d61c76b09073a9f5978f76f9221051",
+    "V3YangMillsAuditProofs.lean": "caa310ca0fe5208c35af5f05dd7ec468975349b53a1106d5bbdd42f9c4807aca",
+    "WitnessDefinitions.lean": "a9d90f6246e6a9a066ab70227e88ce61368ee10063de96148eb27af080d8fd93"
+  },
+  "dependencies": [
+    {
+      "name": "Comparator",
+      "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "clean": true
+    },
+    {
+      "name": "mathlib",
+      "commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "clean": true
+    },
+    {
+      "name": "lean4export",
+      "commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "clean": true
+    },
+    {
+      "name": "plausible",
+      "commit": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "clean": true
+    },
+    {
+      "name": "importGraph",
+      "commit": "d8823026ac7ef130c253089d95685f9877b95323",
+      "clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "clean": true
+    },
+    {
+      "name": "aesop",
+      "commit": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "clean": true
+    },
+    {
+      "name": "Qq",
+      "commit": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "clean": true
+    },
+    {
+      "name": "batteries",
+      "commit": "d54dddc581e08be364c278052863524bff7a99a9",
+      "clean": true
+    },
+    {
+      "name": "Cli",
+      "commit": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "clean": true
+    }
+  ],
+  "binaries": {
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/nsverify/verification/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
+    "/home/nsverify/verification/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
+    "/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
+    "/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
+    "/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+  },
+  "config": {
+    "challenge_module": "AppleExistenceChallenge",
+    "solution_module": "AppleExistenceProofs",
+    "enable_nanoda": true,
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "theorem_names": [
+      "HugV3.Source.AppleExistence.initial_read_is_empty",
+      "HugV3.Source.AppleExistence.source_power_floor",
+      "HugV3.Source.AppleExistence.initial_full_rate_defined",
+      "HugV3.Source.AppleExistence.full_coordinate_round_trip",
+      "HugV3.Source.AppleExistence.packed_derivative_iff",
+      "HugV3.Source.AppleExistence.tube_supplies_unique_full_segment",
+      "HugV3.Source.AppleExistence.material_carrier_unique_on_trace",
+      "HugV3.Source.AppleExistence.full_apple_iff_source",
+      "HugV3.Source.AppleExistence.certificate_gives_full_apple",
+      "HugV3.Source.AppleExistence.initial_ball_full_rate_defined",
+      "HugV3.Source.AppleExistence.rounding_seam_switches_fabric_bit",
+      "HugV3.Source.AppleExistence.opposite_codes_preclude_one_domain_ball",
+      "HugV3.Source.AppleExistence.recorded_cell_precludes_one_domain_ball"
+    ]
+  },
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)"
+}

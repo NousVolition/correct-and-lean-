@@ -1,0 +1,47 @@
+{
+  "frozen_utc": "2026-11-04T01:13:33.527908+00:00",
+  "revisions": [],
+  "theorems": [
+    "HugV3.Source.BridgeReturnVerified.write_preserves_person_group_state",
+    "HugV3.Source.BridgeReturnVerified.write_preserves_source_accumulator",
+    "HugV3.Source.BridgeReturnVerified.write_work_nondecreasing",
+    "HugV3.Source.BridgeReturnVerified.write_preserves_destination",
+    "HugV3.Source.BridgeReturnVerified.same_destination_with_new_residue",
+    "HugV3.Source.BridgeReturnVerified.successful_write_retains_occupied_slot_bytes",
+    "HugV3.Source.BridgeReturnVerified.full_trace_retains_records_between_writes",
+    "HugV3.Source.BridgeReturnVerified.conditional_fabric_durability_through_full_trace",
+    "HugV3.Source.BridgeReturnVerified.full_trace_write_work_constant_between_writes",
+    "HugV3.Source.BridgeReturnVerified.full_trace_write_work_nondecreasing_at_checkpoints",
+    "HugV3.Source.BridgeReturnVerified.positive_write_work_precludes_full_reset",
+    "HugV3.Source.BridgeReturnVerified.record_relevance_positive_and_bounded",
+    "HugV3.Source.BridgeReturnVerified.stable_record_with_changed_relevance",
+    "HugV3.Source.BridgeReturnVerified.declared_route_closes_at_first_teacher",
+    "HugV3.Source.BridgeReturnVerified.no_later_declared_reply_to_student",
+    "HugV3.Source.BridgeReturnVerified.witness_preserves_original_intent_expression",
+    "HugV3.Source.BridgeReturnVerified.expression_rate_can_leave_intent",
+    "HugV3.Source.BridgeReturnVerified.accepted_full_rate_can_leave_intent"
+  ],
+  "files": {
+    "V3BridgeReturnDefinitions.lean": "e2d6c33158d28f7037a4d865a48a57c0bb1bb6df7762ded8682e6b46f458aff0",
+    "V3BridgeReturnChallenge.lean": "cfa90a7e4a85534b3ceacc7efec28ee7ef8452a5f49613296b0caaf598252ad7",
+    "comparator.json": "c6010caf9d83456bdc803a50631bc75db524b9f8a53621145c036fedcd01e758"
+  },
+  "source_files": {
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "V3SourceProofs.lean": "bc33166378e84da1ffb2391c2c22250cb30ad3d6db69d367df539522b769f885",
+    "V3ClayDefinitions.lean": "4c33c0f6bf7895a75203459bdf78343c62041e0d565949040945699f5bdd7424",
+    "V3ClayProofs.lean": "c56133b0691a5b9c2d381fdbbb00435831f3c8772cebd1c33eb0d8fc366a1843",
+    "V3ClayTrajectoryProofs.lean": "f3f6a976ef092fa9487365ec416b0773009dfb223f60a578b3ce64910cc475a4",
+    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+    "V3DelayProofs.lean": "a21e672f3309abee5e49b1767d475483591076a681c38229461cbf30e0247fdc",
+    "V3MemoryRulesDefinitions.lean": "6849f65909065ca3929e15ed08947cc9859e2adc82c513a8544a9065ba321dec",
+    "V3MemoryRulesProofs.lean": "c42d82f6a82d8e2ad68d7b3b09e6e06c81d48c0872c4a0827eb900b980acfd04",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
+  }
+}

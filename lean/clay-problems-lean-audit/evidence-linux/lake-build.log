@@ -1,0 +1,5 @@
+ℹ [3159/3160] Built StatementInventory (8.1s)
+info: StatementInventory.lean:4:0: RiemannHypothesis : Prop
+info: StatementInventory.lean:5:0: def RiemannHypothesis : Prop :=
+∀ (s : ℂ), riemannZeta s = 0 → (¬∃ n, s = -2 * (↑n + 1)) → s ≠ 1 → s.re = 1 / 2
+Build completed successfully (3160 jobs).

@@ -1,0 +1,42 @@
+{
+  "frozen_utc": "2026-11-07T04:11:19.264275+00:00",
+  "theorems": [
+    "HugV3.Source.AccountVerified.account_without_separate_rating_preserves_input",
+    "HugV3.Source.AccountVerified.attributed_current_rating_uses_only_report_field",
+    "HugV3.Source.AccountVerified.crossing_reference_and_current_rating_have_distinct_targets",
+    "HugV3.Source.AccountVerified.words_and_direct_sight_do_not_choose_a_number",
+    "HugV3.Source.AccountVerified.declared_third_record_is_childs_later_report",
+    "HugV3.Source.AccountVerified.score_uses_independent_observation_only_when_present",
+    "HugV3.Source.AccountVerified.private_report_enters_signed_retrieval",
+    "HugV3.Source.AccountVerified.neutral_report_and_missing_report_are_distinguishable",
+    "HugV3.Source.AccountVerified.rating_changes_three_response_rates",
+    "HugV3.Source.AccountVerified.accepted_report_writes_preserve_immediate_context_and_agreement",
+    "HugV3.Source.AccountVerified.heun_context_difference_for_a_changed_child_response",
+    "HugV3.Source.AccountVerified.two_coordinate_direction_of_the_next_step",
+    "HugV3.Source.AccountVerified.a_validated_contrast_determines_only_the_stated_change",
+    "HugV3.Source.AccountVerified.a_direction_alone_admits_distinct_context_weights"
+  ],
+  "files": {
+    "StreetWholeDefinitions.lean": "ec883d3aa4620bd4f2774a4428ee9a756bdb75a60978e549a9f0668af38435a7",
+    "StreetWholeProofs.lean": "ccd30074abe60d664cfe5b775a661e1923390983716b602316fff9190078ba21",
+    "V3TransferDefinitions.lean": "160c70e7250161f2248dcbecfb6f92d1a61623498329d6fe5220bbe30d1b1ce7",
+    "V3TransferProofs.lean": "602989250085298c16f3b18ac22c1e0b1d82bc7ceb0d0b2bcb0d58c2ff802437",
+    "WitnessDefinitions.lean": "a9d90f6246e6a9a066ab70227e88ce61368ee10063de96148eb27af080d8fd93",
+    "WitnessProofs.lean": "37b9d3ff64a45a271fc1dbb05b12293bd1e960d524aac68feef1d495993cae75",
+    "AccessDefinitions.lean": "9d7d08a554a2e1359f318ef67f7e31b7ad56871511617d4f7c0294fb8e9e9a6c",
+    "AccessProofs.lean": "abe416303d776d8337794d302daa88f6fa836d34daa111c63b97a7d532f15523",
+    "AccountDefinitions.lean": "12316adb920871bd514ca6c35f41616f264384a07e2d7fc61652948e88e7a65c",
+    "AccountChallenge.lean": "2db44b169e9f65667d46b4de90c3d81ee172c18e7bd2ca2b620ab8342f916d10",
+    "comparator.json": "4892d460ce28eb328b72dd170b8c160178c103d5c3d0fc7887d496715f3fc973"
+  },
+  "source_files": {
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
+  },
+  "revisions": [],
+  "scope": "Own retrospective account, separately rated later recipient outcome, native retrieval and response, personal context and exact Heun component under fixed agreements."
+}
