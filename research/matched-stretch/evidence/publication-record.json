@@ -61,7 +61,7 @@
     "completed_viscosity01_disturbance_publication",
     "completed_viscosity0p1_disturbance_publication"
   ],
-  "evidence_directory": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-09\\referenced-chatgpt-conversation-this-is-an\\outputs\\matched-stretch-followup\\final-matrix-20261102T0050Z",
+  "evidence_directory": "external-source/0ea62d7f68133acc/final-matrix-20261102T0050Z",
   "cleanup_status": "complete; study task removed and heartbeat deleted",
   "delivery": {
     "status": "delivered",

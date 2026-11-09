@@ -1,5 +1,5 @@
 LANDLOCK_ABI=7
-touch: cannot touch '/home/nsverify/verification/isolation-probe/denied/blocked': Permission denied
+touch: cannot touch '$VERIFY_ROOT/isolation-probe/denied/blocked': Permission denied
 LANDRUN_ALLOWED_WRITE=PASS
 LANDRUN_DENIED_WRITE=PASS
 Running as unit: ns-unix-isolation-probe.service; invocation ID: 667b122b58594bd9a209f9d1216e19f7

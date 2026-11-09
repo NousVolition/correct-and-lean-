@@ -4,7 +4,7 @@ namespace HugNavierWellposedness
 noncomputable section
 open HugNavierSingle Set
 
--- The requested full theorem, copied as a target, is NOT asserted as an axiom.
+-- The requested full theorem, copied as a target, has the status of a proposition.
 def RequestedExistenceAndUniqueness : Prop :=
   FullExistenceStatement ∧ FullUniquenessStatement
 

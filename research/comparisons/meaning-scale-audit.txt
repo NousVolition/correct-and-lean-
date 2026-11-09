@@ -100,7 +100,7 @@ Evidence and preservation
 Current published repository head checked:
   NousVolition/Nous-Volition b4ae2c54cd85bfef282c501ecfca83de274e2070.
 Current local candidate checked: Monoxide buildup E1-E16, 29 October 2026.
-Primary source: C:/Users/ziman/OneDrive/Desktop/Plain_Language_Corpus_Math_and_Logic_Corrected.docx.
+Primary source: external-source/74c3c93c0950c9f4/Plain_Language_Corpus_Math_and_Logic_Corrected.docx.
 Published records checked: SITUATIONAL_ROLES.md, MEASUREMENT_RECORD.md,
 exact_corpus_passages.json, MIRO_CONNECTIONS.md and LOGICAL_BOUNDARIES.md.
 Live Miro canvases were not exhaustively refreshed; no new observations were collected.

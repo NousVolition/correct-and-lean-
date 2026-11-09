@@ -1,0 +1,81 @@
+{
+  "checked_utc": "2026-11-07T05:35:54.727035+00:00",
+  "result": "PASS for the 12 named statements",
+  "named_count": 12,
+  "exported_names": [
+    "HugV3.Source.HearthReadout.native_heat_form",
+    "HugV3.Source.HearthReadout.accepted_work_and_heat_ledgers",
+    "HugV3.Source.HearthReadout.ordered_heat_derivative",
+    "HugV3.Source.HearthReadout.ordered_kinetic_derivative",
+    "HugV3.Source.HearthReadout.changing_order",
+    "HugV3.Source.HearthReadout.signed_heat_bound",
+    "HugV3.Source.HearthReadout.zero_heat_has_zero_signed_response",
+    "HugV3.Source.HearthReadout.work_is_heat_response_along_courier",
+    "HugV3.Source.HearthReadout.velocity_reversal",
+    "HugV3.Source.HearthReadout.nonzero_signed_reading_excludes_shared_multiplier",
+    "HugV3.Source.HearthReadout.encounter_multiplier_criterion",
+    "HugV3.Source.HearthReadout.recorded_encounter_refutes_constant_ratio"
+  ],
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "fresh_build": "PASS",
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "allowed_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "six_source_modules_and_previous_bracket_preserved": true,
+  "primary_choice": "First directional change of the existing spatial mean gross viscous heat along DC[W]-DW[C], holding all nonvelocity coordinates fixed during differentiation.",
+  "scope": "The corpus defines gross heat, force work, net heat and a separate dot-product pairing. It leaves open the selection of a scalar for the ordered velocity field. Conditional retained-field identity for kinetic work. The data certificate concerns the recorded binary64 observations, not an exact continuously evolving trajectory.",
+  "dyadic_certificate": "No constant scalar fits both specified boundary records, for each of the three readings on both numerical trajectories.",
+  "comparison": {
+    "main": {
+      "steps": 321,
+      "samples": 325,
+      "times": [
+        0.8,
+        1.2
+      ],
+      "heat_response_ratios": [
+        0.009860889496897585,
+        0.00289926244509487
+      ],
+      "work_ratios": [
+        0.000825941517234191,
+        0.0008023562338287992
+      ],
+      "unsigned_ratios": [
+        0.11636864488452936,
+        0.19282509709061765
+      ]
+    },
+    "time_half": {
+      "steps": 641,
+      "samples": 645,
+      "times": [
+        0.8,
+        1.2
+      ],
+      "heat_response_ratios": [
+        0.00986089805641614,
+        0.0029022071941331396
+      ],
+      "work_ratios": [
+        0.0008258881016899921,
+        0.0008024807259414549
+      ],
+      "unsigned_ratios": [
+        0.11636358621364506,
+        0.1928309451225767
+      ]
+    }
+  },
+  "main_prewrite_and_endpoint_fingerprints_match": true,
+  "postflight": {
+    "source_hashes_unchanged": true,
+    "dependency_commits_unchanged": true,
+    "dependency_sources_clean": true
+  }
+}

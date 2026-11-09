@@ -1,10 +1,10 @@
 {
   "source-equations.json": {
-    "original": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\outputs\\monoxide-buildup\\candidate-equation-register.json",
+    "original": "external-source/084e9d7e82926dd8/candidate-equation-register.json",
     "sha256": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318"
   },
   "source-protocol.json": {
-    "original": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\monoxide-buildup\\protocol.json",
+    "original": "external-source/6ae4763ad23872b7/protocol.json",
     "sha256": "cd3da93d6ab15d19fc01813da63a64ca0ba99c5bc027014b9cf3adf2cc7d97f1"
   }
 }

@@ -29,12 +29,12 @@ Use Bash as a non-root user on Linux with a working systemd user session, Git, t
 | Required component | Location used by the runner |
 | --- | --- |
 | Lean 4.34.0-rc2 | `/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean` |
-| Lake and Landrun | `/home/nsverify/verification/bin/lake` and `/home/nsverify/verification/bin/landrun` |
-| Clean pinned packages | `/home/nsverify/verification/project/.lake/packages` |
+| Lake and Landrun | `$VERIFY_ROOT/bin/lake` and `$VERIFY_ROOT/bin/landrun` |
+| Clean pinned packages | `$VERIFY_ROOT/project/.lake/packages` |
 | Comparator and lean4export | Within that cache, `Comparator/.lake/build/bin/comparator` and `lean4export/.lake/build/bin/lean4export` |
-| nanoda | `/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin` |
+| nanoda | `$VERIFY_ROOT/nanoda_lib/target/release/nanoda_bin` |
 
-On another Linux machine, provision these prerequisites first. The repository supplies the package sources and lockfile. The external checker binaries and dependency cache must be available separately. [Package setup notes](https://github.com/NousVolition/correct-and-lean-/blob/1f6fdc546eaedda451b5e38b6dff957260581023/lean/hug-v3-yang-mills-audit-lean/README.md) · [Dependency lockfile](https://github.com/NousVolition/correct-and-lean-/blob/1f6fdc546eaedda451b5e38b6dff957260581023/lean/hug-v3-yang-mills-audit-lean/lake-manifest.json) · [Comparator setup at the pinned revision](https://github.com/leanprover/comparator/blob/19e111e2141cf333c7daff0f64c5f24acc91dd2e/README.md)
+In this table, `$VERIFY_ROOT` designates the original verifier installation directory. On a new machine, use the current [portable replay instructions](../../lean/README.md#reproduce-the-checks). To reproduce the historical command below, provision its original prerequisites first. The repository supplies the package sources and lockfile. The external checker binaries and dependency cache must be available separately. [Package setup notes](https://github.com/NousVolition/correct-and-lean-/blob/1f6fdc546eaedda451b5e38b6dff957260581023/lean/hug-v3-yang-mills-audit-lean/README.md) · [Dependency lockfile](https://github.com/NousVolition/correct-and-lean-/blob/1f6fdc546eaedda451b5e38b6dff957260581023/lean/hug-v3-yang-mills-audit-lean/lake-manifest.json) · [Comparator setup at the pinned revision](https://github.com/leanprover/comparator/blob/19e111e2141cf333c7daff0f64c5f24acc91dd2e/README.md)
 
 To obtain the sources, run `git clone https://github.com/NousVolition/correct-and-lean-.git` and `cd correct-and-lean-`, or use an existing clone containing the checked commit. Run the following Bash block from the repository root. It extracts only the pinned package into a temporary input folder. The runner writes its evidence into that temporary copy and into the new `check` folder, preserving the clone’s saved receipts.
 
@@ -59,7 +59,7 @@ Expect `0` on both exit-code lines, the target in the solution export, and both 
 
 ## Fresh evidence files
 
-These SHA-256 values identify the raw files from the 8 November run. The saved 3 November Comparator transcript has SHA-256 `8d20c20a5c7d945dbd53cf8ffadc50355c317326e482307257f6f0813acea6cd`. [Saved transcript](https://github.com/NousVolition/correct-and-lean-/blob/1f6fdc546eaedda451b5e38b6dff957260581023/lean/hug-v3-yang-mills-audit-lean/evidence-linux/comparator.log)
+These SHA-256 values identify the original raw files from the 8 November run. For the current public copies, consult the [publication map](../publication-map.json). The saved 3 November Comparator transcript has SHA-256 `8d20c20a5c7d945dbd53cf8ffadc50355c317326e482307257f6f0813acea6cd`. [Saved transcript](https://github.com/NousVolition/correct-and-lean-/blob/1f6fdc546eaedda451b5e38b6dff957260581023/lean/hug-v3-yang-mills-audit-lean/evidence-linux/comparator.log)
 
 | File | SHA-256 |
 | --- | --- |

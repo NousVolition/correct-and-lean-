@@ -1,0 +1,39 @@
+{
+  "checked_utc": "2026-11-07T22:22:33.841810+00:00",
+  "requested_unconditional_full_existence_and_uniqueness": "OPEN",
+  "conditional_schedule_theorem": "PASS",
+  "lean_build": "PASS",
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "theorem_count": 13,
+  "verified_declarations": [
+    "HugV3.Source.AppleExistence.initial_read_is_empty",
+    "HugV3.Source.AppleExistence.source_power_floor",
+    "HugV3.Source.AppleExistence.initial_full_rate_defined",
+    "HugV3.Source.AppleExistence.full_coordinate_round_trip",
+    "HugV3.Source.AppleExistence.packed_derivative_iff",
+    "HugV3.Source.AppleExistence.tube_supplies_unique_full_segment",
+    "HugV3.Source.AppleExistence.material_carrier_unique_on_trace",
+    "HugV3.Source.AppleExistence.full_apple_iff_source",
+    "HugV3.Source.AppleExistence.certificate_gives_full_apple",
+    "HugV3.Source.AppleExistence.initial_ball_full_rate_defined",
+    "HugV3.Source.AppleExistence.rounding_seam_switches_fabric_bit",
+    "HugV3.Source.AppleExistence.opposite_codes_preclude_one_domain_ball",
+    "HugV3.Source.AppleExistence.recorded_cell_precludes_one_domain_ball"
+  ],
+  "lean": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "inherited_lean_files": 28,
+  "sealed_native_files": 21,
+  "numerical_evidence_sha256": "8002eab45685a8b84161d276c34f317408fcc5177a105d94b2b3ebdc02b87f83",
+  "witness_statement_scope": "Numerical file extraction is a separate read-only check. Lean proves the exact obstruction for states having the two extracted rational coordinate values.",
+  "remaining": "No inhabited ScheduleCertificate or independent unconditional full trajectory proof for the original exact-real initial state. Validated inter-event bounds, restart success and Python/exact-real correspondence remain open.",
+  "preflight": "df15d8ce6e9aba768f561d82f1bbd27b1f0f596e9ac51ead0200546a8e44e60b",
+  "postflight": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+  "comparator_log": "7cf6054efc73492fd8269fe357c84b204e120c05e82e10450de6f2c4ce40872c"
+}

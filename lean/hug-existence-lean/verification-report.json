@@ -1,94 +1,15 @@
 {
-  "result": "PASS: exact frozen full coupled theorem",
-  "user_facing_date": "2026-10-30",
-  "recorded_at_utc": "2026-10-31T05:08:01.458940+00:00",
-  "theorem": "ActiveHug.Verified.full_coupled_existence_uniqueness",
-  "statement": "For every finite a <= b and continuous prescribed force on [a,b], every real eight-state initial value with guards in [0,1] admits a unique continuous integral solution of the unchanged primary directional Hug model on [a,b]; it satisfies the ODE at every interior time and preserves guard bounds.",
-  "coordinates": [
-    "q",
-    "v",
-    "u",
-    "w",
-    "xA",
-    "xB",
-    "gAB",
-    "gBA"
-  ],
-  "scope": "Frozen primary parameter set; all finite forward horizons; no finite-time breakdown under stated assumptions",
-  "equations_changed": false,
-  "assumptions": [
-    "Primary protocol coefficients as frozen in ActiveHugModel.lean",
-    "Continuous prescribed force on the chosen interval",
-    "Initial guards in [0,1]",
-    "Finite interval with a <= b"
-  ],
-  "not_assumed": [
-    "A pre-existing solution",
-    "A bound on the unknown trajectory",
-    "Global Lipschitz continuity of the original field",
-    "Frozen guards or participant states",
-    "Small initial data"
-  ],
-  "proof_method": "Moving box construction with fully proved identity of the auxiliary projection along the solution; fixed-point existence and uniqueness; integral-to-differential recovery",
-  "checks": {
-    "windows_lean_build": true,
-    "linux_lake_build": true,
-    "comparator_statement_match": true,
-    "lean_kernel": true,
-    "nanoda_kernel": true,
-    "axiom_allowlist": true,
-    "no_solution_placeholders": true,
-    "original_model_unchanged": true,
-    "frozen_claim_unchanged": true,
-    "linux_fresh_solution_build": true,
-    "linux_nonroot": true,
-    "sources_preserved": true,
-    "dependency_commits_preserved": true
-  },
-  "permitted_axioms": [
-    "Classical.choice",
-    "Quot.sound",
-    "propext"
-  ],
-  "linux_check_directory": "/home/nsverify/verification/hug-existence-20261030",
-  "prior_inputs_read_only_preservation_check": {
-    "hug-squeeze-lean": {
-      "recorded_input_files": 25,
-      "unchanged": true
-    },
-    "as-lean": {
-      "recorded_input_files": 11,
-      "unchanged": true
-    },
-    "as-existence-lean": {
-      "recorded_input_files": 21,
-      "unchanged": true
-    },
-    "as-invariance-lean": {
-      "recorded_input_files": 26,
-      "unchanged": true
-    }
-  },
-  "not_proved": [
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Finite-horizon existence and uniqueness for the primary directional eight-coordinate Hug model with frozen parameters and the stated inputs.",
+  "open_items": [
     "Arbitrary alternative parameter/control variants",
     "Discontinuous input or initially inadmissible guards",
     "Limit cycles, synchronization or recovery time",
     "Separate full memory-field extension",
     "Physical or social validation",
     "Floating-point and solver execution correctness"
-  ],
-  "evidence_sha256": {
-    "native-final.log": "fc85551f3470a26d1a1893c52cdd06b8339105146750bb06057550f5690c8a00",
-    "native-final.exit": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
-    "verification-inputs.json": "a806693ddcaf4885df2f45950670a665831612c4c064a5566f754cbfce31285c",
-    "existence-reference-freeze.json": "b29056a545d1519ff10fa50c961dc27b9431b1fe70a5a57cf5731302b645e8dc",
-    "evidence-linux/comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
-    "evidence-linux/comparator.finished": "88c3bb8d678bbe6074ac6d9f2e8f3d3d62e8302efbfcd6c40b99a08e0320d080",
-    "evidence-linux/comparator.log": "09e9d901c99b13bed93c73248299bf01446cf4a5be5b21aa17e2a015b4a9c80e",
-    "evidence-linux/comparator.started": "893528cef15aaceb4d3e173d5c813ab3625a98326668369ce9060c4aaf806bb9",
-    "evidence-linux/lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
-    "evidence-linux/lake-build.log": "6e23eb0d071e1fb45e06e9e79fc03bb112ede9240efdd22251bdd3cf8f091880",
-    "evidence-linux/postflight.json": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
-    "evidence-linux/preflight.json": "789c8d5e49c2bd9304306b8f03b716c2f2c967fc80c886e0d244d68d22b1f00e"
-  }
+  ]
 }

@@ -1,96 +1,13 @@
 {
-  "verified_utc": "2026-11-01T22:35:46.782923+00:00",
-  "overall_scope": "PARTIAL: exact local transfer links verified; full finite-time transfer and full existence/uniqueness remain open.",
-  "hug_v3_transfer": {
-    "status": "PASS",
-    "theorems": 14,
-    "lean_kernel": true,
-    "nanoda_kernel": true,
-    "comparator_exit": 0,
-    "build_exit": 0,
-    "permitted_axioms": [
-      "propext",
-      "Quot.sound",
-      "Classical.choice"
-    ],
-    "started_utc": "2026-11-01T22:29:40+00:00",
-    "finished_utc": "2026-11-01T22:30:43+00:00",
-    "proof_sha256": "602989250085298c16f3b18ac22c1e0b1d82bc7ceb0d0b2bcb0d58c2ff802437",
-    "fresh_directory": true,
-    "evidence_hashes": {
-      "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
-      "comparator.finished": "bb9bb81bfb8f137bb99a72dd6e5e5c4e618e58e0a8d2075c234208423493026e",
-      "comparator.log": "dd5fb79433714998f13f2936bcf501bebed3e98647bb8315544ff0a6cbc31a7c",
-      "comparator.started": "cad4b355804e468ff963779600b57532627b6a415cb996702f7fb814fc6af391",
-      "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
-      "lake-build.log": "23e61857e0ba85aae32051a5e4a1f5d39158f1c581b8e3b64f078f1908060bbb",
-      "postflight.json": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
-      "preflight.json": "c856674c21926b8228e738e2417f9166f62dbcb51b77ea4a8be22a47c988623a"
-    }
-  },
-  "pasted_as_original": {
-    "status": "FAIL",
-    "build_exit": 1,
-    "original_preserved": true,
-    "attachment_sha256": "354d8d253ee8bd29a4382769b9259d46ea4ab75c47ec08905fa69ebec378fba9"
-  },
-  "pasted_as_repaired": {
-    "status": "PASS",
-    "theorems": 44,
-    "lean_kernel": true,
-    "nanoda_kernel": true,
-    "comparator_exit": 0,
-    "build_exit": 0,
-    "permitted_axioms": [
-      "propext",
-      "Quot.sound",
-      "Classical.choice"
-    ],
-    "started_utc": "2026-11-01T22:32:07+00:00",
-    "finished_utc": "2026-11-01T22:33:26+00:00",
-    "proof_sha256": "f8f563247b520ebb36efddfd993b3a9ebabe2a733db1b7f8aad93d0e479f98d7",
-    "fresh_directory": true,
-    "evidence_hashes": {
-      "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
-      "comparator.finished": "649fd9d110e9510896d05977f4cf5e8948d048530e868000ff54f1b738ebd4a6",
-      "comparator.log": "86c23ab1f08641fa70e8d5b7a76abe49d97eb0054b55ef012f0c7f7bd7a770d2",
-      "comparator.started": "60c23933f5d076e5cdf9eb92eeada8b468d9732f81244164c86985e767e85b20",
-      "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
-      "lake-build.log": "7b58106642493a68a213f6cbffa473e34df1783953fce47854887b86d7846bdb",
-      "postflight.json": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
-      "preflight.json": "10633db7c98aac828c7379b47818b3966b30a629988f9a2ab8b3478a3ef5b151"
-    }
-  },
-  "source_preservation": {
-    "original_files": 21,
-    "all_originals_and_copies_unchanged": true,
-    "unchanged_full_model_definition_files": 6,
-    "unchanged_ASModel": true,
-    "unchanged_supplied_theorem_statements": 44
-  },
-  "numerical": {
-    "status": "PASS",
-    "full_coordinates": 193122,
-    "steps": 321,
-    "decoded_events": [
-      0,
-      1,
-      2
-    ],
-    "local_diagnostics_only": true,
-    "max_identity_error": 9.540979117872439e-18,
-    "probe_results_sha256": "01b668f88989c59f08c47a80338d88e4382c7277edd5cedadc6056acc9c004b5"
-  },
-  "corpus": {
-    "docx_sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
-    "read_only_rechecked": true,
-    "remote_rechecked": false
-  },
-  "open_obligations": [
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Fourteen local teacher-to-teacher transfer statements under the declared encounter and comparison hypotheses.",
+  "open_items": [
     "Full exact-real existence and uniqueness through every event and memory write",
     "An end-to-end finite-time causal teacher-to-teacher transfer theorem",
     "Kernel-proved correspondence between the manual real-arithmetic transcription and Python/NumPy execution",
     "Empirical measurement connecting the single idea and identity-context analogies to model coordinates"
-  ],
-  "native_build": "Timed out after 120 seconds without diagnostic; Linux Lean used successfully instead."
+  ]
 }

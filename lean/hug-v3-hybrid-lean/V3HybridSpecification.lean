@@ -2,7 +2,7 @@ import HybridSpecification
 
 /- A complete state-shape and event-schedule specification for the selected
    V3 source. The full differential RHS and codec are NOT yet bound to the
-   law and action arguments below. This is not a hidden existence axiom. -/
+   law and action arguments below. Existence remains a separate obligation. -/
 namespace V3Hybrid
 noncomputable section
 

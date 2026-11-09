@@ -1,7 +1,8 @@
 from pathlib import Path
+import os
 from datetime import datetime,timezone
 import json,hashlib,shutil,re,zipfile
-ROOT=Path(r'C:\Users\ziman\Documents\Codex\2026-10-31\ca')
+ROOT=Path(os.environ['PROOF_WORKSPACE'])
 REV=ROOT/'outputs/hug-v3-proof-corrected/revision-2'
 PACK=REV/'testing-packet'
 RUN=Path((ROOT/'work/current-corrected-hug-run.txt').read_text(encoding='utf8'))

@@ -1,68 +1,10 @@
 {
-  "checked_at_utc": "2026-11-01T05:01:58.842984+00:00",
-  "overall_status": "INCOMPLETE_FULL_HUG_V3_EXISTENCE_UNIQUENESS_NOT_PROVED",
-  "selected_model": "hug-structural-memory-v3",
-  "full_source_to_lean_equivalence": "NOT_PROVED",
-  "full_fluid_transfer_existence": "NOT_PROVED",
-  "full_fluid_transfer_uniqueness": "NOT_PROVED",
-  "full_hybrid_continuation_through_writes": "NOT_PROVED",
-  "continuum_limit": "NOT_PROVED",
-  "full_requested_theorem_submitted_to_comparator": false,
-  "native_lean": [
-    {
-      "module": "V3EventSpecification",
-      "exit_code": 0,
-      "seconds": 15.905999999988126
-    },
-    {
-      "module": "V3EventChallenge",
-      "exit_code": 0,
-      "seconds": 15.359000000025844
-    },
-    {
-      "module": "V3EventProofs",
-      "exit_code": 0,
-      "seconds": 17.187999999994645
-    }
-  ],
-  "comparator": {
-    "status": "PASS",
-    "scope": "Six event-regularity/algebra statements only; not full v3 existence or uniqueness.",
-    "theorems": [
-      "HugV3Event.Verified.probe_recovers_rest_strain",
-      "HugV3Event.Verified.header_first_bit_is_one",
-      "HugV3Event.Verified.valid_empty_coordinate_changes",
-      "HugV3Event.Verified.event_prevents_continuity",
-      "HugV3Event.Verified.event_prevents_derivative",
-      "HugV3Event.Verified.full_state_prevents_continuity"
-    ],
-    "lean_kernel": "PASS",
-    "nanoda_kernel": "PASS",
-    "real_landrun": true,
-    "fresh_solution_directory": true,
-    "allowed_axioms": [
-      "propext",
-      "Quot.sound",
-      "Classical.choice"
-    ],
-    "reference_frozen_before_proof_written": true,
-    "log": "evidence-linux/comparator.log"
-  },
-  "lake_build": "PASS",
-  "source_declaration_gate": {
-    "status": "accepted",
-    "case": "main",
-    "manifest_sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
-    "claims_corpus_validation": false
-  },
-  "source_sealed_files_checked": 21,
-  "original_sources_unchanged": true,
-  "frozen_verification_inputs_unchanged": true,
-  "main_state_dictionary_real_coordinate_count": 193122,
-  "count_scope": "Excludes event-start snapshots, input metadata and output history; does not claim a continuum representation.",
-  "same_agent": "Returning student; no new actor mapping or scores",
-  "same_idea": "Giving someone space to speak can change what I understand.",
-  "limitations": [
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Six exact inter-event and write results in the supplied event specification.",
+  "open_items": [
     "Formal code-to-mathematics correspondence is incomplete, including floating-point, codec and CRC semantics.",
     "Event witnesses are explicit hypotheses of the checked lemmas, not a proved full trajectory.",
     "The event result does not refute existence/uniqueness for the correct hybrid formulation.",

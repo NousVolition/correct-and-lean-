@@ -1,13 +1,14 @@
 """Source-preserving, finite counterexamples to a pasted proof draft; no time integration."""
 from pathlib import Path
+import os
 from datetime import datetime, timezone
 from fractions import Fraction
 import hashlib, json, shutil, sys, traceback, warnings, platform
 
 sys.dont_write_bytecode = True
-ROOT = Path(r'C:\Users\ziman\Documents\Codex\2026-10-31\ca')
-PACKAGE = Path(r'C:\Users\ziman\Documents\Codex\2026-10-28\new-chat-4\hug-v3-proof-attempt')
-ATTACHMENT = Path(r'C:\Users\ziman\.codex\attachments\56912d7e-687c-448d-b8a2-13f301b7ac58\Pasted text.txt')
+ROOT = Path(os.environ['PROOF_WORKSPACE'])
+PACKAGE = Path(os.environ['PROOF_PACKAGE'])
+ATTACHMENT = Path(os.environ['PROOF_ATTACHMENT'])
 RUN = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ')
 OUT = ROOT / 'outputs' / 'hug-v3-proof-review' / RUN
 OUT.mkdir(parents=True, exist_ok=False)

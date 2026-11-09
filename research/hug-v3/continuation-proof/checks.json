@@ -2,7 +2,7 @@
   "checked_at_utc": "2026-11-02T05:19:04.189915+00:00",
   "scope": "Static source/rational checks; no time integration, no new model, no Lean run",
   "full_continuation_proved": false,
-  "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-transfer-lean\\sources",
+  "source": "lean/hug-v3-transfer-lean/sources",
   "source_files": 21,
   "source_hashes_before": {
     "continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
@@ -52,7 +52,7 @@
   },
   "all_source_hashes_match_seal": true,
   "reference_proof": {
-    "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-corrected\\revision-2\\proof.md",
+    "path": "research/hug-v3/corrected-proof-revision-2/proof.md",
     "sha256": "83bffb6e7233509f030e4929696c0147ad4b032cf07831317dd9b830cf450491"
   },
   "config_unchanged": true,

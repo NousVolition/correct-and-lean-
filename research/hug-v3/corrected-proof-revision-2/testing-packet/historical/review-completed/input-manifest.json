@@ -1,174 +1,174 @@
 [
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\continuum.py",
+    "source": "lean/hug-v3-proof-attempt/sources/continuum.py",
     "snapshot": "sources/continuum.py",
     "sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
     "bytes": 15758
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\social_base.py",
+    "source": "lean/hug-v3-proof-attempt/sources/social_base.py",
     "snapshot": "sources/social_base.py",
     "sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
     "bytes": 15981
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\structural_hug.py",
+    "source": "lean/hug-v3-proof-attempt/sources/structural_hug.py",
     "snapshot": "sources/structural_hug.py",
     "sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
     "bytes": 14124
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\run.py",
+    "source": "lean/hug-v3-proof-attempt/sources/run.py",
     "snapshot": "sources/run.py",
     "sha256": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
     "bytes": 4673
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\test_structure.py",
+    "source": "lean/hug-v3-proof-attempt/sources/test_structure.py",
     "snapshot": "sources/test_structure.py",
     "sha256": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36",
     "bytes": 12435
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\preflight.py",
+    "source": "lean/hug-v3-proof-attempt/sources/preflight.py",
     "snapshot": "sources/preflight.py",
     "sha256": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
     "bytes": 2535
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\reference_gate\\run_manifest.py",
+    "source": "lean/hug-v3-proof-attempt/sources/reference_gate/run_manifest.py",
     "snapshot": "sources/reference_gate/run_manifest.py",
     "sha256": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
     "bytes": 14307
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\reference_gate\\parameter_bounds.json",
+    "source": "lean/hug-v3-proof-attempt/sources/reference_gate/parameter_bounds.json",
     "snapshot": "sources/reference_gate/parameter_bounds.json",
     "sha256": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
     "bytes": 5248
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\equation_register.csv",
+    "source": "lean/hug-v3-proof-attempt/sources/equation_register.csv",
     "snapshot": "sources/equation_register.csv",
     "sha256": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc",
     "bytes": 1612
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\study_chain.csv",
+    "source": "lean/hug-v3-proof-attempt/sources/study_chain.csv",
     "snapshot": "sources/study_chain.csv",
     "sha256": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c",
     "bytes": 9161
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\parameter_bounds.json",
+    "source": "lean/hug-v3-proof-attempt/sources/parameter_bounds.json",
     "snapshot": "sources/parameter_bounds.json",
     "sha256": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0",
     "bytes": 344641
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\protocol.json",
+    "source": "lean/hug-v3-proof-attempt/sources/protocol.json",
     "snapshot": "sources/protocol.json",
     "sha256": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77",
     "bytes": 17597
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\rule_changes.json",
+    "source": "lean/hug-v3-proof-attempt/sources/rule_changes.json",
     "snapshot": "sources/rule_changes.json",
     "sha256": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917",
     "bytes": 29345
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\literal_registry.json",
+    "source": "lean/hug-v3-proof-attempt/sources/literal_registry.json",
     "snapshot": "sources/literal_registry.json",
     "sha256": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273",
     "bytes": 45346
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\declarations\\main.json",
+    "source": "lean/hug-v3-proof-attempt/sources/declarations/main.json",
     "snapshot": "sources/declarations/main.json",
     "sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
     "bytes": 176321
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\declarations\\time_half.json",
+    "source": "lean/hug-v3-proof-attempt/sources/declarations/time_half.json",
     "snapshot": "sources/declarations/time_half.json",
     "sha256": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
     "bytes": 176329
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\declarations\\grid24.json",
+    "source": "lean/hug-v3-proof-attempt/sources/declarations/grid24.json",
     "snapshot": "sources/declarations/grid24.json",
     "sha256": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c",
     "bytes": 176326
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\declarations\\particles640.json",
+    "source": "lean/hug-v3-proof-attempt/sources/declarations/particles640.json",
     "snapshot": "sources/declarations/particles640.json",
     "sha256": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793",
     "bytes": 176332
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\declarations\\no_read_feedback.json",
+    "source": "lean/hug-v3-proof-attempt/sources/declarations/no_read_feedback.json",
     "snapshot": "sources/declarations/no_read_feedback.json",
     "sha256": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a",
     "bytes": 176327
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\declarations\\slow_fabric.json",
+    "source": "lean/hug-v3-proof-attempt/sources/declarations/slow_fabric.json",
     "snapshot": "sources/declarations/slow_fabric.json",
     "sha256": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956",
     "bytes": 176331
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\declarations\\unit.json",
+    "source": "lean/hug-v3-proof-attempt/sources/declarations/unit.json",
     "snapshot": "sources/declarations/unit.json",
     "sha256": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe",
     "bytes": 175448
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\sources\\source_seal.json",
+    "source": "lean/hug-v3-proof-attempt/sources/source_seal.json",
     "snapshot": "sources/source_seal.json",
     "sha256": "b815846bd7afe1aa1a91430c40b658fc44a4d13add5432de0aed424530bedea0",
     "bytes": 2020
   },
   {
-    "source": "C:\\Users\\ziman\\.codex\\attachments\\56912d7e-687c-448d-b8a2-13f301b7ac58\\Pasted text.txt",
+    "source": "external-source/df5a1cf60b1bc80f/Pasted text.txt",
     "snapshot": "submitted-proof.tex",
     "sha256": "6962654468b09dcccb22a4775fdb9eb19d231e5db5bb460c746c7c1be87b1012",
     "bytes": 40633
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\LOCAL_PROOF_ROUTE.md",
+    "source": "lean/hug-v3-proof-attempt/LOCAL_PROOF_ROUTE.md",
     "snapshot": "prior-evidence/LOCAL_PROOF_ROUTE.md",
     "sha256": "f87f458e22628fa490b2ed2c03a910369d980a9f9bc8c435d397c8e2f2498a6c",
     "bytes": 3950
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\source-audit.json",
+    "source": "lean/hug-v3-proof-attempt/source-audit.json",
     "snapshot": "prior-evidence/source-audit.json",
     "sha256": "fd640b5909e044fc39b5de0029a5cf6f9618f76705804590ebaf2dc6c8b27001",
     "bytes": 9106
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\verification-report.json",
+    "source": "lean/hug-v3-proof-attempt/verification-report.json",
     "snapshot": "prior-evidence/verification-report.json",
     "sha256": "421676d0805241b6f53f3f31cbe47d88b643fde3d83012f4cddb56ec5d57240a",
     "bytes": 2915
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\V3EventSpecification.lean",
+    "source": "lean/hug-v3-proof-attempt/V3EventSpecification.lean",
     "snapshot": "prior-evidence/V3EventSpecification.lean",
     "sha256": "c32643d7c28b8cd5d8759880390c0e1b5c84783c11a3b96f96209e07188e1f88",
     "bytes": 1794
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-v3-proof-attempt\\V3EventProofs.lean",
+    "source": "lean/hug-v3-proof-attempt/V3EventProofs.lean",
     "snapshot": "prior-evidence/V3EventProofs.lean",
     "sha256": "903c5b76a6a70880eedbc55ba26ea19b0d38b9bef9aaf203ee551cdaaa114d12",
     "bytes": 2042
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\work\\check_hug_v3_proof.py",
+    "source": "external-source/e37a6ecb17087db5/check_hug_v3_proof.py",
     "snapshot": "review-checks.py",
     "sha256": "b4e23bf92dfa3f8400ed61c2000cde65b9c134f778daaaaa8be4b5112108b4ba",
     "bytes": 10582

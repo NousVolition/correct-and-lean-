@@ -28,7 +28,7 @@
     "sources/ns_fields_model.py": "60948e928f31d57e8384f2f7ccd68d4ab9664d6aee3398f82407324bb0f42e30",
     "sources/ns_protocol.json": "ba767c26ec3324f0441e158475910e12b9d225ab1f99859b534f51c280a3ebae",
     "sources/original-corpus-passages.json": "5945c73a3a47d787db4b45640675555c08a23b0daa863ce863c92a8e1fb723fa",
-    "sources/original-source-manifest.json": "5bb99f1ef240578bf0d5372a78f23f4a6a3f9f6d1257fffa8d54fad6627f8370"
+    "sources/original-source-manifest.json": "0a93f00b13f08c799b507ec4900a673bd45280f75015aa70fda77aae046a9639"
   },
   "unresolved": [
     "Full PDE initial-value existence",

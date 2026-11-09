@@ -2,7 +2,7 @@
 
 The unchanged full Hug v3 source contains context-dependent retrieval, separately stored observations and reports, mixtures of records, and a proposed constant-delay wrapper. It does not yet specify the complete variable-timing, solo reconstruction and anticipation-cost process described in the latest messages. The overall connection is **PARTIAL**. **All 17 submitted claims passed a fresh Lean build and Comparator, including both Lean's kernel and the independent nanoda kernel.** The final theorem about existence and uniqueness through every event, write and delay is not claimed here.
 
-The [verification record](C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-memory-rules-lean/verification-report.json) and [Comparator log](C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-memory-rules-lean/evidence-linux/comparator.log) contain the fresh results. The check used the same pinned Lean 4.34.0-rc2 and Comparator commit `19e111e2141cf333c7daff0f64c5f24acc91dd2e`, with real Landrun isolation, a fresh solution build and the allowed axioms `propext`, `Quot.sound`, `Classical.choice`. No `sorryAx` or `native_decide` was admitted in the submitted proof closures. The intentional reference placeholders are not solution proofs.
+The [verification record](verification-report.json) and [Comparator log](evidence-linux/comparator.log) contain the fresh results. The check used the same pinned Lean 4.34.0-rc2 and Comparator commit `19e111e2141cf333c7daff0f64c5f24acc91dd2e`, with real Landrun isolation, a fresh solution build and the allowed axioms `propext`, `Quot.sound`, `Classical.choice`. No `sorryAx` or `native_decide` was admitted in the submitted proof closures. The intentional reference placeholders are not solution proofs.
 
 The same returning student remains actor 1, the first teacher actor 0 and the second teacher actor 2. The idea remains **“Giving someone space to speak can change what I understand.”** These are interpretive aliases for the existing six-actor fixture, not changes to its equations or measured teacher/student data. No model state or physical transfer term was removed. This audit examines consequences of the complete source definitions; it does not turn those consequences into a proof that a full trajectory exists.
 
@@ -30,7 +30,7 @@ where only records with an available outcome score enter these sums, and
 
 `evidence(r) = [max(y_r,0), max(−y_r,0), recognition_r, authority_r]`.
 
-The exact expressions are in [V3SourceSocial.lean](C:/Users/ziman/Documents/Codex/2026-10-28/new-chat-4/hug-v3-memory-rules-lean/V3SourceSocial.lean:21) and the original `structural_hug.py:184–202`. The structural subclass overrides the older external archive. The old archive is not treated as an additional active memory mechanism.
+The exact expressions are in [V3SourceSocial.lean](V3SourceSocial.lean#L21) and the original `structural_hug.py:184–202`. The structural subclass overrides the older external archive. The old archive is not treated as an additional active memory mechanism.
 
 | User meaning | Present rule and checked consequence | Limit or missing connection |
 |---|---|---|

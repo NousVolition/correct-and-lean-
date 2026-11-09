@@ -1,71 +1,13 @@
 {
-  "generated_at_utc": "2026-11-01T04:16:43.859967+00:00",
-  "requested_outcome": "Full unchanged Hug-Navier existence and uniqueness proved and checked in Lean and Comparator.",
-  "requested_outcome_achieved": false,
-  "overall_status": "INCOMPLETE: requested full theorem not proved.",
-  "full_existence": "UNPROVED",
-  "full_lean_uniqueness": "UNPROVED",
-  "written_uniqueness_argument": {
-    "status": "Written, not Lean-verified",
-    "assumptions": "Existing solutions with joint classical space/time regularity on a finite periodic interval; same initial data and inputs.",
-    "conclusion": "At most one complete evolving state in that class; pressure is unique only up to a function of time.",
-    "does_not_prove_existence": true,
-    "does_not_discharge_weaker_saved_uniqueness_target": true
-  },
-  "diagnostics": {
-    "status": "PASS",
-    "count": 4,
-    "theorems": [
-      "HugNavierWellposedness.Verified.perturbation_regular",
-      "HugNavierWellposedness.Verified.nearby_uniform_bound",
-      "HugNavierWellposedness.Verified.exact_rate_difference",
-      "HugNavierWellposedness.Verified.no_uniform_local_rate_bound"
-    ],
-    "native_lean": "PASS",
-    "linux_lake_build": "PASS",
-    "comparator": "PASS",
-    "lean_kernel": "PASS",
-    "nanoda_kernel": "PASS",
-    "meaning": "A necessary uniform-state Lipschitz rate bound fails for the exact full PDE. This invalidates a direct ordinary-ODE proof route, not PDE existence or uniqueness.",
-    "full_requested_theorem_submitted_as_proved": false
-  },
-  "preservation": {
-    "equations_unchanged": true,
-    "original_initial_data_unchanged": true,
-    "frozen_statements_unchanged": true,
-    "agent": "Same returning student",
-    "idea": "Giving someone space to speak can change what I understand.",
-    "no_new_calibration_or_identity_mapping": true
-  },
-  "remaining": [
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Four auxiliary well-posedness statements for the field problem. The original full existence and uniqueness targets remain open.",
+  "open_items": [
     "Construct local coupled variable-viscosity PDE solutions in an appropriate spatial function space.",
     "Prove continuation/global estimates for the every-finite-horizon existence target.",
     "Formalize the full classical uniqueness argument and specify its relation to the saved solution class.",
     "Submit actual existence and uniqueness proofs to Comparator."
-  ],
-  "additional_axioms_added": false,
-  "permitted_axioms": [
-    "propext",
-    "Quot.sound",
-    "Classical.choice"
-  ],
-  "source_model_sha256": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
-  "execution": {
-    "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
-    "uid": 1000,
-    "fresh_linux_project": true,
-    "started": "2026-11-01T04:14:27+00:00",
-    "finished": "2026-11-01T04:15:41+00:00",
-    "postflight": {
-      "source_hashes_unchanged": true,
-      "dependency_commits_unchanged": true,
-      "dependency_sources_clean": true
-    }
-  },
-  "development_notes": [
-    "The initial native target compile completed after 114.6 seconds; its shell was interrupted as it began the challenge compile.",
-    "An early proof compile failed because the target build had not yet returned its module; this was an orchestration error.",
-    "A sequential recovery compiled the targets successfully; the proof then needed explicit derivative points and a sign-parenthesization correction.",
-    "All mathematical challenge statements and source equations remained unchanged."
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Lean package verification report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["comparator", "lean_kernel", "nanoda", "lean_build", "scope", "open_items"],
+  "properties": {
+    "comparator": {"$ref": "#/$defs/check"},
+    "lean_kernel": {"$ref": "#/$defs/check"},
+    "nanoda": {"$ref": "#/$defs/check"},
+    "lean_build": {"$ref": "#/$defs/check"},
+    "scope": {"$ref": "#/$defs/text"},
+    "open_items": {"type": "array", "items": {"$ref": "#/$defs/text"}}
+  },
+  "$defs": {
+    "check": {"type": "string", "enum": ["PASS", "FAIL", "NOT_RUN", "UNKNOWN"]},
+    "text": {"type": "string", "pattern": "\\S"}
+  }
+}

@@ -1,6 +1,6 @@
 [
   {
-    "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\outputs\\full-fluid-transfer-source-review\\sources\\original-corpus\\corrected-corpus.docx",
+    "path": "external-source/02490f852ae12db4/corrected-corpus.docx",
     "paragraphs": 638,
     "hits": [
       [
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-05\\ca\\outputs\\sims-framework-correction-20261022\\sources\\corrected-corpus.docx",
+    "path": "external-source/1525b7f7b63bdb08/corrected-corpus.docx",
     "paragraphs": 638,
     "hits": [
       [

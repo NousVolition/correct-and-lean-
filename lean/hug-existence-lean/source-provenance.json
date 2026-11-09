@@ -6,7 +6,7 @@
   "unchanged_model_file": "ActiveHugModel.lean",
   "unchanged_model_sha256": "be9d734610480ae9376bfd38b287c2bb9b7758cb50e29109bcf26656a7885f19",
   "prior_package_receipt": {
-    "archive": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-28\\new-chat-4\\outputs\\hug-squeeze-lean-proof-package.zip",
+    "archive": "external-source/a9fad369f46cf09c/hug-squeeze-lean-proof-package.zip",
     "sha256": "19cffa63173d76cbe2e1a5e09b34dbc9d033f41295870653d4c4bb6ae62b8af1",
     "bytes": 73215,
     "files": 42,

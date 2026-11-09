@@ -18,7 +18,7 @@ This module unifies the two Lean specifications into a single coupled hybrid sys
   the event header magic bit `headerMagic = 1729`, the empty-slot margin condition
   `ValidEmptyCoordinate a margin b`, and the instantaneous write jump `writtenBit a bit`.
 
-## Main Combined Theorems Proved Below (Zero `sorry`)
+## Main Combined Theorems Proved Below (Completed proofs)
 
 1. **`combined_probe_recovers_written_bit`**: After an encounter writes `writtenBit a bit` into
    the structural fabric, `inferredRestStrain k load (writtenBit a bit) = writtenBit a bit`

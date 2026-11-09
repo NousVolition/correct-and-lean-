@@ -1,0 +1,76 @@
+{
+  "result": "PASS for 19 formal claims. The empirical painted-line contrast in this encounter is undetermined.",
+  "checked_utc": "2026-11-07T02:28:45.139146+00:00",
+  "lean_build": "PASS",
+  "isolated_comparator": "PASS",
+  "lean_default_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "allowed_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "theorems": [
+    "HugV3.Source.PaintCalibrationVerified.declared_start",
+    "HugV3.Source.PaintCalibrationVerified.accepted_original_field_rate",
+    "HugV3.Source.PaintCalibrationVerified.private_context_comparison",
+    "HugV3.Source.PaintCalibrationVerified.footprint_compares_full_inputs",
+    "HugV3.Source.PaintCalibrationVerified.same_footprint_and_person_distinct_values",
+    "HugV3.Source.PaintCalibrationVerified.unfixed_background_allows_any_contrast",
+    "HugV3.Source.PaintCalibrationVerified.independent_field_total_recovers_contrast",
+    "HugV3.Source.PaintCalibrationVerified.marked_cell_has_positive_volume",
+    "HugV3.Source.PaintCalibrationVerified.original_transport_redistributes_field",
+    "HugV3.Source.PaintCalibrationVerified.spatial_total_rate_from_original_source",
+    "HugV3.Source.PaintCalibrationVerified.unit_kernel_rate",
+    "HugV3.Source.PaintCalibrationVerified.positive_attachments_normalize_original_kernel",
+    "HugV3.Source.PaintCalibrationVerified.positive_attachments_see_a_marked_cell",
+    "HugV3.Source.PaintCalibrationVerified.original_readout_affine",
+    "HugV3.Source.PaintCalibrationVerified.bounded_channel_for_profile",
+    "HugV3.Source.PaintCalibrationVerified.zero_sensitivity_erases_contrast",
+    "HugV3.Source.PaintCalibrationVerified.calibrated_sensor_recovers_signed_contrast",
+    "HugV3.Source.PaintCalibrationVerified.one_exact_reading_identifies_height",
+    "HugV3.Source.PaintCalibrationVerified.opposite_fields_have_same_original_force"
+  ],
+  "core_result": "Same marked locations and personal context can have different positive C contrasts. The original source fixes the shared total rate. Known background plus either an independent total or a suitable exact signed observation identifies a constant mark contrast.",
+  "conditions": "Known nonempty footprint, background field, uniform signed contrast. Geometry and calibration of a real readout must be known separately. The total history additionally requires the appropriate trajectory and source inputs.",
+  "model_preservation": {
+    "six_lean_modules": {
+      "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+      "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+      "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+      "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+      "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+      "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98"
+    },
+    "sealed_program_inputs": 21,
+    "all_match": true
+  },
+  "source_geometry_external_check": {
+    "source": "V3SourceGeometry.lean",
+    "source_sha256": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "rows": 6,
+    "entries_per_row": 384,
+    "checked_coefficients": 2304,
+    "all_strictly_positive": true,
+    "smallest_exact_fraction": "2489828897655279/2361183241434822606848",
+    "method": "Independent complete parse of the frozen sourceAttach initializer. Python rational arithmetic. Positivity is a hypothesis of the Lean geometry lemmas."
+  },
+  "corpus": {
+    "paragraphs": 638,
+    "sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+    "supplemental_sources": 14
+  },
+  "reference_correction": [
+    {
+      "prior": "development/reference-freeze-v1.json",
+      "reason": "Lean resolved unqualified sensitivity to the pre-existing fabric rate. Qualify the intended scalar sensor weight. No theorem, hypothesis, calibration rule or source equation changed in meaning."
+    }
+  ],
+  "postflight": {
+    "source_hashes_unchanged": true,
+    "dependency_commits_unchanged": true,
+    "dependency_sources_clean": true
+  },
+  "empirical_value": null
+}

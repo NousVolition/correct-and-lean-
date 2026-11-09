@@ -1,12 +1,10 @@
-name: Lean build
+name: Lean verification
 
 on:
   push:
     branches: [main]
-    paths: ['lean/**', '.github/workflows/lean-build.yml']
   pull_request:
     branches: [main]
-    paths: ['lean/**', '.github/workflows/lean-build.yml']
   workflow_dispatch:
     inputs:
       package:
@@ -31,6 +29,11 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
+      - name: Check solution closures, saved reports and public paths
+        run: |
+          python3 -m unittest discover -s scripts/tests
+          python3 scripts/lean_package_report.py check
+          python3 scripts/check_public_paths.py
       - id: select
         name: Select Lake packages
         shell: python
@@ -72,7 +75,10 @@ jobs:
                           "git", "diff", "--no-renames", "--name-only", "-z", base, "HEAD", "--"
                       ])
                       changed = set(os.fsdecode(delta).split("\0"))
-                      if ".github/workflows/lean-build.yml" not in changed:
+                      shared = ".github/workflows/lean-build.yml" in changed or any(
+                          path.startswith("scripts/") for path in changed
+                      )
+                      if not shared:
                           roots = {"/".join(path.split("/")[:2]) for path in changed}
                           selected = [p for p in packages if p.as_posix() in roots]
 
@@ -86,8 +92,30 @@ jobs:
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
               print("packages=" + json.dumps(paths), file=output)
 
-  build:
+  checker-tools:
     needs: packages
+    if: needs.packages.outputs.selected != '[]'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Build pinned Landrun and nanoda
+        run: bash scripts/build-comparator-tools.sh "$RUNNER_TEMP/checker-tools"
+      - name: Fetch and verify the pinned Lean release once
+        run: bash scripts/ci-lean-toolchain.sh fetch "$RUNNER_TEMP/checker-tools"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: checker-tools
+          path: ${{ runner.temp }}/checker-tools/
+          if-no-files-found: error
+          overwrite: true
+          retention-days: 1
+          compression-level: 0
+
+  build:
+    needs: [packages, checker-tools]
     if: needs.packages.outputs.selected != '[]'
     runs-on: ubuntu-24.04
     timeout-minutes: 90
@@ -96,19 +124,20 @@ jobs:
       max-parallel: 2
       matrix:
         directory: ${{ fromJSON(needs.packages.outputs.selected) }}
-    name: Lake build (${{ matrix.directory }})
+    name: Verify (${{ matrix.directory }})
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           persist-credentials: false
-      - uses: leanprover/lean-action@ba3fdfe5c4476c925da13bf11a005ddb47e47aee # v1
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
         with:
-          lake-package-directory: ${{ matrix.directory }}
-          auto-config: 'false'
-          build: 'false'
-          use-mathlib-cache: 'false'
-          use-github-cache: 'false'
+          name: checker-tools
+          path: ${{ runner.temp }}/checker-tools
+      - name: Install this package's pinned Lean from the checked archive
+        working-directory: ${{ matrix.directory }}
+        run: bash "$GITHUB_WORKSPACE/scripts/ci-lean-toolchain.sh" install "$RUNNER_TEMP/checker-tools" "$RUNNER_TEMP/lean-toolchain"
       - name: Fetch mathlib build cache
+        id: dependencies
         working-directory: ${{ matrix.directory }}
         env:
           MATHLIB_CACHE_GET_URL: https://cache.mathlib.org/mathlib4
@@ -124,6 +153,39 @@ jobs:
             fi
           done
           exit 1
-      - name: Build declared Lean targets
+      - name: Compare the frozen statements and check both kernels
         working-directory: ${{ matrix.directory }}
-        run: lake build
+        run: |
+          chmod +x "$RUNNER_TEMP/checker-tools/landrun" "$RUNNER_TEMP/checker-tools/nanoda_bin"
+          bash "$GITHUB_WORKSPACE/scripts/compare-package.sh" "$RUNNER_TEMP/checker-tools" "$RUNNER_TEMP/proof-evidence"
+      - name: Build declared targets
+        id: lake_build
+        if: ${{ !cancelled() && steps.dependencies.outcome == 'success' }}
+        working-directory: ${{ matrix.directory }}
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/proof-evidence"
+          set +e
+          lake build 2>&1 | tee "$RUNNER_TEMP/proof-evidence/lake-build.log"
+          status=${PIPESTATUS[0]}
+          printf '%s\n' "$status" > "$RUNNER_TEMP/proof-evidence/lake-build.exit"
+          exit "$status"
+      - name: Check the axioms of every named solution theorem
+        if: ${{ !cancelled() && steps.lake_build.outcome == 'success' }}
+        working-directory: ${{ matrix.directory }}
+        run: |
+          python3 "$GITHUB_WORKSPACE/scripts/lean_package_report.py" axioms . --output "$RUNNER_TEMP/proof-evidence/axioms.json"
+      - name: Write this run's report
+        id: report
+        if: always()
+        working-directory: ${{ matrix.directory }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/proof-evidence"
+          echo "package=$(basename "$PWD")" >> "$GITHUB_OUTPUT"
+          python3 "$GITHUB_WORKSPACE/scripts/lean_package_report.py" ci-report . "$RUNNER_TEMP/proof-evidence"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        if: always() && steps.report.outputs.package != ''
+        with:
+          name: proof-${{ steps.report.outputs.package }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/proof-evidence/
+          if-no-files-found: error

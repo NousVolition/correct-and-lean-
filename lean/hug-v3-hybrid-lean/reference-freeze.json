@@ -15,13 +15,13 @@
   ],
   "files": {
     "HybridSpecification.lean": "784c423280e72bb0de65211f60fa4255f1bfe95dea07d537c6f7d883fbc67241",
-    "V3HybridSpecification.lean": "40fe33df26c34f7fc8df5dfe244b420bd251d80b45e20cf9818a8f57d28e437b",
+    "V3HybridSpecification.lean": "6ced42c4089e849666513f85aedeee40aa48dfda714bb23ed9ad4c50e13ebdef",
     "HybridChallenge.lean": "84c074bf6b8356da83a5a3eccad0f302bcd2e019a423680e721593a0899d71f1",
     "lakefile.toml": "e632cf5cc46df6c653c2713299672fd99ad23cc0071451617248853548e91b14",
     "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
     "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
     "comparator.json": "58249a62307078e3b73e1881f67474df60fce6bfbe136459320e1be5c598109c",
-    "source-audit.json": "addc28dbbabc8a41cda275155b480100495798b3b1cc0bc3b4974ce026ffa3a7"
+    "source-audit.json": "2ee7c02087458b48128d37b33b1d21a7729d74d6e25547e5996f633f3b1504a2"
   },
   "source_files": {
     "sources/continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",

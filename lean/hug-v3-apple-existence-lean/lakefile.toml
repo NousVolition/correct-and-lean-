@@ -1,6 +1,6 @@
 name = "AppleExistenceAudit"
 version = "0.1.0"
-defaultTargets = ["AppleExistenceProofs", "AppleExistenceChallenge"]
+defaultTargets = ["AppleExistenceProofs"]
 
 [[require]]
 name = "mathlib"

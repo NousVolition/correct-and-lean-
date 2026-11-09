@@ -1,0 +1,13 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Both meaning states stay in [0,1] and both adverse-history loads stay nonnegative on every finite interval under the original assumptions.",
+  "open_items": [
+    "FullSuppressionComparison",
+    "Repeated-encounter stochastic process and event coupling",
+    "Numerical error certification",
+    "Empirical validation of the social interpretation"
+  ]
+}

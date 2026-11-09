@@ -1,8 +1,9 @@
 """Close early 64-grid verification coverage gaps using saved arrays only."""
 from pathlib import Path
+import os
 import sys,json,hashlib,time
 import numpy as np
-S=Path(r'C:/Users/ziman/Documents/Codex/2026-10-05/ca/work/matched-stretch-study')
+S=Path(os.environ['MATCHED_STRETCH_STUDY'])
 P=Path(__file__).resolve().parent
 sys.path.insert(0,str(S))
 from numerics import Flow

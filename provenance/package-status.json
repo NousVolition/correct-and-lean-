@@ -2,19 +2,19 @@
   {
     "package": "as-lean",
     "status_as_recorded": "PASS for 30 scoped claims; full coupled model remains unproved",
-    "report": "lean/as-lean/verification-receipt.json",
+    "report": "lean/as-lean/verification-report.json",
     "lean_files": 4
   },
   {
     "package": "as-existence-lean",
     "status_as_recorded": "PASS",
-    "report": "lean/as-existence-lean/verification-receipt.json",
+    "report": "lean/as-existence-lean/verification-report.json",
     "lean_files": 14
   },
   {
     "package": "as-invariance-lean",
     "status_as_recorded": "PASS",
-    "report": "lean/as-invariance-lean/verification-receipt.json",
+    "report": "lean/as-invariance-lean/verification-report.json",
     "lean_files": 19
   },
   {

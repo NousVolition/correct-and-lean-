@@ -124,7 +124,7 @@ meaning spaces are not included.
 | Fresh Linux environment and 11 dependency revisions | PASS; `evidence-linux/preflight.json` |
 | Comparator / Lean replay / nanoda | PASS, exit 0; `evidence-linux/comparator.log` |
 | Linux Lake build | PASS, exit 0; `evidence-linux/lake-build.log` |
-| Source and dependency preservation | PASS; `reference-freeze.json`, `evidence-linux/postflight.json`, `verification-receipt.json` |
+| Source and dependency preservation | PASS; `reference-freeze.json`, `evidence-linux/postflight.json`, `verification-report.json` |
 
 Only `propext`, `Quot.sound`, and `Classical.choice` are permitted. There are no
 `sorry` proofs or new axioms in the solution. Intentional `sorry` placeholders

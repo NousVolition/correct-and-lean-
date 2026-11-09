@@ -1,69 +1,11 @@
 {
-  "checked_utc": "2026-11-07T21:35:33.912539+00:00",
-  "result": "PASS for the 15 named exact statements",
-  "theorem_count": 15,
-  "theorems_from_verified_solution_export": [
-    "HugV3.Source.AppleBand.reference_band_contracts",
-    "HugV3.Source.AppleBand.continuous_map_carries_contraction",
-    "HugV3.Source.AppleBand.moving_skin_carries_contraction",
-    "HugV3.Source.AppleBand.homeomorphic_transport_iff",
-    "HugV3.Source.AppleBand.accepted_position_and_fabric_rates",
-    "HugV3.Source.AppleBand.accepted_step_moves_every_particle",
-    "HugV3.Source.AppleBand.accepted_boundary_keeps_material",
-    "HugV3.Source.AppleBand.accepted_chain_carries_band",
-    "HugV3.Source.AppleBand.full_segment_local_band",
-    "HugV3.Source.AppleBand.stretch_expands_tips_and_preserves_contraction",
-    "HugV3.Source.AppleBand.small_step_preserves_distinct_points",
-    "HugV3.Source.AppleBand.continuous_grid_history_has_global_space_bounds",
-    "HugV3.Source.AppleBand.accepted_boundary_keeps_velocity",
-    "HugV3.Source.AppleBand.full_trace_material_flow_carries_band",
-    "HugV3.Source.AppleBand.band_on_the_embedded_skin_at_each_time"
-  ],
-  "fresh_lake_build": "PASS",
   "comparator": "PASS",
   "lean_kernel": "PASS",
-  "nanoda_kernel": "PASS",
-  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
-  "allowed_axioms": [
-    "propext",
-    "Quot.sound",
-    "Classical.choice"
-  ],
-  "six_original_Hug_modules_and_inherited_proofs_preserved": true,
-  "choice": "The reference ellipsoid skin and sliding equatorial band are observers; their material velocity uses precisely the native mechanical interpolation. No feedback or mass-growth term was added.",
-  "exact": "Given a full trace, an injective continuous material flow over all five segments agrees with the stored particles from the covered ball. The transported skin is embedded at every time, and contraction stays on it at fixed time or during simultaneous motion. Accepted discrete chains also carry the loop.",
-  "scope": "The premise is the original full solution predicate. The audit does not prove its existence. Equality of each stored fabric with the Jacobian of the whole continuous flow is not one of the theorems. The empirical small-step estimates and gradient comparisons are floating point.",
-  "numerical": {
-    "main": {
-      "steps": 321,
-      "observations": 325,
-      "equator_initial_perimeter": 1.228156187659413,
-      "equator_final_perimeter": 1.226397771360799,
-      "equator_final_diameter": 0.4375216289212856,
-      "max_pole_diameter": 0.0,
-      "max_fabric_singular_value": 1.116716532174283,
-      "max_step_displacement_bound": 0.013162870533952684,
-      "max_particle_step_error": 0.0,
-      "max_gradient_check_error": 6.730727086790012e-16,
-      "endpoint_hash": "a13b05044e7ef26aeca56a3b384c9788edb9fecd0faf74a7e50c0fefc807bb0f"
-    },
-    "time_half": {
-      "steps": 641,
-      "observations": 645,
-      "equator_initial_perimeter": 1.228156187659413,
-      "equator_final_perimeter": 1.2263977871184268,
-      "equator_final_diameter": 0.43752166876912263,
-      "max_pole_diameter": 0.0,
-      "max_fabric_singular_value": 1.1167183525306936,
-      "max_step_displacement_bound": 0.0066048070001002,
-      "max_particle_step_error": 0.0,
-      "max_gradient_check_error": 5.650861722994449e-16,
-      "endpoint_hash": "b2311a8a020acdd0e923eeddb787fe9062d8e2b4f735033c235fb71b7455a467"
-    }
-  },
-  "postflight": {
-    "source_hashes_unchanged": true,
-    "dependency_commits_unchanged": true,
-    "dependency_sources_clean": true
-  }
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Fifteen exact apple-and-band statements conditional on the corresponding fabric or full source solution hypotheses.",
+  "open_items": [
+    "Existence of the underlying full solution and equality of each stored fabric with the Jacobian of its flow.",
+    "Rigorous bounds on the floating-point small-step and gradient estimates."
+  ]
 }

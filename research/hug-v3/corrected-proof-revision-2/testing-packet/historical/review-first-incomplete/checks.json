@@ -132,7 +132,7 @@
   ],
   "checks": {},
   "status": "CHECK_EXECUTION_INCOMPLETE",
-  "exception": "Traceback (most recent call last):\n  File \"C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\work\\check_hug_v3_proof.py\", line 53, in <module>\n    import scipy\nModuleNotFoundError: No module named 'scipy'\n",
+  "exception": "Traceback (most recent call last):\n  File \"external-source/e37a6ecb17087db5/check_hug_v3_proof.py\", line 53, in <module>\n    import scipy\nModuleNotFoundError: No module named 'scipy'\n",
   "source_preservation_after": {
     "all_21_originals_match_seal": true,
     "all_21_prior_snapshots_match_seal": true,

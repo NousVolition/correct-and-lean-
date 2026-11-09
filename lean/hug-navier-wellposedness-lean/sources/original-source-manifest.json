@@ -5,7 +5,7 @@
   "scope": "Exact corrected-corpus A–S field equations; executable accumulator/source subset only. Full coupled field evolution is not implemented or claimed.",
   "source": {
     "title": "Corrected corpus — A–S transport, accumulation, threshold and feedback passages",
-    "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-05\\ca\\outputs\\sims-framework-correction-20261022\\sources\\corrected-corpus.docx",
+    "path": "external-source/1525b7f7b63bdb08/corrected-corpus.docx",
     "sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
     "extract_sha256": "91b28ea1bc55d0d7ed1cb747af53f46820284155743fb1e655b5619861ccc114",
     "register_sha256": "ce32b9ce0fa72e9b3339b967f5aea01f2e5322bbda121c752dc920728d7a427b",

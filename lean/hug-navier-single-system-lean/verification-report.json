@@ -1,47 +1,10 @@
 {
-  "generated_at_utc": "2026-11-01T03:44:36.122425+00:00",
-  "overall_status": "PARTIAL: whole source PDE formulation encoded and ten specific theorems verified; full existence and uniqueness are unproved.",
-  "six_field_shared_flow_equations_encoded": true,
-  "reduced_hug_ode_imported": false,
-  "spatial_discretization_used": false,
-  "full_evolution_existence": "UNPROVED",
-  "full_evolution_state_uniqueness": "UNPROVED",
-  "unrestricted_pressure_uniqueness": "FALSE CONDITIONALLY ON A SOLUTION: a spatially uniform pressure offset gives another representative.",
-  "global_guard_invariance": "UNPROVED: local inward-pointing PDE tests passed.",
-  "proof_checks": {
-    "count": 10,
-    "theorems": [
-      "HugNavierSingle.Verified.full_material_energy_balance",
-      "HugNavierSingle.Verified.source_initial_incompressible",
-      "HugNavierSingle.Verified.full_pressure_gauge",
-      "HugNavierSingle.Verified.full_pressure_not_unique",
-      "HugNavierSingle.Verified.guards_inward_at_spatial_boundaries",
-      "HugNavierSingle.Verified.viscosity_and_stress_dissipation",
-      "HugNavierSingle.Verified.full_variable_stress_divergence",
-      "OriginalAS.Verified.original_memory_derivative",
-      "OriginalAS.Verified.original_pressure_gauge",
-      "OriginalAS.Verified.normalized_momentum_equivalent"
-    ],
-    "native_lean": "PASS",
-    "linux_lake_build": "PASS",
-    "comparator": "PASS",
-    "lean_kernel": "PASS",
-    "nanoda_kernel": "PASS",
-    "permitted_axioms": [
-      "propext",
-      "Quot.sound",
-      "Classical.choice"
-    ]
-  },
-  "equation_preservation": {
-    "original_source_files_unchanged": true,
-    "frozen_models_unchanged": true,
-    "frozen_challenge_statements_unchanged": true,
-    "proof_conditions_weakened": false
-  },
-  "semantic_scope": "Full six-field provisional shared-flow realization in the recovered corpus; does not certify every conceptual or Monoxide variant. Original A/S branch is separately included.",
-  "source_review": "Read-only review of pinned source snapshots from preceding corpus audit; no new remote freshness or exhaustive search claim.",
-  "limitations": [
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Ten identities and local checks for the six-field formulation of the joint Hug–Navier evolution.",
+  "open_items": [
     "Conditional identities do not prove a full PDE trajectory exists.",
     "Pressure equivalence is not nonuniqueness of the evolving state.",
     "Local guard boundary signs do not prove global guard invariance.",
@@ -49,18 +12,5 @@
     "Native equations are exact-real statements, not a certificate of the numerical solver.",
     "Initial-value solution class still needs analytic estimates and any required strengthened regularity.",
     "A/S kernel/domain/initial/boundary/response assumptions still have to be fixed for a particular existence theorem."
-  ],
-  "freeze_timing_exception": "The model and challenge were written and compiled before proof construction. The first hash-freeze attempt failed while decoding the old UTF-8 source-audit file with Windows cp1252. The unchanged model and challenge were hashed after the first solution file had been written and its development compile started. This is not represented as a blind preregistration. No challenge was changed to accommodate a proof failure.",
-  "execution": {
-    "started": "2026-11-01T03:40:38+00:00",
-    "finished": "2026-11-01T03:42:16+00:00",
-    "fresh_project": true,
-    "uid": 1000,
-    "postflight": {
-      "source_hashes_unchanged": true,
-      "dependency_commits_unchanged": true,
-      "dependency_sources_clean": true
-    },
-    "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)"
-  }
+  ]
 }

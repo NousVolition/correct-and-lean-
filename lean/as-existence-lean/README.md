@@ -139,7 +139,7 @@ Run `lake build` for the pinned package's ordinary build.
 `build-native.ps1` uses the tools already installed in this Windows workspace.
 `run-linux-check.sh` reproduces this machine's full checking route and requires
 a fresh, nonexistent destination directory. The checking result and exact
-evidence hashes are recorded in `verification-receipt.json`.
+evidence hashes are recorded in `verification-report.json`.
 
 | Evidence | Location |
 | --- | --- |
@@ -150,7 +150,7 @@ evidence hashes are recorded in `verification-receipt.json`.
 | Comparator and both kernel acceptances | `evidence-linux/comparator.log` |
 | Ordinary Linux build | `evidence-linux/lake-build.log` |
 | Source/dependency preservation | `evidence-linux/postflight.json` |
-| Final result and artifact hashes | `verification-receipt.json`, `package-manifest.json` |
+| Final result and artifact hashes | `verification-report.json`, `package-manifest.json` |
 
 The solution build reports two style warnings about unused typeclass arguments
 in general continuity helper lemmas. It reports no proof holes or errors.

@@ -217,7 +217,7 @@
     "numpy": "2.3.5",
     "scipy": "1.18.1",
     "platform": "Windows-11-10.0.26300-SP0",
-    "scientific_packages": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\full-deps"
+    "scientific_packages": "external-source/8d286d3c31b51fb3/full-deps"
   },
   "declaration_gate": {
     "case": "main",

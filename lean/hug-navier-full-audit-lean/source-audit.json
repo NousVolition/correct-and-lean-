@@ -1997,10 +1997,10 @@
     }
   ],
   "local_original": {
-    "path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-05\\ca\\outputs\\sims-framework-correction-20261022\\sources\\corrected-corpus.docx",
+    "path": "external-source/1525b7f7b63bdb08/corrected-corpus.docx",
     "sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
     "xml_paragraph_count": 638,
-    "manifest_path": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-29\\your-system-contains-a-valid-accumulated\\outputs\\social-fluidity-exact-v1\\source-manifest.json",
+    "manifest_path": "external-source/2bc356f268f45d18/source-manifest.json",
     "manifest_sha256": "5bb99f1ef240578bf0d5372a78f23f4a6a3f9f6d1257fffa8d54fad6627f8370",
     "exact_passages_freshly_matched": 15
   }

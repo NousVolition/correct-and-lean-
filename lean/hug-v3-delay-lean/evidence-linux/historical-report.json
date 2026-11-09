@@ -1,0 +1,54 @@
+{
+  "verified_utc": "2026-11-01T23:18:54.488062+00:00",
+  "status": "PASS: nine definition-level timing identities; DDE dynamics remain unproved",
+  "claim_count": 9,
+  "lean_build_exit": 0,
+  "comparator_exit": 0,
+  "lean_kernel": true,
+  "nanoda_kernel": true,
+  "scope": "Present physical input, buffered social input, zero-delay identity; no simulation or DDE existence/uniqueness theorem",
+  "same_agent": "The same returning student",
+  "same_idea": "Giving someone space to speak can change what I understand.",
+  "source_files_unchanged": 21,
+  "baseline_lean_definitions_unchanged": 6,
+  "theorem_statements_unchanged": true,
+  "syntax_amendment": {
+    "original_manifest_sha256": "fb414a2df1931cbcc2a949e890d8ff9b32d251957434806f8ab5673d1fce1dca",
+    "reason": "Multiline structure-update layout corrected. Initial source and manifest retained. No theorem or equation change.",
+    "amended_utc": "2026-11-01T23:16:29.093594+00:00"
+  },
+  "delay_value": "Unspecified positive constant",
+  "history": "Unspecified function, not assumed zero",
+  "assumptions": [
+    "One constant lag shared by seven social blocks",
+    "Current physical observations and current material records remain available to the delayed social equation",
+    "Explicit external time stays t",
+    "Physical/source rates use current social state; all existing feedback remains",
+    "Every social argument is delayed, including self-correction terms; no clamping or replacement damping",
+    "Original memory-write map retained; past buffer must not be overwritten"
+  ],
+  "unproved": [
+    "DDE solution existence/uniqueness",
+    "Invariance/stability",
+    "Timing across delayed discontinuities",
+    "Equivalence to physiological processing or measured cognition",
+    "Full historical buffer solver"
+  ],
+  "dynamics_integrated": false,
+  "full_hybrid_solver_implemented": false,
+  "evidence_hashes": {
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.finished": "7d14dc09b747513993c39b4c2a39f77ba6c8ba178fba5c48bdc524b3125d46c9",
+    "comparator.log": "c01e63a13d3d87e481a53c02dc7d233b12825e4ed1b2f232b575126f9c42c52c",
+    "comparator.started": "5262a78a2973d0a1d86f3a408ecb12f1280f3cd5e6972a463b2766fcce19e770",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "fabe460ffab6b9ede9d7ae399a3aca2aed770e3de030d7e381ad9556ce44bc6f",
+    "postflight.json": "54cb2cd8c7a6c27a8c311d108da7a96c8c5537fbb49b0ca945515f6ef979b550",
+    "preflight.json": "6ecb34a72f940d602a71d7a01006184465061741ce2301fca7e746861eccf3d5"
+  },
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

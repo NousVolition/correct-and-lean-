@@ -17,7 +17,7 @@ into a two-timescale delay-hybrid system (`namespace DelayedReflexAS`):
    driven by the buffered past state `x(t - τ)` with perceptual lag `τ > 0`
    (`DelayedIntegralSolution`).
 
-## Main Theorems Proved Below (Zero `sorry`)
+## Main Theorems Proved Below (Completed proofs)
 
 * **`delayedSolution_unique_on_step` (Method of Steps Uniqueness)**:
   Because the conscious drift at time `s ∈ [t0, t0 + τ]` evaluates `evolution p (i s) (x (s - τ))`

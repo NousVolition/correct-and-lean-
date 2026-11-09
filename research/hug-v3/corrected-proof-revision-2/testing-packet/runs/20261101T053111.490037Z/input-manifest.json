@@ -1,146 +1,146 @@
 [
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\continuum.py",
+    "source": "external-source/e5f07b075ced73e3/continuum.py",
     "snapshot": "sources/continuum.py",
     "sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\social_base.py",
+    "source": "external-source/5ddb636eb1483403/social_base.py",
     "snapshot": "sources/social_base.py",
     "sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\structural_hug.py",
+    "source": "external-source/1bfbc718ff8898a9/structural_hug.py",
     "snapshot": "sources/structural_hug.py",
     "sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\run.py",
+    "source": "external-source/c74909d3cf732c8d/run.py",
     "snapshot": "sources/run.py",
     "sha256": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\test_structure.py",
+    "source": "external-source/c026841039552b24/test_structure.py",
     "snapshot": "sources/test_structure.py",
     "sha256": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\preflight.py",
+    "source": "external-source/0086fd048fa8f204/preflight.py",
     "snapshot": "sources/preflight.py",
     "sha256": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\reference_gate\\run_manifest.py",
+    "source": "external-source/d5baeed464970914/run_manifest.py",
     "snapshot": "sources/reference_gate/run_manifest.py",
     "sha256": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\reference_gate\\parameter_bounds.json",
+    "source": "external-source/31cadb196cfd640e/parameter_bounds.json",
     "snapshot": "sources/reference_gate/parameter_bounds.json",
     "sha256": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\equation_register.csv",
+    "source": "external-source/1ec48316d34c5534/equation_register.csv",
     "snapshot": "sources/equation_register.csv",
     "sha256": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\study_chain.csv",
+    "source": "external-source/25b63640840298be/study_chain.csv",
     "snapshot": "sources/study_chain.csv",
     "sha256": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\parameter_bounds.json",
+    "source": "external-source/cbbba5cef474ee77/parameter_bounds.json",
     "snapshot": "sources/parameter_bounds.json",
     "sha256": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\protocol.json",
+    "source": "external-source/6f170a48967bf213/protocol.json",
     "snapshot": "sources/protocol.json",
     "sha256": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\rule_changes.json",
+    "source": "external-source/155c422d2eca98c1/rule_changes.json",
     "snapshot": "sources/rule_changes.json",
     "sha256": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\literal_registry.json",
+    "source": "external-source/6455f59ff76abab5/literal_registry.json",
     "snapshot": "sources/literal_registry.json",
     "sha256": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\declarations\\main.json",
+    "source": "external-source/2bc735cc26a9f2a3/main.json",
     "snapshot": "sources/declarations/main.json",
     "sha256": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\declarations\\time_half.json",
+    "source": "external-source/46058649ff38a858/time_half.json",
     "snapshot": "sources/declarations/time_half.json",
     "sha256": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\declarations\\grid24.json",
+    "source": "external-source/77f3c77231c79231/grid24.json",
     "snapshot": "sources/declarations/grid24.json",
     "sha256": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\declarations\\particles640.json",
+    "source": "external-source/245398330ef72c68/particles640.json",
     "snapshot": "sources/declarations/particles640.json",
     "sha256": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\declarations\\no_read_feedback.json",
+    "source": "external-source/483008c47adac565/no_read_feedback.json",
     "snapshot": "sources/declarations/no_read_feedback.json",
     "sha256": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\declarations\\slow_fabric.json",
+    "source": "external-source/a686a54d833e437f/slow_fabric.json",
     "snapshot": "sources/declarations/slow_fabric.json",
     "sha256": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\declarations\\unit.json",
+    "source": "external-source/22d62d640d7bdf3f/unit.json",
     "snapshot": "sources/declarations/unit.json",
     "sha256": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\sources\\source_seal.json",
+    "source": "external-source/2e41a6451ddc2576/source_seal.json",
     "snapshot": "sources/source_seal.json",
     "sha256": "b815846bd7afe1aa1a91430c40b658fc44a4d13add5432de0aed424530bedea0"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-corrected\\revision-2\\proof.md",
+    "source": "research/hug-v3/corrected-proof-revision-2/proof.md",
     "snapshot": "inputs/proof.md",
     "sha256": "83bffb6e7233509f030e4929696c0147ad4b032cf07831317dd9b830cf450491"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-corrected\\revision-2\\CORRECTIONS.md",
+    "source": "research/hug-v3/corrected-proof-revision-2/CORRECTIONS.md",
     "snapshot": "inputs/CORRECTIONS.md",
     "sha256": "07aa5f31da14aea1d65239b24bc2a9324edcf0d9e3e1a6c1ca74350611ddc809"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-corrected\\revision-2\\testing-packet\\protocol.json",
+    "source": "research/hug-v3/corrected-proof-revision-2/testing-packet/protocol.json",
     "snapshot": "inputs/protocol.json",
     "sha256": "5f8264d25a52ceebafb72781ce5159ab3b09314fe9bc288fc3ba97f1c9f40f4a"
   },
   {
-    "source": "C:\\Users\\ziman\\.codex\\attachments\\56912d7e-687c-448d-b8a2-13f301b7ac58\\Pasted text.txt",
+    "source": "external-source/df5a1cf60b1bc80f/Pasted text.txt",
     "snapshot": "inputs/original-submitted-proof.tex",
     "sha256": "6962654468b09dcccb22a4775fdb9eb19d231e5db5bb460c746c7c1be87b1012"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\work\\verify_corrected_hug_proof.py",
+    "source": "external-source/f6bd2e527a732e1d/verify_corrected_hug_proof.py",
     "snapshot": "verification.py",
     "sha256": "b9903a26f016176356a8e43019dad552277ad9de1e664bd92619417c01bcded3"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\checks.json",
+    "source": "external-source/f03f50c9b3ff3e1d/checks.json",
     "snapshot": "historical/prior-review-checks.json",
     "sha256": "378714711cf0c5e425722c57755e480bc985a9bb1899da3624810cff9d887ad7"
   },
   {
-    "source": "C:\\Users\\ziman\\Documents\\Codex\\2026-10-31\\ca\\outputs\\hug-v3-proof-review\\20261101T051856.361354Z\\prior-evidence\\verification-report.json",
+    "source": "external-source/fd34bde6fc1fd9db/verification-report.json",
     "snapshot": "historical/earlier-formal-verification.json",
     "sha256": "421676d0805241b6f53f3f31cbe47d88b643fde3d83012f4cddb56ec5d57240a"
   }

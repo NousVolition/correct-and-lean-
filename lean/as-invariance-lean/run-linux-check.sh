@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
+export VERIFY_ROOT="${VERIFY_ROOT:-$HOME/verification}"
 # Reuses the pinned checking tools installed for the earlier audit.
 # Always use a fresh destination; never copy Windows build products.
 set -euo pipefail
 test "$(id -u)" -ne 0
 source_dir=$(cd -- "$(dirname -- "$0")" && pwd)
-check_dir=${1:-/home/nsverify/verification/as-invariance-20261030}
+check_dir=${1:-$VERIFY_ROOT/as-invariance-20261030}
 test ! -e "$check_dir"
-export PATH=/home/nsverify/verification/bin:/opt/lean-audit/lean-4.34.0-rc2-linux/bin:/usr/local/bin:/usr/bin:/bin
+export PATH="$VERIFY_ROOT"/bin:/opt/lean-audit/lean-4.34.0-rc2-linux/bin:/usr/local/bin:/usr/bin:/bin
 export XDG_RUNTIME_DIR=/run/user/$(id -u)
 export DBUS_SESSION_BUS_ADDRESS=unix:path=$XDG_RUNTIME_DIR/bus
 mkdir -p "$check_dir/.lake" "$check_dir/evidence"
@@ -14,7 +15,7 @@ cp "$source_dir"/*.lean "$source_dir/lakefile.toml" "$source_dir/lake-manifest.j
   "$source_dir/lean-toolchain" "$source_dir/comparator.json" \
   "$source_dir/invariance-reference-freeze.json" "$source_dir/verification-inputs.json" \
   "$source_dir/source-equations.json" "$source_dir/source-protocol.json" "$check_dir/"
-ln -s /home/nsverify/verification/project/.lake/packages "$check_dir/.lake/packages"
+ln -s "$VERIFY_ROOT"/project/.lake/packages "$check_dir/.lake/packages"
 cd "$check_dir"
 python3 - <<'PY'
 from pathlib import Path
@@ -41,11 +42,11 @@ assert cfg['permitted_axioms']==['propext','Quot.sound','Classical.choice']
 assert cfg['theorem_names']==['SocialAS.Verified.full_state_invariance']
 binary_paths=[
  '/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean',
- '/home/nsverify/verification/bin/lake',
- '/home/nsverify/verification/bin/landrun',
- '/home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator',
- '/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export',
- '/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin']
+ os.path.join(os.environ['VERIFY_ROOT'], 'bin/lake'),
+ os.path.join(os.environ['VERIFY_ROOT'], 'bin/landrun'),
+ os.path.join(os.environ['VERIFY_ROOT'], 'project/.lake/packages/Comparator/.lake/build/bin/comparator'),
+ os.path.join(os.environ['VERIFY_ROOT'], 'project/.lake/packages/lean4export/.lake/build/bin/lean4export'),
+ os.path.join(os.environ['VERIFY_ROOT'], 'nanoda_lib/target/release/nanoda_bin')]
 record=dict(uid=os.getuid(),solution_precompiled=False,dependencies=deps,
  source_files=inputs['files'],binaries={b:sha(Path(b)) for b in binary_paths},
  lean_version=subprocess.check_output(['lean','--version'],text=True).strip(),
@@ -57,11 +58,11 @@ date -u -Iseconds > evidence/comparator.started
 set +e
 systemd-run --user --wait --pipe --collect --unit=as-invariance-comparator-20261030 \
  --property=RestrictAddressFamilies=~AF_UNIX -E PATH="$PATH" \
- -E COMPARATOR_LANDRUN=/home/nsverify/verification/bin/landrun \
- -E COMPARATOR_LEAN4EXPORT=/home/nsverify/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export \
- -E COMPARATOR_NANODA=/home/nsverify/verification/nanoda_lib/target/release/nanoda_bin \
- --working-directory="$PWD" -- /home/nsverify/verification/bin/lake env \
- /home/nsverify/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator comparator.json \
+ -E COMPARATOR_LANDRUN="$VERIFY_ROOT"/bin/landrun \
+ -E COMPARATOR_LEAN4EXPORT="$VERIFY_ROOT"/project/.lake/packages/lean4export/.lake/build/bin/lean4export \
+ -E COMPARATOR_NANODA="$VERIFY_ROOT"/nanoda_lib/target/release/nanoda_bin \
+ --working-directory="$PWD" -- "$VERIFY_ROOT"/bin/lake env \
+ "$VERIFY_ROOT"/project/.lake/packages/Comparator/.lake/build/bin/comparator comparator.json \
  2>&1 | tee evidence/comparator.log
 comparator_exit=${PIPESTATUS[0]}
 set -e
