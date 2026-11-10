@@ -26,4 +26,4 @@ Eleven added targets cover the model, the complete registered table, the three o
 
 Run `python3 -B check_records.py` in this directory to reconstruct all prompt fingerprints, verify the trial schedule and independent session fingerprints, join the masked reason review, and compare the exact paired table used by Lean. [Record checker](check_records.py)
 
-The Linux workflow independently checked the complete package and its theorem-by-theorem axiom dependencies. [Verification report](../../verification-report.json) · [Axiom lists](../../evidence-linux/axioms.json) · [Proof-run receipt](../../evidence-linux/source.json)
+The Linux workflow independently checked the complete package and its theorem-by-theorem axiom dependencies. [Verification report](../../evidence-history/pr-8/verification-report.json) · [Axiom lists](../../evidence-history/pr-8/axioms.json) · [Proof-run receipt](../../evidence-history/pr-8/source.json)

@@ -27,6 +27,8 @@ jobs:
       - run: python3 lean/sims-meeting-thread-lean/observations/pager-return/check_records.py
       - name: Check the unlabelled two-tremble trial records and Lean table
         run: python3 -B lean/sims-meeting-thread-lean/observations/two-trembles/check_records.py
+      - name: Check both continuations of every reversed-replay study checkpoint
+        run: python3 -B lean/sims-meeting-thread-lean/observations/reversed-replay/check_records.py
       - name: Check the published receipt against the proof inputs
         if: github.event_name == 'push' || hashFiles('lean/sims-meeting-thread-lean/evidence-linux/source.json') != ''
         run: python3 lean/sims-meeting-thread-lean/check_saved_receipt.py

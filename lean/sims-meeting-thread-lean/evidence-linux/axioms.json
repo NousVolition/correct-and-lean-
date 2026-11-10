@@ -304,5 +304,45 @@
   ],
   "MeetingThread.TwoTrembles.recorded_answers_agree_with_resolver": [
     "propext"
+  ],
+  "MeetingThread.ReplayAudit.reversed_sound_points_to_opposite": [
+    "propext"
+  ],
+  "MeetingThread.ReplayAudit.linked_detail_uses_the_named_action": [
+    "propext"
+  ],
+  "MeetingThread.ReplayAudit.unlinked_detail_keeps_the_sound_choice": [
+    "propext"
+  ],
+  "MeetingThread.ReplayAudit.unrelated_sound_supplies_no_action_match": [
+    "propext"
+  ],
+  "MeetingThread.ReplayAudit.faithful_replay_and_accurate_action_agree": [
+    "propext"
+  ],
+  "MeetingThread.ReplayAudit.reversal_and_accurate_action_conflict": [
+    "propext"
+  ],
+  "MeetingThread.ReplayAudit.conflict_alone_cannot_choose_the_reliable_source": [],
+  "MeetingThread.ReplayAudit.recorded_reversal_schedule": [
+    "propext"
+  ],
+  "MeetingThread.ReplayAudit.recorded_initial_order_counts": [
+    "propext"
+  ],
+  "MeetingThread.ReplayAudit.recorded_faithful_followups": [
+    "propext"
+  ],
+  "MeetingThread.ReplayAudit.recorded_reversed_followups": [
+    "propext"
+  ],
+  "MeetingThread.ReplayAudit.recorded_transitions_from_wrong_answers": [
+    "propext"
+  ],
+  "MeetingThread.ReplayAudit.recorded_notice_and_correction": [
+    "propext"
+  ],
+  "MeetingThread.ReplayAudit.recorded_linked_policy_comparisons": [
+    "propext"
   ]
 }

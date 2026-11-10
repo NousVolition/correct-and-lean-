@@ -1,10 +1,12 @@
-Running as unit: run-u0.service; invocation ID: 01efe868083a4def8756276e022ad4ad
+Running as unit: run-u0.service; invocation ID: f31d6e0958244c4986f06131c7f8df62
 Building MeetingThreadChallenge
-✔ [3417/3431] Built PagerReturnReadings (2.3s)
-✔ [3419/3431] Built MeetingObservations (2.4s)
-✔ [3420/3431] Built TwoTrembleModel (889ms)
-✔ [3421/3431] Built MeetingModel (3.7s)
-⚠ [3422/3431] Built Volterra (5.1s)
+✔ [3416/3430] Built PagerReturnReadings (2.0s)
+✔ [3419/3435] Built MeetingObservations (2.2s)
+✔ [3421/3435] Built TwoTrembleModel (807ms)
+✔ [3422/3435] Built ReplayAuditModel (685ms)
+✔ [3423/3435] Built MeetingModel (3.8s)
+✔ [3424/3435] Built TwoTrembleReadings (2.1s)
+⚠ [3425/3435] Built Volterra (5.2s)
 warning: Volterra.lean:18:0: automatically included section variable(s) unused in theorem `Volterra.extend_continuous`:
   [NormedSpace ℝ E]
   [CompleteSpace E]
@@ -19,9 +21,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-✔ [3423/3431] Built TwoTrembleReadings (2.3s)
-✔ [3424/3431] Built PagerReturnModel (3.2s)
-⚠ [3425/3431] Built TwoTrembleChallenge (1.7s)
+⚠ [3426/3435] Built TwoTrembleChallenge (1.7s)
 warning: TwoTrembleChallenge.lean:7:8: declaration uses `sorry`
 warning: TwoTrembleChallenge.lean:10:8: declaration uses `sorry`
 warning: TwoTrembleChallenge.lean:15:8: declaration uses `sorry`
@@ -33,9 +33,26 @@ warning: TwoTrembleChallenge.lean:38:8: declaration uses `sorry`
 warning: TwoTrembleChallenge.lean:42:8: declaration uses `sorry`
 warning: TwoTrembleChallenge.lean:46:8: declaration uses `sorry`
 warning: TwoTrembleChallenge.lean:50:8: declaration uses `sorry`
-✔ [3426/3431] Built TwoMemoryModel (2.5s)
-✔ [3427/3431] Built CueReturnModel (2.3s)
-⚠ [3428/3431] Built PagerReturnChallenge (2.8s)
+✔ [3427/3435] Built ReplayAuditReadings (2.0s)
+✔ [3428/3435] Built PagerReturnModel (3.3s)
+✔ [3429/3435] Built TwoMemoryModel (3.3s)
+⚠ [3430/3435] Built ReplayAuditChallenge (1.5s)
+warning: ReplayAuditChallenge.lean:8:8: declaration uses `sorry`
+warning: ReplayAuditChallenge.lean:14:8: declaration uses `sorry`
+warning: ReplayAuditChallenge.lean:17:8: declaration uses `sorry`
+warning: ReplayAuditChallenge.lean:22:8: declaration uses `sorry`
+warning: ReplayAuditChallenge.lean:25:8: declaration uses `sorry`
+warning: ReplayAuditChallenge.lean:34:8: declaration uses `sorry`
+warning: ReplayAuditChallenge.lean:43:8: declaration uses `sorry`
+warning: ReplayAuditChallenge.lean:57:8: declaration uses `sorry`
+warning: ReplayAuditChallenge.lean:62:8: declaration uses `sorry`
+warning: ReplayAuditChallenge.lean:67:8: declaration uses `sorry`
+warning: ReplayAuditChallenge.lean:73:8: declaration uses `sorry`
+warning: ReplayAuditChallenge.lean:79:8: declaration uses `sorry`
+warning: ReplayAuditChallenge.lean:84:8: declaration uses `sorry`
+warning: ReplayAuditChallenge.lean:91:8: declaration uses `sorry`
+✔ [3431/3435] Built CueReturnModel (2.4s)
+⚠ [3432/3435] Built PagerReturnChallenge (2.7s)
 warning: PagerReturnChallenge.lean:9:8: declaration uses `sorry`
 warning: PagerReturnChallenge.lean:13:8: declaration uses `sorry`
 warning: PagerReturnChallenge.lean:22:8: declaration uses `sorry`
@@ -45,7 +62,7 @@ warning: PagerReturnChallenge.lean:44:8: declaration uses `sorry`
 warning: PagerReturnChallenge.lean:47:8: declaration uses `sorry`
 warning: PagerReturnChallenge.lean:51:8: declaration uses `sorry`
 warning: PagerReturnChallenge.lean:55:8: declaration uses `sorry`
-⚠ [3429/3431] Built CueReturnChallenge (2.4s)
+⚠ [3433/3435] Built CueReturnChallenge (2.4s)
 warning: CueReturnChallenge.lean:10:8: declaration uses `sorry`
 warning: CueReturnChallenge.lean:14:8: declaration uses `sorry`
 warning: CueReturnChallenge.lean:18:8: declaration uses `sorry`
@@ -53,60 +70,60 @@ warning: CueReturnChallenge.lean:25:8: declaration uses `sorry`
 warning: CueReturnChallenge.lean:29:8: declaration uses `sorry`
 warning: CueReturnChallenge.lean:33:8: declaration uses `sorry`
 warning: CueReturnChallenge.lean:40:8: declaration uses `sorry`
-⚠ [3430/3431] Built MeetingThreadChallenge (2.0s)
-warning: MeetingThreadChallenge.lean:17:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:27:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:29:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:31:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:43:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:46:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:48:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:50:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:53:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:56:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:58:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:60:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:63:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:65:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:74:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:77:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:80:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:85:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:92:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:96:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:100:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:103:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:112:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:115:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:120:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:123:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:127:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:132:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:134:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:137:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:144:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:147:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:150:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:153:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:157:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:160:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:165:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:169:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:174:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:178:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:183:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:185:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:188:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:191:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:196:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:198:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:203:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:210:8: declaration uses `sorry`
-warning: MeetingThreadChallenge.lean:217:8: declaration uses `sorry`
-Build completed successfully (3431 jobs).
-Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, MemoryProof.zeroField, TwoMemory.recall_eq_tanh, TwoMemory.recall_lipschitz, TwoMemory.unique_memory_trajectory, TwoMemoryTransport.readout_from_odds, TwoMemoryTransport.odds_eq_exp, TwoMemoryTransport.update_odds, TwoMemoryTransport.compose_transport, TwoMemoryTransport.endpoints_determine_transport, TwoMemoryTransport.closed_route, TwoMemoryTransport.odds_parallel, TwoMemoryTransport.flat_curvature, TwoMemoryTransport.source_free, TwoMemoryTransport.unit_speed_fails_memory_at_zero, MeetingThread.room_paused_while_wall_advances, MeetingThread.elapsed_interval_is_accounted_for, MeetingThread.samples_leave_the_instant_open, MeetingThread.same_question_before_and_after, MeetingThread.different_future_replies_same_open_past, MeetingThread.different_episode_still_open, MeetingThread.hearing_can_leave_the_question_open, MeetingThread.same_cue_same_episode_new_answer, MeetingThread.before_mention_does_not_date_the_test, MeetingThread.one_circuit_same_station_and_volume, MeetingThread.net_marker_exchange, MeetingThread.equal_volume_different_contents, MeetingThread.growth_or_decay_after_one_circuit, MeetingThread.onset_at_threshold, MeetingThread.halved_playback_or_halved_flow, MeetingThread.same_snapshot_different_parcel_paths, MeetingThread.positive_gross_flow_at_zero_net, MeetingThread.global_excess_allows_small_energy, MeetingThread.scalar_refill_balance, MeetingThread.same_readout_cannot_recover_both, MeetingThread.energy_alone_cannot_recover_heading, MeetingThread.restart_at_return, MeetingThread.recorded_B_endpoints, MeetingThread.recorded_A_time_partition, MeetingThread.recorded_B_completion_counts, MeetingThread.missing_endpoints_allow_opposite_mean_orders, MeetingThread.six_followups_remained_open, MeetingThread.first_mentor_controls, MeetingThread.room_alert_and_false_notice_controls, MeetingThread.recorded_native_controls, MeetingThread.sampled_image_turns, MeetingThread.basin_startup_readings, MeetingThread.eight_refills_use_their_own_endpoints, ApplicationControls.all_premises, ApplicationControls.new_field_repaired, MeetingThread.PagerReturn.receive_agrees_with_original, MeetingThread.PagerReturn.recognition_on_an_open_route, MeetingThread.PagerReturn.circle_is_not_necessary, MeetingThread.PagerReturn.matched_views_can_agree, MeetingThread.PagerReturn.replay_with_wrong_episode_stays_open, MeetingThread.PagerReturn.same_odds_iff_same_cue, MeetingThread.PagerReturn.five_matched_reports_both_ways, MeetingThread.PagerReturn.pre_witness_and_other_pager_controls, MeetingThread.PagerReturn.only_replay_reports_original_marker, MeetingThread.PagerReturn.two_samples_return_iff, MeetingThread.PagerReturn.staying_is_not_returning, MeetingThread.PagerReturn.sampled_return_controls, MeetingThread.PagerReturn.log_odds_distance, MeetingThread.PagerReturn.report_ignores_attention, MeetingThread.PagerReturn.recognition_beyond_any_radius, MeetingThread.PagerReturn.returning_does_not_match_the_episode, MeetingThread.TwoTrembles.direct_sound_open, MeetingThread.TwoTrembles.replay_selects_distinct_sound, MeetingThread.TwoTrembles.retained_landmark_selects_in_both_views, MeetingThread.TwoTrembles.generic_witness_open, MeetingThread.TwoTrembles.shared_sound_still_open_on_replay, MeetingThread.TwoTrembles.no_direct_rule_can_identify_both_twins, MeetingThread.TwoTrembles.all_registered_pairs_recorded, MeetingThread.TwoTrembles.recorded_sound_counts, MeetingThread.TwoTrembles.recorded_landmark_counts, MeetingThread.TwoTrembles.recorded_generic_counts, MeetingThread.TwoTrembles.recorded_answers_agree_with_resolver, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from MeetingThreadChallenge
+⚠ [3434/3435] Built MeetingThreadChallenge (2.0s)
+warning: MeetingThreadChallenge.lean:18:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:28:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:30:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:32:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:44:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:47:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:49:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:51:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:54:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:57:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:59:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:61:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:64:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:66:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:75:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:78:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:81:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:86:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:93:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:97:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:101:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:104:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:113:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:116:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:121:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:124:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:128:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:133:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:135:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:138:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:145:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:148:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:151:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:154:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:158:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:161:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:166:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:170:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:175:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:179:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:184:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:186:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:189:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:192:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:197:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:199:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:204:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:211:8: declaration uses `sorry`
+warning: MeetingThreadChallenge.lean:218:8: declaration uses `sorry`
+Build completed successfully (3435 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, MemoryProof.zeroField, TwoMemory.recall_eq_tanh, TwoMemory.recall_lipschitz, TwoMemory.unique_memory_trajectory, TwoMemoryTransport.readout_from_odds, TwoMemoryTransport.odds_eq_exp, TwoMemoryTransport.update_odds, TwoMemoryTransport.compose_transport, TwoMemoryTransport.endpoints_determine_transport, TwoMemoryTransport.closed_route, TwoMemoryTransport.odds_parallel, TwoMemoryTransport.flat_curvature, TwoMemoryTransport.source_free, TwoMemoryTransport.unit_speed_fails_memory_at_zero, MeetingThread.room_paused_while_wall_advances, MeetingThread.elapsed_interval_is_accounted_for, MeetingThread.samples_leave_the_instant_open, MeetingThread.same_question_before_and_after, MeetingThread.different_future_replies_same_open_past, MeetingThread.different_episode_still_open, MeetingThread.hearing_can_leave_the_question_open, MeetingThread.same_cue_same_episode_new_answer, MeetingThread.before_mention_does_not_date_the_test, MeetingThread.one_circuit_same_station_and_volume, MeetingThread.net_marker_exchange, MeetingThread.equal_volume_different_contents, MeetingThread.growth_or_decay_after_one_circuit, MeetingThread.onset_at_threshold, MeetingThread.halved_playback_or_halved_flow, MeetingThread.same_snapshot_different_parcel_paths, MeetingThread.positive_gross_flow_at_zero_net, MeetingThread.global_excess_allows_small_energy, MeetingThread.scalar_refill_balance, MeetingThread.same_readout_cannot_recover_both, MeetingThread.energy_alone_cannot_recover_heading, MeetingThread.restart_at_return, MeetingThread.recorded_B_endpoints, MeetingThread.recorded_A_time_partition, MeetingThread.recorded_B_completion_counts, MeetingThread.missing_endpoints_allow_opposite_mean_orders, MeetingThread.six_followups_remained_open, MeetingThread.first_mentor_controls, MeetingThread.room_alert_and_false_notice_controls, MeetingThread.recorded_native_controls, MeetingThread.sampled_image_turns, MeetingThread.basin_startup_readings, MeetingThread.eight_refills_use_their_own_endpoints, ApplicationControls.all_premises, ApplicationControls.new_field_repaired, MeetingThread.PagerReturn.receive_agrees_with_original, MeetingThread.PagerReturn.recognition_on_an_open_route, MeetingThread.PagerReturn.circle_is_not_necessary, MeetingThread.PagerReturn.matched_views_can_agree, MeetingThread.PagerReturn.replay_with_wrong_episode_stays_open, MeetingThread.PagerReturn.same_odds_iff_same_cue, MeetingThread.PagerReturn.five_matched_reports_both_ways, MeetingThread.PagerReturn.pre_witness_and_other_pager_controls, MeetingThread.PagerReturn.only_replay_reports_original_marker, MeetingThread.PagerReturn.two_samples_return_iff, MeetingThread.PagerReturn.staying_is_not_returning, MeetingThread.PagerReturn.sampled_return_controls, MeetingThread.PagerReturn.log_odds_distance, MeetingThread.PagerReturn.report_ignores_attention, MeetingThread.PagerReturn.recognition_beyond_any_radius, MeetingThread.PagerReturn.returning_does_not_match_the_episode, MeetingThread.TwoTrembles.direct_sound_open, MeetingThread.TwoTrembles.replay_selects_distinct_sound, MeetingThread.TwoTrembles.retained_landmark_selects_in_both_views, MeetingThread.TwoTrembles.generic_witness_open, MeetingThread.TwoTrembles.shared_sound_still_open_on_replay, MeetingThread.TwoTrembles.no_direct_rule_can_identify_both_twins, MeetingThread.TwoTrembles.all_registered_pairs_recorded, MeetingThread.TwoTrembles.recorded_sound_counts, MeetingThread.TwoTrembles.recorded_landmark_counts, MeetingThread.TwoTrembles.recorded_generic_counts, MeetingThread.TwoTrembles.recorded_answers_agree_with_resolver, MeetingThread.ReplayAudit.reversed_sound_points_to_opposite, MeetingThread.ReplayAudit.linked_detail_uses_the_named_action, MeetingThread.ReplayAudit.unlinked_detail_keeps_the_sound_choice, MeetingThread.ReplayAudit.unrelated_sound_supplies_no_action_match, MeetingThread.ReplayAudit.faithful_replay_and_accurate_action_agree, MeetingThread.ReplayAudit.reversal_and_accurate_action_conflict, MeetingThread.ReplayAudit.conflict_alone_cannot_choose_the_reliable_source, MeetingThread.ReplayAudit.recorded_reversal_schedule, MeetingThread.ReplayAudit.recorded_initial_order_counts, MeetingThread.ReplayAudit.recorded_faithful_followups, MeetingThread.ReplayAudit.recorded_reversed_followups, MeetingThread.ReplayAudit.recorded_transitions_from_wrong_answers, MeetingThread.ReplayAudit.recorded_notice_and_correction, MeetingThread.ReplayAudit.recorded_linked_policy_comparisons, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from MeetingThreadChallenge
 Building SimsMeeting
-⚠ [3415/3436] Replayed Volterra
+⚠ [3415/3440] Replayed Volterra
 warning: Volterra.lean:18:0: automatically included section variable(s) unused in theorem `Volterra.extend_continuous`:
   [NormedSpace ℝ E]
   [CompleteSpace E]
@@ -121,18 +138,19 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-✔ [3427/3436] Built TwoTrembleProofs (2.6s)
-ℹ [3428/3436] Built ConstantField (3.5s)
+✔ [3430/3440] Built TwoTrembleProofs (2.5s)
+ℹ [3431/3440] Built ConstantField (3.7s)
 info: ConstantField.lean:18:0: 'MemoryProof.zeroField' depends on axioms: [propext, Classical.choice, Quot.sound]
-✔ [3429/3436] Built TwoMemory (3.8s)
-✔ [3430/3436] Built ApplicationControls (3.7s)
-✔ [3431/3436] Built TwoMemoryTransport (2.4s)
-✔ [3432/3436] Built PagerReturn (3.4s)
-✔ [3433/3436] Built CueReturnProofs (3.0s)
-✔ [3434/3436] Built MeetingThread (24s)
-✔ [3435/3436] Built SimsMeeting (2.6s)
-Build completed successfully (3436 jobs).
-Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, MemoryProof.zeroField, TwoMemory.recall_eq_tanh, TwoMemory.recall_lipschitz, TwoMemory.unique_memory_trajectory, TwoMemoryTransport.readout_from_odds, TwoMemoryTransport.odds_eq_exp, TwoMemoryTransport.update_odds, TwoMemoryTransport.compose_transport, TwoMemoryTransport.endpoints_determine_transport, TwoMemoryTransport.closed_route, TwoMemoryTransport.odds_parallel, TwoMemoryTransport.flat_curvature, TwoMemoryTransport.source_free, TwoMemoryTransport.unit_speed_fails_memory_at_zero, MeetingThread.room_paused_while_wall_advances, MeetingThread.elapsed_interval_is_accounted_for, MeetingThread.samples_leave_the_instant_open, MeetingThread.same_question_before_and_after, MeetingThread.different_future_replies_same_open_past, MeetingThread.different_episode_still_open, MeetingThread.hearing_can_leave_the_question_open, MeetingThread.same_cue_same_episode_new_answer, MeetingThread.before_mention_does_not_date_the_test, MeetingThread.one_circuit_same_station_and_volume, MeetingThread.net_marker_exchange, MeetingThread.equal_volume_different_contents, MeetingThread.growth_or_decay_after_one_circuit, MeetingThread.onset_at_threshold, MeetingThread.halved_playback_or_halved_flow, MeetingThread.same_snapshot_different_parcel_paths, MeetingThread.positive_gross_flow_at_zero_net, MeetingThread.global_excess_allows_small_energy, MeetingThread.scalar_refill_balance, MeetingThread.same_readout_cannot_recover_both, MeetingThread.energy_alone_cannot_recover_heading, MeetingThread.restart_at_return, MeetingThread.recorded_B_endpoints, MeetingThread.recorded_A_time_partition, MeetingThread.recorded_B_completion_counts, MeetingThread.missing_endpoints_allow_opposite_mean_orders, MeetingThread.six_followups_remained_open, MeetingThread.first_mentor_controls, MeetingThread.room_alert_and_false_notice_controls, MeetingThread.recorded_native_controls, MeetingThread.sampled_image_turns, MeetingThread.basin_startup_readings, MeetingThread.eight_refills_use_their_own_endpoints, ApplicationControls.all_premises, ApplicationControls.new_field_repaired, MeetingThread.PagerReturn.receive_agrees_with_original, MeetingThread.PagerReturn.recognition_on_an_open_route, MeetingThread.PagerReturn.circle_is_not_necessary, MeetingThread.PagerReturn.matched_views_can_agree, MeetingThread.PagerReturn.replay_with_wrong_episode_stays_open, MeetingThread.PagerReturn.same_odds_iff_same_cue, MeetingThread.PagerReturn.five_matched_reports_both_ways, MeetingThread.PagerReturn.pre_witness_and_other_pager_controls, MeetingThread.PagerReturn.only_replay_reports_original_marker, MeetingThread.PagerReturn.two_samples_return_iff, MeetingThread.PagerReturn.staying_is_not_returning, MeetingThread.PagerReturn.sampled_return_controls, MeetingThread.PagerReturn.log_odds_distance, MeetingThread.PagerReturn.report_ignores_attention, MeetingThread.PagerReturn.recognition_beyond_any_radius, MeetingThread.PagerReturn.returning_does_not_match_the_episode, MeetingThread.TwoTrembles.direct_sound_open, MeetingThread.TwoTrembles.replay_selects_distinct_sound, MeetingThread.TwoTrembles.retained_landmark_selects_in_both_views, MeetingThread.TwoTrembles.generic_witness_open, MeetingThread.TwoTrembles.shared_sound_still_open_on_replay, MeetingThread.TwoTrembles.no_direct_rule_can_identify_both_twins, MeetingThread.TwoTrembles.all_registered_pairs_recorded, MeetingThread.TwoTrembles.recorded_sound_counts, MeetingThread.TwoTrembles.recorded_landmark_counts, MeetingThread.TwoTrembles.recorded_generic_counts, MeetingThread.TwoTrembles.recorded_answers_agree_with_resolver, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from SimsMeeting
+✔ [3432/3440] Built ApplicationControls (3.8s)
+✔ [3433/3440] Built TwoMemory (3.8s)
+✔ [3434/3440] Built ReplayAuditProofs (2.5s)
+✔ [3435/3440] Built TwoMemoryTransport (2.6s)
+✔ [3436/3440] Built PagerReturn (3.4s)
+✔ [3437/3440] Built CueReturnProofs (3.9s)
+✔ [3438/3440] Built MeetingThread (22s)
+✔ [3439/3440] Built SimsMeeting (2.5s)
+Build completed successfully (3440 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, MemoryProof.zeroField, TwoMemory.recall_eq_tanh, TwoMemory.recall_lipschitz, TwoMemory.unique_memory_trajectory, TwoMemoryTransport.readout_from_odds, TwoMemoryTransport.odds_eq_exp, TwoMemoryTransport.update_odds, TwoMemoryTransport.compose_transport, TwoMemoryTransport.endpoints_determine_transport, TwoMemoryTransport.closed_route, TwoMemoryTransport.odds_parallel, TwoMemoryTransport.flat_curvature, TwoMemoryTransport.source_free, TwoMemoryTransport.unit_speed_fails_memory_at_zero, MeetingThread.room_paused_while_wall_advances, MeetingThread.elapsed_interval_is_accounted_for, MeetingThread.samples_leave_the_instant_open, MeetingThread.same_question_before_and_after, MeetingThread.different_future_replies_same_open_past, MeetingThread.different_episode_still_open, MeetingThread.hearing_can_leave_the_question_open, MeetingThread.same_cue_same_episode_new_answer, MeetingThread.before_mention_does_not_date_the_test, MeetingThread.one_circuit_same_station_and_volume, MeetingThread.net_marker_exchange, MeetingThread.equal_volume_different_contents, MeetingThread.growth_or_decay_after_one_circuit, MeetingThread.onset_at_threshold, MeetingThread.halved_playback_or_halved_flow, MeetingThread.same_snapshot_different_parcel_paths, MeetingThread.positive_gross_flow_at_zero_net, MeetingThread.global_excess_allows_small_energy, MeetingThread.scalar_refill_balance, MeetingThread.same_readout_cannot_recover_both, MeetingThread.energy_alone_cannot_recover_heading, MeetingThread.restart_at_return, MeetingThread.recorded_B_endpoints, MeetingThread.recorded_A_time_partition, MeetingThread.recorded_B_completion_counts, MeetingThread.missing_endpoints_allow_opposite_mean_orders, MeetingThread.six_followups_remained_open, MeetingThread.first_mentor_controls, MeetingThread.room_alert_and_false_notice_controls, MeetingThread.recorded_native_controls, MeetingThread.sampled_image_turns, MeetingThread.basin_startup_readings, MeetingThread.eight_refills_use_their_own_endpoints, ApplicationControls.all_premises, ApplicationControls.new_field_repaired, MeetingThread.PagerReturn.receive_agrees_with_original, MeetingThread.PagerReturn.recognition_on_an_open_route, MeetingThread.PagerReturn.circle_is_not_necessary, MeetingThread.PagerReturn.matched_views_can_agree, MeetingThread.PagerReturn.replay_with_wrong_episode_stays_open, MeetingThread.PagerReturn.same_odds_iff_same_cue, MeetingThread.PagerReturn.five_matched_reports_both_ways, MeetingThread.PagerReturn.pre_witness_and_other_pager_controls, MeetingThread.PagerReturn.only_replay_reports_original_marker, MeetingThread.PagerReturn.two_samples_return_iff, MeetingThread.PagerReturn.staying_is_not_returning, MeetingThread.PagerReturn.sampled_return_controls, MeetingThread.PagerReturn.log_odds_distance, MeetingThread.PagerReturn.report_ignores_attention, MeetingThread.PagerReturn.recognition_beyond_any_radius, MeetingThread.PagerReturn.returning_does_not_match_the_episode, MeetingThread.TwoTrembles.direct_sound_open, MeetingThread.TwoTrembles.replay_selects_distinct_sound, MeetingThread.TwoTrembles.retained_landmark_selects_in_both_views, MeetingThread.TwoTrembles.generic_witness_open, MeetingThread.TwoTrembles.shared_sound_still_open_on_replay, MeetingThread.TwoTrembles.no_direct_rule_can_identify_both_twins, MeetingThread.TwoTrembles.all_registered_pairs_recorded, MeetingThread.TwoTrembles.recorded_sound_counts, MeetingThread.TwoTrembles.recorded_landmark_counts, MeetingThread.TwoTrembles.recorded_generic_counts, MeetingThread.TwoTrembles.recorded_answers_agree_with_resolver, MeetingThread.ReplayAudit.reversed_sound_points_to_opposite, MeetingThread.ReplayAudit.linked_detail_uses_the_named_action, MeetingThread.ReplayAudit.unlinked_detail_keeps_the_sound_choice, MeetingThread.ReplayAudit.unrelated_sound_supplies_no_action_match, MeetingThread.ReplayAudit.faithful_replay_and_accurate_action_agree, MeetingThread.ReplayAudit.reversal_and_accurate_action_conflict, MeetingThread.ReplayAudit.conflict_alone_cannot_choose_the_reliable_source, MeetingThread.ReplayAudit.recorded_reversal_schedule, MeetingThread.ReplayAudit.recorded_initial_order_counts, MeetingThread.ReplayAudit.recorded_faithful_followups, MeetingThread.ReplayAudit.recorded_reversed_followups, MeetingThread.ReplayAudit.recorded_transitions_from_wrong_answers, MeetingThread.ReplayAudit.recorded_notice_and_correction, MeetingThread.ReplayAudit.recorded_linked_policy_comparisons, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from SimsMeeting
 Running nanoda kernel on solution
 nanoda kernel accepts the solution
 Running Lean default kernel on solution.
@@ -140,7 +158,7 @@ Lean default kernel accepts the solution
 Your solution is okay!
 Finished with result: success
 Main processes terminated with: code=exited/status=0
-Service runtime: 3min 756ms
-CPU time consumed: 3min 45.537s
+Service runtime: 2min 59.254s
+CPU time consumed: 3min 50.580s
 Memory peak: 256.0K
 Memory swap peak: 0B
