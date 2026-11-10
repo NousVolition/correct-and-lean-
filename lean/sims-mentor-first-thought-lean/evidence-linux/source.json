@@ -1,0 +1,21 @@
+{
+  "run": "https://github.com/NousVolition/correct-and-lean-/actions/runs/42827516254",
+  "event": "pull_request",
+  "workflow_head_sha": "daca14be9519bcde552e8ef0e602b15f6bf62d6c",
+  "checked_out_commit": "b9eb68911bf23b76d41cc86829d657137f761246",
+  "artifact_id": 13770202255,
+  "artifact_name": "proof-sims-mentor-first-thought-lean-1",
+  "artifact_zip_sha256": "7ceb365d87523b94c100fee86ae2e0bee95dd893e444cafdf1ae5a6f96d0056d",
+  "restaurant_record_run": "https://github.com/NousVolition/correct-and-lean-/actions/runs/42827516248",
+  "pull_request": 13,
+  "verification_inputs_sha256": "fc7d8217256771f7b26593357fc8d77bfd6cf3f4133c93fd4b2c5324d35bc705",
+  "target_count": 20,
+  "files_sha256": {
+    "axioms.json": "d40d5eb68778334f2464b7cbd87be6da6919c4e814761b4e5b5dc4873cbaee9d",
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.log": "0235a76ed67fab09f4442a008cfbb255024ea2d2a93e8decf34947ed50e0cf8f",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "c6dad033323200f10bd9d6f47a89e1fa2691185847b9ac318abe4851d440e5ae",
+    "verification-report.json": "a767723857fefe551a998fbdea74377de3884ffc17673c1814a1c2039cba4c85"
+  }
+}

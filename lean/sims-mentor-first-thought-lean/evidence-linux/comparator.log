@@ -1,0 +1,45 @@
+Running as unit: run-u0.service; invocation ID: 0b121095a5c94f59bc0d3d85f37289bc
+Building MentorThoughtChallenge
+✔ [5/9] Built MentorThoughtModel (1.4s)
+⚠ [6/9] Built PrimeSweepChallenge (1.1s)
+warning: PrimeSweepChallenge.lean:7:8: declaration uses `sorry`
+warning: PrimeSweepChallenge.lean:11:8: declaration uses `sorry`
+warning: PrimeSweepChallenge.lean:15:8: declaration uses `sorry`
+warning: PrimeSweepChallenge.lean:20:8: declaration uses `sorry`
+warning: PrimeSweepChallenge.lean:26:8: declaration uses `sorry`
+warning: PrimeSweepChallenge.lean:30:8: declaration uses `sorry`
+warning: PrimeSweepChallenge.lean:36:8: declaration uses `sorry`
+⚠ [7/9] Built OneTravellerChallenge (1.0s)
+warning: OneTravellerChallenge.lean:7:8: declaration uses `sorry`
+warning: OneTravellerChallenge.lean:12:8: declaration uses `sorry`
+warning: OneTravellerChallenge.lean:16:8: declaration uses `sorry`
+warning: OneTravellerChallenge.lean:22:8: declaration uses `sorry`
+warning: OneTravellerChallenge.lean:28:8: declaration uses `sorry`
+warning: OneTravellerChallenge.lean:32:8: declaration uses `sorry`
+⚠ [8/9] Built MentorThoughtChallenge (999ms)
+warning: MentorThoughtChallenge.lean:9:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:13:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:18:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:24:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:28:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:34:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:38:8: declaration uses `sorry`
+Build completed successfully (9 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, MentorThought.shared_iff_same_interval, MentorThought.prime_clock_schedule, MentorThought.free_words_precede_source, MentorThought.personal_mentions_by_wording, MentorThought.motion_and_no_mention_counts, MentorThought.later_source_judgments, MentorThought.identified_without_mentioning_feeling, MentorThought.Sweep.five_at_every_prime, MentorThought.Sweep.no_volunteered_certainty, MentorThought.Sweep.direct_identifications_by_tick, MentorThought.Sweep.feelings_while_tentative, MentorThought.Sweep.no_majority_and_no_identification_after_personal_mention, MentorThought.Sweep.last_bracket_comparison, MentorThought.Sweep.one_snapshot_does_not_date_a_switch, MentorThought.Continuing.all_thirteen_ticks_in_order, MentorThought.Continuing.one_session_twenty_six_distinct_turns, MentorThought.Continuing.no_reported_switch_to_settled, MentorThought.Continuing.first_personal_reference_in_each_probe, MentorThought.Continuing.references_without_a_report_of_reliving, MentorThought.Continuing.an_unsettled_window_leaves_the_future_open, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from MentorThoughtChallenge
+Building MentorThought
+✔ [6/9] Built PrimeSweep (2.9s)
+✔ [7/9] Built OneTraveller (3.2s)
+✔ [8/9] Built MentorThought (1.7s)
+Build completed successfully (9 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, MentorThought.shared_iff_same_interval, MentorThought.prime_clock_schedule, MentorThought.free_words_precede_source, MentorThought.personal_mentions_by_wording, MentorThought.motion_and_no_mention_counts, MentorThought.later_source_judgments, MentorThought.identified_without_mentioning_feeling, MentorThought.Sweep.five_at_every_prime, MentorThought.Sweep.no_volunteered_certainty, MentorThought.Sweep.direct_identifications_by_tick, MentorThought.Sweep.feelings_while_tentative, MentorThought.Sweep.no_majority_and_no_identification_after_personal_mention, MentorThought.Sweep.last_bracket_comparison, MentorThought.Sweep.one_snapshot_does_not_date_a_switch, MentorThought.Continuing.all_thirteen_ticks_in_order, MentorThought.Continuing.one_session_twenty_six_distinct_turns, MentorThought.Continuing.no_reported_switch_to_settled, MentorThought.Continuing.first_personal_reference_in_each_probe, MentorThought.Continuing.references_without_a_report_of_reliving, MentorThought.Continuing.an_unsettled_window_leaves_the_future_open, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from MentorThought
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 16.015s
+CPU time consumed: 23.027s
+Memory peak: 256.0K
+Memory swap peak: 0B
