@@ -25,3 +25,6 @@ jobs:
         with:
           persist-credentials: false
       - run: python3 lean/sims-meeting-thread-lean/observations/pager-return/check_records.py
+      - name: Check the published receipt against the proof inputs
+        if: github.event_name == 'push' || hashFiles('lean/sims-meeting-thread-lean/evidence-linux/source.json') != ''
+        run: python3 lean/sims-meeting-thread-lean/check_saved_receipt.py

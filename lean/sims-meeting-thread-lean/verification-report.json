@@ -3,12 +3,13 @@
   "lean_kernel": "NOT_RUN",
   "nanoda": "NOT_RUN",
   "lean_build": "NOT_RUN",
-  "scope": "Two Gaussian memories, cue transport, accepted witness reports about an earlier event, timing bounds, a well-mixed exchange, selected basin observations and direct applications of the finite-interval existence theorem. The extension checks explicit sensory replay versus a retained episode reference and the same-witness paired reports.",
+  "scope": "Two Gaussian memories, cue transport, accepted witness reports about an earlier event, timing bounds, a well-mixed exchange, selected basin observations and direct applications of the finite-interval existence theorem. The extension checks explicit sensory replay versus a retained episode reference and the same-witness paired reports. Seven additional statements distinguish an exact cue visit from leaving and re-entering a specified cue interval at recorded samples, relate cue distance to Gaussian log odds, and separate cue proximity from the retained episode reference.",
   "open_items": [
     "The exact instant of recognition between probes and a population effect of anxious noise.",
     "Physical turnover or a shared physical mechanism for the pager and basin.",
     "Continuum basin dynamics and convergence of the discretization.",
     "Nonabelian Yang–Mills dynamics and a quantum mass gap.",
-    "Unobserved mental replay, and recognition after losing the reference to the earlier event."
+    "Unobserved mental replay, and recognition after losing the reference to the earlier event.",
+    "The trials did not measure a numerical cue trajectory or a human return radius. Behavior between samples is unspecified."
   ]
 }

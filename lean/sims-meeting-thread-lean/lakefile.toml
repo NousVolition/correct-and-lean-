@@ -67,3 +67,12 @@ needs = ["pagerReturnLedger"]
 
 [[lean_lib]]
 name = "PagerReturnChallenge"
+
+[[lean_lib]]
+name = "CueReturnModel"
+
+[[lean_lib]]
+name = "CueReturnProofs"
+
+[[lean_lib]]
+name = "CueReturnChallenge"
