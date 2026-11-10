@@ -1,0 +1,28 @@
+Running as unit: run-u0.service; invocation ID: 73c01ac073554c349c4d5477fca3e5cf
+Building MentorThoughtChallenge
+✔ [3/5] Built MentorThoughtModel (907ms)
+⚠ [4/5] Built MentorThoughtChallenge (794ms)
+warning: MentorThoughtChallenge.lean:7:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:11:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:16:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:22:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:26:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:32:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:36:8: declaration uses `sorry`
+Build completed successfully (5 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, MentorThought.shared_iff_same_interval, MentorThought.prime_clock_schedule, MentorThought.free_words_precede_source, MentorThought.personal_mentions_by_wording, MentorThought.motion_and_no_mention_counts, MentorThought.later_source_judgments, MentorThought.identified_without_mentioning_feeling, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from MentorThoughtChallenge
+Building MentorThought
+✔ [4/5] Built MentorThought (1.3s)
+Build completed successfully (5 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, MentorThought.shared_iff_same_interval, MentorThought.prime_clock_schedule, MentorThought.free_words_precede_source, MentorThought.personal_mentions_by_wording, MentorThought.motion_and_no_mention_counts, MentorThought.later_source_judgments, MentorThought.identified_without_mentioning_feeling, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from MentorThought
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 6.489s
+CPU time consumed: 7.032s
+Memory peak: 256.0K
+Memory swap peak: 0B

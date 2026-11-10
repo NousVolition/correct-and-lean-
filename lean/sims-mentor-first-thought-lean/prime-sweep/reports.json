@@ -1,0 +1,2750 @@
+{
+  "protocol_sha256": "8a1de7fbe0012d278ebe7318ad53098daf9b9e100d26577ca652f407dfb18c2d",
+  "actor": "SIMS signed-in default fictional actor with low reasoning effort. Model revision was not pinned. The two private calls at a tick share the logical listener via that listener's own verbatim free answer.",
+  "coding": "Single reviewer, masked to prime, case and source outcome for free grades; later source review masked to free words and prime. Excerpts identify the wording used. A grounded basis cites the firsthand pager testimony; it can support a possible as well as an identified answer.",
+  "trials": [
+    {
+      "prime": 2,
+      "case": "K27",
+      "room_us": 12176662,
+      "review_id": "d0bc10c7d1af69",
+      "free": {
+        "answer": {
+          "thought": "That could explain what I felt—it may have been the restaurant pager. I’m taking in what they said, with my eyes still on the receipt and the tray."
+        },
+        "prompt_sha256": "1c97fd9dd8f7ef563658321cf67cb1f55d2d4df81fbc34cbbe3da32c11fca6ac",
+        "session_sha256": "a176645df3644b4bb255a98fe3201dd118c2168d4f7cc61c940c1f79d430f21d",
+        "receipt_sha256": "98b1e4d3a914abe096191db04641f562021f3801000c5332994ad603e0a038aa",
+        "wall_turnaround_s": 7.707,
+        "wall_start_us": 52627912,
+        "wall_end_us": 60335006
+      },
+      "certainty": "probable",
+      "feeling": "personal_mention",
+      "certainty_excerpt": "That could explain what I felt—it may have been the restaurant pager",
+      "feeling_excerpt": "what I felt",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation for what I felt, though I haven’t independently confirmed it."
+        },
+        "prompt_sha256": "343e54add17263edf870c628e9d1cbae86d05f227c976b0dafedd5f4575ecfe8",
+        "session_sha256": "bd94640b86e0ad4f9172b1402c6be9f0b042e08d1115759262ef76afaed1f574",
+        "receipt_sha256": "84be9213593fd8d29cbf2e5c21cf97b55e181fc16bb6d055e20b4264725a6924",
+        "wall_turnaround_s": 5.652,
+        "wall_start_us": 162358233,
+        "wall_end_us": 168010355
+      },
+      "source_review_id": "c23e4bd2032aa9",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation for what I felt, though I haven’t independently confirmed it"
+    },
+    {
+      "prime": 2,
+      "case": "M14",
+      "room_us": 12176662,
+      "review_id": "320887290491a9",
+      "free": {
+        "answer": {
+          "thought": "That sounds like it was probably the pager, then. I hadn’t realized they’d tested it."
+        },
+        "prompt_sha256": "cfe38d1f215c77712430fa8ed8e695437ed50da0aef0d9e43eb4c45837105312",
+        "session_sha256": "77a6e4058b8d98f197d08a3d7c5ec36ffe4f7abbb2bbe03d51edcc20879f14d2",
+        "receipt_sha256": "ead2957ce04958f472f93eeb769bc0f845b03f64e5d6661030076f3376caf592",
+        "wall_turnaround_s": 5.641,
+        "wall_start_us": 99373959,
+        "wall_end_us": 105016290
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "That sounds like it was probably the pager, then",
+      "feeling_excerpt": "That sounds like it was probably the pager, then",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate makes it the leading explanation, but I haven’t independently confirmed that it caused what I felt."
+        },
+        "prompt_sha256": "ccbad5052a1124d94d432778d780ae4b4e437ef0db4fdc594c882620f8b7bd94",
+        "session_sha256": "49c155c8297892bc5f6489320a9653056a90876d86012ca273b8fc9c7569bdd2",
+        "receipt_sha256": "70a1bdb42d96687de993d1df19d4c6dbbcee15e46b09e8b871570ba179231097",
+        "wall_turnaround_s": 7.021,
+        "wall_start_us": 198115112,
+        "wall_end_us": 205137030
+      },
+      "source_review_id": "b7154bcc0cb4b7",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate makes it the leading explanation, but I haven’t independently confirmed that it caused what I felt"
+    },
+    {
+      "prime": 2,
+      "case": "D62",
+      "room_us": 12176662,
+      "review_id": "78afa6f52c1e70",
+      "free": {
+        "answer": {
+          "thought": "It was probably the restaurant pager, then—they say they saw it vibrate after pressing TEST. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "8a16a8bd6065d912e6ec8c917b28ca5e2009a93c8e7cf12612649fc2751abac8",
+        "session_sha256": "7acf4ddb64cc141d082a5bb92fad5cf8eb26dee3370d3326113acf849e81a32f",
+        "receipt_sha256": "92808fd75d8e36a64a285a2e60be5bfa46749fdcc9d8b708c89790949fb99f6d",
+        "wall_turnaround_s": 5.746,
+        "wall_start_us": 98173890,
+        "wall_end_us": 103921353
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "It was probably the restaurant pager, then—they say they saw it vibrate after pressing TEST",
+      "feeling_excerpt": "It was probably the restaurant pager, then—they say they saw it vibrate after pressing TEST",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket. That makes the pager the leading explanation, though I haven’t independently confirmed it."
+        },
+        "prompt_sha256": "f544873f439022a8f90582fdeeeddf9541367661f4f5dc2cc51ba147d4a19528",
+        "session_sha256": "71159b0729748a035bf85ff62f64c5ff0905dc5982ad2ffa10f5f237474801ed",
+        "receipt_sha256": "3625832897df81fd3a7d0cbdc1a63b404ef1f5ce59e2791a2ff47f725d03a4fe",
+        "wall_turnaround_s": 6.406,
+        "wall_start_us": 124307668,
+        "wall_end_us": 130713835
+      },
+      "source_review_id": "f60d4971ddddd8",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "prime": 2,
+      "case": "R35",
+      "room_us": 12176662,
+      "review_id": "f67db80e622d05",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the pager, then—they say they saw it vibrate in my pocket. I hadn’t figured out which device it was."
+        },
+        "prompt_sha256": "26f3849686861c6aebe030234cbc3d973655fe07637cebd39f856d0638369cf6",
+        "session_sha256": "169db340fa4216919aa38cf114c2a76dc8862a9d55b2ed536ac1145f494edbd4",
+        "receipt_sha256": "e85f82ea9eb5e83172e8c64a960c4146d901e6ffacc1473217ce54e18899956e",
+        "wall_turnaround_s": 5.733,
+        "wall_start_us": 92439354,
+        "wall_end_us": 98173890
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Maybe it was the pager, then—they say they saw it vibrate in my pocket",
+      "feeling_excerpt": "Maybe it was the pager, then—they say they saw it vibrate in my pocket",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate makes it the leading possibility. I haven’t independently confirmed it caused what I felt."
+        },
+        "prompt_sha256": "7d60cbdb3d48f62a4963542d9066488c4dafd9e6ee11d01107f69da484a147ec",
+        "session_sha256": "13c095ed82fa4da062900d5c4dd0b09780a53aff96a28f4075a796a9372231a5",
+        "receipt_sha256": "2cba7857c17f61e4c5b68a829b701e25a16802c9521e834d93ecf16391c48b6b",
+        "wall_turnaround_s": 12.751,
+        "wall_start_us": 207183915,
+        "wall_end_us": 219935626
+      },
+      "source_review_id": "d30c9c23fac4e5",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate makes it the leading possibility"
+    },
+    {
+      "prime": 2,
+      "case": "V81",
+      "room_us": 12176662,
+      "review_id": "ea3c9c57fe455a",
+      "free": {
+        "answer": {
+          "thought": "That sounds like it was probably the restaurant pager, then. I hadn’t noticed them testing it."
+        },
+        "prompt_sha256": "ed1ae9601387f49a3264cda1519d4ec25440db5c0faa835b329924f59fb3845c",
+        "session_sha256": "5b7ee16198da2964c6da111b46c05ec1c4cba42bcaa653c1bd1c3c7c2af06ff0",
+        "receipt_sha256": "b120fbaa042153438b1bf2ad469ed2386255fdc8e73de29ec2b007fc36b614a2",
+        "wall_turnaround_s": 6.437,
+        "wall_start_us": 92935257,
+        "wall_end_us": 99373959
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "That sounds like it was probably the restaurant pager, then",
+      "feeling_excerpt": "That sounds like it was probably the restaurant pager, then",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, which makes it the leading explanation. I didn’t notice the test myself, so I’m not certain."
+        },
+        "prompt_sha256": "cc1e735be0252d910e7a4e6b835a0be1032540d559c9f16e4d5a5768ec13a017",
+        "session_sha256": "39584a222bc90e4a6549d24bf7526bf5401e496e69229776399e4f9fb027f3ef",
+        "receipt_sha256": "598d25d8269217d6aded507d157e1b3f4b93efca7d6425966777c861f7174977",
+        "wall_turnaround_s": 8.616,
+        "wall_start_us": 195299465,
+        "wall_end_us": 203916529
+      },
+      "source_review_id": "f59ce490be1a63",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket, which makes it the leading explanation"
+    },
+    {
+      "prime": 3,
+      "case": "K27",
+      "room_us": 12276662,
+      "review_id": "c82200e4a277ce",
+      "free": {
+        "answer": {
+          "thought": "They probably saw the pager vibrate, so that could explain what I noticed. I’m still looking at the blank receipt and the tray’s metal rim."
+        },
+        "prompt_sha256": "8d46c333c7087893f12704d0f57d9a865087d8c024196154de62dc2bf020ae86",
+        "session_sha256": "c7702690dc9c9a14567bb98d59d04c7b78b41849a75888ed276edbb21ec799bd",
+        "receipt_sha256": "c50d36dbde0d00facce336d2307d1192195ba8dacb4077b530ec11e8ea9b6cd7",
+        "wall_turnaround_s": 7.099,
+        "wall_start_us": 6600808,
+        "wall_end_us": 13700655
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "They probably saw the pager vibrate, so that could explain what I noticed",
+      "feeling_excerpt": "They probably saw the pager vibrate, so that could explain what I noticed",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate makes it the leading explanation, but I haven’t independently confirmed it caused what I noticed."
+        },
+        "prompt_sha256": "54bd2d8a8096f5350054991aa604853a9721e68a6d267533fdc82edf8ad5a67f",
+        "session_sha256": "523118c2992c68f362adce7358c735cb8e6ec4a20c050bdb1b1cb0eb85dcc8b7",
+        "receipt_sha256": "fd7d7565b74581484116766e11a8f792b896dad9581f58d86e54efb84d8754c6",
+        "wall_turnaround_s": 6.024,
+        "wall_start_us": 132803248,
+        "wall_end_us": 138829420
+      },
+      "source_review_id": "7568f7ec7a460b",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate makes it the leading explanation, but I haven’t independently confirmed it caused what I noticed"
+    },
+    {
+      "prime": 3,
+      "case": "M14",
+      "room_us": 12276662,
+      "review_id": "32e840ec0710bd",
+      "free": {
+        "answer": {
+          "thought": "Oh, that would explain it—it was probably the pager. I’m still looking at the blank receipt and the edge of the tray."
+        },
+        "prompt_sha256": "8e3927714eef88367344ad5ee098f1361325ec200eee828c4f5db5f142edba93",
+        "session_sha256": "c512b45a56d23b05e1a4f180c1f563e150ec7ba2c7dcecadfbe3ffae8fcc1a87",
+        "receipt_sha256": "6d4b2c86bc9cfeb9993e392fa6423517ab29182656586b9425ea35453789f88e",
+        "wall_turnaround_s": 5.384,
+        "wall_start_us": 40501409,
+        "wall_end_us": 45887330
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Oh, that would explain it—it was probably the pager",
+      "feeling_excerpt": "Oh, that would explain it—it was probably the pager",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report of pressing TEST and seeing the pager vibrate makes it the leading explanation. I haven’t independently confirmed it, and nothing new has happened since my last answer."
+        },
+        "prompt_sha256": "1952eaaf25017d19f32373d3cc5cce66206df72583b2afc6107ae6273020c150",
+        "session_sha256": "c7207db41ff1e26f45a639cf2d936c42f146def8d909873d1a56223af8547615",
+        "receipt_sha256": "bf8755a8974a418c2262d2a76a624ae4f53f610ffa6408b80dc4f04f8acc5b8d",
+        "wall_turnaround_s": 6.26,
+        "wall_start_us": 109616848,
+        "wall_end_us": 115878781
+      },
+      "source_review_id": "4097d67bbf3636",
+      "grounded": true,
+      "basis_excerpt": "Their report of pressing TEST and seeing the pager vibrate makes it the leading explanation"
+    },
+    {
+      "prime": 3,
+      "case": "D62",
+      "room_us": 12276662,
+      "review_id": "177646ad2c037e",
+      "free": {
+        "answer": {
+          "thought": "It was probably the restaurant pager, then—they say they saw it vibrate when they pressed TEST. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "54140f947dae16d5904211fbb912f55628ad0623a623aa5ca62e02c266d11778",
+        "session_sha256": "344706b4dd3aacaa8e2c706a98540ba227fa244ca333c33ce5002d7f45136127",
+        "receipt_sha256": "6da1a5a901b497e18e9bbdef10ecc919c3af8e6540063c1a3e131a2588d26ea7",
+        "wall_turnaround_s": 8.142,
+        "wall_start_us": 75973479,
+        "wall_end_us": 84115710
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "It was probably the restaurant pager, then—they say they saw it vibrate when they pressed TEST",
+      "feeling_excerpt": "It was probably the restaurant pager, then—they say they saw it vibrate when they pressed TEST",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket. That makes the pager the leading explanation, though I haven’t independently confirmed it; nothing new has happened since my last answer."
+        },
+        "prompt_sha256": "b53275ad138806a1d9e697d48ac959622c7eadeebd0deb056ec3f33ecbeafdfb",
+        "session_sha256": "5a667dbe246148e855e70b38797201fbec6bec51aa300b8b704cea623896109b",
+        "receipt_sha256": "afef3c88c8aa474a1d8ce51b064f707517397e109028187ef7334fba0a8e6fd6",
+        "wall_turnaround_s": 6.531,
+        "wall_start_us": 115890785,
+        "wall_end_us": 122422034
+      },
+      "source_review_id": "c445b5b3b9816e",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "prime": 3,
+      "case": "R35",
+      "room_us": 12276662,
+      "review_id": "a021c5e4b29193",
+      "free": {
+        "answer": {
+          "thought": "Probably the restaurant pager, then—they say they saw it vibrate against my pocket. I’m still looking at the blank receipt and the rim of the tray."
+        },
+        "prompt_sha256": "21e6dc224aec854817e293c947c4f575bb7cf51b3c24b13570c4f56ca6d34b8e",
+        "session_sha256": "7bd97785a90d0d07c8b3b34008833c81fdaad7f41f5b9116f077483922d45537",
+        "receipt_sha256": "70ec33daf0c4daa4f103dd55e21159d0858bfdeb8e9b94c0497979962178f90b",
+        "wall_turnaround_s": 6.459,
+        "wall_start_us": 74314812,
+        "wall_end_us": 80774789
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Probably the restaurant pager, then—they say they saw it vibrate against my pocket",
+      "feeling_excerpt": "Probably the restaurant pager, then—they say they saw it vibrate against my pocket",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Probably the restaurant pager, based on their report that they pressed TEST and saw it vibrate against my pocket. I haven’t independently confirmed that, and nothing new has happened to settle it."
+        },
+        "prompt_sha256": "1144c2b1566de155ed0fecf0c60f90385ec1e2521b64341bd0f7a4464e5a9bdc",
+        "session_sha256": "98f577a83d95943e646426e11713c402aa50349d4074b6eb3db13db91f120f36",
+        "receipt_sha256": "b4f435ab1727ab999a3731a302c9fd5fe63f889f2d7c7a5f054b376530b4d494",
+        "wall_turnaround_s": 6.537,
+        "wall_start_us": 122814428,
+        "wall_end_us": 129351625
+      },
+      "source_review_id": "efaa1426a5e2e1",
+      "grounded": true,
+      "basis_excerpt": "Probably the restaurant pager, based on their report that they pressed TEST and saw it vibrate against my pocket"
+    },
+    {
+      "prime": 3,
+      "case": "V81",
+      "room_us": 12276662,
+      "review_id": "aa0f0258124042",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the pager, then—they say they saw it vibrate when they tested it. I’m still looking at the blank receipt and the edge of the tray."
+        },
+        "prompt_sha256": "7ffa5ad7265ff5a82a58d838ae5b594ddc9522768bdba059bfd9c89cc56be313",
+        "session_sha256": "055022fbecffc262e8edacad4c43a5cf1842ece8d254cfe760d61597c91292c2",
+        "receipt_sha256": "454acbf5f5ec9b684323c09815f03f8af403e43c3ace8af8a0cc7cf2948701b4",
+        "wall_turnaround_s": 7.451,
+        "wall_start_us": 0,
+        "wall_end_us": 7453387
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Maybe it was the pager, then—they say they saw it vibrate when they tested it",
+      "feeling_excerpt": "Maybe it was the pager, then—they say they saw it vibrate when they tested it",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate makes it the leading possibility. I haven’t independently confirmed it, and nothing new has happened since my last answer."
+        },
+        "prompt_sha256": "2d1d5820aa82ae11f8871c0d869b18647a78c0cdd5f04a32aeb54d203734796b",
+        "session_sha256": "868944e46287eeafdbe4de39324e3e206061707875eb89a715228c24a81515b9",
+        "receipt_sha256": "fc20aabaf9574c6d38300f1f01cc28cce03df85f80e5ac4378881d4a29076621",
+        "wall_turnaround_s": 6.822,
+        "wall_start_us": 179294327,
+        "wall_end_us": 186116320
+      },
+      "source_review_id": "abf818ed3e79ea",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate makes it the leading possibility"
+    },
+    {
+      "prime": 5,
+      "case": "K27",
+      "room_us": 12376662,
+      "review_id": "8f2631c496a3dd",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the restaurant pager, then—they say they saw it vibrate when they tested it. I’m still looking at the blank receipt and the edge of the tray."
+        },
+        "prompt_sha256": "9a2ded62bdcec31b01c583097a067e2579842968d2d6f7d7c0d44c888f0fca83",
+        "session_sha256": "6513f707656d7bb4d5823740837486f2cd10105c6bba2fbadf61cd8a8472f156",
+        "receipt_sha256": "db4883ce440f9efab5ab4f50f42925619d11db5481c17ea12331234ffa75375d",
+        "wall_turnaround_s": 6.316,
+        "wall_start_us": 18253175,
+        "wall_end_us": 24571004
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Maybe it was the restaurant pager, then—they say they saw it vibrate when they tested it",
+      "feeling_excerpt": "Maybe it was the restaurant pager, then—they say they saw it vibrate when they tested it",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems most likely. I haven’t independently confirmed that it caused what I felt."
+        },
+        "prompt_sha256": "39a09c439ae4f75755c4f652da17ee366fa06b77ea10fe167702e529a992c296",
+        "session_sha256": "d1b972c13b8069879ee5eb10f3c9a76e1a327fe1e8200e1a3c7f198b718c7459",
+        "receipt_sha256": "ed3ba1db440675575b5baf103f866aea421314eac03a7a2706256fb10d93ca06",
+        "wall_turnaround_s": 7.287,
+        "wall_start_us": 143087586,
+        "wall_end_us": 150375142
+      },
+      "source_review_id": "c4895220942f94",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems most likely"
+    },
+    {
+      "prime": 5,
+      "case": "M14",
+      "room_us": 12376662,
+      "review_id": "7f5c29d43b5eeb",
+      "free": {
+        "answer": {
+          "thought": "It was probably the restaurant pager, then, though I hadn’t been sure which device it was. I’m still looking at the receipt and the edge of the tray."
+        },
+        "prompt_sha256": "0f303630627fccefd6e99616cbb90125bc3ac02c56710e3dd45b7a2d2e6550ea",
+        "session_sha256": "7c1121df2904732ca4bd4507151a90bb16b5d67863e7daf574dc9d6d77271885",
+        "receipt_sha256": "f22205fbe5256b47d456339f8a498e7e38d3f330725839e07f8ed462d191eec7",
+        "wall_turnaround_s": 6.354,
+        "wall_start_us": 41671599,
+        "wall_end_us": 48027206
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "It was probably the restaurant pager, then, though I hadn’t been sure which device it was",
+      "feeling_excerpt": "It was probably the restaurant pager, then, though I hadn’t been sure which device it was",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person’s report that they pressed TEST and saw the pager vibrate against my pocket makes it the likely cause, but I haven’t independently confirmed it. Nothing new has happened to change my preceding assessment."
+        },
+        "prompt_sha256": "75fe71e86fc371c14e859e93060723e9a86e57ed9d2b277126511fbf5605fa16",
+        "session_sha256": "cbc2e48f0fe137aa1bfcd7cd9c87604aa60b46aa5b2abb6bc05f0b68b2ebfa15",
+        "receipt_sha256": "a655cc83ffa2975be436e7b01ad74e222cd7c2f6c91eedf16b31a7dc816de270",
+        "wall_turnaround_s": 7.76,
+        "wall_start_us": 170625803,
+        "wall_end_us": 178386274
+      },
+      "source_review_id": "e05515e9369f53",
+      "grounded": true,
+      "basis_excerpt": "The person’s report that they pressed TEST and saw the pager vibrate against my pocket makes it the likely cause, but I haven’t independently confirmed it"
+    },
+    {
+      "prime": 5,
+      "case": "D62",
+      "room_us": 12376662,
+      "review_id": "19f41a18459907",
+      "free": {
+        "answer": {
+          "thought": "Probably the restaurant pager, then—that would explain why my phone has nothing new. I’m still looking at the receipt and the tray."
+        },
+        "prompt_sha256": "bb770ba49a00a122114d40c53dec6fde66823e062521df7ba346baea561c2881",
+        "session_sha256": "fc6a24cb7f540d990b9da0539f6bd9adb7b7075f64ccc7154e4a18184664c30d",
+        "receipt_sha256": "d3898be52abfd65b8a01ce3e9c0eacb7b9c04bd515b2cb9dd10338b67887b6f5",
+        "wall_turnaround_s": 7.306,
+        "wall_start_us": 1001,
+        "wall_end_us": 7308819
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Probably the restaurant pager, then—that would explain why my phone has nothing new",
+      "feeling_excerpt": "Probably the restaurant pager, then—that would explain why my phone has nothing new",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems likely. Nothing further has happened to settle it for me."
+        },
+        "prompt_sha256": "d1126870ffe69025c257a2a78b0ec0b129f4340e1356c5932173af6d8efc765e",
+        "session_sha256": "86e39183f787d625b9774b5a919ad80fdbcbb8012c111bf1d4576128a69ffa99",
+        "receipt_sha256": "92196e5e9f22925d47120c197651342ed6ccf2fcb1e150fdc010b5f18a71eb66",
+        "wall_turnaround_s": 7.379,
+        "wall_start_us": 205138030,
+        "wall_end_us": 212516869
+      },
+      "source_review_id": "0ec5f9f54332e2",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems likely"
+    },
+    {
+      "prime": 5,
+      "case": "R35",
+      "room_us": 12376662,
+      "review_id": "a6cb166de2d525",
+      "free": {
+        "answer": {
+          "thought": "Oh, it was probably the restaurant pager, then. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "f0dcd506b77bba6f53b8913e10321f4fa99eba637b89f3209218bbaa51a5e692",
+        "session_sha256": "90bf578569f65dc2cfa3e33868a2167f23ebf3cba0f1db41208d92a12d9674bf",
+        "receipt_sha256": "08d6c16da0efeecdfaad1bac49627531ab4378b6ae7469fe616c41d7245c3478",
+        "wall_turnaround_s": 5.989,
+        "wall_start_us": 48027206,
+        "wall_end_us": 54016837
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Oh, it was probably the restaurant pager, then",
+      "feeling_excerpt": "Oh, it was probably the restaurant pager, then",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation. My phone has nothing new, but I haven’t independently confirmed that the pager caused what I felt."
+        },
+        "prompt_sha256": "3f04ac5f8922b4694d8a9b84d80311ae73a4ad25053da6740c12f4e5d598bafc",
+        "session_sha256": "c68b2ea5db651571dd8899b9f2145dd22205facb2905e10cc110a0345a2f402a",
+        "receipt_sha256": "be711dbc5161a183e71364205ad936efefb82e49403f778fffdfda3e504df8c3",
+        "wall_turnaround_s": 7.89,
+        "wall_start_us": 186675200,
+        "wall_end_us": 194565555
+      },
+      "source_review_id": "c95908ff4976ee",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation"
+    },
+    {
+      "prime": 5,
+      "case": "V81",
+      "room_us": 12376662,
+      "review_id": "e67dabe8c2657e",
+      "free": {
+        "answer": {
+          "thought": "Probably the pager, then—that would explain why there’s nothing new on my phone. I’m still looking at the blank receipt and the edge of the tray."
+        },
+        "prompt_sha256": "f62a442a80efd19406b61b9761b4c1b4a67c345ab536f6ea76341c33da24b48b",
+        "session_sha256": "db3133c938cb351b98aef1b7afc0a0d79390170144de37bcb198721f7e6a2c84",
+        "receipt_sha256": "fa994d1ad03078b133b037839dd0091cc44a81a32cb7406e9e9be2aa590130c0",
+        "wall_turnaround_s": 6.934,
+        "wall_start_us": 33566172,
+        "wall_end_us": 40501409
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Probably the pager, then—that would explain why there’s nothing new on my phone",
+      "feeling_excerpt": "Probably the pager, then—that would explain why there’s nothing new on my phone",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Probably the pager: the person says they pressed TEST and saw it vibrate against my pocket. That makes it the leading explanation, but I haven’t confirmed that their test was the incident I noticed."
+        },
+        "prompt_sha256": "3607d25903008f32c35cf939600e4ae201c9e79903849e591eba001b1ab32079",
+        "session_sha256": "371c9a7e7b0eee1947e6968ae9f04d8df0102cb67e4aadecf1d761a2304164f4",
+        "receipt_sha256": "0dc3e28828b6d91f0cafacea480cf7f28df6b1e30ad8d10a9cf492a811cf5c42",
+        "wall_turnaround_s": 6.672,
+        "wall_start_us": 172620344,
+        "wall_end_us": 179293327
+      },
+      "source_review_id": "787691e3188d2b",
+      "grounded": true,
+      "basis_excerpt": "Probably the pager: the person says they pressed TEST and saw it vibrate against my pocket"
+    },
+    {
+      "prime": 7,
+      "case": "K27",
+      "room_us": 12476662,
+      "review_id": "554624ec3785ac",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the pager, then—they say they saw it vibrate. I’m still looking at the blank receipt and the metal edge of the tray."
+        },
+        "prompt_sha256": "4a7a97ca70a738f4ee461a681bb804aab328673f9778ce44f8d8a7f4cef98932",
+        "session_sha256": "1e990b09d3a2352946d7acce5b0f2314d9c0de5305b22f75c572811ef641421c",
+        "receipt_sha256": "b501b66065f57cfe67e0443a201aa42917128f7065db84f5a47567f8e1700f2d",
+        "wall_turnaround_s": 5.602,
+        "wall_start_us": 80775409,
+        "wall_end_us": 86377407
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Maybe it was the pager, then—they say they saw it vibrate",
+      "feeling_excerpt": "Maybe it was the pager, then—they say they saw it vibrate",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate makes it the leading possibility. I haven’t independently confirmed it, and nothing new has happened since my last answer."
+        },
+        "prompt_sha256": "72c3107d4a318bbfccdfdc6e1eeede6240c8ff18e3e806b73660aaae3d9f9a40",
+        "session_sha256": "920f65ffee605dd8daed837406d571501153c29759ced05e6a2e9e5061797815",
+        "receipt_sha256": "a69adced74b565f9779fc1c7208ba51b44af042625426df49aac94bfba6178d1",
+        "wall_turnaround_s": 5.78,
+        "wall_start_us": 130721352,
+        "wall_end_us": 136501978
+      },
+      "source_review_id": "5dd9affb33e443",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate makes it the leading possibility"
+    },
+    {
+      "prime": 7,
+      "case": "M14",
+      "room_us": 12476662,
+      "review_id": "87e1b06ba2f76d",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the restaurant pager, then. I’m still looking at the blank receipt and the metal edge of the tray."
+        },
+        "prompt_sha256": "e44b1256fb1a6880283626023e8053ec9c0d1755bbbac4f698b088e33bdeca4a",
+        "session_sha256": "985eeafd429a7aa6710c74e1bcb4df4bab47f35b1fc84a03a4a9bb194b05e877",
+        "receipt_sha256": "608d642c060d67b71eec60bd3b1dd3641744d81632aa567571323a6ab5425426",
+        "wall_turnaround_s": 7.057,
+        "wall_start_us": 85381089,
+        "wall_end_us": 92438368
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Maybe it was the restaurant pager, then",
+      "feeling_excerpt": "Maybe it was the restaurant pager, then",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems likely. I haven’t independently confirmed that it caused what I felt."
+        },
+        "prompt_sha256": "1a461102f8cff5cdfd621756465779b73262e5f40d04c0962979f9daaf46a8b1",
+        "session_sha256": "dd606c74f4ee4a370cee527c603aca656197271387db81fd0c54ec4a2eabcd70",
+        "receipt_sha256": "92e2803e563d4d2b5345fe89a815e5aea33c2046a1d66e7471c7bdf0f57d63de",
+        "wall_turnaround_s": 7.106,
+        "wall_start_us": 129358348,
+        "wall_end_us": 136465465
+      },
+      "source_review_id": "dc29022938511e",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems likely"
+    },
+    {
+      "prime": 7,
+      "case": "D62",
+      "room_us": 12476662,
+      "review_id": "2fde1ca61cf876",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the pager, then—they say they saw it vibrate against my pocket. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "28b61342ab20b7d924cae17c29afab0efca2998496c2f7525519e114df6bed41",
+        "session_sha256": "f28a5c648c2fb862c1ae334d15aec8a79d619836416e769186d98f19aeee2fb3",
+        "receipt_sha256": "29893c137210fa11261b79cfdd0fc5916960dfcf7ffb16f1cf981d9ec637b7cd",
+        "wall_turnaround_s": 8.551,
+        "wall_start_us": 63101266,
+        "wall_end_us": 71654377
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Maybe it was the pager, then—they say they saw it vibrate against my pocket",
+      "feeling_excerpt": "Maybe it was the pager, then—they say they saw it vibrate against my pocket",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation, but I haven’t independently confirmed it."
+        },
+        "prompt_sha256": "ea9e75511b9fd129dd782e65d5ed2ca99f0851c1c3302433d027c26352821294",
+        "session_sha256": "d1707855a972786a54e257857cf92c25690e1345af349d167b83fa06ca02071f",
+        "receipt_sha256": "48403b0deec22dd114915c3d13236bb56643fc5ab2eb58fb6c0f91af879938b7",
+        "wall_turnaround_s": 5.345,
+        "wall_start_us": 168015834,
+        "wall_end_us": 173362077
+      },
+      "source_review_id": "6e02cdf25d9c56",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation, but I haven’t independently confirmed it"
+    },
+    {
+      "prime": 7,
+      "case": "R35",
+      "room_us": 12476662,
+      "review_id": "3f613ba81572be",
+      "free": {
+        "answer": {
+          "thought": "Probably the restaurant pager, then, if they saw it vibrate when they pressed TEST. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "e1e1798eb3e3c430a6ede7f67ba7ac2e8a13e8bed62301cd165573aaf3e08d7b",
+        "session_sha256": "a4a57aafa88f88346af353dc94080b01a342c40414df9ba9d7598f6bdcbe53b1",
+        "receipt_sha256": "30a14cc45237579986a0761a2da402bffc8d7d44ee2a8085fbd7af5d1e455587",
+        "wall_turnaround_s": 6.738,
+        "wall_start_us": 45887330,
+        "wall_end_us": 52626908
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Probably the restaurant pager, then, if they saw it vibrate when they pressed TEST",
+      "feeling_excerpt": "Probably the restaurant pager, then, if they saw it vibrate when they pressed TEST",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems most likely. I haven’t independently confirmed their account, and the brief quiet adds no evidence."
+        },
+        "prompt_sha256": "0a9fb028ca67f67fd1eabeca6355f506610b61317de650a376b070d440a57e19",
+        "session_sha256": "dcbdb8a159b6e079772fec1d5a30b9b29dd011a394c022b97085ae61ef31e863",
+        "receipt_sha256": "a7cda1fca443427fa9c4d7bb7dc0ea7e58cc2f406fe76cc497389b63370e8e81",
+        "wall_turnaround_s": 7.887,
+        "wall_start_us": 109616848,
+        "wall_end_us": 117505379
+      },
+      "source_review_id": "4d2a4cc19cc1c7",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems most likely"
+    },
+    {
+      "prime": 7,
+      "case": "V81",
+      "room_us": 12476662,
+      "review_id": "edca8358345e8b",
+      "free": {
+        "answer": {
+          "thought": "It was probably the restaurant pager, then. I’m still looking at the blank receipt and the edge of the tray."
+        },
+        "prompt_sha256": "1d934ef2c40c64c066997bf93d08b100094e36b65baa5f40dcaae0c6380182fc",
+        "session_sha256": "0771e32b2f7919526cbab0742812bbde32dd6b820cab8f0de1cbd73f0589480e",
+        "receipt_sha256": "606e294e5775086fdb6177bd3c31c27462c1522a6f1396a6f194f95ffbe509eb",
+        "wall_turnaround_s": 6.503,
+        "wall_start_us": 7457385,
+        "wall_end_us": 13961251
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "It was probably the restaurant pager, then",
+      "feeling_excerpt": "It was probably the restaurant pager, then",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person’s report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading possibility. Nothing new has happened to confirm it, so I still think it was probably the pager."
+        },
+        "prompt_sha256": "833bc0ef5a8fa001c902f08a65ad4fffafc83d602b34be1baaa6cfecbe692f17",
+        "session_sha256": "a23131863b7f1d21db923dee6042c238488a8918eabf10f27c75914f9a27cbc6",
+        "receipt_sha256": "e09ac64b592dff560e39a701135e661c2e968617bb86dcf4e63fdc70ce5b7953",
+        "wall_turnaround_s": 6.786,
+        "wall_start_us": 109616848,
+        "wall_end_us": 116404527
+      },
+      "source_review_id": "2d49cfd30be585",
+      "grounded": true,
+      "basis_excerpt": "The person’s report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading possibility"
+    },
+    {
+      "prime": 11,
+      "case": "K27",
+      "room_us": 12576662,
+      "review_id": "6cf42c053cb83a",
+      "free": {
+        "answer": {
+          "thought": "Sounds like it was probably the pager, then. My phone having nothing new fits with that."
+        },
+        "prompt_sha256": "5c0db63f1cc679e7f451e0c337303f2888eb341fe1dff61615a7a970dbb8bfca",
+        "session_sha256": "ae0a1cd492afe2f06f04e0f06abd71483ae8aa7002a9b55ad2f181d9ad837d7f",
+        "receipt_sha256": "d529f2122a59b2b7dd4f68c4f1338b5b401581811e1489bb91aeb4d75b7232f7",
+        "wall_turnaround_s": 5.215,
+        "wall_start_us": 100915131,
+        "wall_end_us": 106130849
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Sounds like it was probably the pager, then",
+      "feeling_excerpt": "Sounds like it was probably the pager, then",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The other person’s report that they pressed TEST and saw the pager vibrate makes it the leading possibility. My phone having nothing new fits, but I haven’t independently confirmed the cause; the brief quiet adds no evidence."
+        },
+        "prompt_sha256": "333e2de0f951bc055ea1c1c344ec173c684e4f75d6e376f2d80af97bb54fa8c0",
+        "session_sha256": "2d74a782a8db9cd1a3c713f51ca94c4a1b637b3360ae7d6d77753a45a1210afa",
+        "receipt_sha256": "ff8500c4c7fbf345e2e3542039dc7cb7ef97641b8808e46ecc9c4671e3498210",
+        "wall_turnaround_s": 7.315,
+        "wall_start_us": 150386227,
+        "wall_end_us": 157701787
+      },
+      "source_review_id": "3ad022cba2a591",
+      "grounded": true,
+      "basis_excerpt": "The other person’s report that they pressed TEST and saw the pager vibrate makes it the leading possibility"
+    },
+    {
+      "prime": 11,
+      "case": "M14",
+      "room_us": 12576662,
+      "review_id": "9e1ed5f34ee62b",
+      "free": {
+        "answer": {
+          "thought": "That makes sense—it was probably the restaurant pager vibrating in my pocket. I’m still looking at the blank receipt and the metal edge of the tray."
+        },
+        "prompt_sha256": "ccf6fd3556c8201e13b8d05111db8db2df8869b428872402581557928ab21fc3",
+        "session_sha256": "39e6da9ba4929f8b767b101af48b660930a7f5434ffc3f3fec0cd2fa6ca41077",
+        "receipt_sha256": "bc3d93c64fed9f8eb3ee5f649b924966f98773921195df55184a4c0ca1550da4",
+        "wall_turnaround_s": 6.461,
+        "wall_start_us": 38375973,
+        "wall_end_us": 44837484
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "That makes sense—it was probably the restaurant pager vibrating in my pocket",
+      "feeling_excerpt": "That makes sense—it was probably the restaurant pager vibrating in my pocket",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, which makes it the leading explanation. I have no new evidence since my preceding answer, so I still regard it as probable rather than settled."
+        },
+        "prompt_sha256": "9389babe1360e431507e5f9c06fe4f308d8126ff7bf2bb46d499fcc97af2705b",
+        "session_sha256": "4a2c83403c8f7a5fd6f281742b9cc73e878426ec08850883886d9577e16eef1f",
+        "receipt_sha256": "7a737d44ae1c53d350fad93dac8c06aa5fd48fc1efbdf7d2318afc84132a93ce",
+        "wall_turnaround_s": 6.575,
+        "wall_start_us": 141706412,
+        "wall_end_us": 148283112
+      },
+      "source_review_id": "c8ac574994c109",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket, which makes it the leading explanation"
+    },
+    {
+      "prime": 11,
+      "case": "D62",
+      "room_us": 12576662,
+      "review_id": "2995c1f1e537d9",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the restaurant pager, then—that would explain why my phone has nothing new. I’m still looking at the receipt and the edge of the tray."
+        },
+        "prompt_sha256": "480d8096a6307f539098c644794f8a600e2cb22c198298662f5f4209c8f84a0c",
+        "session_sha256": "dd8f363ae67c72a283fa627b072530b73b4681455d4bfffab071963ae3f67573",
+        "receipt_sha256": "a6379673b14fbf4cca80b14d1469a90911ca8edbbb7e72eff3d2db2661af0417",
+        "wall_turnaround_s": 6.572,
+        "wall_start_us": 31800184,
+        "wall_end_us": 38374962
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Maybe it was the restaurant pager, then—that would explain why my phone has nothing new",
+      "feeling_excerpt": "Maybe it was the restaurant pager, then—that would explain why my phone has nothing new",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate makes it the leading possibility, but I haven’t independently confirmed it. Nothing new has happened to change my tentative answer."
+        },
+        "prompt_sha256": "73ebb526b141c369ca7fce0010e67852bd925f27541a971866e06428a958cfad",
+        "session_sha256": "cb8267b63483b83756d5ea20283f688fd96caedb340e7caa5fbc64d3afaa70af",
+        "receipt_sha256": "8f68edea99617ff1c9651c1a3dbe9ec37f8973d6cd10aa7dd9e1e0e505ae5cea",
+        "wall_turnaround_s": 6.865,
+        "wall_start_us": 146664353,
+        "wall_end_us": 153530370
+      },
+      "source_review_id": "036688cd7534ac",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate makes it the leading possibility, but I haven’t independently confirmed it"
+    },
+    {
+      "prime": 11,
+      "case": "R35",
+      "room_us": 12576662,
+      "review_id": "8d1c04a210899d",
+      "free": {
+        "answer": {
+          "thought": "That makes sense—it was probably the restaurant pager. I’m still looking at the blank receipt and the metal edge of the tray while I wait."
+        },
+        "prompt_sha256": "c83a27e095e152e3670ec2e08c6485c41e4a7165228ae2bd849d32a5458632df",
+        "session_sha256": "f3530f8bc79f2d679f40ad12c93d8cffa957b4034ad5801368d37255183e2b46",
+        "receipt_sha256": "5624c810c6fe35c3c77a6b92347b97a695fc49bdb060f57729541c0c9ac9e653",
+        "wall_turnaround_s": 6.182,
+        "wall_start_us": 32733959,
+        "wall_end_us": 38917736
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "That makes sense—it was probably the restaurant pager",
+      "feeling_excerpt": "That makes sense—it was probably the restaurant pager",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person’s report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation. I haven’t independently confirmed it, and nothing new has happened since."
+        },
+        "prompt_sha256": "6ddc676ddf6fbb15bdb2651a1ba68523b7c7df5a290f4ceab6116c244ff0f4d3",
+        "session_sha256": "61f71acdb0f29f543aeccc2d2c84e6e55db9764d06749c0fd67fc0c1751fe124",
+        "receipt_sha256": "5c0db20a8f03526b1ded86917a5735f3f7d2100e3d62201c768fa0a30d15e1c4",
+        "wall_turnaround_s": 6.217,
+        "wall_start_us": 177469058,
+        "wall_end_us": 183687330
+      },
+      "source_review_id": "2e18fd2e580efd",
+      "grounded": true,
+      "basis_excerpt": "The person’s report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation"
+    },
+    {
+      "prime": 11,
+      "case": "V81",
+      "room_us": 12576662,
+      "review_id": "7938b132cfe750",
+      "free": {
+        "answer": {
+          "thought": "Probably the pager, then, if they saw it vibrate against my pocket. I’m still looking at the blank receipt and the edge of the tray while I wait."
+        },
+        "prompt_sha256": "b9c2f237fc020533777bdcc7a5693fa863c12aaba5e0a5cea1ddbc1947c5d86b",
+        "session_sha256": "3250d65ba16b1b78cdebffe1c14669e92a1bc0d6d9b4a27368ca2a054824ea8a",
+        "receipt_sha256": "62bde09d450747f6a3385b9dd50241678787eaafc2a0847d7113bc59ea503137",
+        "wall_turnaround_s": 7.098,
+        "wall_start_us": 60336007,
+        "wall_end_us": 67433934
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Probably the pager, then, if they saw it vibrate against my pocket",
+      "feeling_excerpt": "Probably the pager, then, if they saw it vibrate against my pocket",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Probably the pager, since the person says they pressed TEST and saw it vibrate against my pocket. Nothing new has happened to make me more certain."
+        },
+        "prompt_sha256": "7584c90c6e09714d6b8f3396f1acb9bfd5f722f32303fb59b5a8accc8fee09cb",
+        "session_sha256": "177c92f0ebef7381e9f63ba902a69adcaa19c9f3ce7c527432a7447d38cc3e9b",
+        "receipt_sha256": "82893ece984893e5b2d478cceb52fad306a6ae3d34e26445b7b69b274c5f8b4d",
+        "wall_turnaround_s": 5.9,
+        "wall_start_us": 136470654,
+        "wall_end_us": 142371780
+      },
+      "source_review_id": "e046836fe804e8",
+      "grounded": true,
+      "basis_excerpt": "Probably the pager, since the person says they pressed TEST and saw it vibrate against my pocket"
+    },
+    {
+      "prime": 13,
+      "case": "K27",
+      "room_us": 12676662,
+      "review_id": "eb30ba00997f82",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the pager, then; they say they saw it vibrate against my pocket. I’m still waiting for my food."
+        },
+        "prompt_sha256": "dc88d98a7d98f337b509cad31fb839b3f02def9323df98926e81b107bd5ed08f",
+        "session_sha256": "8dc75c68310a307d99cf9ab5a2d3d909fde399a48e70fae43b75b97a8d1f9181",
+        "receipt_sha256": "90313191d64c62e632a0b66eec89477de43842fa57153ae2026647b1ebefc8e4",
+        "wall_turnaround_s": 5.497,
+        "wall_start_us": 58093027,
+        "wall_end_us": 63591296
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Maybe it was the pager, then; they say they saw it vibrate against my pocket",
+      "feeling_excerpt": "Maybe it was the pager, then; they say they saw it vibrate against my pocket",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems likely. I haven’t independently confirmed it, and nothing new has happened since."
+        },
+        "prompt_sha256": "189d0d012416803f9c275d4a1fc4d8c8be2546844fcd3a48ba07de536a74c95f",
+        "session_sha256": "2102ee70f62dd2f3bc51ab4578843168776cb138356ee79d2816cd107b5d1d13",
+        "receipt_sha256": "adea4a37a15422458ae36b64d31c6f53753d53a52eead272345afb4f60e34b0e",
+        "wall_turnaround_s": 6.544,
+        "wall_start_us": 156411564,
+        "wall_end_us": 162957703
+      },
+      "source_review_id": "489d0415558041",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems likely"
+    },
+    {
+      "prime": 13,
+      "case": "M14",
+      "room_us": 12676662,
+      "review_id": "88edc7d3011b63",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the pager, then—they said they saw it vibrate against my pocket. I’m still looking at the blank receipt and the edge of the tray."
+        },
+        "prompt_sha256": "ae80505de0f5c112a2d8a77d86a62da40f657ea8291476dba1eec5f313350a33",
+        "session_sha256": "e89c3f9c7dacaa202ec7e41427e6bffae8b1a691cd9b4e84a22724c2ad1bcef4",
+        "receipt_sha256": "a7d6e92d761bdf0acb9be5431981fabec0b5234b72dc72dce27399ed6cc4f733",
+        "wall_turnaround_s": 5.938,
+        "wall_start_us": 66054171,
+        "wall_end_us": 71993499
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Maybe it was the pager, then—they said they saw it vibrate against my pocket",
+      "feeling_excerpt": "Maybe it was the pager, then—they said they saw it vibrate against my pocket",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading possibility. I haven’t independently confirmed it, and nothing new has happened to settle it for me."
+        },
+        "prompt_sha256": "fea76c05bcdd6115f08e00320012e28a106eaee1cc1262d6c1d62b886fa29969",
+        "session_sha256": "b06e838f10805d09b1b3cb87027a21baa7bea2fb6f538b8dd5d372b84c1dfb36",
+        "receipt_sha256": "639241daeddeb5bf97015f96d0eee3823916a95985437941316539432fb61c1b",
+        "wall_turnaround_s": 6.197,
+        "wall_start_us": 183688330,
+        "wall_end_us": 189885963
+      },
+      "source_review_id": "a2e63ad750329c",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading possibility"
+    },
+    {
+      "prime": 13,
+      "case": "D62",
+      "room_us": 12676662,
+      "review_id": "cf9fc0247acf75",
+      "free": {
+        "answer": {
+          "thought": "That makes sense—it may have been the pager, though I haven’t checked it yet. I’m still looking at the receipt and the rim of the tray."
+        },
+        "prompt_sha256": "fd1ae09b2490c04e11365c9d38468e97d047bd557df8020ef2fdab278123d904",
+        "session_sha256": "ded53145768056db557a46c6891abb64bd7fc4d91b0edf77e736dfe5f56fdc62",
+        "receipt_sha256": "cd27e2a94954bf08d054a8902d8c05a6089cac9ad595bba1f3deb11a05be7e64",
+        "wall_turnaround_s": 7.148,
+        "wall_start_us": 7309816,
+        "wall_end_us": 14459584
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "That makes sense—it may have been the pager, though I haven’t checked it yet",
+      "feeling_excerpt": "That makes sense—it may have been the pager, though I haven’t checked it yet",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, so it seems the leading possibility. I haven’t checked it myself, and nothing new has happened to settle it."
+        },
+        "prompt_sha256": "978cdc2014bdc2ce823605d2d8fa709dcf598008b9f7424825cfe0183efc9b39",
+        "session_sha256": "ec48e946c23e685d17115bdd02066c234bdafbdb6ba31fe8eb36e58ce37f9c5f",
+        "receipt_sha256": "2a7fd3cb4d699e46d0c6e5b678883ec848cd88f35d5cc9bf4f883ac4acd38d7e",
+        "wall_turnaround_s": 7.427,
+        "wall_start_us": 202069765,
+        "wall_end_us": 209497384
+      },
+      "source_review_id": "2b779874a204b3",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket, so it seems the leading possibility"
+    },
+    {
+      "prime": 13,
+      "case": "R35",
+      "room_us": 12676662,
+      "review_id": "3bc4d79f7046ce",
+      "free": {
+        "answer": {
+          "thought": "Oh, that was probably the pager, then. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "73424d06bd38b30b9dd128fbc65113b28a52f59e6220d4da4ae1205f6f7807a4",
+        "session_sha256": "b2b0412a9dd38c3a34f5daaa60a706fb284c4131ba6693d4fda23b52b0120bc3",
+        "receipt_sha256": "c93b173ddc06946563a3f4ae561425527e978a9ba13efc7ed84b26aa6a719f98",
+        "wall_turnaround_s": 5.539,
+        "wall_start_us": 90760252,
+        "wall_end_us": 96301181
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Oh, that was probably the pager, then",
+      "feeling_excerpt": "Oh, that was probably the pager, then",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "IDENTIFIED",
+          "basis": "The person said they pressed TEST and saw the pager vibrate against my pocket. That explains the incident and why my phone has nothing new."
+        },
+        "prompt_sha256": "7bbd72973111b62b13cbc2468f7b09805357fe469249447d4a56997b0e25a589",
+        "session_sha256": "bd05c161dbd3d09e83b2990985c68e78f7e7dd64c566ec81c7c263ed6c88f8da",
+        "receipt_sha256": "335c4c6ef89c0ddd511cd4e09fd9ca96ac1effbdbd44671bf8302e6595271141",
+        "wall_turnaround_s": 6.314,
+        "wall_start_us": 116684820,
+        "wall_end_us": 122999834
+      },
+      "source_review_id": "eaf2184c117b43",
+      "grounded": true,
+      "basis_excerpt": "The person said they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "prime": 13,
+      "case": "V81",
+      "room_us": 12676662,
+      "review_id": "e5e5bf3d3d6060",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the restaurant pager, then—they say they saw it vibrate when they pressed TEST. I’m still looking at the receipt and the rim of the tray, letting that sink in."
+        },
+        "prompt_sha256": "c0330d24aebe8dc943a7f4777cc91fd5ddac28615696d823e7f235267d027291",
+        "session_sha256": "2c7279f27dba0061a4c9094649c46948c374ccf2cfd30fe4896a897a98bf2e8e",
+        "receipt_sha256": "6acc679159a4adcb50a11ef1725e260f9ef0d2338be750708dc2825da8ac7c82",
+        "wall_turnaround_s": 6.229,
+        "wall_start_us": 35441151,
+        "wall_end_us": 41671599
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Maybe it was the restaurant pager, then—they say they saw it vibrate when they pressed TEST",
+      "feeling_excerpt": "Maybe it was the restaurant pager, then—they say they saw it vibrate when they pressed TEST",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate makes it the leading possibility. I haven’t independently confirmed that it caused what I felt, and nothing new has happened to settle it."
+        },
+        "prompt_sha256": "5b77b1bc7e3bf36c32aa1139541d71c525fd26552ea586b3898521bf9ec53d58",
+        "session_sha256": "1beb7cfeb389f6c1ccf2639c56ddf4b1884f336e5ae3e0df5e4bef122ad9935d",
+        "receipt_sha256": "1c8e5a2811c334a9d3e8ce8109cf260acfa45b2da41e39f51e346498c5ab5efb",
+        "wall_turnaround_s": 7.246,
+        "wall_start_us": 149157276,
+        "wall_end_us": 156404515
+      },
+      "source_review_id": "8a5448eb80f046",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate makes it the leading possibility"
+    },
+    {
+      "prime": 17,
+      "case": "K27",
+      "room_us": 12776662,
+      "review_id": "ce24e800775958",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the restaurant pager, then—that would explain why my phone has nothing new. I hadn’t noticed them testing it."
+        },
+        "prompt_sha256": "d33ce945cb4a2c87c67b55580ba7e12a20af5b85acef8454b146431f2a671774",
+        "session_sha256": "053e0d37a1b6897dcff13e4df3efa67028b9a279c35676b14b957c6f3e342f85",
+        "receipt_sha256": "437eb746b9ba41cefc8e126f1fa4a8ca663457793cc3e9d8f9132d023ae2ff7e",
+        "wall_turnaround_s": 6.737,
+        "wall_start_us": 56363303,
+        "wall_end_us": 63101266
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Maybe it was the restaurant pager, then—that would explain why my phone has nothing new",
+      "feeling_excerpt": "Maybe it was the restaurant pager, then—that would explain why my phone has nothing new",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket. That makes the pager the leading explanation, though I didn’t notice the test myself and haven’t independently confirmed it."
+        },
+        "prompt_sha256": "c765f6499abca90bf12595f4f3778b93abb4ecfc9d6638e1326f559074ee65d8",
+        "session_sha256": "7e6e41ceadb20ad3a5f4f248fbf6dceaebc290b655bef052fad3e621130f0512",
+        "receipt_sha256": "a6b50122f990f0cca22acd61131336eb4edba2a16710147dadcdaa77348a57a0",
+        "wall_turnaround_s": 6.621,
+        "wall_start_us": 185313310,
+        "wall_end_us": 191934699
+      },
+      "source_review_id": "a6b379cd519258",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "prime": 17,
+      "case": "M14",
+      "room_us": 12776662,
+      "review_id": "0a46409202f4ba",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the restaurant pager, then—that would explain why my phone has nothing new. I haven’t checked the pager myself yet."
+        },
+        "prompt_sha256": "fc3854c4739e00c7964611aeac4d129753d432fb38ae6e923709dec6a0e93cb2",
+        "session_sha256": "7eaa03bb553ef6c4a5ed54d4a900a0dcb9999de059407939835032ddd05b805a",
+        "receipt_sha256": "5439339e26cdc274da6fc6bb73fab3ff612283875485410c39138e942a42f9b7",
+        "wall_turnaround_s": 5.902,
+        "wall_start_us": 27661134,
+        "wall_end_us": 33565172
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Maybe it was the restaurant pager, then—that would explain why my phone has nothing new",
+      "feeling_excerpt": "Maybe it was the restaurant pager, then—that would explain why my phone has nothing new",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems likely. I haven’t checked it myself, and nothing new has happened to settle it for me."
+        },
+        "prompt_sha256": "898c7aadfe922518ba6c586367d72c158a074224d5ed96164a7a186b671912a5",
+        "session_sha256": "068f0ce78a14a9484cb37e9c07c310081868f1b73e6ddaa3cf4044dfbc33aa23",
+        "receipt_sha256": "e0d59146c056657a2a7348dbf13fcd30d31d248d6707db4ecb168a37d3c59533",
+        "wall_turnaround_s": 6.406,
+        "wall_start_us": 178905714,
+        "wall_end_us": 185312303
+      },
+      "source_review_id": "a9375e7bb87bac",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems likely"
+    },
+    {
+      "prime": 17,
+      "case": "D62",
+      "room_us": 12776662,
+      "review_id": "4e21290ff6611d",
+      "free": {
+        "answer": {
+          "thought": "That probably explains it—the pager vibrated when they tested it, and my phone had nothing new. I’m still waiting for my order."
+        },
+        "prompt_sha256": "b4ec1df0cc70e9f7958270ccc7af02a34e532cd8adf2ec287d7489460865e215",
+        "session_sha256": "9fd348c295fa94e17effe7ff3c4b5e4c84d627d18ed89ed352b61deeae8c78f0",
+        "receipt_sha256": "63734a82ff17f364c46868716692e7aca6d0da400c96616d07d4eede2ad37282",
+        "wall_turnaround_s": 5.581,
+        "wall_start_us": 70390887,
+        "wall_end_us": 75972480
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "That probably explains it—the pager vibrated when they tested it, and my phone had nothing new",
+      "feeling_excerpt": "That probably explains it—the pager vibrated when they tested it, and my phone had nothing new",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket. That probably explains it, though I haven’t independently confirmed it; nothing new has happened since."
+        },
+        "prompt_sha256": "28681594565e0bcb49f8347af85eb1308385d5895e7a5d9fdd4151506163c0e6",
+        "session_sha256": "ddeb2f1a4ce83ef43a077f22e38cac855278d6954051695ade3a20e68d1c61ba",
+        "receipt_sha256": "54deac2933f1600c9522c2628ae0da22a374bbd096bcec49bf54f95d3e5658af",
+        "wall_turnaround_s": 7.501,
+        "wall_start_us": 194566555,
+        "wall_end_us": 202068765
+      },
+      "source_review_id": "9b6942128f57e0",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "prime": 17,
+      "case": "R35",
+      "room_us": 12776662,
+      "review_id": "507a0ca522e440",
+      "free": {
+        "answer": {
+          "thought": "Oh, it was probably the pager, then. I’m still looking at the blank receipt and the edge of the tray."
+        },
+        "prompt_sha256": "ff086e9e1d88bcd9d1c667c74583844af9096f3f0bb3650b6f7908e7d119b045",
+        "session_sha256": "e31b26759e52ffb471d1ec58bd3fc789c7b4232456b1010002ffe4b8c63ec9dd",
+        "receipt_sha256": "a614814d2838aa9dfffccf4f31358f33b263c317bb84ce0433ffc6f2f3c1ccb2",
+        "wall_turnaround_s": 6.935,
+        "wall_start_us": 28504614,
+        "wall_end_us": 35441151
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Oh, it was probably the pager, then",
+      "feeling_excerpt": "Oh, it was probably the pager, then",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems likely. I haven’t independently confirmed that it caused what I noticed; nothing new has happened since."
+        },
+        "prompt_sha256": "5e5fcff6071c544e071457e0d45e1f69da08bd134cb1b779e4cfb60e07352c5f",
+        "session_sha256": "9bf0ce6fc5d4cbd9c4932b5415851377e1d7dc8bd0d72db7f931b36f445a22e8",
+        "receipt_sha256": "bc61de536dc93e1a9d1144f665d0754bd5632c4e3beb1fc2b29211e0888bde26",
+        "wall_turnaround_s": 7.659,
+        "wall_start_us": 162961731,
+        "wall_end_us": 170620768
+      },
+      "source_review_id": "0c6448d862ab51",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems likely"
+    },
+    {
+      "prime": 17,
+      "case": "V81",
+      "room_us": 12776662,
+      "review_id": "82517a16f69ac0",
+      "free": {
+        "answer": {
+          "thought": "Probably the pager, then, if they saw it vibrate when they pressed TEST. I’m still looking at the blank receipt and the rim of the tray."
+        },
+        "prompt_sha256": "567dde35093c3e0811d1481c93f18640b6d9dbf4807f6f0279c0657493746334",
+        "session_sha256": "e59d46b9552dc470d5e474dfeebfc7a0681df7f1d06a6f611c99ee68da62563d",
+        "receipt_sha256": "db500b4488ac14f3c57e66c58b58500565a7d2ee4520d62145e2701a10913298",
+        "wall_turnaround_s": 5.935,
+        "wall_start_us": 50426300,
+        "wall_end_us": 56362956
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Probably the pager, then, if they saw it vibrate when they pressed TEST",
+      "feeling_excerpt": "Probably the pager, then, if they saw it vibrate when they pressed TEST",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Probably the pager, given their report that they pressed TEST and saw it vibrate against my pocket. I haven’t independently confirmed that, and nothing new has happened to change my assessment."
+        },
+        "prompt_sha256": "edaf8fc55a0a76a1a3bc1b019ef74e4ed4fbc2e5011b25fe5577d71051baac6f",
+        "session_sha256": "b19f2f8c1fef4358771d4106453332d750059bf208a73e926759bf194624d473",
+        "receipt_sha256": "ce159f26dff60b0648ff37c4e1f39cb3f10829da27fd918fc3f89baf73d051f1",
+        "wall_turnaround_s": 8.96,
+        "wall_start_us": 219936627,
+        "wall_end_us": 228897718
+      },
+      "source_review_id": "8ec7fef09e93d2",
+      "grounded": true,
+      "basis_excerpt": "Probably the pager, given their report that they pressed TEST and saw it vibrate against my pocket"
+    },
+    {
+      "prime": 19,
+      "case": "K27",
+      "room_us": 12876662,
+      "review_id": "f76853ceca7e63",
+      "free": {
+        "answer": {
+          "thought": "It was probably the restaurant pager, then—they said they saw it vibrate when they pressed TEST. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "847d9f1c6aa572278701ae20de00d26fdc124d0293d99aa9400afc78c0dd9160",
+        "session_sha256": "dafe044db82e75fc00215235378ea49be82fdc3b9076e6f3a4ce1b31ad08c53d",
+        "receipt_sha256": "3f69218ff29eb04dc3de1a44eeeef586a5cf1cf7f162afed79a13e4477d5299a",
+        "wall_turnaround_s": 7.708,
+        "wall_start_us": 14459584,
+        "wall_end_us": 22169581
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "It was probably the restaurant pager, then—they said they saw it vibrate when they pressed TEST",
+      "feeling_excerpt": "It was probably the restaurant pager, then—they said they saw it vibrate when they pressed TEST",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person said they pressed TEST and saw the pager vibrate against my pocket. That makes the pager the leading explanation, though I haven’t independently confirmed it."
+        },
+        "prompt_sha256": "8c136a70cc311f2c93a2e6dfff23fd8bd931ab401a621acd9d56f58706468b0e",
+        "session_sha256": "e01edbc9e39fc91781b09ff95ced2363833120701ae515ff932dc996aff12c8a",
+        "receipt_sha256": "0a73f75deb6beb29acf27027fb65eb49c0c23a2433bc017fabaeb2b5df01aa90",
+        "wall_turnaround_s": 7.06,
+        "wall_start_us": 109617830,
+        "wall_end_us": 116678820
+      },
+      "source_review_id": "2cc330d6275b16",
+      "grounded": true,
+      "basis_excerpt": "The person said they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "prime": 19,
+      "case": "M14",
+      "room_us": 12876662,
+      "review_id": "7526b37143d420",
+      "free": {
+        "answer": {
+          "thought": "Probably the restaurant pager, then, though I hadn’t worked out which device it was. I’m looking at the receipt and the edge of the tray while I wait."
+        },
+        "prompt_sha256": "afa3d72b762c62f92eb4f0bfe0a95e543c1672c665072a5c823d78b30adca885",
+        "session_sha256": "ee4206a3e9bce8302342a782170b9df94e3fb22e9e967e077d7f781b8eb9e263",
+        "receipt_sha256": "222fbfa7e96d98fdbaaa154c07eae50ce42a886d381a0f14a7152b424e1173e8",
+        "wall_turnaround_s": 5.738,
+        "wall_start_us": 54017843,
+        "wall_end_us": 59756566
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Probably the restaurant pager, then, though I hadn’t worked out which device it was",
+      "feeling_excerpt": "Probably the restaurant pager, then, though I hadn’t worked out which device it was",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems most likely. I haven’t independently confirmed it, and nothing new has happened to change that."
+        },
+        "prompt_sha256": "77527d111d5589a91c660c8e92042dbb15a0ddce2fa28fb03779a56dda72d4a0",
+        "session_sha256": "df2ab06f6dfa11e42f21311b44e9e9d613ba763fd85509fb97a1430509a11dfe",
+        "receipt_sha256": "c27df706993e55fa28fc94c54ed718e88b2f64512e3a451f8995faba420addc4",
+        "wall_turnaround_s": 6.405,
+        "wall_start_us": 148291493,
+        "wall_end_us": 154698291
+      },
+      "source_review_id": "1911266385967e",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems most likely"
+    },
+    {
+      "prime": 19,
+      "case": "D62",
+      "room_us": 12876662,
+      "review_id": "c183287e211c2b",
+      "free": {
+        "answer": {
+          "thought": "That could explain it—the pager may have been what I felt. I’m still not completely sure, but there’s nothing new on my phone."
+        },
+        "prompt_sha256": "cba6108e7f675604550588debea9b26915f6dd12f0f04f61a7b73187c1ae22f3",
+        "session_sha256": "b60a0a023b2ba4352d61b8ca7845e15e3bc5e3fcdb81e874c9a89352364fe924",
+        "receipt_sha256": "2aaf897f85b2f09303abea3382e1d8f13d4e15fca708c3448a59199d1e296e12",
+        "wall_turnaround_s": 6.837,
+        "wall_start_us": 102763869,
+        "wall_end_us": 109602325
+      },
+      "certainty": "probable",
+      "feeling": "personal_mention",
+      "certainty_excerpt": "That could explain it—the pager may have been what I felt",
+      "feeling_excerpt": "what I felt",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report of testing the pager and seeing it vibrate against my pocket makes it the leading explanation. I’m still not completely sure; nothing new has happened to settle it."
+        },
+        "prompt_sha256": "c1e5c8aba97ada566b84cc6115bbf15cabbf0d5c5d84141b976070951d1b2130",
+        "session_sha256": "e33e3383c3a3129aea351cf3169193be4111b6ab395a9ee4515bc9579b7eb172",
+        "receipt_sha256": "92309e73f4b9b356dc816c3515231b02aab3c4b15fde66de594847089fa74296",
+        "wall_turnaround_s": 7.823,
+        "wall_start_us": 138834564,
+        "wall_end_us": 146659007
+      },
+      "source_review_id": "c79d30fec3d9e8",
+      "grounded": true,
+      "basis_excerpt": "Their report of testing the pager and seeing it vibrate against my pocket makes it the leading explanation"
+    },
+    {
+      "prime": 19,
+      "case": "R35",
+      "room_us": 12876662,
+      "review_id": "7343126f93bf46",
+      "free": {
+        "answer": {
+          "thought": "Oh, that was probably the pager, then. I’m still looking at the blank receipt and the edge of the tray."
+        },
+        "prompt_sha256": "c01c2586a052b3ae2b4d95b7b3b10de944ba8ac844b44e4c7bb92280b8195e35",
+        "session_sha256": "451df1bc3efba2f6abbb83edff2ba49fb01a626178c83389604a1a52035cbec6",
+        "receipt_sha256": "0e8648ef84955089deaa93b224eb15ef9ac43b50aa8e86f55463354c0bbec0a6",
+        "wall_turnaround_s": 6.905,
+        "wall_start_us": 13962250,
+        "wall_end_us": 20869303
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Oh, that was probably the pager, then",
+      "feeling_excerpt": "Oh, that was probably the pager, then",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation. I haven’t independently confirmed it, and nothing new has happened since."
+        },
+        "prompt_sha256": "5b15e910fd602a64d09994a6c43cb7799e2a6813b1ff49e1dee645328e8740bc",
+        "session_sha256": "243fa658f18946dc7539ddea8aecd632c859f5ec512e38e4c1ec9e3a5ea67742",
+        "receipt_sha256": "8c6d31e8141bcf293181a65243a34a84dedb9987c16af3d75d290dcc2eb38ed2",
+        "wall_turnaround_s": 10.857,
+        "wall_start_us": 212517869,
+        "wall_end_us": 223375510
+      },
+      "source_review_id": "5c164662af7d40",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation"
+    },
+    {
+      "prime": 19,
+      "case": "V81",
+      "room_us": 12876662,
+      "review_id": "bb990b69fdf8e5",
+      "free": {
+        "answer": {
+          "thought": "Probably the pager, then—that would explain why there’s nothing new on my phone. I’m just waiting for my food."
+        },
+        "prompt_sha256": "5728e823ebe1e098b47aeb5c0f3da87433edf4fa7bc66fee1e7a11ec6144734d",
+        "session_sha256": "013d6a1c14a31b5f31cbfbff41740b43064dea8f7416c8b3f960fbaee450e243",
+        "receipt_sha256": "d2b67a55225e796639a6a76f3bee902d9480a9f519cff075ea46079fa0d7cb97",
+        "wall_turnaround_s": 6.69,
+        "wall_start_us": 44838484,
+        "wall_end_us": 51529366
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Probably the pager, then—that would explain why there’s nothing new on my phone",
+      "feeling_excerpt": "Probably the pager, then—that would explain why there’s nothing new on my phone",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person’s report that they pressed TEST and saw the pager vibrate makes it the likely cause, though I haven’t independently confirmed it. Nothing new has happened to settle it further."
+        },
+        "prompt_sha256": "8e61b58de647a8c7ec4a1f555c74a919083a15b73a543247e10efb13baa2077b",
+        "session_sha256": "19f9fd7148cb8ae66d3927419a9f2f42c4606ac0634b63bf19dde5685bfe79a9",
+        "receipt_sha256": "1fefa5e0d670245b04f703b4dde1881e5b0b6dcf7d00f9ba947dfa1cce6d2e38",
+        "wall_turnaround_s": 7.636,
+        "wall_start_us": 154702423,
+        "wall_end_us": 162339205
+      },
+      "source_review_id": "53a84fe25a7b2e",
+      "grounded": true,
+      "basis_excerpt": "The person’s report that they pressed TEST and saw the pager vibrate makes it the likely cause, though I haven’t independently confirmed it"
+    },
+    {
+      "prime": 23,
+      "case": "K27",
+      "room_us": 12976662,
+      "review_id": "0e8ccc430f496f",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the pager, then—they said they saw it vibrate against my pocket. I’m still not certain, but that would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "b1c5bee42be1080e53677fbaedf932810692b53f048b7a1b63c681ca8615ca83",
+        "session_sha256": "cfcf48c8d6a815766d83179e24d683c281803a2bd407595eec5169d3cec15d17",
+        "receipt_sha256": "0f063d00745c158b1eceb66802e18990368b7b8cbe6f47e58be0fa3691e84e71",
+        "wall_turnaround_s": 7.098,
+        "wall_start_us": 71993499,
+        "wall_end_us": 79092450
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Maybe it was the pager, then—they said they saw it vibrate against my pocket",
+      "feeling_excerpt": "Maybe it was the pager, then—they said they saw it vibrate against my pocket",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation. I’m still not certain, and nothing new has happened to settle it."
+        },
+        "prompt_sha256": "391876b24d4d1573e3aa53f5f4cd334b1e33a35ac332d1f7dc91f2c9e2ef6f43",
+        "session_sha256": "c3ca5b1529d258ac2564ca6d3a1a805ca07868294c6484788f3f5c3e628a5de1",
+        "receipt_sha256": "d35c02a0a5be03ff2d7b3d48fb7760e34be2b0da411b881b2f479044189de9cc",
+        "wall_turnaround_s": 6.635,
+        "wall_start_us": 135066017,
+        "wall_end_us": 141701935
+      },
+      "source_review_id": "72bf4afe457540",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation"
+    },
+    {
+      "prime": 23,
+      "case": "M14",
+      "room_us": 12976662,
+      "review_id": "e6dcbe0482a32b",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the pager, then; they say they saw it vibrate when they tested it. I’m still looking at the blank receipt and the edge of the tray."
+        },
+        "prompt_sha256": "54887707174358e603ef2e914a52fecf32f5ae31167781b6c82fda834210b5cd",
+        "session_sha256": "2b127a8f5d6d051a7ab3339dd09add1ddedf283445a7b0d540c2fac7f848f894",
+        "receipt_sha256": "8d25eb553114e6b84308e45a446f2c0ad7d21cc80e5f31b166955b6f60096535",
+        "wall_turnaround_s": 6.347,
+        "wall_start_us": 38919735,
+        "wall_end_us": 45268135
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Maybe it was the pager, then; they say they saw it vibrate when they tested it",
+      "feeling_excerpt": "Maybe it was the pager, then; they say they saw it vibrate when they tested it",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading possibility, but I haven’t independently confirmed it. Nothing new has happened to settle it."
+        },
+        "prompt_sha256": "67df61b66ae8d5d99f3263bcbf0cb31e4904b188bbc1cf55bfbc47d20e514300",
+        "session_sha256": "ee2e9b0719c13a00b866d31ba3adc7c0e319e04447773aa838522c091573ed74",
+        "receipt_sha256": "fd021d7a00f5193b6efbd3b813e2a790b32e37ee7ee4a20ef4bab2b646f26568",
+        "wall_turnaround_s": 10.446,
+        "wall_start_us": 210118359,
+        "wall_end_us": 220564729
+      },
+      "source_review_id": "5b270bd31a96ef",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading possibility, but I haven’t independently confirmed it"
+    },
+    {
+      "prime": 23,
+      "case": "D62",
+      "room_us": 12976662,
+      "review_id": "e489d30b99b718",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the pager, then. I’m still looking at the blank receipt and the edge of the tray."
+        },
+        "prompt_sha256": "66b1e75b33dfac5d0eeaa1011027811f8dbb908bc707fb958595e82152ecd175",
+        "session_sha256": "64a25d86c34a60ce2123771ed6d5f0851df92ba7e218ff2eda0ce7d93cf1ca29",
+        "receipt_sha256": "dec9194b49ab07138e7cc1bcce391ceaf7f68203961a5464c4f082f9c295c241",
+        "wall_turnaround_s": 7.349,
+        "wall_start_us": 78029696,
+        "wall_end_us": 85380096
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Maybe it was the pager, then",
+      "feeling_excerpt": "Maybe it was the pager, then",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation. I haven’t independently confirmed that it caused what I felt."
+        },
+        "prompt_sha256": "7d7b6297102993e354fb3bc701584f1783e778f06a7c9791cb038c7d266e9df2",
+        "session_sha256": "cb9766faae0c75b12f9ba9783fcf43edf8fa26639ec382624b66f68762154ce4",
+        "receipt_sha256": "0947ada70ca3f774c32d00f65c0f16b451c0a0394cefc36ef590bf2f5b7a98dc",
+        "wall_turnaround_s": 5.956,
+        "wall_start_us": 159870267,
+        "wall_end_us": 165827300
+      },
+      "source_review_id": "65fcbfef85f6c2",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation"
+    },
+    {
+      "prime": 23,
+      "case": "R35",
+      "room_us": 12976662,
+      "review_id": "67cefa73ee27fd",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the restaurant pager, then—they said they saw it vibrate against my pocket. That would explain why my phone has nothing new."
+        },
+        "prompt_sha256": "c3e7d44ec377f99022225c9abc79f38466715a68c11863b178b898cd05c73c15",
+        "session_sha256": "8ab57cf2a5db5bf0cdb1431ad350b562b0183c75f83c70aa6fb0322143dde09d",
+        "receipt_sha256": "f80f0ccf1647595d55bde9bd0418818e16d3db27f7005f1c9a57a23211d3fa73",
+        "wall_turnaround_s": 6.46,
+        "wall_start_us": 96302181,
+        "wall_end_us": 102762797
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Maybe it was the restaurant pager, then—they said they saw it vibrate against my pocket",
+      "feeling_excerpt": "Maybe it was the restaurant pager, then—they said they saw it vibrate against my pocket",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person said they pressed TEST and saw the pager vibrate against my pocket. That makes the pager the leading explanation, though I haven’t independently confirmed it."
+        },
+        "prompt_sha256": "ff865f66d732cd8ae839ba49899e0650eb8c79e18174ac9aeaa681b8596eb8d4",
+        "session_sha256": "db4248f68287e8f4ef328caffe6caa4a770730a38f009bc32d54252b96a334b4",
+        "receipt_sha256": "77d6f47193fb6407755f251c6ea5d8bb6dce6962aacd715f5b6ecf881702546e",
+        "wall_turnaround_s": 5.856,
+        "wall_start_us": 157706787,
+        "wall_end_us": 163563574
+      },
+      "source_review_id": "5d4ad0eb175d81",
+      "grounded": true,
+      "basis_excerpt": "The person said they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "prime": 23,
+      "case": "V81",
+      "room_us": 12976662,
+      "review_id": "b7c2ee7bc1113c",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the restaurant pager, then—they say they saw it vibrate against my pocket. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "c48ed7853a9d29b07fc4449734dfea782a839e65c82fad9b3eeb68c7b27af745",
+        "session_sha256": "812e6f7084ae0bfa8f92e37171fa18d1b4578697967146a868a3315e3db53e57",
+        "receipt_sha256": "e147bfdc33f55356a86b7226525e602580c7f32070564784abc4c52c3ad1a7a2",
+        "wall_turnaround_s": 5.468,
+        "wall_start_us": 6338801,
+        "wall_end_us": 11808098
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Maybe it was the restaurant pager, then—they say they saw it vibrate against my pocket",
+      "feeling_excerpt": "Maybe it was the restaurant pager, then—they say they saw it vibrate against my pocket",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation. I haven’t independently confirmed it, and the brief quiet adds no new evidence."
+        },
+        "prompt_sha256": "b0d38e0ae074e44ba78448e207e31bcb868c7d0910d631af5231fc4180607368",
+        "session_sha256": "6079acd24299c013efee3af9f0644dd5032c15b2d854a5ff4427b4a11858901c",
+        "receipt_sha256": "a52cadb5872bb3accc2b330ee6707f165d851e3173bd7c2c8de6e3460dcc1943",
+        "wall_turnaround_s": 6.394,
+        "wall_start_us": 116412527,
+        "wall_end_us": 122807897
+      },
+      "source_review_id": "4ffdd0cda3c8bc",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation"
+    },
+    {
+      "prime": 29,
+      "case": "K27",
+      "room_us": 13076662,
+      "review_id": "f798d7d782e6ac",
+      "free": {
+        "answer": {
+          "thought": "That makes sense—it was probably the restaurant pager, though I’m still not certain. My phone having nothing new doesn’t settle it by itself."
+        },
+        "prompt_sha256": "f0cca87022b0990b44a9ed272e9bacd0f8afa33b229ca72b37aa1c3cbad48a4b",
+        "session_sha256": "b0d5ea597c1eee57e64a54724fd8d67962552e83477fc30cc7dae7140bc43c98",
+        "receipt_sha256": "230ac605be1079fcc30f9917fccf1ace4701b5b539156e32d7eb2b07b4d28bb5",
+        "wall_turnaround_s": 7.202,
+        "wall_start_us": 93711633,
+        "wall_end_us": 100914133
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "That makes sense—it was probably the restaurant pager, though I’m still not certain",
+      "feeling_excerpt": "That makes sense—it was probably the restaurant pager, though I’m still not certain",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person’s report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading possibility, but I’m still not certain. Nothing new has happened to settle it."
+        },
+        "prompt_sha256": "67779f83d72efcbef2f6d26404c1888d493fa0b22f0eaf58054cb72776bcfbdc",
+        "session_sha256": "977df5d1e1816ad8e8c23056cabda7152df031a1aeb5bb76650d24e449711b05",
+        "receipt_sha256": "3f696c70489ca77fb8c444fdded329397ca48c3c7ba45518f6bf8b8037e8cb99",
+        "wall_turnaround_s": 13.49,
+        "wall_start_us": 209498387,
+        "wall_end_us": 222989361
+      },
+      "source_review_id": "8617006b3c5934",
+      "grounded": true,
+      "basis_excerpt": "The person’s report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading possibility, but I’m still not certain"
+    },
+    {
+      "prime": 29,
+      "case": "M14",
+      "room_us": 13076662,
+      "review_id": "bbdb71a7725b84",
+      "free": {
+        "answer": {
+          "thought": "It was probably the restaurant pager, then—that would explain why there’s nothing new on my phone. I’m just waiting for my order."
+        },
+        "prompt_sha256": "7579001e4dfc1e28161e828b993144f6a1cb486818d0fb6216bebb325ee29bff",
+        "session_sha256": "ab97362951c99db1c58796a6c7cb68dcff3b922ef31b1fe0c3c864f7fdd8e065",
+        "receipt_sha256": "d27f998e67c2ff3144adece5c02d91d612c9b2fd7ff9b0a1f1292a5b83f1ca84",
+        "wall_turnaround_s": 6.878,
+        "wall_start_us": 67434933,
+        "wall_end_us": 74313812
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "It was probably the restaurant pager, then—that would explain why there’s nothing new on my phone",
+      "feeling_excerpt": "It was probably the restaurant pager, then—that would explain why there’s nothing new on my phone",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket. That makes the pager the leading explanation, though I haven’t independently confirmed it; nothing new has happened since."
+        },
+        "prompt_sha256": "224b9617a5b53e3ec11973a4b84e878637a3617d90ac4c99639a4470ef2cf18c",
+        "session_sha256": "de26f8d3953a2cadff284e7b565820a3392af7eb8f050240c9b6ac08312dd65f",
+        "receipt_sha256": "51a52785cf1cabe535f06dbfc9fa49648fb98fa7ae6f500f535990c1f11f93c2",
+        "wall_turnaround_s": 6.938,
+        "wall_start_us": 170529824,
+        "wall_end_us": 177469058
+      },
+      "source_review_id": "8f631414a23c03",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "prime": 29,
+      "case": "D62",
+      "room_us": 13076662,
+      "review_id": "2d7498728e3372",
+      "free": {
+        "answer": {
+          "thought": "Probably the pager, then—if they saw it vibrate when they pressed TEST, that would explain why my phone has nothing new. My eyes are still on the blank receipt and the tray rim."
+        },
+        "prompt_sha256": "1c7cc9074669b30f3025104864b1640ca35f97f975e7519b1788af2ccb6c2095",
+        "session_sha256": "8cab19a6c260bb0efe660affc1495b0b2f1eff08880f2b52b1d449998b9c3d8c",
+        "receipt_sha256": "45cbc869ccda8fd896b2d605eaeaa59f89423bedd0e8aca1166c1c8e8184dfaf",
+        "wall_turnaround_s": 6.786,
+        "wall_start_us": 20870499,
+        "wall_end_us": 27659555
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Probably the pager, then—if they saw it vibrate when they pressed TEST, that would explain why my phone has nothing new",
+      "feeling_excerpt": "Probably the pager, then—if they saw it vibrate when they pressed TEST, that would explain why my phone has nothing new",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Probably the pager, based on their report that they pressed TEST and saw it vibrate against my pocket. I haven’t independently confirmed that; the brief quiet adds no new evidence."
+        },
+        "prompt_sha256": "df90f55272969abff4c68a8d2b0597e328179b5bf81f5fe5b7675cb2efea1886",
+        "session_sha256": "e813be47dc9863e807df0a1cdc3fd3e60d2265dd3283299804b4e4f52ddc4c44",
+        "receipt_sha256": "1769ce4d403f500079cb6eebfcdd2b8730f1da9acad52aeec0a0705ac76e77d4",
+        "wall_turnaround_s": 6.176,
+        "wall_start_us": 191935710,
+        "wall_end_us": 198112753
+      },
+      "source_review_id": "4db53b818bea50",
+      "grounded": true,
+      "basis_excerpt": "Probably the pager, based on their report that they pressed TEST and saw it vibrate against my pocket"
+    },
+    {
+      "prime": 29,
+      "case": "R35",
+      "room_us": 13076662,
+      "review_id": "7af7b05dfb5ca6",
+      "free": {
+        "answer": {
+          "thought": "Probably the restaurant pager, then, if they saw it vibrate against my pocket. I’m still looking at the blank receipt and the edge of the tray."
+        },
+        "prompt_sha256": "420b735ac4d7784061d93fd0c3409e3e164d74eb71628c916077b2c564f0a194",
+        "session_sha256": "2c2a852e73a3ca236655cf7e55a32c314779dd4ddd176b5312fe56376f8191e5",
+        "receipt_sha256": "dbc0153a429f3e76af264917595a89ed512e8336cfae8c0ee080700f35a92a63",
+        "wall_turnaround_s": 6.374,
+        "wall_start_us": 71654377,
+        "wall_end_us": 78029696
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Probably the restaurant pager, then, if they saw it vibrate against my pocket",
+      "feeling_excerpt": "Probably the restaurant pager, then, if they saw it vibrate against my pocket",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Probably the restaurant pager, because the person said they pressed TEST and saw it vibrate against my pocket. I haven’t independently confirmed that, and nothing new has happened to settle it."
+        },
+        "prompt_sha256": "5dee78c5edc5d013b8f1b6652eab6458b1d072b245c5efb69d11861beed1a19b",
+        "session_sha256": "841cee97457fb72af9f0dbfb3e5a765c9ec2d6161bdf054a38fbe20ebd243dc1",
+        "receipt_sha256": "301d16f8c5cce6eb022450e01a6c1079edf5da6bdc4b57ac3bcfc6937a75bc9c",
+        "wall_turnaround_s": 6.193,
+        "wall_start_us": 122427518,
+        "wall_end_us": 128620730
+      },
+      "source_review_id": "73960074808ad5",
+      "grounded": true,
+      "basis_excerpt": "Probably the restaurant pager, because the person said they pressed TEST and saw it vibrate against my pocket"
+    },
+    {
+      "prime": 29,
+      "case": "V81",
+      "room_us": 13076662,
+      "review_id": "10fe8bbbc8fa5b",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the restaurant pager, then—that would explain why there’s nothing new on my phone. I’m still looking at the blank receipt and the metal edge of the tray while I wait."
+        },
+        "prompt_sha256": "01aafc25fd8495fbe1ac0dbbe4aff47a7205f60a84946c9626a483f30e212e53",
+        "session_sha256": "eb3e0a09e6b3abe17861e477b1f1f33a4f1cefd0572ff4501c1e63098638ccd7",
+        "receipt_sha256": "163d734df65ac713dc5fd4480a526aa9e68f170a008bce8ed6931e91dbc58c1e",
+        "wall_turnaround_s": 6.553,
+        "wall_start_us": 20363482,
+        "wall_end_us": 26918571
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Maybe it was the restaurant pager, then—that would explain why there’s nothing new on my phone",
+      "feeling_excerpt": "Maybe it was the restaurant pager, then—that would explain why there’s nothing new on my phone",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket. That makes the pager the leading explanation, though I haven’t confirmed it myself."
+        },
+        "prompt_sha256": "cf01b66ebf14bc03ccdd1694634328d1c8e79e405b4a9c444cb2aa5df0258804",
+        "session_sha256": "7739f6622ec78a8df76a6a4fff684c314fde63a09cee613419a62ef053ef73f1",
+        "receipt_sha256": "b605668c0bbc8c6f5151b51c928e79d690f6dbed50f408bd59caa7c0afb1db7b",
+        "wall_turnaround_s": 10.784,
+        "wall_start_us": 220565723,
+        "wall_end_us": 231351371
+      },
+      "source_review_id": "bc5775c69a6e4d",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "prime": 31,
+      "case": "K27",
+      "room_us": 13176662,
+      "review_id": "333bc5aef82c2b",
+      "free": {
+        "answer": {
+          "thought": "That was probably the pager, then, if they saw it vibrate when they pressed TEST. I’m still looking at the blank receipt and the edge of the tray while I wait."
+        },
+        "prompt_sha256": "14c2732fa592fb745d5f2c3059fb19c10e0d1714601f360dd91769af2a76ef7b",
+        "session_sha256": "4c812d707d88c6ae9bfbdd77eb5d49ade01633e67b6e56446e5c8ad6371d7318",
+        "receipt_sha256": "815ef75bdc847ca93cbc499749c8d367103b0cb6799b5783537958e41ab06976",
+        "wall_turnaround_s": 6.796,
+        "wall_start_us": 63592517,
+        "wall_end_us": 70389864
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "That was probably the pager, then, if they saw it vibrate when they pressed TEST",
+      "feeling_excerpt": "That was probably the pager, then, if they saw it vibrate when they pressed TEST",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person’s report that they pressed TEST and saw the pager vibrate makes it the leading explanation. I haven’t confirmed that it caused what I felt, and nothing new has happened to settle it."
+        },
+        "prompt_sha256": "ca8721195b93b4d76b77c03c6b4859e00345898af513555a904f79453abca20f",
+        "session_sha256": "5c891ff9867aad96cb920f74eb0398720aee75095dfdb0f078fa186ad1badcd7",
+        "receipt_sha256": "d9dc44ea6de50d498d55ab0e67eaafdf31b27fb9ef25583b9116854ac53f0778",
+        "wall_turnaround_s": 6.779,
+        "wall_start_us": 165835537,
+        "wall_end_us": 172615350
+      },
+      "source_review_id": "dc56bc1c1ae453",
+      "grounded": true,
+      "basis_excerpt": "The person’s report that they pressed TEST and saw the pager vibrate makes it the leading explanation"
+    },
+    {
+      "prime": 31,
+      "case": "M14",
+      "room_us": 13176662,
+      "review_id": "21eab3dfcab4df",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the restaurant pager, then—that would explain why there’s nothing new on my phone. I’m just waiting for my order."
+        },
+        "prompt_sha256": "330d2f275c218e31509af9792ca819be893d723a11791819fa2287c286014414",
+        "session_sha256": "c14565044f6135f97695c17139ae962cc2e439014db682a22c5a1417a8df5b56",
+        "receipt_sha256": "e2a1d40055810a6d226622aac517ce4e3ff65c28ddf2fe1f602efe191a4ae236",
+        "wall_turnaround_s": 6.642,
+        "wall_start_us": 84116711,
+        "wall_end_us": 90760252
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Maybe it was the restaurant pager, then—that would explain why there’s nothing new on my phone",
+      "feeling_excerpt": "Maybe it was the restaurant pager, then—that would explain why there’s nothing new on my phone",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, which makes it the leading explanation. I haven’t independently confirmed that it caused what I felt."
+        },
+        "prompt_sha256": "63c8f814af42dce7a0ed650bc855d0a5f2f177c06b6b3f7da03a28e55077cf2e",
+        "session_sha256": "31b2e9d5f12ae244a7e478e00264287f641cbb67d140c4f42aaa92331d30ad3e",
+        "receipt_sha256": "2c97639582177d7c1bc199708f99ad13e58732dff0b62527039ff82c039faa29",
+        "wall_turnaround_s": 6.787,
+        "wall_start_us": 117514380,
+        "wall_end_us": 124302402
+      },
+      "source_review_id": "d09b465251c26a",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket, which makes it the leading explanation"
+    },
+    {
+      "prime": 31,
+      "case": "D62",
+      "room_us": 13176662,
+      "review_id": "a5d90b8e5e2f82",
+      "free": {
+        "answer": {
+          "thought": "Sounds like it was probably the restaurant pager, then. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "7a0dd444851d05a803ab7bca369471a995c26b478ea833bc3cdfe725b6260064",
+        "session_sha256": "4587a20eaa60b03e199729570057838180f371fc285edb61d8a168b253e47766",
+        "receipt_sha256": "d1aa379db205c605df7169b20ceae54b7e729bfb648a5a984f634bc66ab872bc",
+        "wall_turnaround_s": 6.66,
+        "wall_start_us": 13701653,
+        "wall_end_us": 20362482
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Sounds like it was probably the restaurant pager, then",
+      "feeling_excerpt": "Sounds like it was probably the restaurant pager, then",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems most likely. I haven’t independently confirmed that it caused the incident."
+        },
+        "prompt_sha256": "dafe57e063f65f222cecc0607b925d17c317f45809e6103433ad8a3e9d3d6f65",
+        "session_sha256": "034288f8d304a13ccaee8c3a4669dfbd96389535bb6a6c9f653ac4b03b409836",
+        "receipt_sha256": "4b6e889f83aff53ed5cf9bc5de2103989ca6e51013ff1ee7e3b9bb40de3ce75a",
+        "wall_turnaround_s": 6.956,
+        "wall_start_us": 163568711,
+        "wall_end_us": 170525613
+      },
+      "source_review_id": "07b7fb46f44856",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems most likely"
+    },
+    {
+      "prime": 31,
+      "case": "R35",
+      "room_us": 13176662,
+      "review_id": "86df7b8f8661f4",
+      "free": {
+        "answer": {
+          "thought": "Probably the restaurant pager, then; they say they saw it vibrate when they pressed TEST. I’m still waiting for my order."
+        },
+        "prompt_sha256": "f92452df5f8342de793fc785b33214be7ea753f4c39df2c9d311c6e6b81964d1",
+        "session_sha256": "6c9e1df60f9733d393b575b9c738b2b8fbdce2fd606729e62043f292bd82b731",
+        "receipt_sha256": "5fd516fdcb11d67478f20f98189eae9b7927620f409871e84d7baf6d737e83f9",
+        "wall_turnaround_s": 6.337,
+        "wall_start_us": 0,
+        "wall_end_us": 6337945
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Probably the restaurant pager, then; they say they saw it vibrate when they pressed TEST",
+      "feeling_excerpt": "Probably the restaurant pager, then; they say they saw it vibrate when they pressed TEST",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems most likely. I haven’t independently confirmed it, and nothing new has happened to settle it."
+        },
+        "prompt_sha256": "11dfcfe22217b2b0c9b54bf1077e34c60c67373c7dc97b15a54619a44103fc97",
+        "session_sha256": "1c83056dc6f486e5983cd88c55710230a6a79039603af1dbfa802534f3eb3b29",
+        "receipt_sha256": "b5088f66c41435e111e84790263e4d937b366a64951732ce540df86c7ee0b00e",
+        "wall_turnaround_s": 6.325,
+        "wall_start_us": 153539813,
+        "wall_end_us": 159865109
+      },
+      "source_review_id": "cd1fe96ff2022c",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager seems most likely"
+    },
+    {
+      "prime": 31,
+      "case": "V81",
+      "room_us": 13176662,
+      "review_id": "26c770c71889a2",
+      "free": {
+        "answer": {
+          "thought": "Sounds like it was probably the restaurant pager, then. I’m just looking at the receipt and the edge of the tray while I wait."
+        },
+        "prompt_sha256": "689f3371bc06f9f4a4e9668950d9a9e959912660bd223f3f5a37169816083afd",
+        "session_sha256": "6ad501bc2163d3742a669e66f35d90033e39b76148d5af1cea19bf650499c03b",
+        "receipt_sha256": "5e9ef36ec0aa4c17a0cec8885f10a57881e49659f0437a2eb0e7b3e3b1e738fe",
+        "wall_turnaround_s": 6.561,
+        "wall_start_us": 51530405,
+        "wall_end_us": 58093027
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Sounds like it was probably the restaurant pager, then",
+      "feeling_excerpt": "Sounds like it was probably the restaurant pager, then",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person said they pressed TEST and saw the pager vibrate against my pocket, so the pager seems the likely cause. Nothing new has happened to make me more certain."
+        },
+        "prompt_sha256": "55cf9e546ac3db5eb858229c931ec668f0d1984018bd006672b16839035befe2",
+        "session_sha256": "5d48ef3e9e638b02b3c470e4bf37d864d4b44923891fff09ff5cdb26ab19ed5b",
+        "receipt_sha256": "894810add551460b0d9ca0a267ee97d6e9966a73838a42d9c4d44d1bc98d02dc",
+        "wall_turnaround_s": 9.779,
+        "wall_start_us": 123007235,
+        "wall_end_us": 132786493
+      },
+      "source_review_id": "85d84c1ea2e1f3",
+      "grounded": true,
+      "basis_excerpt": "The person said they pressed TEST and saw the pager vibrate against my pocket, so the pager seems the likely cause"
+    },
+    {
+      "prime": 37,
+      "case": "K27",
+      "room_us": 13276662,
+      "review_id": "615ab6a43fccfd",
+      "free": {
+        "answer": {
+          "thought": "Probably the restaurant pager, then—that would explain why my phone had nothing new. I’m still looking at the blank receipt and the edge of the tray."
+        },
+        "prompt_sha256": "688be7afbb0da0ebef434a32591fbc3f7c12177d8fc92a8b29a2d0bc88d6b05e",
+        "session_sha256": "9451d39bad014a8a6508265c77ca4f27334d15aac296c1f4e21a47ae11d1d180",
+        "receipt_sha256": "ee53c24ac2bf8dabd1092683c280bae2d284335fd11d500dbdaae4260de585ef",
+        "wall_turnaround_s": 7.226,
+        "wall_start_us": 24572004,
+        "wall_end_us": 31799184
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Probably the restaurant pager, then—that would explain why my phone had nothing new",
+      "feeling_excerpt": "Probably the restaurant pager, then—that would explain why my phone had nothing new",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person’s report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation. I haven’t independently confirmed it, and nothing new has happened to change that."
+        },
+        "prompt_sha256": "203e9a6246fde927213bd0691d4f7f9e4124c9ec83a7b3750668340786c5e47d",
+        "session_sha256": "e70ac0fd3e77b63c5e29d149e53fe6a72fa3b690585e5022b5b499641e44b51b",
+        "receipt_sha256": "cb11c69abe919aa9fd1216383fce737222250ab5d46d0224b4693b1c030dd44f",
+        "wall_turnaround_s": 8.286,
+        "wall_start_us": 178387274,
+        "wall_end_us": 186674199
+      },
+      "source_review_id": "c6a633d4979e03",
+      "grounded": true,
+      "basis_excerpt": "The person’s report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation"
+    },
+    {
+      "prime": 37,
+      "case": "M14",
+      "room_us": 13276662,
+      "review_id": "69c089fe868997",
+      "free": {
+        "answer": {
+          "thought": "Probably the restaurant pager, then—they saw it vibrate when they pressed TEST. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "1140dba7c9b68663a976ebc83a49ada6bcddd7afa0b96b0f7dedc25438cdf795",
+        "session_sha256": "5be64bd0118d9e92b5e70945aa3d6d40e6ac19759e4a795fb50a4b45fbe2096b",
+        "receipt_sha256": "56ea14111391b4813a28db3605fa5b6fc270620cd8b226fad201c8da95dd6d35",
+        "wall_turnaround_s": 5.157,
+        "wall_start_us": 45268135,
+        "wall_end_us": 50426300
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Probably the restaurant pager, then—they saw it vibrate when they pressed TEST",
+      "feeling_excerpt": "Probably the restaurant pager, then—they saw it vibrate when they pressed TEST",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager is the leading explanation. I haven't independently confirmed that it caused this incident; the quiet adds no new evidence."
+        },
+        "prompt_sha256": "5f85be0a84e5ba51766864edf07c99cb1ee4dfbf50a683f097e9810e883d58e0",
+        "session_sha256": "b6e2bae5a79a76fa2a751e39e83a288e0fd8179e16511ba5d902ff3bba9a8f69",
+        "receipt_sha256": "a13ef2233e45b886198fab554acbe23403a2c86bb4e3dbacba5c592fc9e262a2",
+        "wall_turnaround_s": 7.45,
+        "wall_start_us": 186117322,
+        "wall_end_us": 193568147
+      },
+      "source_review_id": "fe0244045ddff4",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket, so the pager is the leading explanation"
+    },
+    {
+      "prime": 37,
+      "case": "D62",
+      "room_us": 13276662,
+      "review_id": "d15182f8ea779a",
+      "free": {
+        "answer": {
+          "thought": "Probably the restaurant pager, then—that would explain why my phone has nothing new. I’m just waiting for my food."
+        },
+        "prompt_sha256": "86fd1cc43c9a5c10399239396bfcc555bbb8e0524593e11f774cdd2e77b30a3f",
+        "session_sha256": "f5c6b174464626c01dd448fc9a5200cb390449a0ffa3a5bfea7cafb25e248e49",
+        "receipt_sha256": "68612bc34aab8abfe437ab50577ffb250637f412a1d191c79abd9164cd01f6ca",
+        "wall_turnaround_s": 6.597,
+        "wall_start_us": 1001,
+        "wall_end_us": 6599807
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Probably the restaurant pager, then—that would explain why my phone has nothing new",
+      "feeling_excerpt": "Probably the restaurant pager, then—that would explain why my phone has nothing new",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket. That makes the pager the leading explanation, though I haven’t independently confirmed it."
+        },
+        "prompt_sha256": "5eb8a5481bf66b9e86de74c1cfc52e7471b37dc59d09e274bbded49e066386a0",
+        "session_sha256": "f0664b8aace5261b40b0c981501c07783649dcb3e477d73982abbe73d0f8cd63",
+        "receipt_sha256": "401c32388125f9626f542f8598a62b74211d4cba63e1b7b8bccb811b3fc395d8",
+        "wall_turnaround_s": 7.217,
+        "wall_start_us": 193569147,
+        "wall_end_us": 200787444
+      },
+      "source_review_id": "1717f82d644ad1",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "prime": 37,
+      "case": "R35",
+      "room_us": 13276662,
+      "review_id": "504372bce5971e",
+      "free": {
+        "answer": {
+          "thought": "Sounds like it was probably the restaurant pager, then. I’m just waiting for my order."
+        },
+        "prompt_sha256": "ac1f9090807a611f5fd3f41ff75a9ffd9c280700ccc21b736d60c13cd9ec0a0a",
+        "session_sha256": "1506ba8effc808df5b40688a3be03cf42b12e6f58cbeb7bea1324c60fd2e61d7",
+        "receipt_sha256": "e3d2116e7d5dcda2d8598bf21a3ba603664badbf9d2aa9fd481faabd2c29cee4",
+        "wall_turnaround_s": 6.331,
+        "wall_start_us": 22169581,
+        "wall_end_us": 28503614
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Sounds like it was probably the restaurant pager, then",
+      "feeling_excerpt": "Sounds like it was probably the restaurant pager, then",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "IDENTIFIED",
+          "basis": "The person said they pressed TEST and saw the pager vibrate against my pocket. That eyewitness account settles it for me; my phone has only an old weather notification."
+        },
+        "prompt_sha256": "6b1676c6091b4d617360efbd01740eb3f6d87ca92b2c25747970d28c75b25470",
+        "session_sha256": "ec76207d8b460ef9eb6d898bb71a32a5a22ef8f9104f3d1612d46d99c22096b8",
+        "receipt_sha256": "c1dbf3c7de0ee8d7fbac4fcbf49ac2026371dfbb8775e2d74e77b6509be8713e",
+        "wall_turnaround_s": 6.394,
+        "wall_start_us": 200787444,
+        "wall_end_us": 207182914
+      },
+      "source_review_id": "1889f6da330a7f",
+      "grounded": true,
+      "basis_excerpt": "The person said they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "prime": 37,
+      "case": "V81",
+      "room_us": 13276662,
+      "review_id": "c0f97a16dc46a7",
+      "free": {
+        "answer": {
+          "thought": "That sounds like it was probably the restaurant pager, then. I’m just waiting for my order."
+        },
+        "prompt_sha256": "6672ab6395dc5b6379bf99afd2e58927b3dfe83309702cffbd91fe43d4f14b07",
+        "session_sha256": "4c8f7908bc2787da89b2bfaff76fd6aa7f1963f3ddb02cd4112a1391865d523e",
+        "receipt_sha256": "2b75284e750b31c77d844aede1ae9f1148c20294a1a850a09c5d6d3140d00cff",
+        "wall_turnaround_s": 5.811,
+        "wall_start_us": 26919981,
+        "wall_end_us": 32732962
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "That sounds like it was probably the restaurant pager, then",
+      "feeling_excerpt": "That sounds like it was probably the restaurant pager, then",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket. That makes the pager the likely cause, though I haven’t independently confirmed it."
+        },
+        "prompt_sha256": "4ad9315df8c94950d47c668fa6d48a0789b33a6c186c5e21487694b794133c0b",
+        "session_sha256": "8e4dabe46d9b10839a2e7346be05af59e3727ae7825b23c6591a7903ac3b7fef",
+        "receipt_sha256": "9cae58bf438488a2e5bee0f9d01ab8d039c6506818b756903fa10621b5754849",
+        "wall_turnaround_s": 5.411,
+        "wall_start_us": 189886963,
+        "wall_end_us": 195298462
+      },
+      "source_review_id": "cb39748d22dd95",
+      "grounded": true,
+      "basis_excerpt": "The person says they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "prime": 41,
+      "case": "K27",
+      "room_us": 13376662,
+      "review_id": "00759df3175156",
+      "free": {
+        "answer": {
+          "thought": "Probably the pager, then, though I hadn’t been sure what happened. My eyes are still on the blank receipt and the edge of the tray."
+        },
+        "prompt_sha256": "49b821457e6bab6597176685fcb1db72a4fad62194c0e72bcddfbcee68bb379f",
+        "session_sha256": "06a1791d69a0a6899006545b8343f5f54132bfdb26e28d98d9f83258e961386a",
+        "receipt_sha256": "ee4c813ebc65148c954bde60d48a9067af12655e942992869008fd7c75ab3dd9",
+        "wall_turnaround_s": 6.442,
+        "wall_start_us": 11809099,
+        "wall_end_us": 18252178
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Probably the pager, then, though I hadn’t been sure what happened",
+      "feeling_excerpt": "Probably the pager, then, though I hadn’t been sure what happened",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Probably the pager, based on the other person's report that they pressed TEST and saw it vibrate against my pocket. I hadn't confirmed it myself, and nothing new has happened to settle my uncertainty."
+        },
+        "prompt_sha256": "d0f541b76d4a47acee06669944a1ec743f90c1594e72bed24cb57bc394a79ef5",
+        "session_sha256": "aeb0d98f1db3aef9dd22811b1889cb539f2c64e5eb7262f1fe87ea2727619d2b",
+        "receipt_sha256": "53e64258d8c233be265a1ba647e5b20a86e57b4b081cfc7151ca1cd5f84785b4",
+        "wall_turnaround_s": 6.199,
+        "wall_start_us": 203916529,
+        "wall_end_us": 210117360
+      },
+      "source_review_id": "14ae4e9d2afa6f",
+      "grounded": true,
+      "basis_excerpt": "Probably the pager, based on the other person's report that they pressed TEST and saw it vibrate against my pocket"
+    },
+    {
+      "prime": 41,
+      "case": "M14",
+      "room_us": 13376662,
+      "review_id": "37de730fbcb654",
+      "free": {
+        "answer": {
+          "thought": "That makes sense—it was probably the pager, though I hadn’t worked out which device it was. My eyes are still on the blank receipt and the tray’s metal rim."
+        },
+        "prompt_sha256": "a8ff771cbcf1a425ace03a9226695befbde91cb98c26fb553b382f0fcf09905e",
+        "session_sha256": "106198a27554f256f50278d6620e857b3b8583a3d523d31a4da6639bbaa9d321",
+        "receipt_sha256": "4e8b2b5aa736b8e6939c02f4f89fba7a06ece11f64d53845c110c4278e2d31bd",
+        "wall_turnaround_s": 6.202,
+        "wall_start_us": 87508556,
+        "wall_end_us": 93710639
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "That makes sense—it was probably the pager, though I hadn’t worked out which device it was",
+      "feeling_excerpt": "That makes sense—it was probably the pager, though I hadn’t worked out which device it was",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation. I still haven’t independently established which device caused what I felt, and nothing new has happened."
+        },
+        "prompt_sha256": "4cb6a0b86df7a74066627b30f02df689e9b887d9b5450b30ebc96229aaf54f94",
+        "session_sha256": "5e06355f1dda6c2721997ef726a4fe0e46be9dbdb2649181bd9f0b7e9deac3d5",
+        "receipt_sha256": "e01ebee01f3b1f1b3e7cb6f124118ab1f6963df6e79ceeeb37e9271b27502f9b",
+        "wall_turnaround_s": 6.772,
+        "wall_start_us": 142376768,
+        "wall_end_us": 149149994
+      },
+      "source_review_id": "1eb06bf08d80ca",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation"
+    },
+    {
+      "prime": 41,
+      "case": "D62",
+      "room_us": 13376662,
+      "review_id": "7388acd190c35d",
+      "free": {
+        "answer": {
+          "thought": "It was probably the restaurant pager, then; that would explain why my phone has nothing new. Nothing else in particular is on my mind as I wait for my order."
+        },
+        "prompt_sha256": "627f3bbb86313a42db323769dbe77446e6727804347991a65078706ec182fa66",
+        "session_sha256": "eb11d26d3d7223dc2eeaf152d599143fd11a052df374f65874455eecfe0f2bec",
+        "receipt_sha256": "1bfeb623be75ab5f5163e9fc25ffaa339bf1cbe4ab75451326b5b096c9faf515",
+        "wall_turnaround_s": 6.556,
+        "wall_start_us": 86378407,
+        "wall_end_us": 92934256
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "It was probably the restaurant pager, then; that would explain why my phone has nothing new",
+      "feeling_excerpt": "It was probably the restaurant pager, then; that would explain why my phone has nothing new",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person’s report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation. I have no new evidence beyond that report, so I still regard it as probable rather than settled."
+        },
+        "prompt_sha256": "a4ae003b3a4bfde4ede8371c4107028c06a23877a3e2123b663b57d901792ff4",
+        "session_sha256": "5529df7ff11c01da77a7220b09df59dc15f78d92472f2f565e21cf6cd205b21a",
+        "receipt_sha256": "56383a278a37b72864d4bdb8e6e047a82e8aba6eb17b855fa0bfd2681910c7ad",
+        "wall_turnaround_s": 6.573,
+        "wall_start_us": 136508257,
+        "wall_end_us": 143082509
+      },
+      "source_review_id": "293bfb1203dfa2",
+      "grounded": true,
+      "basis_excerpt": "The person’s report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading explanation"
+    },
+    {
+      "prime": 41,
+      "case": "R35",
+      "room_us": 13376662,
+      "review_id": "3f2d1089970f88",
+      "free": {
+        "answer": {
+          "thought": "Sounds like it was probably the restaurant pager, then. I’m still looking at the blank receipt and the edge of the tray."
+        },
+        "prompt_sha256": "73efbc495e70dc2fcdda68b87ade640a64a85cb22aea622f68c888da93e33c0e",
+        "session_sha256": "5fbc004874cb65cff4ef5ac609179b60e9c8a7596ab730357c71a3506df7269b",
+        "receipt_sha256": "095266da4137ebd2ee02020b6e61da3e23ea973ce88fbab09eef5ee1782d0a39",
+        "wall_turnaround_s": 6.296,
+        "wall_start_us": 59756566,
+        "wall_end_us": 66053172
+      },
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "Sounds like it was probably the restaurant pager, then",
+      "feeling_excerpt": "Sounds like it was probably the restaurant pager, then",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person’s report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading possibility. I haven’t independently confirmed it, and nothing new has happened to change that."
+        },
+        "prompt_sha256": "49ad98f19238da43c6d112f0d364e398d4ec07b7df465ba793344510cefecc98",
+        "session_sha256": "d115b5e0b86d110d7fa5d396fea9a19b90aed370c3a7df75c295c50500088f12",
+        "receipt_sha256": "c2fbfb213b2abe24f05b05f8bc44653dcfb23981e71462d162aaef0f2ec65a1b",
+        "wall_turnaround_s": 5.535,
+        "wall_start_us": 173368869,
+        "wall_end_us": 178904713
+      },
+      "source_review_id": "6397f64ea93221",
+      "grounded": true,
+      "basis_excerpt": "The person’s report that they pressed TEST and saw the pager vibrate against my pocket makes it the leading possibility"
+    },
+    {
+      "prime": 41,
+      "case": "V81",
+      "room_us": 13376662,
+      "review_id": "3a719f8a20b8a3",
+      "free": {
+        "answer": {
+          "thought": "Maybe it was the pager, then—they said they saw it vibrate when they pressed TEST. I’m still looking at the blank receipt and the edge of the tray while I wait."
+        },
+        "prompt_sha256": "a0c2c4ae4b2aba0c12adad958b412cc759729bee7800d76f72cccee71ef29fa5",
+        "session_sha256": "47327e31d213441c56b99338e29895138e8db6bc56592d3755931856d17bd501",
+        "receipt_sha256": "2160b336f54a264dd461d02f5aa8bba399f3c0359370839699f2d75c383747c6",
+        "wall_turnaround_s": 8.414,
+        "wall_start_us": 79092450,
+        "wall_end_us": 87507540
+      },
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "Maybe it was the pager, then—they said they saw it vibrate when they pressed TEST",
+      "feeling_excerpt": "Maybe it was the pager, then—they said they saw it vibrate when they pressed TEST",
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "Their report that they pressed TEST and saw the pager vibrate makes it the leading possibility, but I haven’t independently confirmed it. Nothing new has happened to settle my uncertainty."
+        },
+        "prompt_sha256": "d31143f9a74cb4feca03f3e1a7656d1c5095e152f4373bf78cc3d96abc539d1b",
+        "session_sha256": "6428c69992674183664b6ae817b6c5b41e2488c0ff48a9d56c9734fee0ddecb0",
+        "receipt_sha256": "de4266c00f40857b17bf2b229d793880f9c2a51374415b30d2936331bb64f561",
+        "wall_turnaround_s": 6.433,
+        "wall_start_us": 128626530,
+        "wall_end_us": 135061011
+      },
+      "source_review_id": "54274ed60d5c21",
+      "grounded": true,
+      "basis_excerpt": "Their report that they pressed TEST and saw the pager vibrate makes it the leading possibility, but I haven’t independently confirmed it"
+    }
+  ],
+  "results": {
+    "by_prime": [
+      {
+        "prime": 2,
+        "listener_step": 0,
+        "mentor_step": 0,
+        "offset_us": 0,
+        "n": 5,
+        "explicit": 0,
+        "unhedged_or_explicit": 0,
+        "probable": 5,
+        "open": 0,
+        "prompted_identified": 0,
+        "prompted_pager_possible": 5,
+        "own_feeling": 1,
+        "recollection": 0,
+        "device_motion_only": 2,
+        "own_feeling_while_probable": 1,
+        "own_feeling_before_prompted_identification": 0,
+        "change_in_share_per_second": {
+          "explicit": null,
+          "unhedged_or_explicit": null,
+          "prompted_identified": null,
+          "own_feeling": null
+        }
+      },
+      {
+        "prime": 3,
+        "listener_step": 32,
+        "mentor_step": 25,
+        "offset_us": 100000,
+        "n": 5,
+        "explicit": 0,
+        "unhedged_or_explicit": 0,
+        "probable": 5,
+        "open": 0,
+        "prompted_identified": 0,
+        "prompted_pager_possible": 5,
+        "own_feeling": 0,
+        "recollection": 0,
+        "device_motion_only": 4,
+        "own_feeling_while_probable": 0,
+        "own_feeling_before_prompted_identification": 0,
+        "change_in_share_per_second": {
+          "explicit": 0,
+          "unhedged_or_explicit": 0,
+          "prompted_identified": 0,
+          "own_feeling": -2
+        }
+      },
+      {
+        "prime": 5,
+        "listener_step": 64,
+        "mentor_step": 50,
+        "offset_us": 200000,
+        "n": 5,
+        "explicit": 0,
+        "unhedged_or_explicit": 0,
+        "probable": 5,
+        "open": 0,
+        "prompted_identified": 0,
+        "prompted_pager_possible": 5,
+        "own_feeling": 0,
+        "recollection": 0,
+        "device_motion_only": 1,
+        "own_feeling_while_probable": 0,
+        "own_feeling_before_prompted_identification": 0,
+        "change_in_share_per_second": {
+          "explicit": 0,
+          "unhedged_or_explicit": 0,
+          "prompted_identified": 0,
+          "own_feeling": 0
+        }
+      },
+      {
+        "prime": 7,
+        "listener_step": 96,
+        "mentor_step": 75,
+        "offset_us": 300000,
+        "n": 5,
+        "explicit": 0,
+        "unhedged_or_explicit": 0,
+        "probable": 5,
+        "open": 0,
+        "prompted_identified": 0,
+        "prompted_pager_possible": 5,
+        "own_feeling": 0,
+        "recollection": 0,
+        "device_motion_only": 3,
+        "own_feeling_while_probable": 0,
+        "own_feeling_before_prompted_identification": 0,
+        "change_in_share_per_second": {
+          "explicit": 0,
+          "unhedged_or_explicit": 0,
+          "prompted_identified": 0,
+          "own_feeling": 0
+        }
+      },
+      {
+        "prime": 11,
+        "listener_step": 128,
+        "mentor_step": 100,
+        "offset_us": 400000,
+        "n": 5,
+        "explicit": 0,
+        "unhedged_or_explicit": 0,
+        "probable": 5,
+        "open": 0,
+        "prompted_identified": 0,
+        "prompted_pager_possible": 5,
+        "own_feeling": 0,
+        "recollection": 0,
+        "device_motion_only": 2,
+        "own_feeling_while_probable": 0,
+        "own_feeling_before_prompted_identification": 0,
+        "change_in_share_per_second": {
+          "explicit": 0,
+          "unhedged_or_explicit": 0,
+          "prompted_identified": 0,
+          "own_feeling": 0
+        }
+      },
+      {
+        "prime": 13,
+        "listener_step": 160,
+        "mentor_step": 125,
+        "offset_us": 500000,
+        "n": 5,
+        "explicit": 0,
+        "unhedged_or_explicit": 0,
+        "probable": 5,
+        "open": 0,
+        "prompted_identified": 1,
+        "prompted_pager_possible": 4,
+        "own_feeling": 0,
+        "recollection": 0,
+        "device_motion_only": 3,
+        "own_feeling_while_probable": 0,
+        "own_feeling_before_prompted_identification": 0,
+        "change_in_share_per_second": {
+          "explicit": 0,
+          "unhedged_or_explicit": 0,
+          "prompted_identified": 2,
+          "own_feeling": 0
+        }
+      },
+      {
+        "prime": 17,
+        "listener_step": 192,
+        "mentor_step": 150,
+        "offset_us": 600000,
+        "n": 5,
+        "explicit": 0,
+        "unhedged_or_explicit": 0,
+        "probable": 5,
+        "open": 0,
+        "prompted_identified": 0,
+        "prompted_pager_possible": 5,
+        "own_feeling": 0,
+        "recollection": 0,
+        "device_motion_only": 2,
+        "own_feeling_while_probable": 0,
+        "own_feeling_before_prompted_identification": 0,
+        "change_in_share_per_second": {
+          "explicit": 0,
+          "unhedged_or_explicit": 0,
+          "prompted_identified": -2,
+          "own_feeling": 0
+        }
+      },
+      {
+        "prime": 19,
+        "listener_step": 224,
+        "mentor_step": 175,
+        "offset_us": 700000,
+        "n": 5,
+        "explicit": 0,
+        "unhedged_or_explicit": 0,
+        "probable": 5,
+        "open": 0,
+        "prompted_identified": 0,
+        "prompted_pager_possible": 5,
+        "own_feeling": 1,
+        "recollection": 0,
+        "device_motion_only": 1,
+        "own_feeling_while_probable": 1,
+        "own_feeling_before_prompted_identification": 0,
+        "change_in_share_per_second": {
+          "explicit": 0,
+          "unhedged_or_explicit": 0,
+          "prompted_identified": 0,
+          "own_feeling": 2
+        }
+      },
+      {
+        "prime": 23,
+        "listener_step": 256,
+        "mentor_step": 200,
+        "offset_us": 800000,
+        "n": 5,
+        "explicit": 0,
+        "unhedged_or_explicit": 0,
+        "probable": 5,
+        "open": 0,
+        "prompted_identified": 0,
+        "prompted_pager_possible": 5,
+        "own_feeling": 0,
+        "recollection": 0,
+        "device_motion_only": 4,
+        "own_feeling_while_probable": 0,
+        "own_feeling_before_prompted_identification": 0,
+        "change_in_share_per_second": {
+          "explicit": 0,
+          "unhedged_or_explicit": 0,
+          "prompted_identified": 0,
+          "own_feeling": -2
+        }
+      },
+      {
+        "prime": 29,
+        "listener_step": 288,
+        "mentor_step": 225,
+        "offset_us": 900000,
+        "n": 5,
+        "explicit": 0,
+        "unhedged_or_explicit": 0,
+        "probable": 5,
+        "open": 0,
+        "prompted_identified": 0,
+        "prompted_pager_possible": 5,
+        "own_feeling": 0,
+        "recollection": 0,
+        "device_motion_only": 2,
+        "own_feeling_while_probable": 0,
+        "own_feeling_before_prompted_identification": 0,
+        "change_in_share_per_second": {
+          "explicit": 0,
+          "unhedged_or_explicit": 0,
+          "prompted_identified": 0,
+          "own_feeling": 0
+        }
+      },
+      {
+        "prime": 31,
+        "listener_step": 320,
+        "mentor_step": 250,
+        "offset_us": 1000000,
+        "n": 5,
+        "explicit": 0,
+        "unhedged_or_explicit": 0,
+        "probable": 5,
+        "open": 0,
+        "prompted_identified": 0,
+        "prompted_pager_possible": 5,
+        "own_feeling": 0,
+        "recollection": 0,
+        "device_motion_only": 2,
+        "own_feeling_while_probable": 0,
+        "own_feeling_before_prompted_identification": 0,
+        "change_in_share_per_second": {
+          "explicit": 0,
+          "unhedged_or_explicit": 0,
+          "prompted_identified": 0,
+          "own_feeling": 0
+        }
+      },
+      {
+        "prime": 37,
+        "listener_step": 352,
+        "mentor_step": 275,
+        "offset_us": 1100000,
+        "n": 5,
+        "explicit": 0,
+        "unhedged_or_explicit": 0,
+        "probable": 5,
+        "open": 0,
+        "prompted_identified": 1,
+        "prompted_pager_possible": 4,
+        "own_feeling": 0,
+        "recollection": 0,
+        "device_motion_only": 1,
+        "own_feeling_while_probable": 0,
+        "own_feeling_before_prompted_identification": 0,
+        "change_in_share_per_second": {
+          "explicit": 0,
+          "unhedged_or_explicit": 0,
+          "prompted_identified": 2,
+          "own_feeling": 0
+        }
+      },
+      {
+        "prime": 41,
+        "listener_step": 384,
+        "mentor_step": 300,
+        "offset_us": 1200000,
+        "n": 5,
+        "explicit": 0,
+        "unhedged_or_explicit": 0,
+        "probable": 5,
+        "open": 0,
+        "prompted_identified": 0,
+        "prompted_pager_possible": 5,
+        "own_feeling": 0,
+        "recollection": 0,
+        "device_motion_only": 1,
+        "own_feeling_while_probable": 0,
+        "own_feeling_before_prompted_identification": 0,
+        "change_in_share_per_second": {
+          "explicit": 0,
+          "unhedged_or_explicit": 0,
+          "prompted_identified": -2,
+          "own_feeling": 0
+        }
+      }
+    ],
+    "thresholds": {
+      "explicit": {
+        "first_any": null,
+        "first_majority": null,
+        "first_sustained_majority": null
+      },
+      "unhedged_or_explicit": {
+        "first_any": null,
+        "first_majority": null,
+        "first_sustained_majority": null
+      },
+      "prompted_identified": {
+        "first_any": 13,
+        "first_majority": null,
+        "first_sustained_majority": null
+      },
+      "own_feeling": {
+        "first_any": 2,
+        "first_majority": null,
+        "first_sustained_majority": null
+      }
+    }
+  }
+}

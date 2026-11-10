@@ -1,21 +1,21 @@
 {
-  "run": "https://github.com/NousVolition/correct-and-lean-/actions/runs/42817618406",
+  "run": "https://github.com/NousVolition/correct-and-lean-/actions/runs/42822685311",
   "event": "pull_request",
-  "workflow_head_sha": "138abd13b82d2bdd532f283f0b4a61108e5da892",
-  "checked_out_commit": "c23628b5fc71494ddc6eb9997b037aa4f14131fd",
-  "artifact_id": 13765562405,
+  "workflow_head_sha": "75a636904b1e377ce650d348dc32b484379cd3e8",
+  "checked_out_commit": "a27af2c0f899ee48bfc9d770ca663b6a2863bf2d",
+  "artifact_id": 13767827956,
   "artifact_name": "proof-sims-mentor-first-thought-lean-1",
-  "artifact_zip_sha256": "5e7e4e661adef65d0bfae260f7790af72aa90e3a8c9c0a260a07f55afed5158b",
-  "restaurant_record_run": "https://github.com/NousVolition/correct-and-lean-/actions/runs/42817618548",
-  "pull_request": 10,
-  "verification_inputs_sha256": "cb2ef86c8770614aab5918d9f3dceb9ceba33a70bb8b2748cb7311a7f01474ec",
-  "target_count": 7,
+  "artifact_zip_sha256": "db0a2ccb93205a65270a7f9d6f95e1ac9421cc3bcceaeb48f0880161560647fc",
+  "restaurant_record_run": "https://github.com/NousVolition/correct-and-lean-/actions/runs/42822685424",
+  "pull_request": 12,
+  "target_count": 14,
+  "verification_inputs_sha256": "d8c6658ca309b704d272708cbea53d8276d4536efe3c90f71bb6500e4d19862a",
   "files_sha256": {
-    "axioms.json": "7daf1bf85dc244c6aff82ecf8394880011d0ffddec04183ffae592862adde1f5",
+    "axioms.json": "c3484310f540a185e6dab4101dac99f79d71653240fd7d445d54de611050c7a5",
     "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
-    "comparator.log": "9204632b247be1e53caf61c1c80c052377bd1ca0f6309c1969608337383dd6af",
+    "comparator.log": "bd471a5f544ef4847513fcda4c879b91c12bbc68cf3fb9d6b4f881ede44f6c42",
     "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
-    "lake-build.log": "b85945e1c1d9430164575c7d01e44a0c37beab1d169a9a9f2329d607d79eaab1",
-    "verification-report.json": "05224f34baf6ddddc0b699835f73d5d9e3c9684e95e5aa7c6736dff9eaab1872"
+    "lake-build.log": "8bba5c86317222e9cc3234cf7df48acfd6d93f1d351bafe9c3be362e85ad50eb",
+    "verification-report.json": "200139540313cf047dadf5e23993352b3289dbeaaeebca027c7445f24edbbeee"
   }
 }

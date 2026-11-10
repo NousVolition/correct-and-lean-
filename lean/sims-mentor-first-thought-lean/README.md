@@ -25,16 +25,23 @@ At **prime tick 2**, immediately after the full line arrived, the interviewer as
 
 The earlier clock study used 320 marker steps and 250 mentor steps per unit. Here the marker clock belongs to the listener, one unit is one simulated room second, and zero is the arrival of the mentor’s final word. The two clocks agree every 32 listener steps and 25 mentor steps. The recorded prime labels are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37 and 41. B saw no clock labels. Private reply generation was timed separately on the wall clock. [Source clock readings](https://github.com/NousVolition/correct-and-lean-/blob/1723025e78a2adae90f130a6001e945c81b9742d/research/matched-stretch/guard-transport/prime-results.json)
 
+## Fresh listeners at every prime
+
+In a follow-up with the original mentor line, all 65 open answers were tentative. The only settled answers to the direct source question came at prime 13 and prime 37. The earlier feeling was mentioned in open answers at prime 2 and prime 19. Those two listeners both remained tentative. [Full sweep, verbatim reports and slope comparison](prime-sweep/)
+
 ## Reproduce the checks
 
 From this directory in a checkout of the repository, run
 
 ```sh
 python3 -B check_records.py
+python3 -B prime-sweep/check_sweep.py
 lake build
 python3 ../../scripts/lean_package_report.py axioms .
 ```
 
 The record check reconstructs the twenty private prompts using the earlier restaurant checkpoints and compares their fingerprints. Lean verifies the shared clock arithmetic, the sampling order and the finite counts from the coded text. [Earlier checkpoints](../sims-meeting-thread-lean/observations/pager-return/) · [Lean statements and proofs](MentorThought.lean) · [Verification report](verification-report.json)
 
-GitHub checked the seven statements with Lean’s kernel and nanoda. The Windows and Linux axiom lists agree, and the restaurant verification rebuilt all twenty interview inputs. [Saved evidence](evidence-linux/source.json) · [Proof run](https://github.com/NousVolition/correct-and-lean-/actions/runs/42817618406) · [Restaurant record check](https://github.com/NousVolition/correct-and-lean-/actions/runs/42817618548)
+GitHub checked the first study’s seven statements with Lean’s kernel and nanoda. The Windows and Linux axiom lists agreed, and the restaurant verification rebuilt its twenty interview inputs. [Archived evidence](evidence-history/pr-10/source.json) · [First study proof run](https://github.com/NousVolition/correct-and-lean-/actions/runs/42817618406) · [First study record check](https://github.com/NousVolition/correct-and-lean-/actions/runs/42817618548)
+
+GitHub verified the expanded package’s 14 named statements with Lean’s kernel and nanoda. The axiom lists agree with the local Windows check. The restaurant check reconstructed the sweep’s 130 private prompts. [Saved evidence](evidence-linux/source.json) · [Proof run](https://github.com/NousVolition/correct-and-lean-/actions/runs/42822685311) · [Restaurant record check](https://github.com/NousVolition/correct-and-lean-/actions/runs/42822685424)

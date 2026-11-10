@@ -1,0 +1,125 @@
+{
+  "source_chat": "Update slope experiment status",
+  "source_archive": "hug-vortex-prime-readings.zip",
+  "archive_sha256": "89a610c4363d877410f7d93d5adcf60110a910668b40ca980fcc97caffb6b559",
+  "member_sha256": {
+    "refined-split-check.json": "8fa9fac194f8bf8e58c71c73f5e5d489c622a9168fa6cd9ab0de609b43e0a8f6",
+    "readings.csv": "ce49033e1ca0d830c7180adfdbee09deb4b85af9ab1e638191344de823a9a89e",
+    "method.txt": "c60d8385da8ab08b2381d4ecb73e0c7b9669a01bb125cd02051c49dd0c4e8e98"
+  },
+  "refined_checks": [
+    {
+      "bracket": [
+        29,
+        31
+      ],
+      "sampling_grid": 32,
+      "relative_level": 0.1,
+      "changes_at_native_event": [
+        1,
+        1
+      ],
+      "split_times": []
+    },
+    {
+      "bracket": [
+        29,
+        31
+      ],
+      "sampling_grid": 32,
+      "relative_level": 0.15,
+      "changes_at_native_event": [
+        1,
+        1
+      ],
+      "split_times": []
+    },
+    {
+      "bracket": [
+        29,
+        31
+      ],
+      "sampling_grid": 48,
+      "relative_level": 0.1,
+      "changes_at_native_event": [
+        1,
+        1
+      ],
+      "split_times": []
+    },
+    {
+      "bracket": [
+        29,
+        31
+      ],
+      "sampling_grid": 48,
+      "relative_level": 0.15,
+      "changes_at_native_event": [
+        1,
+        1
+      ],
+      "split_times": []
+    },
+    {
+      "bracket": [
+        37,
+        41
+      ],
+      "sampling_grid": 32,
+      "relative_level": 0.1,
+      "changes_at_native_event": [
+        1,
+        1
+      ],
+      "split_times": [
+        1.126
+      ]
+    },
+    {
+      "bracket": [
+        37,
+        41
+      ],
+      "sampling_grid": 32,
+      "relative_level": 0.15,
+      "changes_at_native_event": [
+        2,
+        2
+      ],
+      "split_times": [
+        1.106
+      ]
+    },
+    {
+      "bracket": [
+        37,
+        41
+      ],
+      "sampling_grid": 48,
+      "relative_level": 0.1,
+      "changes_at_native_event": [
+        1,
+        1
+      ],
+      "split_times": [
+        1.126
+      ]
+    },
+    {
+      "bracket": [
+        37,
+        41
+      ],
+      "sampling_grid": 48,
+      "relative_level": 0.15,
+      "changes_at_native_event": [
+        2,
+        2
+      ],
+      "split_times": [
+        1.106
+      ]
+    }
+  ],
+  "scope": "Hug rotation-region counts depend on the Q cutoff. The refined 32 and 48 grids removed an apparent 29–31 split; 37–41 contained splits at 1.106 (15%) and 1.126 (10%). Those are Hug model times. This supplies a sensitivity check for the restaurant scoring, with no fluid numbers or cutoff labels in B's input."
+}
