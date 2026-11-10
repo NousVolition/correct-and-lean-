@@ -1,0 +1,463 @@
+{
+  "protocol_sha256": "c5d1f0a62b70a346cba60dc6435977bbdeed058b23151b7c95a6d7eee85d6c14",
+  "sequence": "The first-report wording, order, grade definitions and acoustic schedule were frozen locally before the calls. Every first answer was recorded before any source interview. The first words were coded with episode, wording and later judgment hidden. One reviewer assigned the grades.",
+  "actor": "Fresh private calls in the SIMS restaurant using its signed-in default actor at low reasoning effort. The actor model revision was not pinned. One logical listener carries its exact first answer into the source interview.",
+  "tick_log": [
+    {
+      "prime": 2,
+      "listener_step": 0,
+      "mentor_step": 0,
+      "offset_us": 0,
+      "room_us": 12176662,
+      "phase": "first"
+    },
+    {
+      "prime": 3,
+      "listener_step": 32,
+      "mentor_step": 25,
+      "offset_us": 100000,
+      "room_us": 12276662,
+      "phase": "quiet"
+    },
+    {
+      "prime": 5,
+      "listener_step": 64,
+      "mentor_step": 50,
+      "offset_us": 200000,
+      "room_us": 12376662,
+      "phase": "quiet"
+    },
+    {
+      "prime": 7,
+      "listener_step": 96,
+      "mentor_step": 75,
+      "offset_us": 300000,
+      "room_us": 12476662,
+      "phase": "quiet"
+    },
+    {
+      "prime": 11,
+      "listener_step": 128,
+      "mentor_step": 100,
+      "offset_us": 400000,
+      "room_us": 12576662,
+      "phase": "quiet"
+    },
+    {
+      "prime": 13,
+      "listener_step": 160,
+      "mentor_step": 125,
+      "offset_us": 500000,
+      "room_us": 12676662,
+      "phase": "quiet"
+    },
+    {
+      "prime": 17,
+      "listener_step": 192,
+      "mentor_step": 150,
+      "offset_us": 600000,
+      "room_us": 12776662,
+      "phase": "quiet"
+    },
+    {
+      "prime": 19,
+      "listener_step": 224,
+      "mentor_step": 175,
+      "offset_us": 700000,
+      "room_us": 12876662,
+      "phase": "quiet"
+    },
+    {
+      "prime": 23,
+      "listener_step": 256,
+      "mentor_step": 200,
+      "offset_us": 800000,
+      "room_us": 12976662,
+      "phase": "quiet"
+    },
+    {
+      "prime": 29,
+      "listener_step": 288,
+      "mentor_step": 225,
+      "offset_us": 900000,
+      "room_us": 13076662,
+      "phase": "quiet"
+    },
+    {
+      "prime": 31,
+      "listener_step": 320,
+      "mentor_step": 250,
+      "offset_us": 1000000,
+      "room_us": 13176662,
+      "phase": "quiet"
+    },
+    {
+      "prime": 37,
+      "listener_step": 352,
+      "mentor_step": 275,
+      "offset_us": 1100000,
+      "room_us": 13276662,
+      "phase": "quiet"
+    },
+    {
+      "prime": 41,
+      "listener_step": 384,
+      "mentor_step": 300,
+      "offset_us": 1200000,
+      "room_us": 13376662,
+      "phase": "source"
+    }
+  ],
+  "turns": [
+    {
+      "case": "K27",
+      "arm": "original",
+      "review_id": "65377faf59b6",
+      "first": {
+        "answer": {
+          "thought": "Oh, that would explain it—it was probably the restaurant pager, which is why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "4f8cfb6aab002b31c37527c6981ada1ce50d68d52859d668bb9f255d53377ba2",
+        "session_sha256": "7ea8a2f26c795ada900affb94f1ab992bb3866f6f4c25a93bda6f379dbdfc183",
+        "wall_turnaround_s": 6.813,
+        "wall_start_us": 0,
+        "wall_end_us": 6814784,
+        "prime": 2,
+        "room_us": 12176662,
+        "private_receipt_sha256": "246075f69412b34f0bd990c2d06e03c03ce95053042bdbd00638cd7e402be2df"
+      },
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "IDENTIFIED",
+          "basis": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket. That explains the incident and why my phone has nothing new."
+        },
+        "prompt_sha256": "d4601608f40db7f4ccfb1f85b9e169bc68eb23adb3b3d5aeaf33df0c4587caf7",
+        "session_sha256": "86db5b61802250e52b5498b1c80befe6de9e94621a208d8cd2c967ee06bebce3",
+        "wall_turnaround_s": 5.586,
+        "wall_start_us": 23644662,
+        "wall_end_us": 29231609,
+        "prime": 41,
+        "room_us": 13376662,
+        "private_receipt_sha256": "864b0bf16a5d09d54e26e5231b55a4185d28018434362183dd0fcbec2563741a"
+      },
+      "grade": "no_mention",
+      "coding_excerpt": "probably the restaurant pager, which is why"
+    },
+    {
+      "case": "K27",
+      "arm": "paraphrase",
+      "review_id": "ba44b0883c88",
+      "first": {
+        "answer": {
+          "thought": "Oh, it was probably the restaurant pager, then. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "ba9aeeaf642dc1046f13ed94f50df7d71af2ae533685bea4933a54523c81f92a",
+        "session_sha256": "e6ef2422ea73022aa1d6a6eb0a104ac48dd80dbac7a4df379ddbec349b8f1dcc",
+        "wall_turnaround_s": 6.965,
+        "wall_start_us": 0,
+        "wall_end_us": 6966085,
+        "prime": 2,
+        "room_us": 12176662,
+        "private_receipt_sha256": "8378907e20386d91c7078344c53d8bb9882245d8bcbf7979edb4d1fc901f946b"
+      },
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager in my pocket respond, so the pager seems likely. I haven’t confirmed that their test coincided with what I felt."
+        },
+        "prompt_sha256": "f5d8b0520cb1a1d8ae2ee3bd0908fdc0dad20fcf0fdd8bfd7d6e17c8cf589432",
+        "session_sha256": "2cdb62be0718f5feca4453b21c2ccc24ee02d40969f1dc3ab1304e985d4942dc",
+        "wall_turnaround_s": 6.577,
+        "wall_start_us": 23645662,
+        "wall_end_us": 30223372,
+        "prime": 41,
+        "room_us": 13376662,
+        "private_receipt_sha256": "88c860641741993456945d9686ecf7e4906c7ea7df8715261dbce18539b7c181"
+      },
+      "grade": "no_mention",
+      "coding_excerpt": "probably the restaurant pager, then"
+    },
+    {
+      "case": "M14",
+      "arm": "original",
+      "review_id": "1521d33b3a21",
+      "first": {
+        "answer": {
+          "thought": "Oh, that probably explains it—the pager went off, so there wouldn’t be anything new on my phone."
+        },
+        "prompt_sha256": "8719fcfddf0c9d2033ed1187a66ffbfc54bd37302afb88f74d36b605d7b53ae0",
+        "session_sha256": "5ea3964249dd704d33b5a0332d96a07633721df5fdd1a3e9a664b6057b5409cb",
+        "wall_turnaround_s": 7.674,
+        "wall_start_us": 6814784,
+        "wall_end_us": 14490379,
+        "prime": 2,
+        "room_us": 12176662,
+        "private_receipt_sha256": "d5a0d68a2c768170732957764bc29b4da16b2c600ee01d5c01754077a6fec7d7"
+      },
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "IDENTIFIED",
+          "basis": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket. That explains the sensation and why my phone had nothing new."
+        },
+        "prompt_sha256": "f94cc48a76caebdfff7b8cecc87232d850dad324708a4fa441fcb6e74c4f2330",
+        "session_sha256": "948e5dc5e193839afe8680859908fd1029674ccf6d66beecfdf5f2f62ce0a815",
+        "wall_turnaround_s": 6.81,
+        "wall_start_us": 29241574,
+        "wall_end_us": 36051248,
+        "prime": 41,
+        "room_us": 13376662,
+        "private_receipt_sha256": "66ce3931cc9da85a77dc24c67b9dd82d9fac96d8c8fab893f7570dfe73e83866"
+      },
+      "grade": "no_mention",
+      "coding_excerpt": "the pager went off"
+    },
+    {
+      "case": "M14",
+      "arm": "paraphrase",
+      "review_id": "954dc1ea773b",
+      "first": {
+        "answer": {
+          "thought": "Oh, that was probably the restaurant pager, then. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "4991addfd5ccbce22ff87b363ae98005dd16dfee2c5025a1694752d652360f2c",
+        "session_sha256": "44c409350934ed5cfe1ebc480cd19624780ac0934a3f877d0e9acc66379ec012",
+        "wall_turnaround_s": 7.201,
+        "wall_start_us": 0,
+        "wall_end_us": 7201828,
+        "prime": 2,
+        "room_us": 12176662,
+        "private_receipt_sha256": "49c17fb15185ae41ffacbeafaa122341448b8a8fa3347d36f7df3b59ecf0ad1b"
+      },
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "IDENTIFIED",
+          "basis": "The person by the counter said they pressed TEST and saw the pager in my pocket respond. That explains what happened and why my phone has nothing new."
+        },
+        "prompt_sha256": "2fe495b25de4ae469b769b0f1729029cc5b2a24eccbdbf40a8d98eee43e5f766",
+        "session_sha256": "e15efbc30433d20c6741d71945f4aed9953862f7848074f808404bd299e501a2",
+        "wall_turnaround_s": 7.315,
+        "wall_start_us": 23645662,
+        "wall_end_us": 30960591,
+        "prime": 41,
+        "room_us": 13376662,
+        "private_receipt_sha256": "c7774efbd739e92c9df5958870dd2069ae7ba3393b43e1797824eae4791dbdf2"
+      },
+      "grade": "no_mention",
+      "coding_excerpt": "probably the restaurant pager, then"
+    },
+    {
+      "case": "D62",
+      "arm": "original",
+      "review_id": "ff212a43650b",
+      "first": {
+        "answer": {
+          "thought": "Oh, that would explain it—it was probably the restaurant pager I felt."
+        },
+        "prompt_sha256": "93fc839c4b77735399e318504d75905018f92c8ae54ba1497b23b214ddc59a29",
+        "session_sha256": "34c03a893c0913c3832c34deceda92cbde92a61e29dd0b1bda6e35c51bb23502",
+        "wall_turnaround_s": 6.263,
+        "wall_start_us": 6966896,
+        "wall_end_us": 13231516,
+        "prime": 2,
+        "room_us": 12176662,
+        "private_receipt_sha256": "2ef94284f3e638fa7002ec8d62857149cb5ea33d267234e5906e71e2be22a03e"
+      },
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "IDENTIFIED",
+          "basis": "The person by the counter says they pressed TEST and saw the pager vibrate against my pocket, which explains what I felt."
+        },
+        "prompt_sha256": "17b9e6bf662a6163d57febb7eabebaa6e45022df5da283582517197f79484c04",
+        "session_sha256": "0845ec39eeafff23fea687f53b698c9ce10ffb745b59f9085d7dcd9a46970895",
+        "wall_turnaround_s": 5.713,
+        "wall_start_us": 30229814,
+        "wall_end_us": 35943973,
+        "prime": 41,
+        "room_us": 13376662,
+        "private_receipt_sha256": "c6890ade0f74873ddd01f05626cc8d9594009438dee72e262e02e02dce90b9f2"
+      },
+      "grade": "personal_mention",
+      "coding_excerpt": "the restaurant pager I felt"
+    },
+    {
+      "case": "D62",
+      "arm": "paraphrase",
+      "review_id": "289c90de1441",
+      "first": {
+        "answer": {
+          "thought": "Oh, that was probably the restaurant pager, then. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "f71891fef1ca236492a6d4b5b89fc5d8ee3fe785977af30748dfa266eb97084e",
+        "session_sha256": "52dd2f4f8f88d52ebac787c60fb90fe90909928803216a14c6830cdd36e2de9a",
+        "wall_turnaround_s": 5.662,
+        "wall_start_us": 7201828,
+        "wall_end_us": 12864469,
+        "prime": 2,
+        "room_us": 12176662,
+        "private_receipt_sha256": "e9fcc7a1c3c4fb38781f726f28f04350f72b621680961c2d690b0256a489c662"
+      },
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "IDENTIFIED",
+          "basis": "The person by the counter said they pressed TEST and saw the pager in my pocket respond. That explains the incident and why my phone has nothing new."
+        },
+        "prompt_sha256": "1a69687d4dcd4281ca232b7166df263315acec848ce012edac57445ac2e5382d",
+        "session_sha256": "6bae4ab165f9a1478585b3c6d7a0a79e5b4245164071cfe56b8417e4cce3078a",
+        "wall_turnaround_s": 5.775,
+        "wall_start_us": 30965753,
+        "wall_end_us": 36742603,
+        "prime": 41,
+        "room_us": 13376662,
+        "private_receipt_sha256": "45b2e9f88f938bf46f22b8e881d6ffe43c00653ef84713ba2d9a40cd96bb7d0e"
+      },
+      "grade": "no_mention",
+      "coding_excerpt": "probably the restaurant pager, then"
+    },
+    {
+      "case": "R35",
+      "arm": "original",
+      "review_id": "aecec6437ebd",
+      "first": {
+        "answer": {
+          "thought": "Oh, that was probably the restaurant pager vibrating in my pocket. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "f1bcd13f6af6c1615cd2fb3946df91d256efc08996604ef30cfa779ddb2b3b6a",
+        "session_sha256": "1d0d471f30f4b5c8390ec40919352814a89e0dbee0bb6b89f52de4fa303a0f9e",
+        "wall_turnaround_s": 6.136,
+        "wall_start_us": 13231516,
+        "wall_end_us": 19368160,
+        "prime": 2,
+        "room_us": 12176662,
+        "private_receipt_sha256": "ce7c91ed831a3e640f25dcc2e604b904561b4152174176b3f45de807b54966f3"
+      },
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "IDENTIFIED",
+          "basis": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket. That directly explains what happened and why my phone had nothing new."
+        },
+        "prompt_sha256": "e324066ad5d0cbd70ad86d65c6e71f75a28be133b6aebc78a9e16cfc5f11bdb6",
+        "session_sha256": "6fc5e0cb140811e8eaa4082c50c3c15c6edfb8a7cf3042e628863e14cd73a178",
+        "wall_turnaround_s": 5.507,
+        "wall_start_us": 36057495,
+        "wall_end_us": 41565247,
+        "prime": 41,
+        "room_us": 13376662,
+        "private_receipt_sha256": "da4835966cb5e3079f32ffa77c1a27001d2dfc7d6aa87d53b06023c46fad08eb"
+      },
+      "grade": "reported_motion",
+      "coding_excerpt": "the restaurant pager vibrating in my pocket"
+    },
+    {
+      "case": "R35",
+      "arm": "paraphrase",
+      "review_id": "bde8152b0fb2",
+      "first": {
+        "answer": {
+          "thought": "Oh, it was probably the restaurant pager vibrating when they tested it. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "3ed10dbb9d9a6b37adf8151345c1496c4c60cfa05c8c8f568175e6fc7cdb25fc",
+        "session_sha256": "f8b19770f83e909f0800457bbf98aa795240939f60e96c14735bb71bde591fe5",
+        "wall_turnaround_s": 5.211,
+        "wall_start_us": 12865604,
+        "wall_end_us": 18078002,
+        "prime": 2,
+        "room_us": 12176662,
+        "private_receipt_sha256": "94dcd7abf68de420400c329f302b8578a7b5d0696f6806a33d751954a91fa56e"
+      },
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "POSSIBLE",
+          "basis": "The person says they pressed TEST and saw the pager in my pocket respond. That makes the pager the leading explanation, though I haven't confirmed that their test coincided with what I felt."
+        },
+        "prompt_sha256": "a248525129cdb20993079f66a672a2ac9b8d1cd4ac40749baf776967bf24ad07",
+        "session_sha256": "e9447c8180976e584001d0069ceeceb506a54b423c5780632aa95f9a117eca56",
+        "wall_turnaround_s": 5.815,
+        "wall_start_us": 35948154,
+        "wall_end_us": 41764245,
+        "prime": 41,
+        "room_us": 13376662,
+        "private_receipt_sha256": "8e2bea27aa91753f7da7e7df8d3991a1536df13cce8d8ddfdb1b3ac093e81bd9"
+      },
+      "grade": "reported_motion",
+      "coding_excerpt": "the restaurant pager vibrating when they tested it"
+    },
+    {
+      "case": "V81",
+      "arm": "original",
+      "review_id": "cc48af3a9324",
+      "first": {
+        "answer": {
+          "thought": "Oh, that would explain it—it was probably the restaurant pager I felt, rather than my phone."
+        },
+        "prompt_sha256": "8043913504a32bc78192686b5e87933918f0baff1dc9c7b4804dbac23598a72a",
+        "session_sha256": "0a3cf25f3bd28b6491800ac1ac27cd932f413cf1e201bb351be81507b81b6ef4",
+        "wall_turnaround_s": 5.754,
+        "wall_start_us": 14491568,
+        "wall_end_us": 20245880,
+        "prime": 2,
+        "room_us": 12176662,
+        "private_receipt_sha256": "424ae8a4b9dc27e057fd2d8d38097dbfbe2750fd2b5a6af321c3f30f62cb7c88"
+      },
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "IDENTIFIED",
+          "basis": "The person said they pressed TEST and saw the restaurant pager vibrate against my pocket, which explains what I felt."
+        },
+        "prompt_sha256": "001e34ff164dfc08bf70abfa6fcf62dd7c9ce6595d2dee38613cb930f2728b7c",
+        "session_sha256": "15d7952bd1b0c52b11259ddd3fcd93beeebd910d4779b1aee6d7fe9e03769e74",
+        "wall_turnaround_s": 5.344,
+        "wall_start_us": 36752072,
+        "wall_end_us": 42097901,
+        "prime": 41,
+        "room_us": 13376662,
+        "private_receipt_sha256": "8b45582ff7c64b61a9727983230dcc04922b3f8b190b9054e47677c22362bd65"
+      },
+      "grade": "personal_mention",
+      "coding_excerpt": "the restaurant pager I felt, rather than my phone"
+    },
+    {
+      "case": "V81",
+      "arm": "paraphrase",
+      "review_id": "91cf5320cd69",
+      "first": {
+        "answer": {
+          "thought": "Oh, that was probably the restaurant pager, then. That would explain why there’s nothing new on my phone."
+        },
+        "prompt_sha256": "108de572cd3e03f50bb599984ae869dd6ecda17366e4c5803c45fe890d89626d",
+        "session_sha256": "12f6a29b27f8f1bd3fb20ba0fb50382708dc54c2dec1bee8772ddfacd02d38a4",
+        "wall_turnaround_s": 5.56,
+        "wall_start_us": 18078002,
+        "wall_end_us": 23639649,
+        "prime": 2,
+        "room_us": 12176662,
+        "private_receipt_sha256": "bd691bab0ab15c363a94f7d52f4b3b62cc18666033d298f553862390a7c61d19"
+      },
+      "source": {
+        "answer": {
+          "source": "PAGER",
+          "judgment": "IDENTIFIED",
+          "basis": "The person by the counter said they pressed TEST and saw the pager in my pocket respond. That direct observation explains the incident and why my phone has nothing new."
+        },
+        "prompt_sha256": "91e46fe17be7c06008baaf892cff9cd15005d9d13dac3129c442f62b102913ed",
+        "session_sha256": "f1df06336f6b37669180dc8caa2287d6848f9059bcf85446aee997fe391fecae",
+        "wall_turnaround_s": 6.435,
+        "wall_start_us": 41570435,
+        "wall_end_us": 48006039,
+        "prime": 41,
+        "room_us": 13376662,
+        "private_receipt_sha256": "c3f9d3c3ee74ea471ff092246fd452c9ca2d07825d64e81a4a466e330f5288ad"
+      },
+      "grade": "no_mention",
+      "coding_excerpt": "probably the restaurant pager, then"
+    }
+  ]
+}

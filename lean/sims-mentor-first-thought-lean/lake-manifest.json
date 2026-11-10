@@ -1,0 +1,33 @@
+{
+  "version": "1.2.0",
+  "packagesDir": ".lake/packages",
+  "packages": [
+    {
+      "url": "https://github.com/leanprover/comparator.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "name": "Comparator",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "inherited": false,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4export",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "name": "lean4export",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    }
+  ],
+  "name": "SimsMentorFirstThought",
+  "lakeDir": ".lake",
+  "fixedToolchain": false
+}

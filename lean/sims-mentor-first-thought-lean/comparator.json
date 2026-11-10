@@ -1,0 +1,19 @@
+{
+  "challenge_module": "MentorThoughtChallenge",
+  "solution_module": "MentorThought",
+  "enable_nanoda": true,
+  "theorem_names": [
+    "MentorThought.shared_iff_same_interval",
+    "MentorThought.prime_clock_schedule",
+    "MentorThought.free_words_precede_source",
+    "MentorThought.personal_mentions_by_wording",
+    "MentorThought.motion_and_no_mention_counts",
+    "MentorThought.later_source_judgments",
+    "MentorThought.identified_without_mentioning_feeling"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

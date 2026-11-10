@@ -1,0 +1,16 @@
+{
+  "files": {
+    "check_records.py": "344c4bb1119ab60a7196f59fdb3ee69404cbff4baa3318523ab2cfdc6258fac2",
+    "comparator.json": "e643a843967e2eae7c0db47bde784ea10d3b2d544ad7807ed90c574f0b04da89",
+    "lake-manifest.json": "33231702e99812a960a5c8208ffc5828f1f29198efd3c505486c531db13c2e28",
+    "lakefile.toml": "ca0dcbbedd5e56d74f2f07e35239bfa99396770448dc763b264a8933e4fd3497",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "MentorThought.lean": "fd4362b5a59f2d1064f697af2918bb68932a95b125556d014db27aefce45c080",
+    "MentorThoughtChallenge.lean": "a47df0581bcb6b36db1e70d373132b05367741040381f7ce087030a823b3d677",
+    "MentorThoughtModel.lean": "7a88286221f333aca50887d56291658b8541dccfba25d20eebe9cd30da5dac31",
+    "protocol.json": "c5d1f0a62b70a346cba60dc6435977bbdeed058b23151b7c95a6d7eee85d6c14",
+    "readings.tsv": "547b4a26f2ab9b7762b639fb632f0846585f2883d27a0ba51c57adfb23dcce20",
+    "reports.json": "88e803b1297494c43eed34e365873d2bd3f4c00d2faa707a6c81cc85eb3add5b",
+    "room_inputs.py": "87463e7b41197e669621d2f6f3989f45f88cdcd0288990650ab17e3ba288934e"
+  }
+}
