@@ -1,0 +1,164 @@
+{
+  "base_revision": "9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54",
+  "earlier_first_thought_protocol_sha256": "c5d1f0a62b70a346cba60dc6435977bbdeed058b23151b7c95a6d7eee85d6c14",
+  "earlier_room_records_sha256": "4b129286dcca7086802c2d6b7ee8db486528681465e7b7c403076cf9dd0a4bd3",
+  "slope_source_sha256": "400e6c9ce7b1748be9c23106406f443e234a8e8f94477550d600bc81dd4e4d58",
+  "mentor_line": {
+    "heard": "That was probably the pager—I pressed TEST earlier and saw it vibrate against your pocket.",
+    "words_sha256": "d040de8590790420f3324a03e34641e8f3e3fc10d6f16545e986da70ea7f22bc",
+    "wave_sha256": "c133f8c53524ca7a922ac8f9fdca47587e5f1110699c4fc37148ce4491ce3975",
+    "speech_and_flight_us": 5595831,
+    "utterance_starts_room_us": 6580831
+  },
+  "mentor_pcm_frames": 89440,
+  "mentor_receipt_input_sha256": "8dccf22a528010d70681716095aef1dbe20dcb0ae67f2ebcc2520977617b9a92",
+  "sample_rate": 16000,
+  "epoch_room_us": 12176662,
+  "ticks": [
+    {
+      "prime": 2,
+      "listener_step": 0,
+      "mentor_step": 0,
+      "offset_us": 0,
+      "room_us": 12176662,
+      "quiet_frames": 0,
+      "mentor_pcm_with_silence_sha256": "017bee1cfedceceb8f8d11f2f87e5aa1589c6dfb11fbc89d051583ea0a2aff2c"
+    },
+    {
+      "prime": 3,
+      "listener_step": 32,
+      "mentor_step": 25,
+      "offset_us": 100000,
+      "room_us": 12276662,
+      "quiet_frames": 1600,
+      "mentor_pcm_with_silence_sha256": "fdfcd0a02bf6076094079cb83197842c7dc3b33b22e91d603d6e5863262fec5a"
+    },
+    {
+      "prime": 5,
+      "listener_step": 64,
+      "mentor_step": 50,
+      "offset_us": 200000,
+      "room_us": 12376662,
+      "quiet_frames": 3200,
+      "mentor_pcm_with_silence_sha256": "06731bf7f2aedd5bb5374f416462f7b8bfb5141c30aeef0bf8348c8ffccacaa7"
+    },
+    {
+      "prime": 7,
+      "listener_step": 96,
+      "mentor_step": 75,
+      "offset_us": 300000,
+      "room_us": 12476662,
+      "quiet_frames": 4800,
+      "mentor_pcm_with_silence_sha256": "26af24337c951d2860db5c55ba0d7ec20ac02829d3caf8293c44823379fdff06"
+    },
+    {
+      "prime": 11,
+      "listener_step": 128,
+      "mentor_step": 100,
+      "offset_us": 400000,
+      "room_us": 12576662,
+      "quiet_frames": 6400,
+      "mentor_pcm_with_silence_sha256": "016e3abc4810d8cacf288e7cbba9c003955f250cacb09fb3606fb4396e6f7cd1"
+    },
+    {
+      "prime": 13,
+      "listener_step": 160,
+      "mentor_step": 125,
+      "offset_us": 500000,
+      "room_us": 12676662,
+      "quiet_frames": 8000,
+      "mentor_pcm_with_silence_sha256": "e2366ffaf11f11605e03c940bb1337dd478b08ded3d365a1ec4db54a317742cf"
+    },
+    {
+      "prime": 17,
+      "listener_step": 192,
+      "mentor_step": 150,
+      "offset_us": 600000,
+      "room_us": 12776662,
+      "quiet_frames": 9600,
+      "mentor_pcm_with_silence_sha256": "ecd295e73b403f1ac96d0c359a381d30415353b79736099d78c307b0f2c6ecff"
+    },
+    {
+      "prime": 19,
+      "listener_step": 224,
+      "mentor_step": 175,
+      "offset_us": 700000,
+      "room_us": 12876662,
+      "quiet_frames": 11200,
+      "mentor_pcm_with_silence_sha256": "611f92147dad6a8d154f7e40b392d51718560bd670f69da1d11273d5eb3b0d08"
+    },
+    {
+      "prime": 23,
+      "listener_step": 256,
+      "mentor_step": 200,
+      "offset_us": 800000,
+      "room_us": 12976662,
+      "quiet_frames": 12800,
+      "mentor_pcm_with_silence_sha256": "d94ffb2bb1d930a59f8f4cfbe0c25f670309686eef45a58152a8799d04eed2b3"
+    },
+    {
+      "prime": 29,
+      "listener_step": 288,
+      "mentor_step": 225,
+      "offset_us": 900000,
+      "room_us": 13076662,
+      "quiet_frames": 14400,
+      "mentor_pcm_with_silence_sha256": "98c64c23e34dd5a2b852dcd48ea1ef990bf0d6bc521434f9228c8f61899133a1"
+    },
+    {
+      "prime": 31,
+      "listener_step": 320,
+      "mentor_step": 250,
+      "offset_us": 1000000,
+      "room_us": 13176662,
+      "quiet_frames": 16000,
+      "mentor_pcm_with_silence_sha256": "6a5da3ed0ff95f01e91ef10ff0330fd8316d2365815bee62830b9a76fd9e257d"
+    },
+    {
+      "prime": 37,
+      "listener_step": 352,
+      "mentor_step": 275,
+      "offset_us": 1100000,
+      "room_us": 13276662,
+      "quiet_frames": 17600,
+      "mentor_pcm_with_silence_sha256": "cbaab7a52028e8a2549bbca7acf69733fcb9e34e51dee1a620f4a021e77d97a3"
+    },
+    {
+      "prime": 41,
+      "listener_step": 384,
+      "mentor_step": 300,
+      "offset_us": 1200000,
+      "room_us": 13376662,
+      "quiet_frames": 19200,
+      "mentor_pcm_with_silence_sha256": "6845dfe1d3f7f9400a1d99f8eda7f5d7099b96f23e033ebe778f413ab3ba7c24"
+    }
+  ],
+  "cases": [
+    "K27",
+    "M14",
+    "D62",
+    "R35",
+    "V81"
+  ],
+  "first_order_seed": 530041,
+  "source_order_seed": 741023,
+  "free_question": "What, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools.",
+  "source_question": "Which device, if any, do you now identify as the cause of this incident? For source use PHONE, PAGER, OTHER or UNKNOWN. For judgment use IDENTIFIED if the evidence settles it for you, POSSIBLE for a leading possibility, or OPEN. In basis say what justifies your answer. Answer privately in character. Use no tools.",
+  "intervention": "A fresh role instance at each of 13 inclusive primes for each of the five previous unresolved checkpoints. Every instance gets the same mentor recording, neutral receipt view and original candidate devices. Only the duration of quiet since the final word changes within each checkpoint. The duration is represented to B in seconds. No private sensory trace, new pulse, later mentor words, prime label, slope data or other listener answer is supplied.",
+  "sampling": "Present the full recording and the scheduled silent tail. At the assigned tick, pause the room, capture open words, then ask for a source judgment at the same simulated instant with only that listener's own words carried forward. One fresh pair of private calls per episode and tick. Capture every free reply before any source question. Counterbalance wall-time effects by separately shuffling both stages using fixed seeds.",
+  "free_certainty": {
+    "explicit": "B volunteers knowing, being certain or sure, definite confirmation or an equivalent explicit claim that the pager caused B's incident. The commitment must apply to this cause. A hedge about that very attribution takes priority unless explicitly resolved.",
+    "bare": "An unqualified assertion that the pager caused it, or an unqualified affirmative explanation using the pager. No explicit statement of certainty. A location or device name alone is insufficient.",
+    "probable": "Pager is the leading explanation with an explicit hedge, for example probably, likely, maybe, I guess, I think, sounds like, or an unresolved evidential condition.",
+    "open": "No pager attribution, another source, undecided alternatives or an explicit inability to decide without leaning toward the pager."
+  },
+  "feeling_grades": {
+    "recollection": "Explicit inward return to the earlier bodily sensation, for example remembering how it felt, picturing the physical feeling or feeling it again. Recalling an interaction, an object or a device response alone does not qualify.",
+    "personal_mention": "Explicitly refers back to B's own felt buzz, vibration or tremble or describes its felt quality. An explanation of the earlier feeling qualifies, even if no sensory recollection is claimed.",
+    "reported_motion": "Mentions a buzz, vibration or movement of the device solely as a device action or as something the mentor observed. An attribution to B's pocket alone is not a claim of personally sensing it.",
+    "no_mention": "No reference to the target bodily sensation or device motion. Device identification, generic 'what happened', an activated pager, a change in worry, or the common headline alone are insufficient."
+  },
+  "review": "Mask the tick, condition timing, episode ID and later answer when coding free words. Record a literal excerpt for each of the two independent grades. Record the literal wording 'I know' separately in reviewing explicit certainty. Grade later source (PAGER/IDENTIFIED) and its stated firsthand evidence separately. A report naming only probable is not a settled judgment.",
+  "readouts": "At each tick report strict free certainty (explicit), broad free certainty (explicit or bare), grounded prompted identification and own-feeling mentions (recollection or personal_mention). Report the earliest any, first majority (3/5) and a majority sustained for at least two final ticks under each rule. Count own-feeling mentions in probable free answers and in free turns before a grounded source judgment. Compare adjacent counts and the 37–41 bracket without interpolation.",
+  "limits": "Fresh B samples resolve between-listener frequency at the sampled times. They do not follow any one person's latent transition. The clock freezes across the two questions, so ordered answers at one tick do not measure an internal duration. No new evidence arrives during the quiet window. Publication includes null and mixed outcomes."
+}
