@@ -1,0 +1,20 @@
+{
+  "run": "https://github.com/NousVolition/correct-and-lean-/actions/runs/42799735662",
+  "event": "pull_request",
+  "workflow_head_sha": "062913e43b742d184f8e892610c504d3aaaeb05c",
+  "checked_out_commit": "6db7263e705857ac002f34d6b5c430d54a603881",
+  "verification_inputs_sha256": "5ce3526e09f564ca0f3c2bae8ff1fade3926bdf296ae1769e70b40fa7bf68a62",
+  "target_count": 90,
+  "artifact_id": 13756241025,
+  "artifact_name": "proof-sims-meeting-thread-lean-1",
+  "artifact_zip_sha256": "76ebbf8d1e889c78f9f2f44dc3bbe4f4c28dbb7b58b7cdf070ac6ea3acc62acf",
+  "files_sha256": {
+    "axioms.json": "1e316a375493f5867677e59149feb3c522377581147eb496daf0dd6aef904472",
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.log": "bfa355a3ef8ca572a1dfca4285f1a73bb5c236ef5fc4209bfcc8dcd045007faa",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "e8980702b82c46de94418625d85ad7a652cc3a1280bf0508a35d46a9a4816c56",
+    "verification-report.json": "f3f8f425037fb288605f897e7231642c1d04e63891b8ae34678c0e666325d2dc"
+  },
+  "pull_request": 9
+}
