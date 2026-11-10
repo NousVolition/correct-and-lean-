@@ -90,4 +90,35 @@ def locations (test : Sample → Bool) : List (String × String) :=
   (samples.filter test).map (fun r => (r.prime,r.episode))
 
 end Sweep
+
+namespace Continuing
+
+structure Observation where
+  prime : String
+  offsetUs : String
+  session : String
+  freeTurn : String
+  statusTurn : String
+  freeCertainty : String
+  freeFeeling : String
+  source : String
+  judgment : String
+  grounded : String
+  statusFeeling : String
+  deriving DecidableEq
+
+def trackCells : List (List String) := reportCells% (include_str "one-traveller/readings.tsv")
+
+def parseObservation : List String → Option Observation
+  | [p,offset,session,freeTurn,statusTurn,certainty,freeFeeling,source,judgment,grounded,statusFeeling] =>
+    some ⟨p,offset,session,freeTurn,statusTurn,certainty,freeFeeling,source,judgment,grounded,statusFeeling⟩
+  | _ => none
+
+def track := trackCells.tail.filterMap parseObservation
+
+def turnIds := track.flatMap (fun r => [r.freeTurn,r.statusTurn])
+
+def own (grade : String) := grade == "personal_mention" || grade == "recollection"
+
+end Continuing
 end MentorThought

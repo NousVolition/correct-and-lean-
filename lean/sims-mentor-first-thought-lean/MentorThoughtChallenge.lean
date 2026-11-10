@@ -1,5 +1,6 @@
 import MentorThoughtModel
 import PrimeSweepChallenge
+import OneTravellerChallenge
 
 /-! Frozen statements, checked independently against the solutions. -/
 

@@ -16,7 +16,13 @@
     "MentorThought.Sweep.feelings_while_tentative",
     "MentorThought.Sweep.no_majority_and_no_identification_after_personal_mention",
     "MentorThought.Sweep.last_bracket_comparison",
-    "MentorThought.Sweep.one_snapshot_does_not_date_a_switch"
+    "MentorThought.Sweep.one_snapshot_does_not_date_a_switch",
+    "MentorThought.Continuing.all_thirteen_ticks_in_order",
+    "MentorThought.Continuing.one_session_twenty_six_distinct_turns",
+    "MentorThought.Continuing.no_reported_switch_to_settled",
+    "MentorThought.Continuing.first_personal_reference_in_each_probe",
+    "MentorThought.Continuing.references_without_a_report_of_reliving",
+    "MentorThought.Continuing.an_unsettled_window_leaves_the_future_open"
   ],
   "permitted_axioms": [
     "propext",

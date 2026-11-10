@@ -37,5 +37,21 @@
   "MentorThought.Sweep.last_bracket_comparison": [
     "propext"
   ],
-  "MentorThought.Sweep.one_snapshot_does_not_date_a_switch": []
+  "MentorThought.Sweep.one_snapshot_does_not_date_a_switch": [],
+  "MentorThought.Continuing.all_thirteen_ticks_in_order": [
+    "propext"
+  ],
+  "MentorThought.Continuing.one_session_twenty_six_distinct_turns": [
+    "propext"
+  ],
+  "MentorThought.Continuing.no_reported_switch_to_settled": [
+    "propext"
+  ],
+  "MentorThought.Continuing.first_personal_reference_in_each_probe": [
+    "propext"
+  ],
+  "MentorThought.Continuing.references_without_a_report_of_reliving": [
+    "propext"
+  ],
+  "MentorThought.Continuing.an_unsettled_window_leaves_the_future_open": []
 }
