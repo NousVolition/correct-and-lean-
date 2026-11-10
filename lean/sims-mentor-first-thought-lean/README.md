@@ -36,3 +36,5 @@ python3 ../../scripts/lean_package_report.py axioms .
 ```
 
 The record check reconstructs the twenty private prompts using the earlier restaurant checkpoints and compares their fingerprints. Lean verifies the shared clock arithmetic, the sampling order and the finite counts from the coded text. [Earlier checkpoints](../sims-meeting-thread-lean/observations/pager-return/) · [Lean statements and proofs](MentorThought.lean) · [Verification report](verification-report.json)
+
+GitHub checked the seven statements with Lean’s kernel and nanoda. The Windows and Linux axiom lists agree, and the restaurant verification rebuilt all twenty interview inputs. [Saved evidence](evidence-linux/source.json) · [Proof run](https://github.com/NousVolition/correct-and-lean-/actions/runs/42817618406) · [Restaurant record check](https://github.com/NousVolition/correct-and-lean-/actions/runs/42817618548)
