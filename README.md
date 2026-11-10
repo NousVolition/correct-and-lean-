@@ -21,6 +21,10 @@ Five paired restaurant simulations gave Traveller B the same firsthand witness a
 
 Traveller B felt two similar trembles. The witness described the pager test without naming either episode. With a sound clue, B identified the right tremble in **6 of 6** paired cases with both moments replayed and left **6 of 6 open** without replay. An action B already remembered identified the right moment in both arms (6 of 6 each). A generic witness statement left all 12 answers open. [Study, controls and Lean result](lean/sims-meeting-thread-lean/observations/two-trembles/README.md) · [Paired readings](lean/sims-meeting-thread-lean/observations/two-trembles/readings.tsv)
 
+### Can a remembered action catch a reversed replay?
+
+After the two sounds were replayed in the wrong order, B chose the wrong tremble in **4 of 6** worlds and left two open. A memory tying the witnessed sound to a specific action corrected **3 of those 4** wrong choices. The fourth answer changed to OPEN and explicitly described the clash. Mentioning the same action and sound without tying their timing together left all four wrong choices in place. [Experiment and proof](lean/sims-meeting-thread-lean/observations/reversed-replay/README.md) · [Transitions](lean/sims-meeting-thread-lean/observations/reversed-replay/readings.tsv)
+
 The cue model also checks what it takes to come back close to a starting point. A recorded cue must first leave a chosen radius and a later cue must re-enter it. The witness can resolve a matching event even when every later cue stays outside that radius. [Return test and examples](lean/sims-meeting-thread-lean/README.md#when-does-a-cue-count-as-a-return)
 
 ### Portfolio index

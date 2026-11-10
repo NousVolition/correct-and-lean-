@@ -78,7 +78,21 @@
     "MeetingThread.TwoTrembles.recorded_sound_counts",
     "MeetingThread.TwoTrembles.recorded_landmark_counts",
     "MeetingThread.TwoTrembles.recorded_generic_counts",
-    "MeetingThread.TwoTrembles.recorded_answers_agree_with_resolver"
+    "MeetingThread.TwoTrembles.recorded_answers_agree_with_resolver",
+    "MeetingThread.ReplayAudit.reversed_sound_points_to_opposite",
+    "MeetingThread.ReplayAudit.linked_detail_uses_the_named_action",
+    "MeetingThread.ReplayAudit.unlinked_detail_keeps_the_sound_choice",
+    "MeetingThread.ReplayAudit.unrelated_sound_supplies_no_action_match",
+    "MeetingThread.ReplayAudit.faithful_replay_and_accurate_action_agree",
+    "MeetingThread.ReplayAudit.reversal_and_accurate_action_conflict",
+    "MeetingThread.ReplayAudit.conflict_alone_cannot_choose_the_reliable_source",
+    "MeetingThread.ReplayAudit.recorded_reversal_schedule",
+    "MeetingThread.ReplayAudit.recorded_initial_order_counts",
+    "MeetingThread.ReplayAudit.recorded_faithful_followups",
+    "MeetingThread.ReplayAudit.recorded_reversed_followups",
+    "MeetingThread.ReplayAudit.recorded_transitions_from_wrong_answers",
+    "MeetingThread.ReplayAudit.recorded_notice_and_correction",
+    "MeetingThread.ReplayAudit.recorded_linked_policy_comparisons"
   ],
   "permitted_axioms": [
     "propext",

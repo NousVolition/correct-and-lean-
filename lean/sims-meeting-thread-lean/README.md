@@ -39,6 +39,10 @@ Lean gives an explicit example in which time passes, the cue moves away without 
 
 Six paired worlds gave B two similar trembles and an unlabelled witness statement. With a sound clue, the six replay branches recovered the target and all six direct branches stayed open. B identified the target in both arms when the witness mentioned a remembered action. Both arms stayed open when the witness gave no distinguishing detail. [Reports, controls and formal result](observations/two-trembles/README.md)
 
+## Can a remembered action catch a reversed replay?
+
+B selected the wrong tremble in four of six reversed sound replays. A timed action memory corrected three of the four choices. One listener described the incompatible timings and withdrew the answer. In the control fork all four initial errors persisted. [Study, reports and formal results](observations/reversed-replay/README.md)
+
 ## When does a cue count as a return?
 
 The original `ReturnsTo` predicate checks whether a later sample equals the first cue. Two successive looks at the starting cue satisfy it even if the listener never leaves. `ReturnedWithin` starts at the same cue and uses a nonnegative radius chosen in advance. It requires a sample strictly outside the radius followed by a later sample inside or on its boundary. It makes no assumption about the path between samples. [Sampled near-return rule](CueReturnModel.lean) · [Original exact-visit predicate](PagerReturnModel.lean)
@@ -78,11 +82,13 @@ lake exe cache get
 lake build
 python3 ../../scripts/lean_package_report.py axioms .
 python3 observations/pager-return/check_records.py
+python3 -B observations/two-trembles/check_records.py
+python3 -B observations/reversed-replay/check_records.py
 ```
 
 The default build checks all solution modules and eight expected failures of direct applications. The latter require the specific errors from the pinned compiler, including a wrong field, interval, bound or conclusion. The earlier handoff suite also had two cases without an applicable declaration. [Positive applications](ApplicationControls.lean) · [Expected diagnostics](ApplicationRejections.lean)
 
-Comparator checks 76 named targets against frozen statements. The first 49 cover the original meeting, timing, basin, transport and two-memory results and the three controls or applications. Nine targets cover the replay question and its paired observations. Seven cover sampled cue return, log odds and the witness rule. Eleven cover the unlabelled two-tremble experiment and its finite resolver. The repository's Linux workflow checks the exported proofs with Lean's kernel and nanoda. The restaurant observations and basin readings enter as data. Rebuilding the package checks their stated consequences. [Frozen statements](MeetingThreadChallenge.lean) · [Replay targets](PagerReturnChallenge.lean) · [Target list](comparator.json) · [Independent checker instructions](../README.md#reproduce-the-checks)
+Comparator checks 90 named targets against frozen statements. The first 49 cover the original meeting, timing, basin, transport and two-memory results and the three controls or applications. Nine targets cover the replay question and its paired observations. Seven cover sampled cue return, log odds and the witness rule. Eleven cover the unlabelled two-tremble experiment and its finite resolver. Fourteen cover false replay, a later action link, conflict policies and the observed transitions. The repository's Linux workflow checks the exported proofs with Lean's kernel and nanoda. The restaurant observations and basin readings enter as data. Rebuilding the package checks their stated consequences. [Frozen statements](MeetingThreadChallenge.lean) · [Replay targets](PagerReturnChallenge.lean) · [Target list](comparator.json) · [Independent checker instructions](../README.md#reproduce-the-checks)
 
 The original 49 targets passed on GitHub on November 10, 2026 UTC. Their axiom lists matched the Windows check. [Original report](evidence-history/pr-4/verification-report.json) · [Original artifact provenance](evidence-history/pr-4/source.json) · [Original GitHub run](https://github.com/NousVolition/correct-and-lean-/actions/runs/42771970501)
 
@@ -90,6 +96,6 @@ The next 58-target run on the merge of PR #5 passed Comparator, both kernels and
 
 The 65-target run for PR #6 passed Comparator, nanoda, Lean’s default kernel and the default build. The receipt identifies the exact checkout used by the Linux runner, the proof-input manifest and the six files from its artifact. The original restaurant data enter as observations. [65-target report](evidence-history/pr-6/verification-report.json) · [Source and archive digest](evidence-history/pr-6/source.json) · [Linux run](https://github.com/NousVolition/correct-and-lean-/actions/runs/42787569693)
 
-The 76-target run for the unlabelled two-tremble study passed Comparator, nanoda, Lean’s default kernel and the default build. All 65 earlier axiom lists matched their archived values. The eleven new lists matched the local check. The swapped-world impossibility theorem uses no axioms and the other ten use only `propext`. [Current report](verification-report.json) · [Source and archive digest](evidence-linux/source.json) · [Linux run](https://github.com/NousVolition/correct-and-lean-/actions/runs/42793978689)
+The 76-target run for the unlabelled two-tremble study passed Comparator, nanoda, Lean’s default kernel and the default build. All 65 earlier axiom lists matched their archived values. The eleven new lists matched the local check. The swapped-world impossibility theorem uses no axioms and the other ten use only `propext`. [76-target report](evidence-history/pr-8/verification-report.json) · [Source and archive digest](evidence-history/pr-8/source.json) · [Linux run](https://github.com/NousVolition/correct-and-lean-/actions/runs/42793978689)
 
 From this package directory, run `python3 check_saved_receipt.py` to compare the saved receipt with the distributed proof inputs and configured declarations. When updating the proofs, retain the earlier receipt in `evidence-history/` and check the revised statements in the pull request. Attach the successful run’s files and source record once its proof inputs match the revision being published. The package workflow checks the attached receipt on the pull request and again on the main-branch push.

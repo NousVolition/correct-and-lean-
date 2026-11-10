@@ -94,3 +94,21 @@ name = "TwoTrembleProofs"
 
 [[lean_lib]]
 name = "TwoTrembleChallenge"
+
+[[lean_lib]]
+name = "ReplayAuditModel"
+
+[[input_file]]
+name = "reversedReplayLedger"
+path = "observations/reversed-replay/readings.tsv"
+text = true
+
+[[lean_lib]]
+name = "ReplayAuditReadings"
+needs = ["reversedReplayLedger"]
+
+[[lean_lib]]
+name = "ReplayAuditProofs"
+
+[[lean_lib]]
+name = "ReplayAuditChallenge"

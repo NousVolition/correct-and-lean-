@@ -4,6 +4,7 @@ import MeetingObservations
 import PagerReturnChallenge
 import CueReturnChallenge
 import TwoTrembleChallenge
+import ReplayAuditChallenge
 
 /-! Frozen target statements. Comparator builds this reference separately from the solutions. -/
 
