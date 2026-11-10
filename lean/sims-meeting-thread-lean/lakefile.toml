@@ -76,3 +76,21 @@ name = "CueReturnProofs"
 
 [[lean_lib]]
 name = "CueReturnChallenge"
+
+[[lean_lib]]
+name = "TwoTrembleModel"
+
+[[input_file]]
+name = "twoTrembleLedger"
+path = "observations/two-trembles/readings.tsv"
+text = true
+
+[[lean_lib]]
+name = "TwoTrembleReadings"
+needs = ["twoTrembleLedger"]
+
+[[lean_lib]]
+name = "TwoTrembleProofs"
+
+[[lean_lib]]
+name = "TwoTrembleChallenge"

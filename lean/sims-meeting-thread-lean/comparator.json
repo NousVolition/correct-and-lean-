@@ -67,7 +67,18 @@
     "MeetingThread.PagerReturn.log_odds_distance",
     "MeetingThread.PagerReturn.report_ignores_attention",
     "MeetingThread.PagerReturn.recognition_beyond_any_radius",
-    "MeetingThread.PagerReturn.returning_does_not_match_the_episode"
+    "MeetingThread.PagerReturn.returning_does_not_match_the_episode",
+    "MeetingThread.TwoTrembles.direct_sound_open",
+    "MeetingThread.TwoTrembles.replay_selects_distinct_sound",
+    "MeetingThread.TwoTrembles.retained_landmark_selects_in_both_views",
+    "MeetingThread.TwoTrembles.generic_witness_open",
+    "MeetingThread.TwoTrembles.shared_sound_still_open_on_replay",
+    "MeetingThread.TwoTrembles.no_direct_rule_can_identify_both_twins",
+    "MeetingThread.TwoTrembles.all_registered_pairs_recorded",
+    "MeetingThread.TwoTrembles.recorded_sound_counts",
+    "MeetingThread.TwoTrembles.recorded_landmark_counts",
+    "MeetingThread.TwoTrembles.recorded_generic_counts",
+    "MeetingThread.TwoTrembles.recorded_answers_agree_with_resolver"
   ],
   "permitted_axioms": [
     "propext",
