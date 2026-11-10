@@ -1,0 +1,18 @@
+{
+  "run": "https://github.com/NousVolition/correct-and-lean-/actions/runs/42778996982",
+  "event": "pull_request",
+  "pull_request": 5,
+  "proof_branch_head": "a94d989b7844f91644dcd04f7d63543a4e082277",
+  "artifact_id": 13744848494,
+  "artifact_name": "proof-sims-meeting-thread-lean-1",
+  "artifact_zip_sha256": "e1ee2d92c496f4c3d018a50d521ec6f979222b120b2639e30d54f6fcd94b723f",
+  "restaurant_input_check": "https://github.com/NousVolition/correct-and-lean-/actions/runs/42778997670",
+  "files_sha256": {
+    "axioms.json": "97144fb98a7f1472b71afdf0c88d1f33bfee0c72b62671e9fcbc9399b8365d87",
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.log": "b375cffc77c6c047f2cec63bc032ab6fb238cf0f59bbc52fdf21e8833411f0dc",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "31cafdadc19d4136d91c53c685d01413ad6f89cb72785bd97cf4cde8847a44b3",
+    "verification-report.json": "88046cb8b9080acba56ec618c3fdb2d592b14d80fe2a53fe0520870264729a5a"
+  }
+}
