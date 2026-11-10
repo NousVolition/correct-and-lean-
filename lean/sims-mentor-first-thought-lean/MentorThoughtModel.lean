@@ -54,4 +54,40 @@ def personallyMentioned (r : Report) : Bool := r.grade == "personal_mention" || 
 
 def pagerIdentified (r : Report) : Bool := r.source == "PAGER" && r.judgment == "IDENTIFIED"
 
+namespace Sweep
+
+structure Sample where
+  prime : String
+  episode : String
+  certainty : String
+  feeling : String
+  source : String
+  judgment : String
+  grounded : String
+  deriving DecidableEq
+
+def sweepCells : List (List String) := reportCells% (include_str "prime-sweep/readings.tsv")
+
+def parseSample : List String → Option Sample
+  | [prime,episode,certainty,feeling,source,judgment,grounded] =>
+    some ⟨prime,episode,certainty,feeling,source,judgment,grounded⟩
+  | _ => none
+
+def samples := sweepCells.tail.filterMap parseSample
+
+def atPrime (p : Nat) := samples.filter (fun r => r.prime == toString p)
+
+def identified (r : Sample) : Bool :=
+  r.source == "PAGER" && r.judgment == "IDENTIFIED" && r.grounded == "yes"
+
+def ownFeeling (r : Sample) : Bool :=
+  r.feeling == "personal_mention" || r.feeling == "recollection"
+
+def counts (test : Sample → Bool) : List Nat :=
+  labels.map (fun p => ((atPrime p).filter test).length)
+
+def locations (test : Sample → Bool) : List (String × String) :=
+  (samples.filter test).map (fun r => (r.prime,r.episode))
+
+end Sweep
 end MentorThought

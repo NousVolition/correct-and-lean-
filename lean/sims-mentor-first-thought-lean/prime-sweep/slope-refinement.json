@@ -1,0 +1,125 @@
+{
+  "status": "Observer-only refinement read after the room trials; it did not change any prompt, time or grade.",
+  "source_chat": "Update slope experiment status",
+  "source_files_sha256": {
+    "high-resolution-Q-times.json": "f1fc136f2dcf51cb84f7ad4afdb8e95ad40e5e2bb64523039d8bbda48e5093a2",
+    "continuous-Q-visits.csv": "d685609567cc21b341ea9fc10dc8f5b53ccbc6c6f27b53d6e4ab88bed08f2d35"
+  },
+  "persistent_splits": [
+    {
+      "cutoff_pct": 15,
+      "grid": 64,
+      "split_us": [
+        1106000
+      ]
+    },
+    {
+      "cutoff_pct": 15,
+      "grid": 96,
+      "split_us": [
+        1104000
+      ]
+    },
+    {
+      "cutoff_pct": 15,
+      "grid": 128,
+      "split_us": [
+        1104000
+      ]
+    },
+    {
+      "cutoff_pct": 10,
+      "grid": 64,
+      "split_us": [
+        1126000
+      ]
+    },
+    {
+      "cutoff_pct": 10,
+      "grid": 96,
+      "split_us": [
+        1126000
+      ]
+    },
+    {
+      "cutoff_pct": 10,
+      "grid": 128,
+      "split_us": [
+        1126000
+      ]
+    }
+  ],
+  "traced_lines_at_the_indicated_frames": [
+    {
+      "frame": 553,
+      "cutoff_pct": 15,
+      "grid": 32,
+      "count": 15,
+      "center_passes_both": true
+    },
+    {
+      "frame": 553,
+      "cutoff_pct": 15,
+      "grid": 48,
+      "count": 15,
+      "center_passes_both": true
+    },
+    {
+      "frame": 553,
+      "cutoff_pct": 15,
+      "grid": 64,
+      "count": 15,
+      "center_passes_both": true
+    },
+    {
+      "frame": 553,
+      "cutoff_pct": 15,
+      "grid": 96,
+      "count": 15,
+      "center_passes_both": true
+    },
+    {
+      "frame": 553,
+      "cutoff_pct": 15,
+      "grid": 128,
+      "count": 15,
+      "center_passes_both": true
+    },
+    {
+      "frame": 563,
+      "cutoff_pct": 10,
+      "grid": 32,
+      "count": 25,
+      "center_passes_both": true
+    },
+    {
+      "frame": 563,
+      "cutoff_pct": 10,
+      "grid": 48,
+      "count": 25,
+      "center_passes_both": true
+    },
+    {
+      "frame": 563,
+      "cutoff_pct": 10,
+      "grid": 64,
+      "count": 25,
+      "center_passes_both": true
+    },
+    {
+      "frame": 563,
+      "cutoff_pct": 10,
+      "grid": 96,
+      "count": 25,
+      "center_passes_both": true
+    },
+    {
+      "frame": 563,
+      "cutoff_pct": 10,
+      "grid": 128,
+      "count": 25,
+      "center_passes_both": true
+    }
+  ],
+  "scope": "The refined times refer to an above-cutoff rotation region. At frame 553 (1.106) continuous Q evaluation along traced lines found 15 of 25 passing both regions at 15%; at frame 563 (1.126), 25 of 25 at 10%. This does not identify a change in a restaurant listener."
+}

@@ -29,6 +29,8 @@ jobs:
       - run: python3 lean/sims-meeting-thread-lean/observations/pager-return/check_records.py
       - name: Check the free reports before the pager question and all mentor clock ticks
         run: python3 -B lean/sims-mentor-first-thought-lean/check_records.py
+      - name: Reconstruct all 130 private inputs in the fresh-listener prime sweep
+        run: python3 -B lean/sims-mentor-first-thought-lean/prime-sweep/check_sweep.py
       - name: Check the unlabelled two-tremble trial records and Lean table
         run: python3 -B lean/sims-meeting-thread-lean/observations/two-trembles/check_records.py
       - name: Check both continuations of every reversed-replay study checkpoint

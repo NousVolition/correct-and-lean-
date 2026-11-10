@@ -9,7 +9,14 @@
     "MentorThought.personal_mentions_by_wording",
     "MentorThought.motion_and_no_mention_counts",
     "MentorThought.later_source_judgments",
-    "MentorThought.identified_without_mentioning_feeling"
+    "MentorThought.identified_without_mentioning_feeling",
+    "MentorThought.Sweep.five_at_every_prime",
+    "MentorThought.Sweep.no_volunteered_certainty",
+    "MentorThought.Sweep.direct_identifications_by_tick",
+    "MentorThought.Sweep.feelings_while_tentative",
+    "MentorThought.Sweep.no_majority_and_no_identification_after_personal_mention",
+    "MentorThought.Sweep.last_bracket_comparison",
+    "MentorThought.Sweep.one_snapshot_does_not_date_a_switch"
   ],
   "permitted_axioms": [
     "propext",

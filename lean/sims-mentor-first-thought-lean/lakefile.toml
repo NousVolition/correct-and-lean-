@@ -15,10 +15,21 @@ text = true
 
 [[lean_lib]]
 name = "MentorThoughtModel"
-needs = ["roomReadings"]
+needs = ["roomReadings", "sweepReadings"]
 
 [[lean_lib]]
 name = "MentorThought"
 
 [[lean_lib]]
 name = "MentorThoughtChallenge"
+
+[[input_file]]
+name = "sweepReadings"
+path = "prime-sweep/readings.tsv"
+text = true
+
+[[lean_lib]]
+name = "PrimeSweep"
+
+[[lean_lib]]
+name = "PrimeSweepChallenge"

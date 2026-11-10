@@ -1,12 +1,13 @@
 {
-  "comparator": "PASS",
-  "lean_kernel": "PASS",
-  "nanoda": "PASS",
-  "lean_build": "PASS",
-  "scope": "The 320:250 shared clock instants, the prime-labeled order of the two probes, and counts from the reviewed first words and ten subsequent source judgments.",
+  "comparator": "NOT_RUN",
+  "lean_kernel": "NOT_RUN",
+  "nanoda": "NOT_RUN",
+  "lean_build": "NOT_RUN",
+  "scope": "The 320:250 shared clock instants, the prime-labeled order of the two probes, and counts from the reviewed first words and ten subsequent source judgments. The extension checks all 65 fresh listener snapshots, the alternative certainty thresholds, the final prime bracket, and why a single snapshot cannot locate an individual switch.",
   "open_items": [
     "Unreported private sensory replay and the exact onset of a thought.",
     "A causal language effect or a population estimate from five matched fictional checkpoints.",
-    "Independent replication of the actor's answers and of the human-readable textual coding."
+    "Independent replication of the actor's answers and of the human-readable textual coding.",
+    "Individual trajectories between the 13 prime observations and a causal effect of quiet time or of the external slope diagnostic."
   ]
 }

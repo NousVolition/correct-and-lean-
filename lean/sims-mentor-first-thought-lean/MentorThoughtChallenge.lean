@@ -1,4 +1,5 @@
 import MentorThoughtModel
+import PrimeSweepChallenge
 
 /-! Frozen statements, checked independently against the solutions. -/
 
