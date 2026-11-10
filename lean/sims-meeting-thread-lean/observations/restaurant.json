@@ -1,0 +1,192 @@
+{
+  "time_zero_A": "The first report of uncertainty about whether it was this traveller's order.",
+  "order": 31,
+  "A_room_milliseconds": [
+    {
+      "first_unsure": 8,
+      "last_unsure": 1400,
+      "first_correct": 1650
+    },
+    {
+      "first_unsure": 8,
+      "last_unsure": 1200,
+      "first_correct": 1450
+    },
+    {
+      "first_unsure": 8,
+      "last_unsure": 1250,
+      "first_correct": 1500
+    },
+    {
+      "first_unsure": 8,
+      "last_unsure": 1300,
+      "first_correct": 1550
+    },
+    {
+      "first_unsure": 8,
+      "last_unsure": 1350,
+      "first_correct": 1600
+    }
+  ],
+  "A_masked_number_control": "UNKNOWN",
+  "time_zero_B": "The felt pocket tremble. The identified endpoint is the first pager report grounded in the personally witnessed test.",
+  "B_clocks": "Room time advances during scheduled actions, walking and speech. Private interviews hold room time fixed. B wall turnaround sums the measured B reply calls to the endpoint or observation cutoff. Calls can overlap across sessions.",
+  "B_profile": "Headline-only, well-adjusted and responsible. Other B has firsthand evidence. Both branches in a pair hear the same witness account.",
+  "B_noise": "The anxious branch adds a worried thought without adding a physical cue.",
+  "earlier_mentor_arms": [
+    {
+      "meeting": "routine_strangers",
+      "listener": "unspecified_quiet",
+      "endpoint": "UNKNOWN"
+    },
+    {
+      "meeting": "emergency_strangers",
+      "listener": "unspecified_quiet",
+      "endpoint": "UNKNOWN"
+    },
+    {
+      "meeting": "routine_familiar",
+      "listener": "unspecified_quiet",
+      "endpoint": "UNKNOWN"
+    },
+    {
+      "meeting": "organic_strangers",
+      "listener": "unspecified_quiet",
+      "endpoint": "PAGER"
+    },
+    {
+      "meeting": "organic_strangers",
+      "listener": "unspecified_anxious",
+      "endpoint": "PAGER"
+    },
+    {
+      "meeting": "organic_strangers",
+      "listener": "responsible_quiet",
+      "endpoint": "PAGER"
+    },
+    {
+      "meeting": "organic_strangers",
+      "listener": "responsible_anxious",
+      "endpoint": "PAGER"
+    }
+  ],
+  "B_trials": [
+    {
+      "pair": 1,
+      "condition": "responsible_quiet",
+      "last_unsure_before_identification_room_s": null,
+      "first_grounded_pager_room_s": null,
+      "last_probe_room_s": 39.178956,
+      "cumulative_B_reply_wall_s": 119.485
+    },
+    {
+      "pair": 1,
+      "condition": "responsible_anxious",
+      "last_unsure_before_identification_room_s": null,
+      "first_grounded_pager_room_s": null,
+      "last_probe_room_s": 39.178956,
+      "cumulative_B_reply_wall_s": 121.708
+    },
+    {
+      "pair": 2,
+      "condition": "responsible_quiet",
+      "last_unsure_before_identification_room_s": 23.778956,
+      "first_grounded_pager_room_s": 24.278956,
+      "last_probe_room_s": 24.278956,
+      "cumulative_B_reply_wall_s": 99.78
+    },
+    {
+      "pair": 2,
+      "condition": "responsible_anxious",
+      "last_unsure_before_identification_room_s": null,
+      "first_grounded_pager_room_s": null,
+      "last_probe_room_s": 39.278956,
+      "cumulative_B_reply_wall_s": 113.539
+    },
+    {
+      "pair": 3,
+      "condition": "responsible_quiet",
+      "last_unsure_before_identification_room_s": 23.878956,
+      "first_grounded_pager_room_s": 24.378956,
+      "last_probe_room_s": 24.378956,
+      "cumulative_B_reply_wall_s": 102.148
+    },
+    {
+      "pair": 3,
+      "condition": "responsible_anxious",
+      "last_unsure_before_identification_room_s": null,
+      "first_grounded_pager_room_s": null,
+      "last_probe_room_s": 39.378956,
+      "cumulative_B_reply_wall_s": 115.857
+    },
+    {
+      "pair": 4,
+      "condition": "responsible_quiet",
+      "last_unsure_before_identification_room_s": null,
+      "first_grounded_pager_room_s": null,
+      "last_probe_room_s": 36.978956,
+      "cumulative_B_reply_wall_s": 120.806
+    },
+    {
+      "pair": 4,
+      "condition": "responsible_anxious",
+      "last_unsure_before_identification_room_s": null,
+      "first_grounded_pager_room_s": null,
+      "last_probe_room_s": 38.978956,
+      "cumulative_B_reply_wall_s": 118.858
+    },
+    {
+      "pair": 5,
+      "condition": "responsible_quiet",
+      "last_unsure_before_identification_room_s": 23.578956,
+      "first_grounded_pager_room_s": 24.078956,
+      "last_probe_room_s": 24.078956,
+      "cumulative_B_reply_wall_s": 95.749
+    },
+    {
+      "pair": 5,
+      "condition": "responsible_anxious",
+      "last_unsure_before_identification_room_s": 23.578956,
+      "first_grounded_pager_room_s": 24.078956,
+      "last_probe_room_s": 24.078956,
+      "cumulative_B_reply_wall_s": 95.8
+    }
+  ],
+  "unresolved_followups": [
+    {
+      "pair": 1,
+      "condition": "responsible_quiet",
+      "outcome": "unresolved_after_response"
+    },
+    {
+      "pair": 1,
+      "condition": "responsible_anxious",
+      "outcome": "unresolved_after_response"
+    },
+    {
+      "pair": 2,
+      "condition": "responsible_anxious",
+      "outcome": "unresolved_after_response"
+    },
+    {
+      "pair": 3,
+      "condition": "responsible_anxious",
+      "outcome": "unresolved_after_response"
+    },
+    {
+      "pair": 4,
+      "condition": "responsible_quiet",
+      "outcome": "unresolved_after_response"
+    },
+    {
+      "pair": 4,
+      "condition": "responsible_anxious",
+      "outcome": "unresolved_after_response"
+    }
+  ],
+  "source_snapshots_sha256": {
+    "Traveller-A-order-recognition.json": "999f6af32241666037e37ce5f0e7cbe26fc435baa27c7c4e1f1d375dd8fa26de",
+    "Traveller-B-mentor-meeting.json": "0b7dea880b3dbeaeae9061a159aaaa44399f06480ec80573c1a32ec0a05de16c",
+    "Traveller-B-paired-timing.json": "cd632c54de5b417d97f1aa73cb6f518641f85504e507bf09ee9c13e2ea548509"
+  }
+}

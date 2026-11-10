@@ -1,0 +1,17 @@
+{
+  "run": "https://github.com/NousVolition/correct-and-lean-/actions/runs/42771970501",
+  "event": "pull_request",
+  "pull_request": 4,
+  "proof_branch_head": "fcad607a7d21e07a6fb3d7dd3fea2408ae066c54",
+  "artifact_id": 13742303233,
+  "artifact_name": "proof-sims-meeting-thread-lean-1",
+  "artifact_zip_sha256": "cc8fa4fa72b09549a15065edf7404f4876e9f8d38912ed2a4ebaf72792eb09f8",
+  "files_sha256": {
+    "axioms.json": "2d3b91b8e94fc6b72ef6b01e4a1a2b04a58369d496ad2db47c1ac0b6b90fe351",
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.log": "5fe8405d0bec93d3bf17d64a0508005946f3674c617b486992bb8cd8269e0ae5",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "5d8ab1dce7a5afc16544144cc395fd6feeaabf9a34f886bd704a3c55003e5f45",
+    "verification-report.json": "95a890dc6e564be3a27e4bd5d18d29917397816494ff38b6abc835a4606a8309"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "ApplicationControls.lean": "aa4f3410505ef8cbb4a99360c2047b5746015d081eda222d79df2cf39478267e",
+    "ApplicationRejections.lean": "4590dc0b4bd2ea317e3880fec6bcc985735413fef506e84bd667f865db03becb",
+    "comparator.json": "e72c6c54cb689c88b6438d2f95a1cc5a4a886955d95a9999ad4b34588b1cedad",
+    "ConstantField.lean": "2ec0036218f507cf9bf1d2a7a6cd2003ec9f5c102d6119659aa4420dda0f0568",
+    "lake-manifest.json": "fb0f842ac478845e213c2821499f1e4468186c6f7c9b881c92b0873ca5ce2ad8",
+    "lakefile.toml": "0198ee0e41fbf5d49e7020f3e933d88d7aec876be36deb434a1c24eab1f271cb",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "MeetingModel.lean": "d55bf4c530d66455fd2bd4012aa7d6533b2fdff2da27a316193a32508070d715",
+    "MeetingObservations.lean": "f929177240701bef47754bc8b131b6bf09c6d45a2869f58b67bf379e2bf6bce9",
+    "MeetingThread.lean": "52e0870435b9bad8ccbb80132aaf0150cb114a7b4b6d8570e9e70ddb43f313ae",
+    "MeetingThreadChallenge.lean": "c60c2f1b73448c3a388084b0caeb5bb18449f2b1dbdc3305f2628e888437dcb2",
+    "observations/basin-reference.png": "bb0df7f4dc68e5c7fe7de9106cec1d0f152d84e17adc6d093889a7fd3966d0f0",
+    "observations/basin.json": "2b54353756724995bb65d8f5f5724feb2fbdabf7213d96b1d26df9a8904a3ee9",
+    "observations/restaurant.json": "b6905358ebca1d1c1da55db9725d773d3f09c7f57e80dfa7c746956ac87739ad",
+    "SimsMeeting.lean": "edd946d33a9412c165874bc41149daeb44f7057ea197f7a86296b82d80fbd23c",
+    "TwoMemory.lean": "93d7cd52f0babf019afa66bd581a58d7bd48f0fe2f49396300dd975d8691386e",
+    "TwoMemoryModel.lean": "0d1102aceb7f17903fa41a5fdad8f29d6305fc56e4f878f4dc061e4d7d228ea3",
+    "TwoMemoryTransport.lean": "46832a42794ac479f5575744fc27844390774036ea6aa63894825ad17b0138ac",
+    "Volterra.lean": "26906df3b92869c297524e14c09b8bb5c15d6de60f8e7b0dbd93785d759f0952"
+  }
+}

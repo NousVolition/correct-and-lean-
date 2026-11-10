@@ -1,0 +1,182 @@
+{
+  "direction_convention": "x increases to the right and y increases down the displayed picture",
+  "startup_contour_test": "Two closed semicircles per half, centered on the saved scalar peak at radii 2 and 3 Gaussian widths. Positive circulation means net clockwise travel around the oriented contour in the image. It is an aggregate check at model time 0.10, not a statement about every streamline or the history of a single material parcel.",
+  "grid": 384,
+  "steps_per_0_10": 64,
+  "figure_sha256": "bb0df7f4dc68e5c7fe7de9106cec1d0f152d84e17adc6d093889a7fd3966d0f0",
+  "panels": [
+    {
+      "panel": "peak",
+      "initial_max_slope": 1.0099991727529083,
+      "initial_H_slope": 0.13300505935559107,
+      "initial_H_push": 0.0,
+      "model_time": 0.1,
+      "H_push": 0.0,
+      "H_velocity": [
+        -4.117724550360637e-06,
+        1.4393064352486443e-05
+      ],
+      "H_speed": 1.497050289494173e-05,
+      "degrees_left_of_down": 15.965343088492462,
+      "parcel_start_distance_to_H": 8.004332553468901e-07,
+      "K": 8.623498375606378e-10,
+      "loops": [
+        {
+          "half": "upper",
+          "radius": 0.27,
+          "circulation": 2.9758847484697493e-05,
+          "quadrature_relative_change": 1.7274498551018416e-06
+        },
+        {
+          "half": "lower",
+          "radius": 0.27,
+          "circulation": -2.975862335052717e-05,
+          "quadrature_relative_change": 1.8917565787006803e-06
+        },
+        {
+          "half": "upper",
+          "radius": 0.405,
+          "circulation": 2.9760862787937367e-05,
+          "quadrature_relative_change": 1.229586355474628e-06
+        },
+        {
+          "half": "lower",
+          "radius": 0.405,
+          "circulation": -2.9760851359769348e-05,
+          "quadrature_relative_change": 1.19299144001132e-06
+        }
+      ],
+      "loaded_field_sha256": "f136ad8e327ccbdb48ef8d461e9fa11cd5337e4a30d2258845d8a67f401556cc"
+    },
+    {
+      "panel": "hole",
+      "initial_max_slope": 7.669626775273166,
+      "initial_H_slope": 1.0099999999999996,
+      "initial_H_push": 0.009999999999999565,
+      "model_time": 0.1,
+      "H_push": 0.0,
+      "H_velocity": [
+        -0.04534328785224503,
+        0.13762797167627122
+      ],
+      "H_speed": 0.14490504594725492,
+      "degrees_left_of_down": 18.2351255068047,
+      "parcel_start_distance_to_H": 0.007311069122357041,
+      "K": 0.013235507700378903,
+      "loops": [
+        {
+          "half": "upper",
+          "radius": 0.27,
+          "circulation": 0.11291135482226924,
+          "quadrature_relative_change": 1.9077230247719326e-07
+        },
+        {
+          "half": "lower",
+          "radius": 0.27,
+          "circulation": -0.11290871550084386,
+          "quadrature_relative_change": 2.01298697446928e-07
+        },
+        {
+          "half": "upper",
+          "radius": 0.405,
+          "circulation": 0.26358039890564944,
+          "quadrature_relative_change": 2.1231529010403325e-07
+        },
+        {
+          "half": "lower",
+          "radius": 0.405,
+          "circulation": -0.26358096815358245,
+          "quadrature_relative_change": 1.6789611151435347e-07
+        }
+      ],
+      "loaded_field_sha256": "ec523f1e4711d18cfdf5f149a2a6ce7960f13ef604e153637b06fd692bf74a5c"
+    }
+  ],
+  "eight_refill_settings": [
+    {
+      "grid": 320,
+      "water_cells": 80452,
+      "steps": 40,
+      "eighth_headings": [
+        15.14954808464493,
+        15.17093288431407
+      ],
+      "difference_deg": 0.0213847996691392,
+      "energy_difference_pct": 0.013826890314468692,
+      "memory_difference_pct": 1.1666760936517666e-06
+    },
+    {
+      "grid": 384,
+      "water_cells": 115816,
+      "steps": 64,
+      "eighth_headings": [
+        14.071293906634272,
+        15.142985822754513
+      ],
+      "difference_deg": 1.0716919161202405,
+      "energy_difference_pct": 0.7963000701887151,
+      "memory_difference_pct": 7.10149849541641e-05
+    },
+    {
+      "grid": 448,
+      "water_cells": 157648,
+      "steps": 80,
+      "eighth_headings": [
+        14.240897925635,
+        15.165422210860248
+      ],
+      "difference_deg": 0.9245242852252478,
+      "energy_difference_pct": 0.6950408689887045,
+      "memory_difference_pct": 5.0754303833706474e-05
+    },
+    {
+      "grid": 512,
+      "water_cells": 205892,
+      "steps": 120,
+      "eighth_headings": [
+        13.78242453021196,
+        15.166550158173388
+      ],
+      "difference_deg": 1.3841256279614278,
+      "energy_difference_pct": 1.0748188530925311,
+      "memory_difference_pct": 9.58228810793721e-05
+    },
+    {
+      "grid": 548,
+      "water_cells": 235912,
+      "steps": 120,
+      "eighth_headings": [
+        13.003796098616409,
+        15.168417774558002
+      ],
+      "difference_deg": 2.164621675941593,
+      "energy_difference_pct": 1.881520593376015,
+      "memory_difference_pct": 0.00013152130927438378
+    },
+    {
+      "grid": 620,
+      "water_cells": 301916,
+      "steps": 120,
+      "eighth_headings": [
+        12.272465640084942,
+        15.171618292034584
+      ],
+      "difference_deg": 2.899152651949642,
+      "energy_difference_pct": 2.5954216453437993,
+      "memory_difference_pct": 0.000213661852882871
+    },
+    {
+      "grid": 620,
+      "water_cells": 301916,
+      "steps": 240,
+      "eighth_headings": [
+        12.272088432169621,
+        15.171620727476139
+      ],
+      "difference_deg": 2.8995322953065177,
+      "energy_difference_pct": 2.595946102582889,
+      "memory_difference_pct": 0.0002136643944218838
+    }
+  ],
+  "checkpoints": "MeetingObservations.lean records each incoming and outgoing checkpoint digest. The original numerical audit also checked the four saved readings per branch refill."
+}
