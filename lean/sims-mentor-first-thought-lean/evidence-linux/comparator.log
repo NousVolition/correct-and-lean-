@@ -1,0 +1,37 @@
+Running as unit: run-u0.service; invocation ID: 02a42943525b4c0ea59abe607d49d6f5
+Building MentorThoughtChallenge
+✔ [4/7] Built MentorThoughtModel (1.0s)
+⚠ [5/7] Built PrimeSweepChallenge (861ms)
+warning: PrimeSweepChallenge.lean:7:8: declaration uses `sorry`
+warning: PrimeSweepChallenge.lean:11:8: declaration uses `sorry`
+warning: PrimeSweepChallenge.lean:15:8: declaration uses `sorry`
+warning: PrimeSweepChallenge.lean:20:8: declaration uses `sorry`
+warning: PrimeSweepChallenge.lean:26:8: declaration uses `sorry`
+warning: PrimeSweepChallenge.lean:30:8: declaration uses `sorry`
+warning: PrimeSweepChallenge.lean:36:8: declaration uses `sorry`
+⚠ [6/7] Built MentorThoughtChallenge (854ms)
+warning: MentorThoughtChallenge.lean:8:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:12:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:17:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:23:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:27:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:33:8: declaration uses `sorry`
+warning: MentorThoughtChallenge.lean:37:8: declaration uses `sorry`
+Build completed successfully (7 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, MentorThought.shared_iff_same_interval, MentorThought.prime_clock_schedule, MentorThought.free_words_precede_source, MentorThought.personal_mentions_by_wording, MentorThought.motion_and_no_mention_counts, MentorThought.later_source_judgments, MentorThought.identified_without_mentioning_feeling, MentorThought.Sweep.five_at_every_prime, MentorThought.Sweep.no_volunteered_certainty, MentorThought.Sweep.direct_identifications_by_tick, MentorThought.Sweep.feelings_while_tentative, MentorThought.Sweep.no_majority_and_no_identification_after_personal_mention, MentorThought.Sweep.last_bracket_comparison, MentorThought.Sweep.one_snapshot_does_not_date_a_switch, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from MentorThoughtChallenge
+Building MentorThought
+✔ [5/7] Built PrimeSweep (1.8s)
+✔ [6/7] Built MentorThought (1.4s)
+Build completed successfully (7 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, MentorThought.shared_iff_same_interval, MentorThought.prime_clock_schedule, MentorThought.free_words_precede_source, MentorThought.personal_mentions_by_wording, MentorThought.motion_and_no_mention_counts, MentorThought.later_source_judgments, MentorThought.identified_without_mentioning_feeling, MentorThought.Sweep.five_at_every_prime, MentorThought.Sweep.no_volunteered_certainty, MentorThought.Sweep.direct_identifications_by_tick, MentorThought.Sweep.feelings_while_tentative, MentorThought.Sweep.no_majority_and_no_identification_after_personal_mention, MentorThought.Sweep.last_bracket_comparison, MentorThought.Sweep.one_snapshot_does_not_date_a_switch, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from MentorThought
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 10.934s
+CPU time consumed: 12.695s
+Memory peak: 256.0K
+Memory swap peak: 0B
