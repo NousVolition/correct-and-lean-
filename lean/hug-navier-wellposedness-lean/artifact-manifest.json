@@ -1,5 +1,5 @@
 {
-  "build-native.py": "4d7f92db9fe3fea4ea9af0b484f3cd039f433795ee0d5299b8a0042acbac68b0",
+  "build-native.py": "3c2c7f8ca82746837311dbe14af6ce867ea881f5a15392840f7c07525a905c1e",
   "CLASSICAL-UNIQUENESS-ARGUMENT.md": "0856936fc4e362da21528032c08daec246a5c46a251f427b4495027c2572a90c",
   "comparator.json": "da2e3f38f71f9f73069f342148fc3940cf1da690e3a3758d1aa34d5bd367e95b",
   "FullChecks.lean": "f838c6dd4855e2d8f0c0ab1c49ee73259ace3f9d13695dd18351a09a9ac7c24f",
@@ -18,7 +18,7 @@
   "native-targets-recovery.log": "3d74df166b9a5c0c343790927948876116c494c50ec4ef847de855f23d43ab12",
   "OriginalAS.lean": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5",
   "PROOF-STATUS.md": "bb01bb8188e54333061704c3ea9fa8f29cc905576b30ee4b6bab646b4d51ce21",
-  "README.md": "566b1860520c2861ef2e63924af24c06297d78d981abeaf2216cd26bb294b458",
+  "README.md": "b341ae306ee216e8f58769b5f74ec015c05decf9c09985824122d7d43ec2038e",
   "reference-freeze.json": "fd98726a7d193414ba4e465be8f3ec52bb1c0dd7c0e320ed21489f1d738b02e7",
   "run-linux-check.sh": "d87d8c91f5b3dae2a1bb3424a06be278cdce77f83e6a392981b5d560c65a95d2",
   "source-audit.json": "5374586d8232a9a1104e62fb8b2f90992749ede2b1df6f25108983cb95ac3c21",
@@ -29,7 +29,7 @@
   "sources/original-corpus-passages.json": "5945c73a3a47d787db4b45640675555c08a23b0daa863ce863c92a8e1fb723fa",
   "sources/original-source-manifest.json": "5bb99f1ef240578bf0d5372a78f23f4a6a3f9f6d1257fffa8d54fad6627f8370",
   "verification-inputs.json": "94347e76ee55a73a5b654f1671fab4e78e65206b3514df1de51c5827fbab2a7c",
-  "verification-report.json": "9c7ca02bc961a51de628dabe0b5df2b8309e61d7c4c47473a0f2fb0865ef0a20",
+  "verification-report.json": "a12ade9e059bd01aa17256572361b8fc268b7edacdb006f4846022420f910e0a",
   "WellposednessChallenge.lean": "0046f71cd9327893c9212ee192b0eab63894743235d79278c34aa4c948d1404a",
   "WellposednessProofs.lean": "84ad49a629b517028dcb1268f1951d52b55466f2abc4176474d2d34579dd07d9",
   "WellposednessTargets.lean": "5c013dc34f7559782e0d375958681e4b37ace7b952f94d1dd1b21dea32c3f35a",
@@ -43,5 +43,11 @@
   "evidence-linux/historical-four/preflight.json": "c4fa8c1443f3a5ae5c095716ad5e74695e4c0992341c619148e51419b1901699",
   "evidence-linux/four-target-report.json": "6055601fba87ebfb6d56108eef8ddab61ee0e1dcf6faa3fbdfc0056a9529f965",
   "GuardTransport.lean": "8702842bb028913050cc5872124fefca796dad223160dde6ff8209344c0ee16c",
-  "GuardTransportDefs.lean": "9dc397770fefb8f3de2d2f93a5fb277a6414a0f834a7fe96d7759ffbec5ce8fa"
+  "GuardTransportDefs.lean": "9dc397770fefb8f3de2d2f93a5fb277a6414a0f834a7fe96d7759ffbec5ce8fa",
+  "evidence-linux/axioms.json": "20894f3ca7c93082e42378483cdd808c4f3d4eb9dedf4811d7031b80bff17933",
+  "evidence-linux/comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+  "evidence-linux/comparator.log": "d4b16ceb4d1e7ad9e935af373250245122e872881699333c572da5e79d94fea5",
+  "evidence-linux/lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+  "evidence-linux/lake-build.log": "51b2de11e25e7aca4285dc1e3ae9f94976b2f2727f388630d954806f16d049e0",
+  "evidence-linux/source.json": "bdfb769f02facec5066902ba5ae99661a2d78124afecd36fccd3a2edb5c1c32b"
 }

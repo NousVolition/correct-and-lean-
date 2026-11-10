@@ -1,0 +1,19 @@
+{
+  "run": "https://github.com/NousVolition/correct-and-lean-/actions/runs/42797170605",
+  "job_id": 129765632698,
+  "event": "pull_request",
+  "pull_request": 7,
+  "proof_branch_head": "5a8f623135c51370bb8479eef839baf4fd7b5d46",
+  "artifact_id": 13753892993,
+  "artifact_name": "proof-hug-navier-wellposedness-lean-1",
+  "artifact_zip_sha256": "f56caf0aa351db4846f919a8ee9225667b8710a5a7ebaab283d86eaad0bcdf25",
+  "files_sha256": {
+    "axioms.json": "20894f3ca7c93082e42378483cdd808c4f3d4eb9dedf4811d7031b80bff17933",
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.log": "d4b16ceb4d1e7ad9e935af373250245122e872881699333c572da5e79d94fea5",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "51b2de11e25e7aca4285dc1e3ae9f94976b2f2727f388630d954806f16d049e0",
+    "verification-report.json": "a12ade9e059bd01aa17256572361b8fc268b7edacdb006f4846022420f910e0a"
+  },
+  "scope": "Unmodified GitHub Actions artifact members. Comparator checked ten frozen declarations with the Lean and nanoda kernels. The four-target record is retained under historical-four."
+}

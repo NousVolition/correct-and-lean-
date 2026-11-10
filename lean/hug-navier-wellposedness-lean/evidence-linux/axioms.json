@@ -1,0 +1,52 @@
+{
+  "HugNavierWellposedness.Verified.perturbation_regular": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierWellposedness.Verified.nearby_uniform_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierWellposedness.Verified.exact_rate_difference": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierWellposedness.Verified.no_uniform_local_rate_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierSingle.GuardTransport.transport_of_blend": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierSingle.GuardTransport.directional_guard_rates": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierSingle.GuardTransport.advection_difference": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierSingle.GuardTransport.residual_energy_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierSingle.GuardTransport.integrated_residual_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierSingle.GuardTransport.common_transport_cancels": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

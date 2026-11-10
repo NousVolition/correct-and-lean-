@@ -7,7 +7,7 @@ root = Path(__file__).resolve().parent
 record = json.loads((root / "basin-solver-provenance.original.json").read_bytes())
 current = json.loads((root / "basin-solver-provenance.json").read_bytes())
 mapping = json.loads((root / "publication-map.json").read_bytes())["files"]
-if current["simulation_sources"] != record["simulation_sources"] or set(mapping) != set(record["simulation_sources"]):
+if {k:v for k,v in current.items() if k != "original_environment"} != record or set(mapping) != set(record["simulation_sources"]):
     raise ValueError("Publication and original source records disagree")
 count = 0
 for name, source in record["simulation_sources"].items():

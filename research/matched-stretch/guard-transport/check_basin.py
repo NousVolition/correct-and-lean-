@@ -55,13 +55,13 @@ def positions_at_midpoints(grids):
     return midpoints
 
 
-def case(label, target, archive):
+def replay(target, last_tick):
     disk = ClosedDisk(384)
     amplitude = target / float(interpolate(disk.slope(disk.profile), 0., 0., 384))
     s = amplitude * disk.profile.copy()
     u, v = np.zeros_like(s), np.zeros_like(s)
     grids = {0: velocity_grid(disk, u, v)}
-    for tick in range(1,20):
+    for tick in range(1,last_tick+1):
         t, stop = (tick-1)*.05, tick*.05
         while stop-t > 1e-12:
             if tick <= 12:
@@ -76,6 +76,11 @@ def case(label, target, archive):
             s,u,v = [a+dt*b for a,b in zip(state, second[:3])]
             t += dt
         grids[tick] = velocity_grid(disk, u, v)
+    return amplitude, grids
+
+
+def case(label, target, archive):
+    amplitude, grids = replay(target, 19)
     digests = {}
     for tick in range(0,19,2):
         if archive:

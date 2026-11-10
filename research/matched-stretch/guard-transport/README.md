@@ -57,6 +57,10 @@ The original **two-dimensional** closed-basin trail export labels all 401 specks
 
 At 0.65 the narrower pair is 0.6 and 0.7. The wider pair is 0.55 and 0.75. Errors are RMS vector lengths in each flow's own model units. The spatial downsampling is shared by every prediction and reference. The basin ratios vary with time. The separate three-dimensional breathing runs have their own [solver provenance](basin_sources/README.md). [Basin replay](check_basin.py) · [Measurements and frame checksums](basin-results.json)
 
+## When the mentor catches up
+
+Marker step 192 and mentor step 150 meet at 0.6, tagged 17. The next shared time is 0.7, tagged 19. A separate replay follows each clock at its own step size and uses the shared ticks to measure path discrepancy and held-out velocity error. [Prime-tick comparison and 3D records](prime-ticks.md)
+
 ## Reproduce the checks
 
 In the Hug–Navier well-posedness package, `lake build` builds the configured solution including the transport proofs. The Comparator comparison lists all ten declarations and checks them with the default Lean kernel and nanoda. [Verification report](../../../lean/hug-navier-wellposedness-lean/verification-report.json) · [Saved logs](../../../lean/hug-navier-wellposedness-lean/evidence-linux/)
