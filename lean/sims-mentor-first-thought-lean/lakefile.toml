@@ -15,7 +15,7 @@ text = true
 
 [[lean_lib]]
 name = "MentorThoughtModel"
-needs = ["roomReadings", "sweepReadings"]
+needs = ["roomReadings", "sweepReadings", "continuingReadings"]
 
 [[lean_lib]]
 name = "MentorThought"
@@ -33,3 +33,14 @@ name = "PrimeSweep"
 
 [[lean_lib]]
 name = "PrimeSweepChallenge"
+
+[[input_file]]
+name = "continuingReadings"
+path = "one-traveller/readings.tsv"
+text = true
+
+[[lean_lib]]
+name = "OneTraveller"
+
+[[lean_lib]]
+name = "OneTravellerChallenge"

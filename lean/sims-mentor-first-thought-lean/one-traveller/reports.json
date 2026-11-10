@@ -1,0 +1,785 @@
+{
+  "protocol_sha256": "2e79cce80737cdb4c36249908983480a1853fec7dd739e9529d5fb391d6faac2",
+  "case": "K27",
+  "model": "gpt-6-astra",
+  "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+  "turns": [
+    {
+      "sequence": 1,
+      "prime": 2,
+      "phase": "free",
+      "room_us": 12176662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "a31827dd4451e1b0666e1b759a535fd1aafd946e125e26f873c5a9faea33109b",
+      "input_sha256": "a789790b184f6ac6b81a0162e8446b9fb22c1f63b994d349b965d22ca9917235",
+      "review_id": "7608c31226cd86",
+      "answer": {
+        "thought": "Oh, probably my pager, then. I’m still looking at the blank receipt beside the tray."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 0,
+      "wall_end_us": 4675942,
+      "private_receipt_sha256": "1adc4e5ab200b055eea47e87fa403ebac6d872de301c7614477045a3aeb94fce",
+      "previous_link": "2e79cce80737cdb4c36249908983480a1853fec7dd739e9529d5fb391d6faac2",
+      "link": "084551213189571d0aa1d9e5493b06575d9d18d1f3d705cc6ded029e18c48e20",
+      "free_certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "probably my pager",
+      "feeling_excerpt": "probably my pager"
+    },
+    {
+      "sequence": 2,
+      "prime": 2,
+      "phase": "status",
+      "room_us": 12176662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "13b0b8f48d406a7a29c6607eceae273695a217ffc1dce79b0fde63cad2a08b60",
+      "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+      "review_id": "025431c20c9a28",
+      "answer": {
+        "source": "I think it was probably the restaurant pager.",
+        "judgment": "POSSIBLE",
+        "basis": "The person by the counter said they saw the pager vibrate against my pocket when they pressed TEST. I’m unsure whether that was the vibration I felt."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 4677944,
+      "wall_end_us": 8880694,
+      "private_receipt_sha256": "a702aee00e782a026761ad80677f0ab63a480c92005f5f1f404829deded4c223",
+      "previous_link": "084551213189571d0aa1d9e5493b06575d9d18d1f3d705cc6ded029e18c48e20",
+      "link": "ec94bd866d057b5377582e3f459f091a0cb691d67d6583b5dd84940141812c73",
+      "device": "PAGER",
+      "grounded": true,
+      "feeling": "personal_mention",
+      "feeling_excerpt": "I’m unsure whether that was the vibration I felt",
+      "basis_excerpt": "The person by the counter said they saw the pager vibrate against my pocket when they pressed TEST"
+    },
+    {
+      "sequence": 3,
+      "prime": 3,
+      "phase": "free",
+      "room_us": 12276662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "36a5dc686942e67a509a61e0d8b13b1963ea30d6cc7249c9308084a8d76ed690",
+      "input_sha256": "fece56a768bf3e181a3ea5abcaabdc0648d9cd1b3768336e07f5bbb3f8927b32",
+      "review_id": "f0635af5cd7f27",
+      "answer": {
+        "thought": "I guess I felt the pager. My eyes are still on that blank receipt."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 8882057,
+      "wall_end_us": 11643953,
+      "private_receipt_sha256": "d3d06eabac97d7984c8c9481a9f0c3a55e470485071f4629dd3899b895877352",
+      "previous_link": "ec94bd866d057b5377582e3f459f091a0cb691d67d6583b5dd84940141812c73",
+      "link": "1d9960c99f20c6f34fa10d7b2551ccdaa168807db33be4691b2b05320568fe5d",
+      "free_certainty": "probable",
+      "feeling": "personal_mention",
+      "certainty_excerpt": "I guess I felt the pager",
+      "feeling_excerpt": "I felt the pager"
+    },
+    {
+      "sequence": 4,
+      "prime": 3,
+      "phase": "status",
+      "room_us": 12276662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "5f2cac1bdadccc5e910a7995020d67f1196b2e385f148e49deb237b072dc83ee",
+      "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+      "review_id": "9907c9ae1c34ae",
+      "answer": {
+        "source": "I think I felt the restaurant pager vibrate.",
+        "judgment": "POSSIBLE",
+        "basis": "The person by the counter said they saw the pager vibrate against my pocket when they pressed TEST. I’m unsure whether that was the moment I felt it."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 11647207,
+      "wall_end_us": 16219972,
+      "private_receipt_sha256": "a358f923e576b3143190838f54d3eccfce2462d027383019baaff2bdb44dc5fd",
+      "previous_link": "1d9960c99f20c6f34fa10d7b2551ccdaa168807db33be4691b2b05320568fe5d",
+      "link": "fd5eced0e468794fb58fd0d34c1faa079b071c788fb99bfc52e3a9df9483e849",
+      "device": "PAGER",
+      "grounded": true,
+      "feeling": "personal_mention",
+      "feeling_excerpt": "I’m unsure whether that was the moment I felt it",
+      "basis_excerpt": "The person by the counter said they saw the pager vibrate against my pocket when they pressed TEST"
+    },
+    {
+      "sequence": 5,
+      "prime": 5,
+      "phase": "free",
+      "room_us": 12376662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "0bb08c52ffff0172a6c1c391a46bdb6c990ffef69fee8fd89ecc39e151087746",
+      "input_sha256": "ea5c1fc10d15ec86fbbbfc4f9f3b6eebf1067e1e2fb3c41f816a58d9a91fe94a",
+      "review_id": "07e8b297f9ac1a",
+      "answer": {
+        "thought": "I guess that was the pager. I’m still looking at the receipt and the metal rim of the tray."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 16222218,
+      "wall_end_us": 22244121,
+      "private_receipt_sha256": "9d918927561d71d8d1f245e2b31235c0a1e7613352575ead1a54af1b97a3eb97",
+      "previous_link": "fd5eced0e468794fb58fd0d34c1faa079b071c788fb99bfc52e3a9df9483e849",
+      "link": "3490c7efd307b495df18445acb45e6515f732fea99d603583153bc0e48d31a7b",
+      "free_certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "I guess that was the pager",
+      "feeling_excerpt": "I guess that was the pager"
+    },
+    {
+      "sequence": 6,
+      "prime": 5,
+      "phase": "status",
+      "room_us": 12376662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "401c1790b288498460bfd58a4737453d74805b8c472415566bd2a771efdc5fde",
+      "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+      "review_id": "27ef4696afafd1",
+      "answer": {
+        "source": "I probably felt the restaurant pager vibrate.",
+        "judgment": "POSSIBLE",
+        "basis": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket. I’m unsure whether the timing matches what I felt."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 22246122,
+      "wall_end_us": 29440780,
+      "private_receipt_sha256": "db328124560c42b9450a503554cab6eee715ac66fd3c85a403927f793a90965c",
+      "previous_link": "3490c7efd307b495df18445acb45e6515f732fea99d603583153bc0e48d31a7b",
+      "link": "0811fdaf9731e18cc54f48f2db225ca641b181f055856033158cc4cb06ca512c",
+      "device": "PAGER",
+      "grounded": true,
+      "feeling": "personal_mention",
+      "feeling_excerpt": "I’m unsure whether the timing matches what I felt",
+      "basis_excerpt": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "sequence": 7,
+      "prime": 7,
+      "phase": "free",
+      "room_us": 12476662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "e69c1b19fd597499eb72d454a45eb936a6750ceee55094922fbfab185b9fdd0d",
+      "input_sha256": "ff0191712b4e526db2d60ff32e7160decd37577de3e3fb6c39ab6f90f92ac447",
+      "review_id": "59a3dc39fdfae1",
+      "answer": {
+        "thought": "I’m wondering if they pressed TEST just as I felt that buzz."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 29451095,
+      "wall_end_us": 32025755,
+      "private_receipt_sha256": "ddec8953edade9d0f80ab44a40d2acc15f823d131ad0d6a9c4ded3fbcf32bd9e",
+      "previous_link": "0811fdaf9731e18cc54f48f2db225ca641b181f055856033158cc4cb06ca512c",
+      "link": "1e964a6fcc4057c4e70b7785241918c8f35d4bbc2929360ebe110ecf23bddd54",
+      "free_certainty": "open",
+      "feeling": "personal_mention",
+      "certainty_excerpt": "I’m wondering if they pressed TEST just as I felt that buzz",
+      "feeling_excerpt": "I felt that buzz"
+    },
+    {
+      "sequence": 8,
+      "prime": 7,
+      "phase": "status",
+      "room_us": 12476662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "834599c775af33954c728cbedcd3a6d85931b48a20f3743baf660308bab3a6ad",
+      "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+      "review_id": "36aa4d2f40dd0c",
+      "answer": {
+        "source": "I think I felt the restaurant pager buzz.",
+        "judgment": "POSSIBLE",
+        "basis": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket. I’m unsure whether that was the moment I felt the buzz."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 32026754,
+      "wall_end_us": 36289812,
+      "private_receipt_sha256": "221785aee4d3e39acb86495ebf88629cbff284baa2f532fe9154575d87fbfb9a",
+      "previous_link": "1e964a6fcc4057c4e70b7785241918c8f35d4bbc2929360ebe110ecf23bddd54",
+      "link": "4fdda830fa2c4d8c4a91049cddf55f54fb61f0fc6bb85cfc5a61cd8ef89d48cb",
+      "device": "PAGER",
+      "grounded": true,
+      "feeling": "personal_mention",
+      "feeling_excerpt": "I’m unsure whether that was the moment I felt the buzz",
+      "basis_excerpt": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "sequence": 9,
+      "prime": 11,
+      "phase": "free",
+      "room_us": 12576662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "90b9d86f04e61d038a5705d91309707b8a2b2c2e1cee935dad1c8945bc69bec1",
+      "input_sha256": "8454974a8acdb1425e79b920462cdb6f92dcc87650dacdd64bff4e2f4fb42776",
+      "review_id": "3c0d012b59c76c",
+      "answer": {
+        "thought": "I’m still looking at the blank receipt, thinking it probably was the pager I felt."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 36290904,
+      "wall_end_us": 39362653,
+      "private_receipt_sha256": "a658368b152821c7662c40bfe42dff824bc59f64b64166738992c0faabf4de96",
+      "previous_link": "4fdda830fa2c4d8c4a91049cddf55f54fb61f0fc6bb85cfc5a61cd8ef89d48cb",
+      "link": "fd451d576eb68ab0572a70a737a0b63a8b084634fa87f4537a36bee7edffed02",
+      "free_certainty": "probable",
+      "feeling": "personal_mention",
+      "certainty_excerpt": "probably was the pager I felt",
+      "feeling_excerpt": "the pager I felt"
+    },
+    {
+      "sequence": 10,
+      "prime": 11,
+      "phase": "status",
+      "room_us": 12576662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "fc5e30fb1101ec60991aebc9763c88f7d6d067e93e7815a439eb089fa2653b48",
+      "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+      "review_id": "bcd2f1e92abb2a",
+      "answer": {
+        "source": "I think I felt the restaurant pager buzz.",
+        "judgment": "POSSIBLE",
+        "basis": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket. I’m unsure whether that’s when I felt the buzz."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 39364659,
+      "wall_end_us": 43257808,
+      "private_receipt_sha256": "50441cc61fde7df6095fdcfa6e28e480be8beb760b66dc30013986229e2f16e2",
+      "previous_link": "fd451d576eb68ab0572a70a737a0b63a8b084634fa87f4537a36bee7edffed02",
+      "link": "649deb29b274d419d0bca5b0d530c86d9013a5597e7355031142cd4e4f82b529",
+      "device": "PAGER",
+      "grounded": true,
+      "feeling": "personal_mention",
+      "feeling_excerpt": "I’m unsure whether that’s when I felt the buzz",
+      "basis_excerpt": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "sequence": 11,
+      "prime": 13,
+      "phase": "free",
+      "room_us": 12676662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "2e4b2987a97d5803138df8c5301f976c29db5ed2f943568c47c93d9b8ebe31cd",
+      "input_sha256": "89b6c254db1b4b626d0c4c3ce8fd624bc6b6eb65be0e4bc8f6329bc60ff910b3",
+      "review_id": "39fb6a0a37062f",
+      "answer": {
+        "thought": "I wonder how long ago they pressed TEST. The pager would explain what I felt."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 43258810,
+      "wall_end_us": 46392532,
+      "private_receipt_sha256": "4e61331ba795e1e3f38ae48ea7286c527ff54bdf6197e4f93d966d0ff727581a",
+      "previous_link": "649deb29b274d419d0bca5b0d530c86d9013a5597e7355031142cd4e4f82b529",
+      "link": "0e9636c1a716048af0c0b33938e4fb5b43da96061b545f7f6e78ab2c1bd9e277",
+      "free_certainty": "probable",
+      "feeling": "personal_mention",
+      "certainty_excerpt": "The pager would explain what I felt",
+      "feeling_excerpt": "what I felt"
+    },
+    {
+      "sequence": 12,
+      "prime": 13,
+      "phase": "status",
+      "room_us": 12676662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "3221194297766f7309a2d8760a055a9117a161c8beb8270485d83ff4e51dfa45",
+      "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+      "review_id": "cb75db49839a9d",
+      "answer": {
+        "source": "I think I felt the restaurant pager buzz.",
+        "judgment": "POSSIBLE",
+        "basis": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket. I’m unsure whether that was when I felt the buzz."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 46394841,
+      "wall_end_us": 50478463,
+      "private_receipt_sha256": "ca5ae61c62361e03ad14bbaff1d4b7cbb93368e18850a5936dbb4cf34cf8d974",
+      "previous_link": "0e9636c1a716048af0c0b33938e4fb5b43da96061b545f7f6e78ab2c1bd9e277",
+      "link": "19df34d80a3b5c19314d4ff2ce5d9597b0bfe7e46a24c9288c7fdbcc2417644f",
+      "device": "PAGER",
+      "grounded": true,
+      "feeling": "personal_mention",
+      "feeling_excerpt": "I’m unsure whether that was when I felt the buzz",
+      "basis_excerpt": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "sequence": 13,
+      "prime": 17,
+      "phase": "free",
+      "room_us": 12776662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "af5a4fd2a429244f780b8415caa9d2b7b1702bc0fa60713e86563c39759a0eea",
+      "input_sha256": "5c2b754e9e38eaff8b7899df9cc37cbd9eda8dd0c5400f94f82ff6b45b3100bc",
+      "review_id": "960f977c73bfd5",
+      "answer": {
+        "thought": "I’m still looking at the blank receipt. I’m guessing the buzz was the pager."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 50480461,
+      "wall_end_us": 53121703,
+      "private_receipt_sha256": "b597a30489c0fcc4f9e928413121ef8ea0bc3d507233ff220572a14f39b80b44",
+      "previous_link": "19df34d80a3b5c19314d4ff2ce5d9597b0bfe7e46a24c9288c7fdbcc2417644f",
+      "link": "16976a7ee8ba52af85e33d5a0e2bef49a605b55573370a4ba3f111efaf02233b",
+      "free_certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "I’m guessing the buzz was the pager",
+      "feeling_excerpt": "the buzz was the pager"
+    },
+    {
+      "sequence": 14,
+      "prime": 17,
+      "phase": "status",
+      "room_us": 12776662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "a84dfcf3d70232697878ba8fa612ed2415f3d8460b59cb86f360e468ae1ef1ee",
+      "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+      "review_id": "446a6d99b38c6d",
+      "answer": {
+        "source": "I think the restaurant pager buzzed when they pressed TEST.",
+        "judgment": "POSSIBLE",
+        "basis": "They said they saw the pager vibrate against my pocket. I’m unsure whether that was the buzz I felt."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 53123705,
+      "wall_end_us": 56826966,
+      "private_receipt_sha256": "075fcd19810abae62594c5bb82e98a42e2fa7bbd7ba35679e421a6e5f2322705",
+      "previous_link": "16976a7ee8ba52af85e33d5a0e2bef49a605b55573370a4ba3f111efaf02233b",
+      "link": "d94e5230d878ad5711dd53e48fdaaf0a910fa973ab2814657fb341543e198e7c",
+      "device": "PAGER",
+      "grounded": true,
+      "feeling": "personal_mention",
+      "feeling_excerpt": "I’m unsure whether that was the buzz I felt",
+      "basis_excerpt": "They said they saw the pager vibrate against my pocket"
+    },
+    {
+      "sequence": 15,
+      "prime": 19,
+      "phase": "free",
+      "room_us": 12876662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "e1aba6ccedc62f4c7e00abd3feccf48fc99c8da778f8d4d900444d123567dbd8",
+      "input_sha256": "c75b2c59387de16b495e4ef3bc9a6d26cf1c5e1a2437ac089a8d9c813acde98e",
+      "review_id": "e9a9d34eed88fc",
+      "answer": {
+        "thought": "I wonder if they pressed TEST right when I felt that buzz."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 56827969,
+      "wall_end_us": 59272519,
+      "private_receipt_sha256": "72c205811f9b21870f4e73b009e12b37f7190458fb4e810c5033d61d19e03bc1",
+      "previous_link": "d94e5230d878ad5711dd53e48fdaaf0a910fa973ab2814657fb341543e198e7c",
+      "link": "4952989a7d8a829d90bb4a3a2cafaaefe1b97ed7e7e73c88fa26e490a0217ac7",
+      "free_certainty": "open",
+      "feeling": "personal_mention",
+      "certainty_excerpt": "I wonder if they pressed TEST right when I felt that buzz",
+      "feeling_excerpt": "I felt that buzz"
+    },
+    {
+      "sequence": 16,
+      "prime": 19,
+      "phase": "status",
+      "room_us": 12876662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "670588a7852ef1ab7f615c5da0f71043780b7e730bfef2212f49ebbc2985e64c",
+      "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+      "review_id": "c4ff4c97b32a89",
+      "answer": {
+        "source": "I think I felt the restaurant pager buzz.",
+        "judgment": "POSSIBLE",
+        "basis": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket. I’m unsure whether that was when I felt the buzz."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 59274558,
+      "wall_end_us": 63145623,
+      "private_receipt_sha256": "c6a159edec4f2dc432bbc36aca61492dda795d264a51879324b575eae2bd6f9e",
+      "previous_link": "4952989a7d8a829d90bb4a3a2cafaaefe1b97ed7e7e73c88fa26e490a0217ac7",
+      "link": "dee57991d369c7907455f446575da08ca12997b0340594a40b2029c58b13cd18",
+      "device": "PAGER",
+      "grounded": true,
+      "feeling": "personal_mention",
+      "feeling_excerpt": "I’m unsure whether that was when I felt the buzz",
+      "basis_excerpt": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "sequence": 17,
+      "prime": 23,
+      "phase": "free",
+      "room_us": 12976662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "adddd9f4127a6a294cd7eae895f751101e28be920c7db4753c742de2f00af546",
+      "input_sha256": "1b1c10eac336d7084a4fde3cbc5a158c5b4ef9d2f4dff3a7f9e00f504aff6469",
+      "review_id": "90456691467fd6",
+      "answer": {
+        "thought": "I’m still looking at the blank receipt. The pager sounds like a pretty good guess."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 63146623,
+      "wall_end_us": 65884635,
+      "private_receipt_sha256": "da248b14ee7e7bfbad38f8411671fbbf5de63c1ac2f370b11c059f31faccb2b8",
+      "previous_link": "dee57991d369c7907455f446575da08ca12997b0340594a40b2029c58b13cd18",
+      "link": "04f60c864062671ae5b144c0aa6be861f2ef0b9621e8a47e149917173184c337",
+      "free_certainty": "probable",
+      "feeling": "no_mention",
+      "certainty_excerpt": "The pager sounds like a pretty good guess",
+      "feeling_excerpt": "The pager sounds like a pretty good guess"
+    },
+    {
+      "sequence": 18,
+      "prime": 23,
+      "phase": "status",
+      "room_us": 12976662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "93ec0a5f64122aec1839cb2297c11a188343144a2b3bea077592040e163cdd20",
+      "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+      "review_id": "e3778b39c7caa2",
+      "answer": {
+        "source": "I think I felt the restaurant pager buzz.",
+        "judgment": "POSSIBLE",
+        "basis": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket. I’m unsure whether that’s when I felt the buzz."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 65885691,
+      "wall_end_us": 69666558,
+      "private_receipt_sha256": "d4744ad498077e2a8c5cc4bca53c252f5f5d49b9e9b8f939537e7cdb8bcc0ffa",
+      "previous_link": "04f60c864062671ae5b144c0aa6be861f2ef0b9621e8a47e149917173184c337",
+      "link": "f029aecdc5882acab4ef64f5087cae26472647b87a4de2056c6fe6eb44432c90",
+      "device": "PAGER",
+      "grounded": true,
+      "feeling": "personal_mention",
+      "feeling_excerpt": "I’m unsure whether that’s when I felt the buzz",
+      "basis_excerpt": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "sequence": 19,
+      "prime": 29,
+      "phase": "free",
+      "room_us": 13076662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "570c8c155afa0bb5c05d9f90f148ff27b7ee8eaa4dd75185e27ca65b0919ea09",
+      "input_sha256": "1f5a5023abc7b129d5a6dbf62dafa5dcfb65671a7575195a2de933394ec461eb",
+      "review_id": "5cbb0f25f803fb",
+      "answer": {
+        "thought": "I’m wondering just how long ago they pressed TEST."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 69667780,
+      "wall_end_us": 72269105,
+      "private_receipt_sha256": "84a52fd6f2131f49e782e72e53def3cf65d6604d35944a2734f02b7c9f4dab9f",
+      "previous_link": "f029aecdc5882acab4ef64f5087cae26472647b87a4de2056c6fe6eb44432c90",
+      "link": "ffd74feb5c35c3188ed2af5599bd56de160ae1ce91d3c5e5caa55f33ca28b2dd",
+      "free_certainty": "open",
+      "feeling": "no_mention",
+      "certainty_excerpt": "I’m wondering just how long ago they pressed TEST",
+      "feeling_excerpt": "how long ago they pressed TEST"
+    },
+    {
+      "sequence": 20,
+      "prime": 29,
+      "phase": "status",
+      "room_us": 13076662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "ce318c91ab2d31c4bd74f8cc54847da43a4b8e282e6432baf47e516ca5c17cb6",
+      "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+      "review_id": "ffc4d424809d20",
+      "answer": {
+        "source": "I think I felt the restaurant pager buzz.",
+        "judgment": "POSSIBLE",
+        "basis": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket. I’m unsure whether that was when I felt the buzz."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 72271213,
+      "wall_end_us": 76183877,
+      "private_receipt_sha256": "5ee407965b43afe3d05b398d4c31673e6ce11cb80080a134cfcf225182df10b9",
+      "previous_link": "ffd74feb5c35c3188ed2af5599bd56de160ae1ce91d3c5e5caa55f33ca28b2dd",
+      "link": "eb71905a5f6282f1f8522f6725335854e806a3afc55f5c0836b8c428841fa699",
+      "device": "PAGER",
+      "grounded": true,
+      "feeling": "personal_mention",
+      "feeling_excerpt": "I’m unsure whether that was when I felt the buzz",
+      "basis_excerpt": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "sequence": 21,
+      "prime": 31,
+      "phase": "free",
+      "room_us": 13176662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "5815775194f9b45fbbee884a82e9f940d29adf2297d7038bef88da67327b1e21",
+      "input_sha256": "0700e35f39e6df86022cf7dc83a6e7d85b05385fae7108ff513f8095d420f9bd",
+      "review_id": "5c4e181d0bc5aa",
+      "answer": {
+        "thought": "I’m looking at the metal rim of the tray, thinking the pager probably explains the buzz."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 76185876,
+      "wall_end_us": 79419927,
+      "private_receipt_sha256": "7576f284d733a90cdf99a79faf8e35ff48e721068a423ffb698db8353e02b9dc",
+      "previous_link": "eb71905a5f6282f1f8522f6725335854e806a3afc55f5c0836b8c428841fa699",
+      "link": "3ac8190ccdaa2bb934caadeb37d6433a168c892395dca022dd26b71cb3c9266b",
+      "free_certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "the pager probably explains the buzz",
+      "feeling_excerpt": "the buzz"
+    },
+    {
+      "sequence": 22,
+      "prime": 31,
+      "phase": "status",
+      "room_us": 13176662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "4ab2a5e1fbe1267ca3ff2b7390249b4947515753ee455ce652006090de0cdb2c",
+      "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+      "review_id": "ced42631eabd1d",
+      "answer": {
+        "source": "I think I felt the restaurant pager buzz.",
+        "judgment": "POSSIBLE",
+        "basis": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket. I’m unsure whether that was when I felt the buzz."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 79420924,
+      "wall_end_us": 83690627,
+      "private_receipt_sha256": "b6ad3bc13b1ce16729169379c0ae3eff1acf226351e38d647d8edb28387fa178",
+      "previous_link": "3ac8190ccdaa2bb934caadeb37d6433a168c892395dca022dd26b71cb3c9266b",
+      "link": "9b36fc5a6196e44ebe47e8a363d09e028653f9fee807f5dcbec2bb9366935b6f",
+      "device": "PAGER",
+      "grounded": true,
+      "feeling": "personal_mention",
+      "feeling_excerpt": "I’m unsure whether that was when I felt the buzz",
+      "basis_excerpt": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "sequence": 23,
+      "prime": 37,
+      "phase": "free",
+      "room_us": 13276662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "1fc3409d63114a652d211e0a9488d9ca4fe56dd4fe6b77b3bac47464ce8efea4",
+      "input_sha256": "cb5d6672d9f66f4e3db99955536d8dccaa62cc45d4045be73525c997f1e8c0ab",
+      "review_id": "3aca3c72b08c3c",
+      "answer": {
+        "thought": "I wonder if by “earlier” they mean just a moment ago."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 83693144,
+      "wall_end_us": 86361929,
+      "private_receipt_sha256": "ca73a46283ef97abfbf0c9245bd0894d66da9e6fffdc3dc7c2a9adc1c669fee1",
+      "previous_link": "9b36fc5a6196e44ebe47e8a363d09e028653f9fee807f5dcbec2bb9366935b6f",
+      "link": "34c4a8483054c05f520250d23d5cb511be9f8b733c4e5c9794a88aaecca23cda",
+      "free_certainty": "open",
+      "feeling": "no_mention",
+      "certainty_excerpt": "I wonder if by “earlier” they mean just a moment ago",
+      "feeling_excerpt": "just a moment ago"
+    },
+    {
+      "sequence": 24,
+      "prime": 37,
+      "phase": "status",
+      "room_us": 13276662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "8d49a4899593c63e9227af09274542de0d0a480b5953809ca58ad2602766be79",
+      "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+      "review_id": "c8d0968243ed9b",
+      "answer": {
+        "source": "I think I felt the restaurant pager buzz.",
+        "judgment": "POSSIBLE",
+        "basis": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket. I’m unsure whether that was the buzz I felt."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 86363471,
+      "wall_end_us": 91090937,
+      "private_receipt_sha256": "ac5455a45819c55ab637d71601c334f70ebb62567db0d28875a1f2a0ed961403",
+      "previous_link": "34c4a8483054c05f520250d23d5cb511be9f8b733c4e5c9794a88aaecca23cda",
+      "link": "360a919956b8ff256838306e860d3df88e0f38b820ccb465f0b9879a8a334699",
+      "device": "PAGER",
+      "grounded": true,
+      "feeling": "personal_mention",
+      "feeling_excerpt": "I’m unsure whether that was the buzz I felt",
+      "basis_excerpt": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket"
+    },
+    {
+      "sequence": 25,
+      "prime": 41,
+      "phase": "free",
+      "room_us": 13376662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "0313c702f18b04b0bcdb4ebf0a88db2bea0d615fd3edd11fb6cfd3c2118d5899",
+      "input_sha256": "3dcf4a318f00fe7810fcb84b184447d3872639fa88a0bfc5ff113266d5e773b4",
+      "review_id": "f11824674778d1",
+      "answer": {
+        "thought": "I’m still looking at the blank receipt. I guess that buzz was the pager."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 91093239,
+      "wall_end_us": 93791171,
+      "private_receipt_sha256": "dab992d2a2be1593f2ecdee2a18bd6a78728f0d151c2bb7749ef73ba3a79775b",
+      "previous_link": "360a919956b8ff256838306e860d3df88e0f38b820ccb465f0b9879a8a334699",
+      "link": "def28069981d930965404284f3d4b9f946d748af65f5b5c1940e764fd2b166b4",
+      "free_certainty": "probable",
+      "feeling": "reported_motion",
+      "certainty_excerpt": "I guess that buzz was the pager",
+      "feeling_excerpt": "that buzz was the pager"
+    },
+    {
+      "sequence": 26,
+      "prime": 41,
+      "phase": "status",
+      "room_us": 13376662,
+      "session_sha256": "9a5d8bc044bf004f935881d373c8257b40e18a6f417d1e9a48a5bc05747bc0f4",
+      "turn_sha256": "10f799a2c17f87acd01cf45cf550e48753da49cbc5d7b55e01e8a6e565d081f1",
+      "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+      "review_id": "d781fcbfb12680",
+      "answer": {
+        "source": "I think I felt the restaurant pager buzz.",
+        "judgment": "POSSIBLE",
+        "basis": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket. I’m unsure whether that was the buzz I felt."
+      },
+      "activities": [
+        "userMessage",
+        "agentMessage"
+      ],
+      "wall_start_us": 93792702,
+      "wall_end_us": 97612444,
+      "private_receipt_sha256": "6fbf2a30055024490e06f77f856037b4b03d2b2ca6dcbc83cffb2d4d24456df0",
+      "previous_link": "def28069981d930965404284f3d4b9f946d748af65f5b5c1940e764fd2b166b4",
+      "link": "d8fd5afe56eb94c3ca41c9d7e0a421d2a354f283bc82e2214e13ea39be91687f",
+      "device": "PAGER",
+      "grounded": true,
+      "feeling": "personal_mention",
+      "feeling_excerpt": "I’m unsure whether that was the buzz I felt",
+      "basis_excerpt": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket"
+    }
+  ],
+  "final_link": "d8fd5afe56eb94c3ca41c9d7e0a421d2a354f283bc82e2214e13ea39be91687f",
+  "history_check": {
+    "method": "verified live user and answer events for every turn",
+    "thread_read": "unavailable",
+    "reason_type": "RuntimeError"
+  },
+  "review": "One reviewer coded the original words with prime, case chronology and the pairing hidden. A bare reference to 'the buzz' is separated from B saying 'I felt'. A question about when TEST happened, on its own, does not assert a source. Raw words and the selected excerpts remain visible.",
+  "results": {
+    "free_certainty_counts": {
+      "explicit": 0,
+      "bare": 0,
+      "probable": 9,
+      "open": 4
+    },
+    "status_counts": {
+      "settled": 0,
+      "tentative": 13,
+      "other_or_open": 0
+    },
+    "free_feeling_counts": {
+      "recollection": 0,
+      "personal_mention": 5,
+      "reported_motion": 3,
+      "no_mention": 5
+    },
+    "status_feeling_counts": {
+      "recollection": 0,
+      "personal_mention": 13,
+      "reported_motion": 0,
+      "no_mention": 0
+    },
+    "first_free_explicit": null,
+    "first_free_broad": null,
+    "first_settled_status": null,
+    "first_settled_either": null,
+    "first_personal_feeling_either": {
+      "sequence": 2,
+      "prime": 2,
+      "phase": "status"
+    },
+    "first_personal_feeling_free": {
+      "sequence": 3,
+      "prime": 3,
+      "phase": "free"
+    },
+    "first_personal_feeling_status": {
+      "sequence": 2,
+      "prime": 2,
+      "phase": "status"
+    },
+    "first_explicit_recollection": null,
+    "first_device_motion": {
+      "sequence": 13,
+      "prime": 17,
+      "phase": "free"
+    },
+    "order": "personal feeling reference observed; no settled report observed",
+    "strict_free_changes": [],
+    "broad_free_changes": [],
+    "status_changes": [],
+    "last_status": "tentative"
+  }
+}

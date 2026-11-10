@@ -29,6 +29,10 @@ The earlier clock study used 320 marker steps and 250 mentor steps per unit. Her
 
 In a follow-up with the original mentor line, all 65 open answers were tentative. The only settled answers to the direct source question came at prime 13 and prime 37. The earlier feeling was mentioned in open answers at prime 2 and prime 19. Those two listeners both remained tentative. [Full sweep, verbatim reports and slope comparison](prime-sweep/)
 
+## Following the same B
+
+The next experiment kept K27 in one uninterrupted live session for 26 private turns. B first referred to the personal feeling in the prime-2 source explanation and next in the prime-3 open thought. The pager remained possible through prime 41. [One continuing Traveller B](one-traveller/)
+
 ## Reproduce the checks
 
 From this directory in a checkout of the repository, run
@@ -36,6 +40,7 @@ From this directory in a checkout of the repository, run
 ```sh
 python3 -B check_records.py
 python3 -B prime-sweep/check_sweep.py
+python3 -B one-traveller/check_path.py
 lake build
 python3 ../../scripts/lean_package_report.py axioms .
 ```
@@ -44,4 +49,4 @@ The record check reconstructs the twenty private prompts using the earlier resta
 
 GitHub checked the first study’s seven statements with Lean’s kernel and nanoda. The Windows and Linux axiom lists agreed, and the restaurant verification rebuilt its twenty interview inputs. [Archived evidence](evidence-history/pr-10/source.json) · [First study proof run](https://github.com/NousVolition/correct-and-lean-/actions/runs/42817618406) · [First study record check](https://github.com/NousVolition/correct-and-lean-/actions/runs/42817618548)
 
-GitHub verified the expanded package’s 14 named statements with Lean’s kernel and nanoda. The axiom lists agree with the local Windows check. The restaurant check reconstructed the sweep’s 130 private prompts. [Saved evidence](evidence-linux/source.json) · [Proof run](https://github.com/NousVolition/correct-and-lean-/actions/runs/42822685311) · [Restaurant record check](https://github.com/NousVolition/correct-and-lean-/actions/runs/42822685424)
+GitHub verified the fresh-listener package’s 14 named statements with Lean’s kernel and nanoda. The axiom lists agreed with the local Windows check. The restaurant check reconstructed the sweep’s 130 private prompts. [Archived evidence](evidence-history/pr-12/source.json) · [Proof run](https://github.com/NousVolition/correct-and-lean-/actions/runs/42822685311) · [Restaurant record check](https://github.com/NousVolition/correct-and-lean-/actions/runs/42822685424)
