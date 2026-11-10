@@ -7,6 +7,8 @@
 - **Full Hug v3 components:** the source, transfer, hybrid, delay, memory-rule, boundary and supplied-proof packages establish the particular statements identified in their reports. For example, the transfer record has 14 checked transfer statements; the supplied-proof review records 77 repaired supplied statements. Counts across packages overlap and must not be added into a count of independent results.
 - **Yang–Mills comparison:** 20 specified comparison statements passed in the recorded audit. Full Yang–Mills structure, dynamical equivalence and the mass-gap theorem are not proved.
 
+- **SIMS cue return.** The model distinguishes staying at the starting cue from leaving and later coming back within a specified radius. With the episode reference, witness, time and acceptance held fixed, the reported cause is independent of the attention trace. [Definitions, controls and proof](lean/sims-meeting-thread-lean/README.md#when-does-a-cue-count-as-a-return)
+
 ## Written and incomplete work
 
 - The [corrected revision-2 proof](research/hug-v3/corrected-proof-revision-2/proof.md) is a written conditional proof. Its [completion record](research/hug-v3/corrected-proof-revision-2/testing-packet/completion.json) records 19 targeted checks, no Lean/nanoda run and no unconditional continuation theorem.
@@ -15,9 +17,9 @@
 
 ## Numerical research
 
-The SIMS restaurant trials gave a mean of 1.542 simulated seconds from Traveller A's first unsure report to identification of order 31. In the five paired Traveller B meetings, only one pair identified the pager in both conditions. The Lean package shows how later accepted evidence can resolve an earlier event at the same cue. It also checks the recorded basin circulation signs and the continuity of the eight-refill checkpoint chains. [SIMS two-memory, meeting and basin results](lean/sims-meeting-thread-lean/)
+The SIMS restaurant trials gave a mean of 1.542 simulated seconds from Traveller A's first unsure report to identification of order 31. In the five paired Traveller B meetings, three quiet branches and one worried branch identified the pager. Only one pair reached the endpoint in both conditions, at 24.078956 simulated seconds each. Six branches stayed open, so the direction of an average timing effect remains unresolved. The Lean package shows how later accepted evidence can resolve an earlier event at the same cue. It also checks the recorded basin circulation signs and the continuity of the eight-refill checkpoint chains. [SIMS two-memory, meeting and basin results](lean/sims-meeting-thread-lean/)
 
-In a separate five-pair test, B identified the pager from the same witness answer in every branch. Only the five branches given a sensory replay could name the original embroidered detail. The matching event reference remained available throughout. Lean exhibits an open cue route that resolves the question under the model's evidence rule. [Pager replay results and controls](lean/sims-meeting-thread-lean/#does-b-need-to-revisit-the-feeling)
+In a separate five-pair test, B identified the pager from the same witness answer in all five explicit-replay branches and all five branches without an explicit replay. Only the five branches given a sensory replay could name the original embroidered detail. The matching event reference remained available throughout. Lean exhibits an open cue route that resolves the question under the model's evidence rule. [Pager replay results and controls](lean/sims-meeting-thread-lean/#does-b-need-to-revisit-the-feeling)
 
 The [matched-stretch study](research/matched-stretch/final-matrix/README.md) contains 48 runs with 41 saved times each through t = 0.40. Its independent auditing passed. The finest-grid W curves differ by 46.7880%; halving the finest timestep changes the W curve by 7.4987%, and the complete final velocity fields differ by 41.2147% in relative L2. These are disagreements between approximations, not measured errors against a known exact solution. Small budget residuals do not establish convergence.
 

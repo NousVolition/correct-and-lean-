@@ -60,7 +60,14 @@
     "MeetingThread.PagerReturn.same_odds_iff_same_cue",
     "MeetingThread.PagerReturn.five_matched_reports_both_ways",
     "MeetingThread.PagerReturn.pre_witness_and_other_pager_controls",
-    "MeetingThread.PagerReturn.only_replay_reports_original_marker"
+    "MeetingThread.PagerReturn.only_replay_reports_original_marker",
+    "MeetingThread.PagerReturn.two_samples_return_iff",
+    "MeetingThread.PagerReturn.staying_is_not_returning",
+    "MeetingThread.PagerReturn.sampled_return_controls",
+    "MeetingThread.PagerReturn.log_odds_distance",
+    "MeetingThread.PagerReturn.report_ignores_attention",
+    "MeetingThread.PagerReturn.recognition_beyond_any_radius",
+    "MeetingThread.PagerReturn.returning_does_not_match_the_episode"
   ],
   "permitted_axioms": [
     "propext",

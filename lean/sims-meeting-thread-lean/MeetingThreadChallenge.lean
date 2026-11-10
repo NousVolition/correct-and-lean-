@@ -2,6 +2,7 @@ import TwoMemoryModel
 import MeetingModel
 import MeetingObservations
 import PagerReturnChallenge
+import CueReturnChallenge
 
 /-! Frozen target statements. Comparator builds this reference separately from the solutions. -/
 
