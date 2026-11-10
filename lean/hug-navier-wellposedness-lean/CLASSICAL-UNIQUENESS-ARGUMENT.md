@@ -60,6 +60,16 @@ For guards, the sigmoid derivative is at most 1/4: writing r = exp(−s) > 0, th
 
 where M bounds each strain magnitude. Testing both guard difference equations with h and j cancels common transport. Their remaining transport, relaxation and state terms are bounded by (CE); their strain-coupling terms are bounded by (CE+\epsilon\|Dv\|_2^2). Guard diffusion remains nonnegative on the left.
 
+For either comparison guard $\tilde g$, the sharpened pointwise step is
+
+$$
+|h\,v\cdot\nabla\tilde g|
+\le \tfrac12\bigl(|v|^2+h^2|\nabla\tilde g|^2\bigr),
+\qquad h=g-\tilde g .
+$$
+
+Integrating and using the assumed uniform gradient bound gives at most $\frac12(\|v\|_2^2+\|\nabla\tilde g\|_\infty^2\|h\|_2^2)$ for that guard's residual transport contribution. Use $j$ in place of $h$ for the other guard. [GuardTransport.lean](GuardTransport.lean) proves the advection difference and the pointwise bound, as well as both directional rate identities evaluated along a marker velocity. The [withheld-field test](../../research/matched-stretch/guard-transport/README.md) measures the corresponding transport error in one finite-grid realization.
+
 Choose the two Young-inequality parameters so their total is less than (2\nu_0). Summing all six component balances gives
 
 \[

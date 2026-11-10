@@ -4,6 +4,8 @@ The requested theorem has **not** been established. The source's full six-field 
 
 `CLASSICAL-UNIQUENESS-ARGUMENT.md` gives a written uniqueness argument for existing solutions with explicitly stated joint classical regularity. It retains every coupling and derives guard bounds before using positive viscosity. This argument has not been formalized in Lean, does not cover the weaker saved predicate without those regularity assumptions, and does not establish existence.
 
+The [guard transport supplement](GuardTransport.lean) now proves the pointwise velocity-error term for both directional guards and its energy bound. Its [test and checking record](../../research/matched-stretch/guard-transport/README.md) connects these lemmas to the classical uniqueness argument.
+
 `RequestedExistenceAndUniqueness` names the conjunction of the two previously saved full-system targets. It is a proposition, not an asserted axiom or a proved theorem. No new claim of full existence or uniqueness is made by this package.
 
 ## The proof routes examined
