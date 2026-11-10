@@ -28,3 +28,5 @@ These statements specialize to the potential defined in the original file. The s
 `Volterra.step_apply` unfolds the integral operator and needs no completeness assumption. `Volterra.path_integrable` restricts an already-integrable path to a smaller interval and needs neither a real vector-space structure nor completeness. The two iteration bounds also hold without completeness. Completeness enters at the fixed-point existence theorem. These six lemmas now state the more general facts their proofs establish.
 
 The byte-for-byte original field and transport source has SHA-256 `b8681a3435b2367081d285fb83e7964a9ce5d2f7d0c9de07b87c798638a5d36e`. The repository CI checks the ten original statements and the six generalized lemmas against the separate reference.
+
+The independent reference keeps interval, memory, and transport declarations in separate modules. This preserves the original module boundaries for Lean’s generated numeral helpers.

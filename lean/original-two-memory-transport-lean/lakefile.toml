@@ -25,3 +25,9 @@ name = "TwoMemoryTransport"
 
 [[lean_lib]]
 name = "OriginalTransportChallenge"
+
+[[lean_lib]]
+name = "OriginalVolterraChallenge"
+
+[[lean_lib]]
+name = "OriginalMemoryModel"
