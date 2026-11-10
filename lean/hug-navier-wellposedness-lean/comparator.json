@@ -6,7 +6,13 @@
     "HugNavierWellposedness.Verified.perturbation_regular",
     "HugNavierWellposedness.Verified.nearby_uniform_bound",
     "HugNavierWellposedness.Verified.exact_rate_difference",
-    "HugNavierWellposedness.Verified.no_uniform_local_rate_bound"
+    "HugNavierWellposedness.Verified.no_uniform_local_rate_bound",
+    "HugNavierSingle.GuardTransport.transport_of_blend",
+    "HugNavierSingle.GuardTransport.directional_guard_rates",
+    "HugNavierSingle.GuardTransport.advection_difference",
+    "HugNavierSingle.GuardTransport.residual_energy_bound",
+    "HugNavierSingle.GuardTransport.integrated_residual_bound",
+    "HugNavierSingle.GuardTransport.common_transport_cancels"
   ],
   "permitted_axioms": [
     "propext",

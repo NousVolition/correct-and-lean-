@@ -2,9 +2,9 @@
 
 The requested theorem has **not** been established. The source's full six-field equations, nonuniform initial data, periodic domain, directed guards and shared flow are preserved. The same returning student and the idea “giving someone space to speak can change what I understand” remain the interpretation; no measured personal or social quantities are inferred from the formal checks.
 
-`CLASSICAL-UNIQUENESS-ARGUMENT.md` gives a written uniqueness argument for existing solutions with explicitly stated joint classical regularity. It retains every coupling and derives guard bounds before using positive viscosity. This argument has not been formalized in Lean, does not cover the weaker saved predicate without those regularity assumptions, and does not establish existence.
+`CLASSICAL-UNIQUENESS-ARGUMENT.md` gives a written uniqueness argument for existing solutions with explicitly stated joint classical regularity. It retains every coupling and derives guard bounds before using positive viscosity. The full argument remains to be formalized. It uses stronger regularity than the saved predicate. Existence remains open.
 
-The [guard transport supplement](GuardTransport.lean) now proves the pointwise velocity-error term for both directional guards and its energy bound. Its [test and checking record](../../research/matched-stretch/guard-transport/README.md) connects these lemmas to the classical uniqueness argument.
+The [guard transport supplement](GuardTransport.lean) now proves the two pointwise directional identities, the integrated guard energy bound and shared-transport cancellation on the periodic square. Its [test and checking record](../../research/matched-stretch/guard-transport/README.md) connects these lemmas to the classical uniqueness argument.
 
 `RequestedExistenceAndUniqueness` names the conjunction of the two previously saved full-system targets. It is a proposition, not an asserted axiom or a proved theorem. No new claim of full existence or uniqueness is made by this package.
 

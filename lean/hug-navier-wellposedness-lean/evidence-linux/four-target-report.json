@@ -1,0 +1,13 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Four auxiliary well-posedness statements for the field problem. The original full existence and uniqueness targets remain open.",
+  "open_items": [
+    "Construct local coupled variable-viscosity PDE solutions in an appropriate spatial function space.",
+    "Prove continuation/global estimates for the every-finite-horizon existence target.",
+    "Formalize the full classical uniqueness argument and specify its relation to the saved solution class.",
+    "Submit actual existence and uniqueness proofs to Comparator."
+  ]
+}

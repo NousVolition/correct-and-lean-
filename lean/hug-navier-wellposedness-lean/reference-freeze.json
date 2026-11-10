@@ -1,23 +1,30 @@
 {
-  "scope": "Four diagnostic theorems about the unchanged full PDE right-hand side. The requested full existence and uniqueness are not solved and are not included among passed claims.",
+  "scope": "Four auxiliary field-rate diagnostics and six guard transport theorems, including a full-cell energy bound and periodic shared-transport cancellation. The full PDE existence and uniqueness targets remain open.",
   "theorems": [
     "HugNavierWellposedness.Verified.perturbation_regular",
     "HugNavierWellposedness.Verified.nearby_uniform_bound",
     "HugNavierWellposedness.Verified.exact_rate_difference",
-    "HugNavierWellposedness.Verified.no_uniform_local_rate_bound"
+    "HugNavierWellposedness.Verified.no_uniform_local_rate_bound",
+    "HugNavierSingle.GuardTransport.transport_of_blend",
+    "HugNavierSingle.GuardTransport.directional_guard_rates",
+    "HugNavierSingle.GuardTransport.advection_difference",
+    "HugNavierSingle.GuardTransport.residual_energy_bound",
+    "HugNavierSingle.GuardTransport.integrated_residual_bound",
+    "HugNavierSingle.GuardTransport.common_transport_cancels"
   ],
   "files": {
     "FullModel.lean": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
     "OriginalAS.lean": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5",
     "FullChecks.lean": "f838c6dd4855e2d8f0c0ab1c49ee73259ace3f9d13695dd18351a09a9ac7c24f",
     "WellposednessTargets.lean": "033e1809bf8071ef1a1922d24c4591ad63a5d6c547ca6d4222a55af4ad7e9d47",
-    "WellposednessChallenge.lean": "56b80cb248fb54f4f89d2b52fd9dd56bdad6f587b424cbb540ae6cb7044d3b59",
-    "comparator.json": "32591d00430dd49e9be05a19292ec5dd5deca33174cbec13c09eb05a2f97bbd9",
+    "WellposednessChallenge.lean": "0046f71cd9327893c9212ee192b0eab63894743235d79278c34aa4c948d1404a",
+    "comparator.json": "da2e3f38f71f9f73069f342148fc3940cf1da690e3a3758d1aa34d5bd367e95b",
     "source-audit.json": "5374586d8232a9a1104e62fb8b2f90992749ede2b1df6f25108983cb95ac3c21",
-    "lakefile.toml": "83e082629f215a9d5d342c8b681a49203f2d98eec8c076665a85f3381280231e",
+    "lakefile.toml": "7ba3f37f05ec3baee46ac0d0525e0f502c8b67ab04f7dd8e0a1b87fa4d147ebd",
     "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
     "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
-    "run-linux-check.sh": "36fb47d476e639f8c54de3f138060ab21db46a5737d211f3c0a7edb39da51a40"
+    "run-linux-check.sh": "36fb47d476e639f8c54de3f138060ab21db46a5737d211f3c0a7edb39da51a40",
+    "GuardTransportDefs.lean": "9dc397770fefb8f3de2d2f93a5fb277a6414a0f834a7fe96d7759ffbec5ce8fa"
   },
   "source_files": {
     "sources/interaction.md": "aa9af72b9762ff70204131bc160aec712e4071ec17e6a4f3ac832e2e7a4a5808",
@@ -29,5 +36,6 @@
   },
   "requested_target": "HugNavierWellposedness.RequestedExistenceAndUniqueness",
   "requested_target_status": "OPEN",
-  "frozen_before_solution_file": true
+  "frozen_before_solution_file": false,
+  "historical_four_target_freeze": "05ad7171937a080cafe3f3a12d7e0641baaf6214"
 }

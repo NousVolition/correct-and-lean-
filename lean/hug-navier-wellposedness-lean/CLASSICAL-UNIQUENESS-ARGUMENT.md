@@ -1,6 +1,6 @@
 # A uniqueness argument for the unchanged full PDE
 
-**Status: written mathematical argument, not Lean-verified. It proves an at-most-one result in the regularity class below, provided solutions exist. It does not construct a solution, establish global existence, or prove the broader saved Lean uniqueness target.**
+**Status: written argument with Lean-checked guard transport steps. The full argument is written. It proves an at-most-one result in the regularity class below, provided solutions exist. It does not construct a solution, establish global existence, or prove the broader saved Lean uniqueness target.**
 
 Consider the exact six-field directional system in `FullModel.lean`, on the same two-dimensional periodic square, with the same initial data and the same prescribed inputs for both candidate solutions. The agent and idea are unchanged; the comparison is between two candidate mathematical histories of that same encounter.
 
@@ -68,7 +68,9 @@ $$
 \qquad h=g-\tilde g .
 $$
 
-Integrating and using the assumed uniform gradient bound gives at most $\frac12(\|v\|_2^2+\|\nabla\tilde g\|_\infty^2\|h\|_2^2)$ for that guard's residual transport contribution. Use $j$ in place of $h$ for the other guard. [GuardTransport.lean](GuardTransport.lean) proves the advection difference and the pointwise bound, as well as both directional rate identities evaluated along a marker velocity. The [withheld-field test](../../research/matched-stretch/guard-transport/README.md) measures the corresponding transport error in one finite-grid realization.
+Here $v=u-\tilde u$ is the difference of the two candidate velocities. The numerical marker's reading is $u_{\rm read}$. For $C^1$ periodic velocity and guard difference and an incompressible transporting velocity, `common_transport_cancels` proves $\int h\,u\cdot\nabla h=0$ over the full fundamental square. Its proof integrates the two flux derivatives in their respective coordinate directions. Periodicity gives equal endpoint fluxes, and incompressibility cancels the remaining divergence term.
+
+The theorem `integrated_residual_bound` bounds the absolute integral of the residual by $\frac12(\|v\|_2^2+M^2\|h\|_2^2)$ given $|\nabla\tilde g|^2\le M^2$. Use $j$ for the second guard difference. [Lean declarations](GuardTransport.lean) · [Withheld-field tests](../../research/matched-stretch/guard-transport/README.md)
 
 Choose the two Young-inequality parameters so their total is less than (2\nu_0). Summing all six component balances gives
 
@@ -78,4 +80,4 @@ E'(t)\le C E(t),\qquad E(0)=0,\qquad E(t)\ge0.
 
 Gronwall's inequality gives E(t) = 0. Spatial continuity then gives equality of the velocity, both participant states and both guards everywhere on the interval. Substitution into the momentum equations gives \(\nabla(p-\widetilde p)=0\); on the connected periodic domain, the remaining pressure difference depends only on time.
 
-This supplies a classical uniqueness argument with explicit regularity assumptions and pressure freedom. The work still needed for a Lean certificate is to formalize the compact-domain maximum principle, the periodic integration-by-parts identities, the space/time estimates and their application to these full PDE solutions. The generic Gronwall theorem alone does not verify those steps. The existence construction and continuation estimates remain separate unresolved work.
+This supplies a classical uniqueness argument with explicit regularity assumptions and pressure freedom. The work still needed for a Lean certificate is to formalize the compact-domain maximum principle, the remaining momentum and diffusion integration-by-parts identities, the space/time estimates and their application to these full PDE solutions. The generic Gronwall theorem alone does not verify those steps. The existence construction and continuation estimates remain separate unresolved work.
