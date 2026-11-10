@@ -1,0 +1,21 @@
+{
+  "challenge_module": "PrimeMeterChallenge",
+  "solution_module": "PrimeMeter",
+  "theorem_names": [
+    "HugPrimeMeter.prime_meter_labels",
+    "HugPrimeMeter.write_and_endpoint_clocks",
+    "HugPrimeMeter.all_meter_rows_valid",
+    "HugPrimeMeter.record_counts",
+    "HugPrimeMeter.fourth_write_account",
+    "HugPrimeMeter.prime59_displayed_values",
+    "HugPrimeMeter.prime157_exact_change",
+    "HugPrimeMeter.prime157_toward_zero",
+    "HugPrimeMeter.prime157_displayed_values"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

@@ -54,6 +54,8 @@ Each directory below is a separate Lake project. From that directory, use its pi
 | [person-environment-pnp-lean](person-environment-pnp-lean/) | 21 | [Verification report](person-environment-pnp-lean/verification-report.json) |
 | [SIMS two memories and the restaurant meeting](sims-meeting-thread-lean/) | 90 | [Verification report](sims-meeting-thread-lean/verification-report.json) |
 | [Traveller B’s first thoughts, fresh listeners and one continuing encounter](sims-mentor-first-thought-lean/) | 20 | [Verification report](sims-mentor-first-thought-lean/verification-report.json) |
+| [Fourth write on the Hug prime meter](hug-prime-meter-lean/) | 9 | [Verification report](hug-prime-meter-lean/verification-report.json) |
+| [Original two-memory transport and supporting lemmas](original-two-memory-transport-lean/) | 16 | [Verification report](original-two-memory-transport-lean/verification-report.json) |
 
 The apple existence package records a conditional schedule theorem. Unconditional existence and uniqueness through all three memory writes remains open. Files kept in original, portable, references and reference-history directories retain their separate roles.
 

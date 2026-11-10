@@ -1,0 +1,27 @@
+name: Hug prime meter inputs
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "lean/hug-prime-meter-lean/**"
+      - ".github/workflows/hug-prime-meter-inputs.yml"
+  push:
+    branches: [main]
+    paths:
+      - "lean/hug-prime-meter-lean/**"
+      - ".github/workflows/hug-prime-meter-inputs.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Reproduce the Lean readings from the Hug receipts and meter CSV
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - run: python3 -B lean/hug-prime-meter-lean/check_inputs.py
