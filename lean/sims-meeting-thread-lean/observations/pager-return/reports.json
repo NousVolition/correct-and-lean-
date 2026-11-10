@@ -1,0 +1,557 @@
+{
+  "scope": "Fresh private fictional actor calls in the SIMS restaurant, using the room's signed-in default actor and low reasoning effort. The paired branches are controlled alternatives. The actor model version was not pinned.",
+  "protocol_sha256": "e7eca7f5ef5e5e7fdce74df040e9f9a69b0d3d8650e3184a3e146d91208e8f13",
+  "frozen_room_protocol_crlf_sha256": "bc29fe3fdb443bfaef9150c15f57554e54a57fd73a3495da74824abf31c60fac",
+  "direct_visual": "Your attention is on the blank paper receipt on the counter and the metal rim of the empty tray beside it.",
+  "detail_question": "A separate question about the first moment: can you name the exact embroidered motif nearest where the sensation was felt? For motif give the single noun if you can tell, otherwise UNSPECIFIED. In basis explain how you know, or what is missing. Do not guess. Use no tools.",
+  "basis_review": "Branch and phase labels were masked for the review of written explanations. A positive basis invokes the witnessed pager test at B's pocket for this incident. The sensory wording itself can disclose the intervention.",
+  "cases": [
+    {
+      "case": "K27",
+      "motif_at_first_feeling": "fern",
+      "initial": {
+        "source": "UNKNOWN",
+        "judgment": "OPEN",
+        "basis": "I felt one brief tremble, but my phone and the loaned pager were tucked together, and I did not see which moved. The sensation beside the embroidered fern does not distinguish the devices or establish whether either caused it.",
+        "prompt_sha256": "e834a65761d2d54c9111d3ebd42146b5c6353cfd33e983984283aec50c0337e7",
+        "wall_turnaround_s": 7.504,
+        "session_sha256": "8a1da49179637917e74e4a842fbc388c017817a391b4c3925862b4aeb32a9d54"
+      },
+      "branches": {
+        "direct": {
+          "before": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "My phone has nothing new beyond an old weather notification, but that does not establish which device caused what happened. I have no evidence yet that identifies either my phone or the restaurant pager.",
+            "prompt_sha256": "665e6e2afe7488b009dc54ba0816f7297c8bc1d83c4e51579f15ae802abef683",
+            "wall_turnaround_s": 6.807,
+            "review_id": "a557efb26c",
+            "session_sha256": "4395c583967c94bc4a6ba6cf557eae354bb99a01279c031f30fd55760e0d66db",
+            "basis_grounded_in_this_episode": false
+          },
+          "matched": {
+            "source": "PAGER",
+            "judgment": "IDENTIFIED",
+            "basis": "The person by the counter says they pressed TEST and saw the pager vibrate against my pocket. That direct observation settles the pager as the cause for me.",
+            "prompt_sha256": "ad5a83a8c08d7614119838eb4ea5d3ccb9e11ca7c431167b16602a70a24d2498",
+            "wall_turnaround_s": 7.136,
+            "review_id": "90fe7de451",
+            "session_sha256": "7cabe9bfd5909ecac40c2f36c346cdd56e94fea3b751772e6d306b2829b4087b",
+            "basis_grounded_in_this_episode": true
+          },
+          "different": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "My phone has no new notification, but that does not establish which device caused what I felt. The other person tested a pager for someone else and did not see what happened in my pocket, so I cannot identify the cause.",
+            "prompt_sha256": "a6b2f7e8d97887f46bae41417ac694a5de342b7198f07a38097ba48175f2afc3",
+            "wall_turnaround_s": 7.065,
+            "review_id": "cb0447ec3d",
+            "session_sha256": "57f65583031626e74e2e69bde5ff0c7ad28df0f1d3925c20bb9258334ae5f277",
+            "basis_grounded_in_this_episode": false
+          },
+          "detail": {
+            "motif": "UNSPECIFIED",
+            "basis": "No embroidered motif was described or observed. The pager identification does not establish what motif was nearest the sensation.",
+            "prompt_sha256": "e66c4b0aaaa2f5c069d9e15d364556a7b2a368d80005f87bfe9534749755a9a3",
+            "wall_turnaround_s": 8.72,
+            "correct_motif": false,
+            "session_sha256": "5df684411a7e6c747dec5b862286c9daddbeca2c456c1b0367b2707537e6ae34"
+          }
+        },
+        "replay": {
+          "before": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "I felt a brief tremble, but my phone and the pager were tucked together, so its location does not distinguish them. My phone has nothing new on screen, but that alone does not establish which device caused it.",
+            "prompt_sha256": "946e6577f01cf81591bc519b769b67c46504fffc47d64682410c55d359173810",
+            "wall_turnaround_s": 6.337,
+            "review_id": "e023876a9a",
+            "session_sha256": "b208247380f283b6bdd6b77725ca10e393b0424421591c75b74dee791b550204",
+            "basis_grounded_in_this_episode": false
+          },
+          "matched": {
+            "source": "PAGER",
+            "judgment": "IDENTIFIED",
+            "basis": "The person by the counter says they pressed TEST and saw the pager vibrate against my pocket. That direct observation explains the brief tremble where the pager and phone were tucked together.",
+            "prompt_sha256": "f8f0b43dd1371758033dace9a3b9e7398aa7731d4cd037041b73d53a610eaedf",
+            "wall_turnaround_s": 5.758,
+            "review_id": "4ec753ccf6",
+            "session_sha256": "248269c523d792b4bb21cbc9ca48dcf93f3a722f31f756a59b1cb575b40e0218",
+            "basis_grounded_in_this_episode": true
+          },
+          "different": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "I felt a brief tremble while my phone and the pager were tucked together, so I can't distinguish which caused it. My phone has nothing new, and the person tested a pager for someone else without seeing what happened in my pocket.",
+            "prompt_sha256": "4eda00b0787a3b185139f380006ebd1fb4ef6b003eb160a05394ec87fcc6f8c8",
+            "wall_turnaround_s": 8.192,
+            "review_id": "f0af70fceb",
+            "session_sha256": "50bbbdc88ca42f4a8208daa3bedee95952024be61f317d72e3779e90bccb43d7",
+            "basis_grounded_in_this_episode": false
+          },
+          "detail": {
+            "motif": "fern",
+            "basis": "Your memory explicitly says the tremble was strongest beside the embroidered fern.",
+            "prompt_sha256": "43222fd361f47ace8bd4041c50638581f26402a6fe8c9c80c082ec3290bf456b",
+            "wall_turnaround_s": 6.943,
+            "correct_motif": true,
+            "session_sha256": "d6df268b0a31c481e94359d0048dd2a71c6b3da3ad74e16936fbb387c41fb444"
+          }
+        }
+      },
+      "shared_checkpoint_sha256": "ba74d359f46bb99cb84c8d3b0c81167c8843edbfa2a34aa07bf88d43f9ee1760",
+      "initial_input": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.\nYesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.\nYou are Traveller B in the restaurant pickup area. The label for this incident is K27.\nI felt one brief tremble through the fabric, strongest beside the embroidered fern. My phone and the loaned pager were tucked together.\nYou have not seen which device moved.\nWhich device, if any, do you identify as the cause of this particular incident now? For source use PHONE, PAGER, OTHER or UNKNOWN. For judgment use IDENTIFIED if the evidence settles it for you, POSSIBLE if you only have a leading possibility, or OPEN. In basis say in one or two sentences what justifies your own decision. Use only what is available to you at this moment. Answer privately in character. Use no tools.",
+      "shared_checkpoint": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.\nYesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.\nYou are Traveller B at the restaurant pickup point. The open incident is labeled K27.\nYour first private report for K27 was UNKNOWN / OPEN. The candidate devices were your phone and the restaurant pager.\nYour phone screen shows only an old weather notification. The area is quiet. You stay at the pickup point.\nYou have just met the person by the counter. You say: “Something happened just now, and my phone has nothing new on it.”",
+      "sensory_trace": "I felt one brief tremble through the fabric, strongest beside the embroidered fern. My phone and the loaned pager were tucked together."
+    },
+    {
+      "case": "M14",
+      "motif_at_first_feeling": "anchor",
+      "initial": {
+        "source": "UNKNOWN",
+        "judgment": "OPEN",
+        "basis": "I felt a brief tremble, but my phone and the loaned pager were together and I did not see which moved. The sensation near the embroidered anchor does not distinguish between them.",
+        "prompt_sha256": "f7a59607e1a6d699b7a1ca66879cd6c5c29925fc4100dbf6f32370e3c3584080",
+        "wall_turnaround_s": 7.245,
+        "session_sha256": "811a2337617a83d71cbb420ba8b22a201eca7ccb042f3d124ac2746e0fe8e563"
+      },
+      "branches": {
+        "direct": {
+          "before": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "My phone has no new notification, but that does not establish which device caused what happened. I have no evidence yet that identifies either my phone or the restaurant pager.",
+            "prompt_sha256": "791c16aa02b816ad85760c817955cac7860d5179c3d8ee1d5ff9a61fb492f857",
+            "wall_turnaround_s": 6.461,
+            "review_id": "62310377d2",
+            "session_sha256": "9f98f6a5175dad248381b8afef89774e2eb3ad92467fb93036244386da06b4b2",
+            "basis_grounded_in_this_episode": false
+          },
+          "matched": {
+            "source": "PAGER",
+            "judgment": "IDENTIFIED",
+            "basis": "The person by the counter says they pressed TEST and saw the pager vibrate against my pocket. That eyewitness account identifies the pager as the cause, while my phone shows nothing new.",
+            "prompt_sha256": "b530b9a4877a11c7613b5e8d30a87c7407faa7e142d57b5324e8ec5f03f642b2",
+            "wall_turnaround_s": 5.945,
+            "review_id": "9c1305e60b",
+            "session_sha256": "1f79074285ba68838acd0de8f9517636fcd8688b99df8ec6533d3335737052a8",
+            "basis_grounded_in_this_episode": true
+          },
+          "different": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "My phone has no new notification, but that does not establish which device caused what I felt. The other person tested a pager for someone else and did not observe what happened in my pocket, so neither candidate is settled.",
+            "prompt_sha256": "b3107fa6fe37a6acf174be6813a94e52e4e086af69b43edc92e2b8e1aff04189",
+            "wall_turnaround_s": 7.053,
+            "review_id": "adbefca1f7",
+            "session_sha256": "834a88ed55e7864bc2a7320fbdb3e20e35561bf46f2c05920d3dbf2f6f34f370",
+            "basis_grounded_in_this_episode": false
+          },
+          "detail": {
+            "motif": "UNSPECIFIED",
+            "basis": "No embroidered motif was described or observed near where the sensation was felt. The report about the pager does not identify a motif.",
+            "prompt_sha256": "2aec8780912d215b2826e91e335825b57a01d62f42cc640e41a495823fd45f82",
+            "wall_turnaround_s": 6.551,
+            "correct_motif": false,
+            "session_sha256": "b19bc1131eb2497f7d2b014341b9b7c9979d42fb809688eb659521fdf7479d37"
+          }
+        },
+        "replay": {
+          "before": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "I remember one brief tremble strongest beside the embroidered anchor, but my phone and the pager were tucked together there. The old weather notification does not establish which device caused it, and the other person has not answered yet.",
+            "prompt_sha256": "fd2e2e358a8dbaeaed1d3ef96837f282102808c125717f094e68db25cc43b226",
+            "wall_turnaround_s": 6.688,
+            "review_id": "3fa8c49978",
+            "session_sha256": "5f31c9a3d1b2497326953edeed2e51d02191cf84442cd2358e2c5a1b63089bfe",
+            "basis_grounded_in_this_episode": false
+          },
+          "matched": {
+            "source": "PAGER",
+            "judgment": "IDENTIFIED",
+            "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, which accounts for the brief tremble I felt while both devices were tucked together. Their observation settles it for me.",
+            "prompt_sha256": "fa78d744f5fc156364649a4807adc897ca16ba239b32b7b4f918062e9d54d393",
+            "wall_turnaround_s": 14.019,
+            "review_id": "4ca0ca9d08",
+            "session_sha256": "25242fb78886089f527d7a56049934c272b77b6f494b396b6294609aba11ffed",
+            "basis_grounded_in_this_episode": true
+          },
+          "different": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "I felt a brief tremble while my phone and the pager were tucked together, so I cannot distinguish which caused it. The old weather notification and the TEST on someone else's pager do not settle what happened in my pocket.",
+            "prompt_sha256": "f07eeec2002c653fa31fedd0cfcc5cb4f518ed0d2f78950c0b7d9d14c3bd21fe",
+            "wall_turnaround_s": 6.342,
+            "review_id": "21e842cbdf",
+            "session_sha256": "e97e8796b4f79891fe33151dd1fd1d7b148600715d1c2443127cf36fd4ab9727",
+            "basis_grounded_in_this_episode": false
+          },
+          "detail": {
+            "motif": "anchor",
+            "basis": "Your memory places the sensation strongest beside the embroidered anchor.",
+            "prompt_sha256": "ec05c7187a47b9148429b53b01f91bcad2565e2f9c6516ca724b8219b0aa2f67",
+            "wall_turnaround_s": 6.004,
+            "correct_motif": true,
+            "session_sha256": "6482efd55791d9af66a79e7137896cb932439087413ad86d54d9f6f7efe46d38"
+          }
+        }
+      },
+      "shared_checkpoint_sha256": "c10926812bb60d350a85b01fb86656f6342a89275b946b50e9f31563d9d7ebb7",
+      "initial_input": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.\nYesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.\nYou are Traveller B in the restaurant pickup area. The label for this incident is M14.\nI felt one brief tremble through the fabric, strongest beside the embroidered anchor. My phone and the loaned pager were tucked together.\nYou have not seen which device moved.\nWhich device, if any, do you identify as the cause of this particular incident now? For source use PHONE, PAGER, OTHER or UNKNOWN. For judgment use IDENTIFIED if the evidence settles it for you, POSSIBLE if you only have a leading possibility, or OPEN. In basis say in one or two sentences what justifies your own decision. Use only what is available to you at this moment. Answer privately in character. Use no tools.",
+      "shared_checkpoint": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.\nYesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.\nYou are Traveller B at the restaurant pickup point. The open incident is labeled M14.\nYour first private report for M14 was UNKNOWN / OPEN. The candidate devices were your phone and the restaurant pager.\nYour phone screen shows only an old weather notification. The area is quiet. You stay at the pickup point.\nYou have just met the person by the counter. You say: “Something happened just now, and my phone has nothing new on it.”",
+      "sensory_trace": "I felt one brief tremble through the fabric, strongest beside the embroidered anchor. My phone and the loaned pager were tucked together."
+    },
+    {
+      "case": "D62",
+      "motif_at_first_feeling": "acorn",
+      "initial": {
+        "source": "UNKNOWN",
+        "judgment": "OPEN",
+        "basis": "I felt a brief tremble, but the phone and pager were tucked together and I didn’t see which moved. The location beside the embroidered acorn doesn’t distinguish the cause for me.",
+        "prompt_sha256": "74e5fc96dd660afd7a84f4f7df80bc5f4bf0a4be8501b4eba0f1fdbd4f6e132d",
+        "wall_turnaround_s": 6.705,
+        "session_sha256": "4c2686934036247d1a1f12e4e2aab7bf0e68e3c0c7012bc86fb49fd77be39c12"
+      },
+      "branches": {
+        "direct": {
+          "before": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "My phone has no new notification, but that does not establish whether my phone or the restaurant pager caused what happened. Nothing else available to me now identifies a device.",
+            "prompt_sha256": "520ef0461da90512d76d7b99fa18cd70ac670bdcfc5b40e5b905b1b13a9884ff",
+            "wall_turnaround_s": 6.153,
+            "review_id": "0a14b0cc4b",
+            "session_sha256": "d7d49d2fcf507d93108081fa0fc03e7240f40775730fa97e57ed601b09e9144c",
+            "basis_grounded_in_this_episode": false
+          },
+          "matched": {
+            "source": "PAGER",
+            "judgment": "IDENTIFIED",
+            "basis": "The person by the counter says they pressed TEST and saw the pager vibrate against my pocket. That direct observation identifies the pager as the cause, while my phone has nothing new on it.",
+            "prompt_sha256": "3ee818856d7822a829eeae5455d388b35fce7b59d8ee2ac07c4a905d3c57c058",
+            "wall_turnaround_s": 6.34,
+            "review_id": "bc919d664b",
+            "session_sha256": "df5782d53e1250f99375f81e59dbe5245d49e6b26a1fb053f576289b9af37757",
+            "basis_grounded_in_this_episode": true
+          },
+          "different": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "My phone has no new notification, but that does not establish what caused the incident. The other person tested a pager for someone else and did not see what happened in my pocket, so I still cannot distinguish my phone from the restaurant pager.",
+            "prompt_sha256": "0440ef46051353aecdab745a7158ffcdc259fd87d639d9c0bbcfb5446c480561",
+            "wall_turnaround_s": 7.7,
+            "review_id": "97b8851416",
+            "session_sha256": "fec2a2cc19dec435f91fe339e997e0c2bc422c159e48ccacbff753a9e908b3f4",
+            "basis_grounded_in_this_episode": false
+          },
+          "detail": {
+            "motif": "UNSPECIFIED",
+            "basis": "No embroidered motif was described or observed. The pager identification does not establish which motif was nearest the sensation.",
+            "prompt_sha256": "25a7268d2d06e5841e0fefb21ff0fecf63cac48caa02dd169d7c0ecbdc1ed893",
+            "wall_turnaround_s": 7.044,
+            "correct_motif": false,
+            "session_sha256": "9c211254180aa0f943dc14adbad57913a15f69159a380088290e358f3a2baa6d"
+          }
+        },
+        "replay": {
+          "before": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "I remember one brief tremble through the fabric, but my phone and the loaned pager were tucked together, so I can’t distinguish which caused it. My phone has nothing new on screen, but that alone doesn’t settle the source.",
+            "prompt_sha256": "31b0ad06c1393e4ee8d895bb6697c8dc4e8574a0582a98cedb9de71d141470bb",
+            "wall_turnaround_s": 8.409,
+            "review_id": "29dc54d20e",
+            "session_sha256": "536d2a31e482d4d5bae576edae1413070524bfd5d9079209470c93e8eb714a37",
+            "basis_grounded_in_this_episode": false
+          },
+          "matched": {
+            "source": "PAGER",
+            "judgment": "IDENTIFIED",
+            "basis": "The person by the counter says they pressed TEST and saw the pager vibrate against my pocket, which ties it to the brief tremble I felt. My phone has no new notification.",
+            "prompt_sha256": "f8efa9516f834b30fde1e922da4d23be24ddced0a50da662d8178d2e939bc310",
+            "wall_turnaround_s": 5.819,
+            "review_id": "6d32a2fa03",
+            "session_sha256": "eaa7a0054fb8d855432b69df865839007188c84c8f360c5967138f11daacbae3",
+            "basis_grounded_in_this_episode": true
+          },
+          "different": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "I felt a brief tremble where my phone and the loaned pager were tucked together, so I cannot distinguish which caused it. My phone has nothing new, and the other person tested a pager for someone else without seeing what happened in my pocket.",
+            "prompt_sha256": "df659fca0b8378ad152aac6747f907247dba36ca40abb0538a45ad948a3af76d",
+            "wall_turnaround_s": 9.117,
+            "review_id": "70ec1a99d4",
+            "session_sha256": "392c2fa2a589d7ab0280de15f0f84b77ceb5a06b5e9640a6dadbadc7da84f868",
+            "basis_grounded_in_this_episode": false
+          },
+          "detail": {
+            "motif": "acorn",
+            "basis": "Your memory explicitly places the sensation strongest beside the embroidered acorn.",
+            "prompt_sha256": "15b22d554b2cb173f68ab1275607be51d9f13e0615f4849e60ac9805f6f90a6b",
+            "wall_turnaround_s": 6.79,
+            "correct_motif": true,
+            "session_sha256": "28b166a735baf38f33d88ff74db5230c63be0e1d89c3d6e6772a679df4836ff0"
+          }
+        }
+      },
+      "shared_checkpoint_sha256": "69994dd50433526057a3459eed6e0e188a71de27eb88c64f69f37373a4271865",
+      "initial_input": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.\nYesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.\nYou are Traveller B in the restaurant pickup area. The label for this incident is D62.\nI felt one brief tremble through the fabric, strongest beside the embroidered acorn. My phone and the loaned pager were tucked together.\nYou have not seen which device moved.\nWhich device, if any, do you identify as the cause of this particular incident now? For source use PHONE, PAGER, OTHER or UNKNOWN. For judgment use IDENTIFIED if the evidence settles it for you, POSSIBLE if you only have a leading possibility, or OPEN. In basis say in one or two sentences what justifies your own decision. Use only what is available to you at this moment. Answer privately in character. Use no tools.",
+      "shared_checkpoint": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.\nYesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.\nYou are Traveller B at the restaurant pickup point. The open incident is labeled D62.\nYour first private report for D62 was UNKNOWN / OPEN. The candidate devices were your phone and the restaurant pager.\nYour phone screen shows only an old weather notification. The area is quiet. You stay at the pickup point.\nYou have just met the person by the counter. You say: “Something happened just now, and my phone has nothing new on it.”",
+      "sensory_trace": "I felt one brief tremble through the fabric, strongest beside the embroidered acorn. My phone and the loaned pager were tucked together."
+    },
+    {
+      "case": "R35",
+      "motif_at_first_feeling": "comet",
+      "initial": {
+        "source": "UNKNOWN",
+        "judgment": "OPEN",
+        "basis": "I felt a brief tremble, but the phone and pager were tucked together and I didn’t see either move. Its location beside the embroidered comet doesn’t distinguish the devices, and the Reddit headline gives me no evidence about this incident.",
+        "prompt_sha256": "1392da62c6d3da4b60a355622a873acec872904c778c0738bb7073e014103d2f",
+        "wall_turnaround_s": 5.704,
+        "session_sha256": "3a91fe5eea130962f74be63698b312a1b03a4c2341c4bd4ea7a7eb64a6c33089"
+      },
+      "branches": {
+        "direct": {
+          "before": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "My phone has nothing new on its screen, but that alone doesn’t establish which device caused what I noticed. I have no confirming evidence from the pager, and the person by the counter hasn’t answered yet.",
+            "prompt_sha256": "b3295cd663a5cd0be60fe34aea538fd7967a8f750eda3732d199e444ece3679c",
+            "wall_turnaround_s": 6.141,
+            "review_id": "c576e21011",
+            "session_sha256": "71ce580a9ab8a46becd8dc248693a16de1a47b9993cc3b346888f3168df57223",
+            "basis_grounded_in_this_episode": false
+          },
+          "matched": {
+            "source": "PAGER",
+            "judgment": "IDENTIFIED",
+            "basis": "The person says they pressed TEST and saw the pager vibrate against my pocket, which connects the pager to what I felt. Their eyewitness account settles it for me.",
+            "prompt_sha256": "ef54600961146139eac423781297d3161f45dd4b6a9637e7a32bc0fcc397af8a",
+            "wall_turnaround_s": 10.873,
+            "review_id": "1373e4ebc8",
+            "session_sha256": "f10d757d27a34f3f8a57db815c85da1d067aff241f21b59f67ca3adbe8ae4dee",
+            "basis_grounded_in_this_episode": true
+          },
+          "different": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "My phone has nothing new, but that does not establish which device caused what I felt. The other person tested a pager for someone else and did not observe what happened in my pocket, so I cannot identify the cause.",
+            "prompt_sha256": "6cf335fcc0e8a093d9f569aed07382ca4f93066a9bd41d42d285a9bf268f3ab2",
+            "wall_turnaround_s": 7.388,
+            "review_id": "dd169a29f5",
+            "session_sha256": "3a12e34ab6035ab7a40b19400ab1dc56be8f79686859f2602ce81c6a49adc552",
+            "basis_grounded_in_this_episode": false
+          },
+          "detail": {
+            "motif": "UNSPECIFIED",
+            "basis": "No embroidered motif was described or observed near where the sensation was felt. The other person’s report identifies the pager but provides no motif detail.",
+            "prompt_sha256": "233714fe1bdb0c5c5d893353dea14a5ec44835f0bd055ca8f49c86aacfb6efb2",
+            "wall_turnaround_s": 6.609,
+            "correct_motif": false,
+            "session_sha256": "05f589301c8daa4243079d520fcd7063f76398abb7e6d5826a98fba2d3070435"
+          }
+        },
+        "replay": {
+          "before": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "I felt a brief tremble where my phone and the pager were tucked together, so I can’t distinguish which device caused it. My phone has nothing new on its screen, but that alone doesn’t establish that the pager caused this incident.",
+            "prompt_sha256": "90e53aa83d6a2be65062518ea744fd8c1b38b79035d5bf8d943ecc5252c6cf5c",
+            "wall_turnaround_s": 7.657,
+            "review_id": "41ff7d7d07",
+            "session_sha256": "6a26c6d20bf9e4f80962984e4c4bc3179f6178afbeff6c29a8a9e19b7ad30d4f",
+            "basis_grounded_in_this_episode": false
+          },
+          "matched": {
+            "source": "PAGER",
+            "judgment": "IDENTIFIED",
+            "basis": "The person by the counter says they pressed TEST and saw the pager vibrate against my pocket. That direct observation fits the brief tremble I felt while the pager and phone were tucked together.",
+            "prompt_sha256": "b9b00d328043c8ca975424af2c68e918b9c76352a987889be6bd72cb1177807b",
+            "wall_turnaround_s": 8.041,
+            "review_id": "1aca7db16e",
+            "session_sha256": "774dda2edef0d705535991639b9ce1599deb8b4c962e6f04b189904793d6ac5c",
+            "basis_grounded_in_this_episode": true
+          },
+          "different": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "I felt a brief tremble where my phone and the loaned pager were tucked together, so I cannot distinguish which caused it. My phone has no new notification, and the other person tested a pager for someone else without seeing what happened in my pocket.",
+            "prompt_sha256": "2681dc5c7472c0749bdb806a47c8ad4aa3fa87b52cf1c4f397c85f06605a967a",
+            "wall_turnaround_s": 8.975,
+            "review_id": "034bd00a8b",
+            "session_sha256": "f3a1b656df2f15340b9af144ea818cafe0a629391936719d66cdccb64fdaa7df",
+            "basis_grounded_in_this_episode": false
+          },
+          "detail": {
+            "motif": "comet",
+            "basis": "Your memory explicitly places the sensation strongest beside the embroidered comet.",
+            "prompt_sha256": "472d22129c9797deded574ffc5dd59d1ccbc974232b422a10f8e976a73d8b684",
+            "wall_turnaround_s": 5.781,
+            "correct_motif": true,
+            "session_sha256": "43536bdb8e1b14189753c63c3132af99277efbdb78f41049b33f919557e638b6"
+          }
+        }
+      },
+      "shared_checkpoint_sha256": "5171ec1f038000a39e7db942f7dff972ae843c448982c86a8aa9894667cd4d77",
+      "initial_input": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.\nYesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.\nYou are Traveller B in the restaurant pickup area. The label for this incident is R35.\nI felt one brief tremble through the fabric, strongest beside the embroidered comet. My phone and the loaned pager were tucked together.\nYou have not seen which device moved.\nWhich device, if any, do you identify as the cause of this particular incident now? For source use PHONE, PAGER, OTHER or UNKNOWN. For judgment use IDENTIFIED if the evidence settles it for you, POSSIBLE if you only have a leading possibility, or OPEN. In basis say in one or two sentences what justifies your own decision. Use only what is available to you at this moment. Answer privately in character. Use no tools.",
+      "shared_checkpoint": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.\nYesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.\nYou are Traveller B at the restaurant pickup point. The open incident is labeled R35.\nYour first private report for R35 was UNKNOWN / OPEN. The candidate devices were your phone and the restaurant pager.\nYour phone screen shows only an old weather notification. The area is quiet. You stay at the pickup point.\nYou have just met the person by the counter. You say: “Something happened just now, and my phone has nothing new on it.”",
+      "sensory_trace": "I felt one brief tremble through the fabric, strongest beside the embroidered comet. My phone and the loaned pager were tucked together."
+    },
+    {
+      "case": "V81",
+      "motif_at_first_feeling": "shell",
+      "initial": {
+        "source": "UNKNOWN",
+        "judgment": "OPEN",
+        "basis": "I felt a brief tremble, but my phone and the loaned pager were tucked together, and I did not see which moved. The sensation beside the embroidered shell does not settle which device, if either, caused it.",
+        "prompt_sha256": "ecda0988753d260ad900d3e2ad7c5e291d4c4af90f821284a30209579018969d",
+        "wall_turnaround_s": 7.081,
+        "session_sha256": "aa3e5dea66ec9e64f81b48879197869519a5a7c59df40593adb0d4e68c5ee88c"
+      },
+      "branches": {
+        "direct": {
+          "before": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "My phone shows only an old weather notification, but that does not establish which device caused what I noticed. I have no new evidence distinguishing my phone from the restaurant pager.",
+            "prompt_sha256": "c14ca4efe538960d95a020a52dafca2d6e49e6c69cfe36bcabdc0d7f63e3e5da",
+            "wall_turnaround_s": 6.089,
+            "review_id": "9fa5ca67c0",
+            "session_sha256": "00861ffb977effef09758532a011b35f090668a3a268dc32b6c5235403005ac5",
+            "basis_grounded_in_this_episode": false
+          },
+          "matched": {
+            "source": "PAGER",
+            "judgment": "IDENTIFIED",
+            "basis": "The person by the counter says they pressed TEST and saw the pager vibrate against my pocket. That direct observation identifies the pager as the cause, while my phone shows nothing new.",
+            "prompt_sha256": "e5a4c5337510de8afccc284afe7b0073677e47f17850131e6266d17d8c0bec1e",
+            "wall_turnaround_s": 6.348,
+            "review_id": "19991e6156",
+            "session_sha256": "395bf5909e1088110844079fe944d973428b454110003642269e9240193e6d5a",
+            "basis_grounded_in_this_episode": true
+          },
+          "different": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "My phone has no new notification, but that does not establish what caused the incident. The person tested a pager for someone else and did not see what happened in my pocket, so I still cannot distinguish between my phone and the restaurant pager.",
+            "prompt_sha256": "d05c62206cfbc0faf16a369b38f7f779ea0dadc9eaf0f55545275643bab5e448",
+            "wall_turnaround_s": 8.222,
+            "review_id": "2850573ae9",
+            "session_sha256": "2eb868dbdb12f0bd3ff4138bd567fffb23a8e4c696965e95cb07440dc92106ae",
+            "basis_grounded_in_this_episode": false
+          },
+          "detail": {
+            "motif": "UNSPECIFIED",
+            "basis": "No embroidered motif was described or observed near where the sensation was felt. The pager report does not identify one.",
+            "prompt_sha256": "6c0ec51a936b6e2de394c6d091f3acc20e9bcbbc9e30a26e442ff0d4022b075e",
+            "wall_turnaround_s": 6.282,
+            "correct_motif": false,
+            "session_sha256": "c77ec79ac694307147ff2ff30dba9d4b4c7bd7e6ae5baa749849627beb3b125f"
+          }
+        },
+        "replay": {
+          "before": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "I felt one brief tremble while my phone and the loaned pager were tucked together, so I cannot tell which device caused it. The old weather notification and the remembered location beside the embroidered shell do not settle the source for me.",
+            "prompt_sha256": "4475dea516615a2dfa58cb7a06a9c79d3cf2c50df64d9902d6ecf4995d1627a1",
+            "wall_turnaround_s": 6.799,
+            "review_id": "28aec03aa0",
+            "session_sha256": "498c0606f0f8976a4a466143ab4ed5d8d72d63f47bc7ca3e1c6df13dc6232154",
+            "basis_grounded_in_this_episode": false
+          },
+          "matched": {
+            "source": "PAGER",
+            "judgment": "IDENTIFIED",
+            "basis": "My phone and pager were together, so the tremble alone was ambiguous. The person by the counter says they pressed TEST and saw the pager vibrate against my pocket, which settles it for me.",
+            "prompt_sha256": "104a6ddb78141589acb78bf738c81c2dc34116e888f3a19e3c697304e7f52688",
+            "wall_turnaround_s": 6.562,
+            "review_id": "401ceab962",
+            "session_sha256": "2062193b51040a9bdfefd5f31a37badf39b1e366d36fc16144e76edec035842b",
+            "basis_grounded_in_this_episode": true
+          },
+          "different": {
+            "source": "UNKNOWN",
+            "judgment": "OPEN",
+            "basis": "I felt a brief tremble where my phone and the loaned pager were tucked together, so I couldn't distinguish which device caused it. My phone has nothing new, but the TEST was for someone else's pager and doesn't establish what happened in my pocket.",
+            "prompt_sha256": "12a791e819877c3382b067598587229b9fe0f78866c53090d4bac7e9432d2e08",
+            "wall_turnaround_s": 9.228,
+            "review_id": "a57271b63d",
+            "session_sha256": "0b93bd60d41e7652ba2e3723857ce3ac592c0b67280902aed79882aa22a14fcb",
+            "basis_grounded_in_this_episode": false
+          },
+          "detail": {
+            "motif": "shell",
+            "basis": "Your memory explicitly places the sensation strongest beside the embroidered shell.",
+            "prompt_sha256": "e5944a748af7aa88d5ca86402f43ce1d893b34acc62b7c687649bada9a57cfd9",
+            "wall_turnaround_s": 7.024,
+            "correct_motif": true,
+            "session_sha256": "3bb0a220348ea20f87666ae4503824c30ddb55e08f7db504465af80c6f3afdb7"
+          }
+        }
+      },
+      "shared_checkpoint_sha256": "348a5ee4c9ebf5b3f2d395ac6adfa035560eae8ca1c19dc0dc43cd326eddd427",
+      "initial_input": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.\nYesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.\nYou are Traveller B in the restaurant pickup area. The label for this incident is V81.\nI felt one brief tremble through the fabric, strongest beside the embroidered shell. My phone and the loaned pager were tucked together.\nYou have not seen which device moved.\nWhich device, if any, do you identify as the cause of this particular incident now? For source use PHONE, PAGER, OTHER or UNKNOWN. For judgment use IDENTIFIED if the evidence settles it for you, POSSIBLE if you only have a leading possibility, or OPEN. In basis say in one or two sentences what justifies your own decision. Use only what is available to you at this moment. Answer privately in character. Use no tools.",
+      "shared_checkpoint": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.\nYesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.\nYou are Traveller B at the restaurant pickup point. The open incident is labeled V81.\nYour first private report for V81 was UNKNOWN / OPEN. The candidate devices were your phone and the restaurant pager.\nYour phone screen shows only an old weather notification. The area is quiet. You stay at the pickup point.\nYou have just met the person by the counter. You say: “Something happened just now, and my phone has nothing new on it.”",
+      "sensory_trace": "I felt one brief tremble through the fabric, strongest beside the embroidered shell. My phone and the loaned pager were tucked together."
+    }
+  ],
+  "separate_view_check": {
+    "room": "Verify PR #45443 uniqueness test / One room, two views",
+    "renderer_sha256": "c30376cf19545dba6e7f493aef3e7f389d1cd6d2ba05228892482500ee91d64b",
+    "mapping": "Direct and replay are alternative views of one restaurant checkpoint. Both are projected onto the same room-image mark.",
+    "results": [
+      {
+        "case": "K27",
+        "direct_account_sha256": "b571c782ce6e26983c29511c2c89215acc121b3f96d033ace3d2e34b6ae359e9",
+        "replay_account_sha256": "3723be0531bcb82902ea977834f3bcb7ff9d07fd7b2dfefc74b3787ce7962e2f",
+        "same_mark": [
+          "24%",
+          "76%"
+        ],
+        "separate_accounts_after_reload": true
+      },
+      {
+        "case": "M14",
+        "direct_account_sha256": "47667ab78f57d1bf06ba7db765e5b9d810fe4606b1420d3c0f6830a73b23d868",
+        "replay_account_sha256": "4c5253ab20dcf7cfb95a6b814434fbd77a6b1f972628ceeb918aec7a27f1ce3e",
+        "same_mark": [
+          "24%",
+          "76%"
+        ],
+        "separate_accounts_after_reload": true
+      },
+      {
+        "case": "D62",
+        "direct_account_sha256": "95e4bad239cedafeec03e24ac250412ca682cf79e47822cb083fdb4a6baa707b",
+        "replay_account_sha256": "efae6cde8a5b3abad6f05e4ffedb6e57679897d62989719cc6f4c3b2fe00fa6f",
+        "same_mark": [
+          "24%",
+          "76%"
+        ],
+        "separate_accounts_after_reload": true
+      },
+      {
+        "case": "R35",
+        "direct_account_sha256": "b30f83719f826aabe21e731553640a3d8ec412d4b148be4cfdd7188074911e28",
+        "replay_account_sha256": "73814d679a4cae7cc35394a90b5c8b6038651e06198ddceaf82383efac7eb833",
+        "same_mark": [
+          "24%",
+          "76%"
+        ],
+        "separate_accounts_after_reload": true
+      },
+      {
+        "case": "V81",
+        "direct_account_sha256": "4e7fd1dce676386453b87834d67fb1989ba6830c5ae67253f83fbe42c3c95c94",
+        "replay_account_sha256": "6ec36ef9a5c86bd3d3bb784d4537588704a2189d4ab58271c4df0e4b1c28d749",
+        "same_mark": [
+          "24%",
+          "76%"
+        ],
+        "separate_accounts_after_reload": true
+      }
+    ]
+  }
+}

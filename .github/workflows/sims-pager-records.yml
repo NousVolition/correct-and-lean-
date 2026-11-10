@@ -1,0 +1,27 @@
+name: SIMS pager trial records
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "lean/sims-meeting-thread-lean/**"
+      - ".github/workflows/sims-pager-records.yml"
+  push:
+    branches: [main]
+    paths:
+      - "lean/sims-meeting-thread-lean/**"
+      - ".github/workflows/sims-pager-records.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Verify restaurant reports and Lean input
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - run: python3 lean/sims-meeting-thread-lean/observations/pager-return/check_records.py

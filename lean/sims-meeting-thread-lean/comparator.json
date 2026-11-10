@@ -51,7 +51,16 @@
     "MeetingThread.basin_startup_readings",
     "MeetingThread.eight_refills_use_their_own_endpoints",
     "ApplicationControls.all_premises",
-    "ApplicationControls.new_field_repaired"
+    "ApplicationControls.new_field_repaired",
+    "MeetingThread.PagerReturn.receive_agrees_with_original",
+    "MeetingThread.PagerReturn.recognition_on_an_open_route",
+    "MeetingThread.PagerReturn.circle_is_not_necessary",
+    "MeetingThread.PagerReturn.matched_views_can_agree",
+    "MeetingThread.PagerReturn.replay_with_wrong_episode_stays_open",
+    "MeetingThread.PagerReturn.same_odds_iff_same_cue",
+    "MeetingThread.PagerReturn.five_matched_reports_both_ways",
+    "MeetingThread.PagerReturn.pre_witness_and_other_pager_controls",
+    "MeetingThread.PagerReturn.only_replay_reports_original_marker"
   ],
   "permitted_axioms": [
     "propext",

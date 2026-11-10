@@ -52,7 +52,7 @@ Each directory below is a separate Lake project. From that directory, use its pi
 | [hug-v3-street-whole-lean](hug-v3-street-whole-lean/) | 22 | [Verification report](hug-v3-street-whole-lean/verification-report.json) |
 | [mira-local-paths-lean](mira-local-paths-lean/) | 18 | [Verification report](mira-local-paths-lean/verification-report.json) |
 | [person-environment-pnp-lean](person-environment-pnp-lean/) | 21 | [Verification report](person-environment-pnp-lean/verification-report.json) |
-| [SIMS two memories and the restaurant meeting](sims-meeting-thread-lean/) | 49 | [Verification report](sims-meeting-thread-lean/verification-report.json) |
+| [SIMS two memories and the restaurant meeting](sims-meeting-thread-lean/) | 58 | [Verification report](sims-meeting-thread-lean/verification-report.json) |
 
 The apple existence package records a conditional schedule theorem. Unconditional existence and uniqueness through all three memory writes remains open. Files kept in original, portable, references and reference-history directories retain their separate roles.
 
