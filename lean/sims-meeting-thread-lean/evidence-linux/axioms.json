@@ -1,0 +1,277 @@
+{
+  "MemoryProof.zeroField": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemory.recall_eq_tanh": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemory.recall_lipschitz": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemory.unique_memory_trajectory": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.readout_from_odds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.odds_eq_exp": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.update_odds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.compose_transport": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.endpoints_determine_transport": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.closed_route": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.odds_parallel": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.flat_curvature": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.source_free": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.unit_speed_fails_memory_at_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.room_paused_while_wall_advances": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.elapsed_interval_is_accounted_for": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.samples_leave_the_instant_open": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.same_question_before_and_after": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.different_future_replies_same_open_past": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.different_episode_still_open": [
+    "propext"
+  ],
+  "MeetingThread.hearing_can_leave_the_question_open": [
+    "propext"
+  ],
+  "MeetingThread.same_cue_same_episode_new_answer": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.before_mention_does_not_date_the_test": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.one_circuit_same_station_and_volume": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.net_marker_exchange": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.equal_volume_different_contents": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.growth_or_decay_after_one_circuit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.onset_at_threshold": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.halved_playback_or_halved_flow": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.same_snapshot_different_parcel_paths": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.positive_gross_flow_at_zero_net": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.global_excess_allows_small_energy": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.scalar_refill_balance": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.same_readout_cannot_recover_both": [],
+  "MeetingThread.energy_alone_cannot_recover_heading": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.restart_at_return": [
+    "propext"
+  ],
+  "MeetingThread.recorded_B_endpoints": [],
+  "MeetingThread.recorded_A_time_partition": [
+    "propext"
+  ],
+  "MeetingThread.recorded_B_completion_counts": [],
+  "MeetingThread.missing_endpoints_allow_opposite_mean_orders": [],
+  "MeetingThread.six_followups_remained_open": [],
+  "MeetingThread.first_mentor_controls": [],
+  "MeetingThread.room_alert_and_false_notice_controls": [],
+  "MeetingThread.recorded_native_controls": [],
+  "MeetingThread.sampled_image_turns": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.basin_startup_readings": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.eight_refills_use_their_own_endpoints": [],
+  "ApplicationControls.all_premises": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ApplicationControls.new_field_repaired": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.PagerReturn.receive_agrees_with_original": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.PagerReturn.recognition_on_an_open_route": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.PagerReturn.circle_is_not_necessary": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.PagerReturn.matched_views_can_agree": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.PagerReturn.replay_with_wrong_episode_stays_open": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.PagerReturn.same_odds_iff_same_cue": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.PagerReturn.five_matched_reports_both_ways": [
+    "propext"
+  ],
+  "MeetingThread.PagerReturn.pre_witness_and_other_pager_controls": [
+    "propext"
+  ],
+  "MeetingThread.PagerReturn.only_replay_reports_original_marker": [
+    "propext"
+  ],
+  "MeetingThread.PagerReturn.two_samples_return_iff": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.PagerReturn.staying_is_not_returning": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.PagerReturn.sampled_return_controls": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.PagerReturn.log_odds_distance": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.PagerReturn.report_ignores_attention": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.PagerReturn.recognition_beyond_any_radius": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "MeetingThread.PagerReturn.returning_does_not_match_the_episode": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}
