@@ -1,20 +1,20 @@
 {
-  "run": "https://github.com/NousVolition/correct-and-lean-/actions/runs/42787569693",
+  "run": "https://github.com/NousVolition/correct-and-lean-/actions/runs/42793978689",
   "event": "pull_request",
-  "workflow_head_sha": "fbfd980877a9113ef45ec500f6b2bd8121ca1dd7",
-  "checked_out_commit": "86ed4e2deba49ce801d273beb444cb7fb7d847fd",
-  "verification_inputs_sha256": "3679ecb20ac97600b3d648877d64f42f857988fb65e7bd029b48904f2a2d3daf",
-  "target_count": 65,
-  "artifact_id": 13751135116,
+  "workflow_head_sha": "dd41bc48579b3a1c05da1af22eb34462d44fd3ee",
+  "checked_out_commit": "ef820ae872fe7efc4265b038ea9404a47087f59e",
+  "verification_inputs_sha256": "b897810402923660be3d2e9e7ab81e6dd1fffc20af87fb061aee98f2658a806e",
+  "target_count": 76,
+  "artifact_id": 13752229539,
   "artifact_name": "proof-sims-meeting-thread-lean-1",
-  "artifact_zip_sha256": "fe983fd0a15b46c14b3ff51626bdf174d0301817064709f81a9b30f11f675864",
+  "artifact_zip_sha256": "7de2ca0af50611e4d6a74e1fdba98064d9ef16ef2f8586ce6021e96e3e444c56",
   "files_sha256": {
-    "axioms.json": "3d4e6c138807f652c2d4f70e162b6a26b67b2653f1a7bd59f1f2ae727fdf1554",
+    "axioms.json": "dfd51bcc01bc9d82dd207686ebab057cff6ac149176cc1426ac634e7807d21e4",
     "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
-    "comparator.log": "158737b1dcb9b1952642ca8b3b925a1588eef9438f9af1c5a72599aad895d0ab",
+    "comparator.log": "6053a3724df2cb1234b90bcdd55e1d5595a098f6d2cfb1a2029162b7babd96d6",
     "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
-    "lake-build.log": "2c6314fc556cc5b24e866fd3a0c0ab04f5ff3d26ff00539e9cba8f2a242a67d4",
-    "verification-report.json": "baea68e7b03e4f66aebf96abd2d580570aca2f966ccf743156f5fd314a5955c7"
+    "lake-build.log": "4d455d3aa6a7fe3005d2f702c1e7748f516356d213b256ebf6532e65cbe13bb6",
+    "verification-report.json": "dc29b6a167caddd6e0cb08e9185b515bf2ae6978c83e655c8f238dcd7075169b"
   },
-  "pull_request": 6
+  "pull_request": 8
 }

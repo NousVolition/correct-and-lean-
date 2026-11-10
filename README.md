@@ -17,6 +17,10 @@ Changing the frame of a deformation preserves its Green strain. For any real 3 �
 
 Five paired restaurant simulations gave Traveller B the same firsthand witness account about the original pocket tremble. At the next probe, B identified the pager in **5 of 5 cases with an explicit sensory replay and 5 of 5 without**. When the witness described testing someone else’s pager, all ten answers stayed open. Both versions retained a reference to the original incident. [Paired readings](lean/sims-meeting-thread-lean/observations/pager-return/readings.tsv) · [Study and controls](lean/sims-meeting-thread-lean/README.md#does-b-need-to-revisit-the-feeling)
 
+### Which of two trembles was the pager?
+
+Traveller B felt two similar trembles. The witness described the pager test without naming either episode. With a sound clue, B identified the right tremble in **6 of 6** paired cases with both moments replayed and left **6 of 6 open** without replay. An action B already remembered identified the right moment in both arms (6 of 6 each). A generic witness statement left all 12 answers open. [Study, controls and Lean result](lean/sims-meeting-thread-lean/observations/two-trembles/README.md) · [Paired readings](lean/sims-meeting-thread-lean/observations/two-trembles/readings.tsv)
+
 The cue model also checks what it takes to come back close to a starting point. A recorded cue must first leave a chosen radius and a later cue must re-enter it. The witness can resolve a matching event even when every later cue stays outside that radius. [Return test and examples](lean/sims-meeting-thread-lean/README.md#when-does-a-cue-count-as-a-return)
 
 ### Portfolio index

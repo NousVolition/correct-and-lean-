@@ -1,4 +1,4 @@
-⚠ [3418/3434] Replayed Volterra
+⚠ [3415/3438] Replayed Volterra
 warning: Volterra.lean:18:0: automatically included section variable(s) unused in theorem `Volterra.extend_continuous`:
   [NormedSpace ℝ E]
   [CompleteSpace E]
@@ -13,7 +13,7 @@ consider restructuring your `variable` declarations so that the variables are no
   omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
 
 Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
-ℹ [3429/3434] Replayed ConstantField
+ℹ [3433/3438] Replayed ConstantField
 info: ConstantField.lean:18:0: 'MemoryProof.zeroField' depends on axioms: [propext, Classical.choice, Quot.sound]
-✔ [3433/3434] Built ApplicationRejections (1.8s)
-Build completed successfully (3434 jobs).
+✔ [3437/3438] Built ApplicationRejections (2.4s)
+Build completed successfully (3438 jobs).

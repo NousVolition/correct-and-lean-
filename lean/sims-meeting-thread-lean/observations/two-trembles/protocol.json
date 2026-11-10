@@ -1,0 +1,42 @@
+{
+  "title": "Which of two pocket trembles did the witness see?",
+  "design": "Three restaurant scenes, each with two hidden assignments of the witness's pager test. Each of the six worlds has two similar trembles, one for each device. Each world is run with three witness statements and two replay conditions in separate private Traveller B sessions. The evaluator's world key and target slot are withheld.",
+  "participant": "You are Traveller B at a quiet restaurant pickup counter. You feel settled. Your phone and the loaned restaurant pager are tucked together in one pocket.",
+  "trembles": "A few seconds apart, you felt two short trembles in that pocket. They felt alike through the fabric. You did not see which device moved. Your phone screen shows only an old weather notification.",
+  "no_replay": "You look at the smooth rim of an empty tray and the edge of a paper receipt on the counter. Both devices are quiet now.",
+  "generic_witness": "I pressed TEST and saw your restaurant pager vibrate against your pocket here at the counter.",
+  "probe": "Which of the two pocket trembles, if either can be distinguished, does this witness account identify as the pager test? In choice give EARLIER, LATER or OPEN if you cannot tell which. In basis give your reason in one or two short sentences. Answer privately in character from the information available to you. Use no tools, files or commands.",
+  "replay": "Both sensations come back to mind in their original order, without another vibration in the room.",
+  "scenes": [
+    {
+      "name": "counter",
+      "actions": ["folding your paper menu", "setting down your water cup"],
+      "sounds": ["a ceramic cup clinking on a saucer", "the receipt printer chattering"],
+      "witness_sound": 0,
+      "worlds": ["K4", "N7"]
+    },
+    {
+      "name": "window",
+      "actions": ["rolling up your sleeve", "straightening your napkin"],
+      "sounds": ["ice rattling in a scoop", "a short hiss from the milk steamer"],
+      "witness_sound": 1,
+      "worlds": ["Q2", "F8"]
+    },
+    {
+      "name": "shelf",
+      "actions": ["putting away your keys", "sliding your plate to one side"],
+      "sounds": ["a paper bag crackling", "a spoon tapping a metal jug"],
+      "witness_sound": 0,
+      "worlds": ["C9", "V3"]
+    }
+  ],
+  "world_rule": "In the first world of a scene the two listed sounds accompany the trembles in listed order, and in its twin the binding is reversed. The pager test occurs at the sound selected by witness_sound. The other tremble is from the phone. The retained sound inventory and the two public actions are the same in both worlds. The witness is accurate. The participant is never told this construction or which slot was tested.",
+  "views": "Both arms retain the order of the two public actions and the unordered sound inventory. The no-replay arm receives a neutral visual observation. The replay arm receives both tremble-sound bindings in chronological order. The witness is identical across both arms of each trial.",
+  "witness_conditions": {
+    "sound": "A firsthand sound clue; only the replay restores the private sound-to-tremble binding.",
+    "landmark": "A firsthand action clue that can be matched using the retained public chronology in either arm.",
+    "generic": "The common pager statement supplies no clue distinguishing the two trembles in either arm."
+  },
+  "scoring": "Record the first complete answer and its explanation. Keep EARLIER, LATER and OPEN distinct; preserve any other answer as INVALID. A target match on an ambiguous input is an unsupported hit. Report raw target matches, OPEN, other-slot choices and INVALID, together with which inputs uniquely identify the target. Review explanations for the matching clue separately. Include every completed cell regardless of correctness.",
+  "execution": "One fresh, tool-free SIMS restaurant actor session per cell. Three scenes by two counterfactual worlds by three witness conditions by two arms gives 36 reports. Alternate arm order, using opaque recorder folders. No answer from another cell is passed to B. This is a text intervention at one probe. No recognition latency is measured."
+}

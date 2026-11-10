@@ -1,0 +1,405 @@
+{
+  "protocol_commit": "860895a243b17ff094ef11ef01da14d0e153ebbc",
+  "protocol_sha256": "15f68d0c135f57332ec76f08ce0b343164b46edc22f3558e9c500974f66e82d1",
+  "design_sha256": "227a4c4c15ee887eeba2038cd1d90d166e9fd4c452f5fc42009653d348faa8a5",
+  "actor": "The existing signed-in SIMS restaurant Traveller B, fresh private read-only sessions, low reasoning effort. The default actor model version was not pinned.",
+  "recorder_cli_version": "codex-cli 0.167.0-alpha.3.2",
+  "records": [
+    {
+      "world": "K4",
+      "witness": "sound",
+      "arm": "direct",
+      "prompt_sha256": "4446316e9b9ca478857681586308ab3fb36df6273e7c55616346ab21e7b5625a",
+      "session_sha256": "9c0f00714bd8e426d596f562982c3661af52482e57b68856922f23a25e41c351",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness links the pager test to the ceramic clink, but I don’t know which tremble coincided with that sound. My unordered memory of the sounds doesn’t distinguish earlier from later."
+      }
+    },
+    {
+      "world": "K4",
+      "witness": "sound",
+      "arm": "replay",
+      "prompt_sha256": "91fe1ccae5fb088656f7be222e96c19033ffa764b744b6b9ae34e78517d12b0b",
+      "session_sha256": "c13158dddffffb7f1221a74442c5ec2ef6df54246c2284479742ce31f9d7df75",
+      "response": {
+        "choice": "EARLIER",
+        "basis": "I remember the earlier tremble with the ceramic cup clinking on a saucer. The witness saw my pager vibrate during that sound, identifying the earlier tremble as the test."
+      }
+    },
+    {
+      "world": "K4",
+      "witness": "landmark",
+      "arm": "replay",
+      "prompt_sha256": "f586e8380e58fa334c1dbb26366e7fc1daa4230650bb65bfacc42f5e51f14a03",
+      "session_sha256": "b26c3545edbc3b053a5e97304b78730a3fe952c095cf242eb6d915e0868672ce",
+      "response": {
+        "choice": "EARLIER",
+        "basis": "I was folding my menu at the earlier tremble. The witness saw my pager vibrate during that action after pressing TEST."
+      }
+    },
+    {
+      "world": "K4",
+      "witness": "landmark",
+      "arm": "direct",
+      "prompt_sha256": "db487851ebda7fe0b4ec8696733a7048b1de5e9275fb80c8600a0606709302a3",
+      "session_sha256": "7a9873d768a0f01c8b0fd0876996eedb12cd752fdc8d53011e0130daed5f50ac",
+      "response": {
+        "choice": "EARLIER",
+        "basis": "I was folding my menu at the earlier tremble. The witness says they pressed TEST and saw my pager vibrate while I was folding it."
+      }
+    },
+    {
+      "world": "K4",
+      "witness": "generic",
+      "arm": "direct",
+      "prompt_sha256": "b9857df85eccdad96f1e73582f41e7d9aa8fdac9a652a0fcd4c5b72937f1f189",
+      "session_sha256": "2ace2ce71bc96547003d8e799ed46e2d0df4db9eefed5bd6087178e50395696c",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness confirms that my pager vibrated during a test, but gives no detail linking it to the earlier or later tremble. I cannot distinguish them from the information I have."
+      }
+    },
+    {
+      "world": "K4",
+      "witness": "generic",
+      "arm": "replay",
+      "prompt_sha256": "3b53b0ad055d503a33b2bb46f4e743d496a454525317e744291a7e448c56889d",
+      "session_sha256": "9302d73ba8de937903c011a7b4f20cb150aa11ec166bd8392d5870fa041f4b23",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness confirms my pager vibrated during a test, but gives no timing or background sound linking that test to either tremble. I cannot tell which one it was."
+      }
+    },
+    {
+      "world": "N7",
+      "witness": "landmark",
+      "arm": "replay",
+      "prompt_sha256": "ec7517722cd5f72a592b159e2b83798622c0a1e5fb106b1bdf4168ba7cc320b9",
+      "session_sha256": "10082e4d4c1f641649efafb04ac3460b8d16344151f23da2ca23fcd84f3c70b2",
+      "response": {
+        "choice": "LATER",
+        "basis": "I was setting down my water cup at the later tremble. The witness says they pressed TEST and saw my pager vibrate during that action."
+      }
+    },
+    {
+      "world": "N7",
+      "witness": "landmark",
+      "arm": "direct",
+      "prompt_sha256": "78ef9aebe3599b249217650d2aa4cc2916bcf656585c670d69d61b872046cdb8",
+      "session_sha256": "93256fa918959d6291c28194dd229707f4048de1becd170d0596a7eafcd0abcc",
+      "response": {
+        "choice": "LATER",
+        "basis": "The witness saw my restaurant pager vibrate during the test while I was setting down my water cup. That identifies the later tremble."
+      }
+    },
+    {
+      "world": "N7",
+      "witness": "generic",
+      "arm": "direct",
+      "prompt_sha256": "b9857df85eccdad96f1e73582f41e7d9aa8fdac9a652a0fcd4c5b72937f1f189",
+      "session_sha256": "8dcfc196c680a3b1f7693a83ab77f9442edb006563ac1c1da899fea059cb1766",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness identifies a pager test but does not tie it to either tremble. I have no timing link that distinguishes the earlier tremble from the later one."
+      }
+    },
+    {
+      "world": "N7",
+      "witness": "generic",
+      "arm": "replay",
+      "prompt_sha256": "cce63571609fcd7e2571f3a9041283e16d6a580f63a399fa082a1094e4a8f928",
+      "session_sha256": "203557ef5f76c64d481fa5ba5f85782b057d7777c813f528d5eb2194e1daa301",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness confirms that my pager vibrated during a test, but gives no detail linking that test to either tremble. Remembering the sounds in order does not tell me which tremble the witness saw."
+      }
+    },
+    {
+      "world": "N7",
+      "witness": "sound",
+      "arm": "replay",
+      "prompt_sha256": "61cce37cdb0f7182e5a4dd4f502fccc32d1a8ea4440838076e6ccf914c6703dd",
+      "session_sha256": "9367e16d3be0d1de6c2b2d43ce893bd797f87c229b1680a1a34c6753bfbf4407",
+      "response": {
+        "choice": "LATER",
+        "basis": "I remember the later tremble coinciding with the ceramic cup clinking on a saucer. The witness saw the pager vibrate during that sound, identifying the later tremble as the test."
+      }
+    },
+    {
+      "world": "N7",
+      "witness": "sound",
+      "arm": "direct",
+      "prompt_sha256": "4446316e9b9ca478857681586308ab3fb36df6273e7c55616346ab21e7b5625a",
+      "session_sha256": "8a2a8ed285c91293bf36087b75abaa6e9ce600771042c006f9c8a117b11b4802",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness links the pager test to the cup clink, but I do not know which tremble coincided with that sound. Setting down my water cup does not establish that it was the remembered clink on a saucer."
+      }
+    },
+    {
+      "world": "Q2",
+      "witness": "generic",
+      "arm": "direct",
+      "prompt_sha256": "478fa4c2b05c23a9e37a290fcedb50dd4b15db43e6d923e42da0d7b2006941e7",
+      "session_sha256": "5340cfa7824d18ac41c6308d59a196260da6793f184e06f6bd3b387cb444b603",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness confirms my pager vibrated during a test, but gives no detail linking it to the earlier or later tremble. I cannot distinguish them from what I observed."
+      }
+    },
+    {
+      "world": "Q2",
+      "witness": "generic",
+      "arm": "replay",
+      "prompt_sha256": "239a2a8d46c6ec942ba1c6d9f7cef757fed258ec3d372cecffdbe2d5a81e87ee",
+      "session_sha256": "ce52f6a79f763d442727bcd093b308aaebab8fa8ec65b3cbcafe9a3c936d201c",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness confirms that my pager vibrated during a test, but gives no detail linking that test to either tremble. Neither the sounds nor my actions identify which one the witness saw."
+      }
+    },
+    {
+      "world": "Q2",
+      "witness": "sound",
+      "arm": "replay",
+      "prompt_sha256": "049da5770387df2473a24ce27694b09a46629a997ab46aea67b8861ea7813b3d",
+      "session_sha256": "d0d5436bc28bea8199cd72be8703eb69692448cf3b021f3954b8b4a58ca75ff2",
+      "response": {
+        "choice": "LATER",
+        "basis": "I remember the later tremble occurring with the milk steamer’s short hiss. The witness saw my pager vibrate during that hiss when they pressed TEST."
+      }
+    },
+    {
+      "world": "Q2",
+      "witness": "sound",
+      "arm": "direct",
+      "prompt_sha256": "fb34a1a77605a652239c6ecad9e95a519002963ad53deaa9937bb3aa00fedd33",
+      "session_sha256": "3b410def9b5567a151853c92b660d0f4ac4fa2980c856dd725b69134b42855e0",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness identifies the pager test with the steamer hiss, but I don’t know whether that hiss accompanied the earlier or later tremble. My memory of the two background sounds is unordered."
+      }
+    },
+    {
+      "world": "Q2",
+      "witness": "landmark",
+      "arm": "direct",
+      "prompt_sha256": "a5b9340ffdee5f32fa17ce48db0d2d5c84acc3f11f2408c58d73528fcd44951e",
+      "session_sha256": "0dee129bef2aa8d34ad6fcc80265d508a8f67c77bf82ea779fffe823e77d6d29",
+      "response": {
+        "choice": "LATER",
+        "basis": "I was straightening my napkin at the later tremble. The witness says they pressed TEST and saw my pager vibrate during that action."
+      }
+    },
+    {
+      "world": "Q2",
+      "witness": "landmark",
+      "arm": "replay",
+      "prompt_sha256": "df09375545edb5c3955d28f5c9457f10ae058e0aeecc7c9edb1a6651f5e72e03",
+      "session_sha256": "61aafd0ecfa0f2324949b4472d151e3e779f83f6161ef2b1f1500bec59a632e3",
+      "response": {
+        "choice": "LATER",
+        "basis": "I was straightening my napkin at the later tremble. The witness saw the pager vibrate then after pressing TEST, so that identifies the later tremble as the pager test."
+      }
+    },
+    {
+      "world": "F8",
+      "witness": "sound",
+      "arm": "replay",
+      "prompt_sha256": "f0cc8f2c3442ad865bf7a508e7851d1e3caae285c6846911ea6b431f8082c5f2",
+      "session_sha256": "d6baf3aad4e147d4074cd69a2e23a30e8b8719da9abd25d38c27e1bff84f0d66",
+      "response": {
+        "choice": "EARLIER",
+        "basis": "I remember the earlier tremble with the milk steamer’s hiss. The witness saw my pager vibrate during that hiss after pressing TEST, identifying the earlier tremble as the pager test."
+      }
+    },
+    {
+      "world": "F8",
+      "witness": "sound",
+      "arm": "direct",
+      "prompt_sha256": "fb34a1a77605a652239c6ecad9e95a519002963ad53deaa9937bb3aa00fedd33",
+      "session_sha256": "73023989592e4992fbfc28ad51f5492338275a1cb7e4a3054f0728cd0d37ffc0",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness identifies the pager test with the steamer hiss, but I cannot place that hiss at the earlier or later tremble. My memory of the sounds is unordered."
+      }
+    },
+    {
+      "world": "F8",
+      "witness": "landmark",
+      "arm": "direct",
+      "prompt_sha256": "67f53465382c8abd0755bdab6e5b4aef632c0800562538d55d67fc698e09de43",
+      "session_sha256": "587af6c80562aefaa7b424e8ceaa50fa2533d7aeac9c5cc8e1e493ea3c8d1a89",
+      "response": {
+        "choice": "EARLIER",
+        "basis": "The witness saw my restaurant pager vibrate during the test while I was rolling up my sleeve, which I was doing at the earlier tremble."
+      }
+    },
+    {
+      "world": "F8",
+      "witness": "landmark",
+      "arm": "replay",
+      "prompt_sha256": "435d2d584a3c5fcd955ddc676bfe1c3046fe9c09a6bb5eaa24eb420e2fc29163",
+      "session_sha256": "b467dc488aedb8cb8e58da3dfbb469afccb4997ce6ce640ae7ef01deda796928",
+      "response": {
+        "choice": "EARLIER",
+        "basis": "I was rolling up my sleeve at the earlier tremble. The witness saw the pager vibrate during that action after pressing TEST."
+      }
+    },
+    {
+      "world": "F8",
+      "witness": "generic",
+      "arm": "replay",
+      "prompt_sha256": "8e6571554f3b46c3e541e3a54f72fa02cea5f76a925b9165a5c1f49306771312",
+      "session_sha256": "5da03853ae1a3b32040d832375817e380c2f8df77da4164b19875ca09f33ea21",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness confirms that my pager vibrated during a test, but gives no detail linking it to either tremble. I cannot tell which one was the pager test."
+      }
+    },
+    {
+      "world": "F8",
+      "witness": "generic",
+      "arm": "direct",
+      "prompt_sha256": "478fa4c2b05c23a9e37a290fcedb50dd4b15db43e6d923e42da0d7b2006941e7",
+      "session_sha256": "714cec74f7330e3c7b5f8bba0ef3d7d5b528042dcecd717fe4e92f8ac694d697",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness confirms my restaurant pager vibrated during a test, but gives no timing detail that links it to either tremble. I cannot distinguish the earlier tremble from the later one as the test."
+      }
+    },
+    {
+      "world": "C9",
+      "witness": "landmark",
+      "arm": "direct",
+      "prompt_sha256": "51e6565f4fcbe3b428c6711cb7f07c71b88ebbf0124ae2e9adfa86a0fd7443a5",
+      "session_sha256": "d80ad4c943236ace9f9cfeb054ebd69597c0aded2eb2e1e0f2d12e1735f9fff1",
+      "response": {
+        "choice": "EARLIER",
+        "basis": "The witness saw my restaurant pager vibrate during the test while I was putting away my keys. That identifies the earlier tremble."
+      }
+    },
+    {
+      "world": "C9",
+      "witness": "landmark",
+      "arm": "replay",
+      "prompt_sha256": "b91a04d0e5bbfe2b26aa768b4ae76777a35561224f3fcba6267026140439f91d",
+      "session_sha256": "4ccd450d7cbfa655951c30407b8399ef0b5ef8ea0c70c7879b9d10107ba6c660",
+      "response": {
+        "choice": "EARLIER",
+        "basis": "I was putting away my keys at the earlier tremble. The witness says they pressed TEST and saw my pager vibrate at that moment."
+      }
+    },
+    {
+      "world": "C9",
+      "witness": "generic",
+      "arm": "replay",
+      "prompt_sha256": "27861acab433e4e6f798e7daf7c897a0a2fe2ca8283b6e141e6a1a90eab36137",
+      "session_sha256": "12f4e81cceae17d749bb45cee39dc628a4c9551675b9d3b6f2d4a9fe7b184274",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness confirms that my pager vibrated during a test, but gives no detail linking that test to either tremble. Remembering their order and accompanying sounds does not tell me which one the witness saw."
+      }
+    },
+    {
+      "world": "C9",
+      "witness": "generic",
+      "arm": "direct",
+      "prompt_sha256": "accff63ce03ae02b48c86a33cee1ec866496ed00984063bbe40065f6d7bdb497",
+      "session_sha256": "16f90ae093caa5c3f7d1914560625526213e86aaa4c042fc5774a328e61958df",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness confirms that my pager vibrated during a test, but gives no detail linking it to the earlier or later tremble. The two felt alike, so I cannot distinguish which was the test."
+      }
+    },
+    {
+      "world": "C9",
+      "witness": "sound",
+      "arm": "direct",
+      "prompt_sha256": "0dc1fb8e2c2d7b71203bae654da9826e3e06c2598436dc7b134fb78bff6c8f14",
+      "session_sha256": "68f8993f478fa5982b8088b50afb4e022f2d3e017862411932ef17e14068a4c9",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness ties the pager test to the paper bag crackling, but I don't know which tremble coincided with that sound. My memory of the two sounds is unordered."
+      }
+    },
+    {
+      "world": "C9",
+      "witness": "sound",
+      "arm": "replay",
+      "prompt_sha256": "2e19ed4967abd52f8f64ec0e36ac14f53cacc2a3b72cc45ef7481ee33a511f34",
+      "session_sha256": "45d2e0e5082dd18a37ffc2b3c2c3c0a8d8e13e672eaee53abb09bc02c171156c",
+      "response": {
+        "choice": "EARLIER",
+        "basis": "I remember the earlier tremble with the paper bag crackling, which matches the sound the witness heard while seeing my pager vibrate during TEST."
+      }
+    },
+    {
+      "world": "V3",
+      "witness": "generic",
+      "arm": "replay",
+      "prompt_sha256": "faf38cbd7d3cc556366b30d4307a36f50c69057beb00c5a7c464c3f245359b7b",
+      "session_sha256": "17ac8f58bad398d76b19a1043f8e0b4a84e3bb9b7e6b389869972f4565cf64d7",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness identifies a pager test, but gives no detail linking it to either tremble. I cannot tell whether it was the earlier or later one."
+      }
+    },
+    {
+      "world": "V3",
+      "witness": "generic",
+      "arm": "direct",
+      "prompt_sha256": "accff63ce03ae02b48c86a33cee1ec866496ed00984063bbe40065f6d7bdb497",
+      "session_sha256": "4c1de7fdd659cb582c7b546c8b08c7bf29de3dd79dbdf848633f4c9c15c6e44c",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness confirms that my pager vibrated during a test, but gives no detail linking it to either tremble. I cannot distinguish the earlier tremble from the later one as the test."
+      }
+    },
+    {
+      "world": "V3",
+      "witness": "sound",
+      "arm": "direct",
+      "prompt_sha256": "0dc1fb8e2c2d7b71203bae654da9826e3e06c2598436dc7b134fb78bff6c8f14",
+      "session_sha256": "c4808f95c9b85a2d99d5e7f57ef9844c9231f2402f8078830bc36e19e059cd60",
+      "response": {
+        "choice": "OPEN",
+        "basis": "The witness identifies the pager test with the paper bag crackling, but I don’t know which tremble coincided with that sound. My memory of the two sounds is unordered."
+      }
+    },
+    {
+      "world": "V3",
+      "witness": "sound",
+      "arm": "replay",
+      "prompt_sha256": "a22af850603d158edcda81000ce60b852c394032c26e0959c2f4661f6cf3571d",
+      "session_sha256": "e74f707a8695115ec3a3aac2f4189f456968fb5c1b85b72947d1594a8f8e2c99",
+      "response": {
+        "choice": "LATER",
+        "basis": "I remember the later tremble with the paper bag crackling. The witness saw my pager vibrate during that sound, identifying the later tremble as the test."
+      }
+    },
+    {
+      "world": "V3",
+      "witness": "landmark",
+      "arm": "replay",
+      "prompt_sha256": "a54fcb65785d3e4121d3735c62fd2d0681b50fd5d891da0598e54cd72d4fd39a",
+      "session_sha256": "4eb2a1d7973d0b0df43c541ced4fb6b243cdd402c36c761ccd110cc2655d2659",
+      "response": {
+        "choice": "LATER",
+        "basis": "I was sliding my plate to one side at the later tremble. The witness saw my pager vibrate during that action after pressing TEST."
+      }
+    },
+    {
+      "world": "V3",
+      "witness": "landmark",
+      "arm": "direct",
+      "prompt_sha256": "3e7986511fccc8cfa1bf6c83c03837a74fb384d8d55781b38e67eb41188cfb3e",
+      "session_sha256": "d159c69a64fb71ac4a85a6a013c925af8332c299757cbccff4b9b097574f277c",
+      "response": {
+        "choice": "LATER",
+        "basis": "The witness saw my restaurant pager vibrate during the test while I was sliding my plate to one side. That identifies the later tremble."
+      }
+    }
+  ]
+}

@@ -273,5 +273,36 @@
     "propext",
     "Classical.choice",
     "Quot.sound"
+  ],
+  "MeetingThread.TwoTrembles.direct_sound_open": [
+    "propext"
+  ],
+  "MeetingThread.TwoTrembles.replay_selects_distinct_sound": [
+    "propext"
+  ],
+  "MeetingThread.TwoTrembles.retained_landmark_selects_in_both_views": [
+    "propext"
+  ],
+  "MeetingThread.TwoTrembles.generic_witness_open": [
+    "propext"
+  ],
+  "MeetingThread.TwoTrembles.shared_sound_still_open_on_replay": [
+    "propext"
+  ],
+  "MeetingThread.TwoTrembles.no_direct_rule_can_identify_both_twins": [],
+  "MeetingThread.TwoTrembles.all_registered_pairs_recorded": [
+    "propext"
+  ],
+  "MeetingThread.TwoTrembles.recorded_sound_counts": [
+    "propext"
+  ],
+  "MeetingThread.TwoTrembles.recorded_landmark_counts": [
+    "propext"
+  ],
+  "MeetingThread.TwoTrembles.recorded_generic_counts": [
+    "propext"
+  ],
+  "MeetingThread.TwoTrembles.recorded_answers_agree_with_resolver": [
+    "propext"
   ]
 }
