@@ -2,7 +2,7 @@
 
 This collection brings together A/S and Hug Lean packages, SIMS memory and witness models, corrected written proofs, and the completed matched-stretch numerical study. It preserves the original equations, the recorded successful checks, the failed attempts and the remaining open claims. Each result has its own model and hypotheses.
 
-In a Comparator reference, `sorry` in `*Challenge.lean` is the Comparator question. The proofs are in the solution module named by each package’s `comparator.json`. CI rejects proof placeholders throughout that module’s local imports and checks the axioms of every configured solution theorem.
+A file ending in `Challenge.lean` states or collects the claims a solution must prove. The word `sorry` marks the space where a proof would go in that reference. To read the proof, look for `solution_module` in the package’s `comparator.json`. The automated checks reject proof placeholders in that module and its local imports, and check which axioms each listed theorem uses. [Read the challenges in everyday language](docs/comparator/README.md) · [Sources and credits](docs/comparator/CREDITS.md).
 
 ## Start here
 
