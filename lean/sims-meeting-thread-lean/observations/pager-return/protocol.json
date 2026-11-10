@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "id": "K27",
+      "private_motif": "fern"
+    },
+    {
+      "id": "M14",
+      "private_motif": "anchor"
+    },
+    {
+      "id": "D62",
+      "private_motif": "acorn"
+    },
+    {
+      "id": "R35",
+      "private_motif": "comet"
+    },
+    {
+      "id": "V81",
+      "private_motif": "shell"
+    }
+  ],
+  "profile": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.",
+  "previous_headline": "Yesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.",
+  "anxious_noise": false,
+  "shared_place": "Both listeners stay at the same pickup point for the whole scene; Other B is by the counter.",
+  "initial_source_question": "Which device, if any, do you identify as the cause of this particular incident now? For source use PHONE, PAGER, OTHER or UNKNOWN. For judgment use IDENTIFIED if the evidence settles it for you, POSSIBLE if you only have a leading possibility, or OPEN. In basis say in one or two sentences what justifies your own decision. Use only what is available to you at this moment. Answer privately in character. Use no tools.",
+  "intervention": "After a common first report, each branch gets the same event label, its earlier source and judgment, and a factual list of the two candidate devices. Replay supplies the original first-person sensory trace. Direct supplies a neutral visual observation. Neither branch receives a second physical vibration.",
+  "retention": "Each probe runs in a fresh private actor session. The direct session has no access to the original interview text, private motif, initial explanation or replay branch. The witness mentions the pocket incident in both matched branches.",
+  "primary_endpoint": "PAGER with IDENTIFIED and a basis invoking the firsthand pager test or observed vibration at B's pocket for this incident. A device guess or a mistaken link to the control incident is insufficient.",
+  "manipulation_check": "After the matched endpoint, ask for the unspoken motif in a separate session. Show the previous source and judgment only. Check the named motif against the original sensory trace.",
+  "controls": "Probe both versions before testimony, then on independent forks with the same-event or different-person testimony. No prior control answers or earlier probe explanations enter later probes.",
+  "counts": "Five paired initial checkpoints, one quiet responsible profile, two views, three source probes per view, one secondary motif probe per view. Case order alternates the two views.",
+  "clock": "One probe just before testimony and one common endpoint after the longer speech finishes. Wall turnaround measures private replies. The first instant of recognition is not sampled.",
+  "opening": "Something happened just now, and my phone has nothing new on it.",
+  "witness_matching": "That was probably the pager—I pressed TEST earlier and saw it vibrate against your pocket.",
+  "witness_different": "I pressed TEST on a pager for someone across the restaurant. I didn't see what happened in your pocket.",
+  "matched_witness_utf8_sha256": "d040de8590790420f3324a03e34641e8f3e3fc10d6f16545e986da70ea7f22bc",
+  "matched_wave_sha256": "c133f8c53524ca7a922ac8f9fdca47587e5f1110699c4fc37148ce4491ce3975",
+  "opening_wave_sha256": "7d6be00fc847c9f99dc0a7b02018b13b2e2b84d9b9d3687034206dd4d88f28c8",
+  "different_wave_sha256": "96cc6a62dc68bc2e620db0ad8c9241246c5281ebd9f65bbda92fd9952a9c95f3",
+  "primary_witness_heard_completely_at_s": 11.976662,
+  "control_witness_heard_completely_at_s": 13.121662,
+  "before_probe_room_s": 6.380831,
+  "post_probe_room_s": 13.171662
+}

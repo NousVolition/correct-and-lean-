@@ -49,3 +49,21 @@ name = "SimsMeeting"
 
 [[lean_lib]]
 name = "MeetingThreadChallenge"
+
+[[lean_lib]]
+name = "PagerReturnModel"
+
+[[lean_lib]]
+name = "PagerReturn"
+
+[[input_file]]
+name = "pagerReturnLedger"
+path = "observations/pager-return/readings.tsv"
+text = true
+
+[[lean_lib]]
+name = "PagerReturnReadings"
+needs = ["pagerReturnLedger"]
+
+[[lean_lib]]
+name = "PagerReturnChallenge"

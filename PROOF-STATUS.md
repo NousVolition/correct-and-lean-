@@ -17,6 +17,8 @@
 
 The SIMS restaurant trials gave a mean of 1.542 simulated seconds from Traveller A's first unsure report to identification of order 31. In the five paired Traveller B meetings, only one pair identified the pager in both conditions. The Lean package shows how later accepted evidence can resolve an earlier event at the same cue. It also checks the recorded basin circulation signs and the continuity of the eight-refill checkpoint chains. [SIMS two-memory, meeting and basin results](lean/sims-meeting-thread-lean/)
 
+In a separate five-pair test, B identified the pager from the same witness answer in every branch. Only the five branches given a sensory replay could name the original embroidered detail. The matching event reference remained available throughout. Lean exhibits an open cue route that resolves the question under the model's evidence rule. [Pager replay results and controls](lean/sims-meeting-thread-lean/#does-b-need-to-revisit-the-feeling)
+
 The [matched-stretch study](research/matched-stretch/final-matrix/README.md) contains 48 runs with 41 saved times each through t = 0.40. Its independent auditing passed. The finest-grid W curves differ by 46.7880%; halving the finest timestep changes the W curve by 7.4987%, and the complete final velocity fields differ by 41.2147% in relative L2. These are disagreements between approximations, not measured errors against a known exact solution. Small budget residuals do not establish convergence.
 
 The original publication's payload checks and GitHub CI results are retained in [evidence](research/matched-stretch/evidence/). They refer to the original publication commit, not to a fresh numerical or formal run in this repository.
