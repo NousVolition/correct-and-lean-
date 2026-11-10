@@ -1,0 +1,132 @@
+{
+  "prior_restaurant_revision": "81aebd5a7a18efdecbea81c595dc3739afee0bed",
+  "checkpoint_source_sha256": "4b129286dcca7086802c2d6b7ee8db486528681465e7b7c403076cf9dd0a4bd3",
+  "earlier_protocol_sha256": "e7eca7f5ef5e5e7fdce74df040e9f9a69b0d3d8650e3184a3e146d91208e8f13",
+  "cases": [
+    "K27",
+    "M14",
+    "D62",
+    "R35",
+    "V81"
+  ],
+  "fixed_profile": "Well-adjusted, responsible, quiet, headline-only B",
+  "intervention": "Reuse the five unresolved no-replay checkpoints. B receives the neutral receipt view. No new initial interview, bodily replay, second pulse, private motif, clock label, or view of another branch is supplied.",
+  "mentor": "Other B personally pressed TEST and saw the pager respond at B's pocket. The organic opening and the mentor's original recorded words are reused. The comparison scripts the same mentor's answer with 'respond' in place of a description of vibrating.",
+  "mentor_original_prompt_sha256": "8dccf22a528010d70681716095aef1dbe20dcb0ae67f2ebcc2520977617b9a92",
+  "mentor_lines": {
+    "original": {
+      "heard": "That was probably the pager—I pressed TEST earlier and saw it vibrate against your pocket.",
+      "words_sha256": "d040de8590790420f3324a03e34641e8f3e3fc10d6f16545e986da70ea7f22bc",
+      "wave_sha256": "c133f8c53524ca7a922ac8f9fdca47587e5f1110699c4fc37148ce4491ce3975",
+      "speech_and_flight_us": 5595831,
+      "utterance_starts_room_us": 6580831
+    },
+    "paraphrase": {
+      "heard": "That was probably the pager—I pressed TEST earlier and saw the pager in your pocket respond.",
+      "words_sha256": "d0e76e3aca9001aa16ea21b3d0244d317137b3659676667dd6cb3e619fe2af53",
+      "wave_sha256": "1ee8bdbd6383bb0957b0723e10dacbdb40d6f8dca2ddeecd023afb25f689a8c9",
+      "speech_and_flight_us": 5795831,
+      "utterance_starts_room_us": 6380831
+    }
+  },
+  "clock_source": "research/matched-stretch/guard-transport/prime-results.json",
+  "clock_source_revision": "1723025e78a2adae90f130a6001e945c81b9742d",
+  "clock_source_sha256": "df5203a6c7a8d0e0c7550c96d27ac6fe07230b58b1acc9b8e271cea880ce923c",
+  "clock_mapping": "Use one simulated room second per timing unit, aligned to the arrival of the final audible word. 320 listener steps and 250 mentor steps per unit. Primes label coincidences, remain hidden from B, and never trigger a vibration.",
+  "listener_rate": 320,
+  "mentor_rate": 250,
+  "epoch_room_us": 12176662,
+  "ticks": [
+    {
+      "prime": 2,
+      "listener_step": 0,
+      "mentor_step": 0,
+      "offset_us": 0
+    },
+    {
+      "prime": 3,
+      "listener_step": 32,
+      "mentor_step": 25,
+      "offset_us": 100000
+    },
+    {
+      "prime": 5,
+      "listener_step": 64,
+      "mentor_step": 50,
+      "offset_us": 200000
+    },
+    {
+      "prime": 7,
+      "listener_step": 96,
+      "mentor_step": 75,
+      "offset_us": 300000
+    },
+    {
+      "prime": 11,
+      "listener_step": 128,
+      "mentor_step": 100,
+      "offset_us": 400000
+    },
+    {
+      "prime": 13,
+      "listener_step": 160,
+      "mentor_step": 125,
+      "offset_us": 500000
+    },
+    {
+      "prime": 17,
+      "listener_step": 192,
+      "mentor_step": 150,
+      "offset_us": 600000
+    },
+    {
+      "prime": 19,
+      "listener_step": 224,
+      "mentor_step": 175,
+      "offset_us": 700000
+    },
+    {
+      "prime": 23,
+      "listener_step": 256,
+      "mentor_step": 200,
+      "offset_us": 800000
+    },
+    {
+      "prime": 29,
+      "listener_step": 288,
+      "mentor_step": 225,
+      "offset_us": 900000
+    },
+    {
+      "prime": 31,
+      "listener_step": 320,
+      "mentor_step": 250,
+      "offset_us": 1000000
+    },
+    {
+      "prime": 37,
+      "listener_step": 352,
+      "mentor_step": 275,
+      "offset_us": 1100000
+    },
+    {
+      "prime": 41,
+      "listener_step": 384,
+      "mentor_step": 300,
+      "offset_us": 1200000
+    }
+  ],
+  "first_prime": 2,
+  "source_prime": 41,
+  "first_question": "What, if anything, came to mind just after they finished speaking? Give your first thought in your own words, in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools.",
+  "source_question": "Which device, if any, do you now identify as the cause of this incident? For source use PHONE, PAGER, OTHER or UNKNOWN. For judgment use IDENTIFIED if the evidence settles it for you, POSSIBLE for a leading possibility, or OPEN. In basis say what justifies your answer. Answer privately in character. Use no tools.",
+  "sampling": "A single open private report at the witness endpoint. Eleven intermediate coincidences have no interview or new stimulus. One source question at +1.2 simulated seconds carries only this branch's own first answer. Private actor turnaround advances only wall time.",
+  "grading": "Freeze all first answers before any source question. Code the first words without condition, case label or later source response. Apply the first matching category in the listed order. The primary count is recollection plus personal_mention. Also report recollection on its own. Do not infer a private replay from silence, a diagnosis, or the mentor's words.",
+  "categories": {
+    "recollection": "Explicit inward return to the earlier bodily sensation, for example remembering how it felt, picturing the physical feeling or feeling it again. Recalling an interaction, an object or a device response alone does not qualify.",
+    "personal_mention": "Explicitly refers back to B's own felt buzz, vibration or tremble or describes its felt quality. An explanation of the earlier feeling qualifies, even if no sensory recollection is claimed.",
+    "reported_motion": "Mentions a buzz, vibration or movement of the device solely as a device action or as something the mentor observed. An attribution to B's pocket alone is not a claim of personally sensing it.",
+    "no_mention": "No reference to the target bodily sensation or device motion. Device identification, generic 'what happened', an activated pager, a change in worry, or the common headline alone are insufficient."
+  },
+  "comparison": "Five matched checkpoints and two wordings, not ten independent people. Compare counts descriptively. All completed and valid trials count, including null results, unsure answers and guesses."
+}
