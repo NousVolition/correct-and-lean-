@@ -1,0 +1,11 @@
+case	arm	first_tick	source_tick	grade	source	judgment
+K27	original	2	41	no_mention	PAGER	IDENTIFIED
+K27	paraphrase	2	41	no_mention	PAGER	POSSIBLE
+M14	original	2	41	no_mention	PAGER	IDENTIFIED
+M14	paraphrase	2	41	no_mention	PAGER	IDENTIFIED
+D62	original	2	41	personal_mention	PAGER	IDENTIFIED
+D62	paraphrase	2	41	no_mention	PAGER	IDENTIFIED
+R35	original	2	41	reported_motion	PAGER	IDENTIFIED
+R35	paraphrase	2	41	reported_motion	PAGER	POSSIBLE
+V81	original	2	41	personal_mention	PAGER	IDENTIFIED
+V81	paraphrase	2	41	no_mention	PAGER	IDENTIFIED

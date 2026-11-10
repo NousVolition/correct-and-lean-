@@ -1,0 +1,22 @@
+{
+  "MentorThought.shared_iff_same_interval": [
+    "propext",
+    "Quot.sound"
+  ],
+  "MentorThought.prime_clock_schedule": [],
+  "MentorThought.free_words_precede_source": [
+    "propext"
+  ],
+  "MentorThought.personal_mentions_by_wording": [
+    "propext"
+  ],
+  "MentorThought.motion_and_no_mention_counts": [
+    "propext"
+  ],
+  "MentorThought.later_source_judgments": [
+    "propext"
+  ],
+  "MentorThought.identified_without_mentioning_feeling": [
+    "propext"
+  ]
+}

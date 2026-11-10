@@ -1,0 +1,24 @@
+name = "SimsMentorFirstThought"
+version = "0.1.0"
+defaultTargets = ["MentorThought"]
+
+[[require]]
+name = "Comparator"
+scope = "leanprover"
+git = "https://github.com/leanprover/comparator.git"
+rev = "19e111e2141cf333c7daff0f64c5f24acc91dd2e"
+
+[[input_file]]
+name = "roomReadings"
+path = "readings.tsv"
+text = true
+
+[[lean_lib]]
+name = "MentorThoughtModel"
+needs = ["roomReadings"]
+
+[[lean_lib]]
+name = "MentorThought"
+
+[[lean_lib]]
+name = "MentorThoughtChallenge"
