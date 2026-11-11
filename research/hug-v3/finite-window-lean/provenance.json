@@ -1,0 +1,44 @@
+{
+  "source": "This chat\u2019s local finite-window-lean package, checked with Lean 4.34.0-rc2.",
+  "publication_changes": [
+    "Replaced the executable home path in the local receipt commands with lean; kept original run results, targets, binary digest and input digests.",
+    "Updated README for public reproduction and explicit simulation scope.",
+    "Added a dedicated workflow and saved-receipt check; historical receipts in other packages are unchanged.",
+    "Added original explanatory diagrams at the user's request; schematic geometry is kept distinct from the recorded data."
+  ],
+  "original_files_sha256": {
+    "WindowGap.lean": "e88e29c55fb4f77a93c71412fa5809f65faf644254c460a66694752468a4ad7d",
+    "RecordedWindows.lean": "6ea61a2395fbc42913bf3e764ee75e7b74547ce5d0502c89ea521776707faa34",
+    "CheckAxioms.lean": "edbf3fa6e85ae99eb47d10ea474418a422650caeff625ef3659449b5d9f6d4ec",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "lakefile.toml": "9ea422ae4b2b67ae205ac4970b566685d840ce752c491c97002837e6fec11f2c",
+    "verify.py": "37a257f8d8a866ac61218961f118d03b682301870120f07a0237e0733c468307",
+    "README.md": "3f328297f262434348425cb282e751617959a1a62a36843f8c060bcd57b381b6",
+    "receipt.json": "04ca2156217ae44b0b42e3f85951116c55b7fa730f4c72dddd231d084a23384f",
+    "evidence/source-pairs.csv": "919a9197af2947c04acaaf7684f21961b51d7ebf08da4cd6ca21207a9f3eaa10",
+    "evidence/source-statistics.csv": "d89201539f030b68c2c540edd654fd8e00055ab5a87394211c93dba877d4b5b2",
+    "evidence/WindowGap.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/RecordedWindows.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/CheckAxioms.log": "f6cbe818bb28e2b44d9b706ade12b0fe1afcb55ea45d65f7583d9c218af091d8"
+  },
+  "public_files_sha256": {
+    "WindowGap.lean": "e88e29c55fb4f77a93c71412fa5809f65faf644254c460a66694752468a4ad7d",
+    "RecordedWindows.lean": "6ea61a2395fbc42913bf3e764ee75e7b74547ce5d0502c89ea521776707faa34",
+    "CheckAxioms.lean": "edbf3fa6e85ae99eb47d10ea474418a422650caeff625ef3659449b5d9f6d4ec",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "lakefile.toml": "9ea422ae4b2b67ae205ac4970b566685d840ce752c491c97002837e6fec11f2c",
+    "verify.py": "37a257f8d8a866ac61218961f118d03b682301870120f07a0237e0733c468307",
+    "README.md": "6ea90d4c408874b1eaf098194f98c9c3fb820323a8ad37fea392212c7505bb9c",
+    "receipt.json": "163b22df200f5306a3742f2fb50c03fb58798ac318ec41a267bf8fa1144f91c5",
+    "evidence/source-pairs.csv": "919a9197af2947c04acaaf7684f21961b51d7ebf08da4cd6ca21207a9f3eaa10",
+    "evidence/source-statistics.csv": "d89201539f030b68c2c540edd654fd8e00055ab5a87394211c93dba877d4b5b2",
+    "evidence/WindowGap.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/RecordedWindows.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/CheckAxioms.log": "f6cbe818bb28e2b44d9b706ade12b0fe1afcb55ea45d65f7583d9c218af091d8"
+  },
+  "emphasis": "The general mathematics is small. The reproducible checking practice and scope distinctions are what this example demonstrates.",
+  "generated_diagrams": {
+    "checking-practice.svg": "96f6d688c71825f3d238b5cafa7c9e7db113fe58d4658067e768df441d389100",
+    "follow-farther.svg": "1ddd85e421afb7d2edada8ff1663e6a6b54b15f9636e31805e7faaa5740febb7"
+  }
+}

@@ -1,0 +1,9 @@
+name = "FiniteWindowGap"
+version = "0.1.0"
+defaultTargets = ["WindowGap", "RecordedWindows"]
+
+[[lean_lib]]
+name = "WindowGap"
+
+[[lean_lib]]
+name = "RecordedWindows"

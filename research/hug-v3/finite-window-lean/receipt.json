@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-11-11T06:55:52.265037+00:00",
+  "finished_at_utc": "2026-11-11T06:55:56.964635+00:00",
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "lean_binary_sha256": "37dfe799f69b990251f3b6bcff8a1c10c1afe2adcdecc5c580cc6726ffb63433",
+  "inputs_sha256": {
+    "WindowGap.lean": "e88e29c55fb4f77a93c71412fa5809f65faf644254c460a66694752468a4ad7d",
+    "RecordedWindows.lean": "6ea61a2395fbc42913bf3e764ee75e7b74547ce5d0502c89ea521776707faa34",
+    "CheckAxioms.lean": "edbf3fa6e85ae99eb47d10ea474418a422650caeff625ef3659449b5d9f6d4ec",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "lakefile.toml": "9ea422ae4b2b67ae205ac4970b566685d840ce752c491c97002837e6fec11f2c",
+    "verify.py": "37a257f8d8a866ac61218961f118d03b682301870120f07a0237e0733c468307",
+    "evidence/source-pairs.csv": "919a9197af2947c04acaaf7684f21961b51d7ebf08da4cd6ca21207a9f3eaa10",
+    "evidence/source-statistics.csv": "d89201539f030b68c2c540edd654fd8e00055ab5a87394211c93dba877d4b5b2"
+  },
+  "theorem_count": 15,
+  "targets": [
+    "WindowGap.nearest_gap_cannot_increase",
+    "WindowGap.infimum_gap_cannot_increase",
+    "WindowGap.whole_path_bound_restricts",
+    "WindowGap.prefix_nearest_gap_cannot_increase",
+    "WindowGap.sample_windows_are_nested",
+    "WindowGap.sample_small_has_positive_gap",
+    "WindowGap.sample_extension_reaches_zero",
+    "WindowGap.visible_positive_gap_does_not_imply_whole_positive_gap",
+    "RecordedWindows.decimal_scale_is_positive",
+    "RecordedWindows.complete_frame_sequence",
+    "RecordedWindows.all_1275_recorded_extents_pass",
+    "RecordedWindows.all_51_medians_and_ranges_pass",
+    "RecordedWindows.gap_is_already_positive_at_1_102",
+    "RecordedWindows.final_recorded_median_is_smaller_with_longer_trace",
+    "RecordedWindows.final_pair_20_gap_is_smaller_with_longer_trace"
+  ],
+  "axioms": {
+    "WindowGap.nearest_gap_cannot_increase": [],
+    "WindowGap.infimum_gap_cannot_increase": [],
+    "WindowGap.whole_path_bound_restricts": [],
+    "WindowGap.prefix_nearest_gap_cannot_increase": [],
+    "WindowGap.sample_windows_are_nested": [],
+    "WindowGap.sample_small_has_positive_gap": [],
+    "WindowGap.sample_extension_reaches_zero": [],
+    "WindowGap.visible_positive_gap_does_not_imply_whole_positive_gap": [],
+    "RecordedWindows.decimal_scale_is_positive": [],
+    "RecordedWindows.complete_frame_sequence": [],
+    "RecordedWindows.all_1275_recorded_extents_pass": [],
+    "RecordedWindows.all_51_medians_and_ranges_pass": [],
+    "RecordedWindows.gap_is_already_positive_at_1_102": [],
+    "RecordedWindows.final_recorded_median_is_smaller_with_longer_trace": [],
+    "RecordedWindows.final_pair_20_gap_is_smaller_with_longer_trace": []
+  },
+  "runs": [
+    {
+      "module": "WindowGap",
+      "exit_code": 0,
+      "command": [
+        "lean",
+        "-DwarningAsError=true",
+        "-o",
+        "WindowGap.olean",
+        "WindowGap.lean"
+      ]
+    },
+    {
+      "module": "RecordedWindows",
+      "exit_code": 0,
+      "command": [
+        "lean",
+        "-DwarningAsError=true",
+        "-o",
+        "RecordedWindows.olean",
+        "RecordedWindows.lean"
+      ]
+    },
+    {
+      "module": "CheckAxioms",
+      "exit_code": 0,
+      "command": [
+        "lean",
+        "-DwarningAsError=true",
+        "CheckAxioms.lean"
+      ]
+    }
+  ],
+  "decimal_places": 24,
+  "frames": 51,
+  "pairs_per_frame": 25,
+  "pairwise_comparisons": 1275,
+  "source_time_vs_nominal_frame_max_decimal_residual": "1E-16",
+  "time_mapping_scope": "Frames map to nominal time frame * 0.002; the source float time strings have rounding residuals. Distance strings are checked as exact decimals.",
+  "source_inputs_unchanged_during_check": true,
+  "native_decide_used": false,
+  "scope": "Local Lean kernel proofs of nested-window rules and a finite sample counterexample, plus exact decimal checks of archived records.",
+  "limits": [
+    "No fluid simulation or line integration was rerun.",
+    "No formal bridge from the simulator and its floating-point operations to these recorded decimals.",
+    "No proof of global line closure, disconnection, reconnection, or the supplied image-generation history.",
+    "The nearest-point and infimum theorems explicitly assume the respective minima/infima exist.",
+    "Counterexample is a sample-window construction, not a continuous fluid trajectory.",
+    "Local verification; not a GitHub Actions receipt or published Lean result."
+  ],
+  "publication_note": "Historical local Windows check. The executable home path in three commands is replaced with lean; binary digest, input digests, targets, timestamps and results are unchanged. GitHub runs produce separate receipts."
+}
