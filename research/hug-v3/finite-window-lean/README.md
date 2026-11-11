@@ -22,7 +22,7 @@ For pair 20 at the final frame, the saved gap decreases from approximately **0.1
 
 ## What the data proof means
 
-The useful practice is visible at each step: retain the source CSVs; convert their written decimals exactly; check the full table rather than a selected example; reject a changed input or missing theorem target; and keep the formal result separate from claims about the fluid model. The three refusal tests deliberately change a measurement, omit a target, and mark a compiler step as failed. Each must be rejected by the receipt checker.
+The useful practice is visible at each step: retain the source CSVs; convert their written decimals exactly; check the full table rather than a selected example; reject a changed input or missing theorem target; and keep the formal result separate from claims about the fluid model. The four refusal tests deliberately change a measurement, omit a target, mark a compiler step as failed, and supply a stale published GitHub receipt. Each must be rejected by the receipt checker.
 
 The preserved CSV distance strings were converted exactly into natural-number numerators sharing the positive denominator **10²⁴**. Lean checked those exact values by kernel computation. The source frame numbers run from 550 through 600, with 25 seed IDs per frame; the receipt records the input hashes. Source float time strings differ from nominal frame × 0.002 by at most 0.0000000000000001; nominal frame times are used for the labels.
 
@@ -51,3 +51,5 @@ The checked-in [receipt](receipt.json) records the original local Windows run. O
 The [Finite-window Lean checks workflow](../../../.github/workflows/finite-window-lean.yml) reruns the same verifier in a fresh copy using the repository's pinned Lean release. It compares the new receipt and regenerated modules with the published inputs, then uploads the new evidence. [Workflow runs](https://github.com/NousVolition/hug-sims-lean-proofs/actions/workflows/finite-window-lean.yml). A green repository-only check is not a substitute for this package's run and matching receipt.
 
 To check the preserved local receipt without rerunning Lean, use `python check_saved_receipt.py`. To compare a new run as well, use `python check_saved_receipt.py --fresh PATH_TO_NEW_RECEIPT`. The source data belong to the archived threshold-0.015 Hug study; this publication does not change the separate threshold-1 trajectory or switch claims.
+
+The [first GitHub receipt](github-receipt.json) comes from [run 42978452902](https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/42978452902). Its input fingerprints and all 15 named targets match the preserved local receipt; the Lean compilation, axiom audit and Lake build passed. The downloaded artifact digest is recorded with it. Later runs remain separate evidence.

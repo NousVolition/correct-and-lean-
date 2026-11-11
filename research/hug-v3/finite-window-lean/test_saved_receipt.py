@@ -34,4 +34,12 @@ class ReceiptRejections(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'did not pass'):
             check(self.root,p)
 
+    def test_stale_published_github_receipt_is_rejected(self):
+        p=self.root/'github-receipt.json'
+        receipt=json.loads(p.read_text())
+        receipt['inputs_sha256']['WindowGap.lean']='0'*64
+        p.write_text(json.dumps(receipt))
+        with self.assertRaisesRegex(ValueError,'published GitHub: proof-input fingerprints differ'):
+            check(self.root)
+
 if __name__=='__main__':unittest.main()

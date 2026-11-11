@@ -68,7 +68,7 @@ The window rule is a short proof. The practice around it is worth showing:
 
 ![Saved records become exact decimal values, Lean checks and a receipt tied to the checked inputs. GitHub repeats the checks and rejects stale evidence.](research/hug-v3/finite-window-lean/diagrams/checking-practice.svg)
 
-**Lean checked the window rule and recorded numbers, not the fluid simulation.** The table covers 25 pairs at 51 times in the threshold-0.015 study. This does not certify the solver, line integration, closure or reconnection, or change the separate threshold-1 trajectory result. [Proofs, assumptions and records](research/hug-v3/finite-window-lean/README.md) · [Saved receipt](research/hug-v3/finite-window-lean/receipt.json) · [GitHub checks](https://github.com/NousVolition/hug-sims-lean-proofs/actions/workflows/finite-window-lean.yml)
+**Lean checked the window rule and recorded numbers, not the fluid simulation.** The table covers 25 pairs at 51 times in the threshold-0.015 study. This does not certify the solver, line integration, closure or reconnection, or change the separate threshold-1 trajectory result. [Proofs, assumptions and records](research/hug-v3/finite-window-lean/README.md) · [GitHub receipt](research/hug-v3/finite-window-lean/github-receipt.json) · [GitHub checks](https://github.com/NousVolition/hug-sims-lean-proofs/actions/workflows/finite-window-lean.yml)
 
 ### Follow the penne
 

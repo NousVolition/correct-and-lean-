@@ -23,7 +23,12 @@ def check(root=ROOT,fresh=None):
     for name,digest in saved['inputs_sha256'].items():
         actual=hashlib.sha256((root/name).read_bytes()).hexdigest()
         if actual!=digest:raise ValueError(f'Stale saved receipt: {name} differs.')
-    for label,receipt in [('saved',saved)]+([('fresh',json.loads(Path(fresh).read_text(encoding='utf-8')))] if fresh else []):
+    candidates=[('saved',saved)]
+    published=root/'github-receipt.json'
+    if published.is_file():
+        candidates.append(('published GitHub',json.loads(published.read_text(encoding='utf-8'))))
+    if fresh:candidates.append(('fresh',json.loads(Path(fresh).read_text(encoding='utf-8'))))
+    for label,receipt in candidates:
         if receipt.get('status')!='PASS':raise ValueError(f'{label}: result is not PASS.')
         if receipt.get('theorem_count')!=15 or receipt.get('targets')!=expected_names:
             raise ValueError(f'{label}: target list differs from the published statements.')
