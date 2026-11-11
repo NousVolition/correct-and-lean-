@@ -59,7 +59,7 @@ The measured line also has a finite viewing window. Whether its edge hides a con
 
 ### Follow the penne
 
-**AI-generated; dictated and directed by Nous Volition.** The illustration and animation show the dictated idea of a continuing path within a confined space, without the path closing back on itself. Two overlapping viewing windows take turns hopping along the penne. This is a conceptual illustration; it adds no fluid measurement or Lean result.
+**AI-generated; dictated and directed by NousVolition.** The illustration and animation show the dictated idea of a continuing path within a confined space, without the path closing back on itself. Two overlapping viewing windows take turns hopping along the penne. This is a conceptual illustration; it adds no fluid measurement or Lean result.
 
 ![Two windows leapfrog along a continuing penne path inside a confined space.](docs/penne-leapfrog/penne-leapfrog.gif)
 
@@ -100,4 +100,4 @@ Every Lean directory has its own toolchain, Lake configuration and dependency lo
 
 ## License
 
-Copyright © 2026 Nous Volition (GitHub: NousVolition). All rights reserved. See the [copyright notice](LICENSE) for the terms that apply to reuse of the original work in this repository.
+Copyright © 2026 NousVolition. All rights reserved. See the [copyright notice](LICENSE) for the terms that apply to reuse of the original work in this repository.
