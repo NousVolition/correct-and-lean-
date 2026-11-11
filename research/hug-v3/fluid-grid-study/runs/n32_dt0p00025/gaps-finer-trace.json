@@ -1,0 +1,9 @@
+{
+  "run": "n32_dt0p00025",
+  "ds": 0.00048828125,
+  "grid": 256,
+  "direct": false,
+  "minimum_direction": 0.005522448459901109,
+  "elapsed_seconds": 87.01499999999942,
+  "rows": 2550
+}

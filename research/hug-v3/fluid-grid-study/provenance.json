@@ -1,0 +1,666 @@
+{
+  "publication_date": "2026-11-11",
+  "source_study_completed_utc": "2026-11-11T08:40:54.440356+00:00",
+  "publication_scope": "Numerical records and diagram; no new solver integration or Lean proof. Full field arrays remain local.",
+  "attribution": "AI-generated; dictated and directed by NousVolition.",
+  "files": [
+    {
+      "published_path": "convergence.png",
+      "source": "outputs/fluid-convergence/convergence.png",
+      "original_sha256": "0c7d457f1177804df0bf0c88d01d05f604452caa1ea308fc8e50fcb29cc0fff0",
+      "public_sha256": "0c7d457f1177804df0bf0c88d01d05f604452caa1ea308fc8e50fcb29cc0fff0",
+      "transformation": "none"
+    },
+    {
+      "published_path": "convergence.svg",
+      "source": "outputs/fluid-convergence/convergence.svg",
+      "original_sha256": "5a6cf985247cafd52cbe115b1739c525eae83b7f03fe31ab8bd612380b43deef",
+      "public_sha256": "5a6cf985247cafd52cbe115b1739c525eae83b7f03fe31ab8bd612380b43deef",
+      "transformation": "none"
+    },
+    {
+      "published_path": "analysis-summary.json",
+      "source": "outputs/fluid-convergence/analysis-summary.json",
+      "original_sha256": "6418618dd85025d4720c5f2d9bcb6f1f10e3a76aee6216d1cf19b3bdf7b56571",
+      "public_sha256": "6418618dd85025d4720c5f2d9bcb6f1f10e3a76aee6216d1cf19b3bdf7b56571",
+      "transformation": "none"
+    },
+    {
+      "published_path": "completion-receipt.json",
+      "source": "outputs/fluid-convergence/completion-receipt.json",
+      "original_sha256": "04342abcf7e82f6f2fa1f55b55ed0e57dda0f0983e96500019f23f13a5cae311",
+      "public_sha256": "04342abcf7e82f6f2fa1f55b55ed0e57dda0f0983e96500019f23f13a5cae311",
+      "transformation": "none"
+    },
+    {
+      "published_path": "gap-comparisons.csv",
+      "source": "outputs/fluid-convergence/gap-comparisons.csv",
+      "original_sha256": "5779b02ef47503e01f916ad318c645c59241ad19ee4bf666a0a76c932c8be7b1",
+      "public_sha256": "5779b02ef47503e01f916ad318c645c59241ad19ee4bf666a0a76c932c8be7b1",
+      "transformation": "none"
+    },
+    {
+      "published_path": "gap-summaries.csv",
+      "source": "outputs/fluid-convergence/gap-summaries.csv",
+      "original_sha256": "b0ba2c4ce3733c76c0c21a2b71a6bb2c2171a40f1e77953685a61990753b4ba8",
+      "public_sha256": "b0ba2c4ce3733c76c0c21a2b71a6bb2c2171a40f1e77953685a61990753b4ba8",
+      "transformation": "none"
+    },
+    {
+      "published_path": "field-comparisons.csv",
+      "source": "outputs/fluid-convergence/field-comparisons.csv",
+      "original_sha256": "d3db639172d5d8e7b450115cad01e4a41e3ba708b86bbdd64cb6a12ca998b1c5",
+      "public_sha256": "d3db639172d5d8e7b450115cad01e4a41e3ba708b86bbdd64cb6a12ca998b1c5",
+      "transformation": "none"
+    },
+    {
+      "published_path": "run-diagnostics-summary.csv",
+      "source": "outputs/fluid-convergence/run-diagnostics-summary.csv",
+      "original_sha256": "425a7cc8acbee329edb94045216fca37d2a44b4c0db4ba429b11272e25fdb21f",
+      "public_sha256": "425a7cc8acbee329edb94045216fca37d2a44b4c0db4ba429b11272e25fdb21f",
+      "transformation": "none"
+    },
+    {
+      "published_path": "tracing-comparisons.csv",
+      "source": "outputs/fluid-convergence/tracing-comparisons.csv",
+      "original_sha256": "99761195b52469366581d55c82405e71a60ca6aa8741b35d85b66f8d32c68c44",
+      "public_sha256": "99761195b52469366581d55c82405e71a60ca6aa8741b35d85b66f8d32c68c44",
+      "transformation": "none"
+    },
+    {
+      "published_path": "final-window-summaries.csv",
+      "source": "outputs/fluid-convergence/final-window-summaries.csv",
+      "original_sha256": "54c92327d7f2adb9889707c610dfeb21dea5a2b76d37f6d065381a6f59ccdab1",
+      "public_sha256": "54c92327d7f2adb9889707c610dfeb21dea5a2b76d37f6d065381a6f59ccdab1",
+      "transformation": "none"
+    },
+    {
+      "published_path": "event-payload-comparisons.csv",
+      "source": "outputs/fluid-convergence/event-payload-comparisons.csv",
+      "original_sha256": "dabf4507d05853e766b5aa129712858eb4f4e85264b5a8968c0bf690e6e1922d",
+      "public_sha256": "dabf4507d05853e766b5aa129712858eb4f4e85264b5a8968c0bf690e6e1922d",
+      "transformation": "none"
+    },
+    {
+      "published_path": "independent-field-checks.csv",
+      "source": "outputs/fluid-convergence/independent-field-checks.csv",
+      "original_sha256": "636f45435cba348988849e4b61e97ed44ec4647eed23dbc7b727ee85d621fe09",
+      "public_sha256": "636f45435cba348988849e4b61e97ed44ec4647eed23dbc7b727ee85d621fe09",
+      "transformation": "none"
+    },
+    {
+      "published_path": "independent-spatial-gap-checks.csv",
+      "source": "outputs/fluid-convergence/independent-spatial-gap-checks.csv",
+      "original_sha256": "c87cef375fdc0d46329cec6eb16007b8c770a2e504b8c53f15ae3d3f28157224",
+      "public_sha256": "c87cef375fdc0d46329cec6eb16007b8c770a2e504b8c53f15ae3d3f28157224",
+      "transformation": "none"
+    },
+    {
+      "published_path": "independent-check-summary.json",
+      "source": "outputs/fluid-convergence/independent-check-summary.json",
+      "original_sha256": "6937ff778fee8a54702b2002621fa7b9d8a25838a29294efec82a843c2debfd5",
+      "public_sha256": "6937ff778fee8a54702b2002621fa7b9d8a25838a29294efec82a843c2debfd5",
+      "transformation": "none"
+    },
+    {
+      "published_path": "final-window-sensitivity-per-pair.csv",
+      "source": "outputs/fluid-convergence/final-window-sensitivity-per-pair.csv",
+      "original_sha256": "4c027d5e7312c840e6b1f43c0525ceecd3564c2a2087cddb7409537c8cba9505",
+      "public_sha256": "4c027d5e7312c840e6b1f43c0525ceecd3564c2a2087cddb7409537c8cba9505",
+      "transformation": "none"
+    },
+    {
+      "published_path": "final-window-sensitivity-method.json",
+      "source": "outputs/fluid-convergence/final-window-sensitivity-method.json",
+      "original_sha256": "222f153b3d8bb178db32e9cafd2165a8fc6654c70fb186b32af3dab4747d7057",
+      "public_sha256": "222f153b3d8bb178db32e9cafd2165a8fc6654c70fb186b32af3dab4747d7057",
+      "transformation": "none"
+    },
+    {
+      "published_path": "n24-observer-frequency-check.json",
+      "source": "outputs/fluid-convergence/n24-observer-frequency-check.json",
+      "original_sha256": "0cc2c5a5b049c54316f3e2d66921d1c4c278ccb0197d57ff59887996c6efbaec",
+      "public_sha256": "0cc2c5a5b049c54316f3e2d66921d1c4c278ccb0197d57ff59887996c6efbaec",
+      "transformation": "none"
+    },
+    {
+      "published_path": "common-grid-nyquist-check.json",
+      "source": "outputs/fluid-convergence/common-grid-nyquist-check.json",
+      "original_sha256": "3813d2e747f84868f1de454bd4728a16ab1310ca374c74e282193adc4a106cbc",
+      "public_sha256": "3813d2e747f84868f1de454bd4728a16ab1310ca374c74e282193adc4a106cbc",
+      "transformation": "none"
+    },
+    {
+      "published_path": "observer-labels.json",
+      "source": "outputs/fluid-convergence/observer-labels.json",
+      "original_sha256": "b727e7a298cd7d61c9be4c716eab4bc84cb5f3c97678ef270306c90e99dccd78",
+      "public_sha256": "b727e7a298cd7d61c9be4c716eab4bc84cb5f3c97678ef270306c90e99dccd78",
+      "transformation": "none"
+    },
+    {
+      "published_path": "RESULTS.md",
+      "source": "outputs/fluid-convergence/RESULTS.md",
+      "original_sha256": "3d61da0fc0d3c408c695a879bdb7fc4286b0641e2b9f3ab139f12ce8c27596d7",
+      "public_sha256": "407cf9d6915914cdb8124295fd824611f0774d6a99ead158f91e7ff64920f6bc",
+      "transformation": "Repository-relative links; public/archive coverage clarified."
+    },
+    {
+      "published_path": "METHODS.md",
+      "source": "outputs/fluid-convergence/METHODS.md",
+      "original_sha256": "e2dbd2c5506a4319a95fa52f9e362e408e9183a3a819e7c2f3c70467aa7ce471",
+      "public_sha256": "99d68437795ece60790794328284d42076c04e9eeda543635019348f5574bf98",
+      "transformation": "Repository-relative links; public/archive coverage clarified."
+    },
+    {
+      "published_path": "runs/n16_dt0p002/summary.json",
+      "source": "outputs/fluid-convergence/n16_dt0p002/summary.json",
+      "original_sha256": "c2eb44f6bc2f51390ea586bc0d2410385875f077a007a44846acc9f14de30c2c",
+      "public_sha256": "c2eb44f6bc2f51390ea586bc0d2410385875f077a007a44846acc9f14de30c2c",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p002/diagnostics.json",
+      "source": "outputs/fluid-convergence/n16_dt0p002/diagnostics.json",
+      "original_sha256": "4114d827a7176c545037fa64cc4a84839abd27911d4a8159f6cd0c841ac1977d",
+      "public_sha256": "4114d827a7176c545037fa64cc4a84839abd27911d4a8159f6cd0c841ac1977d",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p002/baseline-checks.json",
+      "source": "outputs/fluid-convergence/n16_dt0p002/baseline-checks.json",
+      "original_sha256": "1c88fa154086aec5efa8ca871591d99f9d95e90b02baa99e35e2fe15f8b214c4",
+      "public_sha256": "1c88fa154086aec5efa8ca871591d99f9d95e90b02baa99e35e2fe15f8b214c4",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p002/events.json",
+      "source": "outputs/fluid-convergence/n16_dt0p002/events.json",
+      "original_sha256": "9181d783781c3fcf37d6ec4a7f6106e2849ae697bd7007eacb1825f9f3ed7b19",
+      "public_sha256": "9181d783781c3fcf37d6ec4a7f6106e2849ae697bd7007eacb1825f9f3ed7b19",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p002/selection-accuracy.json",
+      "source": "outputs/fluid-convergence/n16_dt0p002/selection-accuracy.json",
+      "original_sha256": "698741618ce96ded97363ac5ad813a664a9fc5099a8e387aaf57d7e71fe5ba81",
+      "public_sha256": "698741618ce96ded97363ac5ad813a664a9fc5099a8e387aaf57d7e71fe5ba81",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p002/gaps-primary.csv",
+      "source": "outputs/fluid-convergence/n16_dt0p002/gaps_grid192_ds1024_consistent.csv",
+      "original_sha256": "10842400c26875e1e3e99eefd657f23b56e9f0ba57a0fc329e060b9bd58efbe2",
+      "public_sha256": "10842400c26875e1e3e99eefd657f23b56e9f0ba57a0fc329e060b9bd58efbe2",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p002/gaps-primary.json",
+      "source": "outputs/fluid-convergence/n16_dt0p002/gaps_grid192_ds1024_consistent.json",
+      "original_sha256": "6d01ba5f0a3292c3b1659c875cd367bea61a9ef4e95ff2c681b0eca3d83f5e2e",
+      "public_sha256": "6d01ba5f0a3292c3b1659c875cd367bea61a9ef4e95ff2c681b0eca3d83f5e2e",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p002/gaps-finer-trace.csv",
+      "source": "outputs/fluid-convergence/n16_dt0p002/gaps_grid256_ds2048_consistent.csv",
+      "original_sha256": "65a1b4fb6aa0143b545be92aaec6d35331fe4fbab106257638707e1fb3d23835",
+      "public_sha256": "65a1b4fb6aa0143b545be92aaec6d35331fe4fbab106257638707e1fb3d23835",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p002/gaps-finer-trace.json",
+      "source": "outputs/fluid-convergence/n16_dt0p002/gaps_grid256_ds2048_consistent.json",
+      "original_sha256": "161a483e55c3c1f6dcb50fc52a1a656ae727957daba580b9aaaf3d8f5d62176f",
+      "public_sha256": "161a483e55c3c1f6dcb50fc52a1a656ae727957daba580b9aaaf3d8f5d62176f",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p002/spot-direct-ds2048.json",
+      "source": "outputs/fluid-convergence/n16_dt0p002/spot-direct-ds2048.json",
+      "original_sha256": "22e12b6e285592935aafa1ab8114661a7bce667d8b5e73758a1bb1bfe8b78662",
+      "public_sha256": "22e12b6e285592935aafa1ab8114661a7bce667d8b5e73758a1bb1bfe8b78662",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p001/summary.json",
+      "source": "outputs/fluid-convergence/n16_dt0p001/summary.json",
+      "original_sha256": "32fd4418b287c55ef10016bdf6f1788a6b0bcdfe3d211a06488c455b8dd9dd9b",
+      "public_sha256": "32fd4418b287c55ef10016bdf6f1788a6b0bcdfe3d211a06488c455b8dd9dd9b",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p001/diagnostics.json",
+      "source": "outputs/fluid-convergence/n16_dt0p001/diagnostics.json",
+      "original_sha256": "1c1eeaeda1d347c653a06d908b5d9f9011f443c8444330f0ff4c33ceedb2a387",
+      "public_sha256": "1c1eeaeda1d347c653a06d908b5d9f9011f443c8444330f0ff4c33ceedb2a387",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p001/baseline-checks.json",
+      "source": "outputs/fluid-convergence/n16_dt0p001/baseline-checks.json",
+      "original_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "public_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p001/events.json",
+      "source": "outputs/fluid-convergence/n16_dt0p001/events.json",
+      "original_sha256": "37a8402e9f816f5b00e4bb236eef54a68b6576587b708fd4c36aca77a1915a90",
+      "public_sha256": "37a8402e9f816f5b00e4bb236eef54a68b6576587b708fd4c36aca77a1915a90",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p001/selection-accuracy.json",
+      "source": "outputs/fluid-convergence/n16_dt0p001/selection-accuracy.json",
+      "original_sha256": "447bf38de0b7c0e2f8562c5809fe2fa24d6588a0898bbd48d6f339849079d66b",
+      "public_sha256": "447bf38de0b7c0e2f8562c5809fe2fa24d6588a0898bbd48d6f339849079d66b",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p001/gaps-primary.csv",
+      "source": "outputs/fluid-convergence/n16_dt0p001/gaps_grid192_ds1024.csv",
+      "original_sha256": "d8269d64e88b9eee406ab8b8355aa477e6de20ee0c8d185385fcefd3bd9df689",
+      "public_sha256": "d8269d64e88b9eee406ab8b8355aa477e6de20ee0c8d185385fcefd3bd9df689",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p001/gaps-primary.json",
+      "source": "outputs/fluid-convergence/n16_dt0p001/gaps_grid192_ds1024.json",
+      "original_sha256": "1cb216a81219d7512ca07bbeaaed345906c1ae0edc5fb33170e697c583929524",
+      "public_sha256": "1cb216a81219d7512ca07bbeaaed345906c1ae0edc5fb33170e697c583929524",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p001/gaps-finer-trace.csv",
+      "source": "outputs/fluid-convergence/n16_dt0p001/gaps_grid256_ds2048.csv",
+      "original_sha256": "1c064239ec7b6fec0cb7518e24e1f1f46294febb911ed7ccc51760de471df001",
+      "public_sha256": "1c064239ec7b6fec0cb7518e24e1f1f46294febb911ed7ccc51760de471df001",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p001/gaps-finer-trace.json",
+      "source": "outputs/fluid-convergence/n16_dt0p001/gaps_grid256_ds2048.json",
+      "original_sha256": "957f85528044db19df63c38c5895451885d7f0fabae3debf1d5109b42c7f4723",
+      "public_sha256": "957f85528044db19df63c38c5895451885d7f0fabae3debf1d5109b42c7f4723",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p001/spot-direct-ds1024.json",
+      "source": "outputs/fluid-convergence/n16_dt0p001/spot-direct-ds1024.json",
+      "original_sha256": "57fcbb50b77d347bc8f8d54e5cdb1b876791450b7f9e16d2fbf88c0f12d2a559",
+      "public_sha256": "57fcbb50b77d347bc8f8d54e5cdb1b876791450b7f9e16d2fbf88c0f12d2a559",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p0005/summary.json",
+      "source": "outputs/fluid-convergence/n16_dt0p0005/summary.json",
+      "original_sha256": "747803e7f6a774b245f7946c9b807686cddafd026a7c073bf1fa86fdf570b3fc",
+      "public_sha256": "747803e7f6a774b245f7946c9b807686cddafd026a7c073bf1fa86fdf570b3fc",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p0005/diagnostics.json",
+      "source": "outputs/fluid-convergence/n16_dt0p0005/diagnostics.json",
+      "original_sha256": "7cec0859d7a9fa311cdf436a1f4bd7307af8b902ec74d1d78833dbf294004ede",
+      "public_sha256": "7cec0859d7a9fa311cdf436a1f4bd7307af8b902ec74d1d78833dbf294004ede",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p0005/baseline-checks.json",
+      "source": "outputs/fluid-convergence/n16_dt0p0005/baseline-checks.json",
+      "original_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "public_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p0005/events.json",
+      "source": "outputs/fluid-convergence/n16_dt0p0005/events.json",
+      "original_sha256": "720286aeac6e01dd015a596353c61587952dac8ce9651de29b8113427dfe6e1a",
+      "public_sha256": "720286aeac6e01dd015a596353c61587952dac8ce9651de29b8113427dfe6e1a",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p0005/selection-accuracy.json",
+      "source": "outputs/fluid-convergence/n16_dt0p0005/selection-accuracy.json",
+      "original_sha256": "d451f72fa4639a62ac77ad49d539184585b02a604699f3a459fb32241660de8f",
+      "public_sha256": "d451f72fa4639a62ac77ad49d539184585b02a604699f3a459fb32241660de8f",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p0005/gaps-primary.csv",
+      "source": "outputs/fluid-convergence/n16_dt0p0005/gaps_grid192_ds1024.csv",
+      "original_sha256": "6468928d24d1eedb9a5f09910294ba4ef341e69745598a52edace9e192f57000",
+      "public_sha256": "6468928d24d1eedb9a5f09910294ba4ef341e69745598a52edace9e192f57000",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p0005/gaps-primary.json",
+      "source": "outputs/fluid-convergence/n16_dt0p0005/gaps_grid192_ds1024.json",
+      "original_sha256": "a08a25b8cbec86f63f623e6cd87f76aec00b8a3d181010d0ae6273597fd0d9f9",
+      "public_sha256": "a08a25b8cbec86f63f623e6cd87f76aec00b8a3d181010d0ae6273597fd0d9f9",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p0005/gaps-finer-trace.csv",
+      "source": "outputs/fluid-convergence/n16_dt0p0005/gaps_grid256_ds2048.csv",
+      "original_sha256": "e08130f158771b4edf65ddf2c68489c98878978afb92f8f5028d913f70d370ce",
+      "public_sha256": "e08130f158771b4edf65ddf2c68489c98878978afb92f8f5028d913f70d370ce",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p0005/gaps-finer-trace.json",
+      "source": "outputs/fluid-convergence/n16_dt0p0005/gaps_grid256_ds2048.json",
+      "original_sha256": "bd69129d310eb5cdcf23437440ef72483f6cf960ded64910bf8cfd2e854cd5b5",
+      "public_sha256": "bd69129d310eb5cdcf23437440ef72483f6cf960ded64910bf8cfd2e854cd5b5",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n16_dt0p0005/spot-direct-ds1024.json",
+      "source": "outputs/fluid-convergence/n16_dt0p0005/spot-direct-ds1024.json",
+      "original_sha256": "6bc27252061d7e671ae17f9ff4a4a4657b33ca9eb4b553b7165f5657f230c8ef",
+      "public_sha256": "6bc27252061d7e671ae17f9ff4a4a4657b33ca9eb4b553b7165f5657f230c8ef",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/summary.json",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/summary.json",
+      "original_sha256": "db2f6e572e69527dd79e8d932de6133e584ee8129e44d18936c82ac282da8715",
+      "public_sha256": "db2f6e572e69527dd79e8d932de6133e584ee8129e44d18936c82ac282da8715",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/diagnostics.json",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/diagnostics.json",
+      "original_sha256": "1d1cd1e41271e54c115587f7e837fa46874cf7f97cc5ff9c190b14bbed687216",
+      "public_sha256": "1d1cd1e41271e54c115587f7e837fa46874cf7f97cc5ff9c190b14bbed687216",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/baseline-checks.json",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/baseline-checks.json",
+      "original_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "public_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/events.json",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/events.json",
+      "original_sha256": "1e3c75a976a7727e3f1409bab168150f7eac675ecc35c8edc11b420283b177f9",
+      "public_sha256": "1e3c75a976a7727e3f1409bab168150f7eac675ecc35c8edc11b420283b177f9",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/selection-accuracy.json",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/selection-accuracy.json",
+      "original_sha256": "1de64883591f2410fead5e809e67074df88e0080cddc83eb0b58edcaf094d644",
+      "public_sha256": "1de64883591f2410fead5e809e67074df88e0080cddc83eb0b58edcaf094d644",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/gaps-primary.csv",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/gaps_grid192_ds1024.csv",
+      "original_sha256": "ad43494aa09d76f13e9e2d667fdbc89738d0e2c055476ad02e2511101d991a97",
+      "public_sha256": "ad43494aa09d76f13e9e2d667fdbc89738d0e2c055476ad02e2511101d991a97",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/gaps-primary.json",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/gaps_grid192_ds1024.json",
+      "original_sha256": "71f0efad869392522d6a67f46e75266c667ed91f7d06e09bae97e72eb9be00ce",
+      "public_sha256": "71f0efad869392522d6a67f46e75266c667ed91f7d06e09bae97e72eb9be00ce",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/gaps-finer-trace.csv",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/gaps_grid256_ds2048.csv",
+      "original_sha256": "a37b40be15f50cf4eefdab61ecba6ca4d8d3408b83eee8d6c0623e2c828bfffd",
+      "public_sha256": "a37b40be15f50cf4eefdab61ecba6ca4d8d3408b83eee8d6c0623e2c828bfffd",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/gaps-finer-trace.json",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/gaps_grid256_ds2048.json",
+      "original_sha256": "2662885ce471ff35c157c13bddcaf528941c409765a63072c63038e789e24dbf",
+      "public_sha256": "2662885ce471ff35c157c13bddcaf528941c409765a63072c63038e789e24dbf",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/spot-direct-ds1024.json",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/spot-direct-ds1024.json",
+      "original_sha256": "d8f267256a513de0e68bbe61f110596e9da6cd4f86d68bc07dc5e77223a95b38",
+      "public_sha256": "d8f267256a513de0e68bbe61f110596e9da6cd4f86d68bc07dc5e77223a95b38",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/summary.json",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/summary.json",
+      "original_sha256": "6e4cb2c7c192143433197e453765d9af94137f91cb63c434c897c598e8f3a871",
+      "public_sha256": "6e4cb2c7c192143433197e453765d9af94137f91cb63c434c897c598e8f3a871",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/diagnostics.json",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/diagnostics.json",
+      "original_sha256": "89dbd7f82378eed1b2f80bc65a08ce41156b3840f3a4460b1f6843e893db44e3",
+      "public_sha256": "89dbd7f82378eed1b2f80bc65a08ce41156b3840f3a4460b1f6843e893db44e3",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/baseline-checks.json",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/baseline-checks.json",
+      "original_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "public_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/events.json",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/events.json",
+      "original_sha256": "8d17ff3752a97a9b7581b0b19fc9d063cdfc3341a9746bb9015ad74de4254252",
+      "public_sha256": "8d17ff3752a97a9b7581b0b19fc9d063cdfc3341a9746bb9015ad74de4254252",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/selection-accuracy.json",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/selection-accuracy.json",
+      "original_sha256": "9c76a2b26cdf414d5870c3ffb315819d1eab137c543b41fa626e137941f89529",
+      "public_sha256": "9c76a2b26cdf414d5870c3ffb315819d1eab137c543b41fa626e137941f89529",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/gaps-primary.csv",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/gaps_grid192_ds1024.csv",
+      "original_sha256": "15491f116b26b8f08b1faf44f2ab08c91f7ac57d021c13f9fad57a03d7253e56",
+      "public_sha256": "15491f116b26b8f08b1faf44f2ab08c91f7ac57d021c13f9fad57a03d7253e56",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/gaps-primary.json",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/gaps_grid192_ds1024.json",
+      "original_sha256": "5d789b7c0e0ceffc64053a6f8449d895f9c1491f7558c97d9f5d97873cac1324",
+      "public_sha256": "5d789b7c0e0ceffc64053a6f8449d895f9c1491f7558c97d9f5d97873cac1324",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/gaps-finer-trace.csv",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/gaps_grid256_ds2048.csv",
+      "original_sha256": "96e7efe9861fc2901d356b8b5e7e28d53a63c3afec5342fe92d147656e0fca67",
+      "public_sha256": "96e7efe9861fc2901d356b8b5e7e28d53a63c3afec5342fe92d147656e0fca67",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/gaps-finer-trace.json",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/gaps_grid256_ds2048.json",
+      "original_sha256": "d8f8e96f3f524d3b9b93e49d4f78dbd97d9eb3b1207a061e0ddefb340ef8c3a9",
+      "public_sha256": "d8f8e96f3f524d3b9b93e49d4f78dbd97d9eb3b1207a061e0ddefb340ef8c3a9",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/spot-direct-ds1024.json",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/spot-direct-ds1024.json",
+      "original_sha256": "5eb0bbb6e9aaff5cf779f35d887126a666d13e00cde0e9bc884c6253193c0aa0",
+      "public_sha256": "5eb0bbb6e9aaff5cf779f35d887126a666d13e00cde0e9bc884c6253193c0aa0",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p00025/summary.json",
+      "source": "outputs/fluid-convergence/n32_dt0p00025/summary.json",
+      "original_sha256": "0feb619e733588bae4dc697d1aff5021e416912e359f7d03c8443c1e114a9a15",
+      "public_sha256": "0feb619e733588bae4dc697d1aff5021e416912e359f7d03c8443c1e114a9a15",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p00025/diagnostics.json",
+      "source": "outputs/fluid-convergence/n32_dt0p00025/diagnostics.json",
+      "original_sha256": "1be57afb7fbbc8c5ff2e59afe0ae34018c2eb7ff8b20c1431e4a26201eb710c6",
+      "public_sha256": "1be57afb7fbbc8c5ff2e59afe0ae34018c2eb7ff8b20c1431e4a26201eb710c6",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p00025/baseline-checks.json",
+      "source": "outputs/fluid-convergence/n32_dt0p00025/baseline-checks.json",
+      "original_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "public_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p00025/events.json",
+      "source": "outputs/fluid-convergence/n32_dt0p00025/events.json",
+      "original_sha256": "2bf91d4c1a41b922da5147e5d86ce9cb5dc6818c4b4eef300b17eab710395ca0",
+      "public_sha256": "2bf91d4c1a41b922da5147e5d86ce9cb5dc6818c4b4eef300b17eab710395ca0",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p00025/selection-accuracy.json",
+      "source": "outputs/fluid-convergence/n32_dt0p00025/selection-accuracy.json",
+      "original_sha256": "6581d6efbfdab9b3210e3ca3f982e97f932d04d0395a8f35e58244f4bae7dde9",
+      "public_sha256": "6581d6efbfdab9b3210e3ca3f982e97f932d04d0395a8f35e58244f4bae7dde9",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p00025/gaps-primary.csv",
+      "source": "outputs/fluid-convergence/n32_dt0p00025/gaps_grid192_ds1024.csv",
+      "original_sha256": "bb859f96ad21ed8850f649df8ea2ab83b5ad9261a4e503dd0cc1b286e4ef5d55",
+      "public_sha256": "bb859f96ad21ed8850f649df8ea2ab83b5ad9261a4e503dd0cc1b286e4ef5d55",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p00025/gaps-primary.json",
+      "source": "outputs/fluid-convergence/n32_dt0p00025/gaps_grid192_ds1024.json",
+      "original_sha256": "ba6531d6d5a771aaac868b49ca5d377265bc156c3921bac02ebc10b1a305cf77",
+      "public_sha256": "ba6531d6d5a771aaac868b49ca5d377265bc156c3921bac02ebc10b1a305cf77",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p00025/gaps-finer-trace.csv",
+      "source": "outputs/fluid-convergence/n32_dt0p00025/gaps_grid256_ds2048.csv",
+      "original_sha256": "cb8de659bd35a4bfa4f0a4cbef2b8ed3abc1274344b1fa0379db855cb3490a29",
+      "public_sha256": "cb8de659bd35a4bfa4f0a4cbef2b8ed3abc1274344b1fa0379db855cb3490a29",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p00025/gaps-finer-trace.json",
+      "source": "outputs/fluid-convergence/n32_dt0p00025/gaps_grid256_ds2048.json",
+      "original_sha256": "f1a0bfb865d01b27ab1da9d22ab78d125a15666ec98912ccb0775d0a6da15d55",
+      "public_sha256": "f1a0bfb865d01b27ab1da9d22ab78d125a15666ec98912ccb0775d0a6da15d55",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p00025/spot-direct-ds1024.json",
+      "source": "outputs/fluid-convergence/n32_dt0p00025/spot-direct-ds1024.json",
+      "original_sha256": "95abea7c175ba64f3d5c5bdb1a14289ed58f634df4960b71b0cbbf2ecfcf7c94",
+      "public_sha256": "95abea7c175ba64f3d5c5bdb1a14289ed58f634df4960b71b0cbbf2ecfcf7c94",
+      "transformation": "none"
+    },
+    {
+      "published_path": "experiment-plan.md",
+      "source": "work/fluid-convergence/experiment-plan.md",
+      "original_sha256": "c8cf959ec1cb9881bc308ad98495dd5bb35a51a29ed44726d0fc6d70485dfcc5",
+      "public_sha256": "c8cf959ec1cb9881bc308ad98495dd5bb35a51a29ed44726d0fc6d70485dfcc5",
+      "transformation": "none"
+    },
+    {
+      "published_path": "source/run_study.py",
+      "source": "work/fluid-convergence/run_study.py",
+      "original_sha256": "a0e81731aa6b6418cfe921051b240e5800c31b8e6ec45e274fb9a82ec5f05e3e",
+      "public_sha256": "188b23f84d6b3fec2fe91a8f18ec49b22440e6cd0b063abf62c1b3ed503b42a7",
+      "transformation": "External archive paths replaced with stable names; figure source reads published CSVs without importing the simulation runner."
+    },
+    {
+      "published_path": "source/measure.py",
+      "source": "work/fluid-convergence/measure.py",
+      "original_sha256": "29cb580a6dbc4fcbff0cebc457dccce1e12a78d350845ac46ff7d18ea7d81ca1",
+      "public_sha256": "29cb580a6dbc4fcbff0cebc457dccce1e12a78d350845ac46ff7d18ea7d81ca1",
+      "transformation": "none"
+    },
+    {
+      "published_path": "source/compare_results.py",
+      "source": "work/fluid-convergence/compare_results.py",
+      "original_sha256": "034e5ae0b459677107e54f12cc96a22b89ea49d8206ea58ca029ea2fbc0fa3c8",
+      "public_sha256": "034e5ae0b459677107e54f12cc96a22b89ea49d8206ea58ca029ea2fbc0fa3c8",
+      "transformation": "none"
+    },
+    {
+      "published_path": "source/verify_comparisons.py",
+      "source": "work/fluid-convergence/verify_comparisons.py",
+      "original_sha256": "0d8507a7ace4accdc4a6464295b7cffdbbe26e4f191dc7f09423c79af454d741",
+      "public_sha256": "0d8507a7ace4accdc4a6464295b7cffdbbe26e4f191dc7f09423c79af454d741",
+      "transformation": "none"
+    },
+    {
+      "published_path": "source/plot_results.py",
+      "source": "work/fluid-convergence/plot_results.py",
+      "original_sha256": "969f6c3c436a34a80163f20fae0becffe4055cfae0853ad9270db17fce7ab261",
+      "public_sha256": "79473a5ef54d5c07e3403d04b40cb7ec6f9d6c4158472070096f749c3f771e0a",
+      "transformation": "External archive paths replaced with stable names; figure source reads published CSVs without importing the simulation runner."
+    },
+    {
+      "published_path": "source/requirements.txt",
+      "source": "work/fluid-convergence/requirements.txt",
+      "original_sha256": "7f57085ce96b01dbc06b8e7c6a39df55f15d02167625ecc692d9354e6e784320",
+      "public_sha256": "7f57085ce96b01dbc06b8e7c6a39df55f15d02167625ecc692d9354e6e784320",
+      "transformation": "none"
+    },
+    {
+      "published_path": "source/model/continuum.py",
+      "source": "work/fluid-convergence/sealed-source/upstream/continuum.py",
+      "original_sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+      "public_sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+      "transformation": "none"
+    },
+    {
+      "published_path": "source/model/social_base.py",
+      "source": "work/fluid-convergence/sealed-source/upstream/social_base.py",
+      "original_sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+      "public_sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+      "transformation": "none"
+    },
+    {
+      "published_path": "source/model/structural_hug.py",
+      "source": "work/fluid-convergence/sealed-source/upstream/structural_hug.py",
+      "original_sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+      "public_sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+      "transformation": "none"
+    },
+    {
+      "published_path": "source/model/preflight.py",
+      "source": "work/fluid-convergence/sealed-source/upstream/preflight.py",
+      "original_sha256": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+      "public_sha256": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+      "transformation": "none"
+    },
+    {
+      "published_path": "source/model/breathing.py",
+      "source": "work/fluid-convergence/sealed-source/breathing.py",
+      "original_sha256": "aa1dfba9232075474937146698859dcb8cb6d3d42e2732b8b0187a016c2a8900",
+      "public_sha256": "aa1dfba9232075474937146698859dcb8cb6d3d42e2732b8b0187a016c2a8900",
+      "transformation": "none"
+    },
+    {
+      "published_path": "local-output-inventory.json",
+      "source": "outputs/fluid-convergence/SHA256SUMS.json",
+      "original_sha256": "cb118441cfa52543c9a8c788ac7bb1ca708da196bfd46e5ab9b5ea3075302d86",
+      "public_sha256": "cb118441cfa52543c9a8c788ac7bb1ca708da196bfd46e5ab9b5ea3075302d86",
+      "transformation": "none"
+    }
+  ]
+}

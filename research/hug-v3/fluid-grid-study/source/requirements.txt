@@ -1,0 +1,5 @@
+# Integration and numerical analysis used these installed versions.
+numpy==2.3.5
+scipy==1.16.3
+# Quantitative figure renderer, isolated under plot-runtime.
+matplotlib==3.11.2

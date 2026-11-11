@@ -1,0 +1,89 @@
+{
+  "scope": "Historical original-input digests; personal directory prefixes omitted. These inputs are not all included in the compact publication.",
+  "files": [
+    {
+      "source_label": "study.py",
+      "sha256": "7e96fd5b2ce3b78b299e3d4f0f517354c58e901d0f1415abe5ac6a8f9922c989"
+    },
+    {
+      "source_label": "breathing.py",
+      "sha256": "aa1dfba9232075474937146698859dcb8cb6d3d42e2732b8b0187a016c2a8900"
+    },
+    {
+      "source_label": "marker-seeds.csv",
+      "sha256": "3bd95c1b49d205522a72c194cdedcc6e27d3bfbbd4950895e08e9f0303cc5236"
+    },
+    {
+      "source_label": "comparison-seal.json",
+      "sha256": "dc5568116f9eb19cd6e3389cb18a0716de040c9bb7333f112a4cb5133ae0bc0f"
+    },
+    {
+      "source_label": "prime-times.csv",
+      "sha256": "8e2979240d3e92e6be546ddde20040168318c36e03011138d816f8d76d0e8719"
+    },
+    {
+      "source_label": "structural_hug.py",
+      "sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a"
+    },
+    {
+      "source_label": "social_base.py",
+      "sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8"
+    },
+    {
+      "source_label": "continuum.py",
+      "sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3"
+    },
+    {
+      "source_label": "preflight.py",
+      "sha256": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4"
+    },
+    {
+      "source_label": "source_seal.json",
+      "sha256": "b815846bd7afe1aa1a91430c40b658fc44a4d13add5432de0aed424530bedea0"
+    },
+    {
+      "source_label": "protocol.json",
+      "sha256": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77"
+    },
+    {
+      "source_label": "vortex_line_fields.py",
+      "sha256": "4156ddcdef8db8b1a1c31f1e4864c4afb6febf1f3fb9d7ab42d3d771b5437f9c"
+    },
+    {
+      "source_label": "hug_vortex_replay.py",
+      "sha256": "165cbd73b7f1148b499e07cf5f5f48064c04000a561fad36939ad945d9655b11"
+    },
+    {
+      "source_label": "carry_prime37_lines.py",
+      "sha256": "cbdcdad3ca90cf8684f760608a7796b9d22ade778d696f5ddbef9b2bb581b32d"
+    },
+    {
+      "source_label": "trace_vortex_necks.py",
+      "sha256": "30a1a267f8aed5b7b9a36e341333555d5cf8aabe6a79bc78ce5e095a72378983"
+    },
+    {
+      "source_label": "fields.npz",
+      "sha256": "07a9d102a5906fcb20d10a67430ee742c2ed57724b4eb7a1bf01ec54da333016"
+    },
+    {
+      "source_label": "method.txt",
+      "sha256": "570b789805305eabe6cb5733a40955d10dee01731499ea9cc877313c595ca8ec"
+    },
+    {
+      "source_label": "10-direct-partners.csv",
+      "sha256": "ea85392898736c8ce4e7e733e1dce8f7f4c5985ca9b0ad3e532c552c5dbe3524"
+    },
+    {
+      "source_label": "10-prime37-to-41.csv",
+      "sha256": "919a9197af2947c04acaaf7684f21961b51d7ebf08da4cd6ca21207a9f3eaa10"
+    },
+    {
+      "source_label": "10-whole-display.npz",
+      "sha256": "d927113866ec521b41d9b800d334deaeddcc087348b39fbddaf040e277024577"
+    },
+    {
+      "source_label": "lines.npz",
+      "sha256": "e735a6df1e801183260a00198f2c3917405de91ceec3858781a846d916f810e9"
+    }
+  ]
+}

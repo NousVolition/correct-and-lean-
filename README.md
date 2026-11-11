@@ -10,7 +10,7 @@ The collection is also called **Correct and Lean**. Each result retains its own 
 
 A file ending in `Challenge.lean` states or collects the claims a solution must prove. The word `sorry` marks the space where a proof would go in that reference. To read the proof, look for `solution_module` in the package’s `comparator.json`. The automated checks reject proof placeholders in that module and its local imports, and check which axioms each listed theorem uses. [Read the challenges in everyday language](docs/comparator/README.md) · [Sources and credits](docs/comparator/CREDITS.md).
 
-[Browse the Hug and SIMS proof and study index](hug-sims-proof-index.md) for all 32 README guides, including the plain-language theorem reader.
+[Browse the Hug and SIMS proof and study index](hug-sims-proof-index.md) for all 33 README guides, including the plain-language theorem reader.
 
 ## Words used here
 
@@ -32,6 +32,7 @@ The **water particle B** in the separate Hug closest-point study is a tracked fl
 | How do SIMS memory and witness accounts affect Traveller B? | [SIMS memory, witness and cue replay studies](lean/sims-meeting-thread-lean/README.md) |
 | What changes in the Hug model at threshold 1? | [Hug threshold-1 trajectory and closest-point exchanges](research/hug-v3/threshold-one-follow-up/README.md) |
 | How do viewing windows affect a measured gap? | [Lean window rule and exact recorded-number checks](research/hug-v3/finite-window-lean/README.md) |
+| Do the 25-pair gaps survive fluid-grid and time-step refinement? | [Six-run numerical follow-up and diagram](research/hug-v3/fluid-grid-study/README.md) |
 | How were the matched-stretch fluid runs checked for convergence? | [Matched-stretch numerical study and convergence results](research/matched-stretch/final-matrix/README.md) |
 | What do the completed breathing, refinement and repetition controls change? | [Recounted results and corrected conclusions](research/review-updates/2026-11-11/README.md) |
 
@@ -86,6 +87,14 @@ The window rule is a short proof. The practice around it is worth showing:
 ![Saved records become exact decimal values, Lean checks and a receipt tied to the checked inputs. GitHub repeats the checks and rejects stale evidence.](research/hug-v3/finite-window-lean/diagrams/checking-practice.svg)
 
 **Lean checked the window rule and recorded numbers, not the fluid simulation.** The table covers 25 pairs at 51 times in the threshold-0.015 study. This does not certify the solver, line integration, closure or reconnection, or change the separate threshold-1 trajectory result. [Proofs, assumptions and records](research/hug-v3/finite-window-lean/README.md) · [GitHub receipt](research/hug-v3/finite-window-lean/github-receipt.json) · [GitHub checks](https://github.com/NousVolition/hug-sims-lean-proofs/actions/workflows/finite-window-lean.yml)
+
+### Fluid-grid and time-step checks
+
+**The time-step checks passed; individual pair gaps still change with the fluid grid.** Six full simulations tested the threshold-0.015 study through **prime tick 41 (model time 1.2)**. The gap comparisons cover tick 37 to tick 41. Between 24³ and 32³, the largest same-particle gap change was **0.0898224** cube lengths against a **0.001** target. At 32³, the last time-step halving gave a largest gap change of **0.00000858413**.
+
+![Time-step checks pass their target while pair gaps remain sensitive to fluid-grid size.](research/hug-v3/fluid-grid-study/convergence.png)
+
+This is a separate numerical follow-up. **Lean checked the window rule and earlier recorded numbers; it did not check these simulations or establish convergence.** The study keeps 384 material points fixed and does not settle the separate threshold-1 trajectory. [Study, diagram and limits](research/hug-v3/fluid-grid-study/README.md) · [Saved-data recount](research/hug-v3/fluid-grid-study/recount.json)
 
 ### Follow the penne
 

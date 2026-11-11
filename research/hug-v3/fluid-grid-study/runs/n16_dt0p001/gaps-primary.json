@@ -1,0 +1,9 @@
+{
+  "run": "n16_dt0p001",
+  "ds": 0.0009765625,
+  "grid": 192,
+  "direct": false,
+  "minimum_direction": 0.0056563295374044,
+  "elapsed_seconds": 57.687999999994645,
+  "rows": 2550
+}

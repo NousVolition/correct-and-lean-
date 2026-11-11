@@ -1,0 +1,5 @@
+* -text whitespace=cr-at-eol
+# Preserve the generated SVG and archived source bytes, including their spacing.
+convergence.svg whitespace=cr-at-eol,-blank-at-eol
+source/model/continuum.py whitespace=cr-at-eol,-blank-at-eof
+source/run_study.py whitespace=cr-at-eol,-blank-at-eof

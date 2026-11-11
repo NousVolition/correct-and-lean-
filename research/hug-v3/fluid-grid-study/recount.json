@@ -1,0 +1,50 @@
+{
+  "scope": "Recount of saved numerical records; no fluid solver or Lean run.",
+  "completed_runs": 6,
+  "integration_steps_in_saved_receipts": 13800,
+  "primary_pair_rows": 15300,
+  "gap_comparisons_recomputed": 10,
+  "figure_gap_summaries_recomputed": 1224,
+  "time_step_gap_checks": "PASS within declared tolerances",
+  "spatial_pair_gap_checks": "FAIL declared tolerance; gaps remain grid-sensitive",
+  "last_spatial": {
+    "fixed": {
+      "maximum": 0.08982244328596319,
+      "median_absolute_pair_change": 0.00795358844713643,
+      "targets_met": false
+    },
+    "reselected": {
+      "maximum": 0.09095098447815204,
+      "median_absolute_pair_change": 0.005767504984654871,
+      "targets_met": false
+    }
+  },
+  "last_time_step": {
+    "fixed": {
+      "maximum": 8.584131868584477e-06,
+      "median_absolute_pair_change": 2.2087030267931018e-07,
+      "targets_met": true
+    },
+    "reselected": {
+      "maximum": 3.75763655524608e-06,
+      "median_absolute_pair_change": 1.5972595988900107e-07,
+      "targets_met": true
+    }
+  },
+  "finer_tracing_max_gap_changes": {
+    "n16_dt0p002": 6.551574648488989e-06,
+    "n16_dt0p001": 7.070926378999198e-06,
+    "n16_dt0p0005": 6.83396837375394e-06,
+    "n24_dt0p0005": 8.072637598499632e-06,
+    "n32_dt0p0005": 4.192008789330459e-06,
+    "n32_dt0p00025": 4.197924551363474e-06
+  },
+  "recorded_final_field_relative_l2": {
+    "velocity": 0.009233787640041312,
+    "vorticity": 0.03555568819648651
+  },
+  "field_arrays_recomputed": false,
+  "fluid_integrations_recomputed": false,
+  "lean_run": false,
+  "publication_hashes_checked": 102
+}
