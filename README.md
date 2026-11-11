@@ -17,6 +17,10 @@ Changing the frame of a deformation preserves its Green strain. For any real 3 �
 
 Five paired restaurant simulations gave Traveller B the same firsthand witness account about the original pocket tremble. At the next probe, B identified the pager in **5 of 5 cases with an explicit sensory replay and 5 of 5 without**. When the witness described testing someone else’s pager, all ten answers stayed open. Both versions retained a reference to the original incident. [Paired readings](lean/sims-meeting-thread-lean/observations/pager-return/readings.tsv) · [Study and controls](lean/sims-meeting-thread-lean/README.md#does-b-need-to-revisit-the-feeling)
 
+### What B said before and during the certainty questions
+
+Three later no-replay studies kept the mentor's account and used separate interview protocols. With the original wording, **2 of 5** first thoughts referred to B's own earlier feeling. In a fresh-listener sweep, **all 65 open answers were tentative** and two direct answers identified the pager, at primes 13 and 37. One continuing B then stayed tentative at all **13 checkpoints**, while mentioning the personal feeling in five open answers. The continuing encounter lasted 1.2 simulated seconds and used repeated interviews. These observations leave private experience and later recognition open. [Studies and protocols](lean/sims-mentor-first-thought-lean/README.md) · [One continuing B](lean/sims-mentor-first-thought-lean/one-traveller/README.md) · [20-target proof receipt](lean/sims-mentor-first-thought-lean/evidence-linux/source.json)
+
 ### Which of two trembles was the pager?
 
 Traveller B felt two similar trembles. The witness described the pager test without naming either episode. With a sound clue, B identified the right tremble in **6 of 6** paired cases with both moments replayed and left **6 of 6 open** without replay. An action B already remembered identified the right moment in both arms (6 of 6 each). A generic witness statement left all 12 answers open. [Study, controls and Lean result](lean/sims-meeting-thread-lean/observations/two-trembles/README.md) · [Paired readings](lean/sims-meeting-thread-lean/observations/two-trembles/readings.tsv)
@@ -27,9 +31,25 @@ After the two sounds were replayed in the wrong order, B chose the wrong tremble
 
 The cue model also checks what it takes to come back close to a starting point. A recorded cue must first leave a chosen radius and a later cue must re-enter it. The witness can resolve a matching event even when every later cue stays outside that radius. [Return test and examples](lean/sims-meeting-thread-lean/README.md#when-does-a-cue-count-as-a-return)
 
+### Hug thresholds and what Lean checked
+
+The threshold-0.015 energy study and the threshold-1 closest-point study answer different questions. Their results remain separate.
+
+| Experiment | Recorded result | Lean and publication status |
+| --- | --- | --- |
+| **Threshold 0.015 — energy accounts** | The saved three- and four-write Hug runs record work, heat and stored energy. | Nine named statements in open [PR #14](https://github.com/NousVolition/correct-and-lean-/pull/14) passed Comparator, Lean's kernel, nanoda and the build. They check the finite ledger arithmetic and displayed rounding for those measurements. [Proof run and artifacts](https://github.com/NousVolition/correct-and-lean-/actions/runs/42852357760) |
+| **Threshold 1 — same A and original partner** | With breathing on from the original starting state, three late closest-point exchanges occur near **1.180910, 1.182077 and 1.199281**, before tick 41 at time 1.2. | Published numerical records with local consistency and refinement checks. **No Lean check of this trajectory or these switches.** Spatial and full-history convergence remain open. [Study, settings and records](research/hug-v3/threshold-one-follow-up/README.md) |
+
+PR #14 also checks sixteen statements for a separate two-memory mathematical example and supporting lemmas, including transport around a closed cue route. Its passing proof evidence establishes the listed claims under their stated rules and assumptions. Whether those rules faithfully represent the intended Hug is a separate modeling question. The PR's checked-in reports currently retain `NOT_RUN` placeholders, with the successful reports in its workflow artifacts. [Exact scope of PR #14](https://github.com/NousVolition/correct-and-lean-/pull/14)
+
+The threshold-1 rerun kept breathing on. A matched threshold-1 breathing-off comparison remains open, so the recorded switches do not establish breathing as their sole cause.
+
+The measured line also has a finite viewing window. Whether its edge hides a continuation of the connection is an open interpretation to investigate by following more of the same path. [Connection beyond the visible trace](research/hug-v3/threshold-one-follow-up/README.md#connection-beyond-the-visible-trace)
+
 ### Portfolio index
 
-- [SIMS two-memory model, restaurant trials and basin refills](lean/sims-meeting-thread-lean/README.md) · [Current SIMS proof receipt](lean/sims-meeting-thread-lean/verification-report.json).
+- [SIMS two-memory model, restaurant trials and basin refills](lean/sims-meeting-thread-lean/README.md) · [Meeting-package proof receipt](lean/sims-meeting-thread-lean/verification-report.json).
+- [Traveller B's first thoughts and certainty at the prime ticks](lean/sims-mentor-first-thought-lean/README.md) · [First-thought-package proof receipt](lean/sims-mentor-first-thought-lean/verification-report.json).
 - [Proof and verification status](PROOF-STATUS.md): what each package actually establishes.
 - [Lean packages](lean/README.md): source modules, pinned dependencies, build instructions and saved checking records.
 - [Corrected Hug v3 proof, revision 2](research/hug-v3/corrected-proof-revision-2/proof.md) ([PDF](research/hug-v3/corrected-proof-revision-2/corrected-proof.pdf)): written local existence/uniqueness and conditional continuation through accepted writes.
