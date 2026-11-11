@@ -2,7 +2,7 @@
 
 [NousVolition](https://github.com/NousVolition) · [Project overview](README.md)
 
-Browse 31 README guides by subject. Each linked study gives its own assumptions, evidence and status.
+Browse 32 README guides by subject. Each linked study gives its own assumptions, evidence and status.
 
 ## A/S and Hug Lean packages
 
@@ -39,6 +39,8 @@ Browse 31 README guides by subject. Each linked study gives its own assumptions,
 - [Threshold 1 with the same water particles](research/hug-v3/threshold-one-follow-up/README.md)
 - [Matched-stretch controls: final 48-run report](research/matched-stretch/final-matrix/README.md)
 - [Matched-stretch numerical research](research/matched-stretch/README.md)
+
+- [Finite-window rule and recorded gaps checked in Lean](research/hug-v3/finite-window-lean/README.md)
 
 ## Proof readers and verification receipts
 

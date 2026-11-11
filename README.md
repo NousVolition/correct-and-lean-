@@ -6,7 +6,7 @@
 
 A file ending in `Challenge.lean` states or collects the claims a solution must prove. The word `sorry` marks the space where a proof would go in that reference. To read the proof, look for `solution_module` in the package’s `comparator.json`. The automated checks reject proof placeholders in that module and its local imports, and check which axioms each listed theorem uses. [Read the challenges in everyday language](docs/comparator/README.md) · [Sources and credits](docs/comparator/CREDITS.md).
 
-[Browse the Hug and SIMS proof and study index](hug-sims-proof-index.md) for all 31 README guides, including the plain-language theorem reader.
+[Browse the Hug and SIMS proof and study index](hug-sims-proof-index.md) for all 32 README guides, including the plain-language theorem reader.
 
 ## Find a specific study
 
@@ -15,6 +15,7 @@ A file ending in `Challenge.lean` states or collects the claims a solution must 
 | How is Green strain objectivity proved in Lean 4? | [Green strain proof and verification receipt](provenance/green-objective-2026-11-08/README.md) |
 | How do SIMS memory and witness accounts affect Traveller B? | [SIMS memory, witness and cue replay studies](lean/sims-meeting-thread-lean/README.md) |
 | What changes in the Hug model at threshold 1? | [Hug threshold-1 trajectory and closest-point exchanges](research/hug-v3/threshold-one-follow-up/README.md) |
+| How do viewing windows affect a measured gap? | [Lean window rule and exact recorded-number checks](research/hug-v3/finite-window-lean/README.md) |
 | How were the matched-stretch fluid runs checked for convergence? | [Matched-stretch numerical study and convergence results](research/matched-stretch/final-matrix/README.md) |
 
 ## Start here
@@ -58,6 +59,16 @@ PR #14 also checks sixteen statements for a separate two-memory mathematical exa
 The threshold-1 rerun kept breathing on. A matched threshold-1 breathing-off comparison remains open, so the recorded switches do not establish breathing as their sole cause.
 
 The measured line also has a finite viewing window. Whether its edge hides a continuation of the connection is an open interpretation to investigate by following more of the same path. [Connection beyond the visible trace](research/hug-v3/threshold-one-follow-up/README.md#connection-beyond-the-visible-trace)
+
+### Follow farther, then check the record
+
+![Following a longer stretch of the same open path can reveal a smaller gap to the same target.](research/hug-v3/finite-window-lean/diagrams/follow-farther.svg)
+
+The window rule is a short proof. The practice around it is worth showing:
+
+![Saved records become exact decimal values, Lean checks and a receipt tied to the checked inputs. GitHub repeats the checks and rejects stale evidence.](research/hug-v3/finite-window-lean/diagrams/checking-practice.svg)
+
+**Lean checked the window rule and recorded numbers, not the fluid simulation.** The table covers 25 pairs at 51 times in the threshold-0.015 study. This does not certify the solver, line integration, closure or reconnection, or change the separate threshold-1 trajectory result. [Proofs, assumptions and records](research/hug-v3/finite-window-lean/README.md) · [GitHub receipt](research/hug-v3/finite-window-lean/github-receipt.json) · [GitHub checks](https://github.com/NousVolition/hug-sims-lean-proofs/actions/workflows/finite-window-lean.yml)
 
 ### Follow the penne
 

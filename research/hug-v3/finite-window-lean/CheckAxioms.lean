@@ -1,0 +1,17 @@
+import WindowGap
+import RecordedWindows
+#print axioms WindowGap.nearest_gap_cannot_increase
+#print axioms WindowGap.infimum_gap_cannot_increase
+#print axioms WindowGap.whole_path_bound_restricts
+#print axioms WindowGap.prefix_nearest_gap_cannot_increase
+#print axioms WindowGap.sample_windows_are_nested
+#print axioms WindowGap.sample_small_has_positive_gap
+#print axioms WindowGap.sample_extension_reaches_zero
+#print axioms WindowGap.visible_positive_gap_does_not_imply_whole_positive_gap
+#print axioms RecordedWindows.decimal_scale_is_positive
+#print axioms RecordedWindows.complete_frame_sequence
+#print axioms RecordedWindows.all_1275_recorded_extents_pass
+#print axioms RecordedWindows.all_51_medians_and_ranges_pass
+#print axioms RecordedWindows.gap_is_already_positive_at_1_102
+#print axioms RecordedWindows.final_recorded_median_is_smaller_with_longer_trace
+#print axioms RecordedWindows.final_pair_20_gap_is_smaller_with_longer_trace
