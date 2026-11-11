@@ -33,6 +33,7 @@ The **water particle B** in the separate Hug closest-point study is a tracked fl
 | What changes in the Hug model at threshold 1? | [Hug threshold-1 trajectory and closest-point exchanges](research/hug-v3/threshold-one-follow-up/README.md) |
 | How do viewing windows affect a measured gap? | [Lean window rule and exact recorded-number checks](research/hug-v3/finite-window-lean/README.md) |
 | How were the matched-stretch fluid runs checked for convergence? | [Matched-stretch numerical study and convergence results](research/matched-stretch/final-matrix/README.md) |
+| What do the completed breathing, refinement and repetition controls change? | [Recounted results and corrected conclusions](research/review-updates/2026-11-11/README.md) |
 
 ## Start here
 
@@ -72,7 +73,7 @@ The threshold-0.015 energy study and the threshold-1 closest-point study answer 
 
 PR #14 also checks sixteen statements for a separate two-memory mathematical example and supporting lemmas, including transport around a closed cue route. Its passing proof evidence establishes the listed claims under their stated rules and assumptions. Whether those rules faithfully represent the intended Hug is a separate modeling question. Both packages now include their actual passing reports, Linux logs, axiom lists and source/input provenance on the PR branch. [Exact scope of PR #14](https://github.com/NousVolition/hug-sims-lean-proofs/pull/14)
 
-The threshold-1 rerun kept breathing on. A matched threshold-1 breathing-off comparison remains open, so the recorded switches do not establish breathing as their sole cause.
+The matched threshold-1 breathing-off control is complete. It resolves five earlier closest-point exchanges and finds none in the two late windows containing the three breathing-on examples. Breathing changes the measured history and is not necessary for every exchange. These are verified examples, not exhaustive counts; 24 rapid route changes remain unresolved. [Control, scope and saved evidence](research/review-updates/2026-11-11/README.md#breathing-changes-the-observed-switches)
 
 The measured line also has a finite viewing window. Whether its edge hides a continuation of the connection is an open interpretation to investigate by following more of the same path. [Connection beyond the visible trace](research/hug-v3/threshold-one-follow-up/README.md#connection-beyond-the-visible-trace)
 

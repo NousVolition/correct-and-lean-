@@ -1,0 +1,72 @@
+{
+  "scope": "Saved-output recount; no fresh fluid simulation, AI sampling or Lean build.",
+  "source_hashes_match": true,
+  "history_relative_changes": {
+    "energy_difference_at_07": {
+      "half_to_quarter_percent": 0.0045269704420464515,
+      "native_to_quarter_percent": 0.01101287929199632
+    },
+    "extra_threshold_work_12_to_36": {
+      "half_to_quarter_percent": -0.010686794869085518,
+      "native_to_quarter_percent": 0.11956771798518248
+    }
+  },
+  "history_percent_denominator": "Absolute quarter-step value, matching the original comparison.",
+  "residual_reduction_factor": 71.5039493137186,
+  "threshold_1_verified_examples": {
+    "off": 5,
+    "on": 3
+  },
+  "threshold_1_late_examples": {
+    "on": 3,
+    "off": 0
+  },
+  "unresolved_route_changes": 24,
+  "maximum_local_event_time_shift": 9.536743117433133e-09,
+  "speck_crossings": [
+    {
+      "case": "7.52",
+      "grid": 320,
+      "crossed": 201,
+      "total": 201
+    },
+    {
+      "case": "7.52",
+      "grid": 384,
+      "crossed": 201,
+      "total": 201
+    },
+    {
+      "case": "7.52",
+      "grid": 448,
+      "crossed": 30,
+      "total": 201
+    },
+    {
+      "case": "7.67",
+      "grid": 320,
+      "crossed": 148,
+      "total": 201
+    },
+    {
+      "case": "7.67",
+      "grid": 384,
+      "crossed": 130,
+      "total": 201
+    },
+    {
+      "case": "7.67",
+      "grid": 448,
+      "crossed": 27,
+      "total": 201
+    }
+  ],
+  "dining_fresh_calls_in_saved_audit": 2000,
+  "dining_matched_prompt_pairs": 1000,
+  "dining_recomputed_A_B_differences": {
+    "sentences": 0,
+    "actions": 0,
+    "prompt_hashes": 0
+  },
+  "dining_original_match": "Saved flags agree; original raw outputs and token files are not independently replayed by this compact check."
+}

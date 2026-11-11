@@ -1,0 +1,16 @@
+batch,comparison,n,sentences,actions,raw,tokens
+start,A vs B,200,0,0,0,0
+start,original vs A,200,0,0,0,0
+start,original vs B,200,0,0,0,0
+sequence-middle,A vs B,200,0,0,0,0
+sequence-middle,original vs A,200,0,0,0,0
+sequence-middle,original vs B,200,0,0,0,0
+steady-middle,A vs B,200,0,0,0,0
+steady-middle,original vs A,200,0,0,0,0
+steady-middle,original vs B,200,0,0,0,0
+sequence-end,A vs B,200,0,0,0,0
+sequence-end,original vs A,200,0,0,0,0
+sequence-end,original vs B,200,0,0,0,0
+steady-end,A vs B,200,0,0,0,0
+steady-end,original vs A,200,0,0,0,0
+steady-end,original vs B,200,0,0,0,0
