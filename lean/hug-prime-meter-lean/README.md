@@ -1,5 +1,7 @@
 # Fourth write on the Hug prime meter
 
+**Verification: PASS** for Comparator, Lean’s kernel, nanoda and the default build. The 9 configured statements passed in [GitHub run 42852357760](https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/42852357760). The actual [report](verification-report.json), [logs and axiom lists](evidence-linux/), and [checked revision and input hashes](evidence-linux/source.json) are saved in this package. These are the successful historical checks of the unchanged proof inputs.
+
 This standalone Lean project checks the measured fourth write in the 401-marker figure experiment. Both arm receipts and the full set of Hug meter readings are in `evidence/`.
 
 ## Build

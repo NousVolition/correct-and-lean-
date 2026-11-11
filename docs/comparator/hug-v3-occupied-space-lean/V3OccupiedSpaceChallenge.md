@@ -2,16 +2,16 @@
 
 Test membership using guard margins. The common zero action gives concrete overlap at initialization, and a separate derivative describes later region motion.
 
-[`V3OccupiedSpaceChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`V3OccupiedSpaceChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
+The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean) · [V3OccupiedSpaceDefinitions](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean) · [V3OccupiedSpaceDefinitions](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/lake-manifest.json).
 
 </details>
 
@@ -37,7 +37,7 @@ theorem margin_is_original (s : State) (owner visitor : Actor) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L10-L11) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L11-L13)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L10-L11) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L11-L13)
 
 ## What does being inside a guard region mean for the soft permission score?
 
@@ -61,7 +61,7 @@ theorem region_matches_half_permission (s : State) (owner visitor : Actor) (z : 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L13-L14) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L27-L31)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L13-L14) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L27-L31)
 
 ## Can the soft permission score be exactly zero?
 
@@ -85,7 +85,7 @@ theorem soft_permission_positive (s : State) (owner visitor : Actor) (z : Action
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L16-L17) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L33-L36)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L16-L17) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L33-L36)
 
 ## Does a guard region contain its owner’s center?
 
@@ -109,7 +109,7 @@ theorem region_contains_owners_center (s : State) (owner visitor : Actor) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L19-L20) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L38-L40)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L19-L20) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L38-L40)
 
 ## Can two visitor regions for the same owner overlap?
 
@@ -133,7 +133,7 @@ theorem same_audience_regions_overlap (s : State) (owner i j : Actor) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L22-L23) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L42-L45)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L22-L23) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L42-L45)
 
 ## Which action lies in every initial guard region?
 
@@ -157,7 +157,7 @@ theorem initial_zero_in_every_guard (G : Geometry) (owner visitor : Actor) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L25-L26) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L47-L58)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L25-L26) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L47-L58)
 
 ## Does that action survive the combined audience conditions?
 
@@ -181,7 +181,7 @@ theorem initial_zero_in_every_whole_region (G : Geometry) (audience : Audience) 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L28-L29) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L60-L63)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L28-L29) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L60-L63)
 
 ## Can the initial occupied regions be mutually exclusive as proposed?
 
@@ -205,7 +205,7 @@ theorem initial_exclusion_refuted (G : Geometry) (audience : Audience) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L31-L32) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L65-L70)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L31-L32) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L65-L70)
 
 ## Can exclusion hold throughout a full solving trace?
 
@@ -229,7 +229,7 @@ theorem full_hybrid_exclusion_refuted (tr : Trace) (hsol : Solves tr) (audience 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L34-L35) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L72-L77)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L34-L35) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L72-L77)
 
 ## What happens to an individual’s pulley readout across a successful write?
 
@@ -253,7 +253,7 @@ theorem write_preserves_personal_pulley (G : Geometry) (s w : State) (record : R
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L37-L38) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L79-L82)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L37-L38) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L79-L82)
 
 ## Can the whole occupied region change solely because of an accepted write?
 
@@ -278,7 +278,7 @@ theorem write_preserves_whole_regions (G : Geometry) (s w : State) (record : Rec
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L40-L42) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L84-L90)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L40-L42) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L84-L90)
 
 ## What about an accepted scheduled boundary?
 
@@ -303,7 +303,7 @@ theorem boundary_preserves_whole_regions (q : ℕ) (s w : FullState)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L44-L46) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L102-L115)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L44-L46) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L102-L115)
 
 ## Can a checkpoint switch exclusion on or off by itself?
 
@@ -328,7 +328,7 @@ theorem boundary_preserves_exclusion_status (q : ℕ) (s w : FullState)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L48-L50) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L117-L120)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L48-L50) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L117-L120)
 
 ## Which occupied regions enter a delayed social readout?
 
@@ -352,7 +352,7 @@ theorem delay_uses_buffered_regions (present past : State) (audience : Audience)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L52-L53) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L122-L124)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L52-L53) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L122-L124)
 
 ## How does a region score move between events?
 
@@ -380,4 +380,4 @@ theorem full_region_motion (tr : Trace) (hsol : Solves tr) (q : ℕ) (hq : q < 5
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L55-L60) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L138-L146)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceChallenge.lean#L55-L60) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-occupied-space-lean/V3OccupiedSpaceProofs.lean#L138-L146)

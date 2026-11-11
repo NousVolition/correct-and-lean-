@@ -2,16 +2,16 @@
 
 Compare B’s first freely worded thought under two versions of the mentor’s line with B’s later answer to the device question. The counts describe the ten recorded reports.
 
-[`MentorThoughtChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`MentorThoughtChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The mentor study uses the five earlier no-replay checkpoints and its own free-answer protocol. Its source clock table supplies the shared steps, and its formal model imports Lean itself. [Protocol](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/protocol.json) · [Paired readings](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/readings.tsv) · [Verbatim reports](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/reports.json) · [Earlier checkpoints](https://github.com/NousVolition/correct-and-lean-/tree/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/observations/pager-return) · [Source clock table](https://github.com/NousVolition/correct-and-lean-/blob/1723025e78a2adae90f130a6001e945c81b9742d/research/matched-stretch/guard-transport/prime-results.json) · [Lean 4](https://github.com/leanprover/lean4/blob/v4.34.0-rc2/README.md).
+The mentor study uses the five earlier no-replay checkpoints and its own free-answer protocol. Its source clock table supplies the shared steps, and its formal model imports Lean itself. [Protocol](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/protocol.json) · [Paired readings](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/readings.tsv) · [Verbatim reports](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/reports.json) · [Earlier checkpoints](https://github.com/NousVolition/hug-sims-lean-proofs/tree/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/observations/pager-return) · [Source clock table](https://github.com/NousVolition/hug-sims-lean-proofs/blob/1723025e78a2adae90f130a6001e945c81b9742d/research/matched-stretch/guard-transport/prime-results.json) · [Lean 4](https://github.com/leanprover/lean4/blob/v4.34.0-rc2/README.md).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean) · [MentorThoughtModel](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtModel.lean) · [Package account](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/README.md) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean) · [MentorThoughtModel](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtModel.lean) · [Package account](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/README.md) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/lake-manifest.json).
 
 </details>
 
@@ -38,7 +38,7 @@ theorem shared_iff_same_interval (listener mentor : Nat) (within : listener ≤ 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean#L7-L9) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean#L6-L14)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean#L7-L9) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean#L6-L14)
 
 ## Which moments were sampled?
 
@@ -64,7 +64,7 @@ theorem prime_clock_schedule :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean#L11-L14) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean#L16-L19)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean#L11-L14) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean#L16-L19)
 
 ## Which came first, B’s free description or the direct question about the device?
 
@@ -91,7 +91,7 @@ theorem free_words_precede_source :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean#L16-L20) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean#L21-L25)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean#L16-L20) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean#L21-L25)
 
 ## How often did B’s first words mention their own earlier feeling?
 
@@ -116,7 +116,7 @@ theorem personal_mentions_by_wording :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean#L22-L24) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean#L27-L29)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean#L22-L24) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean#L27-L29)
 
 ## What did the remaining reports say about motion?
 
@@ -143,7 +143,7 @@ theorem motion_and_no_mention_counts :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean#L26-L30) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean#L31-L35)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean#L26-L30) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean#L31-L35)
 
 ## What did B say when asked about the source later?
 
@@ -168,7 +168,7 @@ theorem later_source_judgments :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean#L32-L34) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean#L37-L39)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean#L32-L34) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean#L37-L39)
 
 ## Could B later identify the pager without first mentioning their own feeling?
 
@@ -193,4 +193,4 @@ theorem identified_without_mentioning_feeling :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean#L36-L38) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean#L41-L43)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThoughtChallenge.lean#L36-L38) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-mentor-first-thought-lean/MentorThought.lean#L41-L43)

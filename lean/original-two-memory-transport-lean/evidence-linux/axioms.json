@@ -1,0 +1,82 @@
+{
+  "TwoMemoryTransport.readout_from_odds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.odds_eq_exp": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.update_odds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.compose_transport": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.endpoints_determine_transport": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.closed_route": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.odds_parallel": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.flat_curvature": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.source_free": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "TwoMemoryTransport.unit_speed_fails_memory_at_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Volterra.extend_continuous": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Volterra.extend_val": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Volterra.step_apply": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Volterra.path_integrable": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Volterra.iterate_apply_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Volterra.iterate_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

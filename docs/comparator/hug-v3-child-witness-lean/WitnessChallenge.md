@@ -2,16 +2,16 @@
 
 Use the declared participants and timeline to follow an officer-to-father record. Then trace how the father’s rating can influence the child through the relationship fields.
 
-[`WitnessChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`WitnessChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
+The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean) · [WitnessDefinitions](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean) · [WitnessDefinitions](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/lake-manifest.json).
 
 </details>
 
@@ -41,7 +41,7 @@ theorem declared_event_roles :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L8-L13) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L61-L67)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L8-L13) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L61-L67)
 
 ## Does building the record preserve who spoke to whom?
 
@@ -67,7 +67,7 @@ theorem actual_built_record_keeps_its_participants (s : State) (F₀ : Particle 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L15-L18) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L69-L76)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L15-L18) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L69-L76)
 
 ## Can a bystander receive a record through direct retrieval?
 
@@ -94,7 +94,7 @@ theorem record_does_not_enter_bystander_retrieval (G : Geometry) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L20-L24) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L78-L85)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L20-L24) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L78-L85)
 
 ## What can the child retrieve directly from just the first two records?
 
@@ -119,7 +119,7 @@ theorem first_two_records_have_no_child_channel (G : Geometry) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L26-L28) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L87-L92)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L26-L28) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L87-L92)
 
 ## Which equation sets a person’s current context rate?
 
@@ -144,7 +144,7 @@ theorem original_personal_rate_uses_present_relationships (G : Geometry) (t : �
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L30-L32) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L94-L97)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L30-L32) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L94-L97)
 
 ## Can changing just the record list change that instantaneous context rate?
 
@@ -169,7 +169,7 @@ theorem record_scores_have_no_instant_personal_rate (G : Geometry) (t : ℝ)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L34-L36) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L99-L102)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L34-L36) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L99-L102)
 
 ## How does the adverse incident affect the father’s recognition rate?
 
@@ -198,7 +198,7 @@ theorem adverse_record_changes_fathers_recognition_rate (G : Geometry) (s : Stat
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L38-L44) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L104-L128)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L38-L44) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L104-L128)
 
 ## Which parts of the setting survive the comparison interventions?
 
@@ -225,7 +225,7 @@ theorem matched_tests_keep_setting (s : State) (h : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L46-L50) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L130-L138)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L46-L50) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L130-L138)
 
 ## How can the father’s rating enter the child’s recognition?
 
@@ -253,7 +253,7 @@ theorem fathers_rating_enters_childs_recognition (G : Geometry) (s : State) (t :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L52-L57) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L140-L170)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L52-L57) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L140-L170)
 
 ## Does the child’s own recognition affect cooperation?
 
@@ -279,7 +279,7 @@ theorem childs_recognition_changes_cooperation_rate (G : Geometry) (s : State) (
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L59-L62) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L172-L193)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L59-L62) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L172-L193)
 
 ## How much does a person’s cooperation change their context rate?
 
@@ -305,7 +305,7 @@ theorem own_cooperation_enters_context_rate (G : Geometry) (t : ℝ) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L64-L67) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L195-L211)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L64-L67) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L195-L211)
 
 ## How can a neighbor’s changed context enter the child’s rate?
 
@@ -331,7 +331,7 @@ theorem changed_neighbor_context_enters_child_rate (G : Geometry) (t : ℝ) (s :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L69-L72) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L213-L229)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L69-L72) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L213-L229)
 
 ## What if the father’s relevant coupling to the child vanishes?
 
@@ -359,7 +359,7 @@ theorem uncoupled_neighbor_context_has_zero_effect (G : Geometry) (t : ℝ) (s :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L74-L79) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L231-L239)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L74-L79) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L231-L239)
 
 ## What is the effect in the declared initial example?
 
@@ -384,7 +384,7 @@ theorem declared_context_response_example (G : Geometry) (h : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L81-L83) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L241-L246)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L81-L83) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L241-L246)
 
 ## Can changing the child’s context alter the relevance of an old record?
 
@@ -415,7 +415,7 @@ theorem an_eligible_old_record_can_be_reweighted (G : Geometry) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L85-L93) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L248-L260)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L85-L93) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L248-L260)
 
 ## Do accepted checkpoints preserve the person and the public setting at the jump?
 
@@ -439,7 +439,7 @@ theorem all_accepted_checkpoints_keep_person_and_setting (n : ℕ) (s w : FullSt
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L95-L96) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L262-L273)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L95-L96) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L262-L273)
 
 ## Is the context drift really the derivative along a solving trace?
 
@@ -465,7 +465,7 @@ theorem actual_trace_context_rate (tr : Trace) (sol : Solves tr) (n : ℕ) (hn :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L98-L101) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L275-L287)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L98-L101) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L275-L287)
 
 ## Can the child’s context jump when a trace crosses its event boundary?
 
@@ -490,7 +490,7 @@ theorem actual_trace_has_no_checkpoint_jump_in_context (tr : Trace) (sol : Solve
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L103-L105) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L289-L292)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L103-L105) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L289-L292)
 
 ## Does a nonzero context rate have a visible later consequence?
 
@@ -517,7 +517,7 @@ theorem nonzero_rate_entails_a_later_change (tr : Trace) (sol : Solves tr)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L107-L111) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L294-L311)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L107-L111) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L294-L311)
 
 ## Can personal contexts diverge while public histories still match?
 
@@ -548,4 +548,4 @@ theorem distinct_personal_rates_with_same_public_history (G : Geometry)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L113-L121) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L313-L346)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessChallenge.lean#L113-L121) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-child-witness-lean/WitnessProofs.lean#L313-L346)

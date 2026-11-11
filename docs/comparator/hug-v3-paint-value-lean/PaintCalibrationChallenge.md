@@ -2,16 +2,16 @@
 
 Hold its footprint fixed and vary its height. Determine which totals, calibrated sensors and force readings can recover that height.
 
-[`PaintCalibrationChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`PaintCalibrationChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
+The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean) · [PaintCalibrationDefinitions](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean) · [PaintCalibrationDefinitions](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/lake-manifest.json).
 
 </details>
 
@@ -37,7 +37,7 @@ theorem declared_start (G : Geometry) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L8-L9) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L83-L87)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L8-L9) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L83-L87)
 
 ## What sets the accepted public-field rate?
 
@@ -65,7 +65,7 @@ theorem accepted_original_field_rate (G : Geometry) (s d : State) (t : ℝ)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L11-L16) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L89-L102)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L11-L16) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L89-L102)
 
 ## Can changing one person’s context mimic changing the public field?
 
@@ -94,7 +94,7 @@ theorem private_context_comparison (G : Geometry) (s : State) (i : Actor)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L18-L24) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L104-L111)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L18-L24) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L104-L111)
 
 ## What exactly does the line-shaped intervention change?
 
@@ -122,7 +122,7 @@ theorem footprint_compares_full_inputs (y : FullState) (B : Scalar) (L : Footpri
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L26-L31) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L113-L121)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L26-L31) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L113-L121)
 
 ## Can identical painted footprints hide different values?
 
@@ -151,7 +151,7 @@ theorem same_footprint_and_person_distinct_values (y : FullState) (B : Scalar)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L33-L39) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L123-L135)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L33-L39) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L123-L135)
 
 ## Can any contrast be assigned when the background is free to move?
 
@@ -175,7 +175,7 @@ theorem unfixed_background_allows_any_contrast (B : Scalar) (L : Footprint) (h k
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L41-L42) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L137-L141)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L41-L42) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L137-L141)
 
 ## How can a total-field measurement recover height?
 
@@ -200,7 +200,7 @@ theorem independent_field_total_recovers_contrast (B : Scalar) (L : Footprint)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L44-L46) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L143-L148)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L44-L46) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L143-L148)
 
 ## When does a footprint have positive volume?
 
@@ -224,7 +224,7 @@ theorem marked_cell_has_positive_volume (L : Footprint) (x : Grid) (marked : L x
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L48-L49) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L150-L155)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L48-L49) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L150-L155)
 
 ## Can transport create net paint in this periodic grid?
 
@@ -248,7 +248,7 @@ theorem original_transport_redistributes_field (C : Scalar) (u : Vector) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L51-L52) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L157-L160)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L51-L52) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L157-L160)
 
 ## Where does the total field rate come from?
 
@@ -274,7 +274,7 @@ theorem spatial_total_rate_from_original_source (G : Geometry) (s d : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L54-L57) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L162-L169)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L54-L57) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L162-L169)
 
 ## What if the kernel integrates to one?
 
@@ -299,7 +299,7 @@ theorem unit_kernel_rate (G : Geometry) (s d : State) (t : ℝ) (ok : rhs G t s 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L59-L61) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L171-L175)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L59-L61) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L171-L175)
 
 ## When do the original attachments normalize the kernel?
 
@@ -324,7 +324,7 @@ theorem positive_attachments_normalize_original_kernel (G : Geometry) (s : State
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L63-L65) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L177-L194)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L63-L65) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L177-L194)
 
 ## What gives an actor positive sensitivity to the footprint?
 
@@ -349,7 +349,7 @@ theorem positive_attachments_see_a_marked_cell (G : Geometry) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L67-L69) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L196-L205)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L67-L69) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L196-L205)
 
 ## How does the raw sensor respond as line height changes?
 
@@ -374,7 +374,7 @@ theorem original_readout_affine (G : Geometry) (s : State) (i : Actor)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L71-L73) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L207-L223)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L71-L73) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L207-L223)
 
 ## How does the bounded sensor report that raw value?
 
@@ -400,7 +400,7 @@ theorem bounded_channel_for_profile (G : Geometry) (s : State) (i : Actor)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L75-L78) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L225-L230)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L75-L78) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L225-L230)
 
 ## What if an actor has zero sensitivity there?
 
@@ -425,7 +425,7 @@ theorem zero_sensitivity_erases_contrast (G : Geometry) (s : State) (i : Actor)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L80-L82) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L232-L235)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L80-L82) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L232-L235)
 
 ## Can a calibrated reading recover the sign and height of the contrast?
 
@@ -451,7 +451,7 @@ theorem calibrated_sensor_recovers_signed_contrast (G : Geometry) (s : State) (i
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L84-L87) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L237-L244)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L84-L87) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L237-L244)
 
 ## Can two heights give the same exact calibrated reading?
 
@@ -477,7 +477,7 @@ theorem one_exact_reading_identifies_height (G : Geometry) (s : State) (i : Acto
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L89-L92) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L246-L253)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L89-L92) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L246-L253)
 
 ## Can the original force distinguish a field from its negative?
 
@@ -501,4 +501,4 @@ theorem opposite_fields_have_same_original_force (s : State) (f : Scalar) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L94-L95) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L255-L271)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationChallenge.lean#L94-L95) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-paint-value-lean/PaintCalibrationProofs.lean#L255-L271)

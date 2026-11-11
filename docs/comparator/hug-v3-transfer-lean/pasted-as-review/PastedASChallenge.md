@@ -2,16 +2,16 @@
 
 This review has its own Comparator configuration. Its 44 statements revisit clipping, saturation, encounter weights and coordinate-wise agreement of integral solutions.
 
-[`PastedASChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/comparator.json) · [Sources and credits](../../CREDITS.md) · [All challenge files](../../README.md)
+[`PastedASChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/comparator.json) · [Sources and credits](../../CREDITS.md) · [All challenge files](../../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The audit cites a pasted A/S source file, records its digest, and identifies the later repair. The earlier attachment writer is unspecified. [Supplied file](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASProofs.lean) · [Source receipt](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/source-receipt.json) · [Repair record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/repair-receipt.json).
+The audit cites a pasted A/S source file, records its digest, and identifies the later repair. The earlier attachment writer is unspecified. [Supplied file](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASProofs.lean) · [Source receipt](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/source-receipt.json) · [Repair record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/repair-receipt.json).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean) · [ASModel](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/ASModel.lean) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/verification-inputs.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean) · [ASModel](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/ASModel.lean) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/verification-inputs.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/lake-manifest.json).
 
 </details>
 
@@ -36,7 +36,7 @@ theorem pos_nonneg (x : ℝ) : 0 ≤ pos x := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L8) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L36-L37)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L8) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L36-L37)
 
 ## Can taking a positive part make a number smaller?
 
@@ -59,7 +59,7 @@ theorem self_le_pos (x : ℝ) : x ≤ pos x := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L10) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L39-L40)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L10) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L39-L40)
 
 ## What happens to an already nonnegative number?
 
@@ -82,7 +82,7 @@ theorem pos_of_nonneg {x : ℝ} (hx : 0 ≤ x) : pos x = x := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L12) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L42-L43)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L12) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L42-L43)
 
 ## What if the number is zero or negative?
 
@@ -105,7 +105,7 @@ theorem pos_of_nonpos {x : ℝ} (hx : x ≤ 0) : pos x = 0 := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L14) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L45-L46)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L14) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L45-L46)
 
 ## Which value does the positive-part helper return throughout the nonpositive range?
 
@@ -128,7 +128,7 @@ theorem pos_eq_zero_of_nonpos {x : ℝ} (hx : x ≤ 0) : pos x = 0 := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L16) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L48-L49)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L16) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L48-L49)
 
 ## Can taking positive parts increase the distance between two numbers?
 
@@ -151,7 +151,7 @@ theorem abs_pos_sub_pos_le (x y : ℝ) : |pos x - pos y| ≤ |x - y| := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L18) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L51-L59)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L18) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L51-L59)
 
 ## Which number represents a false indicator?
 
@@ -174,7 +174,7 @@ theorem indicator_false : indicator false = 0 := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L20) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L61)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L20) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L61)
 
 ## Which number represents a true indicator?
 
@@ -197,7 +197,7 @@ theorem indicator_true : indicator true = 1 := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L22) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L63)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L22) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L63)
 
 ## Can the indicator escape the unit interval?
 
@@ -220,7 +220,7 @@ theorem indicator_unit (b : Bool) : UnitInterval (indicator b) := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L24) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L65-L66)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L24) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L65-L66)
 
 ## Why is saturation nonnegative?
 
@@ -244,7 +244,7 @@ theorem saturation_nonneg {L scale : ℝ} (hL : 0 ≤ L) (hs : 0 < scale) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L26-L27) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L70-L73)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L26-L27) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L70-L73)
 
 ## How much room remains below saturation one?
 
@@ -268,7 +268,7 @@ theorem one_sub_saturation {L scale : ℝ} (hne : L + scale ≠ 0) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L29-L30) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L75-L79)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L29-L30) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L75-L79)
 
 ## Could saturation exceed one?
 
@@ -292,7 +292,7 @@ theorem saturation_le_one {L scale : ℝ} (hL : 0 ≤ L) (hs : 0 < scale) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L32-L33) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L81-L88)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L32-L33) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L81-L88)
 
 ## Where can the saturation value lie?
 
@@ -316,7 +316,7 @@ theorem saturation_unit {L scale : ℝ} (hL : 0 ≤ L) (hs : 0 < scale) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L35-L36) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L90-L92)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L35-L36) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L90-L92)
 
 ## Does applying a bounded gain preserve that range?
 
@@ -341,7 +341,7 @@ theorem effect_unit {gain L scale : ℝ} (hg : UnitInterval gain)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L38-L40) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L94-L102)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L38-L40) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L94-L102)
 
 ## How is forward chi bounded?
 
@@ -366,7 +366,7 @@ theorem chiForward_unit {p : Parameters} {x : State}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L42-L44) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L104-L109)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L42-L44) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L104-L109)
 
 ## How is reverse chi bounded?
 
@@ -391,7 +391,7 @@ theorem chiReverse_unit {p : Parameters} {x : State}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L46-L48) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L111-L116)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L46-L48) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L111-L116)
 
 ## Can forward theta exceed its permitted range?
 
@@ -416,7 +416,7 @@ theorem thetaForward_unit {p : Parameters} {x : State}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L50-L52) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L118-L123)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L50-L52) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L118-L123)
 
 ## What range does reverse theta occupy?
 
@@ -441,7 +441,7 @@ theorem thetaReverse_unit {p : Parameters} {x : State}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L54-L56) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L125-L130)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L54-L56) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L125-L130)
 
 ## How does saturation respond to two different loads?
 
@@ -467,7 +467,7 @@ theorem saturation_sub_identity {L₁ L₂ scale : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L58-L61) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L132-L138)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L58-L61) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L132-L138)
 
 ## How sensitive is saturation to a change of load?
 
@@ -492,7 +492,7 @@ theorem saturation_lipschitz {L₁ L₂ scale : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L63-L65) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L140-L160)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L63-L65) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L140-L160)
 
 ## Which drift does index zero select?
 
@@ -516,7 +516,7 @@ theorem generalSDrift_zero (p : Parameters) (x : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L67-L68) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L164-L166)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L67-L68) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L164-L166)
 
 ## Which drift does index one select?
 
@@ -540,7 +540,7 @@ theorem generalSDrift_one (p : Parameters) (x : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L70-L71) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L168-L170)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L70-L71) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L168-L170)
 
 ## What accounts for the combined Smoke and Clay drift?
 
@@ -568,7 +568,7 @@ theorem total_S_drift_balance (p : Parameters) (x : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L73-L78) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L172-L179)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L73-L78) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L172-L179)
 
 ## How much can exchange change when only the gap varies?
 
@@ -593,7 +593,7 @@ theorem exchange_lipschitz_in_gap {w chi : ℝ} (hw : 0 ≤ w) (hchi : UnitInter
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L80-L82) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L181-L204)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L80-L82) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L181-L204)
 
 ## Can a zero load decrease?
 
@@ -618,7 +618,7 @@ theorem loadDrift_nonneg_at_zero {alpha exposure clear : ℝ} (h : Bool)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L84-L86) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L208-L212)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L84-L86) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L208-L212)
 
 ## What is the exact drift difference for two load levels?
 
@@ -643,7 +643,7 @@ theorem loadDrift_lipschitz_in_L (alpha : ℝ) (h : Bool) (exposure clear L₁ L
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L88-L90) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L214-L218)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L88-L90) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L214-L218)
 
 ## Can blended meaning fall outside the range of admissible meanings?
 
@@ -668,7 +668,7 @@ theorem receivedMeaning_unit {theta z imposed : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L92-L94) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L220-L227)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L92-L94) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L220-L227)
 
 ## Can the meaning rate have a negative sign?
 
@@ -693,7 +693,7 @@ theorem meaningRate_nonneg {w chi S scale : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L96-L98) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L229-L236)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L96-L98) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L229-L236)
 
 ## Which way does the meaning drift point at zero?
 
@@ -719,7 +719,7 @@ theorem meaningDrift_nonneg_at_zero {rate received clarify reference : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L100-L103) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L238-L245)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L100-L103) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L238-L245)
 
 ## Which way does it point at one?
 
@@ -745,7 +745,7 @@ theorem meaningDrift_nonpos_at_one {rate received clarify reference : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L105-L108) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L247-L254)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L105-L108) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L247-L254)
 
 ## Can the Smoke meaning drift point below the lower boundary?
 
@@ -770,7 +770,7 @@ theorem smokeMeaningDrift_nonneg_at_zero {p : Parameters} {i : Inputs} {x : Stat
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L110-L112) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L256-L269)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L110-L112) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L256-L269)
 
 ## Can Smoke’s drift point above the upper boundary?
 
@@ -795,7 +795,7 @@ theorem smokeMeaningDrift_nonpos_at_one {p : Parameters} {i : Inputs} {x : State
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L114-L116) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L271-L284)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L114-L116) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L271-L284)
 
 ## Can Clay’s meaning drift point down from zero?
 
@@ -820,7 +820,7 @@ theorem clayMeaningDrift_nonneg_at_zero {p : Parameters} {i : Inputs} {x : State
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L118-L120) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L286-L299)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L118-L120) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L286-L299)
 
 ## Can Clay’s meaning drift point up from one?
 
@@ -845,7 +845,7 @@ theorem clayMeaningDrift_nonpos_at_one {p : Parameters} {i : Inputs} {x : State}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L122-L124) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L301-L314)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L122-L124) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L301-L314)
 
 ## What range does the opening weight occupy?
 
@@ -870,7 +870,7 @@ theorem opening_unit {g p0 r rStar : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L126-L128) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L318-L335)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L126-L128) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L318-L335)
 
 ## What range does the registration weight occupy?
 
@@ -895,7 +895,7 @@ theorem registration_unit {eta z challenge : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L130-L132) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L337-L350)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L130-L132) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L337-L350)
 
 ## Does switching registration on or off preserve that bound?
 
@@ -920,7 +920,7 @@ theorem conditionalRegistration_unit {eta z challenge : ℝ} (B : Bool)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L134-L136) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L352-L358)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L134-L136) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L352-L358)
 
 ## Can any of the three branch weights be negative?
 
@@ -944,7 +944,7 @@ theorem branches_nonneg {p q : ℝ} (hp : UnitInterval p) (hq : UnitInterval q) 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L138-L139) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L360-L365)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L138-L139) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L360-L365)
 
 ## Do the three branch weights exhaust the total?
 
@@ -968,7 +968,7 @@ theorem branches_sum_eq_one (p q : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L141-L142) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L367-L370)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L141-L142) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L367-L370)
 
 ## What does the update do when its condition is false?
 
@@ -992,7 +992,7 @@ theorem update_false_eq_self (beta : ℝ) (H M : Meaning) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L144-L145) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L372-L375)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L144-L145) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L372-L375)
 
 ## Do meaning probabilities still form a distribution after an update?
 
@@ -1017,7 +1017,7 @@ theorem update_preserves_simplex {beta : ℝ} (C : Bool) {H M : Meaning}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L147-L149) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L377-L396)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L147-L149) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L377-L396)
 
 ## Can two integral solutions disagree on the accumulator at the chosen time?
 
@@ -1045,7 +1045,7 @@ theorem integralSolution_unique_A {p : Parameters} {i : ℝ → Inputs} {t0 T : 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L151-L156) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L403-L410)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L151-L156) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L403-L410)
 
 ## How can you compute the difference between two solution coordinates?
 
@@ -1074,7 +1074,7 @@ theorem integralSolution_sub_eq {p : Parameters} {i : ℝ → Inputs} {t0 T : �
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L158-L164) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L414-L427)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L158-L164) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L414-L427)
 
 ## When does equality of the drifts force a coordinate match?
 
@@ -1104,4 +1104,4 @@ theorem integralSolution_coord_unique_of_drift_eq {p : Parameters} {i : ℝ → 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L166-L173) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L430-L442)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/PastedASChallenge.lean#L166-L173) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-transfer-lean/pasted-as-review/RepairedASProofs.lean#L430-L442)

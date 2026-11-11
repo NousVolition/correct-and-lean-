@@ -1,5 +1,9 @@
 # Original two-memory Yang–Mills example
 
+This is a specified flat abelian example; it is not a solution of the Clay Yang–Mills mass-gap problem.
+
+**Verification: PASS** for Comparator, Lean’s kernel, nanoda and the default build. The 16 configured statements passed in [GitHub run 42852357760](https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/42852357760). The actual [report](verification-report.json), [logs and axiom lists](evidence-linux/), and [checked revision and input hashes](evidence-linux/source.json) are saved in this package. These are the successful historical checks of the unchanged proof inputs.
+
 This standalone project builds the original `TwoMemoryTransport.lean` together with its two source dependencies, `TwoMemory.lean` and `Volterra.lean`. Their file hashes are listed in `source-sha256.txt`.
 
 ## Build

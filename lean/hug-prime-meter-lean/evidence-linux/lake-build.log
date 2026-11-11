@@ -1,0 +1,11 @@
+ℹ [809/810] Replayed PrimeMeter
+info: PrimeMeter.lean:91:0: 'HugPrimeMeter.prime_meter_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PrimeMeter.lean:92:0: 'HugPrimeMeter.write_and_endpoint_clocks' depends on axioms: [propext]
+info: PrimeMeter.lean:93:0: 'HugPrimeMeter.all_meter_rows_valid' depends on axioms: [propext]
+info: PrimeMeter.lean:94:0: 'HugPrimeMeter.record_counts' does not depend on any axioms
+info: PrimeMeter.lean:95:0: 'HugPrimeMeter.fourth_write_account' depends on axioms: [propext]
+info: PrimeMeter.lean:96:0: 'HugPrimeMeter.prime59_displayed_values' does not depend on any axioms
+info: PrimeMeter.lean:97:0: 'HugPrimeMeter.prime157_exact_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PrimeMeter.lean:98:0: 'HugPrimeMeter.prime157_toward_zero' does not depend on any axioms
+info: PrimeMeter.lean:99:0: 'HugPrimeMeter.prime157_displayed_values' does not depend on any axioms
+Build completed successfully (810 jobs).

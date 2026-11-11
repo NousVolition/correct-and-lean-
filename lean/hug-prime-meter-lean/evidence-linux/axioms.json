@@ -1,0 +1,25 @@
+{
+  "HugPrimeMeter.prime_meter_labels": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugPrimeMeter.write_and_endpoint_clocks": [
+    "propext"
+  ],
+  "HugPrimeMeter.all_meter_rows_valid": [
+    "propext"
+  ],
+  "HugPrimeMeter.record_counts": [],
+  "HugPrimeMeter.fourth_write_account": [
+    "propext"
+  ],
+  "HugPrimeMeter.prime59_displayed_values": [],
+  "HugPrimeMeter.prime157_exact_change": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugPrimeMeter.prime157_toward_zero": [],
+  "HugPrimeMeter.prime157_displayed_values": []
+}

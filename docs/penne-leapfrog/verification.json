@@ -1,0 +1,62 @@
+{
+  "verified_at_utc": "2026-11-11T03:15:53.034528+00:00",
+  "attribution": "AI-generated; dictated and directed by Nous Volition.",
+  "scope": "Conceptual illustration and browser animation checks; no new fluid simulation or Lean result.",
+  "original_generated_picture_preserved_byte_for_byte": true,
+  "browser_checks": [
+    "A hops while B stays fixed",
+    "B hops while A stays fixed",
+    "penne positions unchanged",
+    "landed views overlap",
+    "single hop pauses",
+    "animation stops without looping",
+    "manual replay works",
+    "narrow layout fits",
+    "reduced motion steps without hopping"
+  ],
+  "browser_errors": [],
+  "visual_checks": {
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "widths_css_px": [
+      736,
+      320
+    ],
+    "credit_visible": true
+  },
+  "gif": {
+    "frames": 62,
+    "recorded_seconds": 26.278,
+    "repeat_loop": false,
+    "end_state": "Stopped at the far cover; no return connection."
+  },
+  "files": {
+    "follow-the-penne.png": {
+      "bytes": 1845594,
+      "sha256": "0d9e0966cc30300e56a34dc749412d248727dad6eefe257bc8aaee7ed419b692",
+      "git_blob_sha": "1ed8360279341da168f24300ce8a0d0c1207c8ab"
+    },
+    "index.html": {
+      "bytes": 103279,
+      "sha256": "3948adb3a87a2925dd5d9c4b59330e4f014d134adc4fc64629f8271670323b79",
+      "git_blob_sha": "71eb4c2927c1d776da04dcaa6286901f1eef2137"
+    },
+    "penne-leapfrog-source.html": {
+      "bytes": 17220,
+      "sha256": "bec506c9d98168951c767b723d99ebaa1250518661a83bc3dd964230fcb1e4f2",
+      "git_blob_sha": "ae1368bb7db86eeb8556e3b2b6eb09645b8dd370"
+    },
+    "penne-leapfrog.gif": {
+      "bytes": 225635,
+      "sha256": "7f8c7442e394d48231e9dbe450a120be6200808d67649ecdcf796135565277a2",
+      "git_blob_sha": "e4ce0271b95adc456b5c0c7426436e953183a4d0"
+    },
+    "README.md": {
+      "bytes": 2248,
+      "sha256": "ff8e9cd6576d227738d9246df3c2167d77e071591d6a7d1e3957398c14766a6a",
+      "git_blob_sha": "17ffc1f3704b6c9607ad6791890fbf5ade1e318a"
+    }
+  }
+}

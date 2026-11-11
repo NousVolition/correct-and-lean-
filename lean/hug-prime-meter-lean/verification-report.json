@@ -1,8 +1,8 @@
 {
-  "comparator": "NOT_RUN",
-  "lean_kernel": "NOT_RUN",
-  "nanoda": "NOT_RUN",
-  "lean_build": "NOT_RUN",
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
   "scope": "The 37 prime labels and the measured three- and four-write Hug runs, including 82 rows, the work and heat at prime 59, and the signed residual differences at prime 157.",
   "open_items": [
     "Simulation trajectories are measured inputs. The certificate checks finite ledger calculations and the stated rounding."

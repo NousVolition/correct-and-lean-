@@ -2,14 +2,14 @@
 
 Try remembered certificates first and check them against the current input. An exhaustive bounded fallback explains which decisions stay the same and when the work count changes.
 
-[`PersonEnvironmentChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`PersonEnvironmentChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean) · [PersonEnvironmentDefinitions](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean) · [PersonEnvironmentDefinitions](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/lake-manifest.json).
 
 </details>
 
@@ -36,7 +36,7 @@ theorem scan_sound {Answer : Type*} (check : Answer → Bool) (candidates : List
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L5-L7) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L5-L19)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L5-L7) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L5-L19)
 
 ## When does scanning give no answer?
 
@@ -60,7 +60,7 @@ theorem scan_none_iff {Answer : Type*} (check : Answer → Bool) (candidates : L
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L9-L10) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L21-L26)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L9-L10) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L21-L26)
 
 ## How many checks can a scan perform?
 
@@ -84,7 +84,7 @@ theorem scan_checks_le_length {Answer : Type*} (check : Answer → Bool) (candid
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L12-L13) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L28-L33)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L12-L13) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L28-L33)
 
 ## What if the whole scan fails?
 
@@ -110,7 +110,7 @@ theorem failed_scan_checks_every_candidate {Answer : Type*}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L15-L18) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L35-L46)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L15-L18) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L35-L46)
 
 ## Which bit strings count as bounded certificates?
 
@@ -134,7 +134,7 @@ theorem certificate_membership (bound : ℕ) (answer : Certificate) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L20-L21) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L48-L56)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L20-L21) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L48-L56)
 
 ## How many bit strings does that include?
 
@@ -158,7 +158,7 @@ theorem certificate_count (bound : ℕ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L23-L24) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L58-L66)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L23-L24) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L58-L66)
 
 ## Can a memory-first search return an oversized or invalid answer?
 
@@ -184,7 +184,7 @@ theorem memory_first_sound {Input : Type*} (check : Input → Certificate → Bo
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L26-L29) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L68-L83)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L26-L29) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L68-L83)
 
 ## When does the entire memory-first search fail?
 
@@ -210,7 +210,7 @@ theorem memory_first_none_iff {Input : Type*} (check : Input → Certificate →
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L31-L34) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L85-L107)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L31-L34) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L85-L107)
 
 ## Can remembering a poor guess hide an existing bounded solution?
 
@@ -236,7 +236,7 @@ theorem memory_first_finds_iff {Input : Type*} (check : Input → Certificate �
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L36-L39) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L109-L121)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L36-L39) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L109-L121)
 
 ## Can two different suggestion histories change whether the search succeeds?
 
@@ -263,7 +263,7 @@ theorem different_experience_preserves_decision {Input : Type*}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L41-L45) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L123-L128)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L41-L45) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L123-L128)
 
 ## What if the person changes but the checks agree?
 
@@ -291,7 +291,7 @@ theorem changed_person_same_check_preserves_decision {Input : Type*}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L47-L52) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L130-L143)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L47-L52) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L130-L143)
 
 ## How much work is done after a remembered hint passes?
 
@@ -318,7 +318,7 @@ theorem successful_memory_skips_fallback {Input : Type*}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L54-L58) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L145-L150)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L54-L58) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L145-L150)
 
 ## What does a failed hint stage cost?
 
@@ -346,7 +346,7 @@ theorem failed_memory_adds_checks {Input : Type*}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L60-L65) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L152-L159)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L60-L65) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L152-L159)
 
 ## How many checks does rejecting every bounded bit string require?
 
@@ -370,7 +370,7 @@ theorem rejecting_fallback_exact_count (bound : ℕ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L67-L68) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L161-L166)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L67-L68) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L161-L166)
 
 ## When can a passing checker result be called valid?
 
@@ -398,7 +398,7 @@ theorem faithful_checker_gives_valid_answer {Input : Type*}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L70-L75) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L168-L174)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L70-L75) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L168-L174)
 
 ## Is a suggestion from full Hug memory checked against the current context?
 
@@ -425,7 +425,7 @@ theorem full_hug_current_context_checked
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L77-L81) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L176-L181)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L77-L81) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L176-L181)
 
 ## Does this setup alter the original Hug guard calculation?
 
@@ -449,7 +449,7 @@ theorem original_guard_is_unchanged (input : HugInput) (receiver : HugV3.Source.
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L83-L84) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L183-L185)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L83-L84) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L183-L185)
 
 ## Does it alter the original Hug retrieval calculation?
 
@@ -475,7 +475,7 @@ theorem original_retrieval_is_unchanged (G : HugV3.Source.Geometry) (input : Hug
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L86-L89) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L187-L191)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L86-L89) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L187-L191)
 
 ## Can relying on memory alone miss a valid answer?
 
@@ -500,7 +500,7 @@ theorem memory_only_can_miss_answer :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L91-L93) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L193-L198)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L91-L93) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L193-L198)
 
 ## Can identical answers have different search costs?
 
@@ -525,7 +525,7 @@ theorem different_memory_same_answer_different_checks :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L95-L97) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L200-L203)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L95-L97) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L200-L203)
 
 ## What happens to an answer remembered from an outdated context?
 
@@ -550,4 +550,4 @@ theorem stale_answer_is_rechecked :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L99-L101) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L205-L208)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentChallenge.lean#L99-L101) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/person-environment-pnp-lean/PersonEnvironmentProofs.lean#L205-L208)

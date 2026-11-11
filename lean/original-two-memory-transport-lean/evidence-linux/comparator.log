@@ -1,0 +1,51 @@
+Running as unit: run-u0.service; invocation ID: edb3065adf2a42a0958d8627088c513c
+Building OriginalTransportChallenge
+⚠ [3416/3419] Built OriginalVolterraChallenge (1.0s)
+warning: OriginalVolterraChallenge.lean:16:6: declaration uses `sorry`
+warning: OriginalVolterraChallenge.lean:18:14: declaration uses `sorry`
+warning: OriginalVolterraChallenge.lean:37:14: declaration uses `sorry`
+warning: OriginalVolterraChallenge.lean:42:6: declaration uses `sorry`
+warning: OriginalVolterraChallenge.lean:48:6: declaration uses `sorry`
+warning: OriginalVolterraChallenge.lean:52:6: declaration uses `sorry`
+✔ [3417/3419] Built OriginalMemoryModel (1.6s)
+⚠ [3418/3419] Built OriginalTransportChallenge (1.7s)
+warning: OriginalTransportChallenge.lean:51:8: declaration uses `sorry`
+warning: OriginalTransportChallenge.lean:54:8: declaration uses `sorry`
+warning: OriginalTransportChallenge.lean:56:8: declaration uses `sorry`
+warning: OriginalTransportChallenge.lean:58:8: declaration uses `sorry`
+warning: OriginalTransportChallenge.lean:61:8: declaration uses `sorry`
+warning: OriginalTransportChallenge.lean:64:8: declaration uses `sorry`
+warning: OriginalTransportChallenge.lean:66:8: declaration uses `sorry`
+warning: OriginalTransportChallenge.lean:68:8: declaration uses `sorry`
+warning: OriginalTransportChallenge.lean:71:8: declaration uses `sorry`
+warning: OriginalTransportChallenge.lean:73:8: declaration uses `sorry`
+Build completed successfully (3419 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, TwoMemoryTransport.readout_from_odds, TwoMemoryTransport.odds_eq_exp, TwoMemoryTransport.update_odds, TwoMemoryTransport.compose_transport, TwoMemoryTransport.endpoints_determine_transport, TwoMemoryTransport.closed_route, TwoMemoryTransport.odds_parallel, TwoMemoryTransport.flat_curvature, TwoMemoryTransport.source_free, TwoMemoryTransport.unit_speed_fails_memory_at_zero, Volterra.extend_continuous, Volterra.extend_val, Volterra.step_apply, Volterra.path_integrable, Volterra.iterate_apply_bound, Volterra.iterate_bound, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from OriginalTransportChallenge
+Building TwoMemoryTransport
+✔ [3416/3419] Built Volterra (2.1s)
+ℹ [3417/3419] Built TwoMemory (1.7s)
+info: TwoMemory.lean:55:0: 'TwoMemory.unique_memory_trajectory' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3418/3419] Built TwoMemoryTransport (1.7s)
+info: TwoMemoryTransport.lean:117:0: 'TwoMemoryTransport.readout_from_odds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:118:0: 'TwoMemoryTransport.odds_eq_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:119:0: 'TwoMemoryTransport.update_odds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:120:0: 'TwoMemoryTransport.compose_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:121:0: 'TwoMemoryTransport.endpoints_determine_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:122:0: 'TwoMemoryTransport.closed_route' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:123:0: 'TwoMemoryTransport.odds_parallel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:124:0: 'TwoMemoryTransport.flat_curvature' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:125:0: 'TwoMemoryTransport.source_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:126:0: 'TwoMemoryTransport.unit_speed_fails_memory_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3419 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, TwoMemoryTransport.readout_from_odds, TwoMemoryTransport.odds_eq_exp, TwoMemoryTransport.update_odds, TwoMemoryTransport.compose_transport, TwoMemoryTransport.endpoints_determine_transport, TwoMemoryTransport.closed_route, TwoMemoryTransport.odds_parallel, TwoMemoryTransport.flat_curvature, TwoMemoryTransport.source_free, TwoMemoryTransport.unit_speed_fails_memory_at_zero, Volterra.extend_continuous, Volterra.extend_val, Volterra.step_apply, Volterra.path_integrable, Volterra.iterate_apply_bound, Volterra.iterate_bound, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from TwoMemoryTransport
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 1min 23.413s
+CPU time consumed: 1min 26.302s
+Memory peak: 256.0K
+Memory swap peak: 0B

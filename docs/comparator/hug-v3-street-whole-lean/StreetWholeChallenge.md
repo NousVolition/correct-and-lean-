@@ -2,16 +2,16 @@
 
 Compare painting the public field with changing one person’s context. At the edge of a painted band the force depends on a gradient and an activation threshold.
 
-[`StreetWholeChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`StreetWholeChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
+The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean) · [StreetWholeDefinitions](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean) · [StreetWholeDefinitions](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/lake-manifest.json).
 
 </details>
 
@@ -39,7 +39,7 @@ theorem full_input_keeps_all_other_coordinates (y : FullState) (signal : Scalar)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L9-L12) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L53-L59)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L9-L12) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L53-L59)
 
 ## How does the line appear in a person’s observation?
 
@@ -64,7 +64,7 @@ theorem line_enters_original_observation (G : Geometry) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L14-L16) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L61-L64)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L14-L16) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L61-L64)
 
 ## Does repainting the line immediately change body or heat readings?
 
@@ -90,7 +90,7 @@ theorem line_keeps_body_and_heat_readings (G : Geometry) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L18-L21) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L66-L70)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L18-L21) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L66-L70)
 
 ## Can the paint alone rewrite or reweight an existing record?
 
@@ -116,7 +116,7 @@ theorem line_keeps_records_and_current_relevance (G : Geometry) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L23-L26) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L72-L76)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L23-L26) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L72-L76)
 
 ## Can repainting alone move the current guard margin?
 
@@ -140,7 +140,7 @@ theorem line_keeps_current_guard (s : State) (signal : Scalar) (i j : Actor) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L28-L29) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L78-L80)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L28-L29) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L78-L80)
 
 ## What if the person’s context is shifted instead?
 
@@ -167,7 +167,7 @@ theorem personal_context_keeps_physical_state_and_records (G : Geometry)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L31-L35) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L82-L87)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L31-L35) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L82-L87)
 
 ## Does that shift change the person’s total context weight?
 
@@ -191,7 +191,7 @@ theorem personal_context_total_preserved (s : State) (i : Actor) (h : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L37-L38) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L89-L92)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L37-L38) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L89-L92)
 
 ## How far can those weights be shifted safely?
 
@@ -218,7 +218,7 @@ theorem personal_context_stays_in_unit_interval (s : State) (i : Actor) (h : ℝ
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L40-L44) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L94-L102)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L40-L44) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L94-L102)
 
 ## How does shifting the recipient’s context move the retrieval cue?
 
@@ -244,7 +244,7 @@ theorem shifted_record_cue_coordinates (G : Geometry) (s : State) (r : Record)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L46-L49) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L104-L109)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L46-L49) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L104-L109)
 
 ## What determines the original record weight?
 
@@ -269,7 +269,7 @@ theorem original_weight_uses_current_cue (G : Geometry) (s : State) (r : Record)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L51-L53) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L111-L114)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L51-L53) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L111-L114)
 
 ## What happens to a perfectly matched record after the specified shift?
 
@@ -295,7 +295,7 @@ theorem matched_record_weight_after_context_shift (G : Geometry) (s : State) (r 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L55-L58) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L116-L124)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L55-L58) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L116-L124)
 
 ## Can a nonzero shift reduce relevance without erasing it?
 
@@ -322,7 +322,7 @@ theorem nonzero_context_shift_reduces_matched_weight (G : Geometry) (s : State) 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L60-L64) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L126-L143)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L60-L64) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L126-L143)
 
 ## How large can any record weight be relative to duration?
 
@@ -347,7 +347,7 @@ theorem record_weight_bounded_by_duration (G : Geometry) (s : State) (r : Record
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L66-L68) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L145-L155)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L66-L68) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L145-L155)
 
 ## Which couplings survive the full acceptance check?
 
@@ -377,7 +377,7 @@ theorem accepted_full_rhs_keeps_the_coupling (G : Geometry) (t : ℝ) (s d : Sta
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L70-L77) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L157-L174)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L70-L77) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L157-L174)
 
 ## How do street and experience enter guard relaxation?
 
@@ -405,7 +405,7 @@ theorem original_guard_rate_uses_line_observation_and_experience
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L79-L84) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L176-L182)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L79-L84) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L176-L182)
 
 ## Can a uniform offset to paint change the gradient-driven force?
 
@@ -433,7 +433,7 @@ theorem constant_signal_shift_keeps_gradient_and_force (s : State) (signal : Sca
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L86-L91) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L184-L197)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L86-L91) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L184-L197)
 
 ## What gradient does the example band have at its edge?
 
@@ -457,7 +457,7 @@ theorem band_edge_gradient (s : State) (height : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L93-L94) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L199-L202)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L93-L94) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L199-L202)
 
 ## Can a flat band center activate the force?
 
@@ -481,7 +481,7 @@ theorem band_center_does_not_activate (s : State) (height : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L96-L97) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L204-L211)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L96-L97) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L204-L211)
 
 ## Is a band of height 1/1000 enough to activate the example edge?
 
@@ -505,7 +505,7 @@ theorem small_band_edge_is_off (s : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L99-L100) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L213-L217)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L99-L100) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L213-L217)
 
 ## What about a band of height 1/100?
 
@@ -529,7 +529,7 @@ theorem larger_band_edge_is_on (s : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L102-L103) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L219-L223)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L102-L103) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L219-L223)
 
 ## What can the person and street retain across an accepted record write?
 
@@ -557,7 +557,7 @@ theorem successful_write_preserves_person_and_line (G : Geometry) (s w : State) 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L105-L110) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L225-L236)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L105-L110) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L225-L236)
 
 ## Can an episode be encoded as addressed to its own origin?
 
@@ -581,4 +581,4 @@ theorem self_addressed_episode_is_rejected (r : Record) (self : r.origin=r.recip
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L112-L113) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L238-L241)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeChallenge.lean#L112-L113) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-street-whole-lean/StreetWholeProofs.lean#L238-L241)
