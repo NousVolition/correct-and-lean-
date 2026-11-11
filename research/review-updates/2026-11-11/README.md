@@ -59,11 +59,13 @@ A fraction of sampled trajectories is not the area or volume of the region above
 
 ## Current Navier–Stokes context
 
-OpenAI [published a forced-flow blow-up construction on 8 September 2026](https://openai.com/index/navier-stokes-solution/) with [Lean files](https://github.com/openai/NavierStokesAndEuler). Its statement is existential: specially constructed admissible initial data and forcing produce breakdown. It does not assert that every forced flow, or Hug's particular coupled forcing law, develops a singularity.
+**Correction: the user's underlying system is unforced.** The breathing-on numerical branches add a prescribed intervention for those tests. They do not justify classifying the underlying HugandNavier formulation as externally forced. Internal coupling and state-dependent stress must be distinguished from an imposed body force. [Source and scope correction](../../comparisons/hug-navier-single-system-scope-correction.md#unforced-system-and-added-interventions)
+
+OpenAI [published a forced-flow blow-up construction on 8 September 2026](https://openai.com/index/navier-stokes-solution/) with [Lean files](https://github.com/openai/NavierStokesAndEuler). Its statement is existential: specially constructed admissible initial data and forcing produce breakdown. That forced construction does not settle the user's unforced question.
 
 The [Formal Conjectures catalogue](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Millennium/NavierStokes.lean) currently labels the forced alternatives C/D solved and the unforced alternatives A/B open. Thomas Hou's [2 November commentary](https://www.siam.org/publications/siam-news/articles/openai-s-navier-stokes-construction-what-c-infty-forcing-changes/) discusses the proposed construction and explicitly does not independently verify it. This review confirms the publication and scope; it does not certify completion or absence of an independent review of the whole construction.
 
-Sharing the word “forced” supplies a relevant comparison. Applying any theorem to Hug still requires matching its equations, domain, regularity, initial data and forcing assumptions. The separate printed-estimate and formal-correspondence audits also retain their own scope. None of these numerical results is a blow-up proof.
+The earlier description of Hug as sharing the external construction's “forced” classification is withdrawn. Applying any theorem to the user's unforced formulation still requires matching its equations, domain, regularity and initial-data assumptions. The separate printed-estimate and formal-correspondence audits retain their own scope. The breathing intervention results remain valid descriptions of those experiments.
 
 ## Reproduce this recount
 
