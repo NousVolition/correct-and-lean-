@@ -44,6 +44,8 @@ PR #14 also checks sixteen statements for a separate two-memory mathematical exa
 
 The threshold-1 rerun kept breathing on. A matched threshold-1 breathing-off comparison remains open, so the recorded switches do not establish breathing as their sole cause.
 
+The measured line also has a finite viewing window. Whether its edge hides a continuation of the connection is an open interpretation to investigate by following more of the same path. [Connection beyond the visible trace](research/hug-v3/threshold-one-follow-up/README.md#connection-beyond-the-visible-trace)
+
 ### Portfolio index
 
 - [SIMS two-memory model, restaurant trials and basin refills](lean/sims-meeting-thread-lean/README.md) · [Meeting-package proof receipt](lean/sims-meeting-thread-lean/verification-report.json).

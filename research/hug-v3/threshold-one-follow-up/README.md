@@ -26,7 +26,11 @@ Breathing remained on throughout this rerun. At time 1.2, the signed accumulated
 
 ## Connection beyond the visible trace
 
-An open interpretation is that an apparent gap in a view may hide a connection along one continuous strand, continuing around a bend or reversal. A change in the nearest point can occur between different portions of a connected curve. The line's starting point, its earlier path and connections outside the visible window can therefore matter to the interpretation of that change.
+The open interpretation motivating a further measurement is
+
+> If we can’t see where it comes from or continues, we can mistake the edge of our view for an edge in the connection. The first visible space then gets treated as the important gap before we’ve followed the whole path.
+
+A change in the nearest point can occur between different portions of a connected curve. This question distinguishes the limit of the observed segment from a break in the path itself.
 
 The recorded measurement traces only 0.75 cube lengths forward from A. It includes an eligible trace endpoint among its candidates, and the third late exchange starts at arclength zero. Establishing how the observed exchanges depend on the start and finite window requires additional measurements, such as extending the trace in both directions while retaining the same A and B. The current records do not establish a closed circulation loop or settle which apparent gap carries the proposed significance.
 
