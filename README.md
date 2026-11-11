@@ -46,6 +46,14 @@ The threshold-1 rerun kept breathing on. A matched threshold-1 breathing-off com
 
 The measured line also has a finite viewing window. Whether its edge hides a continuation of the connection is an open interpretation to investigate by following more of the same path. [Connection beyond the visible trace](research/hug-v3/threshold-one-follow-up/README.md#connection-beyond-the-visible-trace)
 
+### Follow the penne
+
+**AI-generated; dictated and directed by Nous Volition.** The illustration and animation show the dictated idea of a continuing path within a confined space, without the path closing back on itself. Two overlapping viewing windows take turns hopping along the penne. This is a conceptual illustration; it adds no fluid measurement or Lean result.
+
+![Two windows leapfrog along a continuing penne path inside a confined space.](docs/penne-leapfrog/penne-leapfrog.gif)
+
+[Original illustration](docs/penne-leapfrog/follow-the-penne.png) · [Animation, interactive version and scope](docs/penne-leapfrog/README.md)
+
 ### Portfolio index
 
 - [SIMS two-memory model, restaurant trials and basin refills](lean/sims-meeting-thread-lean/README.md) · [Meeting-package proof receipt](lean/sims-meeting-thread-lean/verification-report.json).

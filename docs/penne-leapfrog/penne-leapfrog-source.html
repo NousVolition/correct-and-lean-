@@ -1,0 +1,328 @@
+<div id="penne-leapfrog-v1">
+  <style>
+    #penne-leapfrog-v1 { display: grid; gap: calc(var(--font-size-base) * 0.75); color: var(--foreground); }
+    #penne-leapfrog-v1 .penne-heading { padding-right: 96px; }
+    #penne-leapfrog-v1 h2 { font-family: Georgia, 'Times New Roman', serif; }
+    #penne-leapfrog-v1 .penne-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: calc(var(--font-size-base) * 0.5); }
+    #penne-leapfrog-v1 .penne-counter { font-family: ui-monospace, monospace; }
+    #penne-leapfrog-v1 .penne-scene { display: block; width: 100%; overflow: visible; }
+    #penne-leapfrog-v1 .penne-scene text { font-family: inherit; font-size: var(--font-size-base); fill: var(--foreground); }
+    #penne-leapfrog-v1 .penne-status { min-height: calc(var(--font-size-base) * 3); }
+    #penne-leapfrog-v1 .penne-key { display: inline-flex; align-items: center; gap: calc(var(--font-size-base) * 0.4); }
+    #penne-leapfrog-v1 .penne-swatch { width: 13px; height: 13px; display: inline-block; }
+    #penne-leapfrog-v1 .penne-key-a { border: 2px solid var(--viz-series-1); }
+    #penne-leapfrog-v1 .penne-key-b { border: 2px dashed var(--viz-series-2); }
+  </style>
+  <div class="penne-heading"><h2>Follow the penne</h2></div>
+  <div class="penne-meta text-small">
+    <div class="viz-row">
+      <span class="penne-key"><span class="penne-swatch penne-key-a" aria-hidden="true"></span>Window A</span>
+      <span class="penne-key"><span class="penne-swatch penne-key-b" aria-hidden="true"></span>Window B</span>
+    </div>
+    <span class="penne-counter tabular-nums" data-counter>Ready</span>
+  </div>
+  <svg class="penne-scene" role="img" aria-labelledby="penne-scene-title penne-scene-desc">
+    <title id="penne-scene-title">Two windows leapfrog along a penne path inside a confined space.</title>
+    <desc id="penne-scene-desc">The pasta stays still. A and B take turns hopping forward, landing with overlapping views. Seen pieces remain visible. The path continues behind covers at both ends and never joins back to its start. This is an illustration.</desc>
+    <defs>
+      <linearGradient id="penne-tube-fill" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="color-mix(in srgb, var(--yellow) 64%, var(--background))" />
+        <stop offset="0.38" stop-color="var(--yellow)" />
+        <stop offset="1" stop-color="color-mix(in srgb, var(--yellow) 75%, var(--foreground))" />
+      </linearGradient>
+      <linearGradient id="penne-space-fill" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="var(--background)" />
+        <stop offset="1" stop-color="color-mix(in srgb, var(--muted) 45%, var(--background))" />
+      </linearGradient>
+      <g id="penne-tube">
+        <ellipse cx="-15" cy="0" rx="4.4" ry="9" transform="rotate(13 -15 0)" fill="var(--yellow)" />
+        <ellipse cx="-15" cy="0" rx="2.3" ry="6.2" transform="rotate(13 -15 0)" fill="color-mix(in srgb, var(--yellow) 38%, var(--foreground))" />
+        <path d="M-13,-9 L17,-9 L13,9 L-17,9 Z" fill="url(#penne-tube-fill)" />
+        <path d="M-13,-6 H15 M-14,-3 H15 M-15,0 H14 M-15,3 H14 M-16,6 H13" fill="none" stroke="color-mix(in srgb, var(--yellow) 65%, var(--background))" stroke-width="1.25" />
+        <ellipse cx="15" cy="0" rx="4.4" ry="9" transform="rotate(13 15 0)" fill="color-mix(in srgb, var(--yellow) 78%, var(--background))" />
+        <ellipse cx="15" cy="0" rx="2.4" ry="6.1" transform="rotate(13 15 0)" fill="color-mix(in srgb, var(--yellow) 32%, var(--foreground))" />
+      </g>
+      <g id="penne-entire-route"></g>
+      <clipPath id="penne-seen-clip" clipPathUnits="userSpaceOnUse"></clipPath>
+      <clipPath id="penne-now-clip" clipPathUnits="userSpaceOnUse"><rect data-clip-a rx="10"/><rect data-clip-b rx="10"/></clipPath>
+      <marker id="penne-hop-arrow" orient="auto" markerUnits="userSpaceOnUse" refX="8" refY="5" markerWidth="11" markerHeight="10">
+        <path d="M1,1 L8,5 L1,9" fill="none" stroke="var(--foreground)" stroke-width="1.4" stroke-linejoin="round" />
+      </marker>
+    </defs>
+    <rect data-enclosure rx="20" fill="url(#penne-space-fill)" stroke="color-mix(in srgb, var(--foreground) 28%, var(--background))" stroke-width="1.2" />
+    <text x="24" y="28">Confined space</text>
+    <use href="#penne-entire-route" opacity="0.13" />
+    <use href="#penne-entire-route" clip-path="url(#penne-seen-clip)" opacity="0.62" />
+    <use href="#penne-entire-route" clip-path="url(#penne-now-clip)" />
+    <g data-covers></g>
+    <rect data-ghost rx="10" fill="none" stroke="var(--foreground)" stroke-width="1" stroke-dasharray="3 5" opacity="0.2" />
+    <path data-hop-guide fill="none" stroke="color-mix(in srgb, var(--foreground) 50%, var(--background))" stroke-width="1.2" stroke-dasharray="3 5" marker-end="url(#penne-hop-arrow)" />
+    <g data-window-a>
+      <rect data-frame-a rx="10" fill="color-mix(in srgb, var(--viz-series-1) 3%, transparent)" stroke="var(--viz-series-1)" stroke-width="3" />
+      <text data-label-a font-weight="500">A</text>
+    </g>
+    <g data-window-b>
+      <rect data-frame-b rx="10" fill="color-mix(in srgb, var(--viz-series-2) 3%, transparent)" stroke="var(--viz-series-2)" stroke-width="3" stroke-dasharray="9 4" />
+      <text data-label-b font-weight="500">B</text>
+    </g>
+  </svg>
+  <div class="viz-controls">
+    <button class="btn btn-primary" type="button" data-play>Pause</button>
+    <button class="btn" type="button" data-next>Next hop</button>
+  </div>
+  <div class="penne-status" role="status" aria-live="polite" aria-atomic="true" data-status>A holds the view. B holds the next piece.</div>
+  <div class="text-small text-muted">AI-generated; dictated and directed by Nous Volition.</div>
+  <script>
+    (() => {
+      const root = document.getElementById('penne-leapfrog-v1');
+      const svg = root.querySelector('.penne-scene');
+      const pick = name => root.querySelector(`[data-${name}]`);
+      const route = root.querySelector('#penne-entire-route');
+      const seen = root.querySelector('#penne-seen-clip');
+      const ns = 'http://www.w3.org/2000/svg';
+      const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+      const make = (tag, attrs = {}) => {
+        const node = document.createElementNS(ns, tag);
+        Object.entries(attrs).forEach(([key, value]) => node.setAttribute(key, String(value)));
+        return node;
+      };
+      let width = 0, height = 0, vertical = false, length = 0;
+      let samples = [], anchors = [], completed = 0, progress = 0, hold = 1000;
+      let playing = !motionPreference.matches, singleHop = false, lastTime = 0;
+      let pendingSaved = window.openai?.widgetState?.privateContent;
+      let lastSaved = '';
+      const frameSize = 112;
+      const hopDuration = 1650;
+      const pauseDuration = 1250;
+
+      function pointAt(distance) {
+        const d = Math.max(0, Math.min(length, distance));
+        let lo = 0, hi = samples.length - 1;
+        while (hi - lo > 1) {
+          const middle = (lo + hi) >> 1;
+          if (samples[middle].s < d) lo = middle; else hi = middle;
+        }
+        const a = samples[lo], b = samples[hi];
+        const q = b.s === a.s ? 0 : (d - a.s) / (b.s - a.s);
+        return {x: a.x + (b.x - a.x) * q, y: a.y + (b.y - a.y) * q};
+      }
+
+      function currentIndices() {
+        return {a: 2 * Math.floor((completed + 1) / 2), b: 2 * Math.floor(completed / 2) + 1};
+      }
+
+      function positionRect(node, point) {
+        node.setAttribute('x', (point.x - frameSize / 2).toFixed(3));
+        node.setAttribute('y', (point.y - frameSize / 2).toFixed(3));
+        node.setAttribute('width', frameSize);
+        node.setAttribute('height', frameSize);
+      }
+
+      function rebuildSeen() {
+        seen.replaceChildren();
+        anchors.slice(0, completed + 2).forEach(point => {
+          const rect = make('rect', {rx: 10});
+          positionRect(rect, point);
+          seen.appendChild(rect);
+        });
+      }
+
+      function controls() {
+        const end = completed >= anchors.length - 2;
+        pick('play').textContent = end ? 'Play again' : playing ? 'Pause' : 'Play';
+        pick('play').setAttribute('aria-label', end ? 'Play the penne sequence again' : playing ? 'Pause the windows' : 'Play the windows');
+        pick('next').disabled = end;
+        pick('counter').textContent = end ? 'End of this view' : `Hop ${completed} of ${Math.max(0, anchors.length - 2)}`;
+      }
+
+      function announce(kind = 'landed') {
+        const end = completed >= anchors.length - 2;
+        if (end) pick('status').textContent = 'The view ends here. The penne continues behind the cover.';
+        else if (kind === 'moving') pick('status').textContent = completed % 2 === 0 ? 'A hops over B. B keeps the connection in view.' : 'B hops over A. A keeps the connection in view.';
+        else if (completed === 0) pick('status').textContent = 'Two overlapping views. Follow the marked piece.';
+        else pick('status').textContent = completed % 2 === 1 ? 'A lands beside B. Their views overlap.' : 'B lands beside A. Their views overlap.';
+        controls();
+      }
+
+      function persist() {
+        if (!window.openai?.setWidgetState) return;
+        const privateContent = {version: 1, completed, anchorCount: anchors.length};
+        lastSaved = JSON.stringify(privateContent);
+        window.openai.setWidgetState({
+          modelContent: {illustration: 'Penne in a confined space; windows leapfrog along an open continuation.', completedHops: completed},
+          privateContent
+        }).catch(() => {});
+      }
+
+      function draw() {
+        if (anchors.length < 2) return;
+        const indices = currentIndices();
+        const points = {a: {...anchors[indices.a]}, b: {...anchors[indices.b]}};
+        const moving = completed % 2 === 0 ? 'a' : 'b';
+        const canMove = completed < anchors.length - 2;
+        pick('ghost').setAttribute('visibility', progress > 0 && canMove ? 'visible' : 'hidden');
+        pick('hop-guide').setAttribute('visibility', progress > 0 && canMove ? 'visible' : 'hidden');
+        if (progress > 0 && canMove) {
+          const from = anchors[completed], to = anchors[completed + 2];
+          const q = progress * progress * (3 - 2 * progress);
+          const jump = Math.sin(Math.PI * q) * 48;
+          let x = from.x + (to.x - from.x) * q;
+          let y = from.y + (to.y - from.y) * q;
+          if (vertical) x += jump; else y -= jump;
+          x = Math.max(66, Math.min(width - 66, x));
+          y = Math.max(96, Math.min(height - 70, y));
+          points[moving] = {x, y};
+          positionRect(pick('ghost'), from);
+          const cx = (from.x + to.x) / 2 + (vertical ? 70 : 0);
+          const cy = (from.y + to.y) / 2 - (vertical ? 0 : 70);
+          pick('hop-guide').setAttribute('d', `M${from.x},${from.y} Q${cx},${cy} ${to.x},${to.y}`);
+        }
+        for (const id of ['a', 'b']) {
+          const p = points[id];
+          positionRect(pick(`frame-${id}`), p);
+          positionRect(pick(`clip-${id}`), p);
+          pick(`label-${id}`).setAttribute('x', p.x - frameSize / 2 + 10);
+          pick(`label-${id}`).setAttribute('y', p.y - frameSize / 2 + 21);
+        }
+        svg.dataset.completedHops = completed;
+        svg.dataset.hopProgress = progress.toFixed(3);
+        svg.dataset.totalHops = anchors.length - 2;
+      }
+
+      function build() {
+        const newWidth = Math.max(300, Math.round(root.getBoundingClientRect().width));
+        if (newWidth === width) return;
+        const oldCount = anchors.length;
+        const oldCompleted = completed;
+        width = newWidth;
+        vertical = width < 500;
+        height = vertical ? 480 : 350;
+        svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+        svg.setAttribute('height', height);
+        const enclosure = pick('enclosure');
+        Object.entries({x: 8, y: 43, width: width - 16, height: height - 51}).forEach(([key,value]) => enclosure.setAttribute(key,value));
+        samples = [];
+        length = 0;
+        for (let i = 0; i <= 600; i++) {
+          const t = i / 600;
+          const point = vertical
+            ? {x: width / 2 + (width / 2 - 87) * Math.sin(t * Math.PI * 2.25 - 0.4), y: 102 + (height - 184) * t}
+            : {x: 68 + (width - 136) * t, y: 196 + 56 * Math.sin(t * Math.PI * 2.65 - 0.8)};
+          if (i) length += Math.hypot(point.x - samples[i-1].x, point.y - samples[i-1].y);
+          samples.push({...point, s: length});
+        }
+        const d = samples.map((p,i) => `${i ? 'L' : 'M'}${p.x.toFixed(2)},${p.y.toFixed(2)}`).join(' ');
+        route.replaceChildren();
+        route.appendChild(make('path', {d, fill: 'none', stroke: 'var(--green)', 'stroke-width': 3.8, 'stroke-linecap': 'round', 'data-open-path': ''}));
+        const pieces = Math.max(10, Math.round(length / 35));
+        for (let i = 0; i < pieces; i++) {
+          const distance = 12 + (length - 24) * i / (pieces - 1);
+          const p = pointAt(distance), before = pointAt(distance - 0.6), after = pointAt(distance + 0.6);
+          const angle = Math.atan2(after.y - before.y, after.x - before.x) * 180 / Math.PI;
+          route.appendChild(make('use', {href: '#penne-tube', transform: `translate(${p.x.toFixed(3)} ${p.y.toFixed(3)}) rotate(${angle.toFixed(3)})`, 'data-piece': i}));
+          if (i === 3) route.appendChild(make('circle', {cx: p.x, cy: p.y, r: 4, fill: 'var(--red)', stroke: 'var(--background)', 'stroke-width': 1.3}));
+        }
+        const count = Math.max(5, Math.ceil((length - 20) / 74) + 1);
+        anchors = Array.from({length: count}, (_,i) => pointAt(10 + (length - 20) * i / (count - 1)));
+        completed = oldCount > 2 ? Math.round(oldCompleted / (oldCount - 2) * (count - 2)) : 0;
+        if (pendingSaved?.version === 1 && Number.isFinite(pendingSaved.completed)) {
+          const ratio = pendingSaved.completed / Math.max(1, (pendingSaved.anchorCount || count) - 2);
+          completed = Math.max(0, Math.min(count - 2, Math.round(ratio * (count - 2))));
+          playing = false;
+          pendingSaved = null;
+        }
+        progress = 0;
+        hold = 1000;
+        const covers = pick('covers');
+        covers.replaceChildren();
+        for (const end of [0, 1]) {
+          const p = pointAt(end ? length : 0);
+          if (vertical) {
+            covers.appendChild(make('path', {d: `M${p.x-26},${p.y-12} l53,0 l-5,22 l-53,0 Z`, fill: 'var(--muted)', stroke: 'var(--border)', 'stroke-width': 1}));
+          } else {
+            covers.appendChild(make('path', {d: `M${p.x-13},${p.y-28} l23,4 l-3,54 l-23,-4 Z`, fill: 'var(--muted)', stroke: 'var(--border)', 'stroke-width': 1}));
+          }
+        }
+        rebuildSeen();
+        announce();
+        draw();
+      }
+
+      function finishHop() {
+        completed++;
+        progress = 0;
+        hold = pauseDuration;
+        rebuildSeen();
+        if (singleHop || completed >= anchors.length - 2) playing = false;
+        singleHop = false;
+        announce();
+        persist();
+      }
+
+      pick('play').addEventListener('click', () => {
+        if (completed >= anchors.length - 2) {
+          completed = 0;
+          progress = 0;
+          hold = 900;
+          rebuildSeen();
+          announce();
+        }
+        playing = !playing;
+        singleHop = false;
+        lastTime = 0;
+        controls();
+        draw();
+        persist();
+      });
+      pick('next').addEventListener('click', () => {
+        if (completed >= anchors.length - 2) return;
+        if (motionPreference.matches) {
+          playing = false;
+          finishHop();
+          draw();
+        } else {
+          playing = true;
+          singleHop = true;
+          hold = 0;
+          lastTime = 0;
+          announce('moving');
+          controls();
+        }
+      });
+      window.addEventListener('openai:set_globals', event => {
+        const saved = event.detail?.globals?.widgetState?.privateContent;
+        if (!saved || saved.version !== 1 || !Number.isFinite(saved.completed)) return;
+        if (JSON.stringify(saved) === lastSaved) return;
+        pendingSaved = saved;
+        width = 0;
+        build();
+      });
+      motionPreference.addEventListener('change', () => {
+        if (motionPreference.matches) { playing = false; singleHop = false; controls(); }
+      });
+      document.addEventListener('visibilitychange', () => { lastTime = 0; });
+      const observer = new ResizeObserver(build);
+      observer.observe(root);
+      build();
+      function tick(now) {
+        if (!root.isConnected) { observer.disconnect(); return; }
+        const dt = lastTime ? Math.min(64, now - lastTime) : 0;
+        lastTime = now;
+        if (playing && !document.hidden && completed < anchors.length - 2) {
+          if (hold > 0) {
+            hold -= dt;
+            if (hold <= 0) announce('moving');
+          } else if (motionPreference.matches) {
+            finishHop();
+          } else {
+            progress = Math.min(1, progress + dt / hopDuration);
+            if (progress >= 1) finishHop();
+          }
+          draw();
+        }
+        requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    })();
+  </script>
+</div>
