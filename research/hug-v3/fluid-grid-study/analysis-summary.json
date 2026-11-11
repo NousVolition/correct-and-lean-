@@ -1,0 +1,50 @@
+{
+  "completed_runs": [
+    "n16_dt0p002",
+    "n16_dt0p001",
+    "n16_dt0p0005",
+    "n24_dt0p0005",
+    "n32_dt0p0005",
+    "n32_dt0p00025"
+  ],
+  "required_runs": [
+    "n16_dt0p002",
+    "n16_dt0p001",
+    "n16_dt0p0005",
+    "n24_dt0p0005",
+    "n32_dt0p0005",
+    "n32_dt0p00025"
+  ],
+  "complete_matrix": true,
+  "gap_target_max": 0.001,
+  "gap_target_median": 0.0005,
+  "velocity_relative_target": 0.01,
+  "vorticity_relative_target": 0.05,
+  "tracing_gap_target": 5e-05,
+  "primary_tracing": "grid192 ds1/1024",
+  "finer_tracing_control": "grid256 ds1/2048",
+  "common_field_grid": 64,
+  "original_21_inputs_unchanged": true,
+  "last_spatial_field_size_targets_met": true,
+  "last_spatial_field_differences_decreased": {
+    "velocity": true,
+    "vorticity": true
+  },
+  "conventions": {
+    "fixed": {
+      "spatial_gap_size_targets_met": false,
+      "spatial_max_gap_difference_decreased": true,
+      "n16_time_gap_size_targets_met": true,
+      "n16_time_max_gap_difference_decreased": true,
+      "n32_time_gap_size_targets_met": true
+    },
+    "reselected": {
+      "spatial_gap_size_targets_met": false,
+      "spatial_max_gap_difference_decreased": true,
+      "n16_time_gap_size_targets_met": true,
+      "n16_time_max_gap_difference_decreased": true,
+      "n32_time_gap_size_targets_met": true
+    }
+  },
+  "tracing_size_target_met": true
+}

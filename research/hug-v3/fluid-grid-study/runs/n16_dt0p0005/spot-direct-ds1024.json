@@ -1,0 +1,30 @@
+[
+  {
+    "time": 1.176,
+    "frame": 588,
+    "ds": 0.0009765625,
+    "minimum_direction": 0.017530976290523016,
+    "max_standard_gap_error": 2.1683023037066818e-05,
+    "max_dense_gap_error": 9.309931436884966e-08,
+    "max_standard_closest_arclength_error": 0.0009765625,
+    "max_dense_closest_arclength_error": 3.962502839807702e-07,
+    "fixed_seed15_local": {
+      "gap": 0.14546941490333756,
+      "closest_arclength": 0.0341796875
+    }
+  },
+  {
+    "time": 1.182,
+    "frame": 591,
+    "ds": 0.0009765625,
+    "minimum_direction": 0.029565307037695967,
+    "max_standard_gap_error": 1.8103268835167885e-05,
+    "max_dense_gap_error": 5.2795996949295265e-08,
+    "max_standard_closest_arclength_error": 0.2998046875,
+    "max_dense_closest_arclength_error": 5.751587656144252e-07,
+    "fixed_seed15_local": {
+      "gap": 0.15914926951107639,
+      "closest_arclength": 0.3154296875
+    }
+  }
+]

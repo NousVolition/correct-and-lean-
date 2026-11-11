@@ -1,0 +1,7 @@
+{
+  "reference": "n32 dt0.00025; direct Fourier RK4 ds1/1024 final endpoints",
+  "time_control": "n32 dt0.0005 versus dt0.00025, common grid192 ds1/1024 readout",
+  "tracing_control": "finest-run common grid192 ds1/1024 versus direct ds1/1024",
+  "interpretation": "Observed changes are empirical sensitivity measures, not rigorous error bounds. Neither a positive nested-window benefit nor a stable distance establishes complete vortex-tube identity.",
+  "median_note": "Difference of gap medians and median of paired benefits are different statistics and are both retained."
+}

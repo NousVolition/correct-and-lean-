@@ -1,0 +1,6 @@
+{
+  "reference": "direct Fourier RK4 ds=1/2048 at prime37",
+  "max_endpoint_displacement": 5.776115473432285e-07,
+  "minimum_direction": 0.23072904658330562,
+  "limitation": "This checks initial reselection only; it does not assert an independent rigorous bound on its final gap."
+}

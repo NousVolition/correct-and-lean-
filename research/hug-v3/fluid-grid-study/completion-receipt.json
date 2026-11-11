@@ -1,0 +1,109 @@
+{
+  "status": "completed numerical refinement study; convergence result is in analysis-summary.json",
+  "completed_utc": "2026-11-11T08:40:54.440356+00:00",
+  "completed_runs": [
+    "n16_dt0p002",
+    "n16_dt0p001",
+    "n16_dt0p0005",
+    "n24_dt0p0005",
+    "n32_dt0p0005",
+    "n32_dt0p00025"
+  ],
+  "total_successful_integration_steps": 13800,
+  "original_parent_and_comparison_seals_reverified": true,
+  "original_21_input_digests_unchanged": true,
+  "shapes": {
+    "n16_dt0p002": {
+      "velocity": [
+        51,
+        11,
+        11,
+        11,
+        3
+      ],
+      "observers": [
+        51,
+        125,
+        3
+      ]
+    },
+    "n16_dt0p001": {
+      "velocity": [
+        51,
+        11,
+        11,
+        11,
+        3
+      ],
+      "observers": [
+        51,
+        125,
+        3
+      ]
+    },
+    "n16_dt0p0005": {
+      "velocity": [
+        51,
+        11,
+        11,
+        11,
+        3
+      ],
+      "observers": [
+        51,
+        125,
+        3
+      ]
+    },
+    "n24_dt0p0005": {
+      "velocity": [
+        51,
+        15,
+        15,
+        15,
+        3
+      ],
+      "observers": [
+        51,
+        125,
+        3
+      ]
+    },
+    "n32_dt0p0005": {
+      "velocity": [
+        51,
+        21,
+        21,
+        21,
+        3
+      ],
+      "observers": [
+        51,
+        125,
+        3
+      ]
+    },
+    "n32_dt0p00025": {
+      "velocity": [
+        51,
+        21,
+        21,
+        21,
+        3
+      ],
+      "observers": [
+        51,
+        125,
+        3
+      ]
+    }
+  },
+  "live_integration_processes": [],
+  "scope": "fluid-grid/time-step checks of the fixed 384-material-point discretization in a periodic unit cube",
+  "not_established": [
+    "full continuum convergence",
+    "material-quadrature convergence",
+    "physical calibration",
+    "complete vortex-tube identity"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parseval_field_checks": 10,
+  "max_common_grid_parseval_discrepancy": 1.734723475976807e-18,
+  "direct_spatial_worst_case_checks": 4,
+  "max_primary_direct_spatial_discrepancy": 4.159621050395246e-06
+}
