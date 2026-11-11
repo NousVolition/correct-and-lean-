@@ -14,6 +14,14 @@ The mathematical propositions already checked remain propositions about their st
 
 ## Continuing the verification
 
+### Unforced system and added interventions
+
+On 11 November 2026, the user corrected the classification directly: **“mine is unforced.”** Preserve the unforced underlying system as the target. The prescribed breathing force added in some numerical experiments is an intervention in those branches, not grounds to classify the entire formulation as externally forced.
+
+The distinction is visible in the [single-continuum field equations](../../lean/hug-navier-single-system-lean/FullModel.lean): the two momentum components of `fieldRates` contain advection, pressure and internal stress divergence, with no separately prescribed body-force term. Optional `sourceA` and `sourceB` pulses enter the participant-state equations; the no-pulse branch sets both to zero. The separately preserved [A/S branch](../../lean/hug-navier-single-system-lean/OriginalAS.lean) has its own scalar-dependent momentum term and source options, which must be classified from that branch's equations rather than transferred to every version.
+
+Internal stress and coupling are not, merely by being written as force terms, an externally imposed drive. This corrects the classification; it does not establish that a provisional coupled, variable-viscosity field realization is identical to the classical three-dimensional constant-viscosity Navier–Stokes problem. The external forced-flow construction does not answer the user's unforced question.
+
 Use the exact original corpus and the user's clarification to identify Hug's representation within one velocity/pressure/state evolution. Trace any guard/stress extension to its actual source and retain its provisional status. Keep the original A/S field branch, the later optional guard-field branch and reduced implementations distinguishable; do not substitute a convenient implementation for the source without establishing the correspondence.
 
 The full single-system evolution proof remains open. Reassess its actual mathematical assumptions and proof obligations from that equation set, rather than carrying over the two-system interface requirements. No equations, numerical settings, old proof files or prior evidence archives were changed in this correction. No new Lean result is claimed.
