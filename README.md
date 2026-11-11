@@ -2,11 +2,27 @@
 
 <a id="correct-and-lean-research-proofs-and-verification"></a>
 
-**Hug v3, SIMS memory models, and A/S proofs by [NousVolition](https://github.com/NousVolition).** This collection, also called **Correct and Lean**, brings together A/S and Hug Lean packages, SIMS memory and witness models, corrected written proofs, and the completed matched-stretch numerical study. It preserves the original equations, the recorded successful checks, the failed attempts and the remaining open claims. Each result has its own model and hypotheses.
+This project asks how a record can persist while its carrier, context and later use change. This repository contains Hug and SIMS models, language-model trials, numerical simulations, Lean 4 proofs and the records needed to inspect their claims. **The work is AI-generated, dictated and directed by NousVolition, an independent researcher.**
+
+**Scope:** Yang–Mills and Navier–Stokes name comparison and audit topics here; this repository does not claim a solution to either Clay Millennium Prize problem.
+
+The collection is also called **Correct and Lean**. Each result retains its own definitions and hypotheses, with successful checks, failed attempts and open claims recorded together.
 
 A file ending in `Challenge.lean` states or collects the claims a solution must prove. The word `sorry` marks the space where a proof would go in that reference. To read the proof, look for `solution_module` in the package’s `comparator.json`. The automated checks reject proof placeholders in that module and its local imports, and check which axioms each listed theorem uses. [Read the challenges in everyday language](docs/comparator/README.md) · [Sources and credits](docs/comparator/CREDITS.md).
 
 [Browse the Hug and SIMS proof and study index](hug-sims-proof-index.md) for all 32 README guides, including the plain-language theorem reader.
+
+## Words used here
+
+| Term | Meaning in these studies |
+| --- | --- |
+| **Traveller B** | A language model instructed to play a listener in a fictional restaurant scene. B’s answers are generated text. The one-continuing-B run records **`gpt-6-astra`**; the earlier restaurant trials used a default actor whose model version was **not pinned**. [Recorded model](lean/sims-mentor-first-thought-lean/one-traveller/reports.json) · [Earlier actor disclosure](lean/sims-mentor-first-thought-lean/reports.json) |
+| **Pager** | The restaurant’s order buzzer, one possible source of the vibration in B’s pocket; the phone is another candidate. |
+| **Witness** | Another character who has firsthand information about pressing the pager’s test button and seeing it respond. B receives that character’s account. |
+| **Mentor** | The name used for the witness, “Other B,” in the later interviews. It identifies a role in the simulation. |
+| **Basin refills** | Repeated stages of the circular-basin fluid simulation. Each stage starts from the preceding stage’s saved ending state. |
+
+The **water particle B** in the separate Hug closest-point study is a tracked fluid-particle label, separate from the restaurant listener.
 
 ## Find a specific study
 
@@ -54,7 +70,7 @@ The threshold-0.015 energy study and the threshold-1 closest-point study answer 
 | **Threshold 0.015 — energy accounts** | The saved three- and four-write Hug runs record work, heat and stored energy. | Nine named statements in open [PR #14](https://github.com/NousVolition/hug-sims-lean-proofs/pull/14) passed Comparator, Lean's kernel, nanoda and the build. They check the finite ledger arithmetic and displayed rounding for those measurements. [Proof run and artifacts](https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/42852357760) |
 | **Threshold 1 — same A and original partner** | With breathing on from the original starting state, three late closest-point exchanges occur near **1.180910, 1.182077 and 1.199281**, before tick 41 at time 1.2. | Published numerical records with local consistency and refinement checks. **No Lean check of this trajectory or these switches.** Spatial and full-history convergence remain open. [Study, settings and records](research/hug-v3/threshold-one-follow-up/README.md) |
 
-PR #14 also checks sixteen statements for a separate two-memory mathematical example and supporting lemmas, including transport around a closed cue route. Its passing proof evidence establishes the listed claims under their stated rules and assumptions. Whether those rules faithfully represent the intended Hug is a separate modeling question. The PR's checked-in reports currently retain `NOT_RUN` placeholders, with the successful reports in its workflow artifacts. [Exact scope of PR #14](https://github.com/NousVolition/hug-sims-lean-proofs/pull/14)
+PR #14 also checks sixteen statements for a separate two-memory mathematical example and supporting lemmas, including transport around a closed cue route. Its passing proof evidence establishes the listed claims under their stated rules and assumptions. Whether those rules faithfully represent the intended Hug is a separate modeling question. Both packages now include their actual passing reports, Linux logs, axiom lists and source/input provenance on the PR branch. [Exact scope of PR #14](https://github.com/NousVolition/hug-sims-lean-proofs/pull/14)
 
 The threshold-1 rerun kept breathing on. A matched threshold-1 breathing-off comparison remains open, so the recorded switches do not establish breathing as their sole cause.
 
@@ -72,7 +88,7 @@ The window rule is a short proof. The practice around it is worth showing:
 
 ### Follow the penne
 
-**AI-generated; dictated and directed by NousVolition.** The illustration and animation show the dictated idea of a continuing path within a confined space, without the path closing back on itself. Two overlapping viewing windows take turns hopping along the penne. This is a conceptual illustration; it adds no fluid measurement or Lean result.
+The illustration and animation show the dictated idea of a continuing path within a confined space, without the path closing back on itself. Two overlapping viewing windows take turns hopping along the penne. This is a conceptual illustration; it adds no fluid measurement or Lean result.
 
 ![Two windows leapfrog along a continuing penne path inside a confined space.](docs/penne-leapfrog/penne-leapfrog.gif)
 
@@ -96,7 +112,7 @@ The window rule is a short proof. The practice around it is worth showing:
 
 **Written proof** refers to the mathematical argument in the document. It is not automatically a Lean certificate. **Numerical verification** checks the saved computations and reporting; it is not a proof that unresolved approximations follow the exact continuum solution.
 
-The full Hug v3 continuation through every scheduled memory write is still open. The Yang–Mills comparison package is not a solution of the Clay Yang–Mills mass-gap problem. The numerical study does not prove a continuum PDE theorem or a physical stability threshold.
+The full Hug v3 continuation through every scheduled memory write is still open. The numerical study does not prove a continuum PDE theorem or a physical stability threshold.
 
 ## Preservation and use
 
