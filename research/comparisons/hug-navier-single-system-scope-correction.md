@@ -6,6 +6,23 @@ The interpretation to preserve is **one intended HugandNavier system**. Hug must
 
 The inspected `reports/interaction-equation.md` explicitly states that all fields use one carrier velocity and gives the loop: flow and participant states → directed guards → interaction and stress → later flow and states. The guards belong to relationships inside the evolution. This is direct source support for examining the existing single-field feedback structure. The particular reduced eight-state Hug implementation has its own scope and additional modeling choices; preserving its code does not by itself establish that it is the user's intended full source model.
 
+## Meaning to preserve across implementations
+
+These words were already supplied in the working conversation and must remain available when interpreting a new analogy or implementation:
+
+| User's words | Meaning to carry forward |
+| --- | --- |
+| “its the loop, the carrying is fixed” | Follow the continuing carrying relationship while configurations change. “Fixed” does not mean every position, shape or internal value stays constant. |
+| “this is navier stokes” | Examine Hug within the intended shared evolution. Do not silently substitute a separate mechanical object attached to another fluid system. |
+| “mine is unforced” | Preserve the unforced underlying formulation as the target. Identify added drives in individual experiments by their own equations and settings. |
+| “the hug is only a way gravity can exist here” | The hug gives gravity a role within the user's setup. Preserve that conceptual role without replacing it with an imposed actuator or claiming that a particular generated force law is its definition. |
+
+The connected-strand description supplies the same continuity: one path can take different shapes while remaining connected. A finite viewing window may stop before that continuation is visible. A selected nearest point, displayed gap or changing configuration does not by itself define the whole relationship.
+
+The seed and hold discussion introduces a further distinction: a thing can remain carried while a selected state is held. The hold or release rule has to be identified in the model that implements it. A later visible effect does not by itself identify when its underlying record began. These connections should be developed from the user's existing distinctions rather than treated as requests to invent a new mechanism each time.
+
+This section records the intended meaning; verified results retain their own scope. Further work should retrieve this explanation, trace a particular equation or result back to it, and identify a concrete unresolved mapping. Do not ask the user to repeat an established definition when the record already supplies it.
+
 ## Correction to the previous conclusions
 
 The prior 14-claim bridge and 7-claim audit imposed a comparison between that reduced Hug implementation and a separately represented field problem. Their requirements for a reciprocal load/interface and a state-to-field conversion belong to that chosen construction. They do **not** establish that the user's intended single continuum system lacks those connections.
