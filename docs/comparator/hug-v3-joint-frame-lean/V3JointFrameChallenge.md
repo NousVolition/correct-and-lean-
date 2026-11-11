@@ -2,16 +2,16 @@
 
 Rotate grid positions, vectors and the driving direction together. Identify exact transformations and the extra conditions required by the thermal write, gradient and social-rate results.
 
-[`V3JointFrameChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`V3JointFrameChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
+The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean) · [V3JointFrameDefinitions](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean) · [V3JointFrameDefinitions](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/lake-manifest.json).
 
 </details>
 
@@ -37,7 +37,7 @@ theorem quarter_scale (a : ℝ) (v : Vec) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L6-L7) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L9-L12)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L6-L7) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L9-L12)
 
 ## Does the quarter turn preserve a dot product?
 
@@ -60,7 +60,7 @@ theorem quarter_dot (u v : Vec) : dot (quarterVector u) (quarterVector v)=dot u 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L8) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L14-L16)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L8) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L14-L16)
 
 ## Does it preserve squared length?
 
@@ -83,7 +83,7 @@ theorem quarter_norm (v : Vec) : sqnorm (quarterVector v)=sqnorm v := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L9) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L18-L20)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L9) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L18-L20)
 
 ## Can the rotated grid index always be recovered?
 
@@ -107,7 +107,7 @@ theorem grid_inverse (x : Grid) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L10-L11) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L22-L25)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L10-L11) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L22-L25)
 
 ## Does rotating the grid change a scalar total?
 
@@ -130,7 +130,7 @@ theorem grid_sum (f : Scalar) : (∑ x, scalarPull f x)=∑ x, f x := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L12) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L30-L31)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L12) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L30-L31)
 
 ## How does the centered gradient transform?
 
@@ -154,7 +154,7 @@ theorem centered_gradient_covariant (s : State) (x : Grid) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L13-L14) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L39-L42)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L13-L14) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L39-L42)
 
 ## Does the force magnitude change under this turn?
 
@@ -178,7 +178,7 @@ theorem force_amplitude_invariant (s : State) (x : Grid) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L15-L16) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L44-L46)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L15-L16) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L44-L46)
 
 ## How does the directed-force version recover the original force?
 
@@ -201,7 +201,7 @@ theorem original_force_recovered (s : State) : directedForce referenceDirection 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L17) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L48-L50)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L17) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L48-L50)
 
 ## Where does the reference drive point after a quarter turn?
 
@@ -224,7 +224,7 @@ theorem driving_direction_rotates : quarterVector referenceDirection=![0,1,0] :=
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L18) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L52-L58)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L18) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L52-L58)
 
 ## What if the drive direction turns with the state?
 
@@ -248,7 +248,7 @@ theorem joint_force_covariant (d : Vec) (s : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L19-L20) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L60-L65)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L19-L20) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L60-L65)
 
 ## Does the pointwise work density agree in those two frames?
 
@@ -273,7 +273,7 @@ theorem force_work_density_invariant (d : Vec) (s : State) (x : Grid) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L21-L23) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L71-L75)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L21-L23) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L71-L75)
 
 ## Can the original momentum equation be recovered exactly?
 
@@ -297,7 +297,7 @@ theorem original_momentum_recovered (G : Geometry) (s : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L24-L25) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L77-L80)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L24-L25) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L77-L80)
 
 ## What about all the rate fields calculated from records?
 
@@ -321,7 +321,7 @@ theorem original_full_rates_recovered (G : Geometry) (t : ℝ) (s : State) (rs) 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L26-L27) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L82-L85)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L26-L27) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L82-L85)
 
 ## Do the original acceptance decisions also agree?
 
@@ -345,7 +345,7 @@ theorem original_accepted_rates_recovered (G : Geometry) (t : ℝ) (s : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L28-L29) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L87-L90)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L28-L29) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L87-L90)
 
 ## Which parts of the rate agree for any drive direction?
 
@@ -369,7 +369,7 @@ theorem non_driving_rates_unchanged (d : Vec) (G : Geometry) (t : ℝ) (s : Stat
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L30-L31) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L92-L94)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L30-L31) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L92-L94)
 
 ## Does total force work in the ledger change under the joint turn?
 
@@ -394,7 +394,7 @@ theorem force_work_ledger_invariant (d : Vec) (G : Geometry) (t : ℝ) (s : Stat
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L32-L34) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L96-L106)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L32-L34) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L96-L106)
 
 ## How does the quarter turn affect particle Green strain?
 
@@ -418,7 +418,7 @@ theorem green_spatially_invariant (F : Particle → Mat) (p : Particle) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L35-L36) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L108-L112)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L35-L36) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L108-L112)
 
 ## Can the spatial turn change which records decode?
 
@@ -441,7 +441,7 @@ theorem records_spatially_invariant (s : State) : readRecords (quarterState s)=r
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L37) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L118-L119)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L37) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L118-L119)
 
 ## Does the cue used to weight a memory turn into a different cue?
 
@@ -465,7 +465,7 @@ theorem memory_feature_invariant (G : Geometry) (s : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L38-L39) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L126-L130)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L38-L39) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L126-L130)
 
 ## What happens to retrieval for the same list of records?
 
@@ -489,7 +489,7 @@ theorem retrieval_invariant (G : Geometry) (s : State) (rs) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L40-L41) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L142-L145)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L40-L41) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L142-L145)
 
 ## Can the same event acquire a different record when both fabric snapshots turn?
 
@@ -513,7 +513,7 @@ theorem event_record_invariant (s : State) (startF : Particle → Mat) (id : Fin
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L42-L43) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L147-L151)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L42-L43) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L147-L151)
 
 ## Does the write account change for the same target fabric?
 
@@ -537,7 +537,7 @@ theorem write_account_invariant (G : Geometry) (s : State) (target : Cell → �
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L44-L45) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L162-L165)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L44-L45) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L162-L165)
 
 ## When does the full write commute with the spatial turn?
 
@@ -562,7 +562,7 @@ theorem write_equivariant_under_thermal_compatibility (h : ThermalFrameCompatibi
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L46-L48) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L189-L214)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L46-L48) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L189-L214)
 
 ## Does capturing an event commute with rotating the full state?
 
@@ -586,7 +586,7 @@ theorem capture_equivariant (id : Fin 3) (y : FullState) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L49-L50) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L216-L224)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L49-L50) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L216-L224)
 
 ## Does rotating a mixed present-and-past state work field by field?
 
@@ -610,7 +610,7 @@ theorem buffer_commutes (present past : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L51-L52) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L226-L227)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L51-L52) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L226-L227)
 
 ## What does the delayed rate give in the reference direction?
 
@@ -634,7 +634,7 @@ theorem original_delay_recovered (G : Geometry) (t : ℝ) (present past : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L53-L54) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L229-L232)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L53-L54) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L229-L232)
 
 ## Can a derivative be rotated along with the whole state?
 
@@ -659,7 +659,7 @@ theorem derivative_covariant (s : ℝ → State) (d : State) (I : Set ℝ) (t : 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L55-L57) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L234-L257)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L55-L57) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L234-L257)
 
 ## Does continuity survive the same spatial turn?
 
@@ -683,7 +683,7 @@ theorem continuity_covariant (s : ℝ → State) (I : Set ℝ) (h : ContinuousSt
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L58-L59) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L259-L279)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L58-L59) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L259-L279)
 
 ## What algebra makes the deformation rate rotate correctly?
 
@@ -708,7 +708,7 @@ theorem kinematic_matrix_covariance (L F : Mat) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L60-L62) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L281-L286)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L60-L62) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L281-L286)
 
 ## What extra condition lets the full deformation rate obey that identity?
 
@@ -735,7 +735,7 @@ theorem full_deformation_covariant_if_gradient_transforms (d : Vec) (G : Geometr
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L63-L67) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L288-L297)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L63-L67) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L288-L297)
 
 ## What extra information makes the social rates agree?
 
@@ -760,4 +760,4 @@ theorem social_rates_invariant_if_observations_match (G : Geometry) (t : ℝ) (s
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L68-L70) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L299-L306)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameChallenge.lean#L68-L70) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-joint-frame-lean/V3JointFrameProofs.lean#L299-L306)

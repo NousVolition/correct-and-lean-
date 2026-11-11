@@ -1,8 +1,8 @@
 # Follow the penne
 
-**AI-generated; dictated and directed by Nous Volition.**
+**AI-generated; dictated and directed by NousVolition.**
 
-Nous Volition's dictated idea is a continuing path within a confined space, without the path closing back on itself. Two viewing windows take turns hopping along the penne, landing with overlapping views. The penne stays still as the view moves beyond the first apparent gap.
+NousVolition's dictated idea is a continuing path within a confined space, without the path closing back on itself. Two viewing windows take turns hopping along the penne, landing with overlapping views. The penne stays still as the view moves beyond the first apparent gap.
 
 ## Original illustration
 
@@ -18,7 +18,7 @@ For **Play/Pause** and **Next hop**, download [the interactive version](index.ht
 
 ## Meaning and scope
 
-The concept, corrections and direction were dictated by Nous Volition; AI generated the illustration and implemented the animation. The visible credit appears in the interactive version and the moving preview. The original generated picture is preserved unchanged.
+The concept, corrections and direction were dictated by NousVolition; AI generated the illustration and implemented the animation. The visible credit appears in the interactive version and the moving preview. The original generated picture is preserved unchanged.
 
 This is an illustration of the stated idea. It contains no Hug trajectory measurements and makes no Lean-checked claim about a water path. Its drawn connection is supplied by construction. Whether a viewing boundary explains a measured experimental gap requires the corresponding experiment.
 

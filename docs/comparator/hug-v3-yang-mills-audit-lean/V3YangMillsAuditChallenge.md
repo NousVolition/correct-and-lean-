@@ -2,16 +2,16 @@
 
 Let F describe the deformation. A matrix Q with QᵀQ = I preserves length, including under rotation or reflection. In the fabric comparison, only F at each particle is replaced by QF. Follow which measurements survive that change and where the rate equation detects it.
 
-[`V3YangMillsAuditChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`V3YangMillsAuditChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
+The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean) · [V3YangMillsAuditDefinitions](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditDefinitions.lean) · [Package account](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/README.md) · [Saved source digests](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/preserved-inputs.json) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean) · [V3YangMillsAuditDefinitions](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditDefinitions.lean) · [Package account](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/README.md) · [Saved source digests](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/preserved-inputs.json) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/lake-manifest.json).
 
 </details>
 
@@ -37,7 +37,7 @@ theorem green_objective (Q F : Mat) (hQ : Orthogonal Q) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L9-L10) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L26-L33)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L9-L10) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L26-L33)
 
 ## What if the instrument reports just one number for the strain?
 
@@ -61,7 +61,7 @@ theorem strain_norm_objective (Q F : Mat) (hQ : Orthogonal Q) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L12-L13) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L35-L37)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L12-L13) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L35-L37)
 
 ## What if I follow just one fiber?
 
@@ -86,7 +86,7 @@ theorem fiber_strain_objective (G : Geometry) (s : State) (Q : Particle → Mat)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L15-L17) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L45-L53)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L15-L17) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L45-L53)
 
 ## What if I read just one cell of the fabric?
 
@@ -111,7 +111,7 @@ theorem fabric_strain_objective (s : State) (Q : Particle → Mat)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L19-L21) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L55-L64)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L19-L21) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L55-L64)
 
 ## Could changing the fabric matrix change which event the decoder finds?
 
@@ -135,7 +135,7 @@ theorem decoded_records_frame_invariant (s : State) (Q : Particle → Mat) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L23-L24) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L70-L72)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L23-L24) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L70-L72)
 
 ## Would a modeled observer sense a different state after this turn?
 
@@ -160,7 +160,7 @@ theorem observations_frame_invariant (G : Geometry) (s : State) (Q : Particle �
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L26-L28) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L83-L90)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L26-L28) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L83-L90)
 
 ## Could the same memories acquire different retrieval weights after a turn?
 
@@ -185,7 +185,7 @@ theorem retrieval_frame_invariant (G : Geometry) (s : State) (Q : Particle → M
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L30-L32) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L104-L108)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L30-L32) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L104-L108)
 
 ## Would the instantaneous social response rates change?
 
@@ -210,7 +210,7 @@ theorem social_rates_frame_invariant (G : Geometry) (t : ℝ) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L34-L36) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L117-L123)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L34-L36) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L117-L123)
 
 ## What if we run the full rate calculation twice?
 
@@ -236,7 +236,7 @@ theorem accepted_rhs_social_frame_invariant (G : Geometry) (t : ℝ) (s d e : St
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L38-L41) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L134-L143)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L38-L41) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L134-L143)
 
 ## Can different orientations at the start and end change the event record?
 
@@ -263,7 +263,7 @@ theorem event_record_frame_invariant (s : State) (startF : Particle → Mat)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L43-L47) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L145-L155)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L43-L47) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L145-L155)
 
 ## Could turning the fabric change the bill for writing the same target?
 
@@ -288,7 +288,7 @@ theorem write_account_frame_invariant (G : Geometry) (s : State) (Q : Particle �
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L49-L51) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L162-L167)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L49-L51) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L162-L167)
 
 ## Does it matter whether we turn the fabric before or after writing?
 
@@ -313,7 +313,7 @@ theorem memory_write_frame_equivariant (G : Geometry) (s : State) (Q : Particle 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L53-L55) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L169-L193)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L53-L55) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L169-L193)
 
 ## If I shuffle a stack of records, does retrieval change?
 
@@ -338,7 +338,7 @@ theorem retrieval_ignores_list_order (G : Geometry) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L57-L59) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L201-L208)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L57-L59) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L201-L208)
 
 ## Could that shuffle change some other part of the full rate?
 
@@ -363,7 +363,7 @@ theorem full_rate_ignores_list_order (G : Geometry) (t : ℝ) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L61-L63) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L221-L224)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L61-L63) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L221-L224)
 
 ## What motion does the model actually assign to the deformation?
 
@@ -388,7 +388,7 @@ theorem actual_deformation_component (G : Geometry) (t : ℝ) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L65-L67) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L226-L229)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L65-L67) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L226-L229)
 
 ## What if both the frame and the fabric move in time?
 
@@ -414,7 +414,7 @@ theorem deformation_product_rule (Q F : ℝ → Mat) (dQ dF : Mat) (I : Set ℝ)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L69-L72) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L231-L238)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L69-L72) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L231-L238)
 
 ## Does turning the current fabric automatically turn its rate correctly?
 
@@ -442,7 +442,7 @@ theorem actual_full_rhs_frame_defect (G : Geometry) (t : ℝ) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L74-L79) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L240-L250)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L74-L79) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L240-L250)
 
 ## Does the chosen 90-degree turn really preserve lengths?
 
@@ -465,7 +465,7 @@ theorem quarter_turn_is_orthogonal : Orthogonal quarterTurn := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L81) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L252-L256)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L81) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L252-L256)
 
 ## Can the rate difference actually be nonzero?
 
@@ -489,7 +489,7 @@ theorem explicit_nonzero_frame_defect :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L83-L84) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L258-L260)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L83-L84) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L258-L260)
 
 ## Can an orthogonal turn always be moved past the rate matrix?
 
@@ -513,4 +513,4 @@ theorem naive_rotation_covariance_fails :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L86-L87) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L262-L266)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.lean#L86-L87) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L262-L266)

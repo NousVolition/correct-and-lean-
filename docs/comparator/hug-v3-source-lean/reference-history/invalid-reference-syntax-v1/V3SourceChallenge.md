@@ -2,18 +2,18 @@
 
 This preserved version joins the less-than sign to the following absolute-value bar in written_cell_restores_margin. Read the nine intended targets alongside the corrected reference in the preceding guide.
 
-[`V3SourceChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/comparator.json) · [Sources and credits](../../../CREDITS.md) · [All challenge files](../../../README.md)
+[`V3SourceChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/comparator.json) · [Sources and credits](../../../CREDITS.md) · [All challenge files](../../../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
+The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
 
-The active package retains and explains this earlier syntax revision. [Package history](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/README.md) · [Corrected reference](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceChallenge.lean).
+The active package retains and explains this earlier syntax revision. [Package history](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/README.md) · [Corrected reference](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceChallenge.lean).
 
-Primary files for this challenge. [V3SourceSystem](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceSystem.lean) · [Source audit](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/source-audit.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/lake-manifest.json).
+Primary files for this challenge. [V3SourceSystem](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceSystem.lean) · [Source audit](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/source-audit.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/lake-manifest.json).
 
 </details>
 
@@ -40,7 +40,7 @@ theorem rhs_fabric_equation (G : Geometry) (t : ℝ) (s d : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L6-L8) · [Proof for the corrected reference](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L20-L25)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L6-L8) · [Proof for the corrected reference](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L20-L25)
 
 ## Where does the accepted accumulator rate come from?
 
@@ -66,7 +66,7 @@ theorem rhs_accumulator_equation (G : Geometry) (t : ℝ) (s d : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L10-L13) · [Proof for the corrected reference](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L27-L32)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L10-L13) · [Proof for the corrected reference](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L27-L32)
 
 ## How negative can a cell’s fabric strain be?
 
@@ -90,7 +90,7 @@ theorem fabric_strain_lower_bound (F : Particle → Mat) (l : Cell) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L15-L16) · [Proof for the corrected reference](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L34-L39)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L15-L16) · [Proof for the corrected reference](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L34-L39)
 
 ## Which way does the positive read boundary move?
 
@@ -114,7 +114,7 @@ theorem positive_read_boundary_inward (F : Particle → Mat) (l : Cell) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L18-L19) · [Proof for the corrected reference](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L46-L51)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L18-L19) · [Proof for the corrected reference](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L46-L51)
 
 ## Exactly when does the negative read boundary move inward?
 
@@ -139,7 +139,7 @@ theorem negative_read_boundary_inward_iff (F : Particle → Mat) (l : Cell) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L21-L23) · [Proof for the corrected reference](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L60-L64)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L21-L23) · [Proof for the corrected reference](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L60-L64)
 
 ## What bound do you get if the squared column length is at most two?
 
@@ -164,7 +164,7 @@ theorem negative_read_boundary_under_two (F : Particle → Mat) (l : Cell)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L25-L27) · [Proof for the corrected reference](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L66-L70)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L25-L27) · [Proof for the corrected reference](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L66-L70)
 
 ## Can a stronger deformation reverse that sign?
 
@@ -188,7 +188,7 @@ theorem large_deformation_not_automatic :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L29-L30) · [Proof for the corrected reference](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L72-L74)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L29-L30) · [Proof for the corrected reference](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L72-L74)
 
 ## Does writing a cell restore a strict reading margin?
 
@@ -214,7 +214,7 @@ theorem written_cell_restores_margin (s : State) (slot : Fin 4) (bytes : List �
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L32-L35) · [Proof for the corrected reference](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L76-L85)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L32-L35) · [Proof for the corrected reference](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L76-L85)
 
 ## Which checksum does the test sequence produce?
 
@@ -238,4 +238,4 @@ theorem crc_reference_vector :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L37-L38) · [Proof for the corrected reference](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L88-L89)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/reference-history/invalid-reference-syntax-v1/V3SourceChallenge.lean#L37-L38) · [Proof for the corrected reference](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-source-lean/V3SourceProofs.lean#L88-L89)

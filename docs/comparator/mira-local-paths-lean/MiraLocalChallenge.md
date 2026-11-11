@@ -2,14 +2,14 @@
 
 Try joining paths without visiting any room twice. A connected graph can still contain a legal prefix that leaves no way to reach the last room.
 
-[`MiraLocalChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`MiraLocalChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean) · [MiraLocalDefinitions](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean) · [MiraLocalDefinitions](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/lake-manifest.json).
 
 </details>
 
@@ -42,7 +42,7 @@ theorem joining_preserves_no_repeats (p : G.Walk a b) (q : G.Walk b c)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L9-L11) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L8-L13)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L9-L11) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L8-L13)
 
 ## Do all routes built by the allowed joining rule stay simple?
 
@@ -72,7 +72,7 @@ theorem every_joined_route_is_a_path (p : G.Walk a b) (h : Joined G p) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L13-L14) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L15-L20)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L13-L14) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L15-L20)
 
 ## When is a joined route a tour of every chamber exactly once?
 
@@ -103,7 +103,7 @@ theorem joined_visits_every_chamber_once_iff_coverage [DecidableEq V]
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L16-L18) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L22-L25)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L16-L18) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L22-L25)
 
 ## Can you certify coverage by counting steps?
 
@@ -134,7 +134,7 @@ theorem joined_length_sufficient [DecidableEq V] [Fintype V]
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L20-L22) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L27-L31)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L20-L22) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L27-L31)
 
 ## Can a stuck prefix have a nonempty simple extension?
 
@@ -164,7 +164,7 @@ theorem stuck_prefix_has_no_simple_extension (p : G.Walk a b) (h : Stuck p)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L24-L25) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L33-L44)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L24-L25) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L33-L44)
 
 ## Do the example’s good local pieces really fit?
 
@@ -193,7 +193,7 @@ theorem good_local_units_join : Joined trapGraph goodRoute := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L27) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L46-L52)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L27) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L46-L52)
 
 ## Does that joined example finish the tour?
 
@@ -222,7 +222,7 @@ theorem good_complete_route : goodRoute.IsHamiltonian := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L29) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L54-L56)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L29) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L54-L56)
 
 ## Is failure in the trap caused by a disconnected map?
 
@@ -251,7 +251,7 @@ theorem trap_map_is_connected : trapGraph.Connected := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L31) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L58-L65)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L31) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L58-L65)
 
 ## Which route leads into the trap?
 
@@ -281,7 +281,7 @@ theorem trap_prefix_locally_valid : trapPrefix.IsPath ∧
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L33-L34) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L67-L69)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L33-L34) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L67-L69)
 
 ## Which room does that valid prefix leave out?
 
@@ -311,7 +311,7 @@ theorem trap_prefix_stuck_and_incomplete : Stuck trapPrefix ∧
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L36-L37) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L71-L73)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L36-L37) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L71-L73)
 
 ## Could appending a more clever suffix still finish it?
 
@@ -341,7 +341,7 @@ theorem trap_prefix_cannot_be_completed_by_appending (v : Fin 4)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L39-L40) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L75-L81)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L39-L40) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L75-L81)
 
 ## Can two individually good pieces share a room in the wrong place?
 
@@ -371,7 +371,7 @@ theorem individual_units_can_overlap : overlapFirst.IsPath ∧ overlapLast.IsPat
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L42-L43) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L83-L85)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L42-L43) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L83-L85)
 
 ## Why does their joined route fail?
 
@@ -401,7 +401,7 @@ theorem overlap_join_fails : ¬ (overlapFirst.append overlapLast).IsPath ∧
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L45-L46) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L87-L90)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L45-L46) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L87-L90)
 
 ## Is a good prefix already a full tour?
 
@@ -431,7 +431,7 @@ theorem valid_prefix_without_coverage_not_complete : goodFirst.IsPath ∧
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L48-L49) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L92-L97)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L48-L49) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L92-L97)
 
 ## Can two valid edge checks from different moments be mistaken for one route?
 
@@ -462,7 +462,7 @@ theorem changing_environment_mixed_checks_not_snapshot : oldGraph.Adj 0 1 ∧
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L51-L53) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L99-L102)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L51-L53) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L99-L102)
 
 ## How can a full Hug input certify a completed route?
 
@@ -494,7 +494,7 @@ theorem full_hug_interface_joins [DecidableEq V]
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L55-L58) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L104-L108)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L55-L58) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L104-L108)
 
 ## Which guard does the interface read?
 
@@ -526,7 +526,7 @@ theorem original_guard_is_unchanged (input : PersonEnvironment.HugInput)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L60-L63) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L110-L114)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L60-L63) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L110-L114)
 
 ## Which memory does the interface retrieve?
 
@@ -560,4 +560,4 @@ theorem original_retrieval_is_unchanged (G : HugV3.Source.Geometry)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L65-L70) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L116-L122)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalChallenge.lean#L65-L70) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/mira-local-paths-lean/MiraLocalProofs.lean#L116-L122)

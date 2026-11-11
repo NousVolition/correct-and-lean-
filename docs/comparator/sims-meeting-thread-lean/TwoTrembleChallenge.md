@@ -2,18 +2,18 @@
 
 Compare a sound clue, a remembered action and a generic witness. One clue can distinguish the moments only when the view retains the corresponding difference.
 
-[`TwoTrembleChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`TwoTrembleChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The Traveller examples come from the repository’s SIMS model and study records. [Original model and studies](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/README.md).
+The Traveller examples come from the repository’s SIMS model and study records. [Original model and studies](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/README.md).
 
-The trial counts use the saved simulated reports and their project coding. [Study protocol](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/observations/two-trembles/protocol.json) · [Trial readings](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/observations/two-trembles/readings.tsv) · [Full reports](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/observations/two-trembles/reports.json).
+The trial counts use the saved simulated reports and their project coding. [Study protocol](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/observations/two-trembles/protocol.json) · [Trial readings](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/observations/two-trembles/readings.tsv) · [Full reports](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/observations/two-trembles/reports.json).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/SimsMeeting.lean) · [TwoTrembleReadings](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleReadings.lean) · [Package account](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/README.md) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/SimsMeeting.lean) · [TwoTrembleReadings](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleReadings.lean) · [Package account](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/README.md) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/lake-manifest.json).
 
 </details>
 
@@ -39,7 +39,7 @@ theorem direct_sound_open (actions sounds : OrderedMarks) (clue : Mark) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L7-L8) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L6-L9)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L7-L8) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L6-L9)
 
 ## What does replay add when the two sounds differ?
 
@@ -65,7 +65,7 @@ theorem replay_selects_distinct_sound (actions : OrderedMarks) (x y : Mark)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L10-L13) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L11-L15)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L10-L13) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L11-L15)
 
 ## Can an action already remembered identify the moment without replay?
 
@@ -93,7 +93,7 @@ theorem retained_landmark_selects_in_both_views (sounds : OrderedMarks) (x y : M
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L15-L20) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L17-L23)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L15-L20) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L17-L23)
 
 ## How much does a generic witness distinguish?
 
@@ -116,7 +116,7 @@ theorem generic_witness_open (v : View) : resolve v .generic = none := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L22) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L25)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L22) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L25)
 
 ## What if both moments had the same sound?
 
@@ -140,7 +140,7 @@ theorem shared_sound_still_open_on_replay (actions : OrderedMarks) (heard : Mark
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L24-L25) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L27-L29)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L24-L25) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L27-L29)
 
 ## Could some better rule identify both hidden orders from the direct view alone?
 
@@ -168,7 +168,7 @@ theorem no_direct_rule_can_identify_both_twins
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L27-L32) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L34-L44)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L27-L32) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L34-L44)
 
 ## Were all the registered comparisons recorded?
 
@@ -193,7 +193,7 @@ theorem all_registered_pairs_recorded :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L34-L36) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L48-L50)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L34-L36) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L48-L50)
 
 ## What did the sound-only clue do in the recorded comparisons?
 
@@ -218,7 +218,7 @@ theorem recorded_sound_counts :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L38-L40) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L52-L54)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L38-L40) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L52-L54)
 
 ## What happened with a remembered landmark?
 
@@ -243,7 +243,7 @@ theorem recorded_landmark_counts :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L42-L44) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L56-L58)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L42-L44) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L56-L58)
 
 ## What happened with a generic clue?
 
@@ -268,7 +268,7 @@ theorem recorded_generic_counts :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L46-L48) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L60-L62)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L46-L48) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L60-L62)
 
 ## Do the specified resolver and the saved answers agree case by case?
 
@@ -293,4 +293,4 @@ theorem recorded_answers_agree_with_resolver :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L50-L52) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L66-L68)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleChallenge.lean#L50-L52) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/sims-meeting-thread-lean/TwoTrembleProofs.lean#L66-L68)

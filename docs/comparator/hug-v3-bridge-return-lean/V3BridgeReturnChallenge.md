@@ -2,16 +2,16 @@
 
 Separate a person’s observable destination, accumulated write work and a record’s changing relevance. Each can be read directly from a different part of the state.
 
-[`V3BridgeReturnChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`V3BridgeReturnChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
+The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean) · [V3BridgeReturnDefinitions](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean) · [V3BridgeReturnDefinitions](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/lake-manifest.json).
 
 </details>
 
@@ -37,7 +37,7 @@ theorem write_preserves_person_group_state (G : Geometry) (s w : State) (r : Rec
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L8-L9) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L38-L42)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L8-L9) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L38-L42)
 
 ## Does writing a record change the source accumulator?
 
@@ -61,7 +61,7 @@ theorem write_preserves_source_accumulator (G : Geometry) (s w : State) (r : Rec
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L11-L12) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L44-L48)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L11-L12) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L44-L48)
 
 ## Can accumulated write work decrease on acceptance?
 
@@ -85,7 +85,7 @@ theorem write_work_nondecreasing (G : Geometry) (s w : State) (r : Record)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L14-L15) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L50-L55)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L14-L15) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L50-L55)
 
 ## Can the observer still recognize the same destination after a write?
 
@@ -111,7 +111,7 @@ theorem write_preserves_destination {Ω : Type} (observe : SocialSnapshot → Ω
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L17-L20) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L57-L61)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L17-L20) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L57-L61)
 
 ## Can you return to the same observed destination in a different state?
 
@@ -137,7 +137,7 @@ theorem same_destination_with_new_residue {Ω : Type} (observe : SocialSnapshot 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L22-L25) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L63-L70)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L22-L25) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L63-L70)
 
 ## Can a new write erase bytes in an already occupied slot?
 
@@ -163,7 +163,7 @@ theorem successful_write_retains_occupied_slot_bytes (G : Geometry) (s w : State
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L27-L30) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L92-L107)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L27-L30) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L92-L107)
 
 ## Can the decoded record list drift between writes on a solving trace?
 
@@ -188,7 +188,7 @@ theorem full_trace_retains_records_between_writes (tr : Trace) (hsol : Solves tr
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L32-L34) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L109-L112)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L32-L34) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L109-L112)
 
 ## What keeps the fabric memory buffer durable across the schedule?
 
@@ -216,7 +216,7 @@ theorem conditional_fabric_durability_through_full_trace (tr : Trace) (hsol : So
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L36-L41) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L114-L120)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L36-L41) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L114-L120)
 
 ## Does accumulated write work change while a segment simply evolves?
 
@@ -241,7 +241,7 @@ theorem full_trace_write_work_constant_between_writes (tr : Trace) (hsol : Solve
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L43-L45) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L131-L162)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L43-L45) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L131-L162)
 
 ## Can the write-work total decline from checkpoint to checkpoint?
 
@@ -265,7 +265,7 @@ theorem full_trace_write_work_nondecreasing_at_checkpoints (tr : Trace) (hsol : 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L47-L48) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L187-L194)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L47-L48) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L187-L194)
 
 ## What prevents a complete reset to the initial state?
 
@@ -290,7 +290,7 @@ theorem positive_write_work_precludes_full_reset (tr : Trace) (hsol : Solves tr)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L50-L52) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L196-L201)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L50-L52) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L196-L201)
 
 ## How much relevance can a positive-duration event carry?
 
@@ -315,7 +315,7 @@ theorem record_relevance_positive_and_bounded (G : Geometry) (s : State) (r : Re
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L54-L56) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L203-L217)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L54-L56) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L203-L217)
 
 ## Can an unchanged record matter more later?
 
@@ -344,7 +344,7 @@ theorem stable_record_with_changed_relevance (G : Geometry) (s : State) (r : Rec
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L58-L64) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L219-L226)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L58-L64) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L219-L226)
 
 ## Does the declared event route come back to the first teacher?
 
@@ -370,7 +370,7 @@ theorem declared_route_closes_at_first_teacher :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L66-L69) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L228-L233)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L66-L69) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L228-L233)
 
 ## Is there another declared reply to the student after that return?
 
@@ -395,7 +395,7 @@ theorem no_later_declared_reply_to_student :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L71-L73) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L235-L245)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L71-L73) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L235-L245)
 
 ## Can the engagement example start exactly at the stated intent?
 
@@ -419,7 +419,7 @@ theorem witness_preserves_original_intent_expression (G : Geometry) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L75-L76) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L247-L248)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L75-L76) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L247-L248)
 
 ## Can expression begin moving away even there?
 
@@ -444,7 +444,7 @@ theorem expression_rate_can_leave_intent (G : Geometry) (t : ℝ)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L78-L80) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L250-L255)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L78-L80) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L250-L255)
 
 ## Does that motion appear in an accepted full calculation?
 
@@ -468,4 +468,4 @@ theorem accepted_full_rate_can_leave_intent (G : Geometry) (t : ℝ) (rate : Sta
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L82-L83) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L257-L264)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnChallenge.lean#L82-L83) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-bridge-return-lean/V3BridgeReturnProofs.lean#L257-L264)

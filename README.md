@@ -6,6 +6,8 @@
 
 A file ending in `Challenge.lean` states or collects the claims a solution must prove. The word `sorry` marks the space where a proof would go in that reference. To read the proof, look for `solution_module` in the package’s `comparator.json`. The automated checks reject proof placeholders in that module and its local imports, and check which axioms each listed theorem uses. [Read the challenges in everyday language](docs/comparator/README.md) · [Sources and credits](docs/comparator/CREDITS.md).
 
+[Browse the Hug and SIMS proof and study index](hug-sims-proof-index.md) for all 31 README guides, including the plain-language theorem reader.
+
 ## Find a specific study
 
 | Question | Where to start |

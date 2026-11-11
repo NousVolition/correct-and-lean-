@@ -2,18 +2,18 @@
 
 Four namespaces ask about fabric probes, A/S bounds, events in a combined state and delay. Jump from a particular question to its own assumptions and proof.
 
-[`GeminiChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`GeminiChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The project creator identifies the supplied material as coming through an audit in Codex. The source receipts identify the four attached Lean modules and their preserved copies. They establish the source files and the subsequent repairs. The earlier writer of each attachment is unspecified. [Original four attachments](https://github.com/NousVolition/correct-and-lean-/tree/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/originals) · [Attachment receipt](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/source-receipt.json) · [Audit and repairs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/Lean-review.md).
+The project creator identifies the supplied material as coming through an audit in Codex. The source receipts identify the four attached Lean modules and their preserved copies. They establish the source files and the subsequent repairs. The earlier writer of each attachment is unspecified. [Original four attachments](https://github.com/NousVolition/hug-sims-lean-proofs/tree/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/originals) · [Attachment receipt](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/source-receipt.json) · [Audit and repairs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/Lean-review.md).
 
 The review names these independent research sources for the interpretation of perception and bracing. [Manassi and Whitney, Science Advances (2022)](https://doi.org/10.1126/sciadv.abk2480) · [Iwamoto, Nakahira and Sugiyama, ESV paper 11-0150 (2011)](https://www-nrd.nhtsa.dot.gov/departments/esv/22nd/files/22ESV-000150.pdf).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/AllGeminiProofs.lean) · [ASModel](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASModel.lean) · [V3EventSpecification](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/V3EventSpecification.lean) · [Package account](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/README.md) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/AllGeminiProofs.lean) · [ASModel](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASModel.lean) · [V3EventSpecification](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/V3EventSpecification.lean) · [Package account](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/README.md) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/lake-manifest.json).
 
 </details>
 
@@ -39,7 +39,7 @@ theorem two_load_probe_recovers_rest_strain (k e q b : ℝ) (hk : k ≠ 0) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L41-L42) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L39-L43)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L41-L42) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L39-L43)
 
 ## How close can a perturbed cell stay without losing its bit?
 
@@ -65,7 +65,7 @@ theorem sign_constant_on_margin_ball {a margin b₀ b : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L50-L53) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L55-L80)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L50-L53) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L55-L80)
 
 ## Can this fabric term produce negative heat?
 
@@ -89,7 +89,7 @@ theorem fabric_heat_nonneg {mobility k wellHeight a e b : ℝ} (hmob : 0 ≤ mob
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L64-L65) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L94-L96)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L64-L65) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L94-L96)
 
 ## How is traction related to the fabric gradient?
 
@@ -114,7 +114,7 @@ theorem traction_eq_neg_elastic_gradient (k wellHeight a e b : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L67-L69) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L100-L104)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L67-L69) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L100-L104)
 
 ## How small can the power limiter’s denominator get?
 
@@ -139,7 +139,7 @@ theorem power_limiter_den_ge_floor {powerFloor eta available rawpower : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L79-L81) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L116-L121)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L79-L81) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L116-L121)
 
 ## Is that denominator safe to divide by?
 
@@ -164,7 +164,7 @@ theorem power_limiter_den_pos {powerFloor eta available rawpower : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L83-L85) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L123-L126)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L83-L85) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L123-L126)
 
 ## Can the limiter give a value outside zero to one?
 
@@ -190,7 +190,7 @@ theorem power_limiter_in_unit_interval {powerFloor eta available rawpower : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L87-L90) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L130-L151)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L87-L90) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L130-L151)
 
 ## Why does the three-image sum agree for opposite offsets?
 
@@ -215,7 +215,7 @@ theorem three_image_shifted_squares_even (f : ℝ → ℝ) (delta : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L92-L94) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L158-L165)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L92-L94) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/HugV3InterEventProofs.lean#L158-L165)
 
 ## Can the positive part of a number be negative?
 
@@ -238,7 +238,7 @@ theorem pos_nonneg (x : ℝ) : 0 ≤ pos x := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L132) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L36-L37)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L132) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L36-L37)
 
 ## Can taking a positive part make a number smaller?
 
@@ -261,7 +261,7 @@ theorem self_le_pos (x : ℝ) : x ≤ pos x := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L134) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L39-L40)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L134) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L39-L40)
 
 ## What happens to an already nonnegative number?
 
@@ -284,7 +284,7 @@ theorem pos_of_nonneg {x : ℝ} (hx : 0 ≤ x) : pos x = x := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L136) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L42-L43)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L136) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L42-L43)
 
 ## What if the number is zero or negative?
 
@@ -307,7 +307,7 @@ theorem pos_of_nonpos {x : ℝ} (hx : x ≤ 0) : pos x = 0 := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L138) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L45-L46)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L138) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L45-L46)
 
 ## Which value does the positive-part helper return throughout the nonpositive range?
 
@@ -330,7 +330,7 @@ theorem pos_eq_zero_of_nonpos {x : ℝ} (hx : x ≤ 0) : pos x = 0 := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L140) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L48-L49)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L140) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L48-L49)
 
 ## Can taking positive parts increase the distance between two numbers?
 
@@ -353,7 +353,7 @@ theorem abs_pos_sub_pos_le (x y : ℝ) : |pos x - pos y| ≤ |x - y| := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L142) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L51-L59)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L142) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L51-L59)
 
 ## Which number represents a false indicator?
 
@@ -376,7 +376,7 @@ theorem indicator_false : indicator false = 0 := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L144) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L61)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L144) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L61)
 
 ## Which number represents a true indicator?
 
@@ -399,7 +399,7 @@ theorem indicator_true : indicator true = 1 := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L146) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L63)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L146) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L63)
 
 ## Can the indicator escape the unit interval?
 
@@ -422,7 +422,7 @@ theorem indicator_unit (b : Bool) : UnitInterval (indicator b) := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L148) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L65-L66)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L148) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L65-L66)
 
 ## Why is saturation nonnegative?
 
@@ -446,7 +446,7 @@ theorem saturation_nonneg {L scale : ℝ} (hL : 0 ≤ L) (hs : 0 < scale) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L150-L151) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L70-L73)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L150-L151) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L70-L73)
 
 ## How much room remains below saturation one?
 
@@ -470,7 +470,7 @@ theorem one_sub_saturation {L scale : ℝ} (hne : L + scale ≠ 0) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L153-L154) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L75-L79)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L153-L154) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L75-L79)
 
 ## Could saturation exceed one?
 
@@ -494,7 +494,7 @@ theorem saturation_le_one {L scale : ℝ} (hL : 0 ≤ L) (hs : 0 < scale) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L156-L157) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L81-L88)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L156-L157) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L81-L88)
 
 ## Where can the saturation value lie?
 
@@ -518,7 +518,7 @@ theorem saturation_unit {L scale : ℝ} (hL : 0 ≤ L) (hs : 0 < scale) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L159-L160) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L90-L92)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L159-L160) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L90-L92)
 
 ## Does applying a bounded gain preserve that range?
 
@@ -543,7 +543,7 @@ theorem effect_unit {gain L scale : ℝ} (hg : UnitInterval gain)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L162-L164) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L94-L102)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L162-L164) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L94-L102)
 
 ## How is forward chi bounded?
 
@@ -568,7 +568,7 @@ theorem chiForward_unit {p : Parameters} {x : State}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L166-L168) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L104-L109)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L166-L168) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L104-L109)
 
 ## How is reverse chi bounded?
 
@@ -593,7 +593,7 @@ theorem chiReverse_unit {p : Parameters} {x : State}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L170-L172) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L111-L116)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L170-L172) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L111-L116)
 
 ## Can forward theta exceed its permitted range?
 
@@ -618,7 +618,7 @@ theorem thetaForward_unit {p : Parameters} {x : State}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L174-L176) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L118-L123)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L174-L176) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L118-L123)
 
 ## What range does reverse theta occupy?
 
@@ -643,7 +643,7 @@ theorem thetaReverse_unit {p : Parameters} {x : State}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L178-L180) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L125-L130)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L178-L180) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L125-L130)
 
 ## How does saturation respond to two different loads?
 
@@ -669,7 +669,7 @@ theorem saturation_sub_identity {L₁ L₂ scale : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L182-L185) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L132-L138)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L182-L185) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L132-L138)
 
 ## How sensitive is saturation to a change of load?
 
@@ -694,7 +694,7 @@ theorem saturation_lipschitz {L₁ L₂ scale : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L187-L189) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L140-L160)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L187-L189) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L140-L160)
 
 ## Which drift does index zero select?
 
@@ -718,7 +718,7 @@ theorem generalSDrift_zero (p : Parameters) (x : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L191-L192) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L164-L166)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L191-L192) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L164-L166)
 
 ## Which drift does index one select?
 
@@ -742,7 +742,7 @@ theorem generalSDrift_one (p : Parameters) (x : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L194-L195) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L168-L170)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L194-L195) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L168-L170)
 
 ## What accounts for the combined Smoke and Clay drift?
 
@@ -770,7 +770,7 @@ theorem total_S_drift_balance (p : Parameters) (x : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L197-L202) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L172-L179)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L197-L202) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L172-L179)
 
 ## How much can exchange change when only the gap varies?
 
@@ -795,7 +795,7 @@ theorem exchange_lipschitz_in_gap {w chi : ℝ} (hw : 0 ≤ w) (hchi : UnitInter
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L204-L206) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L181-L204)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L204-L206) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L181-L204)
 
 ## Can a zero load decrease?
 
@@ -820,7 +820,7 @@ theorem loadDrift_nonneg_at_zero {alpha exposure clear : ℝ} (h : Bool)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L208-L210) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L208-L212)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L208-L210) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L208-L212)
 
 ## What is the exact drift difference for two load levels?
 
@@ -845,7 +845,7 @@ theorem loadDrift_lipschitz_in_L (alpha : ℝ) (h : Bool) (exposure clear L₁ L
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L212-L214) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L214-L218)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L212-L214) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L214-L218)
 
 ## Can blended meaning fall outside the range of admissible meanings?
 
@@ -870,7 +870,7 @@ theorem receivedMeaning_unit {theta z imposed : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L216-L218) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L220-L227)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L216-L218) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L220-L227)
 
 ## Can the meaning rate have a negative sign?
 
@@ -895,7 +895,7 @@ theorem meaningRate_nonneg {w chi S scale : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L220-L222) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L229-L236)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L220-L222) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L229-L236)
 
 ## Which way does the meaning drift point at zero?
 
@@ -921,7 +921,7 @@ theorem meaningDrift_nonneg_at_zero {rate received clarify reference : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L224-L227) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L238-L245)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L224-L227) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L238-L245)
 
 ## Which way does it point at one?
 
@@ -947,7 +947,7 @@ theorem meaningDrift_nonpos_at_one {rate received clarify reference : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L229-L232) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L247-L254)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L229-L232) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L247-L254)
 
 ## Can the Smoke meaning drift point below the lower boundary?
 
@@ -972,7 +972,7 @@ theorem smokeMeaningDrift_nonneg_at_zero {p : Parameters} {i : Inputs} {x : Stat
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L234-L236) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L256-L269)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L234-L236) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L256-L269)
 
 ## Can Smoke’s drift point above the upper boundary?
 
@@ -997,7 +997,7 @@ theorem smokeMeaningDrift_nonpos_at_one {p : Parameters} {i : Inputs} {x : State
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L238-L240) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L271-L284)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L238-L240) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L271-L284)
 
 ## Can Clay’s meaning drift point down from zero?
 
@@ -1022,7 +1022,7 @@ theorem clayMeaningDrift_nonneg_at_zero {p : Parameters} {i : Inputs} {x : State
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L242-L244) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L286-L299)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L242-L244) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L286-L299)
 
 ## Can Clay’s meaning drift point up from one?
 
@@ -1047,7 +1047,7 @@ theorem clayMeaningDrift_nonpos_at_one {p : Parameters} {i : Inputs} {x : State}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L246-L248) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L301-L314)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L246-L248) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L301-L314)
 
 ## What range does the opening weight occupy?
 
@@ -1072,7 +1072,7 @@ theorem opening_unit {g p0 r rStar : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L250-L252) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L318-L335)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L250-L252) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L318-L335)
 
 ## What range does the registration weight occupy?
 
@@ -1097,7 +1097,7 @@ theorem registration_unit {eta z challenge : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L254-L256) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L337-L350)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L254-L256) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L337-L350)
 
 ## Does switching registration on or off preserve that bound?
 
@@ -1122,7 +1122,7 @@ theorem conditionalRegistration_unit {eta z challenge : ℝ} (B : Bool)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L258-L260) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L352-L358)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L258-L260) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L352-L358)
 
 ## Can any of the three branch weights be negative?
 
@@ -1146,7 +1146,7 @@ theorem branches_nonneg {p q : ℝ} (hp : UnitInterval p) (hq : UnitInterval q) 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L262-L263) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L360-L365)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L262-L263) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L360-L365)
 
 ## Do the three branch weights exhaust the total?
 
@@ -1170,7 +1170,7 @@ theorem branches_sum_eq_one (p q : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L265-L266) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L367-L370)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L265-L266) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L367-L370)
 
 ## What does the update do when its condition is false?
 
@@ -1194,7 +1194,7 @@ theorem update_false_eq_self (beta : ℝ) (H M : Meaning) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L268-L269) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L372-L375)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L268-L269) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L372-L375)
 
 ## Do meaning probabilities still form a distribution after an update?
 
@@ -1219,7 +1219,7 @@ theorem update_preserves_simplex {beta : ℝ} (C : Bool) {H M : Meaning}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L271-L273) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L377-L396)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L271-L273) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L377-L396)
 
 ## Can two integral solutions disagree on the accumulator at the chosen time?
 
@@ -1247,7 +1247,7 @@ theorem integralSolution_unique_A {p : Parameters} {i : ℝ → Inputs} {t0 T : 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L275-L280) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L403-L410)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L275-L280) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L403-L410)
 
 ## How can you compute the difference between two solution coordinates?
 
@@ -1276,7 +1276,7 @@ theorem integralSolution_sub_eq {p : Parameters} {i : ℝ → Inputs} {t0 T : �
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L282-L288) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L414-L427)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L282-L288) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L414-L427)
 
 ## When does equality of the drifts force a coordinate match?
 
@@ -1306,7 +1306,7 @@ theorem integralSolution_coord_unique_of_drift_eq {p : Parameters} {i : ℝ → 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L290-L297) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L430-L442)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L290-L297) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/ASProofs.lean#L430-L442)
 
 ## Is the combined state’s product representation continuous?
 
@@ -1329,7 +1329,7 @@ theorem continuous_toProd : Continuous CombinedState.toProd := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L375) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L77-L78)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L375) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L77-L78)
 
 ## Can one read the A/S component continuously from the combined state?
 
@@ -1352,7 +1352,7 @@ theorem continuous_asState : Continuous CombinedState.asState := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L377) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L80-L81)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L377) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L80-L81)
 
 ## What about reading the meaning distribution?
 
@@ -1375,7 +1375,7 @@ theorem continuous_meaningDist : Continuous CombinedState.meaningDist := by sorr
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L379) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L83-L84)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L379) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L83-L84)
 
 ## Can one read the fabric coordinate continuously?
 
@@ -1398,7 +1398,7 @@ theorem continuous_fabricCoord : Continuous CombinedState.fabricCoord := by sorr
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L381) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L86-L87)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L381) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L86-L87)
 
 ## What does a nonzero-stiffness probe recover?
 
@@ -1422,7 +1422,7 @@ theorem combined_probe_recovers_rest_strain (k load b : ℝ) (hk : k ≠ 0) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L400-L401) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L108-L112)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L400-L401) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L108-L112)
 
 ## Does probing an encoded bit recover its written level?
 
@@ -1446,7 +1446,7 @@ theorem combined_probe_recovers_written_bit (k load a : ℝ) (bit : Bool) (hk : 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L403-L404) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L114-L116)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L403-L404) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L114-L116)
 
 ## What is the magnitude of a written bit?
 
@@ -1470,7 +1470,7 @@ theorem abs_writtenBit_eq {a : ℝ} (ha : 0 < a) (bit : Bool) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L406-L407) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L118-L124)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L406-L407) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L118-L124)
 
 ## Does a newly written bit clear the specified well margin?
 
@@ -1495,7 +1495,7 @@ theorem written_bit_satisfies_well_margin {a margin : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L409-L411) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L126-L130)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L409-L411) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L126-L130)
 
 ## How low can the combined model’s positive-part input go?
 
@@ -1518,7 +1518,7 @@ theorem pos_nonneg (x : ℝ) : 0 ≤ pos x := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L413) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L134-L135)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L413) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L134-L135)
 
 ## Can a combined-model Boolean indicator exceed one?
 
@@ -1541,7 +1541,7 @@ theorem indicator_unit (b : Bool) : UnitInterval (indicator b) := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L415) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L137-L138)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L415) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L137-L138)
 
 ## Can Clay’s opportunity activation become negative?
 
@@ -1565,7 +1565,7 @@ theorem clay_opportunity_nonneg {p : Parameters} (hp : ParametersOK p) (x : Soci
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L417-L418) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L140-L144)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L417-L418) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L140-L144)
 
 ## How large is the opening in a valid Clay encounter?
 
@@ -1590,7 +1590,7 @@ theorem clay_opening_unit {p : Parameters} (hp : ParametersOK p) (x : SocialAS.S
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L420-L422) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L146-L173)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L420-L422) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L146-L173)
 
 ## Where does Smoke’s conditional registration land?
 
@@ -1616,7 +1616,7 @@ theorem smoke_conditionalRegistration_unit {p : Parameters} {x : SocialAS.State}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L424-L427) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L175-L194)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L424-L427) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L175-L194)
 
 ## Are the actual three Clay-encounter weights a distribution?
 
@@ -1646,7 +1646,7 @@ theorem clay_encounter_branches_simplex {p : Parameters} {x : SocialAS.State}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L429-L436) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L196-L211)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L429-L436) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L196-L211)
 
 ## Can the combined update preserve the meaning simplex?
 
@@ -1671,7 +1671,7 @@ theorem update_preserves_simplex {beta : ℝ} (C : Bool) {H M : SocialAS.Meaning
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L438-L440) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L215-L233)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L438-L440) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L215-L233)
 
 ## Can an encounter preserve validity and still cause a jump?
 
@@ -1704,7 +1704,7 @@ theorem combined_event_preserves_valid_and_jumps
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L442-L452) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L235-L256)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L442-L452) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L235-L256)
 
 ## Can the social path be continuous when the whole path jumps?
 
@@ -1734,7 +1734,7 @@ theorem combined_trajectory_continuous_AS_but_discontinuous_full
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L454-L461) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L264-L284)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L454-L461) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L264-L284)
 
 ## When do two paths give the same event output and bit reading?
 
@@ -1770,7 +1770,7 @@ theorem combined_hybrid_uniqueness_transfer
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L463-L476) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L292-L312)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L463-L476) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/CombinedASHugProofs.lean#L292-L312)
 
 ## Where does a delay look during the first step?
 
@@ -1795,7 +1795,7 @@ theorem sub_tau_mem_history_window {t0 tau t s : ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L563-L565) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/DelayedReflexASProofs.lean#L86-L92)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L563-L565) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/DelayedReflexASProofs.lean#L86-L92)
 
 ## What gives coordinate agreement on the delay step?
 
@@ -1824,7 +1824,7 @@ theorem delayedSolution_unique_on_step
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L567-L573) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/DelayedReflexASProofs.lean#L99-L114)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L567-L573) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/DelayedReflexASProofs.lean#L99-L114)
 
 ## Is there a time when the reflex has acted but the registration lookup still predates the hazard?
 
@@ -1854,7 +1854,7 @@ theorem reflex_acts_before_conscious_registration
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L575-L582) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/DelayedReflexASProofs.lean#L126-L135)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L575-L582) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/DelayedReflexASProofs.lean#L126-L135)
 
 ## Can the faster modeled reflex beat the cut distance?
 
@@ -1883,7 +1883,7 @@ theorem faster_reflex_prevents_cut
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L584-L590) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/DelayedReflexASProofs.lean#L142-L149)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L584-L590) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/DelayedReflexASProofs.lean#L142-L149)
 
 ## How does the brace change peak traction in this model?
 
@@ -1909,7 +1909,7 @@ theorem unbraced_peak_stress_lt_braced
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L592-L595) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/DelayedReflexASProofs.lean#L157-L167)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L592-L595) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/DelayedReflexASProofs.lean#L157-L167)
 
 ## When do the two cases fall on opposite sides of the critical stress?
 
@@ -1937,7 +1937,7 @@ theorem unbraced_survives_crash_window
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L597-L602) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/DelayedReflexASProofs.lean#L174-L181)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L597-L602) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/DelayedReflexASProofs.lean#L174-L181)
 
 ## Can two distinct empty coordinates lead to the same written bit?
 
@@ -1966,4 +1966,4 @@ theorem mirror_write_is_many_to_one {a margin : ℝ} (ha : 0 < a) (hm : 0 < marg
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L604-L610) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/DelayedReflexASProofs.lean#L191-L202)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/GeminiChallenge.lean#L604-L610) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-gemini-review/DelayedReflexASProofs.lean#L191-L202)

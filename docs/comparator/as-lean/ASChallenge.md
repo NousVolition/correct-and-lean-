@@ -2,16 +2,16 @@
 
 Track a load from saturation through exchange, meaning, opening and registration. The final equations give explicit paths for accumulation and clearing.
 
-[`ASChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`ASChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The package preserves the source A/S register and input protocol for the returning-student model. [A/S equation register](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/source-equations.json) · [A/S source protocol](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/source-protocol.json).
+The package preserves the source A/S register and input protocol for the returning-student model. [A/S equation register](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/source-equations.json) · [A/S source protocol](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/source-protocol.json).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean) · [ASModel](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASModel.lean) · [Package account](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/README.md) · [Source equations](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/source-equations.json) · [Source protocol](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/source-protocol.json) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean) · [ASModel](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASModel.lean) · [Package account](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/README.md) · [Source equations](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/source-equations.json) · [Source protocol](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/source-protocol.json) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/lake-manifest.json).
 
 </details>
 
@@ -37,7 +37,7 @@ theorem saturation_bounds (L s : ℝ) (hL : 0 ≤ L) (hs : 0 < s) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L9-L10) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L11-L16)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L9-L10) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L11-L16)
 
 ## Can the effect exceed its allowed range?
 
@@ -61,7 +61,7 @@ theorem effect_bounds (g L s : ℝ) (hg : UnitInterval g) (hL : 0 ≤ L) (hs : 0
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L11-L12) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L17-L25)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L11-L12) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L17-L25)
 
 ## Can exchange increase the unadjusted transfer?
 
@@ -85,7 +85,7 @@ theorem exchange_no_increase (w chi gap : ℝ) (hw : 0 ≤ w) (hc : 0 ≤ chi) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L13-L14) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L26-L31)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L13-L14) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L26-L31)
 
 ## What happens when the gap is negative or zero?
 
@@ -109,7 +109,7 @@ theorem exchange_negative_unchanged (w chi gap : ℝ) (hgap : gap ≤ 0) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L15-L16) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L32-L34)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L15-L16) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L32-L34)
 
 ## Can a larger gap give a smaller exchange?
 
@@ -133,7 +133,7 @@ theorem exchange_monotone (w chi a b : ℝ) (hw : 0 ≤ w) (hc : UnitInterval ch
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L17-L18) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L35-L55)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L17-L18) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L35-L55)
 
 ## What does the general drift rule give for Smoke?
 
@@ -157,7 +157,7 @@ theorem general_smoke_agrees (p : Parameters) (x : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L19-L20) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L56-L58)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L19-L20) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L56-L58)
 
 ## What does the same rule give for Clay?
 
@@ -181,7 +181,7 @@ theorem general_clay_agrees (p : Parameters) (x : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L21-L22) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L59-L61)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L21-L22) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L59-L61)
 
 ## What survives when you add the two influence rates?
 
@@ -209,7 +209,7 @@ theorem total_influence_balance (p : Parameters) (x : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L23-L28) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L62-L73)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L23-L28) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L62-L73)
 
 ## Can a received meaning land outside the unit interval?
 
@@ -234,7 +234,7 @@ theorem received_meaning_bounds (theta z imposed : ℝ)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L29-L31) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L74-L84)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L29-L31) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L74-L84)
 
 ## How large can the meaning rate be?
 
@@ -259,7 +259,7 @@ theorem meaning_rate_bounds (w chi S s : ℝ) (hw : 0 ≤ w)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L32-L34) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L85-L96)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L32-L34) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L85-L96)
 
 ## Which way can meaning move when it starts at zero?
 
@@ -284,7 +284,7 @@ theorem meaning_lower_boundary (k received clear ref : ℝ)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L35-L37) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L97-L101)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L35-L37) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L97-L101)
 
 ## Which way can meaning move when it starts at one?
 
@@ -309,7 +309,7 @@ theorem meaning_upper_boundary (k received clear ref : ℝ)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L38-L40) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L102-L107)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L38-L40) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L102-L107)
 
 ## Can the load start decreasing at zero?
 
@@ -334,7 +334,7 @@ theorem load_lower_boundary (alpha exposure clear : ℝ) (h : Bool)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L41-L43) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L108-L113)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L41-L43) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L108-L113)
 
 ## Can activation be negative?
 
@@ -358,7 +358,7 @@ theorem activation_nonnegative (clay threshold : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L44-L45) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L114-L116)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L44-L45) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L114-L116)
 
 ## Can opening exceed its gain?
 
@@ -383,7 +383,7 @@ theorem opening_bounds (g p0 r s : ℝ) (hg : UnitInterval g)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L46-L48) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L117-L133)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L46-L48) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L117-L133)
 
 ## How much registration can survive a challenge?
 
@@ -408,7 +408,7 @@ theorem registration_bounds (eta z v : ℝ) (he : UnitInterval eta)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L49-L51) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L134-L145)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L49-L51) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L134-L145)
 
 ## What gets registered if the opening is closed?
 
@@ -432,7 +432,7 @@ theorem no_opening_no_registration (eta z v : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L52-L53) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L146-L148)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L52-L53) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L146-L148)
 
 ## What happens when qualification and challenge are both complete?
 
@@ -456,7 +456,7 @@ theorem fully_qualified_blocks_challenge (eta : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L54-L55) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L149-L151)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L54-L55) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L149-L151)
 
 ## What happens to registration when challenge is zero?
 
@@ -480,7 +480,7 @@ theorem confirmation_unchanged (eta z : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L56-L57) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L152-L154)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L56-L57) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L152-L154)
 
 ## Do the encounter branches form a distribution?
 
@@ -504,7 +504,7 @@ theorem branch_distribution (p q : ℝ) (hp : UnitInterval p) (hq : UnitInterval
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L58-L59) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L155-L164)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L58-L59) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L155-L164)
 
 ## Does a missing contribution change the old meaning?
 
@@ -528,7 +528,7 @@ theorem update_no_contribution (beta : ℝ) (H M : Meaning) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L60-L61) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L165-L168)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L60-L61) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L165-L168)
 
 ## Does repeating the same meaning move it?
 
@@ -552,7 +552,7 @@ theorem update_same_meaning (beta : ℝ) (C : Bool) (H : Meaning) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L62-L63) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L169-L172)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L62-L63) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L169-L172)
 
 ## How are old and incoming meanings mixed?
 
@@ -576,7 +576,7 @@ theorem update_is_convex (beta : ℝ) (H M : Meaning) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L64-L65) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L173-L177)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L64-L65) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L173-L177)
 
 ## Does a valid meaning distribution survive an update?
 
@@ -601,7 +601,7 @@ theorem update_preserves_simplex (beta : ℝ) (C : Bool) (H M : Meaning)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L66-L68) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L178-L191)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L66-L68) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L178-L191)
 
 ## What path gives the stated constant accumulation rate?
 
@@ -626,7 +626,7 @@ theorem constant_accumulation_solves (A0 gamma utility baseline t : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L69-L71) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L192-L196)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L69-L71) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L192-L196)
 
 ## What does steady exposure do with clearing set to zero?
 
@@ -651,7 +651,7 @@ theorem constant_exposure_solves (L0 alpha exposure t : ℝ) (h : Bool) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L72-L74) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L197-L201)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L72-L74) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L197-L201)
 
 ## Can that exposure path take a nonnegative load below zero?
 
@@ -676,7 +676,7 @@ theorem constant_exposure_nonnegative (L0 alpha exposure t : ℝ) (h : Bool)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L75-L77) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L202-L206)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L75-L77) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L202-L206)
 
 ## What path describes clearing by itself?
 
@@ -701,7 +701,7 @@ theorem clearing_solves (L0 clear t : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L78-L80) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L207-L211)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L78-L80) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L207-L211)
 
 ## Can exponential clearing reverse a nonnegative load’s sign?
 
@@ -725,7 +725,7 @@ theorem clearing_preserves_nonnegative (L0 clear t : ℝ) (hL : 0 ≤ L0) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L81-L82) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L212-L214)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L81-L82) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L212-L214)
 
 ## What happens when the received and current meanings match and clearing is off?
 
@@ -749,4 +749,4 @@ theorem cleared_equal_meaning_has_zero_drift (k z : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L83-L84) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L215-L217)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASChallenge.lean#L83-L84) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/as-lean/ASProofs.lean#L215-L217)

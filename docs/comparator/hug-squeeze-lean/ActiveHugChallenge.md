@@ -2,16 +2,16 @@
 
 Follow the guard bounds and the energy terms. The passive inequality and the explicit active example concern different parameter choices.
 
-[`ActiveHugChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`ActiveHugChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The working equations and earlier studies identify the source models for this comparison. [NousVolition, active-guard methods](https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-active-guard/METHODS.md) · [NousVolition, SIMS field and guard methods](https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/sims-navier-stokes-guard/METHODS.md) · [Hug source provenance](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-existence-lean/source-provenance.json).
+The working equations and earlier studies identify the source models for this comparison. [NousVolition, active-guard methods](https://github.com/NousVolition/Nous-Volition/blob/b4ae2c54cd85bfef282c501ecfca83de274e2070/studies/hug-active-guard/METHODS.md) · [NousVolition, SIMS field and guard methods](https://github.com/NousVolition/My-Sources-Project-ALL/blob/7fbc7f28f685c86f824d7587aff91feedf20d3da/reports/sims-navier-stokes-guard/METHODS.md) · [Hug source provenance](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-existence-lean/source-provenance.json).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/HugAllSolution.lean) · [ActiveHugModel](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugModel.lean) · [Package account](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/README.md) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/HugAllSolution.lean) · [ActiveHugModel](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugModel.lean) · [Package account](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/README.md) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/lake-manifest.json).
 
 </details>
 
@@ -36,7 +36,7 @@ theorem protocol_physical : Physical protocol := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L5) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L5)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L5) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L5)
 
 ## Can the sigmoid hit either endpoint?
 
@@ -59,7 +59,7 @@ theorem sigmoid_bounds (z : ℝ) : 0 < sigmoid z ∧ sigmoid z < 1 := by sorry
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L6) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L7-L10)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L6) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L7-L10)
 
 ## Can the strain signal be negative?
 
@@ -82,7 +82,7 @@ theorem strain_nonnegative (p : Parameters) (s : State) : 0 ≤ strainSignal p s
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L7) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L12-L14)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L7) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L12-L14)
 
 ## Which way does the guard point at its endpoints?
 
@@ -106,7 +106,7 @@ theorem guard_points_inward (tau z : ℝ) (ht : 0 < tau) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L8-L9) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L16-L21)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L8-L9) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L16-L21)
 
 ## Can an admissible guard trajectory leave the unit interval?
 
@@ -132,7 +132,7 @@ theorem guard_interval_invariant {a b g0 tau : ℝ} {z g : ℝ → ℝ}
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L10-L13) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L36-L49)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L10-L13) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L36-L49)
 
 ## Can the stored energy fall below zero?
 
@@ -156,7 +156,7 @@ theorem energy_nonnegative (p : Parameters) (s : State) (hp : Physical p) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L14-L15) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L51-L55)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L14-L15) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L51-L55)
 
 ## Does the energy chain rule reproduce the stated balance?
 
@@ -180,7 +180,7 @@ theorem energy_chain_identity (p : Parameters) (F : ℝ) (s : State) (hp : Physi
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L16-L17) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L57-L62)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L16-L17) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L57-L62)
 
 ## What is the derivative of energy along the specified motion?
 
@@ -209,7 +209,7 @@ theorem energy_derivative (p : Parameters) (F : ℝ) (q v u w : ℝ → ℝ)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L18-L24) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L64-L83)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L18-L24) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L64-L83)
 
 ## Can the material loss term be negative?
 
@@ -233,7 +233,7 @@ theorem material_loss_nonnegative (p : Parameters) (s : State) (hp : Physical p)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L25-L26) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L85-L89)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L25-L26) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L85-L89)
 
 ## Can the guard loss term be negative?
 
@@ -257,7 +257,7 @@ theorem guard_loss_nonnegative (p : Parameters) (s : State) (hc : 0 ≤ p.dampin
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L27-L28) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L91-L94)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L27-L28) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L91-L94)
 
 ## Can the passive unforced model gain energy?
 
@@ -282,7 +282,7 @@ theorem passive_unforced_energy_rate (p : Parameters) (s : State) (hp : Physical
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L29-L31) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L96-L102)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L29-L31) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L96-L102)
 
 ## Can an active model gain energy even at zero external force?
 
@@ -306,7 +306,7 @@ theorem active_energy_can_increase :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L32-L33) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L104-L106)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L32-L33) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L104-L106)
 
 ## What governs the difference between the two participants?
 
@@ -331,7 +331,7 @@ theorem participant_difference_closes (p : Parameters) (F : ℝ) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L34-L36) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L108-L112)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L34-L36) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L108-L112)
 
 ## How do the two directional guard rates add up?
 
@@ -356,7 +356,7 @@ theorem directional_guard_sum (p : Parameters) (F : ℝ) (s : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L37-L39) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L114-L118)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L37-L39) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L114-L118)
 
 ## Can a shared guard rule reproduce that sum?
 
@@ -381,7 +381,7 @@ theorem shared_directional_sum_equal (p : Parameters) (F : ℝ) (s : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L40-L42) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L120-L124)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L40-L42) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L120-L124)
 
 ## What acceleration remains when damping is set to zero?
 
@@ -406,7 +406,7 @@ theorem zero_damper_recovers_old_acceleration (p : Parameters) (F : ℝ) (s : St
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L43-L45) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L126-L129)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L43-L45) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L126-L129)
 
 ## Can the displayed shear be undone?
 
@@ -430,7 +430,7 @@ theorem display_shear_reversible (q length x y : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L46-L47) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L131-L133)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L46-L47) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L131-L133)
 
 ## Does the shear move a point vertically?
 
@@ -453,7 +453,7 @@ theorem display_preserves_height (q length x y : ℝ) : (displayShear q length x
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L48) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L135)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L48) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L135)
 
 ## How large can the capped source become?
 
@@ -477,7 +477,7 @@ theorem capped_source_bound (cap k A : ℝ) (hc : 0 ≤ cap) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L51-L52) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L137-L140)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L51-L52) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L137-L140)
 
 ## What happens to the capped source if the input changes sign?
 
@@ -501,7 +501,7 @@ theorem capped_source_sign_reverse (cap k A : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L53-L54) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L142-L146)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L53-L54) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L142-L146)
 
 ## When does pair exchange switch off below the center?
 
@@ -525,7 +525,7 @@ theorem pair_off_below_centre (k sign height amplitude own partner : ℝ) (hh : 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L55-L56) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L148-L150)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L55-L56) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L148-L150)
 
 ## Does a pair exchange create a net contribution across both partners?
 
@@ -549,7 +549,7 @@ theorem paired_exchange_cancels (k sign height amplitude x y : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L57-L58) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L152-L156)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L57-L58) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L152-L156)
 
 ## When is the response exactly off?
 
@@ -572,7 +572,7 @@ theorem response_exactly_off (excess epsilon : ℝ) (hq : excess ≤ 0) : exactO
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L59) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L158-L159)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L59) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L158-L159)
 
 ## Can reversing the gradient alone change this force?
 
@@ -596,4 +596,4 @@ theorem sign_reversal_same_force (coefficient gradient threshold epsilon : ℝ) 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L60-L61) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L161-L163)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugChallenge.lean#L60-L61) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-squeeze-lean/ActiveHugSolution.lean#L161-L163)

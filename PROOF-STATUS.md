@@ -11,7 +11,7 @@
 
 ## Proofs checked in an open pull request
 
-[PR #14](https://github.com/NousVolition/correct-and-lean-/pull/14), at `18c921c3`, has passing workflow artifacts for two separate packages. Nine Hug meter statements check 82 recorded rows, the fourth-write energy account and displayed rounding at prime 59, and signed residual changes at prime 157. These measurements use force threshold **0.015**. Sixteen other statements concern the original positive-scaling, abelian two-memory transport model and its supporting lemmas. The proof packages remain in the open PR. Their checked-in reports retain `NOT_RUN` placeholders while the passing reports are in the [GitHub proof artifacts](https://github.com/NousVolition/correct-and-lean-/actions/runs/42852357760).
+[PR #14](https://github.com/NousVolition/hug-sims-lean-proofs/pull/14), at `18c921c3`, has passing workflow artifacts for two separate packages. Nine Hug meter statements check 82 recorded rows, the fourth-write energy account and displayed rounding at prime 59, and signed residual changes at prime 157. These measurements use force threshold **0.015**. Sixteen other statements concern the original positive-scaling, abelian two-memory transport model and its supporting lemmas. The proof packages remain in the open PR. Their checked-in reports retain `NOT_RUN` placeholders while the passing reports are in the [GitHub proof artifacts](https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/42852357760).
 
 ## Written and incomplete work
 

@@ -2,16 +2,16 @@
 
 Follow one record from observation and report to a partner-specific channel. Compare changing its cue, merging two record lists and using a buffered social state.
 
-[`V3MemoryRulesChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`V3MemoryRulesChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
+The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean) · [V3MemoryRulesDefinitions](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesDefinitions.lean) · [Saved source digests](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/preserved-inputs.json) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean) · [V3MemoryRulesDefinitions](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesDefinitions.lean) · [Saved source digests](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/preserved-inputs.json) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/lake-manifest.json).
 
 </details>
 
@@ -37,7 +37,7 @@ theorem report_without_observation (r : Record) (y : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L9-L10) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L8-L9)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L9-L10) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L8-L9)
 
 ## What if both score sources are missing?
 
@@ -63,7 +63,7 @@ theorem both_missing_ignored (G : Geometry) (s : State) (rs : List (Fin 4 × Rec
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L12-L15) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L11-L16)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L12-L15) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L11-L16)
 
 ## What happens when observation and report are equal and opposite?
 
@@ -87,7 +87,7 @@ theorem opposing_reports_zero (r : Record) (y : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L17-L18) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L18-L20)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L17-L18) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L18-L20)
 
 ## Can different observation–report pairs produce the same score?
 
@@ -112,7 +112,7 @@ theorem different_reports_same_score (r : Record) (x y δ : ℝ) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L20-L22) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L22-L27)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L20-L22) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L22-L27)
 
 ## Does moving both timestamps together alter record weight?
 
@@ -137,7 +137,7 @@ theorem time_translation_weight (G : Geometry) (s : State) (r : Record) (δ : �
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L24-L26) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L29-L34)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L24-L26) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L29-L34)
 
 ## When does a closer cue increase relevance?
 
@@ -163,7 +163,7 @@ theorem closer_cue_increases_weight (G : Geometry) (s z : State) (r : Record)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L28-L31) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L36-L44)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L28-L31) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L36-L44)
 
 ## Exactly how does changing an association move the cue?
 
@@ -189,7 +189,7 @@ theorem association_changes_cue (G : Geometry) (s : State) (r : Record)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L33-L36) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L46-L51)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L33-L36) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L46-L51)
 
 ## Does changing context and association rewrite stored content?
 
@@ -214,7 +214,7 @@ theorem changed_context_and_association_keep_record_bytes (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L38-L40) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L53-L55)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L38-L40) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L53-L55)
 
 ## How does exposure accumulate across two lists?
 
@@ -239,7 +239,7 @@ theorem exposure_adds_across_records (G : Geometry) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L42-L44) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L57-L60)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L42-L44) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L57-L60)
 
 ## How should two retrieved memory values be merged?
 
@@ -268,7 +268,7 @@ theorem weighted_memory_merge (G : Geometry) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L46-L52) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L62-L72)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L46-L52) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L62-L72)
 
 ## Can opposing events both leave an influence?
 
@@ -297,7 +297,7 @@ theorem opposite_events_both_influence (G : Geometry) (s : State) (r z : Record)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L54-L60) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L79-L95)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L54-L60) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L79-L95)
 
 ## Can a record contribute to a different partner’s channel?
 
@@ -323,7 +323,7 @@ theorem source_partner_remains_identified (G : Geometry) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L62-L65) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L97-L101)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L62-L65) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L97-L101)
 
 ## Can an actor write a record addressed to itself?
 
@@ -347,7 +347,7 @@ theorem self_record_rejected (r : Record) (h : r.origin=r.recipient) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L67-L68) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L103-L106)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L67-L68) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L103-L106)
 
 ## What does the mixed-time memory cue read?
 
@@ -374,7 +374,7 @@ theorem buffered_cue_mixes_current_body_past_context (G : Geometry) (present pas
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L70-L74) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L108-L115)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L70-L74) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L108-L115)
 
 ## Which stored records enter that mixed state?
 
@@ -398,7 +398,7 @@ theorem buffered_records_current (present past : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L76-L77) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L117-L118)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L76-L77) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L117-L118)
 
 ## What happens when the delay is zero?
 
@@ -422,7 +422,7 @@ theorem zero_delay_unchanged (G : Geometry) (history : ℝ → State) (t : ℝ) 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L79-L80) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L120-L122)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L79-L80) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L120-L122)
 
 ## How much of a history can this delayed rate distinguish?
 
@@ -447,4 +447,4 @@ theorem only_selected_history_samples (G : Geometry) (τ t : ℝ)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L82-L84) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L124-L127)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesChallenge.lean#L82-L84) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-memory-rules-lean/V3MemoryRulesProofs.lean#L124-L127)

@@ -2,16 +2,16 @@
 
 Compare a piece of fabric seen in a moving frame with the same fabric evolving under a rate law. Two paths can agree initially and already have opposite strain derivatives.
 
-[`TransitionChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`TransitionChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The transition audit retains its earlier covariance and joint-frame references. [Source reference files](https://github.com/NousVolition/correct-and-lean-/tree/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/references).
+The transition audit retains its earlier covariance and joint-frame references. [Source reference files](https://github.com/NousVolition/hug-sims-lean-proofs/tree/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/references).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean) · [TransitionDefinitions](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean) · [TransitionDefinitions](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/lake-manifest.json).
 
 </details>
 
@@ -37,7 +37,7 @@ theorem actual_accepted_fabric_rate (G : Geometry) (s d : State) (t : ℝ) (p : 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean#L7-L8) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean#L10-L17)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean#L7-L8) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean#L10-L17)
 
 ## Does changing orientation disturb the Green-strain reading?
 
@@ -61,7 +61,7 @@ theorem state_readout_transfers (Q F : Mat) (h : Orthogonal Q) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean#L10-L11) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean#L19-L20)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean#L10-L11) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean#L19-L20)
 
 ## Which transformed rate works for every fabric matrix?
 
@@ -85,7 +85,7 @@ theorem rate_law_all_fabrics_iff (Q dQ L K : Mat) (h : Orthogonal Q) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean#L13-L14) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean#L36-L50)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean#L13-L14) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean#L36-L50)
 
 ## How does an error in the fabric rate look in moving coordinates?
 
@@ -109,7 +109,7 @@ theorem moving_frame_residual (Q dQ L F V : Mat) (h : Orthogonal Q) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean#L16-L17) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean#L52-L59)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean#L16-L17) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean#L52-L59)
 
 ## Can a fabric path be read in a moving frame?
 
@@ -135,7 +135,7 @@ theorem fabric_segment_transfers (I : Set ℝ) (F L Q dQ : ℝ → Mat)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean#L19-L22) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean#L61-L69)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean#L19-L22) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean#L61-L69)
 
 ## Which rates do the three quarter-turn paths follow?
 
@@ -162,7 +162,7 @@ theorem quarter_paths_follow_their_rates :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean#L24-L28) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean#L85-L98)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean#L24-L28) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean#L85-L98)
 
 ## Can two paths start at the same fabric and immediately stretch in opposite ways?
 
@@ -189,4 +189,4 @@ theorem quarter_initial_agreement_and_opposite_strain_rates :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean#L30-L34) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean#L111-L124)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionChallenge.lean#L30-L34) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/fabric-frame-transition-audit/TransitionProofs.lean#L111-L124)

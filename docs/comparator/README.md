@@ -2,11 +2,11 @@
 
 In Lean, the theorem statement is the question. The word `sorry` marks the space where a proof would go in the reference file. The package’s `comparator.json` names the solution module. If that module imports a proof from another file, the proof link here goes to the file where the proof is written.
 
-The source collection is published by Nous Volition. OpenAI Codex prepared this reader from the linked statements and proofs. [Sources, authors and credits](CREDITS.md).
+The source collection is published by NousVolition. OpenAI Codex prepared this reader from the linked statements and proofs. [Sources, authors and credits](CREDITS.md).
 
 If I stretch a piece of rubber and then turn it, does turning it add any stretch? In mathematical terms, show that an orthogonal change of frame preserves Green strain. The equation is `green (QF) = green F` when `QᵀQ = I`. The middle factors in `(QF)ᵀ(QF) = Fᵀ(QᵀQ)F` cancel, leaving the same strain measurement. [Read the strain and frame questions](hug-v3-yang-mills-audit-lean/V3YangMillsAuditChallenge.md).
 
-The index covers all 55 files ending in `Challenge.lean` at the [source revision](https://github.com/NousVolition/correct-and-lean-/tree/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54). Their 783 theorem declarations include repeated references and a preserved earlier version. Each question has a plain-language reading and a source link with its exact conditions.
+The index covers all 55 files ending in `Challenge.lean` at the [source revision](https://github.com/NousVolition/hug-sims-lean-proofs/tree/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54). Their 783 theorem declarations include repeated references and a preserved earlier version. Each question has a plain-language reading and a source link with its exact conditions.
 
 ## A/S and Hug dynamics
 

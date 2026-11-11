@@ -2,16 +2,16 @@
 
 Follow a fixed per-particle choice of sign through stress, events, delayed rates and whole trajectories. A separate quarter-turn example probes the preferred force direction.
 
-[`V3CovarianceChallenge.lean`](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean) · [Package configuration](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
+[`V3CovarianceChallenge.lean`](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean) · [Package configuration](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/comparator.json) · [Sources and credits](../CREDITS.md) · [All challenge files](../README.md)
 
 <details>
 <summary>Source material for this challenge</summary>
 
-Copyright © 2026 Nous Volition. All rights reserved. The repository notice applies to material for which Nous Volition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
+Copyright © 2026 NousVolition. All rights reserved. The repository notice applies to material for which NousVolition holds copyright. Third-party material follows its own terms. [Copyright notice](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/LICENSE).
 
-The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
+The project’s registered equations and its declared modeling choices have separate source records. [Equation register](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/equation_register.csv) · [Declared Hug rules](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-delay-proof/sources/declarations/main.json).
 
-Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean) · [V3CovarianceDefinitions](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/lake-manifest.json).
+Primary files for this challenge. [Solution entry module](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean) · [V3CovarianceDefinitions](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceDefinitions.lean) · [Statement and proof inputs](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/verification-inputs.json) · [Verification record](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/verification-report.json) · [Pinned libraries](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/lake-manifest.json).
 
 </details>
 
@@ -37,7 +37,7 @@ theorem state_involution (ε : Particle → Bool) (s : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L8-L9) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L118-L124)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L8-L9) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L118-L124)
 
 ## Does the sign choice change any social field?
 
@@ -61,7 +61,7 @@ theorem same_social_state (ε : Particle → Bool) (s : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L10-L11) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L126-L127)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L10-L11) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L126-L127)
 
 ## Can the sign choice change material stress?
 
@@ -85,7 +85,7 @@ theorem material_stress_invariant (ε : Particle → Bool) (G : Geometry) (s : S
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L12-L13) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L129-L133)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L12-L13) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L129-L133)
 
 ## What happens to the fabric stress under that reversal?
 
@@ -109,7 +109,7 @@ theorem fabric_stress_invariant (ε : Particle → Bool) (s : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L14-L15) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L135-L139)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L14-L15) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L135-L139)
 
 ## Can this change affect the extra conductivity?
 
@@ -133,7 +133,7 @@ theorem extra_conductivity_invariant (ε : Particle → Bool) (G : Geometry) (s 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L16-L17) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L141-L145)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L16-L17) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L141-L145)
 
 ## Does reversing a fiber change its rate reading?
 
@@ -157,7 +157,7 @@ theorem fiber_rate_invariant (ε : Particle → Bool) (G : Geometry) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L18-L19) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L147-L151)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L18-L19) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L147-L151)
 
 ## Does computing all rates from records respect this sign choice?
 
@@ -182,7 +182,7 @@ theorem full_rhs_equivariant (ε : Particle → Bool) (G : Geometry) (t : ℝ) (
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L20-L22) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L214-L222)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L20-L22) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L214-L222)
 
 ## Do rejection and acceptance also respect the sign change?
 
@@ -206,7 +206,7 @@ theorem accepted_rhs_equivariant (ε : Particle → Bool) (G : Geometry) (t : �
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L23-L24) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L224-L233)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L23-L24) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L224-L233)
 
 ## Does an event contain a trace of this orientation sign?
 
@@ -231,7 +231,7 @@ theorem event_record_invariant (ε : Particle → Bool) (s : State)
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L25-L27) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L235-L240)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L25-L27) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L235-L240)
 
 ## Can the fabric sign affect a write outcome?
 
@@ -255,7 +255,7 @@ theorem write_equivariant (ε : Particle → Bool) (G : Geometry) (s : State) (r
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L28-L29) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L242-L245)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L28-L29) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L242-L245)
 
 ## Can the sign change be made before or after capturing an event?
 
@@ -279,7 +279,7 @@ theorem capture_equivariant (ε : Particle → Bool) (id : Fin 3) (y : FullState
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L30-L31) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L247-L252)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L30-L31) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L247-L252)
 
 ## Does completing an event commute with the sign change?
 
@@ -303,7 +303,7 @@ theorem complete_event_equivariant (ε : Particle → Bool) (id : Fin 3) (y : Fu
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L32-L33) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L302-L304)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L32-L33) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L302-L304)
 
 ## Does this extend to every scheduled boundary?
 
@@ -327,7 +327,7 @@ theorem all_boundaries_equivariant (ε : Particle → Bool) (k : ℕ) (y : FullS
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L34-L35) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L306-L315)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L34-L35) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L306-L315)
 
 ## Does it matter whether signs are changed before or after combining present and past?
 
@@ -351,7 +351,7 @@ theorem buffer_commutes (ε : Particle → Bool) (present past : State) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L36-L37) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L317-L318)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L36-L37) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L317-L318)
 
 ## Does the delayed rate respect that sign choice?
 
@@ -377,7 +377,7 @@ theorem delayed_rhs_equivariant (ε : Particle → Bool) (G : Geometry) (t : ℝ
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L38-L41) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L320-L328)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L38-L41) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L320-L328)
 
 ## Can the whole delayed history be transformed at once?
 
@@ -403,7 +403,7 @@ theorem delayed_history_equivariant (ε : Particle → Bool) (G : Geometry) (τ 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L42-L45) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L330-L334)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L42-L45) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L330-L334)
 
 ## How does a derivative on a time set transform?
 
@@ -428,7 +428,7 @@ theorem derivative_covariant (ε : Particle → Bool) (s : ℝ → State) (d : S
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L46-L48) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L336-L345)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L46-L48) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L336-L345)
 
 ## Can the sign change introduce a discontinuity?
 
@@ -453,7 +453,7 @@ theorem continuity_covariant (ε : Particle → Bool) (s : ℝ → State) (I : S
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L49-L51) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L347-L356)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L49-L51) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L347-L356)
 
 ## Will the signed history still satisfy the delayed segment law?
 
@@ -478,7 +478,7 @@ theorem delayed_segment_covariant (ε : Particle → Bool) (G : Geometry) (τ : 
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L52-L54) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L358-L366)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L52-L54) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L358-L366)
 
 ## How does the generalized initial-value formulation relate to the original one?
 
@@ -502,7 +502,7 @@ theorem original_solution_predicate (tr : Trace) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L55-L56) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L368-L369)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L55-L56) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L368-L369)
 
 ## What happens to a whole trace started from a transformed state?
 
@@ -527,7 +527,7 @@ theorem full_trace_covariant (ε : Particle → Bool) (y₀ : FullState) (tr : T
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L57-L59) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L371-L390)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L57-L59) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L371-L390)
 
 ## Is the prescribed initial state itself fixed under universal reversal?
 
@@ -551,7 +551,7 @@ theorem initial_reversal_is_not_fixed :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L60-L61) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L392-L396)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L60-L61) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L392-L396)
 
 ## In which coordinates can the built-in force act?
 
@@ -575,7 +575,7 @@ theorem forcing_has_fixed_direction (s : State) (x : Grid) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L62-L63) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L398-L399)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L62-L63) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L398-L399)
 
 ## How strong is the centered gradient in the explicit example?
 
@@ -599,7 +599,7 @@ theorem gradient_witness_norm (G : Geometry) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L64-L65) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L401-L404)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L64-L65) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L401-L404)
 
 ## Does that example actually have a nonzero force?
 
@@ -623,7 +623,7 @@ theorem witness_force_nonzero (G : Geometry) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L66-L67) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L406-L417)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L66-L67) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L406-L417)
 
 ## Does a spatial quarter turn carry the full force to its rotated value?
 
@@ -648,4 +648,4 @@ theorem quarter_turn_force_not_covariant (G : Geometry) :
 
 </details>
 
-[Reference statement](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L68-L70) · [Proof](https://github.com/NousVolition/correct-and-lean-/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L419-L429)
+[Reference statement](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceChallenge.lean#L68-L70) · [Proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/9ae6be1d8c7959047af1726bf3dd0a3a3a46fb54/lean/hug-v3-full-covariance-lean/V3CovarianceProofs.lean#L419-L429)
