@@ -1,0 +1,504 @@
+{
+  "confirmed_exchanges": [
+    {
+      "arm": "off",
+      "model_time": 0.4000018148422242,
+      "bracket_start": 0.40000181388854983,
+      "bracket_end": 0.4000018157958985,
+      "arclength_before": 0.024951021028391925,
+      "arclength_after": 0.7404373388271834,
+      "closest_distance": 0.15678719569007857,
+      "point_separation": 1.1329865548182293e-06,
+      "timestep_time_shift": 0.0,
+      "curve_geometry_pass": true,
+      "all_three_swirl_before": false,
+      "all_three_swirl_after": false,
+      "swirl_size_before": 1.794095635005151e-07,
+      "swirl_size_after": 1.7940939762459688e-07,
+      "swirling_strength_before": 0.0,
+      "swirling_strength_after": 0.0,
+      "Q_before": -3.640665339981785e-11,
+      "Q_after": -3.6406655041238335e-11,
+      "lambda2_before": 1.5492109496258917e-11,
+      "lambda2_after": 1.5492109530070955e-11,
+      "accumulated_strain_before": 1.5366616060309814e-06,
+      "accumulated_strain_after": 1.5366616221065957e-06,
+      "strain_rate_before": 8.534014336487455e-06,
+      "strain_rate_after": 8.534014527082472e-06,
+      "source_file": "off-0200-0201-h64.json"
+    },
+    {
+      "arm": "off",
+      "model_time": 0.45636775112152106,
+      "bracket_start": 0.4563677501678467,
+      "bracket_end": 0.45636775207519537,
+      "arclength_before": 0.38903195047067857,
+      "arclength_after": 0.0,
+      "closest_distance": 0.16598533494703513,
+      "point_separation": 0.10684490997196615,
+      "timestep_time_shift": 9.536743117433133e-09,
+      "curve_geometry_pass": true,
+      "all_three_swirl_before": true,
+      "all_three_swirl_after": true,
+      "swirl_size_before": 0.00028069105317579185,
+      "swirl_size_after": 0.0002806912129789976,
+      "swirling_strength_before": 9.809028967468145e-05,
+      "swirling_strength_after": 9.809034765052981e-05,
+      "Q_before": 9.620028420191027e-09,
+      "Q_after": 9.620039793623548e-09,
+      "lambda2_before": -9.742027868126173e-09,
+      "lambda2_after": -9.742039328770923e-09,
+      "accumulated_strain_before": 2.11578566811051e-06,
+      "accumulated_strain_after": 2.115785713450469e-06,
+      "strain_rate_before": 0.0001419636461425443,
+      "strain_rate_after": 0.00014196372400921098,
+      "source_file": "off-0228-0229-h64.json"
+    },
+    {
+      "arm": "off",
+      "model_time": 1.004318232536316,
+      "bracket_start": 1.0043182315826416,
+      "bracket_end": 1.0043182334899903,
+      "arclength_before": 0.0,
+      "arclength_after": 0.75,
+      "closest_distance": 0.1657946096554587,
+      "point_separation": 0.07060733259889353,
+      "timestep_time_shift": 0.0,
+      "curve_geometry_pass": true,
+      "all_three_swirl_before": false,
+      "all_three_swirl_after": false,
+      "swirl_size_before": 0.030555684945243158,
+      "swirl_size_after": 0.03055568412522217,
+      "swirling_strength_before": 0.001801863701268355,
+      "swirling_strength_after": 0.001801863501455848,
+      "Q_before": -1.2969197247037569e-05,
+      "Q_after": -1.2969202756002841e-05,
+      "lambda2_before": -2.3657047498510066e-06,
+      "lambda2_after": -2.365703327606855e-06,
+      "accumulated_strain_before": 0.02104116069766339,
+      "accumulated_strain_after": 0.021041160739736064,
+      "strain_rate_before": 0.022198273260110913,
+      "strain_rate_after": 0.022198272943906753,
+      "source_file": "off-0502-0503-h64.json"
+    },
+    {
+      "arm": "off",
+      "model_time": 1.0869972200393674,
+      "bracket_start": 1.0869972190856931,
+      "bracket_end": 1.0869972209930419,
+      "arclength_before": 0.12240762616628584,
+      "arclength_after": 0.0,
+      "closest_distance": 0.1657426317597993,
+      "point_separation": 0.030513294154236453,
+      "timestep_time_shift": 0.0,
+      "curve_geometry_pass": true,
+      "all_three_swirl_before": false,
+      "all_three_swirl_after": false,
+      "swirl_size_before": 0.0007896172579701183,
+      "swirl_size_after": 0.0007896167889719329,
+      "swirling_strength_before": 0.0,
+      "swirling_strength_after": 0.0,
+      "Q_before": -6.456978769155829e-05,
+      "Q_after": -6.456978584406492e-05,
+      "lambda2_before": 4.6308844754416244e-05,
+      "lambda2_after": 4.630884316579e-05,
+      "accumulated_strain_before": 0.022353147991398977,
+      "accumulated_strain_after": 0.022353148011591335,
+      "strain_rate_before": 0.011377667735092228,
+      "strain_rate_after": 0.01137766755643893,
+      "source_file": "off-0543-0544-h64.json"
+    },
+    {
+      "arm": "off",
+      "model_time": 1.1230146856307985,
+      "bracket_start": 1.1230146846771243,
+      "bracket_end": 1.1230146865844728,
+      "arclength_before": 0.044780805257768834,
+      "arclength_after": 0.46330637566506966,
+      "closest_distance": 0.14379679445554605,
+      "point_separation": 0.005110889456761434,
+      "timestep_time_shift": 4.440892098500626e-16,
+      "curve_geometry_pass": true,
+      "all_three_swirl_before": false,
+      "all_three_swirl_after": false,
+      "swirl_size_before": 0.008418510565537685,
+      "swirl_size_after": 0.008418510987016473,
+      "swirling_strength_before": 0.0009438333061716535,
+      "swirling_strength_after": 0.0009438334766362799,
+      "Q_before": -1.9077539964607698e-05,
+      "Q_after": -1.9077537164652667e-05,
+      "lambda2_before": 5.3518346164715716e-06,
+      "lambda2_after": 5.351832289664768e-06,
+      "accumulated_strain_before": 0.022672516208899735,
+      "accumulated_strain_after": 0.022672516222861563,
+      "strain_rate_before": 0.00857850453169142,
+      "strain_rate_after": 0.008578504412108437,
+      "source_file": "off-0561-0562-h64.json"
+    },
+    {
+      "arm": "on",
+      "model_time": 1.1809101667404174,
+      "bracket_start": 1.1809101657867431,
+      "bracket_end": 1.1809101676940919,
+      "arclength_before": 0.06871516515499841,
+      "arclength_after": 0.5380770937351309,
+      "closest_distance": 0.11991357155858416,
+      "point_separation": 0.007110799228505184,
+      "timestep_time_shift": 0.0,
+      "curve_geometry_pass": true,
+      "all_three_swirl_before": true,
+      "all_three_swirl_after": true,
+      "swirl_size_before": 0.04928396441381634,
+      "swirl_size_after": 0.049283959978335526,
+      "swirling_strength_before": 0.02303953928777063,
+      "swirling_strength_after": 0.02303953675163415,
+      "Q_before": 0.0005262323207449331,
+      "Q_after": 0.0005262322045196928,
+      "lambda2_before": -0.0005162254475101827,
+      "lambda2_after": -0.0005162253293740995,
+      "accumulated_strain_before": 0.023345430570250868,
+      "accumulated_strain_after": 0.02334543055142187,
+      "strain_rate_before": 0.01272752657358417,
+      "strain_rate_after": 0.01272752711777523,
+      "source_file": "on-0589-0592-h64.json"
+    },
+    {
+      "arm": "on",
+      "model_time": 1.1820768690109253,
+      "bracket_start": 1.1820768680572509,
+      "bracket_end": 1.1820768699645996,
+      "arclength_before": 0.4483696526062449,
+      "arclength_after": 0.04750582120675316,
+      "closest_distance": 0.13622119891007017,
+      "point_separation": 0.0017622453472361846,
+      "timestep_time_shift": 0.0,
+      "curve_geometry_pass": true,
+      "all_three_swirl_before": true,
+      "all_three_swirl_after": true,
+      "swirl_size_before": 0.04672389755017254,
+      "swirl_size_after": 0.046723893629138355,
+      "swirling_strength_before": 0.02155569577490867,
+      "swirling_strength_after": 0.02155569346719181,
+      "Q_before": 0.0004604776632702179,
+      "Q_after": 0.0004604775645085821,
+      "lambda2_before": -0.0004491607456869138,
+      "lambda2_after": -0.00044916064455294817,
+      "accumulated_strain_before": 0.02333369455503294,
+      "accumulated_strain_after": 0.023333694535490185,
+      "strain_rate_before": 0.013061622203963596,
+      "strain_rate_after": 0.013061622752030228,
+      "source_file": "on-0589-0592-h64.json"
+    },
+    {
+      "arm": "on",
+      "model_time": 1.1992811937332153,
+      "bracket_start": 1.1992811927795408,
+      "bracket_end": 1.1992811946868895,
+      "arclength_before": 0.0,
+      "arclength_after": 0.3679915284141213,
+      "closest_distance": 0.16562140867882122,
+      "point_separation": 0.006568192561816849,
+      "timestep_time_shift": 0.0,
+      "curve_geometry_pass": true,
+      "all_three_swirl_before": true,
+      "all_three_swirl_after": true,
+      "swirl_size_before": 0.05984772791476735,
+      "swirl_size_after": 0.05984773351147825,
+      "swirling_strength_before": 0.02708736902256119,
+      "swirling_strength_after": 0.027087371933552016,
+      "Q_before": 0.0007320482385791071,
+      "Q_after": 0.00073204839610732,
+      "lambda2_before": -0.0007293625021746969,
+      "lambda2_after": -0.0007293626597594731,
+      "accumulated_strain_before": 0.023111586768688852,
+      "accumulated_strain_after": 0.023111586739169333,
+      "strain_rate_before": 0.018077023845804847,
+      "strain_rate_after": 0.018077024396061916,
+      "source_file": "on-0599-0600-h64.json"
+    }
+  ],
+  "late_comparison": {
+    "on": {
+      "windows": [
+        [
+          1.198,
+          1.2
+        ],
+        [
+          1.178,
+          1.184
+        ]
+      ],
+      "readings": 258,
+      "all_three_swirl_signs": true,
+      "exchanges": 3,
+      "min_swirling_strength": 0.019463277324978743,
+      "min_Q": 0.0003754435178437338,
+      "max_lambda2": -0.00036147710465887984
+    },
+    "off": {
+      "windows": [
+        [
+          1.198,
+          1.2
+        ],
+        [
+          1.178,
+          1.184
+        ]
+      ],
+      "readings": 258,
+      "all_three_swirl_signs": true,
+      "exchanges": 0,
+      "min_swirling_strength": 0.008074079599290997,
+      "min_Q": 6.361028177666412e-05,
+      "max_lambda2": -5.953227665986128e-05
+    }
+  },
+  "local_swirl_transitions": {
+    "on": [
+      {
+        "bracket": [
+          0.0,
+          0.002
+        ],
+        "enters": true
+      },
+      {
+        "bracket": [
+          0.274,
+          0.276
+        ],
+        "enters": false
+      },
+      {
+        "bracket": [
+          0.278,
+          0.28
+        ],
+        "enters": true
+      }
+    ],
+    "off": [
+      {
+        "bracket": [
+          0.45,
+          0.452
+        ],
+        "enters": true
+      },
+      {
+        "bracket": [
+          1.0,
+          1.002
+        ],
+        "enters": false
+      },
+      {
+        "bracket": [
+          1.1340000000000001,
+          1.1360000000000001
+        ],
+        "enters": true
+      }
+    ]
+  },
+  "unresolved_rapid_route_changes": [
+    {
+      "arm": "off",
+      "bracket": [
+        0.4036561756134034,
+        0.403656177520752
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.40553115081787106,
+        0.40553115272521967
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.4055653915405274,
+        0.405565393447876
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.4107233142852784,
+        0.41072331619262703
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.40009594917297364,
+        0.4000959510803223
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.4001295928955078,
+        0.4001295948028565
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.40019393730163577,
+        0.4001939392089844
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.40022355270385734,
+        0.40022355461120596
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.4003224430084228,
+        0.40032244491577146
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.4003598537445069,
+        0.4003598556518555
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.40041449165344234,
+        0.400414493560791
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.40047705078125007,
+        0.4004770526885987
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.4005808620452881,
+        0.4005808639526367
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.4007099475860596,
+        0.4007099494934082
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.40095565795898447,
+        0.4009556598663331
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.4009761695861817,
+        0.4009761714935304
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.4014158115386963,
+        0.40141581344604493
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.40146275520324715,
+        0.40146275711059576
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.4143481121063233,
+        0.4143481140136719
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.4457034950256347,
+        0.4457034969329834
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.4475282688140869,
+        0.44752827072143553
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.4846311798095703,
+        0.484631181716919
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        0.9390606307983398,
+        0.9390606327056884
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    },
+    {
+      "arm": "off",
+      "bracket": [
+        1.0187556228637695,
+        1.0187556247711183
+      ],
+      "status": "rapid_route_change_without_resolved_tie"
+    }
+  ],
+  "scope": "Verified exchanges are examples resolved by the original finite-curve rule, not an exhaustive count of all switches. Other rapid curve-route changes are retained separately. No spatial or full-history timestep convergence claim.",
+  "native_readings_per_arm": 601,
+  "refinement_windows": 46,
+  "all_sources_preserved": true
+}

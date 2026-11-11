@@ -22,7 +22,17 @@ The measurement traces forward from A for 0.75 cube lengths and selects the near
 
 The local refinement used 32 and 64 substeps per original step in the late intervals, with tighter line tracing. Both levels produced the same three brackets, each about 1.91 × 10⁻⁹ wide. This describes the local event resolution. The earlier integration history still uses the 0.002 step and the same fixed grid. Spatial and full-history convergence have not been established for these event times.
 
-Breathing remained on throughout this rerun. At time 1.2, the signed accumulated work is approximately 0.0000244243 for the threshold force and 0.0001058562 for breathing. Both contributions coexist with the material and fluid dynamics. A matched threshold-1 run with breathing off is still needed to establish how the switches depend on breathing. The earlier breathing-off experiment used threshold 0.015.
+Breathing remained on throughout the original rerun documented above. At time 1.2, the signed accumulated work is approximately 0.0000244243 for the threshold force and 0.0001058562 for breathing. Both contributions coexist with the material and fluid dynamics.
+
+## Completed breathing-off control
+
+A matched threshold-1 control has now been completed from the same original arrays with the same A/B labels, 16³ grid, main step 0.002, period 0.6 and write schedule. The breathing coefficient changes from 0.5 to zero. The on history was reused; the off branch was integrated separately. Each branch records its own evolving state.
+
+The control resolves five off-branch closest-point exchanges near **0.400002, 0.456368, 1.004318, 1.086997 and 1.123015**. None is found in the matched late windows **1.178–1.184** and **1.198–1.200**, which contain all three on examples. Breathing is therefore not necessary for every exchange, and removing it changes the observed history.
+
+These are verified examples, not an exhaustive count or a matching of individual on/off events. Twenty-four rapid route changes remain unresolved. Local substep refinement shifts a resolved event by at most 9.54e-9; spatial and full-history time-step convergence remain open. This control uses the same finite 0.75-length trace, so exchanges involving its endpoints remain changes in that measurement rather than proof of a whole-vortex disconnection. [Control table, settings and recount](../../review-updates/2026-11-11/README.md#breathing-changes-the-observed-switches) · [Saved result](../../review-updates/2026-11-11/threshold-1-result.json)
+
+The separate threshold-0.015 refinement experiment switches breathing off after 1.2 and measures later energy and work. It should not be combined with this threshold-1 comparison, which ends at 1.2.
 
 ## Connection beyond the visible trace
 
