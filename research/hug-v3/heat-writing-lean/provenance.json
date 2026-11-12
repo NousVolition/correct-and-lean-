@@ -1,0 +1,43 @@
+{
+  "original_local_receipt_sha256": "3f365a352e360d479777aeb48ad5da34367923a8fc62ace78da8cc38661e9de8",
+  "published_local_receipt_sha256": "31e3f77e21e611e26159df98ebf90ed8ab56de242c28f14c9b8af4965238da61",
+  "local_receipt_edit": "Only absolute local source path labels were replaced with their publication-relative labels. Numerical values, compilation status, dependencies, limitations and timeout/recovery history are unchanged.",
+  "supplied_draft_unchanged": true,
+  "source_files": {
+    "HeatFromHolding.lean": {
+      "original_sha256": "d8a1a577dbfba451cd2c883632f295bc41c25c8019d261d7455ee842e5dcc49b",
+      "published_sha256": "d8a1a577dbfba451cd2c883632f295bc41c25c8019d261d7455ee842e5dcc49b",
+      "encoding": "unchanged"
+    },
+    "source-data/structural_hug.py": {
+      "original_sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+      "published_sha256": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+      "encoding": "unchanged"
+    },
+    "source-data/continuum.py": {
+      "original_sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+      "published_sha256": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+      "encoding": "unchanged"
+    },
+    "source-data/tick41-replay-results.json": {
+      "original_sha256": "7553db4291f33bc42623135613a306005edf65adad788525baa7b11f50755a57",
+      "published_sha256": "7553db4291f33bc42623135613a306005edf65adad788525baa7b11f50755a57",
+      "encoding": "unchanged"
+    },
+    "source-data/threshold-one-parent-results.json.gz": {
+      "original_sha256": "cdcfd567eec415e9f79fc84b2f96f7562cbd70a5303334d4d692a487bc63dce4",
+      "published_sha256": "ea0c2d45ba63599c08b6a0ca2b6d3d0ad59a0d4f17dcb9b9cd93da9516f54586",
+      "encoding": "gzip_path_labels",
+      "published_uncompressed_sha256": "a0d587c52b9d9994d8fde13baeda8f74c522de532b751db27c3d0a4cf6da6a0f",
+      "path_label_replacements": 8,
+      "edit": "Only the local workspace prefix in eight source-path labels was replaced by local-source. All numerical data, source hashes, other text and whitespace are unchanged."
+    },
+    "local-evidence/original-lake-manifest.json": {
+      "original_sha256": "d8d5387db4bfe8dcdd867d1c4979d2911f194dfe8dae3012463c620e19c6001f",
+      "published_sha256": "d8d5387db4bfe8dcdd867d1c4979d2911f194dfe8dae3012463c620e19c6001f",
+      "encoding": "unchanged"
+    }
+  },
+  "original_namespace_and_historical_comments_preserved": true,
+  "scope": "Only write-account data and the cited heat/viscosity formulas are used. Other diagnostics in the retained replay/parent sources are not additional results of this package."
+}

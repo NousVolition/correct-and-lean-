@@ -67,6 +67,8 @@ The [single-system meaning](research/comparisons/hug-navier-single-system-scope-
 
 ## Proof readers and verification receipts
 
+- [Heat from writing: 12 scalar and recorded-number checks; separate threshold-1 replay](research/hug-v3/heat-writing-lean/README.md)
+
 - [540/872 records: 134 finite Lean checks, separate from fluid evolution](research/hug-v3/observer-follow-lean/README.md)
 
 - [Pair-25 origin records: 77 finite Lean checks; fluid evolution and complete retention remain open](research/hug-v3/pair-origin-lean/README.md)

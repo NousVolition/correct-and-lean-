@@ -34,6 +34,10 @@ Challenge files can contain intentional placeholders defining a target. An unfin
 
 [The observer-follow package](../research/hug-v3/observer-follow-lean/README.md) has 134 finite checks of the recorded neighborhood histories, crossings, context-origin accounts and shared bytes. Its [GitHub receipt](../research/hug-v3/observer-follow-study/github-lean-receipt.json) binds the exact proof inputs, targets and run. Fluid evolution and whether everything stays with either label remain unproved. Earlier 77- and 40-statement studies remain separate.
 
+## Heat from writing
+
+[The supplied heat draft](../research/hug-v3/heat-writing-lean/README.md) has 12 passing statements about scalar stroke heat, ambiguous recovery, work accounting, exact threshold-1 replay numbers and viscosity under stated hypotheses. Its [GitHub receipt](../research/hug-v3/heat-writing-lean/github-lean-receipt.json) binds the input fingerprint, targets and run. It is separate from the 134 observer-follow checks; thermal evolution and complete retention remain open.
+
 ## Further Lean packages
 
 Each directory below is a separate Lake project. From that directory, use its pinned toolchain and run `lake build`. The Comparator configuration names the challenge, solution, allowed axioms and target declarations. The saved reports and Linux logs record the original checks. The historical scripts accept a configurable verification directory. The current CI instructions follow below.

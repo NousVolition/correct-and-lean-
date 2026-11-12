@@ -1,0 +1,14 @@
+import HeatFromHolding
+
+#print axioms HeatFromHolding.stroke_heat_never_negative
+#print axioms HeatFromHolding.moving_a_mark_makes_heat
+#print axioms HeatFromHolding.heat_ignores_direction
+#print axioms HeatFromHolding.no_exact_reader_of_any_property
+#print axioms HeatFromHolding.heat_cannot_tell_which_way
+#print axioms HeatFromHolding.heat_is_work_minus_stored
+#print axioms HeatFromHolding.nothing_more_stored_means_all_work_is_heat
+#print axioms HeatFromHolding.third_write_was_all_heat
+#print axioms HeatFromHolding.recorded_account_balances
+#print axioms HeatFromHolding.warmer_is_thinner
+#print axioms HeatFromHolding.viscosity_has_a_floor
+#print axioms HeatFromHolding.viscosity_never_vanishes
