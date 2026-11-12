@@ -1,0 +1,40 @@
+'CarryingInventory.preserves_self' does not depend on any axioms
+'CarryingInventory.preserves_through' does not depend on any axioms
+'CarryingInventory.original_payload_still_present' does not depend on any axioms
+'CarryingInventory.same_key_can_lose_payload' depends on axioms: [propext]
+'CarryingInventory.missing_record_is_not_retained' depends on axioms: [propext]
+'CarryingInventory.balanced_zero_exchange_preserves_value' depends on axioms: [propext, Quot.sound]
+'CarryingInventory.accounted_change_need_not_be_zero' does not depend on any axioms
+'CarryingInventory.balanced_replacement_need_not_retain_contents' depends on axioms: [propext]
+'CarryingInventory.missing_coverage_blocks_complete_claim' does not depend on any axioms
+'CarryingInventory.complete_claim_includes_payloads' does not depend on any axioms
+'RecordedRetention.run0_sample_count' does not depend on any axioms
+'RecordedRetention.run0_keys_unique' does not depend on any axioms
+'RecordedRetention.run0_original_records_present' depends on axioms: [propext]
+'RecordedRetention.run0_coverage' does not depend on any axioms
+'RecordedRetention.run0_account_count' does not depend on any axioms
+'RecordedRetention.run0_recorded_budget_verdict' does not depend on any axioms
+'RecordedRetention.run0_context_ledger_verdict' does not depend on any axioms
+'RecordedRetention.run0_energy_ledger_verdict' does not depend on any axioms
+'RecordedRetention.run0_reported_memory_extrema' does not depend on any axioms
+'RecordedRetention.run1_sample_count' does not depend on any axioms
+'RecordedRetention.run1_keys_unique' does not depend on any axioms
+'RecordedRetention.run1_original_records_present' depends on axioms: [propext]
+'RecordedRetention.run1_coverage' does not depend on any axioms
+'RecordedRetention.run1_account_count' does not depend on any axioms
+'RecordedRetention.run1_recorded_budget_verdict' does not depend on any axioms
+'RecordedRetention.run1_context_ledger_verdict' does not depend on any axioms
+'RecordedRetention.run1_energy_ledger_verdict' does not depend on any axioms
+'RecordedRetention.run1_reported_memory_extrema' does not depend on any axioms
+'RecordedRetention.run2_sample_count' does not depend on any axioms
+'RecordedRetention.run2_keys_unique' does not depend on any axioms
+'RecordedRetention.run2_original_records_present' depends on axioms: [propext]
+'RecordedRetention.run2_coverage' does not depend on any axioms
+'RecordedRetention.run2_account_count' does not depend on any axioms
+'RecordedRetention.run2_recorded_budget_verdict' does not depend on any axioms
+'RecordedRetention.run2_context_ledger_verdict' does not depend on any axioms
+'RecordedRetention.run2_energy_ledger_verdict' does not depend on any axioms
+'RecordedRetention.run2_reported_memory_extrema' does not depend on any axioms
+'ReadoutCorrection.same_recorded_values' does not depend on any axioms
+'ReadoutCorrection.corrected_account_count' does not depend on any axioms
+'ReadoutCorrection.corrected_budget_verdict' does not depend on any axioms

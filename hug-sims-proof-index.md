@@ -46,6 +46,8 @@ The [single-system meaning](research/comparisons/hug-navier-single-system-scope-
 
 ## Numerical studies and comparisons
 
+- [Pair 25 after tick 41: shared records survive; complete physical retention remains open](research/hug-v3/pair-retention-study/README.md)
+
 - [Ticks 35–41 audit: endpoint agreement, intervening differences and Traveller continuity](research/tick-35-41-audit/README.md)
 
 - [Finer fluid grids: pairs agree at tick 41 but differ earlier](research/hug-v3/finer-grid-study/README.md)
@@ -60,6 +62,8 @@ The [single-system meaning](research/comparisons/hug-navier-single-system-scope-
 - [Finite-window rule and recorded gaps checked in Lean](research/hug-v3/finite-window-lean/README.md)
 
 ## Proof readers and verification receipts
+
+- [Pair-25 finite retention rules and recorded accounts: 40 Lean checks](research/hug-v3/pair-retention-lean/README.md)
 
 - [Comparator questions in everyday language](docs/comparator/README.md)
 - [Verification receipt for `green_objective`](provenance/green-objective-2026-11-08/README.md)

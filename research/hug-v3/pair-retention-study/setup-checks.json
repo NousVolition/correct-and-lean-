@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "instrumentation_leaves_all_state_arrays_exactly_equal": true,
+  "arrays": 17,
+  "analytic_gradient_max_error": 3.3306690738754696e-15,
+  "finite_difference_gradient_error": 4.087084004567032e-10,
+  "rate_component_error": 2.7755575615628914e-17,
+  "original_inputs_checked": 21,
+  "input_hashes": {
+    "outputs\\fluid-finer-grid\\n40_dt0p0005\\final-state.npz": "c7f022d940290b775156b1ca1951ad08b45e5a9f93eacb02694bec03e1e23227",
+    "outputs\\fluid-finer-grid\\n40_dt0p0005\\summary.json": "a657b65642ed4b87983d7936d828827e2e8db605b464a1ad9c8ce3200863c854",
+    "outputs\\fluid-finer-grid\\n40_dt0p0005\\events.json": "481aa592c5308c1a7c2c69e017103f213138af0d654f19c8809c8989987c641a"
+  },
+  "solver_steps_for_validation": 2,
+  "no_production_run": true
+}

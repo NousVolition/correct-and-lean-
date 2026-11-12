@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-11-12T04:31:32.014935+00:00",
+  "compiler": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "proof_input_fingerprint": "189b8ded57a107160d0022710e365ec658089a44ec130e3e10f2e87a51368da2",
+  "proof_inputs": {
+    "CarryingInventory.lean": "bb19cee8e86c8a9f1e1e83b06b57582bb10964f2899f88c26e8914f3d0bfd623",
+    "check_certificate.py": "3ac4f99cef0864e87ccf7d581301853fd22441dcc82a4b87149d32e9ceaf9196",
+    "CheckAxioms.lean": "a20a75877c83b543a4b6338c288401d7090f6d9ef098cfbb37d4a08dba03db41",
+    "data-generation.json": "2f1bf710cd559cd95ec4ebd4de3a011c032cf2a4156fe57cd904b5a8a92148b3",
+    "lakefile.toml": "b950c4b214210dc8f584685418e2147a347e3a003e30995e1d6fe31ff311d3c5",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "ReadoutCorrection.lean": "252f744aeb6e3b4d39dfd5a7c5573dcb16912bf0925eb3e6e2dda684d5a41ac5",
+    "RecordedRetention.lean": "eec66250f4ac8868ae280107593328bfb7c880c49e4e2452192878fa7cb67ac8",
+    "source-data/analysis.json": "645062ce66e50c580994bbb5397e4f5482588fb82cabc8946d1a70ab08f3ed0a",
+    "source-data/cell-aware-check.json": "c386de4e7149d0de9b4b4834d90825b242b4a52788eb5f3f8957627034fb271f",
+    "source-data/cellaware40/local-budgets.csv": "94ec599714f8b12ab97a3dbecce6577866a02b195bcfa9174ac74b0b40126c34",
+    "source-data/cellaware40/result.json": "e86f2e49340ac46f8f79c4e89f5ad1781e4a7bb7c16bc41d9892404fe22207be",
+    "source-data/n40_dt0p0005/global-accounts.csv": "b9abacff6cf9d94cc445982514afafd1219ae8625161095d33163ea0326ff299",
+    "source-data/n40_dt0p0005/local-budgets.csv": "c8394619d0e6a2211b0bfd6d3e9bc55c990bb5cd1954d9ac69d29f56fef19c3c",
+    "source-data/n40_dt0p0005/record-payloads.npz": "3e94c02fe1f99ffe00cdc59723bb13ce8c744950accc2cf64da2f6a45564140b",
+    "source-data/n40_dt0p0005/result.json": "704bc00744740027626267c8507c43a8faa692d362ad7f715015659da9c70ab0",
+    "source-data/n48_dt0p00025/global-accounts.csv": "1ca9dde03e88890fa584c678aa5f104793b0c5808e880e883693995490aaf925",
+    "source-data/n48_dt0p00025/local-budgets.csv": "6723dccfa04bbdb98f89fcde6448c4e1f70fa8c54fbd84d3e32a057804380b2a",
+    "source-data/n48_dt0p00025/record-payloads.npz": "c85ac5b25c01e9c8c8e3400f9afd7aac47ebe02ca5abf20dfc88eacbfe6570fa",
+    "source-data/n48_dt0p00025/result.json": "92354b36ade24b03e0fc3f5afb24e020d0d2fafc12be777af71c3d044a2ea235",
+    "source-data/n48_dt0p0005/global-accounts.csv": "6a54f8d6f9f5904fbfa78bea583f86e73e4b54c72f90e5fa7689e170d9fa0d8a",
+    "source-data/n48_dt0p0005/local-budgets.csv": "529cc71dd7721051dfac2c8a326820a550bcb00e7b1e4e854391598ab0ad2c6b",
+    "source-data/n48_dt0p0005/record-payloads.npz": "c85ac5b25c01e9c8c8e3400f9afd7aac47ebe02ca5abf20dfc88eacbfe6570fa",
+    "source-data/n48_dt0p0005/result.json": "ee2aa6ce68c4a418946e6361ef7e97b8775f7bd2e4a8b7fe6f81d552f7bc0dfc",
+    "targets.json": "0b617ff51c705148fd9bf0664262fa857abab3b95451bbb685ae01f6cf1da876",
+    "verify_lean.py": "423c92ac9ec9f8bf83053d603ffad2ce393259f65a83c617e439158d2285607b"
+  },
+  "data_certificate_check": {
+    "full_record_payloads_matched": 459,
+    "local_accounts_matched": 816,
+    "global_accounts_matched": 306,
+    "decimal_scale": "1000000000000000000000000",
+    "proof_data_match": true
+  },
+  "targets": [
+    "CarryingInventory.preserves_self",
+    "CarryingInventory.preserves_through",
+    "CarryingInventory.original_payload_still_present",
+    "CarryingInventory.same_key_can_lose_payload",
+    "CarryingInventory.missing_record_is_not_retained",
+    "CarryingInventory.balanced_zero_exchange_preserves_value",
+    "CarryingInventory.accounted_change_need_not_be_zero",
+    "CarryingInventory.balanced_replacement_need_not_retain_contents",
+    "CarryingInventory.missing_coverage_blocks_complete_claim",
+    "CarryingInventory.complete_claim_includes_payloads",
+    "RecordedRetention.run0_sample_count",
+    "RecordedRetention.run0_keys_unique",
+    "RecordedRetention.run0_original_records_present",
+    "RecordedRetention.run0_coverage",
+    "RecordedRetention.run0_account_count",
+    "RecordedRetention.run0_recorded_budget_verdict",
+    "RecordedRetention.run0_context_ledger_verdict",
+    "RecordedRetention.run0_energy_ledger_verdict",
+    "RecordedRetention.run0_reported_memory_extrema",
+    "RecordedRetention.run1_sample_count",
+    "RecordedRetention.run1_keys_unique",
+    "RecordedRetention.run1_original_records_present",
+    "RecordedRetention.run1_coverage",
+    "RecordedRetention.run1_account_count",
+    "RecordedRetention.run1_recorded_budget_verdict",
+    "RecordedRetention.run1_context_ledger_verdict",
+    "RecordedRetention.run1_energy_ledger_verdict",
+    "RecordedRetention.run1_reported_memory_extrema",
+    "RecordedRetention.run2_sample_count",
+    "RecordedRetention.run2_keys_unique",
+    "RecordedRetention.run2_original_records_present",
+    "RecordedRetention.run2_coverage",
+    "RecordedRetention.run2_account_count",
+    "RecordedRetention.run2_recorded_budget_verdict",
+    "RecordedRetention.run2_context_ledger_verdict",
+    "RecordedRetention.run2_energy_ledger_verdict",
+    "RecordedRetention.run2_reported_memory_extrema",
+    "ReadoutCorrection.same_recorded_values",
+    "ReadoutCorrection.corrected_account_count",
+    "ReadoutCorrection.corrected_budget_verdict"
+  ],
+  "target_count": 40,
+  "axiom_dependencies": {
+    "CarryingInventory.preserves_self": [],
+    "CarryingInventory.preserves_through": [],
+    "CarryingInventory.original_payload_still_present": [],
+    "CarryingInventory.same_key_can_lose_payload": [
+      "propext"
+    ],
+    "CarryingInventory.missing_record_is_not_retained": [
+      "propext"
+    ],
+    "CarryingInventory.balanced_zero_exchange_preserves_value": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CarryingInventory.accounted_change_need_not_be_zero": [],
+    "CarryingInventory.balanced_replacement_need_not_retain_contents": [
+      "propext"
+    ],
+    "CarryingInventory.missing_coverage_blocks_complete_claim": [],
+    "CarryingInventory.complete_claim_includes_payloads": [],
+    "RecordedRetention.run0_sample_count": [],
+    "RecordedRetention.run0_keys_unique": [],
+    "RecordedRetention.run0_original_records_present": [
+      "propext"
+    ],
+    "RecordedRetention.run0_coverage": [],
+    "RecordedRetention.run0_account_count": [],
+    "RecordedRetention.run0_recorded_budget_verdict": [],
+    "RecordedRetention.run0_context_ledger_verdict": [],
+    "RecordedRetention.run0_energy_ledger_verdict": [],
+    "RecordedRetention.run0_reported_memory_extrema": [],
+    "RecordedRetention.run1_sample_count": [],
+    "RecordedRetention.run1_keys_unique": [],
+    "RecordedRetention.run1_original_records_present": [
+      "propext"
+    ],
+    "RecordedRetention.run1_coverage": [],
+    "RecordedRetention.run1_account_count": [],
+    "RecordedRetention.run1_recorded_budget_verdict": [],
+    "RecordedRetention.run1_context_ledger_verdict": [],
+    "RecordedRetention.run1_energy_ledger_verdict": [],
+    "RecordedRetention.run1_reported_memory_extrema": [],
+    "RecordedRetention.run2_sample_count": [],
+    "RecordedRetention.run2_keys_unique": [],
+    "RecordedRetention.run2_original_records_present": [
+      "propext"
+    ],
+    "RecordedRetention.run2_coverage": [],
+    "RecordedRetention.run2_account_count": [],
+    "RecordedRetention.run2_recorded_budget_verdict": [],
+    "RecordedRetention.run2_context_ledger_verdict": [],
+    "RecordedRetention.run2_energy_ledger_verdict": [],
+    "RecordedRetention.run2_reported_memory_extrema": [],
+    "ReadoutCorrection.same_recorded_values": [],
+    "ReadoutCorrection.corrected_account_count": [],
+    "ReadoutCorrection.corrected_budget_verdict": []
+  },
+  "checks": {
+    "CarryingInventory.lean": {
+      "exit_code": 0,
+      "log": "evidence/CarryingInventory.log"
+    },
+    "RecordedRetention.lean": {
+      "exit_code": 0,
+      "log": "evidence/RecordedRetention.log"
+    },
+    "ReadoutCorrection.lean": {
+      "exit_code": 0,
+      "log": "evidence/ReadoutCorrection.log"
+    },
+    "CheckAxioms.lean": {
+      "exit_code": 0,
+      "log": "evidence/CheckAxioms.log"
+    }
+  },
+  "no_added_axioms": true,
+  "no_sorry": true,
+  "no_native_decide": true,
+  "scope": "Finite inventory rules, complete recorded byte payloads and exact decimal accounts. The fluid solver, complete private parcel inventory and continuum behavior are not proved."
+}

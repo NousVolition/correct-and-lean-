@@ -61,7 +61,19 @@ The water particle B, the penne's viewing window B and the restaurant listener B
 
 The 48³ time-step halving changes the gap by at most **0.000100423** on the **51 common saved times** and passes its targets. The newer every-step audit finds a larger spatial discrepancy at 1.169 and outside-window failures at 1.195 and 1.1955; those times are absent from that full-history time-control output. Its tracing record also retains one newly exposed failure and the direct-Fourier correction. [Ticks 35–41 audit](research/tick-35-41-audit/README.md) · [Earlier 51-sample results and matched meters](research/hug-v3/finer-grid-study/README.md)
 
-The tick-41 gap sample is taken **before the write at time 1.2**. The write preserves carried positions and velocity at that instant and changes the stored fabric target and heat. The new record feeds the coupled relationship equations; rate changes need their own before/after readings. This run ends at the write, so its later flow response remains outside the measurement.
+The tick-41 gap sample is taken **before the write at time 1.2**. The write preserves carried positions and velocity at that instant and changes the stored fabric target and heat. The new record feeds the coupled relationship equations; rate changes need their own before/after readings. That gap run ends at the write. The separate pair-25 continuation below measures the following window; it does not establish the write's causal effect against a matched no-write control.
+
+## What stays with pair 25 after tick 41?
+
+![Pair 25 retains the shared records while local values change; complete physical retention remains open.](research/hug-v3/pair-retention-study/pair-retention.png)
+
+**Simulation findings:** three continuations follow the same pair from the saved **after-write tick-41 state (time 1.2) to time 1.3**. All three shared memory records keep their complete decoded contents across **459 payload comparisons**. Local heat and context change. The original 40³ local accounting check fails; a controlled correction at observation-cell crossings closes that account while leaving the simulated states and sampled values unchanged. The failed result is preserved.
+
+**Lean findings:** **40 finite statements pass**, checking retention rules, the complete recorded memory payloads and exact recorded account numbers—including the original failed verdict and corrected verdict. Lean does not prove the fluid simulation, physical ownership of contents by this pair or continuum convergence.
+
+**Still unknown: does everything stay with the pair?** These are shared records, and A/B have no separately stored complete physical inventory. A balanced account can include replacement of outgoing contents. This test cannot establish that every original physical content stays with the pair.
+
+[Results, settings and limits](research/hug-v3/pair-retention-study/README.md) · [Lean statements and original receipt](research/hug-v3/pair-retention-lean/README.md) · [GitHub proof receipt](research/hug-v3/pair-retention-study/github-lean-receipt.json)
 
 ## Proofs and the questions they answer
 

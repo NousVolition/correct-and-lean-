@@ -1,0 +1,797 @@
+{
+  "outcome": "finite entry/exit accounts and record-retention observations completed",
+  "scope": "New continuation 1.2 after write to1.3; same passive pair ID24. No private material parcel or complete recoverability theorem.",
+  "runs": [
+    {
+      "run": "n40_dt0p0005",
+      "criteria": {
+        "record_payloads_retained": true,
+        "memory_values_not_decreased": true,
+        "bit_read_margins_met": true,
+        "context_ledger_met": true,
+        "energy_ledger_met": true,
+        "local_budget_target_met": false
+      },
+      "metrics": {
+        "max_local_budget_residual": 3.4279396057977553e-06,
+        "max_context_ledger_residual": 5.204170427930421e-18,
+        "max_energy_ledger_residual": 1.0764604675304532e-12,
+        "all_entry_records_retained": true,
+        "minimum_m_rate": 0.0,
+        "minimum_m_increase": 0.0,
+        "minimum_m_step_increment": 0.0,
+        "minimum_b_read_margin": 0.019907003781424414,
+        "maximum_b_sign_flips": 0,
+        "rate_component_max_error": 1.8388068845354155e-16
+      },
+      "independent_max_local_residual": 3.4279396057977553e-06,
+      "independent_endpoint_min_m_increment": 0.0,
+      "record_check": {
+        "all_entry_payloads_retained": true,
+        "all_payload_crcs_valid": true,
+        "unique_record_keys": true,
+        "record_counts": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "entry_records": 3
+      },
+      "unchanged_state_arrays": [
+        "write_work"
+      ],
+      "changed_state_arrays": [
+        "g",
+        "X",
+        "F",
+        "m",
+        "A",
+        "ledger",
+        "expression",
+        "context",
+        "norm",
+        "logradius",
+        "relation",
+        "responses",
+        "association",
+        "b",
+        "observer_X",
+        "breathing_work"
+      ],
+      "endpoint": [
+        {
+          "run": "n40_dt0p0005",
+          "time": "1.3",
+          "point": "A",
+          "field": "C",
+          "entry": "0.2939375031074546",
+          "current": "0.2934688189914414",
+          "change": "-0.00046868411601319604",
+          "diffusion_or_conduction": "-0.03232416961218977",
+          "source_or_heat_exchange": "0.03140536313757432",
+          "advection_interpolation": "0.00045355028771003623",
+          "accounted_change": "-0.00046525618690541605",
+          "residual": "-3.42792910777999e-06"
+        },
+        {
+          "run": "n40_dt0p0005",
+          "time": "1.3",
+          "point": "A",
+          "field": "theta",
+          "entry": "0.01298134487121242",
+          "current": "0.01233927934081543",
+          "change": "-0.0006420655303969909",
+          "diffusion_or_conduction": "-0.0006671953656294249",
+          "source_or_heat_exchange": "1.974788823436375e-05",
+          "advection_interpolation": "5.420609751996968e-06",
+          "accounted_change": "-0.0006420268676430642",
+          "residual": "-3.866275392666509e-08"
+        },
+        {
+          "run": "n40_dt0p0005",
+          "time": "1.3",
+          "point": "B",
+          "field": "C",
+          "entry": "0.07816630135046071",
+          "current": "0.08119815272124328",
+          "change": "0.0030318513707825734",
+          "diffusion_or_conduction": "0.0011303989422551354",
+          "source_or_heat_exchange": "0.0020485707303851386",
+          "advection_interpolation": "-0.00014831038058633488",
+          "accounted_change": "0.003030659292053939",
+          "residual": "1.192078728634409e-06"
+        },
+        {
+          "run": "n40_dt0p0005",
+          "time": "1.3",
+          "point": "B",
+          "field": "theta",
+          "entry": "0.009306024523332993",
+          "current": "0.009304409986639757",
+          "change": "-1.6145366932354688e-06",
+          "diffusion_or_conduction": "-0.0003205803447106805",
+          "source_or_heat_exchange": "0.0003252547562267327",
+          "advection_interpolation": "-6.33729679225886e-06",
+          "accounted_change": "-1.6628852762066923e-06",
+          "residual": "4.834858297122351e-08"
+        }
+      ],
+      "endpoint_positions": [
+        [
+          -0.07743673122433001,
+          -0.04818025788957082,
+          0.017765416249430316
+        ],
+        [
+          -0.08060853560345249,
+          -0.18685468983476203,
+          0.10275911576936256
+        ]
+      ],
+      "local_fluid_entry_exit": [
+        {
+          "time": 1.2,
+          "point": "A",
+          "position": [
+            -0.06778333838643483,
+            -0.048152882904658044,
+            0.016775985232141633
+          ],
+          "values": {
+            "vx": -0.09037375155207829,
+            "vy": -0.0002042208896125868,
+            "vz": 0.0033674991423953762,
+            "C": 0.2939375031074546,
+            "theta": 0.01298134487121242
+          }
+        },
+        {
+          "time": 1.2,
+          "point": "B",
+          "position": [
+            -0.07422329063427206,
+            -0.18674118673929008,
+            0.10206750020666285
+          ],
+          "values": {
+            "vx": -0.06460765193258783,
+            "vy": -0.0012581205118196502,
+            "vz": 0.0023387616308569613,
+            "C": 0.07816630135046071,
+            "theta": 0.009306024523332991
+          }
+        },
+        {
+          "time": 1.3,
+          "point": "A",
+          "position": [
+            -0.07743673122433001,
+            -0.04818025788957082,
+            0.017765416249430316
+          ],
+          "values": {
+            "vx": -0.10019079527963323,
+            "vy": -0.0003037545718515952,
+            "vz": 0.01503894575742425,
+            "C": 0.2934688189914414,
+            "theta": 0.01233927934081543
+          }
+        },
+        {
+          "time": 1.3,
+          "point": "B",
+          "position": [
+            -0.08060853560345249,
+            -0.18685468983476203,
+            0.10275911576936256
+          ],
+          "values": {
+            "vx": -0.0630855337141413,
+            "vy": -0.0010741962482977703,
+            "vz": 0.010608760379349415,
+            "C": 0.08119815272124328,
+            "theta": 0.009304409986639756
+          }
+        }
+      ]
+    },
+    {
+      "run": "n48_dt0p0005",
+      "criteria": {
+        "record_payloads_retained": true,
+        "memory_values_not_decreased": true,
+        "bit_read_margins_met": true,
+        "context_ledger_met": true,
+        "energy_ledger_met": true,
+        "local_budget_target_met": true
+      },
+      "metrics": {
+        "max_local_budget_residual": 3.5728165543279233e-11,
+        "max_context_ledger_residual": 1.3877787807814457e-17,
+        "max_energy_ledger_residual": 1.0765655673785485e-12,
+        "all_entry_records_retained": true,
+        "minimum_m_rate": 0.0,
+        "minimum_m_increase": 0.0,
+        "minimum_m_step_increment": 0.0,
+        "minimum_b_read_margin": 0.019906684575053388,
+        "maximum_b_sign_flips": 0,
+        "rate_component_max_error": 1.1102230246251565e-16
+      },
+      "independent_max_local_residual": 3.5728165543279233e-11,
+      "independent_endpoint_min_m_increment": 0.0,
+      "record_check": {
+        "all_entry_payloads_retained": true,
+        "all_payload_crcs_valid": true,
+        "unique_record_keys": true,
+        "record_counts": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "entry_records": 3
+      },
+      "unchanged_state_arrays": [
+        "write_work"
+      ],
+      "changed_state_arrays": [
+        "g",
+        "X",
+        "F",
+        "m",
+        "A",
+        "ledger",
+        "expression",
+        "context",
+        "norm",
+        "logradius",
+        "relation",
+        "responses",
+        "association",
+        "b",
+        "observer_X",
+        "breathing_work"
+      ],
+      "endpoint": [
+        {
+          "run": "n48_dt0p0005",
+          "time": "1.3",
+          "point": "A",
+          "field": "C",
+          "entry": "0.2941211941646006",
+          "current": "0.2932764181325725",
+          "change": "-0.0008447760320280939",
+          "diffusion_or_conduction": "-0.03237207995105037",
+          "source_or_heat_exchange": "0.03145111935337553",
+          "advection_interpolation": "7.618452991857914e-05",
+          "accounted_change": "-0.0008447760677562595",
+          "residual": "3.5728165543279233e-11"
+        },
+        {
+          "run": "n48_dt0p0005",
+          "time": "1.3",
+          "point": "A",
+          "field": "theta",
+          "entry": "0.012989416113974202",
+          "current": "0.012341799003231683",
+          "change": "-0.000647617110742519",
+          "diffusion_or_conduction": "-0.0006647144052924802",
+          "source_or_heat_exchange": "1.6522688638060623e-05",
+          "advection_interpolation": "5.746051947607342e-07",
+          "accounted_change": "-0.0006476171114596588",
+          "residual": "7.1713988913924e-13"
+        },
+        {
+          "run": "n48_dt0p0005",
+          "time": "1.3",
+          "point": "B",
+          "field": "C",
+          "entry": "0.07769931160213488",
+          "current": "0.08097933750111319",
+          "change": "0.0032800258989783143",
+          "diffusion_or_conduction": "0.0012465349146749518",
+          "source_or_heat_exchange": "0.0019406447958067639",
+          "advection_interpolation": "9.284617172193939e-05",
+          "accounted_change": "0.003280025882203655",
+          "residual": "1.6774659352541965e-11"
+        },
+        {
+          "run": "n48_dt0p0005",
+          "time": "1.3",
+          "point": "B",
+          "field": "theta",
+          "entry": "0.009334689235230014",
+          "current": "0.009348833801497277",
+          "change": "1.4144566267262904e-05",
+          "diffusion_or_conduction": "-0.00033590557176129375",
+          "source_or_heat_exchange": "0.00034495107564551115",
+          "advection_interpolation": "5.099062296458048e-06",
+          "accounted_change": "1.4144566180675445e-05",
+          "residual": "8.658745853022502e-14"
+        }
+      ],
+      "endpoint_positions": [
+        [
+          -0.07759446940417475,
+          -0.048182827089003656,
+          0.017765477567811643
+        ],
+        [
+          -0.08069063791138494,
+          -0.18685802334053792,
+          0.10276189832397178
+        ]
+      ],
+      "local_fluid_entry_exit": [
+        {
+          "time": 1.2,
+          "point": "A",
+          "position": [
+            -0.06792380673166193,
+            -0.04815495673661639,
+            0.016774027272043527
+          ],
+          "values": {
+            "vx": -0.09066933781484973,
+            "vy": -0.00019195563618890633,
+            "vz": 0.0033717387409341387,
+            "C": 0.2941211941646006,
+            "theta": 0.012989416113974202
+          }
+        },
+        {
+          "time": 1.2,
+          "point": "B",
+          "position": [
+            -0.0742884962970887,
+            -0.1867449551150779,
+            0.10207000621218636
+          ],
+          "values": {
+            "vx": -0.06498643152239338,
+            "vy": -0.0013248016203397752,
+            "vz": 0.00237981625528273,
+            "C": 0.07769931160213486,
+            "theta": 0.009334689235230013
+          }
+        },
+        {
+          "time": 1.3,
+          "point": "A",
+          "position": [
+            -0.07759446940417475,
+            -0.048182827089003656,
+            0.017765477567811643
+          ],
+          "values": {
+            "vx": -0.10049998177384564,
+            "vy": -0.00030765858986718205,
+            "vz": 0.015062972166004983,
+            "C": 0.2932764181325725,
+            "theta": 0.012341799003231683
+          }
+        },
+        {
+          "time": 1.3,
+          "point": "B",
+          "position": [
+            -0.08069063791138494,
+            -0.18685802334053792,
+            0.10276189832397178
+          ],
+          "values": {
+            "vx": -0.0636275616734215,
+            "vy": -0.0010197456776614208,
+            "vz": 0.010605526887620202,
+            "C": 0.08097933750111319,
+            "theta": 0.009348833801497277
+          }
+        }
+      ]
+    },
+    {
+      "run": "n48_dt0p00025",
+      "criteria": {
+        "record_payloads_retained": true,
+        "memory_values_not_decreased": true,
+        "bit_read_margins_met": true,
+        "context_ledger_met": true,
+        "energy_ledger_met": true,
+        "local_budget_target_met": true
+      },
+      "metrics": {
+        "max_local_budget_residual": 8.896723960837016e-12,
+        "max_context_ledger_residual": 8.673617379884035e-18,
+        "max_energy_ledger_residual": 1.240526914048426e-13,
+        "all_entry_records_retained": true,
+        "minimum_m_rate": 0.0,
+        "minimum_m_increase": 0.0,
+        "minimum_m_step_increment": 0.0,
+        "minimum_b_read_margin": 0.019906684549881634,
+        "maximum_b_sign_flips": 0,
+        "rate_component_max_error": 1.1796119636642288e-16
+      },
+      "independent_max_local_residual": 8.896723960837016e-12,
+      "independent_endpoint_min_m_increment": 0.0,
+      "record_check": {
+        "all_entry_payloads_retained": true,
+        "all_payload_crcs_valid": true,
+        "unique_record_keys": true,
+        "record_counts": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "entry_records": 3
+      },
+      "unchanged_state_arrays": [
+        "write_work"
+      ],
+      "changed_state_arrays": [
+        "g",
+        "X",
+        "F",
+        "m",
+        "A",
+        "ledger",
+        "expression",
+        "context",
+        "norm",
+        "logradius",
+        "relation",
+        "responses",
+        "association",
+        "b",
+        "observer_X",
+        "breathing_work"
+      ],
+      "endpoint": [
+        {
+          "run": "n48_dt0p00025",
+          "time": "1.3",
+          "point": "A",
+          "field": "C",
+          "entry": "0.294121242771092",
+          "current": "0.2932764652336772",
+          "change": "-0.0008447775374147981",
+          "diffusion_or_conduction": "-0.03237208753655631",
+          "source_or_heat_exchange": "0.03145112524564263",
+          "advection_interpolation": "7.618474460215737e-05",
+          "accounted_change": "-0.0008447775463115221",
+          "residual": "8.896723960837016e-12"
+        },
+        {
+          "run": "n48_dt0p00025",
+          "time": "1.3",
+          "point": "A",
+          "field": "theta",
+          "entry": "0.012989419966105094",
+          "current": "0.012341802398373196",
+          "change": "-0.0006476175677318976",
+          "diffusion_or_conduction": "-0.0006647148041771868",
+          "source_or_heat_exchange": "1.652262460282213e-05",
+          "advection_interpolation": "5.746116604092075e-07",
+          "accounted_change": "-0.0006476175679139555",
+          "residual": "1.8205792776115892e-13"
+        },
+        {
+          "run": "n48_dt0p00025",
+          "time": "1.3",
+          "point": "B",
+          "field": "C",
+          "entry": "0.07769931900068659",
+          "current": "0.08097934642946954",
+          "change": "0.0032800274287829445",
+          "diffusion_or_conduction": "0.001246536130452348",
+          "source_or_heat_exchange": "0.0019406451071615498",
+          "advection_interpolation": "9.28461869514487e-05",
+          "accounted_change": "0.003280027424565347",
+          "residual": "4.2175976253111536e-12"
+        },
+        {
+          "run": "n48_dt0p00025",
+          "time": "1.3",
+          "point": "B",
+          "field": "theta",
+          "entry": "0.009334688266165516",
+          "current": "0.009348832918329511",
+          "change": "1.4144652163995339e-05",
+          "diffusion_or_conduction": "-0.0003359054938230505",
+          "source_or_heat_exchange": "0.00034495108151915874",
+          "advection_interpolation": "5.099064446329616e-06",
+          "accounted_change": "1.4144652142437873e-05",
+          "residual": "2.1557466234204195e-14"
+        }
+      ],
+      "endpoint_positions": [
+        [
+          -0.07759447385246622,
+          -0.04818282745806579,
+          0.017765474923207018
+        ],
+        [
+          -0.08069063809386767,
+          -0.18685802559056125,
+          0.10276189690670165
+        ]
+      ],
+      "local_fluid_entry_exit": [
+        {
+          "time": 1.2,
+          "point": "A",
+          "position": [
+            -0.06792381233179355,
+            -0.048154957157490394,
+            0.01677402816279159
+          ],
+          "values": {
+            "vx": -0.09066934555203747,
+            "vy": -0.0001919555411484745,
+            "vz": 0.0033717274114231015,
+            "C": 0.29412124277109203,
+            "theta": 0.012989419966105094
+          }
+        },
+        {
+          "time": 1.2,
+          "point": "B",
+          "position": [
+            -0.07428849583395049,
+            -0.18674495738196267,
+            0.10207000632153536
+          ],
+          "values": {
+            "vx": -0.06498642875051297,
+            "vy": -0.0013248020903330873,
+            "vz": 0.002379814248307203,
+            "C": 0.07769931900068659,
+            "theta": 0.009334688266165516
+          }
+        },
+        {
+          "time": 1.3,
+          "point": "A",
+          "position": [
+            -0.07759447385246622,
+            -0.04818282745806579,
+            0.017765474923207018
+          ],
+          "values": {
+            "vx": -0.10050001788653301,
+            "vy": -0.00030765885216143933,
+            "vz": 0.015062989596737394,
+            "C": 0.2932764652336772,
+            "theta": 0.012341802398373194
+          }
+        },
+        {
+          "time": 1.3,
+          "point": "B",
+          "position": [
+            -0.08069063809386767,
+            -0.18685802559056125,
+            0.10276189690670165
+          ],
+          "values": {
+            "vx": -0.06362754797934506,
+            "vy": -0.001019745949770262,
+            "vz": 0.01060554296362358,
+            "C": 0.08097934642946954,
+            "theta": 0.009348832918329513
+          }
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "coarse": "n40_dt0p0005",
+      "fine": "n48_dt0p0005",
+      "field": "C",
+      "max_readout_difference": 0.0005748869322889094,
+      "worst_time": 1.276,
+      "worst_point": "A",
+      "scope": "Differences reported; no grid-convergence threshold declared for this new readout."
+    },
+    {
+      "coarse": "n40_dt0p0005",
+      "fine": "n48_dt0p0005",
+      "field": "theta",
+      "max_readout_difference": 4.442381485752003e-05,
+      "worst_time": 1.3,
+      "worst_point": "B",
+      "scope": "Differences reported; no grid-convergence threshold declared for this new readout."
+    },
+    {
+      "coarse": "n48_dt0p0005",
+      "fine": "n48_dt0p00025",
+      "field": "C",
+      "max_readout_difference": 4.860649138738182e-08,
+      "worst_time": 1.2,
+      "worst_point": "A",
+      "scope": "Differences reported; no grid-convergence threshold declared for this new readout."
+    },
+    {
+      "coarse": "n48_dt0p0005",
+      "fine": "n48_dt0p00025",
+      "field": "theta",
+      "max_readout_difference": 3.852130892045835e-09,
+      "worst_time": 1.2,
+      "worst_point": "A",
+      "scope": "Differences reported; no grid-convergence threshold declared for this new readout."
+    }
+  ],
+  "record_payload_checks": 459,
+  "local_budget_rows": 612,
+  "per_run_common_times": 51,
+  "all_native_state_fields_classified": 17,
+  "complete_private_inventory_established": false,
+  "source_inputs_sha256": {
+    "outputs\\pair25-retention\\n40_dt0p0005\\result.json": "704bc00744740027626267c8507c43a8faa692d362ad7f715015659da9c70ab0",
+    "outputs\\pair25-retention\\n40_dt0p0005\\local-budgets.csv": "c8394619d0e6a2211b0bfd6d3e9bc55c990bb5cd1954d9ac69d29f56fef19c3c",
+    "outputs\\pair25-retention\\n40_dt0p0005\\global-accounts.csv": "b9abacff6cf9d94cc445982514afafd1219ae8625161095d33163ea0326ff299",
+    "outputs\\pair25-retention\\n40_dt0p0005\\record-payloads.npz": "3e94c02fe1f99ffe00cdc59723bb13ce8c744950accc2cf64da2f6a45564140b",
+    "outputs\\pair25-retention\\n40_dt0p0005\\entry-state.npz": "c7f022d940290b775156b1ca1951ad08b45e5a9f93eacb02694bec03e1e23227",
+    "outputs\\pair25-retention\\n40_dt0p0005\\exit-state.npz": "303cae0cebdde66152626df1f275414431c4d5f8308150bd2be35a84f4b8a74c",
+    "outputs\\pair25-retention\\n40_dt0p0005\\pair-positions.npz": "3f825c86bd851051d86d909c056b40730ac2acea0b8f0c331f78c5f78c7e31e3",
+    "outputs\\pair25-retention\\n48_dt0p0005\\result.json": "ee2aa6ce68c4a418946e6361ef7e97b8775f7bd2e4a8b7fe6f81d552f7bc0dfc",
+    "outputs\\pair25-retention\\n48_dt0p0005\\local-budgets.csv": "529cc71dd7721051dfac2c8a326820a550bcb00e7b1e4e854391598ab0ad2c6b",
+    "outputs\\pair25-retention\\n48_dt0p0005\\global-accounts.csv": "6a54f8d6f9f5904fbfa78bea583f86e73e4b54c72f90e5fa7689e170d9fa0d8a",
+    "outputs\\pair25-retention\\n48_dt0p0005\\record-payloads.npz": "c85ac5b25c01e9c8c8e3400f9afd7aac47ebe02ca5abf20dfc88eacbfe6570fa",
+    "outputs\\pair25-retention\\n48_dt0p0005\\entry-state.npz": "a90c35c508de0213c9b571d037f266605d06d4e9db65f177d6a9ed751d2f6dcf",
+    "outputs\\pair25-retention\\n48_dt0p0005\\exit-state.npz": "6c20b6d612a233595b565298048caf837236ccabb1ecd5b2a1bc0f1a85b9bb78",
+    "outputs\\pair25-retention\\n48_dt0p0005\\pair-positions.npz": "481dda75f8be86954d2260f7135207bb32ed73cffa6f8f71c9d405383a7984fb",
+    "outputs\\pair25-retention\\n48_dt0p00025\\result.json": "92354b36ade24b03e0fc3f5afb24e020d0d2fafc12be777af71c3d044a2ea235",
+    "outputs\\pair25-retention\\n48_dt0p00025\\local-budgets.csv": "6723dccfa04bbdb98f89fcde6448c4e1f70fa8c54fbd84d3e32a057804380b2a",
+    "outputs\\pair25-retention\\n48_dt0p00025\\global-accounts.csv": "1ca9dde03e88890fa584c678aa5f104793b0c5808e880e883693995490aaf925",
+    "outputs\\pair25-retention\\n48_dt0p00025\\record-payloads.npz": "c85ac5b25c01e9c8c8e3400f9afd7aac47ebe02ca5abf20dfc88eacbfe6570fa",
+    "outputs\\pair25-retention\\n48_dt0p00025\\entry-state.npz": "7b1ea034a8776cc940878f43e57821530ba44f276655874fb798d0211dd37d6f",
+    "outputs\\pair25-retention\\n48_dt0p00025\\exit-state.npz": "d6acdc428c18b04a8cfc2bf0c533392c4341f076eef6af034cc12740a6d65eca",
+    "outputs\\pair25-retention\\n48_dt0p00025\\pair-positions.npz": "17dbbbfcdd88909d0283044c398415507119b225f7da9a8fdfbb182ef9bf65c1"
+  },
+  "source_observations_preserved": true,
+  "independent_check_scope": "Recount of saved payload bytes, coverage, exact input arrays, endpoint readout via separate interpolation, native-field inventory and numerical budgets. Stage extrema were inspected by the running instrument and are not independently replayed here."
+}
