@@ -11,7 +11,7 @@ else:
     out.mkdir(parents=True,exist_ok=True)
     for tag in ['n16_dt0p002','n16_dt0p001']:
         (out/tag).mkdir(exist_ok=True)
-        for name in ['history.csv','receipt.json','fields.npz']:shutil.copyfile(HERE/tag/name,out/tag/name)
+        for name in ['history.csv','receipt.json','fields.npz','exit-state.npz']:shutil.copyfile(HERE/tag/name,out/tag/name)
     shutil.copyfile(HERE/'analysis.json',out/'analysis.json')
     subprocess.run([sys.executable,str(work/('analyze_heat.py' if a.action=='recount' else 'plot_heat.py'))],check=True)
 print(out)

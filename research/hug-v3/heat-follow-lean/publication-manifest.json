@@ -73,7 +73,7 @@
     "research/hug-v3/heat-follow-study/pilot.json": "39b54666033704d3427e4b747f3baef278f011bd0c2ab31ee2f5b07faa25fcbd",
     "research/hug-v3/heat-follow-study/provenance.json": "ebe15f619283778e42eaa369993dcdda2d02e9985c8af670885bf24ebb2ba1dd",
     "research/hug-v3/heat-follow-study/README.md": "1508c6cc9052a80f361ac3ca2517abcc667da52a09550f23862b97ab2701689a",
-    "research/hug-v3/heat-follow-study/reproduce.py": "4e3da1671cd573180ce568d319c323b8585e41db7b1fc432ce29e96dd8d869b5",
+    "research/hug-v3/heat-follow-study/reproduce.py": "8856c781b9d1e168286652076c4edbdc1e170d2a73393f6eac34546e7d9199f2",
     "research/hug-v3/heat-follow-study/reproduction/work/heat-follow/analyze_heat.py": "a239dd17a270783cfbcebe80ba6b27385b68f03fc0d483f4fe96c565aaa466b6",
     "research/hug-v3/heat-follow-study/reproduction/work/heat-follow/inputs/baseline/checks.json": "2a11e8266efb6f0e47074a57afed1ee6964ee8e3faca8aabbdb540ea92802b94",
     "research/hug-v3/heat-follow-study/reproduction/work/heat-follow/inputs/baseline/configuration.json": "a7979b9bda5a18ec4c7002c4d356ea1fa0b195d4e63eb7922db463d0533945ff",
@@ -123,5 +123,5 @@
     "research/hug-v3/heat-follow-study/reproduction/work/heat-follow/run_heat.py": "80c4ddfe4178942df92fc330f73d32bd757467d62142876c57855e5f7d1eb2a7",
     "research/hug-v3/heat-follow-study/review-receipt.json": "21a33de779feef3872553579d13ffcdcd76550fd3e69939070bd32d764824da8"
   },
-  "publication_input_fingerprint": "322a0bf4c690e33dddab9f915d984444a5b459cfc2e2d69649b358dfbb571b1d"
+  "publication_input_fingerprint": "060a56fccf68cab51e5f7d5949f12d831dc1d9e01d7c860984fc5143aba7548e"
 }
