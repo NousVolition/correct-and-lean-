@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "phase": "final",
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "mathlib_tracked_sources_clean": true,
+  "modules": [
+    {
+      "module": "YangMillsInstance",
+      "status": "PASS",
+      "exit_code": 0,
+      "started_at_utc": "2026-11-12T06:19:15.536989+00:00",
+      "finished_at_utc": "2026-11-12T06:19:42.500767+00:00",
+      "source_sha256": "eecd17c8486976c0b65122ea0a05ed00f4737f854939e21fc4a4341c1b9c8c8d",
+      "source_unchanged_during_check": true,
+      "log": "logs/YangMillsInstance-final.log",
+      "log_sha256": "b6afd1dfcc5274130dde8589a00a4549f26db06a5da8546d9427894f2121b861",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "expected_axiom_reports": [
+        "YangMillsInstance.order_zero_reads_only_leading",
+        "YangMillsInstance.order_zero_blind_to_higher_coefficients",
+        "YangMillsInstance.readJet_one_project",
+        "YangMillsInstance.order_zero_readings_agree",
+        "YangMillsInstance.order_one_readings_differ",
+        "YangMillsInstance.order_zero_reading_cannot_determine_first_derivative"
+      ],
+      "actual_axiom_reports": [
+        "YangMillsInstance.order_zero_reads_only_leading",
+        "YangMillsInstance.order_zero_blind_to_higher_coefficients",
+        "YangMillsInstance.readJet_one_project",
+        "YangMillsInstance.order_zero_readings_agree",
+        "YangMillsInstance.order_one_readings_differ",
+        "YangMillsInstance.order_zero_reading_cannot_determine_first_derivative"
+      ],
+      "forbidden_proof_constructs": [],
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=${PACKAGE}",
+        "-o",
+        "${LOCAL_WORK}/build-final/YangMillsInstance.olean",
+        "${PACKAGE}/YangMillsInstance.lean"
+      ],
+      "original_local_log_sha256": "cb64e604dbaf088f95a1b41b061a4078524552630adb3e005a5d8ec212914de6"
+    }
+  ],
+  "publication_note": "Local verification evidence. Machine paths replaced with portable labels; changed log hashes updated and original hashes retained. Not a GitHub build receipt.",
+  "original_local_receipt_sha256": "a902ff2b8d8e7d6c3e15ad74e1f7f32c993c3efdbe05b4e822c41aa909179ba6"
+}

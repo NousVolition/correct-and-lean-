@@ -81,6 +81,11 @@ The tick-41 gap sample is taken **before the write at time 1.2**. The write pres
 
 ## Proofs and the questions they answer
 
+### What the same observation can hide
+
+The [ambiguous-observation package](research/ambiguous-observation-lean/README.md) contains the Tick 41 and Pair 25 summary instances and two distinct mathematical comparisons. `YangMillsInstance` uses the submission's `readJet` definition in a real-valued projection example: equal order-zero readings can have different first derivatives. `YangMillsCueTest` compares explicit abelian potentials agreeing on `x₁ = 0`, with field-equation residuals 0 and 2. The latter is a field-equation comparison; neither result establishes an admissible Yang–Mills family. [Proof sources, logs and build instructions](research/ambiguous-observation-lean/README.md#verification-and-reproduction) · [Preserved credits](research/ambiguous-observation-lean/CREDITS.md)
+
+
 ### What `green_objective` proves
 
 For a real 3 × 3 deformation matrix `F` and an orthogonal frame change `Q`, Lean proves `green (QF) = green F`. It establishes invariance of this strain measurement under the stated frame change. The 8 November 2026 receipt records Comparator, Lean-kernel and nanoda acceptance of the frozen 20-declaration set containing this theorem. [Statement and proof](https://github.com/NousVolition/hug-sims-lean-proofs/blob/1f6fdc546eaedda451b5e38b6dff957260581023/lean/hug-v3-yang-mills-audit-lean/V3YangMillsAuditProofs.lean#L14-L33) · [Receipt and reproduction](provenance/green-objective-2026-11-08/README.md)

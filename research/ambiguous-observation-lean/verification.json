@@ -1,0 +1,376 @@
+{
+  "status": "PASS",
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "mathlib_tracked_sources_clean": true,
+  "final_sources_and_logs_hash_verified": true,
+  "mathematical_code_unchanged": true,
+  "upstream_definition_check": {
+    "saved_reference_normalization": "Removed one extra trailing newline before matching the upstream blob SHA-1",
+    "url": "https://github.com/yang-mills-group/YM/blob/55ba9fc36293b3f4d52c6b1f813169a0be76ee98/submissions/openai-20261028/submission/YM/Pert/Position/Implicit.lean",
+    "blob_sha1": "6daaaa593da5959c703de042488f0d3a48ccbf29",
+    "comparison": "Equal ignoring whitespace",
+    "definitions": [
+      "curve",
+      "readJet"
+    ]
+  },
+  "original_yang_mills_attachment_sha256": "b6bd6bfae94106e8785f2262167fddc6ab2d8de71201695581ed51e08ca60d54",
+  "modules": [
+    {
+      "module": "Pair25Instance",
+      "status": "PASS",
+      "exit_code": 0,
+      "started_at_utc": "2026-11-11T22:17:44.46115-08:00",
+      "finished_at_utc": "2026-11-11T22:17:47.795117-08:00",
+      "source_sha256": "9dba45b36ba06fa5b93d28af410fdcdda7c1d7b5c55a9b5c38d989e193055811",
+      "source_unchanged_during_check": true,
+      "log": "logs/Pair25Instance-initial.log",
+      "log_sha256": "02ef2bc3e3f06dc53be92e54145f24cde8e96286362d34eb02491eb1cefb05f1",
+      "axioms": [],
+      "expected_axiom_reports": [
+        "Pair25Instance.count_same_at_start_and_end",
+        "Pair25Instance.membership_differs",
+        "Pair25Instance.count_passes_through_365",
+        "Pair25Instance.count_cannot_tell_whether_540_is_inside",
+        "Pair25Instance.count_cannot_tell_whether_872_is_inside"
+      ],
+      "actual_axiom_reports": [
+        "Pair25Instance.count_same_at_start_and_end",
+        "Pair25Instance.membership_differs",
+        "Pair25Instance.count_passes_through_365",
+        "Pair25Instance.count_cannot_tell_whether_540_is_inside",
+        "Pair25Instance.count_cannot_tell_whether_872_is_inside"
+      ],
+      "forbidden_proof_constructs": [],
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=${PACKAGE}",
+        "-o",
+        "${LOCAL_WORK}/build-initial/Pair25Instance.olean",
+        "${PACKAGE}/Pair25Instance.lean"
+      ],
+      "verification_kind": "retained earlier check; source and log hashes revalidated in this turn"
+    },
+    {
+      "module": "Tick41Instance",
+      "status": "PASS",
+      "exit_code": 0,
+      "started_at_utc": "2026-11-11T22:17:47.806076-08:00",
+      "finished_at_utc": "2026-11-11T22:18:12.846865-08:00",
+      "source_sha256": "e37c94f327805e92aa81045d4b1eeff5c5c6879acf37ed38efc80d06566c70d4",
+      "source_unchanged_during_check": true,
+      "log": "logs/Tick41Instance-initial.log",
+      "log_sha256": "74b2813d0cea01657d1400b11778a5144d341e4c2c86ac541c6d2ad76c2f690b",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "expected_axiom_reports": [
+        "Tick41Instance.accumulator_unchanged_by_write",
+        "Tick41Instance.rate_changed_by_write",
+        "Tick41Instance.rate_jump",
+        "Tick41Instance.accumulator_value_cannot_tell_whether_record_was_written",
+        "Tick41Instance.accumulator_value_cannot_determine_rate"
+      ],
+      "actual_axiom_reports": [
+        "Tick41Instance.accumulator_unchanged_by_write",
+        "Tick41Instance.rate_changed_by_write",
+        "Tick41Instance.rate_jump",
+        "Tick41Instance.accumulator_value_cannot_tell_whether_record_was_written",
+        "Tick41Instance.accumulator_value_cannot_determine_rate"
+      ],
+      "forbidden_proof_constructs": [],
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=${PACKAGE}",
+        "-o",
+        "${LOCAL_WORK}/build-initial/Tick41Instance.olean",
+        "${PACKAGE}/Tick41Instance.lean"
+      ],
+      "verification_kind": "retained earlier check; source and log hashes revalidated in this turn"
+    },
+    {
+      "module": "YangMillsInstance",
+      "status": "PASS",
+      "exit_code": 0,
+      "started_at_utc": "2026-11-11T22:19:15.536989-08:00",
+      "finished_at_utc": "2026-11-11T22:19:42.500767-08:00",
+      "source_sha256": "eecd17c8486976c0b65122ea0a05ed00f4737f854939e21fc4a4341c1b9c8c8d",
+      "source_unchanged_during_check": true,
+      "log": "logs/YangMillsInstance-final.log",
+      "log_sha256": "b6afd1dfcc5274130dde8589a00a4549f26db06a5da8546d9427894f2121b861",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "expected_axiom_reports": [
+        "YangMillsInstance.order_zero_reads_only_leading",
+        "YangMillsInstance.order_zero_blind_to_higher_coefficients",
+        "YangMillsInstance.readJet_one_project",
+        "YangMillsInstance.order_zero_readings_agree",
+        "YangMillsInstance.order_one_readings_differ",
+        "YangMillsInstance.order_zero_reading_cannot_determine_first_derivative"
+      ],
+      "actual_axiom_reports": [
+        "YangMillsInstance.order_zero_reads_only_leading",
+        "YangMillsInstance.order_zero_blind_to_higher_coefficients",
+        "YangMillsInstance.readJet_one_project",
+        "YangMillsInstance.order_zero_readings_agree",
+        "YangMillsInstance.order_one_readings_differ",
+        "YangMillsInstance.order_zero_reading_cannot_determine_first_derivative"
+      ],
+      "forbidden_proof_constructs": [],
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=${PACKAGE}",
+        "-o",
+        "${LOCAL_WORK}/build-final/YangMillsInstance.olean",
+        "${PACKAGE}/YangMillsInstance.lean"
+      ],
+      "verification_kind": "retained earlier check; source and log hashes revalidated in this turn",
+      "original_local_log_sha256": "cb64e604dbaf088f95a1b41b061a4078524552630adb3e005a5d8ec212914de6"
+    },
+    {
+      "module": "Volterra",
+      "status": "PASS",
+      "exit_code": 0,
+      "started_at_utc": "2026-11-12T06:25:42.926407+00:00",
+      "finished_at_utc": "2026-11-12T06:26:08.026489+00:00",
+      "source_sha256": "26906df3b92869c297524e14c09b8bb5c15d6de60f8e7b0dbd93785d759f0952",
+      "source_unchanged_during_check": true,
+      "object_sha256": "38d06d9d65758a1f8c26483e941f91384f6b85b41ab4a6f710fccf3907efeb45",
+      "local_dependency_objects": {},
+      "log": "logs/Volterra-cue-fresh.log",
+      "log_sha256": "9e41848e55c8ca92a0ec1afaac577a8c066533ed4e824c378e46c2fce60dbbb9",
+      "axioms": [],
+      "expected_axiom_reports": [],
+      "actual_axiom_reports": [],
+      "forbidden_proof_constructs": [],
+      "command": [
+        "lean",
+        "--root=${PACKAGE}",
+        "-o",
+        "${LOCAL_WORK}/build-cue-fresh/Volterra.olean",
+        "${PACKAGE}/Volterra.lean"
+      ],
+      "verification_kind": "fresh compilation in this turn",
+      "original_local_log_sha256": "568a09714483d27cff8261d9e898097733ac385cef7812d260e4e5fac1162e87"
+    },
+    {
+      "module": "TwoMemory",
+      "status": "PASS",
+      "exit_code": 0,
+      "started_at_utc": "2026-11-12T06:26:08.075209+00:00",
+      "finished_at_utc": "2026-11-12T06:26:12.875985+00:00",
+      "source_sha256": "d3d4384654c08975f55dcb4ec86db3830e0b8fe0b5f609b695721056aba0880a",
+      "source_unchanged_during_check": true,
+      "object_sha256": "58ee6e98faa86436fe42aaa0bf26018c8578cf9d28764c2639349a5da55229d1",
+      "local_dependency_objects": {
+        "Volterra": {
+          "path": "${LOCAL_WORK}/build-cue-fresh/Volterra.olean",
+          "sha256": "38d06d9d65758a1f8c26483e941f91384f6b85b41ab4a6f710fccf3907efeb45"
+        }
+      },
+      "log": "logs/TwoMemory-cue-fresh.log",
+      "log_sha256": "ba37e81f0be15500267504d1bea581bae5cea7a8896b745adf80a829d08730e5",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "expected_axiom_reports": [
+        "unique_memory_trajectory"
+      ],
+      "actual_axiom_reports": [
+        "TwoMemory.unique_memory_trajectory"
+      ],
+      "forbidden_proof_constructs": [],
+      "command": [
+        "lean",
+        "--root=${PACKAGE}",
+        "-o",
+        "${LOCAL_WORK}/build-cue-fresh/TwoMemory.olean",
+        "${PACKAGE}/TwoMemory.lean"
+      ],
+      "verification_kind": "fresh compilation in this turn"
+    },
+    {
+      "module": "TwoMemoryTransport",
+      "status": "PASS",
+      "exit_code": 0,
+      "started_at_utc": "2026-11-12T06:26:12.921066+00:00",
+      "finished_at_utc": "2026-11-12T06:26:17.755947+00:00",
+      "source_sha256": "b8681a3435b2367081d285fb83e7964a9ce5d2f7d0c9de07b87c798638a5d36e",
+      "source_unchanged_during_check": true,
+      "object_sha256": "020b9022be968408a694e9e50a19eaa0f58195f3ad51fe9aa11b1682f02e5041",
+      "local_dependency_objects": {
+        "TwoMemory": {
+          "path": "${LOCAL_WORK}/build-cue-fresh/TwoMemory.olean",
+          "sha256": "58ee6e98faa86436fe42aaa0bf26018c8578cf9d28764c2639349a5da55229d1"
+        }
+      },
+      "log": "logs/TwoMemoryTransport-cue-fresh.log",
+      "log_sha256": "de6e4d3e090fe28bc06f7a6c51fdf0a4704fcbdd8857b1adaf7ceda347f8e562",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "expected_axiom_reports": [
+        "readout_from_odds",
+        "odds_eq_exp",
+        "update_odds",
+        "compose_transport",
+        "endpoints_determine_transport",
+        "closed_route",
+        "odds_parallel",
+        "flat_curvature",
+        "source_free",
+        "unit_speed_fails_memory_at_zero"
+      ],
+      "actual_axiom_reports": [
+        "TwoMemoryTransport.readout_from_odds",
+        "TwoMemoryTransport.odds_eq_exp",
+        "TwoMemoryTransport.update_odds",
+        "TwoMemoryTransport.compose_transport",
+        "TwoMemoryTransport.endpoints_determine_transport",
+        "TwoMemoryTransport.closed_route",
+        "TwoMemoryTransport.odds_parallel",
+        "TwoMemoryTransport.flat_curvature",
+        "TwoMemoryTransport.source_free",
+        "TwoMemoryTransport.unit_speed_fails_memory_at_zero"
+      ],
+      "forbidden_proof_constructs": [],
+      "command": [
+        "lean",
+        "--root=${PACKAGE}",
+        "-o",
+        "${LOCAL_WORK}/build-cue-fresh/TwoMemoryTransport.olean",
+        "${PACKAGE}/TwoMemoryTransport.lean"
+      ],
+      "verification_kind": "fresh compilation in this turn"
+    },
+    {
+      "module": "YangMillsCueTest",
+      "status": "PASS",
+      "exit_code": 0,
+      "started_at_utc": "2026-11-12T06:26:17.816372+00:00",
+      "finished_at_utc": "2026-11-12T06:26:22.764130+00:00",
+      "source_sha256": "87c9d1ee4128bfcb025f8760435e592a12136ce44e159cf41085ecb7ac010c2c",
+      "source_unchanged_during_check": true,
+      "object_sha256": "8a6668af13025343e708a5bd243d00a0a1d473295561d68f757f4f648907d0bc",
+      "local_dependency_objects": {
+        "TwoMemoryTransport": {
+          "path": "${LOCAL_WORK}/build-cue-fresh/TwoMemoryTransport.olean",
+          "sha256": "020b9022be968408a694e9e50a19eaa0f58195f3ad51fe9aa11b1682f02e5041"
+        }
+      },
+      "log": "logs/YangMillsCueTest-cue-fresh.log",
+      "log_sha256": "4bcd0602eadad162b39cc2f565f79a351a33bb62dc7d7e2bd8806cb4cf3e13b8",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "expected_axiom_reports": [
+        "same_data_different_field_equation",
+        "endpoint_frames_cancel",
+        "local_frames_conjugate_loop"
+      ],
+      "actual_axiom_reports": [
+        "YangMillsCueTest.same_data_different_field_equation",
+        "YangMillsCueTest.endpoint_frames_cancel",
+        "YangMillsCueTest.local_frames_conjugate_loop"
+      ],
+      "forbidden_proof_constructs": [],
+      "command": [
+        "lean",
+        "--root=${PACKAGE}",
+        "-o",
+        "${LOCAL_WORK}/build-cue-fresh/YangMillsCueTest.olean",
+        "${PACKAGE}/YangMillsCueTest.lean"
+      ],
+      "verification_kind": "fresh compilation in this turn"
+    },
+    {
+      "module": "YangMillsCueAxioms",
+      "status": "PASS",
+      "exit_code": 0,
+      "started_at_utc": "2026-11-12T06:26:22.812667+00:00",
+      "finished_at_utc": "2026-11-12T06:26:27.449871+00:00",
+      "source_sha256": "8279a06cccafa9aa7a69f5d152f137e78588ecffcf6baffa713124e2e2b0bfc4",
+      "source_unchanged_during_check": true,
+      "object_sha256": "c5ec0ca1f8c46da5887abef0b1e1f3f0019b5b4aeaec0b4b3bbd275731ffc289",
+      "local_dependency_objects": {
+        "YangMillsCueTest": {
+          "path": "${LOCAL_WORK}/build-cue-fresh/YangMillsCueTest.olean",
+          "sha256": "8a6668af13025343e708a5bd243d00a0a1d473295561d68f757f4f648907d0bc"
+        }
+      },
+      "log": "logs/YangMillsCueAxioms-cue-fresh.log",
+      "log_sha256": "0909dc7b677b50f9022f991a6cba49926e11faa7d9b2c85f1c72d9678de916a3",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "expected_axiom_reports": [
+        "TwoMemoryTransport.flat_curvature",
+        "TwoMemoryTransport.source_free",
+        "YangMillsCueTest.agree_on_slice",
+        "YangMillsCueTest.transverse_curvature_column",
+        "YangMillsCueTest.transverse_residual",
+        "YangMillsCueTest.same_data_different_field_equation",
+        "YangMillsCueTest.endpoint_frames_cancel",
+        "YangMillsCueTest.local_frames_conjugate_loop"
+      ],
+      "actual_axiom_reports": [
+        "TwoMemoryTransport.flat_curvature",
+        "TwoMemoryTransport.source_free",
+        "YangMillsCueTest.agree_on_slice",
+        "YangMillsCueTest.transverse_curvature_column",
+        "YangMillsCueTest.transverse_residual",
+        "YangMillsCueTest.same_data_different_field_equation",
+        "YangMillsCueTest.endpoint_frames_cancel",
+        "YangMillsCueTest.local_frames_conjugate_loop"
+      ],
+      "forbidden_proof_constructs": [],
+      "command": [
+        "lean",
+        "--root=${PACKAGE}",
+        "-o",
+        "${LOCAL_WORK}/build-cue-fresh/YangMillsCueAxioms.olean",
+        "${PACKAGE}/YangMillsCueAxioms.lean"
+      ],
+      "verification_kind": "fresh compilation in this turn"
+    }
+  ],
+  "limitations": [
+    "No numerical rerun or transcription verification in this session",
+    "No full upstream Yang-Mills submission build",
+    "No fresh standalone Lake dependency installation or package build"
+  ],
+  "cue_comparison": {
+    "status": "PASS",
+    "receipt": "verification-cue.json",
+    "compilation_log": "logs/YangMillsCueTest-cue-fresh.log",
+    "expanded_axiom_log": "logs/YangMillsCueAxioms-cue-fresh.log",
+    "source_copies_identical_to_earlier_package": true,
+    "fresh_dependency_objects_confirmed": true,
+    "existing_credits_preserved_verbatim": true,
+    "earlier_three_sources_and_logs_preserved": true,
+    "lake_configuration_and_local_import_closure_checked": true
+  },
+  "publication_note": "Local verification evidence. Machine paths replaced with portable labels; changed log hashes updated and original hashes retained. Not a GitHub build receipt.",
+  "original_local_receipt_sha256": "94ec0cff1053284cebe01c7dd368497a748600b2daf3f95af8eca692a7c67f8b"
+}
