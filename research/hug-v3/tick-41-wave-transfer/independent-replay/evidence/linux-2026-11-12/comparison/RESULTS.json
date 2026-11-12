@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "acceptance": {
+    "all_saved_complex_modes_within_replay_tolerance": true,
+    "all_history_broad_norms_within_replay_tolerance": true,
+    "original_step_and_amplitude_controls_pass": true,
+    "initial_broad_below_1e_minus16": true,
+    "final_broad_over_100_times_initial_roundoff": true,
+    "repeated_first_steps_bit_identical": true,
+    "inputs_preserved": true,
+    "phase_only_negative_control_rejected": true
+  },
+  "history_rows": 283,
+  "history_arm_readings": 364,
+  "complex_mode_snapshots": 164,
+  "controls": 123,
+  "final_broad_rms": 4.124655002731452e-12,
+  "published_final_broad_rms": 4.124655000767898e-12,
+  "fine_difference_percent_reduction": 75.9677789803808,
+  "worst_replay_relative_complex": {
+    "dt": 0.0005,
+    "arm": "fine_error",
+    "time": 1.2,
+    "reference_rms": 1.829898405050765e-20,
+    "replay_rms": 1.8299279358518748e-20,
+    "complex_difference_rms": 5.696253362974869e-24,
+    "relative_complex_difference": 0.00031128795714846497,
+    "absolute_tolerance": 1e-17,
+    "within_tolerance": true,
+    "weighted_phase_rms_degrees": null,
+    "phase_retained_reference_power": 0.0
+  },
+  "worst_replay_tolerance_fraction": 0.0007120916138422911,
+  "finest_endpoint": {
+    "dt": 0.000125,
+    "arm": "fine_error",
+    "time": 1.22,
+    "reference_rms": 4.124655000767899e-12,
+    "replay_rms": 4.124655002731452e-12,
+    "complex_difference_rms": 2.553375636771065e-20,
+    "relative_complex_difference": 6.190519295057879e-09,
+    "absolute_tolerance": 4.1246550007678994e-16,
+    "within_tolerance": true,
+    "weighted_phase_rms_degrees": 2.5220832993122943e-07,
+    "phase_retained_reference_power": 0.9999999999999998
+  },
+  "control_summary": {
+    "dt 0.0005 versus 0.00025": {
+      "endpoint": {
+        "comparison": "dt 0.0005 versus 0.00025",
+        "time": 1.22,
+        "after_start": true,
+        "complex_difference_rms": 3.2239442622319637e-16,
+        "reference_rms": 4.124731138888421e-12,
+        "relative_difference": 7.816131897267827e-05,
+        "relative_tolerance": 0.01,
+        "within_tolerance": true
+      },
+      "maximum_after_start": {
+        "comparison": "dt 0.0005 versus 0.00025",
+        "time": 1.2005,
+        "after_start": true,
+        "complex_difference_rms": 2.3918184290353517e-17,
+        "reference_rms": 3.195253233335153e-14,
+        "relative_difference": 0.000748553637027013,
+        "relative_tolerance": 0.01,
+        "within_tolerance": true
+      }
+    },
+    "dt 0.00025 versus 0.000125": {
+      "endpoint": {
+        "comparison": "dt 0.00025 versus 0.000125",
+        "time": 1.22,
+        "after_start": true,
+        "complex_difference_rms": 7.970981054736062e-17,
+        "reference_rms": 4.124655002731452e-12,
+        "relative_difference": 1.9325206712943202e-05,
+        "relative_tolerance": 0.01,
+        "within_tolerance": true
+      },
+      "maximum_after_start": {
+        "comparison": "dt 0.00025 versus 0.000125",
+        "time": 1.2005,
+        "after_start": true,
+        "complex_difference_rms": 5.90215441674662e-18,
+        "reference_rms": 3.195063560914372e-14,
+        "relative_difference": 0.00018472729271957033,
+        "relative_tolerance": 0.01,
+        "within_tolerance": true
+      }
+    },
+    "full versus twice half amplitude": {
+      "endpoint": {
+        "comparison": "full versus twice half amplitude",
+        "time": 1.22,
+        "after_start": true,
+        "complex_difference_rms": 3.436991564446567e-15,
+        "reference_rms": 4.124731138888421e-12,
+        "relative_difference": 0.0008332643871117395,
+        "relative_tolerance": 0.01,
+        "within_tolerance": true
+      },
+      "maximum_after_start": {
+        "comparison": "full versus twice half amplitude",
+        "time": 1.2005,
+        "after_start": true,
+        "complex_difference_rms": 6.199086946270683e-17,
+        "reference_rms": 3.195253233335153e-14,
+        "relative_difference": 0.0019400925352636845,
+        "relative_tolerance": 0.01,
+        "within_tolerance": true
+      }
+    }
+  },
+  "source_preserved": true,
+  "phase_only_negative_control": {
+    "reference_rms": 4.124655000767899e-12,
+    "replay_rms": 4.124655000767899e-12,
+    "complex_difference_rms": 4.1229366093305733e-13,
+    "relative_complex_difference": 0.09995833854135666,
+    "absolute_tolerance": 4.1246550007678994e-16,
+    "within_tolerance": false,
+    "weighted_phase_rms_degrees": 5.729577951308232,
+    "phase_retained_reference_power": 0.9999999999999998
+  },
+  "scope": {
+    "fresh_linux_execution": true,
+    "same_sealed_solver": true,
+    "independent_comparison_code": true,
+    "independent_integrator": false,
+    "earlier_history_reconstructed": false,
+    "spatial_convergence": false,
+    "return_miss_connection_established": false
+  },
+  "protocol_sha256": "683252c5ce8ffdca0e9f032ef84edd1c87f9bb72b5936baaca2c37dcc118b3ab",
+  "run_receipt_sha256": "7d67f89c7e35cbf77b53597e6bdd4ba57115f8060ccbe877ee42aaa27c4f3d92"
+}

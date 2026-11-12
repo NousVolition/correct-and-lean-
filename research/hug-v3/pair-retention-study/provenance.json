@@ -1,0 +1,33 @@
+{
+  "source_labels_to_public_paths": {
+    "outputs/pair25-retention/analysis.json": "research/hug-v3/pair-retention-lean/source-data/analysis.json",
+    "outputs/pair25-retention/cell-aware-check.json": "research/hug-v3/pair-retention-lean/source-data/cell-aware-check.json",
+    "outputs/pair25-retention-cellaware/n40_dt0p0005/local-budgets.csv": "research/hug-v3/pair-retention-lean/source-data/cellaware40/local-budgets.csv",
+    "outputs/pair25-retention-cellaware/n40_dt0p0005/result.json": "research/hug-v3/pair-retention-lean/source-data/cellaware40/result.json",
+    "outputs/pair25-retention/n40_dt0p0005/global-accounts.csv": "research/hug-v3/pair-retention-lean/source-data/n40_dt0p0005/global-accounts.csv",
+    "outputs/pair25-retention/n40_dt0p0005/local-budgets.csv": "research/hug-v3/pair-retention-lean/source-data/n40_dt0p0005/local-budgets.csv",
+    "outputs/pair25-retention/n40_dt0p0005/record-payloads.npz": "research/hug-v3/pair-retention-lean/source-data/n40_dt0p0005/record-payloads.npz",
+    "outputs/pair25-retention/n40_dt0p0005/result.json": "research/hug-v3/pair-retention-lean/source-data/n40_dt0p0005/result.json",
+    "outputs/pair25-retention/n48_dt0p00025/global-accounts.csv": "research/hug-v3/pair-retention-lean/source-data/n48_dt0p00025/global-accounts.csv",
+    "outputs/pair25-retention/n48_dt0p00025/local-budgets.csv": "research/hug-v3/pair-retention-lean/source-data/n48_dt0p00025/local-budgets.csv",
+    "outputs/pair25-retention/n48_dt0p00025/record-payloads.npz": "research/hug-v3/pair-retention-lean/source-data/n48_dt0p00025/record-payloads.npz",
+    "outputs/pair25-retention/n48_dt0p00025/result.json": "research/hug-v3/pair-retention-lean/source-data/n48_dt0p00025/result.json",
+    "outputs/pair25-retention/n48_dt0p0005/global-accounts.csv": "research/hug-v3/pair-retention-lean/source-data/n48_dt0p0005/global-accounts.csv",
+    "outputs/pair25-retention/n48_dt0p0005/local-budgets.csv": "research/hug-v3/pair-retention-lean/source-data/n48_dt0p0005/local-budgets.csv",
+    "outputs/pair25-retention/n48_dt0p0005/record-payloads.npz": "research/hug-v3/pair-retention-lean/source-data/n48_dt0p0005/record-payloads.npz",
+    "outputs/pair25-retention/n48_dt0p0005/result.json": "research/hug-v3/pair-retention-lean/source-data/n48_dt0p0005/result.json",
+    "outputs/pair25-retention-cellaware/n40_dt0p0005/global-accounts.csv": "research/hug-v3/pair-retention-study/runs/cellaware40/global-accounts.csv",
+    "outputs/pair25-retention-cellaware/n40_dt0p0005/pair-positions.npz": "research/hug-v3/pair-retention-study/runs/cellaware40/pair-positions.npz",
+    "outputs/pair25-retention-cellaware/n40_dt0p0005/record-payloads.npz": "research/hug-v3/pair-retention-study/runs/cellaware40/record-payloads.npz",
+    "outputs/pair25-retention-cellaware/n40_dt0p0005/status.json": "research/hug-v3/pair-retention-study/runs/cellaware40/status.json",
+    "outputs/pair25-retention/n40_dt0p0005/pair-positions.npz": "research/hug-v3/pair-retention-study/runs/n40_dt0p0005/pair-positions.npz",
+    "outputs/pair25-retention/n40_dt0p0005/status.json": "research/hug-v3/pair-retention-study/runs/n40_dt0p0005/status.json",
+    "outputs/pair25-retention/n48_dt0p00025/pair-positions.npz": "research/hug-v3/pair-retention-study/runs/n48_dt0p00025/pair-positions.npz",
+    "outputs/pair25-retention/n48_dt0p00025/status.json": "research/hug-v3/pair-retention-study/runs/n48_dt0p00025/status.json",
+    "outputs/pair25-retention/n48_dt0p0005/pair-positions.npz": "research/hug-v3/pair-retention-study/runs/n48_dt0p0005/pair-positions.npz",
+    "outputs/pair25-retention/n48_dt0p0005/status.json": "research/hug-v3/pair-retention-study/runs/n48_dt0p0005/status.json"
+  },
+  "local_full_states_published": false,
+  "original_local_proof_fingerprint": "189b8ded57a107160d0022710e365ec658089a44ec130e3e10f2e87a51368da2",
+  "source_run_scripts_unchanged": true
+}

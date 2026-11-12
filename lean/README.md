@@ -1,30 +1,54 @@
 # Lean package index
 
-These packages retain their individual model definitions, assumptions and histories. Read the verification report linked below before interpreting a successful build. The saved checks are historical evidence, not new runs performed during publication.
+These packages retain their own model definitions, assumptions and verification histories. **Status review: 12 November 2026.** The 19 reports in the first table record successful Comparator, Lean-kernel, nanoda and Lake checks for their listed declarations. The descriptions below distinguish those completed results from larger open targets and link later work where it addresses an earlier limitation.
 
-| Package | Recorded result | Evidence |
+This review checks the saved reports and configured targets; it is not a new compilation of those 19 packages. Counts can overlap across packages and must not be added as independent discoveries. The linked reports retain their original evidence and open items.
+
+Newer standalone results are described below: [observation and field-equation checks](#separate-observation-and-field-equation-checks), [Pair-25 origins](#separate-finite-origin-checks), [540/872 histories](#following-540-and-872), and [heat from writing](#heat-from-writing).
+
+| Package | Checked result and current limits | Evidence |
 | --- | --- | --- |
-| [as-lean](as-lean/) | PASS for 30 scoped claims; full coupled model remains unproved | [record](as-lean/verification-report.json) |
-| [as-existence-lean](as-existence-lean/) | PASS | [record](as-existence-lean/verification-report.json) |
-| [as-invariance-lean](as-invariance-lean/) | PASS | [record](as-invariance-lean/verification-report.json) |
-| [hug-squeeze-lean](hug-squeeze-lean/) | PASS for 51 specified claims; full Hug system not certified | [record](hug-squeeze-lean/verification-report.json) |
-| [hug-existence-lean](hug-existence-lean/) | PASS: exact frozen full coupled theorem | [record](hug-existence-lean/verification-report.json) |
-| [hug-navier-bridge-lean](hug-navier-bridge-lean/) | PARTIAL: conditional compatibility verified; a full combined PDE/ODE system remains unspecified and unproved | [record](hug-navier-bridge-lean/verification-report.json) |
-| [hug-navier-full-audit-lean](hug-navier-full-audit-lean/) | PARTIAL: corpus search and formal audit completed; full joint evolution remains unspecified and unproved | [record](hug-navier-full-audit-lean/verification-report.json) |
-| [hug-navier-single-system-lean](hug-navier-single-system-lean/) | PARTIAL: whole source PDE formulation encoded and ten specific theorems verified; full existence and uniqueness are unproved. | [record](hug-navier-single-system-lean/verification-report.json) |
-| [hug-navier-wellposedness-lean](hug-navier-wellposedness-lean/) | INCOMPLETE: requested full theorem not proved. | [record](hug-navier-wellposedness-lean/verification-report.json) |
-| [hug-v3-proof-attempt](hug-v3-proof-attempt/) | INCOMPLETE_FULL_HUG_V3_EXISTENCE_UNIQUENESS_NOT_PROVED | [record](hug-v3-proof-attempt/verification-report.json) |
-| [hug-v3-hybrid-lean](hug-v3-hybrid-lean/) | PARTIAL_CONDITIONAL_HYBRID_ASSEMBLY_VERIFIED_FULL_V3_THEOREM_UNPROVED | [record](hug-v3-hybrid-lean/verification-report.json) |
-| [hug-v3-source-lean](hug-v3-source-lean/) | INCOMPLETE_FULL_HUG_V3_EXISTENCE_UNIQUENESS_NOT_PROVED | [record](hug-v3-source-lean/verification-report.json) |
-| [hug-v3-transfer-lean](hug-v3-transfer-lean/) | PARTIAL: exact local transfer links verified; full finite-time transfer and full existence/uniqueness remain open. | [record](hug-v3-transfer-lean/verification-report.json) |
-| [hug-v3-delay-lean](hug-v3-delay-lean/) | PASS: nine definition-level timing identities; DDE dynamics remain unproved | [record](hug-v3-delay-lean/verification-report.json) |
-| [hug-v3-full-delay-proof](hug-v3-full-delay-proof/) | PARTIAL: full hybrid delayed existence and uniqueness remain UNPROVED | [record](hug-v3-full-delay-proof/verification-report.json) |
-| [hug-v3-memory-rules-lean](hug-v3-memory-rules-lean/) | PARTIAL: existing memory and fixed-delay rules verified; variable timing, reconstructed episodes and anticipation cost remain unspecified | [record](hug-v3-memory-rules-lean/verification-report.json) |
-| [hug-v3-clay-boundary-lean](hug-v3-clay-boundary-lean/) | PARTIAL: full existence and uniqueness remain unproved | [record](hug-v3-clay-boundary-lean/verification-report.json) |
-| [hug-v3-yang-mills-audit-lean](hug-v3-yang-mills-audit-lean/) | PASS | [record](hug-v3-yang-mills-audit-lean/verification-report.json) |
-| [hug-v3-gemini-review](hug-v3-gemini-review/) | PASS for 77 repaired supplied statements; full Hug v3 delayed hybrid existence/uniqueness remains unproved | [record](hug-v3-gemini-review/verification-report.json) |
+| [as-lean](as-lean/) | 30 scoped A/S claims. Later [existence](as-existence-lean/) and [invariance](as-invariance-lean/) results cover the seven-coordinate model; suppression comparison and repeated-encounter coupling remain open. | [record](as-lean/verification-report.json) |
+| [as-existence-lean](as-existence-lean/) | Existence and uniqueness of the seven-coordinate continuous integral evolution on every finite interval, under the original assumptions. | [record](as-existence-lean/verification-report.json) |
+| [as-invariance-lean](as-invariance-lean/) | Both meaning states remain in [0,1] and both adverse-history loads remain nonnegative on every finite interval, under the original assumptions. | [record](as-invariance-lean/verification-report.json) |
+| [hug-squeeze-lean](hug-squeeze-lean/) | 51 specified claims. [Later existence work](hug-existence-lean/) covers the primary eight-state model; the separate memory-field extension remains open. | [record](hug-squeeze-lean/verification-report.json) |
+| [hug-existence-lean](hug-existence-lean/) | Existence, uniqueness and guard preservation on every finite forward horizon for the reduced eight-state model, with frozen parameters, continuous prescribed force and admissible initial guards. | [record](hug-existence-lean/verification-report.json) |
+| [hug-navier-bridge-lean](hug-navier-bridge-lean/) | 14 conditional compatibility statements for the earlier proposed coupling. Read the [single-system scope correction](../research/comparisons/hug-navier-single-system-scope-correction.md#meaning-to-preserve-across-implementations); full PDE evolution remains unproved. | [record](hug-navier-bridge-lean/verification-report.json) |
+| [hug-navier-full-audit-lean](hug-navier-full-audit-lean/) | 7 field/interface audit statements. The [later single-system correction](../research/comparisons/hug-navier-single-system-scope-correction.md#meaning-to-preserve-across-implementations) revises that interpretation; full PDE evolution remains unproved. | [record](hug-navier-full-audit-lean/verification-report.json) |
+| [hug-navier-single-system-lean](hug-navier-single-system-lean/) | 10 identities and local checks for the six-field formulation. Full PDE existence, uniqueness and global guard invariance remain open. | [record](hug-navier-single-system-lean/verification-report.json) |
+| [hug-navier-wellposedness-lean](hug-navier-wellposedness-lean/) | 4 auxiliary well-posedness statements. Full PDE existence, continuation and uniqueness remain open. | [record](hug-navier-wellposedness-lean/verification-report.json) |
+| [hug-v3-proof-attempt](hug-v3-proof-attempt/) | 6 inter-event and write results under explicit event hypotheses. Full hybrid existence/uniqueness and execution correspondence remain open. | [record](hug-v3-proof-attempt/verification-report.json) |
+| [hug-v3-hybrid-lean](hug-v3-hybrid-lean/) | 9 conditional assembly and event results. Actual segment solvability, successful admissible writes and full-rate uniqueness remain obligations. | [record](hug-v3-hybrid-lean/verification-report.json) |
+| [hug-v3-source-lean](hug-v3-source-lean/) | 9 results for the exact-real fixed-grid transcription. Source-execution equivalence and successful continuation through every write remain open. | [record](hug-v3-source-lean/verification-report.json) |
+| [hug-v3-transfer-lean](hug-v3-transfer-lean/) | 14 local transfer results under encounter and comparison hypotheses. End-to-end finite-time transfer and full existence/uniqueness remain open. | [record](hug-v3-transfer-lean/verification-report.json) |
+| [hug-v3-delay-lean](hug-v3-delay-lean/) | 9 timing identities. Delay-equation existence, uniqueness, invariance and stability remain open. | [record](hug-v3-delay-lean/verification-report.json) |
+| [hug-v3-full-delay-proof](hug-v3-full-delay-proof/) | 14 conditional fixed-delay and hybrid results. Full-rate regularity, readability, successful writes and all-event continuation remain open. | [record](hug-v3-full-delay-proof/verification-report.json) |
+| [hug-v3-memory-rules-lean](hug-v3-memory-rules-lean/) | 17 retrieval, weighting, partner-identity and fixed-delay results. Variable timing, reconstructed episodes and anticipation accounting remain unspecified. | [record](hug-v3-memory-rules-lean/verification-report.json) |
+| [hug-v3-clay-boundary-lean](hug-v3-clay-boundary-lean/) | 12 fabric, local-flow and conditional schedule results. Full-rate existence, continuation, readability and write-success bounds remain open. | [record](hug-v3-clay-boundary-lean/verification-report.json) |
+| [hug-v3-yang-mills-audit-lean](hug-v3-yang-mills-audit-lean/) | 20 strain, frame and evolution comparison statements, including `green_objective`. Full Yang–Mills structure, dynamical equivalence and a mass-gap theorem are not proved. | [record](hug-v3-yang-mills-audit-lean/verification-report.json) · [recheck](../provenance/green-objective-2026-11-08/README.md) |
+| [hug-v3-gemini-review](hug-v3-gemini-review/) | 77 repaired supplied statements. Delayed uniqueness covers existing seven-coordinate A/S solutions on one delay interval; full Hug v3 delayed hybrid evolution remains open. | [record](hug-v3-gemini-review/verification-report.json) |
 
 Challenge files can contain intentional placeholders defining a target. An unfinished target is not a proof; use the package’s checked solution modules, permitted-axiom policy and verification report.
+
+## Separate observation and field-equation checks
+
+The [ambiguous-observation package](../research/ambiguous-observation-lean/README.md) has a passing pinned Lean build and axiom audit covering **51 public named theorems and lemmas**, including supporting results and repeated forms of the observation rule. [Successful GitHub run and axiom logs](https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43172199579).
+
+Its Tick 41 and Pair 25 instances concern supplied summaries and exact numbers. **YangMillsInstance** uses a real-valued projection with equal order-zero `readJet` readings and different first derivatives. **YangMillsCueTest** separately compares two explicit abelian potentials agreeing on `x₁ = 0`, with field-equation residuals 0 and 2; the modified potential fails the equation. Neither establishes an admissible Yang–Mills family. These are also separate from the 20-statement Hug v3 strain/frame audit above.
+
+Simulator and transcription verification are outside this package; Comparator and nanoda were not run. [Preserved authorship and credits](../research/ambiguous-observation-lean/CREDITS.md).
+
+## Separate finite origin checks
+
+[Pair-25 origin tracking](../research/hug-v3/pair-origin-lean/README.md) has 77 finite statements about recorded identity histories, memory contents, material-field changes and context-origin accounts. Its [dedicated GitHub receipt](../research/hug-v3/pair-origin-study/github-lean-receipt.json) retains the exact inputs, targets and run. This package uses Lean-kernel compilation and a source-data certificate; Comparator and nanoda are not claimed. Fluid evolution and complete physical retention remain unproved.
+
+## Following 540 and 872
+
+[The observer-follow package](../research/hug-v3/observer-follow-lean/README.md) has 134 finite checks of the recorded neighborhood histories, crossings, context-origin accounts and shared bytes. Its [GitHub receipt](../research/hug-v3/observer-follow-study/github-lean-receipt.json) binds the exact proof inputs, targets and run. Fluid evolution and whether everything stays with either label remain unproved. Earlier 77- and 40-statement studies remain separate.
+
+## Heat from writing
+
+[The supplied heat draft](../research/hug-v3/heat-writing-lean/README.md) has 12 passing statements about scalar stroke heat, ambiguous recovery, work accounting, exact threshold-1 replay numbers and viscosity under stated hypotheses. Its [GitHub receipt](../research/hug-v3/heat-writing-lean/github-lean-receipt.json) binds the input fingerprint, targets and run. It is separate from the 134 observer-follow checks; thermal evolution and complete retention remain open.
 
 ## Further Lean packages
 

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "evidence/linux-2026-11-12/comparison/complex-mode-comparisons.csv": "06effd56e845c16c2e179aa8475f74f7a4df649d8543c1cb2e9bfe49f0a41957",
+    "evidence/linux-2026-11-12/comparison/endpoint-array-differences.csv": "78a52e4d1c33cb260fc6c43d1319d392fd4b510d338c5c8b4dc1d0bd2ea82ef8",
+    "evidence/linux-2026-11-12/comparison/fresh-controls.csv": "b54f0cb8f842b841b80a4607a96bc80d8d5b0dd415736bd61a215eb0ceb90343",
+    "evidence/linux-2026-11-12/comparison/history-norm-comparisons.csv": "31439521e2ef394d8ddc9c31c2edda8e1f22f2e3e2e0588ab92ffb123f76889e",
+    "evidence/linux-2026-11-12/comparison/RESULTS.json": "6b32b73c8f02192f4558db227777b9c47789016baef303802bd8980ec1bc464a",
+    "evidence/linux-2026-11-12/outputs/dt0p000125/broad-difference-modes.npz": "b2ac8259f15655bd461f977d03de2387d3ad1538cee8b34230ea32b8aabb1d64",
+    "evidence/linux-2026-11-12/outputs/dt0p000125/history.csv": "49b865bf69d717402c4ba2aff29cf155341760205b61121b5262893f76cc9404",
+    "evidence/linux-2026-11-12/outputs/dt0p000125/summary.json": "1fedb45bf051d219f8c4e29f7753ade285a195ee9357b2c250babaf119fb9aac",
+    "evidence/linux-2026-11-12/outputs/dt0p00025/broad-difference-modes.npz": "d6d73907b287b67df4f2cf072c892bed0d932c9c616bfeed1d9a19e342f2ba6b",
+    "evidence/linux-2026-11-12/outputs/dt0p00025/history.csv": "5e5851aed6e60bf191fccf8ca673680fa213a81e68f8fb1189a771262bdb2a79",
+    "evidence/linux-2026-11-12/outputs/dt0p00025/summary.json": "f7f21dbb32854285ae8dda57185abd4573b71ba4f5888c4bd9b2ddba5b110369",
+    "evidence/linux-2026-11-12/outputs/dt0p0005/broad-difference-modes.npz": "ab5d4799ad699230fb8b895ac5f17e4c53583d9639c75bc36e45a1bdd45086a4",
+    "evidence/linux-2026-11-12/outputs/dt0p0005/history.csv": "0ee5e4cd4c6407c2c9b35dd6a28d1b064839fd4c3ba3f6bca2d9577b433eca13",
+    "evidence/linux-2026-11-12/outputs/dt0p0005/summary.json": "c471a5ec04eeb722c17ece9510eb505bc7bb4665c4249e7eed315a3efe27ff7f",
+    "evidence/linux-2026-11-12/PROTOCOL.json": "683252c5ce8ffdca0e9f032ef84edd1c87f9bb72b5936baaca2c37dcc118b3ab",
+    "evidence/linux-2026-11-12/RUN-COMPLETE.json": "7d67f89c7e35cbf77b53597e6bdd4ba57115f8060ccbe877ee42aaa27c4f3d92",
+    "index-resolution.json": "abea61d1ccbffac40c0b4b2c02a9f1ca05ff59267ae0e8a969f161c07f3167f3",
+    "README.md": "27957808c14e0d39d347dbe867a660081d087de884d929705173f5f7d6bcdb0d",
+    "replay.py": "406b0c372995395a0a009b6389d1e53bdf26b9106defc9b132919c34387ea05c",
+    "verify_evidence.py": "4f4d1d1d6fde4a2713cf174dd9af82573ea7dac687aad0d09c38025a48a96a61"
+  }
+}

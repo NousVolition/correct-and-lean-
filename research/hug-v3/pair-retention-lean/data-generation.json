@@ -1,0 +1,11 @@
+{
+  "decimal_places": 24,
+  "exact_decimal_scale": "1000000000000000000000000",
+  "unique_complete_payloads": 6,
+  "payload_encoding": "2^(8*byte_length) + big-endian payload integer",
+  "payload_bytes_in_dictionary": 27948,
+  "targets": 37,
+  "source_sha256": "645062ce66e50c580994bbb5397e4f5482588fb82cabc8946d1a70ab08f3ed0a",
+  "generator_sha256": "89cebc71407f307beadcebaca7771ba618aa5fad636aa1a6e53dfc83b479bbe8",
+  "scope": "Exact finite payload and decimal assertions from saved observations; no fluid solver verified."
+}

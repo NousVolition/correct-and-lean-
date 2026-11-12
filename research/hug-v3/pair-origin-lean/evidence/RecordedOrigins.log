@@ -1,0 +1,7 @@
+RecordedOrigins.lean:8054:81: warning: exponent 401 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+RecordedOrigins.lean:8056:95: warning: exponent 400 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+RecordedOrigins.lean:8447:80: warning: exponent 401 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+RecordedOrigins.lean:8449:94: warning: exponent 400 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+RecordedOrigins.lean:9380:90: warning: exponent 401 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+RecordedOrigins.lean:9382:104: warning: exponent 400 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+RecordedOrigins.lean:9384:232: warning: exponent 400 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold

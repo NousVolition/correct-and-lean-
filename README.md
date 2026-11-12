@@ -1,5 +1,60 @@
 # Hug and SIMS: follow the connection to tick 41
 
+**The question:** how can a record persist while its carrier, surroundings, relationships, and later use change? What can an observer tell from a limited view?
+
+This collection develops that question through numerical studies, language-model encounters, and Lean proofs. It is also called **Correct and Lean**. Each result keeps its own assumptions and limits.
+
+**AI-generated; dictated and directed by NousVolition, an independent researcher.** Individual files retain their source and model credits.
+
+## A short reading route
+
+1. **Start with the question.** Keep two questions in view: what persists, and what can this particular observation tell us about it?
+2. **Look at one recorded example.** In [Pair 25's wider observation window](research/hug-v3/pair-origin-study/README.md), the endpoint count is 364, while observer 540 leaves and 872 arrives. The same count can hide changed membership. [Follow 540 and 872 individually](research/hug-v3/observer-follow-study/README.md) to see what stays nearby and what changes. These are recorded simulation observations, with their settings and limits attached.
+3. **Use the illustration to understand the viewing limit.** The penne pasta gives a continuing path a visible form. In the open-path scene, the pasta stays still while two overlapping viewing windows advance. Start from the marked piece and notice how the path continues beyond the visible window. Then [view the penne illustrations](docs/penne-leapfrog/README.md). They illustrate the viewing question. The supplied Claude credit is retained.
+4. **Read the exact mathematical claims.** The [observation package](research/ambiguous-observation-lean/README.md) starts with a table connecting each observation to the property it cannot determine. Its Tick 41 and Pair 25 proofs concern supplied summaries and numbers; Lean does not establish the simulations or their transcription.
+
+For wider context, the [tick-41 guide](docs/tick-41/README.md) walks through identity, viewing window, checkpoint, and history. In the fluid studies tick 41 labels model time 1.2; the restaurant encounter has its own clock.
+
+## Heat from writing: a separate threshold-1 result
+
+**Twelve Lean checks pass** for the supplied heat draft: the declared stroke-heat rule, why heat alone cannot recover every signed stroke, work/stored-energy/heat accounting, and viscosity bounds under stated hypotheses. The heat term is charged when a write changes a stored mark; it does not show continuous heating from an unchanged hold.
+
+**Recorded threshold-1 result:** the breathing-on replay at tick 41 (time 1.2, native step 0.002) has a small decrease in stored energy, so recorded heat slightly exceeds supplied work. Lean checks the exact transcribed numbers and their balance tolerance. These numbers and 12 checks are separate from the threshold-0.015 540/872 study below.
+
+**Scope:** Lean has not proved heat spreading, accumulation, trajectories, the connection from temperature to the bounded `tanh` parameter, or complete retention. [Draft, reading diagram, exact numbers and limits](research/hug-v3/heat-writing-lean/README.md) · [GitHub receipt](research/hug-v3/heat-writing-lean/github-lean-receipt.json)
+
+## Follow 540 out and 872 in
+
+![540 leaves the pair’s view and 872 enters; their nearby context changes.](research/hug-v3/observer-follow-study/following-540-872.png)
+
+**Simulation findings:** following the same after-write tick-41 state from **time 1.2 to 1.3**, each label keeps the same **eight nearby material labels** at every recorded step. In the finest run, **43.94%** of the context originally near 540 and **42.95%** of that originally near 872 remains nearby at the end; the rest is elsewhere in the basin as other context enters. Their radius-0.075 neighborhoods overlap and are views, not private cargo. Context C is not water mass. These remain the historical **threshold-0.015, breathing-on** runs. The smaller time step closely agrees, while origin shares and crossing times still differ by grid.
+
+**Lean findings:** **134 finite checks pass** for rules, recorded neighbor and crossing histories, context accounts, material-field numbers and shared-record bytes. The GitHub recheck matches the exact proof inputs and targets. It does not prove the fluid simulation, physical ownership or complete retention.
+
+**Still unknown: does everything stay with 540 and 872?** Neither has a complete private inventory in this model. A viewing boundary does not establish a break in the continuing connection or a handoff between them.
+
+[Results, crossings and limits](research/hug-v3/observer-follow-study/README.md) · [134 Lean checks](research/hug-v3/observer-follow-lean/README.md) · [GitHub proof receipt](research/hug-v3/observer-follow-study/github-lean-receipt.json)
+
+## Keep these two examples separate
+
+| Example | What is established |
+| --- | --- |
+| **Real-valued `readJet` projection** | Equal order-zero readings can have different first derivatives. [Source](research/ambiguous-observation-lean/YangMillsInstance.lean) |
+| **Abelian field-equation comparison** | Two explicit potentials agree on the slice `x₁ = 0`, while their field-equation residuals are 0 and 2. [Source](research/ambiguous-observation-lean/YangMillsCueTest.lean) |
+
+These are separate results. Neither establishes an admissible Yang–Mills family or a mass-gap theorem. [Their scope, logs, and credits](research/ambiguous-observation-lean/README.md)
+
+The intended HugandNavier system keeps the carrying relationship continuous while configurations change. Its underlying formulation is unforced; breathing is an added intervention in particular experiments. [Retained source meaning](research/comparisons/hug-navier-single-system-scope-correction.md#meaning-to-preserve-across-implementations)
+
+## Find a specific record
+
+[What is proved and still open](PROOF-STATUS.md) · [All studies](hug-sims-proof-index.md) · [Lean packages](lean/README.md) · [Package credits](research/ambiguous-observation-lean/CREDITS.md) · [Reuse terms](LICENSE)
+
+The complete research tour, numerical details, images, and existing section links remain below.
+
+<details>
+<summary><strong>Expand the full research tour and archive links</strong></summary>
+
 <a id="correct-and-lean-research-proofs-and-verification"></a>
 <a id="hug-and-sims-lean-4-proofs-and-numerical-studies"></a>
 
@@ -63,9 +118,30 @@ The water particle B, the penne's viewing window B and the restaurant listener B
 
 The 48³ time-step halving changes the gap by at most **0.000100423** on the **51 common saved times** and passes its targets. The newer every-step audit finds a larger spatial discrepancy at 1.169 and outside-window failures at 1.195 and 1.1955; those times are absent from that full-history time-control output. Its tracing record also retains one newly exposed failure and the direct-Fourier correction. [Ticks 35–41 audit](research/tick-35-41-audit/README.md) · [Earlier 51-sample results and matched meters](research/hug-v3/finer-grid-study/README.md)
 
-The tick-41 gap sample is taken **before the write at time 1.2**. The write preserves carried positions and velocity at that instant and changes the stored fabric target and heat. The new record feeds the coupled relationship equations; rate changes need their own before/after readings. This run ends at the write, so its later flow response remains outside the measurement.
+The tick-41 gap sample is taken **before the write at time 1.2**. The write preserves carried positions and velocity at that instant and changes the stored fabric target and heat. The new record feeds the coupled relationship equations; rate changes need their own before/after readings. That gap run ends at the write. The separate pair-25 continuation below measures the following window; it does not establish the write's causal effect against a matched no-write control.
+
+## What stays with pair 25 after tick 41?
+
+![Pair 25: nearby labels stay while context origins change; wider windows reveal changed members.](research/hug-v3/pair-origin-study/pair25-origins.png)
+
+**Origin simulation findings:** three continuations follow the saved **after-write tick-41 state (time 1.2) to time 1.3**, retaining threshold **0.015** and breathing on. In the main moving windows (radius 0.075), the same **133 material points and 276 other observer labels** remain inside at every recorded step. In the finest time-step run, **44.65%** of the context contribution initially inside is still inside; **55.35%** is elsewhere in the domain. Incoming and newly added context keep the local total at **100.46%** of its starting amount. This tracks the model's context scalar, not water mass.
+
+**A wider view catches a change the count hides:** at radius 0.10, observer **540 leaves** and **872 arrives** in every run. The starting and ending count is **364**, with different members. Crossing identities agree across runs, but crossing times differ by grid. The retained-context fraction differs by only **0.048812 percentage points** at the endpoint between 40³ and 48³, yet by up to **1.344660 points earlier**. These new fractions are not established as continuum-converged.
+
+**Lean findings:** **77 finite statements pass**, checking recorded identity histories, departing and arriving IDs, material-field change numbers, full shared-memory contents and exact context-origin accounts. The three shared records remain unchanged across **2,409 payload comparisons**. Lean checks the recorded numbers and rules; it does not prove the fluid simulation, geometric interpolation or physical ownership of contents.
+
+**Still unknown: does everything stay with the pair?** A/B have no complete private physical inventory. The windows are views, and context outside a window is not destroyed. This test starts after the tick-41 write and does not recover the earlier encounter's starting inventory.
+
+[Origin results, settings and limits](research/hug-v3/pair-origin-study/README.md) · [77 Lean checks and original receipt](research/hug-v3/pair-origin-lean/README.md) · [GitHub proof receipt](research/hug-v3/pair-origin-study/github-lean-receipt.json)
+
+**Earlier retention study, preserved separately:** its **459 payload comparisons** and **40 Lean statements** remain their own results. Its original 40³ local accounting check failed; a controlled correction at observation-cell crossings closed that account with unchanged simulated states and sampled values. [Earlier results and diagram](research/hug-v3/pair-retention-study/README.md) · [Earlier Lean package](research/hug-v3/pair-retention-lean/README.md) · [Earlier GitHub receipt](research/hug-v3/pair-retention-study/github-lean-receipt.json)
 
 ## Proofs and the questions they answer
+
+### What the same observation can hide
+
+The [ambiguous-observation package](research/ambiguous-observation-lean/README.md) contains the Tick 41 and Pair 25 summary instances and two distinct mathematical comparisons. `YangMillsInstance` uses the submission's `readJet` definition in a real-valued projection example: equal order-zero readings can have different first derivatives. `YangMillsCueTest` compares explicit abelian potentials agreeing on `x₁ = 0`, with field-equation residuals 0 and 2. The latter is a field-equation comparison; neither result establishes an admissible Yang–Mills family. [Proof sources, logs and build instructions](research/ambiguous-observation-lean/README.md#verification-and-reproduction) · [Preserved credits](research/ambiguous-observation-lean/CREDITS.md)
+
 
 ### What `green_objective` proves
 
@@ -144,3 +220,6 @@ Historical receipts retain their source revisions and original outcomes, includi
 ## License
 
 Copyright © 2026 NousVolition. All rights reserved. See the [copyright notice](LICENSE) for terms applying to reuse of the original work.
+
+
+</details>

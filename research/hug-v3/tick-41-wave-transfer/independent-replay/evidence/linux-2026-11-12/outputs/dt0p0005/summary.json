@@ -1,0 +1,72 @@
+{
+  "dt": 0.0005,
+  "steps": 40,
+  "arms": {
+    "baseline": 0.0,
+    "fine_error": 1.0
+  },
+  "initial_epsilon": 5.582697714178286e-07,
+  "repeat_first_step_bit_identical": true,
+  "energy_balance_residuals": {
+    "baseline": -1.2783963341048143e-15,
+    "fine_error": -1.2766751631559936e-15
+  },
+  "readable_record_ids": {
+    "baseline": [
+      0,
+      1,
+      2
+    ],
+    "fine_error": [
+      0,
+      1,
+      2
+    ]
+  },
+  "initial": {
+    "time": 1.2,
+    "elapsed_time": 0.0,
+    "dt": 0.0005,
+    "baseline_broad_rms": 0.004965122065751619,
+    "baseline_fine_rms": 3.771231277563396e-05,
+    "fine_error_mean_rms": 9.604436629163067e-22,
+    "fine_error_broad_rms": 1.8299279358518748e-20,
+    "fine_error_middle_rms": 8.349258206405229e-20,
+    "fine_error_fine_rms": 5.58269771417828e-07,
+    "fine_error_outside_rms": 2.301302811624001e-19,
+    "fine_error_total_rms": 5.58269771417828e-07,
+    "fine_error_broad_per_initial_error": 3.2778560286444256e-14,
+    "fine_error_fine_per_initial_error": 0.9999999999999989,
+    "fine_error_A_difference": 0.0,
+    "fine_error_X_rms": 0.0,
+    "fine_error_F_rms": 0.0,
+    "fine_error_clay_rms": 0.0,
+    "fine_error_heat_rms": 0.0,
+    "fine_error_context_field_rms": 0.0,
+    "fine_error_actor_ties_rms": 0.0
+  },
+  "final": {
+    "time": 1.22,
+    "elapsed_time": 0.02,
+    "dt": 0.0005,
+    "baseline_broad_rms": 0.004961767925716747,
+    "baseline_fine_rms": 3.8671608648899757e-05,
+    "fine_error_mean_rms": 1.3035858017890173e-14,
+    "fine_error_broad_rms": 4.125039072405741e-12,
+    "fine_error_middle_rms": 1.378565286650375e-09,
+    "fine_error_fine_rms": 1.3419892690173682e-07,
+    "fine_error_outside_rms": 2.057272568189761e-18,
+    "fine_error_total_rms": 1.3420600746927603e-07,
+    "fine_error_broad_per_initial_error": 7.388970858890402e-06,
+    "fine_error_fine_per_initial_error": 0.2403836528008923,
+    "fine_error_A_difference": 9.159339953157541e-16,
+    "fine_error_X_rms": 4.1826872617330467e-10,
+    "fine_error_F_rms": 8.373582913794159e-09,
+    "fine_error_clay_rms": 1.2480848159095498e-13,
+    "fine_error_heat_rms": 1.5424120294395808e-10,
+    "fine_error_context_field_rms": 6.142698568949597e-10,
+    "fine_error_actor_ties_rms": 4.440450677779976e-13
+  },
+  "elapsed_seconds": 38.793684165,
+  "source_state_unchanged": true
+}

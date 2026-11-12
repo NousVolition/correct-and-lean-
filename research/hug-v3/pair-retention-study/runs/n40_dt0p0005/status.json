@@ -1,0 +1,23 @@
+{
+  "run": "n40_dt0p0005",
+  "status": "complete",
+  "start_time": 1.2,
+  "end_time": 1.3,
+  "completed_steps": 200,
+  "total_steps": 200,
+  "started_utc": "2026-11-12T04:09:58.899824+00:00",
+  "pair_display": 25,
+  "data_pair_id": 24,
+  "model_time": 1.3,
+  "elapsed_seconds": 335.20300000000134,
+  "observed_utc": "2026-11-12T04:15:33.959401+00:00",
+  "completed_utc": "2026-11-12T04:15:34.105764+00:00",
+  "criteria": {
+    "record_payloads_retained": true,
+    "memory_values_not_decreased": true,
+    "bit_read_margins_met": true,
+    "context_ledger_met": true,
+    "energy_ledger_met": true,
+    "local_budget_target_met": false
+  }
+}

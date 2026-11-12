@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-11-12T08:51:34.030285+00:00",
+  "pr_head": "71951eb6ebd338e0bd07e5d59e6206207974fa07",
+  "incorporated_main": "c54f47b9eca41413c1172839f4e5d2fff2a8d8e6",
+  "all_pr_links_preserved": true,
+  "all_main_links_preserved": true,
+  "pr_unique_links": 44,
+  "main_unique_links": 49,
+  "merged_unique_links": 52,
+  "local_link_targets_checked": 48,
+  "resolved_index_sha256": "52d6a7d010658e236f98c3f3b4fbd14d6ab213c8d02a4f858c9ed1dbc45e4729",
+  "conflict_count_resolved": 1,
+  "added_replay_link": true
+}

@@ -1,0 +1,14 @@
+[
+  "HeatFromHolding.stroke_heat_never_negative",
+  "HeatFromHolding.moving_a_mark_makes_heat",
+  "HeatFromHolding.heat_ignores_direction",
+  "HeatFromHolding.no_exact_reader_of_any_property",
+  "HeatFromHolding.heat_cannot_tell_which_way",
+  "HeatFromHolding.heat_is_work_minus_stored",
+  "HeatFromHolding.nothing_more_stored_means_all_work_is_heat",
+  "HeatFromHolding.third_write_was_all_heat",
+  "HeatFromHolding.recorded_account_balances",
+  "HeatFromHolding.warmer_is_thinner",
+  "HeatFromHolding.viscosity_has_a_floor",
+  "HeatFromHolding.viscosity_never_vanishes"
+]

@@ -1,0 +1,59 @@
+import Pair25Instance
+import Tick41Instance
+import YangMillsInstance
+import YangMillsCueTest
+
+/-! CI audit added by Codex (OpenAI), directed by NousVolition.
+Existing proof sources and their authorship are unchanged. -/
+
+#print axioms Pair25Instance.no_exact_reader_of_ambiguous_observation
+#print axioms Pair25Instance.count_same_at_start_and_end
+#print axioms Pair25Instance.membership_differs
+#print axioms Pair25Instance.count_passes_through_365
+#print axioms Pair25Instance.count_cannot_tell_whether_540_is_inside
+#print axioms Pair25Instance.count_cannot_tell_whether_872_is_inside
+#print axioms Tick41Instance.no_exact_reader_of_ambiguous_observation
+#print axioms Tick41Instance.no_exact_reader_of_any_property
+#print axioms Tick41Instance.accumulator_unchanged_by_write
+#print axioms Tick41Instance.rate_changed_by_write
+#print axioms Tick41Instance.rate_jump
+#print axioms Tick41Instance.accumulator_value_cannot_tell_whether_record_was_written
+#print axioms Tick41Instance.accumulator_value_cannot_determine_rate
+#print axioms TwoMemory.recall_eq_tanh
+#print axioms TwoMemory.recall_lipschitz
+#print axioms TwoMemory.unique_memory_trajectory
+#print axioms TwoMemoryTransport.readout_from_odds
+#print axioms TwoMemoryTransport.odds_eq_exp
+#print axioms TwoMemoryTransport.update_odds
+#print axioms TwoMemoryTransport.compose_transport
+#print axioms TwoMemoryTransport.endpoints_determine_transport
+#print axioms TwoMemoryTransport.closed_route
+#print axioms TwoMemoryTransport.odds_parallel
+#print axioms TwoMemoryTransport.flat_curvature
+#print axioms TwoMemoryTransport.source_free
+#print axioms TwoMemoryTransport.unit_speed_fails_memory_at_zero
+#print axioms Volterra.extend_continuous
+#print axioms Volterra.extend_val
+#print axioms Volterra.step_apply
+#print axioms Volterra.path_integrable
+#print axioms Volterra.iterate_apply_bound
+#print axioms Volterra.iterate_bound
+#print axioms Volterra.exists_unique_fixed_point
+#print axioms Volterra.exists_unique_solution
+#print axioms YangMillsCueTest.agree_on_slice
+#print axioms YangMillsCueTest.transverse_curvature_column
+#print axioms YangMillsCueTest.transverse_residual
+#print axioms YangMillsCueTest.same_data_different_field_equation
+#print axioms YangMillsCueTest.endpoint_frames_cancel
+#print axioms YangMillsCueTest.local_frames_conjugate_loop
+#print axioms YangMillsInstance.no_exact_reader_of_any_property
+#print axioms YangMillsInstance.curve_zero
+#print axioms YangMillsInstance.order_zero_reads_only_leading
+#print axioms YangMillsInstance.order_zero_blind_to_higher_coefficients
+#print axioms YangMillsInstance.jetData_zero
+#print axioms YangMillsInstance.jetData_one
+#print axioms YangMillsInstance.curve_one_eq
+#print axioms YangMillsInstance.readJet_one_project
+#print axioms YangMillsInstance.order_zero_readings_agree
+#print axioms YangMillsInstance.order_one_readings_differ
+#print axioms YangMillsInstance.order_zero_reading_cannot_determine_first_derivative

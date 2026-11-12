@@ -1,0 +1,29 @@
+{
+  "generated_utc": "2026-11-12T06:00:21.749531+00:00",
+  "primary_endpoint": {
+    "run": "n48_dt0p00025",
+    "step": "400",
+    "time": "1.3",
+    "radius": "0.075",
+    "entry_inside_context": "0.0006243217406402659",
+    "original_inside_now": "0.0002787842274054313",
+    "original_elsewhere_now": "0.0003455375132348347",
+    "outside_origin_inside_now": "0.0002944019538050271",
+    "later_source_inside_now": "5.400232911588285e-05",
+    "total_inside_now": "0.0006271885103263412",
+    "original_global_now": "0.0006243217406402183",
+    "later_source_global_now": "0.0006833736462365463",
+    "source_integral": "0.0006833736462366044",
+    "window_grid_cells": "389"
+  },
+  "retained_origin_percent": 44.65393550439673,
+  "elsewhere_origin_percent": 55.3460644956033,
+  "inside_outside_origin_percent_of_entry": 47.15548644887917,
+  "inside_later_source_percent_of_entry": 8.649759507093473,
+  "total_inside_percent_of_entry": 100.45918146036934,
+  "grid_endpoint_difference_percentage_points": 0.04881186867622489,
+  "time_endpoint_difference_percentage_points": -8.115373208283927e-05,
+  "nonprimary_views_with_crossings": 9,
+  "lean_target_count": 77,
+  "diagram_sha256": "f7f2cb131334eb09357ce6cb8bb76bf9d581be24dfcb63664168ee8f32998070"
+}

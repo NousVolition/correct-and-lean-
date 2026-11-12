@@ -1,0 +1,8 @@
+'TwoMemoryTransport.flat_curvature' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.source_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMillsCueTest.agree_on_slice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMillsCueTest.transverse_curvature_column' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMillsCueTest.transverse_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMillsCueTest.same_data_different_field_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMillsCueTest.endpoint_frames_cancel' depends on axioms: [propext]
+'YangMillsCueTest.local_frames_conjugate_loop' depends on axioms: [propext]

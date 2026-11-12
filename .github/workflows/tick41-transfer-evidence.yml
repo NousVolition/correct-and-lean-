@@ -20,8 +20,9 @@ permissions:
 
 jobs:
   evidence:
-    name: Recount evidence and replay the first paired step
+    name: Recount evidence and replay the full interval
     runs-on: ubuntu-24.04
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
@@ -37,8 +38,19 @@ jobs:
       - name: Verify the continuation inputs, records and first paired step
         run: |
           "$RUNNER_TEMP/tick41-check/bin/python" -B research/hug-v3/tick-41-wave-transfer/verify_package.py --output "$RUNNER_TEMP/tick41-public-verification.json"
+      - name: Check the independent replay evidence
+        run: python3 -B research/hug-v3/tick-41-wave-transfer/independent-replay/verify_evidence.py
+      - name: Evolve all seven arms from 1.2 to 1.22
+        run: |
+          "$RUNNER_TEMP/tick41-check/bin/python" -B research/hug-v3/tick-41-wave-transfer/independent-replay/replay.py run --output "$RUNNER_TEMP/tick41-full-replay"
+      - name: Compare broad-wave differences, phase and fixed tolerances
+        run: |
+          "$RUNNER_TEMP/tick41-check/bin/python" -B research/hug-v3/tick-41-wave-transfer/independent-replay/replay.py analyze --output "$RUNNER_TEMP/tick41-full-replay"
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        if: always()
         with:
           name: tick41-continuation-check-${{ github.run_attempt }}
-          path: ${{ runner.temp }}/tick41-public-verification.json
+          path: |
+            ${{ runner.temp }}/tick41-public-verification.json
+            ${{ runner.temp }}/tick41-full-replay/
           if-no-files-found: error
