@@ -1,0 +1,68 @@
+name: Heat follow-up records and Lean
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "research/hug-v3/heat-follow-lean/**"
+      - "research/hug-v3/heat-follow-study/**"
+      - ".github/workflows/heat-follow.yml"
+      - "scripts/ci-lean-toolchain.sh"
+  push:
+    branches: [main]
+    paths:
+      - "research/hug-v3/heat-follow-lean/**"
+      - "research/hug-v3/heat-follow-study/**"
+      - ".github/workflows/heat-follow.yml"
+      - "scripts/ci-lean-toolchain.sh"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build package and audit 56 named proofs
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      LEAN_NUM_THREADS: 2
+      MATHLIB_CACHE_GET_URL: https://cache.mathlib.org/mathlib4
+      PR_HEAD: ${{ github.event.pull_request.head.sha }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Check published sources, credits and local logs
+        working-directory: research/hug-v3/heat-follow-lean
+        run: python3 verify_publication.py --check-only --self-test
+      - name: Fetch the pinned Lean release
+        run: bash scripts/ci-lean-toolchain.sh fetch "$RUNNER_TEMP/heat-follow-tools"
+      - name: Install the checked Lean archive
+        working-directory: research/hug-v3/heat-follow-lean
+        run: bash "$GITHUB_WORKSPACE/scripts/ci-lean-toolchain.sh" install "$RUNNER_TEMP/heat-follow-tools" "$RUNNER_TEMP/heat-follow-lean"
+      - name: Resolve pinned dependencies
+        working-directory: research/hug-v3/heat-follow-lean
+        env:
+          MATHLIB_NO_CACHE_ON_UPDATE: 1
+        run: lake update
+      - name: Fetch the Mathlib cache
+        working-directory: research/hug-v3/heat-follow-lean
+        shell: bash
+        run: |
+          for delay in 0 5 15; do
+            sleep "$delay"
+            if lake exe cache get; then
+              exit 0
+            fi
+          done
+          exit 1
+      - name: Build every target and check exact axiom lists
+        working-directory: research/hug-v3/heat-follow-lean
+        run: python3 verify_publication.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        if: always()
+        with:
+          name: heat-follow-evidence-${{ github.run_attempt }}
+          path: research/hug-v3/heat-follow-lean/github-evidence/
+          if-no-files-found: warn

@@ -1,0 +1,122 @@
+{
+  "status": "PASS_FOR_THE_12_STATED_THEOREMS",
+  "verified_utc": "2026-11-12T07:24:10.702676+00:00",
+  "original_compiled_unchanged": true,
+  "source_sha256": "d8a1a577dbfba451cd2c883632f295bc41c25c8019d261d7455ee842e5dcc49b",
+  "compiler": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "mathlib_revision": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "targets": [
+    "HeatFromHolding.stroke_heat_never_negative",
+    "HeatFromHolding.moving_a_mark_makes_heat",
+    "HeatFromHolding.heat_ignores_direction",
+    "HeatFromHolding.no_exact_reader_of_any_property",
+    "HeatFromHolding.heat_cannot_tell_which_way",
+    "HeatFromHolding.heat_is_work_minus_stored",
+    "HeatFromHolding.nothing_more_stored_means_all_work_is_heat",
+    "HeatFromHolding.third_write_was_all_heat",
+    "HeatFromHolding.recorded_account_balances",
+    "HeatFromHolding.warmer_is_thinner",
+    "HeatFromHolding.viscosity_has_a_floor",
+    "HeatFromHolding.viscosity_never_vanishes"
+  ],
+  "axiom_dependencies": {
+    "stroke_heat_never_negative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "moving_a_mark_makes_heat": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "heat_ignores_direction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "no_exact_reader_of_any_property": [],
+    "heat_cannot_tell_which_way": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "heat_is_work_minus_stored": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "nothing_more_stored_means_all_work_is_heat": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "third_write_was_all_heat": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "recorded_account_balances": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "warmer_is_thinner": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "viscosity_has_a_floor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "viscosity_never_vanishes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "added_axioms": false,
+  "sorry": false,
+  "native_decide": false,
+  "source_formulas_matched": true,
+  "recorded_values_exactly_match": "local-source\\2026-11-10\\new-chat-15\\work\\tick41-yang-mills\\results.json",
+  "run": "threshold 1; breathing on; original native step 0.002",
+  "tick": 41,
+  "time": 1.2,
+  "replay_max_error": 2.7755575615628914e-17,
+  "exact_decimal_balance_residual": "-9.954E-22",
+  "parent_recorded_stored": "-1.921824577694634e-09",
+  "replay_recorded_stored": "-1.9218245776950046e-09",
+  "stored_replay_minus_parent": "-3.706E-22",
+  "source_files_sha256": {
+    "local-user\\.codex\\attachments\\98f4cee8-efef-4082-bb30-0b909e00da2b\\Pasted text.txt": "d8a1a577dbfba451cd2c883632f295bc41c25c8019d261d7455ee842e5dcc49b",
+    "local-source\\2026-11-07\\mathlib4-the-main-library-good-first\\outputs\\hug-v3-breathing-setup\\upstream\\structural_hug.py": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+    "local-source\\2026-11-07\\mathlib4-the-main-library-good-first\\outputs\\hug-v3-breathing-setup\\upstream\\continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+    "local-source\\2026-11-10\\new-chat-15\\work\\tick41-yang-mills\\results.json": "7553db4291f33bc42623135613a306005edf65adad788525baa7b11f50755a57",
+    "local-source\\2026-11-10\\go\\work\\threshold-one-pair\\results.json": "cdcfd567eec415e9f79fc84b2f96f7562cbd70a5303334d4d692a487bc63dce4",
+    "local-source\\2026-10-28\\new-chat-4\\work\\NavierStokesAndEuler-audit\\lake-manifest.json": "d8d5387db4bfe8dcdd867d1c4979d2911f194dfe8dae3012463c620e19c6001f"
+  },
+  "scope": [
+    "The heat term is charged for a change of stored mark during a write; a static unchanged hold has delta zero in this term.",
+    "The negative stored-energy change makes dissipation slightly greater than supplied work; it is more precise than saying all work simply becomes heat.",
+    "These exact numbers are from a threshold-1, breathing-on, dt-0.002 replay, not the threshold-0.015 observer-follow runs.",
+    "The proof assumes the relevant ordering/bound of s; the connection to tanh(theta/0.03) is not proved.",
+    "The draft does not prove the filtered grid heat is pointwise nonnegative, thermal evolution, accumulation or trajectories.",
+    "The attached draft and its historical not-compiled wording are preserved. This review is local and separate from PR29."
+  ],
+  "dependency_audit_attempts": [
+    {
+      "invocation": "Python subprocess",
+      "outcome": "timeout",
+      "limit_seconds": 180
+    },
+    {
+      "invocation": "direct pinned compiler through PowerShell",
+      "outcome": "PASS",
+      "exit_code": 0,
+      "log": "all-dependencies.log"
+    }
+  ]
+}

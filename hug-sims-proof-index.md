@@ -72,6 +72,8 @@ The [single-system meaning](research/comparisons/hug-navier-single-system-scope-
 
 ## Proof readers and verification receipts
 
+- [Heat after three writes: signed spread/accumulation; time-step checks pass, finer grids unchecked](research/hug-v3/heat-follow-study/README.md)
+- [Heat follow-up: 56 finite Lean checks and full package build, separate from the simulation](research/hug-v3/heat-follow-lean/README.md)
 - [Heat from writing: 12 scalar and recorded-number checks; separate threshold-1 replay](research/hug-v3/heat-writing-lean/README.md)
 
 - [540/872 records: 134 finite Lean checks, separate from fluid evolution](research/hug-v3/observer-follow-lean/README.md)
@@ -97,3 +99,4 @@ The [single-system meaning](research/comparisons/hug-navier-single-system-scope-
 - [Streams and Rocks](https://github.com/NousVolition/Nous-Volition)
 - [SIMS, fluid memory and language studies](https://github.com/NousVolition/My-Sources-Project-ALL)
 - [Semantic Organizer Bot](https://github.com/NousVolition/semantic-organizer-bot)
+

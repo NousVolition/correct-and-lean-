@@ -15,13 +15,23 @@ This collection develops that question through numerical studies, language-model
 
 For wider context, the [tick-41 guide](docs/tick-41/README.md) walks through identity, viewing window, checkpoint, and history. In the fluid studies tick 41 labels model time 1.2; the restaurant encounter has its own clock.
 
+## Following heat after three writes: threshold 1
+
+![The three write pulses spread and their whole-box totals accumulate.](research/hug-v3/heat-follow-study/heat-account.png)
+
+**Simulation findings:** in the historical breathing-on **16³** run, each write pulse broadens while earlier pulse totals remain when later writes arrive. At time **1.6**, the three writes contribute **4.18336 × 10⁻⁵** heat units. **Time-step checks passed** when changing 0.002 to 0.001: deposited heat differs by at most **0.00610%**. **Finer heat grids remain unchecked.** The filtered source labels retain small negative ripples; they are signed accounts, not individual heat parcels. All three record checksums change despite close heat agreement, so identical stored bytes are not established.
+
+**Lean findings:** **56 checks** cover four finite accounting rules and exact recorded accounts/diagnostics from **2,408 rows**. The full package build and target-by-target dependency audit have their own receipt. Lean does not run or verify the fluid simulation, compute the grid-derived spread measures, or prove spatial convergence. These checks are separate from the earlier **12-check heat draft** and the **threshold-0.015 540/872 study**.
+
+[Results and both diagrams](research/hug-v3/heat-follow-study/README.md) · [56 checks and scope](research/hug-v3/heat-follow-lean/README.md) · [GitHub build receipt](research/hug-v3/heat-follow-lean/github-lean-receipt.json) · [What the residual encoding comparison measures](research/hug-v3/heat-follow-study/encoding-example/README.md)
+
 ## Heat from writing: a separate threshold-1 result
 
 **Twelve Lean checks pass** for the supplied heat draft: the declared stroke-heat rule, why heat alone cannot recover every signed stroke, work/stored-energy/heat accounting, and viscosity bounds under stated hypotheses. The heat term is charged when a write changes a stored mark; it does not show continuous heating from an unchanged hold.
 
 **Recorded threshold-1 result:** the breathing-on replay at tick 41 (time 1.2, native step 0.002) has a small decrease in stored energy, so recorded heat slightly exceeds supplied work. Lean checks the exact transcribed numbers and their balance tolerance. These numbers and 12 checks are separate from the threshold-0.015 540/872 study below.
 
-**Scope:** Lean has not proved heat spreading, accumulation, trajectories, the connection from temperature to the bounded `tanh` parameter, or complete retention. [Draft, reading diagram, exact numbers and limits](research/hug-v3/heat-writing-lean/README.md) · [GitHub receipt](research/hug-v3/heat-writing-lean/github-lean-receipt.json)
+**Scope of the 12-check draft:** Lean has not proved heat spreading, fluid evolution, trajectories, the connection from temperature to the bounded `tanh` parameter, or complete retention. [Draft, reading diagram, exact numbers and limits](research/hug-v3/heat-writing-lean/README.md) · [GitHub receipt](research/hug-v3/heat-writing-lean/github-lean-receipt.json)
 
 ## Follow 540 out and 872 in
 
@@ -223,3 +233,4 @@ Copyright © 2026 NousVolition. All rights reserved. See the [copyright notice](
 
 
 </details>
+
