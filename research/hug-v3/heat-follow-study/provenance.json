@@ -1,0 +1,24 @@
+{
+  "original_run_receipts_unchanged": true,
+  "original_Lean_receipt_unchanged": true,
+  "original_runner_sha256": "80c4ddfe4178942df92fc330f73d32bd757467d62142876c57855e5f7d1eb2a7",
+  "published_runner_sha256": "80c4ddfe4178942df92fc330f73d32bd757467d62142876c57855e5f7d1eb2a7",
+  "original_input_manifest_sha256": "f539f2857f16987f846372cc07da2d3f28577a2efd658ae26e94cd194c5e8316",
+  "published_input_manifest_sha256": "70d2d68cb240080ba511062df1beba2fabafa019c17d7e547cf4465fa9188160",
+  "input_manifest_edit": "42 original local path labels replaced with local-source labels. Two historical context files have ten local prefixes shortened in total; their manifest digests and byte counts reflect those path-only edits. Original run receipts retain their original manifest and input hashes.",
+  "path_only_input_edits": {
+    "baseline/configuration.json": {
+      "original_sha256": "325ef616bb10d71acb7a72e200988ec9ffae7a18795fcaf68d2dd2886f74f07d",
+      "published_sha256": "a7979b9bda5a18ec4c7002c4d356ea1fa0b195d4e63eb7922db463d0533945ff",
+      "path_prefix_replacements": 3
+    },
+    "baseline/prior-12-lean-receipt.json": {
+      "original_sha256": "3f365a352e360d479777aeb48ad5da34367923a8fc62ace78da8cc38661e9de8",
+      "published_sha256": "97d5240d6468c1e66f0bde58e6be1d23562841c194594b3a6d50f17607308362",
+      "path_prefix_replacements": 7
+    }
+  },
+  "numerical_arrays_and_solver_sources_unchanged": true,
+  "historical_review_receipt": "review-receipt.json retains its original local status and paths relative to the original workspace. Publication and fresh build evidence are separate.",
+  "reproduction_scope": "Original runner, analyzer, plotter and 42 frozen inputs are included. Re-execution is optional and is not performed by the Lean workflow. New executions have their own receipts; publication does not relabel them as the historical run."
+}

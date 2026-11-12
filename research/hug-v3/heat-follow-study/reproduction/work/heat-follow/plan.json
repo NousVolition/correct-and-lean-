@@ -1,0 +1,49 @@
+{
+  "study": "Threshold-1 heat after writing",
+  "run": "breathing on, peak 0.5, period 0.6; original 16-cubed periodic unit box",
+  "physical_source_changes": false,
+  "solver_config_changes": false,
+  "writes": [
+    0.4,
+    0.8,
+    1.2
+  ],
+  "observed_interval": [
+    0,
+    1.6
+  ],
+  "historical_interval": [
+    0,
+    1.2
+  ],
+  "new_continuation": [
+    1.2,
+    1.6
+  ],
+  "additional_writes": false,
+  "actual_steps": [
+    0.002,
+    0.001
+  ],
+  "method": "Six signed temperature contributions: initial warmth; net viscous heating after extraction; structural release; three separate write impulses. Propagate each using the actual two Heun stages, velocity and conductivity of the coupled native trajectory. The tags have no feedback; the native temperature retains its usual feedback. This is an additive source account on the realized trajectory, not a no-write counterfactual or an inventory of physical heat particles.",
+  "checks": {
+    "pilot_native_arrays_bitwise_equal": true,
+    "baseline_array_error_max": 3e-13,
+    "field_reconstruction_error_max": 1e-12,
+    "thermal_budget_error_max": 1e-12,
+    "individual_write_mean_drift_max": 1e-14,
+    "time_step_agreement_criteria": {
+      "relative_write_total": 0.01,
+      "normalized_write_field_L1": 0.01,
+      "outside_radius_025_share_absolute": 0.005
+    }
+  },
+  "spatial_readouts": "Full signed fields retained. Report integral, negative part, peak, effective volume (integral squared / integral of square), periodic centroid, and signed heat outside a fixed radius 0.25 around each write birth centroid. Never clip the field for the heat account.",
+  "limits": [
+    "Periodic boundaries, no fixed-wall cooling in this run.",
+    "Changing the time step may change quantized write payloads; compare amounts and normalized shapes separately.",
+    "The original grid is 16 cubed; this follow-up does not establish spatial or continuum convergence.",
+    "Lean will check exact transcribed numerical accounts and stated algebraic rules, not execute the fluid solver or certify transcription."
+  ],
+  "completion": "Frozen sources, reproduced original checkpoints, native-path instrumentation check, two completed step sizes through 1.6, complete source and spread accounts, reviewed diagram/report, passing Lean targets and dependency receipt."
+}

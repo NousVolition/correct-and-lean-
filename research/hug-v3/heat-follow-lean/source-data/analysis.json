@@ -1,0 +1,316 @@
+{
+  "status": "completed",
+  "runs": [
+    {
+      "run": "n16_dt0p002",
+      "grid": 16,
+      "dt": 0.002,
+      "rows": 804,
+      "snapshots": 20,
+      "writes": [
+        {
+          "event_id": 0,
+          "write_time": 0.4,
+          "deposited_heat": 1.1641539007032247e-05,
+          "earlier_write_heat_at_this_write": 0,
+          "final_integral": 1.1641539007032268e-05,
+          "maximum_integral_drift": 6.776263578034403e-20,
+          "birth_effective_volume": 0.046409710073213574,
+          "final_effective_volume": 0.2119617793343526,
+          "birth_peak": 0.0005327235856094452,
+          "final_peak": 0.00011295957734352316,
+          "birth_outside025_share": 0.04933153560380544,
+          "final_outside025_share": 0.5437192820018972,
+          "birth_negative_to_net_ratio": 0.021135376735083634,
+          "maximum_negative_to_net_ratio": 0.021135376735083634,
+          "final_negative_to_net_ratio": 1.0397735934443666e-06,
+          "birth_centroid": [
+            0.0029971584721168064,
+            0.004623035740437121,
+            -0.009807657715207729
+          ],
+          "final_centroid": [
+            -0.00604933404696903,
+            0.004225361542467608,
+            -0.008664379498177877
+          ],
+          "effective_volume_increases": true,
+          "peak_decreases": true
+        },
+        {
+          "event_id": 1,
+          "write_time": 0.8,
+          "deposited_heat": 1.4518000335338276e-05,
+          "earlier_write_heat_at_this_write": 1.1641539007032246e-05,
+          "final_integral": 1.4518000335338315e-05,
+          "maximum_integral_drift": 7.453889935837843e-20,
+          "birth_effective_volume": 0.04735614533126162,
+          "final_effective_volume": 0.16115019607138584,
+          "birth_peak": 0.0005627374685793114,
+          "final_peak": 0.00018308717410261648,
+          "birth_outside025_share": 0.049270545823550276,
+          "final_outside025_share": 0.4625356245466128,
+          "birth_negative_to_net_ratio": 0.01879201259071495,
+          "maximum_negative_to_net_ratio": 0.01879201259071495,
+          "final_negative_to_net_ratio": 0.00017067376812156018,
+          "birth_centroid": [
+            -0.0037444738809419534,
+            0.0013044066751431102,
+            -0.0071245277391244815
+          ],
+          "final_centroid": [
+            -0.012760456773158905,
+            0.0011932924123431259,
+            -0.006736139945858843
+          ],
+          "effective_volume_increases": true,
+          "peak_decreases": true
+        },
+        {
+          "event_id": 2,
+          "write_time": 1.2,
+          "deposited_heat": 1.5674081804063902e-05,
+          "earlier_write_heat_at_this_write": 2.6159539342370564e-05,
+          "final_integral": 1.5674081804063915e-05,
+          "maximum_integral_drift": 1.0164395367051604e-19,
+          "birth_effective_volume": 0.04727147021875601,
+          "final_effective_volume": 0.10735871057153981,
+          "birth_peak": 0.0005986274685305399,
+          "final_peak": 0.00029817861868189127,
+          "birth_outside025_share": 0.05461233709631232,
+          "final_outside025_share": 0.3088626513889601,
+          "birth_negative_to_net_ratio": 0.01517187802429819,
+          "maximum_negative_to_net_ratio": 0.01517187802429819,
+          "final_negative_to_net_ratio": 0.0017281752340856035,
+          "birth_centroid": [
+            -0.006981967380801466,
+            -0.0016099428364527066,
+            0.0056166144526579075
+          ],
+          "final_centroid": [
+            -0.012644553431115597,
+            -0.0014866232337331661,
+            0.005018101508753933
+          ],
+          "effective_volume_increases": true,
+          "peak_decreases": true
+        }
+      ],
+      "final_temperature_mean_excess": 0.002189854595087882,
+      "initial_temperature_mean_excess": 0.0019877602624475865,
+      "final_components": {
+        "initial_warmth": 0.0019877602624475874,
+        "net_viscous_heat": 0.00016025964901078787,
+        "structural_release": 1.0624830726953201e-09,
+        "write_0": 1.1641539007032268e-05,
+        "write_1": 1.4518000335338315e-05,
+        "write_2": 1.5674081804063915e-05
+      },
+      "final_write_share_of_excess": 0.01910337848013861,
+      "final_write_total": 4.1833621146434496e-05,
+      "total_increase_from_initial": 0.0002020943326402954,
+      "write_share_of_thermal_increase": 0.2070004665637681,
+      "minimum_absolute_temperature": 1.0000000199983894,
+      "minimum_unfiltered_net_viscous": 0.0,
+      "maximum_extraction_fraction_of_viscous_heating": 0.12943324830342331,
+      "baseline_checkpoints": 13,
+      "baseline_max_array_error": 7.216449660063518e-16
+    },
+    {
+      "run": "n16_dt0p001",
+      "grid": 16,
+      "dt": 0.001,
+      "rows": 1604,
+      "snapshots": 20,
+      "writes": [
+        {
+          "event_id": 0,
+          "write_time": 0.4,
+          "deposited_heat": 1.1640829952859336e-05,
+          "earlier_write_heat_at_this_write": 0,
+          "final_integral": 1.1640829952859317e-05,
+          "maximum_integral_drift": 8.131516293641283e-20,
+          "birth_effective_volume": 0.046406779234731896,
+          "final_effective_volume": 0.2119572839837972,
+          "birth_peak": 0.0005327936789993326,
+          "final_peak": 0.00011295577095264113,
+          "birth_outside025_share": 0.049328901672868436,
+          "final_outside025_share": 0.5437123670313035,
+          "birth_negative_to_net_ratio": 0.02111590668570174,
+          "maximum_negative_to_net_ratio": 0.02111590668570174,
+          "final_negative_to_net_ratio": 1.039899831290076e-06,
+          "birth_centroid": [
+            0.0030067997735743054,
+            0.00464158832319635,
+            -0.009815848428922119
+          ],
+          "final_centroid": [
+            -0.006040354016768215,
+            0.004242614854714521,
+            -0.0086716902626447
+          ],
+          "effective_volume_increases": true,
+          "peak_decreases": true
+        },
+        {
+          "event_id": 1,
+          "write_time": 0.8,
+          "deposited_heat": 1.4518016826705792e-05,
+          "earlier_write_heat_at_this_write": 1.1640829952859346e-05,
+          "final_integral": 1.4518016826705787e-05,
+          "maximum_integral_drift": 6.945670167485263e-20,
+          "birth_effective_volume": 0.04735608263553072,
+          "final_effective_volume": 0.16114954836253692,
+          "birth_peak": 0.0005627424748426285,
+          "final_peak": 0.0001830893016823771,
+          "birth_outside025_share": 0.04927952977742731,
+          "final_outside025_share": 0.4625358700364093,
+          "birth_negative_to_net_ratio": 0.018785611947247642,
+          "maximum_negative_to_net_ratio": 0.018785611947247642,
+          "final_negative_to_net_ratio": 0.00017066868241905525,
+          "birth_centroid": [
+            -0.003744639663060666,
+            0.0012969890086714578,
+            -0.007124563965233602
+          ],
+          "final_centroid": [
+            -0.01276084933824876,
+            0.0011865501512149453,
+            -0.006736393906860679
+          ],
+          "effective_volume_increases": true,
+          "peak_decreases": true
+        },
+        {
+          "event_id": 2,
+          "write_time": 1.2,
+          "deposited_heat": 1.5673241805913038e-05,
+          "earlier_write_heat_at_this_write": 2.615884677956511e-05,
+          "final_integral": 1.567324180591303e-05,
+          "maximum_integral_drift": 1.2197274440461925e-19,
+          "birth_effective_volume": 0.04726652402877491,
+          "final_effective_volume": 0.1073544860288001,
+          "birth_peak": 0.0005986862862535983,
+          "final_peak": 0.0002981801436445279,
+          "birth_outside025_share": 0.05460756843740274,
+          "final_outside025_share": 0.3088480530055616,
+          "birth_negative_to_net_ratio": 0.015162596633973473,
+          "maximum_negative_to_net_ratio": 0.015162596633973473,
+          "final_negative_to_net_ratio": 0.0017282696030156226,
+          "birth_centroid": [
+            -0.006971532708297659,
+            -0.001615598273177994,
+            0.005628658856603278
+          ],
+          "final_centroid": [
+            -0.012634676802165961,
+            -0.001491875654220073,
+            0.005029124806470926
+          ],
+          "effective_volume_increases": true,
+          "peak_decreases": true
+        }
+      ],
+      "final_temperature_mean_excess": 0.0021898367467752707,
+      "initial_temperature_mean_excess": 0.0019877602624475865,
+      "final_components": {
+        "initial_warmth": 0.001987760262447589,
+        "net_viscous_heat": 0.00016024333327081577,
+        "structural_release": 1.0624713900799056e-09,
+        "write_0": 1.1640829952859317e-05,
+        "write_1": 1.4518016826705787e-05,
+        "write_2": 1.567324180591303e-05
+      },
+      "final_write_share_of_excess": 0.019102834330951658,
+      "final_write_total": 4.1832088585478134e-05,
+      "total_increase_from_initial": 0.0002020764843276841,
+      "write_share_of_thermal_increase": 0.20701116572101413,
+      "minimum_absolute_temperature": 1.0000000199983894,
+      "minimum_unfiltered_net_viscous": 0.0,
+      "maximum_extraction_fraction_of_viscous_heating": 0.12946742473934478,
+      "baseline_checkpoints": 0,
+      "baseline_max_array_error": null
+    }
+  ],
+  "independent_recounts": [
+    {
+      "run": "n16_dt0p002",
+      "saved_grid_values_recounted": 901120,
+      "snapshot_integral_max_difference": 9.974659986866641e-18,
+      "negative_integral_max_difference": 5.293955920339377e-23,
+      "effective_volume_max_difference": 4.551914400963142e-15,
+      "outside_sphere_integral_max_difference": 8.470329472543003e-22,
+      "full_snapshot_reconstruction_max": 6.765421556309548e-17,
+      "dense_global_budget_max_residual": 6.911788849595091e-19,
+      "dense_component_sum_max_residual": 1.0842021724855044e-17,
+      "dense_tag_integral_max_residual": 1.0842021724855044e-17,
+      "source_receipt_sha256": "fa317037a2bf6f40eb9b6216bc571daea18d4d872aaad0ce19a08a5505a59cc7"
+    },
+    {
+      "run": "n16_dt0p001",
+      "saved_grid_values_recounted": 901120,
+      "snapshot_integral_max_difference": 5.204170427930421e-18,
+      "negative_integral_max_difference": 5.293955920339377e-23,
+      "effective_volume_max_difference": 4.6629367034256575e-15,
+      "outside_sphere_integral_max_difference": 8.470329472543003e-22,
+      "full_snapshot_reconstruction_max": 8.500145032286355e-17,
+      "dense_global_budget_max_residual": 6.301925127571995e-19,
+      "dense_component_sum_max_residual": 1.0842021724855044e-17,
+      "dense_tag_integral_max_residual": 1.0842021724855044e-17,
+      "source_receipt_sha256": "3076299a469069771c779526bd35ea189fa6b5510380843669c47ddca329808f"
+    }
+  ],
+  "time_step_comparison": [
+    {
+      "event_id": 0,
+      "relative_deposited_heat_change": 6.090725397073003e-05,
+      "normalized_field_L1_max_at_common_snapshots": 0.0005678580498272487,
+      "normalized_field_L1_at_end": 0.00010747067168659054,
+      "outside025_share_max_change": 8.782003554697049e-06,
+      "maximum_field_difference_time": 0.4,
+      "amount_within_1_percent": true,
+      "normalized_shape_within_1_percent": true,
+      "outside_share_within_half_percentage_point": true,
+      "both_crc": [
+        2924903311,
+        2690243261
+      ]
+    },
+    {
+      "event_id": 1,
+      "relative_deposited_heat_change": 1.1359255500380637e-06,
+      "normalized_field_L1_max_at_common_snapshots": 0.0003684953782251111,
+      "normalized_field_L1_at_end": 4.995965878637464e-05,
+      "outside025_share_max_change": 8.983953876870454e-06,
+      "maximum_field_difference_time": 0.8,
+      "amount_within_1_percent": true,
+      "normalized_shape_within_1_percent": true,
+      "outside_share_within_half_percentage_point": true,
+      "both_crc": [
+        273795790,
+        3570408257
+      ]
+    },
+    {
+      "event_id": 2,
+      "relative_deposited_heat_change": 5.3591538015711717e-05,
+      "normalized_field_L1_max_at_common_snapshots": 0.00021909293315317975,
+      "normalized_field_L1_at_end": 9.72980788491761e-05,
+      "outside025_share_max_change": 1.5195907883236437e-05,
+      "maximum_field_difference_time": 1.2,
+      "amount_within_1_percent": true,
+      "normalized_shape_within_1_percent": true,
+      "outside_share_within_half_percentage_point": true,
+      "both_crc": [
+        3749372454,
+        83076052
+      ]
+    }
+  ],
+  "time_step_all_criteria_pass": true,
+  "source_account": "Signed additive contributions on each actual coupled trajectory; not a no-write counterfactual. The net viscous source already subtracts the model extraction term.",
+  "boundary": "Periodic unit cube, no wall loss or cooling term in this equation. Wrapping a plotting boundary is not leaving the domain.",
+  "negative_values": "Retained and measured; Fourier-filtered tags are signed numerical contributions, not positive particle inventories.",
+  "scope": "Historical threshold-1 breathing-on model, 16 cubed, original interval 0 to 1.2 plus new continuation to 1.6; no fourth write. Step refinement only; no grid/continuum convergence claim.",
+  "provenance": "AI-generated analysis and diagram; dictated and directed by NousVolition."
+}

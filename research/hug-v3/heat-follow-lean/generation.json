@@ -1,0 +1,28 @@
+{
+  "decimal_places": 34,
+  "decimal_scale": "10000000000000000000000000000000000",
+  "target_count": 56,
+  "dense_rows": 2408,
+  "source_columns": [
+    "thermal_mean",
+    "initial_warmth_mean",
+    "net_viscous_heat_mean",
+    "structural_release_mean",
+    "write_0_mean",
+    "write_1_mean",
+    "write_2_mean",
+    "net_viscous_heat_expected_mean",
+    "structural_release_expected_mean",
+    "continuous_ledger",
+    "write_total"
+  ],
+  "phase_encoding": {
+    "before_write": 0,
+    "at": 1,
+    "after_write": 2
+  },
+  "rows_per_proof_block": 100,
+  "global_tolerance": "1e-12",
+  "tag_tolerance": "1e-14",
+  "scope": "Exact decimal integers from every saved row and the independently recounted scalar diagnostics. No proof of the simulation, source transcription, positive heat parcels, or grid convergence."
+}

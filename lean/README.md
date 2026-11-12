@@ -46,6 +46,10 @@ Simulator and transcription verification are outside this package; Comparator an
 
 [The observer-follow package](../research/hug-v3/observer-follow-lean/README.md) has 134 finite checks of the recorded neighborhood histories, crossings, context-origin accounts and shared bytes. Its [GitHub receipt](../research/hug-v3/observer-follow-study/github-lean-receipt.json) binds the exact proof inputs, targets and run. Fluid evolution and whether everything stays with either label remain unproved. Earlier 77- and 40-statement studies remain separate.
 
+## Following the recorded heat
+
+[The heat follow-up package](../research/hug-v3/heat-follow-lean/README.md) has **56 checks**: four general finite rules and 52 declarations covering 2,408 recorded rows and scalar diagnostics. Its [GitHub receipt](../research/hug-v3/heat-follow-lean/github-lean-receipt.json) records a fresh full Lake build, all dependency lists and exact input/target matching. The separate [numerical study](../research/hug-v3/heat-follow-study/README.md) passes time-step criteria on 16³; finer grids remain unchecked. Lean does not verify fluid evolution or spatial convergence. The earlier 12-check draft and 134-check observer study retain their separate scopes.
+
 ## Heat from writing
 
 [The supplied heat draft](../research/hug-v3/heat-writing-lean/README.md) has 12 passing statements about scalar stroke heat, ambiguous recovery, work accounting, exact threshold-1 replay numbers and viscosity under stated hypotheses. Its [GitHub receipt](../research/hug-v3/heat-writing-lean/github-lean-receipt.json) binds the input fingerprint, targets and run. It is separate from the 134 observer-follow checks; thermal evolution and complete retention remain open.
@@ -120,3 +124,4 @@ Each `verification-report.json` contains exactly six fields. `comparator`, `lean
 ## Standalone Lean-kernel checks
 
 The [finite-window gap package](../research/hug-v3/finite-window-lean/README.md) is a dependency-free Lake project under `research/`. Its 15 statements check nested-window reasoning and the exact recorded decimals for 25 pairs at 51 times. Its [saved local receipt](../research/hug-v3/finite-window-lean/receipt.json) reports no axiom dependencies. Its [dedicated workflow](../.github/workflows/finite-window-lean.yml) reruns Lean and checks the receipt against the current proof inputs. It does not use Comparator or nanoda and does not verify the underlying fluid simulation.
+

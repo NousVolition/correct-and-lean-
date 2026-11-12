@@ -1,0 +1,157 @@
+{
+  "run": "threshold 1; breathing on; original native step 0.002",
+  "tick": 41,
+  "frame": 600,
+  "time": 1.2,
+  "replay_max_error": 2.7755575615628914e-17,
+  "readings": {
+    "before": {
+      "A": 0.006429061322641351,
+      "A_rate": 0.008194451110496026,
+      "decoded_event_ids": [
+        0,
+        1
+      ],
+      "signed_outcome_sum": -0.07753495434171831,
+      "pair_0_1": {
+        "positive": 0.0,
+        "negative": 0.0,
+        "exposure": 0.0
+      }
+    },
+    "record_only": {
+      "A": 0.006429061322641351,
+      "A_rate": 0.008309196904720758,
+      "decoded_event_ids": [
+        0,
+        1,
+        2
+      ],
+      "signed_outcome_sum": 0.07614244863783148,
+      "pair_0_1": {
+        "positive": 0.15367740297954977,
+        "negative": 0.0,
+        "exposure": 0.3981056664289485
+      }
+    },
+    "heat_only": {
+      "A": 0.006429061322641351,
+      "A_rate": 0.008194451110496026,
+      "decoded_event_ids": [
+        0,
+        1
+      ],
+      "signed_outcome_sum": -0.07753495434171831,
+      "pair_0_1": {
+        "positive": 0.0,
+        "negative": 0.0,
+        "exposure": 0.0
+      }
+    },
+    "full_write": {
+      "A": 0.006429061322641351,
+      "A_rate": 0.008309196904720758,
+      "decoded_event_ids": [
+        0,
+        1,
+        2
+      ],
+      "signed_outcome_sum": 0.07614244863783148,
+      "pair_0_1": {
+        "positive": 0.15367740297954977,
+        "negative": 0.0,
+        "exposure": 0.3981056664289485
+      }
+    }
+  },
+  "A_rate_jump": 0.00011474579422473229,
+  "A_rate_percent_increase": 1.400286519224672,
+  "algebraic_rate_jump": 0.00011474579422473051,
+  "algebraic_residual": 1.7753810574450135e-18,
+  "causal_chain": "record b -> retrieved signed outcome -> utility -> A rate",
+  "heat_only_immediate_A_rate_change": 0.0,
+  "event": {
+    "event_id": 2,
+    "start": 0.8,
+    "end": 1.2,
+    "observed": null,
+    "recipient_report": 0.2,
+    "predecessors": 3
+  },
+  "decoded_outcome_score": 0.2,
+  "write_account": {
+    "slot": 2,
+    "work": 1.5672159979486206e-05,
+    "stored": -1.9218245776950046e-09,
+    "heat": 1.5674081804063902e-05,
+    "peak_work": 1.567215997948621e-05,
+    "required_budget": 7.819790477053982e-05,
+    "crc": 3749372454
+  },
+  "short_continuations": [
+    {
+      "h": 0.0002,
+      "A_difference": 2.2949559777725448e-08,
+      "divided_difference": 0.00011474779888862724,
+      "error_from_rate_jump": 2.004663894952796e-09
+    },
+    {
+      "h": 0.0001,
+      "A_difference": 1.1474679671719112e-08,
+      "divided_difference": 0.00011474679671719112,
+      "error_from_rate_jump": 1.002492458837545e-09
+    },
+    {
+      "h": 5e-05,
+      "A_difference": 5.7373147751768605e-09,
+      "divided_difference": 0.00011474629550353721,
+      "error_from_rate_jump": 5.012788049235661e-10
+    }
+  ],
+  "jet_counterexample": [
+    {
+      "input_truncation": 0,
+      "derivative_zero_equal": true,
+      "derivative_one_difference": "0"
+    },
+    {
+      "input_truncation": 1,
+      "derivative_zero_equal": true,
+      "derivative_one_difference": "28686448556183/250000000000000000"
+    },
+    {
+      "input_truncation": 2,
+      "derivative_zero_equal": true,
+      "derivative_one_difference": "28686448556183/250000000000000000"
+    },
+    {
+      "input_truncation": 4,
+      "derivative_zero_equal": true,
+      "derivative_one_difference": "28686448556183/250000000000000000"
+    },
+    {
+      "input_truncation": 10,
+      "derivative_zero_equal": true,
+      "derivative_one_difference": "28686448556183/250000000000000000"
+    },
+    {
+      "input_truncation": 100,
+      "derivative_zero_equal": true,
+      "derivative_one_difference": "28686448556183/250000000000000000"
+    }
+  ],
+  "YM_repository": "yang-mills-group/YM",
+  "YM_commit": "55ba9fc36293b3f4d52c6b1f813169a0be76ee98",
+  "YM_git_blob_checks": {
+    "submission/YM/Pert/Position/Implicit.lean": "6daaaa593da5959c703de042488f0d3a48ccbf29",
+    "submission/YM/Pert/Position/Four.lean": "5042c884877541068ba6c9e1306536b1f8b2bb8b",
+    "submission/YM/Pert/Position/Crest.lean": "771d37f7c8ab5320ea29f218ad2df06b07769403"
+  },
+  "limits": [
+    "At the write, A has unequal left/right rates; there is no single ordinary derivative there.",
+    "Hug time and the Yang--Mills jet parameter are different variables.",
+    "Held-state hybrids and short unwritten/written continuations are local diagnostics.",
+    "The polynomial example tests readJet sensitivity, not an admissible Yang--Mills family.",
+    "This check does not refute a Yang--Mills theorem or run its Lean kernel."
+  ]
+}

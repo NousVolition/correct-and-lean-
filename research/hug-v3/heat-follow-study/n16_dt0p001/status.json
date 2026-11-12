@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "run": "n16_dt0p001",
+  "started_utc": "2026-11-12T08:32:07.813495+00:00",
+  "completed_steps": 1600,
+  "total_steps": 1600,
+  "elapsed_seconds": 351.1559999999954,
+  "model_time": 1.6
+}

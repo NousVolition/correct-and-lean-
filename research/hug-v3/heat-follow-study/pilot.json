@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "all_native_arrays_bitwise_equal": {
+    "g": true,
+    "X": true,
+    "F": true,
+    "m": true,
+    "A": true,
+    "ledger": true,
+    "expression": true,
+    "context": true,
+    "norm": true,
+    "logradius": true,
+    "relation": true,
+    "responses": true,
+    "association": true,
+    "b": true,
+    "write_work": true,
+    "observer_X": true,
+    "breathing_work": true
+  },
+  "max_field_reconstruction": 1.734723475976807e-18,
+  "max_rhs_reconstruction": 2.862293735361732e-17,
+  "seconds_for_two_steps": 0.3280000000013388,
+  "runner_sha256": "80c4ddfe4178942df92fc330f73d32bd757467d62142876c57855e5f7d1eb2a7",
+  "input_files": 42,
+  "solver_source_unchanged": true
+}

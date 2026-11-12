@@ -1,0 +1,22 @@
+{
+  "verification": "Read-only source and saved-table inspection; no residual simulation rerun and no new Lean target.",
+  "source_script_sha256": "b25e58373be863897e95b6cc65c0aeab46fad47297e95838c4ca50060d1d1fcc",
+  "source_csv_sha256": "909bd321491a82991d4051ccba1823f10b233acb2fe10d1f5440247d4dc7f4fe",
+  "stored_codes": [
+    0,
+    20000
+  ],
+  "word_one_bits": [
+    0,
+    5
+  ],
+  "checksum_one_bits": [
+    13,
+    13
+  ],
+  "write_heat_difference": "3.0784848723E-11",
+  "word_heat_difference": "2.0096341721571687701527E-11",
+  "checksum_heat_difference": "1.068850700095148E-11",
+  "remaining_record_heat_difference": "0E-21",
+  "scope": "Matched encoding demonstration at tick 23/time 0.8. Not the threshold-1 heat-follow-up run, not a test of the field equation, and not among its 56 Lean targets."
+}
