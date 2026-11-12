@@ -6,6 +6,145 @@ The fresh reports below preserve the original theorem scopes and unfinished-proo
 
 Newer standalone results are described below: [observation and field-equation checks](#separate-observation-and-field-equation-checks), [Pair-25 origins](#separate-finite-origin-checks), [540/872 histories](#following-540-and-872), and [heat from writing](#heat-from-writing).
 
+[Read the walkthrough](#plain-language-walkthrough) · [Open the detailed package records](#detailed-package-records)
+
+## Plain-language walkthrough
+
+Read **PASS** as: “the precise statements submitted for this package passed the checks, under their stated assumptions.” A package can have passing component proofs while its larger goal remains unfinished. The fresh run covered all 19 packages; its 306 checked declarations overlap across packages.
+
+The **first three packages concern the seven-variable A/S model**. In its interpretation, Smoke and Clay are one agent’s inward speaking and listening positions.
+
+1. **[as-lean](as-lean/) — The basic rules.**
+
+   **Proved:** 30 consequences of the equations, including bounds on opening and reception, how an encounter updates understanding, and how adverse history affects exchange.
+
+   **Unfinished:** Comparing suppression across complete evolving histories, and constructing the full repeated-encounter process. Some earlier gaps are addressed by the next two packages.
+
+2. **[as-existence-lean](as-existence-lean/) — The model has a definite evolution.**
+
+   **Proved:** Under the original assumptions, a solution exists and is unique over any chosen finite period. “Unique” means the same specified starting data and inputs determine the same evolution.
+
+   **Unfinished:** The suppression comparison and repeated-encounter process. This also does not certify numerical solver errors or the social interpretation.
+
+3. **[as-invariance-lean](as-invariance-lean/) — Certain quantities stay within their allowed ranges.**
+
+   **Proved:** Both meaning variables remain between 0 and 1, and both adverse-history loads remain nonnegative, under the original assumptions.
+
+   **Unfinished:** The broader comparisons and encounter process above. Staying within bounds does not establish that understanding improves.
+
+The **next two concern particular reduced Hug models**.
+
+4. **[hug-squeeze-lean](hug-squeeze-lean/) — Pressure, shape, guards and energy.**
+
+   **Proved:** 51 specified properties, including pressure-response formulas, retention, reversible geometric transformations, guard bounds and energy accounting. It also proves limitations: a numerical “connected” flag can allow a small gap, and the active model can gain energy.
+
+   **Unfinished:** The full separate memory-field evolution, long-term synchronization and recovery claims. The next package supplies an existence result for a particular reduced model.
+
+5. **[hug-existence-lean](hug-existence-lean/) — The reduced eight-variable Hug model can evolve consistently.**
+
+   **Proved:** Existence, uniqueness and preservation of the allowed guard ranges over any finite forward period, with the specified fixed parameters, continuous prescribed force and admissible initial guards.
+
+   **Unfinished:** The separate memory-field extension and broader long-term claims. This result belongs to that reduced implementation; NousVolition’s intended unforced continuum system retains its own proof obligations.
+
+Packages **6–9 approach the spatial Hug–Navier problem**. The intended formulation is one continuing system. The earlier bridge and interface constructions retain their checked mathematics, but their interpretation was subsequently corrected. Read the [single-system scope correction](../research/comparisons/hug-navier-single-system-scope-correction.md#meaning-to-preserve-across-implementations).
+
+6. **[hug-navier-bridge-lean](hug-navier-bridge-lean/) — An earlier compatibility comparison.**
+
+   **Proved:** 14 conditional statements about when the earlier proposed coupling fits together or encounters an obstruction.
+
+   **Unfinished:** A full evolution theorem. Those results do not establish that the intended single system lacks the connections assumed by that earlier construction.
+
+7. **[hug-navier-full-audit-lean](hug-navier-full-audit-lean/) — An audit of that earlier construction.**
+
+   **Proved:** Seven statements about the supplied field and interface information.
+
+   **Unfinished:** Full evolution and uniqueness. Its interface requirements must be read with the later single-system correction.
+
+8. **[hug-navier-single-system-lean](hug-navier-single-system-lean/) — Checks within the six-field formulation.**
+
+   **Proved:** Ten identities and local checks concerning the equations.
+
+   **Unfinished:** Showing that a complete spatial solution exists, is unique, and keeps its guards within bounds throughout its evolution. Local boundary signs alone do not prove that final claim.
+
+9. **[hug-navier-wellposedness-lean](hug-navier-wellposedness-lean/) — Diagnosing the difficult analytic step.**
+
+   **Proved:** Four diagnostic statements about smooth perturbations and the equations’ rates of change.
+
+   **Unfinished:** The requested full existence, continuation and uniqueness theorem. Its written classical uniqueness argument has not been certified by Lean.
+
+Packages **10–17 concern Hug v3’s evolution, memory writes, transfer and delays**. Here, “hybrid” means continuous evolution interrupted by discrete events such as writing a memory.
+
+10. **[hug-v3-proof-attempt](hug-v3-proof-attempt/) — What happens between events and at writes.**
+
+    **Proved:** Six specific results under explicit assumptions about the events.
+
+    **Unfinished:** Showing that a complete trajectory actually supplies those assumed events, and proving full correspondence with program execution.
+
+11. **[hug-v3-hybrid-lean](hug-v3-hybrid-lean/) — Joining continuous stretches and discrete events.**
+
+    **Proved:** Nine conditional assembly results: given suitable solution stretches and valid updates, specified conclusions follow about the combined history.
+
+    **Unfinished:** Producing every required stretch, proving every update succeeds, and deriving uniqueness from the full equations.
+
+12. **[hug-v3-source-lean](hug-v3-source-lean/) — An exact-number version of the fixed-grid system.**
+
+    **Proved:** Nine results about the manually transcribed equations and event definitions.
+
+    **Unfinished:** Proving equivalence with Python’s floating-point execution, and proving every write is reached, accepted and correctly stored and recovered.
+
+13. **[hug-v3-transfer-lean](hug-v3-transfer-lean/) — Local teacher-to-teacher transfer.**
+
+    **Proved:** 14 transfer statements under the stated encounter and comparison assumptions.
+
+    **Unfinished:** An end-to-end theorem showing the complete causal transfer happens within finite time, through all required events and writes.
+
+14. **[hug-v3-delay-lean](hug-v3-delay-lean/) — Which time an input comes from.**
+
+    **Proved:** Nine identities distinguishing current physical inputs, buffered social inputs and the zero-delay case.
+
+    **Unfinished:** Existence and uniqueness for the delayed evolution, preservation of bounds, stability and handling delayed discontinuities.
+
+15. **[hug-v3-full-delay-proof](hug-v3-full-delay-proof/) — Conditional assembly with delays.**
+
+    **Proved:** 14 statements about fixed delays and joining continuous evolution with events.
+
+    **Unfinished:** Establishing the needed regularity, memory readability, successful writes and continuation through every required event. The word “full” in the filename does not mean the full target is proved.
+
+16. **[hug-v3-memory-rules-lean](hug-v3-memory-rules-lean/) — Retrieval and memory identity.**
+
+    **Proved:** 17 results about retrieval from the present state, weighted memories, partner identity and the fixed-delay convention.
+
+    **Unfinished:** Several rules still need specification: variable timing, partial or mixed reconstruction with provenance, new solo episodes, and anticipation-effort accounting.
+
+17. **[hug-v3-clay-boundary-lean](hug-v3-clay-boundary-lean/) — Keeping memories readable through change.**
+
+    **Proved:** 12 component and conditional schedule results. A preservation theorem applies when a full solution already exists and an explicit deformation bound holds.
+
+    **Unfinished:** Proving that solution and bound, together with successful encoding, capacity, write budgets and continuation.
+
+The **last two are comparison and review packages**.
+
+18. **[hug-v3-yang-mills-audit-lean](hug-v3-yang-mills-audit-lean/) — Comparing mathematical structures.**
+
+    **Proved:** 20 statements about strain, changes of frame and evolution.
+
+    **Unfinished:** Full Yang–Mills structure, equivalence of the dynamics and a mass-gap theorem. This audit is also separate from both the real-valued `readJet` example and the abelian field-equation comparison described [below](#separate-observation-and-field-equation-checks).
+
+19. **[hug-v3-gemini-review](hug-v3-gemini-review/) — Repaired supplied arguments.**
+
+    **Proved:** 77 statements under their stated assumptions. One delayed uniqueness result concerns **already-existing seven-variable A/S solutions on one delay interval**, with shared inputs and history.
+
+    **Unfinished:** Full Hug v3 delayed evolution through all events, successful memory writes and the other required bounds. That limited uniqueness result does not supply the missing full existence theorem.
+
+For a first reading, follow **1–3, then 4–5, then 6–9**: basic rules, complete evolution results for smaller models, and the remaining difficulty in the spatial system. Continue with **10–17** for memory writes and delays, then **18–19** for the comparisons and reviewed arguments. The [fresh evidence collection](../provenance/core-package-recheck-2026-11-12/README.md) retains each package’s exact scope and unfinished-work list alongside its passing checks.
+
+**Credits:** AI-generated; dictated and directed by NousVolition. Each package retains its original proof and review credits. The [observation-package credits](../research/ambiguous-observation-lean/CREDITS.md) distinguish Claude’s review and drafting from later compilation and preserve the earlier assistant’s field-equation proof authorship.
+
+## Detailed package records
+
+<details>
+<summary>Show all 19 packages, precise limits and fresh/historical evidence links</summary>
+
 | Package | Checked result and current limits | Evidence |
 | --- | --- | --- |
 | [as-lean](as-lean/) | 30 scoped A/S claims. Later [existence](as-existence-lean/) and [invariance](as-invariance-lean/) results cover the seven-coordinate model; suppression comparison and repeated-encounter coupling remain open. | [fresh report](../provenance/core-package-recheck-2026-11-12/as-lean/verification-report.json) · [earlier](as-lean/verification-report.json) |
@@ -27,6 +166,8 @@ Newer standalone results are described below: [observation and field-equation ch
 | [hug-v3-clay-boundary-lean](hug-v3-clay-boundary-lean/) | 12 fabric, local-flow and conditional schedule results. Full-rate existence, continuation, readability and write-success bounds remain open. | [fresh report](../provenance/core-package-recheck-2026-11-12/hug-v3-clay-boundary-lean/verification-report.json) · [earlier](hug-v3-clay-boundary-lean/verification-report.json) |
 | [hug-v3-yang-mills-audit-lean](hug-v3-yang-mills-audit-lean/) | 20 strain, frame and evolution comparison statements, including `green_objective`. Full Yang–Mills structure, dynamical equivalence and a mass-gap theorem are not proved. | [fresh report](../provenance/core-package-recheck-2026-11-12/hug-v3-yang-mills-audit-lean/verification-report.json) · [earlier](hug-v3-yang-mills-audit-lean/verification-report.json) · [recheck](../provenance/green-objective-2026-11-08/README.md) |
 | [hug-v3-gemini-review](hug-v3-gemini-review/) | 77 repaired supplied statements. Delayed uniqueness covers existing seven-coordinate A/S solutions on one delay interval; full Hug v3 delayed hybrid evolution remains open. | [fresh report](../provenance/core-package-recheck-2026-11-12/hug-v3-gemini-review/verification-report.json) · [earlier](hug-v3-gemini-review/verification-report.json) |
+
+</details>
 
 Challenge files can contain intentional placeholders defining a target. An unfinished target is not a proof; use the package’s checked solution modules, permitted-axiom policy and verification report.
 
