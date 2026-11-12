@@ -1,0 +1,32 @@
+{
+  "source_package": "Tick-41-fine-to-broad-test.zip",
+  "source_package_sha256": "9986da19aff52a234c51d11fafb2897866ce7fffa6efe156bc866f7803f06113",
+  "changes": [
+    {
+      "path": "run_transfer.py",
+      "original_sha256": "3036101283136489ae84825f757fb09fcd2b81d6740687ca65d85e0ee5a8029a",
+      "published_sha256": "0a040386dbed1a4ca7288a3a4d0e6ea7f8cbc5d1c939017f9ca55276d8d28958",
+      "reason": "Replace local workspace fallback with the packaged model and starting state; numerical operations unchanged."
+    },
+    {
+      "path": "build_report.py",
+      "original_sha256": "9c6c461af7e007817e7639ef6355b0343f379dcd588967e840f64485b0ad9cb5",
+      "published_sha256": "242db05335f6cfab728dee92f9ddcef8e5e160eb25d3ad64f20faacbc579ff59",
+      "reason": "Use normally installed plotting dependencies instead of a personal path."
+    },
+    {
+      "path": "model/work/hug-threshold1-refinement/run_study.py",
+      "original_sha256": "d4f7fed9716ee010509998584a71c318c4ab9a99eecf3d5860c218b36a320105",
+      "published_sha256": "a9639629f8a08b655e200f2ba2cfc50ce801f151390db610e6b548ee30795e19",
+      "reason": "Remove a dependency fallback and replace unused full-history archive paths with stable labels; continuation functions unchanged."
+    },
+    {
+      "path": "verify_package.py",
+      "original_sha256": "8b256c8672290b79564caf8fe6b69a6f651aa7229842595a9ada565438c1a02c",
+      "published_sha256": "ca4ee719e0e1d34433080b99de6d926ff06b6309fe51c73e3e307f368fe9cbb7",
+      "reason": "Check the public manifest, keep historical verification unchanged, permit an optional output receipt and specify a cross-platform roundoff tolerance for the first paired step."
+    }
+  ],
+  "numerical_model_and_active_declarations_unchanged": true,
+  "omitted": "Unused full-history archive metadata and unused 16/24 grid declarations; all continuation inputs and all measured continuation outputs are included."
+}

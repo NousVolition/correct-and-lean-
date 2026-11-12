@@ -1,0 +1,12 @@
+{
+  "study.py": "7e96fd5b2ce3b78b299e3d4f0f517354c58e901d0f1415abe5ac6a8f9922c989",
+  "breathing.py": "aa1dfba9232075474937146698859dcb8cb6d3d42e2732b8b0187a016c2a8900",
+  "compare_arms.py": "90c9dd8a1cac811b0c31c2a46d8cf7a2e625381ba2fa981423941ba2ca4476a8",
+  "prime-times.csv": "8e2979240d3e92e6be546ddde20040168318c36e03011138d816f8d76d0e8719",
+  "marker-seeds.csv": "3bd95c1b49d205522a72c194cdedcc6e27d3bfbbd4950895e08e9f0303cc5236",
+  "origins.json": "7c2bc7237a893da6e0d5ab812423212f1c933ea4c33aaa98199fe4fd2ce71ffc",
+  "comparison-bounds.json": "3a71f800eb3c8ee6c1709098452327b1deeee302f90cd2235b09b8185f1f590c",
+  "comparison-chain.csv": "688a303bfdc7ba8be5c0c91904fb0d98eef96f8d690e5534c0309dd96a0e4f7f",
+  "declarations/breathing_off.json": "06be6583a344e4df3382157009906c93319a6203c10c28bf8bf9a450fd1bc78d",
+  "declarations/breathing_on.json": "b0fc0039f5bafc7fc785fd7cdc14980003c45c20632dd42ba610c62648d9401c"
+}

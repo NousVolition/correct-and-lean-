@@ -1,0 +1,182 @@
+{
+  "experiment": "Tick 41 fine-to-broad perturbation test",
+  "comparison": "Differences between perturbed and unperturbed full coupled evolutions; all start from the same saved 32^3 state.",
+  "measured_quantity": "Velocity vector RMS, sqrt(volume average of |delta u|^2); not energy flux or return-curve miss.",
+  "criteria_note": "These are analysis acceptance tolerances; this experiment was not preregistered.",
+  "initial": {
+    "time": 1.2,
+    "elapsed_time": 0.0,
+    "dt": 0.000125,
+    "baseline_broad_rms": 0.004965122065751619,
+    "baseline_fine_rms": 3.771231277563396e-05,
+    "fine_error_mean_rms": 9.604436629163067e-22,
+    "fine_error_broad_rms": 1.829898405050765e-20,
+    "fine_error_middle_rms": 8.349278477718775e-20,
+    "fine_error_fine_rms": 5.58269771417828e-07,
+    "fine_error_outside_rms": 2.3013022527573846e-19,
+    "fine_error_total_rms": 5.58269771417828e-07,
+    "fine_error_broad_per_initial_error": 3.277803131635449e-14,
+    "fine_error_fine_per_initial_error": 0.9999999999999989,
+    "fine_error_A_difference": 0.0,
+    "fine_error_X_rms": 0.0,
+    "fine_error_F_rms": 0.0,
+    "fine_error_clay_rms": 0.0,
+    "fine_error_heat_rms": 0.0,
+    "fine_error_context_field_rms": 0.0,
+    "fine_error_actor_ties_rms": 0.0
+  },
+  "final": {
+    "time": 1.22,
+    "elapsed_time": 0.02,
+    "dt": 0.000125,
+    "baseline_broad_rms": 0.004961767993288292,
+    "baseline_fine_rms": 3.867160996920109e-05,
+    "fine_error_mean_rms": 1.3035743830480104e-14,
+    "fine_error_broad_rms": 4.124655000767898e-12,
+    "fine_error_middle_rms": 1.3788615968493762e-09,
+    "fine_error_fine_rms": 1.341646253528561e-07,
+    "fine_error_outside_rms": 4.108819644781905e-18,
+    "fine_error_total_rms": 1.3417171077536596e-07,
+    "fine_error_broad_per_initial_error": 7.388282891069992e-06,
+    "fine_error_fine_per_initial_error": 0.24032221019619315,
+    "fine_error_A_difference": 9.063930161978817e-16,
+    "fine_error_X_rms": 4.182887773971321e-10,
+    "fine_error_F_rms": 8.374032991618698e-09,
+    "fine_error_clay_rms": 1.2479620803722917e-13,
+    "fine_error_heat_rms": 1.5426854368808556e-10,
+    "fine_error_context_field_rms": 6.14365450699235e-10,
+    "fine_error_actor_ties_rms": 4.440225960341966e-13
+  },
+  "fine_difference_percent_reduction": 75.96777898038066,
+  "broad_difference_fraction_of_baseline_broad": 8.31287356915369e-10,
+  "baseline_broad_percent_reduction": 0.0675526687745176,
+  "final_broad_difference_fraction_of_initial_fine": 7.388282891069992e-06,
+  "time_step_comparisons": [
+    {
+      "coarser_dt": 0.0005,
+      "finer_dt": 0.00025,
+      "final_vector_difference": 3.223886708127582e-16,
+      "final_relative_vector_difference": 7.815992357797905e-05,
+      "max_relative_vector_difference_after_start": 0.0007485698252147997,
+      "final_relative_norm_difference": 7.465426733732627e-05
+    },
+    {
+      "coarser_dt": 0.00025,
+      "finer_dt": 0.000125,
+      "final_vector_difference": 7.971452994308183e-17,
+      "final_relative_vector_difference": 1.9326350913771248e-05,
+      "max_relative_vector_difference_after_start": 0.00018474098447864013,
+      "final_relative_norm_difference": 1.845994480320634e-05
+    }
+  ],
+  "final_refinement_difference_ratio": 4.044289931119858,
+  "amplitude_check": {
+    "final_full_to_half_norm_ratio": 1.9998876710264495,
+    "final_relative_scaled_vector_difference": 0.0008332599925878896,
+    "max_relative_scaled_vector_difference_after_start": 0.001940096472769626
+  },
+  "validation": {
+    "initial_broad_below_1e_minus16": true,
+    "final_broad_over_100_times_initial_roundoff": true,
+    "finest_two_vector_responses_within_one_percent_at_all_common_times_after_start": true,
+    "halved_amplitude_vector_response_within_one_percent_after_rescaling": true,
+    "identical_first_steps_bit_identical": true,
+    "input_unchanged": true
+  },
+  "initial_route": {
+    "time": 1.2,
+    "definition": "Projected Fourier coefficients for 1<=max(abs(k))<=2; vector RMS over the unit cube.",
+    "initial_other_terms": "Material and clay stresses, their positions, and the context-dependent activation are identical initially. Their initial velocity-rate differences are zero. Later feedback stays active in the main runs.",
+    "formula": "P_low P_divfree [epsilon(q cross curl(u) + u cross curl(q)) + epsilon^2 q cross curl(q) + div(nu(theta)*epsilon*(grad(q)+grad(q)^T))]",
+    "fractions": "Signed projection onto the total rate difference; these add to one. Component norms need not add.",
+    "padding_scope": "Same saved 32^3 field resampled; checks initial nonlinear evaluation only, not full spatial refinement.",
+    "checks": {
+      "native_reconstruction_relative_difference": 2.796939793163412e-08,
+      "native_vs_96_relative_difference": 2.2580453738290454e-07,
+      "padded64_vs_96_relative_difference": 1.1959928412787853e-12,
+      "padded48_vs_96_relative_difference": 1.30638619483741e-12,
+      "quadratic_advection_native_vs_96_relative_difference": 1.953801871706012e-15,
+      "linear_advection_native_vs_96_relative_difference": 5.648106637928476e-14
+    },
+    "rows": [
+      {
+        "work_grid": 32,
+        "total_rate_rms": 6.206986873058965e-11,
+        "viscosity_min": 0.012693317607318389,
+        "viscosity_max": 0.014998237240564538,
+        "advection_linear_rate_rms": 6.201392935707854e-11,
+        "advection_linear_signed_fraction_along_total": 0.9391977770495212,
+        "advection_quadratic_rate_rms": 2.5589446568503435e-13,
+        "advection_quadratic_signed_fraction_along_total": -0.0004295645414112004,
+        "viscosity_rate_rms": 2.1476713122331788e-11,
+        "viscosity_signed_fraction_along_total": 0.06123178749188988
+      },
+      {
+        "work_grid": 48,
+        "total_rate_rms": 6.20698722384802e-11,
+        "viscosity_min": 0.012692322757332054,
+        "viscosity_max": 0.014998237240564538,
+        "advection_linear_rate_rms": 6.201392935707823e-11,
+        "advection_linear_signed_fraction_along_total": 0.9391977301827246,
+        "advection_quadratic_rate_rms": 2.5589446568503424e-13,
+        "advection_quadratic_signed_fraction_along_total": -0.00042956437801470077,
+        "viscosity_rate_rms": 2.1476712603767102e-11,
+        "viscosity_signed_fraction_along_total": 0.0612318341952903
+      },
+      {
+        "work_grid": 64,
+        "total_rate_rms": 6.206987223848102e-11,
+        "viscosity_min": 0.012691204283861843,
+        "viscosity_max": 0.014998237240564538,
+        "advection_linear_rate_rms": 6.201392935707819e-11,
+        "advection_linear_signed_fraction_along_total": 0.939197730182791,
+        "advection_quadratic_rate_rms": 2.558944656850344e-13,
+        "advection_quadratic_signed_fraction_along_total": -0.00042956437801442343,
+        "viscosity_rate_rms": 2.147671260375296e-11,
+        "viscosity_signed_fraction_along_total": 0.061231834195223475
+      },
+      {
+        "work_grid": 96,
+        "total_rate_rms": 6.206987223848485e-11,
+        "viscosity_min": 0.012690999920748746,
+        "viscosity_max": 0.014998237240564538,
+        "advection_linear_rate_rms": 6.201392935707815e-11,
+        "advection_linear_signed_fraction_along_total": 0.9391977301826869,
+        "advection_quadratic_rate_rms": 2.558944656850342e-13,
+        "advection_quadratic_signed_fraction_along_total": -0.00042956437801426974,
+        "viscosity_rate_rms": 2.14767126037617e-11,
+        "viscosity_signed_fraction_along_total": 0.06123183419532698
+      }
+    ]
+  },
+  "energy_balance_residuals": {
+    "0.0005": {
+      "baseline": -1.2783963341048143e-15,
+      "fine_error": -1.2766751631559936e-15
+    },
+    "0.00025": {
+      "baseline": -3.2902825429503846e-16,
+      "fine_error": -3.293535149467841e-16,
+      "half_error": -3.2908246440366273e-16
+    },
+    "0.000125": {
+      "baseline": -8.359198749863239e-17,
+      "fine_error": -8.372751277019308e-17
+    }
+  },
+  "interpretation": "This imposed fine-band velocity discrepancy produces a small broad-band velocity discrepancy while its fine-band size decreases in the tested interval. The original source of numerical error and the earlier frozen-curve sensitivity are not identified by this test.",
+  "scope": {
+    "grid": 32,
+    "breathing": "off",
+    "interval": [
+      1.2,
+      1.22
+    ],
+    "perturbation_seeds": 1,
+    "amplitudes": 2,
+    "full_coupling": true,
+    "new_external_input": false,
+    "spatial_trajectory_refinement": false,
+    "independent_time_integrator": false
+  }
+}

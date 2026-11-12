@@ -1,0 +1,10 @@
+{
+  "dt": 0.000125,
+  "time": 1.22,
+  "completed": 160,
+  "total": 160,
+  "arms": 2,
+  "elapsed_seconds": 336.2029999999995,
+  "broad_difference": 4.124655000767898e-12,
+  "fine_difference": 1.341646253528561e-07
+}

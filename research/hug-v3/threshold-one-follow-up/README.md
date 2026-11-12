@@ -44,6 +44,12 @@ A change in the nearest point can occur between different portions of a connecte
 
 The recorded measurement traces only 0.75 cube lengths forward from A. It includes an eligible trace endpoint among its candidates, and the third late exchange starts at arclength zero. Establishing how the observed exchanges depend on the start and finite window requires additional measurements, such as extending the trace in both directions while retaining the same A and B. The current records do not establish a closed circulation loop or settle which apparent gap carries the proposed significance.
 
+## Continue from tick 41
+
+The later [breathing-off radial scan](../tick-41-radial-return/README.md) measures return miss along an axis-to-B12 line in saved 16³, 24³ and 32³ fields. It keeps model time fixed at 1.2 and varies the curve's starting point.
+
+The [fine-to-broad continuation](../tick-41-wave-transfer/README.md) then evolves two copies of the saved 32³ post-write state to time 1.22. A fine-only initial velocity difference produces a small broad difference while it decays. These later grid and step settings belong to their own tests; the original 16³ switch history above remains intact. [Follow the complete reading path](../../../docs/tick-41/README.md#from-a-fixed-field-to-an-evolving-field)
+
 ## What Lean has checked
 
 **No Lean theorem checks this threshold-1 trajectory or its closest-point exchanges.** This directory publishes numerical observations, their configuration and saved verification records. The configuration differences, source fingerprints, CSV counts and agreement of the recorded refinement brackets were checked before publication. No new simulation was run for this documentation update. [File provenance and hashes](provenance.json)

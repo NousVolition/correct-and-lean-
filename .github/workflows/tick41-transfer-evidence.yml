@@ -1,0 +1,44 @@
+name: Tick-41 transfer evidence
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/hug-v3/tick-41-wave-transfer/**'
+      - 'research/hug-v3/tick-41-radial-return/**'
+      - '.github/workflows/tick41-transfer-evidence.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'research/hug-v3/tick-41-wave-transfer/**'
+      - 'research/hug-v3/tick-41-radial-return/**'
+      - '.github/workflows/tick41-transfer-evidence.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  evidence:
+    name: Recount evidence and replay the first paired step
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Install the measured runtime dependencies
+        run: |
+          python3 -m venv "$RUNNER_TEMP/tick41-check"
+          "$RUNNER_TEMP/tick41-check/bin/python" -m pip install numpy==2.3.5 scipy==1.16.3
+      - name: Check public paths and frozen-field records
+        run: |
+          python3 -B scripts/check_public_paths.py
+          python3 -B research/hug-v3/tick-41-radial-return/verify_records.py
+      - name: Verify the continuation inputs, records and first paired step
+        run: |
+          "$RUNNER_TEMP/tick41-check/bin/python" -B research/hug-v3/tick-41-wave-transfer/verify_package.py --output "$RUNNER_TEMP/tick41-public-verification.json"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: tick41-continuation-check-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/tick41-public-verification.json
+          if-no-files-found: error

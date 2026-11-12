@@ -1,0 +1,14 @@
+prime,model_time,old_marker_step,old_comparison_step,comparison_step,event_ending,event_starting,read_sides,original_marker_rows_per_arm
+2,0.000,0,0,0,,0,at,801
+3,0.100,32,25,50,,,at,801
+5,0.200,64,50,100,,1,at,801
+7,0.300,96,75,150,,,at,801
+11,0.400,128,100,200,0,,before_write|after_write,1602
+13,0.500,160,125,250,,,at,801
+17,0.600,192,150,300,,,at,801
+19,0.700,224,175,350,,,at,801
+23,0.800,256,200,400,1,2,before_write|after_write,1602
+29,0.900,288,225,450,,,at,801
+31,1.000,320,250,500,,,at,801
+37,1.100,352,275,550,,,at,801
+41,1.200,384,300,600,2,,before_write|after_write,1602

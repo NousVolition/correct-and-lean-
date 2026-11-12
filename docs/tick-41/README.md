@@ -37,6 +37,7 @@ At tick 41, tracing farther along a curve uses the field at that fixed model tim
 | **Finite-window A/B gap** | The minimum periodic distance from the traced segment through A to the specified particle B. |
 | **Closest location** | Where along that segment a minimizing point lies. Two competing locations can exchange which one is selected. |
 | **Return miss** | The distance from a starting point to where its own prescribed lap ends. The lap rule and distance convention must accompany a numerical value. |
+| **Velocity-band difference** | The RMS difference in a specified set of Fourier modes between paired evolving fields. |
 | **Curve-to-curve minimum** | A minimum using points on both curves; both traced extents must be specified. |
 
 The published fluid-grid studies measure a finite-window A/B gap. Its nearest distance and its selected closest location are separate observables. A reading at a later checkpoint, a curve's return toward its seed and the penne illustration's return are different operations.
@@ -67,6 +68,16 @@ Then ask how that observation responds to a change in numerical resolution or a 
 The first two rows use the threshold-0.015 study's 51 saved times spaced by 0.002. The every-step follow-up uses 201 times spaced by 0.0005 and preserves the original common-time readings. Neither schedule bounds every intervening time. The full-history time-control output does not include the newly exposed extrema. The final row belongs to the separate threshold-1 comparison. [Recount, direct checks and Pair 6 timing](../../research/tick-35-41-audit/README.md)
 
 [Finer-grid results](../../research/hug-v3/finer-grid-study/README.md) · [Earlier six-run results](../../research/hug-v3/fluid-grid-study/RESULTS.md) · [Threshold-1 breathing control](../../research/hug-v3/threshold-one-follow-up/README.md#completed-breathing-off-control)
+
+## From a fixed field to an evolving field
+
+The next path keeps **threshold 1** and the **post-write side of tick 41** visible:
+
+1. **Move the starting point through one fixed field.** The breathing-off radial scan runs from the local transverse axis to B12 on each of 16³, 24³ and 32³. The miss rises inside B's ring and falls toward B. The narrow 32³ band near radius 0.090619 is sensitive; seven detailed values remain unresolved at the declared agreement tolerances. [Profiles, all 2,062 rows and checks](../../research/hug-v3/tick-41-radial-return/README.md)
+2. **Evolve two copies of the same saved state.** In the 32³ continuation, only one copy receives a fine-band velocity perturbation. From time 1.2 to 1.22, its fine difference falls 75.97% while a small broad difference develops. Full coupling stays active. [Measured result and reproducible test](../../research/hug-v3/tick-41-wave-transfer/README.md)
+3. **Keep the remaining connection explicit.** The first scan measures geometric sensitivity; the second measures transmission between velocity scales. Whether the measured broad difference changes the large return misses is still untested.
+
+The earlier threshold-0.015 finer-grid readings end at the before-write sample. This threshold-1 test begins after the write and has its own paired baseline. It does not attribute its difference to the write: both copies already contain the same three records and warmth at the start.
 
 ## Keep the coupled history in view
 
@@ -108,7 +119,6 @@ At this stage, the flow of the work is:
 
 A connected illustration motivates a measurement. A measurement supplies a particular record. A proof establishes its stated mathematical claim. The connection between those forms of evidence remains part of the research.
 
-The public records support the results described here. This guide reorganizes their presentation; it adds no simulation, new return-miss measurement or proof run. [Proof status](../../PROOF-STATUS.md) · [Study index](../../hug-sims-proof-index.md)
+The public records support the results described here. The linked study packages retain the measurements and checks; this guide supplies their reading order. [Proof status](../../PROOF-STATUS.md) · [Study index](../../hug-sims-proof-index.md)
 
 **AI-generated; dictated and directed by NousVolition.**
-

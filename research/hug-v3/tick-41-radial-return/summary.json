@@ -1,0 +1,194 @@
+{
+  "16": {
+    "grid": 16,
+    "axis": [
+      -0.016277654744880334,
+      -0.002091649634992804,
+      0.00373339651226335
+    ],
+    "B": [
+      -0.016277654744880334,
+      -0.2043520195634693,
+      0.07580751639396238
+    ],
+    "B_distance": 0.21471827123075873,
+    "sampled_positive_seeds": 602,
+    "initial_1p5_nonreturns": 0,
+    "final_nonreturns": 0,
+    "unresolved_checks": 0,
+    "first_miss_above_0p001_distance_bracket": [
+      0.07553931368250082,
+      0.07556552440896941
+    ],
+    "strongest_sampled_rise_bracket": [
+      0.08217062747905624,
+      0.08219683820552483
+    ],
+    "largest_observed_miss": 0.010447352706525963,
+    "largest_observed_miss_distance": 0.08523728247588225,
+    "largest_observed_miss_status": "first return measured",
+    "largest_checked_miss": 0.010447352706525963,
+    "largest_checked_miss_distance": 0.08523728247588225,
+    "B_return_miss": 0.0004857526343561097,
+    "stages": [
+      {
+        "tag": "coarse",
+        "positive": 128,
+        "returned": 128,
+        "maximum": 0.010434537431701781
+      },
+      {
+        "tag": "fine",
+        "positive": 384,
+        "returned": 384,
+        "maximum": 0.010445302554881996
+      },
+      {
+        "tag": "refined",
+        "positive": 90,
+        "returned": 90,
+        "maximum": 0.010447352706525963
+      },
+      {
+        "tag": "verification",
+        "positive": 24,
+        "returned": 24,
+        "maximum": 0.010447352706525963
+      }
+    ]
+  },
+  "24": {
+    "grid": 24,
+    "axis": [
+      -0.016545912323037388,
+      0.0005450701387394744,
+      -0.0031691657886939377
+    ],
+    "B": [
+      -0.016545912323037388,
+      -0.20435683238558616,
+      0.07579750160807949
+    ],
+    "B_distance": 0.21959172165143404,
+    "sampled_positive_seeds": 602,
+    "initial_1p5_nonreturns": 0,
+    "final_nonreturns": 0,
+    "unresolved_checks": 0,
+    "first_miss_above_0p001_distance_bracket": [
+      0.07612798943970614,
+      0.07615479506979055
+    ],
+    "strongest_sampled_rise_bracket": [
+      0.08947719322173911,
+      0.08950399885182352
+    ],
+    "largest_observed_miss": 0.019601652791595307,
+    "largest_observed_miss_distance": 0.1321517563161096,
+    "largest_observed_miss_status": "first return measured",
+    "largest_checked_miss": 0.019601652791595307,
+    "largest_checked_miss_distance": 0.1321517563161096,
+    "B_return_miss": 0.0005492731817909974,
+    "stages": [
+      {
+        "tag": "coarse",
+        "positive": 128,
+        "returned": 128,
+        "maximum": 0.019601250522803856
+      },
+      {
+        "tag": "fine",
+        "positive": 384,
+        "returned": 384,
+        "maximum": 0.019572137187668398
+      },
+      {
+        "tag": "refined",
+        "positive": 90,
+        "returned": 90,
+        "maximum": 0.019601652791595307
+      },
+      {
+        "tag": "verification",
+        "positive": 25,
+        "returned": 25,
+        "maximum": 0.019601652791595307
+      }
+    ]
+  },
+  "32": {
+    "grid": 32,
+    "axis": [
+      -0.016677265658669567,
+      0.00042713984564094295,
+      -0.0021331225284901647
+    ],
+    "B": [
+      -0.016677265658669567,
+      -0.20434097902533063,
+      0.0757867785879993
+    ],
+    "B_distance": 0.21909243139816548,
+    "sampled_positive_seeds": 855,
+    "initial_1p5_nonreturns": 7,
+    "final_nonreturns": 0,
+    "unresolved_checks": 7,
+    "first_miss_above_0p001_distance_bracket": [
+      0.08306898094759546,
+      0.08309572562916262
+    ],
+    "strongest_sampled_rise_bracket": [
+      0.0906189209768745,
+      0.09061912991969925
+    ],
+    "largest_observed_miss": 0.19052211891247656,
+    "largest_observed_miss_distance": 0.0906189732125807,
+    "largest_observed_miss_status": "unresolved between integrators",
+    "largest_checked_miss": 0.18882235906418363,
+    "largest_checked_miss_distance": 0.09061896668311742,
+    "B_return_miss": 0.0004862289137026505,
+    "stages": [
+      {
+        "tag": "coarse",
+        "positive": 128,
+        "returned": 128,
+        "maximum": 0.028416010504287933
+      },
+      {
+        "tag": "fine",
+        "positive": 384,
+        "returned": 384,
+        "maximum": 0.02841857706685603
+      },
+      {
+        "tag": "refined",
+        "positive": 90,
+        "returned": 90,
+        "maximum": 0.03057007956022917
+      },
+      {
+        "tag": "spike",
+        "positive": 127,
+        "returned": 127,
+        "maximum": 0.04790207912998184
+      },
+      {
+        "tag": "spike-fine",
+        "positive": 126,
+        "returned": 119,
+        "maximum": 0.18882242790964893
+      },
+      {
+        "tag": "verification",
+        "positive": 29,
+        "returned": 29,
+        "maximum": 0.04790207912998184
+      },
+      {
+        "tag": "critical-extended",
+        "positive": 16,
+        "returned": 16,
+        "maximum": 0.19052211891247656
+      }
+    ]
+  }
+}
