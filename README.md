@@ -1,6 +1,6 @@
 # Hug and SIMS: follow the connection to tick 41
 
-**The question:** how can a record persist while its carrier, surroundings, relationships, and later use change?
+**The question:** how can a record persist while its carrier, surroundings, relationships, and later use change? What can an observer tell from a limited view?
 
 This collection develops that question through numerical studies, language-model encounters, and Lean proofs. It is also called **Correct and Lean**. Each result keeps its own assumptions and limits.
 
@@ -8,10 +8,12 @@ This collection develops that question through numerical studies, language-model
 
 ## A short reading route
 
-1. **See the idea.** The [penne illustrations](docs/penne-leapfrog/README.md) follow a continuing path through moving windows. They introduce the viewing question; they are illustrations. The supplied Claude credit is retained.
+1. **Start with the question.** Keep two questions in view: what persists, and what can this particular observation tell us about it?
 2. **Look at one recorded example.** In [Pair 25's wider observation window](research/hug-v3/pair-origin-study/README.md), the endpoint count is 364, while observer 540 leaves and 872 arrives. The same count can hide changed membership. [Follow 540 and 872 individually](research/hug-v3/observer-follow-study/README.md) to see what stays nearby and what changes. These are recorded simulation observations, with their settings and limits attached.
-3. **Read the exact mathematical claims.** The [observation package](research/ambiguous-observation-lean/README.md) starts with a table connecting each observation to the property it cannot determine. Its Tick 41 and Pair 25 proofs concern supplied summaries and numbers; Lean does not establish the simulations or their transcription.
-4. **Follow the wider investigation.** The [tick-41 guide](docs/tick-41/README.md) walks through identity, viewing window, checkpoint, and history. In the fluid studies tick 41 labels model time 1.2; the restaurant encounter has its own clock.
+3. **Use the illustration to understand the viewing limit.** The penne pasta gives a continuing path a visible form. In the open-path scene, the pasta stays still while two overlapping viewing windows advance. Start from the marked piece and notice how the path continues beyond the visible window. Then [view the penne illustrations](docs/penne-leapfrog/README.md). They illustrate the viewing question. The supplied Claude credit is retained.
+4. **Read the exact mathematical claims.** The [observation package](research/ambiguous-observation-lean/README.md) starts with a table connecting each observation to the property it cannot determine. Its Tick 41 and Pair 25 proofs concern supplied summaries and numbers; Lean does not establish the simulations or their transcription.
+
+For wider context, the [tick-41 guide](docs/tick-41/README.md) walks through identity, viewing window, checkpoint, and history. In the fluid studies tick 41 labels model time 1.2; the restaurant encounter has its own clock.
 
 ## Follow 540 out and 872 in
 
