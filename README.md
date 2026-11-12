@@ -9,9 +9,21 @@ This collection develops that question through numerical studies, language-model
 ## A short reading route
 
 1. **See the idea.** The [penne illustrations](docs/penne-leapfrog/README.md) follow a continuing path through moving windows. They introduce the viewing question; they are illustrations. The supplied Claude credit is retained.
-2. **Look at one recorded example.** In [Pair 25's wider observation window](research/hug-v3/pair-origin-study/README.md), the endpoint count is 364, while observer 540 leaves and 872 arrives. The same count can hide changed membership. These are recorded simulation observations, with their settings and limits attached.
+2. **Look at one recorded example.** In [Pair 25's wider observation window](research/hug-v3/pair-origin-study/README.md), the endpoint count is 364, while observer 540 leaves and 872 arrives. The same count can hide changed membership. [Follow 540 and 872 individually](research/hug-v3/observer-follow-study/README.md) to see what stays nearby and what changes. These are recorded simulation observations, with their settings and limits attached.
 3. **Read the exact mathematical claims.** The [observation package](research/ambiguous-observation-lean/README.md) starts with a table connecting each observation to the property it cannot determine. Its Tick 41 and Pair 25 proofs concern supplied summaries and numbers; Lean does not establish the simulations or their transcription.
 4. **Follow the wider investigation.** The [tick-41 guide](docs/tick-41/README.md) walks through identity, viewing window, checkpoint, and history. In the fluid studies tick 41 labels model time 1.2; the restaurant encounter has its own clock.
+
+## Follow 540 out and 872 in
+
+![540 leaves the pair’s view and 872 enters; their nearby context changes.](research/hug-v3/observer-follow-study/following-540-872.png)
+
+**Simulation findings:** following the same after-write tick-41 state from **time 1.2 to 1.3**, each label keeps the same **eight nearby material labels** at every recorded step. In the finest run, **43.94%** of the context originally near 540 and **42.95%** of that originally near 872 remains nearby at the end; the rest is elsewhere in the basin as other context enters. Their radius-0.075 neighborhoods overlap and are views, not private cargo. Context C is not water mass. These remain the historical **threshold-0.015, breathing-on** runs. The smaller time step closely agrees, while origin shares and crossing times still differ by grid.
+
+**Lean findings:** **134 finite checks pass** for rules, recorded neighbor and crossing histories, context accounts, material-field numbers and shared-record bytes. The GitHub recheck matches the exact proof inputs and targets. It does not prove the fluid simulation, physical ownership or complete retention.
+
+**Still unknown: does everything stay with 540 and 872?** Neither has a complete private inventory in this model. A viewing boundary does not establish a break in the continuing connection or a handoff between them.
+
+[Results, crossings and limits](research/hug-v3/observer-follow-study/README.md) · [134 Lean checks](research/hug-v3/observer-follow-lean/README.md) · [GitHub proof receipt](research/hug-v3/observer-follow-study/github-lean-receipt.json)
 
 ## Keep these two examples separate
 

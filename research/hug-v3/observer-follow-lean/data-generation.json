@@ -1,0 +1,12 @@
+{
+  "decimal_places": 32,
+  "target_count": 134,
+  "neighbor_histories": 7854,
+  "observer_ids": [
+    540,
+    872
+  ],
+  "primary_individual_radius": 0.075,
+  "original_pair_crossing_radius": 0.1,
+  "scope": "Exact recorded finite histories, shared bytes and signed decimal origin accounts. No fluid evolution, interpolation, physical ownership or complete inventory proof."
+}

@@ -1,0 +1,19 @@
+{
+  "inspected": true,
+  "reviewed_utc": "2026-11-12T07:00:56.384101+00:00",
+  "diagram_sha256": "74d765ccda302b4dbd61ea802d1d4fffffa0b5aeaaffb259f00cd45e88bcfe75",
+  "format": "PNG visually inspected; equivalent SVG and PDF exported by the same renderer",
+  "checks": [
+    "Axis meanings and separate radius conventions visible",
+    "Crossing brackets and grid/time-step traces shown",
+    "End-of-interval percentages explicitly labeled time 1.3",
+    "Original-near / other-initial / later-source colors match numeric records",
+    "Overlap, context-versus-mass, grid limit and Lean scope visible",
+    "Labels do not obscure data or each other",
+    "AI-generated, dictated and directed attribution present"
+  ],
+  "adjustments": [
+    "Moved crossing-edge annotation clear of the 872 trace",
+    "Raised origin-panel limit and shortened crossing guide to avoid label overlap"
+  ]
+}
