@@ -1,0 +1,512 @@
+{
+  "publication_date_local": "2026-11-11",
+  "source_study_completed_utc": "2026-11-12T02:32:09.896966+00:00",
+  "scope": "Publication of completed numerical measurements; no fluid or Lean rerun. Large raw fields remain local.",
+  "attribution": "AI-generated; dictated and directed by NousVolition.",
+  "files": [
+    {
+      "published_path": "finer-grids.png",
+      "source": "outputs/fluid-finer-grid/finer-grids.png",
+      "original_sha256": "32a931763ee9c13b01129ff6bb76aaac9683515d68f108b7380a9521e141bef1",
+      "public_sha256": "32a931763ee9c13b01129ff6bb76aaac9683515d68f108b7380a9521e141bef1",
+      "transformation": "none"
+    },
+    {
+      "published_path": "finer-grids.svg",
+      "source": "outputs/fluid-finer-grid/finer-grids.svg",
+      "original_sha256": "5b6dec2351d4702e3f47f74c5849ba7b0be9ef2f74239df1e170ae7a563de3af",
+      "public_sha256": "5b6dec2351d4702e3f47f74c5849ba7b0be9ef2f74239df1e170ae7a563de3af",
+      "transformation": "none"
+    },
+    {
+      "published_path": "same-pair-meter.png",
+      "source": "outputs/fluid-finer-grid/same-pair-meter.png",
+      "original_sha256": "3aed021e64d2608ae29655e268c1db41db9d1a8558950f4c072b4e28fcd79169",
+      "public_sha256": "3aed021e64d2608ae29655e268c1db41db9d1a8558950f4c072b4e28fcd79169",
+      "transformation": "none"
+    },
+    {
+      "published_path": "same-pair-meter.svg",
+      "source": "outputs/fluid-finer-grid/same-pair-meter.svg",
+      "original_sha256": "528e3b4b11f818dfc4718e61e701efbc968b4582be8d52b1dda2d9fbcce3cacd",
+      "public_sha256": "528e3b4b11f818dfc4718e61e701efbc968b4582be8d52b1dda2d9fbcce3cacd",
+      "transformation": "none"
+    },
+    {
+      "published_path": "analysis-summary.json",
+      "source": "outputs/fluid-finer-grid/analysis-summary.json",
+      "original_sha256": "22e08cc3166f015978529a8d3bb678dd798ab28d90e79ac6883bb217a680506d",
+      "public_sha256": "22e08cc3166f015978529a8d3bb678dd798ab28d90e79ac6883bb217a680506d",
+      "transformation": "none"
+    },
+    {
+      "published_path": "completion.json",
+      "source": "outputs/fluid-finer-grid/completion.json",
+      "original_sha256": "6092ee339cceadfdfa2886b0e08c0129bd1a1180c1541ad97db9a79ef65cc392",
+      "public_sha256": "6092ee339cceadfdfa2886b0e08c0129bd1a1180c1541ad97db9a79ef65cc392",
+      "transformation": "none"
+    },
+    {
+      "published_path": "gap-comparisons.csv",
+      "source": "outputs/fluid-finer-grid/gap-comparisons.csv",
+      "original_sha256": "ca7be7e1eaf4d4ab615c9674ae494a4c792d70d0df26d4baa4f403397338267b",
+      "public_sha256": "ca7be7e1eaf4d4ab615c9674ae494a4c792d70d0df26d4baa4f403397338267b",
+      "transformation": "none"
+    },
+    {
+      "published_path": "per-pair-comparisons.csv",
+      "source": "outputs/fluid-finer-grid/per-pair-comparisons.csv",
+      "original_sha256": "8d3186557d34eb317ebe136aa9266bb8e1c7ec49dbf383cea10dd8e8e4dad265",
+      "public_sha256": "8d3186557d34eb317ebe136aa9266bb8e1c7ec49dbf383cea10dd8e8e4dad265",
+      "transformation": "none"
+    },
+    {
+      "published_path": "window-comparisons.csv",
+      "source": "outputs/fluid-finer-grid/window-comparisons.csv",
+      "original_sha256": "0ddc246c0a02ae393f29a8f1078d42c472fae82fa54f5c6d054f7394ce592a20",
+      "public_sha256": "0ddc246c0a02ae393f29a8f1078d42c472fae82fa54f5c6d054f7394ce592a20",
+      "transformation": "none"
+    },
+    {
+      "published_path": "field-comparisons.csv",
+      "source": "outputs/fluid-finer-grid/field-comparisons.csv",
+      "original_sha256": "ca68ff958f540f3c3793ff10377ab2f159cf73fe80a8a34bd1f59f2bce4a9836",
+      "public_sha256": "ca68ff958f540f3c3793ff10377ab2f159cf73fe80a8a34bd1f59f2bce4a9836",
+      "transformation": "none"
+    },
+    {
+      "published_path": "diagnostics-summary.csv",
+      "source": "outputs/fluid-finer-grid/diagnostics-summary.csv",
+      "original_sha256": "8f4cbbf34d1495813ba6019a11039de607890efcecceeb6b8cfe70d3a642e03b",
+      "public_sha256": "8f4cbbf34d1495813ba6019a11039de607890efcecceeb6b8cfe70d3a642e03b",
+      "transformation": "none"
+    },
+    {
+      "published_path": "tracing-comparisons.csv",
+      "source": "outputs/fluid-finer-grid/tracing-comparisons.csv",
+      "original_sha256": "3b50bb717c98c31e83b24833c458cad6fdfc3f0b6f06e181b6f856effb4f3ea1",
+      "public_sha256": "3b50bb717c98c31e83b24833c458cad6fdfc3f0b6f06e181b6f856effb4f3ea1",
+      "transformation": "none"
+    },
+    {
+      "published_path": "direct-checks.csv",
+      "source": "outputs/fluid-finer-grid/direct-checks.csv",
+      "original_sha256": "96ff0668333e3aee3dd3e014ff2d78843386ae0c04b45dc605433aded9dae638",
+      "public_sha256": "96ff0668333e3aee3dd3e014ff2d78843386ae0c04b45dc605433aded9dae638",
+      "transformation": "none"
+    },
+    {
+      "published_path": "boundary-minima.csv",
+      "source": "outputs/fluid-finer-grid/boundary-minima.csv",
+      "original_sha256": "8cb0efe91d30a4a402dc014ad5b7f93ddd14dcf9e041a421b6b979f5df811eca",
+      "public_sha256": "8cb0efe91d30a4a402dc014ad5b7f93ddd14dcf9e041a421b6b979f5df811eca",
+      "transformation": "none"
+    },
+    {
+      "published_path": "prime-meter.csv",
+      "source": "outputs/fluid-finer-grid/prime-meter.csv",
+      "original_sha256": "fc308fd7c6888c15c0980d672e13a97c5616efbb44206f160911ca95f5891049",
+      "public_sha256": "fc308fd7c6888c15c0980d672e13a97c5616efbb44206f160911ca95f5891049",
+      "transformation": "none"
+    },
+    {
+      "published_path": "same-pair-local-meter.csv",
+      "source": "outputs/fluid-finer-grid/same-pair-local-meter.csv",
+      "original_sha256": "f4a6dadd69c0eac0eef9830a3aa3707ecd9a108a76a2c33833c06d52c1495533",
+      "public_sha256": "f4a6dadd69c0eac0eef9830a3aa3707ecd9a108a76a2c33833c06d52c1495533",
+      "transformation": "none"
+    },
+    {
+      "published_path": "meter-grid-comparisons.csv",
+      "source": "outputs/fluid-finer-grid/meter-grid-comparisons.csv",
+      "original_sha256": "c324116e1d1baf12b31191fbff0c88a52f4b0486dbe4e4807cb5836715f72872",
+      "public_sha256": "c324116e1d1baf12b31191fbff0c88a52f4b0486dbe4e4807cb5836715f72872",
+      "transformation": "none"
+    },
+    {
+      "published_path": "gap-change-focus-meter.csv",
+      "source": "outputs/fluid-finer-grid/gap-change-focus-meter.csv",
+      "original_sha256": "56264107e2e36e0394f81740b353942f6838377adfeeb09ee26d4fd63e7228c6",
+      "public_sha256": "56264107e2e36e0394f81740b353942f6838377adfeeb09ee26d4fd63e7228c6",
+      "transformation": "none"
+    },
+    {
+      "published_path": "meter-checks.json",
+      "source": "outputs/fluid-finer-grid/meter-checks.json",
+      "original_sha256": "62c24dede0e4aaace608d3028aba4b36094b43e2161619d328cf4a14c0cd8bdf",
+      "public_sha256": "62c24dede0e4aaace608d3028aba4b36094b43e2161619d328cf4a14c0cd8bdf",
+      "transformation": "none"
+    },
+    {
+      "published_path": "write-code-audit.json",
+      "source": "outputs/fluid-finer-grid/write-code-audit.json",
+      "original_sha256": "a12a6a1887947a1f22a9248aaf0aa782cf1176a16e5a6b7c2121d657e65f36d0",
+      "public_sha256": "a12a6a1887947a1f22a9248aaf0aa782cf1176a16e5a6b7c2121d657e65f36d0",
+      "transformation": "none"
+    },
+    {
+      "published_path": "write-code-comparisons.csv",
+      "source": "outputs/fluid-finer-grid/write-code-comparisons.csv",
+      "original_sha256": "47c9992de34c31d79ef2f25e50fb98e57b1c292e8f2823411552977f8e7e771f",
+      "public_sha256": "47c9992de34c31d79ef2f25e50fb98e57b1c292e8f2823411552977f8e7e771f",
+      "transformation": "none"
+    },
+    {
+      "published_path": "independent-recount.json",
+      "source": "outputs/fluid-finer-grid/independent-recount.json",
+      "original_sha256": "fe4340a80788465d381d02066e9af8942fa67f1c37e20bbefe0b6f4572f7a4c6",
+      "public_sha256": "fe4340a80788465d381d02066e9af8942fa67f1c37e20bbefe0b6f4572f7a4c6",
+      "transformation": "none"
+    },
+    {
+      "published_path": "analysis-inputs.json",
+      "source": "outputs/fluid-finer-grid/analysis-inputs.json",
+      "original_sha256": "77ae78b4f845cc25d1d3cedb31332479a9d0aef856a7828ef3e159dbdd2b6a81",
+      "public_sha256": "77ae78b4f845cc25d1d3cedb31332479a9d0aef856a7828ef3e159dbdd2b6a81",
+      "transformation": "none"
+    },
+    {
+      "published_path": "observer-labels.json",
+      "source": "outputs/fluid-finer-grid/observer-labels.json",
+      "original_sha256": "b727e7a298cd7d61c9be4c716eab4bc84cb5f3c97678ef270306c90e99dccd78",
+      "public_sha256": "b727e7a298cd7d61c9be4c716eab4bc84cb5f3c97678ef270306c90e99dccd78",
+      "transformation": "none"
+    },
+    {
+      "published_path": "local-output-inventory.json",
+      "source": "outputs/fluid-finer-grid/OUTPUT-SHA256.json",
+      "original_sha256": "e5e8e61b7e3c7fff5e7229f0010b6b1be0d9729d93c5a441db2c8abfdd8727d2",
+      "public_sha256": "e5e8e61b7e3c7fff5e7229f0010b6b1be0d9729d93c5a441db2c8abfdd8727d2",
+      "transformation": "none"
+    },
+    {
+      "published_path": "experiment-plan.md",
+      "source": "work/fluid-finer-grid/PLAN.md",
+      "original_sha256": "07de143b0dcd05668c55bcfd333470555b13c44ccec67157646c500f714bffaf",
+      "public_sha256": "07de143b0dcd05668c55bcfd333470555b13c44ccec67157646c500f714bffaf",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/summary.json",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/summary.json",
+      "original_sha256": "db2f6e572e69527dd79e8d932de6133e584ee8129e44d18936c82ac282da8715",
+      "public_sha256": "db2f6e572e69527dd79e8d932de6133e584ee8129e44d18936c82ac282da8715",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/diagnostics.json",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/diagnostics.json",
+      "original_sha256": "1d1cd1e41271e54c115587f7e837fa46874cf7f97cc5ff9c190b14bbed687216",
+      "public_sha256": "1d1cd1e41271e54c115587f7e837fa46874cf7f97cc5ff9c190b14bbed687216",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/events.json",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/events.json",
+      "original_sha256": "1e3c75a976a7727e3f1409bab168150f7eac675ecc35c8edc11b420283b177f9",
+      "public_sha256": "1e3c75a976a7727e3f1409bab168150f7eac675ecc35c8edc11b420283b177f9",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/gaps-primary.csv",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/gaps_grid192_ds1024.csv",
+      "original_sha256": "ad43494aa09d76f13e9e2d667fdbc89738d0e2c055476ad02e2511101d991a97",
+      "public_sha256": "ad43494aa09d76f13e9e2d667fdbc89738d0e2c055476ad02e2511101d991a97",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/gaps-primary.json",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/gaps_grid192_ds1024.json",
+      "original_sha256": "71f0efad869392522d6a67f46e75266c667ed91f7d06e09bae97e72eb9be00ce",
+      "public_sha256": "71f0efad869392522d6a67f46e75266c667ed91f7d06e09bae97e72eb9be00ce",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/gaps-finer-trace.csv",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/gaps_grid256_ds2048.csv",
+      "original_sha256": "a37b40be15f50cf4eefdab61ecba6ca4d8d3408b83eee8d6c0623e2c828bfffd",
+      "public_sha256": "a37b40be15f50cf4eefdab61ecba6ca4d8d3408b83eee8d6c0623e2c828bfffd",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n24_dt0p0005/gaps-finer-trace.json",
+      "source": "outputs/fluid-convergence/n24_dt0p0005/gaps_grid256_ds2048.json",
+      "original_sha256": "2662885ce471ff35c157c13bddcaf528941c409765a63072c63038e789e24dbf",
+      "public_sha256": "2662885ce471ff35c157c13bddcaf528941c409765a63072c63038e789e24dbf",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/summary.json",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/summary.json",
+      "original_sha256": "6e4cb2c7c192143433197e453765d9af94137f91cb63c434c897c598e8f3a871",
+      "public_sha256": "6e4cb2c7c192143433197e453765d9af94137f91cb63c434c897c598e8f3a871",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/diagnostics.json",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/diagnostics.json",
+      "original_sha256": "89dbd7f82378eed1b2f80bc65a08ce41156b3840f3a4460b1f6843e893db44e3",
+      "public_sha256": "89dbd7f82378eed1b2f80bc65a08ce41156b3840f3a4460b1f6843e893db44e3",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/events.json",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/events.json",
+      "original_sha256": "8d17ff3752a97a9b7581b0b19fc9d063cdfc3341a9746bb9015ad74de4254252",
+      "public_sha256": "8d17ff3752a97a9b7581b0b19fc9d063cdfc3341a9746bb9015ad74de4254252",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/gaps-primary.csv",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/gaps_grid192_ds1024.csv",
+      "original_sha256": "15491f116b26b8f08b1faf44f2ab08c91f7ac57d021c13f9fad57a03d7253e56",
+      "public_sha256": "15491f116b26b8f08b1faf44f2ab08c91f7ac57d021c13f9fad57a03d7253e56",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/gaps-primary.json",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/gaps_grid192_ds1024.json",
+      "original_sha256": "5d789b7c0e0ceffc64053a6f8449d895f9c1491f7558c97d9f5d97873cac1324",
+      "public_sha256": "5d789b7c0e0ceffc64053a6f8449d895f9c1491f7558c97d9f5d97873cac1324",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/gaps-finer-trace.csv",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/gaps_grid256_ds2048.csv",
+      "original_sha256": "96e7efe9861fc2901d356b8b5e7e28d53a63c3afec5342fe92d147656e0fca67",
+      "public_sha256": "96e7efe9861fc2901d356b8b5e7e28d53a63c3afec5342fe92d147656e0fca67",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n32_dt0p0005/gaps-finer-trace.json",
+      "source": "outputs/fluid-convergence/n32_dt0p0005/gaps_grid256_ds2048.json",
+      "original_sha256": "d8f8e96f3f524d3b9b93e49d4f78dbd97d9eb3b1207a061e0ddefb340ef8c3a9",
+      "public_sha256": "d8f8e96f3f524d3b9b93e49d4f78dbd97d9eb3b1207a061e0ddefb340ef8c3a9",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n40_dt0p0005/summary.json",
+      "source": "outputs/fluid-finer-grid/n40_dt0p0005/summary.json",
+      "original_sha256": "a657b65642ed4b87983d7936d828827e2e8db605b464a1ad9c8ce3200863c854",
+      "public_sha256": "a657b65642ed4b87983d7936d828827e2e8db605b464a1ad9c8ce3200863c854",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n40_dt0p0005/diagnostics.json",
+      "source": "outputs/fluid-finer-grid/n40_dt0p0005/diagnostics.json",
+      "original_sha256": "d6ebf0ababc3637b8ce3d73008fad3661afb2931401cb75908b12a16e14b555f",
+      "public_sha256": "d6ebf0ababc3637b8ce3d73008fad3661afb2931401cb75908b12a16e14b555f",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n40_dt0p0005/events.json",
+      "source": "outputs/fluid-finer-grid/n40_dt0p0005/events.json",
+      "original_sha256": "481aa592c5308c1a7c2c69e017103f213138af0d654f19c8809c8989987c641a",
+      "public_sha256": "481aa592c5308c1a7c2c69e017103f213138af0d654f19c8809c8989987c641a",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n40_dt0p0005/gaps-primary.csv",
+      "source": "outputs/fluid-finer-grid/n40_dt0p0005/gaps_grid192_ds1024.csv",
+      "original_sha256": "7e45e8c62adc1786873790eb3b94ad1735d7ac9b2bed1fa24cbe2b01df656324",
+      "public_sha256": "7e45e8c62adc1786873790eb3b94ad1735d7ac9b2bed1fa24cbe2b01df656324",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n40_dt0p0005/gaps-primary.json",
+      "source": "outputs/fluid-finer-grid/n40_dt0p0005/gaps_grid192_ds1024.json",
+      "original_sha256": "e64067908e24da48cd3462c487f06a4acc64c203ea01662e40bcefd143e4ea25",
+      "public_sha256": "e64067908e24da48cd3462c487f06a4acc64c203ea01662e40bcefd143e4ea25",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n40_dt0p0005/gaps-finer-trace.csv",
+      "source": "outputs/fluid-finer-grid/n40_dt0p0005/gaps_grid256_ds2048.csv",
+      "original_sha256": "cc40dfc41df2f42d0cff3e711d5f57178401c1e3924e145da1a28f19ee9286d2",
+      "public_sha256": "cc40dfc41df2f42d0cff3e711d5f57178401c1e3924e145da1a28f19ee9286d2",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n40_dt0p0005/gaps-finer-trace.json",
+      "source": "outputs/fluid-finer-grid/n40_dt0p0005/gaps_grid256_ds2048.json",
+      "original_sha256": "698d234eb00464bcf0c259394dbdcd3d3a5ffdbd37e1e1b172e127a4b58be18f",
+      "public_sha256": "698d234eb00464bcf0c259394dbdcd3d3a5ffdbd37e1e1b172e127a4b58be18f",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n40_dt0p0005/completed-status.json",
+      "source": "outputs/fluid-finer-grid/n40_dt0p0005/status.json",
+      "original_sha256": "b3614bca7496f7fdb292456fd5fd1f3ed8dad3e7439c2772ed997cfcc07381c2",
+      "public_sha256": "b3614bca7496f7fdb292456fd5fd1f3ed8dad3e7439c2772ed997cfcc07381c2",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p0005/summary.json",
+      "source": "outputs/fluid-finer-grid/n48_dt0p0005/summary.json",
+      "original_sha256": "22e4fb1b4ee8d7f37dabdf79ffb08b200c617d6f061384b6c73d40d66165f33a",
+      "public_sha256": "22e4fb1b4ee8d7f37dabdf79ffb08b200c617d6f061384b6c73d40d66165f33a",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p0005/diagnostics.json",
+      "source": "outputs/fluid-finer-grid/n48_dt0p0005/diagnostics.json",
+      "original_sha256": "0f443b286d20cea36089ae41131458b55d253700302ff2a8fdc03f8225f17044",
+      "public_sha256": "0f443b286d20cea36089ae41131458b55d253700302ff2a8fdc03f8225f17044",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p0005/events.json",
+      "source": "outputs/fluid-finer-grid/n48_dt0p0005/events.json",
+      "original_sha256": "cdf11853f7162eb9f00fb77bdc2212ab669ea7cfff474e12870b3f6afea70566",
+      "public_sha256": "cdf11853f7162eb9f00fb77bdc2212ab669ea7cfff474e12870b3f6afea70566",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p0005/gaps-primary.csv",
+      "source": "outputs/fluid-finer-grid/n48_dt0p0005/gaps_grid192_ds1024.csv",
+      "original_sha256": "514bdb94002051251e90181c6129e61fee30953fca9a9c1fffe08026fbd6b5f9",
+      "public_sha256": "514bdb94002051251e90181c6129e61fee30953fca9a9c1fffe08026fbd6b5f9",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p0005/gaps-primary.json",
+      "source": "outputs/fluid-finer-grid/n48_dt0p0005/gaps_grid192_ds1024.json",
+      "original_sha256": "d6d6b987b39f59095da89c29221968d4a16e90912801553ef92d75181babf07b",
+      "public_sha256": "d6d6b987b39f59095da89c29221968d4a16e90912801553ef92d75181babf07b",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p0005/gaps-finer-trace.csv",
+      "source": "outputs/fluid-finer-grid/n48_dt0p0005/gaps_grid256_ds2048.csv",
+      "original_sha256": "af56ed5738ed0031bb8ef416d4102ce1c333aeeb16765348d5ba3641ff2d9b01",
+      "public_sha256": "af56ed5738ed0031bb8ef416d4102ce1c333aeeb16765348d5ba3641ff2d9b01",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p0005/gaps-finer-trace.json",
+      "source": "outputs/fluid-finer-grid/n48_dt0p0005/gaps_grid256_ds2048.json",
+      "original_sha256": "c8136b2c8278ef6b319f2f1afeb2105fc83576877da65424b9f3349daa72828d",
+      "public_sha256": "c8136b2c8278ef6b319f2f1afeb2105fc83576877da65424b9f3349daa72828d",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p0005/completed-status.json",
+      "source": "outputs/fluid-finer-grid/n48_dt0p0005/status.json",
+      "original_sha256": "374ee10c200b740d6d5cbbfcd5e935f25b5df9ea547e2ebc1109df4076961cca",
+      "public_sha256": "374ee10c200b740d6d5cbbfcd5e935f25b5df9ea547e2ebc1109df4076961cca",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p00025/summary.json",
+      "source": "outputs/fluid-finer-grid/n48_dt0p00025/summary.json",
+      "original_sha256": "bf921fe206f6079ce3834ab6e7d497de714c590bad08bb893f0d68ce2ae25db2",
+      "public_sha256": "bf921fe206f6079ce3834ab6e7d497de714c590bad08bb893f0d68ce2ae25db2",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p00025/diagnostics.json",
+      "source": "outputs/fluid-finer-grid/n48_dt0p00025/diagnostics.json",
+      "original_sha256": "7df4412897a03755c5a2913c2d6c91ea446ee3509f3d2ea0264fd7c836cc3213",
+      "public_sha256": "7df4412897a03755c5a2913c2d6c91ea446ee3509f3d2ea0264fd7c836cc3213",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p00025/events.json",
+      "source": "outputs/fluid-finer-grid/n48_dt0p00025/events.json",
+      "original_sha256": "ece9be8ff4335f3c475aec68429d0667e7e5a5c84d0304c7b0133aac6aaab928",
+      "public_sha256": "ece9be8ff4335f3c475aec68429d0667e7e5a5c84d0304c7b0133aac6aaab928",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p00025/gaps-primary.csv",
+      "source": "outputs/fluid-finer-grid/n48_dt0p00025/gaps_grid192_ds1024.csv",
+      "original_sha256": "5b3db83dd8a955f1b6fd8169cf004c197ab22bbf8179c518aee9b7c4bd912e73",
+      "public_sha256": "5b3db83dd8a955f1b6fd8169cf004c197ab22bbf8179c518aee9b7c4bd912e73",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p00025/gaps-primary.json",
+      "source": "outputs/fluid-finer-grid/n48_dt0p00025/gaps_grid192_ds1024.json",
+      "original_sha256": "96280ed9893d1c48c4dd365a81a0877177f5569014ca4417e89ca9ec68517314",
+      "public_sha256": "96280ed9893d1c48c4dd365a81a0877177f5569014ca4417e89ca9ec68517314",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p00025/gaps-finer-trace.csv",
+      "source": "outputs/fluid-finer-grid/n48_dt0p00025/gaps_grid256_ds2048.csv",
+      "original_sha256": "9463cbd4c81710c48940e49e45e1d9fd529681350690675e89a1a8875cd33f3d",
+      "public_sha256": "9463cbd4c81710c48940e49e45e1d9fd529681350690675e89a1a8875cd33f3d",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p00025/gaps-finer-trace.json",
+      "source": "outputs/fluid-finer-grid/n48_dt0p00025/gaps_grid256_ds2048.json",
+      "original_sha256": "1c7c47d42fb323831b5d346f95aab5950107a0eb6f20ca54ff1ab588d380bf1d",
+      "public_sha256": "1c7c47d42fb323831b5d346f95aab5950107a0eb6f20ca54ff1ab588d380bf1d",
+      "transformation": "none"
+    },
+    {
+      "published_path": "runs/n48_dt0p00025/completed-status.json",
+      "source": "outputs/fluid-finer-grid/n48_dt0p00025/status.json",
+      "original_sha256": "d7269afd8f23f1012d3d92a563eede755ac556f3bbb6c6073e280110d27c2cdf",
+      "public_sha256": "d7269afd8f23f1012d3d92a563eede755ac556f3bbb6c6073e280110d27c2cdf",
+      "transformation": "none"
+    },
+    {
+      "published_path": "source/original/analyze_extension.py",
+      "source": "work/fluid-finer-grid/analyze_extension.py",
+      "original_sha256": "8f6804643030ad5526491e42463560bdbd714608d378eb6aa1d04345226373c3",
+      "public_sha256": "8f6804643030ad5526491e42463560bdbd714608d378eb6aa1d04345226373c3",
+      "transformation": "none"
+    },
+    {
+      "published_path": "source/original/meter_readouts.py",
+      "source": "work/fluid-finer-grid/meter_readouts.py",
+      "original_sha256": "3f7f926e9121077282c4cffd107483e897449ddf20442cf854c239802aad6c7b",
+      "public_sha256": "3f7f926e9121077282c4cffd107483e897449ddf20442cf854c239802aad6c7b",
+      "transformation": "none"
+    },
+    {
+      "published_path": "source/original/audit_write_codes.py",
+      "source": "work/fluid-finer-grid/audit_write_codes.py",
+      "original_sha256": "ec8f79cfed8deb551bc3edfe23dcb319b6551fb1911877edf82dc7c4cf174ab6",
+      "public_sha256": "ec8f79cfed8deb551bc3edfe23dcb319b6551fb1911877edf82dc7c4cf174ab6",
+      "transformation": "none"
+    },
+    {
+      "published_path": "source/original/run_extension.py",
+      "source": "work/fluid-finer-grid/run_extension.py",
+      "original_sha256": "88a561b1f551943bdf0d39ced04a664377c4f4fa7dbc2087a4e63e499886d81d",
+      "public_sha256": "88a561b1f551943bdf0d39ced04a664377c4f4fa7dbc2087a4e63e499886d81d",
+      "transformation": "none"
+    },
+    {
+      "published_path": "source/original/verify_extension.py",
+      "source": "work/fluid-finer-grid/verify_extension.py",
+      "original_sha256": "7e5339f1cd43fb824a0b451c51b4e7c1e39e9539c31420f4cc3123ea2bad9f1d",
+      "public_sha256": "7e5339f1cd43fb824a0b451c51b4e7c1e39e9539c31420f4cc3123ea2bad9f1d",
+      "transformation": "none"
+    },
+    {
+      "published_path": "source/plot_figures.py",
+      "source": "work/fluid-finer-grid/plot_extension.py",
+      "original_sha256": "b7f4d0c0d3c3c170ced0ec14dc8a07a2d22843c8ea8ebf58bee988a8fbf561a1",
+      "public_sha256": "6afc6a9894752e482397320836863c64e37cb7886c0c6fe76092a33aae89a9da",
+      "transformation": "Only publication paths/imports adapted; plotting and data selections unchanged."
+    },
+    {
+      "published_path": "meter-source-note.md",
+      "source": "outputs/fluid-finer-grid/meter-source-note.md",
+      "original_sha256": "18f2256d20dfc54d3524b1097e4cbb6ee7dee5677980ee2f057d4878b0830582",
+      "public_sha256": "477f465ca2dc59f6f0b5d31b726c2a72f1f9b0adf5761cfd58c21a8c5a670fb5",
+      "transformation": "Replace the local source path with its revision-specific repository link."
+    },
+    {
+      "published_path": "README.md",
+      "source": "outputs/fluid-finer-grid/README.md",
+      "original_sha256": "354680eb48d0ee5fc362ef8c633cd03196c030c350ee0dd2b1d1f1da7bcdbb2e",
+      "public_sha256": "1b98471702f30e2b1cdfdc7ace391daf0f28402bbe438af3e9e182d838a69fe3",
+      "transformation": "Repository links and publication/recount coverage updated; all measured results retained."
+    }
+  ]
+}
