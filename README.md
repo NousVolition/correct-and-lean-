@@ -10,7 +10,7 @@ The collection is also called **Correct and Lean**. Each result retains its own 
 
 A file ending in `Challenge.lean` states or collects the claims a solution must prove. The word `sorry` marks the space where a proof would go in that reference. To read the proof, look for `solution_module` in the package’s `comparator.json`. The automated checks reject proof placeholders in that module and its local imports, and check which axioms each listed theorem uses. [Read the challenges in everyday language](docs/comparator/README.md) · [Sources and credits](docs/comparator/CREDITS.md).
 
-[Browse the Hug and SIMS proof and study index](hug-sims-proof-index.md) for all 33 README guides, including the plain-language theorem reader.
+[Browse the Hug and SIMS proof and study index](hug-sims-proof-index.md) for all 34 README guides, including the plain-language theorem reader.
 
 ## Words used here
 
@@ -32,7 +32,7 @@ The **water particle B** in the separate Hug closest-point study is a tracked fl
 | How do SIMS memory and witness accounts affect Traveller B? | [SIMS memory, witness and cue replay studies](lean/sims-meeting-thread-lean/README.md) |
 | What changes in the Hug model at threshold 1? | [Hug threshold-1 trajectory and closest-point exchanges](research/hug-v3/threshold-one-follow-up/README.md) |
 | How do viewing windows affect a measured gap? | [Lean window rule and exact recorded-number checks](research/hug-v3/finite-window-lean/README.md) |
-| Do the 25-pair gaps survive fluid-grid and time-step refinement? | [Six-run numerical follow-up and diagram](research/hug-v3/fluid-grid-study/README.md) |
+| Do the 25-pair gaps survive fluid-grid and time-step refinement? | [Finer-grid results through tick 41 and diagrams](research/hug-v3/finer-grid-study/README.md) |
 | How were the matched-stretch fluid runs checked for convergence? | [Matched-stretch numerical study and convergence results](research/matched-stretch/final-matrix/README.md) |
 | What do the completed breathing, refinement and repetition controls change? | [Recounted results and corrected conclusions](research/review-updates/2026-11-11/README.md) |
 
@@ -90,11 +90,13 @@ The window rule is a short proof. The practice around it is worth showing:
 
 ### Fluid-grid and time-step checks
 
-**The time-step checks passed; individual pair gaps still change with the fluid grid.** Six full simulations tested the threshold-0.015 study through **prime tick 41 (model time 1.2)**. The gap comparisons cover tick 37 to tick 41. Between 24³ and 32³, the largest same-particle gap change was **0.0898224** cube lengths against a **0.001** target. At 32³, the last time-step halving gave a largest gap change of **0.00000858413**.
+**At prime tick 41, all 25 pairs agree within the target between the 40³ and 48³ fluid grids. Earlier saved times still differ.** The largest difference at tick 41 (model time 1.2) is **0.000399751** cube lengths, below the **0.001** target. Across the 51 saved times from tick 37 to tick 41, **eight pairs** exceed that target; the largest difference is **0.0109703**. Agreement at the endpoint does not establish agreement throughout the encounter.
 
-![Time-step checks pass their target while pair gaps remain sensitive to fluid-grid size.](research/hug-v3/fluid-grid-study/convergence.png)
+![The finer grids agree at tick 41, while earlier same-pair differences still exceed the target.](research/hug-v3/finer-grid-study/finer-grids.png)
 
-This is a separate numerical follow-up. **Lean checked the window rule and earlier recorded numbers; it did not check these simulations or establish convergence.** The study keeps 384 material points fixed and does not settle the separate threshold-1 trajectory. [Study, diagram and limits](research/hug-v3/fluid-grid-study/README.md) · [Saved-data recount](research/hug-v3/fluid-grid-study/recount.json)
+The 48³ time-step halving passed: its largest gap change is **0.000100423**. Denser tracing checks also passed. The follow-up adds matched energy, spin and strain readings and an audit of the model's stored writes. These are numerical checks of the **threshold-0.015, breathing-on, 801-marker experiment**, with 384 material points held fixed; the threshold-1 study remains separate.
+
+**Lean checked the nested-window rule and earlier recorded numbers. It did not check these fluid integrations, these new measurements, or convergence.** [New results, both diagrams and limits](research/hug-v3/finer-grid-study/README.md) · [Saved-data recount](research/hug-v3/finer-grid-study/recount.json) · [Earlier six-run study](research/hug-v3/fluid-grid-study/README.md)
 
 ### Follow the penne
 

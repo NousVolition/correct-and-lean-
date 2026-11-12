@@ -1,0 +1,10 @@
+coarse,fine,event_id,time,changed_fields,non_strain_fields_match,changed_strain_entries,total_strain_entries,max_recorded_strain_change,strain_quantum,max_quantization_steps,changed_action_entries,max_recorded_action_change,records_identical
+n32_dt0p0005,n40_dt0p0005,0,0.4,delta_E,True,86,2304,0.00010000000000000026,0.0001,1,0,0.0,False
+n32_dt0p0005,n40_dt0p0005,1,0.8,delta_E,True,783,2304,0.0005000000000000004,0.0001,5,0,0.0,False
+n32_dt0p0005,n40_dt0p0005,2,1.2,actions|delta_E,False,786,2304,0.00040000000000000105,0.0001,4,4,0.00010000000000001674,False
+n40_dt0p0005,n48_dt0p0005,0,0.4,delta_E,True,58,2304,0.00010000000000000026,0.0001,1,0,0.0,False
+n40_dt0p0005,n48_dt0p0005,1,0.8,delta_E,True,529,2304,0.00030000000000000165,0.0001,3,0,0.0,False
+n40_dt0p0005,n48_dt0p0005,2,1.2,actions|delta_E,False,519,2304,0.00020000000000000573,0.0001,2,2,9.999999999998899e-05,False
+n48_dt0p0005,n48_dt0p00025,0,0.4,,True,0,2304,0.0,0.0001,0,0,0.0,True
+n48_dt0p0005,n48_dt0p00025,1,0.8,,True,0,2304,0.0,0.0001,0,0,0.0,True
+n48_dt0p0005,n48_dt0p00025,2,1.2,,True,0,2304,0.0,0.0001,0,0,0.0,True

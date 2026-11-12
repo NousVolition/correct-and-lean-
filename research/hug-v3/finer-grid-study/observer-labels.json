@@ -1,0 +1,7 @@
+{
+  "convention": "same baseline material labels at t=0",
+  "ordering": "A[0:25], B[25:50], centers[50:75]",
+  "max_inverse_step_residual": 2.7755575615628914e-17,
+  "max_full_forward_roundtrip_error": 1.5959455978986625e-16,
+  "elapsed_seconds": 1.1560000000026776
+}

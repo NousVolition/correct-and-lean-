@@ -1,0 +1,18 @@
+{
+  "run": "n40_dt0p0005",
+  "n": 40,
+  "dt": 0.0005,
+  "pid": 27284,
+  "started_utc": "2026-11-11T23:42:41.930879+00:00",
+  "status": "complete",
+  "phase": "complete",
+  "model_time": 1.2,
+  "completed_steps": 2400,
+  "total_steps": 2400,
+  "input_hashes_verified": 21,
+  "no_lean_run": true,
+  "elapsed_seconds": 3124.25,
+  "observed_utc": "2026-11-12T00:31:58.639806+00:00",
+  "completed_utc": "2026-11-12T00:34:46.171605+00:00",
+  "input_hashes_verified_after": 21
+}

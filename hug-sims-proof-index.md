@@ -2,7 +2,7 @@
 
 [NousVolition](https://github.com/NousVolition) · [Project overview](README.md)
 
-Browse 33 README guides by subject. Each linked study gives its own assumptions, evidence and status.
+Browse 34 README guides by subject. Each linked study gives its own assumptions, evidence and status.
 
 ## A/S and Hug Lean packages
 
@@ -34,6 +34,8 @@ Browse 33 README guides by subject. Each linked study gives its own assumptions,
 - [Traveller B’s first thought after the mentor spoke](lean/sims-mentor-first-thought-lean/README.md)
 
 ## Numerical studies and comparisons
+
+- [Finer fluid grids: pairs agree at tick 41 but differ earlier](research/hug-v3/finer-grid-study/README.md)
 
 - [Fluid-grid and time-step checks: pair gaps remain grid-sensitive](research/hug-v3/fluid-grid-study/README.md)
 
