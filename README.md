@@ -13,6 +13,14 @@ This collection develops that question through numerical studies, language-model
 3. **Read the exact mathematical claims.** The [observation package](research/ambiguous-observation-lean/README.md) starts with a table connecting each observation to the property it cannot determine. Its Tick 41 and Pair 25 proofs concern supplied summaries and numbers; Lean does not establish the simulations or their transcription.
 4. **Follow the wider investigation.** The [tick-41 guide](docs/tick-41/README.md) walks through identity, viewing window, checkpoint, and history. In the fluid studies tick 41 labels model time 1.2; the restaurant encounter has its own clock.
 
+## Heat from writing: a separate threshold-1 result
+
+**Twelve Lean checks pass** for the supplied heat draft: the declared stroke-heat rule, why heat alone cannot recover every signed stroke, work/stored-energy/heat accounting, and viscosity bounds under stated hypotheses. The heat term is charged when a write changes a stored mark; it does not show continuous heating from an unchanged hold.
+
+**Recorded threshold-1 result:** the breathing-on replay at tick 41 (time 1.2, native step 0.002) has a small decrease in stored energy, so recorded heat slightly exceeds supplied work. Lean checks the exact transcribed numbers and their balance tolerance. These numbers and 12 checks are separate from the threshold-0.015 540/872 study below.
+
+**Scope:** Lean has not proved heat spreading, accumulation, trajectories, the connection from temperature to the bounded `tanh` parameter, or complete retention. [Draft, reading diagram, exact numbers and limits](research/hug-v3/heat-writing-lean/README.md) · [GitHub receipt](research/hug-v3/heat-writing-lean/github-lean-receipt.json)
+
 ## Follow 540 out and 872 in
 
 ![540 leaves the pair’s view and 872 enters; their nearby context changes.](research/hug-v3/observer-follow-study/following-540-872.png)
