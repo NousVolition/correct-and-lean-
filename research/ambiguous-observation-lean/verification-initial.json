@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "phase": "initial",
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "mathlib_tracked_sources_clean": true,
+  "modules": [
+    {
+      "module": "Pair25Instance",
+      "status": "PASS",
+      "exit_code": 0,
+      "started_at_utc": "2026-11-12T06:17:44.461150+00:00",
+      "finished_at_utc": "2026-11-12T06:17:47.795117+00:00",
+      "source_sha256": "9dba45b36ba06fa5b93d28af410fdcdda7c1d7b5c55a9b5c38d989e193055811",
+      "source_unchanged_during_check": true,
+      "log": "logs/Pair25Instance-initial.log",
+      "log_sha256": "02ef2bc3e3f06dc53be92e54145f24cde8e96286362d34eb02491eb1cefb05f1",
+      "axioms": [],
+      "expected_axiom_reports": [
+        "Pair25Instance.count_same_at_start_and_end",
+        "Pair25Instance.membership_differs",
+        "Pair25Instance.count_passes_through_365",
+        "Pair25Instance.count_cannot_tell_whether_540_is_inside",
+        "Pair25Instance.count_cannot_tell_whether_872_is_inside"
+      ],
+      "actual_axiom_reports": [
+        "Pair25Instance.count_same_at_start_and_end",
+        "Pair25Instance.membership_differs",
+        "Pair25Instance.count_passes_through_365",
+        "Pair25Instance.count_cannot_tell_whether_540_is_inside",
+        "Pair25Instance.count_cannot_tell_whether_872_is_inside"
+      ],
+      "forbidden_proof_constructs": [],
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=${PACKAGE}",
+        "-o",
+        "${LOCAL_WORK}/build-initial/Pair25Instance.olean",
+        "${PACKAGE}/Pair25Instance.lean"
+      ]
+    },
+    {
+      "module": "Tick41Instance",
+      "status": "PASS",
+      "exit_code": 0,
+      "started_at_utc": "2026-11-12T06:17:47.806076+00:00",
+      "finished_at_utc": "2026-11-12T06:18:12.846865+00:00",
+      "source_sha256": "e37c94f327805e92aa81045d4b1eeff5c5c6879acf37ed38efc80d06566c70d4",
+      "source_unchanged_during_check": true,
+      "log": "logs/Tick41Instance-initial.log",
+      "log_sha256": "74b2813d0cea01657d1400b11778a5144d341e4c2c86ac541c6d2ad76c2f690b",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "expected_axiom_reports": [
+        "Tick41Instance.accumulator_unchanged_by_write",
+        "Tick41Instance.rate_changed_by_write",
+        "Tick41Instance.rate_jump",
+        "Tick41Instance.accumulator_value_cannot_tell_whether_record_was_written",
+        "Tick41Instance.accumulator_value_cannot_determine_rate"
+      ],
+      "actual_axiom_reports": [
+        "Tick41Instance.accumulator_unchanged_by_write",
+        "Tick41Instance.rate_changed_by_write",
+        "Tick41Instance.rate_jump",
+        "Tick41Instance.accumulator_value_cannot_tell_whether_record_was_written",
+        "Tick41Instance.accumulator_value_cannot_determine_rate"
+      ],
+      "forbidden_proof_constructs": [],
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=${PACKAGE}",
+        "-o",
+        "${LOCAL_WORK}/build-initial/Tick41Instance.olean",
+        "${PACKAGE}/Tick41Instance.lean"
+      ]
+    },
+    {
+      "module": "YangMillsInstance",
+      "status": "PASS",
+      "exit_code": 0,
+      "started_at_utc": "2026-11-12T06:18:12.861025+00:00",
+      "finished_at_utc": "2026-11-12T06:18:16.437677+00:00",
+      "source_sha256": "b6bd6bfae94106e8785f2262167fddc6ab2d8de71201695581ed51e08ca60d54",
+      "source_unchanged_during_check": true,
+      "log": "logs/YangMillsInstance-initial.log",
+      "log_sha256": "d7178049a5d5e04a64f9f540194f2098f2423b8252ee4d26fab34cf054245bbf",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "expected_axiom_reports": [
+        "YangMillsInstance.order_zero_reads_only_leading",
+        "YangMillsInstance.order_zero_blind_to_higher_coefficients",
+        "YangMillsInstance.readJet_one_project",
+        "YangMillsInstance.order_zero_readings_agree",
+        "YangMillsInstance.order_one_readings_differ",
+        "YangMillsInstance.order_zero_reading_cannot_determine_first_derivative"
+      ],
+      "actual_axiom_reports": [
+        "YangMillsInstance.order_zero_reads_only_leading",
+        "YangMillsInstance.order_zero_blind_to_higher_coefficients",
+        "YangMillsInstance.readJet_one_project",
+        "YangMillsInstance.order_zero_readings_agree",
+        "YangMillsInstance.order_one_readings_differ",
+        "YangMillsInstance.order_zero_reading_cannot_determine_first_derivative"
+      ],
+      "forbidden_proof_constructs": [],
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=${PACKAGE}",
+        "-o",
+        "${LOCAL_WORK}/build-initial/YangMillsInstance.olean",
+        "${PACKAGE}/YangMillsInstance.lean"
+      ],
+      "original_local_log_sha256": "89d0ca34cc3c785a57e39ae3f6731849b084e24bd07e0e945120b16fcdb319c4"
+    }
+  ],
+  "publication_note": "Local verification evidence. Machine paths replaced with portable labels; changed log hashes updated and original hashes retained. Not a GitHub build receipt.",
+  "original_local_receipt_sha256": "ba1f1aafe46cb7fa11c8e5c8ea16a002052eebb4775a0f09c83506cff60c8d9f"
+}
