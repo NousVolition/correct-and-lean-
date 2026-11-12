@@ -1,0 +1,224 @@
+name: Core 19 package verification
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+    paths:
+      - .github/workflows/core-package-recheck.yml
+      - .github/core-packages.json
+
+permissions:
+  contents: read
+
+concurrency:
+  group: core-package-recheck-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  packages:
+    runs-on: ubuntu-24.04
+    outputs:
+      selected: ${{ steps.select.outputs.packages }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Check solution closures, saved reports and public paths
+        run: |
+          python3 -m unittest discover -s scripts/tests
+          python3 scripts/lean_package_report.py check
+          python3 scripts/check_public_paths.py
+      - id: select
+        name: Select exactly the 19 core packages
+        shell: python
+        run: |
+          import json
+          import os
+          import re
+          from pathlib import Path
+
+          requested = json.loads(Path(".github/core-packages.json").read_text())
+          if len(requested) != 19 or len(set(requested)) != 19:
+              raise SystemExit("Expected exactly 19 distinct core packages")
+          paths = []
+          for name in requested:
+              if not re.fullmatch(r"[a-z0-9-]+", name):
+                  raise SystemExit(f"Invalid package name: {name!r}")
+              directory = Path("lean") / name
+              for pin in ("lakefile.toml", "lean-toolchain", "lake-manifest.json",
+                          "comparator.json", "verification-inputs.json"):
+                  if not (directory / pin).is_file():
+                      raise SystemExit(f"Missing package input: {directory / pin}")
+              paths.append(directory.as_posix())
+          print("Selected exactly 19 packages:", paths)
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              print("packages=" + json.dumps(paths), file=output)
+
+  checker-tools:
+    needs: packages
+    if: needs.packages.outputs.selected != '[]'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Build pinned Landrun and nanoda
+        run: bash scripts/build-comparator-tools.sh "$RUNNER_TEMP/checker-tools"
+      - name: Fetch and verify the pinned Lean release once
+        run: bash scripts/ci-lean-toolchain.sh fetch "$RUNNER_TEMP/checker-tools"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: checker-tools
+          path: ${{ runner.temp }}/checker-tools/
+          if-no-files-found: error
+          overwrite: true
+          retention-days: 1
+          compression-level: 0
+
+  build:
+    needs: [packages, checker-tools]
+    if: needs.packages.outputs.selected != '[]'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        directory: ${{ fromJSON(needs.packages.outputs.selected) }}
+    name: Verify (${{ matrix.directory }})
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: checker-tools
+          path: ${{ runner.temp }}/checker-tools
+      - name: Install this package's pinned Lean from the checked archive
+        working-directory: ${{ matrix.directory }}
+        run: bash "$GITHUB_WORKSPACE/scripts/ci-lean-toolchain.sh" install "$RUNNER_TEMP/checker-tools" "$RUNNER_TEMP/lean-toolchain"
+      - name: Fetch mathlib build cache
+        id: dependencies
+        working-directory: ${{ matrix.directory }}
+        env:
+          MATHLIB_CACHE_GET_URL: https://cache.mathlib.org/mathlib4
+        shell: bash
+        run: |
+          if ! jq -e 'any(.packages[]; .name == "mathlib")' lake-manifest.json > /dev/null; then
+            exit 0
+          fi
+          for delay in 0 5 15; do
+            sleep "$delay"
+            if lake exe cache get; then
+              exit 0
+            fi
+          done
+          exit 1
+      - name: Compare the frozen statements and check both kernels
+        working-directory: ${{ matrix.directory }}
+        run: |
+          chmod +x "$RUNNER_TEMP/checker-tools/landrun" "$RUNNER_TEMP/checker-tools/nanoda_bin"
+          bash "$GITHUB_WORKSPACE/scripts/compare-package.sh" "$RUNNER_TEMP/checker-tools" "$RUNNER_TEMP/proof-evidence"
+      - name: Build declared targets
+        id: lake_build
+        if: ${{ !cancelled() && steps.dependencies.outcome == 'success' }}
+        working-directory: ${{ matrix.directory }}
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/proof-evidence"
+          set +e
+          lake build 2>&1 | tee "$RUNNER_TEMP/proof-evidence/lake-build.log"
+          status=${PIPESTATUS[0]}
+          printf '%s\n' "$status" > "$RUNNER_TEMP/proof-evidence/lake-build.exit"
+          exit "$status"
+      - name: Check the axioms of every named solution theorem
+        if: ${{ !cancelled() && steps.lake_build.outcome == 'success' }}
+        working-directory: ${{ matrix.directory }}
+        run: |
+          python3 "$GITHUB_WORKSPACE/scripts/lean_package_report.py" axioms . --output "$RUNNER_TEMP/proof-evidence/axioms.json"
+      - name: Write this run's report
+        id: report
+        if: always()
+        working-directory: ${{ matrix.directory }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/proof-evidence"
+          echo "package=$(basename "$PWD")" >> "$GITHUB_OUTPUT"
+          python3 "$GITHUB_WORKSPACE/scripts/lean_package_report.py" ci-report . "$RUNNER_TEMP/proof-evidence"
+      - name: Bind this evidence to the inputs, tools and GitHub run
+        if: always() && steps.report.outputs.package != ''
+        working-directory: ${{ matrix.directory }}
+        env:
+          PR_HEAD: ${{ github.event.pull_request.head.sha || github.sha }}
+        shell: python
+        run: |
+          import datetime
+          import hashlib
+          import json
+          import os
+          import shutil
+          import subprocess
+          import sys
+          from pathlib import Path
+
+          root = Path(os.environ["GITHUB_WORKSPACE"])
+          package = Path.cwd()
+          evidence = Path(os.environ["RUNNER_TEMP"]) / "proof-evidence"
+          sys.path.insert(0, str(root / "scripts"))
+          import lean_package_report as audit
+
+          cfg = audit.config(package)
+          audit.check_inputs(package)
+          files = audit.read_json(package / "verification-inputs.json")["files"]
+          def digest(path):
+              return hashlib.sha256(path.read_bytes()).hexdigest()
+          actual = {name: digest(package / name) for name in sorted(files)}
+          report = audit.read_json(evidence / "verification-report.json")
+          axioms_path = evidence / "axioms.json"
+          axiom_status = "NOT_RUN"
+          if axioms_path.is_file():
+              audit.check_axiom_lists(cfg["theorem_names"], audit.read_json(axioms_path))
+              axiom_status = "PASS"
+          stable = json.dumps(actual, sort_keys=True, separators=(",", ":")).encode()
+          binaries = {"lean": Path(shutil.which("lean"))}
+          binaries.update({name: Path(os.environ["RUNNER_TEMP"]) / "checker-tools" / name
+                           for name in ("landrun", "nanoda_bin")})
+          source = {
+              "package": package.name,
+              "verified_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              "execution_context": {
+                  "repository": os.environ["GITHUB_REPOSITORY"],
+                  "checkout_sha": os.environ["GITHUB_SHA"],
+                  "head_sha": os.environ["PR_HEAD"],
+                  "event": os.environ["GITHUB_EVENT_NAME"],
+                  "run_id": int(os.environ["GITHUB_RUN_ID"]),
+                  "run_attempt": int(os.environ["GITHUB_RUN_ATTEMPT"]),
+              },
+              "package_git_tree": subprocess.check_output(
+                  ["git", "rev-parse", "HEAD:lean/" + package.name], text=True).strip(),
+              "compiler": subprocess.check_output(["lean", "--version"], text=True).strip(),
+              "tool_sha256": {name: digest(path) for name, path in binaries.items()},
+              "proof_inputs": actual,
+              "proof_input_fingerprint": hashlib.sha256(stable).hexdigest(),
+              "input_manifest_sha256": digest(package / "verification-inputs.json"),
+              "targets": cfg["theorem_names"],
+              "target_count": len(cfg["theorem_names"]),
+              "permitted_axioms": cfg["permitted_axioms"],
+              "checks": {key: report[key] for key in
+                         ("comparator", "lean_kernel", "nanoda", "lean_build")},
+              "axiom_audit": axiom_status,
+              "scope": report["scope"],
+              "open_items": report["open_items"],
+              "evidence_sha256": {p.name: digest(p) for p in sorted(evidence.iterdir())
+                                  if p.is_file() and p.name != "source.json"},
+          }
+          (evidence / "source.json").write_text(
+              json.dumps(source, indent=2) + "\n", encoding="utf-8")
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        if: always() && steps.report.outputs.package != ''
+        with:
+          name: core19-proof-${{ steps.report.outputs.package }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/proof-evidence/
+          if-no-files-found: error
