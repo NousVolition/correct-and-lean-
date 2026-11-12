@@ -1,0 +1,133 @@
+{
+  "source_revision": "4086c9f3d5c1c2bb7e4a6327e9fce97f011fea6f",
+  "source_package": "SIMS-tick41-jump-audit",
+  "copied_files": [
+    {
+      "source_package_path": "analysis-direct-checked/all-comparison-samples.csv",
+      "published_path": "data/comparison-samples.csv",
+      "bytes": 1306175,
+      "sha256": "733252f5ff56c90db43592347fd93aefe9cbf21182dd02483d7902880d0e5a7e"
+    },
+    {
+      "source_package_path": "declared-windows.json",
+      "published_path": "data/declared-windows.json",
+      "bytes": 28530,
+      "sha256": "9bfd1b40651182db76fdd83c950a78ec1194fb32e357d15f1961ffd4029cf304"
+    },
+    {
+      "source_package_path": "direct-checks/n40-supplementary-checks.json",
+      "published_path": "data/tracing-correction.json",
+      "bytes": 1186,
+      "sha256": "c490f7e647f92724a3185ebca443de571f4e69c046d703a1129adb875968e399"
+    },
+    {
+      "source_package_path": "direct-checks/new-extrema-readouts.json",
+      "published_path": "data/direct-extrema.json",
+      "bytes": 4679,
+      "sha256": "fad9d888a5b32997c9a628af3368585debd91af96dd7a2221b438ae22af89553"
+    },
+    {
+      "source_package_path": "pair6/pair6-native-every-step.csv",
+      "published_path": "data/pair6-native.csv",
+      "bytes": 1773,
+      "sha256": "2ebf22f9d78cd8b739702671f229e341b440589fc55241a10ba9994372c2914e"
+    },
+    {
+      "source_package_path": "pair6/local-grid-timing-comparison.csv",
+      "published_path": "data/pair6-local-timing.csv",
+      "bytes": 635,
+      "sha256": "a3705d16eff3aeb8008a1a82034e695a31ccbf11f49362a13efe92af3dcf32aa"
+    },
+    {
+      "source_package_path": "dense/n40_dt0p0005/complete.json",
+      "published_path": "data/replay40-receipt.json",
+      "bytes": 872,
+      "sha256": "b92188c6db7862a5805710f4ffd7a305939dbcb4d8e83b272071cfe8c4237f4b"
+    },
+    {
+      "source_package_path": "dense/n48_dt0p0005/complete.json",
+      "published_path": "data/replay48-receipt.json",
+      "bytes": 862,
+      "sha256": "098471a0fb77547cf390f8147d7d08a582feac0462f9d6873e80875ede93f248"
+    },
+    {
+      "source_package_path": "report/independent-verification.json",
+      "published_path": "data/prior-verification.json",
+      "bytes": 572,
+      "sha256": "ed956827cb91372df584cf8c8009a1236d3a16aa9f776b48ddcfa4a7896efb29"
+    },
+    {
+      "source_package_path": "METHOD.md",
+      "published_path": "data/original-method.md",
+      "bytes": 5880,
+      "sha256": "848743a8dd470aa3fd6efaa28e83a8502a5f1841d1ae444ab372bd3d8b972e62"
+    }
+  ],
+  "repository_inputs": [
+    {
+      "path": "research/hug-v3/finer-grid-study/runs/n40_dt0p0005/gaps-primary.csv",
+      "git_blob_sha": "5bf41958ead134a7b54a2efcbd526b39533e9428",
+      "lf_text_sha256": "b54265ac044e5d28da94409bbec8a0801dfa2ee86c30444bed20ce7a67549d53"
+    },
+    {
+      "path": "research/hug-v3/finer-grid-study/runs/n48_dt0p0005/gaps-primary.csv",
+      "git_blob_sha": "37184dc377ca3a2a0143adacb1d3147eb6208a3a",
+      "lf_text_sha256": "689a87893bcf389a108aa899f3a61e5a28869a754d7063bd862911cbeec9aa5c"
+    },
+    {
+      "path": "research/hug-v3/finer-grid-study/runs/n48_dt0p00025/gaps-primary.csv",
+      "git_blob_sha": "c7a5b8a69b7f302b05c14b90f8e3c5367a4d539b",
+      "lf_text_sha256": "b1597b7b45003520b9a2a9aa33d3497c20a96c79e8c4f573f6f53b21b1ae5320"
+    },
+    {
+      "path": "research/hug-v3/finer-grid-study/prime-meter.csv",
+      "git_blob_sha": "a4c6ee7dae86234cc13eaec7c9046322f1e93dee",
+      "lf_text_sha256": "f1ab02441d2c8a92c1c4af02d039868708cdea89b4e28b4a747d0e7bbb00ea85"
+    },
+    {
+      "path": "research/hug-v3/fluid-grid-study/source/run_study.py",
+      "git_blob_sha": "3a8072c52e1c23839e4e53f60811a85d74db32ae",
+      "lf_text_sha256": "188b23f84d6b3fec2fe91a8f18ec49b22440e6cd0b063abf62c1b3ed503b42a7"
+    },
+    {
+      "path": "research/hug-v3/fluid-grid-study/source/model/structural_hug.py",
+      "git_blob_sha": "b434c68bf92871d36589985f1a4c3920f1a31ecd",
+      "lf_text_sha256": "76e08db5ebb6af93c36db7db11e8eb689abb6a7ae6b92b066c0545e1f2481f52"
+    },
+    {
+      "path": "research/hug-v3/fluid-grid-study/source/model/social_base.py",
+      "git_blob_sha": "b61836afe9ed7440c2303c16f39616f6221526a1",
+      "lf_text_sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8"
+    },
+    {
+      "path": "research/hug-v3/fluid-grid-study/source/model/continuum.py",
+      "git_blob_sha": "95ec3813f09a4fa5e6a1b607696baf9dce24ae89",
+      "lf_text_sha256": "5a82e2311135b51fb93a8221feb28471724807fdeea8ec4b53292f146e1e10a2"
+    },
+    {
+      "path": "lean/sims-mentor-first-thought-lean/one-traveller/protocol.json",
+      "git_blob_sha": "1af0b7bd4d4031bace142f4fe1f7fae9db25daa5",
+      "lf_text_sha256": "2e79cce80737cdb4c36249908983480a1853fec7dd739e9529d5fb391d6faac2"
+    },
+    {
+      "path": "lean/sims-mentor-first-thought-lean/one-traveller/reports.json",
+      "git_blob_sha": "51a2175179543373376a25bef635118abb70a4c9",
+      "lf_text_sha256": "18bc89684e33bfd6922a102f0b0181e7c42545d1e9c929615aa98b7473f537ac"
+    },
+    {
+      "path": "lean/sims-mentor-first-thought-lean/prime-sweep/protocol.json",
+      "git_blob_sha": "48187354bcc18482a28e28673401f9f3461a1870",
+      "lf_text_sha256": "8a1de7fbe0012d278ebe7318ad53098daf9b9e100d26577ca652f407dfb18c2d"
+    },
+    {
+      "path": "lean/sims-mentor-first-thought-lean/prime-sweep/reports.json",
+      "git_blob_sha": "49490637b6863f3b6b2a5a6ec4a8c7f2aba48124",
+      "lf_text_sha256": "5cb9236cb1467bfee16a6321d007b5ab47c104190b2ec41062fa5135c4750e78"
+    },
+    {
+      "path": "lean/sims-mentor-first-thought-lean/reports.json",
+      "git_blob_sha": "f68e735ae9e7c7ba7a203f8cff5b59616b56265c",
+      "lf_text_sha256": "88e803b1297494c43eed34e365873d2bd3f4c00d2faa707a6c81cc85eb3add5b"
+    }
+  ]
+}

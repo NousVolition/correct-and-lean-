@@ -1,0 +1,34 @@
+name: Ticks 35-41 audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/tick-35-41-audit/**'
+      - 'research/hug-v3/finer-grid-study/**'
+      - 'research/hug-v3/fluid-grid-study/source/**'
+      - 'lean/sims-mentor-first-thought-lean/**'
+      - '.github/workflows/tick-35-41-audit.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'research/tick-35-41-audit/**'
+      - 'research/hug-v3/finer-grid-study/**'
+      - 'research/hug-v3/fluid-grid-study/source/**'
+      - 'lean/sims-mentor-first-thought-lean/**'
+      - '.github/workflows/tick-35-41-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  recount:
+    name: Audit saved readings and Traveller continuity
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Recount without running the fluid solver, an actor or Lean
+        run: python3 -B research/tick-35-41-audit/recount.py

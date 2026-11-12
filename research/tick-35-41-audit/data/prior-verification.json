@@ -1,0 +1,22 @@
+{
+  "completed_utc": "2026-11-12T03:53:52.437831+00:00",
+  "original_input_hashes_verified_after": 21,
+  "both_native_replays_exact": true,
+  "checked_crossings": 100,
+  "full_samples": 10050,
+  "outside_samples": 9404,
+  "worst_full": {
+    "time": 1.169,
+    "pair": 23,
+    "window": "local",
+    "absolute_error": 0.10266686758224947
+  },
+  "worst_outside": {
+    "time": 1.1955,
+    "pair": 3,
+    "window": "local",
+    "absolute_error": 0.0011804419659396242
+  },
+  "local_baseline_replays_exact": true,
+  "local_tracing_controls_passed": 6
+}

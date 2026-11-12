@@ -24,7 +24,7 @@ The intended HugandNavier system keeps the carrying relationship continuous whil
 | **1. Keep the starting piece** | Preserve the named starting point or particle while following its history. | [Same water particles](research/hug-v3/threshold-one-follow-up/README.md) |
 | **2. Follow the view** | Let overlapping windows reveal more of the continuing path. | [Penne illustrations](docs/penne-leapfrog/README.md) |
 | **3. Read at tick 41** | Distinguish distance to another target, the location of a closest point, and a miss on returning to the start. | [Definitions and checkpoint](docs/tick-41/README.md#read-the-checkpoint) |
-| **4. Change one part of the observation or run** | Extend the trace, refine the grid or time step, or compare breathing conditions with the settings attached. | [Window rule](research/hug-v3/finite-window-lean/README.md) · [Finer-grid and time checks](research/hug-v3/finer-grid-study/README.md) · [Breathing control](research/hug-v3/threshold-one-follow-up/README.md#completed-breathing-off-control) |
+| **4. Change one part of the observation or run** | Extend the trace, refine the grid or time step, or compare breathing conditions with the settings attached. | [Window rule](research/hug-v3/finite-window-lean/README.md) · [Grid, time-step and sampling audit](research/tick-35-41-audit/README.md) · [Breathing control](research/hug-v3/threshold-one-follow-up/README.md#completed-breathing-off-control) |
 | **5. Follow the claim back to its evidence** | Read the observations, exact mathematical statement and remaining question together. | [Proof and verification status](PROOF-STATUS.md) · [Study index](hug-sims-proof-index.md) |
 
 <a id="follow-the-penne"></a>
@@ -49,7 +49,7 @@ The settings travel with each result. The two threshold studies and the language
 | Study | Recorded finding | What remains open |
 | --- | --- | --- |
 | **Threshold 0.015: extend the finite trace** | Across 25 pairs and 51 saved times, all 1,275 recorded gaps on the 0.75 trace are no larger than on the 0.375 trace. Lean checks the table and the general nested-window rule. | Applying the rule to a complete evolving flow requires the path, target and observation assumptions to hold. [Evidence](research/hug-v3/finite-window-lean/README.md) |
-| **Threshold 0.015: finer fluid grids** | At tick 41, **all 25 pairs** agree within the 0.001 target between 40³ and 48³. The largest endpoint difference is **0.000399751** cube lengths. Across the 51 saved times from 1.1 to 1.2, **eight pairs** exceed the target; the largest difference is **0.0109703**. | The endpoint agreement and earlier differences both remain in the record. Material-quadrature and full continuum convergence remain open. [Results and matched meters](research/hug-v3/finer-grid-study/README.md) |
+| **Threshold 0.015: grids through tick 41** | At ticks 37 and 41, **all 25 pairs** meet the 0.001 target between 40³ and 48³. Every-step readings between them show **16 pairs** above target; the largest difference is **0.102666868** at time 1.169. | Pair 3 also exceeds the target outside the fixed transition windows. Full-history time refinement at the new extrema, material-quadrature and continuum convergence remain open. [Audit and source readings](research/tick-35-41-audit/README.md) |
 | **Threshold 1: same A and original B** | With breathing on, three resolved late closest-point exchanges precede tick 41. The matched off branch has none in those late windows and has five resolved earlier examples. | These are resolved examples; 24 rapid route changes and spatial/full-history convergence remain open. [Study and control](research/hug-v3/threshold-one-follow-up/README.md) |
 | **SIMS: one continuing Traveller B** | At tick 41, B says: “I’m unsure whether that was the buzz I felt.” The same encounter retains earlier replies through thirteen checkpoints. | The repeated interviews may affect later answers; private experience and recognition after 1.2 seconds remain open. [Verbatim record and protocol](lean/sims-mentor-first-thought-lean/one-traveller/README.md) |
 
@@ -57,11 +57,11 @@ The water particle B, the penne's viewing window B and the restaurant listener B
 
 ### Fluid-grid and time-step checks
 
-![All 25 pairs meet the finer-grid comparison target at tick 41, while eight exceed it at earlier saved times.](research/hug-v3/finer-grid-study/finer-grids.png)
+![All 25 pairs meet the grid target at ticks 37 and 41; every-step readings expose larger differences between them.](research/tick-35-41-audit/sampling-comparison.svg)
 
-The 48³ time-step halving changes the gap by at most **0.000100423** over the tested interval and passes its targets. Denser tracing checks and the final velocity/vorticity field comparisons also pass their declared targets. The new records align each pair's gap with its local spin and strain, and retain both sides of the scheduled writes. [Finer-grid results and saved-data recount](research/hug-v3/finer-grid-study/README.md) · [Earlier six-run study](research/hug-v3/fluid-grid-study/README.md)
+The 48³ time-step halving changes the gap by at most **0.000100423** on the **51 common saved times** and passes its targets. The newer every-step audit finds a larger spatial discrepancy at 1.169 and outside-window failures at 1.195 and 1.1955; those times are absent from that full-history time-control output. Its tracing record also retains one newly exposed failure and the direct-Fourier correction. [Ticks 35–41 audit](research/tick-35-41-audit/README.md) · [Earlier 51-sample results and matched meters](research/hug-v3/finer-grid-study/README.md)
 
-The tick-41 gap sample is taken **before the write at time 1.2**. The write preserves carried positions and velocity at that instant and changes the stored fabric target and heat. The run ends there; its later flow response remains outside this measurement.
+The tick-41 gap sample is taken **before the write at time 1.2**. The write preserves carried positions and velocity at that instant and changes the stored fabric target and heat. The new record feeds the coupled relationship equations; rate changes need their own before/after readings. This run ends at the write, so its later flow response remains outside the measurement.
 
 ## Proofs and the questions they answer
 
