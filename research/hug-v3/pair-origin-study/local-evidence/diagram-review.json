@@ -1,0 +1,10 @@
+{
+  "inspected": true,
+  "observed_utc": "2026-11-12T06:01:03.8359520Z",
+  "diagram_sha256": "f7f2cb131334eb09357ce6cb8bb76bf9d581be24dfcb63664168ee8f32998070",
+  "surface": "Exported PNG inspected with view_image",
+  "layout": "Corrected initial legend/footer overlap; final labels, legend, footnotes and axes are readable with no observed clipping or overlap.",
+  "source_check": "Compared primary counts, radius controls, endpoint percentages and grid differences to independently recounted records.",
+  "scope_visible": "Tick-41 baseline, moving windows, model context versus water mass, and separate Lean scope are shown.",
+  "not_checked": "No mobile layout or color-vision simulation was run; this is a standalone static research figure."
+}

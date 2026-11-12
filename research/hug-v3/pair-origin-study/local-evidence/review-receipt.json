@@ -1,0 +1,100 @@
+{
+  "status": "COMPLETE",
+  "verified_utc": "2026-11-12T06:01:04.221430+00:00",
+  "scope": "Local numerical origin tracking and finite Lean checks; complete physical inventory remains unresolved.",
+  "interval": [
+    1.2,
+    1.3
+  ],
+  "entry": "after-write tick 41; not the earlier encounter entry at 1.1",
+  "primary_radius": 0.075,
+  "run_count": 3,
+  "all_native_exit_arrays_unchanged": true,
+  "finite_identity_memberships_agree_at_common_times": true,
+  "lean_target_count": 77,
+  "proof_input_fingerprint": "14ac08d8c253bb37d0dea90c27ba97c0c354e4a4fd5192444b9735e15555e9f1",
+  "data_certificate": {
+    "histories_matched": 3924,
+    "membership_bits_matched": 1050324,
+    "wider_observer_histories_matched": 2772,
+    "wider_observer_membership_bits_matched": 741972,
+    "full_record_payloads_matched": 2409,
+    "window_accounts_matched": 459,
+    "point_accounts_matched": 918,
+    "material_field_records_matched": 1152,
+    "decimal_scale": "100000000000000000000000000000000",
+    "source_data_match": true,
+    "tamper_tests_passed": 6
+  },
+  "endpoint_summary": {
+    "generated_utc": "2026-11-12T06:00:21.749531+00:00",
+    "primary_endpoint": {
+      "run": "n48_dt0p00025",
+      "step": "400",
+      "time": "1.3",
+      "radius": "0.075",
+      "entry_inside_context": "0.0006243217406402659",
+      "original_inside_now": "0.0002787842274054313",
+      "original_elsewhere_now": "0.0003455375132348347",
+      "outside_origin_inside_now": "0.0002944019538050271",
+      "later_source_inside_now": "5.400232911588285e-05",
+      "total_inside_now": "0.0006271885103263412",
+      "original_global_now": "0.0006243217406402183",
+      "later_source_global_now": "0.0006833736462365463",
+      "source_integral": "0.0006833736462366044",
+      "window_grid_cells": "389"
+    },
+    "retained_origin_percent": 44.65393550439673,
+    "elsewhere_origin_percent": 55.3460644956033,
+    "inside_outside_origin_percent_of_entry": 47.15548644887917,
+    "inside_later_source_percent_of_entry": 8.649759507093473,
+    "total_inside_percent_of_entry": 100.45918146036934,
+    "grid_endpoint_difference_percentage_points": 0.04881186867622489,
+    "time_endpoint_difference_percentage_points": -8.115373208283927e-05,
+    "nonprimary_views_with_crossings": 9,
+    "lean_target_count": 77,
+    "diagram_sha256": "f7f2cb131334eb09357ce6cb8bb76bf9d581be24dfcb63664168ee8f32998070"
+  },
+  "diagram_review": {
+    "inspected": true,
+    "observed_utc": "2026-11-12T06:01:03.8359520Z",
+    "diagram_sha256": "f7f2cb131334eb09357ce6cb8bb76bf9d581be24dfcb63664168ee8f32998070",
+    "surface": "Exported PNG inspected with view_image",
+    "layout": "Corrected initial legend/footer overlap; final labels, legend, footnotes and axes are readable with no observed clipping or overlap.",
+    "source_check": "Compared primary counts, radius controls, endpoint percentages and grid differences to independently recounted records.",
+    "scope_visible": "Tick-41 baseline, moving windows, model context versus water mass, and separate Lean scope are shown.",
+    "not_checked": "No mobile layout or color-vision simulation was run; this is a standalone static research figure."
+  },
+  "historical_receipts_preserved": {
+    "outputs/pair25-retention-lean/receipt.json": "8790858b9e5dc3942707a8e201b0dba4aaa4cd76e277c4e6975f89bfb5553f31",
+    "work/pair25-publication-evidence/publication-receipt.json": "fed25abac31ee5c82ced22da9c0f30825fc6cb6574bf296be7eb5aea3173cee0"
+  },
+  "files_sha256": {
+    "work/pair25-origins/PLAN.md": "f80940dcefabc44cd64d507e72bdeda17ab817a0d3a6754ce117937378b3c3db",
+    "work/pair25-origins/run_origins.py": "0ad1d00e695caacc8dcf37ba943207aecbb7a8880101a330200ab4ab5f0746e2",
+    "work/pair25-origins/analyze_origins.py": "520d2698135fe57a165e7ceb88cc5a610775321c40a96d8f2768f6e5acfa49d9",
+    "work/pair25-origins/generate_lean.py": "8f1b015c3c973712592e4306e3e3617e67832b017d615ea04473a2516b958ed2",
+    "work/pair25-origins/build_report.py": "06d4e8afb5453294e8f8bbc55d11b465a062915bb94d68b69e6f2476b6d2929d",
+    "work/pair25-origins/finalize.py": "14fc94e719e85c274f12036a2ee75da9d2712f0672a62dfcd07787c1eedc4655",
+    "work/pair25-origins/certificate-selftest.json": "a3029c1a8c512152c669c88a6704ee2122bab35e2219d65aa14e51332461f506",
+    "work/pair25-origins/diagram-review.json": "df72062d3c9163adb71c16665f60458bd996a3fb64f0728a31e3184720ebdbf0",
+    "outputs/pair25-origins/analysis.json": "cf0712a1582fe7ee11be3023b49410e422a43c41627ef774e6d912da97e6302f",
+    "outputs/pair25-origins/origin-comparisons.json": "ee745adc90677bf9ba71ed745a8cd74af01084aa47f98ff00ff626d37df04dc8",
+    "outputs/pair25-origins/README.md": "282a6aad79cee9a9634e451a1d0d6ea044c2de099bf07c747f4c70b60490a524",
+    "outputs/pair25-origins/pair25-origins.png": "f7f2cb131334eb09357ce6cb8bb76bf9d581be24dfcb63664168ee8f32998070",
+    "outputs/pair25-origins/pair25-origins.svg": "5329b6c840b76ba8c793fa546daf0c9d6b4a108b7b2cb5d9f9e2edeb722dff68",
+    "outputs/pair25-origins-lean/README.md": "97d5cabb3ba08298f1de0fb2cc54567fb5a0a7cdd437ff0a587247a04b07cac4",
+    "outputs/pair25-origins-lean/receipt.json": "eb5eb47f9e11271de00a0f22cb9751323b2ffcbf090bf18b1509ad858ca0b514"
+  },
+  "publication": "local only; no new GitHub run or commit",
+  "limitations": [
+    "Window membership is not physical ownership.",
+    "C is a signed context scalar, not water mass.",
+    "Between-step crossings and complete microscopic retention are unproved.",
+    "Stage extrema are runtime records; saved-state recount does not replay every stage.",
+    "No new GitHub publication in this task.",
+    "The time-1.1 starting inventory remains missing.",
+    "Window choices change the recorded shares; no continuum convergence criterion was declared.",
+    "Material-field numbers are finite measurements, not a formal proof of their evolution."
+  ]
+}

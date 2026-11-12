@@ -1,0 +1,13 @@
+{
+  "histories_matched": 3924,
+  "membership_bits_matched": 1050324,
+  "wider_observer_histories_matched": 2772,
+  "wider_observer_membership_bits_matched": 741972,
+  "full_record_payloads_matched": 2409,
+  "window_accounts_matched": 459,
+  "point_accounts_matched": 918,
+  "material_field_records_matched": 1152,
+  "decimal_scale": "100000000000000000000000000000000",
+  "source_data_match": true,
+  "tamper_tests_passed": 6
+}

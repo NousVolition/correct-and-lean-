@@ -1,0 +1,57 @@
+{
+  "run": "n40_dt0p0005",
+  "n": 40,
+  "dt": 0.0005,
+  "start": 1.2,
+  "end": 1.3,
+  "steps": 200,
+  "radii": [
+    0.05,
+    0.075,
+    0.1
+  ],
+  "primary_radius": 0.075,
+  "native_array_equality": {
+    "g": true,
+    "X": true,
+    "F": true,
+    "m": true,
+    "A": true,
+    "ledger": true,
+    "expression": true,
+    "context": true,
+    "norm": true,
+    "logradius": true,
+    "relation": true,
+    "responses": true,
+    "association": true,
+    "b": true,
+    "write_work": true,
+    "observer_X": true,
+    "breathing_work": true
+  },
+  "criteria": {
+    "all_native_exit_arrays_unchanged": true,
+    "all_saved_pair_positions_unchanged": true,
+    "context_reconstruction_met": true,
+    "original_component_total_met": true,
+    "later_source_account_met": true,
+    "components_nonnegative_within_roundoff": true,
+    "all_memory_payloads_unchanged": true
+  },
+  "max_context_reconstruction_defect": 4.440892098500626e-16,
+  "max_global_original_component_drift": 4.683753385137379e-16,
+  "max_later_source_account_defect": 4.412702842016003e-17,
+  "minimum_origin_component": 0.0,
+  "minimum_native_context": 1.9400603801942646e-08,
+  "shared_payload_comparisons": 603,
+  "input_hashes": {
+    "outputs\\fluid-finer-grid\\n40_dt0p0005\\final-state.npz": "c7f022d940290b775156b1ca1951ad08b45e5a9f93eacb02694bec03e1e23227",
+    "outputs\\fluid-finer-grid\\n40_dt0p0005\\summary.json": "a657b65642ed4b87983d7936d828827e2e8db605b464a1ad9c8ce3200863c854",
+    "outputs\\fluid-finer-grid\\n40_dt0p0005\\events.json": "481aa592c5308c1a7c2c69e017103f213138af0d654f19c8809c8989987c641a"
+  },
+  "prior_exit_sha256": "303cae0cebdde66152626df1f275414431c4d5f8308150bd2be35a84f4b8a74c",
+  "code_sha256": "0ad1d00e695caacc8dcf37ba943207aecbb7a8880101a330200ab4ab5f0746e2",
+  "elapsed_seconds": 473.5470000000023,
+  "scope": "Passive finite identity and signed-context provenance in declared moving views; no private complete physical inventory."
+}

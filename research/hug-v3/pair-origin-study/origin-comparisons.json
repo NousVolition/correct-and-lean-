@@ -1,0 +1,62 @@
+[
+  {
+    "comparison": "40 to 48 grid",
+    "quantity": "original_inside_now",
+    "maximum_common_time_difference_percentage_points": 1.3446601483108611,
+    "endpoint_signed_difference_percentage_points": 0.048811868676224
+  },
+  {
+    "comparison": "40 to 48 grid",
+    "quantity": "original_elsewhere_now",
+    "maximum_common_time_difference_percentage_points": 1.3446601483108056,
+    "endpoint_signed_difference_percentage_points": -0.04881186867626841
+  },
+  {
+    "comparison": "40 to 48 grid",
+    "quantity": "outside_origin_inside_now",
+    "maximum_common_time_difference_percentage_points": 2.6048146522582973,
+    "endpoint_signed_difference_percentage_points": 0.32508540458386914
+  },
+  {
+    "comparison": "40 to 48 grid",
+    "quantity": "later_source_inside_now",
+    "maximum_common_time_difference_percentage_points": 0.3051973141306119,
+    "endpoint_signed_difference_percentage_points": 0.08225071760450814
+  },
+  {
+    "comparison": "40 to 48 grid",
+    "quantity": "total_inside_now",
+    "maximum_common_time_difference_percentage_points": 3.805501907495723,
+    "endpoint_signed_difference_percentage_points": 0.4561479908645971
+  },
+  {
+    "comparison": "48 grid: half time step",
+    "quantity": "original_inside_now",
+    "maximum_common_time_difference_percentage_points": 0.001978272738256681,
+    "endpoint_signed_difference_percentage_points": -8.115373207884247e-05
+  },
+  {
+    "comparison": "48 grid: half time step",
+    "quantity": "original_elsewhere_now",
+    "maximum_common_time_difference_percentage_points": 0.0019782727383566012,
+    "endpoint_signed_difference_percentage_points": 8.115373215655808e-05
+  },
+  {
+    "comparison": "48 grid: half time step",
+    "quantity": "outside_origin_inside_now",
+    "maximum_common_time_difference_percentage_points": 0.001978209792952157,
+    "endpoint_signed_difference_percentage_points": 8.048951607442234e-05
+  },
+  {
+    "comparison": "48 grid: half time step",
+    "quantity": "later_source_inside_now",
+    "maximum_common_time_difference_percentage_points": 2.82881135182933e-08,
+    "endpoint_signed_difference_percentage_points": -2.783761693381237e-08
+  },
+  {
+    "comparison": "48 grid: half time step",
+    "quantity": "total_inside_now",
+    "maximum_common_time_difference_percentage_points": 6.920536366195051e-07,
+    "endpoint_signed_difference_percentage_points": -6.920536366195051e-07
+  }
+]

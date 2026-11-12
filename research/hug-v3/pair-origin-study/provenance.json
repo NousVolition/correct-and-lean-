@@ -1,0 +1,48 @@
+{
+  "source_labels_to_public_paths": {
+    "outputs/pair25-origins-lean/CheckAxioms.lean": "research/hug-v3/pair-origin-lean/CheckAxioms.lean",
+    "outputs/pair25-origins-lean/check_certificate.py": "research/hug-v3/pair-origin-lean/check_certificate.py",
+    "outputs/pair25-origins-lean/data-generation.json": "research/hug-v3/pair-origin-lean/data-generation.json",
+    "outputs/pair25-origins-lean/lakefile.toml": "research/hug-v3/pair-origin-lean/lakefile.toml",
+    "outputs/pair25-origins-lean/lean-toolchain": "research/hug-v3/pair-origin-lean/lean-toolchain",
+    "outputs/pair25-origins-lean/OriginTracking.lean": "research/hug-v3/pair-origin-lean/OriginTracking.lean",
+    "outputs/pair25-origins-lean/README.md": "research/hug-v3/pair-origin-lean/README.md",
+    "outputs/pair25-origins-lean/receipt.json": "research/hug-v3/pair-origin-lean/receipt.json",
+    "outputs/pair25-origins-lean/RecordedOrigins.lean": "research/hug-v3/pair-origin-lean/RecordedOrigins.lean",
+    "outputs/pair25-origins-lean/targets.json": "research/hug-v3/pair-origin-lean/targets.json",
+    "outputs/pair25-origins-lean/verify_lean.py": "research/hug-v3/pair-origin-lean/verify_lean.py",
+    "outputs/pair25-origins-lean/evidence/CheckAxioms.log": "research/hug-v3/pair-origin-lean/evidence/CheckAxioms.log",
+    "outputs/pair25-origins-lean/evidence/OriginTracking.log": "research/hug-v3/pair-origin-lean/evidence/OriginTracking.log",
+    "outputs/pair25-origins-lean/evidence/RecordedOrigins.log": "research/hug-v3/pair-origin-lean/evidence/RecordedOrigins.log",
+    "outputs/pair25-origins-lean/source-data/analysis.json": "research/hug-v3/pair-origin-lean/source-data/analysis.json",
+    "outputs/pair25-origins-lean/source-data/history-numbers.csv": "research/hug-v3/pair-origin-lean/source-data/history-numbers.csv",
+    "outputs/pair25-origins-lean/source-data/material-field-changes.csv": "research/hug-v3/pair-origin-lean/source-data/material-field-changes.csv",
+    "outputs/pair25-origins-lean/source-data/n40_dt0p0005-context-point-origins.csv": "research/hug-v3/pair-origin-lean/source-data/n40_dt0p0005-context-point-origins.csv",
+    "outputs/pair25-origins-lean/source-data/n40_dt0p0005-context-window-origins.csv": "research/hug-v3/pair-origin-lean/source-data/n40_dt0p0005-context-window-origins.csv",
+    "outputs/pair25-origins-lean/source-data/n40_dt0p0005-membership.npz": "research/hug-v3/pair-origin-lean/source-data/n40_dt0p0005-membership.npz",
+    "outputs/pair25-origins-lean/source-data/n40_dt0p0005-payloads.npz": "research/hug-v3/pair-origin-lean/source-data/n40_dt0p0005-payloads.npz",
+    "outputs/pair25-origins-lean/source-data/n40_dt0p0005-result.json": "research/hug-v3/pair-origin-lean/source-data/n40_dt0p0005-result.json",
+    "outputs/pair25-origins-lean/source-data/n48_dt0p00025-context-point-origins.csv": "research/hug-v3/pair-origin-lean/source-data/n48_dt0p00025-context-point-origins.csv",
+    "outputs/pair25-origins-lean/source-data/n48_dt0p00025-context-window-origins.csv": "research/hug-v3/pair-origin-lean/source-data/n48_dt0p00025-context-window-origins.csv",
+    "outputs/pair25-origins-lean/source-data/n48_dt0p00025-membership.npz": "research/hug-v3/pair-origin-lean/source-data/n48_dt0p00025-membership.npz",
+    "outputs/pair25-origins-lean/source-data/n48_dt0p00025-payloads.npz": "research/hug-v3/pair-origin-lean/source-data/n48_dt0p00025-payloads.npz",
+    "outputs/pair25-origins-lean/source-data/n48_dt0p00025-result.json": "research/hug-v3/pair-origin-lean/source-data/n48_dt0p00025-result.json",
+    "outputs/pair25-origins-lean/source-data/n48_dt0p0005-context-point-origins.csv": "research/hug-v3/pair-origin-lean/source-data/n48_dt0p0005-context-point-origins.csv",
+    "outputs/pair25-origins-lean/source-data/n48_dt0p0005-context-window-origins.csv": "research/hug-v3/pair-origin-lean/source-data/n48_dt0p0005-context-window-origins.csv",
+    "outputs/pair25-origins-lean/source-data/n48_dt0p0005-membership.npz": "research/hug-v3/pair-origin-lean/source-data/n48_dt0p0005-membership.npz",
+    "outputs/pair25-origins-lean/source-data/n48_dt0p0005-payloads.npz": "research/hug-v3/pair-origin-lean/source-data/n48_dt0p0005-payloads.npz",
+    "outputs/pair25-origins-lean/source-data/n48_dt0p0005-result.json": "research/hug-v3/pair-origin-lean/source-data/n48_dt0p0005-result.json"
+  },
+  "full_trajectories_and_origin_fields_published": false,
+  "compressed_classification_sha256": "9c8dd281feed2716c535b7ec212d91a00558bf70901748c3e9c367755a39a457",
+  "uncompressed_classification_sha256": "f14e2debe5720742528d35863b84d5997a6340faad0492d684dc4b7d4fdaa4ee",
+  "original_local_proof_fingerprint": "14ac08d8c253bb37d0dea90c27ba97c0c354e4a4fd5192444b9735e15555e9f1",
+  "original_source_scripts_unchanged": true,
+  "local_log_publication_edits": {
+    "evidence/RecordedOrigins.log": {
+      "edit": "Removed only the absolute local directory prefix; all warning text and line numbers retained.",
+      "original_sha256": "c5846a0792be371aa2dd1e91ff1e49edd67c3467460ea25772ca9210f40517b5",
+      "published_sha256": "6363ed47d9ddfc6f61cc13d6d570b36f9b4214034ce10be679a0bc60b1b27035"
+    }
+  }
+}

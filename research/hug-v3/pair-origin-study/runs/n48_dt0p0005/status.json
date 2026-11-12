@@ -1,0 +1,22 @@
+{
+  "run": "n48_dt0p0005",
+  "status": "complete",
+  "completed_steps": 200,
+  "total_steps": 200,
+  "started_utc": "2026-11-12T05:35:06.870662+00:00",
+  "start": 1.2,
+  "end": 1.3,
+  "model_time": 1.3,
+  "elapsed_seconds": 722.75,
+  "observed_utc": "2026-11-12T05:47:00.036807+00:00",
+  "completed_utc": "2026-11-12T05:47:09.620611+00:00",
+  "criteria": {
+    "all_native_exit_arrays_unchanged": true,
+    "all_saved_pair_positions_unchanged": true,
+    "context_reconstruction_met": true,
+    "original_component_total_met": true,
+    "later_source_account_met": true,
+    "components_nonnegative_within_roundoff": true,
+    "all_memory_payloads_unchanged": true
+  }
+}

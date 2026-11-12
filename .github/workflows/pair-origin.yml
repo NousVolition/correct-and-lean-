@@ -1,0 +1,80 @@
+name: Pair origin records and Lean
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "research/hug-v3/pair-origin-study/**"
+      - "research/hug-v3/pair-origin-lean/**"
+      - ".github/workflows/pair-origin.yml"
+      - "scripts/ci-lean-toolchain.sh"
+  push:
+    branches: [main]
+    paths:
+      - "research/hug-v3/pair-origin-study/**"
+      - "research/hug-v3/pair-origin-lean/**"
+      - ".github/workflows/pair-origin.yml"
+      - "scripts/ci-lean-toolchain.sh"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Recorded origin and 77 Lean statements
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Install the observation reader
+        run: python3 -m pip install numpy==2.3.5
+      - name: Recount records and reject stale receipts
+        run: |
+          python3 research/hug-v3/pair-origin-study/verify_publication.py --self-test
+          python3 research/hug-v3/pair-origin-lean/check_certificate.py --self-test
+      - name: Fetch the pinned Lean release
+        run: bash scripts/ci-lean-toolchain.sh fetch "$RUNNER_TEMP/origin-tools"
+      - name: Install the checked Lean archive
+        working-directory: research/hug-v3/pair-origin-lean
+        run: bash "$GITHUB_WORKSPACE/scripts/ci-lean-toolchain.sh" install "$RUNNER_TEMP/origin-tools" "$RUNNER_TEMP/origin-lean"
+      - name: Recheck all statements in a fresh copy
+        shell: bash
+        run: |
+          cp -a research/hug-v3/pair-origin-lean "$RUNNER_TEMP/origin-check"
+          python3 "$RUNNER_TEMP/origin-check/verify_lean.py" --lean "$RUNNER_TEMP/origin-lean/bin/lean"
+          python3 research/hug-v3/pair-origin-study/verify_publication.py --fresh "$RUNNER_TEMP/origin-check/receipt.json"
+      - name: Attach source revision and GitHub run to matching receipt
+        shell: python
+        env:
+          PR_HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          import hashlib,json,os
+          from pathlib import Path
+          output=Path(os.environ['RUNNER_TEMP'])/'origin-check'
+          raw=output/'receipt.json'
+          receipt=json.loads(raw.read_text())
+          receipt['execution_context']={
+            'repository':os.environ['GITHUB_REPOSITORY'],
+            'checkout_sha':os.environ['GITHUB_SHA'],
+            'pull_request_head_sha':os.environ.get('PR_HEAD') or None,
+            'event':os.environ['GITHUB_EVENT_NAME'],
+            'run_id':int(os.environ['GITHUB_RUN_ID']),
+            'run_attempt':int(os.environ['GITHUB_RUN_ATTEMPT']),
+            'run_url':os.environ['GITHUB_SERVER_URL']+'/'+os.environ['GITHUB_REPOSITORY']+'/actions/runs/'+os.environ['GITHUB_RUN_ID']}
+          receipt['raw_checker_receipt_sha256']=hashlib.sha256(raw.read_bytes()).hexdigest()
+          (output/'github-lean-receipt.json').write_text(json.dumps(receipt,indent=2)+'\n')
+          print('PAIR_ORIGIN_GITHUB_RECEIPT_BEGIN')
+          print(json.dumps(receipt,sort_keys=True))
+          print('PAIR_ORIGIN_GITHUB_RECEIPT_END')
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        if: always()
+        with:
+          name: pair-origin-evidence-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/origin-check/github-lean-receipt.json
+            ${{ runner.temp }}/origin-check/receipt.json
+            ${{ runner.temp }}/origin-check/evidence/*.log
+          if-no-files-found: warn

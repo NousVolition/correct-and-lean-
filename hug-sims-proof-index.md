@@ -46,6 +46,8 @@ The [single-system meaning](research/comparisons/hug-navier-single-system-scope-
 
 ## Numerical studies and comparisons
 
+- [Pair 25 origins: what stays nearby, leaves the view or changes membership](research/hug-v3/pair-origin-study/README.md)
+
 - [Pair 25 after tick 41: shared records survive; complete physical retention remains open](research/hug-v3/pair-retention-study/README.md)
 
 - [Ticks 35–41 audit: endpoint agreement, intervening differences and Traveller continuity](research/tick-35-41-audit/README.md)
@@ -62,6 +64,8 @@ The [single-system meaning](research/comparisons/hug-navier-single-system-scope-
 - [Finite-window rule and recorded gaps checked in Lean](research/hug-v3/finite-window-lean/README.md)
 
 ## Proof readers and verification receipts
+
+- [Pair-25 origin records: 77 finite Lean checks; fluid evolution and complete retention remain open](research/hug-v3/pair-origin-lean/README.md)
 
 - [Pair-25 finite retention rules and recorded accounts: 40 Lean checks](research/hug-v3/pair-retention-lean/README.md)
 
@@ -82,3 +86,4 @@ The [single-system meaning](research/comparisons/hug-navier-single-system-scope-
 - [Streams and Rocks](https://github.com/NousVolition/Nous-Volition)
 - [SIMS, fluid memory and language studies](https://github.com/NousVolition/My-Sources-Project-ALL)
 - [Semantic Organizer Bot](https://github.com/NousVolition/semantic-organizer-bot)
+

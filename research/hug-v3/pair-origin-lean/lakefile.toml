@@ -1,0 +1,9 @@
+name = "PairOrigins"
+version = "0.1.0"
+defaultTargets = ["OriginTracking", "RecordedOrigins"]
+
+[[lean_lib]]
+name = "OriginTracking"
+
+[[lean_lib]]
+name = "RecordedOrigins"
