@@ -1,0 +1,43 @@
+Running as unit: run-u0.service; invocation ID: 62edbe055daa448e80e71741a43a05ef
+Building V3DelayChallenge
+✔ [3106/3114] Built V3SourceCore (2.3s)
+✔ [3107/3114] Built V3SourceMemory (2.3s)
+✔ [3108/3114] Built V3SourceSocial (2.2s)
+✔ [3109/3114] Built V3SourceFlow (2.1s)
+✔ [3110/3114] Built V3SourceGeometry (8.8s)
+✔ [3111/3114] Built V3SourceSystem (1.9s)
+✔ [3112/3114] Built V3DelayDefinitions (1.7s)
+⚠ [3113/3114] Built V3DelayChallenge (1.8s)
+warning: V3DelayChallenge.lean:7:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:9:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:11:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:13:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:15:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:17:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:21:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:25:8: declaration uses `sorry`
+warning: V3DelayChallenge.lean:27:8: declaration uses `sorry`
+Build completed successfully (3114 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.DelayVerified.socialFrom_self, HugV3.Source.DelayVerified.present_physical_blocks, HugV3.Source.DelayVerified.buffered_social_blocks, HugV3.Source.DelayVerified.material_records_remain_present, HugV3.Source.DelayVerified.zero_delay_recovers_original, HugV3.Source.DelayVerified.delay_preserves_current_physical_rate, HugV3.Source.DelayVerified.delay_uses_buffered_social_rate, HugV3.Source.DelayVerified.buffer_reads_strictly_past, HugV3.Source.DelayVerified.history_zero_delay, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3DelayChallenge
+Building V3DelayProofs
+⚠ [3113/3114] Built V3DelayProofs (1.8s)
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (3114 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.DelayVerified.socialFrom_self, HugV3.Source.DelayVerified.present_physical_blocks, HugV3.Source.DelayVerified.buffered_social_blocks, HugV3.Source.DelayVerified.material_records_remain_present, HugV3.Source.DelayVerified.zero_delay_recovers_original, HugV3.Source.DelayVerified.delay_preserves_current_physical_rate, HugV3.Source.DelayVerified.delay_uses_buffered_social_rate, HugV3.Source.DelayVerified.buffer_reads_strictly_past, HugV3.Source.DelayVerified.history_zero_delay, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3DelayProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 45.356s
+CPU time consumed: 55.978s
+Memory peak: 256.0K
+Memory swap peak: 0B

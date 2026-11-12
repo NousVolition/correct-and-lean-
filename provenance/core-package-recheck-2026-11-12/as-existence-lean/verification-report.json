@@ -1,0 +1,14 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Existence and uniqueness of the full seven-coordinate continuous integral evolution on each finite interval under the original assumptions.",
+  "open_items": [
+    "FullSuppressionComparison",
+    "Repeated-encounter stochastic process and event coupling",
+    "Numerical error certification",
+    "Empirical validation of the social interpretation",
+    "The meaning-state bounds are outside this existence package and subsequently proved in as-invariance-lean."
+  ]
+}

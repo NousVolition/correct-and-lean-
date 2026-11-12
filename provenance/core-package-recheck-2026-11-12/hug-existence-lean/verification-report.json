@@ -1,0 +1,15 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Finite-horizon existence and uniqueness for the primary directional eight-coordinate Hug model with frozen parameters and the stated inputs.",
+  "open_items": [
+    "Arbitrary alternative parameter/control variants",
+    "Discontinuous input or initially inadmissible guards",
+    "Limit cycles, synchronization or recovery time",
+    "Separate full memory-field extension",
+    "Physical or social validation",
+    "Floating-point and solver execution correctness"
+  ]
+}

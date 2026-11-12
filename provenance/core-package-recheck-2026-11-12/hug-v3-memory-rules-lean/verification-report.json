@@ -1,0 +1,17 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Seventeen results on present-state retrieval, weighted memories, partner identity and the fixed-delay convention.",
+  "open_items": [
+    "Variable timing selection and prehistory",
+    "Partial and mixed reconstruction law with provenance",
+    "New solo event representation",
+    "Forecast generation and anticipation effort accounting",
+    "Spatial placement to encounter-input mapping",
+    "Full hybrid delayed existence and uniqueness",
+    "Machine-checked Python-to-real-definition correspondence",
+    "Empirical calibration"
+  ]
+}

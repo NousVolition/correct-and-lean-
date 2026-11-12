@@ -1,0 +1,53 @@
+Running as unit: run-u0.service; invocation ID: dbfdb5d2c3c84670b4d3de9eed9d3102
+Building V3MemoryRulesChallenge
+✔ [3106/3115] Built V3SourceCore (2.4s)
+✔ [3107/3115] Built V3SourceMemory (2.4s)
+✔ [3108/3115] Built V3SourceSocial (2.4s)
+✔ [3109/3115] Built V3SourceFlow (2.2s)
+✔ [3110/3115] Built V3SourceGeometry (9.2s)
+✔ [3111/3115] Built V3SourceSystem (2.1s)
+✔ [3112/3115] Built V3DelayDefinitions (1.9s)
+✔ [3113/3115] Built V3MemoryRulesDefinitions (1.8s)
+⚠ [3114/3115] Built V3MemoryRulesChallenge (2.0s)
+warning: V3MemoryRulesChallenge.lean:9:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:12:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:17:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:20:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:24:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:28:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:33:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:38:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:42:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:46:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:54:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:62:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:67:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:70:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:76:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:79:8: declaration uses `sorry`
+warning: V3MemoryRulesChallenge.lean:82:8: declaration uses `sorry`
+Build completed successfully (3115 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.MemoryRulesVerified.report_without_observation, HugV3.Source.MemoryRulesVerified.both_missing_ignored, HugV3.Source.MemoryRulesVerified.opposing_reports_zero, HugV3.Source.MemoryRulesVerified.different_reports_same_score, HugV3.Source.MemoryRulesVerified.time_translation_weight, HugV3.Source.MemoryRulesVerified.closer_cue_increases_weight, HugV3.Source.MemoryRulesVerified.association_changes_cue, HugV3.Source.MemoryRulesVerified.changed_context_and_association_keep_record_bytes, HugV3.Source.MemoryRulesVerified.exposure_adds_across_records, HugV3.Source.MemoryRulesVerified.weighted_memory_merge, HugV3.Source.MemoryRulesVerified.opposite_events_both_influence, HugV3.Source.MemoryRulesVerified.source_partner_remains_identified, HugV3.Source.MemoryRulesVerified.self_record_rejected, HugV3.Source.MemoryRulesVerified.buffered_cue_mixes_current_body_past_context, HugV3.Source.MemoryRulesVerified.buffered_records_current, HugV3.Source.MemoryRulesVerified.zero_delay_unchanged, HugV3.Source.MemoryRulesVerified.only_selected_history_samples, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3MemoryRulesChallenge
+Building V3MemoryRulesProofs
+⚠ [3114/3116] Built V3DelayProofs (1.9s)
+warning: V3DelayProofs.lean:22:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [socialFrom_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3115/3116] Built V3MemoryRulesProofs (2.6s)
+Build completed successfully (3116 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.MemoryRulesVerified.report_without_observation, HugV3.Source.MemoryRulesVerified.both_missing_ignored, HugV3.Source.MemoryRulesVerified.opposing_reports_zero, HugV3.Source.MemoryRulesVerified.different_reports_same_score, HugV3.Source.MemoryRulesVerified.time_translation_weight, HugV3.Source.MemoryRulesVerified.closer_cue_increases_weight, HugV3.Source.MemoryRulesVerified.association_changes_cue, HugV3.Source.MemoryRulesVerified.changed_context_and_association_keep_record_bytes, HugV3.Source.MemoryRulesVerified.exposure_adds_across_records, HugV3.Source.MemoryRulesVerified.weighted_memory_merge, HugV3.Source.MemoryRulesVerified.opposite_events_both_influence, HugV3.Source.MemoryRulesVerified.source_partner_remains_identified, HugV3.Source.MemoryRulesVerified.self_record_rejected, HugV3.Source.MemoryRulesVerified.buffered_cue_mixes_current_body_past_context, HugV3.Source.MemoryRulesVerified.buffered_records_current, HugV3.Source.MemoryRulesVerified.zero_delay_unchanged, HugV3.Source.MemoryRulesVerified.only_selected_history_samples, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3MemoryRulesProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 52.316s
+CPU time consumed: 1min 4.444s
+Memory peak: 256.0K
+Memory swap peak: 0B

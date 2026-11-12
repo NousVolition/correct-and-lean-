@@ -1,0 +1,15 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Seventy-seven repaired statements from the supplied inter-event, A/S, hybrid and delayed modules under their stated predicates.",
+  "open_items": [
+    "Delayed uniqueness is for existing seven-coordinate A/S integral solutions on one delay interval, with shared fixed input and history.",
+    "fastPhysicalDrift is defined but absent from the solution predicate and every theorem.",
+    "Combined event equality assumes equal complete pre-event states.",
+    "No full source write admissibility, capacity, heat/budget, buffer-retention, or all-event continuation theorem.",
+    "Boundary drift lemmas do not prove delayed invariance; report contains an analytical, not Lean-checked, counterexample.",
+    "Reflex, crash and mirror labels exceed their scalar formal conclusions; no empirical validation claimed."
+  ]
+}

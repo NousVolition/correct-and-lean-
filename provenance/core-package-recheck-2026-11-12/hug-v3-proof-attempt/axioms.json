@@ -1,0 +1,30 @@
+{
+  "HugV3Event.Verified.probe_recovers_rest_strain": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3Event.Verified.header_first_bit_is_one": [
+    "propext"
+  ],
+  "HugV3Event.Verified.valid_empty_coordinate_changes": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3Event.Verified.event_prevents_continuity": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3Event.Verified.event_prevents_derivative": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3Event.Verified.full_state_prevents_continuity": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

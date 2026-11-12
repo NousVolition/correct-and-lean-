@@ -1,0 +1,14 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Conditional compatibility and obstructions for a proposed joint Hug and Navier\u2013Stokes coupling.",
+  "open_items": [
+    "A full combined momentum PDE and Hug ODE solution",
+    "Reciprocal pressure/traction/load coupling and its complete energy budget",
+    "Compatible joint geometry, boundary and initial data",
+    "Existence, uniqueness, regularity or guard invariance for the complete joint system",
+    "An empirical mapping from the returning student, experience or the teaching assistant to these state variables"
+  ]
+}

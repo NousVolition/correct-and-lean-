@@ -1,0 +1,80 @@
+{
+  "package": "as-invariance-lean",
+  "verified_utc": "2026-11-12T08:49:46.334522+00:00",
+  "execution_context": {
+    "repository": "NousVolition/hug-sims-lean-proofs",
+    "checkout_sha": "95e2107a71d9bc99d172bc4655877304c85fa899",
+    "head_sha": "5fc0fe45b6f6aea982eed3c4484e6d77da46a986",
+    "event": "pull_request",
+    "run_id": 43185187598,
+    "run_attempt": 1
+  },
+  "package_git_tree": "ad4787b4df239170f82946613b8bb15bda0f1636",
+  "compiler": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "tool_sha256": {
+    "lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "landrun": "4df5f685e564aac6a2df4134443c128da0a88e67044bb91c8993715c297a8b94",
+    "nanoda_bin": "901dedf8678a50136686d9c6057ab85d617ebf279922374bac9935b19c64ba71"
+  },
+  "proof_inputs": {
+    "ASExistenceChallenge.lean": "0082334b1a62f89626f670f4ae5975c7c46721bb702a7997a9c53fcedaecb1a5",
+    "ASExistenceSolution.lean": "6d38a06e81a5475c0f599f63c57ea2773342b18858a491f57fedb45a30f8d4dc",
+    "ASInvarianceChallenge.lean": "27d741303e8dab4e2915d56dd45e46e9893ff59365ab2f3d5ad20e1eb0b29a5b",
+    "ASInvarianceSolution.lean": "bc8c7aadcc87e058a2273efe966ccb93645b1f0fac067fdfc27d898a3c5f500a",
+    "ASModel.lean": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513",
+    "ASOpenClaims.lean": "35d9616b57001b7f510dadd1e878d162de2c67bb60a9e1015aaffe7eccf3aa19",
+    "ASProofs.lean": "fd8663671930a451c579f27d780714e9d5fd967f3001ab9399ee16a68d47e74d",
+    "ClippedConstruction.lean": "6a81d1a55daae36fbb21591b34ea1f8b023d8d8e5ffaea8551c7e1087427caa5",
+    "CoupledMeaningBounds.lean": "fb3c116383d7e782c6cce4e4ccf0ed361513022c83e9c2b25d344530779def96",
+    "FullAssembly.lean": "03c5b6735d188b9aa8d98480cacd5c40fc22535496aea1ac1972c3fdeaf5285b",
+    "InfluenceSubsystem.lean": "e3100bb6eb8f7690eec4290272d84c8c9d807a18afc3522bf917607b9c54b0c3",
+    "InputRegularity.lean": "d72f752fb11751772cffdbd7fc3d637b5175c3c76f72e0bf6fbef64d79455af2",
+    "IntegralBarrier.lean": "ddf0ba93eebdcce1f8e0c6b1de5d6e4b9662dbaebd744abbdfe6292678602858",
+    "MeaningBounds.lean": "90388969a9cc17e41952eea0110e734dbfa8f6ebc6c72e04dc8142fd1e95ee3f",
+    "MeaningSubsystem.lean": "7dc5ca0fc818cc7042cdd9ae3d54b8cd45d12bd4c25cd525448f87bf78ff64f5",
+    "PairTools.lean": "2db13bd123a901369f658af6497f5bf0bea3d5fd1e3544fe39bd851a42c697d3",
+    "ScalarSubsystems.lean": "92dc743220868c23e0b18feaa6f901277623dd0708f599e59a8e6d563aae7383",
+    "Stages.lean": "64d9af0cdc6e82f7a2d19a312a40f5590d2940dc7b3965ce62fdd6c1e15b7bd2",
+    "Volterra.lean": "26906df3b92869c297524e14c09b8bb5c15d6de60f8e7b0dbd93785d759f0952",
+    "comparator.json": "860bb091faff2147d452ec08268f406083dc3c95d86d64fb28bbe2bfc5969f43",
+    "invariance-reference-freeze.json": "d73e219edb3bf2b5df6d9c330f8402c59a9469a7c0d0975e3f5057d5c44e5a71",
+    "lake-manifest.json": "40e780bc3be531555a40ae7181ab673087a93161714ee8d2033be7a31810b090",
+    "lakefile.toml": "ef7b8d0b52bb10f37b866585003a6bd2a3225a3964267f27951f26840be14ee2",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "source-equations.json": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318",
+    "source-protocol.json": "51a8c4e85f76717a52a3a0310ddefc96a162b4b70708db3ff52b3ee9b1230d92"
+  },
+  "proof_input_fingerprint": "6f0fc1569c0fcc65072db1936c64db0fc2d395b3f3962ed56b3e284fae1619f8",
+  "input_manifest_sha256": "30b279f4ffb5af64364a0e3a14ba6aae1ef325de99b1b50823191736759ddbf0",
+  "targets": [
+    "SocialAS.Verified.full_state_invariance"
+  ],
+  "target_count": 1,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "checks": {
+    "comparator": "PASS",
+    "lean_kernel": "PASS",
+    "nanoda": "PASS",
+    "lean_build": "PASS"
+  },
+  "axiom_audit": "PASS",
+  "scope": "Both meaning states stay in [0,1] and both adverse-history loads stay nonnegative on every finite interval under the original assumptions.",
+  "open_items": [
+    "FullSuppressionComparison",
+    "Repeated-encounter stochastic process and event coupling",
+    "Numerical error certification",
+    "Empirical validation of the social interpretation"
+  ],
+  "evidence_sha256": {
+    "axioms.json": "85b9d7e6eb2783dc79c37815f4ca66a06c9a7c685e81fae9405c7ee687a57c31",
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.log": "27d1c0bdb247e6723860af6a94c00f6c2ffbaed59220e9faae1da002b25b220f",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "ae394e8340c63629520f260f367956f2e7c4880c127326cc59270805df822c6a",
+    "verification-report.json": "e00b28058563bdc46791d072471810c73e1b882b6b920c76052d3a990cc27c1f"
+  }
+}

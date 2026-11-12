@@ -1,0 +1,21 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Seven audit statements concerning the supplied field and interface information for the proposed joint evolution.",
+  "open_items": [
+    "Clock/unit conversion",
+    "State--field observation or projection map",
+    "Evolving fluid load on Hug",
+    "Reciprocal Hug action on fluid",
+    "Compatible joint geometry and initial/boundary data",
+    "Energy accounting without double-counting resistance",
+    "Full joint existence and uniqueness in a stated solution class",
+    "Field and interface regularity",
+    "Incompressibility and coupled guard bounds",
+    "Reciprocal work/energy balance",
+    "Continuation or breakdown conditions for the stated horizon",
+    "Pressure uniqueness modulo an additive time function, or after a gauge choice"
+  ]
+}

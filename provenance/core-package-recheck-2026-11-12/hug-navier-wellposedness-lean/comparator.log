@@ -1,0 +1,31 @@
+Running as unit: run-u0.service; invocation ID: 21d885db2336446d82251582e469f492
+Building WellposednessChallenge
+✔ [3366/3371] Built FullModel (2.2s)
+✔ [3367/3371] Built OriginalAS (1.8s)
+✔ [3368/3371] Built FullChecks (2.6s)
+✔ [3369/3371] Built WellposednessTargets (1.7s)
+⚠ [3370/3371] Built WellposednessChallenge (1.8s)
+warning: WellposednessChallenge.lean:8:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:12:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:15:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:18:8: declaration uses `sorry`
+Build completed successfully (3371 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugNavierWellposedness.Verified.perturbation_regular, HugNavierWellposedness.Verified.nearby_uniform_bound, HugNavierWellposedness.Verified.exact_rate_difference, HugNavierWellposedness.Verified.no_uniform_local_rate_bound, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from WellposednessChallenge
+Building WellposednessProofs
+⚠ [3370/3371] Built WellposednessProofs (3.3s)
+warning: WellposednessProofs.lean:81:13: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3371 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugNavierWellposedness.Verified.perturbation_regular, HugNavierWellposedness.Verified.nearby_uniform_bound, HugNavierWellposedness.Verified.exact_rate_difference, HugNavierWellposedness.Verified.no_uniform_local_rate_bound, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from WellposednessProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 1min 3.112s
+CPU time consumed: 1min 7.270s
+Memory peak: 256.0K
+Memory swap peak: 0B

@@ -1,0 +1,45 @@
+{
+  "HugV3.Source.Verified.rhs_fabric_equation": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.Verified.rhs_accumulator_equation": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.Verified.fabric_strain_lower_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.Verified.positive_read_boundary_inward": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.Verified.negative_read_boundary_inward_iff": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.Verified.negative_read_boundary_under_two": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.Verified.large_deformation_not_automatic": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.Verified.written_cell_restores_margin": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.Verified.crc_reference_vector": [
+    "propext"
+  ]
+}

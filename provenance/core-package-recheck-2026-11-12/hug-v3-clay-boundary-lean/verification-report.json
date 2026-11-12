@@ -1,0 +1,15 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Twelve fabric, local-flow and conditional schedule results for the Clay boundary and the three memory writes.",
+  "open_items": [
+    "Full RHS local existence and uniqueness",
+    "Continuation and nonvanishing fibers",
+    "Trajectory-derived deformation/readability bounds",
+    "Write budget, encoding, capacity and round-trip success",
+    "Complete source correspondence",
+    "FullExistenceUniqueness proof"
+  ]
+}

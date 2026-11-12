@@ -1,0 +1,72 @@
+{
+  "HugNavierBridge.Verified.shear_derivative": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierBridge.Verified.shear_contraction": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierBridge.Verified.nonzero_shear_not_periodic": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierBridge.Verified.strain_matching": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierBridge.Verified.argument_matching": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierBridge.Verified.guard_diffusion_residual": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierBridge.Verified.four_rates_agree_iff": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierBridge.Verified.power_matching": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierBridge.Verified.power_matching_necessary": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierBridge.Verified.primary_required_coefficients": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierBridge.Verified.primary_power_matches": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierBridge.Verified.same_number_chi_is_not_same_argument": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierBridge.Verified.nonzero_diffusion_blocks_local_match": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierBridge.Verified.simultaneous_conditional_bridge": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

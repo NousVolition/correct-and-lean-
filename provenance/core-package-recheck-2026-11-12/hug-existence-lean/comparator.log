@@ -1,0 +1,72 @@
+Running as unit: run-u0.service; invocation ID: 04101051dbd44cd89c84bc1496ce85c5
+Building HugExistenceChallenge
+✔ [3416/3421] Built HugModel (2.4s)
+⚠ [3417/3421] Built Volterra (2.9s)
+warning: Volterra.lean:18:0: automatically included section variable(s) unused in theorem `Volterra.extend_continuous`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Volterra.lean:21:8: automatically included section variable(s) unused in theorem `Volterra.extend_val`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3418/3421] Built ActiveHugModel (2.3s)
+✔ [3419/3421] Built HugFullClaim (1.8s)
+⚠ [3420/3421] Built HugExistenceChallenge (1.8s)
+warning: HugExistenceChallenge.lean:3:8: declaration uses `sorry`
+Build completed successfully (3421 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, ActiveHug.Verified.full_coupled_existence_uniqueness, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from HugExistenceChallenge
+Building HugExistenceSolution
+⚠ [3418/3430] Replayed Volterra
+warning: Volterra.lean:18:0: automatically included section variable(s) unused in theorem `Volterra.extend_continuous`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Volterra.lean:21:8: automatically included section variable(s) unused in theorem `Volterra.extend_val`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3423/3430] Built HugBarrier (2.0s)
+⚠ [3424/3430] Built ActiveHugSolution (2.4s)
+warning: ActiveHugSolution.lean:62:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ActiveHugSolution.lean:133:31: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3425/3430] Built HugTools (3.7s)
+warning: HugTools.lean:36:66: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3426/3430] Built HugBox (8.8s)
+⚠ [3427/3430] Built HugBounds (3.7s)
+warning: HugBounds.lean:103:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: HugBounds.lean:113:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+✔ [3428/3430] Built HugConstruction (2.2s)
+ℹ [3429/3430] Built HugExistenceSolution (1.9s)
+info: HugExistenceSolution.lean:11:0: 'ActiveHug.Verified.full_coupled_existence_uniqueness' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3430 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, ActiveHug.Verified.full_coupled_existence_uniqueness, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from HugExistenceSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 2min 13.810s
+CPU time consumed: 2min 32.176s
+Memory peak: 256.0K
+Memory swap peak: 0B

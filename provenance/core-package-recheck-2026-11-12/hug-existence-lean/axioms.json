@@ -1,0 +1,7 @@
+{
+  "ActiveHug.Verified.full_coupled_existence_uniqueness": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

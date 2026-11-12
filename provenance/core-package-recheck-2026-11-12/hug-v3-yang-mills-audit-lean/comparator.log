@@ -1,0 +1,62 @@
+Running as unit: run-u0.service; invocation ID: e7e972063fc845b383f7a7dfc5e104a5
+Building V3YangMillsAuditChallenge
+✔ [3106/3115] Built V3SourceCore (2.2s)
+✔ [3107/3115] Built V3SourceMemory (2.1s)
+✔ [3108/3115] Built V3SourceSocial (2.2s)
+✔ [3109/3115] Built V3SourceFlow (2.0s)
+✔ [3110/3115] Built V3SourceGeometry (7.3s)
+✔ [3111/3115] Built V3SourceSystem (1.8s)
+✔ [3112/3115] Built V3DelayDefinitions (1.8s)
+✔ [3113/3115] Built V3YangMillsAuditDefinitions (1.7s)
+⚠ [3114/3115] Built V3YangMillsAuditChallenge (1.7s)
+warning: V3YangMillsAuditChallenge.lean:9:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:12:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:15:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:19:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:23:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:26:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:30:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:34:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:38:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:43:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:49:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:53:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:57:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:61:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:65:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:69:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:74:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:81:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:83:8: declaration uses `sorry`
+warning: V3YangMillsAuditChallenge.lean:86:8: declaration uses `sorry`
+Build completed successfully (3115 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.YMAuditVerified.green_objective, HugV3.Source.YMAuditVerified.strain_norm_objective, HugV3.Source.YMAuditVerified.fiber_strain_objective, HugV3.Source.YMAuditVerified.fabric_strain_objective, HugV3.Source.YMAuditVerified.decoded_records_frame_invariant, HugV3.Source.YMAuditVerified.observations_frame_invariant, HugV3.Source.YMAuditVerified.retrieval_frame_invariant, HugV3.Source.YMAuditVerified.social_rates_frame_invariant, HugV3.Source.YMAuditVerified.accepted_rhs_social_frame_invariant, HugV3.Source.YMAuditVerified.event_record_frame_invariant, HugV3.Source.YMAuditVerified.write_account_frame_invariant, HugV3.Source.YMAuditVerified.memory_write_frame_equivariant, HugV3.Source.YMAuditVerified.retrieval_ignores_list_order, HugV3.Source.YMAuditVerified.full_rate_ignores_list_order, HugV3.Source.YMAuditVerified.actual_deformation_component, HugV3.Source.YMAuditVerified.deformation_product_rule, HugV3.Source.YMAuditVerified.actual_full_rhs_frame_defect, HugV3.Source.YMAuditVerified.quarter_turn_is_orthogonal, HugV3.Source.YMAuditVerified.explicit_nonzero_frame_defect, HugV3.Source.YMAuditVerified.naive_rotation_covariance_fails, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3YangMillsAuditChallenge
+Building V3YangMillsAuditProofs
+⚠ [3117/3118] Built V3YangMillsAuditProofs (3.1s)
+warning: V3YangMillsAuditProofs.lean:186:19: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3YangMillsAuditProofs.lean:190:21: This simp argument is unused:
+  Option.bind_eq_bind
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (3118 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.YMAuditVerified.green_objective, HugV3.Source.YMAuditVerified.strain_norm_objective, HugV3.Source.YMAuditVerified.fiber_strain_objective, HugV3.Source.YMAuditVerified.fabric_strain_objective, HugV3.Source.YMAuditVerified.decoded_records_frame_invariant, HugV3.Source.YMAuditVerified.observations_frame_invariant, HugV3.Source.YMAuditVerified.retrieval_frame_invariant, HugV3.Source.YMAuditVerified.social_rates_frame_invariant, HugV3.Source.YMAuditVerified.accepted_rhs_social_frame_invariant, HugV3.Source.YMAuditVerified.event_record_frame_invariant, HugV3.Source.YMAuditVerified.write_account_frame_invariant, HugV3.Source.YMAuditVerified.memory_write_frame_equivariant, HugV3.Source.YMAuditVerified.retrieval_ignores_list_order, HugV3.Source.YMAuditVerified.full_rate_ignores_list_order, HugV3.Source.YMAuditVerified.actual_deformation_component, HugV3.Source.YMAuditVerified.deformation_product_rule, HugV3.Source.YMAuditVerified.actual_full_rhs_frame_defect, HugV3.Source.YMAuditVerified.quarter_turn_is_orthogonal, HugV3.Source.YMAuditVerified.explicit_nonzero_frame_defect, HugV3.Source.YMAuditVerified.naive_rotation_covariance_fails, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3YangMillsAuditProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 48.180s
+CPU time consumed: 59.584s
+Memory peak: 256.0K
+Memory swap peak: 0B

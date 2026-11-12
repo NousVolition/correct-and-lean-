@@ -1,0 +1,76 @@
+{
+  "package": "as-existence-lean",
+  "verified_utc": "2026-11-12T08:47:38.987545+00:00",
+  "execution_context": {
+    "repository": "NousVolition/hug-sims-lean-proofs",
+    "checkout_sha": "95e2107a71d9bc99d172bc4655877304c85fa899",
+    "head_sha": "5fc0fe45b6f6aea982eed3c4484e6d77da46a986",
+    "event": "pull_request",
+    "run_id": 43185187598,
+    "run_attempt": 1
+  },
+  "package_git_tree": "fd0d0c7eab5dd26ebf3c0663154aa6bb8c3e4146",
+  "compiler": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "tool_sha256": {
+    "lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "landrun": "4df5f685e564aac6a2df4134443c128da0a88e67044bb91c8993715c297a8b94",
+    "nanoda_bin": "901dedf8678a50136686d9c6057ab85d617ebf279922374bac9935b19c64ba71"
+  },
+  "proof_inputs": {
+    "ASExistenceChallenge.lean": "0082334b1a62f89626f670f4ae5975c7c46721bb702a7997a9c53fcedaecb1a5",
+    "ASExistenceSolution.lean": "6d38a06e81a5475c0f599f63c57ea2773342b18858a491f57fedb45a30f8d4dc",
+    "ASModel.lean": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513",
+    "ASOpenClaims.lean": "35d9616b57001b7f510dadd1e878d162de2c67bb60a9e1015aaffe7eccf3aa19",
+    "ASProofs.lean": "fd8663671930a451c579f27d780714e9d5fd967f3001ab9399ee16a68d47e74d",
+    "FullAssembly.lean": "03c5b6735d188b9aa8d98480cacd5c40fc22535496aea1ac1972c3fdeaf5285b",
+    "InfluenceSubsystem.lean": "e3100bb6eb8f7690eec4290272d84c8c9d807a18afc3522bf917607b9c54b0c3",
+    "InputRegularity.lean": "d72f752fb11751772cffdbd7fc3d637b5175c3c76f72e0bf6fbef64d79455af2",
+    "IntegralBarrier.lean": "ddf0ba93eebdcce1f8e0c6b1de5d6e4b9662dbaebd744abbdfe6292678602858",
+    "MeaningSubsystem.lean": "7dc5ca0fc818cc7042cdd9ae3d54b8cd45d12bd4c25cd525448f87bf78ff64f5",
+    "PairTools.lean": "2db13bd123a901369f658af6497f5bf0bea3d5fd1e3544fe39bd851a42c697d3",
+    "ScalarSubsystems.lean": "92dc743220868c23e0b18feaa6f901277623dd0708f599e59a8e6d563aae7383",
+    "Stages.lean": "64d9af0cdc6e82f7a2d19a312a40f5590d2940dc7b3965ce62fdd6c1e15b7bd2",
+    "Volterra.lean": "26906df3b92869c297524e14c09b8bb5c15d6de60f8e7b0dbd93785d759f0952",
+    "comparator.json": "ae89719579ec36be1c9bde7c47f8bbbb1f36058d7cb8e3dc92dc981ed9902c26",
+    "existence-reference-freeze.json": "916be31ffe182f71d6d0ebfa063e46a7a863ea1d7279223638d406e292c689b8",
+    "lake-manifest.json": "340dcf5fa43f3cb3d51fa46ae2705d1bd3c31b16e3666f6c089c9051cf9cb7ef",
+    "lakefile.toml": "b45d9732ec340f8dbc9eb91856cc1cfb27f061579318f88c2db8302f1b44ec0e",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "source-equations.json": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318",
+    "source-protocol.json": "51a8c4e85f76717a52a3a0310ddefc96a162b4b70708db3ff52b3ee9b1230d92"
+  },
+  "proof_input_fingerprint": "9803b904385c5700fbedc52fa61a3b939814bc2d461cd6292e3f39980186b957",
+  "input_manifest_sha256": "56924f7c5a2609033da356c5e5a70782f4fee5174b891a972cd2e52e39aa6c2c",
+  "targets": [
+    "SocialAS.Verified.full_existence_uniqueness"
+  ],
+  "target_count": 1,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "checks": {
+    "comparator": "PASS",
+    "lean_kernel": "PASS",
+    "nanoda": "PASS",
+    "lean_build": "PASS"
+  },
+  "axiom_audit": "PASS",
+  "scope": "Existence and uniqueness of the full seven-coordinate continuous integral evolution on each finite interval under the original assumptions.",
+  "open_items": [
+    "FullSuppressionComparison",
+    "Repeated-encounter stochastic process and event coupling",
+    "Numerical error certification",
+    "Empirical validation of the social interpretation",
+    "The meaning-state bounds are outside this existence package and subsequently proved in as-invariance-lean."
+  ],
+  "evidence_sha256": {
+    "axioms.json": "c65d62c3f37f8de81cc9ed996d46917549378ee7f439ec127f863908156a5f9f",
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.log": "304e433451c95444e735f87fcdfe15f85d0482b6c7e442996c0b307b552bb4d1",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "5327c1f532aea573dc62b0c8225f259e848191e646aa66631009e4a0ab677a4b",
+    "verification-report.json": "36e9f36d754d112055f793374c1570ae7b915dfb363cb186b48c5f463db5680f"
+  }
+}

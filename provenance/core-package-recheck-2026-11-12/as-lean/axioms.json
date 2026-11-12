@@ -1,0 +1,152 @@
+{
+  "SocialAS.Verified.saturation_bounds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.effect_bounds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.exchange_no_increase": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.exchange_negative_unchanged": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.exchange_monotone": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.general_smoke_agrees": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.general_clay_agrees": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.total_influence_balance": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.received_meaning_bounds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.meaning_rate_bounds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.meaning_lower_boundary": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.meaning_upper_boundary": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.load_lower_boundary": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.activation_nonnegative": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.opening_bounds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.registration_bounds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.no_opening_no_registration": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.fully_qualified_blocks_challenge": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.confirmation_unchanged": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.branch_distribution": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.update_no_contribution": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.update_same_meaning": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.update_is_convex": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.update_preserves_simplex": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.constant_accumulation_solves": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.constant_exposure_solves": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.constant_exposure_nonnegative": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.clearing_solves": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.clearing_preserves_nonnegative": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.cleared_equal_meaning_has_zero_drift": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

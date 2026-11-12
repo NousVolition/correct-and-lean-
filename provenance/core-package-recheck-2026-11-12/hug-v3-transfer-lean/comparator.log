@@ -1,0 +1,67 @@
+Running as unit: run-u0.service; invocation ID: b7711f21bd8a4a7cb981254bcfb79a76
+Building V3TransferChallenge
+✔ [3128/3136] Built V3SourceCore (2.4s)
+✔ [3129/3136] Built V3SourceMemory (2.6s)
+✔ [3130/3136] Built V3SourceSocial (2.8s)
+✔ [3131/3136] Built V3SourceFlow (2.4s)
+✔ [3132/3136] Built V3SourceGeometry (11s)
+✔ [3133/3136] Built V3SourceSystem (2.2s)
+✔ [3134/3136] Built V3TransferDefinitions (1.0s)
+⚠ [3135/3136] Built V3TransferChallenge (2.1s)
+warning: V3TransferChallenge.lean:9:8: declaration uses `sorry`
+warning: V3TransferChallenge.lean:14:8: declaration uses `sorry`
+warning: V3TransferChallenge.lean:19:8: declaration uses `sorry`
+warning: V3TransferChallenge.lean:26:8: declaration uses `sorry`
+warning: V3TransferChallenge.lean:32:8: declaration uses `sorry`
+warning: V3TransferChallenge.lean:38:8: declaration uses `sorry`
+warning: V3TransferChallenge.lean:43:8: declaration uses `sorry`
+warning: V3TransferChallenge.lean:46:8: declaration uses `sorry`
+warning: V3TransferChallenge.lean:51:8: declaration uses `sorry`
+warning: V3TransferChallenge.lean:59:8: declaration uses `sorry`
+warning: V3TransferChallenge.lean:67:8: declaration uses `sorry`
+warning: V3TransferChallenge.lean:75:8: declaration uses `sorry`
+warning: V3TransferChallenge.lean:83:8: declaration uses `sorry`
+warning: V3TransferChallenge.lean:89:8: declaration uses `sorry`
+Build completed successfully (3136 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.TransferVerified.memory_stays_with_original_pair, HugV3.Source.TransferVerified.positive_record_has_positive_evidence, HugV3.Source.TransferVerified.positive_record_increases_cooperation_rate, HugV3.Source.TransferVerified.cooperation_changes_shared_norm_rate, HugV3.Source.TransferVerified.other_person_expression_rate_unchanged, HugV3.Source.TransferVerified.radius_rate_unchanged_at_comparison, HugV3.Source.TransferVerified.squared_guard_has_same_positive_side, HugV3.Source.TransferVerified.squared_guard_derivative_on_full_state, HugV3.Source.TransferVerified.transfer_to_distinct_partner_guard_rate, HugV3.Source.TransferVerified.domain_checked_transfer, HugV3.Source.TransferVerified.positive_alignment_opens_guard_instantaneously, HugV3.Source.TransferVerified.orthogonal_alignment_has_zero_instantaneous_transfer, HugV3.Source.TransferVerified.initial_coordinate_example, HugV3.Source.TransferVerified.full_trace_guard_observable, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3TransferChallenge
+Building V3TransferProofs
+⚠ [3135/3136] Built V3TransferProofs (3.8s)
+warning: V3TransferProofs.lean:148:10: This simp argument is unused:
+  guardSquared
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [guardSquaredRate, Finset.mul_sum, pow_two, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3TransferProofs.lean:148:40: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [guardSquared, guardSquaredRate, pow_two, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3TransferProofs.lean:147:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3TransferProofs.lean:148:74: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: V3TransferProofs.lean:152:32: Variable name `hpartners` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpartners
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (3136 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.TransferVerified.memory_stays_with_original_pair, HugV3.Source.TransferVerified.positive_record_has_positive_evidence, HugV3.Source.TransferVerified.positive_record_increases_cooperation_rate, HugV3.Source.TransferVerified.cooperation_changes_shared_norm_rate, HugV3.Source.TransferVerified.other_person_expression_rate_unchanged, HugV3.Source.TransferVerified.radius_rate_unchanged_at_comparison, HugV3.Source.TransferVerified.squared_guard_has_same_positive_side, HugV3.Source.TransferVerified.squared_guard_derivative_on_full_state, HugV3.Source.TransferVerified.transfer_to_distinct_partner_guard_rate, HugV3.Source.TransferVerified.domain_checked_transfer, HugV3.Source.TransferVerified.positive_alignment_opens_guard_instantaneously, HugV3.Source.TransferVerified.orthogonal_alignment_has_zero_instantaneous_transfer, HugV3.Source.TransferVerified.initial_coordinate_example, HugV3.Source.TransferVerified.full_trace_guard_observable, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3TransferProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 1min 4.949s
+CPU time consumed: 1min 21.351s
+Memory peak: 256.0K
+Memory swap peak: 0B

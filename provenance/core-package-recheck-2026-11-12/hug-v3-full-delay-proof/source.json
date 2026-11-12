@@ -1,0 +1,86 @@
+{
+  "package": "hug-v3-full-delay-proof",
+  "verified_utc": "2026-11-12T09:09:04.600524+00:00",
+  "execution_context": {
+    "repository": "NousVolition/hug-sims-lean-proofs",
+    "checkout_sha": "95e2107a71d9bc99d172bc4655877304c85fa899",
+    "head_sha": "5fc0fe45b6f6aea982eed3c4484e6d77da46a986",
+    "event": "pull_request",
+    "run_id": 43185187598,
+    "run_attempt": 1
+  },
+  "package_git_tree": "ccd0903fd453fa0d0f32d495114ecea717b111e7",
+  "compiler": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "tool_sha256": {
+    "lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "landrun": "4df5f685e564aac6a2df4134443c128da0a88e67044bb91c8993715c297a8b94",
+    "nanoda_bin": "901dedf8678a50136686d9c6057ab85d617ebf279922374bac9935b19c64ba71"
+  },
+  "proof_inputs": {
+    "V3DelayDefinitions.lean": "30b56fa5c6e5e4dd4cc528efad7e26158f0b2b91769aebc6df971d4269c4d295",
+    "V3DelayProofs.lean": "a21e672f3309abee5e49b1767d475483591076a681c38229461cbf30e0247fdc",
+    "V3FullCoordinates.lean": "a1a591e82d2a84ce6e4fcf5aba4f596ee7903aeff52386cb95b7b93ef740eb6b",
+    "V3FullDelayChallenge.lean": "34b261be8357cdb1a8b9991d26779697d2e7136250538132552b1b476430c67f",
+    "V3FullDelayProofs.lean": "eb884a6457cb2e93784ac72a940471addc26994479215152d53220449c9a1bd8",
+    "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+    "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+    "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+    "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+    "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+    "V3SourceSystem.lean": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d",
+    "comparator.json": "aed125469ef0e4b4a7bcea0d73d24de2d5af4dbe1f14db501586710db31e304d",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "e488ef72592336f5f958840aad191477a37fb71bea6b82cdbc69a8bb79eb836b",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "reference-freeze-current.json": "20c14cea9c82461cc0f71abc24d2d77ee26c167c0b838dbcdecc27dc368a1379",
+    "run-linux-check.sh": "2799f39ffb4e4dc8a9bb686150f7971746d17dd85d79cab70c9d91f7d809f292"
+  },
+  "proof_input_fingerprint": "3316aa1702a506ed5a5c60705bfb57fcb0f4b1768bc81ae13395f8c9f295bc9b",
+  "input_manifest_sha256": "d2b9899cbe0998a63bc8a0afd7c895472baf954a8c4144f0d949de9508c46ec5",
+  "targets": [
+    "HugV3.Source.FullDelayVerified.full_state_round_trip",
+    "HugV3.Source.FullDelayVerified.full_vector_round_trip",
+    "HugV3.Source.FullDelayVerified.full_state_equality",
+    "HugV3.Source.FullDelayVerified.full_segment_exists_unique",
+    "HugV3.Source.FullDelayVerified.history_preserved",
+    "HugV3.Source.FullDelayVerified.first_step_is_actual_delayed_rhs",
+    "HugV3.Source.FullDelayVerified.full_segment_is_delay_solution_on_step",
+    "HugV3.Source.FullDelayVerified.accepted_write_keeps_social",
+    "HugV3.Source.FullDelayVerified.completed_event_keeps_social",
+    "HugV3.Source.FullDelayVerified.accepted_boundary_keeps_social",
+    "HugV3.Source.FullDelayVerified.boundary_deterministic",
+    "HugV3.Source.FullDelayVerified.buffered_social_unchanged_by_write",
+    "HugV3.Source.FullDelayVerified.full_delayed_trace_has_accepted_writes",
+    "HugV3.Source.FullDelayVerified.full_segment_satisfies_original_coordinates"
+  ],
+  "target_count": 14,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "checks": {
+    "comparator": "PASS",
+    "lean_kernel": "PASS",
+    "nanoda": "PASS",
+    "lean_build": "PASS"
+  },
+  "axiom_audit": "PASS",
+  "scope": "Fourteen conditional fixed-delay and hybrid assembly statements for the supplied equations.",
+  "open_items": [
+    "Actual full-rate regularity and accepted-domain neighborhood",
+    "Continuation, nonvanishing fibers and readability bounds",
+    "Successful construction, encoding, capacity, budget and nonnegative writing work",
+    "Assembly through every step and event to time 1.6",
+    "Source-transcription correspondence",
+    "A specified rule for the latest variable/partial/mixed/reconstructed memory interpretation"
+  ],
+  "evidence_sha256": {
+    "axioms.json": "355aeb36a73df1796808859db91e19fe70db56bba9c8558e6aa69f011a9ba800",
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.log": "6591b52cb307f33ee268f00c8a18cd3c45ca7c1778ffef9d55c16e52f4f7ac43",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "dd5cc9f6bfd829103df4e6488191db0cec662a1133da83381b1fdbde68c6272b",
+    "verification-report.json": "4605bc0471e18b7d034cd3035e118e3fa2728b0b9c9efee1e8fce31e4dcf3a80"
+  }
+}
