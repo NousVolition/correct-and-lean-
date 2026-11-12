@@ -1,0 +1,141 @@
+Running as unit: run-u0.service; invocation ID: 1efdac9102f14c108541db3ac2b00d53
+Building HugAllChallenge
+✔ [3416/3421] Built HugModel (1.8s)
+⚠ [3417/3421] Built HugChallenge (1.7s)
+warning: HugChallenge.lean:5:8: declaration uses `sorry`
+warning: HugChallenge.lean:7:8: declaration uses `sorry`
+warning: HugChallenge.lean:9:8: declaration uses `sorry`
+warning: HugChallenge.lean:10:8: declaration uses `sorry`
+warning: HugChallenge.lean:11:8: declaration uses `sorry`
+warning: HugChallenge.lean:13:8: declaration uses `sorry`
+warning: HugChallenge.lean:15:8: declaration uses `sorry`
+warning: HugChallenge.lean:16:8: declaration uses `sorry`
+warning: HugChallenge.lean:18:8: declaration uses `sorry`
+warning: HugChallenge.lean:19:8: declaration uses `sorry`
+warning: HugChallenge.lean:21:8: declaration uses `sorry`
+warning: HugChallenge.lean:23:8: declaration uses `sorry`
+warning: HugChallenge.lean:25:8: declaration uses `sorry`
+warning: HugChallenge.lean:27:8: declaration uses `sorry`
+warning: HugChallenge.lean:28:8: declaration uses `sorry`
+warning: HugChallenge.lean:30:8: declaration uses `sorry`
+warning: HugChallenge.lean:32:8: declaration uses `sorry`
+warning: HugChallenge.lean:33:8: declaration uses `sorry`
+warning: HugChallenge.lean:36:8: declaration uses `sorry`
+warning: HugChallenge.lean:38:8: declaration uses `sorry`
+warning: HugChallenge.lean:39:8: declaration uses `sorry`
+warning: HugChallenge.lean:40:8: declaration uses `sorry`
+warning: HugChallenge.lean:42:8: declaration uses `sorry`
+warning: HugChallenge.lean:44:8: declaration uses `sorry`
+warning: HugChallenge.lean:46:8: declaration uses `sorry`
+warning: HugChallenge.lean:48:8: declaration uses `sorry`
+warning: HugChallenge.lean:50:8: declaration uses `sorry`
+✔ [3418/3421] Built ActiveHugModel (1.8s)
+⚠ [3419/3421] Built ActiveHugChallenge (1.6s)
+warning: ActiveHugChallenge.lean:5:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:6:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:7:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:8:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:10:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:14:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:16:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:18:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:25:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:27:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:29:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:32:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:34:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:37:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:40:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:43:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:46:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:48:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:51:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:53:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:55:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:57:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:59:8: declaration uses `sorry`
+warning: ActiveHugChallenge.lean:60:8: declaration uses `sorry`
+✔ [3420/3421] Built HugAllChallenge (1.5s)
+Build completed successfully (3421 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, Hug.Verified.pressure_nonnegative, Hug.Verified.pressure_threshold, Hug.Verified.pressure_above_one_allowed, Hug.Verified.tau_positive, Hug.Verified.memory_update_bounds, Hug.Verified.imprint_nonnegative, Hug.Verified.no_time_no_change, Hug.Verified.constant_pressure_ode, Hug.Verified.memory_above_one_reachable, Hug.Verified.zero_pressure_retains_imprint, Hug.Verified.breathing_bounds, Hug.Verified.pressure_scale_bounds, Hug.Verified.reciprocal_squeeze_bounds, Hug.Verified.reciprocal_area_factor, Hug.Verified.inverse_stretch, Hug.Verified.mirror_arms, Hug.Verified.exact_tip_closure, Hug.Verified.tolerance_is_not_exact_closure, Hug.Verified.timed_stretch_bounds, Hug.Verified.timed_maximum, Hug.Verified.smoothstep_bounds, Hug.Verified.opening_threshold, Hug.Verified.opening_latched, Hug.Verified.lower_pressure_does_not_reclose, Hug.Verified.full_open_after_duration, Hug.Verified.step_preserves_state, Hug.Verified.repeated_steps_nonnegative, ActiveHug.Verified.protocol_physical, ActiveHug.Verified.sigmoid_bounds, ActiveHug.Verified.strain_nonnegative, ActiveHug.Verified.guard_points_inward, ActiveHug.Verified.guard_interval_invariant, ActiveHug.Verified.energy_nonnegative, ActiveHug.Verified.energy_chain_identity, ActiveHug.Verified.energy_derivative, ActiveHug.Verified.material_loss_nonnegative, ActiveHug.Verified.guard_loss_nonnegative, ActiveHug.Verified.passive_unforced_energy_rate, ActiveHug.Verified.active_energy_can_increase, ActiveHug.Verified.participant_difference_closes, ActiveHug.Verified.directional_guard_sum, ActiveHug.Verified.shared_directional_sum_equal, ActiveHug.Verified.zero_damper_recovers_old_acceleration, ActiveHug.Verified.display_shear_reversible, ActiveHug.Verified.display_preserves_height, ActiveHug.Verified.capped_source_bound, ActiveHug.Verified.capped_source_sign_reverse, ActiveHug.Verified.pair_off_below_centre, ActiveHug.Verified.paired_exchange_cancels, ActiveHug.Verified.response_exactly_off, ActiveHug.Verified.sign_reversal_same_force, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from HugAllChallenge
+Building HugAllSolution
+✔ [3418/3422] Built HugBarrier (2.1s)
+⚠ [3419/3422] Built HugSolution (2.6s)
+warning: HugSolution.lean:36:47: Variable name `ht` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ht
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3420/3422] Built ActiveHugSolution (2.0s)
+warning: ActiveHugSolution.lean:62:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ActiveHugSolution.lean:133:31: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [3421/3422] Built HugAllSolution (1.5s)
+info: HugAllSolution.lean:4:0: 'Hug.Verified.pressure_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:5:0: 'Hug.Verified.pressure_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:6:0: 'Hug.Verified.pressure_above_one_allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:7:0: 'Hug.Verified.tau_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:8:0: 'Hug.Verified.memory_update_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:9:0: 'Hug.Verified.imprint_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:10:0: 'Hug.Verified.no_time_no_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:11:0: 'Hug.Verified.constant_pressure_ode' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:12:0: 'Hug.Verified.memory_above_one_reachable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:13:0: 'Hug.Verified.zero_pressure_retains_imprint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:14:0: 'Hug.Verified.breathing_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:15:0: 'Hug.Verified.pressure_scale_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:16:0: 'Hug.Verified.reciprocal_squeeze_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:17:0: 'Hug.Verified.reciprocal_area_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:18:0: 'Hug.Verified.inverse_stretch' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:19:0: 'Hug.Verified.mirror_arms' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:20:0: 'Hug.Verified.exact_tip_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:21:0: 'Hug.Verified.tolerance_is_not_exact_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:22:0: 'Hug.Verified.timed_stretch_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:23:0: 'Hug.Verified.timed_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:24:0: 'Hug.Verified.smoothstep_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:25:0: 'Hug.Verified.opening_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:26:0: 'Hug.Verified.opening_latched' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:27:0: 'Hug.Verified.lower_pressure_does_not_reclose' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:28:0: 'Hug.Verified.full_open_after_duration' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:29:0: 'Hug.Verified.step_preserves_state' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:30:0: 'Hug.Verified.repeated_steps_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:31:0: 'ActiveHug.Verified.protocol_physical' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:32:0: 'ActiveHug.Verified.sigmoid_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:33:0: 'ActiveHug.Verified.strain_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:34:0: 'ActiveHug.Verified.guard_points_inward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:35:0: 'ActiveHug.Verified.guard_interval_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:36:0: 'ActiveHug.Verified.energy_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:37:0: 'ActiveHug.Verified.energy_chain_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:38:0: 'ActiveHug.Verified.energy_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:39:0: 'ActiveHug.Verified.material_loss_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:40:0: 'ActiveHug.Verified.guard_loss_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:41:0: 'ActiveHug.Verified.passive_unforced_energy_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:42:0: 'ActiveHug.Verified.active_energy_can_increase' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:43:0: 'ActiveHug.Verified.participant_difference_closes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:44:0: 'ActiveHug.Verified.directional_guard_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:45:0: 'ActiveHug.Verified.shared_directional_sum_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:46:0: 'ActiveHug.Verified.zero_damper_recovers_old_acceleration' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:47:0: 'ActiveHug.Verified.display_shear_reversible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:48:0: 'ActiveHug.Verified.display_preserves_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:49:0: 'ActiveHug.Verified.capped_source_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:50:0: 'ActiveHug.Verified.capped_source_sign_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:51:0: 'ActiveHug.Verified.pair_off_below_centre' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:52:0: 'ActiveHug.Verified.paired_exchange_cancels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:53:0: 'ActiveHug.Verified.response_exactly_off' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HugAllSolution.lean:54:0: 'ActiveHug.Verified.sign_reversal_same_force' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3422 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, Hug.Verified.pressure_nonnegative, Hug.Verified.pressure_threshold, Hug.Verified.pressure_above_one_allowed, Hug.Verified.tau_positive, Hug.Verified.memory_update_bounds, Hug.Verified.imprint_nonnegative, Hug.Verified.no_time_no_change, Hug.Verified.constant_pressure_ode, Hug.Verified.memory_above_one_reachable, Hug.Verified.zero_pressure_retains_imprint, Hug.Verified.breathing_bounds, Hug.Verified.pressure_scale_bounds, Hug.Verified.reciprocal_squeeze_bounds, Hug.Verified.reciprocal_area_factor, Hug.Verified.inverse_stretch, Hug.Verified.mirror_arms, Hug.Verified.exact_tip_closure, Hug.Verified.tolerance_is_not_exact_closure, Hug.Verified.timed_stretch_bounds, Hug.Verified.timed_maximum, Hug.Verified.smoothstep_bounds, Hug.Verified.opening_threshold, Hug.Verified.opening_latched, Hug.Verified.lower_pressure_does_not_reclose, Hug.Verified.full_open_after_duration, Hug.Verified.step_preserves_state, Hug.Verified.repeated_steps_nonnegative, ActiveHug.Verified.protocol_physical, ActiveHug.Verified.sigmoid_bounds, ActiveHug.Verified.strain_nonnegative, ActiveHug.Verified.guard_points_inward, ActiveHug.Verified.guard_interval_invariant, ActiveHug.Verified.energy_nonnegative, ActiveHug.Verified.energy_chain_identity, ActiveHug.Verified.energy_derivative, ActiveHug.Verified.material_loss_nonnegative, ActiveHug.Verified.guard_loss_nonnegative, ActiveHug.Verified.passive_unforced_energy_rate, ActiveHug.Verified.active_energy_can_increase, ActiveHug.Verified.participant_difference_closes, ActiveHug.Verified.directional_guard_sum, ActiveHug.Verified.shared_directional_sum_equal, ActiveHug.Verified.zero_damper_recovers_old_acceleration, ActiveHug.Verified.display_shear_reversible, ActiveHug.Verified.display_preserves_height, ActiveHug.Verified.capped_source_bound, ActiveHug.Verified.capped_source_sign_reverse, ActiveHug.Verified.pair_off_below_centre, ActiveHug.Verified.paired_exchange_cancels, ActiveHug.Verified.response_exactly_off, ActiveHug.Verified.sign_reversal_same_force, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from HugAllSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 1min 1.177s
+CPU time consumed: 1min 9.941s
+Memory peak: 256.0K
+Memory swap peak: 0B

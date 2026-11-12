@@ -1,0 +1,14 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Nine identities concerning current physical inputs, buffered social inputs and zero delay.",
+  "open_items": [
+    "DDE solution existence/uniqueness",
+    "Invariance/stability",
+    "Timing across delayed discontinuities",
+    "Equivalence to physiological processing or measured cognition",
+    "Full historical buffer solver"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Ten identities and local checks for the six-field formulation of the joint Hug\u2013Navier evolution.",
+  "open_items": [
+    "Conditional identities do not prove a full PDE trajectory exists.",
+    "Pressure equivalence is not nonuniqueness of the evolving state.",
+    "Local guard boundary signs do not prove global guard invariance.",
+    "Source-to-formalization fidelity was manually reviewed, not proved by Comparator.",
+    "Native equations are exact-real statements, not a certificate of the numerical solver.",
+    "Initial-value solution class still needs analytic estimates and any required strengthened regularity.",
+    "A/S kernel/domain/initial/boundary/response assumptions still have to be fixed for a particular existence theorem."
+  ]
+}

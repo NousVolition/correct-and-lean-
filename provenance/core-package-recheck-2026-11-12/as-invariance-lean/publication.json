@@ -1,0 +1,44 @@
+{
+  "artifact_id": 13927499940,
+  "artifact_name": "core19-proof-as-invariance-lean-1",
+  "artifact_zip_sha256": "4d1ea170fb2dad5097fb5da18446b4500d7afb7de91ce83ae58649280ec04c21",
+  "artifact_url": "https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43185187598/artifacts/13927499940",
+  "transformation": "Only CI home-directory prefixes in log text become $CI_HOME. Original hashes remain recorded; proof inputs, reports, axiom lists and source receipt are unchanged.",
+  "files": {
+    "comparator.exit": {
+      "artifact_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "published_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "ci_home_prefix_replacements": 0
+    },
+    "axioms.json": {
+      "artifact_sha256": "85b9d7e6eb2783dc79c37815f4ca66a06c9a7c685e81fae9405c7ee687a57c31",
+      "published_sha256": "85b9d7e6eb2783dc79c37815f4ca66a06c9a7c685e81fae9405c7ee687a57c31",
+      "ci_home_prefix_replacements": 0
+    },
+    "comparator.log": {
+      "artifact_sha256": "27d1c0bdb247e6723860af6a94c00f6c2ffbaed59220e9faae1da002b25b220f",
+      "published_sha256": "27d1c0bdb247e6723860af6a94c00f6c2ffbaed59220e9faae1da002b25b220f",
+      "ci_home_prefix_replacements": 0
+    },
+    "lake-build.exit": {
+      "artifact_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "published_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "ci_home_prefix_replacements": 0
+    },
+    "lake-build.log": {
+      "artifact_sha256": "ae394e8340c63629520f260f367956f2e7c4880c127326cc59270805df822c6a",
+      "published_sha256": "ae394e8340c63629520f260f367956f2e7c4880c127326cc59270805df822c6a",
+      "ci_home_prefix_replacements": 0
+    },
+    "source.json": {
+      "artifact_sha256": "7331228123ee8022981b70b29c7e00e4edaa64a8d4f31e4663f374146acc40d0",
+      "published_sha256": "7331228123ee8022981b70b29c7e00e4edaa64a8d4f31e4663f374146acc40d0",
+      "ci_home_prefix_replacements": 0
+    },
+    "verification-report.json": {
+      "artifact_sha256": "e00b28058563bdc46791d072471810c73e1b882b6b920c76052d3a990cc27c1f",
+      "published_sha256": "e00b28058563bdc46791d072471810c73e1b882b6b920c76052d3a990cc27c1f",
+      "ci_home_prefix_replacements": 0
+    }
+  }
+}

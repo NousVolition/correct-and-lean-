@@ -1,0 +1,32 @@
+Running as unit: run-u0.service; invocation ID: 26f2abb713474f7eb5c9687295999226
+Building FullChallenge
+✔ [3366/3369] Built FullModel (2.6s)
+✔ [3367/3369] Built OriginalAS (2.3s)
+⚠ [3368/3369] Built FullChallenge (2.2s)
+warning: FullChallenge.lean:9:8: declaration uses `sorry`
+warning: FullChallenge.lean:16:8: declaration uses `sorry`
+warning: FullChallenge.lean:18:8: declaration uses `sorry`
+warning: FullChallenge.lean:23:8: declaration uses `sorry`
+warning: FullChallenge.lean:30:8: declaration uses `sorry`
+warning: FullChallenge.lean:39:8: declaration uses `sorry`
+warning: FullChallenge.lean:47:8: declaration uses `sorry`
+warning: FullChallenge.lean:64:8: declaration uses `sorry`
+warning: FullChallenge.lean:68:8: declaration uses `sorry`
+warning: FullChallenge.lean:76:8: declaration uses `sorry`
+Build completed successfully (3369 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugNavierSingle.Verified.full_material_energy_balance, HugNavierSingle.Verified.source_initial_incompressible, HugNavierSingle.Verified.full_pressure_gauge, HugNavierSingle.Verified.full_pressure_not_unique, HugNavierSingle.Verified.guards_inward_at_spatial_boundaries, HugNavierSingle.Verified.viscosity_and_stress_dissipation, HugNavierSingle.Verified.full_variable_stress_divergence, OriginalAS.Verified.original_memory_derivative, OriginalAS.Verified.original_pressure_gauge, OriginalAS.Verified.normalized_momentum_equivalent, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from FullChallenge
+Building FullChecks
+✔ [3368/3369] Built FullChecks (3.7s)
+Build completed successfully (3369 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugNavierSingle.Verified.full_material_energy_balance, HugNavierSingle.Verified.source_initial_incompressible, HugNavierSingle.Verified.full_pressure_gauge, HugNavierSingle.Verified.full_pressure_not_unique, HugNavierSingle.Verified.guards_inward_at_spatial_boundaries, HugNavierSingle.Verified.viscosity_and_stress_dissipation, HugNavierSingle.Verified.full_variable_stress_divergence, OriginalAS.Verified.original_memory_derivative, OriginalAS.Verified.original_pressure_gauge, OriginalAS.Verified.normalized_momentum_equivalent, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from FullChecks
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 1min 55.084s
+CPU time consumed: 2min 1.664s
+Memory peak: 256.0K
+Memory swap peak: 0B

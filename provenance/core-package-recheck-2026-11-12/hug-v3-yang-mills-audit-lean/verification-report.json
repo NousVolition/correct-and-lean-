@@ -1,0 +1,13 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Twenty comparison statements for Green strain, frame transformations and evolution in Hug v3.",
+  "open_items": [
+    "Full Yang-Mills structure and dynamical equivalence",
+    "Full hybrid and delayed existence, uniqueness and continuation",
+    "Formal equivalence of exact-real Lean transcription with Python numerical execution",
+    "Empirical interpretation of the student, idea and response variables"
+  ]
+}

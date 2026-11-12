@@ -1,0 +1,47 @@
+{
+  "HugV3.Source.DelayVerified.socialFrom_self": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.DelayVerified.present_physical_blocks": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.DelayVerified.buffered_social_blocks": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.DelayVerified.material_records_remain_present": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.DelayVerified.zero_delay_recovers_original": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.DelayVerified.delay_preserves_current_physical_rate": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.DelayVerified.delay_uses_buffered_social_rate": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.DelayVerified.buffer_reads_strictly_past": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.DelayVerified.history_zero_delay": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

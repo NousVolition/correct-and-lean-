@@ -1,0 +1,98 @@
+{
+  "package": "hug-navier-full-audit-lean",
+  "verified_utc": "2026-11-12T08:55:59.976894+00:00",
+  "execution_context": {
+    "repository": "NousVolition/hug-sims-lean-proofs",
+    "checkout_sha": "95e2107a71d9bc99d172bc4655877304c85fa899",
+    "head_sha": "5fc0fe45b6f6aea982eed3c4484e6d77da46a986",
+    "event": "pull_request",
+    "run_id": 43185187598,
+    "run_attempt": 1
+  },
+  "package_git_tree": "d3e99d41a876154fa074b3e06c0f834d5b5e1ad9",
+  "compiler": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "tool_sha256": {
+    "lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "landrun": "4df5f685e564aac6a2df4134443c128da0a88e67044bb91c8993715c297a8b94",
+    "nanoda_bin": "901dedf8678a50136686d9c6057ab85d617ebf279922374bac9935b19c64ba71"
+  },
+  "proof_inputs": {
+    "ActiveHugModel.lean": "be9d734610480ae9376bfd38b287c2bb9b7758cb50e29109bcf26656a7885f19",
+    "AuditChallenge.lean": "26312531ea1a656f26eb8a74030b708394b605bbaafee2aea041f9dd8be1be42",
+    "AuditSolution.lean": "d3c34258c30618b8def97977e45d785685fc82918c95a40edf1383c5a01d626e",
+    "FullEquationSpecification.lean": "26029209cbd5be35fe017d40e4dae58d3f000d3ab073370f1bab1cb6011d1ead",
+    "HugModel.lean": "6a79142d5fa42642bc47a0246f62b4ab89d0c07ba6257fd0d41e39d6f89b61f5",
+    "comparator.json": "a96de4cfe15038efe4858ebd4d02d7cb57c686093d0430f26adc8402e4f5af3a",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "6913cd3422cca99e3c253be6d517c3e887ab1c3c4be482f5580453c420936289",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "reference-freeze.json": "ef8c0efdb744f8f0cb161df6dcef6639a99cf06c3bbc8d03dcbe3a42a4d40907",
+    "run-linux-check.sh": "75f88946236c658f519685a43a70f30751b98785265c6b09d8c446a38060c929",
+    "source-audit.json": "a3fca58aea684346dd57d244aca9fb1176cceaf0d8f55c976a1617cfc2ff7538",
+    "sources/active_methods.md": "96e9d6c6584111257bf0bf2c1857f46cae63dfeee0a52369dcad3c5bb645231a",
+    "sources/active_model.py": "8b5652c389328bf8991fbe1ff0bd0117792bf7156d4424e0043979d23397bdf7",
+    "sources/corrected_model.md": "a93970b32721834d3a725e781ed66066ef067b16ab36d3fb71eae99fd3a6806b",
+    "sources/dynamic_q.md": "157aae2773d9463f2479c411b46e7d7dd1091d3ac12e56cdd9c105d8493d243b",
+    "sources/feedback_methods.md": "16097bc510e33078e72cee1a2ffdc66dad42df5c26de96532233d13fd542afc2",
+    "sources/finalized_mirror.md": "5acf15276083f4c5f608cfd59989ff96885f8fabe57b28bfd5200f02761c5e21",
+    "sources/hug_breakdown_code.py": "b86aaf58dd3fd72f0bd8860d52fe62bb0c35d119f8a713ba40db7cefa13f90e5",
+    "sources/hug_breakdown_readme.md": "fdba96d1ac86fe732ae5f88c2f7f78e2cb164966b5d160a0275695bc9ee1e353",
+    "sources/hugged_ring.py": "59826cc3bfa4f7868823f169c5f8df552387f7616c448dc16259f502ff39e8df",
+    "sources/interaction.md": "aa9af72b9762ff70204131bc160aec712e4071ec17e6a4f3ac832e2e7a4a5808",
+    "sources/mirror_model.md": "e764eeb90497ff1fa8dd7998e546b29af5278c0479790e8ddd941f22daa085e7",
+    "sources/movement_spec.md": "69b54155130d4fc4fb21f2c2cd5e9b436013f42ffd9b94dd215644de72f49024",
+    "sources/ns_fields_methods.md": "b4a844c9488972267f2dde4ad030b658459063b594743a1de3dc66a77a8c484f",
+    "sources/ns_fields_model.py": "60948e928f31d57e8384f2f7ccd68d4ab9664d6aee3398f82407324bb0f42e30",
+    "sources/ns_protocol.json": "ba767c26ec3324f0441e158475910e12b9d225ab1f99859b534f51c280a3ebae",
+    "sources/original-corpus-passages.json": "5945c73a3a47d787db4b45640675555c08a23b0daa863ce863c92a8e1fb723fa",
+    "sources/original-source-manifest.json": "0a93f00b13f08c799b507ec4900a673bd45280f75015aa70fda77aae046a9639",
+    "sources/original-word-paragraphs.json": "d9c23d1ac5766a54d2f31ece666dd15f442a381501452d39e8d4b47e58562d5f"
+  },
+  "proof_input_fingerprint": "5135dce16b178a01fe8c78f62bf3759e7a8eb0236080b7f37ff6ab07b72cf9da",
+  "input_manifest_sha256": "ade64c6a4f787704f087187b78ec6d31c5f372ce4d5c53deda2f2d55d43311e4",
+  "targets": [
+    "HugNavierFullAudit.Verified.acceleration_force_difference",
+    "HugNavierFullAudit.Verified.force_recovered_from_acceleration",
+    "HugNavierFullAudit.Verified.same_acceleration_iff_same_force",
+    "HugNavierFullAudit.Verified.same_motion_requires_same_force",
+    "HugNavierFullAudit.Verified.energy_input_difference",
+    "HugNavierFullAudit.Verified.zero_speed_energy_not_force",
+    "HugNavierFullAudit.Verified.nonuniform_initial_requires_spatial_map"
+  ],
+  "target_count": 7,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "checks": {
+    "comparator": "PASS",
+    "lean_kernel": "PASS",
+    "nanoda": "PASS",
+    "lean_build": "PASS"
+  },
+  "axiom_audit": "PASS",
+  "scope": "Seven audit statements concerning the supplied field and interface information for the proposed joint evolution.",
+  "open_items": [
+    "Clock/unit conversion",
+    "State--field observation or projection map",
+    "Evolving fluid load on Hug",
+    "Reciprocal Hug action on fluid",
+    "Compatible joint geometry and initial/boundary data",
+    "Energy accounting without double-counting resistance",
+    "Full joint existence and uniqueness in a stated solution class",
+    "Field and interface regularity",
+    "Incompressibility and coupled guard bounds",
+    "Reciprocal work/energy balance",
+    "Continuation or breakdown conditions for the stated horizon",
+    "Pressure uniqueness modulo an additive time function, or after a gauge choice"
+  ],
+  "evidence_sha256": {
+    "axioms.json": "633bdf475419299690f3aa3246e74d35249d7fae86f1981adda50eab8ac4a194",
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.log": "9af1d895e07671b380d8aa594e116d0311e24b05877463baf474f5224d859b61",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "a7645f3c8f85c2dbd1ee4f7c80996be29894a2144128e8647b94c087970fb5e8",
+    "verification-report.json": "065e9ca3a8fa1970b3590db2680272a11c496b007b1c1fa1a6de54bfbf7d1822"
+  }
+}

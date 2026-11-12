@@ -1,0 +1,13 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Nine conditional assembly and event results for inter-event solutions, jumps and full hybrid traces.",
+  "open_items": [
+    "Source-equivalent law and event implementation",
+    "Correct initial state and successful capture",
+    "StepSolvability over each full interval and successful admissible boundary update",
+    "SegmentUniqueness derived from the full unchanged RHS"
+  ]
+}

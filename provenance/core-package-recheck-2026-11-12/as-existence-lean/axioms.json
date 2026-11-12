@@ -1,0 +1,7 @@
+{
+  "SocialAS.Verified.full_existence_uniqueness": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

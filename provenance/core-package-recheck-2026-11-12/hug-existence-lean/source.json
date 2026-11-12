@@ -1,0 +1,84 @@
+{
+  "package": "hug-existence-lean",
+  "verified_utc": "2026-11-12T08:54:15.949431+00:00",
+  "execution_context": {
+    "repository": "NousVolition/hug-sims-lean-proofs",
+    "checkout_sha": "95e2107a71d9bc99d172bc4655877304c85fa899",
+    "head_sha": "5fc0fe45b6f6aea982eed3c4484e6d77da46a986",
+    "event": "pull_request",
+    "run_id": 43185187598,
+    "run_attempt": 1
+  },
+  "package_git_tree": "44c47833aa3e3b59464039efa870a73e0bb37915",
+  "compiler": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "tool_sha256": {
+    "lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "landrun": "4df5f685e564aac6a2df4134443c128da0a88e67044bb91c8993715c297a8b94",
+    "nanoda_bin": "901dedf8678a50136686d9c6057ab85d617ebf279922374bac9935b19c64ba71"
+  },
+  "proof_inputs": {
+    "ActiveHugModel.lean": "be9d734610480ae9376bfd38b287c2bb9b7758cb50e29109bcf26656a7885f19",
+    "ActiveHugSolution.lean": "f9ecbc13c50713f85cf8a3268652798be83f03efb0548b7a3ee39d3725415483",
+    "HugBarrier.lean": "1fd724d9e2530e148ab3a114a5b52daa8fa6be180ec09c307451b771ac118bd7",
+    "HugBounds.lean": "b003f5d850ecb2f4505efdb6499a06520f8cdd17952c37eabdc1078caba71931",
+    "HugBox.lean": "2c16dedb99d9eb6c559c4f00db709e8baef9546cb814236dd7f481cffbba1bfa",
+    "HugConstruction.lean": "5f05cab2028937a8d0686dc97acc66cdea8af1fdfb282fc68985d4d3668b716f",
+    "HugExistenceChallenge.lean": "0570e7126e3692b8d807509c66c32eb17ca047f2ded8cae4a24b0f35abaae10b",
+    "HugExistenceSolution.lean": "66544d845da04051b42c47976435dbe4be07d3b90d663bef220a5ed89f2bee5f",
+    "HugFullClaim.lean": "bddda36f0d3f484ffcb5fa0540fe608306fd6e17476875b0f13c99cd41ebd9ba",
+    "HugModel.lean": "6a79142d5fa42642bc47a0246f62b4ab89d0c07ba6257fd0d41e39d6f89b61f5",
+    "HugTools.lean": "de77eafc725f95a78812d2c39041bcb90785a3627ba73c12e028abaff937f33e",
+    "Volterra.lean": "26906df3b92869c297524e14c09b8bb5c15d6de60f8e7b0dbd93785d759f0952",
+    "comparator.json": "ffc1b8c7fec34eacf5953717c258305eed0ba75d4f711fd9add21009840911a0",
+    "existence-reference-freeze.json": "b29056a545d1519ff10fa50c961dc27b9431b1fe70a5a57cf5731302b645e8dc",
+    "lake-manifest.json": "9a15898542845702f362d847fb2b63ebbff8620f2f52be77ede0522f22f0a3e4",
+    "lakefile.toml": "c4e68842060fa4ab1bb460adc2ef081f178b4653ab1d89c967fdd8ae7a58259c",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "source-provenance.json": "5df317871148b075d523d351d931469a1a7ca9d47904f177b1ed184db29205fa",
+    "sources/active-guard-METHODS.md": "d1d280ecd06c1f31aaa46c3117b5c84cd6534dd24d19ce10494f633221c047bd",
+    "sources/active-guard-model.py": "e1f83325f63c956d399294b6dda748a34d6f469d8a42319f28e1d02ea3366921",
+    "sources/active-guard-protocol.json": "56ce38b4ddd8b8e94272f563cfd16b92170e48c7c4769dea15b46133a1293b4f",
+    "sources/hug_envelope.py": "ca9ecb26d42a629c89d73e19216c3d2a0da2b77c8bccd5b6ab0064a1b225a83c",
+    "sources/interaction-equation.md": "5b3621f4832403dd14a07a032b593afed53b53c122d96b858e4a2c6fc959b0ac",
+    "sources/memory-METHODS.md": "fd1c7a2008a33758a4e858f4c1a3cb23d29e1e400ba5441b5d24162e993e323e",
+    "sources/movement-SPECIFICATION_STATUS.md": "2d6243672265427dd77ad0414a1c0df4aae9ef7bf4fa93c4abc589571f955600",
+    "sources/norm-entropy-mirror.md": "0ecd9b9c68241c5194e6dac3a3cf3f917ff8095fe685084140091a6d90cb1bd3",
+    "sources/pressure_envelope.py": "0e49e34fdde4b9f9d6f62b428dcffcef8f64cd70a743d0acacee5c71d01b8146",
+    "sources/soft-envelope.md": "d00daaf72ceaf23089164ee4f6ca33d73dd18e0aa4b65fb501b0735ed694c242"
+  },
+  "proof_input_fingerprint": "02fb9341fe9e252ba4240d601bdbcc2c111ac67b63779d0cabeb8065d3cab446",
+  "input_manifest_sha256": "854e78189ac047a8a8fecf7b416a92c411066ee612d36b61f3c0fb079688b595",
+  "targets": [
+    "ActiveHug.Verified.full_coupled_existence_uniqueness"
+  ],
+  "target_count": 1,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "checks": {
+    "comparator": "PASS",
+    "lean_kernel": "PASS",
+    "nanoda": "PASS",
+    "lean_build": "PASS"
+  },
+  "axiom_audit": "PASS",
+  "scope": "Finite-horizon existence and uniqueness for the primary directional eight-coordinate Hug model with frozen parameters and the stated inputs.",
+  "open_items": [
+    "Arbitrary alternative parameter/control variants",
+    "Discontinuous input or initially inadmissible guards",
+    "Limit cycles, synchronization or recovery time",
+    "Separate full memory-field extension",
+    "Physical or social validation",
+    "Floating-point and solver execution correctness"
+  ],
+  "evidence_sha256": {
+    "axioms.json": "b413d697fbaed27458b494b004c16b6738bfe8fe2b687020d4abb371634b10d6",
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.log": "fba57d5ca8d2d3ca8b475b8a2e4fd6c5dd6439687663f8f3975a495d57d78a35",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "6e23eb0d071e1fb45e06e9e79fc03bb112ede9240efdd22251bdd3cf8f091880",
+    "verification-report.json": "fc53436ec80cef27c8813f89af2ada1a75cf12441c0f9bb993622fe0442ffa4f"
+  }
+}

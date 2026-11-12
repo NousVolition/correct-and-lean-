@@ -1,0 +1,46 @@
+{
+  "Hybrid.Verified.read_margin_stable": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hybrid.Verified.decoded_value_stable": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hybrid.Verified.trace_uniqueness": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hybrid.Verified.trace_exists": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hybrid.Verified.assemble_exists_unique": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hybrid.Verified.event_failure_excluded": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hybrid.Verified.v3_main_time_order": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hybrid.Verified.v3_simultaneous_event_order": [
+    "propext",
+    "Quot.sound"
+  ],
+  "Hybrid.Verified.v3_main_conditional": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

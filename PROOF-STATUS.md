@@ -2,6 +2,8 @@
 
 ## Results with recorded formal verification
 
+- **Fresh recheck of the 19 core packages (12 November 2026).** All 19 passed Comparator, Lean's default kernel, nanoda, Lake and the configured axiom audit on GitHub. The 306 configured declarations overlap between packages. The fresh receipts preserve each original scope and open-item list; full Hug–Navier PDE well-posedness and full Hug v3 hybrid/delayed continuation remain open. [Fresh reports, logs and exact inputs](provenance/core-package-recheck-2026-11-12/README.md).
+
 - **Ambiguous observations and a separate abelian field equation.** The Tick 41 and Pair 25 instances concern supplied summaries and exact transcribed numbers. The real projection `readJet` example proves that equal order-zero readings need not determine the first derivative. Separately, the abelian-potential comparison proves equal data on `x₁ = 0` with residuals 0 and 2. The package contains passing local Lean/axiom logs and a dedicated GitHub build; GitHub evidence is attached to its specific run. Simulator/transcription verification, admissible Yang–Mills families, Comparator and nanoda remain outside these checks. [Package, evidence and scope](research/ambiguous-observation-lean/README.md) · [Credits](research/ambiguous-observation-lean/CREDITS.md)
 
 

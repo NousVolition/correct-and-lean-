@@ -1,0 +1,22 @@
+{
+  "HugNavierWellposedness.Verified.perturbation_regular": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierWellposedness.Verified.nearby_uniform_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierWellposedness.Verified.exact_rate_difference": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugNavierWellposedness.Verified.no_uniform_local_rate_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

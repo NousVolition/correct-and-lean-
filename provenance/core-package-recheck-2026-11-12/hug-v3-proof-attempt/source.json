@@ -1,0 +1,92 @@
+{
+  "package": "hug-v3-proof-attempt",
+  "verified_utc": "2026-11-12T09:01:11.836119+00:00",
+  "execution_context": {
+    "repository": "NousVolition/hug-sims-lean-proofs",
+    "checkout_sha": "95e2107a71d9bc99d172bc4655877304c85fa899",
+    "head_sha": "5fc0fe45b6f6aea982eed3c4484e6d77da46a986",
+    "event": "pull_request",
+    "run_id": 43185187598,
+    "run_attempt": 1
+  },
+  "package_git_tree": "a17649ca229e83a40c5fe70c09a80f70817dac98",
+  "compiler": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "tool_sha256": {
+    "lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "landrun": "4df5f685e564aac6a2df4134443c128da0a88e67044bb91c8993715c297a8b94",
+    "nanoda_bin": "901dedf8678a50136686d9c6057ab85d617ebf279922374bac9935b19c64ba71"
+  },
+  "proof_inputs": {
+    "V3EventChallenge.lean": "80c77815b220b50113453c0ac8f830abe7569e38d31fd77c7d5bb77e3de4b5b0",
+    "V3EventProofs.lean": "903c5b76a6a70880eedbc55ba26ea19b0d38b9bef9aaf203ee551cdaaa114d12",
+    "V3EventSpecification.lean": "c32643d7c28b8cd5d8759880390c0e1b5c84783c11a3b96f96209e07188e1f88",
+    "comparator.json": "6bc3e7677a10128e1f242afca2a26da2277244b3f80328f75a0d05a274df2254",
+    "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+    "lakefile.toml": "bd23102c65c285beabbab5eb77726c834ee8e5cb490f87ed1f167e848ff99d53",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "reference-freeze.json": "b11c9a5204a51cad11f9d70eca374431e1f91e1078d250a7a9a617a91bd2fa95",
+    "run-linux-check.sh": "7d77f774ea31e43b0839b92e7ad5c4790d11a3995434c338ff81263ff85b5d9e",
+    "source-audit.json": "99ae3efa397d92314984c67de81c842a90f850740d24dcf2982bc7d19f9afbaa",
+    "sources/continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+    "sources/declarations/grid24.json": "861a13c0d29bd417e97db996d534697e3e75d1b80d868968f99ae1854ac1887c",
+    "sources/declarations/main.json": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+    "sources/declarations/no_read_feedback.json": "552904eeee814964978330e930d7d9970b08617ef35ff07d817cac188a76015a",
+    "sources/declarations/particles640.json": "1ce0504ddbf91082cb49bb92beaec35b45649813d4d7d9c2106624ca611f1793",
+    "sources/declarations/slow_fabric.json": "5d3df50e4a8d911b9735b49f88e8031d1e555922efe0f0f23b0690f9b3bb3956",
+    "sources/declarations/time_half.json": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
+    "sources/declarations/unit.json": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe",
+    "sources/equation_register.csv": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc",
+    "sources/literal_registry.json": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273",
+    "sources/parameter_bounds.json": "821e18eb9c863193784a4698eddcc84943a0759bd2b909edc9764fa12aa2a8f0",
+    "sources/preflight.py": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+    "sources/protocol.json": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77",
+    "sources/reference_gate/parameter_bounds.json": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
+    "sources/reference_gate/run_manifest.py": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
+    "sources/rule_changes.json": "13849e87cdc8625a182c3bc5214ad032ea955a1a0aef4a446111056d45e1a917",
+    "sources/run.py": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+    "sources/social_base.py": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+    "sources/source_seal.json": "b815846bd7afe1aa1a91430c40b658fc44a4d13add5432de0aed424530bedea0",
+    "sources/structural_hug.py": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+    "sources/study_chain.csv": "dc7a2480fb7514fd1949f9506284437e0e06c20081ac7cc240c4724d5168fc3c",
+    "sources/test_structure.py": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36"
+  },
+  "proof_input_fingerprint": "5906e82206ae37fac851cbd7dc7292b48c16e4916583292692654c3ff1f3c78e",
+  "input_manifest_sha256": "1a33abc48f083a89464ebd406232994506ddf5f94865b8576247ce28ed119310",
+  "targets": [
+    "HugV3Event.Verified.probe_recovers_rest_strain",
+    "HugV3Event.Verified.header_first_bit_is_one",
+    "HugV3Event.Verified.valid_empty_coordinate_changes",
+    "HugV3Event.Verified.event_prevents_continuity",
+    "HugV3Event.Verified.event_prevents_derivative",
+    "HugV3Event.Verified.full_state_prevents_continuity"
+  ],
+  "target_count": 6,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "checks": {
+    "comparator": "PASS",
+    "lean_kernel": "PASS",
+    "nanoda": "PASS",
+    "lean_build": "PASS"
+  },
+  "axiom_audit": "PASS",
+  "scope": "Six exact inter-event and write results in the supplied event specification.",
+  "open_items": [
+    "Formal code-to-mathematics correspondence is incomplete, including floating-point, codec and CRC semantics.",
+    "Event witnesses are explicit hypotheses of the checked lemmas, not a proved full trajectory.",
+    "The event result does not refute existence/uniqueness for the correct hybrid formulation.",
+    "No old numerical experiments were rerun; their saved outcomes remain historical evidence.",
+    "Cosmetic linter warnings are retained in the passing build logs."
+  ],
+  "evidence_sha256": {
+    "axioms.json": "3a237fed8587c8bdb47e8e69e2df6d5f9f3f0cd7f873643300fd86750ea80cf2",
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.log": "5909950048bf318d2334a76cfcff09b7e70245f1c8db9919ff8cfe4906f3a201",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "0d890f7d6362bb46b9f6811494b0039df019c526c2e98c124491ba36314fe8c6",
+    "verification-report.json": "50a8ecea1233bbb890e7e22d57d782bc2972c77936351ee716429edac1f050d7"
+  }
+}

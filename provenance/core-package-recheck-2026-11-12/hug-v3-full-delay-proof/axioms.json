@@ -1,0 +1,72 @@
+{
+  "HugV3.Source.FullDelayVerified.full_state_round_trip": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.FullDelayVerified.full_vector_round_trip": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.FullDelayVerified.full_state_equality": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.FullDelayVerified.full_segment_exists_unique": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.FullDelayVerified.history_preserved": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.FullDelayVerified.first_step_is_actual_delayed_rhs": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.FullDelayVerified.full_segment_is_delay_solution_on_step": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.FullDelayVerified.accepted_write_keeps_social": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.FullDelayVerified.completed_event_keeps_social": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.FullDelayVerified.accepted_boundary_keeps_social": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.FullDelayVerified.boundary_deterministic": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.FullDelayVerified.buffered_social_unchanged_by_write": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.FullDelayVerified.full_delayed_trace_has_accepted_writes": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.FullDelayVerified.full_segment_satisfies_original_coordinates": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

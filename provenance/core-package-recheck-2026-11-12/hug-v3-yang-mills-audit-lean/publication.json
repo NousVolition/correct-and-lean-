@@ -1,0 +1,44 @@
+{
+  "artifact_id": 13929882766,
+  "artifact_name": "core19-proof-hug-v3-yang-mills-audit-lean-1",
+  "artifact_zip_sha256": "5c984bd2da8b71fca36387b6c5e55689aa431d71315086c291cf7395e2dcd1ce",
+  "artifact_url": "https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43185187598/artifacts/13929882766",
+  "transformation": "Only CI home-directory prefixes in log text become $CI_HOME. Original hashes remain recorded; proof inputs, reports, axiom lists and source receipt are unchanged.",
+  "files": {
+    "axioms.json": {
+      "artifact_sha256": "a4232fc9cef3e3029392c1883703447905814bd94fb6f88abec3e9d0f5b20a53",
+      "published_sha256": "a4232fc9cef3e3029392c1883703447905814bd94fb6f88abec3e9d0f5b20a53",
+      "ci_home_prefix_replacements": 0
+    },
+    "comparator.exit": {
+      "artifact_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "published_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "ci_home_prefix_replacements": 0
+    },
+    "lake-build.exit": {
+      "artifact_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "published_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "ci_home_prefix_replacements": 0
+    },
+    "comparator.log": {
+      "artifact_sha256": "f17aad5589aee859035606c70be076424318c09ba8ff6d062ee6853c92b95109",
+      "published_sha256": "f17aad5589aee859035606c70be076424318c09ba8ff6d062ee6853c92b95109",
+      "ci_home_prefix_replacements": 0
+    },
+    "lake-build.log": {
+      "artifact_sha256": "7a7c1a5a992b046744998a6e4aa4fd980adb7f8572ca275cc52d08e495815b01",
+      "published_sha256": "7a7c1a5a992b046744998a6e4aa4fd980adb7f8572ca275cc52d08e495815b01",
+      "ci_home_prefix_replacements": 0
+    },
+    "verification-report.json": {
+      "artifact_sha256": "7baeb9107a3f2e771591661d51099eb7a501bf3f7c65ec5fb7035f927a42aa35",
+      "published_sha256": "7baeb9107a3f2e771591661d51099eb7a501bf3f7c65ec5fb7035f927a42aa35",
+      "ci_home_prefix_replacements": 0
+    },
+    "source.json": {
+      "artifact_sha256": "c9bbf902dfdd75cdbcaf9421ab67088feaac01a5f0de29241a14b61cb77fe9ce",
+      "published_sha256": "c9bbf902dfdd75cdbcaf9421ab67088feaac01a5f0de29241a14b61cb77fe9ce",
+      "ci_home_prefix_replacements": 0
+    }
+  }
+}

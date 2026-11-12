@@ -1,0 +1,7 @@
+{
+  "SocialAS.Verified.full_state_invariance": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

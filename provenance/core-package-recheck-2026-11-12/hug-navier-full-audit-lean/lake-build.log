@@ -1,0 +1,15 @@
+ℹ [3419/3420] Replayed AuditSolution
+info: AuditSolution.lean:59:0: 'HugNavierFullAudit.Verified.acceleration_force_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditSolution.lean:60:0: 'HugNavierFullAudit.Verified.force_recovered_from_acceleration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AuditSolution.lean:61:0: 'HugNavierFullAudit.Verified.same_acceleration_iff_same_force' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AuditSolution.lean:62:0: 'HugNavierFullAudit.Verified.same_motion_requires_same_force' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditSolution.lean:63:0: 'HugNavierFullAudit.Verified.energy_input_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditSolution.lean:64:0: 'HugNavierFullAudit.Verified.zero_speed_energy_not_force' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditSolution.lean:65:0: 'HugNavierFullAudit.Verified.nonuniform_initial_requires_spatial_map' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (3420 jobs).

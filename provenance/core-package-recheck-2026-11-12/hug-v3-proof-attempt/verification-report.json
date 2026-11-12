@@ -1,0 +1,14 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Six exact inter-event and write results in the supplied event specification.",
+  "open_items": [
+    "Formal code-to-mathematics correspondence is incomplete, including floating-point, codec and CRC semantics.",
+    "Event witnesses are explicit hypotheses of the checked lemmas, not a proved full trajectory.",
+    "The event result does not refute existence/uniqueness for the correct hybrid formulation.",
+    "No old numerical experiments were rerun; their saved outcomes remain historical evidence.",
+    "Cosmetic linter warnings are retained in the passing build logs."
+  ]
+}

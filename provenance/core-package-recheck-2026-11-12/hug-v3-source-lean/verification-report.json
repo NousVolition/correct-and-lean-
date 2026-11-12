@@ -1,0 +1,13 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Nine scoped results over the exact-real transcription of the main fixed-grid system and its event definitions.",
+  "open_items": [
+    "Manual exact-real transcription; source correspondence remains unproved",
+    "Source-computed geometry embedded as exact rationals and decimal coefficients read as exact real decimals",
+    "No floating-point/Heun equivalence or infinite-dimensional continuum theorem",
+    "No proof that every write is reached, accepted, or correctly round-tripped through the complete codec"
+  ]
+}

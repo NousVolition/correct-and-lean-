@@ -1,0 +1,387 @@
+{
+  "HugV3Event.InterEventVerified.two_load_probe_recovers_rest_strain": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3Event.InterEventVerified.sign_constant_on_margin_ball": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3Event.InterEventVerified.fabric_heat_nonneg": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3Event.InterEventVerified.traction_eq_neg_elastic_gradient": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3Event.InterEventVerified.power_limiter_den_ge_floor": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3Event.InterEventVerified.power_limiter_den_pos": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3Event.InterEventVerified.power_limiter_in_unit_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3Event.InterEventVerified.three_image_shifted_squares_even": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.pos_nonneg": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.self_le_pos": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.pos_of_nonneg": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.pos_of_nonpos": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.pos_eq_zero_of_nonpos": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.abs_pos_sub_pos_le": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.indicator_false": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.indicator_true": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.indicator_unit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.saturation_nonneg": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.one_sub_saturation": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.saturation_le_one": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.saturation_unit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.effect_unit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.chiForward_unit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.chiReverse_unit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.thetaForward_unit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.thetaReverse_unit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.saturation_sub_identity": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.saturation_lipschitz": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.generalSDrift_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.generalSDrift_one": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.total_S_drift_balance": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.exchange_lipschitz_in_gap": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.loadDrift_nonneg_at_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.loadDrift_lipschitz_in_L": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.receivedMeaning_unit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.meaningRate_nonneg": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.meaningDrift_nonneg_at_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.meaningDrift_nonpos_at_one": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.smokeMeaningDrift_nonneg_at_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.smokeMeaningDrift_nonpos_at_one": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.clayMeaningDrift_nonneg_at_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.clayMeaningDrift_nonpos_at_one": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.opening_unit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.registration_unit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.conditionalRegistration_unit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.branches_nonneg": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.branches_sum_eq_one": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.update_false_eq_self": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.update_preserves_simplex": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.integralSolution_unique_A": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.integralSolution_sub_eq": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "SocialAS.Verified.integralSolution_coord_unique_of_drift_eq": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.continuous_toProd": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.continuous_asState": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.continuous_meaningDist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.continuous_fabricCoord": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.combined_probe_recovers_rest_strain": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.combined_probe_recovers_written_bit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.abs_writtenBit_eq": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.written_bit_satisfies_well_margin": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.pos_nonneg": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.indicator_unit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.clay_opportunity_nonneg": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.clay_opening_unit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.smoke_conditionalRegistration_unit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.clay_encounter_branches_simplex": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.update_preserves_simplex": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.combined_event_preserves_valid_and_jumps": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.combined_trajectory_continuous_AS_but_discontinuous_full": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "CombinedASHug.combined_hybrid_uniqueness_transfer": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "DelayedReflexAS.sub_tau_mem_history_window": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "DelayedReflexAS.delayedSolution_unique_on_step": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "DelayedReflexAS.reflex_acts_before_conscious_registration": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "DelayedReflexAS.faster_reflex_prevents_cut": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "DelayedReflexAS.unbraced_peak_stress_lt_braced": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "DelayedReflexAS.unbraced_survives_crash_window": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "DelayedReflexAS.mirror_write_is_many_to_one": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

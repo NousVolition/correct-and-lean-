@@ -1,0 +1,257 @@
+{
+  "Hug.Verified.pressure_nonnegative": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.pressure_threshold": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.pressure_above_one_allowed": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.tau_positive": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.memory_update_bounds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.imprint_nonnegative": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.no_time_no_change": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.constant_pressure_ode": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.memory_above_one_reachable": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.zero_pressure_retains_imprint": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.breathing_bounds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.pressure_scale_bounds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.reciprocal_squeeze_bounds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.reciprocal_area_factor": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.inverse_stretch": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.mirror_arms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.exact_tip_closure": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.tolerance_is_not_exact_closure": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.timed_stretch_bounds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.timed_maximum": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.smoothstep_bounds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.opening_threshold": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.opening_latched": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.lower_pressure_does_not_reclose": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.full_open_after_duration": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.step_preserves_state": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "Hug.Verified.repeated_steps_nonnegative": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.protocol_physical": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.sigmoid_bounds": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.strain_nonnegative": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.guard_points_inward": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.guard_interval_invariant": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.energy_nonnegative": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.energy_chain_identity": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.energy_derivative": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.material_loss_nonnegative": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.guard_loss_nonnegative": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.passive_unforced_energy_rate": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.active_energy_can_increase": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.participant_difference_closes": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.directional_guard_sum": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.shared_directional_sum_equal": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.zero_damper_recovers_old_acceleration": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.display_shear_reversible": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.display_preserves_height": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.capped_source_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.capped_source_sign_reverse": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.pair_off_below_centre": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.paired_exchange_cancels": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.response_exactly_off": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "ActiveHug.Verified.sign_reversal_same_force": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}
