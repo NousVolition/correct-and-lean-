@@ -6,6 +6,8 @@ This collection develops that question through numerical studies, language-model
 
 **AI-generated; dictated and directed by NousVolition, an independent researcher.** Individual files retain their source and model credits.
 
+**New readers: start with the [plain-language walkthrough of the 19 core proof packages](lean/README.md#plain-language-walkthrough).** It takes the packages in order and explains what is proved and what remains unfinished. The short route below introduces the question and its recorded examples.
+
 ## A short reading route
 
 1. **Start with the question.** Keep two questions in view: what persists, and what can this particular observation tell us about it?
