@@ -1,0 +1,12 @@
+name = "following_labels"
+version = "0.1.0"
+defaultTargets = ["OriginTracking", "FollowingLabels", "RecordedFollowing"]
+
+[[lean_lib]]
+name = "OriginTracking"
+
+[[lean_lib]]
+name = "FollowingLabels"
+
+[[lean_lib]]
+name = "RecordedFollowing"

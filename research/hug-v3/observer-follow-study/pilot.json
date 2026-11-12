@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "all_native_one_step_arrays_equal": {
+    "g": true,
+    "X": true,
+    "F": true,
+    "m": true,
+    "A": true,
+    "ledger": true,
+    "expression": true,
+    "context": true,
+    "norm": true,
+    "logradius": true,
+    "relation": true,
+    "responses": true,
+    "association": true,
+    "b": true,
+    "write_work": true,
+    "observer_X": true,
+    "breathing_work": true
+  },
+  "initial_partition_exact": true,
+  "reconstruction_error": 5.551115123125783e-17,
+  "minimum_component": 0.0,
+  "code_sha256": "c831ff07eff9f98b16be8d7dce28e8fbff49846c792c10907133014bd94f0043",
+  "original_solver_inputs_checked": 21,
+  "prior_transport_code_sha256": "0ad1d00e695caacc8dcf37ba943207aecbb7a8880101a330200ab4ab5f0746e2",
+  "scope": "Two pilot solver steps, no production results."
+}
