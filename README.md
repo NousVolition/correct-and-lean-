@@ -1,5 +1,38 @@
 # Hug and SIMS: follow the connection to tick 41
 
+**The question:** how can a record persist while its carrier, surroundings, relationships, and later use change?
+
+This collection develops that question through numerical studies, language-model encounters, and Lean proofs. It is also called **Correct and Lean**. Each result keeps its own assumptions and limits.
+
+**AI-generated; dictated and directed by NousVolition, an independent researcher.** Individual files retain their source and model credits.
+
+## A short reading route
+
+1. **See the idea.** The [penne illustrations](docs/penne-leapfrog/README.md) follow a continuing path through moving windows. They introduce the viewing question; they are illustrations. The supplied Claude credit is retained.
+2. **Look at one recorded example.** In [Pair 25's wider observation window](research/hug-v3/pair-origin-study/README.md), the endpoint count is 364, while observer 540 leaves and 872 arrives. The same count can hide changed membership. These are recorded simulation observations, with their settings and limits attached.
+3. **Read the exact mathematical claims.** The [observation package](research/ambiguous-observation-lean/README.md) starts with a table connecting each observation to the property it cannot determine. Its Tick 41 and Pair 25 proofs concern supplied summaries and numbers; Lean does not establish the simulations or their transcription.
+4. **Follow the wider investigation.** The [tick-41 guide](docs/tick-41/README.md) walks through identity, viewing window, checkpoint, and history. In the fluid studies tick 41 labels model time 1.2; the restaurant encounter has its own clock.
+
+## Keep these two examples separate
+
+| Example | What is established |
+| --- | --- |
+| **Real-valued `readJet` projection** | Equal order-zero readings can have different first derivatives. [Source](research/ambiguous-observation-lean/YangMillsInstance.lean) |
+| **Abelian field-equation comparison** | Two explicit potentials agree on the slice `x₁ = 0`, while their field-equation residuals are 0 and 2. [Source](research/ambiguous-observation-lean/YangMillsCueTest.lean) |
+
+These are separate results. Neither establishes an admissible Yang–Mills family or a mass-gap theorem. [Their scope, logs, and credits](research/ambiguous-observation-lean/README.md)
+
+The intended HugandNavier system keeps the carrying relationship continuous while configurations change. Its underlying formulation is unforced; breathing is an added intervention in particular experiments. [Retained source meaning](research/comparisons/hug-navier-single-system-scope-correction.md#meaning-to-preserve-across-implementations)
+
+## Find a specific record
+
+[What is proved and still open](PROOF-STATUS.md) · [All studies](hug-sims-proof-index.md) · [Lean packages](lean/README.md) · [Package credits](research/ambiguous-observation-lean/CREDITS.md) · [Reuse terms](LICENSE)
+
+The complete research tour, numerical details, images, and existing section links remain below.
+
+<details>
+<summary><strong>Expand the full research tour and archive links</strong></summary>
+
 <a id="correct-and-lean-research-proofs-and-verification"></a>
 <a id="hug-and-sims-lean-4-proofs-and-numerical-studies"></a>
 
@@ -164,3 +197,5 @@ Historical receipts retain their source revisions and original outcomes, includi
 
 Copyright © 2026 NousVolition. All rights reserved. See the [copyright notice](LICENSE) for terms applying to reuse of the original work.
 
+
+</details>
