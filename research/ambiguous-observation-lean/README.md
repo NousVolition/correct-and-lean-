@@ -1,5 +1,31 @@
 # Ambiguous-observation instances and an abelian field-equation comparison
 
+**Read this as four examples.** Each fixes an observation and shows a property that the observation does not determine. The source files, assumptions, and evidence remain separate.
+
+## Start with this comparison
+
+| File | What looks the same | What differs | Scope |
+| --- | --- | --- | --- |
+| [Pair25Instance](Pair25Instance.lean) | Endpoint label count: 364 | Whether labels 540 and 872 are inside | A count-and-membership summary transcribed from a report |
+| [Tick41Instance](Tick41Instance.lean) | Accumulator value before and after a write | Its rate and the stored-record flag | Exact rational values and a state summary |
+| [YangMillsInstance](YangMillsInstance.lean) | Order-zero `readJet` reading | First-derivative reading | A real-valued projection using the submission's definition |
+| [YangMillsCueTest](YangMillsCueTest.lean) | All potential components on `x₁ = 0` | Field-equation residual: 0 versus 2 | Two explicit abelian potentials on Euclidean four-space |
+
+The last two rows make different claims. `YangMillsInstance` concerns derivative readings of a real projection. `YangMillsCueTest` concerns the defined abelian field equation; the modified potential fails it. Neither establishes an admissible Yang–Mills family.
+
+## Read the evidence in order
+
+1. Open the source file for the row you want to check.
+2. Read the scope and assumptions in that file. The Tick 41 and Pair 25 proofs do not verify the simulator, positions, or transcription.
+3. Inspect the [field-equation axiom audit](logs/YangMillsCueAxioms-cue-fresh.log), the [local verification receipt](verification.json), or the [GitHub builds and their fresh logs](https://github.com/NousVolition/hug-sims-lean-proofs/actions/workflows/ambiguous-observation.yml).
+
+The pinned Lean build and axiom audit cover **51 public named theorems and lemmas**, including supporting results and repeated forms of the observation rule. That is not a count of 51 independent discoveries. Comparator and nanoda are not part of this workflow.
+
+**Credits:** NousVolition supplies the ideas and direction; Claude's role is independent review, numerical reruns, and the three instance drafts; the earlier assistant retains the field-equation proofs. This Codex session compiled, audited, and packaged the files. [Full, unchanged credits](CREDITS.md)
+
+<details>
+<summary><strong>Expand definitions, provenance, verification details, and reproduction commands</strong></summary>
+
 The original three instance files compile with Lean 4.34.0-rc2 and Mathlib commit `85e3a25e006c35636f0e53b0e9296caca2685bc0`. The added abelian-potential comparison and its local dependencies have now been freshly recompiled in the same pinned environment. No proof step required correction.
 
 | File | What Lean checks | Axiom reports |
@@ -73,3 +99,5 @@ lake update
 lake exe cache get
 python3 verify_ci.py
 ```
+
+</details>
