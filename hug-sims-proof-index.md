@@ -9,7 +9,7 @@ Start with the tick-41 reading path, or browse by subject below. Each study reta
 1. [Follow the connection and read what changed](docs/tick-41/README.md).
 2. [Start from the marked penne: open path and ring return](docs/penne-leapfrog/README.md).
 3. [Follow farther: finite-window rule and recorded gaps](research/hug-v3/finite-window-lean/README.md).
-4. [Compare finer-grid and time-step readings through tick 41](research/hug-v3/finer-grid-study/README.md), then the [separate threshold-1 breathing control](research/hug-v3/threshold-one-follow-up/README.md).
+4. [Audit the readings between ticks 37 and 41](research/tick-35-41-audit/README.md), including the [earlier finer-grid and time-step study](research/hug-v3/finer-grid-study/README.md), then the [separate threshold-1 breathing control](research/hug-v3/threshold-one-follow-up/README.md).
 5. [Read one continuing Traveller B through tick 41](lean/sims-mentor-first-thought-lean/one-traveller/README.md).
 6. [Follow each claim to its proof and verification status](PROOF-STATUS.md).
 
@@ -45,6 +45,8 @@ The [single-system meaning](research/comparisons/hug-navier-single-system-scope-
 - [Traveller B’s first thought after the mentor spoke](lean/sims-mentor-first-thought-lean/README.md)
 
 ## Numerical studies and comparisons
+
+- [Ticks 35–41 audit: endpoint agreement, intervening differences and Traveller continuity](research/tick-35-41-audit/README.md)
 
 - [Finer fluid grids: pairs agree at tick 41 but differ earlier](research/hug-v3/finer-grid-study/README.md)
 

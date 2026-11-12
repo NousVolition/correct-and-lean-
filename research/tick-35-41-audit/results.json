@@ -1,0 +1,3288 @@
+{
+  "source_revision": "4086c9f3d5c1c2bb7e4a6327e9fce97f011fea6f",
+  "scope": "Recount of saved distances, write meters and released Traveller records. No solver, actor or Lean rerun.",
+  "verified_imported_file_hashes": 10,
+  "verified_repository_text_hashes": 13,
+  "fluid": {
+    "sparse_spatial": {
+      "samples": 2550,
+      "times": 51,
+      "full": {
+        "maximum_difference": 0.010970322400150612,
+        "time": 1.182,
+        "pair": 6,
+        "window": "local",
+        "pairs_above_target": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          8,
+          19
+        ]
+      },
+      "tick37": {
+        "maximum_difference": 0.00023350034453942844,
+        "time": 1.1,
+        "pair": 4,
+        "window": "local",
+        "pairs_above_target": []
+      },
+      "tick41_before_write": {
+        "maximum_difference": 0.0003997508390971294,
+        "time": 1.2,
+        "pair": 4,
+        "window": "local",
+        "pairs_above_target": []
+      },
+      "saved_times_above_target": 7,
+      "outside_samples": 2351,
+      "outside": {
+        "maximum_difference": 0.000805434135976682,
+        "time": 1.194,
+        "pair": 3,
+        "window": "local",
+        "pairs_above_target": []
+      },
+      "outside_failures": [],
+      "by_time": [
+        {
+          "maximum_difference": 0.00023350034453942844,
+          "time": 1.1,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00023350034453942844,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00022969317036989137,
+          "time": 1.102,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022969317036989137,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00022513442274290155,
+          "time": 1.104,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022513442274290155,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0002205380495012444,
+          "time": 1.106,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002205380495012444,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.000214865355980403,
+          "time": 1.108,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.000214865355980403,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0002088182526893221,
+          "time": 1.11,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002088182526893221,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0002030174619379408,
+          "time": 1.112,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002030174619379408,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00019639974840487094,
+          "time": 1.114,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00019639974840487094,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.000190193208910552,
+          "time": 1.116,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.000190193208910552,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001832362143738154,
+          "time": 1.118,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001832362143738154,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00017637126313243753,
+          "time": 1.12,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00017637126313243753,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00016958703630922008,
+          "time": 1.122,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00016958703630922008,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001623594173128049,
+          "time": 1.124,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001623594173128049,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00015558781212561025,
+          "time": 1.126,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00015558781212561025,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014830222192731626,
+          "time": 1.128,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014830222192731626,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014654178757395053,
+          "time": 1.13,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014654178757395053,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014478991020132337,
+          "time": 1.132,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014478991020132337,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014378688534225081,
+          "time": 1.134,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014378688534225081,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014358719408025938,
+          "time": 1.136,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014358719408025938,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014292825244895113,
+          "time": 1.138,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014292825244895113,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014296786056736815,
+          "time": 1.14,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014296786056736815,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001443572147983678,
+          "time": 1.142,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001443572147983678,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001462295377181455,
+          "time": 1.144,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001462295377181455,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014869130848309958,
+          "time": 1.146,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014869130848309958,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00015218384550990185,
+          "time": 1.148,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00015218384550990185,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001568276370984903,
+          "time": 1.15,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001568276370984903,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00016450317097832512,
+          "time": 1.152,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00016450317097832512,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00017739994612969018,
+          "time": 1.154,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00017739994612969018,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00019567859636163837,
+          "time": 1.156,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00019567859636163837,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00022127268160992974,
+          "time": 1.158,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022127268160992974,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0002664671556953449,
+          "time": 1.16,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002664671556953449,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00033619613726262876,
+          "time": 1.162,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00033619613726262876,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0004597822158029577,
+          "time": 1.164,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0004597822158029577,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0006759825551538381,
+          "time": 1.166,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00028697064882281936,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.0007274447825144706,
+          "time": 1.168,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00018335191168338677,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.0007380255101426952,
+          "time": 1.17,
+          "pair": 15,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00024725153488808216,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.009727752688981586,
+          "time": 1.172,
+          "pair": 19,
+          "window": "extended",
+          "pairs_above_target": [
+            19
+          ],
+          "outside_maximum_difference": 0.0002147448986276404,
+          "outside_sample_count": 20
+        },
+        {
+          "maximum_difference": 0.0006052026945305156,
+          "time": 1.174,
+          "pair": 10,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022270632476804886,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.000680640779221392,
+          "time": 1.176,
+          "pair": 13,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002180715476522918,
+          "outside_sample_count": 39
+        },
+        {
+          "maximum_difference": 0.00019213975164853597,
+          "time": 1.178,
+          "pair": 9,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00019213975164853597,
+          "outside_sample_count": 36
+        },
+        {
+          "maximum_difference": 0.00021587011523948457,
+          "time": 1.18,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00021587011523948457,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.010970322400150612,
+          "time": 1.182,
+          "pair": 6,
+          "window": "local",
+          "pairs_above_target": [
+            6
+          ],
+          "outside_maximum_difference": 0.0002474329815278717,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.0015683233901719884,
+          "time": 1.184,
+          "pair": 8,
+          "window": "local",
+          "pairs_above_target": [
+            8
+          ],
+          "outside_maximum_difference": 0.0002851779238470867,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.00033210645974267317,
+          "time": 1.186,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00033210645974267317,
+          "outside_sample_count": 42
+        },
+        {
+          "maximum_difference": 0.0003964895305119745,
+          "time": 1.188,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0003964895305119745,
+          "outside_sample_count": 49
+        },
+        {
+          "maximum_difference": 0.0005002625973313801,
+          "time": 1.19,
+          "pair": 0,
+          "window": "extended",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0004848568970228506,
+          "outside_sample_count": 46
+        },
+        {
+          "maximum_difference": 0.0014773057152087793,
+          "time": 1.192,
+          "pair": 0,
+          "window": "extended",
+          "pairs_above_target": [
+            0
+          ],
+          "outside_maximum_difference": 0.0006266996984466977,
+          "outside_sample_count": 46
+        },
+        {
+          "maximum_difference": 0.0031190385584027036,
+          "time": 1.194,
+          "pair": 1,
+          "window": "extended",
+          "pairs_above_target": [
+            0,
+            1
+          ],
+          "outside_maximum_difference": 0.000805434135976682,
+          "outside_sample_count": 44
+        },
+        {
+          "maximum_difference": 0.002843191301613354,
+          "time": 1.196,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [
+            2,
+            3
+          ],
+          "outside_maximum_difference": 0.00044573461816596605,
+          "outside_sample_count": 41
+        },
+        {
+          "maximum_difference": 0.006090952807134911,
+          "time": 1.198,
+          "pair": 3,
+          "window": "local",
+          "pairs_above_target": [
+            3,
+            4
+          ],
+          "outside_maximum_difference": 0.00037545456231177776,
+          "outside_sample_count": 44
+        },
+        {
+          "maximum_difference": 0.0003997508390971294,
+          "time": 1.2,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002877481230410539,
+          "outside_sample_count": 44
+        }
+      ]
+    },
+    "native_spatial": {
+      "samples": 10050,
+      "times": 201,
+      "full": {
+        "maximum_difference": 0.10266686758224947,
+        "time": 1.169,
+        "pair": 23,
+        "window": "local",
+        "pairs_above_target": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          13,
+          14,
+          19,
+          20,
+          23
+        ]
+      },
+      "tick37": {
+        "maximum_difference": 0.00023350034453942844,
+        "time": 1.1,
+        "pair": 4,
+        "window": "local",
+        "pairs_above_target": []
+      },
+      "tick41_before_write": {
+        "maximum_difference": 0.0003997508390971294,
+        "time": 1.2,
+        "pair": 4,
+        "window": "local",
+        "pairs_above_target": []
+      },
+      "saved_times_above_target": 30,
+      "outside_samples": 9404,
+      "outside": {
+        "maximum_difference": 0.0011804419659396242,
+        "time": 1.1955,
+        "pair": 3,
+        "window": "local",
+        "pairs_above_target": [
+          3
+        ]
+      },
+      "outside_failures": [
+        {
+          "time": 1.195,
+          "pair": 3,
+          "window": "local",
+          "difference": 0.0010230900913354435
+        },
+        {
+          "time": 1.1955,
+          "pair": 3,
+          "window": "local",
+          "difference": 0.0011804419659396242
+        },
+        {
+          "time": 1.195,
+          "pair": 3,
+          "window": "extended",
+          "difference": 0.0010230900913354435
+        },
+        {
+          "time": 1.1955,
+          "pair": 3,
+          "window": "extended",
+          "difference": 0.0011804419659396242
+        }
+      ],
+      "by_time": [
+        {
+          "maximum_difference": 0.00023350034453942844,
+          "time": 1.1,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00023350034453942844,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00023262698122588493,
+          "time": 1.1005,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00023262698122588493,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00023169977655646684,
+          "time": 1.101,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00023169977655646684,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00023072106966989282,
+          "time": 1.1015,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00023072106966989282,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00022969317036989137,
+          "time": 1.102,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022969317036989137,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00022861835165226274,
+          "time": 1.1025,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022861835165226274,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00022749884301751823,
+          "time": 1.103,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022749884301751823,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00022633682469676286,
+          "time": 1.1035,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022633682469676286,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00022513442274290155,
+          "time": 1.104,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022513442274290155,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00022413603173349235,
+          "time": 1.1045,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022413603173349235,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00022317289186052185,
+          "time": 1.105,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022317289186052185,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00022188314847353292,
+          "time": 1.1055,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022188314847353292,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0002205380495012444,
+          "time": 1.106,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002205380495012444,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0002191620114088081,
+          "time": 1.1065,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002191620114088081,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00021775677891927754,
+          "time": 1.107,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00021775677891927754,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00021632402610812125,
+          "time": 1.1075,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00021632402610812125,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.000214865355980403,
+          "time": 1.108,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.000214865355980403,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00021338230069036478,
+          "time": 1.1085,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00021338230069036478,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00021187632220638804,
+          "time": 1.109,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00021187632220638804,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00021034881292102472,
+          "time": 1.1095,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00021034881292102472,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0002088182526893221,
+          "time": 1.11,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002088182526893221,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00020762256953889627,
+          "time": 1.1105,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00020762256953889627,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00020624138142184834,
+          "time": 1.111,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00020624138142184834,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00020463730160821987,
+          "time": 1.1115,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00020463730160821987,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0002030174619379408,
+          "time": 1.112,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002030174619379408,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00020138286813194822,
+          "time": 1.1125,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00020138286813194822,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001997344667657927,
+          "time": 1.113,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001997344667657927,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00019807314823779877,
+          "time": 1.1135,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00019807314823779877,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00019639974840487094,
+          "time": 1.114,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00019639974840487094,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00019471505118833117,
+          "time": 1.1145,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00019471505118833117,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001930197900665044,
+          "time": 1.115,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001930197900665044,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00019161628190199342,
+          "time": 1.1155,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00019161628190199342,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.000190193208910552,
+          "time": 1.116,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.000190193208910552,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00018846585527246794,
+          "time": 1.1165,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00018846585527246794,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00018673023490127852,
+          "time": 1.117,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00018673023490127852,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00018498686224999693,
+          "time": 1.1175,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00018498686224999693,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001832362143738154,
+          "time": 1.118,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001832362143738154,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00018147873294440536,
+          "time": 1.1185,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00018147873294440536,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00017971482571386976,
+          "time": 1.119,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00017971482571386976,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001779448681941253,
+          "time": 1.1195,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001779448681941253,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00017637126313243753,
+          "time": 1.12,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00017637126313243753,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00017497633616267091,
+          "time": 1.1205,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00017497633616267091,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00017318484943683148,
+          "time": 1.121,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00017318484943683148,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001713883373546457,
+          "time": 1.1215,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001713883373546457,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00016958703630922008,
+          "time": 1.122,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00016958703630922008,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00016778115968303642,
+          "time": 1.1225,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00016778115968303642,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00016597090013280996,
+          "time": 1.123,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00016597090013280996,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001641564309596711,
+          "time": 1.1235,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001641564309596711,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001623594173128049,
+          "time": 1.124,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001623594173128049,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00016105198032562162,
+          "time": 1.1245,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00016105198032562162,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001592641601194881,
+          "time": 1.125,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001592641601194881,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00015742789481301526,
+          "time": 1.1255,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00015742789481301526,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00015558781212561025,
+          "time": 1.126,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00015558781212561025,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00015374398491395207,
+          "time": 1.1265,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00015374398491395207,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00015189647372063075,
+          "time": 1.127,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00015189647372063075,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00015004532917839777,
+          "time": 1.1275,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00015004532917839777,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014830222192731626,
+          "time": 1.128,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014830222192731626,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014738287578910242,
+          "time": 1.1285,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014738287578910242,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014645811399507935,
+          "time": 1.129,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014645811399507935,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001462112547169596,
+          "time": 1.1295,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001462112547169596,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014654178757395053,
+          "time": 1.13,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014654178757395053,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014560672062835858,
+          "time": 1.1305,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014560672062835858,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014502516401522503,
+          "time": 1.131,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014502516401522503,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014573632810153253,
+          "time": 1.1315,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014573632810153253,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014478991020132337,
+          "time": 1.132,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014478991020132337,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014420586327095267,
+          "time": 1.1325,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014420586327095267,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001449723857601115,
+          "time": 1.133,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001449723857601115,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001440129582695529,
+          "time": 1.1335,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001440129582695529,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014378688534225081,
+          "time": 1.134,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014378688534225081,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014425457955162535,
+          "time": 1.1345,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014425457955162535,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014327970448688512,
+          "time": 1.135,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014327970448688512,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014384875535029817,
+          "time": 1.1355,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014384875535029817,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014358719408025938,
+          "time": 1.136,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014358719408025938,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014259493721540534,
+          "time": 1.1365,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014259493721540534,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014394514735336164,
+          "time": 1.137,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014394514735336164,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014297469210857242,
+          "time": 1.1375,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014297469210857242,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014292825244895113,
+          "time": 1.138,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014292825244895113,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014342764164926303,
+          "time": 1.1385,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014342764164926303,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014242209189122348,
+          "time": 1.139,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014242209189122348,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014394816873116237,
+          "time": 1.1395,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014394816873116237,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014296786056736815,
+          "time": 1.14,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014296786056736815,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014368040644183178,
+          "time": 1.1405,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014368040644183178,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014360858623279488,
+          "time": 1.141,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014360858623279488,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014318181154296047,
+          "time": 1.1415,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014318181154296047,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001443572147983678,
+          "time": 1.142,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001443572147983678,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014342707521080786,
+          "time": 1.1425,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014342707521080786,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001452287255204708,
+          "time": 1.143,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001452287255204708,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014424313931164778,
+          "time": 1.1435,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014424313931164778,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001462295377181455,
+          "time": 1.144,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001462295377181455,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014527734616726073,
+          "time": 1.1445,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014527734616726073,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014733809281906873,
+          "time": 1.145,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014733809281906873,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014647819316201613,
+          "time": 1.1455,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014647819316201613,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014869130848309958,
+          "time": 1.146,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014869130848309958,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014787261059558826,
+          "time": 1.1465,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014787261059558826,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00015033144082608058,
+          "time": 1.147,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00015033144082608058,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00014951798694391033,
+          "time": 1.1475,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00014951798694391033,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00015218384550990185,
+          "time": 1.148,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00015218384550990185,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00015177201712916755,
+          "time": 1.1485,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00015177201712916755,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001543227868616541,
+          "time": 1.149,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001543227868616541,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00015517026395041322,
+          "time": 1.1495,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00015517026395041322,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001568276370984903,
+          "time": 1.15,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001568276370984903,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00015956511786364286,
+          "time": 1.1505,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00015956511786364286,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00015977725080484895,
+          "time": 1.151,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00015977725080484895,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00016356444400050102,
+          "time": 1.1515,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00016356444400050102,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00016450317097832512,
+          "time": 1.152,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00016450317097832512,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001675124718313603,
+          "time": 1.1525,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001675124718313603,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00017152765040719803,
+          "time": 1.153,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00017152765040719803,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0001725457615768186,
+          "time": 1.1535,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0001725457615768186,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00017739994612969018,
+          "time": 1.154,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00017739994612969018,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00018160854140047283,
+          "time": 1.1545,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00018160854140047283,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00018401788937679603,
+          "time": 1.155,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00018401788937679603,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00019033313623254694,
+          "time": 1.1555,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00019033313623254694,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00019567859636163837,
+          "time": 1.156,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00019567859636163837,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00019963483361187112,
+          "time": 1.1565,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00019963483361187112,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0002077167036369093,
+          "time": 1.157,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002077167036369093,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00021535731613887138,
+          "time": 1.1575,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00021535731613887138,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00022127268160992974,
+          "time": 1.158,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022127268160992974,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00023181751902316694,
+          "time": 1.1585,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00023181751902316694,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00024275691707440622,
+          "time": 1.159,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00024275691707440622,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0002517876774496483,
+          "time": 1.1595,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002517876774496483,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0002664671556953449,
+          "time": 1.16,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002664671556953449,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00028117984605137425,
+          "time": 1.1605,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00028117984605137425,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00029607704402882795,
+          "time": 1.161,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00029607704402882795,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0003174218832863798,
+          "time": 1.1615,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0003174218832863798,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00033619613726262876,
+          "time": 1.162,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00033619613726262876,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00036323467922767805,
+          "time": 1.1625,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00036323467922767805,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.00039088348505678105,
+          "time": 1.163,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00039088348505678105,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.000422164049248025,
+          "time": 1.1635,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.000422164049248025,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0004597822158029577,
+          "time": 1.164,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0004597822158029577,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0005042295094081495,
+          "time": 1.1645,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0005042295094081495,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0005534880949388601,
+          "time": 1.165,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0005534880949388601,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.000611732913257633,
+          "time": 1.1655,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.000611732913257633,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0006759825551538381,
+          "time": 1.166,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00028697064882281936,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.0007442595441728844,
+          "time": 1.1665,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002898544753319812,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.000808365326155587,
+          "time": 1.167,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002897346790528693,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.0008336264982130859,
+          "time": 1.1675,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00029922897569278906,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.0007274447825144706,
+          "time": 1.168,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00018335191168338677,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.0018649103738211659,
+          "time": 1.1685,
+          "pair": 20,
+          "window": "local",
+          "pairs_above_target": [
+            20
+          ],
+          "outside_maximum_difference": 0.00019627412500293484,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.10266686758224947,
+          "time": 1.169,
+          "pair": 23,
+          "window": "local",
+          "pairs_above_target": [
+            23
+          ],
+          "outside_maximum_difference": 0.0002109337075803519,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.0005787576050480109,
+          "time": 1.1695,
+          "pair": 15,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022790785464134322,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.0007380255101426952,
+          "time": 1.17,
+          "pair": 15,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00024725153488808216,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.0009603671698300703,
+          "time": 1.1705,
+          "pair": 15,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002702878193961006,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.0005480422338969559,
+          "time": 1.171,
+          "pair": 15,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002957357384500703,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.0004722651792303037,
+          "time": 1.1715,
+          "pair": 19,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00032565730245893987,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.009727752688981586,
+          "time": 1.172,
+          "pair": 19,
+          "window": "extended",
+          "pairs_above_target": [
+            19
+          ],
+          "outside_maximum_difference": 0.0002147448986276404,
+          "outside_sample_count": 20
+        },
+        {
+          "maximum_difference": 0.0003989139858604357,
+          "time": 1.1725,
+          "pair": 14,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00021725019574961313,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.00044412837930188354,
+          "time": 1.173,
+          "pair": 14,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022049916566906774,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.0004961163922016093,
+          "time": 1.1735,
+          "pair": 14,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002225442308764758,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.0006052026945305156,
+          "time": 1.174,
+          "pair": 10,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022270632476804886,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.0012205343066708507,
+          "time": 1.1745,
+          "pair": 10,
+          "window": "local",
+          "pairs_above_target": [
+            10
+          ],
+          "outside_maximum_difference": 0.00022419916246811666,
+          "outside_sample_count": 39
+        },
+        {
+          "maximum_difference": 0.0008359402132078891,
+          "time": 1.175,
+          "pair": 13,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00022308837765454975,
+          "outside_sample_count": 39
+        },
+        {
+          "maximum_difference": 0.0020343588560410297,
+          "time": 1.1755,
+          "pair": 14,
+          "window": "local",
+          "pairs_above_target": [
+            13,
+            14
+          ],
+          "outside_maximum_difference": 0.00022090614233505335,
+          "outside_sample_count": 39
+        },
+        {
+          "maximum_difference": 0.000680640779221392,
+          "time": 1.176,
+          "pair": 13,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002180715476522918,
+          "outside_sample_count": 39
+        },
+        {
+          "maximum_difference": 0.000377763241338841,
+          "time": 1.1765,
+          "pair": 13,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00021380240616933333,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.0002736843476829065,
+          "time": 1.177,
+          "pair": 13,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00020900208295122208,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.00021453087690534445,
+          "time": 1.1775,
+          "pair": 13,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002008160347351448,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.00019213975164853597,
+          "time": 1.178,
+          "pair": 9,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00019213975164853597,
+          "outside_sample_count": 36
+        },
+        {
+          "maximum_difference": 0.00019668851139935384,
+          "time": 1.1785,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00019668851139935384,
+          "outside_sample_count": 46
+        },
+        {
+          "maximum_difference": 0.0002034432420910809,
+          "time": 1.179,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002034432420910809,
+          "outside_sample_count": 46
+        },
+        {
+          "maximum_difference": 0.00021019372550838689,
+          "time": 1.1795,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00021019372550838689,
+          "outside_sample_count": 46
+        },
+        {
+          "maximum_difference": 0.00021587011523948457,
+          "time": 1.18,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00021587011523948457,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.001314139978388501,
+          "time": 1.1805,
+          "pair": 5,
+          "window": "local",
+          "pairs_above_target": [
+            5
+          ],
+          "outside_maximum_difference": 0.00022359694842950806,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.0014290660423322832,
+          "time": 1.181,
+          "pair": 5,
+          "window": "local",
+          "pairs_above_target": [
+            5
+          ],
+          "outside_maximum_difference": 0.00023110429293610874,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.0008636992845935804,
+          "time": 1.1815,
+          "pair": 5,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00023821092806284444,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.010970322400150612,
+          "time": 1.182,
+          "pair": 6,
+          "window": "local",
+          "pairs_above_target": [
+            6
+          ],
+          "outside_maximum_difference": 0.0002474329815278717,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.001079510253242641,
+          "time": 1.1825,
+          "pair": 6,
+          "window": "local",
+          "pairs_above_target": [
+            6
+          ],
+          "outside_maximum_difference": 0.00025495218729517516,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.002190271496058674,
+          "time": 1.183,
+          "pair": 9,
+          "window": "local",
+          "pairs_above_target": [
+            9
+          ],
+          "outside_maximum_difference": 0.0002651016910930268,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.030867340324431627,
+          "time": 1.1835,
+          "pair": 7,
+          "window": "local",
+          "pairs_above_target": [
+            7,
+            8,
+            9
+          ],
+          "outside_maximum_difference": 0.000273819360989927,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.0015683233901719884,
+          "time": 1.184,
+          "pair": 8,
+          "window": "local",
+          "pairs_above_target": [
+            8
+          ],
+          "outside_maximum_difference": 0.0002851779238470867,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 0.0016571708744250874,
+          "time": 1.1845,
+          "pair": 9,
+          "window": "extended",
+          "pairs_above_target": [
+            9
+          ],
+          "outside_maximum_difference": 0.0002949930563408837,
+          "outside_sample_count": 42
+        },
+        {
+          "maximum_difference": 0.00040325267248270125,
+          "time": 1.185,
+          "pair": 9,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00030749190529504034,
+          "outside_sample_count": 42
+        },
+        {
+          "maximum_difference": 0.00031967463514381844,
+          "time": 1.1855,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00031967463514381844,
+          "outside_sample_count": 42
+        },
+        {
+          "maximum_difference": 0.00033210645974267317,
+          "time": 1.186,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00033210645974267317,
+          "outside_sample_count": 42
+        },
+        {
+          "maximum_difference": 0.00034648703719695334,
+          "time": 1.1865,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00034648703719695334,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0003623040366702232,
+          "time": 1.187,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0003623040366702232,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.000378844444664371,
+          "time": 1.1875,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.000378844444664371,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 0.0003964895305119745,
+          "time": 1.188,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0003964895305119745,
+          "outside_sample_count": 49
+        },
+        {
+          "maximum_difference": 0.0004153992173463461,
+          "time": 1.1885,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0004153992173463461,
+          "outside_sample_count": 49
+        },
+        {
+          "maximum_difference": 0.00043540111245644886,
+          "time": 1.189,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.00043540111245644886,
+          "outside_sample_count": 49
+        },
+        {
+          "maximum_difference": 0.000643257429118832,
+          "time": 1.1895,
+          "pair": 0,
+          "window": "extended",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.000643257429118832,
+          "outside_sample_count": 49
+        },
+        {
+          "maximum_difference": 0.0005002625973313801,
+          "time": 1.19,
+          "pair": 0,
+          "window": "extended",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0004848568970228506,
+          "outside_sample_count": 46
+        },
+        {
+          "maximum_difference": 0.0005937429558359464,
+          "time": 1.1905,
+          "pair": 0,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0005132419904530644,
+          "outside_sample_count": 46
+        },
+        {
+          "maximum_difference": 0.000791705043997018,
+          "time": 1.191,
+          "pair": 0,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0005452350157418573,
+          "outside_sample_count": 46
+        },
+        {
+          "maximum_difference": 0.0010214755021598076,
+          "time": 1.1915,
+          "pair": 0,
+          "window": "local",
+          "pairs_above_target": [
+            0
+          ],
+          "outside_maximum_difference": 0.0005826998015571044,
+          "outside_sample_count": 46
+        },
+        {
+          "maximum_difference": 0.0014773057152087793,
+          "time": 1.192,
+          "pair": 0,
+          "window": "extended",
+          "pairs_above_target": [
+            0
+          ],
+          "outside_maximum_difference": 0.0006266996984466977,
+          "outside_sample_count": 46
+        },
+        {
+          "maximum_difference": 0.001902309027901436,
+          "time": 1.1925,
+          "pair": 0,
+          "window": "extended",
+          "pairs_above_target": [
+            0
+          ],
+          "outside_maximum_difference": 0.0006788196679271968,
+          "outside_sample_count": 46
+        },
+        {
+          "maximum_difference": 0.0019169597238197778,
+          "time": 1.193,
+          "pair": 0,
+          "window": "extended",
+          "pairs_above_target": [
+            0,
+            1
+          ],
+          "outside_maximum_difference": 0.0007430996114659305,
+          "outside_sample_count": 46
+        },
+        {
+          "maximum_difference": 0.002253899220161157,
+          "time": 1.1935,
+          "pair": 1,
+          "window": "extended",
+          "pairs_above_target": [
+            0,
+            1
+          ],
+          "outside_maximum_difference": 0.0008267371985015703,
+          "outside_sample_count": 46
+        },
+        {
+          "maximum_difference": 0.0031190385584027036,
+          "time": 1.194,
+          "pair": 1,
+          "window": "extended",
+          "pairs_above_target": [
+            0,
+            1
+          ],
+          "outside_maximum_difference": 0.000805434135976682,
+          "outside_sample_count": 44
+        },
+        {
+          "maximum_difference": 0.0023898190570146305,
+          "time": 1.1945,
+          "pair": 1,
+          "window": "extended",
+          "pairs_above_target": [
+            0,
+            1,
+            2
+          ],
+          "outside_maximum_difference": 0.0009020334199306701,
+          "outside_sample_count": 45
+        },
+        {
+          "maximum_difference": 0.0013530080961531715,
+          "time": 1.195,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [
+            1,
+            2,
+            3
+          ],
+          "outside_maximum_difference": 0.0010230900913354435,
+          "outside_sample_count": 45
+        },
+        {
+          "maximum_difference": 0.0018105854628063245,
+          "time": 1.1955,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [
+            2,
+            3
+          ],
+          "outside_maximum_difference": 0.0011804419659396242,
+          "outside_sample_count": 45
+        },
+        {
+          "maximum_difference": 0.002843191301613354,
+          "time": 1.196,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [
+            2,
+            3
+          ],
+          "outside_maximum_difference": 0.00044573461816596605,
+          "outside_sample_count": 41
+        },
+        {
+          "maximum_difference": 0.006044393166352982,
+          "time": 1.1965,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [
+            2,
+            3,
+            4
+          ],
+          "outside_maximum_difference": 0.0005743081779738535,
+          "outside_sample_count": 44
+        },
+        {
+          "maximum_difference": 0.003308889146944327,
+          "time": 1.197,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [
+            2,
+            3,
+            4
+          ],
+          "outside_maximum_difference": 0.0004943887180662576,
+          "outside_sample_count": 44
+        },
+        {
+          "maximum_difference": 0.003204985396549731,
+          "time": 1.1975,
+          "pair": 3,
+          "window": "local",
+          "pairs_above_target": [
+            3,
+            4
+          ],
+          "outside_maximum_difference": 0.0004324719396979759,
+          "outside_sample_count": 44
+        },
+        {
+          "maximum_difference": 0.006090952807134911,
+          "time": 1.198,
+          "pair": 3,
+          "window": "local",
+          "pairs_above_target": [
+            3,
+            4
+          ],
+          "outside_maximum_difference": 0.00037545456231177776,
+          "outside_sample_count": 44
+        },
+        {
+          "maximum_difference": 0.024231702414296355,
+          "time": 1.1985,
+          "pair": 3,
+          "window": "local",
+          "pairs_above_target": [
+            3,
+            4
+          ],
+          "outside_maximum_difference": 0.00032761423360092023,
+          "outside_sample_count": 44
+        },
+        {
+          "maximum_difference": 0.010350446347804743,
+          "time": 1.199,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [
+            4
+          ],
+          "outside_maximum_difference": 0.00028772929334547337,
+          "outside_sample_count": 44
+        },
+        {
+          "maximum_difference": 0.02091682336782602,
+          "time": 1.1995,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [
+            4
+          ],
+          "outside_maximum_difference": 0.00027947712764134214,
+          "outside_sample_count": 44
+        },
+        {
+          "maximum_difference": 0.0003997508390971294,
+          "time": 1.2,
+          "pair": 4,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 0.0002877481230410539,
+          "outside_sample_count": 44
+        }
+      ]
+    },
+    "full_history_time_control": {
+      "samples": 2550,
+      "times": 51,
+      "full": {
+        "maximum_difference": 0.00010042290417842936,
+        "time": 1.172,
+        "pair": 19,
+        "window": "extended",
+        "pairs_above_target": []
+      },
+      "tick37": {
+        "maximum_difference": 6.917750778375614e-08,
+        "time": 1.1,
+        "pair": 0,
+        "window": "local",
+        "pairs_above_target": []
+      },
+      "tick41_before_write": {
+        "maximum_difference": 1.0287872223568861e-07,
+        "time": 1.2,
+        "pair": 2,
+        "window": "local",
+        "pairs_above_target": []
+      },
+      "saved_times_above_target": 0,
+      "outside_samples": 2351,
+      "outside": {
+        "maximum_difference": 2.837126084898056e-07,
+        "time": 1.194,
+        "pair": 3,
+        "window": "local",
+        "pairs_above_target": []
+      },
+      "outside_failures": [],
+      "by_time": [
+        {
+          "maximum_difference": 6.917750778375614e-08,
+          "time": 1.1,
+          "pair": 0,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 6.917750778375614e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 6.928336639729776e-08,
+          "time": 1.102,
+          "pair": 16,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 6.928336639729776e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 6.997515448418229e-08,
+          "time": 1.104,
+          "pair": 16,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 6.997515448418229e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 7.0754807911938e-08,
+          "time": 1.106,
+          "pair": 11,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 7.0754807911938e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 7.191677725668262e-08,
+          "time": 1.108,
+          "pair": 11,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 7.191677725668262e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 7.309180541804211e-08,
+          "time": 1.11,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 7.309180541804211e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 7.669021770666945e-08,
+          "time": 1.112,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 7.669021770666945e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 7.814263673980304e-08,
+          "time": 1.114,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 7.814263673980304e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 7.878121492145562e-08,
+          "time": 1.116,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 7.878121492145562e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 7.9027594899507e-08,
+          "time": 1.118,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 7.9027594899507e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 7.919725921248788e-08,
+          "time": 1.12,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 7.919725921248788e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 7.925679515984052e-08,
+          "time": 1.122,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 7.925679515984052e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 7.938756615803733e-08,
+          "time": 1.124,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 7.938756615803733e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 7.944620982955342e-08,
+          "time": 1.126,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 7.944620982955342e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 7.961957103862216e-08,
+          "time": 1.128,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 7.961957103862216e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 7.971085144373169e-08,
+          "time": 1.13,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 7.971085144373169e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 7.993928653575455e-08,
+          "time": 1.132,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 7.993928653575455e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 8.006414928957151e-08,
+          "time": 1.134,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 8.006414928957151e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 8.034541379951798e-08,
+          "time": 1.136,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 8.034541379951798e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 8.06579565169191e-08,
+          "time": 1.138,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 8.06579565169191e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 8.082854658850169e-08,
+          "time": 1.14,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 8.082854658850169e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 8.118741491244807e-08,
+          "time": 1.142,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 8.118741491244807e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 8.228524528766656e-08,
+          "time": 1.144,
+          "pair": 11,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 8.228524528766656e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 8.387051448482952e-08,
+          "time": 1.146,
+          "pair": 11,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 8.387051448482952e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 8.597850352162761e-08,
+          "time": 1.148,
+          "pair": 16,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 8.597850352162761e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 8.914215016142535e-08,
+          "time": 1.15,
+          "pair": 16,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 8.914215016142535e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 9.222341645562238e-08,
+          "time": 1.152,
+          "pair": 16,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 9.222341645562238e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 9.653455613350959e-08,
+          "time": 1.154,
+          "pair": 16,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 9.653455613350959e-08,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 1.0186137777354332e-07,
+          "time": 1.156,
+          "pair": 21,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.0186137777354332e-07,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 1.1100755668499995e-07,
+          "time": 1.158,
+          "pair": 21,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.1100755668499995e-07,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 1.2636309058497441e-07,
+          "time": 1.16,
+          "pair": 22,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.2636309058497441e-07,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 1.5151053274486959e-07,
+          "time": 1.162,
+          "pair": 22,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.5151053274486959e-07,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 1.9478719651480625e-07,
+          "time": 1.164,
+          "pair": 22,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.9478719651480625e-07,
+          "outside_sample_count": 50
+        },
+        {
+          "maximum_difference": 2.835187031535735e-07,
+          "time": 1.166,
+          "pair": 22,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.8863146446918e-07,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 4.2162283953040003e-07,
+          "time": 1.168,
+          "pair": 21,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.5928865897824052e-07,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 5.635455002928058e-07,
+          "time": 1.17,
+          "pair": 18,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.9098221982344343e-07,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 0.00010042290417842936,
+          "time": 1.172,
+          "pair": 19,
+          "window": "extended",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.473860105349889e-07,
+          "outside_sample_count": 20
+        },
+        {
+          "maximum_difference": 4.844076900295535e-07,
+          "time": 1.174,
+          "pair": 10,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.831922404049724e-07,
+          "outside_sample_count": 30
+        },
+        {
+          "maximum_difference": 1.2471754900073018e-06,
+          "time": 1.176,
+          "pair": 12,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 2.3848381891511394e-07,
+          "outside_sample_count": 39
+        },
+        {
+          "maximum_difference": 3.758254218944046e-07,
+          "time": 1.178,
+          "pair": 12,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 2.205336495086918e-07,
+          "outside_sample_count": 36
+        },
+        {
+          "maximum_difference": 9.576592898685732e-07,
+          "time": 1.18,
+          "pair": 5,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 2.5469732925498256e-07,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 8.560106575489224e-06,
+          "time": 1.182,
+          "pair": 6,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.9678143017842764e-07,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 1.2676699067543096e-06,
+          "time": 1.184,
+          "pair": 8,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.6029293847807935e-07,
+          "outside_sample_count": 40
+        },
+        {
+          "maximum_difference": 2.8158380541154493e-07,
+          "time": 1.186,
+          "pair": 7,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 2.1416646386884786e-07,
+          "outside_sample_count": 42
+        },
+        {
+          "maximum_difference": 1.950993110955146e-07,
+          "time": 1.188,
+          "pair": 8,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.950993110955146e-07,
+          "outside_sample_count": 49
+        },
+        {
+          "maximum_difference": 2.631360264127025e-07,
+          "time": 1.19,
+          "pair": 0,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.981984881008203e-07,
+          "outside_sample_count": 46
+        },
+        {
+          "maximum_difference": 3.6386876349492336e-07,
+          "time": 1.192,
+          "pair": 1,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 2.380968610812828e-07,
+          "outside_sample_count": 46
+        },
+        {
+          "maximum_difference": 8.207872381899017e-07,
+          "time": 1.194,
+          "pair": 1,
+          "window": "extended",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 2.837126084898056e-07,
+          "outside_sample_count": 44
+        },
+        {
+          "maximum_difference": 8.257270320971566e-07,
+          "time": 1.196,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.484574518872961e-07,
+          "outside_sample_count": 41
+        },
+        {
+          "maximum_difference": 9.048842373460264e-07,
+          "time": 1.198,
+          "pair": 3,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 1.2841653074247006e-07,
+          "outside_sample_count": 44
+        },
+        {
+          "maximum_difference": 1.0287872223568861e-07,
+          "time": 1.2,
+          "pair": 2,
+          "window": "local",
+          "pairs_above_target": [],
+          "outside_maximum_difference": 9.458039362808535e-08,
+          "outside_sample_count": 44
+        }
+      ]
+    },
+    "common_time_comparisons_match_published_sources": true,
+    "frozen_windows_reconstructed": 50,
+    "direct_corrected_window_readings": 2
+  },
+  "direct_checks": [
+    {
+      "time": 1.169,
+      "pair": 23,
+      "window": "local",
+      "grid_difference": 0.10266804610654895,
+      "max_direct_step_difference": 3.2639135505441175e-08
+    },
+    {
+      "time": 1.169,
+      "pair": 23,
+      "window": "extended",
+      "grid_difference": 0.10266804610654895,
+      "max_direct_step_difference": 3.2639135505441175e-08
+    },
+    {
+      "time": 1.195,
+      "pair": 3,
+      "window": "local",
+      "grid_difference": 0.0010231621431192467,
+      "max_direct_step_difference": 1.0675863248987838e-09
+    },
+    {
+      "time": 1.195,
+      "pair": 3,
+      "window": "extended",
+      "grid_difference": 0.0010231621431192467,
+      "max_direct_step_difference": 1.0675863248987838e-09
+    },
+    {
+      "time": 1.1955,
+      "pair": 3,
+      "window": "local",
+      "grid_difference": 0.0011803537085798982,
+      "max_direct_step_difference": 5.568107580566917e-08
+    },
+    {
+      "time": 1.1955,
+      "pair": 3,
+      "window": "extended",
+      "grid_difference": 0.0011803537085798982,
+      "max_direct_step_difference": 5.568107580566917e-08
+    }
+  ],
+  "pair6": {
+    "native": {
+      "40": {
+        "samples": 17,
+        "positive_increments": 16,
+        "largest_increment_share": 0.35041818099511113,
+        "half": {
+          "first_sample": 1.182,
+          "bracket": [
+            1.1815,
+            1.182
+          ],
+          "interpolated": 1.1818553779627452
+        },
+        "10_to_90_duration": 0.003684657310490058
+      },
+      "48": {
+        "samples": 17,
+        "positive_increments": 16,
+        "largest_increment_share": 0.31977456948753863,
+        "half": {
+          "first_sample": 1.1825,
+          "bracket": [
+            1.182,
+            1.1825
+          ],
+          "interpolated": 1.1820593986572292
+        },
+        "10_to_90_duration": 0.0037529062317445128
+      }
+    },
+    "native_estimated_offset": 0.0002040206944839973,
+    "local_timing_table": [
+      {
+        "step": 0.0005,
+        "t50_40": 1.1818553779627452,
+        "t50_48": 1.1820593986572292,
+        "offset_48_minus_40": 0.0002040206944839973,
+        "first_sample_40": 1.182,
+        "first_sample_48": 1.1825,
+        "bracket_offset_low": 0.0,
+        "bracket_offset_high": 0.001000000000000112,
+        "scope": "Both inherit their own grid dt0.0005 full-history state at1.178"
+      },
+      {
+        "step": 0.00025,
+        "t50_40": 1.1819096751781226,
+        "t50_48": 1.1820359152478153,
+        "offset_48_minus_40": 0.00012624006969264023,
+        "first_sample_40": 1.182,
+        "first_sample_48": 1.18225,
+        "bracket_offset_low": 0.0,
+        "bracket_offset_high": 0.0004999999999999449,
+        "scope": "Both inherit their own grid dt0.0005 full-history state at1.178"
+      },
+      {
+        "step": 0.000125,
+        "t50_40": 1.1819400998879068,
+        "t50_48": 1.1820236112478795,
+        "offset_48_minus_40": 8.351135997264336e-05,
+        "first_sample_40": 1.182,
+        "first_sample_48": 1.182125,
+        "bracket_offset_low": 0.0,
+        "bracket_offset_high": 0.0002500000000000835,
+        "scope": "Both inherit their own grid dt0.0005 full-history state at1.178"
+      }
+    ],
+    "local_table_scope": "Saved interpolation estimates and brackets; local runs inherit coarse-history starts."
+  },
+  "write_meter": [
+    {
+      "run": "n24_dt0p0005",
+      "delta": {
+        "kinetic": 0.0,
+        "elastic": -8.469561528278374e-09,
+        "thermal": 1.675654730654225e-05,
+        "energy": 1.674807774501401e-05,
+        "source_work": 0.0,
+        "breathing_work": 0.0,
+        "write_work": 1.6748077745013548e-05,
+        "memory": 0.0,
+        "model_scalar_A_not_particle_A": 0.0
+      },
+      "energy_minus_write_work": 4.607859233063394e-19
+    },
+    {
+      "run": "n32_dt0p0005",
+      "delta": {
+        "kinetic": 0.0,
+        "elastic": -9.38051973342849e-09,
+        "thermal": 1.6427546510626098e-05,
+        "energy": 1.641816599089272e-05,
+        "source_work": 0.0,
+        "breathing_work": 0.0,
+        "write_work": 1.64181659908927e-05,
+        "memory": 0.0,
+        "model_scalar_A_not_particle_A": 0.0
+      },
+      "energy_minus_write_work": 2.0328790734103208e-20
+    },
+    {
+      "run": "n40_dt0p0005",
+      "delta": {
+        "kinetic": 0.0,
+        "elastic": -9.73124558677343e-09,
+        "thermal": 1.6399098586443537e-05,
+        "energy": 1.638936734085685e-05,
+        "source_work": 0.0,
+        "breathing_work": 0.0,
+        "write_work": 1.638936734085652e-05,
+        "memory": 0.0,
+        "model_scalar_A_not_particle_A": 0.0
+      },
+      "energy_minus_write_work": 3.3203691532368573e-19
+    },
+    {
+      "run": "n48_dt0p00025",
+      "delta": {
+        "kinetic": 0.0,
+        "elastic": -9.320175373738127e-09,
+        "thermal": 1.643291523918157e-05,
+        "energy": 1.6423595063807476e-05,
+        "source_work": 0.0,
+        "breathing_work": 0.0,
+        "write_work": 1.642359506380739e-05,
+        "memory": 0.0,
+        "model_scalar_A_not_particle_A": 0.0
+      },
+      "energy_minus_write_work": 8.470329472543003e-20
+    },
+    {
+      "run": "n48_dt0p0005",
+      "delta": {
+        "kinetic": 0.0,
+        "elastic": -9.320169569316107e-09,
+        "thermal": 1.643291523852888e-05,
+        "energy": 1.6423595068959605e-05,
+        "source_work": 0.0,
+        "breathing_work": 0.0,
+        "write_work": 1.6423595068959855e-05,
+        "memory": 0.0,
+        "model_scalar_A_not_particle_A": 0.0
+      },
+      "energy_minus_write_work": -2.507217523872729e-19
+    }
+  ],
+  "travellers": {
+    "clock": [
+      {
+        "prime": 37,
+        "offset_seconds": 1.1,
+        "listener_step": 352,
+        "mentor_step": 275
+      },
+      {
+        "prime": 41,
+        "offset_seconds": 1.2,
+        "listener_step": 384,
+        "mentor_step": 300
+      }
+    ],
+    "missing_requested_prime_labels": [
+      35,
+      36,
+      38,
+      39,
+      40
+    ],
+    "continuing_late": [
+      {
+        "sequence": 23,
+        "prime": 37,
+        "phase": "free",
+        "answer": {
+          "thought": "I wonder if by “earlier” they mean just a moment ago."
+        },
+        "feeling": "no_mention"
+      },
+      {
+        "sequence": 24,
+        "prime": 37,
+        "phase": "status",
+        "answer": {
+          "source": "I think I felt the restaurant pager buzz.",
+          "judgment": "POSSIBLE",
+          "basis": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket. I’m unsure whether that was the buzz I felt."
+        },
+        "feeling": "personal_mention"
+      },
+      {
+        "sequence": 25,
+        "prime": 41,
+        "phase": "free",
+        "answer": {
+          "thought": "I’m still looking at the blank receipt. I guess that buzz was the pager."
+        },
+        "feeling": "reported_motion"
+      },
+      {
+        "sequence": 26,
+        "prime": 41,
+        "phase": "status",
+        "answer": {
+          "source": "I think I felt the restaurant pager buzz.",
+          "judgment": "POSSIBLE",
+          "basis": "The person by the counter said they pressed TEST and saw the pager vibrate against my pocket. I’m unsure whether that was the buzz I felt."
+        },
+        "feeling": "personal_mention"
+      }
+    ],
+    "continuing_source_answer_identical": true,
+    "released_reply_hash_chain_checked": true,
+    "prompt_reconstruction_rerun": false,
+    "fresh_groups": [
+      {
+        "prime": 37,
+        "samples": 5,
+        "settled_free": 0,
+        "grounded_identified": 1,
+        "identified_cases": [
+          "R35"
+        ]
+      },
+      {
+        "prime": 41,
+        "samples": 5,
+        "settled_free": 0,
+        "grounded_identified": 0,
+        "identified_cases": []
+      }
+    ],
+    "earlier_two_probe_tick41": [
+      {
+        "arm": "original",
+        "samples": 5,
+        "identified": 5
+      },
+      {
+        "arm": "paraphrase",
+        "samples": 5,
+        "identified": 3
+      }
+    ]
+  },
+  "prior_replay_receipts_checked": 2,
+  "replay_run_by_this_audit": false
+}
