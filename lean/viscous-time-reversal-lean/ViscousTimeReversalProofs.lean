@@ -10,7 +10,8 @@ theorem reverseTime_twice (T t : ℝ) (f : ℝ → ℝ) :
 theorem timeReverse_derivative (f : ℝ → ℝ) (T t d : ℝ)
     (h : HasDerivAt f d (T - t)) :
     HasDerivAt (reverseTime T f) (-d) t := by
-  simpa [reverseTime] using h.comp t (HasDerivAt.const_sub T (hasDerivAt_id t))
+  unfold reverseTime
+  simpa [Function.comp_def] using h.comp t (HasDerivAt.const_sub T (hasDerivAt_id t))
 
 theorem viscosity_reversal (f lap : ℝ → ℝ) (T t ν : ℝ)
     (h : HasDerivAt f (ν * lap (T - t)) (T - t)) :
@@ -28,12 +29,14 @@ theorem whole_rhs_reversal (f transport lap coupling : ℝ → ℝ) (T t ν : �
 
 theorem forwardFactor_derivative (ν q t : ℝ) :
     HasDerivAt (forwardFactor ν q) (-(ν * q) * forwardFactor ν q t) t := by
-  simpa [forwardFactor, mul_comm] using
+  unfold forwardFactor
+  simpa [mul_comm] using
     ((hasDerivAt_id t).const_mul (-(ν * q))).exp
 
 theorem backwardFactor_derivative (ν q t : ℝ) :
     HasDerivAt (backwardFactor ν q) ((ν * q) * backwardFactor ν q t) t := by
-  simpa [backwardFactor, mul_comm] using
+  unfold backwardFactor
+  simpa [mul_comm] using
     ((hasDerivAt_id t).const_mul (ν * q)).exp
 
 theorem forward_damping (ν q t : ℝ) (hν : 0 ≤ ν) (hq : 0 ≤ q) (ht : 0 ≤ t) :
