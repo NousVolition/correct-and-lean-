@@ -1,0 +1,43 @@
+{
+  "scope": "Publication of the checked combined theorem and local evidence",
+  "all_seven_lean_files_unchanged": true,
+  "original_local_package_preserved": true,
+  "files": [
+    {
+      "file": "logs/Volterra.log",
+      "local_sha256": "de4b71675ab88e83e113d9169ec223bf3ee092cd94dadbc628da0e8aab93413a",
+      "published_sha256": "1690055ad5777d61d6ecb0ddf41f32e4a6a671a76bb479439374c0d3919c2218",
+      "change": "Local path prefixes replaced with portable labels only"
+    },
+    {
+      "file": "logs/YangMillsCombined.log",
+      "local_sha256": "724f83b9f7903c9e5612c1b2b3ae88b787b51388486f801dcbc54d464ebacc22",
+      "published_sha256": "63f2b8ee9ccbd827c9520c94fcf2f78adb38b028c2e2a6a8c0ae8095b416ef8c",
+      "change": "Local path prefixes replaced with portable labels only"
+    },
+    {
+      "file": "logs/YangMillsInstance.log",
+      "local_sha256": "d8ab1c14ec1c812b57de5bb3236bd69c2dd2a2c7fa6d38a8f4bb89183fb873bf",
+      "published_sha256": "de8f220757271c173f6b4a43de65c0fa153bcbf0d8ca73874911d8e916f1d7d5",
+      "change": "Local path prefixes replaced with portable labels only"
+    },
+    {
+      "file": "verification.json",
+      "local_sha256": "96c4bf51ec0ad445974058c8b6951515ecb07a69b75df0b3253436f118a2901d",
+      "published_sha256": "7188eca0f577d23d317185b4d8c6e8bf9f24e5c40b652dd8f710f662d2f072fa",
+      "change": "Portable path labels, original and published log hashes, and publication context"
+    },
+    {
+      "file": "README.md",
+      "local_sha256": "83eae9ff99cdeb492824dd317ffc12fde684c0cfb8068bdbddb4555d8ec5a0b3",
+      "published_sha256": "a4a1f1316e0ad99797da242f29015629084579a6abcaa076146df4cb65da50ba",
+      "change": "Publication context, separate-example links, and explicit corrected attribution"
+    },
+    {
+      "file": "CREDITS.md",
+      "local_sha256": "30b755012d06a0dd4d74ffc376163bc2f8928bbee06e219396cc1970b2cc7253",
+      "published_sha256": "7be8a53172f0732724c46f7d0dd8ee97c5a6a8cbe7450a146738338f637f5975",
+      "change": "Publication context, separate-example links, and explicit corrected attribution"
+    }
+  ]
+}

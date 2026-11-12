@@ -1,0 +1,14 @@
+<package>/YangMillsCombined.lean:110:4: warning: This simp argument is unused:
+  iteratedDeriv_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [original_reading, modified_reading_on_slice p h, iteratedDeriv_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<package>/YangMillsCombined.lean:110:24: warning: This simp argument is unused:
+  iteratedDeriv_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [original_reading, modified_reading_on_slice p h, iteratedDeriv_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

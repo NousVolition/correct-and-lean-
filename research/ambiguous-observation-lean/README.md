@@ -13,6 +13,8 @@
 
 The last two rows make different claims. `YangMillsInstance` concerns derivative readings of a real projection. `YangMillsCueTest` concerns the defined abelian field equation; the modified potential fails it. Neither establishes an admissible Yang–Mills family.
 
+A [separate combined theorem](../combined-yang-mills-lean/README.md) uses the imported `readJet` to measure across the field pair’s shared slice: values and all first partial derivatives agree, while the second transverse derivative equals residuals 0 and 2. Its twelve new results have their own local verification logs and standard-axiom audit. The two original examples above remain separate.
+
 ## Read the evidence in order
 
 1. Open the source file for the row you want to check.
@@ -21,7 +23,7 @@ The last two rows make different claims. `YangMillsInstance` concerns derivative
 
 The pinned Lean build and axiom audit cover **51 public named theorems and lemmas**, including supporting results and repeated forms of the observation rule. That is not a count of 51 independent discoveries. Comparator and nanoda are not part of this workflow.
 
-**Credits:** NousVolition supplies the ideas and direction; Claude's role is independent review, numerical reruns, and the three instance drafts; the earlier assistant retains the field-equation proofs. This Codex session compiled, audited, and packaged the files. [Full, unchanged credits](CREDITS.md)
+**Credits:** NousVolition supplies the ideas, direction, and the `YangMillsInstance.lean` draft, compiled by Codex. Its `curve` and `readJet` definitions come from the upstream source. Claude’s independent review, reruns, and other instance-drafting credits remain; the earlier assistant retains the field-equation proofs, whose added transverse coefficient is labelled “an explicit test choice.” [Corrected attribution and retained credits](CREDITS.md)
 
 <details>
 <summary><strong>Expand definitions, provenance, verification details, and reproduction commands</strong></summary>
@@ -85,7 +87,7 @@ See [CREDITS.md](CREDITS.md) for the distinct roles of NousVolition, Claude, the
 
 The **Ambiguous observation and field equation** workflow installs the repository's checked Lean archive, fetches the pinned Mathlib cache, runs `lake build`, and audits all **51 public named theorems and lemmas** in this package. The count includes supporting results and repeated forms of the general observation rule; it is not a count of 51 independent discoveries. The private helper used by `TwoMemory` is checked transitively through the public proofs.
 
-`CheckAllAxioms.lean` and the CI checker were added by Codex (OpenAI), directed by NousVolition. All eight pre-existing Lean source files and `CREDITS.md` retain their exact local bytes. Existing proof authorship is unchanged. The original three instance drafts remain credited to Claude, and the field-equation proofs to the earlier assistant session.
+`CheckAllAxioms.lean` and the CI checker were added by Codex (OpenAI), directed by NousVolition. All eight pre-existing Lean source files retain their exact local bytes. On 12 November 2026, the credit text was corrected to identify `YangMillsInstance.lean` as NousVolition’s draft, compiled by Codex, while retaining the upstream definition provenance, Claude’s other contributions, and the earlier assistant’s field-equation proof credit. This documentation correction does not change the proofs or their historical logs.
 
 The public copies of local logs and receipts replace machine-specific paths with portable labels. `publication-changes.json` records original and published hashes; changed log hashes in the receipts were updated. The local originals remain preserved. A GitHub run produces fresh, separate build and axiom logs plus `github-receipt.json`, attached as a workflow artifact. A local PASS is not represented as a GitHub PASS.
 

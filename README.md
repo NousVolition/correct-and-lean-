@@ -75,6 +75,8 @@ Open a study for its observations, diagrams, proof scope and remaining questions
 
 These are separate results. Neither establishes an admissible Yang–Mills family or a mass-gap theorem. [Their scope, logs, and credits](research/ambiguous-observation-lean/README.md)
 
+**Combined theorem, in its own package:** [values and first derivatives agree; the second transverse derivative reveals residuals 0 and 2](research/combined-yang-mills-lean/README.md). Twelve new named results passed the local Lean and standard-axiom audit. [Proof and logs](research/combined-yang-mills-lean/README.md#files-and-reproduction) · [Corrected attribution](research/combined-yang-mills-lean/CREDITS.md).
+
 The intended HugandNavier system keeps the carrying relationship continuous while configurations change. Its underlying formulation is unforced; breathing is an added intervention in particular experiments. [Retained source meaning](research/comparisons/hug-navier-single-system-scope-correction.md#meaning-to-preserve-across-implementations)
 
 ## Find a specific record

@@ -1,0 +1,3 @@
+'YangMillsCueTest.same_data_different_field_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMillsCueTest.endpoint_frames_cancel' depends on axioms: [propext]
+'YangMillsCueTest.local_frames_conjugate_loop' depends on axioms: [propext]
