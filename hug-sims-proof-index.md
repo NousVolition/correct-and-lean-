@@ -2,7 +2,18 @@
 
 [NousVolition](https://github.com/NousVolition) · [Project overview](README.md)
 
-Browse 34 README guides by subject. Each linked study gives its own assumptions, evidence and status.
+Start with the tick-41 reading path, or browse by subject below. Each study retains its own settings, evidence and open questions.
+
+## Read in tick-41 order
+
+1. [Follow the connection and read what changed](docs/tick-41/README.md).
+2. [Start from the marked penne: open path and ring return](docs/penne-leapfrog/README.md).
+3. [Follow farther: finite-window rule and recorded gaps](research/hug-v3/finite-window-lean/README.md).
+4. [Compare finer-grid and time-step readings through tick 41](research/hug-v3/finer-grid-study/README.md), then the [separate threshold-1 breathing control](research/hug-v3/threshold-one-follow-up/README.md).
+5. [Read one continuing Traveller B through tick 41](lean/sims-mentor-first-thought-lean/one-traveller/README.md).
+6. [Follow each claim to its proof and verification status](PROOF-STATUS.md).
+
+The [single-system meaning](research/comparisons/hug-navier-single-system-scope-correction.md#meaning-to-preserve-across-implementations) stays attached to this reading. Tick 41 is the organizing checkpoint; individual studies keep their own clocks and definitions.
 
 ## A/S and Hug Lean packages
 
@@ -57,7 +68,7 @@ Browse 34 README guides by subject. Each linked study gives its own assumptions,
 
 ## Project guide
 
-- [Hug and SIMS: Lean 4 proofs and numerical studies](README.md)
+- [Hug and SIMS: follow the connection to tick 41](README.md)
 
 
 ## More from NousVolition
