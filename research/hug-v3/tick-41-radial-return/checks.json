@@ -1,0 +1,23 @@
+{
+  "16": {
+    "independently_checked_seeds": 24,
+    "unresolved": 0,
+    "max_independent_miss_difference": 1.461868820440415e-13,
+    "B_reproduction_error": 7.860465750519907e-18,
+    "input_sha256": "8f9a59582cdd5b3eaa7a1d47c90b31bd679f7e5be39326dc1d2f115d4735203a"
+  },
+  "24": {
+    "independently_checked_seeds": 25,
+    "unresolved": 0,
+    "max_independent_miss_difference": 2.866682585755953e-13,
+    "B_reproduction_error": 1.5634195327240974e-16,
+    "input_sha256": "51f627e549775daf9d9c6ca47fc20a6c6dcd37a30fd30157d5b9f8d1dfcd59d9"
+  },
+  "32": {
+    "independently_checked_seeds": 45,
+    "unresolved": 7,
+    "max_independent_miss_difference": 7.45441579347722e-05,
+    "B_reproduction_error": 1.573177352276467e-16,
+    "input_sha256": "686a597b51c436d2b7bfae4ba5cb7d22c47d82cf6923d3445bf692fa1318ced8"
+  }
+}

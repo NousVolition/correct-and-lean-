@@ -64,6 +64,8 @@ The [matched-stretch study](research/matched-stretch/final-matrix/README.md) con
 
 The original publication's payload checks and GitHub CI results are retained in [evidence](research/matched-stretch/evidence/). They refer to the original publication commit, not to a fresh numerical or formal run in this repository.
 
+The **threshold-1 tick-41 fine-to-broad test** continues the saved breathing-off 32³ post-write state from 1.2 to 1.22 with full coupling. A fine-only velocity perturbation decreases 75.97% while a broad difference reaches 4.124655 × 10⁻¹² RMS. The finest two time steps agree within 0.00193% at the endpoint (0.01847% over common times); the rescaled half-amplitude comparison differs by at most 0.19401%. This establishes a small numerical transmission route in one saved state, not the source of prior errors or the cause of the frozen return-miss spike. The preceding radial scan retains seven unresolved values among 2,062 seed rows. These results add no Lean theorem. [Continuation and replay](research/hug-v3/tick-41-wave-transfer/README.md) · [Radial scan and checks](research/hug-v3/tick-41-radial-return/README.md)
+
 ## Full records
 
 See the [package index](lean/README.md) for every original status, and [provenance](provenance/files.json) for exact file identities. This overview does not replace the hypotheses and limitations in those records.

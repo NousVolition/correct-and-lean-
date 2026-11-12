@@ -10,8 +10,9 @@ Start with the tick-41 reading path, or browse by subject below. Each study reta
 2. [Start from the marked penne: open path and ring return](docs/penne-leapfrog/README.md).
 3. [Follow farther: finite-window rule and recorded gaps](research/hug-v3/finite-window-lean/README.md).
 4. [Audit the readings between ticks 37 and 41](research/tick-35-41-audit/README.md), including the [earlier finer-grid and time-step study](research/hug-v3/finer-grid-study/README.md), then the [separate threshold-1 breathing control](research/hug-v3/threshold-one-follow-up/README.md).
-5. [Read one continuing Traveller B through tick 41](lean/sims-mentor-first-thought-lean/one-traveller/README.md).
-6. [Follow each claim to its proof and verification status](PROOF-STATUS.md).
+5. [Find where the frozen-field return miss rises](research/hug-v3/tick-41-radial-return/README.md), then [evolve a fine-wave difference](research/hug-v3/tick-41-wave-transfer/README.md).
+6. [Read one continuing Traveller B through tick 41](lean/sims-mentor-first-thought-lean/one-traveller/README.md).
+7. [Follow each claim to its proof and verification status](PROOF-STATUS.md).
 
 The [single-system meaning](research/comparisons/hug-navier-single-system-scope-correction.md#meaning-to-preserve-across-implementations) stays attached to this reading. Tick 41 is the organizing checkpoint; individual studies keep their own clocks and definitions.
 
@@ -45,6 +46,10 @@ The [single-system meaning](research/comparisons/hug-navier-single-system-scope-
 - [Traveller B’s first thought after the mentor spoke](lean/sims-mentor-first-thought-lean/README.md)
 
 ## Numerical studies and comparisons
+
+- [Tick 41: a fine difference reaches broad waves](research/hug-v3/tick-41-wave-transfer/README.md)
+- [Tick 41: independent full-interval replay, phase and tolerance checks](research/hug-v3/tick-41-wave-transfer/independent-replay/README.md)
+- [Tick 41: where return miss rises in the frozen field](research/hug-v3/tick-41-radial-return/README.md)
 
 - [Follow 540 out and 872 in: overlapping local views, context origins and remaining inventory question](research/hug-v3/observer-follow-study/README.md)
 

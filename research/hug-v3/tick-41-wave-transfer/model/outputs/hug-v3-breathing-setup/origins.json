@@ -1,0 +1,12 @@
+{
+  "parent_repository": "NousVolition/correct-and-lean-",
+  "parent_revision": "a94d989b7844f91644dcd04f7d63543a4e082277",
+  "parent_directory": "lean/hug-v3-source-lean/sources",
+  "parent_seal_sha256": "b815846bd7afe1aa1a91430c40b658fc44a4d13add5432de0aed424530bedea0",
+  "earlier_prime_archive_sha256": "49007ffe8aaaa1ad2844982342e0cf5e62751096e6df93e5ddcb81fafa4c171c",
+  "trail_seed_parent_sha256": {
+    "trail-7.52.csv": "deb3bc1331cd2f0f1a151878b7d5dc3ea3afe16cd625f2ffa9bcf9599b0bd143",
+    "trail-7.67.csv": "3971735ab6609c6804fc453ccaeb75e5b750014fa3f219cc2488521f2b7f8ab6"
+  },
+  "registration": "Original release-to-H material order. Native x=x_basin/2, y=y_basin/2 (positive picture down), z=0. s_cube=s_basin/2. No earlier trajectory or later marker insertion is used to initialize Hug."
+}

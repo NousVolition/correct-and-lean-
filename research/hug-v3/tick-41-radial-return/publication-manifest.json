@@ -1,0 +1,9 @@
+{
+  "checks.json": "98533bc5247a5a940b661708a6f05ea084fec53a84efde9f44725e6443f89820",
+  "every-seed-return-miss.csv": "db2002d7f56fce6dd943441a053f346c56bb22a0ca4dca69b0dbd02e2ca4a10c",
+  "README.md": "c08405aac13607055259dd4b0957c383450d84a3f6f5d33a0471447489b9160d",
+  "return-miss-versus-radius.png": "9f49afd8b43e47b22cee76f9b19e2ad41b7593f7cdf4523e52ee4dc377c64e44",
+  "rise-and-sensitive-band.png": "733657baad8b8cee89cab167ef88885a82d7b9059d27b42c5852d826dcca9575",
+  "summary.json": "e33154ead80064d145853459c745f79e92e20fc34492502d7a70625651c7c319",
+  "verify_records.py": "142a3dd6de2f20a8cf57cf2398310b985c6c31e464585920388dc8a07820801d"
+}

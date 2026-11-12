@@ -1,0 +1,53 @@
+{
+  "parameters": {
+    "comparison_period": {
+      "kind": "real",
+      "min": 0.6,
+      "max": 0.6,
+      "source": "fixture",
+      "register_row": null
+    },
+    "comparison_dt": {
+      "kind": "real",
+      "min": 0.002,
+      "max": 0.002,
+      "source": "fixture",
+      "register_row": null
+    },
+    "comparison_end": {
+      "kind": "real",
+      "min": 1.2,
+      "max": 1.2,
+      "source": "fixture",
+      "register_row": null
+    },
+    "comparison_original_markers": {
+      "kind": "integer",
+      "min": 801,
+      "max": 801,
+      "source": "fixture",
+      "register_row": null
+    },
+    "comparison_xy_scale": {
+      "kind": "real",
+      "min": 0.5,
+      "max": 0.5,
+      "source": "fixture",
+      "register_row": null
+    },
+    "comparison_neighbour_stretch": {
+      "kind": "integer",
+      "min": 3,
+      "max": 3,
+      "source": "fixture",
+      "register_row": null
+    },
+    "comparison_peak_acceleration": {
+      "kind": "real",
+      "min": 0.0,
+      "max": 0.5,
+      "source": "fixture",
+      "register_row": null
+    }
+  }
+}

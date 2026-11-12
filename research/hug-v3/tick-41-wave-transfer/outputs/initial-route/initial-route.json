@@ -1,0 +1,66 @@
+{
+  "time": 1.2,
+  "definition": "Projected Fourier coefficients for 1<=max(abs(k))<=2; vector RMS over the unit cube.",
+  "initial_other_terms": "Material and clay stresses, their positions, and the context-dependent activation are identical initially. Their initial velocity-rate differences are zero. Later feedback stays active in the main runs.",
+  "formula": "P_low P_divfree [epsilon(q cross curl(u) + u cross curl(q)) + epsilon^2 q cross curl(q) + div(nu(theta)*epsilon*(grad(q)+grad(q)^T))]",
+  "fractions": "Signed projection onto the total rate difference; these add to one. Component norms need not add.",
+  "padding_scope": "Same saved 32^3 field resampled; checks initial nonlinear evaluation only, not full spatial refinement.",
+  "checks": {
+    "native_reconstruction_relative_difference": 2.796939793163412e-08,
+    "native_vs_96_relative_difference": 2.2580453738290454e-07,
+    "padded64_vs_96_relative_difference": 1.1959928412787853e-12,
+    "padded48_vs_96_relative_difference": 1.30638619483741e-12,
+    "quadratic_advection_native_vs_96_relative_difference": 1.953801871706012e-15,
+    "linear_advection_native_vs_96_relative_difference": 5.648106637928476e-14
+  },
+  "rows": [
+    {
+      "work_grid": 32,
+      "total_rate_rms": 6.206986873058965e-11,
+      "viscosity_min": 0.012693317607318389,
+      "viscosity_max": 0.014998237240564538,
+      "advection_linear_rate_rms": 6.201392935707854e-11,
+      "advection_linear_signed_fraction_along_total": 0.9391977770495212,
+      "advection_quadratic_rate_rms": 2.5589446568503435e-13,
+      "advection_quadratic_signed_fraction_along_total": -0.0004295645414112004,
+      "viscosity_rate_rms": 2.1476713122331788e-11,
+      "viscosity_signed_fraction_along_total": 0.06123178749188988
+    },
+    {
+      "work_grid": 48,
+      "total_rate_rms": 6.20698722384802e-11,
+      "viscosity_min": 0.012692322757332054,
+      "viscosity_max": 0.014998237240564538,
+      "advection_linear_rate_rms": 6.201392935707823e-11,
+      "advection_linear_signed_fraction_along_total": 0.9391977301827246,
+      "advection_quadratic_rate_rms": 2.5589446568503424e-13,
+      "advection_quadratic_signed_fraction_along_total": -0.00042956437801470077,
+      "viscosity_rate_rms": 2.1476712603767102e-11,
+      "viscosity_signed_fraction_along_total": 0.0612318341952903
+    },
+    {
+      "work_grid": 64,
+      "total_rate_rms": 6.206987223848102e-11,
+      "viscosity_min": 0.012691204283861843,
+      "viscosity_max": 0.014998237240564538,
+      "advection_linear_rate_rms": 6.201392935707819e-11,
+      "advection_linear_signed_fraction_along_total": 0.939197730182791,
+      "advection_quadratic_rate_rms": 2.558944656850344e-13,
+      "advection_quadratic_signed_fraction_along_total": -0.00042956437801442343,
+      "viscosity_rate_rms": 2.147671260375296e-11,
+      "viscosity_signed_fraction_along_total": 0.061231834195223475
+    },
+    {
+      "work_grid": 96,
+      "total_rate_rms": 6.206987223848485e-11,
+      "viscosity_min": 0.012690999920748746,
+      "viscosity_max": 0.014998237240564538,
+      "advection_linear_rate_rms": 6.201392935707815e-11,
+      "advection_linear_signed_fraction_along_total": 0.9391977301826869,
+      "advection_quadratic_rate_rms": 2.558944656850342e-13,
+      "advection_quadratic_signed_fraction_along_total": -0.00042956437801426974,
+      "viscosity_rate_rms": 2.14767126037617e-11,
+      "viscosity_signed_fraction_along_total": 0.06123183419532698
+    }
+  ]
+}

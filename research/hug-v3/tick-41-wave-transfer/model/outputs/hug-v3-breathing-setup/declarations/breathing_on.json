@@ -1,0 +1,97 @@
+{
+  "study": "Hug v3 periodic breathing comparison",
+  "run_id": "breathing_on",
+  "date": "2026-11-10",
+  "declared_by": "Codex, proposed off/on extension for review before execution",
+  "register_rows": [
+    "Momentum",
+    "Responses",
+    "Gradient alternatives",
+    "Transport/history",
+    "Stress"
+  ],
+  "inherits": [
+    {
+      "study": "hug-structural-memory-v3",
+      "status": "added-rule historical"
+    }
+  ],
+  "added_rules": [
+    {
+      "name": "Periodic external acceleration",
+      "statement": "With d=z+1/2, B=cos(pi*x)^2 cos(pi*y)^2 and G=(1-cos(2*pi*d))/(2*pi)+sin(4*pi*d)/(8*pi), use peak*cos(2*pi*t/period)*(-B*G',0,(dB/dx)*G)/1.5. This new smooth, zero-mean solenoidal curl lies in the 16-grid retained modes. Its largest component over the grid is peak. Add it to the native projected velocity rate at both Heun stages.",
+      "reason": "Close the circulation smoothly across the native cube's periodically identified faces."
+    },
+    {
+      "name": "Breathing work",
+      "statement": "Integrate spatial mean(u dot external acceleration) using the two native Heun stages in a separate scalar breathing_work. Total supplied work is native threshold work plus breathing work plus native write work. No breathing power is added directly to heat or to a memory budget.",
+      "reason": "Charge only actual mechanical work to the added actuator."
+    },
+    {
+      "name": "Shared measurement clock",
+      "statement": "Use the original main initial state, all original actor inputs, thresholds and accepted-write rules. Both arms use actual Heun steps of 0.002 (within the sealed cap 0.005), save each endpoint, and stop at 1.200 after the last scheduled write. Do not import the cylinder's initial scalar profile.",
+      "reason": "Make every timed comparison a native endpoint during two proposed breathing cycles."
+    },
+    {
+      "name": "Periodic trail observers",
+      "statement": "Register the original 801 IDs at (x_basin/2,y_basin/2,0); s0_cube=s0_basin/2. Advance their unwrapped positions via the native Heun stages sampling the unsmoothed retained Fourier velocity. Use wrapped coordinates for spatial sampling. The 384 material points continue to use native M for their own motion and feedback.",
+      "reason": "Read the water without adding material, elastic stress, heat or memory to the Hug equations."
+    },
+    {
+      "name": "Neighbour diagnostics",
+      "statement": "At every step test shortest periodic neighbour separation against three times that pair's starting length. Append the material-order midpoint as an arm-local diagnostic and measure two new starting gaps at birth. Pair only the original IDs.",
+      "reason": "Retain stretch observations while keeping matching IDs in both arms."
+    },
+    {
+      "name": "Historical prime checkpoints",
+      "statement": "Read prime-times.csv verbatim. At write endings take a pre-write and a verified post-write snapshot with the same clock and positions. At 0.800 close and verify event 1 before capturing the new deformation reference for event 2. No observation triggers a write.",
+      "reason": "Track stage-sensitive quantities at the earlier clock coincidences."
+    },
+    {
+      "name": "Per-marker and native readout",
+      "statement": "At each prime save positions, native resolved velocity, C, its local source, excess and total temperature, and Frobenius norms of the spatially spread structural-fabric stress and native viscous stress. Scalar/tensor fields use periodic trilinear sampling. Save actual decoded event IDs, actors, native material arrays and fixed upper/middle/lower probe velocities at the same side of the same event.",
+      "reason": "Separate Eulerian measurements at an observer from native material records and actor state."
+    }
+  ],
+  "parameters": {
+    "comparison_period": 0.6,
+    "comparison_dt": 0.002,
+    "comparison_end": 1.2,
+    "comparison_original_markers": 801,
+    "comparison_xy_scale": 0.5,
+    "comparison_neighbour_stretch": 3,
+    "comparison_peak_acceleration": 0.5
+  },
+  "fixture_ranges": {
+    "comparison_period": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "comparison_dt": {
+      "min": 0.002,
+      "max": 0.002
+    },
+    "comparison_end": {
+      "min": 1.2,
+      "max": 1.2
+    },
+    "comparison_original_markers": {
+      "min": 801,
+      "max": 801
+    },
+    "comparison_xy_scale": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "comparison_neighbour_stretch": {
+      "min": 3,
+      "max": 3
+    },
+    "comparison_peak_acceleration": {
+      "min": 0.5,
+      "max": 0.5
+    }
+  },
+  "claims_corpus_validation": false,
+  "notes": "The unchanged sealed main declaration is checked separately with its own native gate before construction. The supplemental declaration covers this comparison. The two arms differ only in the external acceleration amplitude."
+}

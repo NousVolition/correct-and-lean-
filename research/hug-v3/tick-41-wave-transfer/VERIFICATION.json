@@ -1,0 +1,19 @@
+{
+  "source_state_hash": true,
+  "perturbation_hash": true,
+  "packaged_model_used": true,
+  "source_seals_checked": 5,
+  "history_rows_checked": 283,
+  "complex_mode_snapshots_checked": 164,
+  "paired_first_step_replay_relative_difference": 0.0,
+  "self_contained_report_images": 2,
+  "all_report_links_exist": true,
+  "acceptance_checks": {
+    "initial_broad_below_1e_minus16": true,
+    "final_broad_over_100_times_initial_roundoff": true,
+    "finest_two_vector_responses_within_one_percent_at_all_common_times_after_start": true,
+    "halved_amplitude_vector_response_within_one_percent_after_rescaling": true,
+    "identical_first_steps_bit_identical": true,
+    "input_unchanged": true
+  }
+}
