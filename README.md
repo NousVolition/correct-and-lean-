@@ -65,15 +65,19 @@ The tick-41 gap sample is taken **before the write at time 1.2**. The write pres
 
 ## What stays with pair 25 after tick 41?
 
-![Pair 25 retains the shared records while local values change; complete physical retention remains open.](research/hug-v3/pair-retention-study/pair-retention.png)
+![Pair 25: nearby labels stay while context origins change; wider windows reveal changed members.](research/hug-v3/pair-origin-study/pair25-origins.png)
 
-**Simulation findings:** three continuations follow the same pair from the saved **after-write tick-41 state (time 1.2) to time 1.3**. All three shared memory records keep their complete decoded contents across **459 payload comparisons**. Local heat and context change. The original 40³ local accounting check fails; a controlled correction at observation-cell crossings closes that account while leaving the simulated states and sampled values unchanged. The failed result is preserved.
+**Origin simulation findings:** three continuations follow the saved **after-write tick-41 state (time 1.2) to time 1.3**, retaining threshold **0.015** and breathing on. In the main moving windows (radius 0.075), the same **133 material points and 276 other observer labels** remain inside at every recorded step. In the finest time-step run, **44.65%** of the context contribution initially inside is still inside; **55.35%** is elsewhere in the domain. Incoming and newly added context keep the local total at **100.46%** of its starting amount. This tracks the model's context scalar, not water mass.
 
-**Lean findings:** **40 finite statements pass**, checking retention rules, the complete recorded memory payloads and exact recorded account numbers—including the original failed verdict and corrected verdict. Lean does not prove the fluid simulation, physical ownership of contents by this pair or continuum convergence.
+**A wider view catches a change the count hides:** at radius 0.10, observer **540 leaves** and **872 arrives** in every run. The starting and ending count is **364**, with different members. Crossing identities agree across runs, but crossing times differ by grid. The retained-context fraction differs by only **0.048812 percentage points** at the endpoint between 40³ and 48³, yet by up to **1.344660 points earlier**. These new fractions are not established as continuum-converged.
 
-**Still unknown: does everything stay with the pair?** These are shared records, and A/B have no separately stored complete physical inventory. A balanced account can include replacement of outgoing contents. This test cannot establish that every original physical content stays with the pair.
+**Lean findings:** **77 finite statements pass**, checking recorded identity histories, departing and arriving IDs, material-field change numbers, full shared-memory contents and exact context-origin accounts. The three shared records remain unchanged across **2,409 payload comparisons**. Lean checks the recorded numbers and rules; it does not prove the fluid simulation, geometric interpolation or physical ownership of contents.
 
-[Results, settings and limits](research/hug-v3/pair-retention-study/README.md) · [Lean statements and original receipt](research/hug-v3/pair-retention-lean/README.md) · [GitHub proof receipt](research/hug-v3/pair-retention-study/github-lean-receipt.json)
+**Still unknown: does everything stay with the pair?** A/B have no complete private physical inventory. The windows are views, and context outside a window is not destroyed. This test starts after the tick-41 write and does not recover the earlier encounter's starting inventory.
+
+[Origin results, settings and limits](research/hug-v3/pair-origin-study/README.md) · [77 Lean checks and original receipt](research/hug-v3/pair-origin-lean/README.md) · [GitHub proof receipt](research/hug-v3/pair-origin-study/github-lean-receipt.json)
+
+**Earlier retention study, preserved separately:** its **459 payload comparisons** and **40 Lean statements** remain their own results. Its original 40³ local accounting check failed; a controlled correction at observation-cell crossings closed that account with unchanged simulated states and sampled values. [Earlier results and diagram](research/hug-v3/pair-retention-study/README.md) · [Earlier Lean package](research/hug-v3/pair-retention-lean/README.md) · [Earlier GitHub receipt](research/hug-v3/pair-retention-study/github-lean-receipt.json)
 
 ## Proofs and the questions they answer
 
@@ -154,3 +158,4 @@ Historical receipts retain their source revisions and original outcomes, includi
 ## License
 
 Copyright © 2026 NousVolition. All rights reserved. See the [copyright notice](LICENSE) for terms applying to reuse of the original work.
+

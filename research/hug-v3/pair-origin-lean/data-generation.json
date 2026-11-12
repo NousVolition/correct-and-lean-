@@ -1,0 +1,12 @@
+{
+  "decimal_places": 32,
+  "targets": 77,
+  "histories": 3924,
+  "primary_identity_view": "union of moving A/B windows, radius 0.075",
+  "context_radii": [
+    0.05,
+    0.075,
+    0.1
+  ],
+  "scope": "Exact recorded membership bits, full memory bytes and signed decimal context accounts; no geometry or fluid evolution proof."
+}
