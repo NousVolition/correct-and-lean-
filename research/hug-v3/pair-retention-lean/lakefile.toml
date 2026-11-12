@@ -1,0 +1,12 @@
+name = "PairRetention"
+version = "0.1.0"
+defaultTargets = ["CarryingInventory", "RecordedRetention", "ReadoutCorrection"]
+
+[[lean_lib]]
+name = "CarryingInventory"
+
+[[lean_lib]]
+name = "RecordedRetention"
+
+[[lean_lib]]
+name = "ReadoutCorrection"

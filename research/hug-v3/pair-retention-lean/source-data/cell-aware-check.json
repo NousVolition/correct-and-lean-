@@ -1,0 +1,76 @@
+{
+  "method": "Heun dense output, split at trilinear interpolation-cell crossings; four Gauss nodes in each piece.",
+  "original_local_target": 1e-06,
+  "original_max_residual": 3.4279396057977553e-06,
+  "corrected_max_residual": 2.443791696782327e-16,
+  "original_target_met": false,
+  "corrected_target_met": true,
+  "interpolation_cell_splits": 2,
+  "every_entry_exit_state_array_byte_identical": true,
+  "all_saved_pair_positions_byte_identical": true,
+  "record_payloads_byte_identical": true,
+  "all_observed_local_values_identical": true,
+  "array_comparisons": {
+    "entry-state.npz": {
+      "g": true,
+      "X": true,
+      "F": true,
+      "m": true,
+      "A": true,
+      "ledger": true,
+      "expression": true,
+      "context": true,
+      "norm": true,
+      "logradius": true,
+      "relation": true,
+      "responses": true,
+      "association": true,
+      "b": true,
+      "write_work": true,
+      "observer_X": true,
+      "breathing_work": true
+    },
+    "exit-state.npz": {
+      "g": true,
+      "X": true,
+      "F": true,
+      "m": true,
+      "A": true,
+      "ledger": true,
+      "expression": true,
+      "context": true,
+      "norm": true,
+      "logradius": true,
+      "relation": true,
+      "responses": true,
+      "association": true,
+      "b": true,
+      "write_work": true,
+      "observer_X": true,
+      "breathing_work": true
+    },
+    "pair-positions.npz": {
+      "positions": true,
+      "times": true
+    },
+    "record-payloads.npz": {
+      "payloads": true,
+      "ids": true,
+      "entry_payloads": true,
+      "entry_ids": true,
+      "times": true
+    }
+  },
+  "interpretation": "The original 40-grid local accounting failure disappears when only the integration of the readout is changed. The fluid state, sampled local values and retained records are unchanged.",
+  "scope": "Controlled numerical readout check, not a physical-loss, complete private-inventory or continuum-convergence theorem.",
+  "input_sha256": {
+    "outputs\\pair25-retention\\n40_dt0p0005\\result.json": "704bc00744740027626267c8507c43a8faa692d362ad7f715015659da9c70ab0",
+    "outputs\\pair25-retention-cellaware\\n40_dt0p0005\\result.json": "e86f2e49340ac46f8f79c4e89f5ad1781e4a7bb7c16bc41d9892404fe22207be",
+    "outputs\\pair25-retention\\n40_dt0p0005\\local-budgets.csv": "c8394619d0e6a2211b0bfd6d3e9bc55c990bb5cd1954d9ac69d29f56fef19c3c",
+    "outputs\\pair25-retention-cellaware\\n40_dt0p0005\\local-budgets.csv": "94ec599714f8b12ab97a3dbecce6577866a02b195bcfa9174ac74b0b40126c34",
+    "outputs\\pair25-retention\\n40_dt0p0005\\exit-state.npz": "303cae0cebdde66152626df1f275414431c4d5f8308150bd2be35a84f4b8a74c",
+    "outputs\\pair25-retention-cellaware\\n40_dt0p0005\\exit-state.npz": "303cae0cebdde66152626df1f275414431c4d5f8308150bd2be35a84f4b8a74c",
+    "outputs\\pair25-retention-cellaware\\n40_dt0p0005\\pair-positions.npz": "3f825c86bd851051d86d909c056b40730ac2acea0b8f0c331f78c5f78c7e31e3",
+    "outputs\\pair25-retention-cellaware\\n40_dt0p0005\\record-payloads.npz": "3e94c02fe1f99ffe00cdc59723bb13ce8c744950accc2cf64da2f6a45564140b"
+  }
+}

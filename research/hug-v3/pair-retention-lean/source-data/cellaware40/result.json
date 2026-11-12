@@ -1,0 +1,245 @@
+{
+  "run": "n40_dt0p0005",
+  "n": 40,
+  "dt": 0.0005,
+  "start": 1.2,
+  "end": 1.3,
+  "steps": 200,
+  "samples": 51,
+  "rhs_stages": 400,
+  "metrics": {
+    "max_local_budget_residual": 2.443791696782327e-16,
+    "max_context_ledger_residual": 5.204170427930421e-18,
+    "max_energy_ledger_residual": 1.0764604675304532e-12,
+    "all_entry_records_retained": true,
+    "minimum_m_rate": 0.0,
+    "minimum_m_increase": 0.0,
+    "minimum_m_step_increment": 0.0,
+    "minimum_b_read_margin": 0.019907003781424414,
+    "maximum_b_sign_flips": 0,
+    "rate_component_max_error": 1.8388068845354155e-16,
+    "interpolation_cell_splits": 2
+  },
+  "criteria": {
+    "record_payloads_retained": true,
+    "memory_values_not_decreased": true,
+    "bit_read_margins_met": true,
+    "context_ledger_met": true,
+    "energy_ledger_met": true,
+    "local_budget_target_met": true
+  },
+  "full_private_inventory_established": false,
+  "no_new_write": true,
+  "no_lean_check_in_this_run": true,
+  "readout_method": "Four-point Gauss integration of Heun dense output, split at trilinear cell crossings; native fluid steps unchanged",
+  "inventory": [
+    {
+      "name": "g",
+      "classification": "fluid grid: velocity, C and theta",
+      "shape": [
+        40,
+        40,
+        40,
+        5
+      ],
+      "changed": true,
+      "max_absolute_change": 0.03058468445527333,
+      "entry_array_sha256": "77060aa3eba9f8740aaf4b53ce77d97effdb460e45c494ba1de41bed4159ef65",
+      "exit_array_sha256": "ec5ad521a347dd0946493e2f07a29196274c535cd53fb211bf59c3fac03830a2"
+    },
+    {
+      "name": "X",
+      "classification": "shared material positions",
+      "shape": [
+        384,
+        3
+      ],
+      "changed": true,
+      "max_absolute_change": 0.010074413332598807,
+      "entry_array_sha256": "15fedfce01f1248415bfefadb1943679a603569312f30a08c60e384cdfab601c",
+      "exit_array_sha256": "b58de9925034cbf639efad7026d6b1eb28c41245815ea0e90f35a869b35e0bc9"
+    },
+    {
+      "name": "F",
+      "classification": "shared material deformation",
+      "shape": [
+        384,
+        3,
+        3
+      ],
+      "changed": true,
+      "max_absolute_change": 0.03366248137547456,
+      "entry_array_sha256": "d0c5cbbb2a1ab30f04840de2f1b538b74d21bb2c8eb35e5fbaecb222789ee7e3",
+      "exit_array_sha256": "a657d2b290a006887c01bcff56897250f8572b457a40fa957f211bf0fd5e9d80"
+    },
+    {
+      "name": "m",
+      "classification": "shared directional material memory",
+      "shape": [
+        384,
+        24,
+        2
+      ],
+      "changed": true,
+      "max_absolute_change": 0.07109070029734882,
+      "entry_array_sha256": "ab3463b27abc98b1eeab683e0e1de783f1f09479a1598a39ea845bc296e433ca",
+      "exit_array_sha256": "8fc3719283b73c1c31615fe9630751d6e50ebe6b8a461a6c184f656a9a3592fa"
+    },
+    {
+      "name": "A",
+      "classification": "system context accumulator",
+      "shape": [],
+      "changed": true,
+      "max_absolute_change": 0.0008384035151939489,
+      "entry_array_sha256": "0a5d111b421bb7f158fd5bba64bacdda46d4b3e817544678ecec5e88ae301aa0",
+      "exit_array_sha256": "c440915dc519732d8e41b007e9042022ec5fca03a372af5f746562f2446d2d19"
+    },
+    {
+      "name": "ledger",
+      "classification": "system exchange accounts",
+      "shape": [
+        4
+      ],
+      "changed": true,
+      "max_absolute_change": 0.0006834051131525097,
+      "entry_array_sha256": "937b80f07600fd2972d2681e0d111563e7e1e7aa9b7669030728d610b4500507",
+      "exit_array_sha256": "377e0c8f53e871049798307c4c60df564ef5ca9081ea3e3ff89ec3ebaf2680e9"
+    },
+    {
+      "name": "expression",
+      "classification": "actor state",
+      "shape": [
+        6,
+        2
+      ],
+      "changed": true,
+      "max_absolute_change": 0.01307694664717507,
+      "entry_array_sha256": "7b3012136e625c418e56aaf077cc56f7fad4fc3ad2a3728bc0b2d51b80b59369",
+      "exit_array_sha256": "716a5300a09d3f1ebba0af48d6d5c67c8d624d40250055a9253dd0e7a30457b7"
+    },
+    {
+      "name": "context",
+      "classification": "actor state",
+      "shape": [
+        6,
+        2
+      ],
+      "changed": true,
+      "max_absolute_change": 0.03529165670842638,
+      "entry_array_sha256": "35338e737ae115e77ad0ccfcd8ee58d1e5356553657e6531bdfbe12e494650e8",
+      "exit_array_sha256": "6da7d383701792116f4dd1832435047e75df8255435352f70f71a937376a4175"
+    },
+    {
+      "name": "norm",
+      "classification": "actor state",
+      "shape": [
+        6,
+        2
+      ],
+      "changed": true,
+      "max_absolute_change": 0.005598775235459708,
+      "entry_array_sha256": "d50a32ff65f10d59d29a9d966499f8fd333897c39a352a72d6d3576087486158",
+      "exit_array_sha256": "8edf583ad36eab9c98105eea8fd58ec06126ee3cf1516e4c7e8a74d1d7859233"
+    },
+    {
+      "name": "logradius",
+      "classification": "actor relation state",
+      "shape": [
+        6,
+        6
+      ],
+      "changed": true,
+      "max_absolute_change": 0.006456545901603217,
+      "entry_array_sha256": "fcfaf4c4d61b3825a4cdca8d817acbd861b9f37ec08e9f632bf52fda2e0e8978",
+      "exit_array_sha256": "35218cf425104e5643f91daf71cb7d419addaf0659fefa9c1f46b8a7bc596802"
+    },
+    {
+      "name": "relation",
+      "classification": "actor relation state",
+      "shape": [
+        6,
+        6,
+        3
+      ],
+      "changed": true,
+      "max_absolute_change": 0.022788407706031077,
+      "entry_array_sha256": "e2dc13360bd778b13cd2d2554579e227c2f34af52a9af5f80569158a514eef51",
+      "exit_array_sha256": "2eb0da31c4a11b38421689655933c5e026fc3814026f8ee2dc9fad259749cadf"
+    },
+    {
+      "name": "responses",
+      "classification": "actor relation state",
+      "shape": [
+        6,
+        6,
+        7
+      ],
+      "changed": true,
+      "max_absolute_change": 0.015747530506203034,
+      "entry_array_sha256": "5fea917bfa5a2f9a7942a901abff2c4a38eda7327a3cfc85638cb5cf0b554d58",
+      "exit_array_sha256": "fc8e3ac184f0c1e215fe3340bd1667af096b13c8ea1e16cb74bacbea820cfdce"
+    },
+    {
+      "name": "association",
+      "classification": "actor relation state",
+      "shape": [
+        6,
+        6,
+        3
+      ],
+      "changed": true,
+      "max_absolute_change": 0.030794978154303834,
+      "entry_array_sha256": "60cbe1fffb309c9ccbb6ca2789236591baa6ef07218c6a022b89c5b7724ef10b",
+      "exit_array_sha256": "bd710bc46a351b8c788f6db58789e17aac677286d1217d381d6d2e927fce172e"
+    },
+    {
+      "name": "b",
+      "classification": "shared bistable memory material",
+      "shape": [
+        149056
+      ],
+      "changed": true,
+      "max_absolute_change": 1.645672482487523e-05,
+      "entry_array_sha256": "b825e5b40976f0440d410612de70c04f64b343b301a8db806a649170d2920ba1",
+      "exit_array_sha256": "9e386f94ddb5853090ddc794bc8f40ad2a2b9b801d2d866fa657748bb81ce4f4"
+    },
+    {
+      "name": "write_work",
+      "classification": "system writing-work account",
+      "shape": [],
+      "changed": false,
+      "max_absolute_change": 0.0,
+      "entry_array_sha256": "b6a86e4ac3894678d60be0eed0fd6aa030ff5d9b343fbe0fcc3cb75470f71695",
+      "exit_array_sha256": "b6a86e4ac3894678d60be0eed0fd6aa030ff5d9b343fbe0fcc3cb75470f71695"
+    },
+    {
+      "name": "observer_X",
+      "classification": "passive observer positions only",
+      "shape": [
+        926,
+        3
+      ],
+      "changed": true,
+      "max_absolute_change": 0.010211381236110172,
+      "entry_array_sha256": "b1caaf38bb05ff9afb4c56256e814577842889ebb93608507a2b34f9559999da",
+      "exit_array_sha256": "31264743133dd6aab997e30a38a1133eadfdb73de2046fdbd7f833475a65eec9"
+    },
+    {
+      "name": "breathing_work",
+      "classification": "system added-drive work account",
+      "shape": [],
+      "changed": true,
+      "max_absolute_change": 7.617023175777674e-05,
+      "entry_array_sha256": "521c19c40019b129e908e32a47daccc94f747e0a0dd5b51c252d3305517c6a92",
+      "exit_array_sha256": "ea5ab3ec4e6b693c449e79f9afb6d6fc76b19f1fc876fb4f80513b44e34b8d31"
+    }
+  ],
+  "input_hashes": {
+    "outputs\\fluid-finer-grid\\n40_dt0p0005\\final-state.npz": "c7f022d940290b775156b1ca1951ad08b45e5a9f93eacb02694bec03e1e23227",
+    "outputs\\fluid-finer-grid\\n40_dt0p0005\\summary.json": "a657b65642ed4b87983d7936d828827e2e8db605b464a1ad9c8ce3200863c854",
+    "outputs\\fluid-finer-grid\\n40_dt0p0005\\events.json": "481aa592c5308c1a7c2c69e017103f213138af0d654f19c8809c8989987c641a"
+  },
+  "original_source_hashes_checked": 21,
+  "code_sha256": "52dda13f0a7eb3dc072dc73757a3de8cef48bf1e002060ad69855d92ab8917bb",
+  "elapsed_seconds": 340.9220000000023
+}
