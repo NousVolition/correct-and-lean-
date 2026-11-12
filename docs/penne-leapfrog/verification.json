@@ -58,5 +58,48 @@
       "sha256": "ff8e9cd6576d227738d9246df3c2167d77e071591d6a7d1e3957398c14766a6a",
       "git_blob_sha": "17ffc1f3704b6c9607ad6791890fbf5ade1e318a"
     }
+  },
+  "opening_copy_revision": {
+    "checked_at_utc": "2026-11-12T02:37:55.890Z",
+    "before": "Two overlapping views. Follow the marked piece.",
+    "after": "Two overlapping views. Start from the marked piece.",
+    "scope": "Opening caption only; original browser checks above are historical and were not rerun.",
+    "source_checks": [
+      "Each HTML differs only by the requested phrase replacement.",
+      "Editable animation JavaScript syntax is valid."
+    ],
+    "gif_checks": {
+      "frames": 62,
+      "duration_ms": 28840,
+      "changed_frames": [
+        0
+      ],
+      "changed_region_xyxy": [
+        0,
+        480,
+        736,
+        515
+      ],
+      "all_other_pixels_identical": true,
+      "frame_durations_identical": true,
+      "repeat_loop": false
+    },
+    "files": {
+      "index.html": {
+        "bytes": 103279,
+        "sha256": "5beffaf657d627df2801a23a4777e0cd60ceabf5956cc46debf5fba6eeb5ceef",
+        "git_blob_sha": "1c1f11476f2ad55d1d913890355b1b6afcba19e3"
+      },
+      "penne-leapfrog-source.html": {
+        "bytes": 17223,
+        "sha256": "29a87664ef6334059b26f9ebcc581e1537dfc891342306cd5d560b195c8521c3",
+        "git_blob_sha": "b9f7a2ac65a4297ff22753807c802b350e11ca70"
+      },
+      "penne-leapfrog.gif": {
+        "bytes": 227107,
+        "sha256": "51767272611897524e5fdd293585be6a1e8f431f8a0f430bc3ce59cb9844c5b3",
+        "git_blob_sha": "0c8d0a1295569b347d1e7bafa06cb4c7aecb7d30"
+      }
+    }
   }
 }
