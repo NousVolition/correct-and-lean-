@@ -1,0 +1,21 @@
+[
+  "as-lean",
+  "as-existence-lean",
+  "as-invariance-lean",
+  "hug-squeeze-lean",
+  "hug-existence-lean",
+  "hug-navier-bridge-lean",
+  "hug-navier-full-audit-lean",
+  "hug-navier-single-system-lean",
+  "hug-navier-wellposedness-lean",
+  "hug-v3-proof-attempt",
+  "hug-v3-hybrid-lean",
+  "hug-v3-source-lean",
+  "hug-v3-transfer-lean",
+  "hug-v3-delay-lean",
+  "hug-v3-full-delay-proof",
+  "hug-v3-memory-rules-lean",
+  "hug-v3-clay-boundary-lean",
+  "hug-v3-yang-mills-audit-lean",
+  "hug-v3-gemini-review"
+]
