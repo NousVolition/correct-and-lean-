@@ -139,7 +139,7 @@
         const end = completed >= anchors.length - 2;
         if (end) pick('status').textContent = 'The view ends here. The penne continues behind the cover.';
         else if (kind === 'moving') pick('status').textContent = completed % 2 === 0 ? 'A hops over B. B keeps the connection in view.' : 'B hops over A. A keeps the connection in view.';
-        else if (completed === 0) pick('status').textContent = 'Two overlapping views. Follow the marked piece.';
+        else if (completed === 0) pick('status').textContent = 'Two overlapping views. Start from the marked piece.';
         else pick('status').textContent = completed % 2 === 1 ? 'A lands beside B. Their views overlap.' : 'B lands beside A. Their views overlap.';
         controls();
       }

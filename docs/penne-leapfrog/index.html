@@ -1984,7 +1984,7 @@ html&gt;body{padding:0}&lt;/style&gt;
         const end = completed &gt;= anchors.length - 2;
         if (end) pick(&#x27;status&#x27;).textContent = &#x27;The view ends here. The penne continues behind the cover.&#x27;;
         else if (kind === &#x27;moving&#x27;) pick(&#x27;status&#x27;).textContent = completed % 2 === 0 ? &#x27;A hops over B. B keeps the connection in view.&#x27; : &#x27;B hops over A. A keeps the connection in view.&#x27;;
-        else if (completed === 0) pick(&#x27;status&#x27;).textContent = &#x27;Two overlapping views. Follow the marked piece.&#x27;;
+        else if (completed === 0) pick(&#x27;status&#x27;).textContent = &#x27;Two overlapping views. Start from the marked piece.&#x27;;
         else pick(&#x27;status&#x27;).textContent = completed % 2 === 1 ? &#x27;A lands beside B. Their views overlap.&#x27; : &#x27;B lands beside A. Their views overlap.&#x27;;
         controls();
       }
