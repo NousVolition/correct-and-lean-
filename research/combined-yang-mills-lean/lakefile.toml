@@ -1,0 +1,29 @@
+name = "combined_yang_mills_observation"
+version = "0.1.0"
+defaultTargets = ["YangMillsCombined", "CombinedAxioms"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+
+[[lean_lib]]
+name = "Volterra"
+
+[[lean_lib]]
+name = "TwoMemory"
+
+[[lean_lib]]
+name = "TwoMemoryTransport"
+
+[[lean_lib]]
+name = "YangMillsInstance"
+
+[[lean_lib]]
+name = "YangMillsCueTest"
+
+[[lean_lib]]
+name = "YangMillsCombined"
+
+[[lean_lib]]
+name = "CombinedAxioms"

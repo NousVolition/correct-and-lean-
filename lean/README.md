@@ -179,6 +179,10 @@ Its Tick 41 and Pair 25 instances concern supplied summaries and exact numbers. 
 
 Simulator and transcription verification are outside this package; Comparator and nanoda were not run. [Preserved authorship and credits](../research/ambiguous-observation-lean/CREDITS.md).
 
+### Separate combined transverse-derivative theorem
+
+The [combined package](../research/combined-yang-mills-lean/README.md) imports both examples without replacing either. At every point on `x₁ = 0`, all potential components and all first coordinate partial derivatives agree; the second transverse `readJet` readings equal the respective residuals 0 and 2. **Twelve new named results passed local Lean compilation and axiom audit** with only `propext`, `Quot.sound`, and `Classical.choice`; they are not axiom-free. [Local logs](../research/combined-yang-mills-lean/logs/CombinedAxioms.log) · [Corrected attribution](../research/combined-yang-mills-lean/CREDITS.md). No GitHub Lean build, Comparator, nanoda, admissible family, or mass-gap result is claimed for this package.
+
 ## Separate finite origin checks
 
 [Pair-25 origin tracking](../research/hug-v3/pair-origin-lean/README.md) has 77 finite statements about recorded identity histories, memory contents, material-field changes and context-origin accounts. Its [dedicated GitHub receipt](../research/hug-v3/pair-origin-study/github-lean-receipt.json) retains the exact inputs, targets and run. This package uses Lean-kernel compilation and a source-data certificate; Comparator and nanoda are not claimed. Fluid evolution and complete physical retention remain unproved.

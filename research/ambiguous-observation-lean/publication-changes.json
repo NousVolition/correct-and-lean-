@@ -1,48 +1,69 @@
 {
-  "scope": "Portable publication of the verified local package",
-  "existing_lean_sources_and_credits_unchanged": true,
-  "files": [
+  "initial_publication": {
+    "scope": "Portable publication of the verified local package",
+    "existing_lean_sources_and_credits_unchanged": true,
+    "files": [
+      {
+        "file": "logs/Volterra-cue-fresh.log",
+        "original_sha256": "568a09714483d27cff8261d9e898097733ac385cef7812d260e4e5fac1162e87",
+        "published_sha256": "9e41848e55c8ca92a0ec1afaac577a8c066533ed4e824c378e46c2fce60dbbb9",
+        "change": "Local path prefixes replaced with portable labels only"
+      },
+      {
+        "file": "logs/YangMillsInstance-final.log",
+        "original_sha256": "cb64e604dbaf088f95a1b41b061a4078524552630adb3e005a5d8ec212914de6",
+        "published_sha256": "b6afd1dfcc5274130dde8589a00a4549f26db06a5da8546d9427894f2121b861",
+        "change": "Local path prefixes replaced with portable labels only"
+      },
+      {
+        "file": "logs/YangMillsInstance-initial.log",
+        "original_sha256": "89d0ca34cc3c785a57e39ae3f6731849b084e24bd07e0e945120b16fcdb319c4",
+        "published_sha256": "d7178049a5d5e04a64f9f540194f2098f2423b8252ee4d26fab34cf054245bbf",
+        "change": "Local path prefixes replaced with portable labels only"
+      },
+      {
+        "file": "verification-cue.json",
+        "original_sha256": "2c9ca5f6ddeb8557782e2a237dfe4771d2ca5e21f59e11a6e010afb8e19c1171",
+        "published_sha256": "da664b56b45d8e711588a4e1bf5f2b74519f90e2086f48bcf4dfac1c04b7f4c1",
+        "change": "Portable path labels and matching public log hashes; original hashes retained"
+      },
+      {
+        "file": "verification-final.json",
+        "original_sha256": "a902ff2b8d8e7d6c3e15ad74e1f7f32c993c3efdbe05b4e822c41aa909179ba6",
+        "published_sha256": "77cbce2979a327ec9fc6cba05b965fb6027b803edf14b14f306383176e8f7383",
+        "change": "Portable path labels and matching public log hashes; original hashes retained"
+      },
+      {
+        "file": "verification-initial.json",
+        "original_sha256": "ba1f1aafe46cb7fa11c8e5c8ea16a002052eebb4775a0f09c83506cff60c8d9f",
+        "published_sha256": "aacf5a4f0c2bdcfcf88feb671314f9e02a92c2f83fae71e204664a4a66c56f68",
+        "change": "Portable path labels and matching public log hashes; original hashes retained"
+      },
+      {
+        "file": "verification.json",
+        "original_sha256": "94ec0cff1053284cebe01c7dd368497a748600b2daf3f95af8eca692a7c67f8b",
+        "published_sha256": "16a050fcd149930e169d09c0cb48142e6c9a4ccef2d1731265454d60b1c821d5",
+        "change": "Portable path labels and matching public log hashes; original hashes retained"
+      }
+    ]
+  },
+  "later_documentation_updates": [
     {
-      "file": "logs/Volterra-cue-fresh.log",
-      "original_sha256": "568a09714483d27cff8261d9e898097733ac385cef7812d260e4e5fac1162e87",
-      "published_sha256": "9e41848e55c8ca92a0ec1afaac577a8c066533ed4e824c378e46c2fce60dbbb9",
-      "change": "Local path prefixes replaced with portable labels only"
-    },
-    {
-      "file": "logs/YangMillsInstance-final.log",
-      "original_sha256": "cb64e604dbaf088f95a1b41b061a4078524552630adb3e005a5d8ec212914de6",
-      "published_sha256": "b6afd1dfcc5274130dde8589a00a4549f26db06a5da8546d9427894f2121b861",
-      "change": "Local path prefixes replaced with portable labels only"
-    },
-    {
-      "file": "logs/YangMillsInstance-initial.log",
-      "original_sha256": "89d0ca34cc3c785a57e39ae3f6731849b084e24bd07e0e945120b16fcdb319c4",
-      "published_sha256": "d7178049a5d5e04a64f9f540194f2098f2423b8252ee4d26fab34cf054245bbf",
-      "change": "Local path prefixes replaced with portable labels only"
-    },
-    {
-      "file": "verification-cue.json",
-      "original_sha256": "2c9ca5f6ddeb8557782e2a237dfe4771d2ca5e21f59e11a6e010afb8e19c1171",
-      "published_sha256": "da664b56b45d8e711588a4e1bf5f2b74519f90e2086f48bcf4dfac1c04b7f4c1",
-      "change": "Portable path labels and matching public log hashes; original hashes retained"
-    },
-    {
-      "file": "verification-final.json",
-      "original_sha256": "a902ff2b8d8e7d6c3e15ad74e1f7f32c993c3efdbe05b4e822c41aa909179ba6",
-      "published_sha256": "77cbce2979a327ec9fc6cba05b965fb6027b803edf14b14f306383176e8f7383",
-      "change": "Portable path labels and matching public log hashes; original hashes retained"
-    },
-    {
-      "file": "verification-initial.json",
-      "original_sha256": "ba1f1aafe46cb7fa11c8e5c8ea16a002052eebb4775a0f09c83506cff60c8d9f",
-      "published_sha256": "aacf5a4f0c2bdcfcf88feb671314f9e02a92c2f83fae71e204664a4a66c56f68",
-      "change": "Portable path labels and matching public log hashes; original hashes retained"
-    },
-    {
-      "file": "verification.json",
-      "original_sha256": "94ec0cff1053284cebe01c7dd368497a748600b2daf3f95af8eca692a7c67f8b",
-      "published_sha256": "16a050fcd149930e169d09c0cb48142e6c9a4ccef2d1731265454d60b1c821d5",
-      "change": "Portable path labels and matching public log hashes; original hashes retained"
+      "date": "2026-11-12",
+      "reason": "User-supplied attribution correction and link to a separate combined theorem",
+      "original_lean_sources_and_logs_unchanged": true,
+      "files": [
+        {
+          "file": "CREDITS.md",
+          "previous_sha256": "3648df6e9c6ecda3b7f7eaf70beeaf2bfc8f6428cc2fb342d2aaf29b39f0a1d5",
+          "published_sha256": "66c417e493d4cb90da2901fcc3ce3139a2bcd20438bca1bb13a514b1251364aa"
+        },
+        {
+          "file": "README.md",
+          "previous_sha256": "2adda25c1ee45514cd721d195dacf1af3336772525b9002e2ad57e4f1a976c23",
+          "published_sha256": "24d2fa03132eb2f64e88907acac3489e68582c5397b72254115301b79d6672b2"
+        }
+      ]
     }
   ]
 }

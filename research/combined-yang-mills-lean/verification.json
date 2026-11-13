@@ -1,0 +1,229 @@
+{
+  "status": "PASS",
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "mathlib_tracked_sources_clean": true,
+  "main_theorem": "YangMillsCombined.combined_observation_and_residual",
+  "new_results_audited": 12,
+  "new_result_names": [
+    "transverse_curve",
+    "transverse_reading_eq",
+    "original_first_partial",
+    "modified_first_partial",
+    "values_and_first_partials_agree",
+    "original_second_transverse",
+    "modified_second_transverse",
+    "original_reading",
+    "modified_reading_on_slice",
+    "readJet_zero_one_two",
+    "second_readings_are_residuals",
+    "combined_observation_and_residual"
+  ],
+  "all_new_results_use_only_standard_axioms": true,
+  "imported_sources": [
+    {
+      "module": "Volterra",
+      "source_sha256": "26906df3b92869c297524e14c09b8bb5c15d6de60f8e7b0dbd93785d759f0952",
+      "original_source": "<original-package>/Volterra.lean",
+      "unchanged_from_original": true,
+      "fresh_compilation": "Completed in this chat by check_combined.py deps; process exit code 0",
+      "log": "logs/Volterra.log",
+      "log_sha256": "1690055ad5777d61d6ecb0ddf41f32e4a6a671a76bb479439374c0d3919c2218",
+      "object_sha256": "862731b4ea8c4ab90ef18f2e2506eebd36b7c2f7d83d77da94eec80f7fc037a4",
+      "reported_axioms": [],
+      "axiom_reports": [],
+      "original_log_sha256": "de4b71675ab88e83e113d9169ec223bf3ee092cd94dadbc628da0e8aab93413a"
+    },
+    {
+      "module": "TwoMemory",
+      "source_sha256": "d3d4384654c08975f55dcb4ec86db3830e0b8fe0b5f609b695721056aba0880a",
+      "original_source": "<original-package>/TwoMemory.lean",
+      "unchanged_from_original": true,
+      "fresh_compilation": "Completed in this chat by check_combined.py deps; process exit code 0",
+      "log": "logs/TwoMemory.log",
+      "log_sha256": "ba37e81f0be15500267504d1bea581bae5cea7a8896b745adf80a829d08730e5",
+      "object_sha256": "58ee6e98faa86436fe42aaa0bf26018c8578cf9d28764c2639349a5da55229d1",
+      "reported_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axiom_reports": [
+        "TwoMemory.unique_memory_trajectory"
+      ],
+      "original_log_sha256": "ba37e81f0be15500267504d1bea581bae5cea7a8896b745adf80a829d08730e5"
+    },
+    {
+      "module": "TwoMemoryTransport",
+      "source_sha256": "b8681a3435b2367081d285fb83e7964a9ce5d2f7d0c9de07b87c798638a5d36e",
+      "original_source": "<original-package>/TwoMemoryTransport.lean",
+      "unchanged_from_original": true,
+      "fresh_compilation": "Completed in this chat by check_combined.py deps; process exit code 0",
+      "log": "logs/TwoMemoryTransport.log",
+      "log_sha256": "de6e4d3e090fe28bc06f7a6c51fdf0a4704fcbdd8857b1adaf7ceda347f8e562",
+      "object_sha256": "020b9022be968408a694e9e50a19eaa0f58195f3ad51fe9aa11b1682f02e5041",
+      "reported_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axiom_reports": [
+        "TwoMemoryTransport.readout_from_odds",
+        "TwoMemoryTransport.odds_eq_exp",
+        "TwoMemoryTransport.update_odds",
+        "TwoMemoryTransport.compose_transport",
+        "TwoMemoryTransport.endpoints_determine_transport",
+        "TwoMemoryTransport.closed_route",
+        "TwoMemoryTransport.odds_parallel",
+        "TwoMemoryTransport.flat_curvature",
+        "TwoMemoryTransport.source_free",
+        "TwoMemoryTransport.unit_speed_fails_memory_at_zero"
+      ],
+      "original_log_sha256": "de6e4d3e090fe28bc06f7a6c51fdf0a4704fcbdd8857b1adaf7ceda347f8e562"
+    },
+    {
+      "module": "YangMillsInstance",
+      "source_sha256": "eecd17c8486976c0b65122ea0a05ed00f4737f854939e21fc4a4341c1b9c8c8d",
+      "original_source": "<original-package>/YangMillsInstance.lean",
+      "unchanged_from_original": true,
+      "fresh_compilation": "Completed in this chat by check_combined.py deps; process exit code 0",
+      "log": "logs/YangMillsInstance.log",
+      "log_sha256": "de8f220757271c173f6b4a43de65c0fa153bcbf0d8ca73874911d8e916f1d7d5",
+      "object_sha256": "0ddef902c0388a9ef4af2ca847e4676d89bd5a518677bdb404208e23ef18f878",
+      "reported_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axiom_reports": [
+        "YangMillsInstance.order_zero_reads_only_leading",
+        "YangMillsInstance.order_zero_blind_to_higher_coefficients",
+        "YangMillsInstance.readJet_one_project",
+        "YangMillsInstance.order_zero_readings_agree",
+        "YangMillsInstance.order_one_readings_differ",
+        "YangMillsInstance.order_zero_reading_cannot_determine_first_derivative"
+      ],
+      "original_log_sha256": "d8ab1c14ec1c812b57de5bb3236bd69c2dd2a2c7fa6d38a8f4bb89183fb873bf"
+    },
+    {
+      "module": "YangMillsCueTest",
+      "source_sha256": "87c9d1ee4128bfcb025f8760435e592a12136ce44e159cf41085ecb7ac010c2c",
+      "original_source": "<original-package>/YangMillsCueTest.lean",
+      "unchanged_from_original": true,
+      "fresh_compilation": "Completed in this chat by check_combined.py deps; process exit code 0",
+      "log": "logs/YangMillsCueTest.log",
+      "log_sha256": "4bcd0602eadad162b39cc2f565f79a351a33bb62dc7d7e2bd8806cb4cf3e13b8",
+      "object_sha256": "8a6668af13025343e708a5bd243d00a0a1d473295561d68f757f4f648907d0bc",
+      "reported_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axiom_reports": [
+        "YangMillsCueTest.same_data_different_field_equation",
+        "YangMillsCueTest.endpoint_frames_cancel",
+        "YangMillsCueTest.local_frames_conjugate_loop"
+      ],
+      "original_log_sha256": "4bcd0602eadad162b39cc2f565f79a351a33bb62dc7d7e2bd8806cb4cf3e13b8"
+    }
+  ],
+  "new_modules": [
+    {
+      "module": "YangMillsCombined",
+      "status": "PASS",
+      "exit_code": 0,
+      "source_sha256": "410b2064ecba28b920d4788df610650335a2a6a8364cc0d758fb179112dea6c2",
+      "source_unchanged_during_check": true,
+      "started_at_utc": "2026-11-12T11:03:34.946595+00:00",
+      "finished_at_utc": "2026-11-12T11:04:00.660427+00:00",
+      "log": "logs/YangMillsCombined.log",
+      "log_sha256": "63f2b8ee9ccbd827c9520c94fcf2f78adb38b028c2e2a6a8c0ae8095b416ef8c",
+      "axioms": [],
+      "expected_axiom_reports": [],
+      "actual_axiom_reports": [],
+      "local_dependency_objects": {
+        "YangMillsInstance": {
+          "path": "<fresh-build>/YangMillsInstance.olean",
+          "sha256": "0ddef902c0388a9ef4af2ca847e4676d89bd5a518677bdb404208e23ef18f878"
+        },
+        "YangMillsCueTest": {
+          "path": "<fresh-build>/YangMillsCueTest.olean",
+          "sha256": "8a6668af13025343e708a5bd243d00a0a1d473295561d68f757f4f648907d0bc"
+        }
+      },
+      "command": [
+        "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+        "--root=<package>",
+        "-o",
+        "<fresh-build>/YangMillsCombined.olean",
+        "<package>/YangMillsCombined.lean"
+      ],
+      "object_sha256": "878fd8bcc857c337fdbf31245e4b27e3b704369bdab2734ddb3adcafd5b2eb7b",
+      "original_log_sha256": "724f83b9f7903c9e5612c1b2b3ae88b787b51388486f801dcbc54d464ebacc22"
+    },
+    {
+      "module": "CombinedAxioms",
+      "status": "PASS",
+      "exit_code": 0,
+      "source_sha256": "5076f7f7cf916b3d757576e0b5d1d7b9e0a7f7ce67ef52c8607e987b2606c69c",
+      "source_unchanged_during_check": true,
+      "started_at_utc": "2026-11-12T11:04:13.809802+00:00",
+      "finished_at_utc": "2026-11-12T11:04:35.299568+00:00",
+      "log": "logs/CombinedAxioms.log",
+      "log_sha256": "2b3e555de8d56a98a820e1c35a567ac13d6f8bedb26a3d60049bf31af2ced900",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "expected_axiom_reports": [
+        "YangMillsCombined.transverse_curve",
+        "YangMillsCombined.transverse_reading_eq",
+        "YangMillsCombined.original_first_partial",
+        "YangMillsCombined.modified_first_partial",
+        "YangMillsCombined.values_and_first_partials_agree",
+        "YangMillsCombined.original_second_transverse",
+        "YangMillsCombined.modified_second_transverse",
+        "YangMillsCombined.original_reading",
+        "YangMillsCombined.modified_reading_on_slice",
+        "YangMillsCombined.readJet_zero_one_two",
+        "YangMillsCombined.second_readings_are_residuals",
+        "YangMillsCombined.combined_observation_and_residual"
+      ],
+      "actual_axiom_reports": [
+        "YangMillsCombined.transverse_curve",
+        "YangMillsCombined.transverse_reading_eq",
+        "YangMillsCombined.original_first_partial",
+        "YangMillsCombined.modified_first_partial",
+        "YangMillsCombined.values_and_first_partials_agree",
+        "YangMillsCombined.original_second_transverse",
+        "YangMillsCombined.modified_second_transverse",
+        "YangMillsCombined.original_reading",
+        "YangMillsCombined.modified_reading_on_slice",
+        "YangMillsCombined.readJet_zero_one_two",
+        "YangMillsCombined.second_readings_are_residuals",
+        "YangMillsCombined.combined_observation_and_residual"
+      ],
+      "local_dependency_objects": {
+        "YangMillsCombined": {
+          "path": "<fresh-build>/YangMillsCombined.olean",
+          "sha256": "878fd8bcc857c337fdbf31245e4b27e3b704369bdab2734ddb3adcafd5b2eb7b"
+        }
+      },
+      "command": [
+        "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+        "--root=<package>",
+        "-o",
+        "<fresh-build>/CombinedAxioms.olean",
+        "<package>/CombinedAxioms.lean"
+      ],
+      "object_sha256": "8c4ed026ee7562bfeed01f8b9b6c3e99841e08483183fc89bb9428e597786cf9",
+      "original_log_sha256": "2b3e555de8d56a98a820e1c35a567ac13d6f8bedb26a3d60049bf31af2ced900"
+    }
+  ],
+  "verification_scope": "Local Lean compilation and transitive axiom reports; not independent-kernel validation, simulation, or a GitHub Lean build",
+  "attribution_correction_applied": true,
+  "earlier_package_mathematical_sources_preserved": true,
+  "publication_note": "Local verification from 12 November 2026; path labels and matching published-log hashes updated. Compiler output otherwise retained. No GitHub Lean build is claimed for this combined package."
+}

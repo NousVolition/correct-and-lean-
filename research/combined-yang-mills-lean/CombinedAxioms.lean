@@ -1,0 +1,16 @@
+import YangMillsCombined
+
+#print axioms YangMillsCombined.transverse_curve
+#print axioms YangMillsCombined.transverse_reading_eq
+#print axioms YangMillsCombined.original_first_partial
+#print axioms YangMillsCombined.modified_first_partial
+#print axioms YangMillsCombined.values_and_first_partials_agree
+#print axioms YangMillsCombined.original_second_transverse
+#print axioms YangMillsCombined.modified_second_transverse
+#print axioms YangMillsCombined.original_reading
+#print axioms YangMillsCombined.modified_reading_on_slice
+#print axioms YangMillsCombined.readJet_zero_one_two
+#print axioms YangMillsCombined.second_readings_are_residuals
+#print axioms YangMillsCombined.combined_observation_and_residual
+
+#check YangMillsCombined.combined_observation_and_residual
