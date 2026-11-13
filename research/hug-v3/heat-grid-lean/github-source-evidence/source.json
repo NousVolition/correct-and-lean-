@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "repository": "NousVolition/hug-sims-lean-proofs",
+  "source_run": "https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43354169400",
+  "run_id": 43354169400,
+  "job_id": 131652090249,
+  "run_head_sha": "53cc28f619e5371720abfc2723629fba7a6a0096",
+  "checkout_sha": "7fff80607f142b6b2f62de749df4fc6924a9a9c0",
+  "artifact_id": 14004569000,
+  "artifact_name": "heat-grid-evidence-1",
+  "artifact_sha256": "632d740b9d6ede74ecdd9d646ad75ea9e0d34c5383da6c640e7cfd7c55e23b27",
+  "artifact_bytes": 22875,
+  "proof_input_fingerprint": "cbaf5f091a76d42848263fb4cbc98e76e49da92bf4019f5216f52494bfe4877b",
+  "publication_input_fingerprint": "cec4af862b4f9c992a1042212350bdc47cc1411a19508b3ca650576f329da67c",
+  "target_count": 414,
+  "receipt_sha256": "e574158fb5863152d064302ced1f3f1775188cca56e519b1717bde27443d4471",
+  "receipt_is_exact_downloaded_artifact_bytes": true,
+  "all_log_hashes_match": true,
+  "scope": "Original source-run archive and its exact receipt. Subsequent workflow runs verify the same proof inputs and target list. No fluid simulation run."
+}
