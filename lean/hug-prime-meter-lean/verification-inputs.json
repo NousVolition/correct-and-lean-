@@ -1,0 +1,16 @@
+{
+  "files": {
+    "PrimeMeter/Recorded.lean": "c9570c2a7cf1849830b5021622d439fd12304d515d068190ca2dac385cc7de8e",
+    "PrimeMeter/Study.lean": "827da8fbe1c573a40ab3b64680fbf7ef2770740fcf6653cc75a0ebfd4e14594a",
+    "PrimeMeter/Types.lean": "fa250e82755cf56f6aa17840c99afd30976769d9eb95f21f118823d2cd7dff41",
+    "PrimeMeterChallenge.lean": "a60068aa8d0e1ee698e7882e11677b639aba633a721b42a207cd2c4834354fcd",
+    "check_inputs.py": "a3164136ff6b8d049e2492052719d2724d4556a37fa6523d8502b9ade9e9d374",
+    "comparator.json": "dc9eccba3c1722f1ca6eb3209f2148e9e18651aad9ba1efc7db27db4c1aac990",
+    "evidence/off.json": "fd6c7b6fd112c4c5d9c1c07f066db07c4c1ea59d43d1044bcc63e70934813c11",
+    "evidence/on.json": "d1805fff1e3db27ad4319fb985d79bc8b0a054da800b057accfe0beaa5fbe35d",
+    "evidence/prime-meter.csv": "62d94cad5b16e340a19fb307ef8bf0d13a176429b353a74172f76c306a6ce4bc",
+    "lake-manifest.json": "f2854b4461b6c1c75f85b7ba48faa288714ad4a1e3524b7a76e695e349c655e5",
+    "lakefile.toml": "b27428ce243f0a74f1c3a3b0e2c1fccd6d79c63abd0af108b5d697d01fe3cd67",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
+  }
+}

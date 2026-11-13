@@ -1,0 +1,38 @@
+{
+  "repository": "NousVolition/hug-sims-lean-proofs",
+  "pull_request": 14,
+  "workflow_run_id": 42852357760,
+  "workflow_run_attempt": 1,
+  "workflow_url": "https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/42852357760",
+  "job_id": 129956785556,
+  "workflow_head_sha": "18c921c3d2acd3b1ded0398d53087ad1b3e69b68",
+  "checked_out_merge_sha": "173b4c609838c447b92ae4e9cd6fc9549b3d9026",
+  "checkout_evidence": "The job log records git log -1 --format=%H after checkout. This is the tested PR merge, not the later documentation commit.",
+  "artifact_id": 13781093147,
+  "artifact_url": "https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/42852357760/artifacts/13781093147",
+  "artifact_sha256": "08a22bb819123b5a8364909416d857398ef61b06ff432524ff352ab1fcfe236b",
+  "artifact_files_copied_without_changes": true,
+  "files": {
+    "axioms.json": "8f200e97dfed581ac32aa3ff273ab10107a51cc6caa68d92da2d6e5cc6fbd380",
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.log": "2cb848233f42c481d239f3e37655e25d036a6ea138e7784ec490f32d05a6e5bd",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "lake-build.log": "e918827bbe82f56cf0afc72e841fe5e8e5e63923f7a4ec8a72eca752c4d5b80a",
+    "verification-report.json": "98f75f78a60c7bc7248e99b42fccbca3283e477f44ceebcc199aba865649273b"
+  },
+  "proof_inputs_sha256": {
+    "OriginalMemoryModel.lean": "c7808dc40d22fa91be34668f3e90179b986c9536bd90e434a004599131907245",
+    "OriginalTransportChallenge.lean": "a50c4f1e3ab6951be5ba5a3d41991e44670a381026f6d10fe2f7aaae980e8246",
+    "OriginalVolterraChallenge.lean": "7ceb972398340a80a8dbc6c6ffb7b73a03c124da43b8803006e7f2d1b4fcbaa6",
+    "TwoMemory.lean": "d3d4384654c08975f55dcb4ec86db3830e0b8fe0b5f609b695721056aba0880a",
+    "TwoMemoryTransport.lean": "b8681a3435b2367081d285fb83e7964a9ce5d2f7d0c9de07b87c798638a5d36e",
+    "Volterra.lean": "025f41be9e43118118537f7ee013604cb0f029718865aec7dcdc98bf33aae5cb",
+    "comparator.json": "09f25c2909f33686df73665f952cbdaa6bbbc74f750a5d1bbb19ca3fb0707b59",
+    "lake-manifest.json": "f3abe796e4383c25ffc106e8216ec592429c7705bb3b19e117ab27b955b68707",
+    "lakefile.toml": "fbfced0106519a56df3902b64b63af1cf6bf3881169cdcbebeac2aaa41977495",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "source-sha256.txt": "63af839cdbd7536343797fa529342834e5978618d0806eeba6fdbafcd08f91f4",
+    "verification-inputs.json": "a56bb90a9210cbfcb6a4a267af9bc848f89c6becb081e6d65bf4343bbe244145"
+  },
+  "publication_note": "Historical successful Linux evidence attached to unchanged proof inputs. No new theorem or solver run is claimed by publishing these files."
+}

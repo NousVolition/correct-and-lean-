@@ -1,0 +1,14 @@
+ℹ [3417/3419] Replayed TwoMemory
+info: TwoMemory.lean:55:0: 'TwoMemory.unique_memory_trajectory' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3418/3419] Replayed TwoMemoryTransport
+info: TwoMemoryTransport.lean:117:0: 'TwoMemoryTransport.readout_from_odds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:118:0: 'TwoMemoryTransport.odds_eq_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:119:0: 'TwoMemoryTransport.update_odds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:120:0: 'TwoMemoryTransport.compose_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:121:0: 'TwoMemoryTransport.endpoints_determine_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:122:0: 'TwoMemoryTransport.closed_route' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:123:0: 'TwoMemoryTransport.odds_parallel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:124:0: 'TwoMemoryTransport.flat_curvature' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:125:0: 'TwoMemoryTransport.source_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:126:0: 'TwoMemoryTransport.unit_speed_fails_memory_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3419 jobs).

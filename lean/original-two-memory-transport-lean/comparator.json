@@ -1,0 +1,28 @@
+{
+  "challenge_module": "OriginalTransportChallenge",
+  "solution_module": "TwoMemoryTransport",
+  "theorem_names": [
+    "TwoMemoryTransport.readout_from_odds",
+    "TwoMemoryTransport.odds_eq_exp",
+    "TwoMemoryTransport.update_odds",
+    "TwoMemoryTransport.compose_transport",
+    "TwoMemoryTransport.endpoints_determine_transport",
+    "TwoMemoryTransport.closed_route",
+    "TwoMemoryTransport.odds_parallel",
+    "TwoMemoryTransport.flat_curvature",
+    "TwoMemoryTransport.source_free",
+    "TwoMemoryTransport.unit_speed_fails_memory_at_zero",
+    "Volterra.extend_continuous",
+    "Volterra.extend_val",
+    "Volterra.step_apply",
+    "Volterra.path_integrable",
+    "Volterra.iterate_apply_bound",
+    "Volterra.iterate_bound"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

@@ -1,0 +1,3 @@
+* text eol=lf
+# Preserve the exact archived receipt bytes on every platform.
+evidence/*.json -text

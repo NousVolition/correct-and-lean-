@@ -1,0 +1,10 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "The original positive-scaling abelian two-memory model and its ten transport theorems, plus six supporting lemmas with unnecessary assumptions removed.",
+  "open_items": [
+    "The field equations apply to the specified constant potential on four Euclidean coordinates."
+  ]
+}
