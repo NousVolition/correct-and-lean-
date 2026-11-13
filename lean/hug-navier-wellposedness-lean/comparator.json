@@ -12,7 +12,10 @@
     "HugNavierSingle.GuardTransport.advection_difference",
     "HugNavierSingle.GuardTransport.residual_energy_bound",
     "HugNavierSingle.GuardTransport.integrated_residual_bound",
-    "HugNavierSingle.GuardTransport.common_transport_cancels"
+    "HugNavierSingle.GuardTransport.common_transport_cancels",
+    "HugNavierSingle.GuardTransport.uniform_gradient_bound",
+    "HugNavierSingle.GuardTransport.integrated_residual_bound_uniform",
+    "HugNavierSingle.GuardTransport.fieldproblem_guard_transport_bounds"
   ],
   "permitted_axioms": [
     "propext",

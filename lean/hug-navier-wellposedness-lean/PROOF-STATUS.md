@@ -6,6 +6,8 @@ The requested theorem has **not** been established. The source's full six-field 
 
 The [guard transport supplement](GuardTransport.lean) now proves the two pointwise directional identities, the integrated guard energy bound and shared-transport cancellation on the periodic square. Its [test and checking record](../../research/matched-stretch/guard-transport/README.md) connects these lemmas to the classical uniqueness argument.
 
+The [time-uniform extension](GuardTransportTime.lean) derives the guard-gradient bound from joint continuity on the compact time-cell and spatial periodicity, then applies the integral estimate to both guards of two existing `FieldProblem` solutions. One constant works throughout the chosen finite interval. The comparison history's extra joint guard-gradient continuity remains an explicit assumption, as in the stronger classical argument. This completes that connection, while the remaining energy estimates, existence, continuation, and broader saved uniqueness target remain open. [Walkthrough](GRADIENT-TRANSPORT-BRIDGE.md)
+
 `RequestedExistenceAndUniqueness` names the conjunction of the two previously saved full-system targets. It is a proposition, not an asserted axiom or a proved theorem. No new claim of full existence or uniqueness is made by this package.
 
 ## The proof routes examined

@@ -1,0 +1,4 @@
+import GuardTransportTime
+#print axioms HugNavierSingle.GuardTransport.uniform_gradient_bound
+#print axioms HugNavierSingle.GuardTransport.integrated_residual_bound_uniform
+#print axioms HugNavierSingle.GuardTransport.fieldproblem_guard_transport_bounds

@@ -1,13 +1,13 @@
 {
   "files": {
-    "comparator.json": "da2e3f38f71f9f73069f342148fc3940cf1da690e3a3758d1aa34d5bd367e95b",
+    "comparator.json": "c1612c03859a672a08a4be758f23e13af26eec052879a89973e16efe09b61eaa",
     "FullChecks.lean": "f838c6dd4855e2d8f0c0ab1c49ee73259ace3f9d13695dd18351a09a9ac7c24f",
     "FullModel.lean": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
     "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
-    "lakefile.toml": "7ba3f37f05ec3baee46ac0d0525e0f502c8b67ab04f7dd8e0a1b87fa4d147ebd",
+    "lakefile.toml": "a246aeeea35982cdda9b19a52bad5e6a8742c5820d9f58037e4f95aea13bdd8b",
     "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
     "OriginalAS.lean": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5",
-    "reference-freeze.json": "fd98726a7d193414ba4e465be8f3ec52bb1c0dd7c0e320ed21489f1d738b02e7",
+    "reference-freeze.json": "48249cdfd012558b090791367572fe3043f2f78b29e016d586472df096c67b54",
     "run-linux-check.sh": "36fb47d476e639f8c54de3f138060ab21db46a5737d211f3c0a7edb39da51a40",
     "source-audit.json": "5374586d8232a9a1104e62fb8b2f90992749ede2b1df6f25108983cb95ac3c21",
     "sources/interaction.md": "aa9af72b9762ff70204131bc160aec712e4071ec17e6a4f3ac832e2e7a4a5808",
@@ -16,23 +16,26 @@
     "sources/ns_protocol.json": "ba767c26ec3324f0441e158475910e12b9d225ab1f99859b534f51c280a3ebae",
     "sources/original-corpus-passages.json": "5945c73a3a47d787db4b45640675555c08a23b0daa863ce863c92a8e1fb723fa",
     "sources/original-source-manifest.json": "0a93f00b13f08c799b507ec4900a673bd45280f75015aa70fda77aae046a9639",
-    "WellposednessChallenge.lean": "0046f71cd9327893c9212ee192b0eab63894743235d79278c34aa4c948d1404a",
-    "WellposednessProofs.lean": "84ad49a629b517028dcb1268f1951d52b55466f2abc4176474d2d34579dd07d9",
+    "WellposednessChallenge.lean": "7beae32b25866bb0518949d961ab0e7519fe866f2fb884be5dae2d15ac117ad5",
+    "WellposednessProofs.lean": "de4926cc50aafe65cb67cbecd73754a33683dcc7a103fd8fcea000b6698ca7dc",
     "WellposednessTargets.lean": "033e1809bf8071ef1a1922d24c4591ad63a5d6c547ca6d4222a55af4ad7e9d47",
     "GuardTransport.lean": "8702842bb028913050cc5872124fefca796dad223160dde6ff8209344c0ee16c",
-    "GuardTransportDefs.lean": "9dc397770fefb8f3de2d2f93a5fb277a6414a0f834a7fe96d7759ffbec5ce8fa"
+    "GuardTransportDefs.lean": "9dc397770fefb8f3de2d2f93a5fb277a6414a0f834a7fe96d7759ffbec5ce8fa",
+    "GuardTransportTimeDefs.lean": "af88aef25732658a956d883b851aaa79e987638890a8aa1f5285b54528e9f9e9",
+    "GuardTransportTime.lean": "0ace9ebcc584aa36c38c1ebf01b3898d4e38a180a05406cd82e4ecd97d4298f9"
   },
   "requested_existence_and_uniqueness": "UNPROVED",
   "diagnostic_theorem_count": 4,
   "source_equations_changed": false,
   "source_initial_data_changed": false,
   "diagnostic_fields_are_not_replacement_initial_data": true,
-  "ordinary_written_uniqueness_argument": "The guard transport integral and common-transport cancellation are formalized. The rest of the classical argument and the full system targets remain open.",
+  "ordinary_written_uniqueness_argument": "The guard residual integral, shared transport cancellation, and the bridge from joint guard-gradient continuity to a common interval-wide transport bound are formalized. The remaining energy argument and full system targets remain open.",
   "development_notes": [
     "The initial native target compile completed after 114.6 seconds; its shell was interrupted as it began the challenge compile.",
     "An early proof compile failed because the target build had not yet returned its module; this was an orchestration error.",
     "A sequential recovery compiled the targets successfully; the proof then needed explicit derivative points and a sign-parenthesization correction.",
     "All mathematical challenge statements and source equations remained unchanged."
   ],
-  "guard_transport_theorem_count": 6
+  "guard_transport_theorem_count": 9,
+  "gradient_bridge_assumptions": "FieldProblem for both existing candidate histories, plus JointGuardGradientRegularity for the comparison history. The extra joint continuity is not deduced from the original pointwise-in-time FieldProblem predicate."
 }

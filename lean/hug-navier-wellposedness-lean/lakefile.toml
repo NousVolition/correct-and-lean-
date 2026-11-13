@@ -37,3 +37,9 @@ name = "GuardTransportDefs"
 
 [[lean_lib]]
 name = "GuardTransport"
+
+[[lean_lib]]
+name = "GuardTransportTimeDefs"
+
+[[lean_lib]]
+name = "GuardTransportTime"

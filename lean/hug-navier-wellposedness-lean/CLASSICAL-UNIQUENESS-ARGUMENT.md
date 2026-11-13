@@ -29,6 +29,8 @@ E(t)=\frac12\int_{\mathbb T^2}(|v|^2+a^2+b^2+h^2+j^2).
 
 The regularity assumptions and compactness give a finite bound M on the two candidates' field values and first spatial derivatives. Constants below may depend on M, the fixed coefficients and the finite interval. They do not depend on E or on the differences.
 
+The guard-gradient part of this step is now formalized in `GuardTransportTime.lean`. Joint continuity of each comparison guard's two spatial derivatives on the closed time interval times the closed periodic cell gives a finite bound by compactness. Periodicity extends it to all spatial representatives. `fieldproblem_guard_transport_bounds` then applies the existing integral estimate to both actual guard differences with one constant valid at every time. The extra joint continuity is stated explicitly by `JointGuardGradientRegularity`; it is not deduced from the weaker pointwise-in-time `FieldProblem` predicate. [Step-by-step connection](GRADIENT-TRANSPORT-BRIDGE.md)
+
 For momentum, subtract the full equations, retain both parts of the variable stress and test with v. Incompressibility and periodicity cancel pressure and common advection. The result is
 
 \[

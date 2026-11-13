@@ -1,0 +1,7 @@
+'HugNavierSingle.GuardTransport.uniform_gradient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierSingle.GuardTransport.integrated_residual_bound_uniform' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HugNavierSingle.GuardTransport.fieldproblem_guard_transport_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
