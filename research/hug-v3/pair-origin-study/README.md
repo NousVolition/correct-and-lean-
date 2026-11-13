@@ -1,5 +1,15 @@
 # Pair 25: what stays nearby, and what changes origin
 
+**364 at the start. 364 at the end. Different membership.**
+
+This is the recorded simulation example from the front page, followed from model time 1.2 to 1.3 in the wider observation window.
+
+**A wider view catches a membership change that the total hides.** At radius 0.10, observer **540 leaves** and **872 arrives** in every run. Of the 364 labels present at the start, 363 stay and one leaves; the new arrival restores the ending count to 364. Arrival occurs before departure, so the count briefly reaches 365. This records changing membership, not a tested transfer from one label to the other.
+
+The endpoint count alone misses this change. For the scope of the formal checks, see [What Lean checked](#what-lean-checked).
+
+## Other findings in the main window (radius 0.075)
+
 The same **133 material point labels and 276 other observer labels** stay inside the chosen moving windows at every recorded step in all three runs. The context inside those windows changes origin: in the finest time-step run, **44.65% of the starting inside contribution is still inside**, while **55.35% is elsewhere** in the domain. Outside-origin and later-source contributions enter the local account, leaving the total at **100.46%** of its starting amount.
 
 ![Pair 25 origin tracking](pair25-origins.png)
@@ -23,7 +33,7 @@ All 384 material IDs and all 924 other observer IDs were followed at each comple
 | n48_dt0p00025 | material | 133 | 133 | 0 | 0 | 0 | 0 |
 | n48_dt0p00025 | observer | 276 | 276 | 0 | 0 | 0 | 0 |
 
-**A wider view catches a membership change that the total hides.** At radius 0.10, observer **540 leaves** and **872 arrives** in every run. Of the 364 labels present at the start, 363 stay and one leaves; the new arrival restores the ending count to 364. Arrival occurs before departure, so the count briefly reaches 365. This records changing membership, not a tested transfer from one label to the other.
+The wider-window crossing brackets for the 364-to-364 example are:
 
 | Run | Observer | Event in the wider union | Recorded crossing bracket (model time) |
 | --- | ---: | --- | --- |
