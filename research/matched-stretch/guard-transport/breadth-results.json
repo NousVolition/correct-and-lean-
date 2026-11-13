@@ -1,0 +1,1168 @@
+{
+  "grid": 48,
+  "solver_dt": 0.0015625,
+  "markers_per_interval": 256,
+  "cases": [
+    {
+      "weight": "equal",
+      "pulse": "none",
+      "intervals": [
+        {
+          "start": 0.4,
+          "end": 0.5,
+          "checks": [
+            {
+              "time": 0.403125,
+              "both_at_new": {
+                "velocity_rms": 4.354430144054647e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.3232501382961435e-06,
+                  2.9486189486918753e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.002175399399429935,
+                "guard_advection_rms_AB_BA": [
+                  0.00015955094997741157,
+                  0.0003380856752800083
+                ]
+              }
+            },
+            {
+              "time": 0.45,
+              "both_at_new": {
+                "velocity_rms": 0.00035588379440182945,
+                "guard_advection_rms_AB_BA": [
+                  2.0396366711194457e-05,
+                  2.5723641330766672e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 8.899290519382898e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.1001183571268475e-06,
+                  6.432363908937019e-06
+                ]
+              },
+              "rms_ratio": 3.999013108142776
+            }
+          ]
+        },
+        {
+          "start": 0.6,
+          "end": 0.7,
+          "checks": [
+            {
+              "time": 0.603125,
+              "both_at_new": {
+                "velocity_rms": 3.826304485575803e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.539008511241188e-06,
+                  3.1722522103792075e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.0020130786018153295,
+                "guard_advection_rms_AB_BA": [
+                  0.00019637067445380183,
+                  0.0003728547078876844
+                ]
+              }
+            },
+            {
+              "time": 0.65,
+              "both_at_new": {
+                "velocity_rms": 0.0003129815375993973,
+                "guard_advection_rms_AB_BA": [
+                  2.152371745019884e-05,
+                  2.694263482309285e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 7.826066805943362e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.3819692821037485e-06,
+                  6.737389019139518e-06
+                ]
+              },
+              "rms_ratio": 3.999218833165457
+            }
+          ]
+        },
+        {
+          "start": 0.8,
+          "end": 0.9,
+          "checks": [
+            {
+              "time": 0.803125,
+              "both_at_new": {
+                "velocity_rms": 3.3942505725195446e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.5340775782588103e-06,
+                  3.2372691474442238e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.0018642920176757778,
+                "guard_advection_rms_AB_BA": [
+                  0.00021066012016893762,
+                  0.0003623959511850174
+                ]
+              }
+            },
+            {
+              "time": 0.85,
+              "both_at_new": {
+                "velocity_rms": 0.0002777725869383357,
+                "guard_advection_rms_AB_BA": [
+                  2.1097018117520093e-05,
+                  2.715907438801638e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 6.945442990757753e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.275336127205616e-06,
+                  6.791625345594142e-06
+                ]
+              },
+              "rms_ratio": 3.9993501826732363
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": "equal",
+      "pulse": "A",
+      "intervals": [
+        {
+          "start": 0.4,
+          "end": 0.5,
+          "checks": [
+            {
+              "time": 0.403125,
+              "both_at_new": {
+                "velocity_rms": 4.354430144054647e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.3232501382961435e-06,
+                  2.9486189486918753e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.002175399399429935,
+                "guard_advection_rms_AB_BA": [
+                  0.00015955094997741157,
+                  0.0003380856752800083
+                ]
+              }
+            },
+            {
+              "time": 0.45,
+              "both_at_new": {
+                "velocity_rms": 0.00035588379440182945,
+                "guard_advection_rms_AB_BA": [
+                  2.0396366711194457e-05,
+                  2.5723641330766672e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 8.899290519382898e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.1001183571268475e-06,
+                  6.432363908937019e-06
+                ]
+              },
+              "rms_ratio": 3.999013108142776
+            }
+          ]
+        },
+        {
+          "start": 0.6,
+          "end": 0.7,
+          "checks": [
+            {
+              "time": 0.603125,
+              "both_at_new": {
+                "velocity_rms": 3.8262350069010754e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.539132016705045e-06,
+                  3.172545236594113e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.0020130787035715003,
+                "guard_advection_rms_AB_BA": [
+                  0.00019637681025282315,
+                  0.0003728579914137358
+                ]
+              }
+            },
+            {
+              "time": 0.65,
+              "both_at_new": {
+                "velocity_rms": 0.00031297400926398974,
+                "guard_advection_rms_AB_BA": [
+                  2.1529449600225763e-05,
+                  2.6951004437539525e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 7.825883030521107e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.383404143522997e-06,
+                  6.739476185999926e-06
+                ]
+              },
+              "rms_ratio": 3.9992165490256446
+            }
+          ]
+        },
+        {
+          "start": 0.8,
+          "end": 0.9,
+          "checks": [
+            {
+              "time": 0.803125,
+              "both_at_new": {
+                "velocity_rms": 3.39384558764989e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.546214795542663e-06,
+                  3.243309370420215e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.0018642918054661394,
+                "guard_advection_rms_AB_BA": [
+                  0.00021096102162513746,
+                  0.00036248153417542156
+                ]
+              }
+            },
+            {
+              "time": 0.85,
+              "both_at_new": {
+                "velocity_rms": 0.00027773733878138843,
+                "guard_advection_rms_AB_BA": [
+                  2.1253894445408227e-05,
+                  2.7219989829374472e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 6.94455620421768e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.314576830979556e-06,
+                  6.80685795640552e-06
+                ]
+              },
+              "rms_ratio": 3.9993533152299716
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": "equal",
+      "pulse": "B",
+      "intervals": [
+        {
+          "start": 0.4,
+          "end": 0.5,
+          "checks": [
+            {
+              "time": 0.403125,
+              "both_at_new": {
+                "velocity_rms": 4.354430144054647e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.3232501382961435e-06,
+                  2.9486189486918753e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.002175399399429935,
+                "guard_advection_rms_AB_BA": [
+                  0.00015955094997741157,
+                  0.0003380856752800083
+                ]
+              }
+            },
+            {
+              "time": 0.45,
+              "both_at_new": {
+                "velocity_rms": 0.00035588379440182945,
+                "guard_advection_rms_AB_BA": [
+                  2.0396366711194457e-05,
+                  2.5723641330766672e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 8.899290519382898e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.1001183571268475e-06,
+                  6.432363908937019e-06
+                ]
+              },
+              "rms_ratio": 3.999013108142776
+            }
+          ]
+        },
+        {
+          "start": 0.6,
+          "end": 0.7,
+          "checks": [
+            {
+              "time": 0.603125,
+              "both_at_new": {
+                "velocity_rms": 3.826375096632383e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.53888635646044e-06,
+                  3.171961000188032e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.0020130784992568105,
+                "guard_advection_rms_AB_BA": [
+                  0.00019636456357109217,
+                  0.00037285142411752755
+                ]
+              }
+            },
+            {
+              "time": 0.65,
+              "both_at_new": {
+                "velocity_rms": 0.0003129892134055059,
+                "guard_advection_rms_AB_BA": [
+                  2.1518113673008248e-05,
+                  2.6934377500917112e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 7.826253934049909e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.380566406429582e-06,
+                  6.735329760695547e-06
+                ]
+              },
+              "rms_ratio": 3.999221288281673
+            }
+          ]
+        },
+        {
+          "start": 0.8,
+          "end": 0.9,
+          "checks": [
+            {
+              "time": 0.803125,
+              "both_at_new": {
+                "velocity_rms": 3.394687159630259e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.523740767814613e-06,
+                  3.2319471378210406e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.0018642922284175618,
+                "guard_advection_rms_AB_BA": [
+                  0.00021039369594153944,
+                  0.00036231562046612253
+                ]
+              }
+            },
+            {
+              "time": 0.85,
+              "both_at_new": {
+                "velocity_rms": 0.0002778106359303074,
+                "guard_advection_rms_AB_BA": [
+                  2.0970960762150322e-05,
+                  2.7110050496535213e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 6.946400594634174e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.243804148246459e-06,
+                  6.7793669475622735e-06
+                ]
+              },
+              "rms_ratio": 3.99934659894083
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": "B_to_A_stronger",
+      "pulse": "none",
+      "intervals": [
+        {
+          "start": 0.4,
+          "end": 0.5,
+          "checks": [
+            {
+              "time": 0.403125,
+              "both_at_new": {
+                "velocity_rms": 4.35589382407916e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.347043610038063e-06,
+                  2.9664855218330973e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.002175356851327193,
+                "guard_advection_rms_AB_BA": [
+                  0.00016235581978294144,
+                  0.00033897344562481413
+                ]
+              }
+            },
+            {
+              "time": 0.45,
+              "both_at_new": {
+                "velocity_rms": 0.00035600313092661414,
+                "guard_advection_rms_AB_BA": [
+                  2.063823211351169e-05,
+                  2.5900668642277715e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 8.902282820402258e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.160614231676716e-06,
+                  6.4766373514358014e-06
+                ]
+              },
+              "rms_ratio": 3.9990094463267996
+            }
+          ]
+        },
+        {
+          "start": 0.6,
+          "end": 0.7,
+          "checks": [
+            {
+              "time": 0.603125,
+              "both_at_new": {
+                "velocity_rms": 3.8273751484327034e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.5832143703917302e-06,
+                  3.2035935793828875e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.0020129557213279174,
+                "guard_advection_rms_AB_BA": [
+                  0.00020219366872835,
+                  0.0003744268458113083
+                ]
+              }
+            },
+            {
+              "time": 0.65,
+              "both_at_new": {
+                "velocity_rms": 0.0003130675158883346,
+                "guard_advection_rms_AB_BA": [
+                  2.193509764405476e-05,
+                  2.7220488705071738e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 7.828221631691349e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.484861445856617e-06,
+                  6.806890719565083e-06
+                ]
+              },
+              "rms_ratio": 3.999216305028067
+            }
+          ]
+        },
+        {
+          "start": 0.8,
+          "end": 0.9,
+          "checks": [
+            {
+              "time": 0.803125,
+              "both_at_new": {
+                "velocity_rms": 3.3948598955175036e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.5972551738832576e-06,
+                  3.276148887953972e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.001864066617218755,
+                "guard_advection_rms_AB_BA": [
+                  0.0002187763334266228,
+                  0.0003645671889950172
+                ]
+              }
+            },
+            {
+              "time": 0.85,
+              "both_at_new": {
+                "velocity_rms": 0.00027782137465913866,
+                "guard_advection_rms_AB_BA": [
+                  2.1658385752234143e-05,
+                  2.7483473724245806e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 6.946664769623379e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.415733494253796e-06,
+                  6.872757358879957e-06
+                ]
+              },
+              "rms_ratio": 3.999349095900032
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": "B_to_A_stronger",
+      "pulse": "A",
+      "intervals": [
+        {
+          "start": 0.4,
+          "end": 0.5,
+          "checks": [
+            {
+              "time": 0.403125,
+              "both_at_new": {
+                "velocity_rms": 4.35589382407916e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.347043610038063e-06,
+                  2.9664855218330973e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.002175356851327193,
+                "guard_advection_rms_AB_BA": [
+                  0.00016235581978294144,
+                  0.00033897344562481413
+                ]
+              }
+            },
+            {
+              "time": 0.45,
+              "both_at_new": {
+                "velocity_rms": 0.00035600313092661414,
+                "guard_advection_rms_AB_BA": [
+                  2.063823211351169e-05,
+                  2.5900668642277715e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 8.902282820402258e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.160614231676716e-06,
+                  6.4766373514358014e-06
+                ]
+              },
+              "rms_ratio": 3.9990094463267996
+            }
+          ]
+        },
+        {
+          "start": 0.6,
+          "end": 0.7,
+          "checks": [
+            {
+              "time": 0.603125,
+              "both_at_new": {
+                "velocity_rms": 3.827307236045951e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.5833338958094244e-06,
+                  3.2038797373392134e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.002012955820418676,
+                "guard_advection_rms_AB_BA": [
+                  0.00020219984625141545,
+                  0.00037442978892271304
+                ]
+              }
+            },
+            {
+              "time": 0.65,
+              "both_at_new": {
+                "velocity_rms": 0.000313060166683638,
+                "guard_advection_rms_AB_BA": [
+                  2.194064553385133e-05,
+                  2.722865710822313e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 7.828042057538691e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.486250041868553e-06,
+                  6.808927866054136e-06
+                ]
+              },
+              "rms_ratio": 3.999214163420975
+            }
+          ]
+        },
+        {
+          "start": 0.8,
+          "end": 0.9,
+          "checks": [
+            {
+              "time": 0.803125,
+              "both_at_new": {
+                "velocity_rms": 3.3944773583833756e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.6090716880930812e-06,
+                  3.2817217046500934e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.0018640664216570994,
+                "guard_advection_rms_AB_BA": [
+                  0.00021907434600390035,
+                  0.0003646365534709553
+                ]
+              }
+            },
+            {
+              "time": 0.85,
+              "both_at_new": {
+                "velocity_rms": 0.00027778819584900916,
+                "guard_advection_rms_AB_BA": [
+                  2.1810615657071472e-05,
+                  2.7538484735931654e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 6.945829802981042e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.45381257455642e-06,
+                  6.886513168438656e-06
+                ]
+              },
+              "rms_ratio": 3.9993521829427316
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": "B_to_A_stronger",
+      "pulse": "B",
+      "intervals": [
+        {
+          "start": 0.4,
+          "end": 0.5,
+          "checks": [
+            {
+              "time": 0.403125,
+              "both_at_new": {
+                "velocity_rms": 4.35589382407916e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.347043610038063e-06,
+                  2.9664855218330973e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.002175356851327193,
+                "guard_advection_rms_AB_BA": [
+                  0.00016235581978294144,
+                  0.00033897344562481413
+                ]
+              }
+            },
+            {
+              "time": 0.45,
+              "both_at_new": {
+                "velocity_rms": 0.00035600313092661414,
+                "guard_advection_rms_AB_BA": [
+                  2.063823211351169e-05,
+                  2.5900668642277715e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 8.902282820402258e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.160614231676716e-06,
+                  6.4766373514358014e-06
+                ]
+              },
+              "rms_ratio": 3.9990094463267996
+            }
+          ]
+        },
+        {
+          "start": 0.6,
+          "end": 0.7,
+          "checks": [
+            {
+              "time": 0.603125,
+              "both_at_new": {
+                "velocity_rms": 3.827444404277318e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.5830962644014795e-06,
+                  3.2033093222813657e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.0020129556213764285,
+                "guard_advection_rms_AB_BA": [
+                  0.00020218751583007271,
+                  0.0003744239028108453
+                ]
+              }
+            },
+            {
+              "time": 0.65,
+              "both_at_new": {
+                "velocity_rms": 0.0003130750393051789,
+                "guard_advection_rms_AB_BA": [
+                  2.1929674698447922e-05,
+                  2.721243115998196e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 7.828405134469728e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.4835039306019225e-06,
+                  6.804881072059389e-06
+                ]
+              },
+              "rms_ratio": 3.9992186649443977
+            }
+          ]
+        },
+        {
+          "start": 0.8,
+          "end": 0.9,
+          "checks": [
+            {
+              "time": 0.803125,
+              "both_at_new": {
+                "velocity_rms": 3.3952799064862214e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.587174652794238e-06,
+                  3.271285679666061e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.0018640668101721173,
+                "guard_advection_rms_AB_BA": [
+                  0.00021851199304192528,
+                  0.00036450368522320003
+                ]
+              }
+            },
+            {
+              "time": 0.85,
+              "both_at_new": {
+                "velocity_rms": 0.00027785787374846915,
+                "guard_advection_rms_AB_BA": [
+                  2.1535765781431688e-05,
+                  2.7440259186089127e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 6.947583723919897e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.385060808461066e-06,
+                  6.861952058180631e-06
+                ]
+              },
+              "rms_ratio": 3.9993454528922023
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": "A_to_B_stronger",
+      "pulse": "none",
+      "intervals": [
+        {
+          "start": 0.4,
+          "end": 0.5,
+          "checks": [
+            {
+              "time": 0.403125,
+              "both_at_new": {
+                "velocity_rms": 4.352899198639921e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.299049631681537e-06,
+                  2.930247202688626e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.002175442684894104,
+                "guard_advection_rms_AB_BA": [
+                  0.00015671260632760462,
+                  0.000337147349594869
+                ]
+              }
+            },
+            {
+              "time": 0.45,
+              "both_at_new": {
+                "velocity_rms": 0.0003557585601940833,
+                "guard_advection_rms_AB_BA": [
+                  2.0149336979441628e-05,
+                  2.554059676578235e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 8.8961511628896e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.038331752462391e-06,
+                  6.386587614093545e-06
+                ]
+              },
+              "rms_ratio": 3.999016582341073
+            }
+          ]
+        },
+        {
+          "start": 0.6,
+          "end": 0.7,
+          "checks": [
+            {
+              "time": 0.603125,
+              "both_at_new": {
+                "velocity_rms": 3.825125303622228e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.4931043599053543e-06,
+                  3.138934006422038e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.0020132061168836295,
+                "guard_advection_rms_AB_BA": [
+                  0.00019033675404882378,
+                  0.0003711059291721955
+                ]
+              }
+            },
+            {
+              "time": 0.65,
+              "both_at_new": {
+                "velocity_rms": 0.00031288650895002325,
+                "guard_advection_rms_AB_BA": [
+                  2.1094167021546633e-05,
+                  2.6645394297701657e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 7.823685493099484e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.274533370876556e-06,
+                  6.663039171724754e-06
+                ]
+              },
+              "rms_ratio": 3.9992214567672764
+            }
+          ]
+        },
+        {
+          "start": 0.8,
+          "end": 0.9,
+          "checks": [
+            {
+              "time": 0.803125,
+              "both_at_new": {
+                "velocity_rms": 3.393540348629292e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.466833573523128e-06,
+                  3.194191686951188e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.001864531363402331,
+                "guard_advection_rms_AB_BA": [
+                  0.00020197600406342357,
+                  0.00035985236531937135
+                ]
+              }
+            },
+            {
+              "time": 0.85,
+              "both_at_new": {
+                "velocity_rms": 0.000277715507314372,
+                "guard_advection_rms_AB_BA": [
+                  2.0495850375089816e-05,
+                  2.679683489135614e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 6.944013554141618e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.124984429483519e-06,
+                  6.701027672129091e-06
+                ]
+              },
+              "rms_ratio": 3.999351457900512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": "A_to_B_stronger",
+      "pulse": "A",
+      "intervals": [
+        {
+          "start": 0.4,
+          "end": 0.5,
+          "checks": [
+            {
+              "time": 0.403125,
+              "both_at_new": {
+                "velocity_rms": 4.352899198639921e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.299049631681537e-06,
+                  2.930247202688626e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.002175442684894104,
+                "guard_advection_rms_AB_BA": [
+                  0.00015671260632760462,
+                  0.000337147349594869
+                ]
+              }
+            },
+            {
+              "time": 0.45,
+              "both_at_new": {
+                "velocity_rms": 0.0003557585601940833,
+                "guard_advection_rms_AB_BA": [
+                  2.0149336979441628e-05,
+                  2.554059676578235e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 8.8961511628896e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.038331752462391e-06,
+                  6.386587614093545e-06
+                ]
+              },
+              "rms_ratio": 3.999016582341073
+            }
+          ]
+        },
+        {
+          "start": 0.6,
+          "end": 0.7,
+          "checks": [
+            {
+              "time": 0.603125,
+              "both_at_new": {
+                "velocity_rms": 3.8250544264263915e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.493231453021255e-06,
+                  3.139233648038562e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.0020132062212877126,
+                "guard_advection_rms_AB_BA": [
+                  0.00019034282509460912,
+                  0.00037110957665021467
+                ]
+              }
+            },
+            {
+              "time": 0.65,
+              "both_at_new": {
+                "velocity_rms": 0.0003128788199534289,
+                "guard_advection_rms_AB_BA": [
+                  2.110006461321846e-05,
+                  2.6653957338607917e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 7.823497965702507e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.276009793398802e-06,
+                  6.665174390847543e-06
+                ]
+              },
+              "rms_ratio": 3.9992190363576596
+            }
+          ]
+        },
+        {
+          "start": 0.8,
+          "end": 0.9,
+          "checks": [
+            {
+              "time": 0.803125,
+              "both_at_new": {
+                "velocity_rms": 3.3931129167828144e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.4792528907258807e-06,
+                  3.200720971250709e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.0018645311300156933,
+                "guard_advection_rms_AB_BA": [
+                  0.00020227857952097693,
+                  0.0003599559755173328
+                ]
+              }
+            },
+            {
+              "time": 0.85,
+              "both_at_new": {
+                "velocity_rms": 0.000277678174281232,
+                "guard_advection_rms_AB_BA": [
+                  2.065694355154521e-05,
+                  2.6864041246344087e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 6.943074625688944e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.16527929879534e-06,
+                  6.717833626923675e-06
+                ]
+              },
+              "rms_ratio": 3.9993545979448353
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": "A_to_B_stronger",
+      "pulse": "B",
+      "intervals": [
+        {
+          "start": 0.4,
+          "end": 0.5,
+          "checks": [
+            {
+              "time": 0.403125,
+              "both_at_new": {
+                "velocity_rms": 4.352899198639921e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.299049631681537e-06,
+                  2.930247202688626e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.002175442684894104,
+                "guard_advection_rms_AB_BA": [
+                  0.00015671260632760462,
+                  0.000337147349594869
+                ]
+              }
+            },
+            {
+              "time": 0.45,
+              "both_at_new": {
+                "velocity_rms": 0.0003557585601940833,
+                "guard_advection_rms_AB_BA": [
+                  2.0149336979441628e-05,
+                  2.554059676578235e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 8.8961511628896e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.038331752462391e-06,
+                  6.386587614093545e-06
+                ]
+              },
+              "rms_ratio": 3.999016582341073
+            }
+          ]
+        },
+        {
+          "start": 0.6,
+          "end": 0.7,
+          "checks": [
+            {
+              "time": 0.603125,
+              "both_at_new": {
+                "velocity_rms": 3.8251970822526296e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.492978545444921e-06,
+                  3.1386360896652112e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.0020132060117420535,
+                "guard_advection_rms_AB_BA": [
+                  0.0001903307081411205,
+                  0.0003711022811205199
+                ]
+              }
+            },
+            {
+              "time": 0.65,
+              "both_at_new": {
+                "velocity_rms": 0.0003128943160362796,
+                "guard_advection_rms_AB_BA": [
+                  2.10884011630652e-05,
+                  2.6636944893158434e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 7.823875742716903e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.273089825321378e-06,
+                  6.660932252905604e-06
+                ]
+              },
+              "rms_ratio": 3.9992239949304786
+            }
+          ]
+        },
+        {
+          "start": 0.8,
+          "end": 0.9,
+          "checks": [
+            {
+              "time": 0.803125,
+              "both_at_new": {
+                "velocity_rms": 3.393992120327307e-05,
+                "guard_advection_rms_AB_BA": [
+                  2.4562775549934085e-06,
+                  3.188389598097038e-06
+                ]
+              },
+              "stale_left": {
+                "velocity_rms": 0.0018645315960825442,
+                "guard_advection_rms_AB_BA": [
+                  0.00020170860873388298,
+                  0.00035975335975256295
+                ]
+              }
+            },
+            {
+              "time": 0.85,
+              "both_at_new": {
+                "velocity_rms": 0.00027775498920333937,
+                "guard_advection_rms_AB_BA": [
+                  2.0366772544113318e-05,
+                  2.6741608673941944e-05
+                ]
+              },
+              "half_spacing": {
+                "velocity_rms": 6.945006815807408e-05,
+                "guard_advection_rms_AB_BA": [
+                  5.092697450588345e-06,
+                  6.687217989104202e-06
+                ]
+              },
+              "rms_ratio": 3.9993479714252564
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

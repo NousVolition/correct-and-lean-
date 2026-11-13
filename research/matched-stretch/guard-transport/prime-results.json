@@ -1,0 +1,272 @@
+{
+  "marker_count": 401,
+  "marker_rate": 320,
+  "mentor_rate": 250,
+  "cases": {
+    "7.52": [
+      {
+        "prime": 2,
+        "model_time": 0.0,
+        "marker_step": 0,
+        "mentor_step": 0,
+        "position_rms": 0.0,
+        "position_max": 0.0,
+        "velocity_rms_at_own_positions": 0.0
+      },
+      {
+        "prime": 3,
+        "model_time": 0.1,
+        "marker_step": 32,
+        "mentor_step": 25,
+        "position_rms": 2.7420689662805446e-08,
+        "position_max": 1.0085563204098662e-07,
+        "velocity_rms_at_own_positions": 1.393458890437881e-08,
+        "held_out_readout_rms": 0.006468189667213808
+      },
+      {
+        "prime": 5,
+        "model_time": 0.2,
+        "marker_step": 64,
+        "mentor_step": 50,
+        "position_rms": 1.0546677133881613e-07,
+        "position_max": 4.0496667425312347e-07,
+        "velocity_rms_at_own_positions": 1.0564638301691234e-07,
+        "held_out_readout_rms": 0.011890688782779775
+      },
+      {
+        "prime": 7,
+        "model_time": 0.3,
+        "marker_step": 96,
+        "mentor_step": 75,
+        "position_rms": 2.2747497814460635e-07,
+        "position_max": 7.80274194718696e-07,
+        "velocity_rms_at_own_positions": 3.406480818997462e-07,
+        "held_out_readout_rms": 0.015335173935680832
+      },
+      {
+        "prime": 11,
+        "model_time": 0.4,
+        "marker_step": 128,
+        "mentor_step": 100,
+        "position_rms": 3.9882837481673115e-07,
+        "position_max": 1.4115425471573595e-06,
+        "velocity_rms_at_own_positions": 7.902525657918688e-07,
+        "held_out_readout_rms": 0.01603112901546423
+      },
+      {
+        "prime": 13,
+        "model_time": 0.5,
+        "marker_step": 160,
+        "mentor_step": 125,
+        "position_rms": 6.323858391871181e-07,
+        "position_max": 2.248892687547459e-06,
+        "velocity_rms_at_own_positions": 1.5427813984503574e-06,
+        "held_out_readout_rms": 0.012962673943529358
+      },
+      {
+        "prime": 17,
+        "model_time": 0.6,
+        "marker_step": 192,
+        "mentor_step": 150,
+        "position_rms": 9.607988456369998e-07,
+        "position_max": 3.806341140454516e-06,
+        "velocity_rms_at_own_positions": 2.695177218719029e-06,
+        "held_out_readout_rms": 0.012429768990758667
+      },
+      {
+        "prime": 19,
+        "model_time": 0.7,
+        "marker_step": 224,
+        "mentor_step": 175,
+        "position_rms": 1.3531346668012989e-06,
+        "position_max": 6.44103612584991e-06,
+        "velocity_rms_at_own_positions": 4.149668915971323e-06,
+        "held_out_readout_rms": 0.016248854276418017
+      },
+      {
+        "prime": 23,
+        "model_time": 0.8,
+        "marker_step": 256,
+        "mentor_step": 200,
+        "position_rms": 1.7648061669398165e-06,
+        "position_max": 1.0108619729719047e-05,
+        "velocity_rms_at_own_positions": 5.277444248161314e-06,
+        "held_out_readout_rms": 0.014034283029244591
+      },
+      {
+        "prime": 29,
+        "model_time": 0.9,
+        "marker_step": 288,
+        "mentor_step": 225,
+        "position_rms": 2.0656177983304264e-06,
+        "position_max": 1.2456755127163072e-05,
+        "velocity_rms_at_own_positions": 4.7570002536236105e-06,
+        "held_out_readout_rms": 0.014961334136898903
+      },
+      {
+        "prime": 31,
+        "model_time": 1.0,
+        "marker_step": 320,
+        "mentor_step": 250,
+        "position_rms": 2.2070235824866285e-06,
+        "position_max": 1.3203174237571606e-05,
+        "velocity_rms_at_own_positions": 3.064202375527799e-06,
+        "held_out_readout_rms": 0.015298520578062646
+      },
+      {
+        "prime": 37,
+        "model_time": 1.1,
+        "marker_step": 352,
+        "mentor_step": 275,
+        "position_rms": 2.1946565064002497e-06,
+        "position_max": 1.3273796194311122e-05,
+        "velocity_rms_at_own_positions": 2.4229325666756217e-06,
+        "held_out_readout_rms": 0.017151340407473247
+      },
+      {
+        "prime": 41,
+        "model_time": 1.2,
+        "marker_step": 384,
+        "mentor_step": 300,
+        "position_rms": 2.1518013900856393e-06,
+        "position_max": 1.2922792120328864e-05,
+        "velocity_rms_at_own_positions": 2.9059880029771725e-06
+      }
+    ],
+    "7.67": [
+      {
+        "prime": 2,
+        "model_time": 0.0,
+        "marker_step": 0,
+        "mentor_step": 0,
+        "position_rms": 0.0,
+        "position_max": 0.0,
+        "velocity_rms_at_own_positions": 0.0
+      },
+      {
+        "prime": 3,
+        "model_time": 0.1,
+        "marker_step": 32,
+        "mentor_step": 25,
+        "position_rms": 2.88027919365776e-08,
+        "position_max": 1.0653152469553594e-07,
+        "velocity_rms_at_own_positions": 1.4900099056363365e-08,
+        "held_out_readout_rms": 0.006771027780980969
+      },
+      {
+        "prime": 5,
+        "model_time": 0.2,
+        "marker_step": 64,
+        "mentor_step": 50,
+        "position_rms": 1.1061235695112383e-07,
+        "position_max": 3.9645768613662076e-07,
+        "velocity_rms_at_own_positions": 1.1377845096799443e-07,
+        "held_out_readout_rms": 0.012440407338401932
+      },
+      {
+        "prime": 7,
+        "model_time": 0.3,
+        "marker_step": 96,
+        "mentor_step": 75,
+        "position_rms": 2.389434463749404e-07,
+        "position_max": 8.216506397994357e-07,
+        "velocity_rms_at_own_positions": 3.66553925249448e-07,
+        "held_out_readout_rms": 0.01600879281825217
+      },
+      {
+        "prime": 11,
+        "model_time": 0.4,
+        "marker_step": 128,
+        "mentor_step": 100,
+        "position_rms": 4.207442769215692e-07,
+        "position_max": 1.5629457955640379e-06,
+        "velocity_rms_at_own_positions": 8.561207123774445e-07,
+        "held_out_readout_rms": 0.016576318063202013
+      },
+      {
+        "prime": 13,
+        "model_time": 0.5,
+        "marker_step": 160,
+        "mentor_step": 125,
+        "position_rms": 6.790566511217605e-07,
+        "position_max": 2.7885441277610012e-06,
+        "velocity_rms_at_own_positions": 1.707061164137636e-06,
+        "held_out_readout_rms": 0.013264037151386875
+      },
+      {
+        "prime": 17,
+        "model_time": 0.6,
+        "marker_step": 192,
+        "mentor_step": 150,
+        "position_rms": 1.037308429639384e-06,
+        "position_max": 4.960787894910974e-06,
+        "velocity_rms_at_own_positions": 3.033091532971723e-06,
+        "held_out_readout_rms": 0.013094977471355485
+      },
+      {
+        "prime": 19,
+        "model_time": 0.7,
+        "marker_step": 224,
+        "mentor_step": 175,
+        "position_rms": 1.4734998607342586e-06,
+        "position_max": 8.772390850678835e-06,
+        "velocity_rms_at_own_positions": 4.7465885169343035e-06,
+        "held_out_readout_rms": 0.017128429388941043
+      },
+      {
+        "prime": 23,
+        "model_time": 0.8,
+        "marker_step": 256,
+        "mentor_step": 200,
+        "position_rms": 1.934802354124444e-06,
+        "position_max": 1.3344418549000186e-05,
+        "velocity_rms_at_own_positions": 5.980008270455201e-06,
+        "held_out_readout_rms": 0.014382710310512166
+      },
+      {
+        "prime": 29,
+        "model_time": 0.9,
+        "marker_step": 288,
+        "mentor_step": 225,
+        "position_rms": 2.2468295105464196e-06,
+        "position_max": 1.6135001819584306e-05,
+        "velocity_rms_at_own_positions": 4.905817016934605e-06,
+        "held_out_readout_rms": 0.01570483002877678
+      },
+      {
+        "prime": 31,
+        "model_time": 1.0,
+        "marker_step": 320,
+        "mentor_step": 250,
+        "position_rms": 2.3644657034490517e-06,
+        "position_max": 1.666268118126111e-05,
+        "velocity_rms_at_own_positions": 3.2092490548809363e-06,
+        "held_out_readout_rms": 0.01620835711894225
+      },
+      {
+        "prime": 37,
+        "model_time": 1.1,
+        "marker_step": 352,
+        "mentor_step": 275,
+        "position_rms": 2.305340550664098e-06,
+        "position_max": 1.5090074430216708e-05,
+        "velocity_rms_at_own_positions": 3.423615220114204e-06,
+        "held_out_readout_rms": 0.019022787875225
+      },
+      {
+        "prime": 41,
+        "model_time": 1.2,
+        "marker_step": 384,
+        "mentor_step": 300,
+        "position_rms": 2.2185215548874793e-06,
+        "position_max": 1.3408385650470369e-05,
+        "velocity_rms_at_own_positions": 3.818074347053211e-06
+      }
+    ]
+  },
+  "original_prime_rows_checked": 10426,
+  "original_csv_sha256": {
+    "7.52": "2da0531d97175e247531bca7371b374fc84c4375055f4d65c19b1e0427bfb1e3",
+    "7.67": "b220cb7f50cc122bb5e3bea069d4fe0feccbf65e942087b03e6752ea51ac847e"
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "experiment": "Breathing water in the 3D basin",
+  "model": "Closed-cylinder Navier–Stokes with a transported threshold scalar and optional oscillatory body acceleration.",
+  "provenance": "The four run receipts recorded file SHA-256 values. This audit compared file bytes with all receipts and computed source-text hashes for the functions listed. For each function hash the indicated inclusive lines as raw file bytes, including indentation, decorators where present and original line endings. A nested function also contributes to the enclosing function hash.",
+  "simulation_sources": {
+    "basin_parcel_3d.py": {
+      "file_sha256": "89b18fde2934637754971040bfac194f760500c6a5d9b0d633cf414ebd7e9836",
+      "functions": {
+        "neighbor": {
+          "first_line": 13,
+          "last_line": 23,
+          "raw_source_sha256": "523fcb1b99b7e78f7e6c2b77bb3f123315d4a4bb5df48f58acde47ecc055483d"
+        },
+        "Cylinder.__init__": {
+          "first_line": 27,
+          "last_line": 55,
+          "raw_source_sha256": "696cae3f78d2e6f516d728644543dd6561dee2c71637e3de2e17ff4440d1efff"
+        },
+        "Cylinder.initial": {
+          "first_line": 57,
+          "last_line": 60,
+          "raw_source_sha256": "4917999ac13ca460735168000619ddb97efefa925c9055a6941d62700032c7f9"
+        },
+        "Cylinder.centred": {
+          "first_line": 85,
+          "last_line": 87,
+          "raw_source_sha256": "ba2596993d320bb34ccc00f1ce7df23ce49d9b28116a7cbfdb9839f06bec13e0"
+        },
+        "Cylinder.divergence": {
+          "first_line": 62,
+          "last_line": 63,
+          "raw_source_sha256": "8bbc222919bbc5a72677e64123f3c61f4b28006bc25690a27a80b71f2a001490"
+        },
+        "Cylinder.project": {
+          "first_line": 65,
+          "last_line": 83,
+          "raw_source_sha256": "a059a251771178878e5278e5ad64c88257465ef12da95652f3d6a6525acee705"
+        },
+        "Cylinder.rates": {
+          "first_line": 89,
+          "last_line": 128,
+          "raw_source_sha256": "be796a5e3d1486a999587e9b783b00a9be3b9e9115fcc1b65867b19540c7d528"
+        },
+        "Cylinder.rates.horizontal_rate": {
+          "first_line": 106,
+          "last_line": 116,
+          "raw_source_sha256": "7f447e5bffb08592a7736ea4b25e5dd0b3897fd08ae5a2d200ec0bb492e2d79e"
+        },
+        "VelocityWindow.__init__": {
+          "first_line": 133,
+          "last_line": 136,
+          "raw_source_sha256": "3dd742da43ee6e3e4ad4d4595a68d1c5516e5b2ba194374931ca1c0709b4b7c8"
+        },
+        "VelocityWindow.add": {
+          "first_line": 138,
+          "last_line": 139,
+          "raw_source_sha256": "bb0d53216c16b755b282a5cb68acbd0d2eb48e3b9f4ce1bb6e5e86df8f410795"
+        },
+        "VelocityWindow.velocity": {
+          "first_line": 141,
+          "last_line": 151,
+          "raw_source_sha256": "4d5b7094eeadb8d1ca807b2240d403a946e6badd252c2d7708cd8f6ebf024a70"
+        },
+        "VelocityWindow.trace": {
+          "first_line": 153,
+          "last_line": 169,
+          "raw_source_sha256": "59b7138ddc8fa570b2e821ac628aaa67385b72e240d7044bcdfaf4c5cf92192b"
+        }
+      }
+    },
+    "continue_basin_fruit.py": {
+      "file_sha256": "48441332d5ec6400ab08f9e6ac735ee92374155b1cd91b6f47af05c1a98af04f",
+      "functions": {
+        "advect": {
+          "first_line": 33,
+          "last_line": 43,
+          "raw_source_sha256": "c4d2bd6e71dd459ce870aaaa48a5bb35be7f86f472f104251e15508a4791b41f"
+        }
+      }
+    },
+    "basin_smoothing.py": {
+      "file_sha256": "72ae64688d4f43d481bbc93ec36431e7d90148892a6cdb6d83ba5ea46e95d2fa",
+      "functions": {
+        "exact_off": {
+          "first_line": 12,
+          "last_line": 18,
+          "raw_source_sha256": "f685d5c11ad66d8741ae1bdd995f03e73d439e754d53ad581db85f79f3a370a5"
+        }
+      }
+    },
+    "startup.py": {
+      "file_sha256": "3dcddb81b4615d8676120738f00d82eb05d511c0b982e485f15a07f80661b99c",
+      "functions": {
+        "neighbor": {
+          "first_line": 30,
+          "last_line": 36,
+          "raw_source_sha256": "d41852fc0df2ab2691c529977f0846eb345270c681d03e258c360d00b0c42a9d"
+        },
+        "div_no_scale": {
+          "first_line": 39,
+          "last_line": 40,
+          "raw_source_sha256": "3cd988f8941ca85b762c80b716a80f862dc9691c6359448e35e9107484980e64"
+        },
+        "interpolate": {
+          "first_line": 47,
+          "last_line": 54,
+          "raw_source_sha256": "c3c2a28f8281ba9164749f000ee846317dc16d5948bb601fb5e38a998c147790"
+        },
+        "ClosedDisk.__init__": {
+          "first_line": 58,
+          "last_line": 93,
+          "raw_source_sha256": "ec74db7305d7bce59c96358c59570cca5b740be1ac4cc2644b3f6946298598e5"
+        },
+        "ClosedDisk.slope": {
+          "first_line": 104,
+          "last_line": 113,
+          "raw_source_sha256": "58e375c4e2d519af5c0a01f5440bec01aaa2fee36a013f9f6d753738d37c3578"
+        },
+        "ClosedDisk.scalar_rate": {
+          "first_line": 115,
+          "last_line": 120,
+          "raw_source_sha256": "3bb514641f26f6fd2e9c9121d25b3920c967a26ffd3f9848cf28f02f825bc433"
+        }
+      }
+    },
+    "cylinder_trail.py": {
+      "file_sha256": "ef1319d4d87923011ce993893abf4f778416230458695103e4412d0030c3d8b1",
+      "functions": {
+        "run": {
+          "first_line": 151,
+          "last_line": 257,
+          "raw_source_sha256": "c6b17f57e57e0819bc93f8bcac61dc7f737137a421e6cde98b6ed90d1b47645f"
+        },
+        "step": {
+          "first_line": 140,
+          "last_line": 148,
+          "raw_source_sha256": "4dcde7334de950d3747e8161bed659661da42e8d347b5e1818e938e244d1428a"
+        },
+        "sample": {
+          "first_line": 46,
+          "last_line": 63,
+          "raw_source_sha256": "7da279ad444f33a9c9e8518d6bcddab1d58a892f1967dab68a773a127ce7fba4"
+        },
+        "sample.level": {
+          "first_line": 60,
+          "last_line": 61,
+          "raw_source_sha256": "0be3cd2876204839d9e57300a940a3e167e1eb8ffd39e481d4e9811464a2c0f3"
+        },
+        "follow": {
+          "first_line": 66,
+          "last_line": 73,
+          "raw_source_sha256": "4858b4395e8dcf956c1dc0a78c8b20e503a71c8df3b18beea433b679b564f35f"
+        },
+        "follow.halfway": {
+          "first_line": 67,
+          "last_line": 68,
+          "raw_source_sha256": "7504aed7618ac0bacc7073092da148758b380fa9e502f7c555dde5f0d4f71372"
+        },
+        "BreathingForce.__init__": {
+          "first_line": 115,
+          "last_line": 132,
+          "raw_source_sha256": "b4b8d65902c80cfef295c0bc5cc502e88ecab2a2b7cb79683484e874f39c700f"
+        },
+        "BreathingForce.add": {
+          "first_line": 134,
+          "last_line": 137,
+          "raw_source_sha256": "b5019e55619a6e192f8f81d29d84983d2a3521dbf88bf7a88bc4dd206d6aaace"
+        },
+        "Trail.__init__": {
+          "first_line": 77,
+          "last_line": 81,
+          "raw_source_sha256": "3aa6f7209320bb434ac82f1d94eb1143545d24c1c9d67d9146e1524e5b2506b9"
+        },
+        "Trail.refine": {
+          "first_line": 83,
+          "last_line": 102,
+          "raw_source_sha256": "99f8b8c1e45dbe5016b195ea15dc8d11750733f0f03e7d6432cf71124d4a0eee"
+        },
+        "Trail.record": {
+          "first_line": 104,
+          "last_line": 110,
+          "raw_source_sha256": "37ba99645fef59dc1c785f31385157dc53f7c193b080880f416f74e10d03b44a"
+        },
+        "read_seeds": {
+          "first_line": 33,
+          "last_line": 43,
+          "raw_source_sha256": "2a3f35de14ba4559a4ca5a7f9f2bcd405ebc487337fc130d50e02ea86c346f4f"
+        }
+      }
+    }
+  },
+  "csv_outputs": {
+    "trail-7.52-baseline.csv": {
+      "csv_sha256": "25d090f188bb65ebf445d36fd43e125e24a48b71e2d3fcce1e27fc6da4ebee5f",
+      "receipt_sha256": "a9ddaeef65ffa7308e4ff7e2e375f76c4dbdf43955fd7d3c0d5afec1cec4f755",
+      "native_steps": 937
+    },
+    "trail-7.52-breathing.csv": {
+      "csv_sha256": "4d73b17e91a7127aa1323b7045e7b3934f9d7471a3f3198bf5caab062c398b08",
+      "receipt_sha256": "98bdeb0e3454e79843ca1e9022f49765c42535254a12adf27d7f1ac472041c7a",
+      "native_steps": 945
+    },
+    "trail-7.67-baseline.csv": {
+      "csv_sha256": "ed31c3ccfad35b82a11b43b028a29deb921c5ba5194caaf0f50d4f6adaa329a5",
+      "receipt_sha256": "cc4f365074cf44378fcde32f753d36a642550f3fa3bcc1c7aaf5e651773a7641",
+      "native_steps": 943
+    },
+    "trail-7.67-breathing.csv": {
+      "csv_sha256": "6b04da243682c417a2be09a9c52c99c50ea6a512d38d19708a2dfba355a5770d",
+      "receipt_sha256": "e39becf87c1d753efb364a8fb7dc1d88c17e2ef9ba767c3ca3f21ba4182d718f",
+      "native_steps": 960
+    }
+  },
+  "display": {
+    "html_sha256": "95fbafd67c643a4a18d5705a8af9b75d05dd8ed90f399afe6a27998a4ce163e3",
+    "builder": "read_cylinder_results.py",
+    "builder_sha256_at_audit": "e79aeaf004158b388e28527e150574987aa84f4e34eb8f619f7562815c04d31c",
+    "functions": [
+      "main",
+      "audit_run",
+      "difference"
+    ]
+  },
+  "hug_v3_comparison_sources_only": {
+    "structural_hug.py": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+    "continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+    "social_base.py": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+    "run.py": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+    "declarations/main.json": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+    "protocol.json": "2e5820d658482fa8944a9aaf4f9b3179b05e5b1c088cac7539967a644852ec77"
+  },
+  "independent_marker_check": "continue_basin_fruit.advect and VelocityWindow run alongside the full-trail integrator as a check on the release marker."
+}

@@ -1,0 +1,30 @@
+{
+  "algorithm": "SHA-256 over raw bytes including original line endings",
+  "files": {
+    "basin_parcel_3d.py": {
+      "original_sha256": "89b18fde2934637754971040bfac194f760500c6a5d9b0d633cf414ebd7e9836",
+      "published_sha256": "89b18fde2934637754971040bfac194f760500c6a5d9b0d633cf414ebd7e9836",
+      "change": "Exact original bytes."
+    },
+    "continue_basin_fruit.py": {
+      "original_sha256": "48441332d5ec6400ab08f9e6ac735ee92374155b1cd91b6f47af05c1a98af04f",
+      "published_sha256": "48441332d5ec6400ab08f9e6ac735ee92374155b1cd91b6f47af05c1a98af04f",
+      "change": "Exact original bytes."
+    },
+    "basin_smoothing.py": {
+      "original_sha256": "72ae64688d4f43d481bbc93ec36431e7d90148892a6cdb6d83ba5ea46e95d2fa",
+      "published_sha256": "72ae64688d4f43d481bbc93ec36431e7d90148892a6cdb6d83ba5ea46e95d2fa",
+      "change": "Exact original bytes."
+    },
+    "startup.py": {
+      "original_sha256": "3dcddb81b4615d8676120738f00d82eb05d511c0b982e485f15a07f80661b99c",
+      "published_sha256": "5251a1533fb3fdf8853ea6aae16b61b4206714eb8de9a38c551cc1ad40f60bb0",
+      "change": "Only line 13 changed. The optional SciPy fallback resolves .runtime beside startup.py instead of a machine-specific home path."
+    },
+    "cylinder_trail.py": {
+      "original_sha256": "ef1319d4d87923011ce993893abf4f778416230458695103e4412d0030c3d8b1",
+      "published_sha256": "ef1319d4d87923011ce993893abf4f778416230458695103e4412d0030c3d8b1",
+      "change": "Exact original bytes."
+    }
+  }
+}

@@ -3,7 +3,7 @@
   "lean_kernel": "PASS",
   "nanoda": "PASS",
   "lean_build": "PASS",
-  "scope": "Four auxiliary well-posedness statements for the field problem. The original full existence and uniqueness targets remain open.",
+  "scope": "Four auxiliary field-rate diagnostics and six guard transport theorems, including a full-cell energy bound and periodic shared-transport cancellation. The full PDE existence and uniqueness targets remain open.",
   "open_items": [
     "Construct local coupled variable-viscosity PDE solutions in an appropriate spatial function space.",
     "Prove continuation/global estimates for the every-finite-horizon existence target.",

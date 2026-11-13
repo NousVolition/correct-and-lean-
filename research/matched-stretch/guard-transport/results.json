@@ -1,0 +1,225 @@
+{
+  "source_commit": "f7b923c40011b2c3a261dc118959f75259cb5ce4",
+  "source_sha256": {
+    "model.py": "60948e928f31d57e8384f2f7ccd68d4ab9664d6aee3398f82407324bb0f42e30",
+    "protocol.json": "ba767c26ec3324f0441e158475910e12b9d225ab1f99859b534f51c280a3ebae"
+  },
+  "condition": "directional / equal weights / pulse B",
+  "marker_count": 64,
+  "sampling_control": "passed",
+  "runs": [
+    {
+      "grid": 32,
+      "solver_dt": 0.003125,
+      "checks": [
+        {
+          "t": 0.603125,
+          "left": 0.6,
+          "right": 0.7,
+          "velocity_rms_vector_error": 0.000037770551117512174,
+          "velocity_max_vector_error": 0.00008086133623527641,
+          "guard_advection_rms_error_AB_BA": [
+            0.000002717093665674711,
+            0.0000032219799971011023
+          ],
+          "stale_left_velocity_rms_vector_error": 0.002016474287362018,
+          "marker_index_17": {
+            "initial_position": [
+              1.8613936472519526,
+              1.0759954838545043
+            ],
+            "new_position": [
+              1.8630762168521635,
+              1.0752541641278568
+            ],
+            "left_at_initial_position": [
+              0.5381169585631607,
+              -0.2380412928801086
+            ],
+            "left_at_new_position": [
+              0.5382885550097698,
+              -0.23727196533563105
+            ],
+            "right_at_new_position": [
+              0.552323100124047,
+              -0.2094765787655193
+            ],
+            "blend": [
+              0.538727134544591,
+              -0.23640335950531505
+            ],
+            "withheld_velocity": [
+              0.5387585060498983,
+              -0.23640324733842472
+            ]
+          }
+        },
+        {
+          "t": 0.65,
+          "left": 0.6,
+          "right": 0.7,
+          "velocity_rms_vector_error": 0.0003093618609273042,
+          "velocity_max_vector_error": 0.0006806690394581678,
+          "guard_advection_rms_error_AB_BA": [
+            0.00002302016783401833,
+            0.000027135873067671368
+          ],
+          "stale_left_velocity_rms_vector_error": 0.016596232009678493
+        },
+        {
+          "t": 0.65,
+          "left": 0.625,
+          "right": 0.675,
+          "velocity_rms_vector_error": 0.00007735400802115669,
+          "velocity_max_vector_error": 0.00017021111771174438,
+          "guard_advection_rms_error_AB_BA": [
+            0.000005756077936912362,
+            0.000006785516782929776
+          ]
+        }
+      ]
+    },
+    {
+      "grid": 32,
+      "solver_dt": 0.0015625,
+      "checks": [
+        {
+          "t": 0.603125,
+          "left": 0.6,
+          "right": 0.7,
+          "velocity_rms_vector_error": 0.00003777055111666354,
+          "velocity_max_vector_error": 0.00008086133623385155,
+          "guard_advection_rms_error_AB_BA": [
+            0.0000027170936654123145,
+            0.000003221979997145624
+          ],
+          "stale_left_velocity_rms_vector_error": 0.0020164742873635395,
+          "marker_index_17": {
+            "initial_position": [
+              1.8613936472519526,
+              1.0759954838545043
+            ],
+            "new_position": [
+              1.8630762168521635,
+              1.0752541641278568
+            ],
+            "left_at_initial_position": [
+              0.5381169585628769,
+              -0.2380412928798305
+            ],
+            "left_at_new_position": [
+              0.5382885550094844,
+              -0.23727196533535105
+            ],
+            "right_at_new_position": [
+              0.5523231001237123,
+              -0.2094765787653096
+            ],
+            "blend": [
+              0.5387271345443041,
+              -0.23640335950503724
+            ],
+            "withheld_velocity": [
+              0.5387585060496131,
+              -0.23640324733814666
+            ]
+          }
+        },
+        {
+          "t": 0.65,
+          "left": 0.6,
+          "right": 0.7,
+          "velocity_rms_vector_error": 0.0003093618609193515,
+          "velocity_max_vector_error": 0.0006806690394562831,
+          "guard_advection_rms_error_AB_BA": [
+            0.000023020167832090026,
+            0.000027135873067835784
+          ],
+          "stale_left_velocity_rms_vector_error": 0.016596232009694574
+        },
+        {
+          "t": 0.65,
+          "left": 0.625,
+          "right": 0.675,
+          "velocity_rms_vector_error": 0.00007735400801918893,
+          "velocity_max_vector_error": 0.00017021111771176292,
+          "guard_advection_rms_error_AB_BA": [
+            0.000005756077936432163,
+            0.0000067855167829643375
+          ]
+        }
+      ]
+    },
+    {
+      "grid": 48,
+      "solver_dt": 0.0015625,
+      "checks": [
+        {
+          "t": 0.603125,
+          "left": 0.6,
+          "right": 0.7,
+          "velocity_rms_vector_error": 0.00003779005738452034,
+          "velocity_max_vector_error": 0.0000808367633049959,
+          "guard_advection_rms_error_AB_BA": [
+            0.0000027115282657007658,
+            0.000003221829134202883
+          ],
+          "stale_left_velocity_rms_vector_error": 0.002016480868102805,
+          "marker_index_17": {
+            "initial_position": [
+              1.8613936472519526,
+              1.0759954838545043
+            ],
+            "new_position": [
+              1.8630762168521635,
+              1.0752541641278568
+            ],
+            "left_at_initial_position": [
+              0.5381052909764937,
+              -0.2380265812320851
+            ],
+            "left_at_new_position": [
+              0.5382768721613529,
+              -0.23725709534061162
+            ],
+            "right_at_new_position": [
+              0.5523052681541645,
+              -0.20945290377254822
+            ],
+            "blend": [
+              0.5387152595361282,
+              -0.23638821435410964
+            ],
+            "withheld_velocity": [
+              0.5387466427621936,
+              -0.2363881140270319
+            ]
+          }
+        },
+        {
+          "t": 0.65,
+          "left": 0.6,
+          "right": 0.7,
+          "velocity_rms_vector_error": 0.0003095237708456883,
+          "velocity_max_vector_error": 0.0006804651903154446,
+          "guard_advection_rms_error_AB_BA": [
+            0.00002294011850522172,
+            0.00002720066506520622
+          ],
+          "stale_left_velocity_rms_vector_error": 0.016596213672020424
+        },
+        {
+          "t": 0.65,
+          "left": 0.625,
+          "right": 0.675,
+          "velocity_rms_vector_error": 0.00007739472312441016,
+          "velocity_max_vector_error": 0.00017015988720769617,
+          "guard_advection_rms_error_AB_BA": [
+            0.000005736036125976954,
+            0.000006801704467408776
+          ]
+        }
+      ]
+    }
+  ]
+}

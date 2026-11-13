@@ -32,3 +32,8 @@ name = "WellposednessChallenge"
 [[lean_lib]]
 name = "WellposednessProofs"
 
+[[lean_lib]]
+name = "GuardTransportDefs"
+
+[[lean_lib]]
+name = "GuardTransport"
