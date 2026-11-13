@@ -58,6 +58,8 @@ After A/S, we ask the same questions in models involving pressure, shape, guards
 
    **Proved:** Existence, uniqueness and preservation of the allowed guard ranges over any finite forward period, with the specified fixed parameters, continuous prescribed force and admissible initial guards.
 
+   **What “full coupled” means:** The [theorem](hug-existence-lean/HugExistenceSolution.lean) covers all eight equations together: displacement, velocity, two mechanical strains, two participant states and two guards. Under the assumptions above, a solution exists over any finite forward period, and two solutions with the same starting state and prescribed force agree throughout that period. Both guards stay between 0 and 1. **“Full” refers to this specified eight-variable model.** The [full spatial evolution](hug-navier-wellposedness-lean/PROOF-STATUS.md) and [separate memory-field evolution](hug-squeeze-lean/README.md#what-remains-unproved-or-untested) remain unfinished.
+
    **Unfinished:** The separate memory-field extension and broader long-term claims. This result belongs to that reduced implementation; NousVolition’s intended unforced continuum system retains its own proof obligations.
 
 Packages **6–9 approach the spatial Hug–Navier problem**. The intended formulation is one continuing system. The earlier bridge and interface constructions retain their checked mathematics, but their interpretation was subsequently corrected. Read the [single-system scope correction](../research/comparisons/hug-navier-single-system-scope-correction.md#meaning-to-preserve-across-implementations).
