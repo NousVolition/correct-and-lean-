@@ -1,0 +1,47 @@
+{
+  "input_files_verified": 47,
+  "source_inputs_unchanged": true,
+  "level": 64,
+  "samples": 40,
+  "events": 3,
+  "endpoints": [
+    {
+      "interval": [
+        1.178,
+        1.184
+      ],
+      "endpoint_difference_from_native": {
+        "observer_X": 1.5154795057759074e-09,
+        "X": 1.5832093067102981e-09,
+        "F": 1.975674538377825e-08,
+        "velocity": 1.0482092946840355e-07
+      },
+      "saved_endpoint_difference": {
+        "observer_X": 1.5154795057759074e-09,
+        "X": 1.5832093067102981e-09,
+        "F": 1.975674538377825e-08,
+        "velocity": 1.0482092946840355e-07
+      }
+    },
+    {
+      "interval": [
+        1.198,
+        1.2
+      ],
+      "endpoint_difference_from_native": {
+        "observer_X": 9.671968334741543e-10,
+        "X": 8.575085337983457e-10,
+        "F": 1.1334865143708406e-08,
+        "velocity": 3.782845240079668e-08
+      },
+      "saved_endpoint_difference": {
+        "observer_X": 9.671968334741543e-10,
+        "X": 8.575085337983457e-10,
+        "F": 1.1334865143708406e-08,
+        "velocity": 3.782845240079668e-08
+      }
+    }
+  ],
+  "max_saved_pair_error": 0,
+  "scope": "New local replay from archived states; original full history and physical parameters retained."
+}

@@ -1,0 +1,59 @@
+name: Threshold-one window evidence
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/hug-v3/threshold-one-window-study/**'
+      - '.github/workflows/threshold-one-window-evidence.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'research/hug-v3/threshold-one-window-study/**'
+      - '.github/workflows/threshold-one-window-evidence.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  numerical-evidence:
+    name: Check numerical evidence (no Lean or fluid replay)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Install numerical recount dependencies
+        run: |
+          python3 -m venv "$RUNNER_TEMP/window-venv"
+          "$RUNNER_TEMP/window-venv/bin/python" -m pip install numpy==2.3.5 scipy==1.16.3
+      - name: Verify hashes, saved measurements and the analytic tracing fixture
+        working-directory: research/hug-v3/threshold-one-window-study
+        run: |
+          "$RUNNER_TEMP/window-venv/bin/python" -B verify.py --output "$RUNNER_TEMP/window-recount.json"
+      - name: Attach source revision and explicit numerical scope
+        env:
+          OUTPUT: ${{ runner.temp }}/window-recount.json
+          SOURCE_SHA: ${{ github.sha }}
+          RUN_ID: ${{ github.run_id }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib
+          p=pathlib.Path(os.environ['OUTPUT'])
+          result=json.loads(p.read_text())
+          result['github_run']={'sha':os.environ['SOURCE_SHA'],'url':f"https://github.com/{os.environ['REPOSITORY']}/actions/runs/{os.environ['RUN_ID']}"}
+          result['ci_scope']='Published hashes and numerical recount plus analytic fixture; no fluid replay or Lean proof'
+          p.write_text(json.dumps(result,indent=2)+'\n')
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: threshold-one-window-recount-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/window-recount.json
+          if-no-files-found: error

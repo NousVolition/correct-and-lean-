@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "kind": "Numerical replay comparison; no Lean proof",
+  "replayed_states": 40,
+  "replayed_window_readings": 240,
+  "replayed_tighter_readings": 36,
+  "snapshot_max_abs_errors": {
+    "omega": 0.0,
+    "pairs": 0.0
+  },
+  "max_distance_difference": 0.0,
+  "max_arclength_difference": 0.0,
+  "published_bundle_unchanged": true,
+  "replayed_code_and_inputs_match": true
+}
