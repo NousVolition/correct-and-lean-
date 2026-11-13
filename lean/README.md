@@ -106,55 +106,73 @@ The numbering follows the investigation. Packages 6–7 preserve an earlier comp
 
    **Unfinished:** Full spatial existence, continuation to every requested finite horizon, and uniqueness. Parts of a written classical uniqueness argument are now formalized; the complete argument remains uncertified by Lean. The [proof-status page](hug-navier-wellposedness-lean/PROOF-STATUS.md) identifies the remaining work.
 
-Packages **10–17 concern Hug v3’s evolution, memory writes, transfer and delays**. Here, “hybrid” means continuous evolution interrupted by discrete events such as writing a memory.
+Packages **10–17 concern Hug v3’s evolution, memory writes, transfer and delays**. They follow the spatial discussion because **evolution also has to account for what gets recorded, what remains readable, and how earlier events affect later ones**. A write can change the material state abruptly; retrieval can influence another encounter; a delay changes which past state an equation reads.
 
-10. **[hug-v3-proof-attempt](hug-v3-proof-attempt/) — What happens between events and at writes.**
+This is the order of the investigation. The spatial proof remains unfinished, and these packages concern the selected **finite Hug v3 realization and its extensions**. Here, “hybrid” means continuous evolution interrupted by discrete events such as writing a memory.
 
-    **Proved:** Six specific results under explicit assumptions about the events.
+10. **[hug-v3-proof-attempt](hug-v3-proof-attempt/) — Recognizing that writing is an event.**
 
-    **Unfinished:** Showing that a complete trajectory actually supplies those assumed events, and proving full correspondence with program execution.
+    A stored record can change abruptly at a write, so one smooth trajectory across every write would be the wrong mathematical target.
 
-11. **[hug-v3-hybrid-lean](hug-v3-hybrid-lean/) — Joining continuous stretches and discrete events.**
+    **Proved:** Six results about probing stored material and the discontinuity caused by a specified write, under the stated event assumptions.
 
-    **Proved:** Nine conditional assembly results: given suitable solution stretches and valid updates, specified conclusions follow about the combined history.
+    **Unfinished:** Proving that the complete trajectory exists, reaches those writes and supplies the required conditions, together with full correspondence to program execution. A jump does not itself prevent a valid evolution with events.
 
-    **Unfinished:** Producing every required stretch, proving every update succeeds, and deriving uniqueness from the full equations.
+11. **[hug-v3-hybrid-lean](hug-v3-hybrid-lean/) — Joining the stretches between writes.**
 
-12. **[hug-v3-source-lean](hug-v3-source-lean/) — An exact-number version of the fixed-grid system.**
+    This supplies a general way to join continuous evolution with discrete updates.
 
-    **Proved:** Nine results about the manually transcribed equations and event definitions.
+    **Proved:** Nine conditional results. If each whole stretch is solvable and unique, and each boundary update succeeds deterministically, they assemble into a unique finite history.
 
-    **Unfinished:** Proving equivalence with Python’s floating-point execution, and proving every write is reached, accepted and correctly stored and recovered.
+    **Unfinished:** Establishing those assumptions for the actual full equations, initial state, captures and writer. Segment solvability and uniqueness are hypotheses here, not achievements for the source model.
 
-13. **[hug-v3-transfer-lean](hug-v3-transfer-lean/) — Local teacher-to-teacher transfer.**
+12. **[hug-v3-source-lean](hug-v3-source-lean/) — Connecting the mathematics to the selected source.**
 
-    **Proved:** 14 transfer statements under the stated encounter and comparison assumptions.
+    This gives an exact-real transcription of the fixed-grid model, including its coupled state and events.
 
-    **Unfinished:** An end-to-end theorem showing the complete causal transfer happens within finite time, through all required events and writes.
+    **Proved:** Nine component results about those definitions.
 
-14. **[hug-v3-delay-lean](hug-v3-delay-lean/) — Which time an input comes from.**
+    **Unfinished:** Full evolution, successful writing and recovery, and a proof that the transcription corresponds to Python’s floating-point execution. A fixed-grid result also leaves the spatial continuum question open.
 
-    **Proved:** Nine identities distinguishing current physical inputs, buffered social inputs and the zero-delay case.
+13. **[hug-v3-transfer-lean](hug-v3-transfer-lean/) — Tracing influence into another encounter.**
 
-    **Unfinished:** Existence and uniqueness for the delayed evolution, preservation of bounds, stability and handling delayed discontinuities.
+    A record retains its original participants, while its influence can pass through shared state into a later relationship.
 
-15. **[hug-v3-full-delay-proof](hug-v3-full-delay-proof/) — Conditional assembly with delays.**
+    **Proved:** Fourteen local transfer results under stated encounter and comparison assumptions, including comparisons of response and guard rates.
 
-    **Proved:** 14 statements about fixed delays and joining continuous evolution with events.
+    **Unfinished:** Showing the complete causal transfer unfolds along actual admissible trajectories within finite time, through the required events and writes. A favorable instantaneous rate comparison does not prove a later threshold crossing.
 
-    **Unfinished:** Establishing the needed regularity, memory readability, successful writes and continuation through every required event. The word “full” in the filename does not mean the full target is proved.
+14. **[hug-v3-delay-lean](hug-v3-delay-lean/) — Specifying which time gets read.**
 
-16. **[hug-v3-memory-rules-lean](hug-v3-memory-rules-lean/) — Retrieval and memory identity.**
+    This introduces a fixed-delay extension: social rates combine present physical information and records with buffered social state.
 
-    **Proved:** 17 results about retrieval from the present state, weighted memories, partner identity and the fixed-delay convention.
+    **Proved:** Nine timing identities, including that zero delay recovers the original equations.
 
-    **Unfinished:** Several rules still need specification: variable timing, partial or mixed reconstruction with provenance, new solo episodes, and anticipation-effort accounting.
+    **Unfinished:** A complete delayed evolution theorem, preservation of bounds, stability and correct handling of delayed discontinuities.
 
-17. **[hug-v3-clay-boundary-lean](hug-v3-clay-boundary-lean/) — Keeping memories readable through change.**
+15. **[hug-v3-full-delay-proof](hug-v3-full-delay-proof/) — Constructing a local delayed solution conditionally.**
 
-    **Proved:** 12 component and conditional schedule results. A preservation theorem applies when a full solution already exists and an explicit deformation bound holds.
+    This goes beyond timing identities.
 
-    **Unfinished:** Proving that solution and bound, together with successful encoding, capacity, write budgets and continuation.
+    **Proved:** Fourteen results, including a construction of a local solution—and uniqueness within the stated neighborhood—from explicit regularity, rate-bound and valid-decoding assumptions. The local construction does not assume existence and uniqueness as premises.
+
+    **Unfinished:** Deriving those assumptions for the actual trajectory, establishing memory readability, continuing through every required interval and proving every write succeeds. **“Full” in the filename does not mean the complete target is proved.**
+
+16. **[hug-v3-memory-rules-lean](hug-v3-memory-rules-lean/) — Checking what retrieval actually preserves.**
+
+    This examines attribution, missing or conflicting accounts, weighted records and changing relevance.
+
+    **Proved:** Seventeen results about the existing retrieval and fixed-delay rules.
+
+    **Unfinished:** Several fuller mechanisms still need specification: variable timing, partial or mixed reconstruction with provenance, new solo episodes and anticipation-effort accounting. Full hybrid delayed existence and uniqueness also remain unproved.
+
+17. **[hug-v3-clay-boundary-lean](hug-v3-clay-boundary-lean/) — Keeping records readable while material changes.**
+
+    This examines preservation of encoded records as the material adapts.
+
+    **Proved:** Twelve component and conditional preservation results. The strongest schedule result assumes an existing full solution and an explicit deformation bound; that solution premise includes successful writes.
+
+    **Unfinished:** Proving that solution and bound, together with capacity, encoding, write-budget and continuation requirements. **Preservation under those assumptions does not prove that every required write will succeed.**
 
 The **last two are comparison and review packages**.
 
