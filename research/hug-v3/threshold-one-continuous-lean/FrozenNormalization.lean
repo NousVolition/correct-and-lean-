@@ -1,3 +1,5 @@
+import Mathlib.Data.Real.Basic
+import Mathlib.Tactic.FieldSimp
 import Mathlib.Tactic.Abel
 import Mathlib.Tactic.Convert
 import Mathlib.Tactic.FinCases

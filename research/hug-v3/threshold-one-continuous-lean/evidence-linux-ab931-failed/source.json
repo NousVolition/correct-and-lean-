@@ -15,7 +15,7 @@
   "axiom_audit_ran": false,
   "passing_receipt_produced": false,
   "artifacts_uploaded": 0,
-  "log_origin": "Decoded completed-job log returned by the GitHub connector; not a compiler receipt",
+  "log_origin": "Decoded completed-job log returned by the GitHub connector, with the runner home-directory prefix redacted; not a compiler receipt",
   "known": [
     "Five verifier unit tests passed",
     "Archive regeneration and the pre-build inventory checks completed before the bounded build began",
@@ -28,5 +28,12 @@
   ],
   "certified_directional_traces": 0,
   "certified_window_minima": 0,
-  "decoded_job_log_sha256": "a7145b15520f1093f8ff4896e778c6024bcaf43bfd07829087c7eb10af0b014a"
+  "original_decoded_job_log_sha256": "a7145b15520f1093f8ff4896e778c6024bcaf43bfd07829087c7eb10af0b014a",
+  "published_job_log_sha256": "aa3e9fa97c4e24d1ae9b67695c678be7093640052c5f3e42fe19d50f7e73307b",
+  "redaction": {
+    "description": "Every occurrence of the GitHub runner home-directory prefix",
+    "replacement": "<RUNNER_HOME>",
+    "occurrences": 18,
+    "other_bytes_changed": false
+  }
 }

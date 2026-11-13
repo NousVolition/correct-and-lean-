@@ -26,11 +26,11 @@ include supporting lemmas; they are not counts of independent discoveries.
 
 | File | Mathematical statement and verification scope | What it does not establish |
 | --- | --- | --- |
-| [FrozenArchive.lean](FrozenArchive.lean) and [FrozenField.lean](FrozenField.lean) | For all real spatial points, each of the 18 scalar components of the six archived **unnormalized** Fourier fields has absolute value at most 1. Each component changes by at most `32 * ‖x-y‖∞`. Integer coefficient sums discharge these particular global bounds in Lean. | A positive lower bound on the vorticity norm, a bound on the normalized field's derivative along a trace, or a trajectory enclosure. |
-| [FrozenPolynomial.lean](FrozenPolynomial.lean) | Real-valued error bounds for rational polynomial models under addition, negation, multiplication, coefficient replacement and truncation on `|u| ≤ 1`. | Trigonometric composition or an instantiated archived-field residual. |
-| [FrozenTrig.lean](FrozenTrig.lean), [FrozenTrigModel.lean](FrozenTrigModel.lean), and [PhasePilot.lean](PhasePilot.lean) | A complex-rotation argument bounds sine/cosine errors by polynomial residuals. The starting error is checked from the exact values at zero. The pilot concerns a polynomial candidate on the first `[0, .001]` segment of the first left snapshot, using true real π. | That the candidate is an exact ODE solution, or that a tube contains an exact solution. |
+| [FrozenArchive.lean](FrozenArchive.lean) and [FrozenField.lean](FrozenField.lean) | For all real spatial points, each of the 18 scalar components of the six archived **unnormalized** Fourier fields has absolute value at most 1. Each component changes by at most `32 * â€–x-yâ€–âˆž`. Integer coefficient sums discharge these particular global bounds in Lean. | A positive lower bound on the vorticity norm, a bound on the normalized field's derivative along a trace, or a trajectory enclosure. |
+| [FrozenPolynomial.lean](FrozenPolynomial.lean) | Real-valued error bounds for rational polynomial models under addition, negation, multiplication, coefficient replacement and truncation on `|u| â‰¤ 1`. | Trigonometric composition or an instantiated archived-field residual. |
+| [FrozenTrig.lean](FrozenTrig.lean), [FrozenTrigModel.lean](FrozenTrigModel.lean), and [PhasePilot.lean](PhasePilot.lean) | A complex-rotation argument bounds sine/cosine errors by polynomial residuals. The starting error is checked from the exact values at zero. The pilot concerns a polynomial candidate on the first `[0, .001]` segment of the first left snapshot, using true real Ï€. | That the candidate is an exact ODE solution, or that a tube contains an exact solution. |
 | [FrozenIntPolynomial.lean](FrozenIntPolynomial.lean), [FrozenIntModel.lean](FrozenIntModel.lean), [FrozenIntTrig.lean](FrozenIntTrig.lean), and [FrozenIntTrigModel.lean](FrozenIntTrigModel.lean) | Shared-denominator integer arithmetic with real-valued soundness proofs, including computed errors from coefficient rounding and truncation. | Permission to accept the generator's floating-point or Arb error estimates. |
-| [FrozenComplexModel.lean](FrozenComplexModel.lean), [FrozenFourierModel.lean](FrozenFourierModel.lean), [FieldPilotCore.lean](FieldPilotCore.lean), and [FieldPilotArchiveLink.lean](FieldPilotArchiveLink.lean) | The submitted pilot bounds one archived scalar Fourier component along that candidate polynomial to `10^-18` on every `|u| ≤ 1`. All 1,331 modes remain present. A separate equality check links the grouped coefficient tree to the archive. This claim requires the expanded revision's build and axiom audit to pass. | A normalized-field ODE residual, a complete trace, or a window minimum. |
+| [FrozenComplexModel.lean](FrozenComplexModel.lean), [FrozenFourierModel.lean](FrozenFourierModel.lean), [FieldPilotCore.lean](FieldPilotCore.lean), and [FieldPilotArchiveLink.lean](FieldPilotArchiveLink.lean) | The submitted pilot bounds one archived scalar Fourier component along that candidate polynomial to `10^-18` on every `|u| â‰¤ 1`. All 1,331 modes remain present. A separate equality check links the grouped coefficient tree to the archive. This claim requires the expanded revision's build and axiom audit to pass. | A normalized-field ODE residual, a complete trace, or a window minimum. |
 | [FrozenNormalization.lean](FrozenNormalization.lean) | A normalized-component error bound from proved positive denominator bounds and proved square/component residuals. | Those required bounds for any of the six traces. |
 | [FrozenODE.lean](FrozenODE.lean) | An exact solution exists and remains in a candidate tube when the stated continuity, Lipschitz, residual, initial-error and step-size inequalities hold. A separate theorem encloses an attained continuous-window minimum from a universal lower bound and an upper witness. | A solution obtained merely by assuming that a saved numerical path satisfies the ODE. No archived case currently discharges all these hypotheses. |
 | [FrozenClippedODE.lean](FrozenClippedODE.lean) and [FrozenPrecondition.lean](FrozenPrecondition.lean) | Existence for an auxiliary field with a positive normalization cutoff, and a tube theorem using approximate inverse matrices and a boundary derivative inequality. Right derivatives allow continuous piecewise polynomial candidates. | Agreement of the auxiliary solution with the requested normalized field; this still needs nonvanishing vorticity throughout the tube. Every concrete matrix and boundary bound remains to be supplied. |
@@ -41,7 +41,7 @@ include supporting lemmas; they are not counts of independent discoveries.
 | [FrozenSeeds.lean](FrozenSeeds.lean) | Exact rational definitions for the six archived A/B pairs. Their denominator is positive. | A proof that those inputs came from the simulation, or that a particular candidate starts at its required seed. |
 
 The ODE existence theorem retains the closed-ball conclusion from Mathlib's
-Picard–Lindelöf construction. It does **not** assume the existence of a solution
+Picardâ€“LindelÃ¶f construction. It does **not** assume the existence of a solution
 which stays inside the desired tube. Its hypotheses are visible in the theorem
 statement. The minimum theorem requires a lower bound at **every** point of the
 window, not just at saved optimizer candidates.
@@ -68,7 +68,9 @@ tested proof head `ab931cf3a2581153f106feb6dbac346a82e245b9` and merge
 `f5baa72960be2fc17a28a95633aaead9dd83bf59`. Its `lake build` exceeded 1,800
 seconds. The expanded axiom audit did not run, and no receipt or artifact was
 produced. The [completed job log and failure provenance](evidence-linux-ab931-failed)
-are retained. That old verifier lost captured compiler output when it timed out,
+are retained. The published job log replaces the runner home-directory prefix
+with `<RUNNER_HOME>`; both original and published hashes and the replacement
+count are recorded in its provenance. That old verifier lost captured compiler output when it timed out,
 so the stalled declaration is **unknown**. This is not a disproof of the proposed
 component bound. Local full-component attempts also reached their four-minute
 limit; an import-only diagnostic took 193.656 seconds.
@@ -83,6 +85,14 @@ component pilot or any trajectory. The default verifier still selects **all**
 187 declarations; a full-scope pass requires them all. The verifier now preserves
 captured timeout diagnostics and an explicit failure record, tested by a
 regression check. The full requested certificate continues to be refused.
+
+The first [foundations run 43381499911](https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43381499911)
+identified missing real-number and `field_simp` imports in `FrozenNormalization`
+after the earlier import reduction. Its [retained diagnostic artifact](https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43381499911/artifacts/14016682471)
+contains the compiler log and intended axiom-audit source, not a passing receipt.
+Those imports are restored in the current source, which passed a fresh local
+normalization build without warnings. This identified build error does not
+identify the declaration active at the earlier full-build timeout.
 
 ## Archived-field assumptions
 
@@ -100,16 +110,16 @@ pairs in the same label order. The verifier independently regenerates both the
 coefficient files and these coordinate files byte for byte. This remains an
 external transcription check.
 
-For a coefficient `cₖ = aₖ + i bₖ`, the scalar field is defined as
+For a coefficient `câ‚– = aâ‚– + i bâ‚–`, the scalar field is defined as
 
 ```text
-ωⱼ(x) = Σₖ [aₖⱼ cos(2π k·(x + (1/2,1/2,1/2)))
-            - bₖⱼ sin(2π k·(x + (1/2,1/2,1/2)))]
-k ∈ {-5, …, 5}³.
+Ï‰â±¼(x) = Î£â‚– [aâ‚–â±¼ cos(2Ï€ kÂ·(x + (1/2,1/2,1/2)))
+            - bâ‚–â±¼ sin(2Ï€ kÂ·(x + (1/2,1/2,1/2)))]
+k âˆˆ {-5, â€¦, 5}Â³.
 ```
 
-Here π is the mathematical real constant. The intended trace equation is
-`x′(s) = ω(x(s)) / ‖ω(x(s))‖₂`, with `x(0) = A`; negative arclength follows
+Here Ï€ is the mathematical real constant. The intended trace equation is
+`xâ€²(s) = Ï‰(x(s)) / â€–Ï‰(x(s))â€–â‚‚`, with `x(0) = A`; negative arclength follows
 the same frozen field backwards. B is the fixed archived comparison target.
 The coordinate error bounds use the infinity norm. `FrozenEuclidean` explicitly
 uses the Euclidean norm in the denominator, and `FrozenPeriodicDistance` defines
@@ -119,7 +129,7 @@ every archived trace and window still requires concrete certificates.
 The archive is supplied mathematical input. Python/NumPy loading, SHA-256 hashing,
 and transcription regeneration are external provenance checks, not Lean proofs
 that the archive came from the simulator. Nothing here proves its time evolution,
-its relation to a continuum Navier–Stokes solution, grid or full-history
+its relation to a continuum Navierâ€“Stokes solution, grid or full-history
 convergence, or an exchange between the two times of a saved bracket. The
 historical run's breathing setting remains an intervention in that implementation;
 it does not redefine the user's intended single unforced HugandNavier system.
@@ -217,7 +227,7 @@ SciPy and Arb propose coefficients; neither supplies an accepted error bound.
 The saved `PhasePilot.json` and `FieldPilot.json` are generator records, not Lean
 receipts. Floating-point proposal regeneration can vary across platforms. The
 reproducible mathematical check is the kernel build of the saved coefficient
-lists: the sine/cosine residuals, true-π input errors, arithmetic rounding,
+lists: the sine/cosine residuals, true-Ï€ input errors, arithmetic rounding,
 Fourier coefficient identity, and final inequality are checked inside Lean.
 The [local regeneration record](generator-evidence.json) records byte-for-byte
 agreement for the five saved candidate files, the dependency versions, and the
