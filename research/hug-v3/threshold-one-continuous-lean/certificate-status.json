@@ -27,6 +27,25 @@
     "Integer polynomial models with checked coefficient rounding and truncation",
     "Tensor-factorized Fourier evaluation soundness",
     "One candidate segment phase and Fourier-component certificate, subject to the build and axiom audit at this revision",
-    "Global existence for a clipped auxiliary field and a general preconditioned tube theorem"
-  ]
+    "Global existence for a clipped auxiliary field and a general preconditioned tube theorem",
+    "Fourier first-order remainder and actual-gradient theorems",
+    "Euclidean normalization bridge and auxiliary ODE existence in maximum-norm coordinates",
+    "Matrix norm and transformed-residual lemmas",
+    "Unit-torus distance and a conditional whole-window minimum theorem",
+    "Exact rational transcriptions of all six seed and target pairs"
+  ],
+  "expanded_build_status": {
+    "proof_head": "ab931cf3a2581153f106feb6dbac346a82e245b9",
+    "run_id": 43376452721,
+    "status": "TIMEOUT",
+    "timeout_seconds": 1800,
+    "axiom_audit_ran": false
+  },
+  "foundation_scope": {
+    "excluded_modules": [
+      "FieldPilotCore",
+      "FieldPilotArchiveLink"
+    ],
+    "reason": "Separate independent general results from the unverified component pilot; this does not certify a trace."
+  }
 }

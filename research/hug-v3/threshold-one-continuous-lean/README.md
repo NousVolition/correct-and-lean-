@@ -2,9 +2,12 @@
 
 **PARTIAL. The requested continuous traces and 36 window minima are not certified.**
 This package contains global bounds on the six archived Fourier fields, general
-enclosure lemmas, and candidate-segment trigonometric and Fourier evaluation
-certificates. The expanded revision requires its own passing build and axiom
-receipt; the retained 29-theorem receipt below covers the earlier revision only.
+enclosure lemmas, a candidate-segment trigonometric pilot, and an **unverified**
+Fourier-component pilot. The expanded 147-declaration build timed out; it has no
+passing receipt. The current sources submit 187 declarations. The explicitly
+limited `foundations` check selects 171 and excludes all 16 declarations in the
+component pilot. Its fresh Linux result must be assessed separately; the retained
+29-theorem receipt below covers the earlier revision only.
 A successful build of
 this package must not be described as successful certification of the traces.
 `verify.py --require-trajectories` deliberately refuses that claim with exit 2.
@@ -18,9 +21,10 @@ certificate in this package.
 
 ## What Lean establishes
 
-The [147 submitted named declarations](targets.json) have distinct roles:
+The [187 submitted named declarations](targets.json) have distinct roles. Counts
+include supporting lemmas; they are not counts of independent discoveries.
 
-| File | Established result | What it does not establish |
+| File | Mathematical statement and verification scope | What it does not establish |
 | --- | --- | --- |
 | [FrozenArchive.lean](FrozenArchive.lean) and [FrozenField.lean](FrozenField.lean) | For all real spatial points, each of the 18 scalar components of the six archived **unnormalized** Fourier fields has absolute value at most 1. Each component changes by at most `32 * ‖x-y‖∞`. Integer coefficient sums discharge these particular global bounds in Lean. | A positive lower bound on the vorticity norm, a bound on the normalized field's derivative along a trace, or a trajectory enclosure. |
 | [FrozenPolynomial.lean](FrozenPolynomial.lean) | Real-valued error bounds for rational polynomial models under addition, negation, multiplication, coefficient replacement and truncation on `|u| ≤ 1`. | Trigonometric composition or an instantiated archived-field residual. |
@@ -30,6 +34,11 @@ The [147 submitted named declarations](targets.json) have distinct roles:
 | [FrozenNormalization.lean](FrozenNormalization.lean) | A normalized-component error bound from proved positive denominator bounds and proved square/component residuals. | Those required bounds for any of the six traces. |
 | [FrozenODE.lean](FrozenODE.lean) | An exact solution exists and remains in a candidate tube when the stated continuity, Lipschitz, residual, initial-error and step-size inequalities hold. A separate theorem encloses an attained continuous-window minimum from a universal lower bound and an upper witness. | A solution obtained merely by assuming that a saved numerical path satisfies the ODE. No archived case currently discharges all these hypotheses. |
 | [FrozenClippedODE.lean](FrozenClippedODE.lean) and [FrozenPrecondition.lean](FrozenPrecondition.lean) | Existence for an auxiliary field with a positive normalization cutoff, and a tube theorem using approximate inverse matrices and a boundary derivative inequality. Right derivatives allow continuous piecewise polynomial candidates. | Agreement of the auxiliary solution with the requested normalized field; this still needs nonvanishing vorticity throughout the tube. Every concrete matrix and boundary bound remains to be supplied. |
+| [FrozenFieldTaylor.lean](FrozenFieldTaylor.lean) and [FrozenFieldGradient.lean](FrozenFieldGradient.lean) | A global quadratic bound for the first-order Fourier remainder, and a proof that the rotated coefficient lists give the actual directional derivative. | Numerical tube bounds at the archived candidate segments. |
+| [FrozenEuclidean.lean](FrozenEuclidean.lean) | A checked bridge between Euclidean normalization and maximum-norm coordinate bounds, including auxiliary clipped-field existence with the Euclidean denominator. | A proof that the cutoff is inactive on a requested trace. |
+| [FrozenMatrixBounds.lean](FrozenMatrixBounds.lean) and [FrozenTubeResidual.lean](FrozenTubeResidual.lean) | Matrix norm and derivative rules, nonvanishing from a square residual, and a transformed-residual bound. | Any assumed external Jacobian, inverse bound, or radius. The concrete inequalities still need closed proofs. |
+| [FrozenPeriodicDistance.lean](FrozenPeriodicDistance.lean) | The unit-torus distance equals Euclidean distance inside the central box. A proved tube plus universal candidate-distance bounds and an upper witness encloses an attained continuous-window minimum. | A minimum inferred from optimizer samples, or a certificate for any of the 36 requested windows. |
+| [FrozenSeeds.lean](FrozenSeeds.lean) | Exact rational definitions for the six archived A/B pairs. Their denominator is positive. | A proof that those inputs came from the simulation, or that a particular candidate starts at its required seed. |
 
 The ODE existence theorem retains the closed-ball conclusion from Mathlib's
 Picard–Lindelöf construction. It does **not** assume the existence of a solution
@@ -54,12 +63,26 @@ including the original ZIP. That receipt belongs to proof head
 `requested_trajectory_certificate: NOT_CERTIFIED`.
 
 That historical receipt does not verify the added declarations in this revision.
-The current proof sources, target inventory, and compiler logs must be checked
-together; a new receipt is accepted only after every submitted module and all
-147 axiom reports pass. The local development builds checked the trigonometric
-pilot and generic lemmas, but the full Fourier-component calculation reached a
-four-minute local limit. An import-only diagnostic took 193.656 seconds. The
-expanded Linux build is therefore the pending check for the component pilot.
+The [expanded Linux run 43376452721](https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43376452721)
+tested proof head `ab931cf3a2581153f106feb6dbac346a82e245b9` and merge
+`f5baa72960be2fc17a28a95633aaead9dd83bf59`. Its `lake build` exceeded 1,800
+seconds. The expanded axiom audit did not run, and no receipt or artifact was
+produced. The [completed job log and failure provenance](evidence-linux-ab931-failed)
+are retained. That old verifier lost captured compiler output when it timed out,
+so the stalled declaration is **unknown**. This is not a disproof of the proposed
+component bound. Local full-component attempts also reached their four-minute
+limit; an import-only diagnostic took 193.656 seconds.
+
+The unchanged full calculation is not being rerun automatically. Current CI
+checks the **171-declaration foundations scope**, excluding `FieldPilotCore` and
+`FieldPilotArchiveLink` and all their declarations. The newly added general
+lemmas passed local development builds without warnings; the new foundation
+build and axiom receipt are pending at this publication checkpoint. A foundation
+receipt must list its excluded modules and declarations. It cannot validate the
+component pilot or any trajectory. The default verifier still selects **all**
+187 declarations; a full-scope pass requires them all. The verifier now preserves
+captured timeout diagnostics and an explicit failure record, tested by a
+regression check. The full requested certificate continues to be refused.
 
 ## Archived-field assumptions
 
@@ -70,6 +93,12 @@ transcribes each complex coefficient into two integers over the common
 denominator `2^80`; this preserves every binary coefficient exactly. All 1,331
 modes per scalar component are retained, including zero and tiny coefficients.
 No exact Hermitian symmetry is assumed.
+
+[FrozenSeeds.lean](FrozenSeeds.lean), [seed-inputs.json](seed-inputs.json), and
+[generate_seeds.py](generate_seeds.py) supply the six exact rational seed/target
+pairs in the same label order. The verifier independently regenerates both the
+coefficient files and these coordinate files byte for byte. This remains an
+external transcription check.
 
 For a coefficient `cₖ = aₖ + i bₖ`, the scalar field is defined as
 
@@ -82,9 +111,10 @@ k ∈ {-5, …, 5}³.
 Here π is the mathematical real constant. The intended trace equation is
 `x′(s) = ω(x(s)) / ‖ω(x(s))‖₂`, with `x(0) = A`; negative arclength follows
 the same frozen field backwards. B is the fixed archived comparison target.
-The global bounds currently proved use the infinity norm on coordinates. The
-Euclidean normalization and the periodic Euclidean distance to B still require
-their own application proofs.
+The coordinate error bounds use the infinity norm. `FrozenEuclidean` explicitly
+uses the Euclidean norm in the denominator, and `FrozenPeriodicDistance` defines
+the torus distance by an infimum over integer translates. Their application to
+every archived trace and window still requires concrete certificates.
 
 The archive is supplied mathematical input. Python/NumPy loading, SHA-256 hashing,
 and transcription regeneration are external provenance checks, not Lean proofs
@@ -107,8 +137,9 @@ higher precision instead of treating solver-tolerance agreement as a proof.
 An additional external Arb prototype was explored during development. It was not
 accepted as a certificate, and no Arb output supplies a Lean hypothesis here.
 The user's requirement is that **every bound used in the trajectory and minimum
-certificates must be verified inside Lean**. Only the mathematical results in
-the table above currently meet that requirement.
+certificates must be verified inside Lean**. A submitted source file is not a
+passing proof receipt: the unverified component pilot and excluded scope must
+not be promoted to verified results.
 
 The existing [window study](../threshold-one-window-study/README.md) remains
 measured evidence. The separate [23 saved-number checks](../threshold-one-window-lean/README.md)
@@ -144,15 +175,21 @@ From this directory, with the pinned Lean available:
 python -m pip install numpy==2.5.4
 lake exe cache get
 python -B -m unittest test_verification.py
-python -B verify.py --output /tmp/frozen-evidence
+python -B verify.py --scope foundations --output /tmp/frozen-foundations-evidence
 ```
 
 Use a fresh checkout for that Lake build and a new output directory. The verifier
-regenerates the archived coefficient inputs byte for byte, builds all project
-modules, checks all 147 axiom reports, and writes source and log hashes. Offline
+regenerates the archived coefficients and coordinate inputs byte for byte,
+builds the selected modules, checks all 171 selected axiom reports, and writes
+source/log hashes and the complete exclusion list. Offline
 verification is also supported with `--lean PATH_TO_LEAN --packages PATH_TO_PACKAGES`;
 it compiles the project afresh using compiled dependencies at the pinned Mathlib
 revision. That mode reports a direct Lean build, not a Lake build.
+
+To attempt all 187 submitted declarations, use a separate fresh checkout and
+omit `--scope foundations`. This includes the unverified component calculation;
+the prior expanded Linux build timed out. A foundation pass must never be
+substituted for a full-scope pass. Neither scope certifies a complete trace.
 
 This acceptance command is expected to exit **2**, even after a successful build:
 

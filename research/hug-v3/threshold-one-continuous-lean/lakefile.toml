@@ -1,7 +1,7 @@
 name = "ThresholdOneContinuousDevelopment"
-version = "0.2.0"
+version = "0.3.0"
 
-defaultTargets = ["FrozenPolynomial", "FrozenNormalization", "FrozenODE", "FrozenField", "FrozenArchive", "FrozenTrig", "FrozenRational", "FrozenTrigModel", "FrozenConstants", "PhasePilot", "FrozenIntPolynomial", "FrozenIntTrig", "FrozenIntModel", "FrozenComplexModel", "FrozenIntTrigModel", "FrozenDyadicConstants", "FrozenIntEnclosure", "FrozenFourierModel", "FrozenClippedODE", "FrozenPrecondition", "FieldPilotCore", "FieldPilotArchiveLink", "CheckAxioms"]
+defaultTargets = ["FrozenPolynomial", "FrozenNormalization", "FrozenODE", "FrozenField", "FrozenArchive", "FrozenTrig", "FrozenRational", "FrozenTrigModel", "FrozenConstants", "PhasePilot", "FrozenIntPolynomial", "FrozenIntTrig", "FrozenIntModel", "FrozenComplexModel", "FrozenIntTrigModel", "FrozenDyadicConstants", "FrozenIntEnclosure", "FrozenFourierModel", "FrozenClippedODE", "FrozenPrecondition", "FrozenSeeds", "FrozenFieldTaylor", "FrozenFieldGradient", "FrozenMatrixBounds", "FrozenEuclidean", "FrozenTubeResidual", "FrozenPeriodicDistance", "FieldPilotCore", "FieldPilotArchiveLink", "CheckAxioms"]
 
 [[require]]
 name = "mathlib"
@@ -99,3 +99,24 @@ name = "FieldPilotArchiveLink"
 
 [[lean_lib]]
 name = "CheckAxioms"
+
+[[lean_lib]]
+name = "FrozenSeeds"
+
+[[lean_lib]]
+name = "FrozenFieldTaylor"
+
+[[lean_lib]]
+name = "FrozenFieldGradient"
+
+[[lean_lib]]
+name = "FrozenMatrixBounds"
+
+[[lean_lib]]
+name = "FrozenEuclidean"
+
+[[lean_lib]]
+name = "FrozenTubeResidual"
+
+[[lean_lib]]
+name = "FrozenPeriodicDistance"

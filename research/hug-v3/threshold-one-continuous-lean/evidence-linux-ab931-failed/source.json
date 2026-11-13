@@ -1,0 +1,32 @@
+{
+  "verification_status": "TIMEOUT",
+  "requested_trajectory_certificate": "NOT_CERTIFIED",
+  "proof_head": "ab931cf3a2581153f106feb6dbac346a82e245b9",
+  "tested_merge": "f5baa72960be2fc17a28a95633aaead9dd83bf59",
+  "run_id": 43376452721,
+  "job_id": 131723960225,
+  "run_url": "https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43376452721",
+  "submitted_named_theorems": 147,
+  "failed_command": [
+    "lake",
+    "build"
+  ],
+  "timeout_seconds": 1800,
+  "axiom_audit_ran": false,
+  "passing_receipt_produced": false,
+  "artifacts_uploaded": 0,
+  "log_origin": "Decoded completed-job log returned by the GitHub connector; not a compiler receipt",
+  "known": [
+    "Five verifier unit tests passed",
+    "Archive regeneration and the pre-build inventory checks completed before the bounded build began",
+    "The build command exceeded 1800 seconds"
+  ],
+  "unknown": [
+    "Which declaration or module was active at timeout",
+    "Whether any specific expanded declaration failed elaboration",
+    "The old verifier discarded captured compiler output on timeout"
+  ],
+  "certified_directional_traces": 0,
+  "certified_window_minima": 0,
+  "decoded_job_log_sha256": "a7145b15520f1093f8ff4896e778c6024bcaf43bfd07829087c7eb10af0b014a"
+}

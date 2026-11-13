@@ -18,9 +18,15 @@ import FrozenIntEnclosure
 import FrozenFourierModel
 import FrozenClippedODE
 import FrozenPrecondition
+import FrozenSeeds
+import FrozenFieldTaylor
+import FrozenFieldGradient
+import FrozenMatrixBounds
+import FrozenEuclidean
+import FrozenTubeResidual
+import FrozenPeriodicDistance
 import FieldPilotCore
 import FieldPilotArchiveLink
-
 #print axioms FrozenPolynomial.mass_nonneg
 #print axioms FrozenPolynomial.abs_eval_le_mass
 #print axioms FrozenPolynomial.eval_add
@@ -152,6 +158,46 @@ import FieldPilotArchiveLink
 #print axioms FrozenClippedODE.exists_clipped_trace
 #print axioms FrozenPrecondition.recover_error
 #print axioms FrozenPrecondition.tube_from_boundary
+#print axioms FrozenSeeds.denominator_positive
+#print axioms FrozenFieldTaylor.cos_first_order
+#print axioms FrozenFieldTaylor.sin_first_order
+#print axioms FrozenFieldTaylor.phase_add
+#print axioms FrozenFieldTaylor.shift_bound
+#print axioms FrozenFieldTaylor.wave_remainder
+#print axioms FrozenFieldTaylor.field_remainder
+#print axioms FrozenFieldGradient.rotate_phase
+#print axioms FrozenFieldGradient.rotate_value
+#print axioms FrozenFieldGradient.linearPart_eq
+#print axioms FrozenFieldGradient.fieldLinear_eq
+#print axioms FrozenFieldGradient.directional_derivative
+#print axioms FrozenMatrixBounds.unit_apply
+#print axioms FrozenMatrixBounds.operator_apply
+#print axioms FrozenMatrixBounds.norm_operator_le
+#print axioms FrozenMatrixBounds.operator_multiply
+#print axioms FrozenMatrixBounds.operator_identity
+#print axioms FrozenMatrixBounds.operator_sub
+#print axioms FrozenMatrixBounds.operator_derivative
+#print axioms FrozenEuclidean.radius_nonneg
+#print axioms FrozenEuclidean.radius_sq
+#print axioms FrozenEuclidean.coordinate_le_radius
+#print axioms FrozenEuclidean.norm_le_radius
+#print axioms FrozenEuclidean.radius_le_two_norm
+#print axioms FrozenEuclidean.radius_difference
+#print axioms FrozenEuclidean.clip_norm_le_one
+#print axioms FrozenEuclidean.clip_eq_normalized
+#print axioms FrozenEuclidean.clip_difference
+#print axioms FrozenEuclidean.clip_lipschitz
+#print axioms FrozenEuclidean.exists_clipped_trace
+#print axioms FrozenTubeResidual.radius_lower_from_square
+#print axioms FrozenTubeResidual.normalized_error
+#print axioms FrozenTubeResidual.transformed_residual
+#print axioms FrozenPeriodicDistance.abs_le_integer_translate
+#print axioms FrozenPeriodicDistance.radius_le_integer_translate
+#print axioms FrozenPeriodicDistance.distance_eq_radius
+#print axioms FrozenPeriodicDistance.distance_error
+#print axioms FrozenPeriodicDistance.tube_stays_in_central_box
+#print axioms FrozenPeriodicDistance.radius_lipschitz
+#print axioms FrozenPeriodicDistance.window_minimum_from_tube
 #print axioms FieldPilotCore.archiveDenominator_positive
 #print axioms FieldPilotCore.baseError_nonneg
 #print axioms FieldPilotCore.starts_cos
