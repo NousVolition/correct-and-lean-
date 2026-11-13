@@ -2,6 +2,8 @@
 
 These are separate mathematical constructions and finite-data checks. They do not certify the saved Hug evolution or a Yang–Mills mass-gap theorem.
 
+**Subsequent verification:** The [dated local recheck](../../../provenance/chat-package-recheck-2026-11-13/README.md) records passing Lean, Comparator, Lean-kernel, nanoda and axiom checks for the current real and corrected rational batches against frozen published-source references. This adds proof-execution evidence without supplying an independent specification or completing the shared-history pair. The failed original rational draft and failed diagnostic remain separately labeled.
+
 | Stage | Recorded status |
 | --- | --- |
 | [Rational SIMS readout](SIMS%20rational%20readout%20check/Readout.md) | The supplied draft fails two rational arithmetic proofs. The separately corrected copy passes 32 named theorem checks; both copies and logs are retained. |

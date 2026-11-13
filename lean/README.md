@@ -18,6 +18,8 @@ A [separate Lean proof](../research/ambiguous-observation-lean/Pair25Instance.le
 
 The **19 core packages below explore the wider project’s model questions**: what follows from the rules, whether evolution exists and is unique, and how memory writes and delays behave. Pair 25’s summary and recorded-data checks are separate from this core list. Each entry distinguishes **Proved** from **Unfinished**.
 
+**Subsequent results:** [Additional A/S, Hug-energy and geometry proofs](#subsequent-verification-of-added-research-proofs) now have a dated local verification archive. A separate [four-start numerical study](../research/four-start-write-evidence/README.md) adds full-state and actuator-work evidence under fixed-deformation writes. Both are described with their own methods and limits; the original 19-package numbering is retained.
+
 **Numerical evidence:** The [overlapping-writes chart](#overlapping-writes-a-numerical-example) reports finite numerical results and checks of saved data relevant to packages 10–17. These results are not Lean proofs; full spatial and memory-system existence, uniqueness and continuation remain unproved.
 
 Read **PASS** as: “the precise statements submitted for this package passed the checks, under their stated assumptions.” A package can have passing component proofs while its larger goal remains unfinished. The fresh run covered all 19 packages; its 306 checked declarations overlap across packages.
@@ -195,6 +197,8 @@ The saved-data review recomputed a maximum energy-balance error decreasing from 
 
 The review checked saved data and final-state readback; it **did not rerun the flow simulation or compile Lean**. This 16³ experiment assumes ten actuator channels and a busy-reader rule; hardware, controller and gating costs are unmodeled. Full spatial and memory-system existence, uniqueness and continuation remain unfinished. [Numerical review, scope and preserved credits](../research/overlapping-writes-chart/README.md).
 
+**Separate numerical follow-up — all four trust starts.** The [completed state-and-work study](../research/four-start-write-evidence/README.md) records 16 trajectories, 26,256 full snapshots and 5,256 paired writes, with actuator work computed from force samples. Numerical evidence passed; the declared audit remains **PARTIAL** because two protected README files changed during concurrent work. These runs keep deformation and the main flow clock fixed during each write. They therefore do not verify the overlapping-write schedule shown above, and they establish no Lean theorem or full-system existence result.
+
 The **last two examine the wider comparisons and supplied proof arguments**. After the model, spatial and memory packages, they ask how far the proposed connections and existing arguments actually reach. They finish this reading path by identifying what survives those checks and where the claims stop. The full-system existence and uniqueness proof remains unfinished.
 
 18. **[hug-v3-yang-mills-audit-lean](hug-v3-yang-mills-audit-lean/) — Which changes preserve the model's readings?**
@@ -226,6 +230,23 @@ The two examples concern what an observation fails to determine. Package 18 conc
 For a first reading, follow **1–3, then 4–5, then 6–9**: basic rules, complete evolution results for smaller models, and the remaining difficulty in the spatial system. Continue with **10–17** for memory writes and delays, then **18–19** for the comparisons and reviewed arguments. The [fresh evidence collection](../provenance/core-package-recheck-2026-11-12/README.md) retains each package’s exact scope and unfinished-work list alongside its passing checks.
 
 **Credits:** AI-generated; dictated and directed by NousVolition. Each package retains its original proof and review credits. The [observation-package credits](../research/ambiguous-observation-lean/CREDITS.md) distinguish Claude’s review and drafting from later compilation and preserve the earlier assistant’s field-equation proof authorship.
+
+## Subsequent verification of added research proofs
+
+The [dated verification archive](../provenance/chat-package-recheck-2026-11-13/README.md), recorded on **12 November 2026 Pacific (13 November UTC)**, adds fresh execution evidence for the [collected research](../research/chat-research-update-2026-11-12/README.md). All nine current batches passed Lean compilation, Comparator, Lean's default kernel, nanoda and configured axiom checks. These were local Linux/WSL runs; the earlier 19-package GitHub recheck remains a separate record.
+
+| Work | Checked result | Remaining limit |
+| --- | --- | --- |
+| [A/S vortex comparisons](../research/chat-research-update-2026-11-12/README.md#new-material-collected-here) — five batches | Signed-force comparisons, the line identity, rescaling and specified edge/time controls passed against the original frozen challenges. Later packages discharge particular earlier obligations. | The results retain the specified candidate, direction and regularity assumptions; full evolving Hug material/memory balance is not established. |
+| [A/S energy and carrying/history accounts](../research/chat-research-update-2026-11-12/energy/README.md) — one batch | Balance identities, conditional storage statements and restricted candidate exclusions passed the published-source recheck. | A balancing ledger does not identify the missing physical store; general A/S energy closure remains open. |
+| [Hug component proofs](../research/chat-research-update-2026-11-12/energy/hug-lean-proofs/README.md) — one batch | Guard-response, prescribed-drive, pressure-projection, one-cell energy and abstract memory results passed, including the already corrected fabric-memory proof. | The results concern their stated models or transcribed data; full unforced spatial evolution and successful physical memory writes are not proved. |
+| [Observation and vortex geometry](../research/chat-research-update-2026-11-12/geometry/README.md) — two batches | Specified shared-reading examples, different line-closure properties, conditional history results and the corrected rational readout passed. | The complete pair with the requested shared evolving history remains unproved; `HistoryCompletionTarget.FullPairExists` is still an assumption of the conditional result. |
+
+**Method.** The four energy/geometry batches compare against references importing the frozen published modules themselves. They recheck those proofs and their dependencies; they do not provide an independent model specification. Only `propext`, `Quot.sound` and `Classical.choice` are permitted. All 161 collected Lean source files remain unchanged, including retained failures; declaration counts include shared and helper results and are not counts of independent discoveries. [Batch receipts and source coverage](../provenance/chat-package-recheck-2026-11-13/README.md#evidence-and-replay).
+
+**Failures and limits.** The original `FabricMemory.lean` draft and original rational `SIMSLatentReadout.lean` draft still fail; their corrected versions are checked separately. The `DerivativeProbe` diagnostic also fails, while the supplemental `SpecificProbe` worked example has its own Lean-only pass. No simulation was rerun by these proof checks. Neither the chart's numerical accuracy nor full spatial/memory existence, uniqueness and continuation follows from them.
+
+The geometry batch includes the collected `YangMillsCueTest` abelian field-equation comparison. Its record does not replace the separate `readJet` projection example, package 18's strain/frame audit or the combined transverse-derivative package. Their claims and credits remain distinct.
 
 ## Detailed package records
 
@@ -265,7 +286,7 @@ The [ambiguous-observation package](../research/ambiguous-observation-lean/READM
 
 Its Tick 41 and Pair 25 instances concern supplied summaries and exact numbers. **YangMillsInstance** uses a real-valued projection with equal order-zero `readJet` readings and different first derivatives. **YangMillsCueTest** separately compares two explicit abelian potentials agreeing on `x₁ = 0`, with field-equation residuals 0 and 2; the modified potential fails the equation. Neither establishes an admissible Yang–Mills family. These are also separate from the 20-statement Hug v3 strain/frame audit above.
 
-Simulator and transcription verification are outside this package; Comparator and nanoda were not run. [Preserved authorship and credits](../research/ambiguous-observation-lean/CREDITS.md).
+Simulator and transcription verification are outside this package; Comparator and nanoda were not run for that package build. A [later local geometry batch](../provenance/chat-package-recheck-2026-11-13/generic/geometry-real/record.json) rechecks the collected `YangMillsCueTest` copy, with its own source bindings and verification scope. [Preserved authorship and credits](../research/ambiguous-observation-lean/CREDITS.md).
 
 ### Separate combined transverse-derivative theorem
 

@@ -1,0 +1,484 @@
+{
+  "kind": "Publication summary of a previously completed local numerical study",
+  "source_package": "full-state-evidence-v1",
+  "recorded_verification_at_utc": "2026-11-13T06:36:57.535454+00:00",
+  "recorded_status": "PARTIAL",
+  "recorded_numerical_evidence_status": "PASS",
+  "recorded_strict_all_file_preservation_status": "FAIL",
+  "trajectories": 16,
+  "starts": 4,
+  "counts": {
+    "snapshots": 26256,
+    "flow_steps": 15600,
+    "paired_writes": 5256
+  },
+  "max_full_system_residual": 1.2094134909041224e-9,
+  "max_per_write_residual": 1.1839138322450966e-18,
+  "recorded_exact_restarts": 16,
+  "preservation": {
+    "protected_files": 204,
+    "unchanged_original_files_recorded": 202,
+    "copied_sources_rehashed_at_publication": 36,
+    "changed_documentation_files": [
+      "material-trust-v3/README.md",
+      "full-flow-energy-all-starts/README.md"
+    ],
+    "before_after_document_copies_rehashed": 4,
+    "qualification": "Strict all-file preservation failed because two README files changed during concurrent work. The original audit records numerical data and journal rules unchanged; the failure remains FAIL."
+  },
+  "model_declaration": {
+    "purpose": "Complete intermediate full-state, every-write paired-state, and independent actuator-work evidence for all four trust starts while preserving the journal and existing trajectories",
+    "cases": {
+      "both-trusting": [
+        1,
+        1
+      ],
+      "a-trusting": [
+        1,
+        0
+      ],
+      "b-trusting": [
+        0,
+        1
+      ],
+      "both-untrusting": [
+        0,
+        0
+      ]
+    },
+    "arms": [
+      "journal",
+      "control"
+    ],
+    "horizon": 1.3,
+    "integration_dt": [
+      0.002,
+      0.001
+    ],
+    "journal_cadence": 0.002,
+    "unchanged_rules": "Exact copied source bytes, native Heun solver, 801 journal rows, all cell weights, encoding and quantization, mechanical probe and CRC, append-only writer, event fixture, material recall, fixed-deformation instantaneous write jumps, and original work budgets",
+    "saved_fields": "Every numerical state array, without downsampling or rounding, at every accepted flow substep and immediately before and after every journal and event write, including time zero; selected after-all checkpoints additionally preserve controller data for exact restart",
+    "independent_actuator_measurement": "For the original prescribed linear stroke b(s)=b0+s*(b1-b0), keep F fixed, sample generalized actuator force k*(b-e)+h*b/a^2*((b/a)^2-1)+drag*(b1-b0)/duration at 8 Gauss-Legendre nodes and integrate weighted force times rate over duration; retain each cell's samples and quadrature weights. Repeat at 4 nodes. No stored-energy differences or writer account work enter either integral.",
+    "heat_measurement": "Integrate drag*rate^2 independently for the stroke and native stage heat for the flow. Thermal energy retains this heat in the periodic domain.",
+    "criteria": {
+      "full_system_energy_residual_max": 0.000001,
+      "differential_residual_fraction_of_peak_extra_work_max": 0.01,
+      "stroke_work_agreement_absolute": 1e-12,
+      "stroke_heat_agreement_absolute": 1e-12,
+      "four_vs_eight_node_work_absolute": 1e-12,
+      "full_state_preservation": "Exact equality with all existing same-resolution completed reference states and the four original standard-step journal endpoints",
+      "coverage": "651 journal writes plus 3 event writes in each journal arm; 3 event writes in each control; 650 or 1300 accepted flow substeps; all four starts and both time steps",
+      "archive_integrity": "Reopen all snapshots, validate hashes, complete field schema and finite values, and recompute every write and full-system balance from archived fields and force samples",
+      "restart": "Replay an archived post-event checkpoint per run for one interval, including new journal sampling, and require exact equality with the following archived states",
+      "preservation": "All protected original files and copied source bytes retain their recorded SHA-256 digests"
+    },
+    "scope": "Numerical force-path measurement under the existing instantaneous, fixed-F stroke law. No hardware measurement, flowing finite-duration stroke simulation, overlapping stroke schedule, spatial convergence, or continuous-equation theorem is claimed. Original thermal, kinetic, continuum and fabric energy conventions are retained; initialization work before time zero is outside the model."
+  },
+  "runs": [
+    {
+      "case_name": "both-trusting",
+      "arm": "journal",
+      "substeps": 1,
+      "status": "PASS",
+      "snapshots": 1967,
+      "flow_steps": 650,
+      "paired_writes": 654,
+      "max_independent_full_system_residual": 1.2093700926764026e-9,
+      "max_independent_write_residual": 1.087378546037708e-18,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "96cc726862b163aaf84b0603c74189c06f6c230ad4067ded55592a48352cd702",
+        "pairs.jsonl": "66e46fa01a0f767f3c3a4aceef771994ec50327390630636d7b800b89848b65f",
+        "flow.jsonl": "22c21d8ae79e104fff3602e502ee775ebd50bc214fdae10bb96da87bc74bf5fb"
+      }
+    },
+    {
+      "case_name": "a-trusting",
+      "arm": "journal",
+      "substeps": 1,
+      "status": "PASS",
+      "snapshots": 1967,
+      "flow_steps": 650,
+      "paired_writes": 654,
+      "max_independent_full_system_residual": 1.209393164444423e-9,
+      "max_independent_write_residual": 9.45209359796994e-19,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "4633e28304eca093c59e76c1cacf993f92a0dd9ccfecd325af882ce455b7f4f6",
+        "pairs.jsonl": "efb47e7fa444ccbf2f73151944ca004204dd2043ed623dda0b6d0652fc41fc1b",
+        "flow.jsonl": "3f1455f8738f98072acce00ce7a8c73a2463d92da6d23956c92b0eb2c849923e"
+      }
+    },
+    {
+      "case_name": "b-trusting",
+      "arm": "journal",
+      "substeps": 1,
+      "status": "PASS",
+      "snapshots": 1967,
+      "flow_steps": 650,
+      "paired_writes": 654,
+      "max_independent_full_system_residual": 1.2093932126914196e-9,
+      "max_independent_write_residual": 1.1303125285516604e-18,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "a63879b84ef0d30b8007362177cc53caf4207470632394ce75a504bca6704034",
+        "pairs.jsonl": "283e8b64a7bad750d5b3491b14c8d7d2d3245651726c1af04c8a48943e249a67",
+        "flow.jsonl": "31288bfc30053483d8a0297186edd405d71958878f08d6bd81c01c59b0fa101c"
+      }
+    },
+    {
+      "case_name": "both-untrusting",
+      "arm": "journal",
+      "substeps": 1,
+      "status": "PASS",
+      "snapshots": 1967,
+      "flow_steps": 650,
+      "paired_writes": 654,
+      "max_independent_full_system_residual": 1.2094134909041224e-9,
+      "max_independent_write_residual": 9.616470929296479e-19,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "688e75354c991830dff1ba650f0411aa7602762b463b5990b3b39a4a6c81bca9",
+        "pairs.jsonl": "a4addfec1082dcfd0010eb0eb46cffe108d4899bf50df42f928a4ebe750bd8c5",
+        "flow.jsonl": "fd04c41c3810e3472812f976503e19e60ab3a95fc0b2a304d35751ab38ce2764"
+      }
+    },
+    {
+      "case_name": "a-trusting",
+      "arm": "journal",
+      "substeps": 2,
+      "status": "PASS",
+      "snapshots": 2617,
+      "flow_steps": 1300,
+      "paired_writes": 654,
+      "max_independent_full_system_residual": 1.458230107845293e-10,
+      "max_independent_write_residual": 9.04869415684008e-19,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "f605a3ff91aef334e41d225fb50d1cff319123b71a48228ab64d0d25aaac483e",
+        "pairs.jsonl": "e6f45894ffc6d8dd2e0f8f1fed4485bfb4b02ab4d1b301695359c44015526827",
+        "flow.jsonl": "dadbb676de4166398bd243a9707a9145d405b638e20c5432fa85140ee4981c76"
+      }
+    },
+    {
+      "case_name": "both-trusting",
+      "arm": "journal",
+      "substeps": 2,
+      "status": "PASS",
+      "snapshots": 2617,
+      "flow_steps": 1300,
+      "paired_writes": 654,
+      "max_independent_full_system_residual": 1.458168940953429e-10,
+      "max_independent_write_residual": 1.0066192484729309e-18,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "63be57109b898fdd94b35967c41ea275bdf85fef2885fa20e19fefa6b545e2c1",
+        "pairs.jsonl": "852d2903d1add99b64243b77a66f479aa3253c3ba3f89d72035468ac18b6f0e3",
+        "flow.jsonl": "0e420d09c544ad7c68e186e8785f8760e2195d361cf28b269ce25f7db5adc108"
+      }
+    },
+    {
+      "case_name": "b-trusting",
+      "arm": "journal",
+      "substeps": 2,
+      "status": "PASS",
+      "snapshots": 2617,
+      "flow_steps": 1300,
+      "paired_writes": 654,
+      "max_independent_full_system_residual": 1.4582406712270596e-10,
+      "max_independent_write_residual": 9.731349772767843e-19,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "23f892069c712bec68c68b89611fe1f630b68866c7f31413be124dbeadede441",
+        "pairs.jsonl": "5a063f7577978afa57ccf4e0049a7651975019a3b0020f4eb2cb460fb3fabacc",
+        "flow.jsonl": "4c6d9dc51d5529568673839bdbea3a0dc0212b8ce5657813f918f2d57f157209"
+      }
+    },
+    {
+      "case_name": "both-untrusting",
+      "arm": "journal",
+      "substeps": 2,
+      "status": "PASS",
+      "snapshots": 2617,
+      "flow_steps": 1300,
+      "paired_writes": 654,
+      "max_independent_full_system_residual": 1.458295020113562e-10,
+      "max_independent_write_residual": 1.1839138322450966e-18,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "4f6573901b2e70483b1687d38d359b335b46e91fc8b13296f5be4edf9c9e4626",
+        "pairs.jsonl": "c7a9ba372e414d6dc9c1ee9c096a67f8c221320d73ab445bb570907a9276d569",
+        "flow.jsonl": "5094518165296c1b7883da1613e1658daa06fa642daa6e9ed6abb04779d3560d"
+      }
+    },
+    {
+      "case_name": "both-trusting",
+      "arm": "control",
+      "substeps": 1,
+      "status": "PASS",
+      "snapshots": 665,
+      "flow_steps": 650,
+      "paired_writes": 3,
+      "max_independent_full_system_residual": 1.2090742872498082e-9,
+      "max_independent_write_residual": 1.7787691892340307e-19,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "ba43b1e1834841a770912a2f3a4fdc7e1917b716fc596e72e5da312861f4025c",
+        "pairs.jsonl": "7d238e01ba07806f7f5986fcf9976ab69da5aa0f0ca6166326cf9996d36a86c8",
+        "flow.jsonl": "d14474cc9403c02e98782f12826bcedb247660a2a0b6e2cc377042624dd27827"
+      }
+    },
+    {
+      "case_name": "a-trusting",
+      "arm": "control",
+      "substeps": 1,
+      "status": "PASS",
+      "snapshots": 665,
+      "flow_steps": 650,
+      "paired_writes": 3,
+      "max_independent_full_system_residual": 1.2090961548486857e-9,
+      "max_independent_write_residual": 2.642742795433417e-19,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "f44f2625b409f6fa8bec04b16f9398efc735a15c8dc91e251e42a4bc8618a7d5",
+        "pairs.jsonl": "7b3e706da3aad907bc78ba2e7e58170441369a4fbc06617b87b8751534ec10a2",
+        "flow.jsonl": "47f7ca396f82c1e51e92b321093d473459a2dbb01a57b1217fe1992cf1b368f4"
+      }
+    },
+    {
+      "case_name": "b-trusting",
+      "arm": "control",
+      "substeps": 1,
+      "status": "PASS",
+      "snapshots": 665,
+      "flow_steps": 650,
+      "paired_writes": 3,
+      "max_independent_full_system_residual": 1.209096969951879e-9,
+      "max_independent_write_residual": 6.268043809681823e-20,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "f60ee7451fea6f2170de80501dec545dd414feae2e796172c8bec4a324d0b014",
+        "pairs.jsonl": "b8686dd082f071af96ca4724890e64e3ea6d409ecf546380c1545f944c9b706a",
+        "flow.jsonl": "4c0493a2ef40dce6c858099a794e002b300e8315e25b0041d99ad53ba2013576"
+      }
+    },
+    {
+      "case_name": "both-untrusting",
+      "arm": "control",
+      "substeps": 1,
+      "status": "PASS",
+      "snapshots": 665,
+      "flow_steps": 650,
+      "paired_writes": 3,
+      "max_independent_full_system_residual": 1.2091181688148565e-9,
+      "max_independent_write_residual": 1.8973538018496328e-19,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "3bf0ffb71f16ed2a7476cdbc3b258ed3dc023e6b6eb10c95fec89f98c23e100e",
+        "pairs.jsonl": "f6252901c662357ccf811639b5cab72f4a9b4004ea822985f6b6bfcba526e41d",
+        "flow.jsonl": "a673ca28624e78b4f2f44529754719acc00e78349dff2ec05ee9b629576dff6f"
+      }
+    },
+    {
+      "case_name": "both-trusting",
+      "arm": "control",
+      "substeps": 2,
+      "status": "PASS",
+      "snapshots": 1315,
+      "flow_steps": 1300,
+      "paired_writes": 3,
+      "max_independent_full_system_residual": 1.458344948707807e-10,
+      "max_independent_write_residual": 2.913793338554793e-19,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "6a5d63f3c90722f9c6cbd4e36a198d05e5f9522e272e3d4da8ca01ccc3e05ccb",
+        "pairs.jsonl": "ce0b38709f856a76d6cdc5c9c46ea4beabe806276c8f0dc956600d1ac99cf7aa",
+        "flow.jsonl": "bb585e09b6ef80a9d60804bbef4ed4278c380582978fb124a47824d634111b35"
+      }
+    },
+    {
+      "case_name": "a-trusting",
+      "arm": "control",
+      "substeps": 2,
+      "status": "PASS",
+      "snapshots": 1315,
+      "flow_steps": 1300,
+      "paired_writes": 3,
+      "max_independent_full_system_residual": 1.458402694941817e-10,
+      "max_independent_write_residual": 5.996993266560446e-19,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "04d2cf8f05971b060de5bbd3213761b95df46e018184572ba5ef9c2d20097c31",
+        "pairs.jsonl": "52aacaed4a3e89b5f2a4fb11ec2d9a0f8ff442b6471a62b0fee51f697a31ffd5",
+        "flow.jsonl": "66563033b66168daa8d9bca9c24288e02763e4747c0d9c8506a977de2bfb4839"
+      }
+    },
+    {
+      "case_name": "b-trusting",
+      "arm": "control",
+      "substeps": 2,
+      "status": "PASS",
+      "snapshots": 1315,
+      "flow_steps": 1300,
+      "paired_writes": 3,
+      "max_independent_full_system_residual": 1.4584150445466626e-10,
+      "max_independent_write_residual": 7.233661369551725e-19,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "3c250ec6ee6e5d1fe054435aa393da5bf267f6ec7a2185d196a1009eaee1193d",
+        "pairs.jsonl": "4301cffa9da83b44dcbae9aa30d1f62d72ee70689d00b364f4f1861971c1d92d",
+        "flow.jsonl": "bf9bd6d7d8c6c413575c036db2bcbf39dfb8d79a29e00dcbd0b3d8ce9250d825"
+      }
+    },
+    {
+      "case_name": "both-untrusting",
+      "arm": "control",
+      "substeps": 2,
+      "status": "PASS",
+      "snapshots": 1315,
+      "flow_steps": 1300,
+      "paired_writes": 3,
+      "max_independent_full_system_residual": 1.4584715591270045e-10,
+      "max_independent_write_residual": 4.387630666777276e-19,
+      "recorded_exact_restart": true,
+      "index_hashes": {
+        "states.jsonl": "364f84357de90ca0d9c12c7ad2a41059968c9b93a625d470cb82c2e16ba5378a",
+        "pairs.jsonl": "371015c66c87c4e23f445aa4e0fbfca2039b42755ff911a4f7fdfd68c6c2f400",
+        "flow.jsonl": "47a8fd6ec8b7f5da158aa12e2db2f5106677465c9ef0f73ee6b6125c3395537a"
+      }
+    }
+  ],
+  "refined_endpoints": [
+    {
+      "case_name": "both-trusting",
+      "initial_trust": [
+        1,
+        1
+      ],
+      "integration_dt": 0.001,
+      "endpoint": {
+        "time": 1.3,
+        "work": 0.00011048152676847677,
+        "heat": 0.00011055847589147057,
+        "mechanical_gain": -7.694914059439776e-8,
+        "thermal_gain": 0.00011055847589147051,
+        "total_gain": 0.00011048152675087594,
+        "residual": 1.760082964791243e-14,
+        "heat_fraction": 1.000696488591754,
+        "mostly_heat": true,
+        "initial_energy_difference": 6.75794733148976e-7,
+        "absolute_final_energy_difference": 0.00011115732148402491
+      },
+      "max_differential_residual": 4.9300922502423794e-14,
+      "residual_fraction_of_peak_work": 4.4623679581961227e-10,
+      "max_journal_residual": 1.458168940953429e-10,
+      "max_control_residual": 1.458344948707807e-10
+    },
+    {
+      "case_name": "a-trusting",
+      "initial_trust": [
+        1,
+        0
+      ],
+      "integration_dt": 0.001,
+      "endpoint": {
+        "time": 1.3,
+        "work": 0.00011004616549050193,
+        "heat": 0.00011012310851772527,
+        "mechanical_gain": -7.694304448275873e-8,
+        "thermal_gain": 0.00011012310851772579,
+        "total_gain": 0.00011004616547324311,
+        "residual": 1.7258818072601878e-14,
+        "heat_fraction": 1.0006991886257952,
+        "mostly_heat": true,
+        "initial_energy_difference": 6.75794733148976e-7,
+        "absolute_final_energy_difference": 0.00011072196020639209
+      },
+      "max_differential_residual": 4.8891988548016574e-14,
+      "residual_fraction_of_peak_work": 4.4428616235825535e-10,
+      "max_journal_residual": 1.458230107845293e-10,
+      "max_control_residual": 1.458402694941817e-10
+    },
+    {
+      "case_name": "b-trusting",
+      "initial_trust": [
+        0,
+        1
+      ],
+      "integration_dt": 0.001,
+      "endpoint": {
+        "time": 1.3,
+        "work": 0.00010973711376331414,
+        "heat": 0.00010981380931382388,
+        "mechanical_gain": -7.669556794753611e-8,
+        "thermal_gain": 0.00010981380931382413,
+        "total_gain": 0.00010973711374587681,
+        "residual": 1.7437331960301616e-14,
+        "heat_fraction": 1.0006989025670492,
+        "mostly_heat": true,
+        "initial_energy_difference": 6.75794733148976e-7,
+        "absolute_final_energy_difference": 0.00011041290847902578
+      },
+      "max_differential_residual": 4.889521404947972e-14,
+      "residual_fraction_of_peak_work": 4.4556679479413934e-10,
+      "max_journal_residual": 1.4582406712270596e-10,
+      "max_control_residual": 1.4584150445466626e-10
+    },
+    {
+      "case_name": "both-untrusting",
+      "initial_trust": [
+        0,
+        0
+      ],
+      "integration_dt": 0.001,
+      "endpoint": {
+        "time": 1.3,
+        "work": 0.00010923305465573683,
+        "heat": 0.00010930996847628157,
+        "mechanical_gain": -7.691383819907272e-8,
+        "thermal_gain": 0.00010930996847628152,
+        "total_gain": 0.0001092330546380825,
+        "residual": 1.765433502512459e-14,
+        "heat_fraction": 1.0007041258782623,
+        "mostly_heat": true,
+        "initial_energy_difference": 6.75794733148976e-7,
+        "absolute_final_energy_difference": 0.00010990884937123148
+      },
+      "max_differential_residual": 4.900265848477303e-14,
+      "residual_fraction_of_peak_work": 4.4860650138560826e-10,
+      "max_journal_residual": 1.458295020113562e-10,
+      "max_control_residual": 1.4584715591270045e-10
+    }
+  ],
+  "source_receipt_sha256": {
+    "verification.json": "1c81aa32f6ea1cf76919ab357bcad777d4dcc5099dd5ae27a6f5bc4163437772",
+    "archive-verification.json": "7a2303805ab99c8671f48121f0e900ea371397c09468487b5f8c03790ba63b00",
+    "DECLARATION.json": "c6ae7f872c37a104785069b41966a49b054fdc9d608f59b29f608f33f7ca74e7",
+    "README.md": "cf0326d3835646c28bb1b0901094822683df454e8ac356b97773b4ebbc3a23de",
+    "preservation-before.json": "8432fd64297060fa63b6fc6768a4a6d3ac1771b07d086f1bc036b7a81e8982a5",
+    "preservation-after.json": "44559e7df463f3606c204fab8a8be098c7c5ce5eb7dd7381910978d69ad44073",
+    "documentation-updates/review.json": "d3849de827231322aa24ffa9a45bd9adb24761e1667d3a83cd37194819f6e794",
+    "preflight-checks.json": "d3fa8a6386b400edf10c041c8f3d0007dd75579f90d060ab200f056dc0eb1c8e"
+  },
+  "publication_review": {
+    "checked_at_utc": "2026-11-13T07:48:18.578429+00:00",
+    "status": "PASS",
+    "kind": "Read-only receipt and index consistency check, not a repeat numerical experiment",
+    "checks": [
+      "Sixteen PASS run receipts and exact restart flags",
+      "All state, pair and flow index counts match the combined receipt",
+      "Every indexed write has pre/post state references at the same recorded time",
+      "Aggregate counts and worst residuals match the combined receipt",
+      "All 36 copied source hashes match their baseline",
+      "All four preserved before/after README copies match their recorded hashes"
+    ],
+    "not_performed": [
+      "Simulation rerun",
+      "Independent reopening or remeasurement of all full-state and force arrays",
+      "Lean compilation or proof checking",
+      "Spatial convergence or writer-parameter sensitivity study"
+    ],
+    "publication_scope": "This summary and explanatory page are published. The approximately 33.18 GB state archive, raw force arrays, full source package and original receipts remain local. Hashes identify the source receipts; they do not make the omitted archive publicly reproducible."
+  },
+  "credits": "AI-generated; dictated and directed by NousVolition. Numerical evidence and this publication review produced by Codex (OpenAI); prior source and model credits remain in force."
+}
