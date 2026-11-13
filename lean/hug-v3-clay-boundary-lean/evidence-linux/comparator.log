@@ -1,13 +1,13 @@
-Running as unit: hug-v3-clay-comparator-20261101.service; invocation ID: 13838a880cc94492bc0e4720ffb0d2c1
+Running as unit: run-p576-i5645.service; invocation ID: 8184e9fd17ac4a01ac03c333facd04b6
 Building V3ClayTrajectoryChallenge
-✔ [3117/3126] Built V3SourceCore (9.5s)
-✔ [3118/3126] Built V3SourceMemory (1.8s)
-✔ [3119/3126] Built V3SourceSocial (1.7s)
-✔ [3120/3126] Built V3SourceFlow (1.6s)
-✔ [3121/3126] Built V3SourceGeometry (7.8s)
-✔ [3122/3126] Built V3SourceSystem (1.4s)
-✔ [3123/3126] Built V3ClayDefinitions (1.4s)
-⚠ [3124/3126] Built V3ClayChallenge (1.4s)
+✔ [3117/3126] Built V3SourceCore (27s)
+✔ [3118/3126] Built V3SourceMemory (8.0s)
+✔ [3119/3126] Built V3SourceSocial (10s)
+✔ [3120/3126] Built V3SourceFlow (8.7s)
+✔ [3121/3126] Built V3SourceGeometry (37s)
+✔ [3122/3126] Built V3SourceSystem (6.8s)
+✔ [3123/3126] Built V3ClayDefinitions (5.4s)
+⚠ [3124/3126] Built V3ClayChallenge (7.1s)
 warning: V3ClayChallenge.lean:9:8: declaration uses `sorry`
 warning: V3ClayChallenge.lean:12:8: declaration uses `sorry`
 warning: V3ClayChallenge.lean:19:8: declaration uses `sorry`
@@ -18,18 +18,23 @@ warning: V3ClayChallenge.lean:41:8: declaration uses `sorry`
 warning: V3ClayChallenge.lean:45:8: declaration uses `sorry`
 warning: V3ClayChallenge.lean:49:8: declaration uses `sorry`
 warning: V3ClayChallenge.lean:53:8: declaration uses `sorry`
-⚠ [3125/3126] Built V3ClayTrajectoryChallenge (1.4s)
+warning: V3ClayChallenge.lean:60:8: declaration uses `sorry`
+warning: V3ClayChallenge.lean:65:8: declaration uses `sorry`
+warning: V3ClayChallenge.lean:72:8: declaration uses `sorry`
+warning: V3ClayChallenge.lean:83:8: declaration uses `sorry`
+warning: V3ClayChallenge.lean:86:8: declaration uses `sorry`
+⚠ [3125/3126] Built V3ClayTrajectoryChallenge (2.7s)
 warning: V3ClayTrajectoryChallenge.lean:10:8: declaration uses `sorry`
 warning: V3ClayTrajectoryChallenge.lean:16:8: declaration uses `sorry`
 Build completed successfully (3126 jobs).
-Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.ClayVerified.probe_recovers_cell, HugV3.Source.ClayVerified.positive_well_preserved, HugV3.Source.ClayVerified.negative_well_preserved, HugV3.Source.ClayVerified.clay_buffer_preserved_on_segment, HugV3.Source.ClayVerified.clay_buffer_implies_read_margin, HugV3.Source.ClayVerified.initial_clay_buffer, HugV3.Source.ClayVerified.write_event_preserves_clay_buffer, HugV3.Source.ClayVerified.complete_event_preserves_clay_buffer, HugV3.Source.ClayVerified.boundary_preserves_clay_buffer, HugV3.Source.ClayVerified.decoded_records_fixed_on_segment, HugV3.Source.ClayVerified.clay_buffer_through_full_hybrid, HugV3.Source.ClayVerified.decoded_records_fixed_along_full_hybrid, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3ClayTrajectoryChallenge
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.ClayVerified.probe_recovers_cell, HugV3.Source.ClayVerified.positive_well_preserved, HugV3.Source.ClayVerified.negative_well_preserved, HugV3.Source.ClayVerified.clay_buffer_preserved_on_segment, HugV3.Source.ClayVerified.clay_buffer_implies_read_margin, HugV3.Source.ClayVerified.initial_clay_buffer, HugV3.Source.ClayVerified.write_event_preserves_clay_buffer, HugV3.Source.ClayVerified.complete_event_preserves_clay_buffer, HugV3.Source.ClayVerified.boundary_preserves_clay_buffer, HugV3.Source.ClayVerified.decoded_records_fixed_on_segment, HugV3.Source.ClayVerified.clay_buffer_through_full_hybrid, HugV3.Source.ClayVerified.decoded_records_fixed_along_full_hybrid, HugV3.Source.ClayVerified.decoded_records_fixed_of_read_margin, HugV3.Source.ClayVerified.decoded_records_preserved_of_clay_buffer, HugV3.Source.ClayVerified.decoded_records_preserved_on_segment, HugV3.Source.ClayVerified.initial_read_records, HugV3.Source.ClayVerified.initial_segment_read_records, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3ClayTrajectoryChallenge
 Building V3ClayTrajectoryProofs
-⚠ [3124/3127] Built V3SourceProofs (1.6s)
+⚠ [3124/3127] Built V3SourceProofs (2.0s)
 warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
-✔ [3125/3127] Built V3ClayProofs (1.7s)
-✔ [3126/3127] Built V3ClayTrajectoryProofs (1.7s)
+✔ [3125/3127] Built V3ClayProofs (2.6s)
+✔ [3126/3127] Built V3ClayTrajectoryProofs (2.0s)
 Build completed successfully (3127 jobs).
-Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.ClayVerified.probe_recovers_cell, HugV3.Source.ClayVerified.positive_well_preserved, HugV3.Source.ClayVerified.negative_well_preserved, HugV3.Source.ClayVerified.clay_buffer_preserved_on_segment, HugV3.Source.ClayVerified.clay_buffer_implies_read_margin, HugV3.Source.ClayVerified.initial_clay_buffer, HugV3.Source.ClayVerified.write_event_preserves_clay_buffer, HugV3.Source.ClayVerified.complete_event_preserves_clay_buffer, HugV3.Source.ClayVerified.boundary_preserves_clay_buffer, HugV3.Source.ClayVerified.decoded_records_fixed_on_segment, HugV3.Source.ClayVerified.clay_buffer_through_full_hybrid, HugV3.Source.ClayVerified.decoded_records_fixed_along_full_hybrid, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3ClayTrajectoryProofs
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugV3.Source.ClayVerified.probe_recovers_cell, HugV3.Source.ClayVerified.positive_well_preserved, HugV3.Source.ClayVerified.negative_well_preserved, HugV3.Source.ClayVerified.clay_buffer_preserved_on_segment, HugV3.Source.ClayVerified.clay_buffer_implies_read_margin, HugV3.Source.ClayVerified.initial_clay_buffer, HugV3.Source.ClayVerified.write_event_preserves_clay_buffer, HugV3.Source.ClayVerified.complete_event_preserves_clay_buffer, HugV3.Source.ClayVerified.boundary_preserves_clay_buffer, HugV3.Source.ClayVerified.decoded_records_fixed_on_segment, HugV3.Source.ClayVerified.clay_buffer_through_full_hybrid, HugV3.Source.ClayVerified.decoded_records_fixed_along_full_hybrid, HugV3.Source.ClayVerified.decoded_records_fixed_of_read_margin, HugV3.Source.ClayVerified.decoded_records_preserved_of_clay_buffer, HugV3.Source.ClayVerified.decoded_records_preserved_on_segment, HugV3.Source.ClayVerified.initial_read_records, HugV3.Source.ClayVerified.initial_segment_read_records, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from V3ClayTrajectoryProofs
 Running nanoda kernel on solution
 nanoda kernel accepts the solution
 Running Lean default kernel on solution.
@@ -37,6 +42,6 @@ Lean default kernel accepts the solution
 Your solution is okay!
           Finished with result: success
 Main processes terminated with: code=exited, status=0/SUCCESS
-               Service runtime: 56.984s
-             CPU time consumed: 59.413s
-                   Memory peak: 5.1G (swap: 0B)
+               Service runtime: 2min 53.962s
+             CPU time consumed: 3min 18.533s
+                   Memory peak: 5.2G (swap: 0B)

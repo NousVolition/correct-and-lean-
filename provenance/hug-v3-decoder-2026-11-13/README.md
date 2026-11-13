@@ -1,0 +1,12 @@
+# Hug v3 decoder preservation: verified proof change
+
+Five new lemmas and corollaries strengthen the existing memory-boundary package. They derive continuing exact decoding from one starting read, continuity and a positive read margin; the initial empty decode is proved directly. The unchanged fabric equation and existing deformation bound connect this result to an interval. No new model was introduced.
+
+The new statements were frozen before their implementations. Comparator checked all seventeen configured targets against the separate reference-only challenges. Lean's default kernel, nanoda, the aggregate Lake build and all seventeen axiom audits passed. Standard permitted axioms only: propext, Quot.sound and Classical.choice. See [current logs](../../lean/hug-v3-clay-boundary-lean/evidence-linux/) and [current report](../../lean/hug-v3-clay-boundary-lean/verification-report.json).
+
+[The exact proof diff](proof-change.diff), [pre-implementation freeze](reference-freeze-new.json), [execution record](verification.json) and [preservation audit](preservation.json) identify the change and its checks. The [before directory](before/) preserves the preceding proofs, challenges and verification metadata. Older evidence remains in Git history and the earlier provenance archives. The first development compilation's simplifier-recursion failure is retained; it was repaired with explicit rewrites, without altering a theorem statement. A vanished temporary development directory was replaced with persistent verifier storage; no model or running study was restarted.
+
+This is a conditional decoding result, not a full existence theorem. Bounds for the prescribed trajectory, successful scheduled writes, a complete source correspondence and full continuum well-posedness remain open. The theorem applies to the existing fixed-grid transcription, whose scope is retained.
+
+
+Execution paths are sanitized in the public copies. [The transform manifest](publication-transforms.json) records both raw-private and published hashes for affected logs and receipts; raw originals are retained locally. Proof files and source-definition hashes are not altered by this step. To reproduce, use the existing package's `run-linux-check.sh` with a fresh output directory and its pinned verifier environment. The development logs include two resolved proof-script failures and the final passing build.

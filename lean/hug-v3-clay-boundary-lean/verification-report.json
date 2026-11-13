@@ -3,13 +3,11 @@
   "lean_kernel": "PASS",
   "nanoda": "PASS",
   "lean_build": "PASS",
-  "scope": "Twelve fabric, local-flow and conditional schedule results for the Clay boundary and the three memory writes.",
+  "scope": "Seventeen statements in the existing full-state Hug v3 transcription: twelve retained memory-boundary results and five new decoder-preservation results. All source definitions and sealed numerical sources are unchanged.",
   "open_items": [
-    "Full RHS local existence and uniqueness",
-    "Continuation and nonvanishing fibers",
-    "Trajectory-derived deformation/readability bounds",
-    "Write budget, encoding, capacity and round-trip success",
-    "Complete source correspondence",
-    "FullExistenceUniqueness proof"
+    "FullExistenceUniqueness remains unproved.",
+    "The deformation/read-margin bound for the prescribed evolving trajectory remains unproved.",
+    "Successful acceptance of each scheduled write, including payload range, budget and nonnegative work, remains unproved.",
+    "No complete Python/NumPy-to-Lean correspondence or continuum PDE theorem is established."
   ]
 }

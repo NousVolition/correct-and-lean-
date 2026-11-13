@@ -1,15 +1,15 @@
 {
   "files": {
-    "comparator.json": "b10b297013d6ba700fdf8382a832a2b72ec9fd0fe4291daa5a0a3e435b74327b",
+    "comparator.json": "dfc30fb927e9a4e8cd53bd497ded7444e5b56a74ba1437da40546f5b2a6da451",
     "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
     "lakefile.toml": "a88e0177858e722f079c3866ce897a775ec696543e0513775b2f9107e343932d",
     "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
-    "reference-freeze.json": "1f9a96fab432544d25a46fdcd75b90670bb6a24201ae7a9d4f33bc8b65189120",
+    "reference-freeze.json": "0dc08d4509118af3fa9f9255732123dd489993d8e1df47df36190c9b7234ac7a",
     "run-linux-check.sh": "8e136e58c4b08baefc5227aec60298fd041a294b6c0023a796ba849c38ca6dab",
-    "source-audit.json": "8aa59f92ae6face5a32a870c0e2a1352b298bc6d71cabda993a2bb2505f46292",
-    "V3ClayChallenge.lean": "b04f52da1f7bc2f639629314992f7d1e5b6ed9ed01c942f040d6b935dd95fc80",
+    "source-audit.json": "f152e15eef2af785383cdaa35208dcf6b1d2032156950edd1f8eda4630082f46",
+    "V3ClayChallenge.lean": "8499764675d2918969a5ad3e359bd498adb7fa7755ba4490f3ce1d930a499766",
     "V3ClayDefinitions.lean": "4c33c0f6bf7895a75203459bdf78343c62041e0d565949040945699f5bdd7424",
-    "V3ClayProofs.lean": "c56133b0691a5b9c2d381fdbbb00435831f3c8772cebd1c33eb0d8fc366a1843",
+    "V3ClayProofs.lean": "796b1c4aa145f1b71b495f1f75a938de5fe554a999a87e4b1889837637513a52",
     "V3ClayTrajectoryChallenge.lean": "cceba91bc421c8fac2a5b0a223369da9b5bce18bcf13241d0527b2e6f9dbba30",
     "V3ClayTrajectoryProofs.lean": "f3f6a976ef092fa9487365ec416b0773009dfb223f60a578b3ce64910cc475a4",
     "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
@@ -42,5 +42,5 @@
     "sources/reference_gate/parameter_bounds.json": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
     "sources/reference_gate/run_manifest.py": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f"
   },
-  "scope": "Twelve memory-boundary consequences, including conditional full-schedule preservation. Not full existence/uniqueness."
+  "scope": "Seventeen statements: twelve existing memory-boundary results and five new decoder-preservation results. Full existence and write acceptance remain open."
 }

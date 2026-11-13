@@ -1,5 +1,7 @@
 {
-  "source_hashes_unchanged": true,
-  "dependency_commits_unchanged": true,
-  "dependency_sources_clean": true
+  "checked_at_utc": "2026-11-13T08:13:49.411440+00:00",
+  "all_inputs_unchanged": true,
+  "source_definitions_unchanged": true,
+  "sealed_source_files": 22,
+  "dependencies_unchanged": true
 }

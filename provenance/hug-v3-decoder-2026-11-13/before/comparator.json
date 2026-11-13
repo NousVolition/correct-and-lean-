@@ -1,0 +1,24 @@
+{
+  "challenge_module": "V3ClayTrajectoryChallenge",
+  "solution_module": "V3ClayTrajectoryProofs",
+  "enable_nanoda": true,
+  "theorem_names": [
+    "HugV3.Source.ClayVerified.probe_recovers_cell",
+    "HugV3.Source.ClayVerified.positive_well_preserved",
+    "HugV3.Source.ClayVerified.negative_well_preserved",
+    "HugV3.Source.ClayVerified.clay_buffer_preserved_on_segment",
+    "HugV3.Source.ClayVerified.clay_buffer_implies_read_margin",
+    "HugV3.Source.ClayVerified.initial_clay_buffer",
+    "HugV3.Source.ClayVerified.write_event_preserves_clay_buffer",
+    "HugV3.Source.ClayVerified.complete_event_preserves_clay_buffer",
+    "HugV3.Source.ClayVerified.boundary_preserves_clay_buffer",
+    "HugV3.Source.ClayVerified.decoded_records_fixed_on_segment",
+    "HugV3.Source.ClayVerified.clay_buffer_through_full_hybrid",
+    "HugV3.Source.ClayVerified.decoded_records_fixed_along_full_hybrid"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

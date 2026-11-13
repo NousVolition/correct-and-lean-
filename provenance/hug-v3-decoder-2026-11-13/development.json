@@ -1,0 +1,47 @@
+{
+  "stage": "${VERIFY_ROOT}/hug-v3-decoder-development-20261113-p3s5dgdd",
+  "attempts": [
+    {
+      "started_at_utc": "2026-11-13T07:59:48.381703+00:00",
+      "command": [
+        "${VERIFY_ROOT}/bin/lake",
+        "build",
+        "V3ClayTrajectoryProofs"
+      ],
+      "log": "development-1.log",
+      "exit": 1,
+      "finished_at_utc": "2026-11-13T08:02:56.744888+00:00",
+      "log_sha256": "3399bdedfc0feec4ed9863be2359b87379b487f78ee1b1c72749cfc5e7dbd320"
+    },
+    {
+      "started_at_utc": "2026-11-13T08:04:45.740457+00:00",
+      "command": [
+        "${VERIFY_ROOT}/bin/lake",
+        "build",
+        "V3ClayTrajectoryProofs"
+      ],
+      "log": "development-2.log",
+      "exit": 1,
+      "finished_at_utc": "2026-11-13T08:06:57.059780+00:00",
+      "log_sha256": "6f5349dba246a04c63c3d17899a3df3ef7c1477a074c8a6e2f0b55a5abc1d188"
+    },
+    {
+      "started_at_utc": "2026-11-13T08:09:17.464473+00:00",
+      "command": [
+        "${VERIFY_ROOT}/bin/lake",
+        "build",
+        "V3ClayTrajectoryProofs"
+      ],
+      "log": "development-3.log",
+      "exit": 0,
+      "finished_at_utc": "2026-11-13T08:10:10.699322+00:00",
+      "log_sha256": "e2a52d40ed964d72e98d131e0958c165fc1fd3d7997720ceef06f72d8a77e88c"
+    }
+  ],
+  "environment_notes": [
+    {
+      "missing_development_directory": "/tmp/hug-v3-decoder-development-20261113-z2u7bkbf",
+      "recovery": "Use persistent verifier storage; preserve prior proof diagnostics."
+    }
+  ]
+}

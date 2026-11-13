@@ -1,0 +1,32 @@
+✔ [3117/3127] Built V3SourceCore (32s)
+✔ [3118/3127] Built V3SourceMemory (9.6s)
+✔ [3119/3127] Built V3SourceSocial (9.5s)
+✔ [3120/3127] Built V3SourceFlow (11s)
+✔ [3121/3127] Built V3SourceGeometry (49s)
+✔ [3122/3127] Built V3SourceSystem (9.4s)
+✔ [3123/3127] Built V3ClayDefinitions (7.9s)
+⚠ [3124/3127] Built V3SourceProofs (9.6s)
+warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+✖ [3125/3127] Building V3ClayProofs (11s)
+trace: .> LEAN_PATH=${VERIFY_ROOT}/project/.lake/packages/Cli/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/batteries/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/Qq/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/aesop/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/proofwidgets/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/importGraph/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/LeanSearchClient/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/plausible/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/lean4export/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/mathlib/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/Comparator/.lake/build/lib/lean:${VERIFY_ROOT}/hug-v3-decoder-development-20261113-p3s5dgdd/.lake/build/lib/lean /opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean ${VERIFY_ROOT}/hug-v3-decoder-development-20261113-p3s5dgdd/V3ClayProofs.lean -o ${VERIFY_ROOT}/hug-v3-decoder-development-20261113-p3s5dgdd/.lake/build/lib/lean/V3ClayProofs.olean -i ${VERIFY_ROOT}/hug-v3-decoder-development-20261113-p3s5dgdd/.lake/build/lib/lean/V3ClayProofs.ilean -c ${VERIFY_ROOT}/hug-v3-decoder-development-20261113-p3s5dgdd/.lake/build/ir/V3ClayProofs.c --setup ${VERIFY_ROOT}/hug-v3-decoder-development-20261113-p3s5dgdd/.lake/build/ir/V3ClayProofs.setup.json --json
+error: V3ClayProofs.lean:297:68: Tactic `simp` failed with a nested error:
+maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+warning: V3ClayProofs.lean:300:30: This simp argument is unused:
+  not_true_eq_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [readRecords, hm, ite_false, hu]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: V3ClayProofs.lean:300:49: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [readRecords, hm, not_true_eq_false, hu]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Some required targets logged failures:
+- V3ClayProofs
+error: build failed
