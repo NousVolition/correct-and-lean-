@@ -18,6 +18,8 @@ The [single-system meaning](research/comparisons/hug-navier-single-system-scope-
 
 ## A/S and Hug Lean packages
 
+- [A/S suppression comparison across evolving histories](lean/as-suppression-lean/README.md)
+
 - [Full A/S existence and uniqueness](lean/as-existence-lean/README.md)
 - [Meaning bounds for the unchanged A/S equation](lean/as-invariance-lean/README.md)
 - [A/S Lean proof package — current Monoxide buildup equations](lean/as-lean/README.md)

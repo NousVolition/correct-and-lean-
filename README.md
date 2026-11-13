@@ -13,6 +13,8 @@ Hug and SIMS explores what persists as surroundings change, and what our observa
 
 **New proof:** [Combined transverse-derivative theorem, verification logs, and corrected attribution](research/combined-yang-mills-lean/README.md).
 
+**A/S suppression comparison proved:** With matched starting data and inputs, both S coordinates stay at or below their values without suppression throughout each finite interval. [Proof and verification](lean/as-suppression-lean/README.md). The repeated-encounter process remains open.
+
 **Finer-grid heat study:** time-step checks **passed**, but the declared grid-settling test **still fails**. Between 32³ and 40³, accumulated write heat differs by at most 0.203%; new-write spatial patterns still cross the 1% limit. [Results and diagrams](research/hug-v3/heat-grid-study/README.md). Separately, [414 passing Lean checks](research/hug-v3/heat-grid-lean/README.md) cover recorded numbers, record bits and finite accounting rules; they do not verify the fluid simulation or prove grid convergence.
 
 **Explore:** [Proof status](PROOF-STATUS.md) · [Studies](hug-sims-proof-index.md) · [Verification records](provenance/core-package-recheck-2026-11-12/README.md) · [Full research tour](RESEARCH-TOUR.md).

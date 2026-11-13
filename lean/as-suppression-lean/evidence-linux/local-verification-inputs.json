@@ -1,0 +1,57 @@
+{
+  "sealed_at_utc": "2026-11-13T03:44:49.663214+00:00",
+  "files": {
+    "ASExistenceSolution.lean": "6d38a06e81a5475c0f599f63c57ea2773342b18858a491f57fedb45a30f8d4dc",
+    "ASModel.lean": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513",
+    "ASOpenClaims.lean": "35d9616b57001b7f510dadd1e878d162de2c67bb60a9e1015aaffe7eccf3aa19",
+    "ASProofs.lean": "fd8663671930a451c579f27d780714e9d5fd967f3001ab9399ee16a68d47e74d",
+    "ASSuppressionChallenge.lean": "cc3a69d8acc70fecda66d3d60ba1fa97c8ca0013f111c385cbb669a48fb0c6d5",
+    "ASSuppressionSolution.lean": "332ba3fbc41fd13315d75905b6d85ae40ab5d939db8fc40d414feec9ea350f27",
+    "FullAssembly.lean": "03c5b6735d188b9aa8d98480cacd5c40fc22535496aea1ac1972c3fdeaf5285b",
+    "InfluenceSubsystem.lean": "e3100bb6eb8f7690eec4290272d84c8c9d807a18afc3522bf917607b9c54b0c3",
+    "InputRegularity.lean": "d72f752fb11751772cffdbd7fc3d637b5175c3c76f72e0bf6fbef64d79455af2",
+    "IntegralBarrier.lean": "ddf0ba93eebdcce1f8e0c6b1de5d6e4b9662dbaebd744abbdfe6292678602858",
+    "MeaningSubsystem.lean": "7dc5ca0fc818cc7042cdd9ae3d54b8cd45d12bd4c25cd525448f87bf78ff64f5",
+    "PairTools.lean": "2db13bd123a901369f658af6497f5bf0bea3d5fd1e3544fe39bd851a42c697d3",
+    "ScalarSubsystems.lean": "92dc743220868c23e0b18feaa6f901277623dd0708f599e59a8e6d563aae7383",
+    "Stages.lean": "64d9af0cdc6e82f7a2d19a312a40f5590d2940dc7b3965ce62fdd6c1e15b7bd2",
+    "SuppressionComparison.lean": "328cb92bcb564e46eaf888319d363f213a46eeef7fa9b4c5a2012aed1eb4c45f",
+    "Volterra.lean": "26906df3b92869c297524e14c09b8bb5c15d6de60f8e7b0dbd93785d759f0952",
+    "lakefile.toml": "36dbd81067819d6d7e34b5d7f38081109f0c8a65842aa19a06ca567bbf5512c8",
+    "lake-manifest.json": "bc8c431c0bc2fa91fa629ccc46366ded60b7e747af58d3b6734d6783d5a875d5",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "comparator.json": "d3abaed686a278912991a08b1d6046ecd64e0a8e557e601d6d575feba73797e1",
+    "source-equations.json": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318",
+    "source-protocol.json": "51a8c4e85f76717a52a3a0310ddefc96a162b4b70708db3ff52b3ee9b1230d92",
+    "verify-evidence.py": "ed1f4621654211c560035824b954c6cddff8a537aa7a412ab9e658805aa633a1",
+    "run-linux-check.sh": "80dc3cf404ed0c6e4fab01221455fb700a2f34bab2c0abc09e1dba93f2b4c32f"
+  },
+  "inherited_lean_files_byte_identical": {
+    "ASExistenceSolution.lean": "6d38a06e81a5475c0f599f63c57ea2773342b18858a491f57fedb45a30f8d4dc",
+    "ASModel.lean": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513",
+    "ASOpenClaims.lean": "35d9616b57001b7f510dadd1e878d162de2c67bb60a9e1015aaffe7eccf3aa19",
+    "ASProofs.lean": "fd8663671930a451c579f27d780714e9d5fd967f3001ab9399ee16a68d47e74d",
+    "FullAssembly.lean": "03c5b6735d188b9aa8d98480cacd5c40fc22535496aea1ac1972c3fdeaf5285b",
+    "InfluenceSubsystem.lean": "e3100bb6eb8f7690eec4290272d84c8c9d807a18afc3522bf917607b9c54b0c3",
+    "InputRegularity.lean": "d72f752fb11751772cffdbd7fc3d637b5175c3c76f72e0bf6fbef64d79455af2",
+    "IntegralBarrier.lean": "ddf0ba93eebdcce1f8e0c6b1de5d6e4b9662dbaebd744abbdfe6292678602858",
+    "MeaningSubsystem.lean": "7dc5ca0fc818cc7042cdd9ae3d54b8cd45d12bd4c25cd525448f87bf78ff64f5",
+    "PairTools.lean": "2db13bd123a901369f658af6497f5bf0bea3d5fd1e3544fe39bd851a42c697d3",
+    "ScalarSubsystems.lean": "92dc743220868c23e0b18feaa6f901277623dd0708f599e59a8e6d563aae7383",
+    "Stages.lean": "64d9af0cdc6e82f7a2d19a312a40f5590d2940dc7b3965ce62fdd6c1e15b7bd2",
+    "Volterra.lean": "26906df3b92869c297524e14c09b8bb5c15d6de60f8e7b0dbd93785d759f0952"
+  },
+  "development_check": {
+    "platform": "Linux",
+    "lean": "4.34.0-rc2",
+    "result": "PASS",
+    "theorem": "SocialAS.Verified.full_suppression_comparison",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "all_solution_files_no_sorry_admit_custom_axiom_unsafe_native_decide": true,
+    "protected_challenge_placeholder_imported_by_solution": false
+  }
+}

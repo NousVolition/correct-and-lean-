@@ -1,0 +1,7 @@
+{
+  "challenge_module": "ASSuppressionChallenge",
+  "solution_module": "ASSuppressionSolution",
+  "enable_nanoda": true,
+  "theorem_names": ["SocialAS.Verified.full_suppression_comparison"],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

@@ -1,5 +1,7 @@
 # Full A/S existence and uniqueness
 
+**A/S update:** The [suppression comparison](../as-suppression-lean/README.md) is now proved for both S coordinates throughout each finite interval, with matched starting data and inputs. **The repeated-encounter process remains open.**
+
 **PASS: the full seven-state existence-and-uniqueness theorem is proved.**
 The native Lean build, fresh Linux build, Comparator reference comparison,
 permitted-axiom check, Lean kernel replay, and independent nanoda check all
@@ -94,12 +96,11 @@ not replaced by an easier continuous-input assumption.
 
 ## Scope that remains outside this theorem
 
-- A proof that both meaning coordinates remain in [0,1] for all time is still
-  outstanding. The load nonnegativity argument is now proved and used in this
-  construction, but the complete earlier `FullStateInvariance` proposition
-  has not been discharged.
-- `FullSuppressionComparison`, comparing complete trajectories with suppression
-  removed, remains unproved.
+- Both meaning coordinates remain in [0,1] on each finite interval by the
+  later [invariance proof](../as-invariance-lean/README.md). Load nonnegativity
+  is already proved and used in this existence construction.
+- The [suppression comparison](../as-suppression-lean/README.md) now compares
+  complete S trajectories with suppression removed.
 - This theorem concerns the seven-state continuous evolution. The encounter
   probabilities and H updates in E6–E10 are retained in `ASModel.lean`, but a
   repeated-encounter stochastic process and its event ordering are not supplied

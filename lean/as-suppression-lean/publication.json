@@ -1,0 +1,60 @@
+{
+  "created_at_utc": "2026-11-13T04:01:32.859403+00:00",
+  "publication_base": "0d449c16d57a7fdab54a5bf08517fc42e4970f20",
+  "proof_sources_and_model_unchanged": true,
+  "proof_source_sha256": {
+    "ASExistenceSolution.lean": "6d38a06e81a5475c0f599f63c57ea2773342b18858a491f57fedb45a30f8d4dc",
+    "ASModel.lean": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513",
+    "ASOpenClaims.lean": "35d9616b57001b7f510dadd1e878d162de2c67bb60a9e1015aaffe7eccf3aa19",
+    "ASProofs.lean": "fd8663671930a451c579f27d780714e9d5fd967f3001ab9399ee16a68d47e74d",
+    "ASSuppressionChallenge.lean": "cc3a69d8acc70fecda66d3d60ba1fa97c8ca0013f111c385cbb669a48fb0c6d5",
+    "ASSuppressionSolution.lean": "332ba3fbc41fd13315d75905b6d85ae40ab5d939db8fc40d414feec9ea350f27",
+    "FullAssembly.lean": "03c5b6735d188b9aa8d98480cacd5c40fc22535496aea1ac1972c3fdeaf5285b",
+    "InfluenceSubsystem.lean": "e3100bb6eb8f7690eec4290272d84c8c9d807a18afc3522bf917607b9c54b0c3",
+    "InputRegularity.lean": "d72f752fb11751772cffdbd7fc3d637b5175c3c76f72e0bf6fbef64d79455af2",
+    "IntegralBarrier.lean": "ddf0ba93eebdcce1f8e0c6b1de5d6e4b9662dbaebd744abbdfe6292678602858",
+    "MeaningSubsystem.lean": "7dc5ca0fc818cc7042cdd9ae3d54b8cd45d12bd4c25cd525448f87bf78ff64f5",
+    "PairTools.lean": "2db13bd123a901369f658af6497f5bf0bea3d5fd1e3544fe39bd851a42c697d3",
+    "ScalarSubsystems.lean": "92dc743220868c23e0b18feaa6f901277623dd0708f599e59a8e6d563aae7383",
+    "Stages.lean": "64d9af0cdc6e82f7a2d19a312a40f5590d2940dc7b3965ce62fdd6c1e15b7bd2",
+    "SuppressionComparison.lean": "328cb92bcb564e46eaf888319d363f213a46eeef7fa9b4c5a2012aed1eb4c45f",
+    "Volterra.lean": "26906df3b92869c297524e14c09b8bb5c15d6de60f8e7b0dbd93785d759f0952"
+  },
+  "local_receipt": "evidence-linux/historical-report.json",
+  "local_input_manifest": "evidence-linux/local-verification-inputs.json",
+  "local_package_manifest": "evidence-linux/local-package-manifest.json",
+  "publication_changes": {
+    "build-native.ps1": {
+      "local_sha256": "51827eaa01ffc3d211e007de418c087b4aa981aa64e9b2544a12a68ef68f331c",
+      "published_sha256": "b2887fafe7caacd79389900ce1ff090381fc912474492d9a2f60f710ea44a0b2"
+    },
+    "README.md": {
+      "local_sha256": "eef0e881bc6c27a86b519830f7ac0ae49fcf582f3d40319489dc33ccd9e6b5fd",
+      "published_sha256": "95959825ce35fe8ee2510f3b6845c5134f3a6af5adfb6c4daab1d017cf1e5cb1"
+    },
+    "run-linux-check.sh": {
+      "local_sha256": "80dc3cf404ed0c6e4fab01221455fb700a2f34bab2c0abc09e1dba93f2b4c32f",
+      "published_sha256": "ba508247eb713c2e6d408ed677be4ec79d088c0f36cefdd509a295b91154c3c5"
+    },
+    "verification-inputs.json": {
+      "local_sha256": "6f94bf2a8ef8f179d90120e56f13955bac4cfff5c6bb6d3e66dc741191908383",
+      "published_sha256": "13a2a01d330d0ef38f26a7a1406a3b4f365b2adaefe846489bbadffa43de03eb"
+    },
+    "verification-report.json": {
+      "local_sha256": "02ab7332b459daba33e9c95329ffb9d2ad5f110cbc3c06471245175cf80224f3",
+      "published_sha256": "14775da94bafdd7e534a67d1226322c793844a9a53b7ba87edaa29764f8818b0"
+    },
+    "evidence-linux/preflight.json": {
+      "local_sha256": "c5ff3d6035d44d473a8d20feeaa615e81ba7e9f3a06ac70d88476e2b0efc24be",
+      "published_sha256": "c339ec23106af4642ce082ec3233af78a4ed3bc7b5ee8745e8cffb2f47962046"
+    }
+  },
+  "notes": [
+    "README wording simplified; the local delivery remains saved separately.",
+    "Verification report mapped to the repository schema; the full local report is retained as historical-report.json.",
+    "Windows toolchain and dependency paths are configurable; Linux cache defaults to the current user verification directory.",
+    "Only the verification-cache home path in preflight metadata is replaced by $VERIFY_ROOT; binary and source hashes are retained.",
+    "The publication input manifest records the portable replay script. Historical manifests retain the earlier digests.",
+    "The repeated-encounter process remains open."
+  ]
+}

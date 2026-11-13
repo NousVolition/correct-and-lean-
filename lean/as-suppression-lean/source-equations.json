@@ -1,0 +1,66 @@
+[
+  {
+    "id": "E1",
+    "source": "A'(t)=\\gamma[U(t)-U_{\\rm baseline}]"
+  },
+  {
+    "id": "E2",
+    "source": "J(t)=\\kappa A(t)"
+  },
+  {
+    "id": "E3",
+    "source": "\\frac{dS_c}{dt}=\\sum_{d\\ne c}w_{cd}[(S_d-S_c)-\\chi_{d\\to c}(S_d-S_c)_+]+K_cJ-\\lambda S_c"
+  },
+  {
+    "id": "E4",
+    "source": "\\frac{dS_{\\rm Smoke}}{dt}=w_{{\\rm Smoke},{\\rm Clay}}[(S_{\\rm Clay}-S_{\\rm Smoke})-\\chi_{{\\rm Clay}\\to{\\rm Smoke}}(S_{\\rm Clay}-S_{\\rm Smoke})_+]+K_{\\rm Smoke}J-\\lambda S_{\\rm Smoke}"
+  },
+  {
+    "id": "E5",
+    "source": "\\frac{dS_{\\rm Clay}}{dt}=w_{{\\rm Clay},{\\rm Smoke}}[(S_{\\rm Smoke}-S_{\\rm Clay})-\\chi_{{\\rm Smoke}\\to{\\rm Clay}}(S_{\\rm Smoke}-S_{\\rm Clay})_+]+K_{\\rm Clay}J-\\lambda S_{\\rm Clay}"
+  },
+  {
+    "id": "E6",
+    "source": "r_n=\\max(S_{\\rm Clay}(t_n)-\\Gamma_{\\rm crit},0),\\qquad R_n=g_nr_n"
+  },
+  {
+    "id": "E7",
+    "source": "\\Pr(B_n=1)=g_n[p_0+(1-p_0)r_n/(r_*+r_n)]"
+  },
+  {
+    "id": "E8",
+    "source": "\\Pr(C_n=1\\mid B_n)=\\eta_n B_n[1-z_{\\rm Clay}(t_n)v_n]"
+  },
+  {
+    "id": "E9",
+    "source": "N_n=C_n(M_n-H_n^-)"
+  },
+  {
+    "id": "E10",
+    "source": "H_n^+=H_n^-+\\beta_nN_n"
+  },
+  {
+    "id": "E11",
+    "source": "\\chi_{d\\to c}=\\chi_{\\max}\\phi(L_{d\\to c}),\\quad\\phi(L)=L/(L+L_*),\\quad L_*>0"
+  },
+  {
+    "id": "E12",
+    "source": "\\dot L_{d\\to c}=\\alpha h_{d\\to c}E_{d\\to c}-c_{L,d\\to c}(t)L_{d\\to c}"
+  },
+  {
+    "id": "E13",
+    "source": "\\vartheta_{d\\to c}=\\vartheta_{\\max}\\phi(L_{d\\to c}),\\quad 0\\le\\chi_{\\max},\\vartheta_{\\max}\\le1"
+  },
+  {
+    "id": "E14",
+    "source": "\\widetilde z_{d\\to c}=(1-\\vartheta_{d\\to c})z_d+\\vartheta_{d\\to c}z^{\\rm imposed}_{d\\to c}"
+  },
+  {
+    "id": "E15",
+    "source": "\\dot z_c=\\sum_{d\\ne c}k_{cd}(\\widetilde z_{d\\to c}-z_c)+c_{z,c}(t)(z^{\\rm ref}_c-z_c)"
+  },
+  {
+    "id": "E16",
+    "source": "k_{cd}=(1-\\chi_{d\\to c})w_{cd}(S_d)_+/(s_*+(S_d)_+),\\quad s_*>0"
+  }
+]
