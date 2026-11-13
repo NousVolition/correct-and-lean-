@@ -1,0 +1,14 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Four field-rate diagnostics, nine guard transport theorems, one full-difference-energy guard bound, and two time-derivative theorems: the exact pointwise difference-density chain rule and passage of its derivative through the fixed cell integral at interior times under explicit joint rate-density continuity. The integrated stress/diffusion balance, remaining estimates, PDE existence and uniqueness remain open.",
+  "open_items": [
+    "Construct local coupled variable-viscosity PDE solutions in an appropriate spatial function space.",
+    "Prove continuation/global estimates for the every-finite-horizon existence target.",
+    "Derive the remaining integrated two-history stress, pressure and diffusion identities, guard invariant range, and transport/reaction estimates; the time interchange now has an explicit extra rate-density regularity hypothesis.",
+    "Formalize the full classical uniqueness argument and specify its relation to the saved solution class.",
+    "Submit actual existence and uniqueness proofs to Comparator."
+  ]
+}

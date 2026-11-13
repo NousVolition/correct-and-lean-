@@ -78,3 +78,7 @@ That chat also distinguishes a state remaining continuous at a material-record w
 ## 6. The next remaining gap
 
 The new result gives the integral of the exact rate pairing. To reach the dissipative difference-energy balance, Lean must still split and integrate those PDE terms: cancel pressure and common transport, integrate the complete variable stress and scalar diffusion by parts, and identify all remaining coupling and reaction contributions. The guard invariant range and estimates controlling those contributions remain open. The full inequality \(E'\le CE\), uniqueness, existence and a regularity upgrade from the original solution predicate are not established by this step.
+
+## Verification
+
+Both new statements and their definitions were recorded before the proof file was written, as recorded in `time-integral-reference-freeze.json`. The new definition and proof modules are included in the default build and the two statements are Comparator targets 15 and 16. [The saved Linux receipt](evidence-linux/source.json) pins proof commit `a6a18a97615098ee1605ba695a75f31025ad9eb0`: Comparator, Lean's kernel, nanoda, the full package build and all 16 axiom lists passed. Earlier receipts remain preserved separately. This verifies the conditional interchange theorem, not that every `FieldProblem` history satisfies the additional continuity hypothesis.

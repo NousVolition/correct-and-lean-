@@ -1,0 +1,51 @@
+Running as unit: run-u0.service; invocation ID: 7b5ee23e3e01449c84755d16249aa934
+Building WellposednessChallenge
+✔ [3368/3377] Built FullModel (2.0s)
+✔ [3369/3377] Built GuardTransportDefs (1.8s)
+✔ [3370/3377] Built OriginalAS (1.0s)
+✔ [3371/3377] Built GuardTransportTimeDefs (1.7s)
+✔ [3372/3377] Built FullChecks (2.8s)
+✔ [3373/3377] Built EnergyDefs (1.9s)
+✔ [3374/3377] Built WellposednessTargets (1.7s)
+✔ [3375/3377] Built TimeIntegralDefs (1.6s)
+⚠ [3376/3377] Built WellposednessChallenge (1.8s)
+warning: WellposednessChallenge.lean:12:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:16:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:19:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:22:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:31:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:35:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:42:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:48:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:54:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:62:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:67:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:74:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:90:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:111:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:125:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:132:8: declaration uses `sorry`
+Build completed successfully (3377 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugNavierWellposedness.Verified.perturbation_regular, HugNavierWellposedness.Verified.nearby_uniform_bound, HugNavierWellposedness.Verified.exact_rate_difference, HugNavierWellposedness.Verified.no_uniform_local_rate_bound, HugNavierSingle.GuardTransport.transport_of_blend, HugNavierSingle.GuardTransport.directional_guard_rates, HugNavierSingle.GuardTransport.advection_difference, HugNavierSingle.GuardTransport.residual_energy_bound, HugNavierSingle.GuardTransport.integrated_residual_bound, HugNavierSingle.GuardTransport.common_transport_cancels, HugNavierSingle.GuardTransport.uniform_gradient_bound, HugNavierSingle.GuardTransport.integrated_residual_bound_uniform, HugNavierSingle.GuardTransport.fieldproblem_guard_transport_bounds, HugNavierSingle.EnergyEstimate.fieldproblem_guard_transport_energy_bound, HugNavierSingle.EnergyEstimate.difference_density_hasDerivAt, HugNavierSingle.EnergyEstimate.fieldproblem_energy_derivative_under_integral, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from WellposednessChallenge
+Building WellposednessProofs
+✔ [3377/3382] Built TimeIntegral (2.2s)
+✔ [3378/3382] Built GuardTransport (2.5s)
+✔ [3379/3382] Built GuardTransportTime (1.0s)
+✔ [3380/3382] Built EnergyEstimate (1.0s)
+⚠ [3381/3382] Built WellposednessProofs (3.0s)
+warning: WellposednessProofs.lean:85:13: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3382 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugNavierWellposedness.Verified.perturbation_regular, HugNavierWellposedness.Verified.nearby_uniform_bound, HugNavierWellposedness.Verified.exact_rate_difference, HugNavierWellposedness.Verified.no_uniform_local_rate_bound, HugNavierSingle.GuardTransport.transport_of_blend, HugNavierSingle.GuardTransport.directional_guard_rates, HugNavierSingle.GuardTransport.advection_difference, HugNavierSingle.GuardTransport.residual_energy_bound, HugNavierSingle.GuardTransport.integrated_residual_bound, HugNavierSingle.GuardTransport.common_transport_cancels, HugNavierSingle.GuardTransport.uniform_gradient_bound, HugNavierSingle.GuardTransport.integrated_residual_bound_uniform, HugNavierSingle.GuardTransport.fieldproblem_guard_transport_bounds, HugNavierSingle.EnergyEstimate.fieldproblem_guard_transport_energy_bound, HugNavierSingle.EnergyEstimate.difference_density_hasDerivAt, HugNavierSingle.EnergyEstimate.fieldproblem_energy_derivative_under_integral, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from WellposednessProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 1min 32.784s
+CPU time consumed: 1min 47.266s
+Memory peak: 256.0K
+Memory swap peak: 0B
