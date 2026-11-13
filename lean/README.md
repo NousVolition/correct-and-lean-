@@ -174,19 +174,33 @@ This is the order of the investigation. The spatial proof remains unfinished, an
 
     **Unfinished:** Proving that solution and bound, together with capacity, encoding, write-budget and continuation requirements. **Preservation under those assumptions does not prove that every required write will succeed.**
 
-The **last two are comparison and review packages**.
+The **last two examine the wider comparisons and supplied proof arguments**. After the model, spatial and memory packages, they ask how far the proposed connections and existing arguments actually reach. They finish this reading path by identifying what survives those checks and where the claims stop. The full-system existence and uniqueness proof remains unfinished.
 
-18. **[hug-v3-yang-mills-audit-lean](hug-v3-yang-mills-audit-lean/) — Comparing mathematical structures.**
+18. **[hug-v3-yang-mills-audit-lean](hug-v3-yang-mills-audit-lean/) — Which changes preserve the model's readings?**
 
-    **Proved:** 20 statements about strain, changes of frame and evolution.
+    This audit starts from the Hug v3 definitions and examines specified transformations. Rotating the fabric without changing its stretch preserves Green strain, a measure of deformation. Under the stated conditions, that sameness carries through to particular observations, retrieval, responses and memory-write behavior.
 
-    **Unfinished:** Full Yang–Mills structure, equivalence of the dynamics and a mass-gap theorem. This audit is also separate from both the real-valued `readJet` example and the abelian field-equation comparison described [below](#separate-observation-and-field-equation-checks).
+    **Proved:** 20 statements about strain, changes of frame and evolution, including a limit: rotating only the fabric while holding the flow fixed need not preserve the deformation evolution. Preserving a reading therefore does not automatically make the transformation a symmetry of the complete dynamics. [Exact comparisons and assumptions](hug-v3-yang-mills-audit-lean/AUDIT.md).
 
-19. **[hug-v3-gemini-review](hug-v3-gemini-review/) — Repaired supplied arguments.**
+    **Unfinished:** A full Yang–Mills connection, curvature and field-equation structure within Hug; equivalence of the dynamics; and full hybrid or delayed evolution. No quantum mass-gap theorem is established. This audit retains its own scope and verification record, separate from the two observation examples below.
 
-    **Proved:** 77 statements under their stated assumptions. One delayed uniqueness result concerns **already-existing seven-variable A/S solutions on one delay interval**, with shared inputs and history.
+19. **[hug-v3-gemini-review](hug-v3-gemini-review/) — How much do the supplied arguments establish?**
 
-    **Unfinished:** Full Hug v3 delayed evolution through all events, successful memory writes and the other required bounds. That limited uniqueness result does not supply the missing full existence theorem.
+    This review checks four supplied Lean modules, repairing imports and proof steps while retaining their theorem statements. Their results include component bounds, event results and a limited delayed uniqueness argument.
+
+    **Proved:** 77 statements under their stated assumptions. The delayed uniqueness result says that **two already-existing seven-variable A/S solutions**, with the same parameters, inputs and past history, agree over the **first delay interval**. The needed delayed values come from that shared history. This result does not construct either solution or include the full physical state. [Detailed proof review](hug-v3-gemini-review/Lean-review.md).
+
+    **Unfinished:** Full Hug v3 delayed evolution, continuation through all events, successful memory writes and the required state bounds. In particular, equal event outputs are proved assuming equal complete pre-event states; this does not establish that two full evolving paths reach those equal states. The 77 checked statements leave the larger existence and uniqueness problem open.
+
+**The Yang–Mills audit and the two examples answer different questions.**
+
+| Work | What its checked result says | Limit |
+| --- | --- | --- |
+| Package 18: Hug v3 Yang–Mills audit | Specified transformations preserve strain and related readings under stated conditions; a fabric-only rotation need not preserve the evolution. | It does not establish that Hug v3 is a Yang–Mills system. |
+| [YangMillsInstance: real-valued `readJet`](../research/ambiguous-observation-lean/README.md) | Equal order-zero readings can accompany different first-derivative readings. | This is a real projection example, with no result about an admissible Yang–Mills family. |
+| [YangMillsCueTest: abelian field-equation comparison](../research/ambiguous-observation-lean/README.md) | Two explicit smooth potentials agree on the slice `x₁ = 0`, while their field-equation residuals at the origin are 0 and 2. | The modified potential fails the equation; these are not two Yang–Mills solutions. |
+
+The two examples concern what an observation fails to determine. Package 18 concerns which transformations preserve aspects of Hug and where that preservation stops. Their sources, assumptions, credits and verification records remain distinct; the [separate checks below](#separate-observation-and-field-equation-checks) retain those details.
 
 For a first reading, follow **1–3, then 4–5, then 6–9**: basic rules, complete evolution results for smaller models, and the remaining difficulty in the spatial system. Continue with **10–17** for memory writes and delays, then **18–19** for the comparisons and reviewed arguments. The [fresh evidence collection](../provenance/core-package-recheck-2026-11-12/README.md) retains each package’s exact scope and unfinished-work list alongside its passing checks.
 
