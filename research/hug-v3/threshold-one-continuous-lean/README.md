@@ -36,6 +36,16 @@ The source is pinned to Lean `4.34.0-rc2` and Mathlib
 axiom, or `Lean.ofReduceBool` is accepted. The three finite archive checks use
 ordinary kernel-checked `decide`. Comparator and nanoda are not part of this check.
 
+The independent [Linux run 43364713158](https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43364713158)
+passed the Lake build, all 29 axiom reports, input regeneration, five verifier
+tests and the expected refusal of full trajectory certification. Its original
+[receipt](evidence-linux/receipt.json), [compiler and axiom logs](evidence-linux/evidence),
+and [artifact provenance](evidence-linux/source.json) are retained byte for byte,
+including the original ZIP. That receipt belongs to proof head
+`3d35b2b844ef6ea82c3a99a1b3fde37caa376cd4` and tested merge
+`a70a0d320df2d0ce23d3543526e6ffe8a7a6dad6`. It explicitly records
+`requested_trajectory_certificate: NOT_CERTIFIED`.
+
 ## Archived-field assumptions
 
 [archive-inputs.json](archive-inputs.json) records the two source-file SHA-256

@@ -1,0 +1,195 @@
+{
+  "verification_status": "PASS",
+  "requested_trajectory_certificate": "NOT_CERTIFIED",
+  "scope": "General enclosure lemmas and global bounds on the six archived Fourier fields.",
+  "certified_full_signed_traces": 0,
+  "required_full_signed_traces": 6,
+  "certified_directional_traces": 0,
+  "required_directional_traces": 12,
+  "certified_window_minima": 0,
+  "required_window_minima": 36,
+  "generated_at_utc": "2026-11-13T04:22:31.081892+00:00",
+  "mode": "fresh Lake build and explicit axiom report",
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "mathlib_revision": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "source_hashes": {
+    "FrozenField.lean": "6862949c035b4aea917727e5f66fa1a8ded92ee5f04d8707486d8c032157484c",
+    "targets.json": "41abfbecf6b91d4b74c42392248d201c70bcd559a45d2346fa02164879dabb0a",
+    "archive-inputs.json": "c24f2b0460f509c2ef34c510e4c427b69874200c6f0146bdd33b4ff8d7e6d3b0",
+    "FrozenNormalization.lean": "2adc5bdbe7985f2e5f06183b3e85ee3e5f5725034696fa4dfbf5904e87a7c431",
+    "CheckAxioms.lean": "36cb4be5c0b69a1d82a5bdf616dc37d5b5122d1994e63eb1e2d4b30098ab1bf9",
+    "FrozenPolynomial.lean": "56c98d60b604aa866058ba1e7a68902b60c76b8d1d9435e26b7195fa79cc43e8",
+    "lakefile.toml": "9aead677906737246bcfa73180d0960bdf979437cabaaa42867ef8d1ebaaaf72",
+    "FrozenArchive.lean": "3e6ee082e4e9bbb1ec0175bd80a938b16981a90fb5b8f2c13c1c7217580cae8d",
+    "test_verification.py": "0af00b4d9d1efeef6ba5420fa7ca3567b9fdd690466c47a4b3c3b6ba0a83121b",
+    "lake-manifest.json": "415371e158565d6b67fecc58d734f7c3c17c5a8ee31e599a8c2ff6507cf93287",
+    "generate_archive.py": "665ef3b399a7de36486235db63f5a3819397f6a312a2ea8fe52658ac2a012614",
+    "verify.py": "78a9af4c88fda062973e6152a3c9cd1f91a42b5124c841c74d1e0c32c5eb36a4",
+    "FrozenODE.lean": "fd1652ee8c9467e61c49be15fa6c9e2a8669c683fd565dc2cd6501f87d84d9f5",
+    "certificate-status.json": "ffcb03bd5bb3398e70ee0cca5d10355fbf1429cd0d34c7d15148a287a4ea1fcf"
+  },
+  "named_theorem_count": 29,
+  "axioms": {
+    "FrozenPolynomial.mass_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.abs_eval_le_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.eval_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.eval_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.eval_neg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.eval_sub": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.eval_mul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.eval_take_drop": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.truncate_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.model_value_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.exact_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.add_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.neg_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.mul_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.round_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.truncate_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenNormalization.normalized_component_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenODE.exists_solution_in_ball": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenODE.exists_near_candidate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenODE.attained_minimum_enclosure": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenField.wave_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenField.field_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenField.phase_difference_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenField.wave_difference_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenField.field_difference_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenArchive.all_component_bounds": [
+      "propext"
+    ],
+    "FrozenArchive.continuous_component_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenArchive.denominator_positive": [],
+    "FrozenArchive.component_count": []
+  },
+  "runs": [
+    {
+      "name": "lake-build",
+      "exit_code": 0,
+      "seconds": 97.68674403900002,
+      "log_sha256": "904ce4954ee605c1c1bdc2414dea433d09e55ebdc3cf0da887ef31fc3ef0249e"
+    },
+    {
+      "name": "CheckAxioms",
+      "exit_code": 0,
+      "seconds": 2.8180508179999606,
+      "log_sha256": "f9dcdff3c02db1feba9d63a32bdce5202d7f0b0d3230ec8ef3869a248c94542f"
+    }
+  ],
+  "transcription": "External regeneration and SHA-256 checks; not proved inside Lean.",
+  "not_run": [
+    "Comparator",
+    "nanoda"
+  ],
+  "execution_context": {
+    "repository": "NousVolition/hug-sims-lean-proofs",
+    "checkout_sha": "a70a0d320df2d0ce23d3543526e6ffe8a7a6dad6",
+    "pull_request_head_sha": "3d35b2b844ef6ea82c3a99a1b3fde37caa376cd4",
+    "run_id": "43364713158",
+    "run_attempt": "1"
+  }
+}

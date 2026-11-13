@@ -1,0 +1,36 @@
+✔ [3416/3427] Built FrozenNormalization (4.9s)
+✔ [3418/3427] Built FrozenField (4.8s)
+✔ [3420/3427] Built FrozenPolynomial (5.1s)
+✔ [3422/3427] Built FrozenODE (4.0s)
+✔ [3424/3427] Built FrozenArchive (88s)
+ℹ [3426/3427] Built CheckAxioms (2.1s)
+info: CheckAxioms.lean:6:0: 'FrozenPolynomial.mass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:7:0: 'FrozenPolynomial.abs_eval_le_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:8:0: 'FrozenPolynomial.eval_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:9:0: 'FrozenPolynomial.eval_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:10:0: 'FrozenPolynomial.eval_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:11:0: 'FrozenPolynomial.eval_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:12:0: 'FrozenPolynomial.eval_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:13:0: 'FrozenPolynomial.eval_take_drop' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:14:0: 'FrozenPolynomial.truncate_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:15:0: 'FrozenPolynomial.model_value_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:16:0: 'FrozenPolynomial.exact_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:17:0: 'FrozenPolynomial.add_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:18:0: 'FrozenPolynomial.neg_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:19:0: 'FrozenPolynomial.mul_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:20:0: 'FrozenPolynomial.round_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:21:0: 'FrozenPolynomial.truncate_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:22:0: 'FrozenNormalization.normalized_component_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:23:0: 'FrozenODE.exists_solution_in_ball' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:24:0: 'FrozenODE.exists_near_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:25:0: 'FrozenODE.attained_minimum_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:26:0: 'FrozenField.wave_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:27:0: 'FrozenField.field_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:28:0: 'FrozenField.phase_difference_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:29:0: 'FrozenField.wave_difference_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:30:0: 'FrozenField.field_difference_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CheckAxioms.lean:31:0: 'FrozenArchive.denominator_positive' does not depend on any axioms
+info: CheckAxioms.lean:32:0: 'FrozenArchive.component_count' does not depend on any axioms
+info: CheckAxioms.lean:33:0: 'FrozenArchive.all_component_bounds' depends on axioms: [propext]
+info: CheckAxioms.lean:34:0: 'FrozenArchive.continuous_component_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3427 jobs).
