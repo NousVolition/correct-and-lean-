@@ -1,0 +1,26 @@
+Threshold-one viewing-window investigation
+
+Scope fixed before measurement: reuse the original threshold-1 breathing-on
+16^3 saved history and fixed water labels A and B. Retain the actual native
+dt=0.002 history; reproduce the saved 64-substep local refinement from 1.178
+and 1.198, including its bisection path at the three late exchanges.
+
+At each time trace the frozen vorticity field through A in signed arclength.
+Compare [0,0.75] with forward-only [0,1.5], [0,3] and bidirectional
+[-0.75,0.75], [-1.5,1.5], [-3,3]. Each window is a restriction of one
+shared dense curve so containment is exact for the numerical representation.
+Distances use the same periodic cube metric to the same B.
+
+Begin with both saved bracket sides for each exchange. Then inspect nearby
+times and matched late intervals if needed to determine what replaces a
+suppressed winner. No full-history or spatial convergence run is planned.
+
+Required checks: source SHA256 preservation; accepted original declaration;
+replayed A/B and forward minima agree with saved refinement; the three saved
+forward winner changes are reproduced; wider-window minima never increase
+on the same curve; reverse and forward curves meet at A; integration success
+and nonzero vorticity; an independent tighter tracing/search setting for the
+six event-side states; reproduce computed summaries from saved measurement
+tables. Report tolerances, finite sampling, new endpoint winners and unresolved
+events. A smaller gap or a persistent winner is not proof of closed circulation,
+reconnection, disconnection, or physical causation. No new Lean result is sought.

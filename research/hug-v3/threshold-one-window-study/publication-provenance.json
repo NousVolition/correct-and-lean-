@@ -1,0 +1,39 @@
+{
+  "kind": "Numerical observations and reproducible evidence; not Lean-verified",
+  "original_local_bundle_sha256": "c27742372b333d0bbf8908bb2fb9025587f0222c2f5b18caf85c2921dea13167",
+  "base_repository_commit": "6e4729fde389124a3030a57bb5326000d8966d57",
+  "changes": {
+    "README.md": {
+      "original_sha256": "7a75263420bf8363eb357e5f780e0740a67054a31b586d6c63d8db1ceef2b674",
+      "published_sha256": "cfb817c782e486bbbffa72edb4d88f7b2d8d339918f36af442c6a26f9523df5b"
+    },
+    "source-manifest.json": {
+      "original_sha256": "5c7703f1f067c0c525697df0a1f8f1278b5ebb222790d4b01be83fe7338a8496",
+      "published_sha256": "fac080e5903f6a9b8ae3cc93b60ec51a358b26c6acedbe8e3a3989b40a7325ad"
+    },
+    "verify.py": {
+      "original_sha256": "6851e97ac06c1ad321bd02acf7491de8147f3608fec00af31aeb8e19497ff9d4",
+      "published_sha256": "40f909589fdab03639ed77f7912aa37af28726800cb6f27bfb63528903ce9a4f"
+    },
+    "saved/Configuration.json": {
+      "original_sha256": "325ef616bb10d71acb7a72e200988ec9ffae7a18795fcaf68d2dd2886f74f07d",
+      "published_sha256": "7d17cf3675db6692159284d88c40c7d740e707e64c5c37ae549b15e92c8189f9"
+    }
+  },
+  "notes": [
+    "No numerical source, restart state, measured table or historical receipt changed.",
+    "Configuration source labels and source manifest remove personal paths; original hashes retained.",
+    "Verifier checks published hashes and writes optional fresh receipts outside the preserved evidence.",
+    "README distinguishes original investigation checks from publication and CI recounts.",
+    "Distinguish the two historical configuration filenames for case-sensitive filesystems; their public numerical contents agree."
+  ],
+  "added_files": [
+    ".gitattributes",
+    "compare_replay.py",
+    "publication-replay-check.json",
+    "saved/run-configuration.json"
+  ],
+  "path_renames": {
+    "saved/configuration.json": "saved/run-configuration.json"
+  }
+}

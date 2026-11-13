@@ -44,6 +44,12 @@ A change in the nearest point can occur between different portions of a connecte
 
 The recorded measurement traces only 0.75 cube lengths forward from A. It includes an eligible trace endpoint among its candidates, and the third late exchange starts at arclength zero. Establishing how the observed exchanges depend on the start and finite window requires additional measurements, such as extending the trace in both directions while retaining the same A and B. The current records do not establish a closed circulation loop or settle which apparent gap carries the proposed significance.
 
+## Viewing window follow-up completed
+
+The [bidirectional trace investigation](../threshold-one-window-study/README.md) now remeasures the same saved threshold-1 history. At both sides of each of the three late exchange brackets, extending the window from `[0, 0.75]` to `[-0.75, 0.75]` selects a closer point on the added backward segment. Extending only forward replaces the first two selections, while the third persists through `[0, 3]`. The original restricted-window exchanges remain reproducible.
+
+The public evidence includes 40 frozen fields, 240 window readings, preserved restart states and numerical sources, a runnable local replay, tighter tracing checks, and source hashes. Larger windows introduce other candidate changes and endpoint effects. This establishes numerical window dependence at the saved brackets; it does not establish whole-path closure, disconnection, spatial or full-history convergence. **No Lean theorem checks this new measurement.** [Findings and reproduction](../threshold-one-window-study/README.md) · [Recorded checks](../threshold-one-window-study/verification.json)
+
 ## Continue from tick 41
 
 The later [breathing-off radial scan](../tick-41-radial-return/README.md) measures return miss along an axis-to-B12 line in saved 16³, 24³ and 32³ fields. It keeps model time fixed at 1.2 and varies the curve's starting point.

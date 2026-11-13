@@ -1,0 +1,5 @@
+# Preserve sealed source bytes and historical numerical evidence on every OS.
+* -text whitespace=cr-at-eol
+# Original source and generated SVG whitespace is part of the preserved bytes.
+sources/** whitespace=cr-at-eol,-blank-at-eof
+*.svg whitespace=cr-at-eol,-blank-at-eol

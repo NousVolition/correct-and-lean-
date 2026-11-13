@@ -1,0 +1,18 @@
+{
+  "parent_source_seal_sha256": "b815846bd7afe1aa1a91430c40b658fc44a4d13add5432de0aed424530bedea0",
+  "changed_existing_files": [
+    "protocol.json"
+  ],
+  "added_files": [
+    "declarations/threshold_1.json"
+  ],
+  "numerical_source_files_unchanged": true,
+  "guard_unchanged": true,
+  "numerical_parameter_changes": {
+    "threshold": [
+      0.015,
+      1.0
+    ]
+  },
+  "declaration_accepted": true
+}
