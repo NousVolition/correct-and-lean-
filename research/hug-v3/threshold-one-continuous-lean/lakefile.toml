@@ -1,0 +1,27 @@
+name = "ThresholdOneContinuousDevelopment"
+version = "0.1.0"
+defaultTargets = ["FrozenPolynomial", "FrozenNormalization", "FrozenODE", "FrozenField", "FrozenArchive", "CheckAxioms"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+
+[[lean_lib]]
+name = "FrozenPolynomial"
+
+[[lean_lib]]
+name = "FrozenNormalization"
+
+[[lean_lib]]
+name = "FrozenODE"
+
+[[lean_lib]]
+name = "FrozenField"
+
+[[lean_lib]]
+name = "FrozenArchive"
+
+[[lean_lib]]
+name = "CheckAxioms"

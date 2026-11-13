@@ -1,0 +1,25 @@
+{
+  "requested_outcome": "Continuous normalized frozen-field traces and window minima at six archived threshold-1 bracket sides",
+  "status": "NOT_CERTIFIED",
+  "bound_verification_requirement": "Every mathematical bound used must be verified inside Lean",
+  "certified_full_signed_traces": 0,
+  "required_full_signed_traces": 6,
+  "certified_directional_traces": 0,
+  "required_directional_traces": 12,
+  "certified_window_minima": 0,
+  "required_window_minima": 36,
+  "proved_partial_results": [
+    "Global continuous upper and Lipschitz bounds for the 18 unnormalized archived Fourier components",
+    "General rational polynomial model error lemmas",
+    "General normalized-component residual lemma",
+    "Conditional existence-in-tube theorem with no pre-assumed trajectory",
+    "Conditional attained-minimum enclosure theorem"
+  ],
+  "missing": [
+    "Lean-checked trigonometric and normalized-field slab certificates",
+    "Nonvanishing vorticity over every full tube",
+    "Closed exact-seed, join, uniqueness and error propagation proofs for all twelve directions",
+    "Universal periodic-distance bounds and witnesses for all 36 windows"
+  ],
+  "external_numerical_output_accepted_as_lean_bound": false
+}
