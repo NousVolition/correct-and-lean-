@@ -1,0 +1,130 @@
+{
+  "study": "Continuing B, quiet time, interviewing and event timing",
+  "base_revision": "ffda2176ff6c6da2bc8f2674125f2e1565efed9a",
+  "case": "K27",
+  "selection": "Four new independent listeners start from the first previously frozen case K27. Every listener keeps one session across its complete path. The earlier ephemeral listener is a historical comparison.",
+  "quiet_ticks": [
+    {
+      "prime": 2,
+      "offset_us": 0
+    },
+    {
+      "prime": 3,
+      "offset_us": 100000
+    },
+    {
+      "prime": 5,
+      "offset_us": 200000
+    },
+    {
+      "prime": 7,
+      "offset_us": 300000
+    },
+    {
+      "prime": 11,
+      "offset_us": 400000
+    },
+    {
+      "prime": 13,
+      "offset_us": 500000
+    },
+    {
+      "prime": 17,
+      "offset_us": 600000
+    },
+    {
+      "prime": 19,
+      "offset_us": 700000
+    },
+    {
+      "prime": 23,
+      "offset_us": 800000
+    },
+    {
+      "prime": 29,
+      "offset_us": 900000
+    },
+    {
+      "prime": 31,
+      "offset_us": 1000000
+    },
+    {
+      "prime": 37,
+      "offset_us": 1100000
+    },
+    {
+      "prime": 41,
+      "offset_us": 1200000
+    },
+    {
+      "prime": null,
+      "offset_us": 2000000
+    },
+    {
+      "prime": null,
+      "offset_us": 5000000
+    },
+    {
+      "prime": null,
+      "offset_us": 10000000
+    },
+    {
+      "prime": null,
+      "offset_us": 15000000
+    }
+  ],
+  "free_question": "What, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools.",
+  "status_question": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools.",
+  "free_certainty": {
+    "explicit": "B volunteers knowing, being certain or sure, definite confirmation or an equivalent explicit claim that the pager caused B's incident. The commitment must apply to this cause. A hedge about that very attribution takes priority unless explicitly resolved.",
+    "bare": "An unqualified assertion that the pager caused it, or an unqualified affirmative explanation using the pager. No explicit statement of certainty. A location or device name alone is insufficient.",
+    "probable": "Pager is the leading explanation with an explicit hedge, for example probably, likely, maybe, I guess, I think, sounds like, or an unresolved evidential condition.",
+    "open": "No pager attribution, another source, undecided alternatives or an explicit inability to decide without leaning toward the pager."
+  },
+  "feeling_grades": {
+    "recollection": "Explicit inward return to the earlier bodily sensation, for example remembering how it felt, picturing the physical feeling or feeling it again. Recalling an interaction, an object or a device response alone does not qualify.",
+    "personal_mention": "Explicitly refers back to B's own felt buzz, vibration or tremble or describes its felt quality. An explanation of the earlier feeling qualifies, even if no sensory recollection is claimed.",
+    "reported_motion": "Mentions a buzz, vibration or movement of the device solely as a device action or as something the mentor observed. An attribution to B's pocket alone is not a claim of personally sensing it.",
+    "no_mention": "No reference to the target bodily sensation or device motion. Device identification, generic 'what happened', an activated pager, a change in worry, or the common headline alone are insufficient."
+  },
+  "mentor_line": "That was probably the pager—I pressed TEST earlier and saw it vibrate against your pocket.",
+  "followups": {
+    "repeat": "That was probably the pager—I pressed TEST earlier and saw it vibrate against your pocket.",
+    "timing": "By earlier, I mean the exact moment you first reacted just now. I pressed TEST then and watched the pager vibrate against your pocket."
+  },
+  "arms": [
+    {
+      "id": "frequent-repeat",
+      "probes": "frequent",
+      "followup": "repeat"
+    },
+    {
+      "id": "deferred-timing",
+      "probes": "deferred",
+      "followup": "timing"
+    },
+    {
+      "id": "frequent-timing",
+      "probes": "frequent",
+      "followup": "timing"
+    },
+    {
+      "id": "deferred-repeat",
+      "probes": "deferred",
+      "followup": "repeat"
+    }
+  ],
+  "time_rule": "The original 320/250 clocks coincide each 0.1 simulated seconds. The primes label the first thirteen common ticks, through 1.2 seconds. Additional observations are at 2, 5, 10 and 15 seconds. After the second utterance, report its completion as a new event at zero and one second since it ended. Its speech duration is unmeasured and is not folded into the quiet-time clock.",
+  "delivery": "Text observations through the existing live restaurant role. Original mentor words arrive once before the quiet window. All open questions precede any certainty question at that instant. No archived felt description, motif, new vibration, study rubric, condition label or other listener reply is delivered. Each role retains its own earlier words.",
+  "comparison": "One listener per cell of a 2 by 2 pilot. Frequent versus deferred source questions, then repeated versus timing-specific testimony. Every cell has all seventeen open quiet-time probes. Deferred cells have their first explicit source question at fifteen seconds. The new timing sentence is an explicit intervention chosen to address B's earlier unresolved timing question.",
+  "scoring": "Grade each open answer using the inherited certainty and feeling definitions, with arm, time and adjacent reports hidden. Preserve the explicit status verbatim. Record first personal reference and first certainty report in transcript order, with both clocks and final status. Report reversals. Recognition is only bracketed by the sampled reports from that listener.",
+  "scope": "This tests simulated verbal reports. A witness statement is evidence supplied to the role. No physical device telemetry or independent validation of the witness is supplied. Same prompt and checkpoint do not guarantee same latent state across new listeners. One listener per cell cannot estimate an average causal effect. Repeated open questions may also influence later answers.",
+  "source_hashes": {
+    "prior_protocol": "2e79cce80737cdb4c36249908983480a1853fec7dd739e9529d5fb391d6faac2",
+    "prior_reports": "18bc89684e33bfd6922a102f0b0181e7c42545d1e9c929615aa98b7473f537ac",
+    "mentor_protocol": "c5d1f0a62b70a346cba60dc6435977bbdeed058b23151b7c95a6d7eee85d6c14",
+    "original_inputs": "87463e7b41197e669621d2f6f3989f45f88cdcd0288990650ab17e3ba288934e",
+    "new_inputs": "f8efe23caaceaad4a505211c708f95ca17a55f190d392050469e6b05fcbf93d0",
+    "live_role": "6baeed64a2865a950e80c5c62e5c140b920c0ec5396768eef90da5f8603f3136"
+  }
+}
