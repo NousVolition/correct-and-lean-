@@ -11,6 +11,8 @@ Hug and SIMS explores what persists as surroundings change, and what our observa
 1. **[See what happened](research/hug-v3/pair-origin-study/README.md)** — the recorded example and its diagram.
 2. **[See what is proved](lean/README.md#plain-language-walkthrough)** — the plain-language walkthrough of the 19 core proof packages.
 
+**Did it leave with what it came with?** [Follow the three completed retention tests in one diagram](research/hug-v3/retention-map/README.md): shared records stayed intact while nearby context changed origin. The map separates numerical observations from Lean's checks; a complete physical inventory remains unresolved.
+
 **New proof:** [Combined transverse-derivative theorem, verification logs, and corrected attribution](research/combined-yang-mills-lean/README.md).
 
 **A/S suppression comparison proved:** With matched starting data and inputs, both S coordinates stay at or below their values without suppression throughout each finite interval. [Proof and verification](lean/as-suppression-lean/README.md). The repeated-encounter process remains open.
