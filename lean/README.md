@@ -48,6 +48,10 @@ After A/S, we ask the same questions in models involving pressure, shape, guards
 
    **Proved:** 51 specified properties, including pressure-response formulas, retention, reversible geometric transformations, guard bounds and energy accounting. It also proves limitations: a numerical “connected” flag can allow a small gap, and the active model can gain energy.
 
+   **Energy-chart connection:** The supplied chart, “Where the extra driving work goes”, illustrates **extra work = extra dissipated energy + stored-energy difference**. At `t = 2`, its labels show about 15 extra units of work, split into 13.5 dissipated and 1.5 stored. More work need not remain as stored energy.
+
+   The [checked energy results](hug-squeeze-lean/ActiveHugSolution.lean#L51) establish an exact energy balance and nonnegative losses for this package’s reduced active Hug model, under their stated assumptions; active power can exceed those losses. **The chart’s curves and numbers have not been verified against these equations or by Lean.**
+
    **Unfinished:** The full separate memory-field evolution, long-term synchronization and recovery claims. The next package supplies an existence result for a particular reduced model.
 
 5. **[hug-existence-lean](hug-existence-lean/) — The reduced eight-variable Hug model can evolve consistently.**
