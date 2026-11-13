@@ -20,6 +20,8 @@ Read **PASS** as: “the precise statements submitted for this package passed th
 
 The **first three packages concern the seven-variable A/S model**. In its interpretation, Smoke and Clay are one agent’s inward speaking and listening positions.
 
+We start here because this smaller model separates three questions that recur later: **what follows from the rules, does a unique evolution exist, and which bounds persist?** Packages 1–3 address them in that order. Pair 25 introduces what observations can reveal; A/S introduces what can be proved about evolution under stated assumptions. The A/S results concern their own equations and do not verify the Pair 25 simulation.
+
 1. **[as-lean](as-lean/) — The basic rules.**
 
    **Proved:** 30 consequences of the equations, including bounds on opening and reception, how an encounter updates understanding, and how adverse history affects exchange.
