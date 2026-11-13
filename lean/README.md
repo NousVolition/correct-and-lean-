@@ -288,9 +288,11 @@ Its Tick 41 and Pair 25 instances concern supplied summaries and exact numbers. 
 
 Simulator and transcription verification are outside this package; Comparator and nanoda were not run for that package build. A [later local geometry batch](../provenance/chat-package-recheck-2026-11-13/generic/geometry-real/record.json) rechecks the collected `YangMillsCueTest` copy, with its own source bindings and verification scope. [Preserved authorship and credits](../research/ambiguous-observation-lean/CREDITS.md).
 
-### Separate combined transverse-derivative theorem
+<a id="separate-combined-transverse-derivative-theorem"></a>
 
-The [combined package](../research/combined-yang-mills-lean/README.md) imports both examples without replacing either. At every point on `x₁ = 0`, all potential components and all first coordinate partial derivatives agree; the second transverse `readJet` readings equal the respective residuals 0 and 2. **Twelve new named results passed local Lean compilation and axiom audit** with only `propext`, `Quot.sound`, and `Classical.choice`; they are not axiom-free. [Local logs](../research/combined-yang-mills-lean/logs/CombinedAxioms.log) · [Corrected attribution](../research/combined-yang-mills-lean/CREDITS.md). No GitHub Lean build, Comparator, nanoda, admissible family, or mass-gap result is claimed for this package.
+### Matching readings can hide different equation results
+
+This [worked example](../research/combined-yang-mills-lean/README.md) asks whether matching readings settle whether a field satisfies the tested equation. It connects the two original examples while retaining their individual proofs. At every point on `x₁ = 0`, all potential components and all first coordinate partial derivatives agree; the second transverse `readJet` readings equal the respective residuals 0 and 2. **Twelve new named results passed local Lean compilation and axiom audit** with only `propext`, `Quot.sound`, and `Classical.choice`; they are not axiom-free. [Local logs](../research/combined-yang-mills-lean/logs/CombinedAxioms.log) · [Corrected attribution](../research/combined-yang-mills-lean/CREDITS.md). No GitHub Lean build, Comparator, nanoda, admissible family, or mass-gap result is claimed for this package.
 
 ## Separate finite origin checks
 
