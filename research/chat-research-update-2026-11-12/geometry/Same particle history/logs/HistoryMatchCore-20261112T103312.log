@@ -1,0 +1,16 @@
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Same particle history/lean/HistoryMatchCore.lean:101:6: error: Function expected at
+  reader
+but this term has type
+  ?m.15
+
+Note: Expected a function because this term is being applied to the argument
+  (fullObservation tag stop path swirl closest s)
+'HistoryMatchCore.quarter_turn_kills_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.perturbation_keeps_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.strip_image_square_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.global_closest_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.drift_numerator_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.drift_numerator_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.irrational_turn_law_prevents_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.observation_matches_on_whole_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Same particle history/lean/HistoryMatchCore.lean:114:14: error(lean.unknownIdentifier): Unknown constant `no_exact_reader_with_history`

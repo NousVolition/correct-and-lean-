@@ -1,0 +1,18 @@
+{
+  "challenge_module": "EdgeControlChallenge",
+  "solution_module": "EdgeControlSolution",
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "theorem_names": [
+    "SignedVortex.Rescaled.EdgeControl.edge_signal_zero",
+    "SignedVortex.Rescaled.EdgeControl.native_in_every_collar",
+    "SignedVortex.Rescaled.EdgeControl.inward_small",
+    "SignedVortex.Rescaled.EdgeControl.control_for_pinned_scale",
+    "SignedVortex.Rescaled.EdgeControl.every_viscosity_has_control",
+    "SignedVortex.Rescaled.EdgeControl.exterior_from_support"
+  ]
+}

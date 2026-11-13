@@ -1,0 +1,14 @@
+{
+  "challenge_module": "TemporalChallenge",
+  "solution_module": "TemporalSolution",
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "theorem_names": [
+    "SignedVortex.Rescaled.TimeControl.early_loop_zero",
+    "SignedVortex.Rescaled.TimeControl.same_loop_before_after"
+  ]
+}

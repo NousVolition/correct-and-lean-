@@ -1,0 +1,8 @@
+'SignedVortex.Rescaled.EdgeControl.edge_signal_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedVortex.Rescaled.EdgeControl.native_in_every_collar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedVortex.Rescaled.EdgeControl.inward_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedVortex.Rescaled.EdgeControl.control_for_pinned_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedVortex.Rescaled.EdgeControl.every_viscosity_has_control' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SignedVortex.Rescaled.EdgeControl.exterior_from_support' depends on axioms: [propext, Classical.choice, Quot.sound]

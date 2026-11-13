@@ -1,0 +1,39 @@
+{
+  "module": "PeriodicNavierStokes",
+  "status": "PASS",
+  "exit_code": 0,
+  "source_sha256": "6f0541f30f12cb69866139d1d1c48369a6bdbab6208af9d6befbf432e21dcc2b",
+  "object_sha256": "7e7e93ac94f16d68bf8d1d5b94562fc8f924540879c64f6b830fb354a47c1507",
+  "log": "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/logs/PeriodicNavierStokes-20261112T084510.log",
+  "log_sha256": "813d123198c39697ce81e952829d93736d68e7e023680ade2a28511f1d6f9b61",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_reports": [
+    "ClosestPointExample.incompressible",
+    "ClosestPointExample.navier_stokes",
+    "ClosestPointExample.smooth_velocity",
+    "ClosestPointExample.spatially_periodic",
+    "ClosestPointExample.markers_stationary",
+    "ClosestPointExample.curl_on_line",
+    "ClosestPointExample.vortex_line_ODE",
+    "ClosestPointExample.exact_same_equation_witnesses"
+  ],
+  "started_at_utc": "2026-11-12T08:45:10.201533+00:00",
+  "finished_at_utc": "2026-11-12T08:45:14.477241+00:00",
+  "command": [
+    "$USER_HOME/verification/bin/lake",
+    "env",
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+    "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean",
+    "-o",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean/PeriodicNavierStokes.olean",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean/PeriodicNavierStokes.lean"
+  ],
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "base_theorem_source_sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4",
+  "base_theorem_object_sha256": "5860a186bc09c71b24206815b8c95b14214984264d90b98920dfb18a9d66a402"
+}

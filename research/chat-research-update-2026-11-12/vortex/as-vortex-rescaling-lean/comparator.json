@@ -1,0 +1,24 @@
+{
+  "challenge_module": "RescaleChallenge",
+  "solution_module": "RescaleSolution",
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "theorem_names": [
+    "SignedVortex.Rescaled.support_fits_iff",
+    "SignedVortex.Rescaled.loop_transfer",
+    "SignedVortex.Rescaled.hline_any_fit",
+    "SignedVortex.Rescaled.hline_pinned_quarter",
+    "SignedVortex.Rescaled.matches_at_one",
+    "SignedVortex.Rescaled.matching_force_has_zero_loop",
+    "SignedVortex.Rescaled.inward_signal",
+    "SignedVortex.Rescaled.opposite_nonzero_loops",
+    "SignedVortex.Rescaled.late_exclusion",
+    "SignedVortex.Rescaled.excludes_every_fitting_scale",
+    "SignedVortex.Rescaled.candidate_for_schedule",
+    "SignedVortex.Rescaled.every_positive_viscosity"
+  ]
+}

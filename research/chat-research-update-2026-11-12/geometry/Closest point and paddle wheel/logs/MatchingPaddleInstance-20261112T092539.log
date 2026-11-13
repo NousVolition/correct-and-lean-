@@ -1,0 +1,15 @@
+'ClosestPointExample.MatchingPaddle.both_flows_allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.same_enlarged_observation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.opposite_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.no_exact_reader_even_with_paddle_wheel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.every_function_of_paddle_matches' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.zero_swirl_at_open_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.zero_is_beyond_saved_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

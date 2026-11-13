@@ -1,0 +1,36 @@
+[
+  {
+    "module": "ClayMemoryInstance",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T06:58:27.8375355Z",
+    "finished_utc": "2026-11-12T06:58:33.7198349Z",
+    "source_sha256": "E6CAF3155EBA474E9771E88FAE9EDCE4CE2039CA4820003627413E7C0F4E85D9",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\ClayMemoryInstance.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\build-final\\ClayMemoryInstance.olean",
+      "ClayMemoryInstance.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\logs\\final-audit\\ClayMemoryInstance.log",
+    "log_sha256": "DA2F98B37F930A171437F0A3E12C9F3494D562916E141126FE8F106B68E19A93"
+  },
+  {
+    "module": "ProofAudit",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T06:58:33.7509659Z",
+    "finished_utc": "2026-11-12T06:58:52.5129934Z",
+    "source_sha256": "8AB5BA14B4A26EAFB635D4A4E28B6BB60D062C5324ABAF8E04F8224A0C1D666B",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\ProofAudit.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\build-final\\ProofAudit.olean",
+      "ProofAudit.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\logs\\final-audit\\ProofAudit.log",
+    "log_sha256": "54212F2A3F2A902474958134052D5452BE33D2D3AF537C08C33076E8D476DDCF"
+  }
+]

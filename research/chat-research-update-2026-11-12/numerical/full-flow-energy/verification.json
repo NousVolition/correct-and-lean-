@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "case": "Initial trust A toward B = 1, B toward A = 0; time 0 through 1.3",
+  "control": "No material journal; identical quantized prefix recall provided in software",
+  "initial_difference_before_any_write": 6.75794733148976e-07,
+  "refined_final_extra": {
+    "time": 1.3,
+    "phase": "after_all",
+    "work": 0.00011004616549050128,
+    "drive_work": -2.3683516955301086e-07,
+    "journal_write_work": 0.00010975358687844842,
+    "event_write_work": 5.29413781605999e-07,
+    "threshold_work": -2.1129332697622212e-07,
+    "breathing_work": -2.5541842576761635e-08,
+    "net_heat": 0.00011012310851772497,
+    "viscous_heat": -1.818688240733178e-07,
+    "fabric_heat": 2.688141665321622e-09,
+    "stroke_heat": 0.00011028776535180755,
+    "diverted_to_directional_storage": -1.452384832590835e-08,
+    "total_residual": 1.7258167551298387e-14,
+    "mechanical_residual": 1.7259034913036375e-14,
+    "thermal_residual": 8.131516293641283e-19,
+    "mechanical_change": -7.694304448275873e-08,
+    "thermal_change": 0.00011012310851772579,
+    "total_change": 0.00011004616547324311,
+    "kinetic_gain": -1.334223728001807e-07,
+    "continuum_elastic_gain": -3.3892350779546313e-07,
+    "event_fabric_gain": -1.4246275323883296e-08,
+    "journal_fabric_gain": 4.0964911143677786e-07,
+    "absolute_energy_difference": 0.00011072196020639209,
+    "initial_energy_difference": 6.75794733148976e-07,
+    "gross_dissipation": 0.00011010858466939955
+  },
+  "max_differential_allocation_residual": 4.889124315902299e-14,
+  "residual_fraction_of_peak_extra_work": 4.442793889373917e-10,
+  "time_halving_residual_ratios": {
+    "journal": 0.12057535593463659,
+    "control": 0.12061924837579854
+  },
+  "per_arm": {
+    "journal-1": {
+      "integration_dt": 0.002,
+      "status": "PASS",
+      "max_total_residual": 1.209393164932314e-09,
+      "max_stage_energy_error": 3.2526065174565133e-19,
+      "max_write_energy_error": 9.452358295765958e-19,
+      "published_journal_state_exact": true
+    },
+    "journal-2": {
+      "integration_dt": 0.001,
+      "status": "PASS",
+      "max_total_residual": 1.458230113266304e-10,
+      "max_stage_energy_error": 4.336808689942018e-19,
+      "max_write_energy_error": 9.049223552432114e-19,
+      "published_journal_state_exact": null
+    },
+    "control-1": {
+      "integration_dt": 0.002,
+      "status": "PASS",
+      "max_total_residual": 1.2090961546318453e-09,
+      "max_stage_energy_error": 3.2526065174565133e-19,
+      "max_write_energy_error": 2.608861477543245e-19,
+      "published_journal_state_exact": null
+    },
+    "control-2": {
+      "integration_dt": 0.001,
+      "status": "PASS",
+      "max_total_residual": 1.4584026938576147e-10,
+      "max_stage_energy_error": 4.336808689942018e-19,
+      "max_write_energy_error": 5.996993266560446e-19,
+      "published_journal_state_exact": null
+    }
+  },
+  "heat_meaning": "Net heat retained = viscous + fabric relaxation + stroke heat - diversion into directional material storage; thermal energy remains inside the periodic system",
+  "limit": "Finite numerical verification of the declared matched comparison, not a universal theorem or a physically cost-free software device",
+  "endpoint_time_refinement": {
+    "work": {
+      "step_002": 0.0001099974487418762,
+      "step_001": 0.00011004616549050128,
+      "signed_difference": 4.871674862507499e-08,
+      "difference_as_fraction_of_extra_work": 0.00044269374046731336
+    },
+    "net_heat": {
+      "step_002": 0.00011007424529830304,
+      "step_001": 0.00011012310851772497,
+      "signed_difference": 4.886321942193777e-08,
+      "difference_as_fraction_of_extra_work": 0.0004440247345661075
+    },
+    "mechanical_change": {
+      "step_002": -7.679625941680451e-08,
+      "step_001": -7.694304448275873e-08,
+      "signed_difference": -1.4678506595421602e-10,
+      "difference_as_fraction_of_extra_work": 1.3338498919972444e-06
+    }
+  }
+}

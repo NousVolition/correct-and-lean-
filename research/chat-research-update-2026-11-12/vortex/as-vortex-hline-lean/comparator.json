@@ -1,0 +1,17 @@
+{
+  "challenge_module": "HLineChallenge",
+  "solution_module": "HLineSolution",
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "theorem_names": [
+    "SignedVortex.HLine.hline_both",
+    "SignedVortex.HLine.hline_xy",
+    "SignedVortex.HLine.hline_yx",
+    "SignedVortex.HLine.signed_excluded_at_late_times",
+    "SignedVortex.HLine.no_signed_full_trajectory"
+  ]
+}

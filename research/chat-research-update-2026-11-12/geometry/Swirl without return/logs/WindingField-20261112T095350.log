@@ -1,0 +1,198 @@
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingField.lean:80:84: error: unsolved goals
+b : ℝ
+p : Point
+⊢ -(frequency * Matrix.vecCons 0 (fun i => Matrix.vecCons 2 (fun i => 2) i) 2 *
+                    Matrix.vecCons (-b) (fun i => Matrix.vecCons (b * (1 / 2)) (fun i => b * (1 / 2)) i) 2 *
+                  Real.sin (phase 2 p)) -
+              frequency * Matrix.vecCons 0 (fun i => Matrix.vecCons 2 (fun i => 2) i) 2 * Real.sin (phase 2 p) *
+                Matrix.vecCons (1 - b) (fun i => Matrix.vecCons (b * (1 / 2)) (fun i => b * (1 / 2)) i) 2 +
+            frequency * Matrix.vecCons 0 (fun i => Matrix.vecCons 2 (fun i => 2) i) 2 *
+                Matrix.vecCons (1 - b) (fun i => Matrix.vecCons (b * (3 / 2)) (fun i => b * (-3 / 2)) i) 2 *
+              Real.cos (phase 2 p) +
+          frequency * Matrix.vecCons 0 (fun i => Matrix.vecCons 2 (fun i => 2) i) 2 * Real.cos (phase 2 p) *
+            Matrix.vecCons b (fun i => Matrix.vecCons (b * (-3 / 2)) (fun i => b * (3 / 2)) i) 2 -
+        frequency * Real.sin (phase 2 p) * Matrix.vecCons 3 (fun i => Matrix.vecCons 1 (fun i => -1) i) 2 *
+          Matrix.vecCons 0 (fun i => Matrix.vecCons (-(b * 2)) (fun i => b * 2) i) 2 +
+      frequency * Real.cos (phase 2 p) * Matrix.vecCons 3 (fun i => Matrix.vecCons 1 (fun i => -1) i) 2 *
+        Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => 0) i) 2 =
+    0
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingField.lean:85:56: error: unsolved goals
+case «0»
+b : ℝ
+p : Point
+⊢ frequency * b * Real.sin (phase 1 p) * (9 / 2) - frequency * b * Real.sin (phase 0 p) * 3 -
+                  frequency * b * Real.cos (phase 0 p) * 3 +
+                frequency * b * Real.cos (phase 1 p) * (3 / 2) -
+              frequency * Matrix.vecCons 0 (fun i => Matrix.vecCons 2 (fun i => 2) i) 2 *
+                  Matrix.vecCons 0 (fun i => Matrix.vecCons (-(b * 2)) (fun i => b * 2) i) 2 *
+                Real.sin (phase 2 p) +
+            frequency * Matrix.vecCons 0 (fun i => Matrix.vecCons 2 (fun i => 2) i) 2 *
+                Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => 0) i) 2 *
+              Real.cos (phase 2 p) +
+          frequency * Real.sin (phase 2 p) * Matrix.vecCons 3 (fun i => Matrix.vecCons 1 (fun i => -1) i) 2 *
+            Matrix.vecCons (1 - b) (fun i => Matrix.vecCons (b * (1 / 2)) (fun i => b * (1 / 2)) i) 2 -
+        frequency * Real.cos (phase 2 p) * Matrix.vecCons 3 (fun i => Matrix.vecCons 1 (fun i => -1) i) 2 *
+          Matrix.vecCons b (fun i => Matrix.vecCons (b * (-3 / 2)) (fun i => b * (3 / 2)) i) 2 +
+      frequency * Real.sin (phase 0 p) * 3 =
+    frequency * b * Real.sin (phase 1 p) * (9 / 2) - frequency * b * Real.sin (phase 0 p) * 3 -
+              frequency * b * Real.cos (phase 0 p) * 3 +
+            frequency * b * Real.cos (phase 1 p) * (3 / 2) +
+          frequency * Real.sin (phase 2 p) *
+              Matrix.vecCons (1 - b) (fun i => Matrix.vecCons (b * (3 / 2)) (fun i => b * (-3 / 2)) i) 2 *
+            3 +
+        frequency * Real.cos (phase 2 p) *
+            Matrix.vecCons (-b) (fun i => Matrix.vecCons (b * (1 / 2)) (fun i => b * (1 / 2)) i) 2 *
+          3 +
+      frequency * Real.sin (phase 0 p) * 3
+
+case «1»
+b : ℝ
+p : Point
+⊢ frequency * b * Real.sin (phase 0 p) * 3 - frequency * b * Real.cos (phase 0 p) * 3 +
+                  frequency * b * Real.sin (phase 1 p) * (-9 / 2) +
+                frequency * b * Real.cos (phase 1 p) * (3 / 2) +
+              frequency * Real.cos (phase 0 p) * 3 -
+            frequency * Matrix.vecCons 3 (fun i => Matrix.vecCons 1 (fun i => -1) i) 2 *
+                Matrix.vecCons (-b) (fun i => Matrix.vecCons (b * (1 / 2)) (fun i => b * (1 / 2)) i) 2 *
+              Real.sin (phase 2 p) +
+          frequency * Matrix.vecCons 3 (fun i => Matrix.vecCons 1 (fun i => -1) i) 2 *
+              Matrix.vecCons (1 - b) (fun i => Matrix.vecCons (b * (3 / 2)) (fun i => b * (-3 / 2)) i) 2 *
+            Real.cos (phase 2 p) +
+        frequency * Real.sin (phase 2 p) * Matrix.vecCons 0 (fun i => Matrix.vecCons 2 (fun i => 2) i) 2 *
+          Matrix.vecCons 0 (fun i => Matrix.vecCons (-(b * 2)) (fun i => b * 2) i) 2 -
+      frequency * Real.cos (phase 2 p) * Matrix.vecCons 0 (fun i => Matrix.vecCons 2 (fun i => 2) i) 2 *
+        Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => 0) i) 2 =
+    frequency * b * Real.sin (phase 0 p) * 3 - frequency * b * Real.cos (phase 0 p) * 3 +
+              frequency * b * Real.sin (phase 1 p) * (-9 / 2) +
+            frequency * b * Real.cos (phase 1 p) * (3 / 2) +
+          frequency * Real.cos (phase 0 p) * 3 +
+        frequency * Real.sin (phase 2 p) *
+            Matrix.vecCons b (fun i => Matrix.vecCons (b * (-3 / 2)) (fun i => b * (3 / 2)) i) 2 *
+          3 +
+      frequency * Real.cos (phase 2 p) *
+          Matrix.vecCons (1 - b) (fun i => Matrix.vecCons (b * (1 / 2)) (fun i => b * (1 / 2)) i) 2 *
+        3
+
+case «2»
+b : ℝ
+p : Point
+⊢ -(frequency * b * Real.cos (phase 1 p) * 6) -
+            frequency * Matrix.vecCons 0 (fun i => Matrix.vecCons 2 (fun i => 2) i) 2 *
+                Matrix.vecCons (1 - b) (fun i => Matrix.vecCons (b * (1 / 2)) (fun i => b * (1 / 2)) i) 2 *
+              Real.sin (phase 2 p) +
+          frequency * Matrix.vecCons 0 (fun i => Matrix.vecCons 2 (fun i => 2) i) 2 * Real.sin (phase 2 p) *
+            Matrix.vecCons (-b) (fun i => Matrix.vecCons (b * (1 / 2)) (fun i => b * (1 / 2)) i) 2 +
+        frequency * Matrix.vecCons 0 (fun i => Matrix.vecCons 2 (fun i => 2) i) 2 *
+            Matrix.vecCons b (fun i => Matrix.vecCons (b * (-3 / 2)) (fun i => b * (3 / 2)) i) 2 *
+          Real.cos (phase 2 p) -
+      frequency * Matrix.vecCons 0 (fun i => Matrix.vecCons 2 (fun i => 2) i) 2 * Real.cos (phase 2 p) *
+        Matrix.vecCons (1 - b) (fun i => Matrix.vecCons (b * (3 / 2)) (fun i => b * (-3 / 2)) i) 2 =
+    -(frequency * b * Real.cos (phase 1 p) * 6) +
+        frequency * Real.sin (phase 2 p) * Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => 0) i) 2 * 3 +
+      frequency * Real.cos (phase 2 p) * Matrix.vecCons 0 (fun i => Matrix.vecCons (-(b * 2)) (fun i => b * 2) i) 2 * 3
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingField.lean:90:70: error: unsolved goals
+b : ℝ
+p : Point
+i : Fin 3
+⊢ -(frequency ^ 2 * term b 0 p i * 9) - frequency ^ 2 * term b 1 p i * 9 -
+        frequency ^ 2 * Matrix.vecCons 0 (fun i => Matrix.vecCons 2 (fun i => 2) i) 2 ^ 2 * term b 2 p i * 2 -
+      frequency ^ 2 * term b 2 p i * Matrix.vecCons 3 (fun i => Matrix.vecCons 1 (fun i => -1) i) 2 ^ 2 =
+    -(frequency ^ 2 * term b 0 p i * 9) - frequency ^ 2 * term b 1 p i * 9 - frequency ^ 2 * term b 2 p i * 9
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingField.lean:101:48: error: unsolved goals
+case right
+x y : ℝ
+⊢ frequency * Matrix.vecCons 0 (fun i => Matrix.vecCons 2 (fun i => 2) i) 2 * x +
+      frequency * Matrix.vecCons 0 (fun i => Matrix.vecCons 2 (fun i => 2) i) 2 * y =
+    frequency * x * 2 + frequency * y * 2
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingField.lean:108:62: error: unsolved goals
+case «0»
+b x y : ℝ
+h : phase 0 ![x, y, 0] = 0 ∧ phase 1 ![x, y, 0] = 2 * frequency * (x + y) ∧ phase 2 ![x, y, 0] = 2 * frequency * (x + y)
+⊢ -b + b * Real.cos (frequency * x * 2 + frequency * y * 2) * (1 / 2) +
+          b * Real.sin (frequency * x * 2 + frequency * y * 2) * (3 / 2) +
+        Real.cos (frequency * x * 2 + frequency * y * 2) *
+          Matrix.vecCons (-b) (fun i => Matrix.vecCons (b * (1 / 2)) (fun i => b * (1 / 2)) i) 2 +
+      Real.sin (frequency * x * 2 + frequency * y * 2) *
+        Matrix.vecCons (1 - b) (fun i => Matrix.vecCons (b * (3 / 2)) (fun i => b * (-3 / 2)) i) 2 =
+    -b + b * Real.cos (frequency * x * 2 + frequency * y * 2)
+
+case «1»
+b x y : ℝ
+h : phase 0 ![x, y, 0] = 0 ∧ phase 1 ![x, y, 0] = 2 * frequency * (x + y) ∧ phase 2 ![x, y, 0] = 2 * frequency * (x + y)
+⊢ 1 - b + b * Real.cos (frequency * x * 2 + frequency * y * 2) * (1 / 2) +
+          b * Real.sin (frequency * x * 2 + frequency * y * 2) * (-3 / 2) +
+        Real.cos (frequency * x * 2 + frequency * y * 2) *
+          Matrix.vecCons (1 - b) (fun i => Matrix.vecCons (b * (1 / 2)) (fun i => b * (1 / 2)) i) 2 +
+      Real.sin (frequency * x * 2 + frequency * y * 2) *
+        Matrix.vecCons b (fun i => Matrix.vecCons (b * (-3 / 2)) (fun i => b * (3 / 2)) i) 2 =
+    1 - b + b * Real.cos (frequency * x * 2 + frequency * y * 2)
+
+case «2»
+b x y : ℝ
+h : phase 0 ![x, y, 0] = 0 ∧ phase 1 ![x, y, 0] = 2 * frequency * (x + y) ∧ phase 2 ![x, y, 0] = 2 * frequency * (x + y)
+⊢ -(b * Real.cos (frequency * x * 2 + frequency * y * 2) * 2) +
+        Real.cos (frequency * x * 2 + frequency * y * 2) *
+          Matrix.vecCons 0 (fun i => Matrix.vecCons (-(b * 2)) (fun i => b * 2) i) 2 +
+      Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => 0) i) 2 * Real.sin (frequency * x * 2 + frequency * y * 2) =
+    0
+'ClosestPointExample.Winding.field_divergence' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_beltrami' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_laplacian' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_on_plane' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_at_A' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.plane_nonzero' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

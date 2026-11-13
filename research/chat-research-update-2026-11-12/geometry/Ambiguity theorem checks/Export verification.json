@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "independently_parsed_Lean_velocity_and_marker_bytes_match_NPZ": [
+    "before",
+    "after"
+  ],
+  "saved_return_literals_match": 24,
+  "original_sources_preserved": 11,
+  "scope": "Export correspondence checked outside the Lean kernel; event IDs matched the recorded native-decoder output."
+}

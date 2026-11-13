@@ -1,0 +1,39 @@
+{
+  "module": "WindingInstance",
+  "status": "PASS",
+  "source_sha256": "2e3cde5be3fcee37d41c54ab65e5de2012df667e0ed6fc709e043db56770c4c4",
+  "object_sha256": "dbfede18a9f80cb4fde24a6b64ef31c16ee68b9f9b86f717ed22ec7baae93965",
+  "exit_code": 0,
+  "log": "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/logs/WindingInstance-20261112T100802.log",
+  "log_sha256": "9914f32e85bf5bedc00843e7db9737f9ec7f29b902595440d7716b41713a7071",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_reports": [
+    "ClosestPointExample.Winding.lift_surjective",
+    "ClosestPointExample.Winding.global_clock_bijective",
+    "ClosestPointExample.Winding.complete_vortex_curve_at_tick",
+    "ClosestPointExample.Winding.curves_persist_at_every_finite_time",
+    "ClosestPointExample.Winding.swirl_never_approaches_zero_on_the_line",
+    "ClosestPointExample.Winding.exact_closest_reading",
+    "ClosestPointExample.Winding.both_solve_same_fluid_equations",
+    "ClosestPointExample.Winding.same_observation",
+    "ClosestPointExample.Winding.opposite_closure",
+    "ClosestPointExample.Winding.no_exact_reader_with_closest_point_and_paddle"
+  ],
+  "command": [
+    "$USER_HOME/verification/bin/lake",
+    "env",
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+    "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean",
+    "-o",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingInstance.olean",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingInstance.lean"
+  ],
+  "started_at_utc": "2026-11-12T10:08:02.811627+00:00",
+  "finished_at_utc": "2026-11-12T10:08:58.151422+00:00",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+}

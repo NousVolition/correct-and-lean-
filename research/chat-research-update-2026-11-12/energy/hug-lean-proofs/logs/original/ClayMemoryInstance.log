@@ -1,0 +1,5 @@
+'ClayMemoryInstance.group_count' does not depend on any axioms
+'ClayMemoryInstance.every_group_has_two_histories' does not depend on any axioms
+'ClayMemoryInstance.different_past_stress' depends on axioms: [propext, Quot.sound]
+'ClayMemoryInstance.present_stress_cannot_give_past_stress' depends on axioms: [propext, Quot.sound]
+'ClayMemoryInstance.four_kPa_pair' does not depend on any axioms

@@ -1,0 +1,33 @@
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Same particle history/lean/HistoryMatchCore.lean:71:59: error: unsolved goals
+s c d v b k : ℝ
+hcircle : s ^ 2 + c ^ 2 = 1
+hlevel : s + b * c = b * d
+hb : b ≠ 0
+hk : k ≠ 0
+hL : c - b * s ≠ 0
+hcd : c - d = -s / b
+hcoeff : -s - b * c = -b * d
+⊢ v ^ 2 * s ^ 2 * c * (-(s * c * b * 2) + s ^ 2 * b ^ 2 + c ^ 2)⁻¹ +
+          v ^ 2 * s ^ 2 * c ^ 2 * (-(s * b) + c)⁻¹ * (-(s * c * b * 2) + s ^ 2 * b ^ 2 + c ^ 2)⁻¹ +
+        v ^ 2 * s ^ 3 * b * (-(s * b) + c)⁻¹ * d * (-(s * c * b * 2) + s ^ 2 * b ^ 2 + c ^ 2)⁻¹ -
+      v ^ 2 * s ^ 4 * b ^ 2 * (-(s * b) + c)⁻¹ * (-(s * c * b * 2) + s ^ 2 * b ^ 2 + c ^ 2)⁻¹ =
+    v ^ 2 * s ^ 2 * c ^ 2 * (-(s * c ^ 2 * b * 3) + s ^ 2 * c * b ^ 2 * 3 - s ^ 3 * b ^ 3 + c ^ 3)⁻¹ * 2 -
+          v ^ 2 * s ^ 3 * c * b * (-(s * c ^ 2 * b * 3) + s ^ 2 * c * b ^ 2 * 3 - s ^ 3 * b ^ 3 + c ^ 3)⁻¹ +
+        v ^ 2 * s ^ 3 * b * d * (-(s * c ^ 2 * b * 3) + s ^ 2 * c * b ^ 2 * 3 - s ^ 3 * b ^ 3 + c ^ 3)⁻¹ -
+      v ^ 2 * s ^ 4 * b ^ 2 * (-(s * c ^ 2 * b * 3) + s ^ 2 * c * b ^ 2 * 3 - s ^ 3 * b ^ 3 + c ^ 3)⁻¹
+'HistoryMatchCore.quarter_turn_kills_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.perturbation_keeps_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.strip_image_square_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.global_closest_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.drift_numerator_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.drift_numerator_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.drift_derivative_formula' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'HistoryMatchCore.irrational_turn_law_prevents_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.observation_matches_on_whole_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.no_exact_reader_with_history' depends on axioms: [propext, Classical.choice, Quot.sound]

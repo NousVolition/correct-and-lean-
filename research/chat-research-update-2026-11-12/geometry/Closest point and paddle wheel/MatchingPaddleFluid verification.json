@@ -1,0 +1,37 @@
+{
+  "module": "MatchingPaddleFluid",
+  "status": "PASS",
+  "source_sha256": "bbb4f25936857bb79611ae57584aba75ebab7272a4d84ea5d53af591dc50d243",
+  "object_sha256": "757d9fecfc56ebda90b6811cccf22ab00ffdbc75f31fa990d3475076339b2fc8",
+  "exit_code": 0,
+  "log": "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/logs/MatchingPaddleFluid-20261112T092026.log",
+  "log_sha256": "28ee1ff35f321d2e9c9bd550a03abeefe95b0badb696e7e4e5de265646a8da31",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_reports": [
+    "ClosestPointExample.MatchingPaddle.solves_navier_stokes",
+    "ClosestPointExample.MatchingPaddle.divergence_zero",
+    "ClosestPointExample.MatchingPaddle.smooth_flow",
+    "ClosestPointExample.MatchingPaddle.periodic_flow",
+    "ClosestPointExample.MatchingPaddle.material_markers_stationary",
+    "ClosestPointExample.MatchingPaddle.curl_on_axis",
+    "ClosestPointExample.MatchingPaddle.same_paddle_wheel",
+    "ClosestPointExample.MatchingPaddle.same_paddle_as_previous"
+  ],
+  "command": [
+    "$USER_HOME/verification/bin/lake",
+    "env",
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+    "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean",
+    "-o",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.olean",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean"
+  ],
+  "started_at_utc": "2026-11-12T09:20:26.482555+00:00",
+  "finished_at_utc": "2026-11-12T09:20:55.195559+00:00",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+}

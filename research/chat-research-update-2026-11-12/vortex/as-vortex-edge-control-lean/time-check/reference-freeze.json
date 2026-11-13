@@ -1,0 +1,31 @@
+{
+  "files": {
+    "comparator.json": "6a257629e93e9a66d9a5e2466dd4a699c8d288406a46b307acd4d16a5322f609",
+    "lake-manifest.json": "4841792d1ca18fa09e667bf68d3077c72dcda7f2426e228dd592b95015c3c968",
+    "lakefile.toml": "040e83005f1a62abec08c047eb7045d1f519098b522efc946be9c4c68ff0489f",
+    "lean-toolchain": "b563246bde88bad741a3fe1c6b126ad8dab470340d55ac3e97cca9b3f200878b",
+    "run-check.sh": "0e73a81e50f5034ec98cdc015ba78dfcfc37ce098179ca8f2f53acf1d23c39ce",
+    "TemporalChallenge.lean": "0c7ac8eefdab564f8794a84d7fec64eab25df1866c42e41b8f8914474d6c0618",
+    "TemporalProofs.lean": "7b7694a5d96d54fe3934c5b22be133042e176dc4e9b8d9f039cf55caa0318f27",
+    "TemporalSolution.lean": "da2c160f35aaf8d83ed067d78be514d0a6eba593d760adbe00f17cc61913f1f7",
+    "TemporalStatements.lean": "6ba791e40ad77d5c0fbbd9671d3dad3e481db8c8ee3f2299a7c612556004e9d4"
+  },
+  "solution_modules": [
+    "TemporalStatements.lean",
+    "TemporalProofs.lean",
+    "TemporalSolution.lean"
+  ],
+  "theorems": [
+    "SignedVortex.Rescaled.TimeControl.early_loop_zero",
+    "SignedVortex.Rescaled.TimeControl.same_loop_before_after"
+  ],
+  "prior_freezes": {
+    "as-signed-vortex-lean": "fd16dc9105dad775a7850396b40602ad201a6d8c4a95ba1a912a4dfa5497117c",
+    "as-vortex-hline-lean": "33c1197c9e1e7076d129960329375bb2de5dc96de9ee62a18e254109cfbc14b0",
+    "as-vortex-rescaling-lean": "8f597419767ec35082935f23110e0748d9774ab3949525095b10a7957460ec47"
+  },
+  "upstream_commit": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "corpus_commit": "b4ae2c54cd85bfef282c501ecfca83de274e2070",
+  "original_force_definition_sha256": "085842badbc2b5d75e7749e24766a02ccc21f3cb7b3e638a6c1a4b6534cf79c8",
+  "original_force_match_predicate_module_sha256": "c04f8772aad05229fa4cbc35451ea05907ef82cf12e7c094a0579c29222a3bd0"
+}

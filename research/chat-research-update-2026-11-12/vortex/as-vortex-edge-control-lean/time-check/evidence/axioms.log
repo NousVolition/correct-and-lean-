@@ -1,0 +1,2 @@
+'SignedVortex.Rescaled.TimeControl.early_loop_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedVortex.Rescaled.TimeControl.same_loop_before_after' depends on axioms: [propext, Classical.choice, Quot.sound]

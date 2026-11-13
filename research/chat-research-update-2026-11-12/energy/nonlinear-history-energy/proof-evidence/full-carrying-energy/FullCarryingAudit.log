@@ -1,0 +1,6 @@
+'FullCarrying.pullback_rate_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FullCarrying.carried_gradient_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FullCarrying.recover_spatial_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FullCarrying.carried_gradient_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FullCarrying.required_transfer_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FullCarrying.complete_existing_transfers' depends on axioms: [propext, Classical.choice, Quot.sound]

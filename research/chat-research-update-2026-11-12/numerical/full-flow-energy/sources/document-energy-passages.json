@@ -1,0 +1,19 @@
+{
+  "source": "$USER_HOME\\Documents\\Codex\\2026-10-05\\ca\\outputs\\sims-framework-correction-20261022\\sources\\corrected-corpus.docx",
+  "sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+  "paragraphs": 638,
+  "passages": {
+    "20": "The field is smooth through the axis, rapidly decreasing, and finite-energy. The analytic derivation establishes these properties; finite tests support the implementation. These statements use the checked construction with finite parameters R \u2265 0, a > 0, b > 0, and real A and B.",
+    "228": "2. Governing Momentum Equation",
+    "239": "Kinematic viscosity in the chosen analogy.",
+    "265": "A fixed e\u2096 specifies direction; it does not guarantee drag or energy dissipation. For f to remove kinetic energy pointwise, u \u00b7 f must be nonpositive. The model still needs a domain, initial and boundary data, a definition or equation for S, and compatible coefficient units. A smooth constitutive response is not a proof of smooth solutions for all time. Pressure, viscosity, yield, and boundary remain modeling language unless independently operationalized.",
+    "550": "Assume constant \u03c1 > 0, \u00b5 > 0, and \u03c3 \u2265 0; p = P/\u03c1 and \u03bd = \u00b5/\u03c1 connect this equation to the earlier normalized form. The calibration \u03b7 must give \u0393crit the same units as |\u2207S|. Increasing \u03b7 lowers \u0393crit at fixed \u03c4\u2080, so the label rigidity does not by itself establish stronger resistance. Fixed-direction forcing is not necessarily dissipative. Initial and boundary data, the S coupling, and a domain are required; smooth activation alone does not establish well-posedness or global regularity.",
+    "557": "Baseline viscosity used to define T; specify how it relates to \u00b5 if the models are coupled.",
+    "575": "Constant dynamic viscosity.",
+    "229": "\u2202u/\u2202t + (u \u00b7 \u2207)u = \u2212\u2207p + \u03bd\u2207\u00b2u + f,     \u2207 \u00b7 u = 0.",
+    "230": "f = \u2212(\u03c3/\u03c1) a(q) e\u2096,     q = |\u2207S| \u2212 \u0393crit.",
+    "545": "T = \u00b5\u2080[\u2207u + (\u2207u)\u1d40],     \u00b5\u2080 > 0.",
+    "546": "T is the symmetric viscous stress for the stated incompressible Newtonian analogy. The earlier \u00b5\u2080\u2207u was a scaled velocity-gradient tensor, not this full stress. This constitutive choice does not establish literal fluid behavior in a social system.",
+    "549": "\u03c1[\u2202u/\u2202t + (u \u00b7 \u2207)u] = \u2212\u2207P + \u00b5\u2207\u00b2u \u2212 \u03c3 a\u2080(q)e\u2096,     \u2207 \u00b7 u = 0."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "checked_utc": "2026-11-12T08:57:35.674752+00:00",
+  "method": "Fresh read-only evaluations of saved frame 0 and frame 600, time 1.2, after third write; no new trajectory simulated",
+  "numpy": "2.3.5",
+  "scipy": "1.16.3",
+  "config": {
+    "n": 16,
+    "branch": "smooth",
+    "threshold": 1.0,
+    "sigma": 0.16,
+    "breathing_peak": 0.5,
+    "breathing_period": 0.6
+  },
+  "initial": {
+    "energy": 0.0019879983867931482,
+    "kinetic": 0.0,
+    "elastic": 2.3812434556169725e-07,
+    "thermal": 0.0019877602624475865
+  },
+  "tick41": {
+    "energy": 0.0021601114257081325,
+    "kinetic": 1.3080786183960703e-05,
+    "elastic": 2.1564112756878498e-06,
+    "thermal": 0.002144874228248484
+  },
+  "energy_change": 0.0001721130389149843,
+  "work": {
+    "breathing": 0.00010585622942805919,
+    "write": 4.1831348711659496e-05,
+    "AS": 2.4424321688056888e-05
+  },
+  "work_shares_percent": {
+    "breathing": 61.50389888842017,
+    "write": 24.304578534762964,
+    "AS": 14.190860751765209
+  },
+  "residual": 1.1390872087257455e-09,
+  "residual_ppm": 6.618250516675849,
+  "drift_kinetic": 2.2039707409238895e-06,
+  "elastic_over_coupling": 0.0882895051592078,
+  "drift_kinetic_over_coupling": 0.09023672260268324,
+  "instantaneous": {
+    "mean_force": [
+      -0.001985862370372231,
+      0.0,
+      0.0
+    ],
+    "mean_velocity": [
+      -0.002099509819421614,
+      -1.748349622207393e-20,
+      6.77824881150453e-20
+    ],
+    "power": 3.504362981373114e-05,
+    "mean_power": 4.169337546616381e-06,
+    "fluctuation_power": 3.087429226711476e-05,
+    "projected_force_rms": 0.008555914201355598,
+    "projected_force_fluctuation_rms": 0.008322260418113459,
+    "gradient_component_power": 8.470329472543003e-22,
+    "force_projection_note": "Native periodic Fourier projection; a periodic gradient has zero projected force. Mean and nonconstant projected components are retained."
+  },
+  "ledger_perturbation": {
+    "amount": 1.0,
+    "max_rate_change": 0.0,
+    "all_rate_arrays_identical": true,
+    "interpretation": "ledger[1] is passive in this RHS; this test does not identify its physical reservoir or the user's mentor concept"
+  },
+  "inputs_unchanged": true,
+  "inputs_sha256": {
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\preflight.py": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\run.py": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\social_base.py": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\structural_hug.py": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\test_structure.py": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\reference_gate\\run_manifest.py": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\study\\breathing.py": "aa1dfba9232075474937146698859dcb8cb6d3d42e2732b8b0187a016c2a8900",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\study\\marker-seeds.csv": "3bd95c1b49d205522a72c194cdedcc6e27d3bfbbd4950895e08e9f0303cc5236",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\protocol.json": "47ac7ada9c153b0496f31a6a189bf050858dfd90ede43ad30bcfb5e15f2793a4",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\source_seal.json": "7f7912dc44c0acf55e1df803e4fdc3bebb8da1893371f9e71276323f518c957f",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\declarations\\threshold_1.json": "b88a45c4f5b4d46591e9c01d1b25318dc1e3712c4bf7c196efecd84f6df511ce",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\snapshots\\state-0000.npz": "30bda79e0252670c7233c387c8ae9326f84eba1b4ccea7eef4442fece1549dd4",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\snapshots\\state-0600.npz": "5d95941ffb5e8e230dd538aa7d681dd8d9cb042b3cac11de1b3346ecb1739204"
+  }
+}

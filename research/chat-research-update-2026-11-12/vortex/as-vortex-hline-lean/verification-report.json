@@ -1,0 +1,65 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Both horizontal loop identities in one late-time window for the actual selected unit-viscosity periodic vortex, exclusion for every fixed Cartesian axis and every scalar S at those times, and exclusion of a matching S(t) across 0<t<1. The statements have no hline premise. C¹ spatial periodic pressure is used.",
+  "open_items": [
+    "A separate formal transfer of this new exclusion through every viscosity rescaling and each alternative localization.",
+    "Quantitative numerical onset times and witness offsets. The present theorems prove their existence.",
+    "Which other periodic velocities arise from complete A/S histories, including histories with sustained signed cancellation."
+  ],
+  "number_of_new_targets": 5,
+  "targets": [
+    "SignedVortex.HLine.hline_both",
+    "SignedVortex.HLine.hline_xy",
+    "SignedVortex.HLine.hline_yx",
+    "SignedVortex.HLine.signed_excluded_at_late_times",
+    "SignedVortex.HLine.no_signed_full_trajectory"
+  ],
+  "axioms_by_target": {
+    "SignedVortex.HLine.hline_both": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.HLine.hline_xy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.HLine.hline_yx": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.HLine.signed_excluded_at_late_times": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.HLine.no_signed_full_trajectory": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "upstream_commit": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "corpus_commit": "b4ae2c54cd85bfef282c501ecfca83de274e2070",
+  "baseline_freeze_sha256": "fd16dc9105dad775a7850396b40602ad201a6d8c4a95ba1a912a4dfa5497117c",
+  "original_force_definition_sha256": "085842badbc2b5d75e7749e24766a02ccc21f3cb7b3e638a6c1a4b6534cf79c8",
+  "original_force_match_predicate_module_sha256": "c04f8772aad05229fa4cbc35451ea05907ef82cf12e7c094a0579c29222a3bd0",
+  "earlier_audit_targets": 25,
+  "started_utc": "2026-11-09T04:13:48+00:00",
+  "finished_utc": "2026-11-09T04:21:51+00:00",
+  "initial_attempt": "The first isolated build denied writes to a sibling dependency cache before checking a proof. The final replay started both projects without compiled solutions, with their caches under the new project’s permitted .lake directory. Landrun and the systemd socket restriction were active.",
+  "evidence": {
+    "comparator": "evidence/comparator.log",
+    "axioms": "evidence/axioms.log",
+    "lean_build": "evidence/lean-build.log",
+    "inputs": "reference-freeze.json",
+    "preflight": "evidence/preflight.json",
+    "postflight": "evidence/postflight.json",
+    "initial_attempt": "evidence/initial-cache-layout/comparator.log"
+  }
+}

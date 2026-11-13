@@ -1,0 +1,23 @@
+{
+  "verification_status": "PASS",
+  "cause_repair_status": "NOT DEMONSTRATED",
+  "continue_toward_write11": false,
+  "last_accepted_time": 0.494,
+  "last_checkpoint_sha256": "17ad632d555ba8667781ca5d92a6b5fa9418c3d7daa437bfdbb615099a5c7eed",
+  "traveler_prime": 23,
+  "traveler_fixed_xyz": [
+    -0.0015112272071527938,
+    -3.0069667888127323e-06,
+    9.680726282643336e-05
+  ],
+  "mentor_material_index": 47,
+  "complete_mentor_frame_preserved": true,
+  "record_preserved": true,
+  "unchanged_acceptance_tolerance": "5e-15",
+  "audited_source_hashes_unchanged": true,
+  "original_historical_protocol_hashes_match": true,
+  "current_native_inverse_checks_not_rerun": true,
+  "verification_utc": "2026-11-13T04:04:55.961331+00:00",
+  "scope": "New read-only field, spectral, energy and sensitivity diagnostics. The old full-state step residuals at onset are historical receipts; not fresh replays, since dense histories store only g, X and F.",
+  "remaining": "The existing carried trajectory is already inaccurate and includes negative temperature. The clock wrapper is tested but no cause-level repair or corrected trajectory has been demonstrated without revising that history."
+}

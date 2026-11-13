@@ -1,0 +1,189 @@
+{
+  "source_paragraph_505": "A(t) = ∫₀ᵗ γ[U(s) − Ubaseline] ds,     J(t) = κ A(t).",
+  "source_paragraph_506": "Kₕ is a smooth localized kernel of width h > 0 with spatial integral 1. The original δ(x − x₀) is an alternative point-source idealization interpreted as a distribution, not an ordinary smooth function. A stores accumulated input; κ converts that stored quantity to a source rate with the required units. This retains the original memory choice explicitly. Under closed or periodic boundaries, constant positive excess utility can make the total field grow quadratically in time because the stored input is integrated again by the evolution equation. If instantaneous production is intended instead, specify J(t) = γ[U(t) − Ubaseline] with suitable units; that is a different model. Negative excess input may lower this signed field. Initial and boundary data remain necessary. For compressible transport, replace u · ∇S by ∇ · (Su).",
+  "implementation_rule": {
+    "id": "B04",
+    "category": "Social-material bridge",
+    "title": "Excess-input mapping and baseline",
+    "rule": "Excess U=pulse(t)+social_source*0.8*(U_social-U_social_initial). Baseline computed from initial social state with zero physical observations; gamma=0.08 and kappa=1 are chosen defaults. The accumulator form itself is registered; this U definition is not.",
+    "file": "social_hug.py",
+    "fn": "Solver.social_rhs",
+    "status": "implemented addition",
+    "evidence_link": "source.html#social_hug-py-L144",
+    "source_sha256": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8"
+  },
+  "gamma": 0.08,
+  "kappa": 1.0,
+  "social_source": 1.0,
+  "rows": [
+    {
+      "arm": "off",
+      "time": 1.2,
+      "A": 0.006400422282074228,
+      "pulse": 0.0,
+      "social_utility": 0.09499918466219787,
+      "baseline_utility": -0.0338325700703699,
+      "social_excess": 0.12883175473256775,
+      "A_rate": 0.008245232302884337,
+      "A_rate_contributions": {
+        "remembered_outcomes": 4.5410695195856056e-05,
+        "expression_penalty": -0.0004224375365884755,
+        "reception_margin": 0.004779290630311729,
+        "field_observation": 0.003842968513965227
+      },
+      "utility_components": {
+        "remembered_outcomes": 0.0007095421124352509,
+        "expression_penalty": -0.00660058650919493,
+        "reception_margin": 0.04084384602825087,
+        "field_observation": 0.060046383030706675
+      },
+      "baseline_components": {
+        "remembered_outcomes": 0.0,
+        "expression_penalty": -0.0,
+        "reception_margin": -0.0338325700703699,
+        "field_observation": 0.0
+      }
+    },
+    {
+      "arm": "off",
+      "time": 3.6,
+      "A": 0.031144215888772545,
+      "pulse": 0.0,
+      "social_utility": 0.14827089026964985,
+      "baseline_utility": -0.0338325700703699,
+      "social_excess": 0.18210346034001973,
+      "A_rate": 0.011654621461761263,
+      "A_rate_contributions": {
+        "remembered_outcomes": 4.2382651467463005e-05,
+        "expression_penalty": -0.001085598817560175,
+        "reception_margin": 0.008798476952365998,
+        "field_observation": 0.0038993606754879756
+      },
+      "utility_components": {
+        "remembered_outcomes": 0.0006622289291791095,
+        "expression_penalty": -0.016962481524377734,
+        "reception_margin": 0.10364363231034884,
+        "field_observation": 0.06092751055449962
+      },
+      "baseline_components": {
+        "remembered_outcomes": 0.0,
+        "expression_penalty": -0.0,
+        "reception_margin": -0.0338325700703699,
+        "field_observation": 0.0
+      }
+    },
+    {
+      "arm": "off",
+      "time": 12.0,
+      "A": 0.1355209676069857,
+      "pulse": 0.0,
+      "social_utility": 0.16250272256997325,
+      "baseline_utility": -0.0338325700703699,
+      "social_excess": 0.19633529264034316,
+      "A_rate": 0.012565458728981965,
+      "A_rate_contributions": {
+        "remembered_outcomes": 3.0275704121111457e-05,
+        "expression_penalty": -0.001171286407916658,
+        "reception_margin": 0.009807107354283993,
+        "field_observation": 0.0038993620784935163
+      },
+      "utility_components": {
+        "remembered_outcomes": 0.00047305787689236653,
+        "expression_penalty": -0.018301350123697782,
+        "reception_margin": 0.11940348234031749,
+        "field_observation": 0.06092753247646119
+      },
+      "baseline_components": {
+        "remembered_outcomes": 0.0,
+        "expression_penalty": -0.0,
+        "reception_margin": -0.0338325700703699,
+        "field_observation": 0.0
+      }
+    },
+    {
+      "arm": "on",
+      "time": 1.2,
+      "A": 0.006400028265007236,
+      "pulse": 0.0,
+      "social_utility": 0.09499427523353964,
+      "baseline_utility": -0.0338325700703699,
+      "social_excess": 0.12882684530390953,
+      "A_rate": 0.00824491809945021,
+      "A_rate_contributions": {
+        "remembered_outcomes": 4.5530747885016225e-05,
+        "expression_penalty": -0.00042232879813979923,
+        "reception_margin": 0.004778623499363613,
+        "field_observation": 0.0038430926503413804
+      },
+      "utility_components": {
+        "remembered_outcomes": 0.0007114179357033785,
+        "expression_penalty": -0.006598887470934363,
+        "reception_margin": 0.04083342210718655,
+        "field_observation": 0.060048322661584067
+      },
+      "baseline_components": {
+        "remembered_outcomes": 0.0,
+        "expression_penalty": -0.0,
+        "reception_margin": -0.0338325700703699,
+        "field_observation": 0.0
+      }
+    },
+    {
+      "arm": "on",
+      "time": 3.6,
+      "A": 0.03114410086923041,
+      "pulse": 0.0,
+      "social_utility": 0.14827620394497046,
+      "baseline_utility": -0.0338325700703699,
+      "social_excess": 0.18210877401534037,
+      "A_rate": 0.011654961536981786,
+      "A_rate_contributions": {
+        "remembered_outcomes": 4.249990254941531e-05,
+        "expression_penalty": -0.0010856712866481046,
+        "reception_margin": 0.00879877224421316,
+        "field_observation": 0.0038993606768673132
+      },
+      "utility_components": {
+        "remembered_outcomes": 0.0006640609773346142,
+        "expression_penalty": -0.016963613853876635,
+        "reception_margin": 0.10364824624546072,
+        "field_observation": 0.060927510576051766
+      },
+      "baseline_components": {
+        "remembered_outcomes": 0.0,
+        "expression_penalty": -0.0,
+        "reception_margin": -0.0338325700703699,
+        "field_observation": 0.0
+      }
+    },
+    {
+      "arm": "on",
+      "time": 12.0,
+      "A": 0.13552313692298337,
+      "pulse": 0.0,
+      "social_utility": 0.16250636005386515,
+      "baseline_utility": -0.0338325700703699,
+      "social_excess": 0.19633893012423503,
+      "A_rate": 0.012565691527951044,
+      "A_rate_contributions": {
+        "remembered_outcomes": 3.039796221323523e-05,
+        "expression_penalty": -0.0011713002050815458,
+        "reception_margin": 0.009807231692325839,
+        "field_observation": 0.0038993620784935163
+      },
+      "utility_components": {
+        "remembered_outcomes": 0.00047496815958180045,
+        "expression_penalty": -0.018301565704399152,
+        "reception_margin": 0.11940542512222133,
+        "field_observation": 0.06092753247646119
+      },
+      "baseline_components": {
+        "remembered_outcomes": 0.0,
+        "expression_penalty": -0.0,
+        "reception_margin": -0.0338325700703699,
+        "field_observation": 0.0
+      }
+    }
+  ],
+  "verification": "Read-only inspection of six saved states; no trajectory integrated. Five source hashes matched the run seal; checkpoint hashes and utility/A-rate decompositions checked. Source wording is the frozen corrected Hug extraction used by the run; the original DOCX was not reopened."
+}

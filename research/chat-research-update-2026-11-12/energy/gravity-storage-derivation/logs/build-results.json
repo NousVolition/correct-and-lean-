@@ -1,0 +1,157 @@
+[
+  {
+    "module": "FullModel",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T07:59:54.9922901Z",
+    "finished_utc": "2026-11-12T08:00:14.7164496Z",
+    "source_sha256": "EDBB83823EA0B59FB76477166C3B5020F8DE549EF7DA3FF81CDB451F213D9723",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\unforced-energy-lean\\FullModel.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\build\\FullModel.olean",
+      "FullModel.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\logs-source\\FullModel.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "packaged_log": "logs\\verified\\FullModel.log",
+    "check_origin": "Earlier energy-balance task; final source and compiled-object hashes matched in current task",
+    "origin": "Inherited successful check; unchanged source/object hashes verified in this task"
+  },
+  {
+    "module": "OriginalAS",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T08:00:14.7287731Z",
+    "finished_utc": "2026-11-12T08:00:33.2507388Z",
+    "source_sha256": "C3427004582DA214115240E6B3014D5A40ECBC3DFA98CE8919C916DDAE2E81C5",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\unforced-energy-lean\\OriginalAS.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\build\\OriginalAS.olean",
+      "OriginalAS.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\logs-source\\OriginalAS.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "packaged_log": "logs\\verified\\OriginalAS.log",
+    "check_origin": "Earlier energy-balance task; final source and compiled-object hashes matched in current task",
+    "origin": "Inherited successful check; unchanged source/object hashes verified in this task"
+  },
+  {
+    "module": "OriginalASEnergy",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T08:03:55.2006949Z",
+    "finished_utc": "2026-11-12T08:04:15.2529054Z",
+    "source_sha256": "C583EE0C2B02D59FA5880F6D3429B38E0BE8D0394B5D1DAE4CA15C101CBF3F52",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\unforced-energy-lean\\OriginalASEnergy.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\build\\OriginalASEnergy.olean",
+      "OriginalASEnergy.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\logs-energy-3\\OriginalASEnergy.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "packaged_log": "logs\\verified\\OriginalASEnergy.log",
+    "check_origin": "Earlier energy-balance task; final source and compiled-object hashes matched in current task",
+    "origin": "Inherited successful check; unchanged source/object hashes verified in this task"
+  },
+  {
+    "module": "OriginalASBalance",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T08:06:30.7838784Z",
+    "finished_utc": "2026-11-12T08:06:50.4841028Z",
+    "source_sha256": "021DAE51630C16FF71E28AF127F5883BA19AE243A9331BC54D3545B21124A750",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\unforced-energy-lean\\OriginalASBalance.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\build\\OriginalASBalance.olean",
+      "OriginalASBalance.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\logs-integrated-2\\OriginalASBalance.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "packaged_log": "logs\\verified\\OriginalASBalance.log",
+    "check_origin": "Earlier energy-balance task; final source and compiled-object hashes matched in current task",
+    "origin": "Inherited successful check; unchanged source/object hashes verified in this task"
+  },
+  {
+    "module": "OriginalASIntegrated",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T08:10:44.5886906Z",
+    "finished_utc": "2026-11-12T08:11:03.1346782Z",
+    "source_sha256": "F3B2C146EF848086ED57F7F1CB18956A78241A667E099D1AD78DA1CE1BCD888E",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\unforced-energy-lean\\OriginalASIntegrated.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\build\\OriginalASIntegrated.olean",
+      "OriginalASIntegrated.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\logs-final\\OriginalASIntegrated.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "packaged_log": "logs\\verified\\OriginalASIntegrated.log",
+    "check_origin": "Earlier energy-balance task; final source and compiled-object hashes matched in current task",
+    "origin": "Inherited successful check; unchanged source/object hashes verified in this task"
+  },
+  {
+    "module": "EnergyAccounting",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T08:27:28.4902005Z",
+    "finished_utc": "2026-11-12T08:27:48.3523727Z",
+    "source_sha256": "D24E1C6FB0E00C35B93614C4EBD228D01E34E905B9CBFD1E3FB75DE673347935",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\as-total-energy-audit\\EnergyAccounting.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\build\\EnergyAccounting.olean",
+      "EnergyAccounting.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\as-total-energy\\logs-accounting-3\\EnergyAccounting.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "check_origin": "New compilation in current total-energy task",
+    "origin": "Inherited successful check; unchanged source/object hashes verified in this task"
+  },
+  {
+    "module": "StorageRequirements",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T09:34:24.8405359Z",
+    "finished_utc": "2026-11-12T09:34:43.7470044Z",
+    "source_sha256": "63B3834A6BF3525E395846DD297F3488791E6426AAA72DF13F179E0F6DC28524",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\gravity-storage-derivation\\StorageRequirements.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\build\\StorageRequirements.olean",
+      "StorageRequirements.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\gravity-storage\\logs-proof-2\\StorageRequirements.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "origin": "Fresh Lean check in this task"
+  },
+  {
+    "module": "StorageAudit",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T09:38:33.7555115Z",
+    "finished_utc": "2026-11-12T09:38:51.4135515Z",
+    "source_sha256": "ED2F45D8BE476A34517A14CDF4F884383C6F48C37C32D0EFD6914B5ED07A5527",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\gravity-storage-derivation\\StorageAudit.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\build\\StorageAudit.olean",
+      "StorageAudit.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\gravity-storage\\logs-audit\\StorageAudit.log",
+    "log_sha256": "32436627C80723CEBDC38224FD6578D30132520E0C66E5A7AAF23CD23FB3161F",
+    "origin": "Fresh Lean check in this task"
+  }
+]

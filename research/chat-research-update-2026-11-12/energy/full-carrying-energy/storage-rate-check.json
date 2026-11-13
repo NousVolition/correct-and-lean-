@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "state_frame": 600,
+  "checks": [
+    {
+      "epsilon": 0.001,
+      "energy_directional_derivative": 7.07618473379111e-06,
+      "stress_write_release_rate": 7.076182852172488e-06,
+      "difference": 1.8816186215603542e-12
+    },
+    {
+      "epsilon": 0.0001,
+      "energy_directional_derivative": 7.076182870990111e-06,
+      "stress_write_release_rate": 7.076182852172488e-06,
+      "difference": 1.8817622969829334e-14
+    },
+    {
+      "epsilon": 1e-05,
+      "energy_directional_derivative": 7.0761828522240954e-06,
+      "stress_write_release_rate": 7.076182852172488e-06,
+      "difference": 5.1607176377362757e-17
+    }
+  ],
+  "source_state_sha256": "5d95941ffb5e8e230dd538aa7d681dd8d9cb042b3cac11de1b3346ecb1739204",
+  "script_sha256": "0951bf5aa68c64e171a856b7985c65791719749cc6f1add1175d230f49cbeb77",
+  "state_unchanged": true,
+  "scope": "One directional derivative of W(F,m,b), independent finite differences of energy versus the stress/write/release expression. Not a continuum theorem."
+}

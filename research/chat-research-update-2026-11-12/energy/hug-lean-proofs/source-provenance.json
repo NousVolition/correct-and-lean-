@@ -1,0 +1,55 @@
+{
+  "observed_utc": "2026-11-12T06:51:07.0889427Z",
+  "method": "Local read-only source inspection; this is outside the Lean kernel",
+  "sources": [
+    {
+      "scope": "Copied unchanged and freshly compiled",
+      "role": "Hug model definitions",
+      "sha256": "6A79142D5FA42642BC47A0246F62B4AB89D0C07BA6257FD0D41E39D6F89B61F5",
+      "path": "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-existence-lean\\HugModel.lean"
+    },
+    {
+      "scope": "Copied unchanged and freshly compiled",
+      "role": "Active guard definitions",
+      "sha256": "BE9D734610480AE9376BFD38B287C2BB9B7758CB50E29109BCF26656A7885F19",
+      "path": "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\hug-existence-lean\\ActiveHugModel.lean"
+    },
+    {
+      "scope": "Read-only comparison of ComparisonSolver.breath_at and rhs; constructor checks pattern projection numerically",
+      "role": "Prescribed breathing drive",
+      "sha256": "AA1DFBA9232075474937146698859DCB8CB6D3D42E2732B8B0187A016C2A8900",
+      "path": "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\study\\breathing.py"
+    },
+    {
+      "scope": "Read-only comparison of project, lines 104-110; transforms and spectral mask not formalized",
+      "role": "Fourier-mode pressure and projection",
+      "sha256": "BFD00A7227B375AEE4AE9480B2CDFDED70F42042AFAAAE5D11E2BA87952AECC3",
+      "path": "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\continuum.py"
+    },
+    {
+      "scope": "Read-only comparison of Fabric.energy_force, constitutive, probe, bits_from_probe, lines 57-87",
+      "role": "Synthetic material cell",
+      "sha256": "054953EF78FB8AE95EB518ACC17B9920D99EB016897DB69C538844A0FF48253A",
+      "path": "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\structural_hug.py"
+    },
+    {
+      "scope": "Read comparison peak=0.5, period=0.6, step=0.002, end=1.2",
+      "role": "Breathing-on settings",
+      "sha256": "325EF616BB10D71ACB7A72E200988EC9FFAE7A18795FCAF68D2DD2886F74F07D",
+      "path": "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\provenance\\configuration.json"
+    },
+    {
+      "scope": "Read row prime=41, model_time=1.200, comparison_step=600",
+      "role": "Tick labels",
+      "sha256": "8E2979240D3E92E6BE546DDDE20040168318C36E03011138D816F8D76D0E8719",
+      "path": "$USER_HOME\\Documents\\Codex\\2026-11-11\\please-put-these-on-github-if\\work\\source\\fine-to-broad\\Tick-41-fine-to-broad-test\\model\\outputs\\hug-v3-breathing-setup\\prime-times.csv"
+    }
+  ],
+  "unverified": [
+    "Python floating-point execution",
+    "Exact divergence-free status and unit bound of the numerical breathing pattern",
+    "Complete trajectory or PDE evolution",
+    "Full array/payload/CRC material-reader behavior",
+    "Earlier clay source correspondence for quoted-formula Section 6"
+  ]
+}

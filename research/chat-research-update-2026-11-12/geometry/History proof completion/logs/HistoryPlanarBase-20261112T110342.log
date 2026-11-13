@@ -1,0 +1,12 @@
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean/HistoryPlanarBase.lean:109:108: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'HistoryPlanarBase.profile_original_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.fieldD_at_origin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.flow_curl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.flow_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.solves_unforced_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.smooth_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.periodic_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]

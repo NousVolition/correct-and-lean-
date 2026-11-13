@@ -1,0 +1,1024 @@
+{
+  "plan": {
+    "request": "Set all excess utility to zero at tick 41; keep A already accumulated and determine whether energy continues rising.",
+    "start": 1.2,
+    "switch_tick": 41,
+    "end": 12.0,
+    "arms": [
+      "off",
+      "on"
+    ],
+    "observations_every": 0.1,
+    "integrator": "classical RK4",
+    "steps": [
+      0.01,
+      0.005
+    ],
+    "intervention": "Override the total excess utility passed to the A equation with zero at every RHS stage from t=1.2 onward. Preserve the complete archived state, including its nonzero A. No change to J=kappa*A or its moving kernel, other social evolution, force law, or material/thermal equations.",
+    "checks": [
+      "Original source and checkpoint hashes; initial state exactly matches the archived tick-41 state",
+      "All RHS rates except A exactly match the original solver on the identical state at switch and endpoint",
+      "A exactly constant and its derivative and excess utility exactly zero at every RK stage",
+      "No breathing, squeeze, or additional write work; original payloads decode unchanged every 0.1 time",
+      "Original C-balance, divergence, deformation, and energy-residual limits",
+      "Mean C follows C_mean(1.2)+kappa*A(1.2)*(t-1.2) within the original C-balance tolerance"
+    ],
+    "comparison": {
+      "relative_metrics": [
+        "energy",
+        "peak_slope",
+        "pull_power",
+        "A"
+      ],
+      "relative_tolerance": 0.001,
+      "active_fraction_absolute_tolerance": 0.002
+    },
+    "completion": "Both breathing histories reach t=12 at two step sizes; compare every common reading, report inherited checks and comparison result, and plot/export the selected finer-step measurements against the earlier unclamped run.",
+    "bound": "One run per arm and step, ending at t=12 or first inherited-check violation. If a numerical limit or comparison failure occurs, diagnose it before any recovery; keep all failed evidence and do not relax criteria. Finite duration does not establish infinite-time behavior."
+  },
+  "selected_step": 0.005,
+  "comparison": {
+    "off": {
+      "compared_readings": 109,
+      "last_common_time": 12.0,
+      "errors": {
+        "energy": {
+          "maximum_relative_difference": 7.051410975163541e-09,
+          "time": 1.9
+        },
+        "peak_slope": {
+          "maximum_relative_difference": 5.496239853330247e-07,
+          "time": 2.3
+        },
+        "pull_power": {
+          "maximum_relative_difference": 8.34826815694761e-07,
+          "time": 1.4
+        },
+        "A": {
+          "maximum_relative_difference": 0.0,
+          "time": 1.2
+        }
+      },
+      "maximum_active_fraction_difference": 0.0,
+      "passed": true
+    },
+    "on": {
+      "compared_readings": 109,
+      "last_common_time": 12.0,
+      "errors": {
+        "energy": {
+          "maximum_relative_difference": 1.6957597591007315e-08,
+          "time": 6.8
+        },
+        "peak_slope": {
+          "maximum_relative_difference": 1.3556785871105447e-06,
+          "time": 1.7
+        },
+        "pull_power": {
+          "maximum_relative_difference": 1.1545725542056258e-06,
+          "time": 1.4
+        },
+        "A": {
+          "maximum_relative_difference": 0.0,
+          "time": 1.2
+        }
+      },
+      "maximum_active_fraction_difference": 0.0,
+      "passed": true
+    }
+  },
+  "summary": {
+    "off": {
+      "initial": {
+        "arm": "off",
+        "time": 1.2,
+        "energy": 0.07193621000206277,
+        "kinetic": 0.02672525581676144,
+        "elastic": 0.005415793986843898,
+        "thermal": 0.03979516019845742,
+        "source_work": 0.00039185778970974905,
+        "pull_power": 0.0008445191431520157,
+        "peak_slope": 1.7406780554432761,
+        "threshold": 0.015,
+        "active_fraction": 0.4921875,
+        "A": 0.006400422282074228,
+        "A_rate": 0.0,
+        "mean_context": 0.012804272250714524,
+        "context_source_rate": 0.006400422282074228,
+        "utility": 0.0,
+        "unclamped_utility": 0.10306540378605421,
+        "mean_context_analytic_error": 0.0,
+        "mean_velocity_x": -0.01568186065918376,
+        "bulk_kinetic": 0.00012296037686702763,
+        "fluctuating_kinetic": 0.02660229543989441,
+        "room_first_weight": 0.17411277068226638,
+        "energy_residual": -3.9811452939853e-08,
+        "C_balance": -6.938893903907228e-18,
+        "div_error": 1.6209256159527285e-14,
+        "det_error": 1.3916994410223538e-06,
+        "max_speed": 0.4208733934208392,
+        "min_temperature": 1.004898481723453,
+        "record_count": 3.0,
+        "squeeze_work": 0.06951758893481887,
+        "breathing_work": 0.0,
+        "write_work": 3.8804702193953926e-05
+      },
+      "final": {
+        "arm": "off",
+        "time": 12.0,
+        "energy": 0.1644532886468524,
+        "kinetic": 0.07277954671314171,
+        "elastic": 0.000557067751329869,
+        "thermal": 0.09111667418238083,
+        "source_work": 0.09290893640868092,
+        "pull_power": 0.016536152239534252,
+        "peak_slope": 1.3887139338062928,
+        "threshold": 0.015,
+        "active_fraction": 0.993896484375,
+        "A": 0.006400422282074228,
+        "A_rate": 0.0,
+        "mean_context": 0.08192883289711618,
+        "context_source_rate": 0.006400422282074228,
+        "utility": 0.0,
+        "unclamped_utility": 0.1576292410972427,
+        "mean_context_analytic_error": -1.3877787807814457e-17,
+        "mean_velocity_x": -0.37518759864926937,
+        "bulk_kinetic": 0.07038286709010262,
+        "fluctuating_kinetic": 0.0023966796230390913,
+        "room_first_weight": 0.85,
+        "energy_residual": -3.9785634481370735e-08,
+        "C_balance": 1.8318679906315083e-15,
+        "div_error": 5.3235194030776256e-14,
+        "det_error": 1.3914944183568423e-06,
+        "max_speed": 0.5037091107052596,
+        "min_temperature": 1.083469464881301,
+        "record_count": 3.0,
+        "squeeze_work": 0.06951758893481887,
+        "breathing_work": 0.0,
+        "write_work": 3.8804702193953926e-05
+      },
+      "added_energy": 0.09251707864478964,
+      "added_pull_work": 0.09251707861897117,
+      "energy_balance_mismatch": 2.5818472360050748e-11,
+      "energy_component_changes": {
+        "bulk_kinetic": 0.07025990671323559,
+        "fluctuating_kinetic": -0.02420561581685532,
+        "elastic": -0.004858726235514029,
+        "thermal": 0.05132151398392341
+      },
+      "bulk_fraction_of_added_energy": 0.7594263431402941,
+      "minimum_sampled_energy_increment": 8.87058318905648e-05,
+      "minimum_sampled_pull_power": 0.0008445191431520157,
+      "minimum_sampled_peak_slope": 1.3155171415438707,
+      "minimum_active_fraction": 0.4921875,
+      "earlier_utility_on_final_energy": 5.4587279771468005
+    },
+    "on": {
+      "initial": {
+        "arm": "on",
+        "time": 1.2,
+        "energy": 0.07194811346666305,
+        "kinetic": 0.026694924851776696,
+        "elastic": 0.005407878041584904,
+        "thermal": 0.03984531057330146,
+        "source_work": 0.0003904812665535894,
+        "pull_power": 0.0008464385802080647,
+        "peak_slope": 1.7437862227215322,
+        "threshold": 0.015,
+        "active_fraction": 0.49267578125,
+        "A": 0.006400028265007236,
+        "A_rate": 0.0,
+        "mean_context": 0.012804102272432961,
+        "context_source_rate": 0.006400028265007236,
+        "utility": 0.0,
+        "unclamped_utility": 0.10306147624312763,
+        "mean_context_analytic_error": 0.0,
+        "mean_velocity_x": -0.015680474461340486,
+        "bulk_kinetic": 0.00012293863966637562,
+        "fluctuating_kinetic": 0.02657198621211032,
+        "room_first_weight": 0.17411277068226638,
+        "energy_residual": -3.1368639075157745e-08,
+        "C_balance": -6.938893903907228e-18,
+        "div_error": 1.404432126150823e-14,
+        "det_error": 1.4743092211499942e-06,
+        "max_speed": 0.42085813005240363,
+        "min_temperature": 1.0049718670170662,
+        "record_count": 3.0,
+        "squeeze_work": 0.0694839371839369,
+        "breathing_work": 4.701054796906429e-05,
+        "write_work": 3.871745004943103e-05
+      },
+      "final": {
+        "arm": "on",
+        "time": 12.0,
+        "energy": 0.164475338444815,
+        "kinetic": 0.07278258333851703,
+        "elastic": 0.0005553091053910863,
+        "thermal": 0.09113744600090687,
+        "source_work": 0.09291770621683874,
+        "pull_power": 0.016535761109038503,
+        "peak_slope": 1.389004276835964,
+        "threshold": 0.015,
+        "active_fraction": 0.993896484375,
+        "A": 0.006400028265007236,
+        "A_rate": 0.0,
+        "mean_context": 0.08192440753451112,
+        "context_source_rate": 0.006400028265007236,
+        "utility": 0.0,
+        "unclamped_utility": 0.15763386475871327,
+        "mean_context_analytic_error": 0.0,
+        "mean_velocity_x": -0.37519507143822256,
+        "bulk_kinetic": 0.07038567081576647,
+        "fluctuating_kinetic": 0.002396912522750566,
+        "room_first_weight": 0.85,
+        "energy_residual": -3.13407723107062e-08,
+        "C_balance": -4.6351811278100286e-15,
+        "div_error": 6.006306563222097e-14,
+        "det_error": 1.4741083116387443e-06,
+        "max_speed": 0.5037899841275725,
+        "min_temperature": 1.0834856859559452,
+        "record_count": 3.0,
+        "squeeze_work": 0.0694839371839369,
+        "breathing_work": 4.701054796906429e-05,
+        "write_work": 3.871745004943103e-05
+      },
+      "added_energy": 0.09252722497815194,
+      "added_pull_work": 0.09252722495028516,
+      "energy_balance_mismatch": 2.786677832933293e-11,
+      "energy_component_changes": {
+        "bulk_kinetic": 0.07026273217610009,
+        "fluctuating_kinetic": -0.024175073689359755,
+        "elastic": -0.004852568936193818,
+        "thermal": 0.05129213542760541
+      },
+      "bulk_fraction_of_added_energy": 0.7593736026633342,
+      "minimum_sampled_energy_increment": 8.905302399248027e-05,
+      "minimum_sampled_pull_power": 0.0008464385802080647,
+      "minimum_sampled_peak_slope": 1.3159318651187801,
+      "minimum_active_fraction": 0.49267578125,
+      "earlier_utility_on_final_energy": 5.459901329526749
+    }
+  },
+  "switch_boundary": {
+    "phase": "after the third stored write at prime tick 41",
+    "meter_file": "$USER_HOME\\Documents\\Codex\\2026-11-10\\for-the-after-breathing-stopped-figure\\outputs\\Hug energy at prime ticks.csv",
+    "meter_sha256": "52c41fd7cc128694e12d014e6b6f755e210607bb6f077133e9ff7758057c9bda",
+    "rows": {
+      "off": {
+        "arm": "off",
+        "prime": "41",
+        "model_time": "1.2",
+        "mentor_tick": "300",
+        "traveler_tick": "384",
+        "label_source": "saved meter",
+        "phase": "after_write",
+        "state_source": "archived native endpoint",
+        "write_count": "3",
+        "starting_energy": "0.0019879983867931482",
+        "source_work": "0.00039185778970974905",
+        "squeeze_work": "0.06951758893481887",
+        "breathing_work": "0.0",
+        "write_work": "3.8804702193953926e-05",
+        "total_work": "0.06994825142672256",
+        "expected_energy": "0.0719362498135157",
+        "computed_energy": "0.07193621000206277",
+        "signed_hug_energy_residual": "-3.9811452939853e-08"
+      },
+      "on": {
+        "arm": "on",
+        "prime": "41",
+        "model_time": "1.2",
+        "mentor_tick": "300",
+        "traveler_tick": "384",
+        "label_source": "saved meter",
+        "phase": "after_write",
+        "state_source": "archived native endpoint",
+        "write_count": "3",
+        "starting_energy": "0.0019879983867931482",
+        "source_work": "0.0003904812665535894",
+        "squeeze_work": "0.0694839371839369",
+        "breathing_work": "4.701054796906429e-05",
+        "write_work": "3.871745004943103e-05",
+        "total_work": "0.06996014644850898",
+        "expected_energy": "0.07194814483530212",
+        "computed_energy": "0.07194811346666305",
+        "signed_hug_energy_residual": "-3.1368639075157745e-08"
+      }
+    }
+  },
+  "receipts": {
+    "off": [
+      {
+        "status": "complete",
+        "failure": null,
+        "arm": "off",
+        "integrator": "classical RK4",
+        "start": 1.2,
+        "switch_tick": 41,
+        "requested_end": 12.0,
+        "last_good_time": 12.0,
+        "max_step": 0.01,
+        "steps": 1080,
+        "seconds": 891.5697158000039,
+        "intervention": "Total excess utility is zero at every RHS stage from time 1.2; A is retained with zero derivative. Other social dynamics, moving source kernel and all remaining equations are unchanged.",
+        "frozen_A": 0.006400422282074228,
+        "mean_context_at_switch": 0.012804272250714524,
+        "derivative_isolation_checks": [
+          {
+            "time": 1.2,
+            "original_A_rate": 0.008245232302884337,
+            "clamped_A_rate": 0.0,
+            "all_other_rates_exactly_equal": true
+          },
+          {
+            "time": 12.0,
+            "original_A_rate": 0.01261033923545103,
+            "clamped_A_rate": 0.0,
+            "all_other_rates_exactly_equal": true
+          }
+        ],
+        "source_state": "$USER_HOME\\Documents\\Codex\\2026-11-10\\why-is-the-clock-a-day-4\\work\\hug-breathing\\off\\final_state.npz",
+        "source_state_sha256": "131e53f76d7173aaefa443977d41e71863a2fd9ebbfb646ac4baaefb83eb69b1",
+        "source_hashes": {
+          "experiment": "955efa9c95a0595afdb4763ee0ab026cbd08a238780cfcd9bed3baca83ff12da",
+          "squeeze_seal.json": "2f501fb48c0f9db7506959b457d7194ba8a745773d80c86ed9e646eb71556732",
+          "squeeze_model.py": "2e4aa9d247e935eda6c83642c66470ea6adf57362d9dcfa6ae6ffca736bb73b9",
+          "structural_hug.py": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+          "continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+          "social_base.py": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+          "declaration": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+          "trail": "0fde6bc48827240fb536a9a855fce9b43875f336b4bfc7187722a3e41206d41d"
+        },
+        "driver_sha256": "03be0928964242e24d983b7d6591401d7817a0fb4d07e15e3f76b21e8aee69da",
+        "inherited_limits": {
+          "C_balance": 1e-10,
+          "div_error": 1e-10,
+          "det_error": 0.02,
+          "energy_residual": 2e-05
+        },
+        "unchanged_work_accumulators": {
+          "squeeze_work": 0.06951758893481887,
+          "breathing_work": 0.0,
+          "write_work": 3.8804702193953926e-05
+        },
+        "checkpoints": {
+          "state-1.2.npz": {
+            "sha256": "131e53f76d7173aaefa443977d41e71863a2fd9ebbfb646ac4baaefb83eb69b1",
+            "state_sha256": "aac248d5799dc5a14c9ed178bd563ad3389307f0d12399d2a00a6697a21ca5a3"
+          },
+          "state-1.8.npz": {
+            "sha256": "2632e64e140242b6a4da70cea042687e25fc71811d3f8975e61124dbb879dcfa",
+            "state_sha256": "d9448f87ddc5ccd317e7ec30fa9811b8ce3f62f79cd4f5787b971cfc921d7d0b"
+          },
+          "state-2.4.npz": {
+            "sha256": "271465f743e38d78b241e189fc1cf7e3724d0cdde9dde71765da53f196430bfc",
+            "state_sha256": "510a4097cf0c813b60770d26e239316c0f480069b717d19d4c99d28392ff8813"
+          },
+          "state-3.0.npz": {
+            "sha256": "85568d9e02efb315f4b2da4afaaecc80bf5fae6b34e560f5a59f4013b82afddd",
+            "state_sha256": "6e9d79bce1ac97a7f640f33a5b663310daa591f2d3d3b7bee39332cae45ad819"
+          },
+          "state-3.6.npz": {
+            "sha256": "2035850976089285ff926190664836b0d47e6147662d902701159668df48c6f5",
+            "state_sha256": "756071f34800f2827950b36cd1afc5869e8e7254d1184721a810f0f928386c42"
+          },
+          "state-4.2.npz": {
+            "sha256": "0cd5674beb1fb7814ceb5d05218ef10f5231aaaa3cf982cf5a00117305d4a407",
+            "state_sha256": "d6374660a295bd168fb2831dfeb2653744e1a0ac4e537f7b77a900559fb237b5"
+          },
+          "state-4.8.npz": {
+            "sha256": "e3866e2f16ba6e670dbe8fcc9e227bc9f1116da9a5480116555dae657c70f5cc",
+            "state_sha256": "6d1cca0d417d427d1f7a3a7db17e53a5d0feb02f4b3b337d10f0508cd4222519"
+          },
+          "state-5.4.npz": {
+            "sha256": "db25770b879f7b1972247b3cabaf4d6157a03a53411ed376d1dd2d66e2c23490",
+            "state_sha256": "7fe4ac36ff76a401eae2406a97c9e8656470aa9364833bfb242aea6a615b42c7"
+          },
+          "state-6.0.npz": {
+            "sha256": "3f4a140c3f866a9cf0ad2419872df48ec1a4c1fd7e2cd26462ce3621f3d8b3ee",
+            "state_sha256": "c4104f97b09fb974352b3e71d91ece24479ad924598c88cc923a0ea7e9421a8f"
+          },
+          "state-6.6.npz": {
+            "sha256": "2b02aeedd2ac6ee31fc27fd948a13824c4bbd808026040bb1648f856d97638a1",
+            "state_sha256": "cefec61ab90d522f175129d63bcadc1048f5d73b40f08e6570ba978a136554fd"
+          },
+          "state-7.2.npz": {
+            "sha256": "3fb9c83fe3974942152b2a2f9f355410757b4824ffb20519fcc8108270402f65",
+            "state_sha256": "a78933bd402d2ce2391c250e98c98625b10af5a9498215b78b53bf960ddb6776"
+          },
+          "state-7.8.npz": {
+            "sha256": "3d0ce51b5d7b4b0b837a6b5afb972128e6b254e714dbec40eb192de6d030a64e",
+            "state_sha256": "db2f7fd34dc4100c3f82c659b2c29c6944bcc5baeac4ed823ee5546781c3c5cb"
+          },
+          "state-8.4.npz": {
+            "sha256": "7290ae61b71268a2442c39489f4cc4961bbdf26f8e87e4bb09a84055040f71bf",
+            "state_sha256": "4b82fb08a308d783c2a1b06c59a3946e6e49325d57e12b8321f269c04e6b352d"
+          },
+          "state-9.0.npz": {
+            "sha256": "7ccc08947ea6b0e462f883294f665b091f7bf752a4657d58bc719717aff0dfd5",
+            "state_sha256": "2ab668c576ff8193599c7057dd4bf094711841f18e64dc9ba1725af1b7dc51c1"
+          },
+          "state-9.6.npz": {
+            "sha256": "09c8f038e51b18a8b6e53c924dd43db7b6311302d72322a5fb05849fd76646ed",
+            "state_sha256": "b29264fbb723004af550b11b786fbf7998a8077ec6970978a93cfac48e9be38a"
+          },
+          "state-10.2.npz": {
+            "sha256": "b822ba8f7aae705c48b967fb48ec9230e5f69f1561f193107ff168596c765e53",
+            "state_sha256": "0b41f33f96b0f32ba8cb7be0665ca77cb49a6bf8ef48b1b2c423c17b60adc1c4"
+          },
+          "state-10.8.npz": {
+            "sha256": "88c5959d88956d9854c2351827e760bf1f5a6852ac0964f55dda966ec6160060",
+            "state_sha256": "8a5db6b6099033cda4b83384b50a25447cccbd647e52c4e608c30343ff81fcd6"
+          },
+          "state-11.4.npz": {
+            "sha256": "7ffd445691d6cf5ba38ffac602600f8f6afd9ad33b71c4c42b4b6d5125143b5b",
+            "state_sha256": "19a82b1071360db6deef57a0c74671fc1166d5c087ab7742ad4c1004a1b4e190"
+          },
+          "state-12.0.npz": {
+            "sha256": "95b493a0cdc0e35305337c1270112bdcfa77238ff029392cabb9c0aa919b135c",
+            "state_sha256": "87ef91b9ebb3e4775c24ee9e07c80eb0d9814bb184abffdb0f9db191156cf601"
+          }
+        },
+        "last_reading": {
+          "arm": "off",
+          "time": 12.0,
+          "energy": 0.1644532889284635,
+          "kinetic": 0.07277954598251929,
+          "elastic": 0.0005570680742427734,
+          "thermal": 0.09111667487170146,
+          "source_work": 0.09290893625013807,
+          "pull_power": 0.016536152325756073,
+          "peak_slope": 1.38871401200708,
+          "threshold": 0.015,
+          "active_fraction": 0.993896484375,
+          "A": 0.006400422282074228,
+          "A_rate": 0.0,
+          "mean_context": 0.0819288328971162,
+          "context_source_rate": 0.006400422282074228,
+          "utility": 0.0,
+          "unclamped_utility": 0.15762924044313786,
+          "mean_context_analytic_error": 0.0,
+          "mean_velocity_x": -0.3751875970219456,
+          "bulk_kinetic": 0.07038286647955092,
+          "fluctuating_kinetic": 0.002396679502968374,
+          "room_first_weight": 0.85,
+          "energy_residual": -3.9345480540298183e-08,
+          "C_balance": 1.2490009027033011e-15,
+          "div_error": 3.705195872338862e-14,
+          "det_error": 1.3883704645945016e-06,
+          "max_speed": 0.5037091058361082,
+          "min_temperature": 1.0834694644734322,
+          "record_count": 3,
+          "squeeze_work": 0.06951758893481887,
+          "breathing_work": 0.0,
+          "write_work": 3.8804702193953926e-05
+        },
+        "max_errors": {
+          "C_balance": 1.2490009027033011e-15,
+          "div_error": 4.308359224935998e-14,
+          "det_error": 1.3916994410223538e-06,
+          "energy_residual": 3.983526346285071e-08
+        },
+        "max_A_change": 0.0,
+        "max_abs_A_rate": 0.0,
+        "max_abs_excess_utility": 0.0,
+        "max_analytic_context_error": 2.7755575615628914e-17,
+        "export_balance_identity_error": 1.3877787807814457e-17
+      },
+      {
+        "status": "complete",
+        "failure": null,
+        "arm": "off",
+        "integrator": "classical RK4",
+        "start": 1.2,
+        "switch_tick": 41,
+        "requested_end": 12.0,
+        "last_good_time": 12.0,
+        "max_step": 0.005,
+        "steps": 2160,
+        "seconds": 1476.1150172000052,
+        "intervention": "Total excess utility is zero at every RHS stage from time 1.2; A is retained with zero derivative. Other social dynamics, moving source kernel and all remaining equations are unchanged.",
+        "frozen_A": 0.006400422282074228,
+        "mean_context_at_switch": 0.012804272250714524,
+        "derivative_isolation_checks": [
+          {
+            "time": 1.2,
+            "original_A_rate": 0.008245232302884337,
+            "clamped_A_rate": 0.0,
+            "all_other_rates_exactly_equal": true
+          },
+          {
+            "time": 12.0,
+            "original_A_rate": 0.012610339287779415,
+            "clamped_A_rate": 0.0,
+            "all_other_rates_exactly_equal": true
+          }
+        ],
+        "source_state": "$USER_HOME\\Documents\\Codex\\2026-11-10\\why-is-the-clock-a-day-4\\work\\hug-breathing\\off\\final_state.npz",
+        "source_state_sha256": "131e53f76d7173aaefa443977d41e71863a2fd9ebbfb646ac4baaefb83eb69b1",
+        "source_hashes": {
+          "experiment": "955efa9c95a0595afdb4763ee0ab026cbd08a238780cfcd9bed3baca83ff12da",
+          "squeeze_seal.json": "2f501fb48c0f9db7506959b457d7194ba8a745773d80c86ed9e646eb71556732",
+          "squeeze_model.py": "2e4aa9d247e935eda6c83642c66470ea6adf57362d9dcfa6ae6ffca736bb73b9",
+          "structural_hug.py": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+          "continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+          "social_base.py": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+          "declaration": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+          "trail": "0fde6bc48827240fb536a9a855fce9b43875f336b4bfc7187722a3e41206d41d"
+        },
+        "driver_sha256": "03be0928964242e24d983b7d6591401d7817a0fb4d07e15e3f76b21e8aee69da",
+        "inherited_limits": {
+          "C_balance": 1e-10,
+          "div_error": 1e-10,
+          "det_error": 0.02,
+          "energy_residual": 2e-05
+        },
+        "unchanged_work_accumulators": {
+          "squeeze_work": 0.06951758893481887,
+          "breathing_work": 0.0,
+          "write_work": 3.8804702193953926e-05
+        },
+        "checkpoints": {
+          "state-1.2.npz": {
+            "sha256": "131e53f76d7173aaefa443977d41e71863a2fd9ebbfb646ac4baaefb83eb69b1",
+            "state_sha256": "aac248d5799dc5a14c9ed178bd563ad3389307f0d12399d2a00a6697a21ca5a3"
+          },
+          "state-1.8.npz": {
+            "sha256": "1994abfb2961565e3572937fa3a5062ce6195d1a19e98e08ec4167d3d6950ec2",
+            "state_sha256": "87c625e1bbe1d97979dd7aac17372da25a98b59cca58a64dbe52daad416a8806"
+          },
+          "state-2.4.npz": {
+            "sha256": "411a272410e9bf4f71485f3b0598a0ff8792619c037f0217d5e62664ca55def5",
+            "state_sha256": "a9c313e08fed13797dafad0b72e39d7781404bcab6c45e4a0b122fefe88becaa"
+          },
+          "state-3.0.npz": {
+            "sha256": "2ed550215fc33ca708558cd5ed0ffd3744bf2ad3315eef21adcb6527164373fc",
+            "state_sha256": "2346b37699cae27d60040c50a0c96d182974ecbf364877f59dfa54aba36390ac"
+          },
+          "state-3.6.npz": {
+            "sha256": "668e46a8525ef2639e4407e750e180c2e6dffd0f25314fd1ab962a13245e0958",
+            "state_sha256": "78bacb6651187e8696bbd74a625cc106003e5c0b0411993ca9bc74aff68420b4"
+          },
+          "state-4.2.npz": {
+            "sha256": "035a4a3f1a88897347db4b880cf76d0895350f424dab94a63b8787cf961e29b2",
+            "state_sha256": "93fefc9365be2cd0f848a07fb62a9928c75d4feed6127c49cea143396afe178b"
+          },
+          "state-4.8.npz": {
+            "sha256": "0564b80c835ccb1c338532d8faf4a29926f78f9873957a323dad385e1f4b83af",
+            "state_sha256": "ee975587542ab85e539700bb28385cab5afe51cc52cf0907b921da1170eb2ec0"
+          },
+          "state-5.4.npz": {
+            "sha256": "e0a68030afa4bf8421af5c31cb3d8664a67dce7e1bad783835e09b7f9e38c294",
+            "state_sha256": "ecde176537d655ffe020b19047eb485ee741647a4e2424560e01deda0700196a"
+          },
+          "state-6.0.npz": {
+            "sha256": "e02ad010f3bbc6e20c66990e16c149c13587ab6e625ec8a7de0ff3460505635a",
+            "state_sha256": "5c81f1def78db4e6486408b6c8f77d23130657a5787ae49c752fc8a5549db88c"
+          },
+          "state-6.6.npz": {
+            "sha256": "a7512c8983c82aed26073ac77d5e569ef724f00d65ede3e078381e6abe273a83",
+            "state_sha256": "6ad1421161f37732534abf6db40e587af4af7a22acb1b16ea58aa0ab538b82f5"
+          },
+          "state-7.2.npz": {
+            "sha256": "3d93d65182e27cc7773bc1aa5b3895735cf3fd1995159013619bea9fbe98846e",
+            "state_sha256": "46b609307481624c9ac9f13affa012cff1f0ef4686c58970c9c40361f731802a"
+          },
+          "state-7.8.npz": {
+            "sha256": "b7007e661d6d11ea86f6609195f00880d0bb154ddb72b58f626de2af8362cf0e",
+            "state_sha256": "d27cf2d860af96bb897cb9757006b01634732788be7382622a2449b6b0e3c2c0"
+          },
+          "state-8.4.npz": {
+            "sha256": "d750183b43c5fe9af0025894ca75459840273c3be3cc83f2473c72aec43db9ac",
+            "state_sha256": "12e90ba8527cefd8b4229039953840e8ee62a9242a94ea662b09f7068c1516f4"
+          },
+          "state-9.0.npz": {
+            "sha256": "cc4157ca587756b4a07dfbcc12777390d5dd14eb9571f4a5e3364e1e2550e163",
+            "state_sha256": "690bcad486950e8724b8f2a44191cfc74f2aba380c3a3ba32a9d5aaf7ef44ba1"
+          },
+          "state-9.6.npz": {
+            "sha256": "9562cbb3609280c76a8a672ad2cf0f74325ea4e2e188ddc0724ef153a4bdd4cc",
+            "state_sha256": "70ba8b4424d943ccc3dcfde4d439a3cd6b85ddfcdda1286c8abeaecfbdf65ead"
+          },
+          "state-10.2.npz": {
+            "sha256": "363eba1f4e2faa979c02df9368fc46fad0e3922693af45f61ffc4e38a41212e4",
+            "state_sha256": "0bab337b59923b1cd5114e3a3668a7370c5e7f7ff2431274d0d7fc434bc34ad4"
+          },
+          "state-10.8.npz": {
+            "sha256": "9f889f623f148d52bf6f67e59ac13521c612cb946024bce28cef130630e63934",
+            "state_sha256": "287e43c76389708fa09f2febf8cc1a7a0b19b6938998969996ab37a4e45423fc"
+          },
+          "state-11.4.npz": {
+            "sha256": "3cd9842adbf8b5a201aa5158e9e11abdef70fc5bb5b040a3976f820d6aad7961",
+            "state_sha256": "e36335664cfa90e2324afa5ddf38d5b95bbf806caa155c1cc28256089e61e70f"
+          },
+          "state-12.0.npz": {
+            "sha256": "4141c38970adab3f16f95669b5239a92b32e5b19861329b07c71d7bd8442e0e5",
+            "state_sha256": "d549fe3b8cd8a903e1394d558ab001417c57dcdcecfaf0cef03ca375137b11cc"
+          }
+        },
+        "last_reading": {
+          "arm": "off",
+          "time": 12.0,
+          "energy": 0.1644532886468524,
+          "kinetic": 0.07277954671314171,
+          "elastic": 0.000557067751329869,
+          "thermal": 0.09111667418238083,
+          "source_work": 0.09290893640868092,
+          "pull_power": 0.016536152239534252,
+          "peak_slope": 1.3887139338062928,
+          "threshold": 0.015,
+          "active_fraction": 0.993896484375,
+          "A": 0.006400422282074228,
+          "A_rate": 0.0,
+          "mean_context": 0.08192883289711618,
+          "context_source_rate": 0.006400422282074228,
+          "utility": 0.0,
+          "unclamped_utility": 0.1576292410972427,
+          "mean_context_analytic_error": -1.3877787807814457e-17,
+          "mean_velocity_x": -0.37518759864926937,
+          "bulk_kinetic": 0.07038286709010262,
+          "fluctuating_kinetic": 0.0023966796230390913,
+          "room_first_weight": 0.85,
+          "energy_residual": -3.9785634481370735e-08,
+          "C_balance": 1.8318679906315083e-15,
+          "div_error": 5.3235194030776256e-14,
+          "det_error": 1.3914944183568423e-06,
+          "max_speed": 0.5037091107052596,
+          "min_temperature": 1.083469464881301,
+          "record_count": 3,
+          "squeeze_work": 0.06951758893481887,
+          "breathing_work": 0.0,
+          "write_work": 3.8804702193953926e-05
+        },
+        "max_errors": {
+          "C_balance": 1.8318679906315083e-15,
+          "div_error": 5.3235194030776256e-14,
+          "det_error": 1.3916994410223538e-06,
+          "energy_residual": 3.9815527250186555e-08
+        },
+        "max_A_change": 0.0,
+        "max_abs_A_rate": 0.0,
+        "max_abs_excess_utility": 0.0,
+        "max_analytic_context_error": 2.7755575615628914e-17,
+        "export_balance_identity_error": 2.0816681711721685e-17
+      }
+    ],
+    "on": [
+      {
+        "status": "complete",
+        "failure": null,
+        "arm": "on",
+        "integrator": "classical RK4",
+        "start": 1.2,
+        "switch_tick": 41,
+        "requested_end": 12.0,
+        "last_good_time": 12.0,
+        "max_step": 0.01,
+        "steps": 1080,
+        "seconds": 890.8775421999962,
+        "intervention": "Total excess utility is zero at every RHS stage from time 1.2; A is retained with zero derivative. Other social dynamics, moving source kernel and all remaining equations are unchanged.",
+        "frozen_A": 0.006400028265007236,
+        "mean_context_at_switch": 0.012804102272432961,
+        "derivative_isolation_checks": [
+          {
+            "time": 1.2,
+            "original_A_rate": 0.00824491809945021,
+            "clamped_A_rate": 0.0,
+            "all_other_rates_exactly_equal": true
+          },
+          {
+            "time": 12.0,
+            "original_A_rate": 0.01261070940400735,
+            "clamped_A_rate": 0.0,
+            "all_other_rates_exactly_equal": true
+          }
+        ],
+        "source_state": "$USER_HOME\\Documents\\Codex\\2026-11-10\\why-is-the-clock-a-day-4\\work\\hug-breathing\\on\\final_state.npz",
+        "source_state_sha256": "9f16cae859b04323a21bcc486c06df71eae8c0ea9d5a2fbad33b30e9730f96ae",
+        "source_hashes": {
+          "experiment": "955efa9c95a0595afdb4763ee0ab026cbd08a238780cfcd9bed3baca83ff12da",
+          "squeeze_seal.json": "2f501fb48c0f9db7506959b457d7194ba8a745773d80c86ed9e646eb71556732",
+          "squeeze_model.py": "2e4aa9d247e935eda6c83642c66470ea6adf57362d9dcfa6ae6ffca736bb73b9",
+          "structural_hug.py": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+          "continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+          "social_base.py": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+          "declaration": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+          "trail": "0fde6bc48827240fb536a9a855fce9b43875f336b4bfc7187722a3e41206d41d"
+        },
+        "driver_sha256": "03be0928964242e24d983b7d6591401d7817a0fb4d07e15e3f76b21e8aee69da",
+        "inherited_limits": {
+          "C_balance": 1e-10,
+          "div_error": 1e-10,
+          "det_error": 0.02,
+          "energy_residual": 2e-05
+        },
+        "unchanged_work_accumulators": {
+          "squeeze_work": 0.0694839371839369,
+          "breathing_work": 4.701054796906429e-05,
+          "write_work": 3.871745004943103e-05
+        },
+        "checkpoints": {
+          "state-1.2.npz": {
+            "sha256": "9f16cae859b04323a21bcc486c06df71eae8c0ea9d5a2fbad33b30e9730f96ae",
+            "state_sha256": "a263af153b572912e1132067cdd8243bf0f1d5ebfa34bba38f821649dcb47082"
+          },
+          "state-1.8.npz": {
+            "sha256": "80090e1b02b34e3033a9765008e624bf4d6e05ff4e28e99a45c73d6451a7108d",
+            "state_sha256": "93e24c463e67ce22402c98df69557d41c1432fb47f4933e54ad39ad7f9462f7d"
+          },
+          "state-2.4.npz": {
+            "sha256": "da27c921401c7e78be2e9b66ffcc8e2e43b890e1a7f42a77c7776c3b0641dd24",
+            "state_sha256": "13c304458082839b32028d72a9adba3cf23525c6de7e2d079db599664603a7d2"
+          },
+          "state-3.0.npz": {
+            "sha256": "1fe92d1b21815ca31af0377f8ea59b507c697831a6a783ac50d9e8d207c342c9",
+            "state_sha256": "bcadb2c2699284024d9f6c62d3e8844baa8583c2435e79369d843f63cc3be3dd"
+          },
+          "state-3.6.npz": {
+            "sha256": "a3b14f93911a1bb1d8d44bd37801900d48d7b1151d74220c55bd06d542579869",
+            "state_sha256": "929dea5adddf0c1c915a455d079e983cd32d99ff22356e82605072ae79a7a38f"
+          },
+          "state-4.2.npz": {
+            "sha256": "49a88bae5cd33ad7f5f1dcd5fb7a6ef3812d67123b20b57597ec4c01bee23d8f",
+            "state_sha256": "651fb3e277a55638378482526535f1446c9fd8f7669083640540329e732a9916"
+          },
+          "state-4.8.npz": {
+            "sha256": "c6d4f438f08502c24bb48c0467eee3eab4e74c7fa4f081da5846c7bb611740ab",
+            "state_sha256": "8e413bcad80c2016f04bdea52416527c3f03a2fa9ac620dc4149c527ae46876f"
+          },
+          "state-5.4.npz": {
+            "sha256": "da5bd00f775b795e676714039d640e49c6e70485f963b00e474e2782990314c3",
+            "state_sha256": "8c29b7cc692e60659a96571136dfce20d03967d667a014fa704f43e8701ed035"
+          },
+          "state-6.0.npz": {
+            "sha256": "6c50d0d841ae75ee1c15fcc7da33f9d3c74a1a461dabf2a53ffae0feee8fd816",
+            "state_sha256": "9dca34ee0909fd88fcf944d2388df37569c2c13b82339705492a219e00aee598"
+          },
+          "state-6.6.npz": {
+            "sha256": "8d3b7ce39c07ed890d3bd164fe1a3257a64c529a04e2c8219418532a738ccacc",
+            "state_sha256": "573edfd5d5890ab063d91d4085e3bc20159a3204179b91f77d3d42561345d28d"
+          },
+          "state-7.2.npz": {
+            "sha256": "f812b689ab628aeb719fce0edec9354e6132be975965cf36d309845d0b1145ac",
+            "state_sha256": "2841e215c62cecaf58e2fcad1037362fc805fc128d8eebfaa4e62433bc0b309e"
+          },
+          "state-7.8.npz": {
+            "sha256": "9538552798efe4e7327b1123ae46aefb9dfd6808eff7ccad8fddf6b7986fe0d7",
+            "state_sha256": "d34b5935f8794da23fe877c53654f9970b22d8408cf26958439650d3001e99f8"
+          },
+          "state-8.4.npz": {
+            "sha256": "642cca9a993410b18b3564aa6c3b8dd6f90d1fceb1b461deadbe50bc39cd97ba",
+            "state_sha256": "e7796682576a02abfecef8554e873b089af29d2e0d5e6139ec659fe481c814f4"
+          },
+          "state-9.0.npz": {
+            "sha256": "0c5ef46b645cbb3d1040b3b78e571b080146cd59b701d0d65ab78bf99cb8092d",
+            "state_sha256": "cb0f6d5e27ca4db138f16dbb62c1d607303354a1d16075b1d2287db95aad396f"
+          },
+          "state-9.6.npz": {
+            "sha256": "86a1499211bf93cd9ffbd32549a74524e55bddb0b291cd8824dd0298eccc6678",
+            "state_sha256": "0415b393deaaecd8aa09d3f0f2beb8e49df2585bf9a715a530e1410fe933cf89"
+          },
+          "state-10.2.npz": {
+            "sha256": "3d043169aecca7d814162a5175ecbe3fb04996610c3b5a2eb19e69a057518dc4",
+            "state_sha256": "dc5bc5c32b32026b27b0c44baccec633bea5995e8ea4dd7a05fc5a8ff4ff1e45"
+          },
+          "state-10.8.npz": {
+            "sha256": "692031991ba6226e0c8304792ac50d704e7bdf145bf960d4acf09f5d74a843d4",
+            "state_sha256": "6743b9b489685067f6be85a3de698ae2fdde7ff0ceee60a64e11e90d8df62699"
+          },
+          "state-11.4.npz": {
+            "sha256": "524e803e079571338f1c839e25c9f0906a31fcb01f70263754ec39b4e5624e6a",
+            "state_sha256": "aaf53b0847c3f09a0098bf35350b78ddde0d7557214b452a76dafcea4b383aec"
+          },
+          "state-12.0.npz": {
+            "sha256": "2771e6537ec17bd50fba1c3cf8535db8b9fc388f66164ae1cf72b2128a920ca1",
+            "state_sha256": "79a8d48e072649d148fdc117d6206223b6404b0178f36980dc090640bc43cd45"
+          }
+        },
+        "last_reading": {
+          "arm": "on",
+          "time": 12.0,
+          "energy": 0.16447533652435745,
+          "kinetic": 0.0727825826335271,
+          "elastic": 0.0005553085766181521,
+          "thermal": 0.0911374453142122,
+          "source_work": 0.0929177038628623,
+          "pull_power": 0.016535761131876367,
+          "peak_slope": 1.389004192902724,
+          "threshold": 0.015,
+          "active_fraction": 0.993896484375,
+          "A": 0.006400028265007236,
+          "A_rate": 0.0,
+          "mean_context": 0.0819244075345111,
+          "context_source_rate": 0.006400028265007236,
+          "utility": 0.0,
+          "unclamped_utility": 0.15763386755009187,
+          "mean_context_analytic_error": -1.3877787807814457e-17,
+          "mean_velocity_x": -0.3751950696748566,
+          "bulk_kinetic": 0.07038567015416025,
+          "fluctuating_kinetic": 0.002396912479366853,
+          "room_first_weight": 0.85,
+          "energy_residual": -3.0907253395495715e-08,
+          "C_balance": -1.2628786905111156e-15,
+          "div_error": 3.707104068162437e-14,
+          "det_error": 1.4710500340076038e-06,
+          "max_speed": 0.5037899839420646,
+          "min_temperature": 1.0834856834090936,
+          "record_count": 3,
+          "squeeze_work": 0.0694839371839369,
+          "breathing_work": 4.701054796906429e-05,
+          "write_work": 3.871745004943103e-05
+        },
+        "max_errors": {
+          "C_balance": 1.2628786905111156e-15,
+          "div_error": 4.056477376224166e-14,
+          "det_error": 1.4743092211499942e-06,
+          "energy_residual": 3.139502066651367e-08
+        },
+        "max_A_change": 0.0,
+        "max_abs_A_rate": 0.0,
+        "max_abs_excess_utility": 0.0,
+        "max_analytic_context_error": 1.3877787807814457e-17,
+        "export_balance_identity_error": 2.0816681711721685e-17
+      },
+      {
+        "status": "complete",
+        "failure": null,
+        "arm": "on",
+        "integrator": "classical RK4",
+        "start": 1.2,
+        "switch_tick": 41,
+        "requested_end": 12.0,
+        "last_good_time": 12.0,
+        "max_step": 0.005,
+        "steps": 2160,
+        "seconds": 1472.8716787000012,
+        "intervention": "Total excess utility is zero at every RHS stage from time 1.2; A is retained with zero derivative. Other social dynamics, moving source kernel and all remaining equations are unchanged.",
+        "frozen_A": 0.006400028265007236,
+        "mean_context_at_switch": 0.012804102272432961,
+        "derivative_isolation_checks": [
+          {
+            "time": 1.2,
+            "original_A_rate": 0.00824491809945021,
+            "clamped_A_rate": 0.0,
+            "all_other_rates_exactly_equal": true
+          },
+          {
+            "time": 12.0,
+            "original_A_rate": 0.012610709180697063,
+            "clamped_A_rate": 0.0,
+            "all_other_rates_exactly_equal": true
+          }
+        ],
+        "source_state": "$USER_HOME\\Documents\\Codex\\2026-11-10\\why-is-the-clock-a-day-4\\work\\hug-breathing\\on\\final_state.npz",
+        "source_state_sha256": "9f16cae859b04323a21bcc486c06df71eae8c0ea9d5a2fbad33b30e9730f96ae",
+        "source_hashes": {
+          "experiment": "955efa9c95a0595afdb4763ee0ab026cbd08a238780cfcd9bed3baca83ff12da",
+          "squeeze_seal.json": "2f501fb48c0f9db7506959b457d7194ba8a745773d80c86ed9e646eb71556732",
+          "squeeze_model.py": "2e4aa9d247e935eda6c83642c66470ea6adf57362d9dcfa6ae6ffca736bb73b9",
+          "structural_hug.py": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+          "continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+          "social_base.py": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+          "declaration": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+          "trail": "0fde6bc48827240fb536a9a855fce9b43875f336b4bfc7187722a3e41206d41d"
+        },
+        "driver_sha256": "03be0928964242e24d983b7d6591401d7817a0fb4d07e15e3f76b21e8aee69da",
+        "inherited_limits": {
+          "C_balance": 1e-10,
+          "div_error": 1e-10,
+          "det_error": 0.02,
+          "energy_residual": 2e-05
+        },
+        "unchanged_work_accumulators": {
+          "squeeze_work": 0.0694839371839369,
+          "breathing_work": 4.701054796906429e-05,
+          "write_work": 3.871745004943103e-05
+        },
+        "checkpoints": {
+          "state-1.2.npz": {
+            "sha256": "9f16cae859b04323a21bcc486c06df71eae8c0ea9d5a2fbad33b30e9730f96ae",
+            "state_sha256": "a263af153b572912e1132067cdd8243bf0f1d5ebfa34bba38f821649dcb47082"
+          },
+          "state-1.8.npz": {
+            "sha256": "4ee38917ae8bde7fa0461fc16310a1563d98cef5c0836fd1094d47f5886c0186",
+            "state_sha256": "f0f7998351ac0cda37a63ebe30ad7fe8ac302c8488fa5a23ef92a531faf8f03e"
+          },
+          "state-2.4.npz": {
+            "sha256": "6ebf8cb5ed6dc376398b16c80064c9e81a97426cec3cb9f00ed48d8ae0fa184f",
+            "state_sha256": "845085d1b6eb6d3241c18c7fd6ea1116673bc393fd9b9080a21f07bb4fe35632"
+          },
+          "state-3.0.npz": {
+            "sha256": "906a5797a8ca3fb4f7faf0567b4818188ee886ad688f74c839a94530bd910098",
+            "state_sha256": "0f9c5a8e92d6fc62574b3536307c60d6ea6ee8bc0c015a03b9a598599310cb86"
+          },
+          "state-3.6.npz": {
+            "sha256": "6e0157e905c43e2a3dc33f4045c1debe26cd8468265595a6cd5beb43d660c440",
+            "state_sha256": "78040adb7fa4b7acc927a346bfece6a79e74de0c3123b0e7d761cf9ede599e3f"
+          },
+          "state-4.2.npz": {
+            "sha256": "03bcda2199c62f3625d9d52845206f6d77cdd97e78399cc31d0f3bc3c21fe943",
+            "state_sha256": "39eaff9b61da309d79702b82a545d8a38ed2e8a1163654fc6f8c2e9c64c951f6"
+          },
+          "state-4.8.npz": {
+            "sha256": "70e6fa2a32ed4d442368e8f8e9e1c02d12c51637129cd1236805d1826fea92ec",
+            "state_sha256": "8159fd266d251e1fe5a6dcb8b51d874b46d2f8cf93f3f3f6277c851325a97275"
+          },
+          "state-5.4.npz": {
+            "sha256": "cb428d3688fe89a40e1bd8a0cfab2e90029c8e555b364b4ec1e3a077bf73acd4",
+            "state_sha256": "147fcb7a68b476d2804467a07953be6b691c428aa07bdc3cd4ad5be6c0850c68"
+          },
+          "state-6.0.npz": {
+            "sha256": "2442f4291a4b1f50ee6fa87d5309547a2b9afe8c1a4e168c6b6450e4fe372450",
+            "state_sha256": "31ad0a5b33d432353020f38df738c4c53354703cbbe2b0401972573b41c55040"
+          },
+          "state-6.6.npz": {
+            "sha256": "e28e85132ab91811d64d09c03b9a98bc84d894618844c20cd030b7a78a07de99",
+            "state_sha256": "21d012df4176a8d62fb5333189952cf490d689f146dfa567a39cd5e50b282856"
+          },
+          "state-7.2.npz": {
+            "sha256": "ab947596076bd50cdb389c40be2cc635797c7ad42e57f23eb43102f1a12184e9",
+            "state_sha256": "f05adb72fb6fd091a01d927d54a842bae3afc1e4ee7b7ebb00eb1954350c5b90"
+          },
+          "state-7.8.npz": {
+            "sha256": "0847d4d6746cca92847b31a9380fde67fff66bdb34436a6a4efaa2dc1e495c7a",
+            "state_sha256": "afd8eeb007240ee6621abbd35736be27fdcadf952682a331887f357f174edf7f"
+          },
+          "state-8.4.npz": {
+            "sha256": "890d981add81752ba753ba86aa6a1b11826e63850f251fc3e26b36f67dd2fa84",
+            "state_sha256": "bbc20eb52805f798fdfc03bee73c36cf5cfffaeb88971e054e7bc828c1a5a341"
+          },
+          "state-9.0.npz": {
+            "sha256": "892a86905b6df50e0cb0926d820408b6eeca1721b7263cc7ec9936f58d1e2e86",
+            "state_sha256": "3a63226444a7eedd06a63e8ff9afeb298ec451cfb9ef32f0cc647357f74cc469"
+          },
+          "state-9.6.npz": {
+            "sha256": "3a5ae29d781f0233e4942a81a9c8546b345d8bfd38fcf2fed071a7121a11da90",
+            "state_sha256": "27d1cacabd1fe44b3bb53fc460577f440dcb0451235e94d66a3b532f0c085d1f"
+          },
+          "state-10.2.npz": {
+            "sha256": "8ad2ceb4b7bbf7ee175d91a2d061a49075a824491ce05a9cf292c9bec691eec3",
+            "state_sha256": "2c809bf9a781a2961c47a36f3125e89e8caa8fd0a8f6e978ada748eb0fbee8f1"
+          },
+          "state-10.8.npz": {
+            "sha256": "39b4ea172220356c1723bd06c262a5762d880c0cfa3a9a21c6ba6f996d446c27",
+            "state_sha256": "d3fae8cd83ca5d1993688af0c1ea92b1c7324536efa30bc0b3ef2ea8f7f25024"
+          },
+          "state-11.4.npz": {
+            "sha256": "bc79bb478335ef2e4ebbc841e648cfe6d2fcbf687488dca372268169232390ec",
+            "state_sha256": "ce82e1915f1844221da89f9400a6ddf5485774b9a0b525b7b3bce0bd9f7812aa"
+          },
+          "state-12.0.npz": {
+            "sha256": "e490751a1865f9ca866070ac1c8628093f52011683bdf76cf0ebdc4c62b0f228",
+            "state_sha256": "9757a85edc4352fa71fbb5ec8e9aeba502562cf66b582a2693da22e8296d7c09"
+          }
+        },
+        "last_reading": {
+          "arm": "on",
+          "time": 12.0,
+          "energy": 0.164475338444815,
+          "kinetic": 0.07278258333851703,
+          "elastic": 0.0005553091053910863,
+          "thermal": 0.09113744600090687,
+          "source_work": 0.09291770621683874,
+          "pull_power": 0.016535761109038503,
+          "peak_slope": 1.389004276835964,
+          "threshold": 0.015,
+          "active_fraction": 0.993896484375,
+          "A": 0.006400028265007236,
+          "A_rate": 0.0,
+          "mean_context": 0.08192440753451112,
+          "context_source_rate": 0.006400028265007236,
+          "utility": 0.0,
+          "unclamped_utility": 0.15763386475871327,
+          "mean_context_analytic_error": 0.0,
+          "mean_velocity_x": -0.37519507143822256,
+          "bulk_kinetic": 0.07038567081576647,
+          "fluctuating_kinetic": 0.002396912522750566,
+          "room_first_weight": 0.85,
+          "energy_residual": -3.13407723107062e-08,
+          "C_balance": -4.6351811278100286e-15,
+          "div_error": 6.006306563222097e-14,
+          "det_error": 1.4741083116387443e-06,
+          "max_speed": 0.5037899841275725,
+          "min_temperature": 1.0834856859559452,
+          "record_count": 3,
+          "squeeze_work": 0.0694839371839369,
+          "breathing_work": 4.701054796906429e-05,
+          "write_work": 3.871745004943103e-05
+        },
+        "max_errors": {
+          "C_balance": 4.6351811278100286e-15,
+          "div_error": 6.468783841917514e-14,
+          "det_error": 1.4743092211499942e-06,
+          "energy_residual": 3.137076914905279e-08
+        },
+        "max_A_change": 0.0,
+        "max_abs_A_rate": 0.0,
+        "max_abs_excess_utility": 0.0,
+        "max_analytic_context_error": 2.7755575615628914e-17,
+        "export_balance_identity_error": 2.0816681711721685e-17
+      }
+    ]
+  },
+  "interpretation_limits": "The prescribed excess utility is zero, but J=kappa*A remains nonzero. Other social evolution and the moving source kernel remain as implemented. Finite-time results on the existing grid do not establish infinite-time behavior or spatial convergence."
+}

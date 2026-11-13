@@ -1,0 +1,11 @@
+{
+  "source": "$USER_HOME\\Documents\\Codex\\2026-10-05\\ca\\outputs\\sims-framework-correction-20261022\\sources\\corrected-corpus.docx",
+  "sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+  "paragraph_count": 638,
+  "passages": {
+    "517": "\u2202S/\u2202t + u \u00b7 \u2207S = D_diff \u2207\u00b2S + K\u2095(x \u2212 x\u2080) J(t).",
+    "518": "A(t) = \u222b\u2080\u1d57 \u03b3[U(s) \u2212 Ubaseline] ds,     J(t) = \u03ba A(t).",
+    "519": "K\u2095 is a smooth localized kernel of width h > 0 with spatial integral 1. The original \u03b4(x \u2212 x\u2080) is an alternative point-source idealization interpreted as a distribution, not an ordinary smooth function. A stores accumulated input; \u03ba converts that stored quantity to a source rate with the required units. This retains the original memory choice explicitly. Under closed or periodic boundaries, constant positive excess utility can make the total field grow quadratically in time because the stored input is integrated again by the evolution equation. If instantaneous production is intended instead, specify J(t) = \u03b3[U(t) \u2212 Ubaseline] with suitable units; that is a different model. Negative excess input may lower this signed field. Initial and boundary data remain necessary. For compressible transport, replace u \u00b7 \u2207S by \u2207 \u00b7 (Su)."
+  },
+  "read_only": true
+}

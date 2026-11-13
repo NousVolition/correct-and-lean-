@@ -1,0 +1,38 @@
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:120:8: warning: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [flow_partial]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:152:65: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:153:14: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:153:30: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:153:42: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:157:77: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:158:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:158:38: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'ClosestPointExample.MatchingPaddle.solves_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.divergence_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.material_markers_stationary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.curl_on_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.same_paddle_wheel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.same_paddle_as_previous' depends on axioms: [propext, Classical.choice, Quot.sound]

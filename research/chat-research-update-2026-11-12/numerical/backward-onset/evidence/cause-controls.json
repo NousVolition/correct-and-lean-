@@ -1,0 +1,172 @@
+{
+  "read_only": true,
+  "native_step_calls": 8,
+  "elapsed_seconds": 17.21662774799961,
+  "energy_extraction_agrees_with_native_stats": {
+    "kinetic": "0.0",
+    "elastic": "0.0",
+    "thermal": "0.0",
+    "energy": "0.0"
+  },
+  "read_only_stats_det_workaround": "Temporary explicit 3x3 determinant for the unsupported longdouble diagnostic. Not active during native steps; no source or state file changed.",
+  "native_sensitivity": [
+    {
+      "wave": [
+        1,
+        1,
+        1
+      ],
+      "amplitude": "1e-08",
+      "native_velocity_forward_gain": "0.99653290826344374293",
+      "frozen_viscosity_forward_gain": "0.99653353601528936906",
+      "reciprocal_frozen_gain": "1.003478522156486108",
+      "note": "Directional velocity gain, not a full-state condition number."
+    },
+    {
+      "wave": [
+        5,
+        -5,
+        -5
+      ],
+      "amplitude": "1e-08",
+      "native_velocity_forward_gain": "0.916951219609190847",
+      "frozen_viscosity_forward_gain": "0.9169514731650637787",
+      "reciprocal_frozen_gain": "1.0905702529145578385",
+      "note": "Directional velocity gain, not a full-state condition number."
+    },
+    {
+      "wave": [
+        5,
+        -5,
+        -5
+      ],
+      "amplitude": "5e-09",
+      "native_velocity_forward_gain": "0.91695121960919226905",
+      "frozen_viscosity_forward_gain": "0.9169514731650637787",
+      "reciprocal_frozen_gain": "1.0905702529145578385",
+      "note": "Directional velocity gain, not a full-state condition number."
+    }
+  ],
+  "archived_velocity_growth_0800_to_0650": {
+    "min_gain": 1.0907240837492653,
+    "max_gain": 1.0908430908905538,
+    "geometric_mean": 1.0907767728667044
+  },
+  "clock_grid": {
+    "mismatched_steps": 32,
+    "total_steps": 100,
+    "maximum_absolute_time_difference": 2.220446049250313e-16,
+    "examples": [
+      {
+        "step": 29,
+        "forward": 1.342,
+        "inverse": 1.3419999999999999,
+        "difference": -2.220446049250313e-16
+      },
+      {
+        "step": 31,
+        "forward": 1.338,
+        "inverse": 1.3379999999999999,
+        "difference": -2.220446049250313e-16
+      },
+      {
+        "step": 33,
+        "forward": 1.334,
+        "inverse": 1.3339999999999999,
+        "difference": -2.220446049250313e-16
+      },
+      {
+        "step": 35,
+        "forward": 1.33,
+        "inverse": 1.3299999999999998,
+        "difference": -2.220446049250313e-16
+      },
+      {
+        "step": 37,
+        "forward": 1.326,
+        "inverse": 1.3259999999999998,
+        "difference": -2.220446049250313e-16
+      }
+    ],
+    "one_step_test": {
+      "forward_time": 1.3,
+      "inverse_time": 1.2999999999999998,
+      "map_difference": {
+        "g": "2.0193265462542520083e-18",
+        "X": "1.3552527156068805425e-20",
+        "F": "1.084202172485504434e-19",
+        "m": "2.710505431213761085e-20",
+        "A": "0.0",
+        "ledger": "1.3234889800848442798e-23",
+        "expression": "0.0",
+        "context": "5.42101086242752217e-20",
+        "norm": "0.0",
+        "logradius": "0.0",
+        "relation": "0.0",
+        "responses": "0.0",
+        "association": "0.0",
+        "b": "0.0",
+        "write_work": "0.0",
+        "observer_X": "1.3552527156068805425e-20",
+        "breathing_work": "6.3130424350047072146e-21"
+      }
+    },
+    "attribution": "Potential small error seed; this audit does not quantify its fraction of later divergence. The later 41-to-0.494 segments use matching integer-frame clocks."
+  },
+  "historical_inverse_residuals_at_temperature_crossing": [
+    {
+      "time": 0.55,
+      "iterations": 15,
+      "residual": 1.6653345369377348e-15
+    },
+    {
+      "time": 0.548,
+      "iterations": 15,
+      "residual": 2.1094237467877974e-15
+    },
+    {
+      "time": 0.546,
+      "iterations": 15,
+      "residual": 2.9976021664879227e-15
+    },
+    {
+      "time": 0.544,
+      "iterations": 15,
+      "residual": 3.552713678800501e-15
+    }
+  ],
+  "source_hashes": {
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-reverse-47-41/h002/exact/input-47.npz": "821cf2fdce3c1aa67fd361d7e3b0d3a499be1c352068346fbfce887277855dde",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-reverse-47-41/h002/prime-47.npz": "821cf2fdce3c1aa67fd361d7e3b0d3a499be1c352068346fbfce887277855dde",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-reverse-47-41/h002/exact/last-state.npz": "98af00d1bfadabdd36ac63bbc8ead5cbcb58d1dfe2b4fe95bf72b71321269e07",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-reverse-47-41/h002/prime-41-target.npz": "796ecef6967278c3f6a3dbb65f9f2b7d2b2e2b8ff3117b28cc3539ae2f4ddca5",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-cross-write-41/inverse/prime-41-before-write.npz": "9b16f2b5e57ab7f16c1c3dc57ec60c167c52360103bb3ff7cce122a601c4fdc4",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/threshold-one-pair/on/prime-41-before_write.npz": "1cc023ac925b99126a5b1ce6a295b6b7fd6cc879bf34cc7113eba71e408c3947",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-cross-write-41/inverse/prime-37.npz": "cb7ee99437320044dab3c4485321256a0183a944593c0935bc3752eff2f92cfc",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-cross-write-41/reference/prime-37.npz": "29933e19773ca18001238e3c3cc7848797728a5fa452293faba28be32466b02b",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-cross-write-41/inverse/prime-31.npz": "06ae51283ad1289a6890836b92e356a536e4d780f693777abb2a015d4ed24623",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-cross-write-41/reference/prime-31.npz": "5ef8ae9ed3f6fe3e62dc85f54a108f4a8a8b82a441fa71139130bb7f9223bb3a",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-cross-write-41/inverse/prime-29.npz": "b768fdaede715306ff3af03e97839d1199306c6d4964d56d81da66392d5d52d1",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-cross-write-41/reference/prime-29.npz": "b9f9e23b0a7104d9e2840ecc90fdf5a15ad5eea28fd5a554dd6f13435ce231a1",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-cross-write-41/inverse/prime-23.npz": "2f8ebac5ce7ba935653d3e9692d6de3a99e9dc8403444e34ab834cc30276fd98",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/threshold-one-pair/on/prime-23-after_write.npz": "0163184aaf81ad43dd0af1b9a87edda18ce44ee2dceca4b9f353fc277662f7db",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-cross-write-41/inverse/prime-23-before-write.npz": "3b580bf1f4e954fecaba550da5919f045a62da03a540d1b77d6f0ec8d83b0e8e",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-back-to-beginning/reference/prime-23-at.npz": "f286b4973e7f6924644fa6946483fccf284a2649ea031c46d1f61c08d733ccdc",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-back-to-beginning/inverse/prime-19-at.npz": "4bdd9de5a01a8503104037a691828eaccf50c622adc1a85d7ec9d91cbbd9f943",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-back-to-beginning/reference/prime-19-at.npz": "0c265327e12e2cd41b803c6a3c331b9c221acd7aaba7402cb06ffd479d29556c",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-back-to-beginning/inverse/prime-17-at.npz": "1023fef85a5e4bde32b42cb86c10d1cf6bbf53cb568d5b0c3fdb192c956e296a",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-back-to-beginning/reference/prime-17-at.npz": "7fafd11e3862a24b38e71e27fa265d725d291a48ef7542d7a72b94b9a7063bd9",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-back-to-beginning/inverse/last-state.npz": "379d28168cd59818ede1829b573819c79c443579876166c644b24680edde4884",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-back-to-beginning/recovery/last-state.npz": "c69cb7d27268d66789a299f87ede9d62092739400c3a1b3b1c5b0a0dd827dc13",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-back-to-beginning/damped-continuation/last-state.npz": "4d5be61374eeb1eb2475970ea910e22e6dbf23ec3e01941cb8dccfda0b304e00",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-high-precision/continuation/last-state.npz": "c0d72193f670ea83b4cdc5116205128a253023882265d94513a40900ee05f7a2",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-high-precision/transport/last-state.npz": "1bf3546b94e155d1d164812022e8f1ca8a5cebef78d1c0e6febafc0561538996",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-high-precision/anderson/last-state.npz": "d0a773c9ddfcd9c28e9d7eda3327b39d610df0ce6e8dd7126a1321d6a4e1274d",
+    "$USER_HOME/Documents/Codex/2026-11-12/can/work/marker208-recovery/accepted-state-0.504.npz": "7cdc92c131e22c9b5c92792f004608126add9919e1ac6a086927e6e692024eaf",
+    "$USER_HOME/Documents/Codex/2026-11-12/can/work/hug-from-0504-extended/state-0250-at.npz": "78c4cd143fbee077a5ed0b4bf6cf83c9f89aa1cf5083355e527013cc680f84ec",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-back-to-beginning/reference/prime-13-at.npz": "a34f37cb3fbb547f47a3f643b750a05ac433c360ea5ff5ffacc9565132677995",
+    "$USER_HOME/Documents/Codex/2026-11-12/can/work/hug-from-0504-extended/last-state.npz": "17ad632d555ba8667781ca5d92a6b5fa9418c3d7daa437bfdbb615099a5c7eed",
+    "$USER_HOME/Documents/Codex/2026-11-10/go/work/hug-reverse-47-41/h002/prime-43.npz": "d93294b56f66313cdfc4601b362db022040e6412a520b11cc8ae12d52bbd2571"
+  },
+  "conclusion_scope": "Measured growth is consistent with undoing viscous damping of fine-scale errors. Exact attribution among roundoff, allowed solve residuals and the early clock mismatch is not established."
+}

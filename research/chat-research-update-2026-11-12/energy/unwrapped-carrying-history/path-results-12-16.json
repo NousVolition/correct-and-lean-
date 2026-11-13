@@ -1,0 +1,153 @@
+{
+  "checked_utc": "2026-11-12T09:15:16.863029+00:00",
+  "method": "Passive native Heun water trajectories; Fourier-resolved unprojected AS force, fixed uniform initial volume labels; same saved velocity stages and reconstructed force stages",
+  "grids": [
+    12,
+    16
+  ],
+  "dt": 0.002,
+  "initial_fluid_density": 1,
+  "domain_volume": 1,
+  "reference_ledger": 2.4424321688056888e-05,
+  "endpoints": [
+    {
+      "sample": "volume_12",
+      "frame": 600,
+      "time": 1.2,
+      "count": 1728,
+      "path_work": 2.4424473731682875e-05,
+      "endpoint_trapezoid_work": 2.442381340303438e-05,
+      "endpoint_height_energy": -1.376926666745423e-05,
+      "activation_history_correction": 1.0654546735580152e-05,
+      "work_minus_ledger": 1.5204362598721663e-10,
+      "mean_unwrapped_displacement": -0.0007358685509821972,
+      "instantaneous_path_power": 3.5044363779364174e-05,
+      "summation_by_parts_residual": -8.090635538254607e-22,
+      "relative_work_error": 6.2250910354478175e-06,
+      "end_winding_changed_particles": 0,
+      "max_displacement": 0.010089271846794708,
+      "displacement_min": [
+        -0.010072016803855811,
+        -0.0021312199443254687,
+        -0.0033932217256096853
+      ],
+      "displacement_max": [
+        0.0022816778402985627,
+        0.0021792973040344055,
+        0.0030429873361726145
+      ]
+    },
+    {
+      "sample": "volume_16",
+      "frame": 600,
+      "time": 1.2,
+      "count": 4096,
+      "path_work": 2.4424319015188522e-05,
+      "endpoint_trapezoid_work": 2.442365868177219e-05,
+      "endpoint_height_energy": -1.3768910743745418e-05,
+      "activation_history_correction": 1.0654747938026771e-05,
+      "work_minus_ledger": -2.6728683658473317e-12,
+      "mean_unwrapped_displacement": -0.0007358682704469875,
+      "instantaneous_path_power": 3.504360727353961e-05,
+      "summation_by_parts_residual": -1.0740050657530399e-21,
+      "relative_work_error": -1.0943470201484951e-07,
+      "end_winding_changed_particles": 0,
+      "max_displacement": 0.009798156562573768,
+      "displacement_min": [
+        -0.009778766930891823,
+        -0.0022208965764506927,
+        -0.0036232738497451455
+      ],
+      "displacement_max": [
+        0.00228164446377227,
+        0.0022316186358383727,
+        0.003217428757441132
+      ]
+    },
+    {
+      "sample": "original_801",
+      "frame": 600,
+      "time": 1.2,
+      "count": 801,
+      "path_work": 0.0002536372165746395,
+      "endpoint_trapezoid_work": 0.0002536251779219167,
+      "endpoint_height_energy": -0.00011433044474263253,
+      "activation_history_correction": 0.00013929473317928412,
+      "work_minus_ledger": null,
+      "mean_unwrapped_displacement": -0.004595575846363518,
+      "instantaneous_path_power": 0.00032489149790648547,
+      "summation_by_parts_residual": 1.6754676523614907e-20,
+      "relative_work_error": null,
+      "end_winding_changed_particles": 0,
+      "max_displacement": 0.007893308586379861,
+      "displacement_min": [
+        -0.00788296189367442,
+        -0.002037485658415966,
+        -0.0017555511879375025
+      ],
+      "displacement_max": [
+        -0.0016272382371780442,
+        0.00041222389538328463,
+        0.00041568267299750664
+      ]
+    },
+    {
+      "sample": "tag_A",
+      "frame": 600,
+      "time": 1.2,
+      "count": 1,
+      "path_work": 0.0002697749391471541,
+      "endpoint_trapezoid_work": 0.0002697568332250452,
+      "endpoint_height_energy": -5.039182853655641e-05,
+      "activation_history_correction": 0.00021936500468848876,
+      "work_minus_ledger": null,
+      "mean_unwrapped_displacement": -0.006714159379537291,
+      "instantaneous_path_power": 0.00018159306147323145,
+      "summation_by_parts_residual": 0.0,
+      "relative_work_error": null,
+      "end_winding_changed_particles": 0,
+      "max_displacement": 0.006718419432657628,
+      "displacement_min": [
+        -0.006714159379537291,
+        0.0002380100682478209,
+        2.3973041019807392e-05
+      ],
+      "displacement_max": [
+        -0.006714159379537291,
+        0.0002380100682478209,
+        2.3973041019807392e-05
+      ]
+    },
+    {
+      "sample": "tag_B",
+      "frame": 600,
+      "time": 1.2,
+      "count": 1,
+      "path_work": 3.982754718822518e-05,
+      "endpoint_trapezoid_work": 3.9829047716689786e-05,
+      "endpoint_height_energy": -3.018152060708202e-05,
+      "activation_history_correction": 9.647527109607767e-06,
+      "work_minus_ledger": null,
+      "mean_unwrapped_displacement": -0.0026189966481642464,
+      "instantaneous_path_power": 0.00011268597861963141,
+      "summation_by_parts_residual": 0.0,
+      "relative_work_error": null,
+      "end_winding_changed_particles": 0,
+      "max_displacement": 0.00263564667560673,
+      "displacement_min": [
+        -0.0026189966481642464,
+        0.00028547290092778566,
+        7.742853722707277e-05
+      ],
+      "displacement_max": [
+        -0.0026189966481642464,
+        0.00028547290092778566,
+        7.742853722707277e-05
+      ]
+    }
+  ],
+  "max_original_pair_error": 3.469446951953614e-18,
+  "max_original_803_path_error": 2.7755575615628914e-17,
+  "original_path_checkpoint_count": 62,
+  "elapsed_seconds": 36.59399999999732
+}

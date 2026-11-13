@@ -1,0 +1,264 @@
+{
+  "status": "FAIL",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "modules": [
+    {
+      "module": "SIMSLatentReadout",
+      "status": "PASS",
+      "exit_code": 0,
+      "source_sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4",
+      "object_sha256": "5860a186bc09c71b24206815b8c95b14214984264d90b98920dfb18a9d66a402",
+      "log_sha256": "be9b8bf97e80ca271ef45202047694bf970987e2da316df1a7b320e06260e6d2",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axiom_reports": [
+        "SIMSLatentReadout.no_exact_reader_of_ambiguous_observation",
+        "SIMSLatentReadout.negative_marks_share_reading",
+        "SIMSLatentReadout.clay_changes_while_sign_stays",
+        "SIMSLatentReadout.clay_relative_change",
+        "SIMSLatentReadout.sign_reading_does_not_determine_mark",
+        "SIMSLatentReadout.same_record_requires_original",
+        "SIMSLatentReadout.no_same_record_when_original_absent",
+        "SIMSLatentReadout.lossless_filing_preserves_readable_fields",
+        "SIMSLatentReadout.lossless_storage_can_have_wrong_reader",
+        "SIMSLatentReadout.update_nonnegative",
+        "SIMSLatentReadout.update_sums_to_one",
+        "SIMSLatentReadout.zero_weight_stays_zero",
+        "SIMSLatentReadout.zero_total_returns_zero",
+        "SIMSLatentReadout.further_evidence_does_not_reintroduce",
+        "SIMSLatentReadout.erased_record_fits_none_of_current_menu",
+        "SIMSLatentReadout.uninformative_start_keeps_four_equal_weights",
+        "SIMSLatentReadout.recorded_zero_has_opposite_histories",
+        "SIMSLatentReadout.no_reader_of_the_first_display_is_always_right",
+        "SIMSLatentReadout.all_ten_first_replies_survive_filing",
+        "SIMSLatentReadout.all_ten_filings_remain_open_without_confirmation",
+        "SIMSLatentReadout.saved_rubric_matches_recorded_histories",
+        "SIMSLatentReadout.both_readers_recover_earlier_answer_in_all_ten",
+        "SIMSLatentReadout.full_history_existence_score",
+        "SIMSLatentReadout.filed_record_existence_score",
+        "SIMSLatentReadout.precisely_three_filed_reader_contradictions",
+        "SIMSLatentReadout.both_clay_readers_recognize_the_change_and_identity",
+        "SIMSLatentReadout.historical_scores_are_seven_and_six",
+        "SIMSLatentReadout.exact_first_quote_counts_are_zero_and_ten",
+        "SIMSLatentReadout.lossy_reader_has_no_history_and_answers_unknown",
+        "SIMSLatentReadout.every_saved_weight_trace_matches_finite_filtering",
+        "SIMSLatentReadout.quarters_encoding_is_exact_for_these_traces",
+        "SIMSLatentReadout.forty_weight_states_checked"
+      ],
+      "started_at_utc": "2026-11-12T06:04:38.009500+00:00",
+      "finished_at_utc": "2026-11-12T06:05:06.779043+00:00",
+      "command": [
+        "$USER_HOME/verification/bin/lake",
+        "env",
+        "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+        "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean",
+        "-o",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/SIMSLatentReadout.olean",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/SIMSLatentReadout.lean"
+      ]
+    },
+    {
+      "module": "Volterra",
+      "status": "PASS",
+      "exit_code": 0,
+      "source_sha256": "26906df3b92869c297524e14c09b8bb5c15d6de60f8e7b0dbd93785d759f0952",
+      "object_sha256": "01e1a99948f0b9000e981882576aab0dab31eb32f25dda948e9bc30597d46f82",
+      "log_sha256": "4a094b64d5a547ccc229d6a330653b7fbf61e04284c133ee668739a079aafef0",
+      "axioms": [],
+      "axiom_reports": [],
+      "started_at_utc": "2026-11-12T06:05:06.792160+00:00",
+      "finished_at_utc": "2026-11-12T06:05:09.236291+00:00",
+      "command": [
+        "$USER_HOME/verification/bin/lake",
+        "env",
+        "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+        "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean",
+        "-o",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/Volterra.olean",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/Volterra.lean"
+      ]
+    },
+    {
+      "module": "TwoMemory",
+      "status": "PASS",
+      "exit_code": 0,
+      "source_sha256": "d3d4384654c08975f55dcb4ec86db3830e0b8fe0b5f609b695721056aba0880a",
+      "object_sha256": "58ee6e98faa86436fe42aaa0bf26018c8578cf9d28764c2639349a5da55229d1",
+      "log_sha256": "ba37e81f0be15500267504d1bea581bae5cea7a8896b745adf80a829d08730e5",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axiom_reports": [
+        "TwoMemory.unique_memory_trajectory"
+      ],
+      "started_at_utc": "2026-11-12T06:05:09.243978+00:00",
+      "finished_at_utc": "2026-11-12T06:05:11.466528+00:00",
+      "command": [
+        "$USER_HOME/verification/bin/lake",
+        "env",
+        "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+        "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean",
+        "-o",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/TwoMemory.olean",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/TwoMemory.lean"
+      ]
+    },
+    {
+      "module": "TwoMemoryTransport",
+      "status": "PASS",
+      "exit_code": 0,
+      "source_sha256": "b8681a3435b2367081d285fb83e7964a9ce5d2f7d0c9de07b87c798638a5d36e",
+      "object_sha256": "020b9022be968408a694e9e50a19eaa0f58195f3ad51fe9aa11b1682f02e5041",
+      "log_sha256": "de6e4d3e090fe28bc06f7a6c51fdf0a4704fcbdd8857b1adaf7ceda347f8e562",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axiom_reports": [
+        "TwoMemoryTransport.readout_from_odds",
+        "TwoMemoryTransport.odds_eq_exp",
+        "TwoMemoryTransport.update_odds",
+        "TwoMemoryTransport.compose_transport",
+        "TwoMemoryTransport.endpoints_determine_transport",
+        "TwoMemoryTransport.closed_route",
+        "TwoMemoryTransport.odds_parallel",
+        "TwoMemoryTransport.flat_curvature",
+        "TwoMemoryTransport.source_free",
+        "TwoMemoryTransport.unit_speed_fails_memory_at_zero"
+      ],
+      "started_at_utc": "2026-11-12T06:05:11.473736+00:00",
+      "finished_at_utc": "2026-11-12T06:05:13.503178+00:00",
+      "command": [
+        "$USER_HOME/verification/bin/lake",
+        "env",
+        "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+        "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean",
+        "-o",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/TwoMemoryTransport.olean",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/TwoMemoryTransport.lean"
+      ]
+    },
+    {
+      "module": "YangMillsCueTest",
+      "status": "PASS",
+      "exit_code": 0,
+      "source_sha256": "87c9d1ee4128bfcb025f8760435e592a12136ce44e159cf41085ecb7ac010c2c",
+      "object_sha256": "8a6668af13025343e708a5bd243d00a0a1d473295561d68f757f4f648907d0bc",
+      "log_sha256": "4bcd0602eadad162b39cc2f565f79a351a33bb62dc7d7e2bd8806cb4cf3e13b8",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axiom_reports": [
+        "YangMillsCueTest.same_data_different_field_equation",
+        "YangMillsCueTest.endpoint_frames_cancel",
+        "YangMillsCueTest.local_frames_conjugate_loop"
+      ],
+      "started_at_utc": "2026-11-12T06:05:13.510247+00:00",
+      "finished_at_utc": "2026-11-12T06:05:15.754068+00:00",
+      "command": [
+        "$USER_HOME/verification/bin/lake",
+        "env",
+        "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+        "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean",
+        "-o",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/YangMillsCueTest.olean",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/YangMillsCueTest.lean"
+      ]
+    },
+    {
+      "module": "Tick41SavedWrite",
+      "status": "PASS",
+      "exit_code": 0,
+      "source_sha256": "3b9078f6c7bbf521e9a6b45b513915dbf2416c1816ca231f472dfdb287e80445",
+      "object_sha256": "dc91aeaf28531a47cd43a26a0c3fd8f046ef753401a1373b2f881b3a7f25ec5e",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "axioms": [],
+      "axiom_reports": [],
+      "started_at_utc": "2026-11-12T06:05:15.771703+00:00",
+      "finished_at_utc": "2026-11-12T06:05:19.176529+00:00",
+      "command": [
+        "$USER_HOME/verification/bin/lake",
+        "env",
+        "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+        "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean",
+        "-o",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/Tick41SavedWrite.olean",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/Tick41SavedWrite.lean"
+      ]
+    },
+    {
+      "module": "Tick41SavedReturns",
+      "status": "PASS",
+      "exit_code": 0,
+      "source_sha256": "8c538750548d8b287d4546c4ffc6f2bc5cf56487c862e1c1283b9e77cd007cd4",
+      "object_sha256": "ca1a8c5925323216950972159fa9678424b5b76db4653b2654d1ffc59b32848f",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "axioms": [],
+      "axiom_reports": [],
+      "started_at_utc": "2026-11-12T06:05:19.181948+00:00",
+      "finished_at_utc": "2026-11-12T06:05:22.894096+00:00",
+      "command": [
+        "$USER_HOME/verification/bin/lake",
+        "env",
+        "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+        "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean",
+        "-o",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/Tick41SavedReturns.olean",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/Tick41SavedReturns.lean"
+      ]
+    },
+    {
+      "module": "AmbiguityInstances",
+      "status": "FAIL",
+      "exit_code": 1,
+      "source_sha256": "3f9905f0214747ede84254265e678585838b107bde100f09291eb160ff707450",
+      "object_sha256": null,
+      "log_sha256": "d1004b335563900425d09f4be0194a7b4766480cbee991b6dffd59598071655a",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "axiom_reports": [
+        "AmbiguityInstances.Tick41Write.same_water_observation",
+        "AmbiguityInstances.Tick41Write.different_record_presence",
+        "AmbiguityInstances.Tick41Write.no_exact_water_reader",
+        "AmbiguityInstances.Tick41Write.exact_reader_with_record",
+        "AmbiguityInstances.YangMills.same_slice_observation",
+        "AmbiguityInstances.YangMills.original_satisfies",
+        "AmbiguityInstances.YangMills.modified_does_not_satisfy",
+        "AmbiguityInstances.YangMills.residuals_are_zero_and_two",
+        "AmbiguityInstances.YangMills.no_exact_slice_reader",
+        "AmbiguityInstances.YangMills.off_slice_curvature_distinguishes",
+        "AmbiguityInstances.Tick41Geometry.all_scales_positive",
+        "AmbiguityInstances.Tick41Geometry.all_saved_x_returns_open",
+        "AmbiguityInstances.Tick41Geometry.saved_x_does_not_close",
+        "AmbiguityInstances.Tick41Geometry.integer_return_would_close",
+        "AmbiguityInstances.Tick41Geometry.no_saved_integer_periodic_return",
+        "AmbiguityInstances.Tick41Geometry.no_opposite_saved_closure_properties",
+        "AmbiguityInstances.Tick41Geometry.exact_reader_on_saved_returns"
+      ],
+      "started_at_utc": "2026-11-12T06:05:22.901169+00:00",
+      "finished_at_utc": "2026-11-12T06:05:26.868716+00:00",
+      "command": [
+        "$USER_HOME/verification/bin/lake",
+        "env",
+        "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+        "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean",
+        "-o",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/AmbiguityInstances.olean",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/AmbiguityInstances.lean"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,660 @@
+--- originals/GuardTwoEffects.lean
++++ GuardTwoEffects.lean
+@@ -11,8 +11,9 @@
+ What is shown, for every parameter set with nonnegative weights and damping and for
+ every guard value, not only the 0.2 and 0.8 settings used in the 31 October check:
+ 
+-1. Opening a guard further admits at least as much influence and adds at least as much
+-   mechanical resistance.
++1. Opening a guard further increases or preserves the admitted-influence expressions
++   and guard loss. For nonnegative guards the influence expressions are magnitudes;
++   with nonnegative damping the guard loss is also nonnegative.
+ 2. Reversing the motion leaves the guard's update and the guard's energy loss unchanged.
+ 3. Therefore no rule that reads only the guard's response can recover the direction of
+    motion (an instance of the ambiguous-observation rule).
+@@ -22,7 +23,8 @@
+ The statements concern the right-hand side of the equations at a single state.
+ 
+ Compile inside `lean/hug-existence-lean`, for example with
+-`lake env lean GuardTwoEffects.lean`. Not compiled when written.
++`lake env lean GuardTwoEffects.lean`. See the accompanying verification receipt for
++the checked toolchain, source hashes, and results.
+ -/
+ set_option autoImplicit false
+ noncomputable section
+@@ -61,6 +63,20 @@
+     |p.weightAB * s.gAB * (s.xB - s.xA)| = admittedToA p s := by
+   unfold admittedToA
+   rw [abs_mul, abs_of_nonneg (mul_nonneg weight guard)]
++
++/-- The corresponding magnitude statement for B. -/
++theorem admittedToB_is_size (p : Parameters) (s : State)
++    (weight : 0 ≤ p.weightBA) (guard : 0 ≤ s.gBA) :
++    |p.weightBA * s.gBA * (s.xA - s.xB)| = admittedToB p s := by
++  unfold admittedToB
++  rw [abs_mul, abs_of_nonneg (mul_nonneg weight guard)]
++
++/-- Nonnegative damping and nonnegative guards make the guard loss nonnegative. -/
++theorem guard_loss_nonnegative (p : Parameters) (s : State)
++    (damping : 0 ≤ p.damping) (guardAB : 0 ≤ s.gAB) (guardBA : 0 ≤ s.gBA) :
++    0 ≤ guardLoss p s := by
++  unfold guardLoss
++  exact mul_nonneg (mul_nonneg damping (add_nonneg guardAB guardBA)) (sq_nonneg s.v)
+ 
+ /-- With everything else equal, a more open guard admits at least as much to A. -/
+ theorem more_open_guard_admits_more_to_A (p : Parameters) (s s' : State)
+@@ -128,8 +144,8 @@
+   show guardRate p.tau (targetBA p s') s'.gBA = guardRate p.tau (targetBA p s) s.gBA
+   rw [target, sameGuard]
+ 
+-/-- Reversing the motion does not turn the guard's damping into energy recovery:
+-the loss is the same, and it is never negative. -/
++/-- Reversing the motion preserves guard loss. Its nonnegativity is a separate
++statement, `guard_loss_nonnegative`, with explicit sign assumptions. -/
+ theorem reversal_keeps_guard_loss (p : Parameters) (s s' : State)
+     (reversed : s'.v = -s.v) (sameAB : s'.gAB = s.gAB) (sameBA : s'.gBA = s.gBA) :
+     guardLoss p s' = guardLoss p s := by
+@@ -178,6 +194,16 @@
+       show (1 : ℝ) ≠ -1
+       norm_num)
+ 
++/-- Even the Boolean question "is the velocity positive?" cannot always be answered
++from the guard response alone. This states the direction obstruction explicitly. -/
++theorem guard_response_cannot_tell_positive_motion (p : Parameters) (F : ℝ) :
++    ¬ ∃ reader : ℝ × ℝ × ℝ → Bool,
++      ∀ s : State, reader (guardResponse p F s) = decide (0 < s.v) := by
++  apply no_exact_reader_of_any_property (guardResponse p F)
++    (fun s : State => decide (0 < s.v)) unitMotion (reverseMotion unitMotion)
++    (guard_response_same_after_reversal p F unitMotion)
++  norm_num [unitMotion, reverseMotion]
++
+ end ActiveHug.GuardTwoEffects
+ 
+ #print axioms ActiveHug.GuardTwoEffects.one_opening_two_effects
+@@ -186,3 +212,6 @@
+ #print axioms ActiveHug.GuardTwoEffects.reversal_keeps_guard_loss
+ #print axioms ActiveHug.GuardTwoEffects.guard_response_same_after_reversal
+ #print axioms ActiveHug.GuardTwoEffects.guard_response_cannot_tell_direction
++#print axioms ActiveHug.GuardTwoEffects.admittedToB_is_size
++#print axioms ActiveHug.GuardTwoEffects.guard_loss_nonnegative
++#print axioms ActiveHug.GuardTwoEffects.guard_response_cannot_tell_positive_motion
+--- originals/BreathingDriver.lean
++++ BreathingDriver.lean
+@@ -1,4 +1,5 @@
+-import Mathlib
++import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
++import Mathlib.Tactic
+ 
+ /-!
+ Breathing in the Hug v3 comparison: a driver set by the clock.
+@@ -19,15 +20,20 @@
+    states at the same time receive exactly the same push, so no rule that reads only the
+    push can recover anything that differs between states (an instance of the
+    ambiguous-observation rule).
+-2. The push repeats every period and never exceeds the peak.
+-3. Model time 1.2 (tick 41) is exactly two periods, so the push is at its full peak there.
++2. The time factor repeats every nonzero period and its absolute value never exceeds
++   the absolute peak. The push has the corresponding bound multiplied by the size
++   of the spatial pattern; a unit pattern bound is a separate assumption.
++3. Exact-real model time 1.2 is two periods of length 0.6, so the time factor is 0.5.
++   The identification of this time with tick 41 comes from the experiment schedule.
+ 4. The work breathing does reverses sign when the flow reverses. Breathing can give
+    energy or take it, depending on the flow it meets.
+ 
+ What is NOT shown: anything about the fluid's response, about whether breathing causes
+ the closest-point switches, or about the intended unforced system. This file describes
+ the added drive used in the breathing-on experiments. The transcription of the Python
+-formula into Lean is outside the kernel. Not compiled when written.
++formula into Lean is outside the kernel. The scalar power is a simplified analogue;
++`vectorPower` below includes the three-component sum used by Python. These results
++do not certify floating-point execution. See the accompanying verification receipt.
+ -/
+ set_option autoImplicit false
+ noncomputable section
+@@ -46,6 +52,12 @@
+ 
+ /-- The mean rate of work done on a flow `u` by a push `f`, over `n` sample points. -/
+ def power {n : ℕ} (u f : Fin n → ℝ) : ℝ := (∑ i, u i * f i) / n
++
++/-- Three-component work, summed over components and averaged over sample points,
++as in `mean(sum(u * force, axis=-1))`. For a physical sample mean, `n` is positive;
++Lean also defines the empty case as zero. -/
++def vectorPower {n : ℕ} (u f : Fin n → Fin 3 → ℝ) : ℝ :=
++  (∑ i, ∑ j, u i j * f i j) / n
+ 
+ /-! ### 1. The push ignores the state -/
+ 
+@@ -86,10 +98,35 @@
+     _ ≤ |peak| * 1 := mul_le_mul_of_nonneg_left (Real.abs_cos_le_one _) (abs_nonneg _)
+     _ = |peak| := mul_one _
+ 
++/-- The full push repeats because its spatial pattern is fixed. -/
++theorem push_repeats {S X : Type} (pattern : X → ℝ) (peak period t : ℝ)
++    (state : S) (nonzero : period ≠ 0) :
++    push pattern peak period (t + period) state = push pattern peak period t state := by
++  funext x
++  simp only [push, amplitude_repeats peak period t nonzero]
++
++/-- The push bound retains the size of the spatial pattern. -/
++theorem push_bounded_by_pattern {S X : Type} (pattern : X → ℝ) (peak period t : ℝ)
++    (state : S) (x : X) :
++    |push pattern peak period t state x| ≤ |peak| * |pattern x| := by
++  unfold push
++  rw [abs_mul]
++  exact mul_le_mul_of_nonneg_right (amplitude_bounded peak period t) (abs_nonneg _)
++
++/-- A peak-only bound for the push requires a unit bound on the pattern. -/
++theorem push_bounded_for_unit_pattern {S X : Type} (pattern : X → ℝ)
++    (peak period t : ℝ) (state : S) (x : X) (unit : |pattern x| ≤ 1) :
++    |push pattern peak period t state x| ≤ |peak| := by
++  calc
++    |push pattern peak period t state x| ≤ |peak| * |pattern x| :=
++      push_bounded_by_pattern pattern peak period t state x
++    _ ≤ |peak| * 1 := mul_le_mul_of_nonneg_left unit (abs_nonneg _)
++    _ = |peak| := mul_one _
++
+ /-! ### 3. Tick 41 falls on a full peak -/
+ 
+-/-- With peak 0.5 and period 0.6, model time 1.2 is two whole periods: the push is at its
+-full positive peak, the same as at time 0. -/
++/-- With peak 0.5 and period 0.6, exact-real model time 1.2 is two whole periods:
++the time factor is at its full positive peak, the same as at time 0. -/
+ theorem full_peak_at_tick_41 : amplitude (1 / 2) (3 / 5) (6 / 5) = 1 / 2 := by
+   have angle : 2 * Real.pi * (6 / 5) / (3 / 5) = ((2 : ℕ) : ℝ) * (2 * Real.pi) := by
+     push_cast
+@@ -116,6 +153,20 @@
+   rw [power_reverses_with_flow]
+   exact neg_lt_zero.mpr feeds
+ 
++/-- The same sign reversal for the three-component mean used by the solver. -/
++theorem vector_power_reverses_with_flow {n : ℕ} (u f : Fin n → Fin 3 → ℝ) :
++    vectorPower (fun i j => -u i j) f = -vectorPower u f := by
++  unfold vectorPower
++  simp [neg_mul, Finset.sum_neg_distrib, neg_div]
++
++/-- A positive three-component work rate becomes negative for the reversed flow.
++This is conditional; it does not assert a positive rate occurred in an experiment. -/
++theorem vector_feeds_one_flow_drains_its_reverse {n : ℕ}
++    (u f : Fin n → Fin 3 → ℝ) (feeds : 0 < vectorPower u f) :
++    vectorPower (fun i j => -u i j) f < 0 := by
++  rw [vector_power_reverses_with_flow]
++  exact neg_lt_zero.mpr feeds
++
+ end BreathingDriver
+ 
+ #print axioms BreathingDriver.push_ignores_state
+@@ -126,3 +177,8 @@
+ #print axioms BreathingDriver.full_peak_at_start
+ #print axioms BreathingDriver.power_reverses_with_flow
+ #print axioms BreathingDriver.feeds_one_flow_drains_its_reverse
++#print axioms BreathingDriver.push_repeats
++#print axioms BreathingDriver.push_bounded_by_pattern
++#print axioms BreathingDriver.push_bounded_for_unit_pattern
++#print axioms BreathingDriver.vector_power_reverses_with_flow
++#print axioms BreathingDriver.vector_feeds_one_flow_drains_its_reverse
+--- originals/PressureBlindToBreathing.lean
++++ PressureBlindToBreathing.lean
+@@ -1,10 +1,11 @@
+-import Mathlib
++import Mathlib.Data.Fin.VecNotation
++import Mathlib.Tactic
+ 
+ /-!
+ Pressure in the Hug v3 solver: it cannot see a push that has no divergence.
+ 
+ Transcribed from `continuum.py` (method `project`) in the Tick 41 packages. For each
+-Fourier mode with wave vector `k` and rate coefficient `h`:
++Fourier mode with wave vector `k` and rate coefficient `h` after spectral masking:
+ 
+     kd  = sum(k * h)
+     den = where(k2 == 0, 1, k2)
+@@ -20,7 +21,8 @@
+ 1. Adding a push with `k · b = 0` leaves the pressure coefficient unchanged.
+ 2. Such a push passes through the projection untouched, so adding it before or after
+    projecting gives the same rate. This is the code comment, proved.
+-3. Whatever goes in, the projected rate has `k · rate = 0`.
++3. The projected rate has `k · rate = 0` when `k · k` is nonzero, or when `k = 0`.
++   Over an arbitrary field, `k ≠ 0` alone does not imply `k · k ≠ 0`.
+ 4. Therefore no rule that reads only the pressure can recover a divergence-free push:
+    pressure cannot tell whether breathing is on (an instance of the ambiguous-observation
+    rule).
+@@ -30,8 +32,9 @@
+ time, or anything about the earlier prototype's supplied "pressure" input or the clay
+ calculation's shear stress, which are different quantities under the same word.
+ At `k = 0` the code divides by 1 and Lean's division by zero gives 0; both give a zero
+-pressure coefficient there. The transcription from Python is outside the kernel.
+-Not compiled when written.
++pressure coefficient and unchanged projected rate there. The transcription from
++Python, spectral masking, and the Fourier transforms are outside the kernel.
++See the accompanying verification receipt for the checked source and results.
+ -/
+ set_option autoImplicit false
+ 
+@@ -86,6 +89,24 @@
+     field_simp
+   rw [expand, cancel, sub_self]
+ 
++/-- The solver's special zero mode has zero pressure. -/
++theorem zero_mode_pressure (c : K) (h : Fin 3 → K) :
++    pressureMode c 0 h = 0 := by
++  simp [pressureMode, dot]
++
++/-- At the zero wave vector, the projected rate is unchanged. -/
++theorem zero_mode_projection (h : Fin 3 → K) : projectMode 0 h = h := by
++  funext i
++  simp [projectMode]
++
++/-- Both admissible cases: the zero mode, or a nonzero squared wave-vector sum. -/
++theorem projected_rate_is_divergence_free_including_zero (k h : Fin 3 → K)
++    (admissible : k = 0 ∨ dot k k ≠ 0) : dot k (projectMode k h) = 0 := by
++  rcases admissible with zero | nonzero
++  · subst k
++    simp [dot]
++  · exact projected_rate_is_divergence_free k h nonzero
++
+ /-! ### 4. As an instance of the ambiguous-observation rule -/
+ 
+ /-- The rule, for a property of any type. Same proof as
+@@ -130,6 +151,20 @@
+     have second := congrFun equal 1
+     simp at second
+ 
++/-- Even a Boolean on/off switch cannot be recovered from this one-mode pressure
++observation when switching adds a divergence-free push. -/
++theorem pressure_cannot_read_breathing_switch (c : K) (k h b : Fin 3 → K)
++    (free : dot k b = 0) :
++    ¬ ∃ reader : K → Bool, ∀ enabled : Bool,
++      reader (pressureMode c k (h + (if enabled then b else 0))) = enabled := by
++  apply no_exact_reader_of_any_property
++    (fun enabled : Bool => pressureMode c k (h + (if enabled then b else 0)))
++    (fun enabled : Bool => enabled) false true
++  · change pressureMode c k (h + (0 : Fin 3 → K)) = pressureMode c k (h + b)
++    rw [pressure_ignores_divergence_free_push c k h 0 (dot_zero k),
++      pressure_ignores_divergence_free_push c k h b free]
++  · decide
++
+ end PressureBlindToBreathing
+ 
+ #print axioms PressureBlindToBreathing.pressure_ignores_divergence_free_push
+@@ -138,3 +173,7 @@
+ #print axioms PressureBlindToBreathing.projected_rate_is_divergence_free
+ #print axioms PressureBlindToBreathing.pressure_cannot_tell_whether_breathing_is_on
+ #print axioms PressureBlindToBreathing.a_divergence_free_push_exists
++#print axioms PressureBlindToBreathing.zero_mode_pressure
++#print axioms PressureBlindToBreathing.zero_mode_projection
++#print axioms PressureBlindToBreathing.projected_rate_is_divergence_free_including_zero
++#print axioms PressureBlindToBreathing.pressure_cannot_read_breathing_switch
+--- originals/ClayFabric.lean
++++ ClayFabric.lean
+@@ -1,4 +1,7 @@
+-import Mathlib
++import Mathlib.Analysis.Calculus.Deriv.Pow
++import Mathlib.Analysis.Calculus.Deriv.Mul
++import Mathlib.Analysis.Calculus.Deriv.Add
++import Mathlib.Tactic
+ 
+ /-!
+ Clay in the Hug v3 solver: it holds an imprint, and it is soft.
+@@ -19,13 +22,18 @@
+ 
+ What is shown:
+ 
+-1. Holds an imprint: with the strain matching, both marks `+a` and `-a` are rest points.
+-2. Soft and moves: at a mark, any strain mismatch moves the mark.
+-3. Not hard locked: the barrier between the two marks is finite, `H/4`.
+-4. Settling only makes heat: relaxation never returns energy.
+-5. The probe reads the mark exactly, and the stored bit is its sign. So the bit stays the
+-   same while the mark moves, and the bit cannot give back the mark (an instance of the
+-   ambiguous-observation rule, with the same numbers as SIMS case C07).
++1. With nonzero amplitude and matching strain, both marks `+a` and `-a` are rest points.
++   This is a rest-point statement, not a stability or memory-retention theorem.
++2. At either mark, a strain mismatch gives a nonzero rate when mobility and stiffness
++   are nonzero.
++3. The well-energy difference from a mark to zero is `H/4`, positive when `H > 0`.
++   This is not the total transition cost at fixed strain or a proof of crossing.
++4. For nonnegative mobility, relaxation at fixed strain dissipates energy into heat.
++   This does not rule out energy exchange caused by changing the strain.
++5. The ideal exact-real probe reads the mark when stiffness is nonzero. Both the
++   three-way sign and the solver's Boolean `mark > 0` lose the mark's magnitude.
++   Two distinct example marks have the same readings; no trajectory between them is
++   established (an ambiguous-observation instance using SIMS case C07's numbers).
+ 
+ Section 6 uses two formulas quoted in the handoff audit for the earlier clay models.
+ Their source files were not inspected here, so those theorems are about the quoted
+@@ -33,7 +41,11 @@
+ 
+ What is NOT shown: that this fabric is real clay, that it matches the earlier clay
+ models, or anything about a whole trajectory. Statements are for one cell at one
+-instant. The transcription from Python is outside the kernel. Not compiled when written.
++instant. The transcription from Python is outside the kernel and does not certify
++floating-point execution. The ideal probe here has no added noise. The full reader's
++finite-value, array-shape, read-margin, and payload checks are not formalized; the
++two example marks are separately shown to clear the declared read margin of 0.005.
++See the accompanying verification receipt.
+ -/
+ set_option autoImplicit false
+ noncomputable section
+@@ -87,6 +99,22 @@
+   exact neg_ne_zero.mpr
+     (mul_ne_zero mobile (mul_ne_zero stiff (sub_ne_zero.mpr (Ne.symm mismatch))))
+ 
++/-- The corresponding gradient at the lower mark. -/
++theorem gradient_at_lower_mark (κ H a e : ℝ) (amplitude : a ≠ 0) :
++    gradient κ H a e (-a) = κ * (-a - e) := by
++  unfold gradient
++  rw [neg_div, div_self amplitude]
++  simp
++
++/-- A strain mismatch also moves the lower mark, under the same nonzero assumptions. -/
++theorem mismatched_strain_moves_lower_mark (M κ H a e : ℝ) (amplitude : a ≠ 0)
++    (mobile : M ≠ 0) (stiff : κ ≠ 0) (mismatch : e ≠ -a) :
++    rate M κ H a e (-a) ≠ 0 := by
++  unfold rate
++  rw [gradient_at_lower_mark κ H a e amplitude]
++  exact neg_ne_zero.mpr
++    (mul_ne_zero mobile (mul_ne_zero stiff (sub_ne_zero.mpr (Ne.symm mismatch))))
++
+ /-! ### 3. It is not hard locked: the barrier is finite -/
+ 
+ theorem energy_at_a_mark (H a : ℝ) (amplitude : a ≠ 0) : wellEnergy H a a = 0 := by
+@@ -97,7 +125,8 @@
+ theorem energy_at_the_barrier (H a : ℝ) : wellEnergy H a 0 = H / 4 := by
+   norm_num [wellEnergy]
+ 
+-/-- Moving a mark across costs a positive, finite amount: a quarter of the well height. -/
++/-- The well-energy difference between a mark and zero is positive and equals H/4.
++This does not include the elastic energy or establish a transition path. -/
+ theorem barrier_is_finite_and_positive (H a : ℝ) (amplitude : a ≠ 0) (height : 0 < H) :
+     wellEnergy H a a < wellEnergy H a 0 ∧ wellEnergy H a 0 - wellEnergy H a a = H / 4 := by
+   rw [energy_at_a_mark H a amplitude, energy_at_the_barrier]
+@@ -107,6 +136,17 @@
+ 
+ /-! ### 4. Settling only makes heat -/
+ 
++/-- With strain held fixed, `gradient` is the derivative of the declared cell energy. -/
++theorem energy_has_derivative_gradient (κ H a e b : ℝ) (amplitude : a ≠ 0) :
++    HasDerivAt (fun mark : ℝ => energy κ H a e mark) (gradient κ H a e b) b := by
++  have elastic := (((hasDerivAt_const b e).sub (hasDerivAt_id b)).pow 2).const_mul (κ / 2)
++  have well := ((((hasDerivAt_id b).div_const a).pow 2).sub_const 1).pow 2
++  have total := elastic.add (well.const_mul (H / 4))
++  convert total using 1 <;>
++    first
++    | rfl
++    | (dsimp [energy, wellEnergy, gradient]; field_simp [amplitude]; ring)
++
+ theorem heat_is_never_negative (M κ H a e b : ℝ) (mobility : 0 ≤ M) : 0 ≤ heat M κ H a e b := by
+   unfold heat
+   exact mul_nonneg mobility (sq_nonneg _)
+@@ -116,6 +156,12 @@
+     gradient κ H a e b * rate M κ H a e b = -heat M κ H a e b := by
+   unfold rate heat
+   ring
++
++/-- The fixed-strain contribution from relaxation is nonpositive for nonnegative mobility. -/
++theorem settling_energy_rate_nonpositive (M κ H a e b : ℝ) (mobility : 0 ≤ M) :
++    gradient κ H a e b * rate M κ H a e b ≤ 0 := by
++  rw [settling_turns_energy_into_heat]
++  exact neg_nonpos.mpr (heat_is_never_negative M κ H a e b mobility)
+ 
+ /-! ### 5. The reading: exact mark, stored as a sign -/
+ 
+@@ -130,9 +176,13 @@
+ the bit `estimated > 0`. -/
+ def signRead (x : ℝ) : ℤ := if x < 0 then -1 else if x = 0 then 0 else 1
+ 
++/-- The actual Boolean reading in the solver. Unlike `signRead`, zero and negative
++marks have the same reading. -/
++def storedBit (mark : ℝ) : Bool := decide (0 < mark)
++
+ /-- An unwritten cell starts at `-a = -0.02`. A mark of `-0.0192` is 4% closer to zero.
+-The value moved; the stored sign did not. (The second number is SIMS case C07's, not a
+-value taken from a solver run.) -/
++These are distinct values with the same sign. The second number is SIMS case C07's,
++not a solver sample, and this statement does not establish motion between the two. -/
+ theorem mark_moves_while_bit_stays :
+     (-(1 / 50) : ℝ) ≠ -(12 / 625) ∧ signRead (-(1 / 50)) = signRead (-(12 / 625)) := by
+   constructor
+@@ -148,7 +198,7 @@
+   fun ⟨reader, correct⟩ =>
+     different ((correct a).symm.trans ((congrArg reader same).trans (correct b)))
+ 
+-/-- Clay as an instance: no rule that reads only the stored sign can give back the mark. -/
++/-- No reader of the three-way sign can recover every mark. The Boolean result follows below. -/
+ theorem stored_bit_cannot_give_back_the_mark :
+     ¬ ∃ reader : ℤ → ℝ, ∀ mark : ℝ, reader (signRead mark) = mark :=
+   no_exact_reader_of_any_property signRead (fun mark : ℝ => mark)
+@@ -157,10 +207,41 @@
+       show (-(1 / 50) : ℝ) ≠ -(12 / 625)
+       exact mark_moves_while_bit_stays.1)
+ 
++/-- The two example marks also have the same solver-style Boolean bit. -/
++theorem distinct_marks_same_boolean_bit :
++    (-(1 / 50) : ℝ) ≠ -(12 / 625) ∧
++      storedBit (-(1 / 50)) = storedBit (-(12 / 625)) := by
++  norm_num [storedBit]
++
++/-- A reader of the actual Boolean bit cannot recover every mark. -/
++theorem boolean_bit_cannot_give_back_the_mark :
++    ¬ ∃ reader : Bool → ℝ, ∀ mark : ℝ, reader (storedBit mark) = mark :=
++  no_exact_reader_of_any_property storedBit (fun mark : ℝ => mark)
++    (-(1 / 50)) (-(12 / 625)) distinct_marks_same_boolean_bit.2
++    distinct_marks_same_boolean_bit.1
++
++/-- With read_margin = 0.25 and rest_amplitude = 0.02, the acceptance threshold
++is 0.005. Both example marks clear it. -/
++theorem example_marks_clear_read_margin :
++    (1 / 4 : ℝ) * (1 / 50) = 1 / 200 ∧
++      (1 / 200 : ℝ) ≤ |-(1 / 50)| ∧ (1 / 200 : ℝ) ≤ |-(12 / 625)| := by
++  norm_num
++
++/-- The Boolean ambiguity remains even when restricting to marks beyond the declared
++read margin. This does not model the full array or payload validation. -/
++theorem boolean_bit_cannot_recover_margin_accepted_marks :
++    ¬ ∃ reader : Bool → ℝ, ∀ mark : ℝ, (1 / 200 : ℝ) ≤ |mark| →
++      reader (storedBit mark) = mark := by
++  rintro ⟨reader, correct⟩
++  have first := correct (-(1 / 50)) example_marks_clear_read_margin.2.1
++  have second := correct (-(12 / 625)) example_marks_clear_read_margin.2.2
++  apply distinct_marks_same_boolean_bit.1
++  exact first.symm.trans ((congrArg reader distinct_marks_same_boolean_bit.2).trans second)
++
+ /-! ### 6. The two earlier clay formulas, as quoted in the handoff audit -/
+ 
+ /-- Early prototype: `imprint_new = p + (imprint_old - p) * r`, where `r = exp(-dt/tau)`
+-lies between 0 and 1. The imprint moves toward the pressure and never overshoots. -/
++lies between 0 and 1. This theorem says the distance to pressure does not increase. -/
+ theorem imprint_moves_toward_pressure (p old r : ℝ) (lower : 0 ≤ r) (upper : r ≤ 1) :
+     |p + (old - p) * r - p| ≤ |old - p| := by
+   have step : p + (old - p) * r - p = (old - p) * r := by ring
+@@ -196,3 +277,11 @@
+ #print axioms ClayFabric.stored_bit_cannot_give_back_the_mark
+ #print axioms ClayFabric.imprint_moves_toward_pressure
+ #print axioms ClayFabric.kept_shape_cannot_tell_how_hard
++#print axioms ClayFabric.gradient_at_lower_mark
++#print axioms ClayFabric.mismatched_strain_moves_lower_mark
++#print axioms ClayFabric.energy_has_derivative_gradient
++#print axioms ClayFabric.settling_energy_rate_nonpositive
++#print axioms ClayFabric.distinct_marks_same_boolean_bit
++#print axioms ClayFabric.boolean_bit_cannot_give_back_the_mark
++#print axioms ClayFabric.example_marks_clear_read_margin
++#print axioms ClayFabric.boolean_bit_cannot_recover_margin_accepted_marks
+--- originals/ClayMemoryInstance.lean
++++ ClayMemoryInstance.lean
+@@ -2,15 +2,20 @@
+ Field measurements of clay as an instance of the ambiguous-observation rule.
+ 
+ Source: spreadsheet `CLAY_10_7490E.xlsx` (SHA-256 161bd7dc873d62d3d48a69ee55e2549c9a91f5c3c570c3055a093dfffd4b3c73),
+-sheet `Sheet1`, columns `sv' (kPa)` (the vertical stress the clay carries now) and
+-`sp' (kPa)` (the preconsolidation stress: the largest stress it has carried, as measured
+-from the clay today). 4319 rows record both; in 3330 of them the past stress is larger
+-than the present one. Those two counts were computed outside Lean.
++sheet `Sheet1`, columns `sv' (kPa)` and `sp' (kPa)` (recorded vertical and
++preconsolidation stresses). The name `pastStress` below labels the latter recorded
++quantity; Lean does not establish a sample's physical loading history. 4319 rows
++record both; in 3330 the latter is larger. These counts were independently
++reproduced outside Lean during this build.
+ 
+ The table below lists every present-stress value that is shared by rows with different
+ past stresses: 252 values. For each it gives the spreadsheet rows with the smallest
+ and the largest past stress. All stresses are in units of 1/1000000000000000 kPa, so that every
+-value is a whole number; the conversion from the spreadsheet's decimals is exact.
++value is a whole number. These integers exactly encode the shortest decimal strings
++of workbook values parsed as binary64, not the raw XML decimal strings. All 252 groups
++match that parsed-number export. In 74 groups, at least one listed value differs from
++the raw serialized decimal; the same 4319/3330 counts and 252 ambiguous groups occur
++under either interpretation. See `workbook-source-check.json` for the comparison.
+ 
+ What is shown: for every one of the 252 listed values, two measured rows have the same
+ present stress and different past stress. So no rule that reads only the present stress
+@@ -20,7 +25,7 @@
+ usually different sites), that equal present stresses are more than a coincidence of
+ rounding in the source reports, or anything about the Hug model. The spreadsheet's
+ contents and the export are outside the kernel. No Mathlib is needed.
+-Not compiled when written.
++See the accompanying verification receipt for the checked source and results.
+ -/
+ set_option autoImplicit false
+ set_option maxRecDepth 8192
+@@ -312,6 +317,15 @@
+     groups.all (fun g => decide (g.pastLow < g.pastHigh)) = true := by
+   decide +kernel
+ 
++/-- The list contains 252 distinct present-stress values, not merely 252 entries. -/
++theorem present_values_are_distinct : (groups.map Group.present).Nodup := by
++  decide +kernel
++
++/-- Each listed pair uses distinct spreadsheet row identifiers. -/
++theorem every_group_has_distinct_rows :
++    groups.all (fun g => decide (g.rowLow ≠ g.rowHigh)) = true := by
++  decide +kernel
++
+ theorem same_present_stress (g : Measured) :
+     presentStress (g, false) = presentStress (g, true) := rfl
+ 
+@@ -333,8 +347,8 @@
+ 
+ def fourKPaMeasured : Measured := ⟨fourKPa, List.Mem.head _⟩
+ 
+-/-- The measured instance: no rule that reads only the stress a clay carries now can give,
+-for every listed row, the largest stress it has carried. -/
++/-- No reader of only the listed present-stress value can reproduce the recorded
++preconsolidation-stress value for every listed row. -/
+ theorem present_stress_cannot_give_past_stress :
+     ¬ ∃ reader : Nat → Nat, ∀ s : Measured × Bool, reader (presentStress s) = pastStress s :=
+   no_exact_reader_of_any_property presentStress pastStress
+@@ -354,3 +368,5 @@
+ #print axioms ClayMemoryInstance.different_past_stress
+ #print axioms ClayMemoryInstance.present_stress_cannot_give_past_stress
+ #print axioms ClayMemoryInstance.four_kPa_pair
++#print axioms ClayMemoryInstance.present_values_are_distinct
++#print axioms ClayMemoryInstance.every_group_has_distinct_rows
+--- originals/FabricMemory.lean
++++ FabricMemory.lean
+@@ -15,25 +15,28 @@
+     if min(abs(estimated)) < read_margin*rest_amplitude: raise MemoryReadError(...)
+     bit = estimated > 0                           # read_margin = 0.25
+ 
+-Section 4 uses numbers measured from the saved threshold-1 snapshots (frames 400, 599
+-and 600) with the sealed solver, in this session.
++Section 4 transcribes numbers reported in the supplied draft from threshold-1 snapshots
++(frames 400, 599 and 600). See the accompanying source-check receipt for which
++snapshot quantities were independently rechecked during this build.
+ 
+ What is shown:
+ 
+ 1. The layout: 37,264 cells per record, four records, 149,056 cells in all.
+-2. Writing: a record is never overwritten or removed, a repeated event is refused, and
+-   a full fabric refuses a further write.
++2. In the abstract event-ID list model, accepted writes retain all existing IDs;
++   repeated IDs and writes to a full list are refused. This does not prove Python
++   payload preservation or model holes in a slot layout.
+ 3. Reading: both marks are readable; the middle is refused, not guessed.
+-4. Between the second write and the third, every cell moved and the decoded records did
+-   not change. So no rule that reads only the decoded records can give the fabric's
+-   marks (an instance of the ambiguous-observation rule).
++4. The transcribed counts say every cell changed value between the two snapshots,
++   with no sign changes. The transcribed event-ID lists are equal while the cell-0
++   numerators differ, so those lists cannot recover the numerators. Event IDs alone
++   do not describe the full decoded records or certify their complete contents.
+ 
+ What is NOT shown: that the fabric is real clay (its source says it is not calibrated),
+ that the write/read model below covers every branch of the Python code (checksums and
+ schema checks are left out), or anything about trajectories. Section 4 is about
+ transcribed counts and one cell's exact value, not the full arrays. The transcription
+ from Python and from the snapshots is outside the kernel. No Mathlib is needed.
+-Not compiled when written.
++See the accompanying verification receipt for the checked source and results.
+ -/
+ set_option autoImplicit false
+ 
+@@ -52,9 +55,9 @@
+ 
+ /-! ### 2. Writing: nothing is overwritten -/
+ 
+-/-- The fabric's records, as the list of stored event IDs in slot order. A write is
+-refused (`none`) for a repeated event or when every slot is used; otherwise the record
+-goes into the first free slot. -/
++/-- A simplified list of occupied event IDs, assuming consecutively filled slots.
++A write is refused (`none`) for a repeated event or a full list; otherwise it appends
++the ID. Payload, budget, stroke, checksum, and schema checks are outside this model. -/
+ def write (store : List Nat) (event : Nat) : Option (List Nat) :=
+   if event ∈ store then none
+   else if capacity ≤ store.length then none
+@@ -81,12 +84,7 @@
+ 
+ theorem full_fabric_refuses (store : List Nat) (event : Nat) (full : capacity ≤ store.length) :
+     write store event = none := by
+-  unfold write
+-  split
+-  · rfl
+-  · split
+-    · rfl
+-    · contradiction
++  simp [write, full]
+ 
+ /-- The run's three writes, and what would follow: a fourth record fits, a fifth does not. -/
+ theorem the_three_writes_and_the_limit :
+@@ -96,27 +94,27 @@
+ 
+ /-! ### 3. Reading: the middle is refused, not guessed -/
+ 
+-/-- Reading one cell whose mark is `b`, with rest amplitude `a`. The cell is refused when
+-`|b| < a/4`; otherwise the bit is whether `b` is positive. -/
++/-- An integer-scaled analogue of the cell reader. The strict inequalities encode
++the margin test without integer division; otherwise the bit records positivity. -/
+ def readCell (a b : Int) : Option Bool :=
+   if 4 * b < a ∧ -a < 4 * b then none else some (decide (0 < b))
+ 
+ theorem upper_mark_reads_one (a : Int) (positive : 0 < a) : readCell a a = some true := by
+   have outside : ¬ (4 * a < a ∧ -a < 4 * a) := by omega
+   unfold readCell
+-  rw [if_neg outside, decide_eq_true positive]
++  rw [ite_eq_right outside, decide_eq_true positive]
+ 
+ theorem lower_mark_reads_zero (a : Int) (positive : 0 < a) : readCell a (-a) = some false := by
+   have outside : ¬ (4 * -a < a ∧ -a < 4 * -a) := by omega
+   have notPositive : ¬ (0 < -a) := by omega
+   unfold readCell
+-  rw [if_neg outside, decide_eq_false notPositive]
++  rw [ite_eq_right outside, decide_eq_false notPositive]
+ 
+ /-- A cell sitting on the barrier is not given a bit at all. -/
+ theorem barrier_is_refused (a : Int) (positive : 0 < a) : readCell a 0 = none := by
+   have inside : 4 * 0 < a ∧ -a < 4 * 0 := by omega
+   unfold readCell
+-  rw [if_pos inside]
++  rw [ite_eq_left inside]
+ 
+ /-! ### 4. Saved run: the records stay, every mark moves -/
+ 
+@@ -171,8 +169,8 @@
+   fun ⟨reader, correct⟩ =>
+     different ((correct a).symm.trans ((congrArg reader same).trans (correct b)))
+ 
+-/-- The fabric as an instance: no rule that reads only the decoded records can give the
+-mark of cell 0. The records are carried unchanged while the material holding them moves. -/
++/-- No rule reading only the transcribed event-ID lists can recover both cell-0
++numerators. This theorem does not observe the other fields of decoded records. -/
+ theorem decoded_records_cannot_give_the_marks :
+     ¬ ∃ reader : List Nat → Nat, ∀ t : Instant, reader (decoded t) = cellZeroNumerator t :=
+   no_exact_reader_of_any_property decoded cellZeroNumerator

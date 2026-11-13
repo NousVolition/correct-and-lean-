@@ -1,0 +1,417 @@
+{
+  "checked_utc": "2026-11-12T09:12:43.833736+00:00",
+  "steps": 600,
+  "stage_samples": 1200,
+  "full_checkpoints_compared": 61,
+  "checkpoint_comparisons": [
+    {
+      "frame": 50,
+      "max_error": 1.1102230246251565e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 100,
+      "max_error": 1.1102230246251565e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 150,
+      "max_error": 2.220446049250313e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 200,
+      "max_error": 2.220446049250313e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 250,
+      "max_error": 2.220446049250313e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 300,
+      "max_error": 2.220446049250313e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 350,
+      "max_error": 2.220446049250313e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 400,
+      "max_error": 2.220446049250313e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 450,
+      "max_error": 3.885780586188048e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 500,
+      "max_error": 3.885780586188048e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 550,
+      "max_error": 5.828670879282072e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 551,
+      "max_error": 5.828670879282072e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 552,
+      "max_error": 6.106226635438361e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 553,
+      "max_error": 6.106226635438361e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 554,
+      "max_error": 6.106226635438361e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 555,
+      "max_error": 6.106226635438361e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 556,
+      "max_error": 6.106226635438361e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 557,
+      "max_error": 6.106226635438361e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 558,
+      "max_error": 6.38378239159465e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 559,
+      "max_error": 6.38378239159465e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 560,
+      "max_error": 6.38378239159465e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 561,
+      "max_error": 6.38378239159465e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 562,
+      "max_error": 6.38378239159465e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 563,
+      "max_error": 6.38378239159465e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 564,
+      "max_error": 6.38378239159465e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 565,
+      "max_error": 6.38378239159465e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 566,
+      "max_error": 6.38378239159465e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 567,
+      "max_error": 6.38378239159465e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 568,
+      "max_error": 6.38378239159465e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 569,
+      "max_error": 6.38378239159465e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 570,
+      "max_error": 6.38378239159465e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 571,
+      "max_error": 6.661338147750939e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 572,
+      "max_error": 6.661338147750939e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 573,
+      "max_error": 6.661338147750939e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 574,
+      "max_error": 6.661338147750939e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 575,
+      "max_error": 6.661338147750939e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 576,
+      "max_error": 6.661338147750939e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 577,
+      "max_error": 6.661338147750939e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 578,
+      "max_error": 7.216449660063518e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 579,
+      "max_error": 7.216449660063518e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 580,
+      "max_error": 7.216449660063518e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 581,
+      "max_error": 7.216449660063518e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 582,
+      "max_error": 7.216449660063518e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 583,
+      "max_error": 7.216449660063518e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 584,
+      "max_error": 7.216449660063518e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 585,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 586,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 587,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 588,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 589,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 590,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 591,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 592,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 593,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 594,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 595,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 596,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 597,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 598,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 599,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    },
+    {
+      "frame": 600,
+      "max_error": 7.771561172376096e-16,
+      "blocks": 17
+    }
+  ],
+  "initial_checkpoint_loaded": 0,
+  "max_velocity_stage_error": 1.7375038833449166e-18,
+  "max_ledger_error": 1.6940658945086007e-21,
+  "max_tagged_pair_error": 3.469446951953614e-18,
+  "writes": [
+    {
+      "frame": 200,
+      "event": 0,
+      "work": 1.1641648050026579e-05
+    },
+    {
+      "frame": 400,
+      "event": 1,
+      "work": 1.4517540682146707e-05
+    },
+    {
+      "frame": 600,
+      "event": 2,
+      "work": 1.5672159979486206e-05
+    }
+  ],
+  "all_sources_and_saved_inputs_unchanged": true,
+  "input_sha256": {
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\preflight.py": "92a594a33d3b75c140322a91c546578f54e543fdcb3a2de90e940d95a4ad9ff4",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\run.py": "67ae68faa63c26900b69057bd18f98811d6999de23fb7f31d2ce5ebd78c6a9d4",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\social_base.py": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\structural_hug.py": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\test_structure.py": "be40dcebf450742773ebf077538d6852741babea0db1c789658dc2e6c570ee36",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\reference_gate\\run_manifest.py": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\study\\breathing.py": "aa1dfba9232075474937146698859dcb8cb6d3d42e2732b8b0187a016c2a8900",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\study\\marker-seeds.csv": "3bd95c1b49d205522a72c194cdedcc6e27d3bfbbd4950895e08e9f0303cc5236",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\source_seal.json": "7f7912dc44c0acf55e1df803e4fdc3bebb8da1893371f9e71276323f518c957f",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\protocol.json": "47ac7ada9c153b0496f31a6a189bf050858dfd90ede43ad30bcfb5e15f2793a4",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\declarations\\threshold_1.json": "b88a45c4f5b4d46591e9c01d1b25318dc1e3712c4bf7c196efecd84f6df511ce",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\configuration.json": "325ef616bb10d71acb7a72e200988ec9ffae7a18795fcaf68d2dd2886f74f07d",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\fields.npz": "d3dfa0b21a592940d7c77b7d5c9a7f7a66efe223bf3f937b1dc2abbb76dbdfd6",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\particle-readings.json": "f2a8c404e1cd677735256a878abe42cfb0d8f7228c755af1cf5941bae6ebb127",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0000.npz": "30bda79e0252670c7233c387c8ae9326f84eba1b4ccea7eef4442fece1549dd4",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0050.npz": "e2eb1552d32b200be6cf88e24f6be06249e484f07792a07ac245d549c6aedc9f",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0100.npz": "021c710765c793921cbc1929224b10ec5c574a575e21949409cd3d32de0a8d07",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0150.npz": "ccf80b7afdc8df2929632227d0beafe8b6cfc459a1367b5b3027287a99b3d235",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0200.npz": "2f1377ae275a0f9a959d476ab60b476e1a6b826bf3ad0258d8f574e8757bd6df",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0250.npz": "e6bb50dc20fcd23b16b74d68bd3ac11cd82e346caefbb5f32735d2c79c17bc50",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0300.npz": "a80653244c76f77d69451f585f12b99e76d2642915a0e5fbbb414f4848ffa32a",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0350.npz": "27997fb4ad1b4b6ac0de4146418a3fdec31c8133e1890a099416a66971e5a042",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0400.npz": "cd03624d238969bd24121d736cecb1e10be64704bfa09b7de6540401301bc011",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0450.npz": "a76d4828958639522b837158c470e6c1981b71c209bedb46e48d09153fdcb7c3",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0500.npz": "fdc22e508ada95e1951aef489f64452ba8b9c1f013628e2ea1f1c113fa31d7ff",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0550.npz": "ab9d971753ca0d84f8a0cbb871ab0c4588c0bff9605eb9d822d292883d52d1d1",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0551.npz": "6ca651beba2ee85d6bf7451d9a251abbb6b288c1cccaa8fb32c41d4da1a9481a",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0552.npz": "6b9b7c1b2d82d907ef086f40de9ecb2c7803d001f5e220393eac5e658f1b3827",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0553.npz": "2e901d667c304559c79d0a48ea0812cde8e32c67143ad021c10b8e4c9516194c",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0554.npz": "e972900e5b90386b5952a39e39ebae32634a004ec639118630699bfc01a8e9bd",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0555.npz": "f4404b44e8e614edab21c3d5bf0a96c4990fd1b588dc780499f8e486931c3ba2",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0556.npz": "b162cb6cae768a77152e97840babd3f30e4d27132a8ef1a4175b0d0825f391d5",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0557.npz": "7e15cc0efced90f99176fddf7a5526c0861b7e6ed90e64277578fc3f0d3dce7c",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0558.npz": "1dad1b6fb93ba417b1783f1b1b7af43e18f9332d646c543c0116477493412715",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0559.npz": "3ac5b1021f4379a380925e55050f01cb84aaadf5f0d1f47b738928a937a263d4",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0560.npz": "7e2a3d6209a7d35d78e56e366ea2a9d6e59888c0eba70a49486db14565ed21c2",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0561.npz": "0269b947220910aa6877158e2381feb64a9eba8e89edef15ec6a0f826058b77a",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0562.npz": "99925603f3d3921e789f5521066bddf9ec7b3d5c91df8a24999f873146995be0",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0563.npz": "0051e3f838e24993fdc90d704039141e6946fabcedfdcbf58f17f4d4193b475d",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0564.npz": "23f9ab60b44f771a88a62ba95932117c8eba88926c59fa86e9b78092cc1ee11a",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0565.npz": "668cb2f9e5577d5ae45fb69c9e31b94e487d95221987ea69d4cb65ee6cbbefa1",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0566.npz": "32d3960d93f94f0848cf5c1220c5385cd4a3f5d6ab305943d05e1920bb4efbf3",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0567.npz": "ca199ca6b9f27bf9153d242ed612eb30bf1f6fcdc65ad2da4b5e51e88d9230cf",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0568.npz": "6cf37a9f63a00687a01e1a153be4651330a3cf2b619ede1c7f02ef8ed0d6e9c2",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0569.npz": "6e59a8307062eb0f0cec6183d5866055510a82fe39bf96eec85e62fc5e8ce29f",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0570.npz": "ae5bbe018b723448935fb2446da919a52a3ae6edf6ef3a3ab22af2053b50c94f",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0571.npz": "eebc910d67edab168b07543cb79dab421aa8e3eb053fd8ad98bf74333331e6cb",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0572.npz": "daa3552fd8eaca843ff8517b198a39ef6de8ec19c49c4cfea336343c87546fd9",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0573.npz": "e75a48a444742611e4042f3a4f86e7aae8b8a54638fb22a60ae03e6c0b3d36f4",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0574.npz": "eb98244b564e34b8aa2d47f2c290ed6d6de223b44e964a089ac04dfe1c04904a",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0575.npz": "3dadc6ca4d3cacb8f7baa2ef96fc5fbea8e8f1d594d022b46fecef63d381db97",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0576.npz": "b76a04ca085c0506847079aaa2b5ad734fb5ae5d054108b09bcec008a2aef2ca",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0577.npz": "3d517e0bf51ae9dc23477c8377966b5a0bb1ad1ae2283966fbe493770eafad3e",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0578.npz": "2b549e7ccc8d3e69113738220a33caf3d12838afff3efbe2f438c1970c0f88b4",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0579.npz": "a6de4ed3c32683842d909d869492712de511bef95a4b9a698a97a376024b8285",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0580.npz": "2062786882c7dc018c61151aebf21e5e9fa88ce7cfb7b8fa052f673a0b62b221",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0581.npz": "a1759292413749170749f799de359584849b412d6de433c8f29da0acb1e47dae",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0582.npz": "07b80f117a1f94f628cba558159b6b9d84a04882b6cdb4a1ccbd7c211c1ed4da",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0583.npz": "257f91d78b24045e0e4a80c4b45336c0bc039c1407b6587c0f7d3cf5ead4b668",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0584.npz": "1d5390c1b04b7082ecf43bb782d8e915e471b1eaf42e9d37169f60d78a641a11",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0585.npz": "0821b4e7edfd46ba623b4d0d131bd2af5b6a498a5bb03da166223ec296484188",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0586.npz": "07c7ed1ddb46a7fa858caa2097bf33aac26939ae30783765592208fcaca5a6fe",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0587.npz": "76ddbeff51916b3d28cb986ce4de3819d96bdf30fe871576c61ad38c6ef26882",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0588.npz": "da9cddaee2520f4c61ed237a1cea07345b0537c3e1be37d90719ef78b9cc38b1",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0589.npz": "5b56b463cb622bce996a403575e0d9f23baeda51be019d34f8f8f04cc989fafe",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0590.npz": "7ccf03e7ca7005de912935c13d8fd2048c77f1b857d0c4f87853450db6f68e42",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0591.npz": "2f57ec0e8e8152bd7c3c0b0452d73026db440a106c337024ac84a2d86c7037fc",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0592.npz": "6b334dd021b36a457c6a41a4c6e9c875b237529353f6c5e9d5a06c300fb132c3",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0593.npz": "99984489e3653ff10deb5612405d6a3765cc6b54c84bee00069a64e03ca3619d",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0594.npz": "68bbd71986c8c6cf2f3a399257f18d57ddeb02358123ee73e6a11cd0391f915c",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0595.npz": "27bbe06953fd37cdeb4f19b8852f070695a63d09cfb164c46675991b061a90d2",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0596.npz": "e9df3a405af7d9287c2db35afc3b244a2cdcc278c4bbbe86aaa27a827f28db25",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0597.npz": "11b039bc613a125a0adfdf5969b98c527c116d8c45846ec8d0a49cded9baa2f5",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0598.npz": "5c1885c867b014590fa74f5b588387d59962eceaf6ca2b921ebc21c91a8ea53b",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0599.npz": "2f3f76434d1f29cc5ce5a01d249e120b7dbcb701136fcc7250a260aa85ccdaf6",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0600.npz": "5d95941ffb5e8e230dd538aa7d681dd8d9cb042b3cac11de1b3346ecb1739204"
+  },
+  "numpy": "2.3.5",
+  "scipy": "1.16.3",
+  "elapsed_seconds": 123.98399999999674
+}

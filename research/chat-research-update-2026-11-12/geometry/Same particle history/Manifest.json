@@ -1,0 +1,23 @@
+{
+  "Formal core verification.json": "9770bb2c7cef1ac50a5a315470df6cc1c494db37b699d27e040825746a3d7cff",
+  "illustration-32.npz": "fa1876e61b8aab37b6e009734c62284bf0e2d78a3df09c59ab6d05d20247941b",
+  "illustration-48.npz": "de77b514a3424c7ba6879feace44412878a608e7e035ddd01a3ffc9fdaa700c2",
+  "lean/HistoryMatchCore.lean": "9b8addd9ac4af97c34d02281b98ba6182017e0fd3a8dfc8957178d3181a806ea",
+  "lean/lakefile.toml": "e449cf067674f99056d30b51353b576c4add787f60e7436fdfb60ef1b5fdde66",
+  "lean/lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+  "lean/SIMSLatentReadout.lean": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4",
+  "logs/HistoryMatchCore-20261112T103312.log": "d8a3d88f11497140fe4a3a8a56f1406bbafdad1dc1bdbbea9c7ae214f3fc6726",
+  "logs/HistoryMatchCore-20261112T103649.log": "f4422119a33ffe5a0dbed8a1b5d5dfc14b49de68736478d2fd9a7c6212a0c4f4",
+  "logs/HistoryMatchCore-20261112T103802.log": "f4422119a33ffe5a0dbed8a1b5d5dfc14b49de68736478d2fd9a7c6212a0c4f4",
+  "logs/HistoryMatchCore-20261112T104029.log": "e5b519ed6c9351c41ed3aa35d3e84b7e2eca1e84db58c51a69926a837bdb41a4",
+  "Numerical checks.json": "876b5d2bcb3e4500f8666183c7188d3d918317b4232efe8a707c8b3c44329d8f",
+  "Proof.md": "7c3482869d7eaec9f124d9d8c5a52dd05ca0fee18e3d1877ee2be62d7f287918",
+  "Readout.md": "3f17f5784c47d011e1e500bf95c1da25b4c92cf3cc38fc219bdfc4f92374b992",
+  "Same history, different lines.png": "f0db1218a0d06e91de3415f97897417db0b229b84ffb811b64ba1cf62b1cb1c2",
+  "Same history, different lines.svg": "35fe8a94e325ae3862d52f7c9af1f0438e7af6c089ea4edadf1fe2c1bf4d43e3",
+  "scripts/check_history_core.py": "5a19aaaaf6be50b674d741895ab3636601e01b55bb8b229b45bd9ff8ae20a776",
+  "scripts/check_history_example.py": "9dc0ca9036f2b80a772a17c687a482551a737cb9144bde91fd8cfdcb5c1dfc94",
+  "scripts/package_history_example.py": "65db9040f65fc3b5beb826b25e8eb8cd34558d397945b077ddf36df34f9bfec5",
+  "scripts/plot_history_example.py": "7e9ed1b8f6124af289836c47a92e37d0d1b5ae1198efebf4af8676ba3a59c7c2",
+  "Verification.json": "c23e0284c393d223225e161033da538c9cabc920c8a722014b56f93b4986b38e"
+}

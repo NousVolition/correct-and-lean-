@@ -1,0 +1,18 @@
+{
+  "build-native.ps1": "21b5f8900575f7ab05cfc61f8da74418ef534318d7f6863a56f9e9a6d0ad4866",
+  "HistoryRequirement.lean": "14ee9f2c8bb136a6574adea8db973277613e636c22c4d6a60235fcc3cfc8a9ff",
+  "HistoryRequirementAudit.lean": "7288582b127cc3d98ae68af10d7fdea73d8254e19326437b708e386f3508bdd1",
+  "logs\\build-results.json": "ec5cc42f5eb14212448b82a0f4768043c64755b9807ff11f6acc81b68e6765b9",
+  "logs\\HistoryRequirement.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "logs\\HistoryRequirementAudit.log": "0572ae2f6533c09d0a909342c00815cf96041a8247832fe0d69415bdd6366e00",
+  "logs\\lean-version.txt": "87b9d84c24871d31d733f3c474b1372aeba74b55e40dcd54247ecf506523e850",
+  "PLAN.md": "8a79a5791da1958729ee86e99503951052932545900e253b8dd58d46ce5d883e",
+  "README.md": "232e95d737b5a371cc3d42ed1fb908a07d8ddb40e8bdfc6a28be928d94fe29af",
+  "required-history-trace.csv": "3aaa6c5e69abc6cfbfb8f44da0776fc5a74cc30503501662afc10dec88b49bc7",
+  "required-history-with-pair.csv": "c0bbea4286885ee234debe84558da8f366353744150c0524f99585b8f843bb9c",
+  "scripts\\check_sources_and_trace.py": "972336056ecc1004147827fb523ef9e019ec9abff30480c2b9bbd8d7eab4c499",
+  "scripts\\package.py": "d1a4b99621467c08fab11893197ac17becdbf79bf7e5de1e820f183e20ed6e99",
+  "source-check.json": "15e9016f9a827b155f71c64efc12ddabec052711c1552c6afa1feb85948e996c",
+  "trace-check.json": "9957c410648e5488e53d542e0b5d4c8adcb6907e4dc887f3ce3847d5eef46e7a",
+  "verification.json": "81e63f63b324d6d1460732a99a57859c296ef04e47fffe8593fe108217424fe7"
+}

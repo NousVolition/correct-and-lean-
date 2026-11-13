@@ -1,0 +1,38 @@
+{
+  "module": "ClosestPointGeometry",
+  "status": "PASS",
+  "exit_code": 0,
+  "source_sha256": "5a4b73a2d788e5e600b4cec8a73707a47d4fd42cc26e1f592be79e245862e5ed",
+  "object_sha256": "ad4f96f176b3487484be5f2dad49d9edc7fb5d53caf3f3fe5006f2e010f15893",
+  "log": "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/logs/ClosestPointGeometry-20261112T084152.log",
+  "log_sha256": "234ab53fde78c36f7b19fd2421ca6c60edfa64d1e8495ea9844819f677d8901b",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_reports": [
+    "ClosestPointExample.arc_unit_tangent",
+    "ClosestPointExample.arc_derivative",
+    "ClosestPointExample.zero_line_is_closed",
+    "ClosestPointExample.sqrt_two_line_is_open",
+    "ClosestPointExample.all_images_all_line_points",
+    "ClosestPointExample.observation_is_valid",
+    "ClosestPointExample.no_exact_closest_point_reader"
+  ],
+  "started_at_utc": "2026-11-12T08:41:52.091047+00:00",
+  "finished_at_utc": "2026-11-12T08:42:20.644923+00:00",
+  "command": [
+    "$USER_HOME/verification/bin/lake",
+    "env",
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+    "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean",
+    "-o",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean/ClosestPointGeometry.olean",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean/ClosestPointGeometry.lean"
+  ],
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "base_theorem_source_sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4",
+  "base_theorem_object_sha256": "5860a186bc09c71b24206815b8c95b14214984264d90b98920dfb18a9d66a402"
+}

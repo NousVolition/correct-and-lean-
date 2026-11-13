@@ -1,0 +1,36 @@
+[
+  {
+    "module": "HistoryRequirement",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T11:07:17.4824120Z",
+    "finished_utc": "2026-11-12T11:08:02.7040875Z",
+    "source_sha256": "14EE9F2C8BB136A6574ADEA8DB973277613E636C22C4D6A60235FCC3CFC8A9FF",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\carrying-history-G\\HistoryRequirement.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\build\\HistoryRequirement.olean",
+      "HistoryRequirement.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\carrying-history-G\\logs-proof-1\\HistoryRequirement.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "module": "HistoryRequirementAudit",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T11:08:02.7189357Z",
+    "finished_utc": "2026-11-12T11:08:47.7766078Z",
+    "source_sha256": "7288582B127CC3D98AE68AF10D7FDEA73D8254E19326437B708E386F3508BDD1",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\carrying-history-G\\HistoryRequirementAudit.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\build\\HistoryRequirementAudit.olean",
+      "HistoryRequirementAudit.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\carrying-history-G\\logs-proof-1\\HistoryRequirementAudit.log",
+    "log_sha256": "0572AE2F6533C09D0A909342C00815CF96041A8247832FE0D69415BDD6366E00"
+  }
+]

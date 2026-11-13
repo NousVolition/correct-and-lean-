@@ -1,0 +1,31 @@
+import OriginalASIntegrated
+
+#print axioms OriginalAS.Energy.halfSquare_time_derivative
+#print axioms OriginalAS.Energy.halfSquare_partial
+#print axioms OriginalAS.Energy.halfSquare_advection
+#print axioms OriginalAS.Energy.kinetic_time_derivative
+#print axioms OriginalAS.Energy.kinetic_partial
+#print axioms OriginalAS.Energy.kinetic_advection
+#print axioms OriginalAS.Energy.force_power
+#print axioms OriginalAS.Energy.kinetic_material_balance
+#print axioms OriginalAS.Energy.scalar_material_balance
+#print axioms OriginalAS.Energy.partial_mul
+#print axioms OriginalAS.Energy.pressure_flux
+#print axioms OriginalAS.Energy.diffusion_flux
+#print axioms OriginalAS.Energy.gradSquared_nonneg
+#print axioms OriginalAS.Energy.viscous_loss_nonneg
+#print axioms OriginalAS.Energy.hugPower_nonpos
+#print axioms OriginalAS.Energy.hugPower_pos
+#print axioms OriginalAS.Energy.halfSquare_regular
+#print axioms OriginalAS.Energy.kinetic_regular
+#print axioms OriginalAS.Energy.transport_flux
+#print axioms OriginalAS.Energy.kinetic_local_balance
+#print axioms OriginalAS.Energy.scalar_local_balance
+#print axioms OriginalAS.Energy.memory_derivative
+#print axioms OriginalAS.Energy.memory_square_balance
+#print axioms OriginalAS.Energy.memory_at_baseline
+#print axioms OriginalAS.Energy.source_at_baseline
+#print axioms OriginalAS.Energy.sharp_power_off
+#print axioms OriginalAS.Energy.sharp_power_positive
+#print axioms OriginalAS.Energy.integrate_zero_flux_balance
+#print axioms OriginalAS.Energy.kinetic_global_balance

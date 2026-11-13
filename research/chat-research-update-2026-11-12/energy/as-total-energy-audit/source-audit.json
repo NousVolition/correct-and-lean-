@@ -1,0 +1,57 @@
+{
+  "checked_utc": "2026-11-12T08:32:01.653649+00:00",
+  "source_comparisons": [
+    {
+      "module": "FullModel",
+      "sha256": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
+      "unchanged": true,
+      "prior_source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\unforced-energy-lean\\FullModel.lean"
+    },
+    {
+      "module": "OriginalAS",
+      "sha256": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5",
+      "unchanged": true,
+      "prior_source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\unforced-energy-lean\\OriginalAS.lean"
+    },
+    {
+      "module": "OriginalASEnergy",
+      "sha256": "c583ee0c2b02d59fa5880f6d3429b38e0be8d0394b5d1dae4ca15c101cbf3f52",
+      "unchanged": true,
+      "prior_source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\unforced-energy-lean\\OriginalASEnergy.lean"
+    },
+    {
+      "module": "OriginalASBalance",
+      "sha256": "021dae51630c16ff71e28af127f5883ba19ae243a9331bc54d3545b21124a750",
+      "unchanged": true,
+      "prior_source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\unforced-energy-lean\\OriginalASBalance.lean"
+    },
+    {
+      "module": "OriginalASIntegrated",
+      "sha256": "f3b2c146ef848086ed57f7f1cb18956a78241a667e099d1ad78da1ce1bcd888e",
+      "unchanged": true,
+      "prior_source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\unforced-energy-lean\\OriginalASIntegrated.lean"
+    }
+  ],
+  "corpus_source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\ang-mills-as-an-instance-the\\work\\github-publication\\lean\\hug-v3-memory-rules-lean\\corpus\\corrected-corpus-fresh.json",
+  "corpus_sha256": "51fd1a42f1613cfbb6f9abe8a88fc753d822cf2350d2f258c9f31e204bdafe5f",
+  "corpus_paragraph_count": 638,
+  "matches": [
+    {
+      "paragraph": 21,
+      "text": "The field is smooth through the axis, rapidly decreasing, and finite-energy. The analytic derivation establishes these properties; finite tests support the implementation. These statements use the checked construction with finite parameters R ≥ 0, a > 0, b > 0, and real A and B.",
+      "math_objects": 0
+    },
+    {
+      "paragraph": 266,
+      "text": "A fixed eₖ specifies direction; it does not guarantee drag or energy dissipation. For f to remove kinetic energy pointwise, u · f must be nonpositive. The model still needs a domain, initial and boundary data, a definition or equation for S, and compatible coefficient units. A smooth constitutive response is not a proof of smooth solutions for all time. Pressure, viscosity, yield, and boundary remain modeling language unless independently operationalized.",
+      "math_objects": 0
+    },
+    {
+      "paragraph": 551,
+      "text": "Assume constant ρ > 0, µ > 0, and σ ≥ 0; p = P/ρ and ν = µ/ρ connect this equation to the earlier normalized form. The calibration η must give Γcrit the same units as |∇S|. Increasing η lowers Γcrit at fixed τ₀, so the label rigidity does not by itself establish stronger resistance. Fixed-direction forcing is not necessarily dissipative. Initial and boundary data, the S coupling, and a domain are required; smooth activation alone does not establish well-posedness or global regularity.",
+      "math_objects": 0
+    }
+  ],
+  "scope": "Read-only inspection of preserved local extraction and source models; no fresh DOCX extraction or remote search.",
+  "finding": "No A/S internal-energy or thermal evolution equation found in this scoped search."
+}

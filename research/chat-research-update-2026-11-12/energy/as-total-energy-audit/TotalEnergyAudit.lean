@@ -1,0 +1,41 @@
+import ASCounterexample
+import ViscousHeat
+
+#print axioms OriginalAS.Energy.Accounting.cumulative_derivative
+#print axioms OriginalAS.Energy.Accounting.total_rate
+#print axioms OriginalAS.Energy.Accounting.conservation_iff_exchange
+#print axioms OriginalAS.Energy.Accounting.heat_alone_leaves_coupling
+#print axioms OriginalAS.Energy.Accounting.heat_ledger_nonnegative
+#print axioms OriginalAS.Energy.Accounting.exchange_ledger_derivative
+#print axioms OriginalAS.Energy.Accounting.history_account_derivative
+#print axioms OriginalAS.Energy.Accounting.history_account_constant
+#print axioms OriginalAS.Energy.Heat.source_stress_decomposition
+#print axioms OriginalAS.Energy.Heat.strain_identity
+#print axioms OriginalAS.Energy.Heat.source_stress_is_strain_heat
+#print axioms OriginalAS.Energy.Heat.source_heat_nonnegative
+#print axioms OriginalAS.Energy.Heat.bulk_heat_matches_kinetic_loss
+#print axioms OriginalAS.Energy.Witness.parameters_admissible
+#print axioms OriginalAS.Energy.Witness.scalar_partial
+#print axioms OriginalAS.Energy.Witness.velocity_partial
+#print axioms OriginalAS.Energy.Witness.scalar_laplacian
+#print axioms OriginalAS.Energy.Witness.velocity_laplacian
+#print axioms OriginalAS.Energy.Witness.scalar_advection
+#print axioms OriginalAS.Energy.Witness.velocity_advection
+#print axioms OriginalAS.Energy.Witness.incompressible
+#print axioms OriginalAS.Energy.Witness.activation
+#print axioms OriginalAS.Energy.Witness.original_force
+#print axioms OriginalAS.Energy.Witness.original_rates
+#print axioms OriginalAS.Energy.Witness.exact_solution
+#print axioms OriginalAS.Energy.Witness.stored_state_constant
+#print axioms OriginalAS.Energy.Witness.viscous_loss_zero
+#print axioms OriginalAS.Energy.Witness.kinetic_value
+#print axioms OriginalAS.Energy.Witness.coupling_power
+#print axioms OriginalAS.Energy.Witness.kinetic_flux_zero
+#print axioms OriginalAS.Energy.Witness.any_AS_energy_constant
+#print axioms OriginalAS.Energy.Witness.state_energy_cannot_cancel
+#print axioms OriginalAS.Energy.Witness.channel_kinetic_value
+#print axioms OriginalAS.Energy.Witness.no_wall_flow
+#print axioms OriginalAS.Energy.Witness.source_stress_zero
+#print axioms OriginalAS.Energy.Witness.scalar_diffusive_flux_zero
+#print axioms OriginalAS.Energy.Witness.channel_energy_growth
+#print axioms OriginalAS.Energy.Witness.no_conserved_state_energy

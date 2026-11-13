@@ -1,0 +1,26 @@
+name = "matching_paddle_ambiguity"
+version = "0.1.0"
+defaultTargets = ["MatchingPaddleInstance"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+
+[[lean_lib]]
+name = "SIMSLatentReadout"
+
+[[lean_lib]]
+name = "ClosestPointGeometry"
+
+[[lean_lib]]
+name = "PeriodicNavierStokes"
+
+[[lean_lib]]
+name = "MatchingPaddleFluid"
+
+[[lean_lib]]
+name = "MatchingPaddleLines"
+
+[[lean_lib]]
+name = "MatchingPaddleInstance"

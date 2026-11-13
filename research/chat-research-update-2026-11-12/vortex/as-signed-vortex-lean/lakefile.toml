@@ -1,0 +1,25 @@
+name = "SignedVortex"
+version = "0.1.0"
+defaultTargets = ["Solution"]
+
+[[require]]
+name = "NavierStokesAndEuler"
+git = "https://github.com/openai/NavierStokesAndEuler.git"
+rev = "f9e8bc5b38b6e212696e8a30e3e91517af887bbd"
+
+[[lean_lib]]
+name = "SignedDefinitions"
+[[lean_lib]]
+name = "SignedSolution"
+[[lean_lib]]
+name = "ExteriorSolution"
+[[lean_lib]]
+name = "TraceDefinitions"
+[[lean_lib]]
+name = "TraceSolution"
+[[lean_lib]]
+name = "TargetSolution"
+[[lean_lib]]
+name = "Solution"
+[[lean_lib]]
+name = "Challenge"

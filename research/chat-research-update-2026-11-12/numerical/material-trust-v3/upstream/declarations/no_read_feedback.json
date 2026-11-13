@@ -1,0 +1,6307 @@
+{
+  "study": "hug-structural-memory-v3",
+  "run_id": "no_read_feedback",
+  "date": "2026-10-24",
+  "declared_by": "Codex; assistant-added hypotheses explicitly identified",
+  "register_rows": [
+    "Momentum",
+    "Responses",
+    "Gradient alternatives",
+    "Transport/history",
+    "Stress"
+  ],
+  "added_rules": [
+    {
+      "name": "Inherited M01 Dimensionless 3D setting",
+      "statement": "Periodic unit cube [-0.5,0.5)^3; density-normalized equations (rho=1 in code); dimensionless time/fields/features/energy, no physical or psychological calibration.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited M02 Body and absence of mass growth",
+      "statement": "Filled reference ellipsoid with axes (0.22,0.17,0.19); material quadrature; no body-mass growth/loss mechanism. Existing-material scope was requested by the user; this ellipsoid and its discretization were selected by the assistant.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited M03 Physical initialization",
+      "statement": "u=C=A=m=0, F=I, X=X0, zero integrated ledgers. Filtered Gaussian excess temperature 0.03 exp[-0.5 sum((x/(0.19,0.14,0.16))^2)]. Initial positive material records are configurable but zero in declared cases.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited M04 Material kinematics",
+      "statement": "X_dot=M u; F_dot=(M grad u) F. Eulerian fluid and Lagrangian material are coupled through selected interpolation, rather than prescribed outline motion.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited M05 Directional exposure variables",
+      "statement": "For each reference direction a_k: d_k=F a_k, e_k=(|d_k|^2-1)/2; rate=d_k^T sym(M grad u)d_k. Two nonnegative records retain extension and shortening exposures independently, not encounter identities.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited M06 Saturating constitutive influence",
+      "statement": "f_k,+/-=1-exp(-m_k,+/-/m_scale); stress and conduction consume the sum of the two channels. This compresses extension/shortening distinctions at readout. m_scale=0.2 is selected, not registered.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited M07 Stored elastic energy",
+      "statement": "W=G0/2*(tr(FF^T)-3)+Gm/2*sum_k w_k*(f_k,+ + f_k,-)*e_k^2. G0=0.08, Gm=0.18. This is an added anisotropic constitutive law, not the corpus Newtonian stress row or a calibrated Burgers clay law.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited M08 Elastic stress and momentum feedback",
+      "statement": "tau=G0(FF^T-I)+sum_k Gm*w_k*(f_k,+ + f_k,-)*e_k*d_k*d_k^T. Its spread divergence enters momentum. The isotropic subtraction is an incompressible pressure convention.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited M09 Raw memory-writing rate",
+      "statement": "raw_k,+/-=write_rate*(rate_k,+/-/hypot(rate_k,+/-,rate_scale))^2, using positive/negative parts of the directional rate; defaults write_rate=1 and rate_scale=0.04.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited M10 Writing-energy allocation and limiter",
+      "statement": "Y=partial W/partial m; occupancy=R^T V/dv; available=R[Qv/(1+occupancy)]; rawpower=sum(Y*raw); limiter=eta*available/(power_floor+eta*available+rawpower); m_dot=limiter*raw. Defaults eta=0.7, power_floor=1e-5.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited M12 Anisotropic heat conduction",
+      "statement": "Kextra=sum_k km*w_k*(f_k,+ + f_k,-)*n_k*n_k^T, n_k=d_k/|d_k|; K=k0 I+R^T[V Kextra]/dv; heat flux=-K grad(theta), k0=0.006, km=0.009.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited M13 Temperature-dependent viscosity",
+      "statement": "nu(theta)=0.015 exp[-thermal_feedback*tanh(theta/0.03)], default thermal_feedback=0.35. Viscous force div(2nu D) and Qv=2nu D:D use this same added temperature law.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited M15 Objective strain observation",
+      "statement": "E=(F^T F-I)/2 and Frobenius norm ||E|| replace ||F-I|| in the sensor and strain report. This is a standard strain measure chosen here; it is not a register row or an orientation-sensing law.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited M16 Force setup",
+      "statement": "Choose e_k=e_x, sigma=0.16, Gamma=0.015, epsilon=0.012, delta=0.003, and the registered smooth exact-off/q_delta_star options as defaults. Treat force work as supplied by an external actuator. No restoring-gravity/holding law follows.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited M17 Meaning of transported scalar",
+      "statement": "Rename the registered spatial S to C to avoid conflating it with movement/energy. C retains signed status/context semantics; no observation rule converts it into measured energy transfer.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S01 Actors, resources and fixed intent",
+      "statement": "Six fictional roles; assistant-chosen 6x2 recognition, authority, intent and home-context arrays. These exact arrays are in the code appendix. They are fixed external resources, not measured attributes or protected-group rankings.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S02 Social state and initialization",
+      "statement": "e=intent, c=home, norm=0.65*intent, logradius=log(0.72); map components are home*recognition^T, home*authority^T, trust=0.5; responses and associations start at zero. All diagonal maps/responses are zero.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S03 Seven mixed directed response types",
+      "statement": "Imitation, cooperation, rivalry, refusal, coercion, withdrawal, repair are independent strengths, not probabilities summing to one. Directed all-pair interactions exclude self interactions; no physical-half gate or fixed mirror partner.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S04 Two-feature disk permission model",
+      "statement": "Expression lives in R^2. Observer i uses a Euclidean disk centered at norm_i with radius exp(logradius_ij) for actor j. Margin=radius-|e_j-norm_i|; boundary is counted restricted in the binary audit. Disk, metric, dimensions and boundary convention are choices, not the registered optimizer. The active continuous propensity is 0.5 at zero margin; the binary audit is not a hard switch in that dynamics.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S05 Permission propensity and similarity proxies",
+      "statement": "permit=sigmoid(margin/0.18); agreement=exp(-|e_j-e_i|^2/0.6); context_similarity=exp(-|c_i-c_j|^2/0.35). Expression proximity is assigned agreement meaning without calibration.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S06 Attention law and nonzero background",
+      "statement": "attention=(0.15+0.85*context_similarity)*(0.3+0.7*recognition)*(1-0.6*withdrawal), off diagonal only. The 0.15/0.3 backgrounds are retained additions; removing an old memory floor did not remove these backgrounds.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S07 Imitation target logit",
+      "statement": "-0.7+1.8*b+0.7*t+h-d+0.4*p-0.7*refusal. Here b=recognition, t=trust, h/d=retrieved help/harm proxies, p=permit; coefficients/signs are assistant-selected.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S08 Cooperation target logit",
+      "statement": "-0.9+1.7*t+agreement+h-d+0.6*repair-0.5*rivalry. Here b=recognition, t=trust, h/d=retrieved help/harm proxies, p=permit; coefficients/signs are assistant-selected.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S09 Rivalry target logit",
+      "statement": "-1.4+b+1.1*(1-t)+0.8*(1-agreement)+d-h-0.6*repair. Here b=recognition, t=trust, h/d=retrieved help/harm proxies, p=permit; coefficients/signs are assistant-selected.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S10 Refusal target logit",
+      "statement": "-1.4+coercion_ji+d+(1-p)+0.3*o_i,strain-0.5*repair. Here b=recognition, t=trust, h/d=retrieved help/harm proxies, p=permit; coefficients/signs are assistant-selected.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S11 Coercion target logit",
+      "statement": "-1.7+1.8*authority_ji+0.9*(1-p)+0.7*rivalry-0.8*t. Here b=recognition, t=trust, h/d=retrieved help/harm proxies, p=permit; coefficients/signs are assistant-selected.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S12 Withdrawal target logit",
+      "statement": "-1.8+d+coercion_ji+0.5*(1-p)+0.35*o_i,strain-h. Here b=recognition, t=trust, h/d=retrieved help/harm proxies, p=permit; coefficients/signs are assistant-selected.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S13 Repair target logit",
+      "statement": "-1.2+t+d*t+0.6*cooperation-0.7*rivalry+0.2*o_i,temperature. Here b=recognition, t=trust, h/d=retrieved help/harm proxies, p=permit; coefficients/signs are assistant-selected.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S14 Response relaxation",
+      "statement": "R_dot=response_rate*(attention*sigmoid(logit)-R), default rate=4; a disabled mode sets its target to zero. No winner-takes-all rule or exhaustive human-response claim.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S15 Expression adaptation",
+      "statement": "e_dot=0.8(intent-e)+mean_(N-1)[(imitation+0.65 cooperation+0.8 repair-0.6 rivalry)*delta/sqrt(1+|delta|^2)]+mean_(N-1)[coercion_ji*(norm_j-e_i)]+mean_N(refusal+withdrawal)*(intent-e). This is not constrained utility maximization.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S16 Relationship relaxation and social proof",
+      "statement": "B_dot=map_rate*(offdiag(sigmoid(map_logits))-B), default rate=2. Recognition/authority base values are context_i dot fixed resource_j. Social proof averages current observer assessments with denominator N, including the zero self row.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S17 Recognition map logit",
+      "statement": "3*(recognition_base-0.5)+0.7*proof_recognition+0.8*(imitation+rivalry)+h-0.5*d.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S18 Authority map logit",
+      "statement": "3*(authority_base-0.5)+0.7*proof_authority+0.8*coercion_ji-0.8*refusal+0.5*retrieved_authority.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S19 Trust map logit",
+      "statement": "1.4*agreement-1+1.5*h-1.5*d+cooperation+repair-rivalry-coercion_ji.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S20 Room schedule and context target",
+      "statement": "room=(0.85-0.7b,0.15+0.7b), b=sigmoid((t-1)/w)-sigmoid((t-2)/w), w=0.06; steady room=(0.85,0.15). Target context=0.6 home+0.4 room. Room timing and fixed home affiliations are imposed.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S21 Mixture-preserving context dynamics",
+      "statement": "For d_ij=c_i-c_j: c_dot=2(target-c)+mean_(N-1)[-(imitation+cooperation)d_ij+2 withdrawal*c_i elementwise(d_ij-(c_i dot d_ij)1)]. The replicator withdrawal law is an assistant addition in v2.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S22 Norm-center dynamics",
+      "statement": "norm_dot=0.7*(0.6 intent+0.4 expression-norm)+mean_(N-1)[(cooperation+repair-coercion)*(e_j-norm_i)].",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S23 Permission-radius dynamics",
+      "statement": "target_radius=0.55+0.45 sigmoid(1.4 trust+h-d+repair-coercion-0.3 o_i,C); logradius_dot=1.8*(log(target_radius)-logradius).",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited S24 Retrieval-association dynamics",
+      "statement": "association_dot=restructure*1.5*[2(h-d)*tanh((e_j-e_i,o_j,strain-o_i,strain))-association]. This alters a cue, not the stored record.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited B01 Observation/actuation patches",
+      "statement": "Six reference centers: (0.13 cos(a),0.1 sin(a),0.08 cos(2a)), a=2pi i/6. Normalized Gaussian-volume attachment weights of width 0.075. Patches follow solved material; actors are not literal people placed in clay.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited B02 Sensor scales and saturation",
+      "statement": "o_i=(tanh(attach_i*R*C/0.08), tanh(attach_i*||E||/0.12), tanh(attach_i*R*theta/0.03)); physical feedback scales their consumers. No measurement rule establishes these units/scales.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited B04 Excess-input mapping and baseline",
+      "statement": "Excess U=pulse(t)+social_source*0.8*(U_social-U_social_initial). Baseline computed from initial social state with zero physical observations; gamma=0.08 and kappa=1 are chosen defaults. The accumulator form itself is registered; this U definition is not.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited B05 Input pulse",
+      "statement": "Positive sin^2(2pi t) on 0<t<0.5; negative sin^2(2pi(t-0.5)) on 0.5<=t<1 for balanced input, then zero. Zero-input and unbalanced branches are implementation options.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited B06 Source allocation",
+      "statement": "intensity_i=mean_j sum_modes responses_ij+mean_j recognition_ji; actuator=softmax(intensity); material weights=attach^T actuator, normalized. Grid kernel=R^T weights/dv. This moving allocation is added; it preserves the registered kernel total but compresses recipient-specific details.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited N01 Spatial discretization",
+      "statement": "24^3 grid by default; FFT spectral derivatives, rotational momentum form u cross curl(u), pressure projection with zero pressure mode, retained frequencies |m_j|<n/3. Density-normalized physical pressure=projection_pressure-|u|^2/2.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited N02 Scalar discretization and threshold gradient",
+      "statement": "Conservative centered face scalar flux, Fourier face-averaged normal velocities and centered diffusion; source total preserved. Threshold grad C uses central differences. C derivative is restored after the other derivatives are filtered.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited N03 Mechanical interpolation/spreading",
+      "statement": "Truncated Gaussian-smoothed spectral kernel, width 0.035; spreading uses the exact discrete transpose with volume/grid-volume factors. This nonlocal coupling is not specified by the register.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited N04 Positive scalar/thermal interpolation",
+      "statement": "Separate positive normalized periodic Gaussian R, width 0.045, image shifts -1,0,1 in each direction. Used for source, scalar/thermal observations and writing-energy allocation; it does not move material points.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited N05 Quadrature and directional normalization",
+      "statement": "Gauss-Legendre radius/polar sampling and midpoint azimuths: default 3*4*8=96 material points. Default 3*8=24 material directions, direction weights sum to six. Resolution comparisons and all exact configurations are appended.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited N07 Admissibility guards",
+      "statement": "Require positive dt<=1/8 and response_feedback in [0,1] for the declared context bound; social_distribution is a 0/1 path control; even grid, azimuth divisible by four, positive end. Abort on nonfinite state or m<-1e-12; no clipping. The bound is conditional, not a full PDE stability theorem.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited N08 Feedback interventions",
+      "statement": "memory_feedback=0 removes retrieved consumers but still records/retrieves; map_feedback=0 substitutes neutral 0.5 maps and removes archived authority; field_feedback=0 cuts several physical consumers and the strain retrieval distance; restructure=0 fixes association. These are bundled path controls. response_feedback scales current response inputs to other rules; responses are still recorded and evolved by their target-relaxation equation.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited N09 Source/physical/mode controls",
+      "statement": "social_source=0 fixes only amplitude; social_distribution=0 freezes initial material-reference weights; both cut both social inputs at that interface but not moving physical kernel geometry. Gm=km=0 removes material-record return but leaves G0; thermal_feedback=0 fixes viscosity; each mode is separately zero-targeted.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited N12 Constructed energy flux",
+      "statement": "E=|u|^2/2+spread(W)+1+theta; preliminary S_E=E*u-totalstress*u+heatflux. Add Fourier correction i*k*residual_hat/k^2 to obtain a periodic minimum-L2 interaction-flux convention. Zero-mode defect is retained. This diagnostic is partly constructed, not measured microscopic routing.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited N13 Summary measurements",
+      "statement": "Material exposure is direction/volume weighted; strain is volume-RMS ||E||; speed is RMS over grid; exterior is occupancy<0.02; 'old retrieval' uses t<0.9. Different proxies have different averaging conventions; these cutoffs/observables are added.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Inherited N14 Verification criteria",
+      "statement": "Selected absolute tolerances, relative-error denominators/floors, 1% time, 10% material-point, 15% direction/grid bounds, temporal difference ratio>2.5 and effect thresholds 1e-7/1e-6 are testing rules, not corpus equations. All 531 executed check rows, their evidence and exact checker source are appended; the 10% material criterion failed and was not changed.",
+      "reason": "Historical added rule retained from v2, not derived from the register.",
+      "replaces": null
+    },
+    {
+      "name": "Fabric rest-strain microstructure",
+      "statement": "At existing material addresses, bistable residual strains b_l enter W_l=k(e_l(F)-b_l)^2/2+H((b_l/a)^2-1)^2/4. All fixed cells exist at initialization. Stress is derived from W and enters momentum.",
+      "reason": "Define an actual constitutive effect, instead of renaming the old external archive.",
+      "replaces": "Momentum"
+    },
+    {
+      "name": "Fabric rearrangement and heat",
+      "statement": "b_dot=-mobility*dW/db; its nonnegative mobility*(dW/db)^2 loss becomes heat. Material addresses move with X and F. No sign reset, imposed readout floor or history refresh.",
+      "reason": "Provide coupled restructuring and an accounted energy transfer.",
+      "replaces": "Stress"
+    },
+    {
+      "name": "Virtual mechanical observation",
+      "statement": "Two local axial strain probes evaluate the derivative traction k(e-b); calibrated slopes/intercepts estimate residual strain. Decoder sees loads/tractions only. Assume addressable, nondestructive, frozen-state microprobes.",
+      "reason": "Make observability testable; this is a synthetic probing assumption, not established clay instrumentation.",
+      "replaces": null
+    },
+    {
+      "name": "Finite material code",
+      "statement": "Fixed slots encode origin, recipient, event ID, interval, predecessor mask, independent observations/reports, context, relationship samples, seven actions and all P x 6 symmetric strain-change components. Int16 quantization and CRC32 are explicit.",
+      "reason": "Preserve the four required distinctions at declared finite precision and capacity.",
+      "replaces": null
+    },
+    {
+      "name": "No overwrite or silent repair",
+      "statement": "Writes refuse duplicate IDs, exhausted capacity, invalid ranges or schemas. Reads refuse ambiguous wells and checksum failures. No external log, denoising or error correction repairs data.",
+      "reason": "Expose finite memory failure instead of silently erasing or restoring it.",
+      "replaces": null
+    },
+    {
+      "name": "Mechanical write stroke",
+      "statement": "A declared linear residual-strain stroke at fixed F changes stored energy and dissipates drag*delta_b^2/stroke_duration. Supplied work is stored change plus heat. The stroke work is a quartic: stationary points determine its peak, and the sum of positive coefficients supplies a conservative budget bound before any mutation.",
+      "reason": "Supply write work explicitly; an idealized event jump, not a calibrated actuator.",
+      "replaces": null
+    },
+    {
+      "name": "Outcome separated from action",
+      "statement": "Observed recipient consequence and recipient report are independent signed fixture inputs, or explicitly missing. The action vector has no term in this outcome conversion. Average available observations/reports; positive/negative parts produce benefit/adversity evidence.",
+      "reason": "Remove refusal=harm and cooperation=benefit as outcome definitions.",
+      "replaces": null
+    },
+    {
+      "name": "Recipient-directed retrieval",
+      "statement": "Decode records exclusively from fabric. Route history from origin j to recipient i into response entry (i,j). Context plus patch norms of the full retained tensor change form a Gaussian cue; integrate finite event durations with prior exposure.",
+      "reason": "Define indices, readout and relevance; no universal human response claim.",
+      "replaces": null
+    },
+    {
+      "name": "Material utility",
+      "statement": "Replace action-signed utility with mean retrieved beneficial-minus-adverse consequence, retaining declared meaning/margin/scalar terms. Read-feedback control cuts only the returned evidence.",
+      "reason": "Prevent the source utility from recreating the old action-to-valence shortcut.",
+      "replaces": null
+    },
+    {
+      "name": "Event windows and order",
+      "statement": "Three prescribed observation intervals include overlap. Capture current F at interval start, write full delta E at end, discard temporary start data. A predecessor exists when its recorded end is at or before this start; slot number is not causal order.",
+      "reason": "Define finite observation windows without pretending to infer causation from before/after change.",
+      "replaces": null
+    },
+    {
+      "name": "Registered source preserved",
+      "statement": "Keep A_dot=gamma*(U-Ubaseline), J=kappa*A and C transport with normalized kernel. C is the registered signed scalar, distinct from u or joules. Choose smooth_off/calibrated, x direction in a 3D periodic cube.",
+      "reason": "Retain source equations while declaring the extended setting and input mapping.",
+      "replaces": null
+    },
+    {
+      "name": "Joint integration and event budget",
+      "statement": "Heun integrates fields, material exposure, fabric and social states. Split intervals at every declared event boundary. Integrated force-work and separate write-work ledgers are compared to total kinetic+elastic+thermal energy.",
+      "reason": "Avoid archive-only or unaccounted coupling.",
+      "replaces": null
+    },
+    {
+      "name": "Added-law status and inherited limits",
+      "statement": "All runs claim corpus validation false. v2 had a retained 96/192-point strain discrepancy. This revision uses 384 reference points and compares time, grid and 640 points; these are independent new results.",
+      "reason": "Do not erase historical failures or inherit validation.",
+      "replaces": null
+    },
+    {
+      "name": "Finite testing perimeter",
+      "statement": "Roundtrip, participant swap, order/concurrency, tensor precision, archive poisoning, body-only reload, stress derivative, dissipation, writing budget, noise/failure, and joint feedback tests are declared before execution.",
+      "reason": "Test against independent invariants and counterexamples, not only a successful baseline.",
+      "replaces": null
+    }
+  ],
+  "inherits": [
+    {
+      "study": "hug-social-feedback-v2",
+      "status": "added-rule historical"
+    }
+  ],
+  "parameters": {
+    "n": 16,
+    "max_dt": 0.005,
+    "end": 1.6,
+    "radial": 4,
+    "polar": 8,
+    "azimuth": 12,
+    "nu": 0.015,
+    "diffusivity": 0.008,
+    "G0": 0.08,
+    "Gm": 0.18,
+    "mscale": 0.2,
+    "write_rate": 1.0,
+    "rate_scale": 0.04,
+    "eta": 0.7,
+    "power_floor": 1e-05,
+    "k0": 0.006,
+    "km": 0.009,
+    "mechanical_width": 0.035,
+    "thermal_width": 0.045,
+    "h": 0.075,
+    "sigma": 0.16,
+    "threshold": 0.015,
+    "epsilon": 0.012,
+    "delta": 0.003,
+    "gamma": 0.08,
+    "kappa": 1.0,
+    "initial_heat": 0.03,
+    "initial_record": 0.0,
+    "thermal_feedback": 0.35,
+    "direction_polar": 3,
+    "direction_azimuth": 8,
+    "response_rate": 4.0,
+    "map_rate": 2.0,
+    "history_width": 0.32,
+    "history_prior": 0.12,
+    "memory_feedback": 1.0,
+    "map_feedback": 1.0,
+    "response_feedback": 1.0,
+    "field_feedback": 1.0,
+    "social_source": 1.0,
+    "social_distribution": 1.0,
+    "restructure": 1.0,
+    "disabled_mode": -1,
+    "encounter_width": 0.06,
+    "capacity": 4,
+    "micro_k": 0.04,
+    "well_height": 0.002,
+    "rest_amplitude": 0.02,
+    "fabric_mobility": 0.05,
+    "strain_quantum": 0.0001,
+    "feature_quantum": 0.0001,
+    "clock_quantum": 0.001,
+    "probe_strain": 0.001,
+    "read_margin": 0.25,
+    "stroke_drag": 0.05,
+    "stroke_duration": 0.02,
+    "write_budget": 0.02,
+    "read_feedback": 0,
+    "literal::continuum.py:25:10": 24,
+    "literal::continuum.py:26:13": 0.005,
+    "literal::continuum.py:27:14": 2.0,
+    "literal::continuum.py:28:15": 3,
+    "literal::continuum.py:29:14": 4,
+    "literal::continuum.py:30:16": 8,
+    "literal::continuum.py:31:13": 0.015,
+    "literal::continuum.py:32:20": 0.008,
+    "literal::continuum.py:33:13": 0.08,
+    "literal::continuum.py:34:13": 0.18,
+    "literal::continuum.py:35:17": 0.2,
+    "literal::continuum.py:36:21": 1.0,
+    "literal::continuum.py:37:21": 0.04,
+    "literal::continuum.py:38:14": 0.7,
+    "literal::continuum.py:39:22": 1e-05,
+    "literal::continuum.py:40:13": 0.006,
+    "literal::continuum.py:41:13": 0.009,
+    "literal::continuum.py:42:27": 0.035,
+    "literal::continuum.py:43:24": 0.045,
+    "literal::continuum.py:44:23": 0.08,
+    "literal::continuum.py:45:16": 0.16,
+    "literal::continuum.py:46:20": 0.015,
+    "literal::continuum.py:47:18": 0.012,
+    "literal::continuum.py:48:16": 0.003,
+    "literal::continuum.py:49:16": 0.08,
+    "literal::continuum.py:50:16": 1.0,
+    "literal::continuum.py:51:23": 0.03,
+    "literal::continuum.py:54:25": 0.0,
+    "literal::continuum.py:55:27": 0.35,
+    "literal::continuum.py:56:24": 3,
+    "literal::continuum.py:57:26": 8,
+    "literal::continuum.py:17:11": 0.5,
+    "literal::continuum.py:61:60": 2,
+    "literal::continuum.py:61:69": 2,
+    "literal::continuum.py:108:33": 0,
+    "literal::continuum.py:184:15": 0.0,
+    "literal::continuum.py:61:57": 1,
+    "literal::continuum.py:65:19": 0.22,
+    "literal::continuum.py:65:23": 0.17,
+    "literal::continuum.py:65:27": 0.19,
+    "literal::continuum.py:66:105": 3,
+    "literal::continuum.py:73:38": 1,
+    "literal::continuum.py:73:62": 3,
+    "literal::continuum.py:76:29": 0.5,
+    "literal::continuum.py:88:104": 3,
+    "literal::continuum.py:107:32": 1,
+    "literal::continuum.py:119:23": 3,
+    "literal::continuum.py:139:23": 3,
+    "literal::continuum.py:161:34": 2,
+    "literal::continuum.py:162:33": 2,
+    "literal::continuum.py:181:44": 0.0,
+    "literal::continuum.py:182:11": 0,
+    "literal::continuum.py:182:15": 0.5,
+    "literal::continuum.py:188:72": 2,
+    "literal::continuum.py:192:70": 3,
+    "literal::continuum.py:192:72": 3,
+    "literal::continuum.py:196:97": 3,
+    "literal::continuum.py:196:99": 3,
+    "literal::continuum.py:237:16": 0.5,
+    "literal::continuum.py:258:55": 1,
+    "literal::continuum.py:17:42": 3,
+    "literal::continuum.py:63:33": 2,
+    "literal::continuum.py:66:103": -1,
+    "literal::continuum.py:74:15": 2,
+    "literal::continuum.py:74:30": 4,
+    "literal::continuum.py:74:41": 0,
+    "literal::continuum.py:74:53": 0,
+    "literal::continuum.py:77:70": -1,
+    "literal::continuum.py:80:15": 2,
+    "literal::continuum.py:81:38": -1,
+    "literal::continuum.py:88:102": -1,
+    "literal::continuum.py:93:55": 1,
+    "literal::continuum.py:107:30": 0,
+    "literal::continuum.py:108:26": 0,
+    "literal::continuum.py:108:28": 0,
+    "literal::continuum.py:108:30": 0,
+    "literal::continuum.py:121:27": 3,
+    "literal::continuum.py:124:19": 0.5,
+    "literal::continuum.py:137:40": 3,
+    "literal::continuum.py:143:31": 0.5,
+    "literal::continuum.py:148:88": -1,
+    "literal::continuum.py:149:88": -1,
+    "literal::continuum.py:153:41": 5,
+    "literal::continuum.py:154:14": 4,
+    "literal::continuum.py:161:31": 1,
+    "literal::continuum.py:170:24": 0,
+    "literal::continuum.py:170:26": 2,
+    "literal::continuum.py:170:28": 1,
+    "literal::continuum.py:171:49": 0.5,
+    "literal::continuum.py:175:67": 2,
+    "literal::continuum.py:182:44": 2,
+    "literal::continuum.py:183:45": 0.5,
+    "literal::continuum.py:183:51": 1,
+    "literal::continuum.py:187:49": 3,
+    "literal::continuum.py:187:65": 4,
+    "literal::continuum.py:190:11": 2,
+    "literal::continuum.py:192:27": 3,
+    "literal::continuum.py:207:95": 3,
+    "literal::continuum.py:207:97": 3,
+    "literal::continuum.py:215:99": -1,
+    "literal::continuum.py:217:54": 0,
+    "literal::continuum.py:222:42": 0,
+    "literal::continuum.py:223:97": -1,
+    "literal::continuum.py:229:15": 3,
+    "literal::continuum.py:238:29": 0.5,
+    "literal::continuum.py:243:40": 1,
+    "literal::continuum.py:258:53": 0,
+    "literal::continuum.py:20:50": -2,
+    "literal::continuum.py:20:53": -1,
+    "literal::continuum.py:63:29": 0.5,
+    "literal::continuum.py:80:75": -1,
+    "literal::continuum.py:82:54": 3,
+    "literal::continuum.py:82:62": -1,
+    "literal::continuum.py:86:47": 2,
+    "literal::continuum.py:89:41": 6,
+    "literal::continuum.py:89:46": 2,
+    "literal::continuum.py:90:76": 2,
+    "literal::continuum.py:93:40": 0,
+    "literal::continuum.py:93:42": 1,
+    "literal::continuum.py:93:44": 2,
+    "literal::continuum.py:94:57": 1,
+    "literal::continuum.py:99:107": -1,
+    "literal::continuum.py:106:33": -1,
+    "literal::continuum.py:138:42": -0.5,
+    "literal::continuum.py:138:82": 2,
+    "literal::continuum.py:143:29": 1,
+    "literal::continuum.py:146:28": 1,
+    "literal::continuum.py:156:96": 0.0,
+    "literal::continuum.py:156:116": 4,
+    "literal::continuum.py:162:25": 0,
+    "literal::continuum.py:162:27": 2,
+    "literal::continuum.py:162:29": 1,
+    "literal::continuum.py:171:15": 2,
+    "literal::continuum.py:171:46": 3,
+    "literal::continuum.py:173:73": 2,
+    "literal::continuum.py:174:42": 0,
+    "literal::continuum.py:174:62": 0,
+    "literal::continuum.py:174:72": -1,
+    "literal::continuum.py:183:85": 2,
+    "literal::continuum.py:187:37": 3,
+    "literal::continuum.py:188:40": 3,
+    "literal::continuum.py:192:25": -1,
+    "literal::continuum.py:200:36": 1,
+    "literal::continuum.py:200:38": 2,
+    "literal::continuum.py:206:29": 1,
+    "literal::continuum.py:207:112": 3,
+    "literal::continuum.py:218:68": 2,
+    "literal::continuum.py:220:46": 0,
+    "literal::continuum.py:224:38": 2,
+    "literal::continuum.py:228:74": -1,
+    "literal::continuum.py:230:44": -1,
+    "literal::continuum.py:239:89": 3,
+    "literal::continuum.py:254:58": -1,
+    "literal::continuum.py:284:49": 3,
+    "literal::continuum.py:284:51": 3,
+    "literal::continuum.py:291:43": 2,
+    "literal::continuum.py:291:57": 2,
+    "literal::continuum.py:292:25": 2,
+    "literal::continuum.py:292:39": 2,
+    "literal::continuum.py:17:27": -1,
+    "literal::continuum.py:17:30": -2,
+    "literal::continuum.py:86:43": 0.5,
+    "literal::continuum.py:88:90": -1,
+    "literal::continuum.py:90:94": 2,
+    "literal::continuum.py:94:42": 0,
+    "literal::continuum.py:94:44": 1,
+    "literal::continuum.py:94:46": 2,
+    "literal::continuum.py:99:97": 3,
+    "literal::continuum.py:103:92": -1,
+    "literal::continuum.py:126:36": 1,
+    "literal::continuum.py:143:25": 0.5,
+    "literal::continuum.py:154:111": 2,
+    "literal::continuum.py:156:59": 2,
+    "literal::continuum.py:161:28": -1,
+    "literal::continuum.py:169:28": -1,
+    "literal::continuum.py:171:82": 1,
+    "literal::continuum.py:172:27": 3,
+    "literal::continuum.py:188:65": -1,
+    "literal::continuum.py:188:68": -2,
+    "literal::continuum.py:192:51": 9,
+    "literal::continuum.py:208:58": 4,
+    "literal::continuum.py:215:68": 2,
+    "literal::continuum.py:215:94": 3,
+    "literal::continuum.py:216:47": 2,
+    "literal::continuum.py:216:71": 2,
+    "literal::continuum.py:216:82": 2,
+    "literal::continuum.py:237:39": -1,
+    "literal::continuum.py:238:44": -1,
+    "literal::continuum.py:239:27": 2,
+    "literal::continuum.py:243:10": 0.5,
+    "literal::continuum.py:250:34": -1,
+    "literal::continuum.py:250:44": 4,
+    "literal::continuum.py:262:110": 1,
+    "literal::continuum.py:293:32": 6,
+    "literal::continuum.py:66:91": -1,
+    "literal::continuum.py:67:70": 2,
+    "literal::continuum.py:82:40": 2,
+    "literal::continuum.py:90:65": 2,
+    "literal::continuum.py:90:72": 1,
+    "literal::continuum.py:124:36": -1,
+    "literal::continuum.py:141:79": -1,
+    "literal::continuum.py:145:88": 0,
+    "literal::continuum.py:145:90": 1,
+    "literal::continuum.py:148:53": 2,
+    "literal::continuum.py:149:53": 2,
+    "literal::continuum.py:171:35": 1,
+    "literal::continuum.py:171:43": 2,
+    "literal::continuum.py:171:75": 2,
+    "literal::continuum.py:173:10": 0.5,
+    "literal::continuum.py:176:35": -1,
+    "literal::continuum.py:177:55": -1,
+    "literal::continuum.py:182:32": 2,
+    "literal::continuum.py:189:57": 0.03,
+    "literal::continuum.py:190:34": -1,
+    "literal::continuum.py:190:37": -2,
+    "literal::continuum.py:192:49": -1,
+    "literal::continuum.py:199:25": 1,
+    "literal::continuum.py:215:56": 1,
+    "literal::continuum.py:216:32": 2,
+    "literal::continuum.py:216:35": -1,
+    "literal::continuum.py:218:44": 1,
+    "literal::continuum.py:223:30": 2,
+    "literal::continuum.py:223:32": 1,
+    "literal::continuum.py:223:42": 1,
+    "literal::continuum.py:223:44": 2,
+    "literal::continuum.py:223:54": 0,
+    "literal::continuum.py:223:56": 2,
+    "literal::continuum.py:223:66": 2,
+    "literal::continuum.py:223:68": 0,
+    "literal::continuum.py:223:78": 1,
+    "literal::continuum.py:223:80": 0,
+    "literal::continuum.py:223:90": 0,
+    "literal::continuum.py:223:92": 1,
+    "literal::continuum.py:247:32": 1,
+    "literal::continuum.py:247:34": 2,
+    "literal::continuum.py:247:58": 1,
+    "literal::continuum.py:247:60": 2,
+    "literal::continuum.py:263:56": 0,
+    "literal::continuum.py:264:43": 2,
+    "literal::continuum.py:96:70": 3,
+    "literal::continuum.py:138:46": 2,
+    "literal::continuum.py:145:27": -0.5,
+    "literal::continuum.py:145:68": 2,
+    "literal::continuum.py:145:86": -1,
+    "literal::continuum.py:148:13": 0,
+    "literal::continuum.py:148:33": 1,
+    "literal::continuum.py:149:13": 0,
+    "literal::continuum.py:149:33": 1,
+    "literal::continuum.py:155:66": 3,
+    "literal::continuum.py:155:77": 3,
+    "literal::continuum.py:155:79": 3,
+    "literal::continuum.py:183:68": 2,
+    "literal::continuum.py:183:79": 0.5,
+    "literal::continuum.py:196:55": 9,
+    "literal::continuum.py:215:36": -1,
+    "literal::continuum.py:221:60": 2,
+    "literal::continuum.py:243:25": -1,
+    "literal::continuum.py:265:71": 1,
+    "literal::continuum.py:268:42": 1,
+    "literal::continuum.py:268:90": 0,
+    "literal::continuum.py:274:89": 2,
+    "literal::continuum.py:278:76": 2,
+    "literal::continuum.py:293:55": 2,
+    "literal::continuum.py:67:68": 2,
+    "literal::continuum.py:88:42": 1,
+    "literal::continuum.py:88:68": 1,
+    "literal::continuum.py:122:87": 2,
+    "literal::continuum.py:125:56": -1,
+    "literal::continuum.py:154:100": 2,
+    "literal::continuum.py:207:53": 9,
+    "literal::continuum.py:250:30": 3,
+    "literal::continuum.py:269:85": 2,
+    "literal::continuum.py:270:80": -1,
+    "literal::continuum.py:272:59": 0.02,
+    "literal::continuum.py:273:60": 0.02,
+    "literal::continuum.py:293:44": 2,
+    "literal::continuum.py:66:27": 1,
+    "literal::continuum.py:66:58": 1,
+    "literal::continuum.py:90:51": 0.045,
+    "literal::continuum.py:90:56": 0.025,
+    "literal::continuum.py:141:28": 2,
+    "literal::continuum.py:154:108": -1,
+    "literal::continuum.py:263:143": 1,
+    "literal::continuum.py:263:145": 2,
+    "literal::continuum.py:264:94": -1,
+    "literal::continuum.py:266:68": -2,
+    "literal::continuum.py:266:77": -1,
+    "literal::continuum.py:274:83": 0.02,
+    "literal::continuum.py:66:33": 2,
+    "literal::continuum.py:66:64": 2,
+    "literal::continuum.py:67:48": 1,
+    "literal::continuum.py:67:50": 1,
+    "literal::continuum.py:90:46": -0.065,
+    "literal::continuum.py:99:75": 3,
+    "literal::continuum.py:103:65": 4,
+    "literal::continuum.py:154:84": 0.19,
+    "literal::continuum.py:154:88": 0.14,
+    "literal::continuum.py:154:92": 0.16,
+    "literal::social_base.py:19:10": 24,
+    "literal::social_base.py:20:13": 0.005,
+    "literal::social_base.py:21:14": 3.0,
+    "literal::social_base.py:22:15": 3,
+    "literal::social_base.py:23:14": 4,
+    "literal::social_base.py:24:16": 8,
+    "literal::social_base.py:25:23": 0.075,
+    "literal::social_base.py:26:24": 4.0,
+    "literal::social_base.py:27:19": 2.0,
+    "literal::social_base.py:28:24": 0.32,
+    "literal::social_base.py:29:24": 0.12,
+    "literal::social_base.py:30:26": 1.0,
+    "literal::social_base.py:31:23": 1.0,
+    "literal::social_base.py:32:28": 1.0,
+    "literal::social_base.py:33:25": 1.0,
+    "literal::social_base.py:34:24": 1.0,
+    "literal::social_base.py:35:30": 1.0,
+    "literal::social_base.py:36:22": 1.0,
+    "literal::social_base.py:39:26": 0.06,
+    "literal::social_base.py:42:55": 0.0,
+    "literal::social_base.py:37:23": -1,
+    "literal::social_base.py:47:15": 6,
+    "literal::social_base.py:60:30": 0.0,
+    "literal::social_base.py:75:29": 0.5,
+    "literal::social_base.py:47:35": 1,
+    "literal::social_base.py:81:27": 0.0,
+    "literal::social_base.py:91:42": 3,
+    "literal::social_base.py:92:34": 2,
+    "literal::social_base.py:108:35": 0,
+    "literal::social_base.py:120:19": 2,
+    "literal::social_base.py:121:66": 2,
+    "literal::social_base.py:121:83": 2,
+    "literal::social_base.py:154:57": 0,
+    "literal::social_base.py:172:28": 0,
+    "literal::social_base.py:172:59": 0.0,
+    "literal::social_base.py:189:11": 2,
+    "literal::social_base.py:198:11": 0.7,
+    "literal::social_base.py:200:21": 0.55,
+    "literal::social_base.py:201:11": 1.8,
+    "literal::social_base.py:218:48": 0.08,
+    "literal::social_base.py:219:52": 0.12,
+    "literal::social_base.py:220:52": 0.03,
+    "literal::social_base.py:235:25": 1,
+    "literal::social_base.py:271:113": 24,
+    "literal::social_base.py:272:46": 0.005,
+    "literal::social_base.py:272:95": 3.0,
+    "literal::social_base.py:61:15": 0,
+    "literal::social_base.py:61:23": 0.125,
+    "literal::social_base.py:63:15": 0,
+    "literal::social_base.py:63:39": 1,
+    "literal::social_base.py:65:41": 0.0,
+    "literal::social_base.py:65:44": 1.0,
+    "literal::social_base.py:73:26": 0,
+    "literal::social_base.py:74:26": 1,
+    "literal::social_base.py:75:26": 2,
+    "literal::social_base.py:78:60": 0,
+    "literal::social_base.py:85:77": 0.12,
+    "literal::social_base.py:93:57": -1,
+    "literal::social_base.py:113:20": 1e-12,
+    "literal::social_base.py:116:35": 0.15,
+    "literal::social_base.py:121:76": 1,
+    "literal::social_base.py:142:50": 0.08,
+    "literal::social_base.py:150:20": 3,
+    "literal::social_base.py:154:55": -1,
+    "literal::social_base.py:156:52": 0.18,
+    "literal::social_base.py:157:65": -1,
+    "literal::social_base.py:158:32": 0.6,
+    "literal::social_base.py:159:93": 0.35,
+    "literal::social_base.py:161:68": 1,
+    "literal::social_base.py:176:50": 0.6,
+    "literal::social_base.py:177:11": 0.8,
+    "literal::social_base.py:178:92": 1,
+    "literal::social_base.py:186:104": -1,
+    "literal::social_base.py:188:18": 0.6,
+    "literal::social_base.py:188:31": 0.4,
+    "literal::social_base.py:196:14": 2,
+    "literal::social_base.py:197:82": 1,
+    "literal::social_base.py:199:102": 1,
+    "literal::social_base.py:200:25": 0.45,
+    "literal::social_base.py:204:21": 2,
+    "literal::social_base.py:205:25": 1.5,
+    "literal::social_base.py:221:66": -1,
+    "literal::social_base.py:237:31": 0,
+    "literal::social_base.py:256:27": -1e-12,
+    "literal::social_base.py:49:36": 0.95,
+    "literal::social_base.py:49:40": 0.7,
+    "literal::social_base.py:49:45": 0.25,
+    "literal::social_base.py:49:49": 0.85,
+    "literal::social_base.py:49:55": 0.6,
+    "literal::social_base.py:49:58": 0.75,
+    "literal::social_base.py:49:64": 0.65,
+    "literal::social_base.py:49:68": 0.3,
+    "literal::social_base.py:49:73": 0.2,
+    "literal::social_base.py:49:76": 0.2,
+    "literal::social_base.py:49:81": 0.4,
+    "literal::social_base.py:49:84": 0.4,
+    "literal::social_base.py:50:34": 0.7,
+    "literal::social_base.py:50:37": 0.15,
+    "literal::social_base.py:50:43": 0.2,
+    "literal::social_base.py:50:46": 0.98,
+    "literal::social_base.py:50:52": 0.75,
+    "literal::social_base.py:50:56": 0.8,
+    "literal::social_base.py:50:61": 0.4,
+    "literal::social_base.py:50:64": 0.25,
+    "literal::social_base.py:50:70": 0.1,
+    "literal::social_base.py:50:73": 0.2,
+    "literal::social_base.py:50:78": 0.25,
+    "literal::social_base.py:50:82": 0.35,
+    "literal::social_base.py:51:31": 0.8,
+    "literal::social_base.py:51:34": 0.1,
+    "literal::social_base.py:51:43": 0.65,
+    "literal::social_base.py:51:49": 0.15,
+    "literal::social_base.py:51:53": 0.6,
+    "literal::social_base.py:51:58": 0.65,
+    "literal::social_base.py:51:84": 0.2,
+    "literal::social_base.py:52:29": 0.9,
+    "literal::social_base.py:52:32": 0.1,
+    "literal::social_base.py:52:37": 0.15,
+    "literal::social_base.py:52:41": 0.85,
+    "literal::social_base.py:52:47": 0.5,
+    "literal::social_base.py:52:50": 0.5,
+    "literal::social_base.py:52:55": 0.8,
+    "literal::social_base.py:52:58": 0.2,
+    "literal::social_base.py:52:63": 0.4,
+    "literal::social_base.py:52:66": 0.6,
+    "literal::social_base.py:52:71": 0.6,
+    "literal::social_base.py:52:74": 0.4,
+    "literal::social_base.py:55:30": 2,
+    "literal::social_base.py:56:22": 0.13,
+    "literal::social_base.py:56:38": 0.1,
+    "literal::social_base.py:56:53": 0.08,
+    "literal::social_base.py:58:33": 1,
+    "literal::social_base.py:70:77": 0.65,
+    "literal::social_base.py:77:57": 3,
+    "literal::social_base.py:78:52": 0,
+    "literal::social_base.py:86:31": 0.5,
+    "literal::social_base.py:86:64": 0.5,
+    "literal::social_base.py:86:116": -1,
+    "literal::social_base.py:98:118": 2,
+    "literal::social_base.py:117:37": 2,
+    "literal::social_base.py:118:43": 2,
+    "literal::social_base.py:121:60": -1,
+    "literal::social_base.py:132:54": 0.85,
+    "literal::social_base.py:132:58": 0.15,
+    "literal::social_base.py:135:25": 0.85,
+    "literal::social_base.py:135:39": 0.15,
+    "literal::social_base.py:139:94": 1,
+    "literal::social_base.py:140:62": 2,
+    "literal::social_base.py:141:87": 1,
+    "literal::social_base.py:142:37": 0.2,
+    "literal::social_base.py:153:31": 0,
+    "literal::social_base.py:153:46": 1,
+    "literal::social_base.py:161:19": 0.15,
+    "literal::social_base.py:161:48": 0.3,
+    "literal::social_base.py:161:70": 0.6,
+    "literal::social_base.py:163:33": 4,
+    "literal::social_base.py:171:91": -1,
+    "literal::social_base.py:176:37": 0.8,
+    "literal::social_base.py:177:77": 1,
+    "literal::social_base.py:178:86": 1,
+    "literal::social_base.py:180:33": 0,
+    "literal::social_base.py:194:24": 0,
+    "literal::social_base.py:194:34": 1,
+    "literal::social_base.py:197:76": 1,
+    "literal::social_base.py:199:96": 1,
+    "literal::social_base.py:202:42": 1,
+    "literal::social_base.py:202:61": 1,
+    "literal::social_base.py:203:87": -1,
+    "literal::social_base.py:206:46": 0.8,
+    "literal::social_base.py:207:42": 1,
+    "literal::social_base.py:207:71": 0,
+    "literal::social_base.py:51:40": -0.5,
+    "literal::social_base.py:51:63": -0.35,
+    "literal::social_base.py:51:70": -0.5,
+    "literal::social_base.py:51:74": -0.45,
+    "literal::social_base.py:51:81": -0.1,
+    "literal::social_base.py:57:76": 2,
+    "literal::social_base.py:71:48": 0.72,
+    "literal::social_base.py:71:77": 3,
+    "literal::social_base.py:72:41": 7,
+    "literal::social_base.py:72:71": 3,
+    "literal::social_base.py:91:38": 4,
+    "literal::social_base.py:92:21": 1,
+    "literal::social_base.py:92:30": 6,
+    "literal::social_base.py:93:43": 0,
+    "literal::social_base.py:93:52": 1,
+    "literal::social_base.py:101:55": -1,
+    "literal::social_base.py:108:58": 4,
+    "literal::social_base.py:113:17": -1,
+    "literal::social_base.py:118:67": 2,
+    "literal::social_base.py:120:42": 4,
+    "literal::social_base.py:124:46": 0.9,
+    "literal::social_base.py:129:91": -1,
+    "literal::social_base.py:134:24": 1.0,
+    "literal::social_base.py:134:40": 2.0,
+    "literal::social_base.py:135:29": 0.7,
+    "literal::social_base.py:135:43": 0.7,
+    "literal::social_base.py:140:70": -1,
+    "literal::social_base.py:142:15": 0.35,
+    "literal::social_base.py:142:26": 0.2,
+    "literal::social_base.py:151:32": 1,
+    "literal::social_base.py:161:23": 0.85,
+    "literal::social_base.py:161:51": 0.7,
+    "literal::social_base.py:175:36": 1,
+    "literal::social_base.py:176:23": 0.65,
+    "literal::social_base.py:176:60": 2,
+    "literal::social_base.py:177:71": 1,
+    "literal::social_base.py:179:45": 1,
+    "literal::social_base.py:195:66": -1,
+    "literal::social_base.py:198:15": 0.6,
+    "literal::social_base.py:198:30": 0.4,
+    "literal::social_base.py:207:34": -1,
+    "literal::social_base.py:207:63": 0,
+    "literal::social_base.py:228:23": 2,
+    "literal::social_base.py:237:17": 1,
+    "literal::social_base.py:262:65": 2,
+    "literal::social_base.py:274:88": -1,
+    "literal::social_base.py:56:64": 2,
+    "literal::social_base.py:57:94": 2,
+    "literal::social_base.py:91:20": 2,
+    "literal::social_base.py:91:29": 3,
+    "literal::social_base.py:118:36": 2,
+    "literal::social_base.py:118:39": -1,
+    "literal::social_base.py:141:49": 0.4,
+    "literal::social_base.py:159:87": 2,
+    "literal::social_base.py:159:90": -1,
+    "literal::social_base.py:161:80": 5,
+    "literal::social_base.py:176:20": 0,
+    "literal::social_base.py:176:47": 6,
+    "literal::social_base.py:184:80": 0.5,
+    "literal::social_base.py:185:84": 0.5,
+    "literal::social_base.py:200:76": 0.3,
+    "literal::social_base.py:237:26": 90,
+    "literal::social_base.py:263:100": 0,
+    "literal::social_base.py:264:109": 0,
+    "literal::social_base.py:57:64": 2,
+    "literal::social_base.py:139:56": 4,
+    "literal::social_base.py:142:76": 0,
+    "literal::social_base.py:151:60": 0.5,
+    "literal::social_base.py:151:63": 0.5,
+    "literal::social_base.py:151:66": 0.5,
+    "literal::social_base.py:165:68": 0.7,
+    "literal::social_base.py:166:66": 0.5,
+    "literal::social_base.py:167:77": 0.6,
+    "literal::social_base.py:168:79": 0.5,
+    "literal::social_base.py:169:66": 0.8,
+    "literal::social_base.py:171:66": 0.2,
+    "literal::social_base.py:176:34": 1,
+    "literal::social_base.py:179:27": 3,
+    "literal::social_base.py:179:37": 5,
+    "literal::social_base.py:185:71": 0.8,
+    "literal::social_base.py:197:57": 5,
+    "literal::social_base.py:57:72": -1,
+    "literal::social_base.py:139:47": 2,
+    "literal::social_base.py:165:58": 0.4,
+    "literal::social_base.py:166:53": 0.6,
+    "literal::social_base.py:168:57": 0.3,
+    "literal::social_base.py:169:53": 0.7,
+    "literal::social_base.py:170:60": 0.35,
+    "literal::social_base.py:171:53": 0.7,
+    "literal::social_base.py:184:49": 0.8,
+    "literal::social_base.py:185:50": 0.8,
+    "literal::social_base.py:185:99": 3,
+    "literal::social_base.py:186:80": 2,
+    "literal::social_base.py:199:47": 4,
+    "literal::social_base.py:200:73": 4,
+    "literal::social_base.py:200:90": 0,
+    "literal::social_base.py:218:36": 3,
+    "literal::social_base.py:220:40": 4,
+    "literal::social_base.py:248:65": 3,
+    "literal::social_base.py:248:92": 4,
+    "literal::social_base.py:98:54": 3,
+    "literal::social_base.py:98:75": 4,
+    "literal::social_base.py:139:29": 1,
+    "literal::social_base.py:139:38": 6,
+    "literal::social_base.py:165:78": 3,
+    "literal::social_base.py:166:76": 2,
+    "literal::social_base.py:167:87": 6,
+    "literal::social_base.py:168:47": 1,
+    "literal::social_base.py:168:89": 6,
+    "literal::social_base.py:169:39": 0.9,
+    "literal::social_base.py:170:46": 0.5,
+    "literal::social_base.py:171:40": 0.6,
+    "literal::social_base.py:171:80": 2,
+    "literal::social_base.py:184:18": 3,
+    "literal::social_base.py:184:33": 0.7,
+    "literal::social_base.py:185:18": 3,
+    "literal::social_base.py:185:34": 0.7,
+    "literal::social_base.py:185:81": 3,
+    "literal::social_base.py:186:70": 6,
+    "literal::social_base.py:199:27": 1,
+    "literal::social_base.py:199:37": 6,
+    "literal::social_base.py:200:63": 6,
+    "literal::social_base.py:241:95": 0,
+    "literal::social_base.py:241:97": 1,
+    "literal::social_base.py:248:42": 3,
+    "literal::social_base.py:166:63": 6,
+    "literal::social_base.py:167:49": 0.8,
+    "literal::social_base.py:168:71": 1,
+    "literal::social_base.py:169:19": -1.7,
+    "literal::social_base.py:169:23": 1.8,
+    "literal::social_base.py:169:43": 1,
+    "literal::social_base.py:169:63": 2,
+    "literal::social_base.py:170:50": 1,
+    "literal::social_base.py:170:75": 1,
+    "literal::social_base.py:171:63": 2,
+    "literal::social_base.py:184:29": 0.5,
+    "literal::social_base.py:185:30": 0.5,
+    "literal::social_base.py:186:44": 1.5,
+    "literal::social_base.py:186:60": 1,
+    "literal::social_base.py:200:35": 1.4,
+    "literal::social_base.py:165:38": 0.7,
+    "literal::social_base.py:167:35": 1.1,
+    "literal::social_base.py:167:53": 1,
+    "literal::social_base.py:168:19": -1.4,
+    "literal::social_base.py:170:19": -1.8,
+    "literal::social_base.py:171:19": -1.2,
+    "literal::social_base.py:171:50": 1,
+    "literal::social_base.py:184:46": 0,
+    "literal::social_base.py:184:60": 0,
+    "literal::social_base.py:184:70": 2,
+    "literal::social_base.py:185:47": 1,
+    "literal::social_base.py:186:32": 1,
+    "literal::social_base.py:186:34": 1.5,
+    "literal::social_base.py:165:19": -0.7,
+    "literal::social_base.py:165:22": 1.8,
+    "literal::social_base.py:166:19": -0.9,
+    "literal::social_base.py:166:22": 1.7,
+    "literal::social_base.py:167:19": -1.4,
+    "literal::social_base.py:167:40": 1,
+    "literal::social_base.py:186:18": 1.4,
+    "literal::structural_hug.py:11:7": 23,
+    "literal::structural_hug.py:12:6": 1729,
+    "literal::structural_hug.py:16:10": 16,
+    "literal::structural_hug.py:17:15": 4,
+    "literal::structural_hug.py:18:14": 8,
+    "literal::structural_hug.py:19:16": 12,
+    "literal::structural_hug.py:20:14": 1.6,
+    "literal::structural_hug.py:21:17": 4,
+    "literal::structural_hug.py:22:18": 0.04,
+    "literal::structural_hug.py:23:22": 0.002,
+    "literal::structural_hug.py:24:25": 0.02,
+    "literal::structural_hug.py:25:26": 0.05,
+    "literal::structural_hug.py:26:25": 0.0001,
+    "literal::structural_hug.py:27:26": 0.0001,
+    "literal::structural_hug.py:28:24": 0.001,
+    "literal::structural_hug.py:29:23": 0.001,
+    "literal::structural_hug.py:30:22": 0.25,
+    "literal::structural_hug.py:31:22": 0.05,
+    "literal::structural_hug.py:32:26": 0.02,
+    "literal::structural_hug.py:33:23": 0.02,
+    "literal::structural_hug.py:34:24": 1.0,
+    "literal::structural_hug.py:10:7": 0,
+    "literal::structural_hug.py:10:9": 0,
+    "literal::structural_hug.py:10:13": 1,
+    "literal::structural_hug.py:10:15": 1,
+    "literal::structural_hug.py:10:19": 2,
+    "literal::structural_hug.py:10:21": 2,
+    "literal::structural_hug.py:10:25": 0,
+    "literal::structural_hug.py:10:27": 1,
+    "literal::structural_hug.py:10:31": 0,
+    "literal::structural_hug.py:10:33": 2,
+    "literal::structural_hug.py:10:37": 1,
+    "literal::structural_hug.py:10:39": 2,
+    "literal::structural_hug.py:50:44": 4,
+    "literal::structural_hug.py:51:43": 8,
+    "literal::structural_hug.py:53:85": 3,
+    "literal::structural_hug.py:55:26": 1,
+    "literal::structural_hug.py:59:34": 2,
+    "literal::structural_hug.py:72:123": 3,
+    "literal::structural_hug.py:105:21": 1,
+    "literal::structural_hug.py:107:10": 7,
+    "literal::structural_hug.py:143:18": 0,
+    "literal::structural_hug.py:176:82": 0.0,
+    "literal::structural_hug.py:204:37": 0,
+    "literal::structural_hug.py:227:32": 1,
+    "literal::structural_hug.py:50:24": 2,
+    "literal::structural_hug.py:59:31": 1,
+    "literal::structural_hug.py:84:57": 0,
+    "literal::structural_hug.py:101:29": 6,
+    "literal::structural_hug.py:103:27": 11,
+    "literal::structural_hug.py:105:11": 5,
+    "literal::structural_hug.py:106:10": 5,
+    "literal::structural_hug.py:106:12": 7,
+    "literal::structural_hug.py:108:10": 8,
+    "literal::structural_hug.py:108:12": 10,
+    "literal::structural_hug.py:109:10": 10,
+    "literal::structural_hug.py:109:13": 12,
+    "literal::structural_hug.py:110:10": 12,
+    "literal::structural_hug.py:116:53": 0,
+    "literal::structural_hug.py:118:32": 1,
+    "literal::structural_hug.py:120:67": 6,
+    "literal::structural_hug.py:144:79": 1,
+    "literal::structural_hug.py:153:31": 0.0,
+    "literal::structural_hug.py:159:20": 0.0,
+    "literal::structural_hug.py:159:23": 1.0,
+    "literal::structural_hug.py:163:69": 0,
+    "literal::structural_hug.py:185:36": 4,
+    "literal::structural_hug.py:187:64": 0.15,
+    "literal::structural_hug.py:196:39": 2,
+    "literal::structural_hug.py:200:24": 0.9,
+    "literal::structural_hug.py:208:51": 0.08,
+    "literal::structural_hug.py:229:21": 4,
+    "literal::structural_hug.py:63:10": 0.5,
+    "literal::structural_hug.py:63:30": 2,
+    "literal::structural_hug.py:63:46": 4,
+    "literal::structural_hug.py:63:77": 2,
+    "literal::structural_hug.py:65:94": 1,
+    "literal::structural_hug.py:79:54": 1,
+    "literal::structural_hug.py:87:26": 0,
+    "literal::structural_hug.py:90:68": 32767,
+    "literal::structural_hug.py:97:57": 0,
+    "literal::structural_hug.py:97:79": 15,
+    "literal::structural_hug.py:98:15": 0,
+    "literal::structural_hug.py:98:101": 0,
+    "literal::structural_hug.py:98:127": 32768,
+    "literal::structural_hug.py:109:51": 0.0,
+    "literal::structural_hug.py:109:84": 0.0,
+    "literal::structural_hug.py:119:13": 2,
+    "literal::structural_hug.py:119:19": 3,
+    "literal::structural_hug.py:135:99": 0,
+    "literal::structural_hug.py:143:60": 1,
+    "literal::structural_hug.py:144:58": 2,
+    "literal::structural_hug.py:158:64": 1,
+    "literal::structural_hug.py:158:66": 5,
+    "literal::structural_hug.py:177:62": 3,
+    "literal::structural_hug.py:192:36": 3,
+    "literal::structural_hug.py:192:38": 3,
+    "literal::structural_hug.py:206:62": 2,
+    "literal::structural_hug.py:207:87": 1,
+    "literal::structural_hug.py:208:38": 0.2,
+    "literal::structural_hug.py:216:25": 1,
+    "literal::structural_hug.py:219:28": 0.5,
+    "literal::structural_hug.py:43:41": 1,
+    "literal::structural_hug.py:50:34": 6,
+    "literal::structural_hug.py:59:28": 1,
+    "literal::structural_hug.py:63:73": 1,
+    "literal::structural_hug.py:65:67": 2,
+    "literal::structural_hug.py:65:92": 2,
+    "literal::structural_hug.py:90:49": -32768,
+    "literal::structural_hug.py:115:27": -4,
+    "literal::structural_hug.py:115:39": -4,
+    "literal::structural_hug.py:118:20": 2,
+    "literal::structural_hug.py:119:30": 0,
+    "literal::structural_hug.py:119:38": 6,
+    "literal::structural_hug.py:119:44": 0,
+    "literal::structural_hug.py:119:52": 6,
+    "literal::structural_hug.py:119:58": 0,
+    "literal::structural_hug.py:119:66": 15,
+    "literal::structural_hug.py:121:33": 2,
+    "literal::structural_hug.py:121:53": 3,
+    "literal::structural_hug.py:121:72": 4,
+    "literal::structural_hug.py:122:39": 7,
+    "literal::structural_hug.py:122:88": 8,
+    "literal::structural_hug.py:123:73": 9,
+    "literal::structural_hug.py:158:82": 1,
+    "literal::structural_hug.py:162:54": 0,
+    "literal::structural_hug.py:181:56": 0.0,
+    "literal::structural_hug.py:194:47": 1,
+    "literal::structural_hug.py:194:49": 2,
+    "literal::structural_hug.py:198:37": 0,
+    "literal::structural_hug.py:198:47": 0,
+    "literal::structural_hug.py:205:68": 1,
+    "literal::structural_hug.py:206:70": -1,
+    "literal::structural_hug.py:208:15": 0.35,
+    "literal::structural_hug.py:208:27": 0.2,
+    "literal::structural_hug.py:212:26": 2,
+    "literal::structural_hug.py:43:35": -1,
+    "literal::structural_hug.py:63:71": 2,
+    "literal::structural_hug.py:72:44": 3,
+    "literal::structural_hug.py:72:105": 3,
+    "literal::structural_hug.py:119:35": 2,
+    "literal::structural_hug.py:119:49": 3,
+    "literal::structural_hug.py:119:63": 4,
+    "literal::structural_hug.py:121:90": 5,
+    "literal::structural_hug.py:121:122": 6,
+    "literal::structural_hug.py:123:96": 12,
+    "literal::structural_hug.py:123:99": 14,
+    "literal::structural_hug.py:124:40": 14,
+    "literal::structural_hug.py:124:81": 15,
+    "literal::structural_hug.py:125:30": 16,
+    "literal::structural_hug.py:125:33": 23,
+    "literal::structural_hug.py:156:55": 4,
+    "literal::structural_hug.py:157:51": 4,
+    "literal::structural_hug.py:159:77": 1e-10,
+    "literal::structural_hug.py:159:87": 0,
+    "literal::structural_hug.py:159:96": 1,
+    "literal::structural_hug.py:195:91": 0.12,
+    "literal::structural_hug.py:197:68": 2,
+    "literal::structural_hug.py:207:49": 0.4,
+    "literal::structural_hug.py:220:69": 0,
+    "literal::structural_hug.py:220:120": 1,
+    "literal::structural_hug.py:222:74": -1,
+    "literal::structural_hug.py:96:90": 0,
+    "literal::structural_hug.py:96:103": 6,
+    "literal::structural_hug.py:122:60": 10,
+    "literal::structural_hug.py:123:45": 11,
+    "literal::structural_hug.py:156:50": 3,
+    "literal::structural_hug.py:157:48": 4,
+    "literal::structural_hug.py:157:56": 4,
+    "literal::structural_hug.py:195:47": 0.5,
+    "literal::structural_hug.py:197:92": 2,
+    "literal::structural_hug.py:205:37": 0,
+    "literal::structural_hug.py:205:48": 1,
+    "literal::structural_hug.py:208:77": 0,
+    "literal::structural_hug.py:155:32": 0.5,
+    "literal::structural_hug.py:165:88": -4,
+    "literal::structural_hug.py:154:80": 1,
+    "literal::structural_hug.py:155:72": 2,
+    "literal::structural_hug.py:154:68": 2,
+    "literal::structural_hug.py:154:78": 2,
+    "literal::structural_hug.py:155:77": 4,
+    "literal::structural_hug.py:155:60": 3,
+    "literal::run.py:12:78": 0.0,
+    "literal::run.py:27:60": 0,
+    "literal::run.py:27:27": 0,
+    "literal::run.py:27:41": 0,
+    "literal::run.py:33:49": 1,
+    "literal::run.py:28:55": 1,
+    "literal::run.py:30:40": 1e-12,
+    "literal::run.py:35:35": 0,
+    "literal::run.py:38:39": 1e-12,
+    "literal::run.py:70:62": 1,
+    "literal::run.py:70:42": 1,
+    "literal::run.py:13:28": 0.0,
+    "literal::run.py:28:40": -1,
+    "literal::run.py:60:61": 2,
+    "literal::run.py:35:21": 1,
+    "literal::run.py:65:112": 0,
+    "literal::run.py:21:72": 0,
+    "literal::run.py:35:30": 10,
+    "literal::run.py:18:53": 0,
+    "literal::run.py:18:55": 1,
+    "literal::run.py:26:99": 0,
+    "literal::run.py:54:48": -1,
+    "literal::run.py:54:81": -1,
+    "literal::run.py:56:51": -1,
+    "literal::run.py:23:79": 3,
+    "literal::run.py:21:50": 3,
+    "literal::test_structure.py:10:21": 0,
+    "literal::test_structure.py:10:33": 1,
+    "literal::test_structure.py:10:44": 0,
+    "literal::test_structure.py:10:52": 0.0,
+    "literal::test_structure.py:10:59": 0.4,
+    "literal::test_structure.py:10:71": 0.6,
+    "literal::test_structure.py:10:81": 0.5,
+    "literal::test_structure.py:10:97": 0,
+    "literal::test_structure.py:25:42": 0,
+    "literal::test_structure.py:25:60": 1,
+    "literal::test_structure.py:29:66": 0,
+    "literal::test_structure.py:29:84": 1,
+    "literal::test_structure.py:82:10": 1e-06,
+    "literal::test_structure.py:87:52": 1e-06,
+    "literal::test_structure.py:93:74": 0.1,
+    "literal::test_structure.py:109:10": 1e-05,
+    "literal::test_structure.py:129:42": 9,
+    "literal::test_structure.py:139:61": 0,
+    "literal::test_structure.py:157:23": 0.2,
+    "literal::test_structure.py:12:96": 0.7,
+    "literal::test_structure.py:12:109": 0.4,
+    "literal::test_structure.py:18:86": 0,
+    "literal::test_structure.py:20:46": 0.5,
+    "literal::test_structure.py:23:48": 0.4,
+    "literal::test_structure.py:25:57": 3,
+    "literal::test_structure.py:26:49": 0,
+    "literal::test_structure.py:27:36": 0,
+    "literal::test_structure.py:27:65": 0,
+    "literal::test_structure.py:28:45": 0,
+    "literal::test_structure.py:29:81": 1,
+    "literal::test_structure.py:30:49": 0,
+    "literal::test_structure.py:31:34": 0,
+    "literal::test_structure.py:31:65": 0,
+    "literal::test_structure.py:34:45": 0,
+    "literal::test_structure.py:34:86": 0,
+    "literal::test_structure.py:38:38": 1,
+    "literal::test_structure.py:40:57": 0,
+    "literal::test_structure.py:42:34": 2401,
+    "literal::test_structure.py:43:37": 0.2,
+    "literal::test_structure.py:44:56": 1,
+    "literal::test_structure.py:50:66": 0,
+    "literal::test_structure.py:51:66": 1,
+    "literal::test_structure.py:54:77": 1,
+    "literal::test_structure.py:56:78": 0,
+    "literal::test_structure.py:65:70": 0,
+    "literal::test_structure.py:72:20": 0.4,
+    "literal::test_structure.py:75:124": 0,
+    "literal::test_structure.py:78:49": 1,
+    "literal::test_structure.py:81:80": 0.15,
+    "literal::test_structure.py:91:46": 1e-10,
+    "literal::test_structure.py:94:23": 0.4,
+    "literal::test_structure.py:94:44": 0.4,
+    "literal::test_structure.py:95:75": 1e-09,
+    "literal::test_structure.py:103:23": 100,
+    "literal::test_structure.py:105:52": 0.0001,
+    "literal::test_structure.py:106:38": 1,
+    "literal::test_structure.py:106:70": 0,
+    "literal::test_structure.py:110:63": 1e-10,
+    "literal::test_structure.py:111:43": 0,
+    "literal::test_structure.py:115:51": 1e-12,
+    "literal::test_structure.py:115:93": 0,
+    "literal::test_structure.py:125:39": 0,
+    "literal::test_structure.py:136:69": 1,
+    "literal::test_structure.py:137:37": 0,
+    "literal::test_structure.py:137:72": 1,
+    "literal::test_structure.py:139:56": 100,
+    "literal::test_structure.py:141:26": 100,
+    "literal::test_structure.py:141:33": -1,
+    "literal::test_structure.py:145:23": 0.4,
+    "literal::test_structure.py:145:51": 0.4,
+    "literal::test_structure.py:146:73": 1e-05,
+    "literal::test_structure.py:147:75": 1e-05,
+    "literal::test_structure.py:149:55": 0.4,
+    "literal::test_structure.py:150:23": 7,
+    "literal::test_structure.py:151:86": 0.5,
+    "literal::test_structure.py:156:85": 1,
+    "literal::test_structure.py:157:103": 0,
+    "literal::test_structure.py:159:113": 0,
+    "literal::test_structure.py:160:65": 1,
+    "literal::test_structure.py:162:54": 0.1,
+    "literal::test_structure.py:163:27": 0.4,
+    "literal::test_structure.py:163:32": 0.0025,
+    "literal::test_structure.py:164:70": 0,
+    "literal::test_structure.py:165:60": 0,
+    "literal::test_structure.py:166:64": 1e-12,
+    "literal::test_structure.py:20:39": 0.6,
+    "literal::test_structure.py:20:42": 0.4,
+    "literal::test_structure.py:21:55": -0.6,
+    "literal::test_structure.py:21:65": 14,
+    "literal::test_structure.py:23:44": 0.4,
+    "literal::test_structure.py:26:43": 0.4,
+    "literal::test_structure.py:30:43": 0.4,
+    "literal::test_structure.py:34:27": 0.4,
+    "literal::test_structure.py:34:67": 0.4,
+    "literal::test_structure.py:35:44": 1e-13,
+    "literal::test_structure.py:38:35": 0,
+    "literal::test_structure.py:43:34": -0.2,
+    "literal::test_structure.py:43:51": 6,
+    "literal::test_structure.py:44:53": 0,
+    "literal::test_structure.py:45:102": 1e-15,
+    "literal::test_structure.py:65:64": 0.4,
+    "literal::test_structure.py:71:61": 0,
+    "literal::test_structure.py:81:76": -0.15,
+    "literal::test_structure.py:83:79": 2,
+    "literal::test_structure.py:84:68": 1,
+    "literal::test_structure.py:84:76": 1e-11,
+    "literal::test_structure.py:86:90": 1.1,
+    "literal::test_structure.py:86:100": 1,
+    "literal::test_structure.py:89:83": 2,
+    "literal::test_structure.py:93:71": 0,
+    "literal::test_structure.py:100:107": 13,
+    "literal::test_structure.py:102:84": 1.15,
+    "literal::test_structure.py:102:96": 1,
+    "literal::test_structure.py:104:48": 3,
+    "literal::test_structure.py:104:95": 3,
+    "literal::test_structure.py:104:101": 0.0025,
+    "literal::test_structure.py:106:35": 0,
+    "literal::test_structure.py:109:97": 2,
+    "literal::test_structure.py:113:38": 1,
+    "literal::test_structure.py:114:34": 1,
+    "literal::test_structure.py:116:59": 1e-15,
+    "literal::test_structure.py:117:53": 1e-15,
+    "literal::test_structure.py:136:66": 0,
+    "literal::test_structure.py:152:27": 0.4,
+    "literal::test_structure.py:153:130": 1e-05,
+    "literal::test_structure.py:155:56": 2,
+    "literal::test_structure.py:155:68": 3,
+    "literal::test_structure.py:155:79": 1,
+    "literal::test_structure.py:155:87": 0.4,
+    "literal::test_structure.py:155:94": 0.8,
+    "literal::test_structure.py:155:106": 0.4,
+    "literal::test_structure.py:155:126": 0.4,
+    "literal::test_structure.py:12:76": 0.6,
+    "literal::test_structure.py:12:79": 0.4,
+    "literal::test_structure.py:13:34": 0.2,
+    "literal::test_structure.py:13:37": 0.1,
+    "literal::test_structure.py:13:40": 0.3,
+    "literal::test_structure.py:13:43": 0.5,
+    "literal::test_structure.py:13:46": 0.1,
+    "literal::test_structure.py:13:49": 0.4,
+    "literal::test_structure.py:13:52": 0.2,
+    "literal::test_structure.py:13:80": 6,
+    "literal::test_structure.py:17:32": 12,
+    "literal::test_structure.py:17:42": 2,
+    "literal::test_structure.py:17:50": 4,
+    "literal::test_structure.py:17:60": 8,
+    "literal::test_structure.py:17:66": 0.02,
+    "literal::test_structure.py:21:46": -0.8,
+    "literal::test_structure.py:21:50": -0.4,
+    "literal::test_structure.py:27:29": 1,
+    "literal::test_structure.py:27:31": 0,
+    "literal::test_structure.py:27:33": 0,
+    "literal::test_structure.py:27:58": 1,
+    "literal::test_structure.py:27:60": 0,
+    "literal::test_structure.py:27:62": 1,
+    "literal::test_structure.py:29:35": -0.7,
+    "literal::test_structure.py:29:46": -0.5,
+    "literal::test_structure.py:31:27": 1,
+    "literal::test_structure.py:31:29": 0,
+    "literal::test_structure.py:31:31": 0,
+    "literal::test_structure.py:31:58": 1,
+    "literal::test_structure.py:31:60": 0,
+    "literal::test_structure.py:31:62": 1,
+    "literal::test_structure.py:33:76": -1,
+    "literal::test_structure.py:45:74": 0.5,
+    "literal::test_structure.py:48:73": 1,
+    "literal::test_structure.py:48:85": 0,
+    "literal::test_structure.py:49:76": 1,
+    "literal::test_structure.py:49:115": 1,
+    "literal::test_structure.py:50:53": 1,
+    "literal::test_structure.py:51:53": 1,
+    "literal::test_structure.py:53:84": 1,
+    "literal::test_structure.py:53:92": 0.4,
+    "literal::test_structure.py:53:99": 0.8,
+    "literal::test_structure.py:53:115": 1,
+    "literal::test_structure.py:54:58": 1,
+    "literal::test_structure.py:55:51": 1,
+    "literal::test_structure.py:55:59": 0.2,
+    "literal::test_structure.py:55:66": 0.8,
+    "literal::test_structure.py:55:82": 0,
+    "literal::test_structure.py:56:59": 1,
+    "literal::test_structure.py:59:43": 0,
+    "literal::test_structure.py:59:55": 1,
+    "literal::test_structure.py:60:45": 1,
+    "literal::test_structure.py:60:54": 2,
+    "literal::test_structure.py:60:66": 3,
+    "literal::test_structure.py:60:74": 0.4,
+    "literal::test_structure.py:60:81": 0.8,
+    "literal::test_structure.py:60:97": 1,
+    "literal::test_structure.py:61:43": 2,
+    "literal::test_structure.py:61:55": 3,
+    "literal::test_structure.py:62:45": 1,
+    "literal::test_structure.py:62:54": 0,
+    "literal::test_structure.py:62:66": 1,
+    "literal::test_structure.py:62:74": 0.4,
+    "literal::test_structure.py:62:81": 0.8,
+    "literal::test_structure.py:62:97": 1,
+    "literal::test_structure.py:71:55": 0.4,
+    "literal::test_structure.py:78:33": 1,
+    "literal::test_structure.py:83:44": 0,
+    "literal::test_structure.py:83:74": 0,
+    "literal::test_structure.py:86:94": 1,
+    "literal::test_structure.py:86:96": 1.1,
+    "literal::test_structure.py:87:21": 0.1,
+    "literal::test_structure.py:87:24": 0.2,
+    "literal::test_structure.py:87:27": 0,
+    "literal::test_structure.py:87:31": 0,
+    "literal::test_structure.py:87:37": 0,
+    "literal::test_structure.py:87:41": 0,
+    "literal::test_structure.py:87:43": 0,
+    "literal::test_structure.py:87:45": 0,
+    "literal::test_structure.py:97:51": 0,
+    "literal::test_structure.py:97:56": 0,
+    "literal::test_structure.py:97:60": 1,
+    "literal::test_structure.py:97:62": 0,
+    "literal::test_structure.py:97:64": 0,
+    "literal::test_structure.py:97:68": 0,
+    "literal::test_structure.py:97:70": 0,
+    "literal::test_structure.py:97:72": 1,
+    "literal::test_structure.py:99:37": 1,
+    "literal::test_structure.py:99:57": 1,
+    "literal::test_structure.py:102:89": 1,
+    "literal::test_structure.py:102:91": 1.15,
+    "literal::test_structure.py:113:23": 0,
+    "literal::test_structure.py:114:23": 0.4,
+    "literal::test_structure.py:118:54": 3,
+    "literal::test_structure.py:118:68": 3,
+    "literal::test_structure.py:121:93": 0.0,
+    "literal::test_structure.py:124:27": 12,
+    "literal::test_structure.py:124:37": 2,
+    "literal::test_structure.py:124:45": 4,
+    "literal::test_structure.py:124:55": 8,
+    "literal::test_structure.py:124:66": 1,
+    "literal::test_structure.py:135:55": 0.05,
+    "literal::test_structure.py:151:79": 0,
+    "literal::test_structure.py:151:81": 1,
+    "literal::test_structure.py:164:57": 1,
+    "literal::test_structure.py:170:45": 2,
+    "literal::test_structure.py:174:68": 2,
+    "literal::test_structure.py:40:48": 1,
+    "literal::test_structure.py:50:50": 0,
+    "literal::test_structure.py:51:50": 0,
+    "literal::test_structure.py:54:55": 1,
+    "literal::test_structure.py:56:56": 1,
+    "literal::test_structure.py:78:30": 0,
+    "literal::test_structure.py:87:34": -0.1,
+    "literal::test_structure.py:97:54": -1,
+    "literal::test_structure.py:99:34": 0,
+    "literal::test_structure.py:99:54": 0,
+    "literal::test_structure.py:126:82": 1,
+    "literal::test_structure.py:135:51": -0.05,
+    "literal::test_structure.py:135:60": 2,
+    "literal::test_structure.py:144:90": -0.6,
+    "literal::test_structure.py:144:101": -0.5,
+    "literal::test_structure.py:164:54": 0,
+    "literal::test_structure.py:166:60": 1,
+    "literal::test_structure.py:40:42": 0.4,
+    "literal::test_structure.py:104:86": 0.005,
+    "literal::test_structure.py:135:36": 2402,
+    "literal::test_structure.py:28:33": 0,
+    "literal::test_structure.py:28:35": 1,
+    "literal::test_structure.py:95:55": 3,
+    "literal::test_structure.py:95:71": 3,
+    "literal::test_structure.py:165:49": 3,
+    "literal::test_structure.py:166:57": -1,
+    "literal::preflight.py:44:43": 1,
+    "literal::preflight.py:44:23": 1,
+    "literal::preflight.py:45:56": 0,
+    "law": "smooth_off",
+    "gradient_law": "calibrated",
+    "force_direction_0": 1.0,
+    "force_direction_1": 0.0,
+    "force_direction_2": 0.0,
+    "event_recipient": [
+      1,
+      1,
+      0
+    ],
+    "event_recipient_report": [
+      0.5,
+      -0.7,
+      0.2
+    ],
+    "event_origin": [
+      0,
+      2,
+      1
+    ],
+    "event_observed": [
+      0.6,
+      -0.5
+    ],
+    "event_start": [
+      0.0,
+      0.2,
+      0.8
+    ],
+    "event_event_id": [
+      0,
+      1,
+      2
+    ],
+    "event_end": [
+      0.4,
+      0.8,
+      1.2
+    ]
+  },
+  "fixture_ranges": {
+    "n": {
+      "min": 16,
+      "max": 16
+    },
+    "max_dt": {
+      "min": 0.005,
+      "max": 0.005
+    },
+    "end": {
+      "min": 1.6,
+      "max": 1.6
+    },
+    "radial": {
+      "min": 4,
+      "max": 4
+    },
+    "polar": {
+      "min": 8,
+      "max": 8
+    },
+    "azimuth": {
+      "min": 12,
+      "max": 12
+    },
+    "G0": {
+      "min": 0.08,
+      "max": 0.08
+    },
+    "Gm": {
+      "min": 0.18,
+      "max": 0.18
+    },
+    "mscale": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "write_rate": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "rate_scale": {
+      "min": 0.04,
+      "max": 0.04
+    },
+    "eta": {
+      "min": 0.7,
+      "max": 0.7
+    },
+    "power_floor": {
+      "min": 1e-05,
+      "max": 1e-05
+    },
+    "k0": {
+      "min": 0.006,
+      "max": 0.006
+    },
+    "km": {
+      "min": 0.009,
+      "max": 0.009
+    },
+    "mechanical_width": {
+      "min": 0.035,
+      "max": 0.035
+    },
+    "thermal_width": {
+      "min": 0.045,
+      "max": 0.045
+    },
+    "gamma": {
+      "min": 0.08,
+      "max": 0.08
+    },
+    "kappa": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "initial_heat": {
+      "min": 0.03,
+      "max": 0.03
+    },
+    "initial_record": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "thermal_feedback": {
+      "min": 0.35,
+      "max": 0.35
+    },
+    "direction_polar": {
+      "min": 3,
+      "max": 3
+    },
+    "direction_azimuth": {
+      "min": 8,
+      "max": 8
+    },
+    "response_rate": {
+      "min": 4.0,
+      "max": 4.0
+    },
+    "map_rate": {
+      "min": 2.0,
+      "max": 2.0
+    },
+    "history_width": {
+      "min": 0.32,
+      "max": 0.32
+    },
+    "history_prior": {
+      "min": 0.12,
+      "max": 0.12
+    },
+    "memory_feedback": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "map_feedback": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "response_feedback": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "field_feedback": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "social_source": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "social_distribution": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "restructure": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "disabled_mode": {
+      "min": -1,
+      "max": -1
+    },
+    "encounter_width": {
+      "min": 0.06,
+      "max": 0.06
+    },
+    "capacity": {
+      "min": 4,
+      "max": 4
+    },
+    "micro_k": {
+      "min": 0.04,
+      "max": 0.04
+    },
+    "well_height": {
+      "min": 0.002,
+      "max": 0.002
+    },
+    "rest_amplitude": {
+      "min": 0.02,
+      "max": 0.02
+    },
+    "fabric_mobility": {
+      "min": 0.05,
+      "max": 0.05
+    },
+    "strain_quantum": {
+      "min": 0.0001,
+      "max": 0.0001
+    },
+    "feature_quantum": {
+      "min": 0.0001,
+      "max": 0.0001
+    },
+    "clock_quantum": {
+      "min": 0.001,
+      "max": 0.001
+    },
+    "probe_strain": {
+      "min": 0.001,
+      "max": 0.001
+    },
+    "read_margin": {
+      "min": 0.25,
+      "max": 0.25
+    },
+    "stroke_drag": {
+      "min": 0.05,
+      "max": 0.05
+    },
+    "stroke_duration": {
+      "min": 0.02,
+      "max": 0.02
+    },
+    "write_budget": {
+      "min": 0.02,
+      "max": 0.02
+    },
+    "read_feedback": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:25:10": {
+      "min": 24,
+      "max": 24
+    },
+    "literal::continuum.py:26:13": {
+      "min": 0.005,
+      "max": 0.005
+    },
+    "literal::continuum.py:27:14": {
+      "min": 2.0,
+      "max": 2.0
+    },
+    "literal::continuum.py:28:15": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:29:14": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::continuum.py:30:16": {
+      "min": 8,
+      "max": 8
+    },
+    "literal::continuum.py:31:13": {
+      "min": 0.015,
+      "max": 0.015
+    },
+    "literal::continuum.py:32:20": {
+      "min": 0.008,
+      "max": 0.008
+    },
+    "literal::continuum.py:33:13": {
+      "min": 0.08,
+      "max": 0.08
+    },
+    "literal::continuum.py:34:13": {
+      "min": 0.18,
+      "max": 0.18
+    },
+    "literal::continuum.py:35:17": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::continuum.py:36:21": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "literal::continuum.py:37:21": {
+      "min": 0.04,
+      "max": 0.04
+    },
+    "literal::continuum.py:38:14": {
+      "min": 0.7,
+      "max": 0.7
+    },
+    "literal::continuum.py:39:22": {
+      "min": 1e-05,
+      "max": 1e-05
+    },
+    "literal::continuum.py:40:13": {
+      "min": 0.006,
+      "max": 0.006
+    },
+    "literal::continuum.py:41:13": {
+      "min": 0.009,
+      "max": 0.009
+    },
+    "literal::continuum.py:42:27": {
+      "min": 0.035,
+      "max": 0.035
+    },
+    "literal::continuum.py:43:24": {
+      "min": 0.045,
+      "max": 0.045
+    },
+    "literal::continuum.py:44:23": {
+      "min": 0.08,
+      "max": 0.08
+    },
+    "literal::continuum.py:45:16": {
+      "min": 0.16,
+      "max": 0.16
+    },
+    "literal::continuum.py:46:20": {
+      "min": 0.015,
+      "max": 0.015
+    },
+    "literal::continuum.py:47:18": {
+      "min": 0.012,
+      "max": 0.012
+    },
+    "literal::continuum.py:48:16": {
+      "min": 0.003,
+      "max": 0.003
+    },
+    "literal::continuum.py:49:16": {
+      "min": 0.08,
+      "max": 0.08
+    },
+    "literal::continuum.py:50:16": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "literal::continuum.py:51:23": {
+      "min": 0.03,
+      "max": 0.03
+    },
+    "literal::continuum.py:54:25": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::continuum.py:55:27": {
+      "min": 0.35,
+      "max": 0.35
+    },
+    "literal::continuum.py:56:24": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:57:26": {
+      "min": 8,
+      "max": 8
+    },
+    "literal::continuum.py:17:11": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::continuum.py:61:60": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:61:69": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:108:33": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:184:15": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::continuum.py:61:57": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:65:19": {
+      "min": 0.22,
+      "max": 0.22
+    },
+    "literal::continuum.py:65:23": {
+      "min": 0.17,
+      "max": 0.17
+    },
+    "literal::continuum.py:65:27": {
+      "min": 0.19,
+      "max": 0.19
+    },
+    "literal::continuum.py:66:105": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:73:38": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:73:62": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:76:29": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::continuum.py:88:104": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:107:32": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:119:23": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:139:23": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:161:34": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:162:33": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:181:44": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::continuum.py:182:11": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:182:15": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::continuum.py:188:72": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:192:70": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:192:72": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:196:97": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:196:99": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:237:16": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::continuum.py:258:55": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:17:42": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:63:33": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:66:103": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:74:15": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:74:30": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::continuum.py:74:41": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:74:53": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:77:70": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:80:15": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:81:38": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:88:102": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:93:55": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:107:30": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:108:26": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:108:28": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:108:30": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:121:27": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:124:19": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::continuum.py:137:40": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:143:31": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::continuum.py:148:88": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:149:88": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:153:41": {
+      "min": 5,
+      "max": 5
+    },
+    "literal::continuum.py:154:14": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::continuum.py:161:31": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:170:24": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:170:26": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:170:28": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:171:49": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::continuum.py:175:67": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:182:44": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:183:45": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::continuum.py:183:51": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:187:49": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:187:65": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::continuum.py:190:11": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:192:27": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:207:95": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:207:97": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:215:99": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:217:54": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:222:42": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:223:97": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:229:15": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:238:29": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::continuum.py:243:40": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:258:53": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:20:50": {
+      "min": -2,
+      "max": -2
+    },
+    "literal::continuum.py:20:53": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:63:29": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::continuum.py:80:75": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:82:54": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:82:62": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:86:47": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:89:41": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::continuum.py:89:46": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:90:76": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:93:40": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:93:42": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:93:44": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:94:57": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:99:107": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:106:33": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:138:42": {
+      "min": -0.5,
+      "max": -0.5
+    },
+    "literal::continuum.py:138:82": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:143:29": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:146:28": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:156:96": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::continuum.py:156:116": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::continuum.py:162:25": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:162:27": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:162:29": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:171:15": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:171:46": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:173:73": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:174:42": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:174:62": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:174:72": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:183:85": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:187:37": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:188:40": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:192:25": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:200:36": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:200:38": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:206:29": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:207:112": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:218:68": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:220:46": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:224:38": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:228:74": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:230:44": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:239:89": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:254:58": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:284:49": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:284:51": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:291:43": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:291:57": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:292:25": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:292:39": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:17:27": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:17:30": {
+      "min": -2,
+      "max": -2
+    },
+    "literal::continuum.py:86:43": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::continuum.py:88:90": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:90:94": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:94:42": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:94:44": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:94:46": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:99:97": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:103:92": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:126:36": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:143:25": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::continuum.py:154:111": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:156:59": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:161:28": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:169:28": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:171:82": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:172:27": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:188:65": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:188:68": {
+      "min": -2,
+      "max": -2
+    },
+    "literal::continuum.py:192:51": {
+      "min": 9,
+      "max": 9
+    },
+    "literal::continuum.py:208:58": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::continuum.py:215:68": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:215:94": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:216:47": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:216:71": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:216:82": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:237:39": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:238:44": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:239:27": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:243:10": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::continuum.py:250:34": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:250:44": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::continuum.py:262:110": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:293:32": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::continuum.py:66:91": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:67:70": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:82:40": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:90:65": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:90:72": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:124:36": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:141:79": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:145:88": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:145:90": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:148:53": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:149:53": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:171:35": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:171:43": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:171:75": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:173:10": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::continuum.py:176:35": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:177:55": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:182:32": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:189:57": {
+      "min": 0.03,
+      "max": 0.03
+    },
+    "literal::continuum.py:190:34": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:190:37": {
+      "min": -2,
+      "max": -2
+    },
+    "literal::continuum.py:192:49": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:199:25": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:215:56": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:216:32": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:216:35": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:218:44": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:223:30": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:223:32": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:223:42": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:223:44": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:223:54": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:223:56": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:223:66": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:223:68": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:223:78": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:223:80": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:223:90": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:223:92": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:247:32": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:247:34": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:247:58": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:247:60": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:263:56": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:264:43": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:96:70": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:138:46": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:145:27": {
+      "min": -0.5,
+      "max": -0.5
+    },
+    "literal::continuum.py:145:68": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:145:86": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:148:13": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:148:33": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:149:13": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:149:33": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:155:66": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:155:77": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:155:79": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:183:68": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:183:79": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::continuum.py:196:55": {
+      "min": 9,
+      "max": 9
+    },
+    "literal::continuum.py:215:36": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:221:60": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:243:25": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:265:71": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:268:42": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:268:90": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::continuum.py:274:89": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:278:76": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:293:55": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:67:68": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:88:42": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:88:68": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:122:87": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:125:56": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:154:100": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:207:53": {
+      "min": 9,
+      "max": 9
+    },
+    "literal::continuum.py:250:30": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:269:85": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:270:80": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:272:59": {
+      "min": 0.02,
+      "max": 0.02
+    },
+    "literal::continuum.py:273:60": {
+      "min": 0.02,
+      "max": 0.02
+    },
+    "literal::continuum.py:293:44": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:66:27": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:66:58": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:90:51": {
+      "min": 0.045,
+      "max": 0.045
+    },
+    "literal::continuum.py:90:56": {
+      "min": 0.025,
+      "max": 0.025
+    },
+    "literal::continuum.py:141:28": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:154:108": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:263:143": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:263:145": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:264:94": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:266:68": {
+      "min": -2,
+      "max": -2
+    },
+    "literal::continuum.py:266:77": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::continuum.py:274:83": {
+      "min": 0.02,
+      "max": 0.02
+    },
+    "literal::continuum.py:66:33": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:66:64": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::continuum.py:67:48": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:67:50": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::continuum.py:90:46": {
+      "min": -0.065,
+      "max": -0.065
+    },
+    "literal::continuum.py:99:75": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::continuum.py:103:65": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::continuum.py:154:84": {
+      "min": 0.19,
+      "max": 0.19
+    },
+    "literal::continuum.py:154:88": {
+      "min": 0.14,
+      "max": 0.14
+    },
+    "literal::continuum.py:154:92": {
+      "min": 0.16,
+      "max": 0.16
+    },
+    "literal::social_base.py:19:10": {
+      "min": 24,
+      "max": 24
+    },
+    "literal::social_base.py:20:13": {
+      "min": 0.005,
+      "max": 0.005
+    },
+    "literal::social_base.py:21:14": {
+      "min": 3.0,
+      "max": 3.0
+    },
+    "literal::social_base.py:22:15": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:23:14": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::social_base.py:24:16": {
+      "min": 8,
+      "max": 8
+    },
+    "literal::social_base.py:25:23": {
+      "min": 0.075,
+      "max": 0.075
+    },
+    "literal::social_base.py:26:24": {
+      "min": 4.0,
+      "max": 4.0
+    },
+    "literal::social_base.py:27:19": {
+      "min": 2.0,
+      "max": 2.0
+    },
+    "literal::social_base.py:28:24": {
+      "min": 0.32,
+      "max": 0.32
+    },
+    "literal::social_base.py:29:24": {
+      "min": 0.12,
+      "max": 0.12
+    },
+    "literal::social_base.py:30:26": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "literal::social_base.py:31:23": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "literal::social_base.py:32:28": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "literal::social_base.py:33:25": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "literal::social_base.py:34:24": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "literal::social_base.py:35:30": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "literal::social_base.py:36:22": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "literal::social_base.py:39:26": {
+      "min": 0.06,
+      "max": 0.06
+    },
+    "literal::social_base.py:42:55": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::social_base.py:37:23": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:47:15": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::social_base.py:60:30": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::social_base.py:75:29": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::social_base.py:47:35": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:81:27": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::social_base.py:91:42": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:92:34": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:108:35": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:120:19": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:121:66": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:121:83": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:154:57": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:172:28": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:172:59": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::social_base.py:189:11": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:198:11": {
+      "min": 0.7,
+      "max": 0.7
+    },
+    "literal::social_base.py:200:21": {
+      "min": 0.55,
+      "max": 0.55
+    },
+    "literal::social_base.py:201:11": {
+      "min": 1.8,
+      "max": 1.8
+    },
+    "literal::social_base.py:218:48": {
+      "min": 0.08,
+      "max": 0.08
+    },
+    "literal::social_base.py:219:52": {
+      "min": 0.12,
+      "max": 0.12
+    },
+    "literal::social_base.py:220:52": {
+      "min": 0.03,
+      "max": 0.03
+    },
+    "literal::social_base.py:235:25": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:271:113": {
+      "min": 24,
+      "max": 24
+    },
+    "literal::social_base.py:272:46": {
+      "min": 0.005,
+      "max": 0.005
+    },
+    "literal::social_base.py:272:95": {
+      "min": 3.0,
+      "max": 3.0
+    },
+    "literal::social_base.py:61:15": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:61:23": {
+      "min": 0.125,
+      "max": 0.125
+    },
+    "literal::social_base.py:63:15": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:63:39": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:65:41": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::social_base.py:65:44": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "literal::social_base.py:73:26": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:74:26": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:75:26": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:78:60": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:85:77": {
+      "min": 0.12,
+      "max": 0.12
+    },
+    "literal::social_base.py:93:57": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:113:20": {
+      "min": 1e-12,
+      "max": 1e-12
+    },
+    "literal::social_base.py:116:35": {
+      "min": 0.15,
+      "max": 0.15
+    },
+    "literal::social_base.py:121:76": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:142:50": {
+      "min": 0.08,
+      "max": 0.08
+    },
+    "literal::social_base.py:150:20": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:154:55": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:156:52": {
+      "min": 0.18,
+      "max": 0.18
+    },
+    "literal::social_base.py:157:65": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:158:32": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "literal::social_base.py:159:93": {
+      "min": 0.35,
+      "max": 0.35
+    },
+    "literal::social_base.py:161:68": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:176:50": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "literal::social_base.py:177:11": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::social_base.py:178:92": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:186:104": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:188:18": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "literal::social_base.py:188:31": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::social_base.py:196:14": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:197:82": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:199:102": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:200:25": {
+      "min": 0.45,
+      "max": 0.45
+    },
+    "literal::social_base.py:204:21": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:205:25": {
+      "min": 1.5,
+      "max": 1.5
+    },
+    "literal::social_base.py:221:66": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:237:31": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:256:27": {
+      "min": -1e-12,
+      "max": -1e-12
+    },
+    "literal::social_base.py:49:36": {
+      "min": 0.95,
+      "max": 0.95
+    },
+    "literal::social_base.py:49:40": {
+      "min": 0.7,
+      "max": 0.7
+    },
+    "literal::social_base.py:49:45": {
+      "min": 0.25,
+      "max": 0.25
+    },
+    "literal::social_base.py:49:49": {
+      "min": 0.85,
+      "max": 0.85
+    },
+    "literal::social_base.py:49:55": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "literal::social_base.py:49:58": {
+      "min": 0.75,
+      "max": 0.75
+    },
+    "literal::social_base.py:49:64": {
+      "min": 0.65,
+      "max": 0.65
+    },
+    "literal::social_base.py:49:68": {
+      "min": 0.3,
+      "max": 0.3
+    },
+    "literal::social_base.py:49:73": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::social_base.py:49:76": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::social_base.py:49:81": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::social_base.py:49:84": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::social_base.py:50:34": {
+      "min": 0.7,
+      "max": 0.7
+    },
+    "literal::social_base.py:50:37": {
+      "min": 0.15,
+      "max": 0.15
+    },
+    "literal::social_base.py:50:43": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::social_base.py:50:46": {
+      "min": 0.98,
+      "max": 0.98
+    },
+    "literal::social_base.py:50:52": {
+      "min": 0.75,
+      "max": 0.75
+    },
+    "literal::social_base.py:50:56": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::social_base.py:50:61": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::social_base.py:50:64": {
+      "min": 0.25,
+      "max": 0.25
+    },
+    "literal::social_base.py:50:70": {
+      "min": 0.1,
+      "max": 0.1
+    },
+    "literal::social_base.py:50:73": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::social_base.py:50:78": {
+      "min": 0.25,
+      "max": 0.25
+    },
+    "literal::social_base.py:50:82": {
+      "min": 0.35,
+      "max": 0.35
+    },
+    "literal::social_base.py:51:31": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::social_base.py:51:34": {
+      "min": 0.1,
+      "max": 0.1
+    },
+    "literal::social_base.py:51:43": {
+      "min": 0.65,
+      "max": 0.65
+    },
+    "literal::social_base.py:51:49": {
+      "min": 0.15,
+      "max": 0.15
+    },
+    "literal::social_base.py:51:53": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "literal::social_base.py:51:58": {
+      "min": 0.65,
+      "max": 0.65
+    },
+    "literal::social_base.py:51:84": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::social_base.py:52:29": {
+      "min": 0.9,
+      "max": 0.9
+    },
+    "literal::social_base.py:52:32": {
+      "min": 0.1,
+      "max": 0.1
+    },
+    "literal::social_base.py:52:37": {
+      "min": 0.15,
+      "max": 0.15
+    },
+    "literal::social_base.py:52:41": {
+      "min": 0.85,
+      "max": 0.85
+    },
+    "literal::social_base.py:52:47": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::social_base.py:52:50": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::social_base.py:52:55": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::social_base.py:52:58": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::social_base.py:52:63": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::social_base.py:52:66": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "literal::social_base.py:52:71": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "literal::social_base.py:52:74": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::social_base.py:55:30": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:56:22": {
+      "min": 0.13,
+      "max": 0.13
+    },
+    "literal::social_base.py:56:38": {
+      "min": 0.1,
+      "max": 0.1
+    },
+    "literal::social_base.py:56:53": {
+      "min": 0.08,
+      "max": 0.08
+    },
+    "literal::social_base.py:58:33": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:70:77": {
+      "min": 0.65,
+      "max": 0.65
+    },
+    "literal::social_base.py:77:57": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:78:52": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:86:31": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::social_base.py:86:64": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::social_base.py:86:116": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:98:118": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:117:37": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:118:43": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:121:60": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:132:54": {
+      "min": 0.85,
+      "max": 0.85
+    },
+    "literal::social_base.py:132:58": {
+      "min": 0.15,
+      "max": 0.15
+    },
+    "literal::social_base.py:135:25": {
+      "min": 0.85,
+      "max": 0.85
+    },
+    "literal::social_base.py:135:39": {
+      "min": 0.15,
+      "max": 0.15
+    },
+    "literal::social_base.py:139:94": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:140:62": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:141:87": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:142:37": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::social_base.py:153:31": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:153:46": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:161:19": {
+      "min": 0.15,
+      "max": 0.15
+    },
+    "literal::social_base.py:161:48": {
+      "min": 0.3,
+      "max": 0.3
+    },
+    "literal::social_base.py:161:70": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "literal::social_base.py:163:33": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::social_base.py:171:91": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:176:37": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::social_base.py:177:77": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:178:86": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:180:33": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:194:24": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:194:34": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:197:76": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:199:96": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:202:42": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:202:61": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:203:87": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:206:46": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::social_base.py:207:42": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:207:71": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:51:40": {
+      "min": -0.5,
+      "max": -0.5
+    },
+    "literal::social_base.py:51:63": {
+      "min": -0.35,
+      "max": -0.35
+    },
+    "literal::social_base.py:51:70": {
+      "min": -0.5,
+      "max": -0.5
+    },
+    "literal::social_base.py:51:74": {
+      "min": -0.45,
+      "max": -0.45
+    },
+    "literal::social_base.py:51:81": {
+      "min": -0.1,
+      "max": -0.1
+    },
+    "literal::social_base.py:57:76": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:71:48": {
+      "min": 0.72,
+      "max": 0.72
+    },
+    "literal::social_base.py:71:77": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:72:41": {
+      "min": 7,
+      "max": 7
+    },
+    "literal::social_base.py:72:71": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:91:38": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::social_base.py:92:21": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:92:30": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::social_base.py:93:43": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:93:52": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:101:55": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:108:58": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::social_base.py:113:17": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:118:67": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:120:42": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::social_base.py:124:46": {
+      "min": 0.9,
+      "max": 0.9
+    },
+    "literal::social_base.py:129:91": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:134:24": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "literal::social_base.py:134:40": {
+      "min": 2.0,
+      "max": 2.0
+    },
+    "literal::social_base.py:135:29": {
+      "min": 0.7,
+      "max": 0.7
+    },
+    "literal::social_base.py:135:43": {
+      "min": 0.7,
+      "max": 0.7
+    },
+    "literal::social_base.py:140:70": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:142:15": {
+      "min": 0.35,
+      "max": 0.35
+    },
+    "literal::social_base.py:142:26": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::social_base.py:151:32": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:161:23": {
+      "min": 0.85,
+      "max": 0.85
+    },
+    "literal::social_base.py:161:51": {
+      "min": 0.7,
+      "max": 0.7
+    },
+    "literal::social_base.py:175:36": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:176:23": {
+      "min": 0.65,
+      "max": 0.65
+    },
+    "literal::social_base.py:176:60": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:177:71": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:179:45": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:195:66": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:198:15": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "literal::social_base.py:198:30": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::social_base.py:207:34": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:207:63": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:228:23": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:237:17": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:262:65": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:274:88": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:56:64": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:57:94": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:91:20": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:91:29": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:118:36": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:118:39": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:141:49": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::social_base.py:159:87": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:159:90": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:161:80": {
+      "min": 5,
+      "max": 5
+    },
+    "literal::social_base.py:176:20": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:176:47": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::social_base.py:184:80": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::social_base.py:185:84": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::social_base.py:200:76": {
+      "min": 0.3,
+      "max": 0.3
+    },
+    "literal::social_base.py:237:26": {
+      "min": 90,
+      "max": 90
+    },
+    "literal::social_base.py:263:100": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:264:109": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:57:64": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:139:56": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::social_base.py:142:76": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:151:60": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::social_base.py:151:63": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::social_base.py:151:66": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::social_base.py:165:68": {
+      "min": 0.7,
+      "max": 0.7
+    },
+    "literal::social_base.py:166:66": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::social_base.py:167:77": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "literal::social_base.py:168:79": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::social_base.py:169:66": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::social_base.py:171:66": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::social_base.py:176:34": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:179:27": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:179:37": {
+      "min": 5,
+      "max": 5
+    },
+    "literal::social_base.py:185:71": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::social_base.py:197:57": {
+      "min": 5,
+      "max": 5
+    },
+    "literal::social_base.py:57:72": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::social_base.py:139:47": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:165:58": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::social_base.py:166:53": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "literal::social_base.py:168:57": {
+      "min": 0.3,
+      "max": 0.3
+    },
+    "literal::social_base.py:169:53": {
+      "min": 0.7,
+      "max": 0.7
+    },
+    "literal::social_base.py:170:60": {
+      "min": 0.35,
+      "max": 0.35
+    },
+    "literal::social_base.py:171:53": {
+      "min": 0.7,
+      "max": 0.7
+    },
+    "literal::social_base.py:184:49": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::social_base.py:185:50": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::social_base.py:185:99": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:186:80": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:199:47": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::social_base.py:200:73": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::social_base.py:200:90": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:218:36": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:220:40": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::social_base.py:248:65": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:248:92": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::social_base.py:98:54": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:98:75": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::social_base.py:139:29": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:139:38": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::social_base.py:165:78": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:166:76": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:167:87": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::social_base.py:168:47": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:168:89": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::social_base.py:169:39": {
+      "min": 0.9,
+      "max": 0.9
+    },
+    "literal::social_base.py:170:46": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::social_base.py:171:40": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "literal::social_base.py:171:80": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:184:18": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:184:33": {
+      "min": 0.7,
+      "max": 0.7
+    },
+    "literal::social_base.py:185:18": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:185:34": {
+      "min": 0.7,
+      "max": 0.7
+    },
+    "literal::social_base.py:185:81": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:186:70": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::social_base.py:199:27": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:199:37": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::social_base.py:200:63": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::social_base.py:241:95": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:241:97": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:248:42": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::social_base.py:166:63": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::social_base.py:167:49": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::social_base.py:168:71": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:169:19": {
+      "min": -1.7,
+      "max": -1.7
+    },
+    "literal::social_base.py:169:23": {
+      "min": 1.8,
+      "max": 1.8
+    },
+    "literal::social_base.py:169:43": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:169:63": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:170:50": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:170:75": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:171:63": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:184:29": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::social_base.py:185:30": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::social_base.py:186:44": {
+      "min": 1.5,
+      "max": 1.5
+    },
+    "literal::social_base.py:186:60": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:200:35": {
+      "min": 1.4,
+      "max": 1.4
+    },
+    "literal::social_base.py:165:38": {
+      "min": 0.7,
+      "max": 0.7
+    },
+    "literal::social_base.py:167:35": {
+      "min": 1.1,
+      "max": 1.1
+    },
+    "literal::social_base.py:167:53": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:168:19": {
+      "min": -1.4,
+      "max": -1.4
+    },
+    "literal::social_base.py:170:19": {
+      "min": -1.8,
+      "max": -1.8
+    },
+    "literal::social_base.py:171:19": {
+      "min": -1.2,
+      "max": -1.2
+    },
+    "literal::social_base.py:171:50": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:184:46": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:184:60": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::social_base.py:184:70": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::social_base.py:185:47": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:186:32": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:186:34": {
+      "min": 1.5,
+      "max": 1.5
+    },
+    "literal::social_base.py:165:19": {
+      "min": -0.7,
+      "max": -0.7
+    },
+    "literal::social_base.py:165:22": {
+      "min": 1.8,
+      "max": 1.8
+    },
+    "literal::social_base.py:166:19": {
+      "min": -0.9,
+      "max": -0.9
+    },
+    "literal::social_base.py:166:22": {
+      "min": 1.7,
+      "max": 1.7
+    },
+    "literal::social_base.py:167:19": {
+      "min": -1.4,
+      "max": -1.4
+    },
+    "literal::social_base.py:167:40": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::social_base.py:186:18": {
+      "min": 1.4,
+      "max": 1.4
+    },
+    "literal::structural_hug.py:11:7": {
+      "min": 23,
+      "max": 23
+    },
+    "literal::structural_hug.py:12:6": {
+      "min": 1729,
+      "max": 1729
+    },
+    "literal::structural_hug.py:16:10": {
+      "min": 16,
+      "max": 16
+    },
+    "literal::structural_hug.py:17:15": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::structural_hug.py:18:14": {
+      "min": 8,
+      "max": 8
+    },
+    "literal::structural_hug.py:19:16": {
+      "min": 12,
+      "max": 12
+    },
+    "literal::structural_hug.py:20:14": {
+      "min": 1.6,
+      "max": 1.6
+    },
+    "literal::structural_hug.py:21:17": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::structural_hug.py:22:18": {
+      "min": 0.04,
+      "max": 0.04
+    },
+    "literal::structural_hug.py:23:22": {
+      "min": 0.002,
+      "max": 0.002
+    },
+    "literal::structural_hug.py:24:25": {
+      "min": 0.02,
+      "max": 0.02
+    },
+    "literal::structural_hug.py:25:26": {
+      "min": 0.05,
+      "max": 0.05
+    },
+    "literal::structural_hug.py:26:25": {
+      "min": 0.0001,
+      "max": 0.0001
+    },
+    "literal::structural_hug.py:27:26": {
+      "min": 0.0001,
+      "max": 0.0001
+    },
+    "literal::structural_hug.py:28:24": {
+      "min": 0.001,
+      "max": 0.001
+    },
+    "literal::structural_hug.py:29:23": {
+      "min": 0.001,
+      "max": 0.001
+    },
+    "literal::structural_hug.py:30:22": {
+      "min": 0.25,
+      "max": 0.25
+    },
+    "literal::structural_hug.py:31:22": {
+      "min": 0.05,
+      "max": 0.05
+    },
+    "literal::structural_hug.py:32:26": {
+      "min": 0.02,
+      "max": 0.02
+    },
+    "literal::structural_hug.py:33:23": {
+      "min": 0.02,
+      "max": 0.02
+    },
+    "literal::structural_hug.py:34:24": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "literal::structural_hug.py:10:7": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:10:9": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:10:13": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:10:15": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:10:19": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:10:21": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:10:25": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:10:27": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:10:31": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:10:33": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:10:37": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:10:39": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:50:44": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::structural_hug.py:51:43": {
+      "min": 8,
+      "max": 8
+    },
+    "literal::structural_hug.py:53:85": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::structural_hug.py:55:26": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:59:34": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:72:123": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::structural_hug.py:105:21": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:107:10": {
+      "min": 7,
+      "max": 7
+    },
+    "literal::structural_hug.py:143:18": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:176:82": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::structural_hug.py:204:37": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:227:32": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:50:24": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:59:31": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:84:57": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:101:29": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::structural_hug.py:103:27": {
+      "min": 11,
+      "max": 11
+    },
+    "literal::structural_hug.py:105:11": {
+      "min": 5,
+      "max": 5
+    },
+    "literal::structural_hug.py:106:10": {
+      "min": 5,
+      "max": 5
+    },
+    "literal::structural_hug.py:106:12": {
+      "min": 7,
+      "max": 7
+    },
+    "literal::structural_hug.py:108:10": {
+      "min": 8,
+      "max": 8
+    },
+    "literal::structural_hug.py:108:12": {
+      "min": 10,
+      "max": 10
+    },
+    "literal::structural_hug.py:109:10": {
+      "min": 10,
+      "max": 10
+    },
+    "literal::structural_hug.py:109:13": {
+      "min": 12,
+      "max": 12
+    },
+    "literal::structural_hug.py:110:10": {
+      "min": 12,
+      "max": 12
+    },
+    "literal::structural_hug.py:116:53": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:118:32": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:120:67": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::structural_hug.py:144:79": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:153:31": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::structural_hug.py:159:20": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::structural_hug.py:159:23": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "literal::structural_hug.py:163:69": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:185:36": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::structural_hug.py:187:64": {
+      "min": 0.15,
+      "max": 0.15
+    },
+    "literal::structural_hug.py:196:39": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:200:24": {
+      "min": 0.9,
+      "max": 0.9
+    },
+    "literal::structural_hug.py:208:51": {
+      "min": 0.08,
+      "max": 0.08
+    },
+    "literal::structural_hug.py:229:21": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::structural_hug.py:63:10": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::structural_hug.py:63:30": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:63:46": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::structural_hug.py:63:77": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:65:94": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:79:54": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:87:26": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:90:68": {
+      "min": 32767,
+      "max": 32767
+    },
+    "literal::structural_hug.py:97:57": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:97:79": {
+      "min": 15,
+      "max": 15
+    },
+    "literal::structural_hug.py:98:15": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:98:101": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:98:127": {
+      "min": 32768,
+      "max": 32768
+    },
+    "literal::structural_hug.py:109:51": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::structural_hug.py:109:84": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::structural_hug.py:119:13": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:119:19": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::structural_hug.py:135:99": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:143:60": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:144:58": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:158:64": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:158:66": {
+      "min": 5,
+      "max": 5
+    },
+    "literal::structural_hug.py:177:62": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::structural_hug.py:192:36": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::structural_hug.py:192:38": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::structural_hug.py:206:62": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:207:87": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:208:38": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::structural_hug.py:216:25": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:219:28": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::structural_hug.py:43:41": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:50:34": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::structural_hug.py:59:28": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:63:73": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:65:67": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:65:92": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:90:49": {
+      "min": -32768,
+      "max": -32768
+    },
+    "literal::structural_hug.py:115:27": {
+      "min": -4,
+      "max": -4
+    },
+    "literal::structural_hug.py:115:39": {
+      "min": -4,
+      "max": -4
+    },
+    "literal::structural_hug.py:118:20": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:119:30": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:119:38": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::structural_hug.py:119:44": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:119:52": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::structural_hug.py:119:58": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:119:66": {
+      "min": 15,
+      "max": 15
+    },
+    "literal::structural_hug.py:121:33": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:121:53": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::structural_hug.py:121:72": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::structural_hug.py:122:39": {
+      "min": 7,
+      "max": 7
+    },
+    "literal::structural_hug.py:122:88": {
+      "min": 8,
+      "max": 8
+    },
+    "literal::structural_hug.py:123:73": {
+      "min": 9,
+      "max": 9
+    },
+    "literal::structural_hug.py:158:82": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:162:54": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:181:56": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::structural_hug.py:194:47": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:194:49": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:198:37": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:198:47": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:205:68": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:206:70": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::structural_hug.py:208:15": {
+      "min": 0.35,
+      "max": 0.35
+    },
+    "literal::structural_hug.py:208:27": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::structural_hug.py:212:26": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:43:35": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::structural_hug.py:63:71": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:72:44": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::structural_hug.py:72:105": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::structural_hug.py:119:35": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:119:49": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::structural_hug.py:119:63": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::structural_hug.py:121:90": {
+      "min": 5,
+      "max": 5
+    },
+    "literal::structural_hug.py:121:122": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::structural_hug.py:123:96": {
+      "min": 12,
+      "max": 12
+    },
+    "literal::structural_hug.py:123:99": {
+      "min": 14,
+      "max": 14
+    },
+    "literal::structural_hug.py:124:40": {
+      "min": 14,
+      "max": 14
+    },
+    "literal::structural_hug.py:124:81": {
+      "min": 15,
+      "max": 15
+    },
+    "literal::structural_hug.py:125:30": {
+      "min": 16,
+      "max": 16
+    },
+    "literal::structural_hug.py:125:33": {
+      "min": 23,
+      "max": 23
+    },
+    "literal::structural_hug.py:156:55": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::structural_hug.py:157:51": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::structural_hug.py:159:77": {
+      "min": 1e-10,
+      "max": 1e-10
+    },
+    "literal::structural_hug.py:159:87": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:159:96": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:195:91": {
+      "min": 0.12,
+      "max": 0.12
+    },
+    "literal::structural_hug.py:197:68": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:207:49": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::structural_hug.py:220:69": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:220:120": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:222:74": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::structural_hug.py:96:90": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:96:103": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::structural_hug.py:122:60": {
+      "min": 10,
+      "max": 10
+    },
+    "literal::structural_hug.py:123:45": {
+      "min": 11,
+      "max": 11
+    },
+    "literal::structural_hug.py:156:50": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::structural_hug.py:157:48": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::structural_hug.py:157:56": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::structural_hug.py:195:47": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::structural_hug.py:197:92": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:205:37": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:205:48": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:208:77": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::structural_hug.py:155:32": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::structural_hug.py:165:88": {
+      "min": -4,
+      "max": -4
+    },
+    "literal::structural_hug.py:154:80": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::structural_hug.py:155:72": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:154:68": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:154:78": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::structural_hug.py:155:77": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::structural_hug.py:155:60": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::run.py:12:78": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::run.py:27:60": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::run.py:27:27": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::run.py:27:41": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::run.py:33:49": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::run.py:28:55": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::run.py:30:40": {
+      "min": 1e-12,
+      "max": 1e-12
+    },
+    "literal::run.py:35:35": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::run.py:38:39": {
+      "min": 1e-12,
+      "max": 1e-12
+    },
+    "literal::run.py:70:62": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::run.py:70:42": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::run.py:13:28": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::run.py:28:40": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::run.py:60:61": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::run.py:35:21": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::run.py:65:112": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::run.py:21:72": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::run.py:35:30": {
+      "min": 10,
+      "max": 10
+    },
+    "literal::run.py:18:53": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::run.py:18:55": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::run.py:26:99": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::run.py:54:48": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::run.py:54:81": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::run.py:56:51": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::run.py:23:79": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::run.py:21:50": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::test_structure.py:10:21": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:10:33": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:10:44": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:10:52": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::test_structure.py:10:59": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:10:71": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "literal::test_structure.py:10:81": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::test_structure.py:10:97": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:25:42": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:25:60": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:29:66": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:29:84": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:82:10": {
+      "min": 1e-06,
+      "max": 1e-06
+    },
+    "literal::test_structure.py:87:52": {
+      "min": 1e-06,
+      "max": 1e-06
+    },
+    "literal::test_structure.py:93:74": {
+      "min": 0.1,
+      "max": 0.1
+    },
+    "literal::test_structure.py:109:10": {
+      "min": 1e-05,
+      "max": 1e-05
+    },
+    "literal::test_structure.py:129:42": {
+      "min": 9,
+      "max": 9
+    },
+    "literal::test_structure.py:139:61": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:157:23": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::test_structure.py:12:96": {
+      "min": 0.7,
+      "max": 0.7
+    },
+    "literal::test_structure.py:12:109": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:18:86": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:20:46": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::test_structure.py:23:48": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:25:57": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::test_structure.py:26:49": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:27:36": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:27:65": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:28:45": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:29:81": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:30:49": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:31:34": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:31:65": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:34:45": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:34:86": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:38:38": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:40:57": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:42:34": {
+      "min": 2401,
+      "max": 2401
+    },
+    "literal::test_structure.py:43:37": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::test_structure.py:44:56": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:50:66": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:51:66": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:54:77": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:56:78": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:65:70": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:72:20": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:75:124": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:78:49": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:81:80": {
+      "min": 0.15,
+      "max": 0.15
+    },
+    "literal::test_structure.py:91:46": {
+      "min": 1e-10,
+      "max": 1e-10
+    },
+    "literal::test_structure.py:94:23": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:94:44": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:95:75": {
+      "min": 1e-09,
+      "max": 1e-09
+    },
+    "literal::test_structure.py:103:23": {
+      "min": 100,
+      "max": 100
+    },
+    "literal::test_structure.py:105:52": {
+      "min": 0.0001,
+      "max": 0.0001
+    },
+    "literal::test_structure.py:106:38": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:106:70": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:110:63": {
+      "min": 1e-10,
+      "max": 1e-10
+    },
+    "literal::test_structure.py:111:43": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:115:51": {
+      "min": 1e-12,
+      "max": 1e-12
+    },
+    "literal::test_structure.py:115:93": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:125:39": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:136:69": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:137:37": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:137:72": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:139:56": {
+      "min": 100,
+      "max": 100
+    },
+    "literal::test_structure.py:141:26": {
+      "min": 100,
+      "max": 100
+    },
+    "literal::test_structure.py:141:33": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::test_structure.py:145:23": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:145:51": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:146:73": {
+      "min": 1e-05,
+      "max": 1e-05
+    },
+    "literal::test_structure.py:147:75": {
+      "min": 1e-05,
+      "max": 1e-05
+    },
+    "literal::test_structure.py:149:55": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:150:23": {
+      "min": 7,
+      "max": 7
+    },
+    "literal::test_structure.py:151:86": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::test_structure.py:156:85": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:157:103": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:159:113": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:160:65": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:162:54": {
+      "min": 0.1,
+      "max": 0.1
+    },
+    "literal::test_structure.py:163:27": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:163:32": {
+      "min": 0.0025,
+      "max": 0.0025
+    },
+    "literal::test_structure.py:164:70": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:165:60": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:166:64": {
+      "min": 1e-12,
+      "max": 1e-12
+    },
+    "literal::test_structure.py:20:39": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "literal::test_structure.py:20:42": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:21:55": {
+      "min": -0.6,
+      "max": -0.6
+    },
+    "literal::test_structure.py:21:65": {
+      "min": 14,
+      "max": 14
+    },
+    "literal::test_structure.py:23:44": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:26:43": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:30:43": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:34:27": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:34:67": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:35:44": {
+      "min": 1e-13,
+      "max": 1e-13
+    },
+    "literal::test_structure.py:38:35": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:43:34": {
+      "min": -0.2,
+      "max": -0.2
+    },
+    "literal::test_structure.py:43:51": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::test_structure.py:44:53": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:45:102": {
+      "min": 1e-15,
+      "max": 1e-15
+    },
+    "literal::test_structure.py:65:64": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:71:61": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:81:76": {
+      "min": -0.15,
+      "max": -0.15
+    },
+    "literal::test_structure.py:83:79": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::test_structure.py:84:68": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:84:76": {
+      "min": 1e-11,
+      "max": 1e-11
+    },
+    "literal::test_structure.py:86:90": {
+      "min": 1.1,
+      "max": 1.1
+    },
+    "literal::test_structure.py:86:100": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:89:83": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::test_structure.py:93:71": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:100:107": {
+      "min": 13,
+      "max": 13
+    },
+    "literal::test_structure.py:102:84": {
+      "min": 1.15,
+      "max": 1.15
+    },
+    "literal::test_structure.py:102:96": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:104:48": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::test_structure.py:104:95": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::test_structure.py:104:101": {
+      "min": 0.0025,
+      "max": 0.0025
+    },
+    "literal::test_structure.py:106:35": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:109:97": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::test_structure.py:113:38": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:114:34": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:116:59": {
+      "min": 1e-15,
+      "max": 1e-15
+    },
+    "literal::test_structure.py:117:53": {
+      "min": 1e-15,
+      "max": 1e-15
+    },
+    "literal::test_structure.py:136:66": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:152:27": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:153:130": {
+      "min": 1e-05,
+      "max": 1e-05
+    },
+    "literal::test_structure.py:155:56": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::test_structure.py:155:68": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::test_structure.py:155:79": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:155:87": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:155:94": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::test_structure.py:155:106": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:155:126": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:12:76": {
+      "min": 0.6,
+      "max": 0.6
+    },
+    "literal::test_structure.py:12:79": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:13:34": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::test_structure.py:13:37": {
+      "min": 0.1,
+      "max": 0.1
+    },
+    "literal::test_structure.py:13:40": {
+      "min": 0.3,
+      "max": 0.3
+    },
+    "literal::test_structure.py:13:43": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::test_structure.py:13:46": {
+      "min": 0.1,
+      "max": 0.1
+    },
+    "literal::test_structure.py:13:49": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:13:52": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::test_structure.py:13:80": {
+      "min": 6,
+      "max": 6
+    },
+    "literal::test_structure.py:17:32": {
+      "min": 12,
+      "max": 12
+    },
+    "literal::test_structure.py:17:42": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::test_structure.py:17:50": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::test_structure.py:17:60": {
+      "min": 8,
+      "max": 8
+    },
+    "literal::test_structure.py:17:66": {
+      "min": 0.02,
+      "max": 0.02
+    },
+    "literal::test_structure.py:21:46": {
+      "min": -0.8,
+      "max": -0.8
+    },
+    "literal::test_structure.py:21:50": {
+      "min": -0.4,
+      "max": -0.4
+    },
+    "literal::test_structure.py:27:29": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:27:31": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:27:33": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:27:58": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:27:60": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:27:62": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:29:35": {
+      "min": -0.7,
+      "max": -0.7
+    },
+    "literal::test_structure.py:29:46": {
+      "min": -0.5,
+      "max": -0.5
+    },
+    "literal::test_structure.py:31:27": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:31:29": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:31:31": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:31:58": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:31:60": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:31:62": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:33:76": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::test_structure.py:45:74": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "literal::test_structure.py:48:73": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:48:85": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:49:76": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:49:115": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:50:53": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:51:53": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:53:84": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:53:92": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:53:99": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::test_structure.py:53:115": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:54:58": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:55:51": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:55:59": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::test_structure.py:55:66": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::test_structure.py:55:82": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:56:59": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:59:43": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:59:55": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:60:45": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:60:54": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::test_structure.py:60:66": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::test_structure.py:60:74": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:60:81": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::test_structure.py:60:97": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:61:43": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::test_structure.py:61:55": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::test_structure.py:62:45": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:62:54": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:62:66": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:62:74": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:62:81": {
+      "min": 0.8,
+      "max": 0.8
+    },
+    "literal::test_structure.py:62:97": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:71:55": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:78:33": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:83:44": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:83:74": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:86:94": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:86:96": {
+      "min": 1.1,
+      "max": 1.1
+    },
+    "literal::test_structure.py:87:21": {
+      "min": 0.1,
+      "max": 0.1
+    },
+    "literal::test_structure.py:87:24": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "literal::test_structure.py:87:27": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:87:31": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:87:37": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:87:41": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:87:43": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:87:45": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:97:51": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:97:56": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:97:60": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:97:62": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:97:64": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:97:68": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:97:70": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:97:72": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:99:37": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:99:57": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:102:89": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:102:91": {
+      "min": 1.15,
+      "max": 1.15
+    },
+    "literal::test_structure.py:113:23": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:114:23": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:118:54": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::test_structure.py:118:68": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::test_structure.py:121:93": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "literal::test_structure.py:124:27": {
+      "min": 12,
+      "max": 12
+    },
+    "literal::test_structure.py:124:37": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::test_structure.py:124:45": {
+      "min": 4,
+      "max": 4
+    },
+    "literal::test_structure.py:124:55": {
+      "min": 8,
+      "max": 8
+    },
+    "literal::test_structure.py:124:66": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:135:55": {
+      "min": 0.05,
+      "max": 0.05
+    },
+    "literal::test_structure.py:151:79": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:151:81": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:164:57": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:170:45": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::test_structure.py:174:68": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::test_structure.py:40:48": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:50:50": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:51:50": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:54:55": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:56:56": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:78:30": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:87:34": {
+      "min": -0.1,
+      "max": -0.1
+    },
+    "literal::test_structure.py:97:54": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::test_structure.py:99:34": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:99:54": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:126:82": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:135:51": {
+      "min": -0.05,
+      "max": -0.05
+    },
+    "literal::test_structure.py:135:60": {
+      "min": 2,
+      "max": 2
+    },
+    "literal::test_structure.py:144:90": {
+      "min": -0.6,
+      "max": -0.6
+    },
+    "literal::test_structure.py:144:101": {
+      "min": -0.5,
+      "max": -0.5
+    },
+    "literal::test_structure.py:164:54": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:166:60": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:40:42": {
+      "min": 0.4,
+      "max": 0.4
+    },
+    "literal::test_structure.py:104:86": {
+      "min": 0.005,
+      "max": 0.005
+    },
+    "literal::test_structure.py:135:36": {
+      "min": 2402,
+      "max": 2402
+    },
+    "literal::test_structure.py:28:33": {
+      "min": 0,
+      "max": 0
+    },
+    "literal::test_structure.py:28:35": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::test_structure.py:95:55": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::test_structure.py:95:71": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::test_structure.py:165:49": {
+      "min": 3,
+      "max": 3
+    },
+    "literal::test_structure.py:166:57": {
+      "min": -1,
+      "max": -1
+    },
+    "literal::preflight.py:44:43": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::preflight.py:44:23": {
+      "min": 1,
+      "max": 1
+    },
+    "literal::preflight.py:45:56": {
+      "min": 0,
+      "max": 0
+    },
+    "force_direction_0": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "force_direction_1": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "force_direction_2": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "event_recipient": {
+      "min": 0,
+      "max": 1
+    },
+    "event_recipient_report": {
+      "min": -0.7,
+      "max": 0.5
+    },
+    "event_origin": {
+      "min": 0,
+      "max": 2
+    },
+    "event_observed": {
+      "min": -0.5,
+      "max": 0.6
+    },
+    "event_start": {
+      "min": 0.0,
+      "max": 0.8
+    },
+    "event_event_id": {
+      "min": 0,
+      "max": 2
+    },
+    "event_end": {
+      "min": 0.4,
+      "max": 1.2
+    }
+  },
+  "claims_corpus_validation": false,
+  "notes": "Rows Momentum/Stress extended; Responses uses smooth_off; Gradient alternatives selects calibrated only. Other rows not claimed. All string choices, numeric literals, events and runtime configurations pinned by source_seal. No unit calibration or orbital recovery claim."
+}

@@ -1,0 +1,14 @@
+{
+  "independent-comparison.json": "79621c3eb4cc0cc614616e1339d22549a417aea964df8ed3f6eb8704b6e1266d",
+  "nonlocal-check.json": "02d9f485fba7e26d875bee453f7ae93a0dad1d2935eb0bb6e6cc4b974d582248",
+  "nonlocal-checkpoints.csv": "b421e33f2f3a2a256b5dcc1ffc7b5cdfd53703a089d7b1bcdc303e798cb05b09",
+  "pair-potential-check.json": "00ad8908f8b0d93195ba43cbe319efe565b0535fa8d43e65fcb5e991d6c58ce9",
+  "PLAN.md": "26e25ae884b4b60568921168f5cab738c507313d05da9d8727e1029ad9369547",
+  "README.md": "8c7fe6235f218bd6ee6835e141c0a49fbfc3d8f09d9ef73e3fe8a87a51c21e3c",
+  "scripts\\check_nonlocal.py": "a62413ec918906aa94a80f9804ccb5f4903d036b89cf69e4c86828032615489b",
+  "scripts\\check_pair_potential.py": "b1176e855191506c75c0ce83de3a10cf99ba9de70f3589f9d5f6c9710c9c5e20",
+  "scripts\\package.py": "61c594e2052deca271c6614c63d451e15ea04fbcbbf6432e14cd45eacad6a7c7",
+  "scripts\\source_check.py": "b75c06d27d5a6022f80398147ef7de895f5372f385051f9ade221e134a02cb2c",
+  "source-check.json": "3a12cc699431f32e28f1b6fb60d138c10eecd7a84aaa043e9fb3c8e30911e035",
+  "verification.json": "29cc0e165a3628d5b6974f3538ce572aad0317e0b18ee1b272a7bbe4694ebd1e"
+}

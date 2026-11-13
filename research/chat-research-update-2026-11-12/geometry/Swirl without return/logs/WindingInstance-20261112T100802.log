@@ -1,0 +1,46 @@
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingInstance.lean:19:61: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingInstance.lean:20:61: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingInstance.lean:19:61: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingInstance.lean:20:61: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingInstance.lean:63:72: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingInstance.lean:63:38: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingInstance.lean:63:72: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingInstance.lean:72:72: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingInstance.lean:72:38: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingInstance.lean:72:72: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'ClosestPointExample.Winding.lift_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.global_clock_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.complete_vortex_curve_at_tick' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.curves_persist_at_every_finite_time' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.Winding.swirl_never_approaches_zero_on_the_line' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.Winding.exact_closest_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.both_solve_same_fluid_equations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.same_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.opposite_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.no_exact_reader_with_closest_point_and_paddle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

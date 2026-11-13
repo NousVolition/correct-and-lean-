@@ -1,0 +1,8 @@
+'PressureBlindToBreathing.pressure_ignores_divergence_free_push' depends on axioms: [propext, Quot.sound]
+'PressureBlindToBreathing.projection_passes_divergence_free_push' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PressureBlindToBreathing.projection_fixes_divergence_free_push' depends on axioms: [propext, Quot.sound]
+'PressureBlindToBreathing.projected_rate_is_divergence_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PressureBlindToBreathing.pressure_cannot_tell_whether_breathing_is_on' depends on axioms: [propext, Quot.sound]
+'PressureBlindToBreathing.a_divergence_free_push_exists' depends on axioms: [propext, Classical.choice, Quot.sound]

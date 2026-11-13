@@ -1,0 +1,39 @@
+{
+  "files": {
+    "comparator.json": "9676133dd7d51bfc5ad24b5c12e068c844dc620223400caefc5864173ac4c4e0",
+    "EdgeControlChallenge.lean": "a7413b67b10a19a1042c0c7d0228898a629deb9c173409eb2c34b136e42ad3e0",
+    "EdgeControlExterior.lean": "5effe4cfc88521ddd8993b40553ea47406b49cbecaf796257997a23b40a52bc6",
+    "EdgeControlNative.lean": "d1907e894da76c69bbd6bd45480fc5c6738e6e052e1b8595a138790278590afa",
+    "EdgeControlProofs.lean": "dae792f175038f21f5d3ae75a3794d42082e1d271cc7b79e404f2b93f1c6123d",
+    "EdgeControlSolution.lean": "2c607b41159b68bd650ddfaf173c4bee4d7ccdf8c5b367aaaa4f4a58947968e2",
+    "EdgeControlStatements.lean": "66cb4eb98fa3095c02a4c0029a1c5a75f59b142eeaac06e79f01264ed70f5dbd",
+    "lake-manifest.json": "4e27ee701e78f0ef169b40d84c357eb5fc55bdedc1d993105685e796d43c71d6",
+    "lakefile.toml": "9c3333c3d7340196c74f532df5df827556b27be608eae6c9488297988b5d64cf",
+    "lean-toolchain": "b563246bde88bad741a3fe1c6b126ad8dab470340d55ac3e97cca9b3f200878b",
+    "run-check.sh": "73b9fba6e82e01a892ab49fa3feb03b3a4b3eec0a25dc7df5a1767267a4334e7"
+  },
+  "solution_modules": [
+    "EdgeControlStatements.lean",
+    "EdgeControlNative.lean",
+    "EdgeControlExterior.lean",
+    "EdgeControlProofs.lean",
+    "EdgeControlSolution.lean"
+  ],
+  "theorems": [
+    "SignedVortex.Rescaled.EdgeControl.edge_signal_zero",
+    "SignedVortex.Rescaled.EdgeControl.native_in_every_collar",
+    "SignedVortex.Rescaled.EdgeControl.inward_small",
+    "SignedVortex.Rescaled.EdgeControl.control_for_pinned_scale",
+    "SignedVortex.Rescaled.EdgeControl.every_viscosity_has_control",
+    "SignedVortex.Rescaled.EdgeControl.exterior_from_support"
+  ],
+  "prior_freezes": {
+    "as-signed-vortex-lean": "fd16dc9105dad775a7850396b40602ad201a6d8c4a95ba1a912a4dfa5497117c",
+    "as-vortex-hline-lean": "33c1197c9e1e7076d129960329375bb2de5dc96de9ee62a18e254109cfbc14b0",
+    "as-vortex-rescaling-lean": "8f597419767ec35082935f23110e0748d9774ab3949525095b10a7957460ec47"
+  },
+  "upstream_commit": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "corpus_commit": "b4ae2c54cd85bfef282c501ecfca83de274e2070",
+  "original_force_definition_sha256": "085842badbc2b5d75e7749e24766a02ccc21f3cb7b3e638a6c1a4b6534cf79c8",
+  "original_force_match_predicate_module_sha256": "c04f8772aad05229fa4cbc35451ea05907ef82cf12e7c094a0579c29222a3bd0"
+}

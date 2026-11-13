@@ -1,0 +1,25 @@
+name = "VortexEdgeControl"
+version = "0.1.0"
+defaultTargets = ["EdgeControlSolution"]
+
+[[require]]
+name = "RescaledVortexAudit"
+path = "../as-vortex-rescaling-lean"
+
+[[lean_lib]]
+name = "EdgeControlStatements"
+
+[[lean_lib]]
+name = "EdgeControlNative"
+
+[[lean_lib]]
+name = "EdgeControlExterior"
+
+[[lean_lib]]
+name = "EdgeControlProofs"
+
+[[lean_lib]]
+name = "EdgeControlChallenge"
+
+[[lean_lib]]
+name = "EdgeControlSolution"

@@ -1,0 +1,66 @@
+Origin of the external actuator/reservoir assumption
+
+The implementation audit classifies the assumption as an implemented addition.
+Source file: $USER_HOME\Documents\Codex\2026-11-07\mathlib4-the-main-library-good-first\work\hug-v3-breathing\figure401-source\engine\inherited\inherited_inventory.json
+{
+  "id": "M16",
+  "category": "Domain and material",
+  "title": "Force setup",
+  "rule": "Choose e_k=e_x, sigma=0.16, Gamma=0.015, epsilon=0.012, delta=0.003, and the registered smooth exact-off/q_delta_star options as defaults. Treat force work as supplied by an external actuator. No restoring-gravity/holding law follows.",
+  "file": "continuum.py",
+  "fn": "Solver.rhs",
+  "status": "implemented addition",
+  "evidence_link": "source.html#continuum-py-L186",
+  "source_sha256": "d3a74182e680ca80a0a6f96322eebba3269a0bc19bd73d109b2f8a4b5c25aa4f"
+}
+
+The inherited implementation notes repeat the assumption.
+$USER_HOME\Documents\Codex\2026-11-07\mathlib4-the-main-library-good-first\work\hug-v3-breathing\figure401-source\engine\inherited\v2_MODEL.md, line 56
+Agents have normalized observation/actuation patches on the material, defined by fixed reference locations and moving with its points. They observe local C, objective Green-Lagrange strain magnitude and temperature. Orientation is not treated as strain. These observations affect response, permission and utility. Responses/relationships affect the normalized source distribution and the utility input U. U combines the declared original pulse with help/repair versus rivalry/coercion, expression-to-intent cost, reception margin and field observation. It is an added dimensionless proxy; **social standing is not equated with energy**. The corpus A equation is then used without decay. In the physical balance, the threshold force does work from an explicitly external actuator/reservoir. No energetic claim is made for the social information system itself.
+
+$USER_HOME\Documents\Codex\2026-11-07\mathlib4-the-main-library-good-first\work\hug-v3-breathing\figure401-source\engine\inherited\v2_EQUATIONS.md, line 74
+Actuator weight i is the softmax of mean_j sum_k R_ij,k plus mean_j b_ji. These weights distribute a normalized Gaussian material-patch source, integral K_h=1. This dynamic kernel shape is an added choice. Changing recognition does not create a physical energy unit: source-force work is explicitly supplied by an external actuator. The mechanical/thermal energy balance accounts for that work separately.
+
+The corrected Hug corpus used by this run
+$USER_HOME\Documents\Codex\2026-11-07\mathlib4-the-main-library-good-first\work\hug-v3-breathing\figure401-source\engine\corpus_paragraphs.json
+Read the frozen extraction of 624 nonempty paragraphs. The original DOCX was not reopened in this check.
+No occurrence of actuator, reservoir, actionneur or réservoir appears in this extraction.
+Paragraph 223
+∂u/∂t + (u · ∇)u = −∇p + ν∇²u + f,     ∇ · u = 0.
+
+Paragraph 224
+f = −(σ/ρ) a(q) eₖ,     q = |∇S| − Γcrit.
+
+Paragraph 259
+A fixed eₖ specifies direction; it does not guarantee drag or energy dissipation. For f to remove kinetic energy pointwise, u · f must be nonpositive. The model still needs a domain, initial and boundary data, a definition or equation for S, and compatible coefficient units. A smooth constitutive response is not a proof of smooth solutions for all time. Pressure, viscosity, yield, and boundary remain modeling language unless independently operationalized.
+
+Paragraph 505
+A(t) = ∫₀ᵗ γ[U(s) − Ubaseline] ds,     J(t) = κ A(t).
+
+Paragraph 506
+Kₕ is a smooth localized kernel of width h > 0 with spatial integral 1. The original δ(x − x₀) is an alternative point-source idealization interpreted as a distribution, not an ordinary smooth function. A stores accumulated input; κ converts that stored quantity to a source rate with the required units. This retains the original memory choice explicitly. Under closed or periodic boundaries, constant positive excess utility can make the total field grow quadratically in time because the stored input is integrated again by the evolution equation. If instantaneous production is intended instead, specify J(t) = γ[U(t) − Ubaseline] with suitable units; that is a different model. Negative excess input may lower this signed field. Initial and boundary data remain necessary. For compressible transport, replace u · ∇S by ∇ · (Su).
+
+All four checked source files match their recorded squeeze_seal.json hashes.
+
+Readings from the archived coast states
+The state-file hashes were checked against the original run receipts. These readings use the implemented central-difference slope, smooth threshold activation and mean velocity-times-force power. The cutoff is 0.015.
+No new Hug trajectory was integrated. The last inspected state is at model time 3.6.
+arm,time,peak_slope,fraction_above_cutoff,pull_power,source_accumulator_A
+off,1.2,1.74067805544,0.4921875,0.000844519143152,0.00640042228207
+off,1.6,1.7027214742,0.6279296875,0.00133440226884,0.00988544865655
+off,1.8,1.72785794888,0.682861328125,0.00178212648082,0.0117558019434
+off,2.4,2.45126280563,0.810302734375,0.00442986636674,0.0177809770061
+off,3.0,3.48727048512,0.904296875,0.0102373486767,0.0242887060748
+off,3.6,4.71844754862,0.95703125,0.0211857225198,0.0311442158888
+on,1.2,1.74378622272,0.49267578125,0.000846438580208,0.00640002826501
+on,1.6,1.70390644208,0.627685546875,0.0013434575566,0.00988496840214
+on,1.8,1.72784430027,0.682861328125,0.0017880453009,0.0117552993223
+on,2.4,2.45054005894,0.810546875,0.00443312266437,0.017780510617
+on,3.0,3.48707615163,0.904296875,0.0102431420403,0.0242883882607
+on,3.6,4.71929551183,0.956787109375,0.0211916543473,0.0311441008692
+
+Continuing inputs in this implementation
+$USER_HOME\Documents\Codex\2026-11-07\mathlib4-the-main-library-good-first\work\hug-v3-breathing\figure401-source\engine\inherited\social_base.py, lines 131-135 and 206
+The rooms scenario changes its prescribed context around times 1 and 2. The added social utility term continues to contribute to A after the original pulse ends.
+$USER_HOME\Documents\Codex\2026-11-07\mathlib4-the-main-library-good-first\work\hug-v3-breathing\figure401-source\engine\inherited\continuum.py, lines 212, 233 and 237
+The scalar source remains kappa*A times its spatial kernel. A evolves from the current utility. The reported energy is kinetic + elastic + thermal.

@@ -1,0 +1,8 @@
+'ClosestPointExample.Winding.solves_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.flow_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.smooth_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.periodic_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.paddle_at_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.positive_swirl_on_plane' depends on axioms: [propext, Classical.choice, Quot.sound]

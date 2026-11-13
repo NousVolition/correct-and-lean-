@@ -1,0 +1,69 @@
+{
+  "files": {
+    "comparator.json": "6a257629e93e9a66d9a5e2466dd4a699c8d288406a46b307acd4d16a5322f609",
+    "lake-manifest.json": "4841792d1ca18fa09e667bf68d3077c72dcda7f2426e228dd592b95015c3c968",
+    "lakefile.toml": "040e83005f1a62abec08c047eb7045d1f519098b522efc946be9c4c68ff0489f",
+    "lean-toolchain": "b563246bde88bad741a3fe1c6b126ad8dab470340d55ac3e97cca9b3f200878b",
+    "run-check.sh": "0e73a81e50f5034ec98cdc015ba78dfcfc37ce098179ca8f2f53acf1d23c39ce",
+    "TemporalChallenge.lean": "0c7ac8eefdab564f8794a84d7fec64eab25df1866c42e41b8f8914474d6c0618",
+    "TemporalProofs.lean": "7b7694a5d96d54fe3934c5b22be133042e176dc4e9b8d9f039cf55caa0318f27",
+    "TemporalSolution.lean": "da2c160f35aaf8d83ed067d78be514d0a6eba593d760adbe00f17cc61913f1f7",
+    "TemporalStatements.lean": "6ba791e40ad77d5c0fbbd9671d3dad3e481db8c8ee3f2299a7c612556004e9d4"
+  },
+  "inherited": {
+    "as-signed-vortex-lean": {
+      "SignedDefinitions.lean": "085842badbc2b5d75e7749e24766a02ccc21f3cb7b3e638a6c1a4b6534cf79c8",
+      "TraceDefinitions.lean": "c04f8772aad05229fa4cbc35451ea05907ef82cf12e7c094a0579c29222a3bd0",
+      "SignedSolution.lean": "12a68f895af3bb8acdd5fa90c818c8b63024d1fe8ec5d4b5086684686eaa5b5f",
+      "ExteriorSolution.lean": "a9955dd4124841f1464e9979515b08c6d33bc2f730f267302eafbec5b2138e8d",
+      "TraceSolution.lean": "6252770325cd4025a58c3a1313ec9ccf14aac5ef6171eeef55d82e5db9f3cbbc",
+      "TargetSolution.lean": "c49fc232b620b11b99dd9f6ff0b891aa1727a2b7f3e4dbf8955ff6c985f55a84",
+      "Solution.lean": "d1645137bcbd338aa73740ca00f25192f2a2fade35ea0e314fdd616daba7076c",
+      "Challenge.lean": "41d91973d3d8d44b6f1e21773c6b224fdf17fc19bb9d90b83e5ddc0307ff1fdf",
+      "lakefile.toml": "0d1ce7b9acb6196b830e6bc7246cac226f97b3d843e77d5ca2f5aa296e3c444e",
+      "lake-manifest.json": "b6b63c57387fddcc98e260d7eb05cfde0c55c096e911b83e9bd3373fb21c3258",
+      "lean-toolchain": "b563246bde88bad741a3fe1c6b126ad8dab470340d55ac3e97cca9b3f200878b"
+    },
+    "as-vortex-hline-lean": {
+      "HLineStatements.lean": "5598193fdc2184920e1c8a9196e3fdae3c29a7bafc7b5a678d732a4c44433a6c",
+      "HLineCalculus.lean": "09bf647f9c42f3e64efba4e913342473a7c3d5b1dac55bf47f7121bd4e3f2c74",
+      "HLineOperator.lean": "3af84858cbd4449a16909335f5716c6cd3ac34fd633921384853ad1265255cee",
+      "HLineGeometry.lean": "d98a9bc872d637221bed38cdba33c77d640f9b9b334a58be47b27d12aebbad1d",
+      "HLineIntegral.lean": "72948d9615bfa6c2f1899edd205143ad2edb8702a3b27e8e42b5ca770fde2fc5",
+      "HLineProofs.lean": "55a2484ec32f2dc05237e3f930dc5b5b34d9f01a4653d391bccab6a2ad73ddc5",
+      "HLineSolution.lean": "09738d71a6a5d781f1fd952441c0e48c081e34e7b501f4d0ab6b70a026ab37c6",
+      "HLineChallenge.lean": "67944ffe82f15d61987a37169ad7dfb6b0e457090031ef433d3d37731c8a7ae1",
+      "lakefile.toml": "5f77d24aa71ce7138c9a0a087a584668c32274bf0f91d5bc5457bf2c40cf7070",
+      "lake-manifest.json": "f120a9c8c5850e8f0fdd21fdeaf2113a2168d93f2ce3b39bc9ea380737567b8a",
+      "lean-toolchain": "b563246bde88bad741a3fe1c6b126ad8dab470340d55ac3e97cca9b3f200878b"
+    },
+    "as-vortex-rescaling-lean": {
+      "lake-manifest.json": "3b094057247829daf0dc2008fb2d47bd2f1b1402e1cc61fd58e726c0c3a95585",
+      "lakefile.toml": "dee0765b422f7963db253896da18ee7e4fadf5a9c9d229ce8aa726053d264b02",
+      "lean-toolchain": "b563246bde88bad741a3fe1c6b126ad8dab470340d55ac3e97cca9b3f200878b",
+      "RescaleChallenge.lean": "40b5d01920671278bc36d8203b0378790fe6ab32b8b1056e256865bc02e7aaad",
+      "RescaleCorollary.lean": "195dbadcdcf41a9f522f855f16c287b6f3de70ff23b6cf475f948af90d258ef7",
+      "RescaleCovariance.lean": "8e5473c6326188f707f762b94b257927186adeb89f081bae57c5e0d984697a07",
+      "RescaleFields.lean": "2ea5bd0979401329082dc23c6bbbf38c25774c0b4b43bcfdd04461efc425e562",
+      "RescaleForcing.lean": "fdd76d7a9acf8021e22e4c1779400b188ebe5b162a318ce1d389fee9d21f22df",
+      "RescaleLoops.lean": "9d0193bcc8fb47869dc0aa60cc4acc7500c5bfab478e314fbd186c5d27f4dfde",
+      "RescaleSolution.lean": "723fc326184db450cc382273f2112062e3edd5b4e7eb6af8031fe2b1b2ecae52",
+      "RescaleSupport.lean": "d2bbabfcb60ead0eea4042033d5dd9a597537fee9ae00286db75f379c46ce02e"
+    }
+  },
+  "dependencies": {
+    "NavierStokesAndEuler": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+    "Comparator": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+    "mathlib": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+    "lean4export": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+    "plausible": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+    "LeanSearchClient": "ba67e212be1197b84c1f1f6299488a10a3002713",
+    "importGraph": "d8823026ac7ef130c253089d95685f9877b95323",
+    "proofwidgets": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+    "aesop": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+    "Qq": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+    "batteries": "d54dddc581e08be364c278052863524bff7a99a9",
+    "Cli": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af"
+  },
+  "new_and_three_audit_builds_started_empty": true
+}

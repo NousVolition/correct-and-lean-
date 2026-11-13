@@ -1,0 +1,119 @@
+{
+  "files": [
+    {
+      "path": "ClosestPointGeometry verification.json",
+      "bytes": 1861,
+      "sha256": "12712f5f21b2025ba3d5e4ae70f01c1b2d2b347500eadff0d7b12844b342374c"
+    },
+    {
+      "path": "diagnostics/DerivativeProbe verification.json",
+      "bytes": 1377,
+      "sha256": "ef142c78fa6b6b79c7a06d9958ef7400ecc0972b5226afddae9c92e4ed6d7aa6"
+    },
+    {
+      "path": "diagnostics/DerivativeProbe.lean",
+      "bytes": 386,
+      "sha256": "a2951dc74fad7a7be5162277e32d5c58d2d13976cac8bf2bd57a4170c1066f8f"
+    },
+    {
+      "path": "lean/ClosestPointGeometry.lean",
+      "bytes": 5814,
+      "sha256": "5a4b73a2d788e5e600b4cec8a73707a47d4fd42cc26e1f592be79e245862e5ed"
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "bytes": 438,
+      "sha256": "f7d29d8cdf80a4fcac4703ff02625b58dc7ec81672a66fe10b1b8569d564aaf8"
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "bytes": 29,
+      "sha256": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
+    },
+    {
+      "path": "lean/PeriodicNavierStokes.lean",
+      "bytes": 8950,
+      "sha256": "6f0541f30f12cb69866139d1d1c48369a6bdbab6208af9d6befbf432e21dcc2b"
+    },
+    {
+      "path": "lean/SIMSLatentReadout.lean",
+      "bytes": 21445,
+      "sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4"
+    },
+    {
+      "path": "lean/Tick41ClosestPointInstance.lean",
+      "bytes": 1952,
+      "sha256": "7f63c9f5ed427537220cef1a9ee2d7e28e53dc4e599794be5fe7c4e87324d3b1"
+    },
+    {
+      "path": "logs/ClosestPointGeometry-20261112T083834.log",
+      "bytes": 3392,
+      "sha256": "c6dac9cc222da681cf6e20be60846b7c959bffdd93d25e36a44e83291fe40828"
+    },
+    {
+      "path": "logs/ClosestPointGeometry-20261112T084002.log",
+      "bytes": 1042,
+      "sha256": "be035ec777b023d8c19d509916ee06c305792bcc808d3c2883935db7819714c3"
+    },
+    {
+      "path": "logs/ClosestPointGeometry-20261112T084152.log",
+      "bytes": 719,
+      "sha256": "234ab53fde78c36f7b19fd2421ca6c60edfa64d1e8495ea9844819f677d8901b"
+    },
+    {
+      "path": "logs/DerivativeProbe-20261112T084426.log",
+      "bytes": 2226,
+      "sha256": "5a45bb8ae5e380a475a4a4a1784affc9c36a459a195c845836edf3ea6be315e4"
+    },
+    {
+      "path": "logs/PeriodicNavierStokes-20261112T084309.log",
+      "bytes": 16388,
+      "sha256": "97ccd63b3b47f80ca02ba0eaea5f489478041fbf67f5ffb4c73287e1c3bd9981"
+    },
+    {
+      "path": "logs/PeriodicNavierStokes-20261112T084349.log",
+      "bytes": 8328,
+      "sha256": "6fe72a7c1bca27aa10156fe47ca65c26bb253618377bb33cc9a933a586ad71b7"
+    },
+    {
+      "path": "logs/PeriodicNavierStokes-20261112T084510.log",
+      "bytes": 2927,
+      "sha256": "813d123198c39697ce81e952829d93736d68e7e023680ade2a28511f1d6f9b61"
+    },
+    {
+      "path": "logs/Tick41ClosestPointInstance-20261112T084602.log",
+      "bytes": 552,
+      "sha256": "2306a16ac1d67965f9f3cc2fe9db398998afacf0d03ee6d982ae46ed5e0e412c"
+    },
+    {
+      "path": "PeriodicNavierStokes verification.json",
+      "bytes": 1878,
+      "sha256": "5269ed09b66b3d873052a35141eea4eae1353d7e26f14ec59204ba8c617ca9be"
+    },
+    {
+      "path": "Readout.md",
+      "bytes": 7746,
+      "sha256": "8154fdeeffebae18784c9d379b12bddf2d48c417154bd044acecac82c5d4abce"
+    },
+    {
+      "path": "scripts/check_closest_example.py",
+      "bytes": 3372,
+      "sha256": "23120714e803ea8f385468a5636a9a59b9b0175bd4d4fb89b592a272d975dbab"
+    },
+    {
+      "path": "scripts/package_closest_example.py",
+      "bytes": 3762,
+      "sha256": "be0cadec7885b9fd3d6d55b7c5feae9b6a3e028244fff7b16bd0a248eaf31173"
+    },
+    {
+      "path": "Tick41ClosestPointInstance verification.json",
+      "bytes": 1826,
+      "sha256": "075e96c23eb07852eb6a8b8c11cde2d9513b7fabc49f3a7c82244fe6afcb4b38"
+    },
+    {
+      "path": "Verification.json",
+      "bytes": 6732,
+      "sha256": "d8c5333a8e77424637259eaf8b2c1675339f06b8b4cf485d878e54fc4bddb137"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "module": "HistoryParameterSelection",
+  "source_sha256": "d9c9c3f49ecacf9631f23d171957241efaa334dc53cf9155b9a71f52495c451b",
+  "object_sha256": "98f3707be8b66f18f30436a89f6ef339f9669e1fbc23b489004650ee37fcf5bc",
+  "exit_code": 0,
+  "log": "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/logs/HistoryParameterSelection-20261112T105637.log",
+  "log_sha256": "5b887b19314696007fe368706ab20daf13895efb00431a1a150dcf6a3eede3bc",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_reports": [
+    "HistoryParameterSelection.exists_scaled_sqrt_two",
+    "HistoryParameterSelection.select_irrational_value",
+    "HistoryParameterSelection.positive_point_from_positive_derivative",
+    "HistoryParameterSelection.select_parameters",
+    "HistoryParameterSelection.selected_parameters_preserve_validity"
+  ],
+  "command": [
+    "$USER_HOME/verification/bin/lake",
+    "env",
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+    "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean",
+    "-o",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean/HistoryParameterSelection.olean",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean/HistoryParameterSelection.lean"
+  ],
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "base_dependency_verification_sha256": "9770bb2c7cef1ac50a5a315470df6cc1c494db37b699d27e040825746a3d7cff",
+  "checked_at_utc": "2026-11-12T10:57:28.535494+00:00"
+}

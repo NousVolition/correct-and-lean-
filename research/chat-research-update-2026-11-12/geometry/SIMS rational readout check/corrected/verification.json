@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-11-12T05:35:50.371075+00:00",
+  "finished_at_utc": "2026-11-12T05:36:29.619882+00:00",
+  "source_sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4",
+  "exact_attachment_copy": false,
+  "source_unchanged_during_check": true,
+  "corrected_proofs_only": true,
+  "old_source_sha256": "0ce1acf9c443246f5a1f865f63f4cb7feeb3d957d50e2168af7d723be82bae94",
+  "old_package_files_verified": 94,
+  "frozen_inputs_verified": 84,
+  "old_package_preserved": true,
+  "generated_literals_and_finite_checks_unchanged": true,
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "mathlib_tracked_changes": "",
+  "command": [
+    "$USER_HOME/verification/bin/lake",
+    "env",
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/SIMS rational readout check/corrected/SIMSLatentReadout.lean"
+  ],
+  "working_directory": "$USER_HOME/verification/project",
+  "exit_code": 0,
+  "theorem_count": 32,
+  "axiom_report_count": 32,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "no_placeholders_or_new_axioms_in_source": true,
+  "log_sha256": "be9b8bf97e80ca271ef45202047694bf970987e2da316df1a7b320e06260e6d2",
+  "new_model_calls": 0,
+  "new_fluid_runs": 0,
+  "scope": "Compiler attempted this rational revision; status and exit code state the result. Archived literals and their input hashes matched. The original JSON-to-Lean generator was inspected separately, not formally verified."
+}

@@ -1,0 +1,6 @@
+'UnwrappedWork.one_step_work_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnwrappedWork.discrete_history_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnwrappedWork.returning_endpoints_leave_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnwrappedWork.history_energy_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnwrappedWork.history_total_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnwrappedWork.history_is_opposite_work_receipt' depends on axioms: [propext, Classical.choice, Quot.sound]

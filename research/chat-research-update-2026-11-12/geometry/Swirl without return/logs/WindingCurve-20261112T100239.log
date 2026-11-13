@@ -1,0 +1,33 @@
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingCurve.lean:79:19: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingCurve.lean:80:88: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingCurve.lean:80:46: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingCurve.lean:79:19: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingCurve.lean:80:88: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingCurve.lean:126:48: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingCurve.lean:126:62: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingCurve.lean:126:74: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'ClosestPointExample.Winding.lift_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.gain_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.lift_at_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.lift_linear_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.curve_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.curve_scale_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.closed_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.open_never_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.global_closest_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

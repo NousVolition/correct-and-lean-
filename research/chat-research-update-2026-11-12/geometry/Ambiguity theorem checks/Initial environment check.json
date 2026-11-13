@@ -1,0 +1,26 @@
+{
+  "status": "FAIL",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "modules": [
+    {
+      "module": "SIMSLatentReadout",
+      "status": "FAIL",
+      "exit_code": 1,
+      "source_sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4",
+      "log_sha256": "d18b9f21d4960c6011ad43dd2bd92bda26e55f6bfed38a2cd3ea8b9ba0514888",
+      "axioms": [],
+      "axiom_reports": [],
+      "started_at_utc": "2026-11-12T06:02:22.391601+00:00",
+      "finished_at_utc": "2026-11-12T06:02:25.742446+00:00",
+      "command": [
+        "$USER_HOME/verification/bin/lake",
+        "env",
+        "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+        "-o",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/SIMSLatentReadout.olean",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/SIMSLatentReadout.lean"
+      ]
+    }
+  ]
+}

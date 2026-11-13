@@ -1,0 +1,61 @@
+Running as unit: run-p805-i3046.service; invocation ID: 8dfa6a9dbcd343d8b0b0dcae891fe2c6
+Building RescaleChallenge
+✔ [9006/9056] Built SignedDefinitions (3.7s)
+✔ [9385/9398] Built TraceDefinitions (3.7s)
+✔ [9386/9398] Built SignedSolution (4.0s)
+✔ [9387/9398] Built ExteriorSolution (9.2s)
+✔ [9388/9398] Built TraceSolution (18s)
+✔ [9389/9398] Built TargetSolution (9.3s)
+✔ [9390/9398] Built HLineStatements (5.6s)
+✔ [9391/9398] Built HLineCalculus (7.6s)
+✔ [9392/9398] Built HLineOperator (7.8s)
+✔ [9393/9398] Built HLineIntegral (10s)
+✔ [9394/9398] Built HLineGeometry (17s)
+✔ [9395/9398] Built HLineProofs (11s)
+✔ [9396/9398] Built RescaleFields (6.3s)
+⚠ [9397/9398] Built RescaleChallenge (6.3s)
+warning: RescaleChallenge.lean:9:8: declaration uses `sorry`
+warning: RescaleChallenge.lean:12:8: declaration uses `sorry`
+warning: RescaleChallenge.lean:21:8: declaration uses `sorry`
+warning: RescaleChallenge.lean:26:8: declaration uses `sorry`
+warning: RescaleChallenge.lean:33:8: declaration uses `sorry`
+warning: RescaleChallenge.lean:37:8: declaration uses `sorry`
+warning: RescaleChallenge.lean:43:8: declaration uses `sorry`
+warning: RescaleChallenge.lean:46:8: declaration uses `sorry`
+warning: RescaleChallenge.lean:52:8: declaration uses `sorry`
+warning: RescaleChallenge.lean:60:8: declaration uses `sorry`
+warning: RescaleChallenge.lean:65:8: declaration uses `sorry`
+warning: RescaleChallenge.lean:68:8: declaration uses `sorry`
+Build completed successfully (9398 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SignedVortex.Rescaled.support_fits_iff, SignedVortex.Rescaled.loop_transfer, SignedVortex.Rescaled.hline_any_fit, SignedVortex.Rescaled.hline_pinned_quarter, SignedVortex.Rescaled.matches_at_one, SignedVortex.Rescaled.matching_force_has_zero_loop, SignedVortex.Rescaled.inward_signal, SignedVortex.Rescaled.opposite_nonzero_loops, SignedVortex.Rescaled.late_exclusion, SignedVortex.Rescaled.excludes_every_fitting_scale, SignedVortex.Rescaled.candidate_for_schedule, SignedVortex.Rescaled.every_positive_viscosity, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from RescaleChallenge
+Building RescaleSolution
+✔ [9397/9403] Built RescaleSupport (13s)
+✔ [9398/9403] Built RescaleCovariance (86s)
+✔ [9399/9403] Built RescaleLoops (3.5s)
+✔ [9400/9403] Built RescaleForcing (3.9s)
+✔ [9401/9403] Built RescaleCorollary (2.0s)
+ℹ [9402/9403] Built RescaleSolution (2.9s)
+info: RescaleSolution.lean:3:0: 'SignedVortex.Rescaled.support_fits_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:4:0: 'SignedVortex.Rescaled.loop_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:5:0: 'SignedVortex.Rescaled.hline_any_fit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:6:0: 'SignedVortex.Rescaled.hline_pinned_quarter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:7:0: 'SignedVortex.Rescaled.matches_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:8:0: 'SignedVortex.Rescaled.matching_force_has_zero_loop' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:9:0: 'SignedVortex.Rescaled.inward_signal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:10:0: 'SignedVortex.Rescaled.opposite_nonzero_loops' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:11:0: 'SignedVortex.Rescaled.late_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:12:0: 'SignedVortex.Rescaled.excludes_every_fitting_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:13:0: 'SignedVortex.Rescaled.candidate_for_schedule' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:14:0: 'SignedVortex.Rescaled.every_positive_viscosity' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9403 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SignedVortex.Rescaled.support_fits_iff, SignedVortex.Rescaled.loop_transfer, SignedVortex.Rescaled.hline_any_fit, SignedVortex.Rescaled.hline_pinned_quarter, SignedVortex.Rescaled.matches_at_one, SignedVortex.Rescaled.matching_force_has_zero_loop, SignedVortex.Rescaled.inward_signal, SignedVortex.Rescaled.opposite_nonzero_loops, SignedVortex.Rescaled.late_exclusion, SignedVortex.Rescaled.excludes_every_fitting_scale, SignedVortex.Rescaled.candidate_for_schedule, SignedVortex.Rescaled.every_positive_viscosity, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from RescaleSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 22min 45.802s
+             CPU time consumed: 24min 9.704s
+                   Memory peak: 6.1G (swap: 0B)

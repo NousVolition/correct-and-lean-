@@ -1,0 +1,9 @@
+import EdgeControlProofs
+import EdgeControlExterior
+
+#print axioms SignedVortex.Rescaled.EdgeControl.edge_signal_zero
+#print axioms SignedVortex.Rescaled.EdgeControl.native_in_every_collar
+#print axioms SignedVortex.Rescaled.EdgeControl.inward_small
+#print axioms SignedVortex.Rescaled.EdgeControl.control_for_pinned_scale
+#print axioms SignedVortex.Rescaled.EdgeControl.every_viscosity_has_control
+#print axioms SignedVortex.Rescaled.EdgeControl.exterior_from_support

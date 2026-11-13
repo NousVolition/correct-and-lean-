@@ -1,0 +1,119 @@
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:108:10: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  coordinateDerivative 0 (fun q => profileX b t (q 0) (q 1)) p
+in the target expression
+  coordinateDerivative ⟨0, ⋯⟩
+      (fun q => if ⟨0, ⋯⟩ = 0 then profileX b t (q 0) (q 1) else if ⟨0, ⋯⟩ = 1 then profileY b t (q 0) (q 1) else 0) p =
+    if ⟨0, ⋯⟩ = 0 then profileXX b t (p 0) (p 1) else if ⟨0, ⋯⟩ = 1 then profileYY b t (p 0) (p 1) else 0
+
+case pos.«_@».MatchingPaddleFluid.791320464._hygCtx._hyg.99.«0»
+b : Bool
+t : ℝ
+p : Point
+⊢ coordinateDerivative ⟨0, ⋯⟩
+      (fun q => if ⟨0, ⋯⟩ = 0 then profileX b t (q 0) (q 1) else if ⟨0, ⋯⟩ = 1 then profileY b t (q 0) (q 1) else 0) p =
+    if ⟨0, ⋯⟩ = 0 then profileXX b t (p 0) (p 1) else if ⟨0, ⋯⟩ = 1 then profileYY b t (p 0) (p 1) else 0
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:111:38: error(lean.unknownIdentifier): Unknown constant `Fin.one_ne_zero`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:112:10: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  coordinateDerivative 1 (fun q => profileY b t (q 0) (q 1)) p
+in the target expression
+  coordinateDerivative ⟨1, ⋯⟩
+      (fun q => if ⟨1, ⋯⟩ = 0 then profileX b t (q 0) (q 1) else if ⟨1, ⋯⟩ = 1 then profileY b t (q 0) (q 1) else 0) p =
+    if ⟨1, ⋯⟩ = 0 then profileXX b t (p 0) (p 1) else if ⟨1, ⋯⟩ = 1 then profileYY b t (p 0) (p 1) else 0
+
+case pos.«_@».MatchingPaddleFluid.791320464._hygCtx._hyg.99.«1»
+b : Bool
+t : ℝ
+p : Point
+⊢ coordinateDerivative ⟨1, ⋯⟩
+      (fun q => if ⟨1, ⋯⟩ = 0 then profileX b t (q 0) (q 1) else if ⟨1, ⋯⟩ = 1 then profileY b t (q 0) (q 1) else 0) p =
+    if ⟨1, ⋯⟩ = 0 then profileXX b t (p 0) (p 1) else if ⟨1, ⋯⟩ = 1 then profileYY b t (p 0) (p 1) else 0
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:107:27: warning: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ite_true, Fin.zero_ne_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:107:38: warning: This simp argument is unused:
+  Fin.zero_ne_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ite_true, ite_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:111:27: warning: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ite_true, Fin.one_ne_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:120:8: warning: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [flow_partial]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:147:2: error: unsolved goals
+case neg
+b : Bool
+i : Fin 3
+hi : ¬i = 2
+⊢ ContDiff ℝ ⊤ fun tx => 0
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:151:65: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:152:14: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:152:30: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:152:42: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:156:77: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:157:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:157:38: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:188:37: error: Tactic `rfl` failed: The left-hand side
+  markerA
+is not definitionally equal to the right-hand side
+  line 0 0
+
+⊢ markerA = line 0 0
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:187:94: error: unsolved goals
+hA : markerA = line 0 0
+i : Fin 3
+⊢ swirlScale = swirlScale * (2 * (1 - 2⁻¹)) ∨ direction 0 i = 0
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean:196:37: error: Tactic `rfl` failed: The left-hand side
+  markerA
+is not definitionally equal to the right-hand side
+  line 0 0
+
+⊢ markerA = line 0 0
+'ClosestPointExample.MatchingPaddle.solves_navier_stokes' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.divergence_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.smooth_flow' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.material_markers_stationary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.curl_on_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.same_paddle_wheel' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.same_paddle_as_previous' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

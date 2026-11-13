@@ -1,0 +1,12 @@
+{
+  "result": "Analytical existence construction; not an end-to-end formal fluid witness",
+  "formal_core_status": "PASS",
+  "formal_core_statements": 10,
+  "formal_core_scope": "Conditional algebra, geometry and observation core only; no formal PDE witness or parameter existence construction.",
+  "numerical_status": "Illustration checked at two resolutions; not interval-certified",
+  "fully_formalized_fluid_witness": false,
+  "exact_parameter_decimal_enclosure": false,
+  "fresh_dependency_install_tested": false,
+  "created_at_utc": "2026-11-12T10:41:46.567192+00:00",
+  "preservation": "All new work is in this output folder and its dedicated work scripts. Original simulation and preceding proof packages were read only."
+}

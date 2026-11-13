@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-11-12T11:12:05.566255+00:00",
+  "original_physical_energy_G": "NOT IDENTIFIED in checked original and retained relationship/history passages",
+  "physical_total_energy_conservation": "NOT ESTABLISHED for the selected original A/S system by this check",
+  "conditional_history_account": "Its required trace is derived and can be defined causally from the existing carrying/activation history. Calling this constructed account physical energy remains an additional identification.",
+  "source_check": "PASS: targeted primary DOCX and known relationship/history sources; broader archived review remains historical",
+  "arithmetic": "PASS: 601 prior path times reconciled; 62 prior pair-potential samples retained with symbolic units conversion",
+  "new_Lean_compilation": "PASS",
+  "axiom_audit": "PASS",
+  "theorems": [
+    "HistoryRequirement.accumulated_rate",
+    "HistoryRequirement.any_balancing_G_has_required_trace",
+    "HistoryRequirement.adding_increasing_potential_increases_debit"
+  ],
+  "formal_scope": "Necessary trajectory change of a G already assumed to have the balancing rate. No independent physical functional or PDE existence is asserted.",
+  "Lean_version": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "required_endpoint_change_without_pair": -1.0654747938026771e-05,
+  "with_pair": "Delta G = -1.0654747938026771e-5 - lambda*7.604657325036376e-9; lambda is the unknown nonnegative conversion from raw context-potential units to model energy",
+  "new_simulation_steps": 0,
+  "new_raw_frame_evaluations": 0,
+  "new_original_corpus_sweep": false,
+  "original_equations_source_notes_saved_data_and_prior_receipts_unchanged": true,
+  "limitations": [
+    "Current source search is bounded, not exhaustive across all notes/chats/images/live boards",
+    "Numerical histories and prior physical-transfer checks were reused, not rerun",
+    "Endpoint and native-stage quadrature differences are retained explicitly",
+    "No universal nonexistence claim for nonlocal or full-history energy",
+    "No arbitrary energy scale, reservoir or negative-work account is presented as a discovered physical law"
+  ]
+}

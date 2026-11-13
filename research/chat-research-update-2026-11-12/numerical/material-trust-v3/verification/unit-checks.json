@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "distinct_behavioral_tests": 9,
+  "initial_eight_test_run": {"passed": 8, "seconds": 80.861},
+  "after_rhs_probe_scope_change": {"relevant_tests_passed": 3, "seconds": 34.504},
+  "after_traction_only_probe_and_capture_scope_change": {"relevant_tests_passed": 4, "seconds": 22.307},
+  "checks": [
+    "All sampled trust and positions round-trip through material within half quantum; four independent starts",
+    "Deleting and poisoning software histories leaves material readout and trust RHS unchanged and allows subsequent writes",
+    "Full-state restart without a software history reproduces future state exactly",
+    "Ambiguous cells and checksum corruption fail despite intact logs",
+    "Journal write energy, heat and work balance; original event cells unchanged by journal write",
+    "Zero budget, duplicate, range and capacity rejection without mutation",
+    "Displayed trust rate equals full solver rate; no future outcomes in retrieval",
+    "Earlier encoded material feature changes alter both directed trust rates",
+    "Traction-only probe loads and tractions are array-identical to the original probe"
+  ],
+  "unit_event_intervals": "Short synthetic fixtures for record plumbing; full runs retain original schedule",
+  "export_verification": "Separate full-run checks read material-only.npz and verify full flow restart"
+}

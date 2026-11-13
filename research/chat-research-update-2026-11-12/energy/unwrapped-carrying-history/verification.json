@@ -1,0 +1,52 @@
+{
+  "checked_utc": "2026-11-12T09:24:42.192301+00:00",
+  "lean": "PASS",
+  "new_theorem_count": 6,
+  "theorems": [
+    "UnwrappedWork.one_step_work_split",
+    "UnwrappedWork.discrete_history_balance",
+    "UnwrappedWork.returning_endpoints_leave_history",
+    "UnwrappedWork.history_energy_derivative",
+    "UnwrappedWork.history_total_constant",
+    "UnwrappedWork.history_is_opposite_work_receipt"
+  ],
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "sorryAx": false,
+  "numerical_history_account": "PASS on the saved branch: native replay validated, full volume carrying work matches receipt within 0.1095 ppm",
+  "independently_identified_gravity_energy": "NOT ESTABLISHED: history functional is proved equal to opposite cumulative work; resolved force has nonzero closed-loop work even in unwrapped space",
+  "original_equations_and_saved_sources_unchanged": true,
+  "passive_tracers_no_feedback": true,
+  "numerical_acceptance": {
+    "relative_path_work_tolerance": 0.0001,
+    "measured": 1.094347020148495e-07,
+    "coarser_to_finer_error_decreased": true
+  },
+  "checks": {
+    "saved_steps": 600,
+    "velocity_stage_samples": 1200,
+    "full_checkpoints_loaded_or_compared": 62,
+    "max_full_checkpoint_error": 7.771561172376096e-16,
+    "path_work_error_ppm": -0.1094347020148495,
+    "total_energy_residual_ppm": 6.6337802428332004
+  },
+  "limitations": [
+    "Saved experiment includes prescribed breathing and three event writes",
+    "Passive quadrature refinement only; physical grid and step unchanged",
+    "Continuum volume change-of-variables theorem not formalized",
+    "No independently specified gravitational reservoir or self-gravity law",
+    "Floating-point code not formally verified",
+    "Independent external kernel not run"
+  ],
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "dependency": {
+    "head": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+    "tracked_clean": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\NavierStokesAndEuler-audit\\.lake\\packages\\mathlib",
+    "checked_utc": "2026-11-12T08:10:24.4285603Z"
+  },
+  "dependency_status": "Inherited pinned cache; no fresh remote revision check"
+}

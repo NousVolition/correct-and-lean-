@@ -1,0 +1,822 @@
+{
+  "plan": {
+    "start": 3.6,
+    "end": 12.0,
+    "observations_every": 0.1,
+    "time_steps": [
+      0.005,
+      0.0025
+    ],
+    "accuracy_recovery": {
+      "reason": "Heun exceeded the inherited absolute energy-defect limit at 8.4 with step 0.005 and at 9.6 with step 0.0025. Earlier overlap with RK4 supports a time-integration error cause.",
+      "method": "classical RK4 applied to the unchanged right-hand side",
+      "steps": [
+        0.005,
+        0.004
+      ],
+      "bound": "One run per arm at each RK4 step, ending at time 12 or the first inherited-check violation. Compare the completed common interval once. Retain and report any limit or unmet comparison tolerance."
+    },
+    "comparison": {
+      "relative_tolerance": 0.001,
+      "relative_metrics": [
+        "energy",
+        "peak_slope",
+        "pull_power",
+        "A"
+      ],
+      "active_fraction_absolute_tolerance": 0.002
+    },
+    "checks": "Retain the archived source, energy, divergence and deformation limits, constant squeeze/breathing/write-work accumulators and exact decoded material payloads.",
+    "scope": "Continue the existing equations and both full saved states. The reservoir remains an implementation assumption without a depletion equation."
+  },
+  "selected_run": "rk4-dt004",
+  "source_hashes": {
+    "experiment": "955efa9c95a0595afdb4763ee0ab026cbd08a238780cfcd9bed3baca83ff12da",
+    "squeeze_seal.json": "2f501fb48c0f9db7506959b457d7194ba8a745773d80c86ed9e646eb71556732",
+    "squeeze_model.py": "2e4aa9d247e935eda6c83642c66470ea6adf57362d9dcfa6ae6ffca736bb73b9",
+    "structural_hug.py": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+    "continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+    "social_base.py": "1adb94cf2be5c985bde0cd5b6cb7d6986145e52b741aa47a00277af5d55d96f8",
+    "declaration": "f9726113dc6ef6d8f6598dafe3bdb145dabb226a0197c63f72dc4f3624b93514",
+    "trail": "0fde6bc48827240fb536a9a855fce9b43875f336b4bfc7187722a3e41206d41d"
+  },
+  "runs": {
+    "dt005": {
+      "off": {
+        "status": "numerical_limit",
+        "failure": {
+          "energy_residual": {
+            "value": 2.3290314866697415e-05,
+            "limit": 2e-05
+          }
+        },
+        "last_good_time": 8.3,
+        "max_step": 0.005,
+        "steps": 960,
+        "max_errors": {
+          "C_balance": 1.6653345369377348e-16,
+          "div_error": 1.8078594177239893e-13,
+          "det_error": 3.9962736162468815e-06,
+          "energy_residual": 1.9254084330233567e-05
+        },
+        "inherited_limits": {
+          "C_balance": 1e-10,
+          "div_error": 1e-10,
+          "det_error": 0.02,
+          "energy_residual": 2e-05
+        },
+        "source_state_sha256": "6bb7b8348b2556ccbedfe6aa26585b45e4e5171ed2e9623fa3850fbc0ff2d6eb",
+        "driver_sha256": "0670f9d649983923ecd5204d6a9e32d7187bf4ccc74e6704aeaabf7ece8b1cca",
+        "unchanged_work_accumulators": {
+          "squeeze_work": 0.06951758893481887,
+          "breathing_work": 0.0,
+          "write_work": 3.8804702193953926e-05
+        }
+      },
+      "on": {
+        "status": "numerical_limit",
+        "failure": {
+          "energy_residual": {
+            "value": 2.3106802574890395e-05,
+            "limit": 2e-05
+          }
+        },
+        "last_good_time": 8.3,
+        "max_step": 0.005,
+        "steps": 960,
+        "max_errors": {
+          "C_balance": 1.6653345369377348e-16,
+          "div_error": 1.213473765915296e-13,
+          "det_error": 3.969949335602685e-06,
+          "energy_residual": 1.9117326981676896e-05
+        },
+        "inherited_limits": {
+          "C_balance": 1e-10,
+          "div_error": 1e-10,
+          "det_error": 0.02,
+          "energy_residual": 2e-05
+        },
+        "source_state_sha256": "28e38a2b877052c71463d639baf3eeb4141453fe946e269a6ec222d8e2e4e363",
+        "driver_sha256": "0670f9d649983923ecd5204d6a9e32d7187bf4ccc74e6704aeaabf7ece8b1cca",
+        "unchanged_work_accumulators": {
+          "squeeze_work": 0.0694839371839369,
+          "breathing_work": 4.701054796906429e-05,
+          "write_work": 3.871745004943103e-05
+        }
+      }
+    },
+    "dt0025": {
+      "off": {
+        "status": "numerical_limit",
+        "failure": {
+          "energy_residual": {
+            "value": 2.1861830078684363e-05,
+            "limit": 2e-05
+          }
+        },
+        "last_good_time": 9.5,
+        "max_step": 0.0025,
+        "steps": 2400,
+        "max_errors": {
+          "C_balance": 4.440892098500626e-16,
+          "div_error": 2.794431352981519e-13,
+          "det_error": 3.565413463801903e-06,
+          "energy_residual": 1.899331087829026e-05
+        },
+        "inherited_limits": {
+          "C_balance": 1e-10,
+          "div_error": 1e-10,
+          "det_error": 0.02,
+          "energy_residual": 2e-05
+        },
+        "source_state_sha256": "6bb7b8348b2556ccbedfe6aa26585b45e4e5171ed2e9623fa3850fbc0ff2d6eb",
+        "driver_sha256": "0670f9d649983923ecd5204d6a9e32d7187bf4ccc74e6704aeaabf7ece8b1cca",
+        "unchanged_work_accumulators": {
+          "squeeze_work": 0.06951758893481887,
+          "breathing_work": 0.0,
+          "write_work": 3.8804702193953926e-05
+        }
+      },
+      "on": {
+        "status": "numerical_limit",
+        "failure": {
+          "energy_residual": {
+            "value": 2.1713689069891018e-05,
+            "limit": 2e-05
+          }
+        },
+        "last_good_time": 9.5,
+        "max_step": 0.0025,
+        "steps": 2400,
+        "max_errors": {
+          "C_balance": 3.885780586188048e-16,
+          "div_error": 2.7333690866271354e-13,
+          "det_error": 3.509167489035292e-06,
+          "energy_residual": 1.8908338496270716e-05
+        },
+        "inherited_limits": {
+          "C_balance": 1e-10,
+          "div_error": 1e-10,
+          "det_error": 0.02,
+          "energy_residual": 2e-05
+        },
+        "source_state_sha256": "28e38a2b877052c71463d639baf3eeb4141453fe946e269a6ec222d8e2e4e363",
+        "driver_sha256": "0670f9d649983923ecd5204d6a9e32d7187bf4ccc74e6704aeaabf7ece8b1cca",
+        "unchanged_work_accumulators": {
+          "squeeze_work": 0.0694839371839369,
+          "breathing_work": 4.701054796906429e-05,
+          "write_work": 3.871745004943103e-05
+        }
+      }
+    },
+    "rk4-dt005": {
+      "off": {
+        "status": "complete",
+        "failure": null,
+        "last_good_time": 12.0,
+        "max_step": 0.005,
+        "steps": 1680,
+        "max_errors": {
+          "C_balance": 8.881784197001252e-16,
+          "div_error": 3.3267832932892816e-13,
+          "det_error": 3.6034855086519713e-06,
+          "energy_residual": 3.293229753786875e-06
+        },
+        "inherited_limits": {
+          "C_balance": 1e-10,
+          "div_error": 1e-10,
+          "det_error": 0.02,
+          "energy_residual": 2e-05
+        },
+        "source_state_sha256": "6bb7b8348b2556ccbedfe6aa26585b45e4e5171ed2e9623fa3850fbc0ff2d6eb",
+        "driver_sha256": "2b8220317b6d7f5e7995d40e480b5e25bb95b0f9f04dd682e09dd058fe36f455",
+        "unchanged_work_accumulators": {
+          "squeeze_work": 0.06951758893481887,
+          "breathing_work": 0.0,
+          "write_work": 3.8804702193953926e-05
+        }
+      },
+      "on": {
+        "status": "complete",
+        "failure": null,
+        "last_good_time": 12.0,
+        "max_step": 0.005,
+        "steps": 1680,
+        "max_errors": {
+          "C_balance": 6.661338147750939e-16,
+          "div_error": 4.1810999107383395e-13,
+          "det_error": 3.6164137203753555e-06,
+          "energy_residual": 3.231255190527804e-06
+        },
+        "inherited_limits": {
+          "C_balance": 1e-10,
+          "div_error": 1e-10,
+          "det_error": 0.02,
+          "energy_residual": 2e-05
+        },
+        "source_state_sha256": "28e38a2b877052c71463d639baf3eeb4141453fe946e269a6ec222d8e2e4e363",
+        "driver_sha256": "2b8220317b6d7f5e7995d40e480b5e25bb95b0f9f04dd682e09dd058fe36f455",
+        "unchanged_work_accumulators": {
+          "squeeze_work": 0.0694839371839369,
+          "breathing_work": 4.701054796906429e-05,
+          "write_work": 3.871745004943103e-05
+        }
+      }
+    },
+    "rk4-dt004": {
+      "off": {
+        "status": "complete",
+        "failure": null,
+        "last_good_time": 12.0,
+        "max_step": 0.004,
+        "steps": 2100,
+        "max_errors": {
+          "C_balance": 1.7763568394002505e-15,
+          "div_error": 5.151712390016883e-13,
+          "det_error": 3.3287685512473075e-06,
+          "energy_residual": 2.401089687964486e-06
+        },
+        "inherited_limits": {
+          "C_balance": 1e-10,
+          "div_error": 1e-10,
+          "det_error": 0.02,
+          "energy_residual": 2e-05
+        },
+        "source_state_sha256": "6bb7b8348b2556ccbedfe6aa26585b45e4e5171ed2e9623fa3850fbc0ff2d6eb",
+        "driver_sha256": "2b8220317b6d7f5e7995d40e480b5e25bb95b0f9f04dd682e09dd058fe36f455",
+        "unchanged_work_accumulators": {
+          "squeeze_work": 0.06951758893481887,
+          "breathing_work": 0.0,
+          "write_work": 3.8804702193953926e-05
+        }
+      },
+      "on": {
+        "status": "complete",
+        "failure": null,
+        "last_good_time": 12.0,
+        "max_step": 0.004,
+        "steps": 2100,
+        "max_errors": {
+          "C_balance": 1.4432899320127035e-15,
+          "div_error": 3.9201974999514277e-13,
+          "det_error": 3.278143505092146e-06,
+          "energy_residual": 2.4212484257546407e-06
+        },
+        "inherited_limits": {
+          "C_balance": 1e-10,
+          "div_error": 1e-10,
+          "det_error": 0.02,
+          "energy_residual": 2e-05
+        },
+        "source_state_sha256": "28e38a2b877052c71463d639baf3eeb4141453fe946e269a6ec222d8e2e4e363",
+        "driver_sha256": "2b8220317b6d7f5e7995d40e480b5e25bb95b0f9f04dd682e09dd058fe36f455",
+        "unchanged_work_accumulators": {
+          "squeeze_work": 0.0694839371839369,
+          "breathing_work": 4.701054796906429e-05,
+          "write_work": 3.871745004943103e-05
+        }
+      }
+    }
+  },
+  "step_comparison": {
+    "coarse": "work\\pull-continuation\\rk4-dt005",
+    "fine": "work\\pull-continuation\\rk4-dt004",
+    "criteria": {
+      "relative_tolerance": 0.001,
+      "relative_metrics": [
+        "energy",
+        "peak_slope",
+        "pull_power",
+        "A"
+      ],
+      "active_fraction_absolute_tolerance": 0.002
+    },
+    "arms": {
+      "off": {
+        "last_common_time": 12.0,
+        "compared_readings": 85,
+        "errors": {
+          "energy": {
+            "maximum_relative_difference": 1.5793319655747858e-06,
+            "time": 12.0
+          },
+          "peak_slope": {
+            "maximum_relative_difference": 0.00021141229826877745,
+            "time": 12.0
+          },
+          "pull_power": {
+            "maximum_relative_difference": 1.8588204341912466e-06,
+            "time": 11.5
+          },
+          "A": {
+            "maximum_relative_difference": 3.0604235916255638e-12,
+            "time": 12.0
+          }
+        },
+        "maximum_active_fraction_difference": 0.0,
+        "within_tolerance": true,
+        "statuses": [
+          "complete",
+          "complete"
+        ],
+        "both_complete_to_requested_end": true
+      },
+      "on": {
+        "last_common_time": 12.0,
+        "compared_readings": 85,
+        "errors": {
+          "energy": {
+            "maximum_relative_difference": 7.927877207342778e-07,
+            "time": 12.0
+          },
+          "peak_slope": {
+            "maximum_relative_difference": 9.537554409692912e-05,
+            "time": 11.8
+          },
+          "pull_power": {
+            "maximum_relative_difference": 4.388921438655176e-06,
+            "time": 12.0
+          },
+          "A": {
+            "maximum_relative_difference": 3.1799545203929822e-12,
+            "time": 6.2
+          }
+        },
+        "maximum_active_fraction_difference": 0.0,
+        "within_tolerance": true,
+        "statuses": [
+          "complete",
+          "complete"
+        ],
+        "both_complete_to_requested_end": true
+      }
+    }
+  },
+  "earlier_method_comparison": {
+    "coarse": "work\\pull-continuation\\dt0025",
+    "fine": "work\\pull-continuation\\rk4-dt005",
+    "criteria": {
+      "relative_tolerance": 0.001,
+      "relative_metrics": [
+        "energy",
+        "peak_slope",
+        "pull_power",
+        "A"
+      ],
+      "active_fraction_absolute_tolerance": 0.002
+    },
+    "arms": {
+      "off": {
+        "last_common_time": 9.5,
+        "compared_readings": 60,
+        "errors": {
+          "energy": {
+            "maximum_relative_difference": 4.594778471643825e-05,
+            "time": 9.4
+          },
+          "peak_slope": {
+            "maximum_relative_difference": 0.003356450030661817,
+            "time": 9.5
+          },
+          "pull_power": {
+            "maximum_relative_difference": 0.00038594017786703884,
+            "time": 9.2
+          },
+          "A": {
+            "maximum_relative_difference": 4.5891271255937e-09,
+            "time": 4.4
+          }
+        },
+        "maximum_active_fraction_difference": 0.0,
+        "within_tolerance": false,
+        "statuses": [
+          "numerical_limit",
+          "running"
+        ],
+        "both_complete_to_requested_end": false
+      },
+      "on": {
+        "last_common_time": 9.5,
+        "compared_readings": 60,
+        "errors": {
+          "energy": {
+            "maximum_relative_difference": 4.6202638889580924e-05,
+            "time": 9.4
+          },
+          "peak_slope": {
+            "maximum_relative_difference": 0.003745974553855378,
+            "time": 9.2
+          },
+          "pull_power": {
+            "maximum_relative_difference": 0.0003900280270760558,
+            "time": 9.2
+          },
+          "A": {
+            "maximum_relative_difference": 4.541595187524767e-09,
+            "time": 4.4
+          }
+        },
+        "maximum_active_fraction_difference": 0.0,
+        "within_tolerance": false,
+        "statuses": [
+          "numerical_limit",
+          "running"
+        ],
+        "both_complete_to_requested_end": false
+      }
+    }
+  },
+  "results": {
+    "off": {
+      "end": 12.0,
+      "max_step": 0.004,
+      "integrator": "classical RK4",
+      "initial": {
+        "arm": "off",
+        "time": 3.6,
+        "energy": 0.08772858546681701,
+        "kinetic": 0.01216942393513754,
+        "elastic": 0.0006612727965868222,
+        "thermal": 0.07489788873509265,
+        "source_work": 0.016184216348167305,
+        "pull_power": 0.021185722519839984,
+        "peak_slope": 4.718447548624307,
+        "threshold": 0.015,
+        "active_fraction": 0.95703125,
+        "A": 0.031144215888772545,
+        "A_rate": 0.011654621461761263,
+        "mean_context": 0.056260783678939455,
+        "context_source_rate": 0.031144215888772545,
+        "utility": 0.1456827682720158,
+        "room_first_weight": 0.8499999999981639,
+        "energy_residual": -2.2905156257801984e-08,
+        "C_balance": 4.85722573273506e-17,
+        "div_error": 2.641636909217482e-14,
+        "det_error": 3.3237904613070413e-06,
+        "max_speed": 0.36024728265720574,
+        "min_temperature": 1.060158620229564,
+        "record_count": 3.0,
+        "squeeze_work": 0.06951758893481887,
+        "breathing_work": 0.0,
+        "write_work": 3.8804702193953926e-05,
+        "state_source": "classical RK4 continuation endpoint"
+      },
+      "final": {
+        "arm": "off",
+        "time": 12.0,
+        "energy": 5.4587279771468005,
+        "kinetic": 4.345423289912435,
+        "elastic": 0.015457463233434637,
+        "thermal": 1.0978472240009314,
+        "source_work": 5.387181184033306,
+        "pull_power": 1.9607900253625992,
+        "peak_slope": 20.93591603692131,
+        "threshold": 0.015,
+        "active_fraction": 1.0,
+        "A": 0.1355209676069857,
+        "A_rate": 0.012565458728981965,
+        "mean_context": 0.7527818878184745,
+        "context_source_rate": 0.1355209676069857,
+        "utility": 0.15706823411227455,
+        "room_first_weight": 0.85,
+        "energy_residual": 2.401089687964486e-06,
+        "C_balance": -1.6653345369377348e-15,
+        "div_error": 5.151712390016883e-13,
+        "det_error": 3.315017651717156e-06,
+        "max_speed": 4.468202955306845,
+        "min_temperature": 1.5332024532567465,
+        "record_count": 3.0,
+        "squeeze_work": 0.06951758893481887,
+        "breathing_work": 0.0,
+        "write_work": 3.8804702193953926e-05,
+        "state_source": "classical RK4 continuation endpoint"
+      },
+      "energy_increase_after_3_6": 5.370999391679984,
+      "pull_work_after_3_6": 5.370996967685139,
+      "minimum_sampled_pull_power": 0.021185722519839984,
+      "minimum_sampled_peak_slope": 4.718447548624307,
+      "minimum_sampled_energy_increment": 0.002240431163811299,
+      "max_errors": {
+        "C_balance": 1.7763568394002505e-15,
+        "div_error": 5.151712390016883e-13,
+        "det_error": 3.3287685512473075e-06,
+        "energy_residual": 2.401089687964486e-06
+      },
+      "limits": {
+        "C_balance": 1e-10,
+        "div_error": 1e-10,
+        "det_error": 0.02,
+        "energy_residual": 2e-05
+      }
+    },
+    "on": {
+      "end": 12.0,
+      "max_step": 0.004,
+      "integrator": "classical RK4",
+      "initial": {
+        "arm": "on",
+        "time": 3.6,
+        "energy": 0.0877532580456957,
+        "kinetic": 0.012173494407110831,
+        "elastic": 0.0006577227601961033,
+        "thermal": 0.07492204087838876,
+        "source_work": 0.016195609141805845,
+        "pull_power": 0.021191654347339006,
+        "peak_slope": 4.719295511831604,
+        "threshold": 0.015,
+        "active_fraction": 0.956787109375,
+        "A": 0.03114410086923041,
+        "A_rate": 0.011654961536981786,
+        "mean_context": 0.05625966958293976,
+        "context_source_rate": 0.03114410086923041,
+        "utility": 0.1456870192122723,
+        "room_first_weight": 0.8499999999981639,
+        "energy_residual": -1.4664858688506754e-08,
+        "C_balance": -2.7755575615628914e-17,
+        "div_error": 2.0872192862952943e-14,
+        "det_error": 3.2675870169640575e-06,
+        "max_speed": 0.3599792364033544,
+        "min_temperature": 1.060173156552764,
+        "record_count": 3.0,
+        "squeeze_work": 0.0694839371839369,
+        "breathing_work": 4.701054796906429e-05,
+        "write_work": 3.871745004943103e-05,
+        "state_source": "classical RK4 continuation endpoint"
+      },
+      "final": {
+        "arm": "on",
+        "time": 12.0,
+        "energy": 5.459901329526749,
+        "kinetic": 4.344614410917683,
+        "elastic": 0.01510349582763438,
+        "thermal": 1.100183422781432,
+        "source_work": 5.388341244709575,
+        "pull_power": 1.9546091756107222,
+        "peak_slope": 21.004717037717676,
+        "threshold": 0.015,
+        "active_fraction": 1.0,
+        "A": 0.13552313692298337,
+        "A_rate": 0.012565691527951044,
+        "mean_context": 0.7527901247525908,
+        "context_source_rate": 0.13552313692298337,
+        "utility": 0.15707114409938805,
+        "room_first_weight": 0.85,
+        "energy_residual": 2.4212484257546407e-06,
+        "C_balance": 7.771561172376096e-16,
+        "div_error": 3.58046925441613e-13,
+        "det_error": 3.2704989290088804e-06,
+        "max_speed": 4.44677976057673,
+        "min_temperature": 1.534935992815602,
+        "record_count": 3.0,
+        "squeeze_work": 0.0694839371839369,
+        "breathing_work": 4.701054796906429e-05,
+        "write_work": 3.871745004943103e-05,
+        "state_source": "classical RK4 continuation endpoint"
+      },
+      "energy_increase_after_3_6": 5.372148071481053,
+      "pull_work_after_3_6": 5.372145635567769,
+      "minimum_sampled_pull_power": 0.021191654347339006,
+      "minimum_sampled_peak_slope": 4.719295511831604,
+      "minimum_sampled_energy_increment": 0.00224100832246614,
+      "max_errors": {
+        "C_balance": 1.4432899320127035e-15,
+        "div_error": 3.9201974999514277e-13,
+        "det_error": 3.278143505092146e-06,
+        "energy_residual": 2.4212484257546407e-06
+      },
+      "limits": {
+        "C_balance": 1e-10,
+        "div_error": 1e-10,
+        "det_error": 0.02,
+        "energy_residual": 2e-05
+      }
+    }
+  },
+  "feedback": {
+    "run": "work\\pull-continuation\\rk4-dt004",
+    "times": [
+      3.6,
+      6.0,
+      9.0,
+      12.0
+    ],
+    "definition": "G = mean(|centered_gradient(C)|^2)/2; each G-rate contribution = mean(centered_gradient(C) dot centered_gradient(component of dC/dt)).",
+    "checks": "Verified source seal, archived configuration, checkpoint file and state hashes, recomputed energy, field-rate sum, nonpositive diffusive G-rate, net momentum rate equal to mean pull force, and pull power equal to the ledger rate.",
+    "rows": [
+      {
+        "arm": "off",
+        "time": 3.6,
+        "energy": 0.08772858546681701,
+        "gradient_squared_mean_half": 0.5829812638076101,
+        "gradient_rate": 0.5552446394936793,
+        "gradient_rate_source": 1.7384397577785824,
+        "gradient_rate_diffusion": -1.2006785399713542,
+        "gradient_rate_advection": 0.017483421686451173,
+        "A": 0.031144215888772545,
+        "A_rate": 0.011654621461761263,
+        "mean_velocity_x": -0.12008635058283443,
+        "mean_force_x": -0.08035171373219754,
+        "bulk_kinetic": 0.0072103657981517095,
+        "kinetic": 0.01216942393513754,
+        "fluctuating_kinetic": 0.004959058136985831,
+        "elastic": 0.0006612727965868222,
+        "thermal": 0.07489788873509265,
+        "pull_power": 0.021185722519839984,
+        "bulk_pull_power": 0.009649144065176226,
+        "fluctuating_pull_power": 0.011536578454663758,
+        "mean_momentum_rate_error": 1.5265566588595902e-16
+      },
+      {
+        "arm": "off",
+        "time": 6.0,
+        "energy": 0.2651345410463446,
+        "gradient_squared_mean_half": 3.104816066979298,
+        "gradient_rate": 1.5291563227225575,
+        "gradient_rate_source": 7.177947620377401,
+        "gradient_rate_diffusion": -5.994780778808158,
+        "gradient_rate_advection": 0.34598948115331396,
+        "A": 0.06029932723173943,
+        "A_rate": 0.012423894296873404,
+        "mean_velocity_x": -0.45236055731874464,
+        "mean_force_x": -0.2047565766517801,
+        "bulk_kinetic": 0.10231503690886262,
+        "kinetic": 0.1386948113831543,
+        "fluctuating_kinetic": 0.036379774474291665,
+        "elastic": 0.0033527040763485774,
+        "thermal": 0.12308702558684173,
+        "pull_power": 0.15781694478874836,
+        "bulk_pull_power": 0.0926237991288775,
+        "fluctuating_pull_power": 0.06519314565987086,
+        "mean_momentum_rate_error": 5.551115123125783e-16
+      },
+      {
+        "arm": "off",
+        "time": 9.0,
+        "energy": 1.4916167927787067,
+        "gradient_squared_mean_half": 8.92059298424667,
+        "gradient_rate": 2.051902844459711,
+        "gradient_rate_source": 15.734950352742572,
+        "gradient_rate_diffusion": -18.753678460745856,
+        "gradient_rate_advection": 5.070630952462992,
+        "A": 0.09783608886102699,
+        "A_rate": 0.012553452290195563,
+        "mean_velocity_x": -1.37087203597012,
+        "mean_force_x": -0.41441251978892224,
+        "bulk_kinetic": 0.9396450695024311,
+        "kinetic": 1.080838924073711,
+        "fluctuating_kinetic": 0.14119385457127998,
+        "elastic": 0.010736886924593932,
+        "thermal": 0.4000409817804017,
+        "pull_power": 0.7743470627266757,
+        "bulk_pull_power": 0.5681065347345475,
+        "fluctuating_pull_power": 0.20624052799212822,
+        "mean_momentum_rate_error": 3.3306690738754696e-16
+      },
+      {
+        "arm": "off",
+        "time": 12.0,
+        "energy": 5.4587279771468005,
+        "gradient_squared_mean_half": 13.730971038933319,
+        "gradient_rate": 1.4229574478248992,
+        "gradient_rate_source": 22.91812670788938,
+        "gradient_rate_diffusion": -30.178708350734347,
+        "gradient_rate_advection": 8.683539090669868,
+        "A": 0.1355209676069857,
+        "A_rate": 0.012565458728981965,
+        "mean_velocity_x": -2.8505682731012696,
+        "mean_force_x": -0.5656492427753422,
+        "bulk_kinetic": 4.062869739805777,
+        "kinetic": 4.345423289912435,
+        "fluctuating_kinetic": 0.28255355010665806,
+        "elastic": 0.015457463233434637,
+        "thermal": 1.0978472240009314,
+        "pull_power": 1.9607900253625992,
+        "bulk_pull_power": 1.612421785159148,
+        "fluctuating_pull_power": 0.34836824020345114,
+        "mean_momentum_rate_error": 3.6637359812630166e-15
+      },
+      {
+        "arm": "on",
+        "time": 3.6,
+        "energy": 0.0877532580456957,
+        "gradient_squared_mean_half": 0.5830196544705006,
+        "gradient_rate": 0.5552082086911325,
+        "gradient_rate_source": 1.738564300017492,
+        "gradient_rate_diffusion": -1.200831178644896,
+        "gradient_rate_advection": 0.017475087318536697,
+        "A": 0.03114410086923041,
+        "A_rate": 0.011654961536981786,
+        "mean_velocity_x": -0.12009453722547486,
+        "mean_force_x": -0.0803556384086457,
+        "bulk_kinetic": 0.0072113489357004835,
+        "kinetic": 0.012173494407110831,
+        "fluctuating_kinetic": 0.004962145471410348,
+        "elastic": 0.0006577227601961033,
+        "thermal": 0.07492204087838876,
+        "pull_power": 0.021191654347339006,
+        "bulk_pull_power": 0.009650273208143897,
+        "fluctuating_pull_power": 0.011541381139195108,
+        "mean_momentum_rate_error": 3.191891195797325e-16
+      },
+      {
+        "arm": "on",
+        "time": 6.0,
+        "energy": 0.2652092377248261,
+        "gradient_squared_mean_half": 3.105574170267328,
+        "gradient_rate": 1.529775833823944,
+        "gradient_rate_source": 7.180663383992664,
+        "gradient_rate_diffusion": -5.996768834763112,
+        "gradient_rate_advection": 0.34588128459438927,
+        "A": 0.06029999147536096,
+        "A_rate": 0.01242419837489405,
+        "mean_velocity_x": -0.4523932411598858,
+        "mean_force_x": -0.2047659648364774,
+        "bulk_kinetic": 0.10232982232357328,
+        "kinetic": 0.13873590444483516,
+        "fluctuating_kinetic": 0.03640608212126188,
+        "elastic": 0.0033431636732570674,
+        "thermal": 0.12313016960673387,
+        "pull_power": 0.15787227210565324,
+        "bulk_pull_power": 0.09263473851160521,
+        "fluctuating_pull_power": 0.06523753359404803,
+        "mean_momentum_rate_error": 1.6653345369377348e-16
+      },
+      {
+        "arm": "on",
+        "time": 9.0,
+        "energy": 1.4922251333539176,
+        "gradient_squared_mean_half": 8.928667829605272,
+        "gradient_rate": 2.0606842816693387,
+        "gradient_rate_source": 15.744846593212422,
+        "gradient_rate_diffusion": -18.77106598083772,
+        "gradient_rate_advection": 5.086903669294632,
+        "A": 0.0978375499655802,
+        "A_rate": 0.012553694819321629,
+        "mean_velocity_x": -1.3709193852349093,
+        "mean_force_x": -0.4145449848287242,
+        "bulk_kinetic": 0.9397099804064308,
+        "kinetic": 1.0811450866844123,
+        "fluctuating_kinetic": 0.1414351062779815,
+        "elastic": 0.010733659249168139,
+        "thermal": 0.4003463874203371,
+        "pull_power": 0.7748680648705575,
+        "bulk_pull_power": 0.5683077557536094,
+        "fluctuating_pull_power": 0.20656030911694812,
+        "mean_momentum_rate_error": 3.885780586188048e-16
+      },
+      {
+        "arm": "on",
+        "time": 12.0,
+        "energy": 5.459901329526749,
+        "gradient_squared_mean_half": 13.698719125254328,
+        "gradient_rate": 1.576631893250962,
+        "gradient_rate_source": 23.023366591471266,
+        "gradient_rate_diffusion": -29.340077294191502,
+        "gradient_rate_advection": 7.893342595971191,
+        "A": 0.13552313692298337,
+        "A_rate": 0.012565691527951044,
+        "mean_velocity_x": -2.8494101157588667,
+        "mean_force_x": -0.5630591271714213,
+        "bulk_kinetic": 4.059569003894479,
+        "kinetic": 4.344614410917683,
+        "fluctuating_kinetic": 0.2850454070232038,
+        "elastic": 0.01510349582763438,
+        "thermal": 1.100183422781432,
+        "pull_power": 1.9546091756107222,
+        "bulk_pull_power": 1.604386372732606,
+        "fluctuating_pull_power": 0.35022280287811625,
+        "mean_momentum_rate_error": 4.884981308350689e-15
+      }
+    ]
+  },
+  "energy_components": {
+    "off": {
+      "start": 3.6,
+      "end": 12.0,
+      "bulk_fraction_of_added_energy": 0.7551033016853618,
+      "energy_changes": {
+        "energy": 5.370999391679984,
+        "bulk_kinetic": 4.055659374007625,
+        "fluctuating_kinetic": 0.2775944919696413,
+        "elastic": 0.014796190436847816,
+        "thermal": 1.0229493352658388,
+        "source_work": 5.370996967685139
+      }
+    },
+    "on": {
+      "start": 3.6,
+      "end": 12.0,
+      "bulk_fraction_of_added_energy": 0.7543272450868205,
+      "energy_changes": {
+        "energy": 5.372148071481053,
+        "bulk_kinetic": 4.0523576549587785,
+        "fluctuating_kinetic": 0.28008326155177293,
+        "elastic": 0.014445773067438276,
+        "thermal": 1.0252613819030432,
+        "source_work": 5.372145635567769
+      }
+    }
+  },
+  "scope": "Continuation of both complete archived states, using the original grid and right-hand side. No reservoir state, depletion rule, source cutoff, or feedback ablation was introduced.",
+  "limitations": "Finite duration; a time-step comparison does not establish spatial convergence or infinite-time growth. Original source laws and implementation additions remain the same as in the archived run."
+}

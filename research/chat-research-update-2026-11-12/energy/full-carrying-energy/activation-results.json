@@ -1,0 +1,50 @@
+{
+  "endpoints": [
+    {
+      "grid": 12,
+      "frame": 600,
+      "time": 1.2,
+      "work": 2.4424473731682875e-05,
+      "endpoint_release": 1.376926666745423e-05,
+      "history_endpoint": 1.0654546735580152e-05,
+      "history_rate_integral": 1.065532184492426e-05,
+      "deformation": -2.2721390139357428e-08,
+      "diffusion": 2.8253518247045557e-05,
+      "source": -1.7574352571420167e-05,
+      "transport_discretization": -1.1224405617696205e-09,
+      "rate_vs_endpoint_difference": 7.751093441082767e-10,
+      "energy_closure_defect": -1.1478069561569057e-10,
+      "previous_work_match": 0.0,
+      "previous_history_match": 0.0,
+      "closure_defect_fraction_of_work": -4.699413255598611e-06
+    },
+    {
+      "grid": 16,
+      "frame": 600,
+      "time": 1.2,
+      "work": 2.4424319015188522e-05,
+      "endpoint_release": 1.3768910743745418e-05,
+      "history_endpoint": 1.0654747938026771e-05,
+      "history_rate_integral": 1.065552304310973e-05,
+      "deformation": -2.2763926055590548e-08,
+      "diffusion": 2.8253343787914046e-05,
+      "source": -1.757416883025273e-05,
+      "transport_discretization": -8.879884959930046e-10,
+      "rate_vs_endpoint_difference": 7.751050829582636e-10,
+      "energy_closure_defect": -1.1477166662563767e-10,
+      "previous_work_match": 0.0,
+      "previous_history_match": 0.0,
+      "closure_defect_fraction_of_work": -4.699073352025319e-06
+    }
+  ],
+  "quadrature": "Original Heun stages, passive Fourier paths, endpoint-history comparison",
+  "columns": [
+    "deformation",
+    "diffusion",
+    "source",
+    "transport_discretization"
+  ],
+  "last_column_scope": "Finite-volume transport/product-rule and Fourier-filter effects, plus differences between raw centered-gradient and resolved spatial activation transport. It is retained, not interpreted as physical storage.",
+  "elapsed_seconds": 238.85900000000402,
+  "script_sha256": "ce46bd598e878f433008200ad9e7f8455f65b9b6678230963d676ecd745ea969"
+}

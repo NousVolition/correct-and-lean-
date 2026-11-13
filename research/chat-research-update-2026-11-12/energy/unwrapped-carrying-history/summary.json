@@ -1,0 +1,73 @@
+{
+  "checked_utc": "2026-11-12T09:23:14.108285+00:00",
+  "AS_work": 2.4424321688056888e-05,
+  "max_resolved_force_power_error": 2.710505431213761e-20,
+  "path_work": 2.4424319015188522e-05,
+  "path_work_error_ppm": -0.1094347020148495,
+  "coarse_path_work_error_ppm": 6.225091035447818,
+  "max_absolute_history_work_error": {
+    "volume_12": 1.5204362598721663e-10,
+    "volume_16": 2.6728683658473317e-12
+  },
+  "mean_motion_work": 2.2039706551201655e-06,
+  "mean_motion_share_percent": 9.023671908963895,
+  "local_motion_work": 2.222035103293673e-05,
+  "local_motion_share_percent": 90.97632809103615,
+  "bulk_unwrapped_displacement": -0.0007358682723233234,
+  "endpoint_height_release": 1.3768910743745418e-05,
+  "endpoint_height_share_percent": 56.373769227246136,
+  "activation_history_correction": 1.0654747938026771e-05,
+  "activation_history_share_percent": 43.62351623970289,
+  "endpoint_trapezoid_vs_native_stage_work": -6.603334163309319e-10,
+  "discrete_summation_by_parts_residual": -1.0740050657530399e-21,
+  "closed_rectangle_probe": {
+    "time": 1.2,
+    "field": "Fourier-resolved AS force, frozen at this saved time; diagnostic curve, not an actual parcel trajectory",
+    "vertices": [
+      [
+        -0.5,
+        0.25,
+        -0.125
+      ],
+      [
+        0.5,
+        0.25,
+        -0.125
+      ],
+      [
+        0.5,
+        0.0,
+        -0.125
+      ],
+      [
+        -0.5,
+        0.0,
+        -0.125
+      ],
+      [
+        -0.5,
+        0.25,
+        -0.125
+      ]
+    ],
+    "horizontal_leg_integrals": [
+      0.0008949150890235277,
+      0.022597177122644706
+    ],
+    "vertical_leg_work": 0,
+    "closed_loop_work": 0.023492092211668234,
+    "quadrature_crosschecks": {
+      "32": 0.023492092211668224,
+      "64": 0.023492092211668217
+    },
+    "curl_rms": 0.1608327984028755,
+    "interpretation": "Nonzero work on a contractible closed rectangle in unwrapped space; periodic winding alone cannot explain it."
+  },
+  "scope": "Fixed saved spatial grid and native time step. Refinement changes only passive volume quadrature; no proof of continuum convergence or independently specified gravity reservoir.",
+  "total_energy_balance_with_path_account": {
+    "residual": 1.1417600770882047e-09,
+    "residual_ppm_of_energy_change": 6.6337802428332004,
+    "energy_source": "Previously verified read-only evaluations; current original-frame hashes match exactly",
+    "path_reservoir_change": -2.4424319015188522e-05
+  }
+}

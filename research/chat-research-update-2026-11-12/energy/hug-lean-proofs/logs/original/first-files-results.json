@@ -1,0 +1,38 @@
+[
+  {
+    "module": "HugModel",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T06:39:15.5811381Z",
+    "finished_utc": "2026-11-12T06:40:48.2769261Z",
+    "source_sha256": "6A79142D5FA42642BC47A0246F62B4AB89D0C07BA6257FD0D41E39D6F89B61F5",
+    "source_unchanged": true,
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\logs-initial\\HugModel.log"
+  },
+  {
+    "module": "ActiveHugModel",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T06:40:48.3096159Z",
+    "finished_utc": "2026-11-12T06:41:27.7679799Z",
+    "source_sha256": "BE9D734610480AE9376BFD38B287C2BB9B7758CB50E29109BCF26656A7885F19",
+    "source_unchanged": true,
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\logs-initial\\ActiveHugModel.log"
+  },
+  {
+    "module": "GuardTwoEffects",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T06:41:27.7875309Z",
+    "finished_utc": "2026-11-12T06:42:08.2116088Z",
+    "source_sha256": "D875A57E2586E94A2DA34F71ED55F4FB15050372720FF85D112F6A8CF7D092D7",
+    "source_unchanged": true,
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\logs-initial\\GuardTwoEffects.log"
+  },
+  {
+    "module": "BreathingDriver",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T06:42:08.2298486Z",
+    "finished_utc": "2026-11-12T06:45:49.0122122Z",
+    "source_sha256": "4E89FBD2BD0C40AE1837F6A324DB748FF37830C4397412DFD46E25A0E8167FD3",
+    "source_unchanged": true,
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\logs-initial\\BreathingDriver.log"
+  }
+]

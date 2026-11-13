@@ -1,0 +1,27 @@
+import TargetSolution
+
+#print axioms SignedVortex.signed_flat_negative
+#print axioms SignedVortex.scalar_periodic
+#print axioms SignedVortex.scalar_gradient
+#print axioms SignedVortex.balanced_snapshot
+#print axioms SignedVortex.transverse_period
+#print axioms SignedVortex.cutoff_line_obstruction
+#print axioms SignedVortex.balanced_active_shear
+#print axioms SignedVortex.transverse_line_balance
+#print axioms SignedVortex.selected_raw_exterior
+#print axioms SignedVortex.exterior_primitive_positive
+#print axioms SignedVortex.selected_normalization_positive
+#print axioms SignedVortex.native_periodic_curl
+#print axioms SignedVortex.actual_midplane_strip
+#print axioms SignedVortex.shell_weight_is_native
+#print axioms SignedVortex.shell_trace_zero_outside
+#print axioms SignedVortex.shell_trace_positive
+#print axioms SignedVortex.shell_time_relative_bound
+#print axioms SignedVortex.actual_trace_heat_fails
+#print axioms SignedVortex.native_trace_residual_nonzero
+#print axioms SignedVortex.shell_time_is_derivative
+#print axioms SignedVortex.edge_heat_equation_fails
+#print axioms SignedVortex.native_transverse_signal
+#print axioms SignedVortex.pinned_vortex_edge_test
+#print axioms SignedVortex.matching_force_has_zero_loop
+#print axioms SignedVortex.signed_target_excluded_if_line_identified

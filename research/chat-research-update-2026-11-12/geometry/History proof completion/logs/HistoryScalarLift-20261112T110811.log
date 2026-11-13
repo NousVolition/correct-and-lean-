@@ -1,0 +1,15 @@
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean/HistoryScalarLift.lean:77:4: error: Type mismatch: After simplification, term
+  HasDerivAt.deriv (HasDerivAt.const_mul (amplitude ε t) (field_has_second i j p))
+ has type
+  deriv (fun x => fieldD (Function.update p j x) i j) (p j) = fieldDD p i j ∨ amplitude ε t = 0
+but is expected to have type
+  deriv (fun r => flowD ε t (Function.update p j r) i j) (p j) = flowDD ε t p i j
+'HistoryScalarLift.lifted_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_solves_unforced_navier_stokes' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'HistoryScalarLift.lifted_actual_curl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_origin_stationary' depends on axioms: [propext, Classical.choice, Quot.sound]

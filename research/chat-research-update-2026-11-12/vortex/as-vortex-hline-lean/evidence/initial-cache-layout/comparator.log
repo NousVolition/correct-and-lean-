@@ -1,0 +1,18 @@
+Running as unit: run-p843-i1197.service; invocation ID: 5d889a3af7b04ae982ac732935ee01ce
+Building HLineChallenge
+✖ [3949/4350] Building SignedDefinitions (11ms)
+error: permission denied (error code: 13)
+  file: $USER_HOME/verification/hline-replay.oKoVwKsa/as-signed-vortex-lean/.lake/build
+✖ [9373/9378] Building ExteriorSolution (41ms)
+error: permission denied (error code: 13)
+  file: $USER_HOME/verification/hline-replay.oKoVwKsa/as-signed-vortex-lean/.lake/build
+Some required targets logged failures:
+- SignedDefinitions
+- ExteriorSolution
+error: build failed
+uncaught exception: Child exited with 1
+          Finished with result: exit-code
+Main processes terminated with: code=exited, status=1/FAILURE
+               Service runtime: 4.797s
+             CPU time consumed: 7.180s
+                   Memory peak: 572.9M (swap: 0B)

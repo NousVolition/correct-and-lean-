@@ -1,0 +1,26 @@
+{
+  "module": "DerivativeProbe",
+  "status": "FAIL",
+  "exit_code": 1,
+  "source_sha256": "a2951dc74fad7a7be5162277e32d5c58d2d13976cac8bf2bd57a4170c1066f8f",
+  "object_sha256": null,
+  "log": "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/logs/DerivativeProbe-20261112T084426.log",
+  "log_sha256": "5a45bb8ae5e380a475a4a4a1784affc9c36a459a195c845836edf3ea6be315e4",
+  "axioms": [],
+  "axiom_reports": [],
+  "started_at_utc": "2026-11-12T08:44:26.680840+00:00",
+  "finished_at_utc": "2026-11-12T08:44:30.362329+00:00",
+  "command": [
+    "$USER_HOME/verification/bin/lake",
+    "env",
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+    "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean",
+    "-o",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean/DerivativeProbe.olean",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean/DerivativeProbe.lean"
+  ],
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "base_theorem_source_sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4",
+  "base_theorem_object_sha256": "5860a186bc09c71b24206815b8c95b14214984264d90b98920dfb18a9d66a402"
+}

@@ -1,0 +1,13 @@
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Same particle history/lean/HistoryMatchCore.lean:75:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'HistoryMatchCore.quarter_turn_kills_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.perturbation_keeps_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.strip_image_square_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.global_closest_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.drift_numerator_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.drift_numerator_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.drift_derivative_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.irrational_turn_law_prevents_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.observation_matches_on_whole_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.no_exact_reader_with_history' depends on axioms: [propext, Classical.choice, Quot.sound]
