@@ -1,0 +1,1283 @@
+{
+  "summary": {
+    "run": "n40_dt0p002",
+    "grid": 40,
+    "dt": 0.002,
+    "rows": 804,
+    "snapshots": 20,
+    "writes": [
+      {
+        "event_id": 0,
+        "write_time": 0.4,
+        "deposited_heat": 1.0982647916531383e-05,
+        "earlier_write_heat_at_this_write": 0,
+        "final_integral": 1.098264791653133e-05,
+        "maximum_integral_drift": 2.541098841762901e-19,
+        "maximum_negative_to_net_ratio": 4.226473752080164e-05,
+        "birth_centroid": [
+          0.004065666457257581,
+          0.004581080649650743,
+          -0.012837619791011936
+        ],
+        "birth_common": {
+          "96": {
+            "integral": 0.9999999999999998,
+            "negative_integral": 4.236383358774592e-05,
+            "negative_to_net_ratio": 4.236383358774593e-05,
+            "effective_volume": 0.04638750824413182,
+            "peak": 52.72588507454269,
+            "outside025_integral": 0.049128179390341045,
+            "outside025_share": 0.04912817939034106
+          },
+          "128": {
+            "integral": 0.9999999999999998,
+            "negative_integral": 4.230933297665221e-05,
+            "negative_to_net_ratio": 4.2309332976652216e-05,
+            "effective_volume": 0.04638750824413181,
+            "peak": 52.63754952519021,
+            "outside025_integral": 0.04915972869102807,
+            "outside025_share": 0.04915972869102808
+          }
+        },
+        "final_common": {
+          "96": {
+            "integral": 0.9999999999999998,
+            "negative_integral": -0.0,
+            "negative_to_net_ratio": -0.0,
+            "effective_volume": 0.21260906249687028,
+            "peak": 9.659465874768067,
+            "outside025_integral": 0.5377830994694177,
+            "outside025_share": 0.5377830994694178
+          },
+          "128": {
+            "integral": 0.9999999999999998,
+            "negative_integral": -0.0,
+            "negative_to_net_ratio": -0.0,
+            "effective_volume": 0.2126090624968702,
+            "peak": 9.65949613150679,
+            "outside025_integral": 0.5378343117613847,
+            "outside025_share": 0.5378343117613849
+          }
+        },
+        "recorded_crc": 3688530862,
+        "birth_effective_volume": 0.04638750824413173,
+        "birth_peak": 0.0005701604811737711,
+        "birth_outside025_share": 0.04885535576236509,
+        "birth_negative_to_net_ratio": 4.226473752080164e-05,
+        "final_effective_volume": 0.2126090624968698,
+        "final_peak": 0.00010593656807435008,
+        "final_outside025_share": 0.5367811134530611,
+        "final_negative_to_net_ratio": -0.0
+      },
+      {
+        "event_id": 1,
+        "write_time": 0.8,
+        "deposited_heat": 1.454666428988398e-05,
+        "earlier_write_heat_at_this_write": 1.098264791653131e-05,
+        "final_integral": 1.4546664289883976e-05,
+        "maximum_integral_drift": 3.1340219048409113e-19,
+        "maximum_negative_to_net_ratio": 3.560170281158286e-05,
+        "birth_centroid": [
+          -0.004426375966966659,
+          0.0013053430205904244,
+          -0.007692968265913367
+        ],
+        "birth_common": {
+          "96": {
+            "integral": 0.9999999999999999,
+            "negative_integral": 3.584647037415773e-05,
+            "negative_to_net_ratio": 3.584647037415774e-05,
+            "effective_volume": 0.04676411665624853,
+            "peak": 39.967559102503785,
+            "outside025_integral": 0.04687782848860809,
+            "outside025_share": 0.046877828488608095
+          },
+          "128": {
+            "integral": 0.9999999999999999,
+            "negative_integral": 3.582604476137732e-05,
+            "negative_to_net_ratio": 3.582604476137733e-05,
+            "effective_volume": 0.04676411665624855,
+            "peak": 39.99431074264669,
+            "outside025_integral": 0.04694638644185449,
+            "outside025_share": 0.0469463864418545
+          }
+        },
+        "final_common": {
+          "96": {
+            "integral": 0.9999999999999999,
+            "negative_integral": 3.831953053433787e-15,
+            "negative_to_net_ratio": 3.831953053433788e-15,
+            "effective_volume": 0.16114744945917625,
+            "peak": 12.59739820809067,
+            "outside025_integral": 0.44433111349713,
+            "outside025_share": 0.44433111349713006
+          },
+          "128": {
+            "integral": 1.0,
+            "negative_integral": 2.372984380170611e-15,
+            "negative_to_net_ratio": 2.372984380170611e-15,
+            "effective_volume": 0.1611474494591762,
+            "peak": 12.597177117117594,
+            "outside025_integral": 0.4445242497697388,
+            "outside025_share": 0.4445242497697388
+          }
+        },
+        "recorded_crc": 3465967601,
+        "birth_effective_volume": 0.04676411665624856,
+        "birth_peak": 0.0005788590566625455,
+        "birth_outside025_share": 0.047404037293775736,
+        "birth_negative_to_net_ratio": 3.560170281158286e-05,
+        "final_effective_volume": 0.16114744945917633,
+        "final_peak": 0.0001830882709655945,
+        "final_outside025_share": 0.44532158097641467,
+        "final_negative_to_net_ratio": 5.200741471130245e-15
+      },
+      {
+        "event_id": 2,
+        "write_time": 1.2,
+        "deposited_heat": 1.5671630974019723e-05,
+        "earlier_write_heat_at_this_write": 2.552931220641551e-05,
+        "final_integral": 1.5671630974019774e-05,
+        "maximum_integral_drift": 3.1170812458958252e-19,
+        "maximum_negative_to_net_ratio": 4.359256781978842e-05,
+        "birth_centroid": [
+          -0.008560279621761695,
+          -0.0018095961282894452,
+          0.008001658624583914
+        ],
+        "birth_common": {
+          "96": {
+            "integral": 0.9999999999999998,
+            "negative_integral": 4.3175162501602885e-05,
+            "negative_to_net_ratio": 4.317516250160289e-05,
+            "effective_volume": 0.04666303894483904,
+            "peak": 39.535106092278326,
+            "outside025_integral": 0.049368329424650643,
+            "outside025_share": 0.04936832942465066
+          },
+          "128": {
+            "integral": 0.9999999999999998,
+            "negative_integral": 4.3125653647592695e-05,
+            "negative_to_net_ratio": 4.31256536475927e-05,
+            "effective_volume": 0.04666303894483903,
+            "peak": 39.53490571417381,
+            "outside025_integral": 0.04934871033183923,
+            "outside025_share": 0.04934871033183924
+          }
+        },
+        "final_common": {
+          "96": {
+            "integral": 0.9999999999999998,
+            "negative_integral": 1.3349575243924386e-08,
+            "negative_to_net_ratio": 1.334957524392439e-08,
+            "effective_volume": 0.10726436432943992,
+            "peak": 19.18611061172595,
+            "outside025_integral": 0.2925783900175042,
+            "outside025_share": 0.29257839001750424
+          },
+          "128": {
+            "integral": 0.9999999999999998,
+            "negative_integral": 1.3289442836076013e-08,
+            "negative_to_net_ratio": 1.3289442836076016e-08,
+            "effective_volume": 0.1072643643294399,
+            "peak": 19.196271940039704,
+            "outside025_integral": 0.29253392510884857,
+            "outside025_share": 0.2925339251088486
+          }
+        },
+        "recorded_crc": 1618644559,
+        "birth_effective_volume": 0.0466630389448391,
+        "birth_peak": 0.0006196030974311689,
+        "birth_outside025_share": 0.04869008922446706,
+        "birth_negative_to_net_ratio": 4.359256781978842e-05,
+        "final_effective_volume": 0.10726436432943987,
+        "final_peak": 0.0003001702796638924,
+        "final_outside025_share": 0.2920771897384388,
+        "final_negative_to_net_ratio": 1.3847176527238497e-08
+      }
+    ],
+    "final_temperature_mean_excess": 0.0021985752271719587,
+    "initial_temperature_mean_excess": 0.001989275719438396,
+    "final_components": {
+      "initial_warmth": 0.001989275719438387,
+      "net_viscous_heat": 0.00016809746420326778,
+      "structural_release": 1.100349858178024e-09,
+      "write_0": 1.098264791653133e-05,
+      "write_1": 1.4546664289883976e-05,
+      "write_2": 1.5671630974019774e-05
+    },
+    "final_write_total": 4.120094318043508e-05,
+    "final_write_share_of_excess": 0.01873983781461602,
+    "total_increase_from_initial": 0.0002092995077335627,
+    "write_share_of_thermal_increase": 0.19685160097406293,
+    "minimum_absolute_temperature": 1.000000015477007,
+    "minimum_unfiltered_net_viscous": 0.0,
+    "maximum_extraction_fraction_of_viscous_heating": 0.12721478210242462,
+    "baseline_checkpoints": 0,
+    "baseline_max_array_error": null
+  },
+  "recount": {
+    "saved_grid_values_recounted": 14080000,
+    "snapshot_means_max_error": 3.0357660829594124e-17,
+    "reconstruction_max": 9.020562075079397e-17,
+    "budget_max": 8.199278929421627e-19,
+    "component_sum_max": 5.2909066017292616e-17,
+    "tag_integral_max": 5.2475385148298415e-17,
+    "discarded_unresolved_roundoff_max": 2.507217523872729e-18,
+    "normalized_integral_error": 5.551115123125783e-16,
+    "quadrature_96_vs_128_outside_share_max": 0.00020036809552659296,
+    "source_receipt_sha256": "5d806f328bc61961a318efecc95428818235b8022d746bacfb70bcb806c4c83f"
+  },
+  "readouts": [
+    {
+      "snapshot": 5,
+      "time": 0.4,
+      "side": "after_write",
+      "event_id": 0,
+      "native": {
+        "integral": 1.098264791653138e-05,
+        "negative_integral": 4.6417873147557774e-10,
+        "negative_to_net_ratio": 4.226473752080164e-05,
+        "effective_volume": 0.04638750824413173,
+        "peak": 0.0005701604811737711,
+        "outside025_integral": 5.365611711749383e-07,
+        "outside025_share": 0.04885535576236509
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 4.236383358774592e-05,
+          "negative_to_net_ratio": 4.236383358774593e-05,
+          "effective_volume": 0.04638750824413182,
+          "peak": 52.72588507454269,
+          "outside025_integral": 0.049128179390341045,
+          "outside025_share": 0.04912817939034106
+        },
+        "128": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 4.230933297665221e-05,
+          "negative_to_net_ratio": 4.2309332976652216e-05,
+          "effective_volume": 0.04638750824413181,
+          "peak": 52.63754952519021,
+          "outside025_integral": 0.04915972869102807,
+          "outside025_share": 0.04915972869102808
+        }
+      }
+    },
+    {
+      "snapshot": 6,
+      "time": 0.5,
+      "side": "at",
+      "event_id": 0,
+      "native": {
+        "integral": 1.0982647916531376e-05,
+        "negative_integral": 5.586881524729227e-11,
+        "negative_to_net_ratio": 5.087007766423709e-06,
+        "effective_volume": 0.058042845426267545,
+        "peak": 0.0004164325784361712,
+        "outside025_integral": 1.1099502321178052e-06,
+        "outside025_share": 0.10106399117530467
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999994,
+          "negative_integral": 5.11729535874321e-06,
+          "negative_to_net_ratio": 5.1172953587432125e-06,
+          "effective_volume": 0.058042845426267496,
+          "peak": 38.147890079087055,
+          "outside025_integral": 0.10163059503150096,
+          "outside025_share": 0.10163059503150101
+        },
+        "128": {
+          "integral": 0.9999999999999996,
+          "negative_integral": 5.11581643598323e-06,
+          "negative_to_net_ratio": 5.115816435983232e-06,
+          "effective_volume": 0.058042845426267496,
+          "peak": 38.167376078551854,
+          "outside025_integral": 0.10166428792644391,
+          "outside025_share": 0.10166428792644396
+        }
+      }
+    },
+    {
+      "snapshot": 7,
+      "time": 0.6,
+      "side": "at",
+      "event_id": 0,
+      "native": {
+        "integral": 1.0982647916531378e-05,
+        "negative_integral": 1.2410366060726019e-11,
+        "negative_to_net_ratio": 1.1299976248938657e-06,
+        "effective_volume": 0.06993799294969484,
+        "peak": 0.0003471905930100527,
+        "outside025_integral": 1.70711488266505e-06,
+        "outside025_share": 0.15543745876579132
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999994,
+          "negative_integral": 1.045113808073636e-06,
+          "negative_to_net_ratio": 1.0451138080736367e-06,
+          "effective_volume": 0.0699379929496947,
+          "peak": 31.838572454153713,
+          "outside025_integral": 0.156218666748869,
+          "outside025_share": 0.15621866674886908
+        },
+        "128": {
+          "integral": 0.9999999999999996,
+          "negative_integral": 1.0477397661775182e-06,
+          "negative_to_net_ratio": 1.0477397661775186e-06,
+          "effective_volume": 0.06993799294969474,
+          "peak": 31.841008635657587,
+          "outside025_integral": 0.1562556779920134,
+          "outside025_share": 0.15625567799201348
+        }
+      }
+    },
+    {
+      "snapshot": 8,
+      "time": 0.7,
+      "side": "at",
+      "event_id": 0,
+      "native": {
+        "integral": 1.0982647916531376e-05,
+        "negative_integral": 2.799105133136664e-12,
+        "negative_to_net_ratio": 2.5486614470480986e-07,
+        "effective_volume": 0.08229508264862181,
+        "peak": 0.00030048440642955316,
+        "outside025_integral": 2.279762790267195e-06,
+        "outside025_share": 0.2075786101487998
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999994,
+          "negative_integral": 1.8600830948288926e-07,
+          "negative_to_net_ratio": 1.8600830948288937e-07,
+          "effective_volume": 0.08229508264862197,
+          "peak": 27.516232345524116,
+          "outside025_integral": 0.20849342369292462,
+          "outside025_share": 0.20849342369292473
+        },
+        "128": {
+          "integral": 0.9999999999999996,
+          "negative_integral": 1.7575802032386635e-07,
+          "negative_to_net_ratio": 1.7575802032386643e-07,
+          "effective_volume": 0.08229508264862188,
+          "peak": 27.50772883621005,
+          "outside025_integral": 0.20853521285667515,
+          "outside025_share": 0.20853521285667523
+        }
+      }
+    },
+    {
+      "snapshot": 9,
+      "time": 0.8,
+      "side": "before_write",
+      "event_id": 0,
+      "native": {
+        "integral": 1.098264791653138e-05,
+        "negative_integral": 5.330770927006513e-14,
+        "negative_to_net_ratio": 4.853812092967573e-09,
+        "effective_volume": 0.09563701456408821,
+        "peak": 0.000259491444903747,
+        "outside025_integral": 2.826808949686741e-06,
+        "outside025_share": 0.2573886526428432
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 4.698445224400214e-09,
+          "negative_to_net_ratio": 4.698445224400215e-09,
+          "effective_volume": 0.09563701456408824,
+          "peak": 23.697607938854905,
+          "outside025_integral": 0.2583923976542285,
+          "outside025_share": 0.25839239765422856
+        },
+        "128": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 4.693743926860872e-09,
+          "negative_to_net_ratio": 4.693743926860873e-09,
+          "effective_volume": 0.09563701456408814,
+          "peak": 23.70060741710351,
+          "outside025_integral": 0.2584389922501569,
+          "outside025_share": 0.25843899225015693
+        }
+      }
+    },
+    {
+      "snapshot": 10,
+      "time": 0.8,
+      "side": "after_write",
+      "event_id": 0,
+      "native": {
+        "integral": 1.098264791653138e-05,
+        "negative_integral": 5.330770927006513e-14,
+        "negative_to_net_ratio": 4.853812092967573e-09,
+        "effective_volume": 0.09563701456408821,
+        "peak": 0.000259491444903747,
+        "outside025_integral": 2.826808949686741e-06,
+        "outside025_share": 0.2573886526428432
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 4.698445224400214e-09,
+          "negative_to_net_ratio": 4.698445224400215e-09,
+          "effective_volume": 0.09563701456408824,
+          "peak": 23.697607938854905,
+          "outside025_integral": 0.2583923976542285,
+          "outside025_share": 0.25839239765422856
+        },
+        "128": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 4.693743926860872e-09,
+          "negative_to_net_ratio": 4.693743926860873e-09,
+          "effective_volume": 0.09563701456408814,
+          "peak": 23.70060741710351,
+          "outside025_integral": 0.2584389922501569,
+          "outside025_share": 0.25843899225015693
+        }
+      }
+    },
+    {
+      "snapshot": 10,
+      "time": 0.8,
+      "side": "after_write",
+      "event_id": 1,
+      "native": {
+        "integral": 1.4546664289883978e-05,
+        "negative_integral": 5.178860189483143e-10,
+        "negative_to_net_ratio": 3.560170281158286e-05,
+        "effective_volume": 0.04676411665624856,
+        "peak": 0.0005788590566625455,
+        "outside025_integral": 6.895706164976958e-07,
+        "outside025_share": 0.047404037293775736
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999999,
+          "negative_integral": 3.584647037415773e-05,
+          "negative_to_net_ratio": 3.584647037415774e-05,
+          "effective_volume": 0.04676411665624853,
+          "peak": 39.967559102503785,
+          "outside025_integral": 0.04687782848860809,
+          "outside025_share": 0.046877828488608095
+        },
+        "128": {
+          "integral": 0.9999999999999999,
+          "negative_integral": 3.582604476137732e-05,
+          "negative_to_net_ratio": 3.582604476137733e-05,
+          "effective_volume": 0.04676411665624855,
+          "peak": 39.99431074264669,
+          "outside025_integral": 0.04694638644185449,
+          "outside025_share": 0.0469463864418545
+        }
+      }
+    },
+    {
+      "snapshot": 11,
+      "time": 0.9,
+      "side": "at",
+      "event_id": 0,
+      "native": {
+        "integral": 1.0982647916531378e-05,
+        "negative_integral": 1.1902018479433533e-14,
+        "negative_to_net_ratio": 1.0837111933196269e-09,
+        "effective_volume": 0.10956565740585227,
+        "peak": 0.00022406589998621242,
+        "outside025_integral": 3.340992219429232e-06,
+        "outside025_share": 0.3042064395418049
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999996,
+          "negative_integral": 1.066422650592914e-09,
+          "negative_to_net_ratio": 1.0664226505929143e-09,
+          "effective_volume": 0.10956565740585271,
+          "peak": 20.46243329562786,
+          "outside025_integral": 0.305266619740739,
+          "outside025_share": 0.3052666197407391
+        },
+        "128": {
+          "integral": 0.9999999999999997,
+          "negative_integral": 1.074574869160429e-09,
+          "negative_to_net_ratio": 1.0745748691604294e-09,
+          "effective_volume": 0.10956565740585263,
+          "peak": 20.464762514436273,
+          "outside025_integral": 0.30531656315865774,
+          "outside025_share": 0.30531656315865785
+        }
+      }
+    },
+    {
+      "snapshot": 11,
+      "time": 0.9,
+      "side": "at",
+      "event_id": 1,
+      "native": {
+        "integral": 1.454666428988398e-05,
+        "negative_integral": 1.5418456169917534e-10,
+        "negative_to_net_ratio": 1.0599307073196028e-05,
+        "effective_volume": 0.06070620844157178,
+        "peak": 0.0004860830141333257,
+        "outside025_integral": 1.555344835184636e-06,
+        "outside025_share": 0.10692106480151961
+      },
+      "common": {
+        "96": {
+          "integral": 1.0,
+          "negative_integral": 1.0215484729592897e-05,
+          "negative_to_net_ratio": 1.0215484729592897e-05,
+          "effective_volume": 0.06070620844157168,
+          "peak": 33.49674742594472,
+          "outside025_integral": 0.10612129581698727,
+          "outside025_share": 0.10612129581698727
+        },
+        "128": {
+          "integral": 0.9999999999999999,
+          "negative_integral": 1.0219960097571275e-05,
+          "negative_to_net_ratio": 1.0219960097571276e-05,
+          "effective_volume": 0.06070620844157156,
+          "peak": 33.52732127249368,
+          "outside025_integral": 0.10624859124067576,
+          "outside025_share": 0.10624859124067577
+        }
+      }
+    },
+    {
+      "snapshot": 12,
+      "time": 1.0,
+      "side": "at",
+      "event_id": 0,
+      "native": {
+        "integral": 1.0982647916531378e-05,
+        "negative_integral": 5.752515374330265e-16,
+        "negative_to_net_ratio": 5.237821896913789e-11,
+        "effective_volume": 0.12371401129113699,
+        "peak": 0.00019545078124579498,
+        "outside025_integral": 3.8141986367106246e-06,
+        "outside025_share": 0.3472931724388059
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999994,
+          "negative_integral": 2.2169592263055917e-11,
+          "negative_to_net_ratio": 2.216959226305593e-11,
+          "effective_volume": 0.12371401129113695,
+          "peak": 17.844564684127356,
+          "outside025_integral": 0.3483831406851941,
+          "outside025_share": 0.34838314068519427
+        },
+        "128": {
+          "integral": 0.9999999999999997,
+          "negative_integral": 2.208445975028777e-11,
+          "negative_to_net_ratio": 2.2084459750287775e-11,
+          "effective_volume": 0.12371401129113684,
+          "peak": 17.851984724496077,
+          "outside025_integral": 0.34843476621765745,
+          "outside025_share": 0.34843476621765757
+        }
+      }
+    },
+    {
+      "snapshot": 12,
+      "time": 1.0,
+      "side": "at",
+      "event_id": 1,
+      "native": {
+        "integral": 1.454666428988398e-05,
+        "negative_integral": 4.963975504856447e-11,
+        "negative_to_net_ratio": 3.412449346417163e-06,
+        "effective_volume": 0.0745589869305619,
+        "peak": 0.00041880954810152854,
+        "outside025_integral": 2.459876977257977e-06,
+        "outside025_share": 0.16910247794531297
+      },
+      "common": {
+        "96": {
+          "integral": 1.0,
+          "negative_integral": 3.5070345479770103e-06,
+          "negative_to_net_ratio": 3.5070345479770103e-06,
+          "effective_volume": 0.07455898693056164,
+          "peak": 28.916469968361223,
+          "outside025_integral": 0.1681804473216331,
+          "outside025_share": 0.1681804473216331
+        },
+        "128": {
+          "integral": 1.0,
+          "negative_integral": 3.5664391748884345e-06,
+          "negative_to_net_ratio": 3.5664391748884345e-06,
+          "effective_volume": 0.07455898693056164,
+          "peak": 28.921370791096173,
+          "outside025_integral": 0.16834513650232796,
+          "outside025_share": 0.16834513650232796
+        }
+      }
+    },
+    {
+      "snapshot": 13,
+      "time": 1.1,
+      "side": "at",
+      "event_id": 0,
+      "native": {
+        "integral": 1.098264791653138e-05,
+        "negative_integral": 3.0828052783582576e-18,
+        "negative_to_net_ratio": 2.8069781548017534e-13,
+        "effective_volume": 0.13810177675617202,
+        "peak": 0.0001722075396427065,
+        "outside025_integral": 4.247119943756388e-06,
+        "outside025_share": 0.3867118363471807
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999994,
+          "negative_integral": 2.2852977950822755e-13,
+          "negative_to_net_ratio": 2.285297795082277e-13,
+          "effective_volume": 0.13810177675617216,
+          "peak": 15.717138098646739,
+          "outside025_integral": 0.38781220105841274,
+          "outside025_share": 0.38781220105841296
+        },
+        "128": {
+          "integral": 0.9999999999999997,
+          "negative_integral": 2.240372973146704e-13,
+          "negative_to_net_ratio": 2.2403729731467048e-13,
+          "effective_volume": 0.138101776756172,
+          "peak": 15.72295615853717,
+          "outside025_integral": 0.3878646017844616,
+          "outside025_share": 0.3878646017844617
+        }
+      }
+    },
+    {
+      "snapshot": 13,
+      "time": 1.1,
+      "side": "at",
+      "event_id": 1,
+      "native": {
+        "integral": 1.454666428988398e-05,
+        "negative_integral": 1.492643328066999e-11,
+        "negative_to_net_ratio": 1.0261069468036126e-06,
+        "effective_volume": 0.08867945169600469,
+        "peak": 0.0003548492878555271,
+        "outside025_integral": 3.308806883228295e-06,
+        "outside025_share": 0.22746155526042494
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999999,
+          "negative_integral": 8.469131560332554e-07,
+          "negative_to_net_ratio": 8.469131560332555e-07,
+          "effective_volume": 0.0886794516960049,
+          "peak": 24.485677699081677,
+          "outside025_integral": 0.22647832630469683,
+          "outside025_share": 0.22647832630469686
+        },
+        "128": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 8.446917942268316e-07,
+          "negative_to_net_ratio": 8.446917942268318e-07,
+          "effective_volume": 0.08867945169600475,
+          "peak": 24.48923536917946,
+          "outside025_integral": 0.22666337475806747,
+          "outside025_share": 0.22666337475806753
+        }
+      }
+    },
+    {
+      "snapshot": 14,
+      "time": 1.2,
+      "side": "before_write",
+      "event_id": 0,
+      "native": {
+        "integral": 1.098264791653138e-05,
+        "negative_integral": -0.0,
+        "negative_to_net_ratio": -0.0,
+        "effective_volume": 0.15263942708195866,
+        "peak": 0.00015367666332402103,
+        "outside025_integral": 4.641144030275464e-06,
+        "outside025_share": 0.4225888024043353
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999994,
+          "negative_integral": -0.0,
+          "negative_to_net_ratio": -0.0,
+          "effective_volume": 0.15263942708195868,
+          "peak": 14.021199170236027,
+          "outside025_integral": 0.4236832238003539,
+          "outside025_share": 0.4236832238003541
+        },
+        "128": {
+          "integral": 0.9999999999999997,
+          "negative_integral": -0.0,
+          "negative_to_net_ratio": -0.0,
+          "effective_volume": 0.15263942708195863,
+          "peak": 14.024188561049106,
+          "outside025_integral": 0.4237360945692775,
+          "outside025_share": 0.4237360945692777
+        }
+      }
+    },
+    {
+      "snapshot": 14,
+      "time": 1.2,
+      "side": "before_write",
+      "event_id": 1,
+      "native": {
+        "integral": 1.454666428988398e-05,
+        "negative_integral": 1.2962076554365783e-13,
+        "negative_to_net_ratio": 8.910686529955772e-09,
+        "effective_volume": 0.10290936739135002,
+        "peak": 0.0003031023965995087,
+        "outside025_integral": 4.081443378661576e-06,
+        "outside025_share": 0.28057589680542006
+      },
+      "common": {
+        "96": {
+          "integral": 1.0,
+          "negative_integral": 8.597570454232453e-09,
+          "negative_to_net_ratio": 8.597570454232453e-09,
+          "effective_volume": 0.10290936739135005,
+          "peak": 20.896160006208106,
+          "outside025_integral": 0.27956469097541403,
+          "outside025_share": 0.27956469097541403
+        },
+        "128": {
+          "integral": 1.0,
+          "negative_integral": 8.577579811625151e-09,
+          "negative_to_net_ratio": 8.577579811625151e-09,
+          "effective_volume": 0.10290936739134986,
+          "peak": 20.904767042187423,
+          "outside025_integral": 0.2797600384435077,
+          "outside025_share": 0.2797600384435077
+        }
+      }
+    },
+    {
+      "snapshot": 15,
+      "time": 1.2,
+      "side": "after_write",
+      "event_id": 0,
+      "native": {
+        "integral": 1.098264791653138e-05,
+        "negative_integral": -0.0,
+        "negative_to_net_ratio": -0.0,
+        "effective_volume": 0.15263942708195866,
+        "peak": 0.00015367666332402103,
+        "outside025_integral": 4.641144030275464e-06,
+        "outside025_share": 0.4225888024043353
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999994,
+          "negative_integral": -0.0,
+          "negative_to_net_ratio": -0.0,
+          "effective_volume": 0.15263942708195868,
+          "peak": 14.021199170236027,
+          "outside025_integral": 0.4236832238003539,
+          "outside025_share": 0.4236832238003541
+        },
+        "128": {
+          "integral": 0.9999999999999997,
+          "negative_integral": -0.0,
+          "negative_to_net_ratio": -0.0,
+          "effective_volume": 0.15263942708195863,
+          "peak": 14.024188561049106,
+          "outside025_integral": 0.4237360945692775,
+          "outside025_share": 0.4237360945692777
+        }
+      }
+    },
+    {
+      "snapshot": 15,
+      "time": 1.2,
+      "side": "after_write",
+      "event_id": 1,
+      "native": {
+        "integral": 1.454666428988398e-05,
+        "negative_integral": 1.2962076554365783e-13,
+        "negative_to_net_ratio": 8.910686529955772e-09,
+        "effective_volume": 0.10290936739135002,
+        "peak": 0.0003031023965995087,
+        "outside025_integral": 4.081443378661576e-06,
+        "outside025_share": 0.28057589680542006
+      },
+      "common": {
+        "96": {
+          "integral": 1.0,
+          "negative_integral": 8.597570454232453e-09,
+          "negative_to_net_ratio": 8.597570454232453e-09,
+          "effective_volume": 0.10290936739135005,
+          "peak": 20.896160006208106,
+          "outside025_integral": 0.27956469097541403,
+          "outside025_share": 0.27956469097541403
+        },
+        "128": {
+          "integral": 1.0,
+          "negative_integral": 8.577579811625151e-09,
+          "negative_to_net_ratio": 8.577579811625151e-09,
+          "effective_volume": 0.10290936739134986,
+          "peak": 20.904767042187423,
+          "outside025_integral": 0.2797600384435077,
+          "outside025_share": 0.2797600384435077
+        }
+      }
+    },
+    {
+      "snapshot": 15,
+      "time": 1.2,
+      "side": "after_write",
+      "event_id": 2,
+      "native": {
+        "integral": 1.5671630974019716e-05,
+        "negative_integral": 6.831666360816514e-10,
+        "negative_to_net_ratio": 4.359256781978842e-05,
+        "effective_volume": 0.0466630389448391,
+        "peak": 0.0006196030974311689,
+        "outside025_integral": 7.630531104179416e-07,
+        "outside025_share": 0.04869008922446706
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 4.3175162501602885e-05,
+          "negative_to_net_ratio": 4.317516250160289e-05,
+          "effective_volume": 0.04666303894483904,
+          "peak": 39.535106092278326,
+          "outside025_integral": 0.049368329424650643,
+          "outside025_share": 0.04936832942465066
+        },
+        "128": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 4.3125653647592695e-05,
+          "negative_to_net_ratio": 4.31256536475927e-05,
+          "effective_volume": 0.04666303894483903,
+          "peak": 39.53490571417381,
+          "outside025_integral": 0.04934871033183923,
+          "outside025_share": 0.04934871033183924
+        }
+      }
+    },
+    {
+      "snapshot": 16,
+      "time": 1.3,
+      "side": "at",
+      "event_id": 0,
+      "native": {
+        "integral": 1.098264791653138e-05,
+        "negative_integral": -0.0,
+        "negative_to_net_ratio": -0.0,
+        "effective_volume": 0.1673458350917066,
+        "peak": 0.000138440718195819,
+        "outside025_integral": 4.999503644994045e-06,
+        "outside025_share": 0.45521842118499095
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999994,
+          "negative_integral": -0.0,
+          "negative_to_net_ratio": -0.0,
+          "effective_volume": 0.1673458350917064,
+          "peak": 12.627395219512211,
+          "outside025_integral": 0.45629543282790386,
+          "outside025_share": 0.45629543282790413
+        },
+        "128": {
+          "integral": 0.9999999999999998,
+          "negative_integral": -0.0,
+          "negative_to_net_ratio": -0.0,
+          "effective_volume": 0.16734583509170642,
+          "peak": 12.628153113785814,
+          "outside025_integral": 0.45634864497770655,
+          "outside025_share": 0.45634864497770666
+        }
+      }
+    },
+    {
+      "snapshot": 16,
+      "time": 1.3,
+      "side": "at",
+      "event_id": 1,
+      "native": {
+        "integral": 1.454666428988398e-05,
+        "negative_integral": 2.3570538338863335e-14,
+        "negative_to_net_ratio": 1.6203397472542709e-09,
+        "effective_volume": 0.117251532718064,
+        "peak": 0.00026233620972571504,
+        "outside025_integral": 4.778055103438301e-06,
+        "outside025_share": 0.32846397003614425
+      },
+      "common": {
+        "96": {
+          "integral": 1.0,
+          "negative_integral": 1.5349130183548784e-09,
+          "negative_to_net_ratio": 1.5349130183548784e-09,
+          "effective_volume": 0.11725153271806418,
+          "peak": 18.0617675455997,
+          "outside025_integral": 0.32744505867702794,
+          "outside025_share": 0.32744505867702794
+        },
+        "128": {
+          "integral": 1.0,
+          "negative_integral": 1.5359618137829279e-09,
+          "negative_to_net_ratio": 1.5359618137829279e-09,
+          "effective_volume": 0.11725153271806434,
+          "peak": 18.070669521104485,
+          "outside025_integral": 0.32764482486430646,
+          "outside025_share": 0.32764482486430646
+        }
+      }
+    },
+    {
+      "snapshot": 16,
+      "time": 1.3,
+      "side": "at",
+      "event_id": 2,
+      "native": {
+        "integral": 1.5671630974019716e-05,
+        "negative_integral": 2.2222442172084292e-10,
+        "negative_to_net_ratio": 1.4180044316334688e-05,
+        "effective_volume": 0.06234303154272347,
+        "peak": 0.0005017680323397186,
+        "outside025_integral": 1.7508144738800589e-06,
+        "outside025_share": 0.1117187149686298
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 1.3558051260872776e-05,
+          "negative_to_net_ratio": 1.3558051260872779e-05,
+          "effective_volume": 0.06234303154272348,
+          "peak": 32.119172967707854,
+          "outside025_integral": 0.11244305543898596,
+          "outside025_share": 0.11244305543898599
+        },
+        "128": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 1.345761766594178e-05,
+          "negative_to_net_ratio": 1.3457617665941783e-05,
+          "effective_volume": 0.062343031542723464,
+          "peak": 32.1317695820299,
+          "outside025_integral": 0.11240989447100536,
+          "outside025_share": 0.11240989447100538
+        }
+      }
+    },
+    {
+      "snapshot": 17,
+      "time": 1.4,
+      "side": "at",
+      "event_id": 0,
+      "native": {
+        "integral": 1.098264791653138e-05,
+        "negative_integral": -0.0,
+        "negative_to_net_ratio": -0.0,
+        "effective_volume": 0.1822858180347066,
+        "peak": 0.00012546565444487837,
+        "outside025_integral": 5.326852286180846e-06,
+        "outside025_share": 0.48502440637860417
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999996,
+          "negative_integral": -0.0,
+          "negative_to_net_ratio": -0.0,
+          "effective_volume": 0.18228581803470634,
+          "peak": 11.444606426502421,
+          "outside025_integral": 0.486078731114472,
+          "outside025_share": 0.4860787311144722
+        },
+        "128": {
+          "integral": 0.9999999999999996,
+          "negative_integral": -0.0,
+          "negative_to_net_ratio": -0.0,
+          "effective_volume": 0.18228581803470634,
+          "peak": 11.445054511294767,
+          "outside025_integral": 0.4861319056982726,
+          "outside025_share": 0.4861319056982728
+        }
+      }
+    },
+    {
+      "snapshot": 17,
+      "time": 1.4,
+      "side": "at",
+      "event_id": 1,
+      "native": {
+        "integral": 1.4546664289883978e-05,
+        "negative_integral": 1.3585632416316254e-15,
+        "negative_to_net_ratio": 9.339345533507608e-11,
+        "effective_volume": 0.1317915322665114,
+        "peak": 0.0002293489110953331,
+        "outside025_integral": 5.4070613272970065e-06,
+        "outside025_share": 0.37170455161030824
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999999,
+          "negative_integral": 6.711187657302889e-11,
+          "negative_to_net_ratio": 6.71118765730289e-11,
+          "effective_volume": 0.1317915322665115,
+          "peak": 15.782324947277209,
+          "outside025_integral": 0.37068940931819466,
+          "outside025_share": 0.3706894093181947
+        },
+        "128": {
+          "integral": 1.0,
+          "negative_integral": 6.83892385340454e-11,
+          "negative_to_net_ratio": 6.83892385340454e-11,
+          "effective_volume": 0.13179153226651139,
+          "peak": 15.782540939210161,
+          "outside025_integral": 0.3708897774137213,
+          "outside025_share": 0.3708897774137213
+        }
+      }
+    },
+    {
+      "snapshot": 17,
+      "time": 1.4,
+      "side": "at",
+      "event_id": 2,
+      "native": {
+        "integral": 1.5671630974019716e-05,
+        "negative_integral": 5.996240909417608e-11,
+        "negative_to_net_ratio": 3.826175411709298e-06,
+        "effective_volume": 0.07753395433141201,
+        "peak": 0.00042098336154062404,
+        "outside025_integral": 2.7772621724129252e-06,
+        "outside025_share": 0.1772158990354638
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 4.1229702539390035e-06,
+          "negative_to_net_ratio": 4.122970253939004e-06,
+          "effective_volume": 0.07753395433141205,
+          "peak": 26.946064210509988,
+          "outside025_integral": 0.17786498795247496,
+          "outside025_share": 0.177864987952475
+        },
+        "128": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 4.163008508909355e-06,
+          "negative_to_net_ratio": 4.163008508909356e-06,
+          "effective_volume": 0.0775339543314119,
+          "peak": 26.965563570609675,
+          "outside025_integral": 0.17782278197869758,
+          "outside025_share": 0.1778227819786976
+        }
+      }
+    },
+    {
+      "snapshot": 18,
+      "time": 1.5,
+      "side": "at",
+      "event_id": 0,
+      "native": {
+        "integral": 1.098264791653138e-05,
+        "negative_integral": -0.0,
+        "negative_to_net_ratio": -0.0,
+        "effective_volume": 0.19737323161182246,
+        "peak": 0.00011482371664712949,
+        "outside025_integral": 5.624581493042643e-06,
+        "outside025_share": 0.5121334614192967
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999994,
+          "negative_integral": -0.0,
+          "negative_to_net_ratio": -0.0,
+          "effective_volume": 0.19737323161182269,
+          "peak": 10.47337828919894,
+          "outside025_integral": 0.5131623426797722,
+          "outside025_share": 0.5131623426797726
+        },
+        "128": {
+          "integral": 0.9999999999999996,
+          "negative_integral": -0.0,
+          "negative_to_net_ratio": -0.0,
+          "effective_volume": 0.19737323161182257,
+          "peak": 10.472761153048783,
+          "outside025_integral": 0.5132148006443569,
+          "outside025_share": 0.5132148006443571
+        }
+      }
+    },
+    {
+      "snapshot": 18,
+      "time": 1.5,
+      "side": "at",
+      "event_id": 1,
+      "native": {
+        "integral": 1.4546664289883978e-05,
+        "negative_integral": 2.1356078561559878e-17,
+        "negative_to_net_ratio": 1.4681082986435106e-12,
+        "effective_volume": 0.1464175183878507,
+        "peak": 0.00020360545353628458,
+        "outside025_integral": 5.971727994324256e-06,
+        "outside025_share": 0.41052215651096774
+      },
+      "common": {
+        "96": {
+          "integral": 1.0,
+          "negative_integral": 1.4268515659927475e-12,
+          "negative_to_net_ratio": 1.4268515659927475e-12,
+          "effective_volume": 0.14641751838785086,
+          "peak": 14.008355097737235,
+          "outside025_integral": 0.40951754982204674,
+          "outside025_share": 0.40951754982204674
+        },
+        "128": {
+          "integral": 1.0,
+          "negative_integral": 1.3916296195126754e-12,
+          "negative_to_net_ratio": 1.3916296195126754e-12,
+          "effective_volume": 0.1464175183878507,
+          "peak": 14.008945453793348,
+          "outside025_integral": 0.40971534635269313,
+          "outside025_share": 0.40971534635269313
+        }
+      }
+    },
+    {
+      "snapshot": 18,
+      "time": 1.5,
+      "side": "at",
+      "event_id": 2,
+      "native": {
+        "integral": 1.5671630974019716e-05,
+        "negative_integral": 1.6920045590907435e-11,
+        "negative_to_net_ratio": 1.0796607972046641e-06,
+        "effective_volume": 0.0924717901848315,
+        "peak": 0.00035254580900249873,
+        "outside025_integral": 3.726490293737654e-06,
+        "outside025_share": 0.23778573525087432
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 8.919224588528589e-07,
+          "negative_to_net_ratio": 8.919224588528591e-07,
+          "effective_volume": 0.09247179018483151,
+          "peak": 22.541223959778257,
+          "outside025_integral": 0.2383553473472652,
+          "outside025_share": 0.23835534734726527
+        },
+        "128": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 8.41042149746398e-07,
+          "negative_to_net_ratio": 8.410421497463982e-07,
+          "effective_volume": 0.09247179018483152,
+          "peak": 22.5606195782439,
+          "outside025_integral": 0.23831060125562736,
+          "outside025_share": 0.23831060125562742
+        }
+      }
+    },
+    {
+      "snapshot": 19,
+      "time": 1.6,
+      "side": "at",
+      "event_id": 0,
+      "native": {
+        "integral": 1.098264791653138e-05,
+        "negative_integral": -0.0,
+        "negative_to_net_ratio": -0.0,
+        "effective_volume": 0.2126090624968698,
+        "peak": 0.00010593656807435008,
+        "outside025_integral": 5.895277977298656e-06,
+        "outside025_share": 0.5367811134530611
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999998,
+          "negative_integral": -0.0,
+          "negative_to_net_ratio": -0.0,
+          "effective_volume": 0.21260906249687028,
+          "peak": 9.659465874768067,
+          "outside025_integral": 0.5377830994694177,
+          "outside025_share": 0.5377830994694178
+        },
+        "128": {
+          "integral": 0.9999999999999998,
+          "negative_integral": -0.0,
+          "negative_to_net_ratio": -0.0,
+          "effective_volume": 0.2126090624968702,
+          "peak": 9.65949613150679,
+          "outside025_integral": 0.5378343117613847,
+          "outside025_share": 0.5378343117613849
+        }
+      }
+    },
+    {
+      "snapshot": 19,
+      "time": 1.6,
+      "side": "at",
+      "event_id": 1,
+      "native": {
+        "integral": 1.454666428988398e-05,
+        "negative_integral": 7.565344023900901e-20,
+        "negative_to_net_ratio": 5.200741471130245e-15,
+        "effective_volume": 0.16114744945917633,
+        "peak": 0.0001830882709655945,
+        "outside025_integral": 6.477943539504288e-06,
+        "outside025_share": 0.44532158097641467
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999999,
+          "negative_integral": 3.831953053433787e-15,
+          "negative_to_net_ratio": 3.831953053433788e-15,
+          "effective_volume": 0.16114744945917625,
+          "peak": 12.59739820809067,
+          "outside025_integral": 0.44433111349713,
+          "outside025_share": 0.44433111349713006
+        },
+        "128": {
+          "integral": 1.0,
+          "negative_integral": 2.372984380170611e-15,
+          "negative_to_net_ratio": 2.372984380170611e-15,
+          "effective_volume": 0.1611474494591762,
+          "peak": 12.597177117117594,
+          "outside025_integral": 0.4445242497697388,
+          "outside025_share": 0.4445242497697388
+        }
+      }
+    },
+    {
+      "snapshot": 19,
+      "time": 1.6,
+      "side": "at",
+      "event_id": 2,
+      "native": {
+        "integral": 1.5671630974019716e-05,
+        "negative_integral": 2.1700784056698958e-13,
+        "negative_to_net_ratio": 1.3847176527238497e-08,
+        "effective_volume": 0.10726436432943987,
+        "peak": 0.0003001702796638924,
+        "outside025_integral": 4.5773259335095515e-06,
+        "outside025_share": 0.2920771897384388
+      },
+      "common": {
+        "96": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 1.3349575243924386e-08,
+          "negative_to_net_ratio": 1.334957524392439e-08,
+          "effective_volume": 0.10726436432943992,
+          "peak": 19.18611061172595,
+          "outside025_integral": 0.2925783900175042,
+          "outside025_share": 0.29257839001750424
+        },
+        "128": {
+          "integral": 0.9999999999999998,
+          "negative_integral": 1.3289442836076013e-08,
+          "negative_to_net_ratio": 1.3289442836076016e-08,
+          "effective_volume": 0.1072643643294399,
+          "peak": 19.196271940039704,
+          "outside025_integral": 0.29253392510884857,
+          "outside025_share": 0.2925339251088486
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "target_count": 414,
+  "general_rules": 5,
+  "recorded_claims": 409,
+  "decimal_places": 38,
+  "decimal_scale": "100000000000000000000000000000000000000",
+  "dense_rows": 4820,
+  "exact_record_comparisons": 21,
+  "word_pairs": 48909,
+  "compared_bit_positions": 782544,
+  "source_columns": [
+    "thermal_mean",
+    "initial_warmth_mean",
+    "net_viscous_heat_mean",
+    "structural_release_mean",
+    "write_0_mean",
+    "write_1_mean",
+    "write_2_mean",
+    "net_viscous_heat_expected_mean",
+    "structural_release_expected_mean",
+    "continuous_ledger",
+    "write_total"
+  ],
+  "phase_encoding": {
+    "before_write": 0,
+    "at": 1,
+    "after_write": 2
+  },
+  "rows_per_proof_block": 100,
+  "global_tolerance": "1e-12",
+  "tag_tolerance": "1e-14",
+  "cost_partition_tolerance": "1e-18",
+  "scope": "Exact saved decimals, complete 16-bit record-word comparisons and finite algebra. Numeric failures are recorded as threshold exceedances. No solver execution, source-transcription proof, PDE evolution, positive heat parcels or continuum convergence."
+}

@@ -1,0 +1,10 @@
+{
+  "module": "HeatAccounting",
+  "exit_code": 0,
+  "source_sha256": "65f8ed8f58a9953c6a13daaa2c4fc1502e19304a4a030d9ee5a230bd0f5de9e5",
+  "local_dependency_artifacts": {},
+  "artifact_sha256": "5ba5667b7c79ff77c4dc463237836d5ee7de7522a1af1779bcff772c935188e1",
+  "started_utc": "2026-11-12T10:25:31.6668780+00:00",
+  "completed_utc": "2026-11-12T10:26:42.6930373+00:00",
+  "seconds": 71.0298048
+}

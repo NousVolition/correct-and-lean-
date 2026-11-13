@@ -1,0 +1,707 @@
+{
+  "binding": {
+    "analyzer_sha256": "abdeb02566cdcf48f7184cd668bbbcbe77ff2d30a839d04a7a0c0bf46783aefa",
+    "receipts": [
+      "4acf2d371419498b0b88cf693557d2844b678f78b04f9fda4a7dc50487c41c04",
+      "dcb13e58a3a8058a68e7578a85ea8069b37c94318dd14a272bb7444a956cfa55"
+    ],
+    "analyses": [
+      "5a7886874967f3665d0490d6a0a77d0f94ad04ca1e2aca74c36b5731e321195d",
+      "07260b230ee4d9f51d311bab56bd15f2f889b9532127c4cad59ebf533d8d8f50"
+    ]
+  },
+  "comparison": {
+    "left": "n16_dt0p002",
+    "right": "n24_dt0p002",
+    "kind": "grid",
+    "writes": [
+      {
+        "event_id": 0,
+        "relative_deposited_heat_change": 0.07485874885743053,
+        "normalized_field_L1": 0.11408918054230191,
+        "outside_share_difference": 0.0029536445006611706,
+        "effective_volume_relative_difference": 0.006042537724901912,
+        "peak_relative_difference": 0.08061327240626766,
+        "normalized_peak_relative_difference": 0.11478295548747804,
+        "criteria": {
+          "deposited_heat": false,
+          "normalized_shape": false,
+          "outside_share": true,
+          "effective_volume": true,
+          "peak": false
+        },
+        "all_criteria_pass": false,
+        "history": [
+          {
+            "snapshot": 5,
+            "time": 0.4,
+            "side": "after_write",
+            "normalized_field_L1": 0.11408918054230191,
+            "L1_observation128": 0.114087112703234,
+            "outside_share_difference": 0.0029536445006611706,
+            "effective_volume_relative_difference": 0.006042537724901912,
+            "peak_relative_difference": 0.03133169819209674,
+            "normalized_peak_relative_difference": 0.11478295548747804,
+            "observation128_outside_share_difference": 0.0030668718181016408
+          },
+          {
+            "snapshot": 6,
+            "time": 0.5,
+            "side": "at",
+            "normalized_field_L1": 0.0534582694115485,
+            "L1_observation128": 0.0534666562577434,
+            "outside_share_difference": 0.00111148003901064,
+            "effective_volume_relative_difference": 0.001022592656165689,
+            "peak_relative_difference": 0.02790391294803753,
+            "normalized_peak_relative_difference": 0.050754234395453374,
+            "observation128_outside_share_difference": 0.0012659103853538967
+          },
+          {
+            "snapshot": 7,
+            "time": 0.6,
+            "side": "at",
+            "normalized_field_L1": 0.0378780517515258,
+            "L1_observation128": 0.03787665615420113,
+            "outside_share_difference": 0.0006177066979760615,
+            "effective_volume_relative_difference": 0.0004940699112082685,
+            "peak_relative_difference": 0.05085628450367178,
+            "normalized_peak_relative_difference": 0.02594464826221409,
+            "observation128_outside_share_difference": 0.0007894865405654317
+          },
+          {
+            "snapshot": 8,
+            "time": 0.7,
+            "side": "at",
+            "normalized_field_L1": 0.031365173675755344,
+            "L1_observation128": 0.03137411532390885,
+            "outside_share_difference": 0.0004421955100353536,
+            "effective_volume_relative_difference": 3.6989102691776924e-06,
+            "peak_relative_difference": 0.06215012559226504,
+            "normalized_peak_relative_difference": 0.013736954491511476,
+            "observation128_outside_share_difference": 0.0006211772093621393
+          },
+          {
+            "snapshot": 9,
+            "time": 0.8,
+            "side": "before_write",
+            "normalized_field_L1": 0.027473671355683103,
+            "L1_observation128": 0.027479121215089802,
+            "outside_share_difference": 0.00033865700603924465,
+            "effective_volume_relative_difference": 0.0004261233156246464,
+            "peak_relative_difference": 0.06728020071539109,
+            "normalized_peak_relative_difference": 0.008191774102257155,
+            "observation128_outside_share_difference": 0.0005207995809075605
+          },
+          {
+            "snapshot": 10,
+            "time": 0.8,
+            "side": "after_write",
+            "normalized_field_L1": 0.027473671355683103,
+            "L1_observation128": 0.027479121215089802,
+            "outside_share_difference": 0.00033865700603924465,
+            "effective_volume_relative_difference": 0.0004261233156246464,
+            "peak_relative_difference": 0.06728020071539109,
+            "normalized_peak_relative_difference": 0.008191774102257155,
+            "observation128_outside_share_difference": 0.0005207995809075605
+          },
+          {
+            "snapshot": 11,
+            "time": 0.9,
+            "side": "at",
+            "normalized_field_L1": 0.0243097154924099,
+            "L1_observation128": 0.024317863362939653,
+            "outside_share_difference": 0.00030268230372193505,
+            "effective_volume_relative_difference": 0.0007858767018193322,
+            "peak_relative_difference": 0.07109641120715525,
+            "normalized_peak_relative_difference": 0.004066771042398874,
+            "observation128_outside_share_difference": 0.00048363122904887534
+          },
+          {
+            "snapshot": 12,
+            "time": 1.0,
+            "side": "at",
+            "normalized_field_L1": 0.02153024819307244,
+            "L1_observation128": 0.02153291912495509,
+            "outside_share_difference": 0.00032790850507802283,
+            "effective_volume_relative_difference": 0.0010941792138226246,
+            "peak_relative_difference": 0.07379256100096936,
+            "normalized_peak_relative_difference": 0.0011524595353891406,
+            "observation128_outside_share_difference": 0.0005044235600721869
+          },
+          {
+            "snapshot": 13,
+            "time": 1.1,
+            "side": "at",
+            "normalized_field_L1": 0.019270401092181637,
+            "L1_observation128": 0.019270247634221443,
+            "outside_share_difference": 0.00034489285105926415,
+            "effective_volume_relative_difference": 0.0012470161029447325,
+            "peak_relative_difference": 0.07526680766780414,
+            "normalized_peak_relative_difference": 0.000441077305621848,
+            "observation128_outside_share_difference": 0.0005162736839297577
+          },
+          {
+            "snapshot": 14,
+            "time": 1.2,
+            "side": "before_write",
+            "normalized_field_L1": 0.01740749610629642,
+            "L1_observation128": 0.01740676899362491,
+            "outside_share_difference": 0.0003583394122692596,
+            "effective_volume_relative_difference": 0.0013340531364818143,
+            "peak_relative_difference": 0.07635138350200876,
+            "normalized_peak_relative_difference": 0.0016134127007468777,
+            "observation128_outside_share_difference": 0.0005250532881150294
+          },
+          {
+            "snapshot": 15,
+            "time": 1.2,
+            "side": "after_write",
+            "normalized_field_L1": 0.01740749610629642,
+            "L1_observation128": 0.01740676899362491,
+            "outside_share_difference": 0.0003583394122692596,
+            "effective_volume_relative_difference": 0.0013340531364818143,
+            "peak_relative_difference": 0.07635138350200876,
+            "normalized_peak_relative_difference": 0.0016134127007468777,
+            "observation128_outside_share_difference": 0.0005250532881150294
+          },
+          {
+            "snapshot": 16,
+            "time": 1.3,
+            "side": "at",
+            "normalized_field_L1": 0.0159165645104745,
+            "L1_observation128": 0.015917499303196463,
+            "outside_share_difference": 0.0003695563334517593,
+            "effective_volume_relative_difference": 0.001396626173123904,
+            "peak_relative_difference": 0.07771832318778299,
+            "normalized_peak_relative_difference": 0.0030909597067699606,
+            "observation128_outside_share_difference": 0.0005321729158567767
+          },
+          {
+            "snapshot": 17,
+            "time": 1.4,
+            "side": "at",
+            "normalized_field_L1": 0.014754053946651677,
+            "L1_observation128": 0.014755189808648955,
+            "outside_share_difference": 0.0003672329032820554,
+            "effective_volume_relative_difference": 0.0014091254185710517,
+            "peak_relative_difference": 0.0793350739481372,
+            "normalized_peak_relative_difference": 0.00483853150551682,
+            "observation128_outside_share_difference": 0.0005255739321058939
+          },
+          {
+            "snapshot": 18,
+            "time": 1.5,
+            "side": "at",
+            "normalized_field_L1": 0.013802016472747227,
+            "L1_observation128": 0.013802008381080304,
+            "outside_share_difference": 0.00036501804520550074,
+            "effective_volume_relative_difference": 0.0014054223548079644,
+            "peak_relative_difference": 0.08032694416494061,
+            "normalized_peak_relative_difference": 0.005910659913561056,
+            "observation128_outside_share_difference": 0.0005181054748756297
+          },
+          {
+            "snapshot": 19,
+            "time": 1.6,
+            "side": "at",
+            "normalized_field_L1": 0.013039671788449982,
+            "L1_observation128": 0.013039165915248676,
+            "outside_share_difference": 0.0003651513877704904,
+            "effective_volume_relative_difference": 0.0014082253937961163,
+            "peak_relative_difference": 0.08061327240626766,
+            "normalized_peak_relative_difference": 0.006220156696861272,
+            "observation128_outside_share_difference": 0.0005123070273416186
+          }
+        ],
+        "record_bits": {
+          "left": "n16_dt0p002",
+          "right": "n24_dt0p002",
+          "event_id": 0,
+          "left_payload_sha256": "fc2c8eea3bdbdde71f6e92526669c78efebc88d1a0e8ddae6efb872f2cc3d338",
+          "right_payload_sha256": "bf7874dc43ecc6ec05c63d22bd0ab1f87a2528795c39b837414c2ac3d877c16e",
+          "payload_equal": false,
+          "payload_bytes": 4658,
+          "regions": {
+            "header": {
+              "bytes": 46,
+              "changed_bytes": 0,
+              "words": 23,
+              "changed_words": 0,
+              "changed_bits": 0,
+              "left_ones": 95,
+              "right_ones": 95
+            },
+            "strain": {
+              "bytes": 4608,
+              "changed_bytes": 902,
+              "words": 2304,
+              "changed_words": 808,
+              "changed_bits": 2730,
+              "left_ones": 15147,
+              "right_ones": 14187
+            },
+            "checksum": {
+              "bytes": 4,
+              "changed_bytes": 4,
+              "words": 2,
+              "changed_words": 2,
+              "changed_bits": 14,
+              "left_ones": 20,
+              "right_ones": 12
+            }
+          },
+          "total_changed_bits": 2744,
+          "total_changed_words": 810,
+          "both_crc": [
+            2924903311,
+            3335654032
+          ],
+          "heat_difference": -8.7147104484141e-07,
+          "changed_targets_at_right_prestate": -8.714710523463098e-07,
+          "prior_state_at_fixed_left_targets": 7.504900480749924e-15,
+          "partition_residual": -6.326416505112786e-22,
+          "region_cost_partition": {
+            "header": {
+              "actual_heat_difference": 9.720079284720575e-15,
+              "changed_targets_at_right_prestate": 0.0,
+              "prior_state_at_fixed_left_targets": 9.720079270165046e-15
+            },
+            "strain": {
+              "actual_heat_difference": -8.645790923822237e-07,
+              "changed_targets_at_right_prestate": -8.645790949331232e-07,
+              "prior_state_at_fixed_left_targets": 2.5508992186809345e-15
+            },
+            "checksum": {
+              "actual_heat_difference": -6.891962179264641e-09,
+              "changed_targets_at_right_prestate": -6.891957413186635e-09,
+              "prior_state_at_fixed_left_targets": -4.7660780080960525e-15
+            }
+          },
+          "scope": "A fixed-target write-cost diagnostic on saved pre-write cell states. This does not replace any write or evolve a counterfactual fluid trajectory.",
+          "strain_change": {
+            "raw_max_absolute": 0.0004950801260421413,
+            "raw_rms_difference": 8.68027492284184e-05,
+            "left_raw_rms": 0.0008792936383343012,
+            "decoded_max_absolute": 0.0005,
+            "changed_quantized_components": 808,
+            "components": 2304
+          },
+          "header_word_changes": []
+        }
+      },
+      {
+        "event_id": 1,
+        "relative_deposited_heat_change": 0.013669403533787783,
+        "normalized_field_L1": 0.08398594134964511,
+        "outside_share_difference": 0.0030593191461868036,
+        "effective_volume_relative_difference": 0.013315293457743441,
+        "peak_relative_difference": 0.017898234113795385,
+        "normalized_peak_relative_difference": 0.027629610098108708,
+        "criteria": {
+          "deposited_heat": false,
+          "normalized_shape": false,
+          "outside_share": true,
+          "effective_volume": false,
+          "peak": false
+        },
+        "all_criteria_pass": false,
+        "history": [
+          {
+            "snapshot": 10,
+            "time": 0.8,
+            "side": "after_write",
+            "normalized_field_L1": 0.08398594134964511,
+            "L1_observation128": 0.08399786854199362,
+            "outside_share_difference": 0.0030593191461868036,
+            "effective_volume_relative_difference": 0.013315293457743441,
+            "peak_relative_difference": 0.011997616911029716,
+            "normalized_peak_relative_difference": 0.0016949556555860654,
+            "observation128_outside_share_difference": 0.0030267333794224485
+          },
+          {
+            "snapshot": 11,
+            "time": 0.9,
+            "side": "at",
+            "normalized_field_L1": 0.036268785011940134,
+            "L1_observation128": 0.036270137848674486,
+            "outside_share_difference": 0.0017204779584816393,
+            "effective_volume_relative_difference": 0.008249325813179127,
+            "peak_relative_difference": 0.013582526274408627,
+            "normalized_peak_relative_difference": 0.027629610098108708,
+            "observation128_outside_share_difference": 0.001752685033421325
+          },
+          {
+            "snapshot": 12,
+            "time": 1.0,
+            "side": "at",
+            "normalized_field_L1": 0.02860657437534309,
+            "L1_observation128": 0.028599428496003144,
+            "outside_share_difference": 0.0021355251495322747,
+            "effective_volume_relative_difference": 0.005831500523878328,
+            "peak_relative_difference": 0.006486688119189219,
+            "normalized_peak_relative_difference": 0.020435431816869007,
+            "observation128_outside_share_difference": 0.002164691720003581
+          },
+          {
+            "snapshot": 13,
+            "time": 1.1,
+            "side": "at",
+            "normalized_field_L1": 0.022955079148211533,
+            "L1_observation128": 0.02294715028418122,
+            "outside_share_difference": 0.0018956945822493354,
+            "effective_volume_relative_difference": 0.004197973031086092,
+            "peak_relative_difference": 0.0001564685171819501,
+            "normalized_peak_relative_difference": 0.013700208697793079,
+            "observation128_outside_share_difference": 0.001923653482245935
+          },
+          {
+            "snapshot": 14,
+            "time": 1.2,
+            "side": "before_write",
+            "normalized_field_L1": 0.018695509732710097,
+            "L1_observation128": 0.018687377179790583,
+            "outside_share_difference": 0.0015678401273948595,
+            "effective_volume_relative_difference": 0.0031034391829125717,
+            "peak_relative_difference": 0.005451441852055162,
+            "normalized_peak_relative_difference": 0.008331853144549813,
+            "observation128_outside_share_difference": 0.00159548180997654
+          },
+          {
+            "snapshot": 15,
+            "time": 1.2,
+            "side": "after_write",
+            "normalized_field_L1": 0.018695509732710097,
+            "L1_observation128": 0.018687377179790583,
+            "outside_share_difference": 0.0015678401273948595,
+            "effective_volume_relative_difference": 0.0031034391829125717,
+            "peak_relative_difference": 0.005451441852055162,
+            "normalized_peak_relative_difference": 0.008331853144549813,
+            "observation128_outside_share_difference": 0.00159548180997654
+          },
+          {
+            "snapshot": 16,
+            "time": 1.3,
+            "side": "at",
+            "normalized_field_L1": 0.0157782139871884,
+            "L1_observation128": 0.01577479585203648,
+            "outside_share_difference": 0.001259833979546543,
+            "effective_volume_relative_difference": 0.0023328476892482413,
+            "peak_relative_difference": 0.010258583910068581,
+            "normalized_peak_relative_difference": 0.0034580896465539134,
+            "observation128_outside_share_difference": 0.0012872955455806023
+          },
+          {
+            "snapshot": 17,
+            "time": 1.4,
+            "side": "at",
+            "normalized_field_L1": 0.013881203402667883,
+            "L1_observation128": 0.013881804829933037,
+            "outside_share_difference": 0.0010111253101866557,
+            "effective_volume_relative_difference": 0.0018305025527731243,
+            "peak_relative_difference": 0.013842154713904768,
+            "normalized_peak_relative_difference": 0.00017514531206470988,
+            "observation128_outside_share_difference": 0.0010383635632668642
+          },
+          {
+            "snapshot": 18,
+            "time": 1.5,
+            "side": "at",
+            "normalized_field_L1": 0.012559779281169695,
+            "L1_observation128": 0.012561476861240678,
+            "outside_share_difference": 0.0008012784284434082,
+            "effective_volume_relative_difference": 0.0014821766687400898,
+            "peak_relative_difference": 0.0165738833685323,
+            "normalized_peak_relative_difference": 0.0029447325725782485,
+            "observation128_outside_share_difference": 0.0008281810285363234
+          },
+          {
+            "snapshot": 19,
+            "time": 1.6,
+            "side": "at",
+            "normalized_field_L1": 0.011664549081869811,
+            "L1_observation128": 0.01166633652734763,
+            "outside_share_difference": 0.0006223164070186527,
+            "effective_volume_relative_difference": 0.001206442738951792,
+            "peak_relative_difference": 0.017898234113795385,
+            "normalized_peak_relative_difference": 0.004287437290456696,
+            "observation128_outside_share_difference": 0.0006487241759651763
+          }
+        ],
+        "record_bits": {
+          "left": "n16_dt0p002",
+          "right": "n24_dt0p002",
+          "event_id": 1,
+          "left_payload_sha256": "96d0ee23cdc9d3c06ce538273b1d315fe0d6f34c3832c2dce3174e4a1b12ffbd",
+          "right_payload_sha256": "f23120e20eee7632f6dc58f7bd3fe8c81c07c0eb7cb1f8a31a869a69b7728743",
+          "payload_equal": false,
+          "payload_bytes": 4658,
+          "regions": {
+            "header": {
+              "bytes": 46,
+              "changed_bytes": 1,
+              "words": 23,
+              "changed_words": 1,
+              "changed_bits": 1,
+              "left_ones": 107,
+              "right_ones": 108
+            },
+            "strain": {
+              "bytes": 4608,
+              "changed_bytes": 1736,
+              "words": 2304,
+              "changed_words": 1662,
+              "changed_bits": 4676,
+              "left_ones": 17691,
+              "right_ones": 17515
+            },
+            "checksum": {
+              "bytes": 4,
+              "changed_bytes": 4,
+              "words": 2,
+              "changed_words": 2,
+              "changed_bits": 18,
+              "left_ones": 13,
+              "right_ones": 17
+            }
+          },
+          "total_changed_bits": 4695,
+          "total_changed_words": 1665,
+          "both_crc": [
+            273795790,
+            2292169908
+          ],
+          "heat_difference": -1.9845240508740525e-07,
+          "changed_targets_at_right_prestate": -1.984514356694518e-07,
+          "prior_state_at_fixed_left_targets": -9.694179551027863e-13,
+          "partition_residual": 1.6558283801720216e-21,
+          "region_cost_partition": {
+            "header": {
+              "actual_heat_difference": 1.809881048833229e-09,
+              "changed_targets_at_right_prestate": 1.8099266107109538e-09,
+              "prior_state_at_fixed_left_targets": -4.556187773646673e-14
+            },
+            "strain": {
+              "actual_heat_difference": -2.002975899696783e-07,
+              "changed_targets_at_right_prestate": -2.0029666610143356e-07,
+              "prior_state_at_fixed_left_targets": -9.238682449080056e-13
+            },
+            "checksum": {
+              "actual_heat_difference": 3.5303833438352933e-11,
+              "changed_targets_at_right_prestate": 3.5303821270811254e-11,
+              "prior_state_at_fixed_left_targets": 1.2167541685887412e-17
+            }
+          },
+          "scope": "A fixed-target write-cost diagnostic on saved pre-write cell states. This does not replace any write or evolve a counterfactual fluid trajectory.",
+          "strain_change": {
+            "raw_max_absolute": 0.001692124729064392,
+            "raw_rms_difference": 0.00042146470451155665,
+            "left_raw_rms": 0.0019737621330059435,
+            "decoded_max_absolute": 0.0017000000000000006,
+            "changed_quantized_components": 1662,
+            "components": 2304
+          },
+          "header_word_changes": [
+            {
+              "index": 19,
+              "left": 1330,
+              "right": 1331,
+              "region": "actions"
+            }
+          ]
+        }
+      },
+      {
+        "event_id": 2,
+        "relative_deposited_heat_change": 0.010030808247743805,
+        "normalized_field_L1": 0.08196563453292197,
+        "outside_share_difference": 0.0016274486680883868,
+        "effective_volume_relative_difference": 0.002412885419004584,
+        "peak_relative_difference": 0.015679072801092233,
+        "normalized_peak_relative_difference": 0.005592170562744805,
+        "criteria": {
+          "deposited_heat": false,
+          "normalized_shape": false,
+          "outside_share": true,
+          "effective_volume": true,
+          "peak": false
+        },
+        "all_criteria_pass": false,
+        "history": [
+          {
+            "snapshot": 15,
+            "time": 1.2,
+            "side": "after_write",
+            "normalized_field_L1": 0.08196563453292197,
+            "L1_observation128": 0.08195553837309666,
+            "outside_share_difference": 0.0016274486680883868,
+            "effective_volume_relative_difference": 0.002412885419004584,
+            "peak_relative_difference": 0.014243289328475753,
+            "normalized_peak_relative_difference": 0.004170646129141316,
+            "observation128_outside_share_difference": 0.0013978620975753572
+          },
+          {
+            "snapshot": 16,
+            "time": 1.3,
+            "side": "at",
+            "normalized_field_L1": 0.0449369314739239,
+            "L1_observation128": 0.04494613450372524,
+            "outside_share_difference": 0.00017805266995619962,
+            "effective_volume_relative_difference": 0.00022955986107948558,
+            "peak_relative_difference": 0.015679072801092233,
+            "normalized_peak_relative_difference": 0.005592170562744805,
+            "observation128_outside_share_difference": 0.00047488305741495707
+          },
+          {
+            "snapshot": 17,
+            "time": 1.4,
+            "side": "at",
+            "normalized_field_L1": 0.036175814721651794,
+            "L1_observation128": 0.03618943907172106,
+            "outside_share_difference": 0.00016005994593398798,
+            "effective_volume_relative_difference": 0.0008008531917207479,
+            "peak_relative_difference": 0.012236398659173689,
+            "normalized_peak_relative_difference": 0.0021836862731507735,
+            "observation128_outside_share_difference": 0.0004925259684818439
+          },
+          {
+            "snapshot": 18,
+            "time": 1.5,
+            "side": "at",
+            "normalized_field_L1": 0.02968659487668334,
+            "L1_observation128": 0.02970127174963043,
+            "outside_share_difference": 4.1588073749321275e-05,
+            "effective_volume_relative_difference": 0.0011699274705789795,
+            "peak_relative_difference": 0.009074793731426337,
+            "normalized_peak_relative_difference": 0.0009465201541485553,
+            "observation128_outside_share_difference": 0.0003065744574873852
+          },
+          {
+            "snapshot": 19,
+            "time": 1.6,
+            "side": "at",
+            "normalized_field_L1": 0.02513298944020159,
+            "L1_observation128": 0.025146671037343603,
+            "outside_share_difference": 0.00023794822733957943,
+            "effective_volume_relative_difference": 0.001438164112841843,
+            "peak_relative_difference": 0.006772657385268046,
+            "normalized_peak_relative_difference": 0.0032257935459694123,
+            "observation128_outside_share_difference": 0.00011533249176970406
+          }
+        ],
+        "record_bits": {
+          "left": "n16_dt0p002",
+          "right": "n24_dt0p002",
+          "event_id": 2,
+          "left_payload_sha256": "8faf19c59d71ac82bd3ef3833d0b54ec5ab28da07e6e01f492ac069b118b5d77",
+          "right_payload_sha256": "3682806931239e9a5052894c5b62936e2edbbcf1652883142f9d46c54a84eeae",
+          "payload_equal": false,
+          "payload_bytes": 4658,
+          "regions": {
+            "header": {
+              "bytes": 46,
+              "changed_bytes": 5,
+              "words": 23,
+              "changed_words": 5,
+              "changed_bits": 7,
+              "left_ones": 87,
+              "right_ones": 88
+            },
+            "strain": {
+              "bytes": 4608,
+              "changed_bytes": 2002,
+              "words": 2304,
+              "changed_words": 1921,
+              "changed_bits": 5550,
+              "left_ones": 18620,
+              "right_ones": 18608
+            },
+            "checksum": {
+              "bytes": 4,
+              "changed_bytes": 4,
+              "words": 2,
+              "changed_words": 2,
+              "changed_bits": 20,
+              "left_ones": 19,
+              "right_ones": 15
+            }
+          },
+          "total_changed_bits": 5577,
+          "total_changed_words": 1928,
+          "both_crc": [
+            3749372454,
+            697011343
+          ],
+          "heat_difference": 1.572237090360153e-07,
+          "changed_targets_at_right_prestate": 1.5724557658193183e-07,
+          "prior_state_at_fixed_left_targets": -2.1867545918304925e-11,
+          "partition_residual": 1.7662955640906725e-21,
+          "region_cost_partition": {
+            "header": {
+              "actual_heat_difference": 2.5069771726474895e-09,
+              "changed_targets_at_right_prestate": 2.507093206827372e-09,
+              "prior_state_at_fixed_left_targets": -1.1603417988700287e-13
+            },
+            "strain": {
+              "actual_heat_difference": 1.5477216756537769e-07,
+              "changed_targets_at_right_prestate": 1.5479391936881776e-07,
+              "prior_state_at_fixed_left_targets": -2.17518034376647e-11
+            },
+            "checksum": {
+              "actual_heat_difference": -5.543570201404238e-11,
+              "changed_targets_at_right_prestate": -5.543599371328915e-11,
+              "prior_state_at_fixed_left_targets": 2.9169924677926505e-16
+            }
+          },
+          "scope": "A fixed-target write-cost diagnostic on saved pre-write cell states. This does not replace any write or evolve a counterfactual fluid trajectory.",
+          "strain_change": {
+            "raw_max_absolute": 0.0031509823311310723,
+            "raw_rms_difference": 0.0006232032603112259,
+            "left_raw_rms": 0.004342936603426978,
+            "decoded_max_absolute": 0.0031999999999999997,
+            "changed_quantized_components": 1921,
+            "components": 2304
+          },
+          "header_word_changes": [
+            {
+              "index": 16,
+              "left": 3221,
+              "right": 3220,
+              "region": "actions"
+            },
+            {
+              "index": 17,
+              "left": 2261,
+              "right": 2259,
+              "region": "actions"
+            },
+            {
+              "index": 18,
+              "left": 2272,
+              "right": 2273,
+              "region": "actions"
+            },
+            {
+              "index": 19,
+              "left": 1458,
+              "right": 1460,
+              "region": "actions"
+            },
+            {
+              "index": 21,
+              "left": 620,
+              "right": 622,
+              "region": "actions"
+            }
+          ]
+        }
+      }
+    ],
+    "maximum_relative_cumulative_write_heat": 0.07485874885743053,
+    "cumulative_heat_pass": false,
+    "observation_quadrature_L1_difference_max": 1.4676872947087805e-05,
+    "observation_quadrature_share_difference_max": 0.0003190469231989512,
+    "quadrature_control_pass": true,
+    "all_heat_criteria_pass": false,
+    "thermal_increase_endpoint_relative_difference": 0.020161031647166264
+  }
+}

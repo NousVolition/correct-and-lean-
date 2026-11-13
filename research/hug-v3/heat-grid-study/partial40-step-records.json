@@ -1,0 +1,155 @@
+{
+  "scope": "Completed first two write events only; full half-step simulation and final heat control still pending when inspected.",
+  "records": [
+    {
+      "left": "n40_dt0p002",
+      "right": "n40_dt0p001",
+      "event_id": 0,
+      "left_payload_sha256": "960d2ef3a41ac257edebcca8845855a3bea4787594a9c56a8c0a4dc3b2e1108d",
+      "right_payload_sha256": "960d2ef3a41ac257edebcca8845855a3bea4787594a9c56a8c0a4dc3b2e1108d",
+      "payload_equal": true,
+      "payload_bytes": 4658,
+      "regions": {
+        "header": {
+          "bytes": 46,
+          "changed_bytes": 0,
+          "words": 23,
+          "changed_words": 0,
+          "changed_bits": 0,
+          "left_ones": 95,
+          "right_ones": 95
+        },
+        "strain": {
+          "bytes": 4608,
+          "changed_bytes": 0,
+          "words": 2304,
+          "changed_words": 0,
+          "changed_bits": 0,
+          "left_ones": 14295,
+          "right_ones": 14295
+        },
+        "checksum": {
+          "bytes": 4,
+          "changed_bytes": 0,
+          "words": 2,
+          "changed_words": 0,
+          "changed_bits": 0,
+          "left_ones": 19,
+          "right_ones": 19
+        }
+      },
+      "total_changed_bits": 0,
+      "total_changed_words": 0,
+      "both_crc": [
+        3688530862,
+        3688530862
+      ],
+      "heat_difference": 1.3431486147906166e-15,
+      "changed_targets_at_right_prestate": 0.0,
+      "prior_state_at_fixed_left_targets": 1.3431500577829085e-15,
+      "partition_residual": -1.4429922919380677e-21,
+      "region_cost_partition": {
+        "header": {
+          "actual_heat_difference": 6.554900781692352e-17,
+          "changed_targets_at_right_prestate": 0.0,
+          "prior_state_at_fixed_left_targets": 6.554900733454057e-17
+        },
+        "strain": {
+          "actual_heat_difference": 1.2937208541865391e-15,
+          "changed_targets_at_right_prestate": 0.0,
+          "prior_state_at_fixed_left_targets": 1.2937207560800972e-15
+        },
+        "checksum": {
+          "actual_heat_difference": -1.6119707002545503e-17,
+          "changed_targets_at_right_prestate": 0.0,
+          "prior_state_at_fixed_left_targets": -1.611970563172945e-17
+        }
+      },
+      "scope": "A fixed-target write-cost diagnostic on saved pre-write cell states. This does not replace any write or evolve a counterfactual fluid trajectory.",
+      "strain_change": {
+        "raw_max_absolute": 2.2924075985695722e-07,
+        "raw_rms_difference": 5.325504940356077e-08,
+        "left_raw_rms": 0.0008660407377019392,
+        "decoded_max_absolute": 0.0,
+        "changed_quantized_components": 0,
+        "components": 2304
+      },
+      "header_word_changes": []
+    },
+    {
+      "left": "n40_dt0p002",
+      "right": "n40_dt0p001",
+      "event_id": 1,
+      "left_payload_sha256": "136b1e8792ec0cf3db3196c7970546b17d6739f8b12b8c8386bf93fa380f719c",
+      "right_payload_sha256": "0f0bde226e062df74e25677e0597ff02bb7f6013b2a684992792ca35c51c59b8",
+      "payload_equal": false,
+      "payload_bytes": 4658,
+      "regions": {
+        "header": {
+          "bytes": 46,
+          "changed_bytes": 0,
+          "words": 23,
+          "changed_words": 0,
+          "changed_bits": 0,
+          "left_ones": 105,
+          "right_ones": 105
+        },
+        "strain": {
+          "bytes": 4608,
+          "changed_bytes": 2,
+          "words": 2304,
+          "changed_words": 2,
+          "changed_bits": 4,
+          "left_ones": 17694,
+          "right_ones": 17694
+        },
+        "checksum": {
+          "bytes": 4,
+          "changed_bytes": 4,
+          "words": 2,
+          "changed_words": 2,
+          "changed_bits": 14,
+          "left_ones": 20,
+          "right_ones": 20
+        }
+      },
+      "total_changed_bits": 18,
+      "total_changed_words": 4,
+      "both_crc": [
+        3465967601,
+        715913115
+      ],
+      "heat_difference": -5.847280409973683e-12,
+      "changed_targets_at_right_prestate": -5.85466276925415e-12,
+      "prior_state_at_fixed_left_targets": 7.382357576310916e-15,
+      "partition_residual": 1.704155995043951e-21,
+      "region_cost_partition": {
+        "header": {
+          "actual_heat_difference": -2.354890427360966e-16,
+          "changed_targets_at_right_prestate": 0.0,
+          "prior_state_at_fixed_left_targets": -2.354890404661312e-16
+        },
+        "strain": {
+          "actual_heat_difference": 4.431241005099611e-15,
+          "changed_targets_at_right_prestate": -3.1862426248600472e-15,
+          "prior_state_at_fixed_left_targets": 7.617482922084068e-15
+        },
+        "checksum": {
+          "actual_heat_difference": -5.851476162934583e-12,
+          "changed_targets_at_right_prestate": -5.85147652662929e-12,
+          "prior_state_at_fixed_left_targets": 3.6369469298082745e-19
+        }
+      },
+      "scope": "A fixed-target write-cost diagnostic on saved pre-write cell states. This does not replace any write or evolve a counterfactual fluid trajectory.",
+      "strain_change": {
+        "raw_max_absolute": 2.399669664088222e-07,
+        "raw_rms_difference": 7.890365830336421e-08,
+        "left_raw_rms": 0.0023780766773295312,
+        "decoded_max_absolute": 0.00010000000000000005,
+        "changed_quantized_components": 2,
+        "components": 2304
+      },
+      "header_word_changes": []
+    }
+  ]
+}

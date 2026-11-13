@@ -22,13 +22,26 @@ For wider context, the [tick-41 guide](docs/tick-41/README.md) walks through ide
 Open a study for its observations, diagrams, proof scope and remaining questions.
 
 <details>
-<summary><strong>Following heat after three writes: threshold 1 — 56 Lean checks; finer heat grids remain unchecked</strong></summary>
+<summary><strong>Finer-grid heat: time-step checks pass; grid settling still fails — 414 separate Lean checks</strong></summary>
+
+![The largest spatial-pattern differences occur at new writes.](research/hug-v3/heat-grid-study/heat-grid-detail.png)
+
+**Simulation:** five runs on 16³–40³ grids retain the same threshold 1, breathing intervention, 384 material points and record encoding. The 40³ time-step halving passes. Between 32³ and 40³, accumulated write heat agrees within 0.20317%, while the second and third new-write patterns differ by 1.1077% and 1.0291%. The declared grid-settling test still fails. Later spreading agrees more closely. Exact byte changes are counted separately and are not a heat-error measure.
+
+**Lean:** 414 passing targets check five finite rules and 409 recorded claims, including recorded numerical failures as exceedances. They do not run or prove the fluid simulation, derive the spatial measurements, or prove convergence. The original 56-check 16³ study, 12-check heat draft and threshold-0.015 studies remain separate historical records.
+
+[Results and four diagrams](research/hug-v3/heat-grid-study/README.md) · [Lean scope](research/hug-v3/heat-grid-lean/README.md) · [GitHub receipt](research/hug-v3/heat-grid-lean/github-lean-receipt.json)
+
+</details>
+
+<details>
+<summary><strong>Following heat after three writes: threshold 1 — 56 Lean checks; finer grids were outside this historical study</strong></summary>
 
 ## Following heat after three writes: threshold 1
 
 ![The three write pulses spread and their whole-box totals accumulate.](research/hug-v3/heat-follow-study/heat-account.png)
 
-**Simulation findings:** in the historical breathing-on **16³** run, each write pulse broadens while earlier pulse totals remain when later writes arrive. At time **1.6**, the three writes contribute **4.18336 × 10⁻⁵** heat units. **Time-step checks passed** when changing 0.002 to 0.001: deposited heat differs by at most **0.00610%**. **Finer heat grids remain unchecked.** The filtered source labels retain small negative ripples; they are signed accounts, not individual heat parcels. All three record checksums change despite close heat agreement, so identical stored bytes are not established.
+**Simulation findings:** in the historical breathing-on **16³** run, each write pulse broadens while earlier pulse totals remain when later writes arrive. At time **1.6**, the three writes contribute **4.18336 × 10⁻⁵** heat units. **Time-step checks passed** when changing 0.002 to 0.001: deposited heat differs by at most **0.00610%**. **Finer grids were outside this historical study; see the separate finer-grid result above.** The filtered source labels retain small negative ripples; they are signed accounts, not individual heat parcels. All three record checksums change despite close heat agreement, so identical stored bytes are not established.
 
 **Lean findings:** **56 checks** cover four finite accounting rules and exact recorded accounts/diagnostics from **2,408 rows**. The full package build and target-by-target dependency audit have their own receipt. Lean does not run or verify the fluid simulation, compute the grid-derived spread measures, or prove spatial convergence. These checks are separate from the earlier **12-check heat draft** and the **threshold-0.015 540/872 study**.
 
