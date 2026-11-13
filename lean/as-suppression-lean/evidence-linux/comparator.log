@@ -1,0 +1,78 @@
+Running as unit: run-p1435-i2523.service; invocation ID: 3b278aaeaf6c46bc8507b8db581b27a4
+Building ASSuppressionChallenge
+✔ [2666/2669] Built ASModel (5.4s)
+✔ [2667/2669] Built ASOpenClaims (5.2s)
+⚠ [2668/2669] Built ASSuppressionChallenge (4.9s)
+warning: ASSuppressionChallenge.lean:6:8: declaration uses `sorry`
+Build completed successfully (2669 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SocialAS.Verified.full_suppression_comparison, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from ASSuppressionChallenge
+Building ASSuppressionSolution
+✔ [3416/3428] Built InputRegularity (6.8s)
+ℹ [3417/3428] Built ASProofs (6.7s)
+info: ASProofs.lean:221:0: 'SocialAS.Verified.saturation_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:222:0: 'SocialAS.Verified.effect_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:223:0: 'SocialAS.Verified.exchange_no_increase' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:224:0: 'SocialAS.Verified.exchange_negative_unchanged' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:225:0: 'SocialAS.Verified.exchange_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:226:0: 'SocialAS.Verified.general_smoke_agrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:227:0: 'SocialAS.Verified.general_clay_agrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:228:0: 'SocialAS.Verified.total_influence_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:229:0: 'SocialAS.Verified.received_meaning_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:230:0: 'SocialAS.Verified.meaning_rate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:231:0: 'SocialAS.Verified.meaning_lower_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:232:0: 'SocialAS.Verified.meaning_upper_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:233:0: 'SocialAS.Verified.load_lower_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:234:0: 'SocialAS.Verified.activation_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:235:0: 'SocialAS.Verified.opening_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:236:0: 'SocialAS.Verified.registration_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:237:0: 'SocialAS.Verified.no_opening_no_registration' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:238:0: 'SocialAS.Verified.fully_qualified_blocks_challenge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:239:0: 'SocialAS.Verified.confirmation_unchanged' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:240:0: 'SocialAS.Verified.branch_distribution' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:241:0: 'SocialAS.Verified.update_no_contribution' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:242:0: 'SocialAS.Verified.update_same_meaning' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:243:0: 'SocialAS.Verified.update_is_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:244:0: 'SocialAS.Verified.update_preserves_simplex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:245:0: 'SocialAS.Verified.constant_accumulation_solves' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:246:0: 'SocialAS.Verified.constant_exposure_solves' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:247:0: 'SocialAS.Verified.constant_exposure_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:248:0: 'SocialAS.Verified.clearing_solves' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:249:0: 'SocialAS.Verified.clearing_preserves_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ASProofs.lean:250:0: 'SocialAS.Verified.cleared_equal_meaning_has_zero_drift' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3418/3428] Built Volterra (8.3s)
+warning: Volterra.lean:18:0: automatically included section variable(s) unused in theorem `Volterra.extend_continuous`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Volterra.lean:21:8: automatically included section variable(s) unused in theorem `Volterra.extend_val`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3419/3428] Built IntegralBarrier (6.3s)
+✔ [3420/3428] Built PairTools (6.8s)
+✔ [3421/3428] Built ScalarSubsystems (6.5s)
+✔ [3422/3428] Built InfluenceSubsystem (7.1s)
+✔ [3423/3428] Built MeaningSubsystem (7.8s)
+✔ [3424/3428] Built Stages (7.2s)
+✔ [3425/3428] Built FullAssembly (9.4s)
+✔ [3426/3428] Built SuppressionComparison (6.3s)
+ℹ [3427/3428] Built ASSuppressionSolution (19s)
+info: ASSuppressionSolution.lean:86:0: 'SocialAS.Verified.full_suppression_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3428 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SocialAS.Verified.full_suppression_comparison, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from ASSuppressionSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 4min 29.649s
+             CPU time consumed: 5min 23.125s
+                   Memory peak: 1.9G (swap: 0B)

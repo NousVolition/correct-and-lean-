@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-11-13T03:38:14.006181+00:00",
+  "target": "SocialAS.Verified.full_suppression_comparison",
+  "target_type": "SocialAS.Open.FullSuppressionComparison",
+  "source_repository": "https://github.com/NousVolition/hug-sims-lean-proofs",
+  "verified_published_git_blobs": {
+    "ASModel.lean": "0a3f23bac8a00b5734f6ff0f8df2bed02b3da7ed",
+    "ASOpenClaims.lean": "ef9466e3037864da71868cc984b2ec621f3d682a"
+  },
+  "files": {
+    "ASModel.lean": "7f055171513efc3c70e3df96c49e9ba1ddcfcf4036a318c535929b0e9c401513",
+    "ASOpenClaims.lean": "35d9616b57001b7f510dadd1e878d162de2c67bb60a9e1015aaffe7eccf3aa19",
+    "ASProofs.lean": "fd8663671930a451c579f27d780714e9d5fd967f3001ab9399ee16a68d47e74d",
+    "source-equations.json": "7238a386ce17020ea27b13bab45309934ea044221983f2b403e2b1f1cd456318",
+    "source-protocol.json": "51a8c4e85f76717a52a3a0310ddefc96a162b4b70708db3ff52b3ee9b1230d92",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "ASSuppressionChallenge.lean": "cc3a69d8acc70fecda66d3d60ba1fa97c8ca0013f111c385cbb669a48fb0c6d5"
+  }
+}

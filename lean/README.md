@@ -4,6 +4,8 @@ These packages retain their own model definitions, assumptions and verification 
 
 The fresh reports below preserve the original theorem scopes and unfinished-proof lists. Earlier reports remain linked separately. The 306 configured declarations overlap across packages and must not be added as independent discoveries.
 
+The later [A/S suppression comparison](as-suppression-lean/) has its own verification receipt and closes the S-history comparison; the repeated-encounter process remains open.
+
 Newer standalone results are described below: [observation and field-equation checks](#separate-observation-and-field-equation-checks), [Pair-25 origins](#separate-finite-origin-checks), [540/872 histories](#following-540-and-872), and [heat from writing](#heat-from-writing).
 
 [Read the walkthrough](#plain-language-walkthrough) · [Open the detailed package records](#detailed-package-records)
@@ -26,19 +28,25 @@ We start here because this smaller model separates three questions that recur la
 
    **Proved:** 30 consequences of the equations, including bounds on opening and reception, how an encounter updates understanding, and how adverse history affects exchange.
 
-   **Unfinished:** Comparing suppression across complete evolving histories, and constructing the full repeated-encounter process. Some earlier gaps are addressed by the next two packages.
+   **Unfinished:** Constructing the full repeated-encounter process. The next two packages address evolution and bounds; the [later suppression proof](as-suppression-lean/) compares both S coordinates across complete evolving histories.
 
 2. **[as-existence-lean](as-existence-lean/) — The model has a definite evolution.**
 
    **Proved:** Under the original assumptions, a solution exists and is unique over any chosen finite period. “Unique” means the same specified starting data and inputs determine the same evolution.
 
-   **Unfinished:** The suppression comparison and repeated-encounter process. This also does not certify numerical solver errors or the social interpretation.
+   **Unfinished:** The repeated-encounter process, numerical solver error certification, and empirical validation. The [suppression comparison is now proved](as-suppression-lean/).
 
 3. **[as-invariance-lean](as-invariance-lean/) — Certain quantities stay within their allowed ranges.**
 
    **Proved:** Both meaning variables remain between 0 and 1, and both adverse-history loads remain nonnegative, under the original assumptions.
 
-   **Unfinished:** The broader comparisons and encounter process above. Staying within bounds does not establish that understanding improves.
+   **Unfinished:** The repeated-encounter process and comparisons of meaning, reception and understanding. The [suppression proof](as-suppression-lean/) now compares the two S coordinates throughout each finite interval.
+
+**A/S follow-up — [Suppression across evolving histories](as-suppression-lean/).**
+
+**Proved:** With matched starting data and inputs, both S coordinates remain at or below their values without suppression at every time in each finite interval.
+
+**Unfinished:** The repeated-encounter process and its connection to the continuous state. This theorem does not compare understanding or establish that it improves.
 
 The **next two concern particular reduced Hug models**.
 
@@ -155,13 +163,14 @@ For a first reading, follow **1–3, then 4–5, then 6–9**: basic rules, comp
 ## Detailed package records
 
 <details>
-<summary>Show all 19 packages, precise limits and fresh/historical evidence links</summary>
+<summary>Show the 19-package recheck and the later suppression result</summary>
 
 | Package | Checked result and current limits | Evidence |
 | --- | --- | --- |
-| [as-lean](as-lean/) | 30 scoped A/S claims. Later [existence](as-existence-lean/) and [invariance](as-invariance-lean/) results cover the seven-coordinate model; suppression comparison and repeated-encounter coupling remain open. | [fresh report](../provenance/core-package-recheck-2026-11-12/as-lean/verification-report.json) · [earlier](as-lean/verification-report.json) |
+| [as-lean](as-lean/) | 30 scoped A/S claims. Later [existence](as-existence-lean/), [invariance](as-invariance-lean/) and [suppression](as-suppression-lean/) results address evolution, bounds and S-history comparison. Repeated-encounter coupling remains open. | [fresh report](../provenance/core-package-recheck-2026-11-12/as-lean/verification-report.json) · [earlier](as-lean/verification-report.json) |
 | [as-existence-lean](as-existence-lean/) | Existence and uniqueness of the seven-coordinate continuous integral evolution on every finite interval, under the original assumptions. | [fresh report](../provenance/core-package-recheck-2026-11-12/as-existence-lean/verification-report.json) · [earlier](as-existence-lean/verification-report.json) |
 | [as-invariance-lean](as-invariance-lean/) | Both meaning states remain in [0,1] and both adverse-history loads remain nonnegative on every finite interval, under the original assumptions. | [fresh report](../provenance/core-package-recheck-2026-11-12/as-invariance-lean/verification-report.json) · [earlier](as-invariance-lean/verification-report.json) |
+| [as-suppression-lean](as-suppression-lean/) | Both suppressed S coordinates stay at or below their no-suppression counterparts throughout each finite interval, with matched starting data and inputs. Repeated encounters remain open. | [report](as-suppression-lean/verification-report.json) · [logs](as-suppression-lean/evidence-linux/) |
 | [hug-squeeze-lean](hug-squeeze-lean/) | 51 specified claims. [Later existence work](hug-existence-lean/) covers the primary eight-state model; the separate memory-field extension remains open. | [fresh report](../provenance/core-package-recheck-2026-11-12/hug-squeeze-lean/verification-report.json) · [earlier](hug-squeeze-lean/verification-report.json) |
 | [hug-existence-lean](hug-existence-lean/) | Existence, uniqueness and guard preservation on every finite forward horizon for the reduced eight-state model, with frozen parameters, continuous prescribed force and admissible initial guards. | [fresh report](../provenance/core-package-recheck-2026-11-12/hug-existence-lean/verification-report.json) · [earlier](hug-existence-lean/verification-report.json) |
 | [hug-navier-bridge-lean](hug-navier-bridge-lean/) | 14 conditional compatibility statements for the earlier proposed coupling. Read the [single-system scope correction](../research/comparisons/hug-navier-single-system-scope-correction.md#meaning-to-preserve-across-implementations); full PDE evolution remains unproved. | [fresh report](../provenance/core-package-recheck-2026-11-12/hug-navier-bridge-lean/verification-report.json) · [earlier](hug-navier-bridge-lean/verification-report.json) |

@@ -1,0 +1,14 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "For every finite interval under the original assumptions, both suppressed S coordinates are at most their zero-suppression baseline values at every time, with matched initial states and inputs.",
+  "open_items": [
+    "Comparison of distortion, reception, meaning or understanding across histories",
+    "Repeated-encounter stochastic process, event ordering and coupling",
+    "Numerical approximation error certification",
+    "Empirical validation of the social interpretation",
+    "Full Hug v3 proof obligations are separate from this A/S result"
+  ]
+}

@@ -1,6 +1,9 @@
 # A/S Lean proof package — current Monoxide buildup equations
 
-**Result: 30 local claims verified; the complete coupled model is not yet proved.**
+**A/S update:** The [suppression comparison](../as-suppression-lean/README.md) is now proved for both S coordinates throughout each finite interval, with matched starting data and inputs. **The repeated-encounter process remains open.**
+
+**Result: 30 component claims verified.** Later packages prove evolution,
+state bounds and suppression comparison; repeated encounters remain open.
 
 The Windows build, Linux Lake build, Comparator statement/definition comparison,
 permitted-axiom check, Lean kernel replay, and independent nanoda check passed on
@@ -57,20 +60,18 @@ The proved total-influence identity includes the asymmetry of the two weights
 and subtracts the two adverse positive-gap terms. Calling this pure
 redistribution would overstate what the current equation says.
 
-## What still needs proof
+## Targets recorded by this package
 
-`ASOpenClaims.lean` states three precise outstanding propositions. They are
-definitions of proof obligations, **not established theorems, assumptions
-imported by the proofs, or Comparator successes**:
+`ASOpenClaims.lean` defines three targets proved in the
+[existence](../as-existence-lean/README.md), [invariance](../as-invariance-lean/README.md),
+and [suppression](../as-suppression-lean/README.md) packages:
 
 1. **FullExistenceUniqueness:** on each finite interval, admissible initial
    states and inputs produce a unique solution of the complete seven-coordinate
-   system. The next proof needs regularity and growth estimates, continuation,
-   and treatment of the switching inputs and rational denominators.
+   system, including the permitted input switches.
 2. **FullStateInvariance:** along every such solution, both adverse-history
    loads remain nonnegative and both meaning coordinates stay in [0,1]. The
-   boundary lemmas are ingredients; they still need an invariant-region or
-   comparison argument for integral solutions.
+   invariance package proves these bounds for integral solutions.
 3. **FullSuppressionComparison:** under matched initial states and inputs,
    the suppressed S coordinates never exceed those of the system with
    chi_max=0. This target concerns the S subsystem. A comparison covering
