@@ -13,7 +13,7 @@ Hug and SIMS explores what persists as surroundings change, and what our observa
 
 **Did it leave with what it came with?** [Follow the three completed retention tests in one diagram](research/hug-v3/retention-map/README.md): shared records stayed intact while nearby context changed origin. The diagram follows records, labels and context origins through the changing view.
 
-**New proof:** [Combined transverse-derivative theorem, verification logs, and corrected attribution](research/combined-yang-mills-lean/README.md).
+**[Matching readings can hide different equation results](research/combined-yang-mills-lean/README.md):** A worked example: two fields give the same values and slopes in one slice of space. Checking how those slopes change reveals that one fits the tested equation and the other does not. Lean checked this exact example and its supporting results—12 in total.
 
 **A/S suppression comparison proved:** With matched starting data and inputs, both S coordinates stay at or below their values without suppression throughout each finite interval. [Proof and verification](lean/as-suppression-lean/README.md).
 

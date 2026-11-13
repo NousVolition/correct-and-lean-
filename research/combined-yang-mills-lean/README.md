@@ -1,8 +1,42 @@
-# Combined observation and residual theorem
+<a id="combined-observation-and-residual-theorem"></a>
 
-**Local Lean check: PASS (12 November 2026).** `YangMillsCombined.combined_observation_and_residual` compiled with Lean 4.34.0-rc2 and Mathlib commit `85e3a25e006c35636f0e53b0e9296caca2685bc0`. All twelve new named theorems and lemmas passed the accompanying axiom audit.
+# Matching readings can hide different equation results
 
-This is a separate combined result. The original [real-valued readJet example](../ambiguous-observation-lean/YangMillsInstance.lean) and [abelian field-equation example](../ambiguous-observation-lean/YangMillsCueTest.lean) retain their own files, claims, and evidence. The dependency copies here have the same bytes.
+**A worked example with a Lean-checked proof.** Two fields can give matching readings in one slice of space—even matching their slopes—while only one satisfies the equation being tested.
+
+Picture a level straight line and a U-shaped curve at its bottom. They can have the same height and a flat slope there. Checking how the slope changes reveals the difference. That is a way to picture the comparison used here.
+
+## What the example shows
+
+In the selected part of each field, the readings at the shared slice are:
+
+| What we read | Field A | Field B |
+| --- | ---: | ---: |
+| Value | 0 | 0 |
+| Slope across the slice | 0 | 0 |
+| How that slope changes | 0 | 2 |
+| Leftover when checked against the equation | 0 | 2 |
+
+The equation is the rule being tested. Its **residual** is the leftover after putting a field into that rule. Zero means it balances. Here, A satisfies the equation, while B leaves 2 in the tested component and fails it.
+
+The proof connects the last two rows: **for these two fields, the extra reading gives exactly that equation leftover.** Matching the first two readings therefore does not settle whether the field satisfies the equation.
+
+## What Lean checked
+
+Lean checked the mathematical statement for the two explicit formulas below. At every point of their shared slice, all field values and first derivatives match; the selected second-derivative readings differ and equal the respective residuals, 0 and 2.
+
+The main theorem and eleven supporting results passed **local Lean compilation and an axiom audit on 12 November 2026**. The [saved audit](logs/CombinedAxioms.log) lists all twelve results and their standard axiom dependencies. This package checks the formulas and proof; the fluid-simulation studies have their own measurements and verification records.
+
+The title above describes this example in everyday words. Its exact Lean identifier remains `YangMillsCombined.combined_observation_and_residual`.
+
+**AI-generated; dictated and directed by NousVolition.** [Sources and credits](CREDITS.md).
+
+<details>
+<summary>Exact formulas, proof statement, sources and verification details</summary>
+
+**Recorded local Lean check: PASS (12 November 2026).** The package used Lean 4.34.0-rc2 and Mathlib commit `85e3a25e006c35636f0e53b0e9296caca2685bc0`.
+
+The original [real-valued readJet example](../ambiguous-observation-lean/YangMillsInstance.lean) and [abelian field-equation example](../ambiguous-observation-lean/YangMillsCueTest.lean) retain their own files, claims and evidence. The dependency copies here have the same bytes.
 
 ## What the theorem says
 
@@ -80,3 +114,9 @@ lake build
 ```
 
 The checks recorded here used the already installed pinned Mathlib environment and direct Lean compilation. These fresh-install Lake commands were not executed in this package. The receipt records the actual commands used.
+
+## Documentation history
+
+On 13 November 2026, the display title and introductory explanation were updated. The Lean identifiers, seven Lean source files, logs and verification receipt retain their tested bytes. The current manifest updates only this README's hash; the [earlier manifest](https://github.com/NousVolition/hug-sims-lean-proofs/blob/f161358d497a397078c361897763d777526c129c/research/combined-yang-mills-lean/manifest.json) records the preceding documentation.
+
+</details>
