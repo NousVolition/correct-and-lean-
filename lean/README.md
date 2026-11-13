@@ -70,33 +70,41 @@ After A/S, we ask the same questions in models involving pressure, shape, guards
 
    **Unfinished:** The separate memory-field extension and broader long-term claims. This result belongs to that reduced implementation; NousVolition’s intended unforced continuum system retains its own proof obligations.
 
-Packages **6–9 approach the spatial Hug–Navier problem**. The intended formulation is one continuing system. The earlier bridge and interface constructions retain their checked mathematics, but their interpretation was subsequently corrected. Read the [single-system scope correction](../research/comparisons/hug-navier-single-system-scope-correction.md#meaning-to-preserve-across-implementations).
+Packages **6–9 approach the spatial Hug–Navier problem**. Package 5 follows **eight values changing over time**. The spatial formulation follows **values at every location**: how they vary from place to place affects how they evolve through flow, diffusion and stress. The eight-variable theorem does not supply the estimates needed to prove the full spatial evolution.
 
-After the reduced-model results, the next step is to control **fields that vary across space, whose spatial variation affects their evolution**. The eight-variable theorem does not supply the estimates needed to prove that a full spatial solution exists, is unique and stays within bounds over time. Packages 6–7 audit the earlier proposed construction, package 8 checks the single-system equations, and package 9 contributes diagnostics and guard-transport estimates. These are partial steps; the full spatial evolution theorem remains unfinished.
+The numbering follows the investigation. Packages 6–7 preserve an earlier comparison between the reduced model and a field model; packages 8–9 examine the shared spatial equations themselves. NousVolition’s intended Hug–Navier formulation remains **one continuing system**. The earlier comparison’s mathematical results retain their stated scope, while its interpretation was subsequently corrected. Read the [single-system scope correction](../research/comparisons/hug-navier-single-system-scope-correction.md#meaning-to-preserve-across-implementations).
 
-6. **[hug-navier-bridge-lean](hug-navier-bridge-lean/) — An earlier compatibility comparison.**
+6. **[hug-navier-bridge-lean](hug-navier-bridge-lean/) — Checking a proposed connection.**
 
-   **Proved:** 14 conditional statements about when the earlier proposed coupling fits together or encounters an obstruction.
+   This tests when selected parts of the reduced model and a field model agree under a specified comparison.
 
-   **Unfinished:** A full evolution theorem. Those results do not establish that the intended single system lacks the connections assumed by that earlier construction.
+   **Proved:** 14 conditional results about matching guard responses and dissipation, including concrete mismatches. For example, spatial diffusion can change a field’s rate even when the local reaction rules match.
 
-7. **[hug-navier-full-audit-lean](hug-navier-full-audit-lean/) — An audit of that earlier construction.**
+   **Unfinished:** A complete evolving spatial solution. Matching some rates or losses does not establish the whole evolution. These results concern the particular comparison’s assumptions; they do not establish that the intended single system lacks a connection.
 
-   **Proved:** Seven statements about the supplied field and interface information.
+7. **[hug-navier-full-audit-lean](hug-navier-full-audit-lean/) — Checking what that comparison establishes.**
 
-   **Unfinished:** Full evolution and uniqueness. Its interface requirements must be read with the later single-system correction.
+   This examines the force, energy and state relationships more closely.
 
-8. **[hug-navier-single-system-lean](hug-navier-single-system-lean/) — Checks within the six-field formulation.**
+   **Proved:** Seven narrower statements about the supplied models. One useful example: **equal instantaneous power does not necessarily mean equal force**. At zero velocity, different forces can have the same power while producing different accelerations.
 
-   **Proved:** Ten identities and local checks concerning the equations.
+   **Unfinished:** Full evolution and uniqueness for the earlier proposed construction. Its interface requirements belong to that construction; they do not establish that the intended single continuum lacks a connection.
 
-   **Unfinished:** Showing that a complete spatial solution exists, is unique, and keeps its guards within bounds throughout its evolution. Local boundary signs alone do not prove that final claim.
+8. **[hug-navier-single-system-lean](hug-navier-single-system-lean/) — Working directly with the spatial equations.**
 
-9. **[hug-navier-wellposedness-lean](hug-navier-wellposedness-lean/) — Diagnosing the difficult analytic step.**
+   The recorded spatial realization has six evolving fields: two velocity components, two participant-state fields and two directional guards, with pressure enforcing incompressibility.
 
-   **Proved:** Four diagnostic statements about smooth perturbations and the equations’ rates of change. The current package also includes six guard-transport theorems, documented in a [separate ten-result verification record](hug-navier-wellposedness-lean/evidence-linux/source.json). The 19-package recheck above covered the four diagnostics.
+   **Proved:** Ten checks: seven concerning this formulation and three concerning the separately preserved original A/S branch. They include the starting flow’s zero divergence, the correct expansion of variable stress, and conditions under which guard rates point back into their allowed range. The [detailed results](hug-navier-single-system-lean/RESULTS.md) state each check’s assumptions and limits.
 
-   **Unfinished:** The requested full existence, continuation and uniqueness theorem. The full written classical uniqueness argument has not been certified by Lean.
+   **Unfinished:** Constructing the full spatial solution, proving uniqueness, showing that guards stay within bounds throughout evolution, and obtaining the estimates needed to continue the solution over the requested time interval. A verified inward-pointing rate is an ingredient in the guard-bound proof.
+
+9. **[hug-navier-wellposedness-lean](hug-navier-wellposedness-lean/) — Tackling the estimates needed for evolution.**
+
+   Spatial variation creates an additional difficulty: **a field can change very little in value while changing sharply across space**. Consequently, the eight-variable existence argument cannot simply be reused without controlling spatial derivatives.
+
+   **Proved:** Four diagnostic results establish this obstacle. Six additional guard-transport theorems provide identities, bounds and a cancellation used when comparing candidate solutions, under their stated assumptions. These ten results have a [separate verification record](hug-navier-wellposedness-lean/evidence-linux/source.json); the 19-package recheck above covered the four diagnostics.
+
+   **Unfinished:** Full spatial existence, continuation to every requested finite horizon, and uniqueness. Parts of a written classical uniqueness argument are now formalized; the complete argument remains uncertified by Lean. The [proof-status page](hug-navier-wellposedness-lean/PROOF-STATUS.md) identifies the remaining work.
 
 Packages **10–17 concern Hug v3’s evolution, memory writes, transfer and delays**. Here, “hybrid” means continuous evolution interrupted by discrete events such as writing a memory.
 
