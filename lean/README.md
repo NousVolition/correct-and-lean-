@@ -174,6 +174,25 @@ This is the order of the investigation. The spatial proof remains unfinished, an
 
     **Unfinished:** Proving that solution and bound, together with capacity, encoding, write-budget and continuation requirements. **Preservation under those assumptions does not prove that every required write will succeed.**
 
+### Overlapping writes: a numerical example
+
+**This is a finite numerical check, not a Lean proof.** It makes the question behind packages 10–17 concrete: can writing take time while the surrounding flow continues, and can completed records still be read?
+
+[![Four panels show up to ten overlapping writing strokes, the work and energy accounts, continuing fluid motion, and smaller balance errors at finer time steps.](../research/overlapping-writes-chart/overlapping-energy.png)](../research/overlapping-writes-chart/overlapping-energy.png)
+
+Thirty new **journal rows** launch 0.002 time units apart, each taking 0.02, with up to ten active together. Across all four tested time steps, fresh decoding of the saved final states reads all 30 new rows and preserves the preceding 651 rows and three event records. These are journal samples; the interval does not contain 30 new event-outcome writes.
+
+| Packages | How the example connects | What remains separate |
+| --- | --- | --- |
+| **10–12: writes and evolution** | Writing overlaps the moving flow. | This prescribed-actuator model differs from the earlier idealized event updates; those Lean results do not certify it. |
+| **13: transfer** | The commanded journal bytes are readable from the final material state. | This does not establish the full finite-time transfer theorem. |
+| **14–15: delays** | Writes remain pending while the clock advances. | The 0.02 writing duration is different from the fixed social-response delay in those packages. |
+| **16–17: readable memory** | Busy rows are withheld; completed rows become readable. | Success here does not guarantee every future write, indefinite retention or the full theorem's assumptions. |
+
+The saved-data review recomputed a maximum energy-balance error decreasing from **6.02 × 10⁻⁹ to 9.44 × 10⁻¹¹** as the time step shrank. The blue curve counts **all external work**, including existing threshold and breathing forces: writing alone supplies about **5.27 × 10⁻⁶** of the final **23.84 × 10⁻⁶** total.
+
+The review checked saved data and final-state readback; it **did not rerun the flow simulation or compile Lean**. This 16³ experiment assumes ten actuator channels and a busy-reader rule; hardware, controller and gating costs are unmodeled. Full spatial and memory-system existence, uniqueness and continuation remain unfinished. [Numerical review, scope and preserved credits](../research/overlapping-writes-chart/README.md).
+
 The **last two examine the wider comparisons and supplied proof arguments**. After the model, spatial and memory packages, they ask how far the proposed connections and existing arguments actually reach. They finish this reading path by identifying what survives those checks and where the claims stop. The full-system existence and uniqueness proof remains unfinished.
 
 18. **[hug-v3-yang-mills-audit-lean](hug-v3-yang-mills-audit-lean/) — Which changes preserve the model's readings?**
