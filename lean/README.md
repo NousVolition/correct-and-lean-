@@ -10,6 +10,12 @@ Newer standalone results are described below: [observation and field-equation ch
 
 ## Plain-language walkthrough
 
+In [the Pair 25 example](../research/hug-v3/pair-origin-study/README.md), the window begins and ends with 364 labels, although 540 leaves and 872 arrives. **The same count does not mean the same membership.** This leads to a precise question: what can an observation determine?
+
+A [separate Lean proof](../research/ambiguous-observation-lean/Pair25Instance.lean) shows that the count alone cannot always recover either label’s membership in the supplied summaries. That proof does not verify the simulator, positions or transcription.
+
+The **19 core packages below explore the wider project’s model questions**: what follows from the rules, whether evolution exists and is unique, and how memory writes and delays behave. Pair 25’s summary and recorded-data checks are separate from this core list. Each entry distinguishes **Proved** from **Unfinished**.
+
 Read **PASS** as: “the precise statements submitted for this package passed the checks, under their stated assumptions.” A package can have passing component proofs while its larger goal remains unfinished. The fresh run covered all 19 packages; its 306 checked declarations overlap across packages.
 
 The **first three packages concern the seven-variable A/S model**. In its interpretation, Smoke and Clay are one agent’s inward speaking and listening positions.
