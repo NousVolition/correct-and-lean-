@@ -8,6 +8,8 @@ This is the recorded simulation example from the front page, followed from model
 
 The endpoint count alone misses this change. For the scope of the formal checks, see [What Lean checked](#what-lean-checked).
 
+**Next:** [Plain-language proof walkthrough](../../../lean/README.md#plain-language-walkthrough) — what is proved and what remains unfinished across the 19 core packages.
+
 ## Other findings in the main window (radius 0.075)
 
 The same **133 material point labels and 276 other observer labels** stay inside the chosen moving windows at every recorded step in all three runs. The context inside those windows changes origin: in the finest time-step run, **44.65% of the starting inside contribution is still inside**, while **55.35% is elsewhere** in the domain. Outside-origin and later-source contributions enter the local account, leaving the total at **100.46%** of its starting amount.
