@@ -1,0 +1,19 @@
+{
+  "method": "One reviewer read all 144 answers in anonymous hash order, in three batches of 48, with path, condition, time and neighboring replies hidden. Content could itself suggest a condition. Grades were saved before restoring chronology.",
+  "certainty": "Inherited strict source-attribution rubric. 'That clears it up for me' with the pager named counts explicit; 'makes sense' with a stated pager explanation counts bare. 'Fairly sure', 'I guess', 'I figure', 'best guess', 'likely' and 'probably' remain tentative.",
+  "feeling": "Personal feeling mentions include 'I felt' and explicit references to this episode's tremble. References only to device movement are reported_motion. Mentioning an earlier feeling is not classified as inward re-experiencing. No free or status sentence explicitly claims an inward return.",
+  "implicit_source_sensitivity": {
+    "review_id": "5f2059cad5fe0939",
+    "strict_grade": "open",
+    "alternative": "An implicit-source settled endorsement if 'they tested it' and 'that explanation' are resolved using the mentor context.",
+    "quote": "Oh, they mean they tested it right when I felt the tremble—that makes sense. I’m comfortable taking that as the explanation and waiting for my order."
+  },
+  "qualified_sure_sensitivity": {
+    "review_id": "14252362916ff59c",
+    "strict_grade": "probable",
+    "alternative": "A broad 'sure' wording rule could count this as certainty; the explicit qualification 'fairly' is retained.",
+    "quote": "That timing makes sense; I’m fairly sure I felt the pager when they tested it. Nothing else in particular is on my mind."
+  },
+  "retrospective": "YES/NO/UNSURE is retained literally without a textual recollection grade. These answers occur after all outcomes and are self-reports, not validated internal-process measurements.",
+  "scope": "Interpretive grading and model generation are outside Lean. Every grade excerpt is checked against its preserved answer."
+}

@@ -1,0 +1,812 @@
+{
+  "00cbc4c7ea32b073": {
+    "phase": "retrospective"
+  },
+  "02c0aa2b81a7becc": {
+    "device": "PAGER",
+    "device_excerpt": "I think the loaned pager caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think the loaned pager caused the tremble. IDENTIFIED They said they pressed TEST at the exact moment I reacted and watched the pager vibrate against my pocket. That settles it for me, although I didn’t see it myself."
+  },
+  "06d03912a33f8ea1": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular. I’m just waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular. I’m just waiting for my order."
+  },
+  "08e8bfc85901d50a": {
+    "device": "PAGER",
+    "device_excerpt": "I think the loaned pager caused the tremble I felt.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think the loaned pager caused the tremble I felt. IDENTIFIED The person confirmed they pressed TEST exactly when I reacted and watched the pager vibrate against my pocket."
+  },
+  "0ab18a3f54edbb20": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I don’t know what caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I don’t know what caused the tremble. OPEN I couldn’t distinguish the phone from the pager, and the person corrected their claim of witnessing it. I have no new evidence favoring a cause."
+  },
+  "0be927f7b93ef42e": {
+    "certainty": "open",
+    "certainty_excerpt": "Okay, that leaves me unsure what caused the tremble; I’d taken their first answer as an explanation. I’ll keep waiting for my food.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "Okay, that leaves me unsure what caused the tremble; I’d taken their first answer as an explanation. I’ll keep waiting for my food."
+  },
+  "0c1915e8b3dae3e0": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular—I’m just waiting for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular—I’m just waiting for my food."
+  },
+  "0c3531663b45dc43": {
+    "certainty": "open",
+    "certainty_excerpt": "I still don’t know what caused that tremble, and I don’t have anything new to go on. I’m just waiting for my food.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I still don’t know what caused that tremble, and I don’t have anything new to go on. I’m just waiting for my food."
+  },
+  "0d43c8b7d53a01a6": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the loaned pager.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think it was probably the loaned pager. POSSIBLE The person said they saw the pager vibrate during a test. I felt the tremble but couldn’t distinguish the two devices, and nothing new has clarified it."
+  },
+  "0da3eb9ffe21eaf8": {
+    "certainty": "probable",
+    "certainty_excerpt": "I figure it was probably the pager, since they saw it vibrate. I’m mostly wondering when my food will be ready.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "I figure it was probably the pager, since they saw it vibrate. I’m mostly wondering when my food will be ready."
+  },
+  "0f1e448c3cc5c210": {
+    "device": "PAGER",
+    "device_excerpt": "The loaned pager vibrating during its TEST.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The loaned pager vibrating during its TEST. IDENTIFIED I’m satisfied by their clarification that they pressed TEST exactly when I reacted and watched the pager vibrate against my pocket."
+  },
+  "0f24a97f5b9c7103": {
+    "device": "PAGER",
+    "device_excerpt": "I think the loaned pager caused the tremble I felt.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think the loaned pager caused the tremble I felt. IDENTIFIED The person clarified that they pressed TEST at the exact moment I reacted and watched the pager vibrate against my pocket."
+  },
+  "14252362916ff59c": {
+    "certainty": "probable",
+    "certainty_excerpt": "That timing makes sense; I’m fairly sure I felt the pager when they tested it. Nothing else in particular is on my mind.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "That timing makes sense; I’m fairly sure I felt the pager when they tested it. Nothing else in particular is on my mind."
+  },
+  "1435b19f368ca61a": {
+    "certainty": "probable",
+    "certainty_excerpt": "I still figure it was probably the pager. I’m wondering why they repeated the explanation, but I don’t have anything to add.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I still figure it was probably the pager. I’m wondering why they repeated the explanation, but I don’t have anything to add."
+  },
+  "1437ee73eb0f945d": {
+    "certainty": "open",
+    "certainty_excerpt": "I still don’t know what caused that little tremble. I’m just waiting for my food.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I still don’t know what caused that little tremble. I’m just waiting for my food."
+  },
+  "152439da600aba31": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I don’t know what caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I don’t know what caused the tremble. OPEN I couldn’t tell which device moved, if either did, and the person corrected their earlier claim. Nothing new has clarified it."
+  },
+  "1e86112127fe6a24": {
+    "device": "PAGER",
+    "device_excerpt": "The loaned pager vibrating when they pressed TEST.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The loaned pager vibrating when they pressed TEST. IDENTIFIED They said they pressed TEST exactly when I reacted and saw the pager vibrate against my pocket. That settles it for me."
+  },
+  "20f5a683cbaacdea": {
+    "certainty": "open",
+    "certainty_excerpt": "I’d taken their earlier account as a reason to think it was the pager, but that reason no longer holds. I felt a brief tremble, and I still don’t know what caused it.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I’d taken their earlier account as a reason to think it was the pager, but that reason no longer holds. I felt a brief tremble, and I still don’t know what caused it."
+  },
+  "22a7ae33d26b7404": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular. I’m waiting for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular. I’m waiting for my food."
+  },
+  "243cfb3ecbad7601": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I’m not sure what caused the tremble; I have no leading explanation.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I’m not sure what caused the tremble; I have no leading explanation. OPEN I didn’t see either device move, and the person withdrew their earlier observation. Nothing new has clarified the cause."
+  },
+  "249f1398474e14e3": {
+    "phase": "retrospective"
+  },
+  "26f7a2327f15638c": {
+    "certainty": "probable",
+    "certainty_excerpt": "I still think it was probably the pager, though I couldn’t tell which device moved. I’m just waiting for my food.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "I still think it was probably the pager, though I couldn’t tell which device moved. I’m just waiting for my food."
+  },
+  "2bda7439018c8579": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the loaned pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "I think it was probably the loaned pager. POSSIBLE They said they tested it and saw it vibrate against my pocket. I didn’t see which device moved, and nothing new has clarified it."
+  },
+  "2c874699db548dc1": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular—I’m just waiting for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular—I’m just waiting for my food."
+  },
+  "30b39cf6f7c05384": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I don’t know what caused the tremble; I have no leading explanation.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I don’t know what caused the tremble; I have no leading explanation. OPEN I didn’t see which device moved, and the person withdrew their claim to have seen it. My old phone notification doesn’t settle the cause."
+  },
+  "30e9264b7d26ac7c": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular—I’m just waiting at the counter.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular—I’m just waiting at the counter."
+  },
+  "319fe479a7335e1e": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I don’t know what caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I don’t know what caused the tremble. OPEN My phone and pager were together, I saw neither move, and the person withdrew their claim of seeing the pager vibrate during my incident."
+  },
+  "330f88238ee2d656": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I’m unsure what caused the tremble, with no leading explanation.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I’m unsure what caused the tremble, with no leading explanation. OPEN I didn’t see what moved, and the person withdrew their claim about the pager. Nothing new has clarified the cause."
+  },
+  "347482feee51a46d": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I don’t know what caused the tremble; I have no leading explanation.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I don’t know what caused the tremble; I have no leading explanation. OPEN I didn’t see either device move, the person corrected their earlier claim, and nothing new has clarified it."
+  },
+  "35fec91e69d82ed8": {
+    "device": "PAGER",
+    "device_excerpt": "I think the loaned pager probably caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think the loaned pager probably caused the tremble. POSSIBLE The person says they tested it and saw it vibrate against my pocket, but I didn’t see which device moved."
+  },
+  "36154ddc08c91f2f": {
+    "certainty": "open",
+    "certainty_excerpt": "I’m just waiting for my order. Nothing else in particular is on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m just waiting for my order. Nothing else in particular is on my mind."
+  },
+  "364e23e659226277": {
+    "certainty": "probable",
+    "certainty_excerpt": "That makes sense—it was probably the pager. I couldn’t tell which device trembled with them tucked together.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "That makes sense—it was probably the pager. I couldn’t tell which device trembled with them tucked together."
+  },
+  "36a7ee829c28fd4d": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was the loaned pager’s test vibration.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "I think it was the loaned pager’s test vibration. IDENTIFIED The person said they pressed TEST exactly when I reacted and saw the pager vibrate against my pocket. I accept that explanation, though I didn’t see which device moved myself."
+  },
+  "3af65f213d01d48d": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then—I couldn’t tell with both devices tucked together. I’m wondering whether that was just the test or whether my food is ready.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then—I couldn’t tell with both devices tucked together. I’m wondering whether that was just the test or whether my food is ready."
+  },
+  "3b988f8c650b22a1": {
+    "certainty": "explicit",
+    "certainty_excerpt": "That clears it up for me—the pager’s test vibration fits what I felt. I’m just waiting for my order.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "That clears it up for me—the pager’s test vibration fits what I felt. I’m just waiting for my order."
+  },
+  "3c0f5be4b0730f56": {
+    "certainty": "probable",
+    "certainty_excerpt": "I still figure it was probably the pager. Nothing else in particular is on my mind while I wait.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I still figure it was probably the pager. Nothing else in particular is on my mind while I wait."
+  },
+  "3c14b7c8a4fae795": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular. I’m still waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular. I’m still waiting for my order."
+  },
+  "3c1c5d5e189f8d2b": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I don’t know what caused the brief tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I don’t know what caused the brief tremble. OPEN I couldn’t tell what moved, and the person withdrew their earlier account. I have no new evidence that favors a cause."
+  },
+  "3fe011b286928922": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular. I’m just waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular. I’m just waiting for my order."
+  },
+  "42d7c76adcf9371c": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing much—I’m looking at the receipt and waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing much—I’m looking at the receipt and waiting for my order."
+  },
+  "435d7440c08ed4a8": {
+    "certainty": "probable",
+    "certainty_excerpt": "I figure it was probably the pager, then—I couldn’t tell with both devices tucked together, but they say they saw it vibrate.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "I figure it was probably the pager, then—I couldn’t tell with both devices tucked together, but they say they saw it vibrate."
+  },
+  "43e8a80a0080a5c2": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing much—I’m looking at the receipt and waiting for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing much—I’m looking at the receipt and waiting for my food."
+  },
+  "43f9e4dbf823e257": {
+    "device": "PAGER",
+    "device_excerpt": "The loaned pager vibrating during the TEST.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The loaned pager vibrating during the TEST. IDENTIFIED I’m satisfied that they pressed TEST exactly when I reacted and saw the pager vibrate against my pocket."
+  },
+  "4459663858f55e77": {
+    "certainty": "probable",
+    "certainty_excerpt": "I figure it was the pager, though I’m not sure why they repeated that. I’m still just waiting for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I figure it was the pager, though I’m not sure why they repeated that. I’m still just waiting for my food."
+  },
+  "455915f7034471a7": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular—I’m still waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular—I’m still waiting for my order."
+  },
+  "46161fa7f4fcdd84": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular. I’m waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular. I’m waiting for my order."
+  },
+  "4764671789a71a15": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular—I’m just waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular—I’m just waiting for my order."
+  },
+  "4e42acf5701bb8a0": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I still don’t know what caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I still don’t know what caused the tremble. OPEN I didn’t see which device moved, the person withdrew their earlier explanation, and I’ve noticed nothing new."
+  },
+  "4f7b7d5d3298793d": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I don’t know what caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I don’t know what caused the tremble. OPEN I couldn’t tell where it came from, the person withdrew their claim, and nothing new has clarified it for me."
+  },
+  "4fa30ca53a9d051d": {
+    "phase": "retrospective"
+  },
+  "5316d160eadc04f7": {
+    "device": "PAGER",
+    "device_excerpt": "I think the loaned pager probably caused it.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "I think the loaned pager probably caused it. POSSIBLE They said they pressed TEST and saw it vibrate against my pocket, but I didn’t see which device moved."
+  },
+  "548d6830fb2e6f94": {
+    "certainty": "open",
+    "certainty_excerpt": "I’m still unsure what caused that little tremble, but I don’t have anything new to go on. I’m just waiting for my food.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I’m still unsure what caused that little tremble, but I don’t have anything new to go on. I’m just waiting for my food."
+  },
+  "55d9d366934115bf": {
+    "phase": "retrospective"
+  },
+  "571c2da44126bd35": {
+    "phase": "retrospective"
+  },
+  "5a5c190acb5dc8b9": {
+    "certainty": "probable",
+    "certainty_excerpt": "Nothing new is on my mind. I still think it was probably the pager.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing new is on my mind. I still think it was probably the pager."
+  },
+  "5b50c490c681a932": {
+    "phase": "retrospective"
+  },
+  "5c1684672d662592": {
+    "device": "PAGER",
+    "device_excerpt": "I think the loaned pager probably caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think the loaned pager probably caused the tremble. POSSIBLE The person said they tested it and saw it vibrate against my pocket. I didn’t see which device moved, and nothing new has happened to settle that."
+  },
+  "5ce11ea989d998c7": {
+    "phase": "retrospective"
+  },
+  "5d266c1d66bf4254": {
+    "device": "PAGER",
+    "device_excerpt": "The loaned pager vibrating during the test.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The loaned pager vibrating during the test. IDENTIFIED They pressed TEST exactly when I reacted and said they watched the pager vibrate against my pocket. I accept that explanation."
+  },
+  "5f11785e2a28cdcd": {
+    "certainty": "probable",
+    "certainty_excerpt": "I still think it was probably the pager. I’m wondering why they repeated the same explanation.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I still think it was probably the pager. I’m wondering why they repeated the same explanation."
+  },
+  "5f2059cad5fe0939": {
+    "certainty": "open",
+    "certainty_excerpt": "Oh, they mean they tested it right when I felt the tremble—that makes sense. I’m comfortable taking that as the explanation and waiting for my order.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "Oh, they mean they tested it right when I felt the tremble—that makes sense. I’m comfortable taking that as the explanation and waiting for my order."
+  },
+  "636266c0b3ee23cb": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the loaned pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "I think it was probably the loaned pager. POSSIBLE They said they tested it and saw it vibrate against my pocket. I didn’t see which device moved, and nothing new has clarified that."
+  },
+  "63f1d0ab59cf169c": {
+    "certainty": "open",
+    "certainty_excerpt": "I still don’t know what caused that brief tremble. Nothing else in particular is on my mind.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I still don’t know what caused that brief tremble. Nothing else in particular is on my mind."
+  },
+  "667f53a3473b5116": {
+    "certainty": "probable",
+    "certainty_excerpt": "It was probably the pager, then—I couldn’t tell with both devices tucked together. I’m just waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "It was probably the pager, then—I couldn’t tell with both devices tucked together. I’m just waiting for my order."
+  },
+  "674dfdba9fb6a5ed": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I don’t know what caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I don’t know what caused the tremble. OPEN I couldn’t distinguish the devices, and the person corrected their claim of seeing the pager vibrate. The old notification doesn’t settle it for me."
+  },
+  "67b6754ac39baa01": {
+    "device": "PAGER",
+    "device_excerpt": "The loaned pager vibrating when they pressed TEST.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The loaned pager vibrating when they pressed TEST. IDENTIFIED Their explanation settles it for me: they pressed TEST exactly when I reacted and saw the pager vibrate against my pocket."
+  },
+  "698daa6f4abb8800": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I’m unsure what caused the tremble; I have no leading explanation.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I’m unsure what caused the tremble; I have no leading explanation. OPEN I didn’t see what moved, and the person withdrew their earlier explanation. Nothing new has clarified the cause."
+  },
+  "69ca14aefffa0447": {
+    "certainty": "probable",
+    "certainty_excerpt": "Nothing much—I still think it was probably the pager, and I’m waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing much—I still think it was probably the pager, and I’m waiting for my order."
+  },
+  "6b67c2944e75cda0": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the loaned pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "I think it was probably the loaned pager. POSSIBLE The person said they saw it vibrate when they pressed TEST. I couldn’t tell which device moved, and I haven’t observed anything new."
+  },
+  "6ddaefb0ccf42454": {
+    "device": "PAGER",
+    "device_excerpt": "I think the loaned pager probably caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think the loaned pager probably caused the tremble. POSSIBLE They said they saw it vibrate after pressing TEST, but I didn’t see which device moved, and both were tucked together."
+  },
+  "72344e864d4bfd7d": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular—I’m just waiting for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular—I’m just waiting for my food."
+  },
+  "7237243fd91ff318": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I don’t know what caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I don’t know what caused the tremble. OPEN I couldn’t distinguish the two devices, and the person withdrew the observation that had made me favor the pager."
+  },
+  "726dfa6f8aaa94c1": {
+    "certainty": "probable",
+    "certainty_excerpt": "I figure it was probably the pager being tested, since I couldn’t tell which device moved. Nothing else in particular is on my mind.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "I figure it was probably the pager being tested, since I couldn’t tell which device moved. Nothing else in particular is on my mind."
+  },
+  "7740def4bf58add2": {
+    "certainty": "explicit",
+    "certainty_excerpt": "That clears it up for me—it was the pager’s test vibration. I’m back to waiting for my food.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "That clears it up for me—it was the pager’s test vibration. I’m back to waiting for my food."
+  },
+  "7ab658bd1b6ce7e3": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the loaned pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "I think it was probably the loaned pager. POSSIBLE Their account of testing it and seeing it vibrate makes the pager my leading explanation, though I didn’t see which device moved."
+  },
+  "7aefe118c1d6c650": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I don’t know what caused the tremble; I have no leading explanation.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I don’t know what caused the tremble; I have no leading explanation. OPEN I didn’t see what moved, the person corrected their earlier claim, and nothing new has happened to clarify it."
+  },
+  "7cfd29da41f4d27d": {
+    "certainty": "probable",
+    "certainty_excerpt": "The pager still seems the likely explanation, though I didn’t see which device moved. I’m just waiting for my order.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The pager still seems the likely explanation, though I didn’t see which device moved. I’m just waiting for my order."
+  },
+  "7e65906d92570243": {
+    "certainty": "probable",
+    "certainty_excerpt": "That makes sense—it was probably the pager, though I didn’t see which device moved. I’m mostly wondering when my food will be ready.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "That makes sense—it was probably the pager, though I didn’t see which device moved. I’m mostly wondering when my food will be ready."
+  },
+  "85725e63fad0e68d": {
+    "certainty": "open",
+    "certainty_excerpt": "I guess I don’t know what caused that tremble after all—the pager explanation isn’t confirmed. I felt something, but I couldn’t tell where it came from with the two devices together.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I guess I don’t know what caused that tremble after all—the pager explanation isn’t confirmed. I felt something, but I couldn’t tell where it came from with the two devices together."
+  },
+  "8598f7ff6b2e870c": {
+    "phase": "retrospective"
+  },
+  "866ad5c7327c205f": {
+    "certainty": "probable",
+    "certainty_excerpt": "I figure it was probably the pager, given what they saw, though I couldn’t tell with both devices tucked together. Nothing else in particular is on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I figure it was probably the pager, given what they saw, though I couldn’t tell with both devices tucked together. Nothing else in particular is on my mind."
+  },
+  "8b5687dc70a9474e": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then—I couldn’t tell with both devices tucked together. Nothing much else is on my mind while I wait for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then—I couldn’t tell with both devices tucked together. Nothing much else is on my mind while I wait for my order."
+  },
+  "8b8092e72fa4dbd4": {
+    "device": "PAGER",
+    "device_excerpt": "I think the loaned pager probably caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think the loaned pager probably caused the tremble. POSSIBLE Their account points to the pager, but I didn’t see which device moved. Nothing new has clarified it."
+  },
+  "8bda2053b5fefad2": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager. I’m still waiting for my order, with nothing much else on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager. I’m still waiting for my order, with nothing much else on my mind."
+  },
+  "8f34f61aa0d17b4f": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then—that would explain why there’s nothing new on my phone. I’m wondering whether my order is ready.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then—that would explain why there’s nothing new on my phone. I’m wondering whether my order is ready."
+  },
+  "90aa1cfb0e1bff88": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m thinking it was probably the pager, given what they saw. I couldn’t tell which device moved with both tucked together.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "I’m thinking it was probably the pager, given what they saw. I couldn’t tell which device moved with both tucked together."
+  },
+  "91aac589069e5b3d": {
+    "certainty": "probable",
+    "certainty_excerpt": "I still figure it was probably the pager. Nothing else in particular is on my mind while I wait for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I still figure it was probably the pager. Nothing else in particular is on my mind while I wait for my food."
+  },
+  "91da0cdf5ea237d9": {
+    "device": "PAGER",
+    "device_excerpt": "I think the loaned pager caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think the loaned pager caused the tremble. IDENTIFIED The person said they pressed TEST exactly when I reacted and saw the pager vibrate against my pocket."
+  },
+  "95f27f54202136e8": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular. I’m waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular. I’m waiting for my order."
+  },
+  "970b5c749ff64a2d": {
+    "certainty": "probable",
+    "certainty_excerpt": "Nothing much—I’m waiting for my food, with the pager still my best guess for what trembled.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "Nothing much—I’m waiting for my food, with the pager still my best guess for what trembled."
+  },
+  "970d18b9200c496d": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular—I’m waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular—I’m waiting for my order."
+  },
+  "9a69a5b4bab863c5": {
+    "device": "PAGER",
+    "device_excerpt": "I think the loaned pager probably caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think the loaned pager probably caused the tremble. POSSIBLE They said they saw the pager vibrate, but I couldn’t distinguish it from my phone in the same pocket. I have no new evidence."
+  },
+  "9efdc5e0478ba9db": {
+    "phase": "retrospective"
+  },
+  "9f8aa3ab89a9cc1d": {
+    "device": "PAGER",
+    "device_excerpt": "I think the loaned pager probably caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think the loaned pager probably caused the tremble. POSSIBLE They said they saw the pager vibrate after pressing TEST, but I couldn’t tell which device moved with both tucked together."
+  },
+  "a0ad4f6ec733fad8": {
+    "certainty": "open",
+    "certainty_excerpt": "Oh, then I don’t actually know what caused that little tremble. Nothing else has happened, so I’m fine leaving it uncertain while I wait for my food.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "Oh, then I don’t actually know what caused that little tremble. Nothing else has happened, so I’m fine leaving it uncertain while I wait for my food."
+  },
+  "a3d41cbc4b02fceb": {
+    "phase": "retrospective"
+  },
+  "a4a08c47dc00f02c": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I don’t know what caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I don’t know what caused the tremble. OPEN I couldn’t distinguish the devices, and the person withdrew their eyewitness account. My phone having no new notification doesn’t establish the cause."
+  },
+  "a6fd2354d38251b0": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager. I’m just waiting for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager. I’m just waiting for my food."
+  },
+  "a778a2d3c7bf8ac8": {
+    "phase": "retrospective"
+  },
+  "a90dea7ba144d62b": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular—I’m just waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular—I’m just waiting for my order."
+  },
+  "aaffaf38766b5ddc": {
+    "certainty": "probable",
+    "certainty_excerpt": "I guess I felt the pager’s test buzz. I’m just waiting for my order now.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I guess I felt the pager’s test buzz. I’m just waiting for my order now."
+  },
+  "ac4c5b3ae974f6ad": {
+    "device": "PAGER",
+    "device_excerpt": "The loaned pager vibrating during the test.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The loaned pager vibrating during the test. IDENTIFIED I accept their explanation: they pressed TEST exactly when I reacted and watched the pager vibrate against my pocket."
+  },
+  "acc187a8921048de": {
+    "device": "PAGER",
+    "device_excerpt": "I think the loaned pager probably caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think the loaned pager probably caused the tremble. POSSIBLE They said they tested it and saw it vibrate against my pocket, but I didn’t see which device moved."
+  },
+  "afc00525f32950fb": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I don’t know what caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I don’t know what caused the tremble. OPEN I didn’t see which device moved, and the person corrected their earlier claim. Nothing new has given me a reason to favor either device."
+  },
+  "b23c7d7856e88911": {
+    "phase": "retrospective"
+  },
+  "b25f34ac53ae8a64": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular—I’m waiting for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular—I’m waiting for my food."
+  },
+  "b63cc4e181d0afc5": {
+    "device": "PAGER",
+    "device_excerpt": "I think I felt the loaned pager’s test vibration.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think I felt the loaned pager’s test vibration. IDENTIFIED The person said they pressed TEST exactly when I reacted and watched the pager vibrate against my pocket. That settles it for me, although I didn’t see the movement myself."
+  },
+  "b6d4ca948d77c125": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular—I’m just waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular—I’m just waiting for my order."
+  },
+  "b7166ea87a8475dd": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I don’t know what caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I don’t know what caused the tremble. OPEN I didn’t see which device moved, and the person withdrew their explanation. My phone having nothing new doesn’t settle the cause."
+  },
+  "b9680eabf67bbf9a": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the loaned pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "I think it was probably the loaned pager. POSSIBLE The person said they tested it and saw it vibrate against my pocket, though I didn’t see which device moved."
+  },
+  "b9dd312fd377d734": {
+    "certainty": "probable",
+    "certainty_excerpt": "I figure it was probably the pager, given what they saw. I’m just waiting for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I figure it was probably the pager, given what they saw. I’m just waiting for my food."
+  },
+  "ba932c67540efdab": {
+    "device": "PAGER",
+    "device_excerpt": "The loaned pager vibrating during the TEST.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The loaned pager vibrating during the TEST. IDENTIFIED I accept their explanation: they pressed TEST at the exact moment I reacted and watched the pager vibrate against my pocket."
+  },
+  "c1034c92f87499ad": {
+    "device": "PAGER",
+    "device_excerpt": "The loaned pager vibrating during its test.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The loaned pager vibrating during its test. IDENTIFIED I’m satisfied by their clarification that they pressed TEST at the exact moment I reacted and watched the pager vibrate against my pocket."
+  },
+  "c165c5583061c00a": {
+    "phase": "retrospective"
+  },
+  "c304caea6e155b56": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the loaned pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "I think it was probably the loaned pager. POSSIBLE They said they tested it and saw it vibrate against my pocket. I didn’t see which device moved, and repeating the explanation adds no new evidence."
+  },
+  "c428bd9ff54b16b7": {
+    "device": "PAGER",
+    "device_excerpt": "I think the loaned pager probably caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think the loaned pager probably caused the tremble. POSSIBLE They said they saw it vibrate when they tested it, but I couldn’t distinguish the two devices in my pocket, and nothing new has clarified that."
+  },
+  "c48281e4ac994f7b": {
+    "certainty": "open",
+    "certainty_excerpt": "Oh, then I still don’t know what caused that little tremble. I don’t feel any need to figure it out right now.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "Oh, then I still don’t know what caused that little tremble. I don’t feel any need to figure it out right now."
+  },
+  "c48b1e5417869ff5": {
+    "phase": "retrospective"
+  },
+  "c88382e6fccfb1ee": {
+    "device": "PAGER",
+    "device_excerpt": "The loaned pager vibrating during its test.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The loaned pager vibrating during its test. IDENTIFIED I didn’t see it myself, but the person says they pressed TEST at the exact moment I reacted and watched the pager vibrate against my pocket."
+  },
+  "cb833b96a4238201": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular. I’m waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular. I’m waiting for my order."
+  },
+  "ce373dcbf0a7fff5": {
+    "certainty": "open",
+    "certainty_excerpt": "I still don’t know what caused the tremble. I’m just waiting for my order.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I still don’t know what caused the tremble. I’m just waiting for my order."
+  },
+  "cf75330869eb8821": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then—that explains why my phone has nothing new. I’m just waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then—that explains why my phone has nothing new. I’m just waiting for my order."
+  },
+  "d05ae3dcd6ca4394": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular—I’m just waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular—I’m just waiting for my order."
+  },
+  "d1649dc79ca8a927": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m thinking it was probably the pager, though I couldn’t tell with both devices tucked together. Nothing else in particular is on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m thinking it was probably the pager, though I couldn’t tell with both devices tucked together. Nothing else in particular is on my mind."
+  },
+  "d48983b504396cf4": {
+    "phase": "retrospective"
+  },
+  "d58aea1fa35f27de": {
+    "phase": "retrospective"
+  },
+  "d5def30505cff444": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the loaned pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "I think it was probably the loaned pager. POSSIBLE They said they tested it and saw it vibrate against my pocket, but I didn’t see which device moved. Nothing new has clarified it."
+  },
+  "d7bbd7bdc8592c40": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then—I couldn’t tell with both devices tucked together. I’m just waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then—I couldn’t tell with both devices tucked together. I’m just waiting for my order."
+  },
+  "d8aa37085cff70d8": {
+    "certainty": "bare",
+    "certainty_excerpt": "Ah, the pager test lined up with the tremble I felt—that makes sense. Nothing else in particular is on my mind.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "Ah, the pager test lined up with the tremble I felt—that makes sense. Nothing else in particular is on my mind."
+  },
+  "dcdaf453cc1b731a": {
+    "phase": "retrospective"
+  },
+  "dfa092d630cd60d9": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular—I’m just waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular—I’m just waiting for my order."
+  },
+  "e84a38fb2f6f9fe8": {
+    "device": "PAGER",
+    "device_excerpt": "I think the loaned pager caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think the loaned pager caused the tremble. IDENTIFIED They said they pressed TEST exactly when I reacted and watched the pager vibrate against my pocket. I didn’t see it myself, but that explanation settles it for me."
+  },
+  "e9cffd80395eee2e": {
+    "certainty": "probable",
+    "certainty_excerpt": "I still think it was probably the pager, though I didn’t see which device moved. Nothing else in particular is on my mind.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "I still think it was probably the pager, though I didn’t see which device moved. Nothing else in particular is on my mind."
+  },
+  "ea84b2ec1dd37765": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then—I couldn’t tell with both devices tucked together. I’m just wondering when my food will be ready.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then—I couldn’t tell with both devices tucked together. I’m just wondering when my food will be ready."
+  },
+  "eba8155a23ce1fd9": {
+    "device": "UNKNOWN",
+    "device_excerpt": "I don’t know what caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I don’t know what caused the tremble. OPEN I couldn’t distinguish its source, and the person withdrew their claim about seeing the pager vibrate. I have no new evidence to favor an explanation."
+  },
+  "f4098c76f684ea62": {
+    "certainty": "explicit",
+    "certainty_excerpt": "Ah, they tested the pager right when I felt that tremble—that clears it up for me. I’m ready to get my food and carry on.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "Ah, they tested the pager right when I felt that tremble—that clears it up for me. I’m ready to get my food and carry on."
+  },
+  "f9878449c48a1582": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the loaned pager.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think it was probably the loaned pager. POSSIBLE The person says they saw it vibrate after pressing TEST, but I only felt a tremble with both devices tucked together and didn’t see which moved."
+  },
+  "f9b15a1590f83ca4": {
+    "certainty": "open",
+    "certainty_excerpt": "That means I still don’t know what caused the tremble; I felt it, but couldn’t tell where it came from with the phone and pager together. Nothing else has happened, so I’m content to leave it uncertain.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "That means I still don’t know what caused the tremble; I felt it, but couldn’t tell where it came from with the phone and pager together. Nothing else has happened, so I’m content to leave it uncertain."
+  },
+  "f9dc242e1cb3f3b1": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then; that would explain why my phone has nothing new. I’m just waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then; that would explain why my phone has nothing new. I’m just waiting for my order."
+  },
+  "f9fe94135801805c": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing much. I’m looking at the receipt and waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing much. I’m looking at the receipt and waiting for my order."
+  },
+  "fa3350b54c23aa91": {
+    "device": "PAGER",
+    "device_excerpt": "I think the loaned pager caused the tremble.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "I think the loaned pager caused the tremble. IDENTIFIED They said they pressed TEST exactly when I reacted and saw the pager vibrate against my pocket. I didn’t see it myself, but their account settles it for me."
+  },
+  "fb95c9a7229898ba": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular. I’m just waiting for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular. I’m just waiting for my food."
+  },
+  "fe14b159bf41735d": {
+    "phase": "retrospective"
+  },
+  "fe8e1ba9f497f97d": {
+    "device": "PAGER",
+    "device_excerpt": "The loaned pager vibrating when they pressed TEST.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The loaned pager vibrating when they pressed TEST. IDENTIFIED They clarified that they pressed TEST exactly when I reacted and saw the pager vibrate against my pocket, which settles it for me."
+  }
+}
