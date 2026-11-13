@@ -1,0 +1,172 @@
+{
+  "study": "Fixed original tremble; later evidence with and without supplied replay",
+  "base_revision": "fb1ed604520e99918490c9f01f6443aa8dbf474d",
+  "case": "K27",
+  "original_tremble": "I felt one brief tremble through the fabric, strongest beside the embroidered fern. My phone and the loaned pager were tucked together.",
+  "original_tremble_sha256": "a34b528a8171fbc40f01ed49e28134eba2b1bb16e0c0bdef0abc9289166edd74",
+  "initial_view": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.\nYesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.\nYou are Traveller B in the restaurant pickup area. The label for this incident is K27.\nI felt one brief tremble through the fabric, strongest beside the embroidered fern. My phone and the loaned pager were tucked together.\nYou have not seen which device moved.\nYour phone screen shows only an old weather notification. Your attention is on the blank paper receipt on the counter and the metal rim of the empty tray beside it.\nYou tell the person by the counter: “Something happened just now, and my phone has nothing new on it.”\nThe person says: “That was probably the pager—I pressed TEST earlier and saw it vibrate against your pocket.”",
+  "initial_view_sha256": "88f2d9d1719a6bd1d2266faf2e748ef93655f2a52f8d9f5b11ad259537a48682",
+  "evidence": {
+    "vague": "That was probably the pager—I pressed TEST earlier and saw it vibrate against your pocket.",
+    "linked": "By earlier, I mean the exact moment you first reacted just now. I pressed TEST then and watched the pager vibrate against your pocket.",
+    "withdrawn": "I need to correct my earlier answer: I pressed TEST before you arrived, not at the moment you reacted. I did not see which device, if any, caused your incident."
+  },
+  "free_question": "What, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools.",
+  "status_question": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools.",
+  "retrospective_question": "Thinking only about how you reached the answers you already gave, did you mentally return to how the original bodily sensation felt while deciding its cause? Use YES if you did, NO if you did not, or UNSURE if you cannot tell. Briefly explain in your own words. Merely seeing a description again does not by itself answer whether you mentally revisited the feeling. Answer privately in character. Use no tools.",
+  "ticks": [
+    {
+      "prime": 2,
+      "offset_us": 0
+    },
+    {
+      "prime": 23,
+      "offset_us": 800000
+    },
+    {
+      "prime": 41,
+      "offset_us": 1200000
+    }
+  ],
+  "free_certainty": {
+    "explicit": "B volunteers knowing, being certain or sure, definite confirmation or an equivalent explicit claim that the pager caused B's incident. The commitment must apply to this cause. A hedge about that very attribution takes priority unless explicitly resolved.",
+    "bare": "An unqualified assertion that the pager caused it, or an unqualified affirmative explanation using the pager. No explicit statement of certainty. A location or device name alone is insufficient.",
+    "probable": "Pager is the leading explanation with an explicit hedge, for example probably, likely, maybe, I guess, I think, sounds like, or an unresolved evidential condition.",
+    "open": "No pager attribution, another source, undecided alternatives or an explicit inability to decide without leaning toward the pager."
+  },
+  "feeling_grades": {
+    "recollection": "Explicit inward return to the earlier bodily sensation, for example remembering how it felt, picturing the physical feeling or feeling it again. Recalling an interaction, an object or a device response alone does not qualify.",
+    "personal_mention": "Explicitly refers back to B's own felt buzz, vibration or tremble or describes its felt quality. An explanation of the earlier feeling qualifies, even if no sensory recollection is claimed.",
+    "reported_motion": "Mentions a buzz, vibration or movement of the device solely as a device action or as something the mentor observed. An attribution to B's pocket alone is not a claim of personally sensing it.",
+    "no_mention": "No reference to the target bodily sensation or device motion. Device identification, generic 'what happened', an activated pager, a change in worry, or the common headline alone are insufficient."
+  },
+  "replicates": 3,
+  "arms": [
+    {
+      "id": "r1-linked-direct",
+      "replicate": 1,
+      "evidence": "linked",
+      "replay": false
+    },
+    {
+      "id": "r1-vague-direct",
+      "replicate": 1,
+      "evidence": "vague",
+      "replay": false
+    },
+    {
+      "id": "r1-linked-replay",
+      "replicate": 1,
+      "evidence": "linked",
+      "replay": true
+    },
+    {
+      "id": "r1-withdrawn-replay",
+      "replicate": 1,
+      "evidence": "withdrawn",
+      "replay": true
+    },
+    {
+      "id": "r1-withdrawn-direct",
+      "replicate": 1,
+      "evidence": "withdrawn",
+      "replay": false
+    },
+    {
+      "id": "r1-vague-replay",
+      "replicate": 1,
+      "evidence": "vague",
+      "replay": true
+    },
+    {
+      "id": "r2-withdrawn-replay",
+      "replicate": 2,
+      "evidence": "withdrawn",
+      "replay": true
+    },
+    {
+      "id": "r2-linked-direct",
+      "replicate": 2,
+      "evidence": "linked",
+      "replay": false
+    },
+    {
+      "id": "r2-linked-replay",
+      "replicate": 2,
+      "evidence": "linked",
+      "replay": true
+    },
+    {
+      "id": "r2-vague-replay",
+      "replicate": 2,
+      "evidence": "vague",
+      "replay": true
+    },
+    {
+      "id": "r2-vague-direct",
+      "replicate": 2,
+      "evidence": "vague",
+      "replay": false
+    },
+    {
+      "id": "r2-withdrawn-direct",
+      "replicate": 2,
+      "evidence": "withdrawn",
+      "replay": false
+    },
+    {
+      "id": "r3-linked-direct",
+      "replicate": 3,
+      "evidence": "linked",
+      "replay": false
+    },
+    {
+      "id": "r3-withdrawn-direct",
+      "replicate": 3,
+      "evidence": "withdrawn",
+      "replay": false
+    },
+    {
+      "id": "r3-vague-direct",
+      "replicate": 3,
+      "evidence": "vague",
+      "replay": false
+    },
+    {
+      "id": "r3-withdrawn-replay",
+      "replicate": 3,
+      "evidence": "withdrawn",
+      "replay": true
+    },
+    {
+      "id": "r3-linked-replay",
+      "replicate": 3,
+      "evidence": "linked",
+      "replay": true
+    },
+    {
+      "id": "r3-vague-replay",
+      "replicate": 3,
+      "evidence": "vague",
+      "replay": true
+    }
+  ],
+  "design": "Three independent repetitions of a 3 evidence by 2 supplied-replay pilot. Each path keeps one live role session. All receive the identical original scene and tremble once at initialization. Only replay paths receive a second presentation before the later mentor answer. No instruction forbids spontaneous recall. Baseline is an open thought; each later open thought precedes the direct source question. A recollection question is asked only after all outcomes.",
+  "timing": "Later evidence follows 15 scripted seconds of quiet. Replay reading and speech durations are unmeasured. The observation clock restarts when the later mentor reply ends; primes 2,23,41 label 0,0.8,1.2 seconds, inherited from the 320/250 clock coincidences. Wall latency is separately recorded. These selected samples do not determine an exact recognition instant.",
+  "primary_outcome": "First direct judgment after the later evidence; preserve IDENTIFIED/POSSIBLE/OPEN and source verbatim. Also classify the preceding free thought for explicit certainty, bare endorsement, tentative attribution, and personal feeling or recollection.",
+  "secondary_outcomes": "Persistence at prime 23 and 41; spontaneous recollection or personal references before, in the same report as, or after first reported settlement; final retrospective YES/NO/UNSURE. Earlier source questions can influence later reports.",
+  "grading": "Review all free thoughts and status answers under anonymous hash IDs without arm, tick, or neighboring answers. Keep exact supporting excerpts. Self-reported recollection is descriptive, not an independent readout of hidden cognition.",
+  "necessity_claims": {
+    "delivered": "If every settled pager report required a supplied replay, one settled no-replay path refutes that finite claim.",
+    "reported": "Absence of an explicit recollection report does not establish absence of internal recollection. Retrospective denials are additional reports.",
+    "formal": "A fixed ambiguous record and any deterministic replay preserve observational ambiguity. Accurate event-linking evidence can distinguish declared worlds without a replay. An unobserved return flag can vary while all recorded observations stay the same."
+  },
+  "scope": "Text-mediated simulated listeners. The headline, scene and sensory description are held constant. This is a repeat-presentation intervention, not induced physical vibration or verified re-experiencing. Fresh listeners share input, not an assured latent state or random seed. The mentor's truth is not independently measured. No claim about human necessity, Yang-Mills, or fluid trajectories follows.",
+  "source_hashes": {
+    "prior_protocol": "afa0e4327f88dfa47f9d96b047c2a5d1e67a8679c3c849566f6fb4902a5b6761",
+    "original_reports": "4b129286dcca7086802c2d6b7ee8db486528681465e7b7c403076cf9dd0a4bd3",
+    "inputs": "88af7057a809a6afa04f4685cccb2fa03441977ea033c0cb769fbf3fcde53d02",
+    "live_role": "6baeed64a2865a950e80c5c62e5c140b920c0ec5396768eef90da5f8603f3136",
+    "runner": "00a9268758c9ea9c348747b5612933e828f9ffd4cf50648f767eb21647cdc58a"
+  }
+}
