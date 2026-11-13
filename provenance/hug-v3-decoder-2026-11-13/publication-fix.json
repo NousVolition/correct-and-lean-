@@ -1,0 +1,8 @@
+{
+  "failed_run": 43392267267,
+  "failed_commit": "47d6cf11e154e6aa1e31682d2615a54c94d07fbb",
+  "cause": "One verified metadata file was omitted from publication: its local LF line endings differed from the remote CRLF copy, while JSON values were identical.",
+  "same_json_values": true,
+  "fix": "Add exact locally verified source-audit.json, preserve proof and source bytes",
+  "all_manifest_bindings_checked": 41
+}
