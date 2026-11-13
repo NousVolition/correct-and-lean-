@@ -53,11 +53,11 @@ The [single-system meaning](research/comparisons/hug-navier-single-system-scope-
 - [Tick 41: independent full-interval replay, phase and tolerance checks](research/hug-v3/tick-41-wave-transfer/independent-replay/README.md)
 - [Tick 41: where return miss rises in the frozen field](research/hug-v3/tick-41-radial-return/README.md)
 
-- [Follow 540 out and 872 in: overlapping local views, context origins and remaining inventory question](research/hug-v3/observer-follow-study/README.md)
+- [Follow 540 out and 872 in: nearby labels and changing context origins](research/hug-v3/observer-follow-study/README.md)
 
 - [Pair 25 origins: what stays nearby, leaves the view or changes membership](research/hug-v3/pair-origin-study/README.md)
 
-- [Pair 25 after tick 41: shared records survive; complete physical retention remains open](research/hug-v3/pair-retention-study/README.md)
+- [Pair 25 after tick 41: shared records survive while local readings change](research/hug-v3/pair-retention-study/README.md)
 
 - [Ticks 35–41 audit: endpoint agreement, intervening differences and Traveller continuity](research/tick-35-41-audit/README.md)
 
@@ -75,14 +75,14 @@ The [single-system meaning](research/comparisons/hug-navier-single-system-scope-
 ## Proof readers and verification receipts
 
 - [Finer-grid heat: time-step checks pass, grid settling still fails; four diagrams](research/hug-v3/heat-grid-study/README.md)
-- [414 Lean checks of recorded heat numbers/bits and finite rules, separate from the simulation](research/hug-v3/heat-grid-lean/README.md)
+- [414 Lean checks of recorded heat numbers, record bits and finite rules](research/hug-v3/heat-grid-lean/README.md)
 - [Heat after three writes: signed spread/accumulation; historical 16³ time-step checks pass](research/hug-v3/heat-follow-study/README.md)
-- [Heat follow-up: 56 finite Lean checks and full package build, separate from the simulation](research/hug-v3/heat-follow-lean/README.md)
+- [Heat follow-up: 56 finite Lean checks and full package build](research/hug-v3/heat-follow-lean/README.md)
 - [Heat from writing: 12 scalar and recorded-number checks; separate threshold-1 replay](research/hug-v3/heat-writing-lean/README.md)
 
-- [540/872 records: 134 finite Lean checks, separate from fluid evolution](research/hug-v3/observer-follow-lean/README.md)
+- [540/872 records: 134 Lean checks of finite rules and recorded histories](research/hug-v3/observer-follow-lean/README.md)
 
-- [Pair-25 origin records: 77 finite Lean checks; fluid evolution and complete retention remain open](research/hug-v3/pair-origin-lean/README.md)
+- [Pair-25 origins: 77 Lean checks of finite rules, recorded memberships and context accounts](research/hug-v3/pair-origin-lean/README.md)
 
 - [Pair-25 finite retention rules and recorded accounts: 40 Lean checks](research/hug-v3/pair-retention-lean/README.md)
 

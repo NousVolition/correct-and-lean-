@@ -2,7 +2,7 @@
 
 **The question:** how can a record persist while its carrier, surroundings, relationships, and later use change? What can an observer tell from a limited view?
 
-This collection develops that question through numerical studies, language-model encounters, and Lean proofs. It is also called **Correct and Lean**. Each result keeps its own assumptions and limits.
+This collection develops that question through numerical studies, language-model encounters, and Lean proofs. It is also called **Correct and Lean**. Each result links its settings, observations and checked statements.
 
 **AI-generated; dictated and directed by NousVolition, an independent researcher.** Individual files retain their source and model credits.
 
@@ -11,15 +11,15 @@ This collection develops that question through numerical studies, language-model
 ## A short reading route
 
 1. **Start with the question.** Keep two questions in view: what persists, and what can this particular observation tell us about it?
-2. **Look at one recorded example.** In [Pair 25's wider observation window](research/hug-v3/pair-origin-study/README.md), the endpoint count is 364, while observer 540 leaves and 872 arrives. The same count can hide changed membership. [Follow 540 and 872 individually](research/hug-v3/observer-follow-study/README.md) to see what stays nearby and what changes. These are recorded simulation observations, with their settings and limits attached.
+2. **Look at one recorded example.** In [Pair 25's wider observation window](research/hug-v3/pair-origin-study/README.md), the endpoint count is 364, while observer 540 leaves and 872 arrives. The same count can hide changed membership. [Follow 540 and 872 individually](research/hug-v3/observer-follow-study/README.md) to see what stays nearby and what changes.
 3. **Use the illustration to understand the viewing limit.** The penne pasta gives a continuing path a visible form. In the open-path scene, the pasta stays still while two overlapping viewing windows advance. Start from the marked piece and notice how the path continues beyond the visible window. Then [view the penne illustrations](docs/penne-leapfrog/README.md). They illustrate the viewing question. The supplied Claude credit is retained.
-4. **Read the exact mathematical claims.** The [observation package](research/ambiguous-observation-lean/README.md) starts with a table connecting each observation to the property it cannot determine. Its Tick 41 and Pair 25 proofs concern supplied summaries and numbers; Lean does not establish the simulations or their transcription.
+4. **Read the exact mathematical claims.** The [observation package](research/ambiguous-observation-lean/README.md) shows how equal readings can hide different membership, rates or derivatives. Its Tick 41 and Pair 25 proofs use the supplied summaries and numbers.
 
 For wider context, the [tick-41 guide](docs/tick-41/README.md) walks through identity, viewing window, checkpoint, and history. In the fluid studies tick 41 labels model time 1.2; the restaurant encounter has its own clock.
 
 ## Study updates
 
-Open a study for its observations, diagrams, proof scope and remaining questions.
+Open a study for its observations, diagrams and checks. **Simulation** paragraphs report numerical findings; **Lean** paragraphs name the mathematical rules and recorded-data statements checked. The [proof-status page](PROOF-STATUS.md) tracks the remaining evolution and convergence targets.
 
 <details>
 <summary><strong>Finer-grid heat: time-step checks pass; grid settling still fails — 414 separate Lean checks</strong></summary>
@@ -28,29 +28,29 @@ Open a study for its observations, diagrams, proof scope and remaining questions
 
 **Simulation:** five runs on 16³–40³ grids retain the same threshold 1, breathing intervention, 384 material points and record encoding. The 40³ time-step halving passes. Between 32³ and 40³, accumulated write heat agrees within 0.20317%, while the second and third new-write patterns differ by 1.1077% and 1.0291%. The declared grid-settling test still fails. Later spreading agrees more closely. Exact byte changes are counted separately and are not a heat-error measure.
 
-**Lean:** 414 passing targets check five finite rules and 409 recorded claims, including recorded numerical failures as exceedances. They do not run or prove the fluid simulation, derive the spatial measurements, or prove convergence. The original 56-check 16³ study, 12-check heat draft and threshold-0.015 studies remain separate historical records.
+**Lean:** 414 passing targets check five finite rules and 409 recorded claims, including recorded numerical failures as exceedances. The original 56-check 16³ study, 12-check heat draft and threshold-0.015 studies remain separate historical records.
 
 [Results and four diagrams](research/hug-v3/heat-grid-study/README.md) · [Lean scope](research/hug-v3/heat-grid-lean/README.md) · [GitHub receipt](research/hug-v3/heat-grid-lean/github-lean-receipt.json)
 
 </details>
 
 <details>
-<summary><strong>Following heat after three writes: threshold 1 — 56 Lean checks; finer grids were outside this historical study</strong></summary>
+<summary><strong>Following heat after three writes: threshold 1 — spreading, buildup and 56 Lean checks</strong></summary>
 
 ## Following heat after three writes: threshold 1
 
 ![The three write pulses spread and their whole-box totals accumulate.](research/hug-v3/heat-follow-study/heat-account.png)
 
-**Simulation findings:** in the historical breathing-on **16³** run, each write pulse broadens while earlier pulse totals remain when later writes arrive. At time **1.6**, the three writes contribute **4.18336 × 10⁻⁵** heat units. **Time-step checks passed** when changing 0.002 to 0.001: deposited heat differs by at most **0.00610%**. **Finer grids were outside this historical study; see the separate finer-grid result above.** The filtered source labels retain small negative ripples; they are signed accounts, not individual heat parcels. All three record checksums change despite close heat agreement, so identical stored bytes are not established.
+**Simulation findings:** in the historical breathing-on **16³** run, each write pulse broadens while earlier pulse totals remain when later writes arrive. At time **1.6**, the three writes contribute **4.18336 × 10⁻⁵** heat units. **Time-step checks passed** when changing 0.002 to 0.001: deposited heat differs by at most **0.00610%**. The [16³–40³ follow-up](research/hug-v3/heat-grid-study/README.md) tests spatial refinement separately. The filtered source labels retain small negative ripples; they are signed accounts, not individual heat parcels. All three record checksums change despite close heat agreement: record-bit sensitivity and heat agreement are measured separately.
 
-**Lean findings:** **56 checks** cover four finite accounting rules and exact recorded accounts/diagnostics from **2,408 rows**. The full package build and target-by-target dependency audit have their own receipt. Lean does not run or verify the fluid simulation, compute the grid-derived spread measures, or prove spatial convergence. These checks are separate from the earlier **12-check heat draft** and the **threshold-0.015 540/872 study**.
+**Lean findings:** **56 checks** cover four finite accounting rules and exact recorded accounts/diagnostics from **2,408 rows**. The full package build and target-by-target dependency audit have their own receipt. These checks are separate from the earlier **12-check heat draft** and the **threshold-0.015 540/872 study**.
 
 [Results and both diagrams](research/hug-v3/heat-follow-study/README.md) · [56 checks and scope](research/hug-v3/heat-follow-lean/README.md) · [GitHub build receipt](research/hug-v3/heat-follow-lean/github-lean-receipt.json) · [What the residual encoding comparison measures](research/hug-v3/heat-follow-study/encoding-example/README.md)
 
 </details>
 
 <details>
-<summary><strong>Heat from writing: threshold 1 — 12 Lean checks; heat spreading remains unproved</strong></summary>
+<summary><strong>Heat from writing: threshold 1 — 12 Lean checks of write heat, balance and bounds</strong></summary>
 
 ## Heat from writing: a separate threshold-1 result
 
@@ -58,12 +58,12 @@ Open a study for its observations, diagrams, proof scope and remaining questions
 
 **Recorded threshold-1 result:** the breathing-on replay at tick 41 (time 1.2, native step 0.002) has a small decrease in stored energy, so recorded heat slightly exceeds supplied work. Lean checks the exact transcribed numbers and their balance tolerance. These numbers and 12 checks are separate from the threshold-0.015 540/872 study below.
 
-**Scope of the 12-check draft:** Lean has not proved heat spreading, fluid evolution, trajectories, the connection from temperature to the bounded `tanh` parameter, or complete retention. [Draft, reading diagram, exact numbers and limits](research/hug-v3/heat-writing-lean/README.md) · [GitHub receipt](research/hug-v3/heat-writing-lean/github-lean-receipt.json)
+**Follow the heat:** the later [56-check study](research/hug-v3/heat-follow-study/README.md) measures spreading and buildup, and the [414-check study](research/hug-v3/heat-grid-study/README.md) adds grid comparisons. The 12-check draft covers the scalar rules and recorded balance described above. [Draft, reading diagram and exact numbers](research/hug-v3/heat-writing-lean/README.md) · [GitHub receipt](research/hug-v3/heat-writing-lean/github-lean-receipt.json)
 
 </details>
 
 <details>
-<summary><strong>Following observers 540 and 872 — 134 finite checks; complete retention remains unknown</strong></summary>
+<summary><strong>Following observers 540 and 872 — eight starting material labels stay nearby; 134 Lean checks</strong></summary>
 
 ## Follow 540 out and 872 in
 
@@ -71,11 +71,11 @@ Open a study for its observations, diagrams, proof scope and remaining questions
 
 **Simulation findings:** following the same after-write tick-41 state from **time 1.2 to 1.3**, each label keeps the same **eight nearby material labels** at every recorded step. In the finest run, **43.94%** of the context originally near 540 and **42.95%** of that originally near 872 remains nearby at the end; the rest is elsewhere in the basin as other context enters. Their radius-0.075 neighborhoods overlap and are views, not private cargo. Context C is not water mass. These remain the historical **threshold-0.015, breathing-on** runs. The smaller time step closely agrees, while origin shares and crossing times still differ by grid.
 
-**Lean findings:** **134 finite checks pass** for rules, recorded neighbor and crossing histories, context accounts, material-field numbers and shared-record bytes. The GitHub recheck matches the exact proof inputs and targets. It does not prove the fluid simulation, physical ownership or complete retention.
+**Lean findings:** **134 finite checks pass** for rules, recorded neighbor and crossing histories, context accounts, material-field numbers and shared-record bytes. The GitHub recheck matches the exact proof inputs and targets.
 
-**Still unknown: does everything stay with 540 and 872?** Neither has a complete private inventory in this model. A viewing boundary does not establish a break in the continuing connection or a handoff between them.
+**Follow what was tracked:** [the retention map](research/hug-v3/retention-map/README.md) brings together shared records, labels and context origins. A label leaving one view can still be followed elsewhere in the basin.
 
-[Results, crossings and limits](research/hug-v3/observer-follow-study/README.md) · [134 Lean checks](research/hug-v3/observer-follow-lean/README.md) · [GitHub proof receipt](research/hug-v3/observer-follow-study/github-lean-receipt.json)
+[Results and crossing histories](research/hug-v3/observer-follow-study/README.md) · [134 Lean checks](research/hug-v3/observer-follow-lean/README.md) · [GitHub proof receipt](research/hug-v3/observer-follow-study/github-lean-receipt.json)
 
 </details>
 
@@ -174,11 +174,11 @@ The tick-41 gap sample is taken **before the write at time 1.2**. The write pres
 
 **A wider view catches a change the count hides:** at radius 0.10, observer **540 leaves** and **872 arrives** in every run. The starting and ending count is **364**, with different members. Crossing identities agree across runs, but crossing times differ by grid. The retained-context fraction differs by only **0.048812 percentage points** at the endpoint between 40³ and 48³, yet by up to **1.344660 points earlier**. These new fractions are not established as continuum-converged.
 
-**Lean findings:** **77 finite statements pass**, checking recorded identity histories, departing and arriving IDs, material-field change numbers, full shared-memory contents and exact context-origin accounts. The three shared records remain unchanged across **2,409 payload comparisons**. Lean checks the recorded numbers and rules; it does not prove the fluid simulation, geometric interpolation or physical ownership of contents.
+**Lean findings:** **77 finite statements pass**, checking recorded identity histories, departing and arriving IDs, material-field change numbers, full shared-memory contents and exact context-origin accounts. The three shared records remain unchanged across **2,409 payload comparisons**.
 
-**Still unknown: does everything stay with the pair?** A/B have no complete private physical inventory. The windows are views, and context outside a window is not destroyed. This test starts after the tick-41 write and does not recover the earlier encounter's starting inventory.
+**Coverage of the retention studies:** these observations track shared records, labels and context origins from time 1.2 to 1.3. A complete physical inventory from the earlier encounter is still missing. The [retention map](research/hug-v3/retention-map/README.md) shows what each account follows and how the observation windows overlap.
 
-[Origin results, settings and limits](research/hug-v3/pair-origin-study/README.md) · [77 Lean checks and original receipt](research/hug-v3/pair-origin-lean/README.md) · [GitHub proof receipt](research/hug-v3/pair-origin-study/github-lean-receipt.json)
+[Origin results and settings](research/hug-v3/pair-origin-study/README.md) · [77 Lean checks and original receipt](research/hug-v3/pair-origin-lean/README.md) · [GitHub proof receipt](research/hug-v3/pair-origin-study/github-lean-receipt.json)
 
 **Earlier retention study, preserved separately:** its **459 payload comparisons** and **40 Lean statements** remain their own results. Its original 40³ local accounting check failed; a controlled correction at observation-cell crossings closed that account with unchanged simulated states and sampled values. [Earlier results and diagram](research/hug-v3/pair-retention-study/README.md) · [Earlier Lean package](research/hug-v3/pair-retention-lean/README.md) · [Earlier GitHub receipt](research/hug-v3/pair-retention-study/github-lean-receipt.json)
 
