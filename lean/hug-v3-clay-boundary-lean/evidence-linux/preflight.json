@@ -1,17 +1,20 @@
 {
+  "time_utc": "2026-11-13T08:10:48.759336+00:00",
   "uid": 1000,
-  "solution_precompiled": false,
-  "source_files": {
-    "comparator.json": "b10b297013d6ba700fdf8382a832a2b72ec9fd0fe4291daa5a0a3e435b74327b",
+  "fresh_solution_cache": true,
+  "stage": "${VERIFY_ROOT}/hug-v3-decoder-final-20261113-j5i3htj4",
+  "files": {
+    "comparator.json": "dfc30fb927e9a4e8cd53bd497ded7444e5b56a74ba1437da40546f5b2a6da451",
     "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
     "lakefile.toml": "a88e0177858e722f079c3866ce897a775ec696543e0513775b2f9107e343932d",
     "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
-    "reference-freeze.json": "e7de8dca21a11935b2c54f0ad87234c2a9a35d2e1be3daaac8f0575b9b1c41d4",
-    "run-linux-check.sh": "c2ad04879a1c3a5c7ab5aa779ef0f58a9b1e36062e5f221df7de5e771ae0f040",
-    "source-audit.json": "937b7605773b6459412bc3cc23c9d46a8b1d711ac68178fe884d14b4b70972c1",
-    "V3ClayChallenge.lean": "b04f52da1f7bc2f639629314992f7d1e5b6ed9ed01c942f040d6b935dd95fc80",
+    "README.md": "ae3ea099e7752a0aed68a9370f4062bcee33c5431bc23c0872173a0f267cf20d",
+    "reference-freeze.json": "0dc08d4509118af3fa9f9255732123dd489993d8e1df47df36190c9b7234ac7a",
+    "run-linux-check.sh": "8e136e58c4b08baefc5227aec60298fd041a294b6c0023a796ba849c38ca6dab",
+    "source-audit.json": "f152e15eef2af785383cdaa35208dcf6b1d2032156950edd1f8eda4630082f46",
+    "V3ClayChallenge.lean": "8499764675d2918969a5ad3e359bd498adb7fa7755ba4490f3ce1d930a499766",
     "V3ClayDefinitions.lean": "4c33c0f6bf7895a75203459bdf78343c62041e0d565949040945699f5bdd7424",
-    "V3ClayProofs.lean": "c56133b0691a5b9c2d381fdbbb00435831f3c8772cebd1c33eb0d8fc366a1843",
+    "V3ClayProofs.lean": "796b1c4aa145f1b71b495f1f75a938de5fe554a999a87e4b1889837637513a52",
     "V3ClayTrajectoryChallenge.lean": "cceba91bc421c8fac2a5b0a223369da9b5bce18bcf13241d0527b2e6f9dbba30",
     "V3ClayTrajectoryProofs.lean": "f3f6a976ef092fa9487365ec416b0773009dfb223f60a578b3ce64910cc475a4",
     "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
@@ -20,7 +23,9 @@
     "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
     "V3SourceProofs.lean": "bc33166378e84da1ffb2391c2c22250cb30ad3d6db69d367df539522b769f885",
     "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
-    "V3SourceSystem.lean": "ade53a326687b523c50116c43ec4234feae09019d4d012655d8616d593202f98",
+    "V3SourceSystem.lean": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d",
+    "verification-inputs.json": "0202cca428d5770c03b8edf44d025f09cb1d0684f41f21548e5b54c14182f0d4",
+    "verification-report.json": "36c7ac4be97a2afde9aed37a640704c10ac0b82d6407ea12f053daffbde6e017",
     "sources/continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
     "sources/equation_register.csv": "fa948b8e42e932ae7dc0a7310e5335e097c10a627d4225fea35c06f97cfa6cfc",
     "sources/literal_registry.json": "80690245236d254ef77d53cb17f4a89b7fa150350a85e38c1cb8376a5911a273",
@@ -42,12 +47,7 @@
     "sources/declarations/time_half.json": "a9a699a84598255bd7e8ed03b47f424600d3f1ca5e5700ba3709d13ae3dcef83",
     "sources/declarations/unit.json": "1fa0d2d08a0d2d360cf6ab093850d39509f66f44602ae9df0d6dd5d204c59efe",
     "sources/reference_gate/parameter_bounds.json": "00b748dfecec97c37c056a3ed752fdf1d3c755c289409f35d51b088e00939ee0",
-    "sources/reference_gate/run_manifest.py": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f",
-    "sources/__pycache__/continuum.cpython-312.pyc": "c1c6c9c6b2169755630cbff4e9c1e11bdcfc82ed27366354a3d922f61430faa5",
-    "sources/__pycache__/preflight.cpython-312.pyc": "525e123c194eb62def4a24452ee31d21986ecb25077c5a2f123a9b7cb348acd3",
-    "sources/__pycache__/social_base.cpython-312.pyc": "f2c485f7c94ff0fc60ba2dd223f407c4b8f131c0bff2b5df886677b5e63de5aa",
-    "sources/__pycache__/structural_hug.cpython-312.pyc": "5543fa2bc432ce4a232a95c0703a233f6d5223760bb4c94a576db84fd34997a1",
-    "sources/reference_gate/__pycache__/run_manifest.cpython-312.pyc": "2c507cd970e311fc1e231e054b3a9891ef98ca63167d28c6e31e3da43496e69c"
+    "sources/reference_gate/run_manifest.py": "fc8e1a20e513db639ef57a849c8893058598ec7fee7465b623665cdd3faf745f"
   },
   "dependencies": [
     {
@@ -108,17 +108,17 @@
   ],
   "binaries": {
     "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
-    "$VERIFY_ROOT/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
-    "$VERIFY_ROOT/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
-    "$VERIFY_ROOT/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
-    "$VERIFY_ROOT/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
-    "$VERIFY_ROOT/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
+    "${VERIFY_ROOT}/bin/lake": "46222d9eb9f73e2c00c02dfe8bd69351b7762beb59f5f31fe8d303783ec9e53d",
+    "${VERIFY_ROOT}/bin/landrun": "444b03f4247e5d6dcc72e73c4db0281800e724d8e3a9ebab6f57dcfc10f36a04",
+    "${VERIFY_ROOT}/project/.lake/packages/Comparator/.lake/build/bin/comparator": "514de8d2acbd6e0102575cd2c575e336b7c4a40daf3ae66abe97cef5e1e6b02a",
+    "${VERIFY_ROOT}/project/.lake/packages/lean4export/.lake/build/bin/lean4export": "4fa9e14cada304109e85da5048bcd411cf781a03539b3e50953e5c537074bd9e",
+    "${VERIFY_ROOT}/nanoda_lib/target/release/nanoda_bin": "40192edad5d2941b18a298b5c284a9a2c710e10da4333c78d0c0fc4eba1d7c09"
   },
-  "config": {
-    "challenge_module": "V3ClayTrajectoryChallenge",
-    "solution_module": "V3ClayTrajectoryProofs",
-    "enable_nanoda": true,
-    "theorem_names": [
+  "new_reference_freeze": {
+    "created_at_utc": "2026-11-13T07:58:31.785016+00:00",
+    "base_commit": "5ecf26d26d0dc9ac06b00dac1bccc7e459bc7b46",
+    "role": "Reference frozen before new proof implementations; original 12 targets plus 5 new targets",
+    "theorems": [
       "HugV3.Source.ClayVerified.probe_recovers_cell",
       "HugV3.Source.ClayVerified.positive_well_preserved",
       "HugV3.Source.ClayVerified.negative_well_preserved",
@@ -130,13 +130,54 @@
       "HugV3.Source.ClayVerified.boundary_preserves_clay_buffer",
       "HugV3.Source.ClayVerified.decoded_records_fixed_on_segment",
       "HugV3.Source.ClayVerified.clay_buffer_through_full_hybrid",
-      "HugV3.Source.ClayVerified.decoded_records_fixed_along_full_hybrid"
+      "HugV3.Source.ClayVerified.decoded_records_fixed_along_full_hybrid",
+      "HugV3.Source.ClayVerified.decoded_records_fixed_of_read_margin",
+      "HugV3.Source.ClayVerified.decoded_records_preserved_of_clay_buffer",
+      "HugV3.Source.ClayVerified.decoded_records_preserved_on_segment",
+      "HugV3.Source.ClayVerified.initial_read_records",
+      "HugV3.Source.ClayVerified.initial_segment_read_records"
     ],
-    "permitted_axioms": [
-      "propext",
-      "Quot.sound",
-      "Classical.choice"
-    ]
-  },
-  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)"
+    "new_theorems": [
+      "HugV3.Source.ClayVerified.decoded_records_fixed_of_read_margin",
+      "HugV3.Source.ClayVerified.decoded_records_preserved_of_clay_buffer",
+      "HugV3.Source.ClayVerified.decoded_records_preserved_on_segment",
+      "HugV3.Source.ClayVerified.initial_read_records",
+      "HugV3.Source.ClayVerified.initial_segment_read_records"
+    ],
+    "files": {
+      "V3ClayChallenge.lean": "8499764675d2918969a5ad3e359bd498adb7fa7755ba4490f3ce1d930a499766",
+      "V3ClayDefinitions.lean": "4c33c0f6bf7895a75203459bdf78343c62041e0d565949040945699f5bdd7424",
+      "V3ClayTrajectoryChallenge.lean": "cceba91bc421c8fac2a5b0a223369da9b5bce18bcf13241d0527b2e6f9dbba30",
+      "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+      "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+      "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+      "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+      "V3SourceProofs.lean": "bc33166378e84da1ffb2391c2c22250cb30ad3d6db69d367df539522b769f885",
+      "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+      "V3SourceSystem.lean": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d"
+    },
+    "before_files": {
+      "comparator.json": "b10b297013d6ba700fdf8382a832a2b72ec9fd0fe4291daa5a0a3e435b74327b",
+      "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
+      "lakefile.toml": "a88e0177858e722f079c3866ce897a775ec696543e0513775b2f9107e343932d",
+      "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+      "README.md": "ae3ea099e7752a0aed68a9370f4062bcee33c5431bc23c0872173a0f267cf20d",
+      "reference-freeze.json": "1f9a96fab432544d25a46fdcd75b90670bb6a24201ae7a9d4f33bc8b65189120",
+      "run-linux-check.sh": "8e136e58c4b08baefc5227aec60298fd041a294b6c0023a796ba849c38ca6dab",
+      "V3ClayChallenge.lean": "b04f52da1f7bc2f639629314992f7d1e5b6ed9ed01c942f040d6b935dd95fc80",
+      "V3ClayDefinitions.lean": "4c33c0f6bf7895a75203459bdf78343c62041e0d565949040945699f5bdd7424",
+      "V3ClayProofs.lean": "c56133b0691a5b9c2d381fdbbb00435831f3c8772cebd1c33eb0d8fc366a1843",
+      "V3ClayTrajectoryChallenge.lean": "cceba91bc421c8fac2a5b0a223369da9b5bce18bcf13241d0527b2e6f9dbba30",
+      "V3ClayTrajectoryProofs.lean": "f3f6a976ef092fa9487365ec416b0773009dfb223f60a578b3ce64910cc475a4",
+      "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
+      "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
+      "V3SourceGeometry.lean": "f0a7190864ae211ed9b141000dcc060f7ecf8d3f0f9141d43ccf0c3dc518304f",
+      "V3SourceMemory.lean": "77e3e4859708781de92993596004defadd4e77b61f27d452b39bd6b9c0245e07",
+      "V3SourceProofs.lean": "bc33166378e84da1ffb2391c2c22250cb30ad3d6db69d367df539522b769f885",
+      "V3SourceSocial.lean": "1f968992f77d8be1d9379532a613816b58dac6d924c2a4ebff475ff9e9d92007",
+      "V3SourceSystem.lean": "7d7fe007bbb2a9197563f6d755190e89fdc7ede96c42d8e3e6539960773a673d",
+      "verification-inputs.json": "7f8d237f05003f649f01cf36397014996877a46caff8bdb8258921beb3b97980",
+      "verification-report.json": "36c7ac4be97a2afde9aed37a640704c10ac0b82d6407ea12f053daffbde6e017"
+    }
+  }
 }

@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-11-13T08:10:49.401428+00:00",
+  "stage": "${VERIFY_ROOT}/hug-v3-decoder-final-20261113-j5i3htj4",
+  "new_targets": [
+    "HugV3.Source.ClayVerified.decoded_records_fixed_of_read_margin",
+    "HugV3.Source.ClayVerified.decoded_records_preserved_of_clay_buffer",
+    "HugV3.Source.ClayVerified.decoded_records_preserved_on_segment",
+    "HugV3.Source.ClayVerified.initial_read_records",
+    "HugV3.Source.ClayVerified.initial_segment_read_records"
+  ],
+  "total_targets": 17,
+  "comparator": {
+    "started_at_utc": "2026-11-13T08:10:49.405747+00:00",
+    "finished_at_utc": "2026-11-13T08:13:43.478744+00:00",
+    "exit": 0,
+    "log_sha256": "2a68def5adee36b5f7f62e9a00bffd3bc580ee4f670d699d7d9c22e9d788efe1"
+  },
+  "lake-build": {
+    "started_at_utc": "2026-11-13T08:13:43.496716+00:00",
+    "finished_at_utc": "2026-11-13T08:13:46.193059+00:00",
+    "exit": 0,
+    "log_sha256": "35e1e6654ccc395bdf3bdf66133472263cdfee90d6aee7cc9eb388a83d8fa30a"
+  },
+  "axioms": {
+    "started_at_utc": "2026-11-13T08:13:46.200904+00:00",
+    "finished_at_utc": "2026-11-13T08:13:49.145371+00:00",
+    "exit": 0,
+    "log_sha256": "1c1f456a3c5b3fca64b0ee7c03da80f931f6ddb250f6dd74d0995309eeb5f8a1"
+  },
+  "finished_at_utc": "2026-11-13T08:13:49.415862+00:00"
+}

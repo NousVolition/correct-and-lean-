@@ -1,0 +1,27 @@
+'HugV3.Source.ClayVerified.probe_recovers_cell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugV3.Source.ClayVerified.positive_well_preserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugV3.Source.ClayVerified.negative_well_preserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugV3.Source.ClayVerified.clay_buffer_preserved_on_segment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugV3.Source.ClayVerified.clay_buffer_implies_read_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugV3.Source.ClayVerified.initial_clay_buffer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugV3.Source.ClayVerified.write_event_preserves_clay_buffer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugV3.Source.ClayVerified.complete_event_preserves_clay_buffer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HugV3.Source.ClayVerified.boundary_preserves_clay_buffer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugV3.Source.ClayVerified.decoded_records_fixed_on_segment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugV3.Source.ClayVerified.clay_buffer_through_full_hybrid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugV3.Source.ClayVerified.decoded_records_fixed_along_full_hybrid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HugV3.Source.ClayVerified.decoded_records_fixed_of_read_margin' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HugV3.Source.ClayVerified.decoded_records_preserved_of_clay_buffer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HugV3.Source.ClayVerified.decoded_records_preserved_on_segment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HugV3.Source.ClayVerified.initial_read_records' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugV3.Source.ClayVerified.initial_segment_read_records' depends on axioms: [propext, Classical.choice, Quot.sound]

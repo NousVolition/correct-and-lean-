@@ -14,7 +14,12 @@
     "HugV3.Source.ClayVerified.boundary_preserves_clay_buffer",
     "HugV3.Source.ClayVerified.decoded_records_fixed_on_segment",
     "HugV3.Source.ClayVerified.clay_buffer_through_full_hybrid",
-    "HugV3.Source.ClayVerified.decoded_records_fixed_along_full_hybrid"
+    "HugV3.Source.ClayVerified.decoded_records_fixed_along_full_hybrid",
+    "HugV3.Source.ClayVerified.decoded_records_fixed_of_read_margin",
+    "HugV3.Source.ClayVerified.decoded_records_preserved_of_clay_buffer",
+    "HugV3.Source.ClayVerified.decoded_records_preserved_on_segment",
+    "HugV3.Source.ClayVerified.initial_read_records",
+    "HugV3.Source.ClayVerified.initial_segment_read_records"
   ],
   "permitted_axioms": [
     "propext",

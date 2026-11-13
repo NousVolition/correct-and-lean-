@@ -1,0 +1,40 @@
+✔ [3117/3127] Built V3SourceCore (30s)
+✔ [3118/3127] Built V3SourceMemory (12s)
+✔ [3119/3127] Built V3SourceSocial (14s)
+✔ [3120/3127] Built V3SourceFlow (12s)
+✔ [3121/3127] Built V3SourceGeometry (66s)
+✔ [3122/3127] Built V3SourceSystem (12s)
+✔ [3123/3127] Built V3ClayDefinitions (10s)
+⚠ [3124/3127] Built V3SourceProofs (11s)
+warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+✖ [3125/3127] Building V3ClayProofs (50s)
+trace: .> LEAN_PATH=${VERIFY_ROOT}/project/.lake/packages/Cli/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/batteries/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/Qq/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/aesop/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/proofwidgets/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/importGraph/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/LeanSearchClient/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/plausible/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/lean4export/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/mathlib/.lake/build/lib/lean:${VERIFY_ROOT}/project/.lake/packages/Comparator/.lake/build/lib/lean:/tmp/hug-v3-decoder-development-20261113-z2u7bkbf/.lake/build/lib/lean /opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean /tmp/hug-v3-decoder-development-20261113-z2u7bkbf/V3ClayProofs.lean -o /tmp/hug-v3-decoder-development-20261113-z2u7bkbf/.lake/build/lib/lean/V3ClayProofs.olean -i /tmp/hug-v3-decoder-development-20261113-z2u7bkbf/.lake/build/lib/lean/V3ClayProofs.ilean -c /tmp/hug-v3-decoder-development-20261113-z2u7bkbf/.lake/build/ir/V3ClayProofs.c --setup /tmp/hug-v3-decoder-development-20261113-z2u7bkbf/.lake/build/ir/V3ClayProofs.setup.json --json
+warning: V3ClayProofs.lean:289:10: Possibly looping simp theorem: `slotBytes.eq_1`
+
+Note: Possibly caused by: `probe_recovers_cell`, `List.ofFn_succ`, `Fin.isValue`, `Fin.coe_ofNat_eq_mod`, `Nat.zero_mod`, `zero_mul`, `zero_add`, `Fin.val_succ`, `one_mul`, `Nat.reduceAdd`, and `Nat.reduceMul`
+
+Hint: You can disable a simp theorem from the default simp set by passing `- theoremName` to `simp`.
+error: V3ClayProofs.lean:289:4: Tactic `simp` failed with a nested error:
+maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+error: V3ClayProofs.lean:293:4: Tactic `simp` failed with a nested error:
+maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+error: V3ClayProofs.lean:281:41: unsolved goals
+G : Geometry
+hm : ∀ (l : Cell), 1 / 200 ≤ |probeEstimate (initial G) l|
+hbytes : ∀ (slot : Fin 4), slotBytes (initial G) slot = List.replicate 4658 0
+hu : ∀ (slot : Fin 4), unpack (slotBytes (initial G) slot) = some none
+⊢ ∀ (x : Cell), 200⁻¹ ≤ |probeEstimate (initial G) x|
+warning: V3ClayProofs.lean:294:21: This simp argument is unused:
+  hm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [readRecords, hu, List.ofFn_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Some required targets logged failures:
+- V3ClayProofs
+error: build failed

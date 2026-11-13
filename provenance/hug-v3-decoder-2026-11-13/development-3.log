@@ -1,0 +1,5 @@
+⚠ [3124/3127] Replayed V3SourceProofs
+warning: V3SourceProofs.lean:82:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+✔ [3125/3127] Built V3ClayProofs (32s)
+✔ [3126/3127] Built V3ClayTrajectoryProofs (7.4s)
+Build completed successfully (3127 jobs).

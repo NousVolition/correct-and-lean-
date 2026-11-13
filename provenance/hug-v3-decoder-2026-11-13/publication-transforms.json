@@ -1,0 +1,27 @@
+{
+  "lean/hug-v3-clay-boundary-lean/evidence-linux/preflight.json": {
+    "raw_private_sha256": "3f0176c446089a1fa3d74e2e25df68f8787ff6c98f7535a4d623862b4c9bdb34",
+    "published_sha256": "9a6ffb859dd8e279adb6c3f411f5db857160f8d7a10c524b7d8cc20f95333f64",
+    "change": "Personal verifier/workspace paths replaced by environment-variable placeholders; raw private originals retained."
+  },
+  "provenance/hug-v3-decoder-2026-11-13/development-1.log": {
+    "raw_private_sha256": "3399bdedfc0feec4ed9863be2359b87379b487f78ee1b1c72749cfc5e7dbd320",
+    "published_sha256": "94a668273595853173250276acc41226391d0172a34c0a18e671afa78d61c0e0",
+    "change": "Personal verifier/workspace paths replaced by environment-variable placeholders; raw private originals retained."
+  },
+  "provenance/hug-v3-decoder-2026-11-13/development-2.log": {
+    "raw_private_sha256": "6f5349dba246a04c63c3d17899a3df3ef7c1477a074c8a6e2f0b55a5abc1d188",
+    "published_sha256": "c8ef71671e74d0b7271c06146dc528a779cc6c8bdd25f58063636cb181a31192",
+    "change": "Personal verifier/workspace paths replaced by environment-variable placeholders; raw private originals retained."
+  },
+  "provenance/hug-v3-decoder-2026-11-13/development.json": {
+    "raw_private_sha256": "75629b093ad695c2bf5298a289a506d04f24e90f93e9aade686367ce8ff21591",
+    "published_sha256": "e9d88af824ef075866d7bbf0abd9a7e2f9b32f8b58b85a45443dc23565f31d51",
+    "change": "Personal verifier/workspace paths replaced by environment-variable placeholders; raw private originals retained."
+  },
+  "provenance/hug-v3-decoder-2026-11-13/verification.json": {
+    "raw_private_sha256": "4cfac5951eecb9bbd184198a95273ffe628854b861c89cfdfd5ba2750b706c27",
+    "published_sha256": "dc1ca44ee083dda79451d2a5e0fa800815df3a8ff55e0991a8131ddd3fc7fd8d",
+    "change": "Personal verifier/workspace paths replaced by environment-variable placeholders; raw private originals retained."
+  }
+}

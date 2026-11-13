@@ -1,0 +1,87 @@
+{
+  "HugV3.Source.ClayVerified.probe_recovers_cell": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.positive_well_preserved": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.negative_well_preserved": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.clay_buffer_preserved_on_segment": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.clay_buffer_implies_read_margin": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.initial_clay_buffer": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.write_event_preserves_clay_buffer": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.complete_event_preserves_clay_buffer": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.boundary_preserves_clay_buffer": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.decoded_records_fixed_on_segment": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.clay_buffer_through_full_hybrid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.decoded_records_fixed_along_full_hybrid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.decoded_records_fixed_of_read_margin": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.decoded_records_preserved_of_clay_buffer": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.decoded_records_preserved_on_segment": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.initial_read_records": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "HugV3.Source.ClayVerified.initial_segment_read_records": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

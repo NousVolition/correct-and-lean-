@@ -213,5 +213,110 @@ theorem decoded_records_fixed_on_segment (s : ℝ → State) (a b : ℝ)
     simpa only [probe_recovers_cell] using hm a ha
   simp only [readRecords,hgt,hga,hbytes]
 
+/-- The decoder's result is fixed by a continuous memory path with read margin.
+Unlike `decoded_records_fixed_on_segment`, this does not assume a successful
+read at every time. It also preserves failure if the starting bytes are invalid. -/
+theorem decoded_records_fixed_of_read_margin (s : ℝ → State) (a b : ℝ)
+    (hc : ∀ l, ContinuousOn (fun t => (s t).b l) (Icc a b))
+    (hm : ∀ t ∈ Icc a b, ∀ l, (1/200:ℝ) ≤ |(s t).b l|) :
+    ∀ t ∈ Icc a b, readRecords (s t) = readRecords (s a) := by
+  classical
+  intro t ht
+  have ha : a ∈ Icc a b := left_mem_Icc.mpr (ht.1.trans ht.2)
+  have hsign : ∀ l, (0 < probeEstimate (s t) l ↔ 0 < probeEstimate (s a) l) := by
+    intro l
+    simp only [probe_recovers_cell]
+    apply sign_fixed (fun x => (s x).b l) a b t (hc l) _ ht
+    intro x hx hz
+    have h := hm x hx l
+    rw [hz, abs_zero] at h
+    norm_num at h
+  have hbytes : slotBytes (s t) = slotBytes (s a) := by
+    funext slot
+    unfold slotBytes
+    congr 1
+    funext byte
+    apply Finset.sum_congr rfl
+    intro bit _
+    simp only [hsign]
+  have hgt : ∀ l, (1/200:ℝ) ≤ |probeEstimate (s t) l| := by
+    simpa only [probe_recovers_cell] using hm t ht
+  have hga : ∀ l, (1/200:ℝ) ≤ |probeEstimate (s a) l| := by
+    simpa only [probe_recovers_cell] using hm a ha
+  simp only [readRecords, hgt, hga, hbytes]
+
+/-- One successful starting read, together with the buffer, suffices for every
+later read on the interval. The bytes, checksum and decoded fields stay fixed. -/
+theorem decoded_records_preserved_of_clay_buffer (s : ℝ → State) (a b : ℝ)
+    (records : List (Fin 4 × Record))
+    (hc : ∀ l, ContinuousOn (fun t => (s t).b l) (Icc a b))
+    (hb : ∀ t ∈ Icc a b, ClayBuffer (s t))
+    (hr : readRecords (s a) = some records) :
+    ∀ t ∈ Icc a b, readRecords (s t) = some records := by
+  have hm : ∀ t ∈ Icc a b, ∀ l, (1/200:ℝ) ≤ |(s t).b l| := by
+    intro t ht l
+    have h := hb t ht l
+    linarith
+  intro t ht
+  exact (decoded_records_fixed_of_read_margin s a b hc hm t ht).trans hr
+
+/-- Use the unchanged fabric equation and the existing deformation hypothesis
+to prove decoding succeeds throughout the interval, from a single initial read. -/
+theorem decoded_records_preserved_on_segment (s : ℝ → State) (a b : ℝ)
+    (records : List (Fin 4 × Record))
+    (hc : ∀ l, ContinuousOn (fun t => (s t).b l) (Icc a b))
+    (hd : ∀ l, ∀ t ∈ Ico a b, HasDerivWithinAt (fun τ => (s τ).b l)
+      (fabricRate (fabricStrain (s t).F l) ((s t).b l)) (Ici t) t)
+    (hF : ∀ l, ∀ t ∈ Ico a b,
+      (∑ i, ((s t).F (point l) i (axis l))^2) ≤ (2:ℝ))
+    (ha : ClayBuffer (s a))
+    (hr : readRecords (s a) = some records) :
+    ∀ t ∈ Icc a b, readRecords (s t) = some records := by
+  exact decoded_records_preserved_of_clay_buffer s a b records hc
+    (clay_buffer_preserved_on_segment s a b hc hd hF ha) hr
+
+/-- The exact initial state decodes successfully to four empty slots and hence
+an empty record list. This is a kernel proof of the concrete decoder. -/
+theorem initial_read_records (G : Geometry) :
+    readRecords (initial G) = some [] := by
+  classical
+  have hm : ∀ l, (1/200:ℝ) ≤ |probeEstimate (initial G) l| := by
+    intro l
+    rw [probe_recovers_cell]
+    norm_num [initial]
+  have hbytes : ∀ slot, slotBytes (initial G) slot = List.replicate 4658 0 := by
+    intro slot
+    have hp : ∀ l, ¬ (0 < probeEstimate (initial G) l) := by
+      intro l
+      rw [probe_recovers_cell]
+      norm_num [initial]
+    simp only [slotBytes, hp, ite_false, Finset.sum_const_zero, List.ofFn_const]
+  have hu : ∀ slot, unpack (slotBytes (initial G) slot) = some none := by
+    intro slot
+    rw [hbytes]
+    have hz : (List.replicate 4658 (0:ℕ)).all (· == 0) = true := by
+      rw [List.all_replicate]
+      rfl
+    rw [unpack, hz]
+    rfl
+  simp only [readRecords, hm, hu]
+  norm_num [List.ofFn_succ]
+
+/-- The first interval has no assumed decoder-success premise. Its concrete
+initial read is proved above; the differential and deformation premises remain. -/
+theorem initial_segment_read_records (G : Geometry) (s : ℝ → State) (a b : ℝ)
+    (hc : ∀ l, ContinuousOn (fun t => (s t).b l) (Icc a b))
+    (hd : ∀ l, ∀ t ∈ Ico a b, HasDerivWithinAt (fun τ => (s τ).b l)
+      (fabricRate (fabricStrain (s t).F l) ((s t).b l)) (Ici t) t)
+    (hF : ∀ l, ∀ t ∈ Ico a b,
+      (∑ i, ((s t).F (point l) i (axis l))^2) ≤ (2:ℝ))
+    (hinit : s a = initial G) :
+    ∀ t ∈ Icc a b, readRecords (s t) = some [] := by
+  apply decoded_records_preserved_on_segment s a b [] hc hd hF
+  · rw [hinit]
+    exact initial_clay_buffer G
+  · rw [hinit]
+    exact initial_read_records G
+
 end
 end HugV3.Source.ClayVerified

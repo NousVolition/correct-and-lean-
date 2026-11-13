@@ -1,6 +1,6 @@
 {
   "files": {
-    "V3ClayChallenge.lean": "b04f52da1f7bc2f639629314992f7d1e5b6ed9ed01c942f040d6b935dd95fc80",
+    "V3ClayChallenge.lean": "8499764675d2918969a5ad3e359bd498adb7fa7755ba4490f3ce1d930a499766",
     "V3ClayDefinitions.lean": "4c33c0f6bf7895a75203459bdf78343c62041e0d565949040945699f5bdd7424",
     "V3SourceCore.lean": "d32dbdc25d512c66f0f7c4b6ce3e9a1aaa2fd44ec472fa7672c51fd2b5a5ac27",
     "V3SourceFlow.lean": "6d0de72dd9ea0f2b72d612ae0bb79f05c1c215a3785c2f380b9a04681c35e651",
@@ -50,9 +50,16 @@
     "HugV3.Source.ClayVerified.boundary_preserves_clay_buffer",
     "HugV3.Source.ClayVerified.decoded_records_fixed_on_segment",
     "HugV3.Source.ClayVerified.clay_buffer_through_full_hybrid",
-    "HugV3.Source.ClayVerified.decoded_records_fixed_along_full_hybrid"
+    "HugV3.Source.ClayVerified.decoded_records_fixed_along_full_hybrid",
+    "HugV3.Source.ClayVerified.decoded_records_fixed_of_read_margin",
+    "HugV3.Source.ClayVerified.decoded_records_preserved_of_clay_buffer",
+    "HugV3.Source.ClayVerified.decoded_records_preserved_on_segment",
+    "HugV3.Source.ClayVerified.initial_read_records",
+    "HugV3.Source.ClayVerified.initial_segment_read_records"
   ],
-  "solution_existed": "First ten: no at original freeze; last two: no at this extension freeze.",
-  "scope": "Twelve Clay-boundary consequences; FullExistenceUniqueness remains unproved.",
-  "revision_note": "The original ten statements and all source definitions are unchanged. Added two explicit conditional consequences for Solves. Their proof module did not exist at this freeze. First-ten proof already existed; no first-ten theorem statement changed. Lake default target changed to the aggregate proof module."
+  "solution_existed": "The original twelve proofs existed. The five new reference statements were frozen before their implementations.",
+  "scope": "Seventeen statements: twelve existing memory-boundary results and five new decoder-preservation results. Full existence and write acceptance remain open.",
+  "revision_note": "No existing theorem statement or model definition changed. Added five statements to the same package.",
+  "new_reference_frozen_at_utc": "2026-11-13T07:58:31.785016+00:00",
+  "base_commit": "5ecf26d26d0dc9ac06b00dac1bccc7e459bc7b46"
 }
