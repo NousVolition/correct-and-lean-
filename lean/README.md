@@ -18,6 +18,8 @@ A [separate Lean proof](../research/ambiguous-observation-lean/Pair25Instance.le
 
 The **19 core packages below explore the wider project’s model questions**: what follows from the rules, whether evolution exists and is unique, and how memory writes and delays behave. Pair 25’s summary and recorded-data checks are separate from this core list. Each entry distinguishes **Proved** from **Unfinished**.
 
+**Numerical evidence:** The [overlapping-writes chart](#overlapping-writes-a-numerical-example) reports finite numerical results and checks of saved data relevant to packages 10–17. These results are not Lean proofs; full spatial and memory-system existence, uniqueness and continuation remain unproved.
+
 Read **PASS** as: “the precise statements submitted for this package passed the checks, under their stated assumptions.” A package can have passing component proofs while its larger goal remains unfinished. The fresh run covered all 19 packages; its 306 checked declarations overlap across packages.
 
 The **first three packages concern the seven-variable A/S model**. In its interpretation, Smoke and Clay are one agent’s inward speaking and listening positions.
