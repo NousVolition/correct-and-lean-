@@ -1,0 +1,11 @@
+{
+  "kind": "Exact written-decimal inputs from the published threshold-1 numerical study",
+  "source_commit": "a4cc130568fe8318b809ab795709df427dc1653f",
+  "repository_path": "research/hug-v3/threshold-one-window-study",
+  "files": {
+    "measurements.json": "c392b4e070e0d6cc4cf44d4210d0fc0adfd8353d9ac2436db121fbaa7fa03d85",
+    "measurements.csv": "53b5b50c874dcf95c5950f587f06c77eb817d95603f26605ed2ebe1394a4f9aa",
+    "measurements-tight.json": "82888afd2eacf39f7051e9a8bd288e3cd376ce927b40df38cb4d0741f3c44880",
+    "measurements-tight.csv": "08a470393a9f167092ee21fdc87e29c15a0a174f5763b7e17b6a65f88a48c5e9"
+  }
+}

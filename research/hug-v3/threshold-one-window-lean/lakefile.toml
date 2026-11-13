@@ -1,0 +1,12 @@
+name = "thresholdOneWindowRecords"
+version = "0.1.0"
+defaultTargets = ["WindowRecordChecks"]
+
+[[lean_lib]]
+name = "WindowRecordTypes"
+
+[[lean_lib]]
+name = "WindowRecordData"
+
+[[lean_lib]]
+name = "WindowRecordChecks"
