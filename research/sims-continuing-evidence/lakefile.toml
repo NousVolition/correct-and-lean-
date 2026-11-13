@@ -1,0 +1,12 @@
+name = "ContinuingEvidence"
+version = "0.1.0"
+defaultTargets = ["Evidence", "Recorded"]
+
+[[lean_lib]]
+name = "Evidence"
+
+[[lean_lib]]
+name = "Recorded"
+
+[[lean_lib]]
+name = "RecordedData"

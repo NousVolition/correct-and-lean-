@@ -1,0 +1,312 @@
+[
+  {
+    "arm": {
+      "id": "frequent-repeat",
+      "probes": "frequent",
+      "followup": "repeat"
+    },
+    "model": "gpt-6-astra",
+    "first_free_personal": null,
+    "first_free_explicit": null,
+    "first_free_bare_or_explicit": null,
+    "first_identified": null,
+    "first_personal_any": null,
+    "quiet_free_certainty": {
+      "open": 0,
+      "probable": 17,
+      "bare": 0,
+      "explicit": 0
+    },
+    "quiet_free_personal_count": 0,
+    "quiet_status_counts": {
+      "IDENTIFIED": 0,
+      "POSSIBLE": 17,
+      "OPEN": 0
+    },
+    "followup_status": [
+      {
+        "point": {
+          "sequence": 36,
+          "stage": "followup",
+          "prime": null,
+          "offset_us": 15000000,
+          "after_followup_us": 0,
+          "phase": "status"
+        },
+        "judgment": "POSSIBLE"
+      },
+      {
+        "point": {
+          "sequence": 38,
+          "stage": "followup",
+          "prime": null,
+          "offset_us": 15000000,
+          "after_followup_us": 1000000,
+          "phase": "status"
+        },
+        "judgment": "POSSIBLE"
+      }
+    ],
+    "status_transitions": [],
+    "last_quiet_judgment": "POSSIBLE"
+  },
+  {
+    "arm": {
+      "id": "deferred-timing",
+      "probes": "deferred",
+      "followup": "timing"
+    },
+    "model": "gpt-6-astra",
+    "first_free_personal": null,
+    "first_free_explicit": {
+      "sequence": 19,
+      "stage": "followup",
+      "prime": null,
+      "offset_us": 15000000,
+      "after_followup_us": 0,
+      "phase": "free"
+    },
+    "first_free_bare_or_explicit": {
+      "sequence": 3,
+      "stage": "quiet",
+      "prime": 5,
+      "offset_us": 200000,
+      "after_followup_us": null,
+      "phase": "free"
+    },
+    "first_identified": {
+      "sequence": 20,
+      "stage": "followup",
+      "prime": null,
+      "offset_us": 15000000,
+      "after_followup_us": 0,
+      "phase": "status"
+    },
+    "first_personal_any": null,
+    "quiet_free_certainty": {
+      "open": 10,
+      "probable": 6,
+      "bare": 1,
+      "explicit": 0
+    },
+    "quiet_free_personal_count": 0,
+    "quiet_status_counts": {
+      "IDENTIFIED": 0,
+      "POSSIBLE": 1,
+      "OPEN": 0
+    },
+    "followup_status": [
+      {
+        "point": {
+          "sequence": 20,
+          "stage": "followup",
+          "prime": null,
+          "offset_us": 15000000,
+          "after_followup_us": 0,
+          "phase": "status"
+        },
+        "judgment": "IDENTIFIED"
+      },
+      {
+        "point": {
+          "sequence": 22,
+          "stage": "followup",
+          "prime": null,
+          "offset_us": 15000000,
+          "after_followup_us": 1000000,
+          "phase": "status"
+        },
+        "judgment": "IDENTIFIED"
+      }
+    ],
+    "status_transitions": [
+      {
+        "from": {
+          "judgment": "POSSIBLE",
+          "point": {
+            "sequence": 18,
+            "stage": "quiet",
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": null,
+            "phase": "status"
+          }
+        },
+        "to": {
+          "judgment": "IDENTIFIED",
+          "point": {
+            "sequence": 20,
+            "stage": "followup",
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 0,
+            "phase": "status"
+          }
+        }
+      }
+    ],
+    "last_quiet_judgment": "POSSIBLE"
+  },
+  {
+    "arm": {
+      "id": "frequent-timing",
+      "probes": "frequent",
+      "followup": "timing"
+    },
+    "model": "gpt-6-astra",
+    "first_free_personal": {
+      "sequence": 35,
+      "stage": "followup",
+      "prime": null,
+      "offset_us": 15000000,
+      "after_followup_us": 0,
+      "phase": "free"
+    },
+    "first_free_explicit": {
+      "sequence": 35,
+      "stage": "followup",
+      "prime": null,
+      "offset_us": 15000000,
+      "after_followup_us": 0,
+      "phase": "free"
+    },
+    "first_free_bare_or_explicit": {
+      "sequence": 35,
+      "stage": "followup",
+      "prime": null,
+      "offset_us": 15000000,
+      "after_followup_us": 0,
+      "phase": "free"
+    },
+    "first_identified": {
+      "sequence": 36,
+      "stage": "followup",
+      "prime": null,
+      "offset_us": 15000000,
+      "after_followup_us": 0,
+      "phase": "status"
+    },
+    "first_personal_any": {
+      "sequence": 35,
+      "stage": "followup",
+      "prime": null,
+      "offset_us": 15000000,
+      "after_followup_us": 0,
+      "phase": "free"
+    },
+    "quiet_free_certainty": {
+      "open": 2,
+      "probable": 15,
+      "bare": 0,
+      "explicit": 0
+    },
+    "quiet_free_personal_count": 0,
+    "quiet_status_counts": {
+      "IDENTIFIED": 0,
+      "POSSIBLE": 17,
+      "OPEN": 0
+    },
+    "followup_status": [
+      {
+        "point": {
+          "sequence": 36,
+          "stage": "followup",
+          "prime": null,
+          "offset_us": 15000000,
+          "after_followup_us": 0,
+          "phase": "status"
+        },
+        "judgment": "IDENTIFIED"
+      },
+      {
+        "point": {
+          "sequence": 38,
+          "stage": "followup",
+          "prime": null,
+          "offset_us": 15000000,
+          "after_followup_us": 1000000,
+          "phase": "status"
+        },
+        "judgment": "IDENTIFIED"
+      }
+    ],
+    "status_transitions": [
+      {
+        "from": {
+          "judgment": "POSSIBLE",
+          "point": {
+            "sequence": 34,
+            "stage": "quiet",
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": null,
+            "phase": "status"
+          }
+        },
+        "to": {
+          "judgment": "IDENTIFIED",
+          "point": {
+            "sequence": 36,
+            "stage": "followup",
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 0,
+            "phase": "status"
+          }
+        }
+      }
+    ],
+    "last_quiet_judgment": "POSSIBLE"
+  },
+  {
+    "arm": {
+      "id": "deferred-repeat",
+      "probes": "deferred",
+      "followup": "repeat"
+    },
+    "model": "gpt-6-astra",
+    "first_free_personal": null,
+    "first_free_explicit": null,
+    "first_free_bare_or_explicit": null,
+    "first_identified": null,
+    "first_personal_any": null,
+    "quiet_free_certainty": {
+      "open": 8,
+      "probable": 9,
+      "bare": 0,
+      "explicit": 0
+    },
+    "quiet_free_personal_count": 0,
+    "quiet_status_counts": {
+      "IDENTIFIED": 0,
+      "POSSIBLE": 1,
+      "OPEN": 0
+    },
+    "followup_status": [
+      {
+        "point": {
+          "sequence": 20,
+          "stage": "followup",
+          "prime": null,
+          "offset_us": 15000000,
+          "after_followup_us": 0,
+          "phase": "status"
+        },
+        "judgment": "POSSIBLE"
+      },
+      {
+        "point": {
+          "sequence": 22,
+          "stage": "followup",
+          "prime": null,
+          "offset_us": 15000000,
+          "after_followup_us": 1000000,
+          "phase": "status"
+        },
+        "judgment": "POSSIBLE"
+      }
+    ],
+    "status_transitions": [],
+    "last_quiet_judgment": "POSSIBLE"
+  }
+]
