@@ -1,0 +1,189 @@
+ℹ [3418/3428] Replayed BreathingDriver
+info: BreathingDriver.lean:172:0: 'BreathingDriver.push_ignores_state' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BreathingDriver.lean:173:0: 'BreathingDriver.push_cannot_report_state' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BreathingDriver.lean:174:0: 'BreathingDriver.amplitude_repeats' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BreathingDriver.lean:175:0: 'BreathingDriver.amplitude_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BreathingDriver.lean:176:0: 'BreathingDriver.full_peak_at_tick_41' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BreathingDriver.lean:177:0: 'BreathingDriver.full_peak_at_start' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BreathingDriver.lean:178:0: 'BreathingDriver.power_reverses_with_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BreathingDriver.lean:179:0: 'BreathingDriver.feeds_one_flow_drains_its_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BreathingDriver.lean:180:0: 'BreathingDriver.push_repeats' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BreathingDriver.lean:181:0: 'BreathingDriver.push_bounded_by_pattern' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BreathingDriver.lean:182:0: 'BreathingDriver.push_bounded_for_unit_pattern' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BreathingDriver.lean:183:0: 'BreathingDriver.vector_power_reverses_with_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BreathingDriver.lean:184:0: 'BreathingDriver.vector_feeds_one_flow_drains_its_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3419/3428] Replayed ClayFabric
+info: ClayFabric.lean:269:0: 'ClayFabric.upper_mark_rests' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:270:0: 'ClayFabric.lower_mark_rests' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:271:0: 'ClayFabric.mismatched_strain_moves_the_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:272:0: 'ClayFabric.barrier_is_finite_and_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:273:0: 'ClayFabric.heat_is_never_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:274:0: 'ClayFabric.settling_turns_energy_into_heat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:275:0: 'ClayFabric.probe_reads_the_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:276:0: 'ClayFabric.mark_moves_while_bit_stays' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:277:0: 'ClayFabric.stored_bit_cannot_give_back_the_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:278:0: 'ClayFabric.imprint_moves_toward_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:279:0: 'ClayFabric.kept_shape_cannot_tell_how_hard' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:280:0: 'ClayFabric.gradient_at_lower_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:281:0: 'ClayFabric.mismatched_strain_moves_lower_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:282:0: 'ClayFabric.energy_has_derivative_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:283:0: 'ClayFabric.settling_energy_rate_nonpositive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:284:0: 'ClayFabric.distinct_marks_same_boolean_bit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:285:0: 'ClayFabric.boolean_bit_cannot_give_back_the_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:286:0: 'ClayFabric.example_marks_clear_read_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClayFabric.lean:287:0: 'ClayFabric.boolean_bit_cannot_recover_margin_accepted_marks' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3420/3428] Replayed ClayMemoryInstance
+info: ClayMemoryInstance.lean:366:0: 'ClayMemoryInstance.group_count' does not depend on any axioms
+info: ClayMemoryInstance.lean:367:0: 'ClayMemoryInstance.every_group_has_two_histories' does not depend on any axioms
+info: ClayMemoryInstance.lean:368:0: 'ClayMemoryInstance.different_past_stress' depends on axioms: [propext, Quot.sound]
+info: ClayMemoryInstance.lean:369:0: 'ClayMemoryInstance.present_stress_cannot_give_past_stress' depends on axioms: [propext, Quot.sound]
+info: ClayMemoryInstance.lean:370:0: 'ClayMemoryInstance.four_kPa_pair' does not depend on any axioms
+info: ClayMemoryInstance.lean:371:0: 'ClayMemoryInstance.present_values_are_distinct' does not depend on any axioms
+info: ClayMemoryInstance.lean:372:0: 'ClayMemoryInstance.every_group_has_distinct_rows' does not depend on any axioms
+ℹ [3421/3428] Replayed FabricMemory
+info: FabricMemory.lean:181:0: 'FabricMemory.layout' does not depend on any axioms
+info: FabricMemory.lean:182:0: 'FabricMemory.write_keeps_every_record' depends on axioms: [propext, Quot.sound]
+info: FabricMemory.lean:183:0: 'FabricMemory.repeated_event_is_refused' depends on axioms: [propext, Quot.sound]
+info: FabricMemory.lean:184:0: 'FabricMemory.full_fabric_refuses' depends on axioms: [propext, Quot.sound]
+info: FabricMemory.lean:185:0: 'FabricMemory.the_three_writes_and_the_limit' depends on axioms: [propext, Quot.sound]
+info: FabricMemory.lean:186:0: 'FabricMemory.upper_mark_reads_one' depends on axioms: [propext, Quot.sound]
+info: FabricMemory.lean:187:0: 'FabricMemory.lower_mark_reads_zero' depends on axioms: [propext, Quot.sound]
+info: FabricMemory.lean:188:0: 'FabricMemory.barrier_is_refused' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: FabricMemory.lean:189:0: 'FabricMemory.every_cell_moved_and_no_bit_flipped' does not depend on any axioms
+info: FabricMemory.lean:190:0: 'FabricMemory.third_write_touched_exactly_one_slot' does not depend on any axioms
+info: FabricMemory.lean:191:0: 'FabricMemory.decoded_records_cannot_give_the_marks' does not depend on any axioms
+ℹ [3422/3428] Replayed GuardTwoEffects
+info: GuardTwoEffects.lean:209:0: 'ActiveHug.GuardTwoEffects.one_opening_two_effects' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GuardTwoEffects.lean:210:0: 'ActiveHug.GuardTwoEffects.reversal_keeps_guard_update_AB' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GuardTwoEffects.lean:211:0: 'ActiveHug.GuardTwoEffects.reversal_keeps_guard_update_BA' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GuardTwoEffects.lean:212:0: 'ActiveHug.GuardTwoEffects.reversal_keeps_guard_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GuardTwoEffects.lean:213:0: 'ActiveHug.GuardTwoEffects.guard_response_same_after_reversal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: GuardTwoEffects.lean:214:0: 'ActiveHug.GuardTwoEffects.guard_response_cannot_tell_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: GuardTwoEffects.lean:215:0: 'ActiveHug.GuardTwoEffects.admittedToB_is_size' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GuardTwoEffects.lean:216:0: 'ActiveHug.GuardTwoEffects.guard_loss_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GuardTwoEffects.lean:217:0: 'ActiveHug.GuardTwoEffects.guard_response_cannot_tell_positive_motion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [3423/3428] Replayed PressureBlindToBreathing
+info: PressureBlindToBreathing.lean:170:0: 'PressureBlindToBreathing.pressure_ignores_divergence_free_push' depends on axioms: [propext, Quot.sound]
+info: PressureBlindToBreathing.lean:171:0: 'PressureBlindToBreathing.projection_passes_divergence_free_push' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PressureBlindToBreathing.lean:172:0: 'PressureBlindToBreathing.projection_fixes_divergence_free_push' depends on axioms: [propext, Quot.sound]
+info: PressureBlindToBreathing.lean:173:0: 'PressureBlindToBreathing.projected_rate_is_divergence_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PressureBlindToBreathing.lean:174:0: 'PressureBlindToBreathing.pressure_cannot_tell_whether_breathing_is_on' depends on axioms: [propext, Quot.sound]
+info: PressureBlindToBreathing.lean:175:0: 'PressureBlindToBreathing.a_divergence_free_push_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PressureBlindToBreathing.lean:176:0: 'PressureBlindToBreathing.zero_mode_pressure' depends on axioms: [propext, Quot.sound]
+info: PressureBlindToBreathing.lean:177:0: 'PressureBlindToBreathing.zero_mode_projection' depends on axioms: [propext, Quot.sound]
+info: PressureBlindToBreathing.lean:178:0: 'PressureBlindToBreathing.projected_rate_is_divergence_free_including_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PressureBlindToBreathing.lean:179:0: 'PressureBlindToBreathing.pressure_cannot_read_breathing_switch' depends on axioms: [propext, Quot.sound]
+ℹ [3424/3428] Replayed ProofAudit
+info: ProofAudit.lean:10:0: 'ActiveHug.GuardTwoEffects.response_A_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:11:0: 'ActiveHug.GuardTwoEffects.response_B_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:12:0: 'ActiveHug.GuardTwoEffects.guard_loss_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:13:0: 'ActiveHug.GuardTwoEffects.admittedToA_is_size' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:14:0: 'ActiveHug.GuardTwoEffects.admittedToB_is_size' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:15:0: 'ActiveHug.GuardTwoEffects.guard_loss_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:16:0: 'ActiveHug.GuardTwoEffects.more_open_guard_admits_more_to_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:17:0: 'ActiveHug.GuardTwoEffects.more_open_guard_admits_more_to_B' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:18:0: 'ActiveHug.GuardTwoEffects.more_open_guards_resist_more' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:19:0: 'ActiveHug.GuardTwoEffects.one_opening_two_effects' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:20:0: 'ActiveHug.GuardTwoEffects.strain_ignores_direction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:21:0: 'ActiveHug.GuardTwoEffects.reversal_keeps_guard_update_AB' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:22:0: 'ActiveHug.GuardTwoEffects.reversal_keeps_guard_update_BA' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:23:0: 'ActiveHug.GuardTwoEffects.reversal_keeps_guard_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:24:0: 'ActiveHug.GuardTwoEffects.no_exact_reader_of_any_property' does not depend on any axioms
+info: ProofAudit.lean:25:0: 'ActiveHug.GuardTwoEffects.guard_response_same_after_reversal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ProofAudit.lean:26:0: 'ActiveHug.GuardTwoEffects.guard_response_cannot_tell_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ProofAudit.lean:27:0: 'ActiveHug.GuardTwoEffects.guard_response_cannot_tell_positive_motion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ProofAudit.lean:28:0: 'BreathingDriver.push_ignores_state' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:29:0: 'BreathingDriver.no_exact_reader_of_any_property' does not depend on any axioms
+info: ProofAudit.lean:30:0: 'BreathingDriver.push_cannot_report_state' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:31:0: 'BreathingDriver.amplitude_repeats' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:32:0: 'BreathingDriver.amplitude_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:33:0: 'BreathingDriver.push_repeats' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:34:0: 'BreathingDriver.push_bounded_by_pattern' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:35:0: 'BreathingDriver.push_bounded_for_unit_pattern' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:36:0: 'BreathingDriver.full_peak_at_tick_41' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:37:0: 'BreathingDriver.full_peak_at_start' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:38:0: 'BreathingDriver.power_reverses_with_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:39:0: 'BreathingDriver.feeds_one_flow_drains_its_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:40:0: 'BreathingDriver.vector_power_reverses_with_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:41:0: 'BreathingDriver.vector_feeds_one_flow_drains_its_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:42:0: 'PressureBlindToBreathing.dot_add' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:43:0: 'PressureBlindToBreathing.pressure_ignores_divergence_free_push' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:44:0: 'PressureBlindToBreathing.projection_passes_divergence_free_push' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ProofAudit.lean:45:0: 'PressureBlindToBreathing.projection_fixes_divergence_free_push' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:46:0: 'PressureBlindToBreathing.projected_rate_is_divergence_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:47:0: 'PressureBlindToBreathing.zero_mode_pressure' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:48:0: 'PressureBlindToBreathing.zero_mode_projection' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:49:0: 'PressureBlindToBreathing.projected_rate_is_divergence_free_including_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ProofAudit.lean:50:0: 'PressureBlindToBreathing.no_exact_reader_of_any_property' does not depend on any axioms
+info: ProofAudit.lean:51:0: 'PressureBlindToBreathing.dot_zero' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:52:0: 'PressureBlindToBreathing.pressure_cannot_tell_whether_breathing_is_on' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:53:0: 'PressureBlindToBreathing.a_divergence_free_push_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:54:0: 'PressureBlindToBreathing.pressure_cannot_read_breathing_switch' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:55:0: 'ClayFabric.upper_mark_rests' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:56:0: 'ClayFabric.lower_mark_rests' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:57:0: 'ClayFabric.gradient_at_upper_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:58:0: 'ClayFabric.mismatched_strain_moves_the_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:59:0: 'ClayFabric.gradient_at_lower_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:60:0: 'ClayFabric.mismatched_strain_moves_lower_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:61:0: 'ClayFabric.energy_at_a_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:62:0: 'ClayFabric.energy_at_the_barrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:63:0: 'ClayFabric.barrier_is_finite_and_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:64:0: 'ClayFabric.energy_has_derivative_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:65:0: 'ClayFabric.heat_is_never_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:66:0: 'ClayFabric.settling_turns_energy_into_heat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:67:0: 'ClayFabric.settling_energy_rate_nonpositive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:68:0: 'ClayFabric.probe_reads_the_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:69:0: 'ClayFabric.mark_moves_while_bit_stays' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:70:0: 'ClayFabric.no_exact_reader_of_any_property' does not depend on any axioms
+info: ProofAudit.lean:71:0: 'ClayFabric.stored_bit_cannot_give_back_the_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:72:0: 'ClayFabric.distinct_marks_same_boolean_bit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:73:0: 'ClayFabric.boolean_bit_cannot_give_back_the_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:74:0: 'ClayFabric.example_marks_clear_read_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:75:0: 'ClayFabric.boolean_bit_cannot_recover_margin_accepted_marks' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:76:0: 'ClayFabric.imprint_moves_toward_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:77:0: 'ClayFabric.kept_shape_cannot_tell_how_hard' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:78:0: 'ClayMemoryInstance.group_count' does not depend on any axioms
+info: ProofAudit.lean:79:0: 'ClayMemoryInstance.every_group_has_two_histories' does not depend on any axioms
+info: ProofAudit.lean:80:0: 'ClayMemoryInstance.present_values_are_distinct' does not depend on any axioms
+info: ProofAudit.lean:81:0: 'ClayMemoryInstance.every_group_has_distinct_rows' does not depend on any axioms
+info: ProofAudit.lean:82:0: 'ClayMemoryInstance.same_present_stress' does not depend on any axioms
+info: ProofAudit.lean:83:0: 'ClayMemoryInstance.different_past_stress' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:84:0: 'ClayMemoryInstance.no_exact_reader_of_any_property' does not depend on any axioms
+info: ProofAudit.lean:85:0: 'ClayMemoryInstance.present_stress_cannot_give_past_stress' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:86:0: 'ClayMemoryInstance.four_kPa_pair' does not depend on any axioms
+info: ProofAudit.lean:87:0: 'FabricMemory.layout' does not depend on any axioms
+info: ProofAudit.lean:88:0: 'FabricMemory.write_keeps_every_record' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:89:0: 'FabricMemory.repeated_event_is_refused' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:90:0: 'FabricMemory.full_fabric_refuses' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:91:0: 'FabricMemory.the_three_writes_and_the_limit' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:92:0: 'FabricMemory.upper_mark_reads_one' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:93:0: 'FabricMemory.lower_mark_reads_zero' depends on axioms: [propext, Quot.sound]
+info: ProofAudit.lean:94:0: 'FabricMemory.barrier_is_refused' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:95:0: 'FabricMemory.denominator_is_a_power_of_two' does not depend on any axioms
+info: ProofAudit.lean:96:0: 'FabricMemory.every_cell_moved_and_no_bit_flipped' does not depend on any axioms
+info: ProofAudit.lean:97:0: 'FabricMemory.third_write_touched_exactly_one_slot' does not depend on any axioms
+info: ProofAudit.lean:98:0: 'FabricMemory.same_records_decoded' does not depend on any axioms
+info: ProofAudit.lean:99:0: 'FabricMemory.cell_zero_moved' does not depend on any axioms
+info: ProofAudit.lean:100:0: 'FabricMemory.no_exact_reader_of_any_property' does not depend on any axioms
+info: ProofAudit.lean:101:0: 'FabricMemory.decoded_records_cannot_give_the_marks' does not depend on any axioms
+Build completed successfully (3428 jobs).

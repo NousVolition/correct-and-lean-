@@ -1,0 +1,7 @@
+ℹ [9382/9383] Replayed HLineSolution
+info: HLineSolution.lean:3:0: 'SignedVortex.HLine.hline_both' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HLineSolution.lean:4:0: 'SignedVortex.HLine.hline_xy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HLineSolution.lean:5:0: 'SignedVortex.HLine.hline_yx' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HLineSolution.lean:6:0: 'SignedVortex.HLine.signed_excluded_at_late_times' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HLineSolution.lean:7:0: 'SignedVortex.HLine.no_signed_full_trajectory' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9383 jobs).

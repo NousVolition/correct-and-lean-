@@ -1,0 +1,165 @@
+✔ [8762/8791] Built FullModel (21s)
+✔ [8764/8791] Built OriginalAS (23s)
+✔ [8765/8791] Built HistoryRequirement (30s)
+✔ [8766/8791] Built PairContext (30s)
+✔ [8767/8791] Built OriginalASEnergy (23s)
+ℹ [8768/8791] Built HistoryRequirementAudit (28s)
+info: HistoryRequirementAudit.lean:2:0: 'HistoryRequirement.accumulated_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryRequirementAudit.lean:3:0: 'HistoryRequirement.any_balancing_G_has_required_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryRequirementAudit.lean:4:0: 'HistoryRequirement.adding_increasing_potential_increases_debit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+✔ [8769/8791] Built OriginalASBalance (17s)
+ℹ [8770/8791] Built PairContextAudit (38s)
+info: PairContextAudit.lean:2:0: 'PairContext.log_cosh_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PairContextAudit.lean:3:0: 'PairContext.potential_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PairContextAudit.lean:4:0: 'PairContext.potential_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PairContextAudit.lean:5:0: 'PairContext.moving_potential_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PairContextAudit.lean:6:0: 'PairContext.zero_context_cannot_pay' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8771/8791] Built OriginalASIntegrated (20s)
+ℹ [8772/8791] Built ProofAudit (14s)
+info: ProofAudit.lean:3:0: 'OriginalAS.Energy.halfSquare_time_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:4:0: 'OriginalAS.Energy.halfSquare_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:5:0: 'OriginalAS.Energy.halfSquare_advection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:6:0: 'OriginalAS.Energy.kinetic_time_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:7:0: 'OriginalAS.Energy.kinetic_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:8:0: 'OriginalAS.Energy.kinetic_advection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:9:0: 'OriginalAS.Energy.force_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:10:0: 'OriginalAS.Energy.kinetic_material_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:11:0: 'OriginalAS.Energy.scalar_material_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:12:0: 'OriginalAS.Energy.partial_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:13:0: 'OriginalAS.Energy.pressure_flux' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:14:0: 'OriginalAS.Energy.diffusion_flux' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:15:0: 'OriginalAS.Energy.gradSquared_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:16:0: 'OriginalAS.Energy.viscous_loss_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:17:0: 'OriginalAS.Energy.hugPower_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:18:0: 'OriginalAS.Energy.hugPower_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:19:0: 'OriginalAS.Energy.halfSquare_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:20:0: 'OriginalAS.Energy.kinetic_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:21:0: 'OriginalAS.Energy.transport_flux' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:22:0: 'OriginalAS.Energy.kinetic_local_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:23:0: 'OriginalAS.Energy.scalar_local_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:24:0: 'OriginalAS.Energy.memory_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:25:0: 'OriginalAS.Energy.memory_square_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:26:0: 'OriginalAS.Energy.memory_at_baseline' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:27:0: 'OriginalAS.Energy.source_at_baseline' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:28:0: 'OriginalAS.Energy.sharp_power_off' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:29:0: 'OriginalAS.Energy.sharp_power_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:30:0: 'OriginalAS.Energy.integrate_zero_flux_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ProofAudit.lean:31:0: 'OriginalAS.Energy.kinetic_global_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8773/8791] Built RecordEnergyConnection (17s)
+✔ [8774/8791] Built EnergyAccounting (22s)
+✔ [8775/8791] Built ViscousHeat (24s)
+✔ [8776/8791] Built MaterialConfiguration (17s)
+✔ [8777/8791] Built StorageRequirements (15s)
+✔ [8778/8791] Built ASCounterexample (15s)
+✔ [8779/8791] Built UnwrappedWork (24s)
+ℹ [8780/8791] Built ConnectionAudit (14s)
+info: ConnectionAudit.lean:3:0: 'HugSourceEnergy.expression_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:4:0: 'HugSourceEnergy.record_energy_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:5:0: 'HugSourceEnergy.unstrained_energy_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:6:0: 'HugSourceEnergy.unstrained_stress_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:7:0: 'HugSourceEnergy.unstrained_write_conjugate_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:8:0: 'HugSourceEnergy.write_conjugate_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:9:0: 'HugSourceEnergy.changing_records_can_change_response' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:10:0: 'HugSourceEnergy.no_viscous_power_no_writing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:11:0: 'HugSourceEnergy.recording_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:12:0: 'HugSourceEnergy.material_total_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:13:0: 'HugSourceEnergy.material_conservation_iff_zero_source_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:14:0: 'HugSourceEnergy.fixed_strain_and_record_energy_rate_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:15:0: 'HugSourceEnergy.material_direction_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:16:0: 'HugSourceEnergy.directional_strain_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:17:0: 'HugSourceEnergy.symmetric_gradient_same_directional_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:18:0: 'HugSourceEnergy.tensor_work_matches_strain_work' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:19:0: 'HugSourceEnergy.configuration_record_energy_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConnectionAudit.lean:20:0: 'HugSourceEnergy.zero_velocity_gradient_no_directional_strain_rate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [8781/8791] Built TotalEnergyAudit (12s)
+info: TotalEnergyAudit.lean:4:0: 'OriginalAS.Energy.Accounting.cumulative_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:5:0: 'OriginalAS.Energy.Accounting.total_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:6:0: 'OriginalAS.Energy.Accounting.conservation_iff_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:7:0: 'OriginalAS.Energy.Accounting.heat_alone_leaves_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:8:0: 'OriginalAS.Energy.Accounting.heat_ledger_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:9:0: 'OriginalAS.Energy.Accounting.exchange_ledger_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:10:0: 'OriginalAS.Energy.Accounting.history_account_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:11:0: 'OriginalAS.Energy.Accounting.history_account_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:12:0: 'OriginalAS.Energy.Heat.source_stress_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:13:0: 'OriginalAS.Energy.Heat.strain_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:14:0: 'OriginalAS.Energy.Heat.source_stress_is_strain_heat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:15:0: 'OriginalAS.Energy.Heat.source_heat_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:16:0: 'OriginalAS.Energy.Heat.bulk_heat_matches_kinetic_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:17:0: 'OriginalAS.Energy.Witness.parameters_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:18:0: 'OriginalAS.Energy.Witness.scalar_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:19:0: 'OriginalAS.Energy.Witness.velocity_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:20:0: 'OriginalAS.Energy.Witness.scalar_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:21:0: 'OriginalAS.Energy.Witness.velocity_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:22:0: 'OriginalAS.Energy.Witness.scalar_advection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:23:0: 'OriginalAS.Energy.Witness.velocity_advection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:24:0: 'OriginalAS.Energy.Witness.incompressible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:25:0: 'OriginalAS.Energy.Witness.activation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:26:0: 'OriginalAS.Energy.Witness.original_force' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:27:0: 'OriginalAS.Energy.Witness.original_rates' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:28:0: 'OriginalAS.Energy.Witness.exact_solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:29:0: 'OriginalAS.Energy.Witness.stored_state_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:30:0: 'OriginalAS.Energy.Witness.viscous_loss_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:31:0: 'OriginalAS.Energy.Witness.kinetic_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:32:0: 'OriginalAS.Energy.Witness.coupling_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:33:0: 'OriginalAS.Energy.Witness.kinetic_flux_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:34:0: 'OriginalAS.Energy.Witness.any_AS_energy_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:35:0: 'OriginalAS.Energy.Witness.state_energy_cannot_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:36:0: 'OriginalAS.Energy.Witness.channel_kinetic_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:37:0: 'OriginalAS.Energy.Witness.no_wall_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:38:0: 'OriginalAS.Energy.Witness.source_stress_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:39:0: 'OriginalAS.Energy.Witness.scalar_diffusive_flux_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:40:0: 'OriginalAS.Energy.Witness.channel_energy_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TotalEnergyAudit.lean:41:0: 'OriginalAS.Energy.Witness.no_conserved_state_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8782/8791] Built StorageAudit (14s)
+info: StorageAudit.lean:3:0: 'StorageRequirements.magnitude_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: StorageAudit.lean:4:0: 'StorageRequirements.gradient_transport_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: StorageAudit.lean:5:0: 'StorageRequirements.activation_height_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: StorageAudit.lean:6:0: 'StorageRequirements.force_match_determines_storage' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: StorageAudit.lean:7:0: 'StorageRequirements.required_activation_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: StorageAudit.lean:8:0: 'StorageRequirements.no_storage_with_unpaid_independent_activation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [8783/8791] Built HistoryAudit (13s)
+info: HistoryAudit.lean:3:0: 'UnwrappedWork.one_step_work_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryAudit.lean:4:0: 'UnwrappedWork.discrete_history_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryAudit.lean:5:0: 'UnwrappedWork.returning_endpoints_leave_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryAudit.lean:6:0: 'UnwrappedWork.history_energy_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryAudit.lean:7:0: 'UnwrappedWork.history_total_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryAudit.lean:8:0: 'UnwrappedWork.history_is_opposite_work_receipt' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8784/8791] Built FullCarrying (23s)
+✔ [8785/8791] Built CarryingGravity (23s)
+ℹ [8786/8791] Built GravityAudit (12s)
+info: GravityAudit.lean:3:0: 'CarryingGravity.receipt_and_reservoir_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GravityAudit.lean:4:0: 'CarryingGravity.three_channel_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GravityAudit.lean:5:0: 'CarryingGravity.three_channel_account_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GravityAudit.lean:6:0: 'CarryingGravity.carried_potential_work' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GravityAudit.lean:7:0: 'CarryingGravity.matched_potential_conserves' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GravityAudit.lean:8:0: 'CarryingGravity.variable_strength_height_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GravityAudit.lean:9:0: 'CarryingGravity.carried_height_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GravityAudit.lean:10:0: 'CarryingGravity.position_follows_original_velocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GravityAudit.lean:11:0: 'CarryingGravity.carried_height_cancels_original_work' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GravityAudit.lean:12:0: 'CarryingGravity.exact_configuration_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GravityAudit.lean:13:0: 'CarryingGravity.periodic_potential_constant_slope_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GravityAudit.lean:14:0: 'CarryingGravity.no_periodic_potential_for_unit_force' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8787/8791] Built FullCarryingAudit (13s)
+info: FullCarryingAudit.lean:3:0: 'FullCarrying.pullback_rate_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: FullCarryingAudit.lean:4:0: 'FullCarrying.carried_gradient_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: FullCarryingAudit.lean:5:0: 'FullCarrying.recover_spatial_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: FullCarryingAudit.lean:6:0: 'FullCarrying.carried_gradient_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: FullCarryingAudit.lean:7:0: 'FullCarrying.required_transfer_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: FullCarryingAudit.lean:8:0: 'FullCarrying.complete_existing_transfers' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8788/8791] Built GradientStorage (15s)
+ℹ [8789/8791] Built GradientStorageAudit (11s)
+info: GradientStorageAudit.lean:3:0: 'GradientStorage.norm_storage_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GradientStorageAudit.lean:4:0: 'GradientStorage.norm_storage_transport_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GradientStorageAudit.lean:5:0: 'GradientStorage.norm_storage_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GradientStorageAudit.lean:6:0: 'GradientStorage.norm_storage_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GradientStorageAudit.lean:7:0: 'GradientStorage.initial_minimum_cannot_pay' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GradientStorageAudit.lean:8:0: 'GradientStorage.nonnegative_quadratic_cannot_pay' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GradientStorageAudit.lean:9:0: 'GradientStorage.integrated_norm_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8790/8791] Built PublishedSolution (30s)
+Build completed successfully (8791 jobs).

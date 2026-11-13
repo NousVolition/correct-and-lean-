@@ -1,0 +1,374 @@
+⚠ [8762/8787] Built Volterra (15s)
+warning: Volterra.lean:18:0: automatically included section variable(s) unused in theorem `Volterra.extend_continuous`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Volterra.lean:21:8: automatically included section variable(s) unused in theorem `Volterra.extend_val`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+ℹ [8764/8787] Built TwoMemory (27s)
+info: TwoMemory.lean:55:0: 'TwoMemory.unique_memory_trajectory' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8765/8787] Built Tick41SavedReturns (32s)
+✔ [8766/8787] Built Tick41SavedWrite (33s)
+ℹ [8767/8787] Built TwoMemoryTransport (24s)
+info: TwoMemoryTransport.lean:117:0: 'TwoMemoryTransport.readout_from_odds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:118:0: 'TwoMemoryTransport.odds_eq_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:119:0: 'TwoMemoryTransport.update_odds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:120:0: 'TwoMemoryTransport.compose_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:121:0: 'TwoMemoryTransport.endpoints_determine_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:122:0: 'TwoMemoryTransport.closed_route' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:123:0: 'TwoMemoryTransport.odds_parallel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:124:0: 'TwoMemoryTransport.flat_curvature' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:125:0: 'TwoMemoryTransport.source_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:126:0: 'TwoMemoryTransport.unit_speed_fails_memory_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8768/8787] Built YangMillsCueTest (15s)
+info: YangMillsCueTest.lean:67:0: 'YangMillsCueTest.same_data_different_field_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: YangMillsCueTest.lean:68:0: 'YangMillsCueTest.endpoint_frames_cancel' depends on axioms: [propext]
+info: YangMillsCueTest.lean:69:0: 'YangMillsCueTest.local_frames_conjugate_loop' depends on axioms: [propext]
+ℹ [8769/8787] Built SIMSLatentReadout (60s)
+info: SIMSLatentReadout.lean:482:0: 'SIMSLatentReadout.no_exact_reader_of_ambiguous_observation' does not depend on any axioms
+info: SIMSLatentReadout.lean:483:0: 'SIMSLatentReadout.negative_marks_share_reading' depends on axioms: [propext, Quot.sound]
+info: SIMSLatentReadout.lean:484:0: 'SIMSLatentReadout.clay_changes_while_sign_stays' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:485:0: 'SIMSLatentReadout.clay_relative_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:486:0: 'SIMSLatentReadout.sign_reading_does_not_determine_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:487:0: 'SIMSLatentReadout.same_record_requires_original' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:488:0: 'SIMSLatentReadout.no_same_record_when_original_absent' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:489:0: 'SIMSLatentReadout.lossless_filing_preserves_readable_fields' does not depend on any axioms
+info: SIMSLatentReadout.lean:490:0: 'SIMSLatentReadout.lossless_storage_can_have_wrong_reader' does not depend on any axioms
+info: SIMSLatentReadout.lean:491:0: 'SIMSLatentReadout.update_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:492:0: 'SIMSLatentReadout.update_sums_to_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:493:0: 'SIMSLatentReadout.zero_weight_stays_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:494:0: 'SIMSLatentReadout.zero_total_returns_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:495:0: 'SIMSLatentReadout.further_evidence_does_not_reintroduce' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:496:0: 'SIMSLatentReadout.erased_record_fits_none_of_current_menu' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:497:0: 'SIMSLatentReadout.uninformative_start_keeps_four_equal_weights' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:498:0: 'SIMSLatentReadout.recorded_zero_has_opposite_histories' does not depend on any axioms
+info: SIMSLatentReadout.lean:499:0: 'SIMSLatentReadout.no_reader_of_the_first_display_is_always_right' does not depend on any axioms
+info: SIMSLatentReadout.lean:500:0: 'SIMSLatentReadout.all_ten_first_replies_survive_filing' does not depend on any axioms
+info: SIMSLatentReadout.lean:501:0: 'SIMSLatentReadout.all_ten_filings_remain_open_without_confirmation' does not depend on any axioms
+info: SIMSLatentReadout.lean:502:0: 'SIMSLatentReadout.saved_rubric_matches_recorded_histories' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:503:0: 'SIMSLatentReadout.both_readers_recover_earlier_answer_in_all_ten' does not depend on any axioms
+info: SIMSLatentReadout.lean:504:0: 'SIMSLatentReadout.full_history_existence_score' does not depend on any axioms
+info: SIMSLatentReadout.lean:505:0: 'SIMSLatentReadout.filed_record_existence_score' does not depend on any axioms
+info: SIMSLatentReadout.lean:506:0: 'SIMSLatentReadout.precisely_three_filed_reader_contradictions' does not depend on any axioms
+info: SIMSLatentReadout.lean:507:0: 'SIMSLatentReadout.both_clay_readers_recognize_the_change_and_identity' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:508:0: 'SIMSLatentReadout.historical_scores_are_seven_and_six' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:509:0: 'SIMSLatentReadout.exact_first_quote_counts_are_zero_and_ten' does not depend on any axioms
+info: SIMSLatentReadout.lean:510:0: 'SIMSLatentReadout.lossy_reader_has_no_history_and_answers_unknown' does not depend on any axioms
+info: SIMSLatentReadout.lean:511:0: 'SIMSLatentReadout.every_saved_weight_trace_matches_finite_filtering' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:512:0: 'SIMSLatentReadout.quarters_encoding_is_exact_for_these_traces' depends on axioms: [propext, Quot.sound]
+info: SIMSLatentReadout.lean:513:0: 'SIMSLatentReadout.forty_weight_states_checked' does not depend on any axioms
+ℹ [8770/8787] Built AmbiguityInstances (37s)
+info: AmbiguityInstances.lean:172:0: 'AmbiguityInstances.Tick41Write.same_water_observation' does not depend on any axioms
+info: AmbiguityInstances.lean:173:0: 'AmbiguityInstances.Tick41Write.different_record_presence' does not depend on any axioms
+info: AmbiguityInstances.lean:174:0: 'AmbiguityInstances.Tick41Write.no_exact_water_reader' does not depend on any axioms
+info: AmbiguityInstances.lean:175:0: 'AmbiguityInstances.Tick41Write.exact_reader_with_record' does not depend on any axioms
+info: AmbiguityInstances.lean:176:0: 'AmbiguityInstances.YangMills.same_slice_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AmbiguityInstances.lean:177:0: 'AmbiguityInstances.YangMills.original_satisfies' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AmbiguityInstances.lean:178:0: 'AmbiguityInstances.YangMills.modified_does_not_satisfy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AmbiguityInstances.lean:179:0: 'AmbiguityInstances.YangMills.residuals_are_zero_and_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AmbiguityInstances.lean:180:0: 'AmbiguityInstances.YangMills.no_exact_slice_reader' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AmbiguityInstances.lean:181:0: 'AmbiguityInstances.YangMills.off_slice_curvature_distinguishes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AmbiguityInstances.lean:182:0: 'AmbiguityInstances.Tick41Geometry.all_scales_positive' does not depend on any axioms
+info: AmbiguityInstances.lean:183:0: 'AmbiguityInstances.Tick41Geometry.all_saved_x_returns_open' does not depend on any axioms
+info: AmbiguityInstances.lean:184:0: 'AmbiguityInstances.Tick41Geometry.saved_x_does_not_close' depends on axioms: [propext, Quot.sound]
+info: AmbiguityInstances.lean:185:0: 'AmbiguityInstances.Tick41Geometry.integer_return_would_close' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AmbiguityInstances.lean:186:0: 'AmbiguityInstances.Tick41Geometry.no_saved_integer_periodic_return' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AmbiguityInstances.lean:187:0: 'AmbiguityInstances.Tick41Geometry.no_opposite_saved_closure_properties' depends on axioms: [propext, Quot.sound]
+info: AmbiguityInstances.lean:188:0: 'AmbiguityInstances.Tick41Geometry.exact_reader_on_saved_returns' depends on axioms: [propext, Quot.sound]
+⚠ [8771/8787] Built HistoryMatchCore (39s)
+warning: HistoryMatchCore.lean:75:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: HistoryMatchCore.lean:124:0: 'HistoryMatchCore.quarter_turn_kills_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:125:0: 'HistoryMatchCore.perturbation_keeps_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:126:0: 'HistoryMatchCore.strip_image_square_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:127:0: 'HistoryMatchCore.global_closest_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:128:0: 'HistoryMatchCore.drift_numerator_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:129:0: 'HistoryMatchCore.drift_numerator_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:130:0: 'HistoryMatchCore.drift_derivative_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:131:0: 'HistoryMatchCore.irrational_turn_law_prevents_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:132:0: 'HistoryMatchCore.observation_matches_on_whole_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:133:0: 'HistoryMatchCore.no_exact_reader_with_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8772/8787] Built ClosestPointGeometry (41s)
+info: ClosestPointGeometry.lean:142:0: 'ClosestPointExample.arc_unit_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:143:0: 'ClosestPointExample.arc_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:144:0: 'ClosestPointExample.zero_line_is_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:145:0: 'ClosestPointExample.sqrt_two_line_is_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:146:0: 'ClosestPointExample.all_images_all_line_points' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:147:0: 'ClosestPointExample.observation_is_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:148:0: 'ClosestPointExample.no_exact_closest_point_reader' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8773/8787] Built PeriodicNavierStokes (29s)
+warning: PeriodicNavierStokes.lean:96:20: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [divergence, space_partial, coefficient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PeriodicNavierStokes.lean:101:8: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [velocity, coefficient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PeriodicNavierStokes.lean:105:19: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [laplacian, space_partial_twice]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PeriodicNavierStokes.lean:123:65: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PeriodicNavierStokes.lean:124:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PeriodicNavierStokes.lean:124:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PeriodicNavierStokes.lean:124:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: PeriodicNavierStokes.lean:184:0: 'ClosestPointExample.incompressible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:185:0: 'ClosestPointExample.navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:186:0: 'ClosestPointExample.smooth_velocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:187:0: 'ClosestPointExample.spatially_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:188:0: 'ClosestPointExample.markers_stationary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:189:0: 'ClosestPointExample.curl_on_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:190:0: 'ClosestPointExample.vortex_line_ODE' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:191:0: 'ClosestPointExample.exact_same_equation_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8774/8787] Built HistoryPlanarBase (45s)
+warning: HistoryPlanarBase.lean:109:108: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: HistoryPlanarBase.lean:276:0: 'HistoryPlanarBase.profile_original_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:277:0: 'HistoryPlanarBase.fieldD_at_origin' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:278:0: 'HistoryPlanarBase.flow_curl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:279:0: 'HistoryPlanarBase.flow_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:280:0: 'HistoryPlanarBase.solves_unforced_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:281:0: 'HistoryPlanarBase.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:282:0: 'HistoryPlanarBase.smooth_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:283:0: 'HistoryPlanarBase.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:284:0: 'HistoryPlanarBase.periodic_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8775/8787] Built HistoryParameterSelection (51s)
+info: HistoryParameterSelection.lean:109:0: 'HistoryParameterSelection.exists_scaled_sqrt_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryParameterSelection.lean:110:0: 'HistoryParameterSelection.select_irrational_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryParameterSelection.lean:111:0: 'HistoryParameterSelection.positive_point_from_positive_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: HistoryParameterSelection.lean:112:0: 'HistoryParameterSelection.select_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryParameterSelection.lean:113:0: 'HistoryParameterSelection.selected_parameters_preserve_validity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [8776/8787] Built Tick41ClosestPointInstance (23s)
+info: Tick41ClosestPointInstance.lean:40:0: 'ClosestPointExample.Tick41.same_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Tick41ClosestPointInstance.lean:41:0: 'ClosestPointExample.Tick41.certified_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Tick41ClosestPointInstance.lean:42:0: 'ClosestPointExample.Tick41.actual_vortex_lines_at_tick41' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Tick41ClosestPointInstance.lean:43:0: 'ClosestPointExample.Tick41.opposite_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Tick41ClosestPointInstance.lean:44:0: 'ClosestPointExample.Tick41.no_exact_reader_of_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8777/8787] Built WindingField (34s)
+info: WindingField.lean:125:0: 'ClosestPointExample.Winding.field_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:126:0: 'ClosestPointExample.Winding.field_beltrami' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:127:0: 'ClosestPointExample.Winding.field_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:128:0: 'ClosestPointExample.Winding.field_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:129:0: 'ClosestPointExample.Winding.field_on_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:130:0: 'ClosestPointExample.Winding.field_at_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:131:0: 'ClosestPointExample.Winding.plane_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8778/8787] Built MatchingPaddleFluid (35s)
+warning: MatchingPaddleFluid.lean:120:8: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [flow_partial]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatchingPaddleFluid.lean:152:65: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:153:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:153:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:153:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:157:77: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:158:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:158:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: MatchingPaddleFluid.lean:205:0: 'ClosestPointExample.MatchingPaddle.solves_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:206:0: 'ClosestPointExample.MatchingPaddle.divergence_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:207:0: 'ClosestPointExample.MatchingPaddle.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:208:0: 'ClosestPointExample.MatchingPaddle.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:209:0: 'ClosestPointExample.MatchingPaddle.material_markers_stationary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleFluid.lean:210:0: 'ClosestPointExample.MatchingPaddle.curl_on_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:211:0: 'ClosestPointExample.MatchingPaddle.same_paddle_wheel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:212:0: 'ClosestPointExample.MatchingPaddle.same_paddle_as_previous' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8779/8787] Built HistoryScalarLift (50s)
+warning: HistoryScalarLift.lean:77:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+info: HistoryScalarLift.lean:169:0: 'HistoryScalarLift.lifted_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryScalarLift.lean:170:0: 'HistoryScalarLift.lifted_solves_unforced_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryScalarLift.lean:171:0: 'HistoryScalarLift.lifted_actual_curl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryScalarLift.lean:172:0: 'HistoryScalarLift.lifted_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryScalarLift.lean:173:0: 'HistoryScalarLift.lifted_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryScalarLift.lean:174:0: 'HistoryScalarLift.lifted_origin_stationary' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8780/8787] Built MatchingPaddleLines (28s)
+warning: MatchingPaddleLines.lean:27:84: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MatchingPaddleLines.lean:27:84: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: MatchingPaddleLines.lean:139:0: 'ClosestPointExample.MatchingPaddle.curves_start_at_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleLines.lean:140:0: 'ClosestPointExample.MatchingPaddle.actual_curl_integral_curve' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleLines.lean:141:0: 'ClosestPointExample.MatchingPaddle.open_forward_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleLines.lean:142:0: 'ClosestPointExample.MatchingPaddle.closed_witness_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleLines.lean:143:0: 'ClosestPointExample.MatchingPaddle.open_witness_never_returns' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleLines.lean:144:0: 'ClosestPointExample.MatchingPaddle.nonzero_on_full_curves' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleLines.lean:145:0: 'ClosestPointExample.MatchingPaddle.common_normalized_vortex_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleLines.lean:146:0: 'ClosestPointExample.MatchingPaddle.unchanged_closest_reading' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [8781/8787] Built WindingCurve (32s)
+warning: WindingCurve.lean:79:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingCurve.lean:80:88: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingCurve.lean:80:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WindingCurve.lean:79:19: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: WindingCurve.lean:80:88: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: WindingCurve.lean:126:48: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WindingCurve.lean:126:62: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WindingCurve.lean:126:74: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: WindingCurve.lean:221:0: 'ClosestPointExample.Winding.lift_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:222:0: 'ClosestPointExample.Winding.gain_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:223:0: 'ClosestPointExample.Winding.lift_at_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:224:0: 'ClosestPointExample.Winding.lift_linear_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:225:0: 'ClosestPointExample.Winding.curve_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:226:0: 'ClosestPointExample.Winding.curve_scale_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:227:0: 'ClosestPointExample.Winding.closed_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:228:0: 'ClosestPointExample.Winding.open_never_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:229:0: 'ClosestPointExample.Winding.global_closest_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8782/8787] Built WindingFluid (34s)
+info: WindingFluid.lean:167:0: 'ClosestPointExample.Winding.solves_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:168:0: 'ClosestPointExample.Winding.flow_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:169:0: 'ClosestPointExample.Winding.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:170:0: 'ClosestPointExample.Winding.smooth_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:171:0: 'ClosestPointExample.Winding.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:172:0: 'ClosestPointExample.Winding.periodic_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:173:0: 'ClosestPointExample.Winding.paddle_at_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:174:0: 'ClosestPointExample.Winding.positive_swirl_on_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8783/8787] Built MatchingPaddleInstance (26s)
+info: MatchingPaddleInstance.lean:58:0: 'ClosestPointExample.MatchingPaddle.both_flows_allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleInstance.lean:59:0: 'ClosestPointExample.MatchingPaddle.same_enlarged_observation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleInstance.lean:60:0: 'ClosestPointExample.MatchingPaddle.opposite_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleInstance.lean:61:0: 'ClosestPointExample.MatchingPaddle.no_exact_reader_even_with_paddle_wheel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleInstance.lean:62:0: 'ClosestPointExample.MatchingPaddle.every_function_of_paddle_matches' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleInstance.lean:63:0: 'ClosestPointExample.MatchingPaddle.zero_swirl_at_open_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleInstance.lean:64:0: 'ClosestPointExample.MatchingPaddle.zero_is_beyond_saved_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [8784/8787] Built HistoryCompletionTarget (29s)
+info: HistoryCompletionTarget.lean:94:0: 'HistoryCompletionTarget.start_attains_closest_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryCompletionTarget.lean:95:0: 'HistoryCompletionTarget.path_at_tick' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryCompletionTarget.lean:96:0: 'HistoryCompletionTarget.full_pair_rules_out_exact_reader' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8785/8787] Built WindingInstance (40s)
+warning: WindingInstance.lean:19:61: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingInstance.lean:20:61: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingInstance.lean:19:61: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: WindingInstance.lean:20:61: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: WindingInstance.lean:63:72: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingInstance.lean:63:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WindingInstance.lean:63:72: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: WindingInstance.lean:72:72: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingInstance.lean:72:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WindingInstance.lean:72:72: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: WindingInstance.lean:131:0: 'ClosestPointExample.Winding.lift_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:132:0: 'ClosestPointExample.Winding.global_clock_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:133:0: 'ClosestPointExample.Winding.complete_vortex_curve_at_tick' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:134:0: 'ClosestPointExample.Winding.curves_persist_at_every_finite_time' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: WindingInstance.lean:135:0: 'ClosestPointExample.Winding.swirl_never_approaches_zero_on_the_line' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: WindingInstance.lean:136:0: 'ClosestPointExample.Winding.exact_closest_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:137:0: 'ClosestPointExample.Winding.both_solve_same_fluid_equations' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:138:0: 'ClosestPointExample.Winding.same_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:139:0: 'ClosestPointExample.Winding.opposite_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:140:0: 'ClosestPointExample.Winding.no_exact_reader_with_closest_point_and_paddle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+✔ [8786/8787] Built PublishedSolution (29s)
+Build completed successfully (8787 jobs).

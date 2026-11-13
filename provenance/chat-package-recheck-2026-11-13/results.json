@@ -1,0 +1,116 @@
+{
+  "recorded_at_utc": "2026-11-13T07:18:35.139742+00:00",
+  "source_publication_commit": "2fb9e611e2f56a15db22f88e6e41ca5e0054fda6",
+  "verification_status": "PASS",
+  "current_checks": [
+    {
+      "id": "vortex/as-signed-vortex-lean",
+      "status": "PASS",
+      "targets": 25,
+      "sources_unchanged": true,
+      "reference_kind": "original frozen challenge",
+      "record": "vortex/as-signed-vortex-lean/record.json"
+    },
+    {
+      "id": "vortex/as-vortex-hline-lean",
+      "status": "PASS",
+      "targets": 5,
+      "sources_unchanged": true,
+      "reference_kind": "original frozen challenge",
+      "record": "vortex/as-vortex-hline-lean/record.json"
+    },
+    {
+      "id": "vortex/as-vortex-rescaling-lean",
+      "status": "PASS",
+      "targets": 12,
+      "sources_unchanged": true,
+      "reference_kind": "original frozen challenge",
+      "record": "vortex/as-vortex-rescaling-lean/record.json"
+    },
+    {
+      "id": "vortex/as-vortex-edge-control-lean",
+      "status": "PASS",
+      "targets": 6,
+      "sources_unchanged": true,
+      "reference_kind": "original frozen challenge",
+      "record": "vortex/as-vortex-edge-control-lean/record.json"
+    },
+    {
+      "id": "vortex/as-vortex-edge-control-lean/time-check",
+      "status": "PASS",
+      "targets": 2,
+      "sources_unchanged": true,
+      "reference_kind": "original frozen challenge",
+      "record": "vortex/as-vortex-edge-control-lean--time-check/record.json"
+    },
+    {
+      "id": "energy-as",
+      "groups": [
+        "energy/as-total-energy-audit",
+        "energy/carrying-gravity-energy",
+        "energy/carrying-history-G",
+        "energy/full-carrying-energy",
+        "energy/gravity-storage-derivation",
+        "energy/hug-source-energy-connection",
+        "energy/paired-context-energy",
+        "energy/s-gradient-energy",
+        "energy/unforced-energy-lean",
+        "energy/unwrapped-carrying-history"
+      ],
+      "status": "PASS",
+      "targets": 245,
+      "sources_unchanged": true,
+      "reference_kind": "published-source self-replay; no independent specification",
+      "record": "generic/energy-as/record.json"
+    },
+    {
+      "id": "energy-hug",
+      "groups": [
+        "energy/hug-lean-proofs"
+      ],
+      "status": "PASS",
+      "targets": 181,
+      "sources_unchanged": true,
+      "reference_kind": "published-source self-replay; no independent specification",
+      "record": "generic/energy-hug/record.json"
+    },
+    {
+      "id": "geometry-real",
+      "groups": [
+        "geometry/Ambiguity theorem checks",
+        "geometry/Closest point ambiguity",
+        "geometry/Closest point and paddle wheel",
+        "geometry/History proof completion",
+        "geometry/Same particle history",
+        "geometry/Swirl without return"
+      ],
+      "status": "PASS",
+      "targets": 653,
+      "sources_unchanged": true,
+      "reference_kind": "published-source self-replay; no independent specification",
+      "record": "generic/geometry-real/record.json"
+    },
+    {
+      "id": "geometry-rational",
+      "groups": [
+        "geometry/SIMS rational readout check/corrected"
+      ],
+      "status": "PASS",
+      "targets": 65,
+      "sources_unchanged": true,
+      "reference_kind": "published-source self-replay; no independent specification",
+      "record": "generic/geometry-rational/record.json"
+    }
+  ],
+  "unchanged_published_lean_files": 161,
+  "archived_failures": [
+    "energy/hug-lean-proofs/originals/FabricMemory.lean",
+    "geometry/SIMS rational readout check/SIMSLatentReadout.lean"
+  ],
+  "new_simulations": 0,
+  "equations_changed": false,
+  "full_same_history_pair_proved": false,
+  "full_hug_evolution_proved": false,
+  "independent_model_specification_added": false,
+  "numerical_plot_formally_certified": false
+}

@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "kind": "reconstruction only; not a kernel rerun",
+  "checks": [
+    {
+      "batch": "energy-hug",
+      "command": [
+        "python3",
+        "$USER_HOME/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an/outputs/fresh-proof-verification-20261113/replay-preparation/replay.py",
+        "energy-hug",
+        "--repository",
+        "$USER_HOME/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an/outputs/recent-research-publication-20261112/repository",
+        "--cache",
+        "$USER_HOME/verification",
+        "--prepare-only"
+      ],
+      "started_at_utc": "2026-11-13T06:42:37.831364+00:00",
+      "finished_at_utc": "2026-11-13T06:42:38.330750+00:00",
+      "exit": 0,
+      "output": "Prepared isolated project: /tmp/published-proof-replay-_5fj72ce\n",
+      "proofs_rerun": false
+    },
+    {
+      "batch": "geometry-real",
+      "command": [
+        "python3",
+        "$USER_HOME/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an/outputs/fresh-proof-verification-20261113/replay-preparation/replay.py",
+        "geometry-real",
+        "--repository",
+        "$USER_HOME/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an/outputs/recent-research-publication-20261112/repository",
+        "--cache",
+        "$USER_HOME/verification",
+        "--prepare-only"
+      ],
+      "started_at_utc": "2026-11-13T06:42:38.465717+00:00",
+      "finished_at_utc": "2026-11-13T06:42:39.345197+00:00",
+      "exit": 0,
+      "output": "Prepared isolated project: /tmp/published-proof-replay-epyk2m4r\n",
+      "proofs_rerun": false
+    },
+    {
+      "batch": "geometry-rational",
+      "command": [
+        "python3",
+        "$USER_HOME/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an/outputs/fresh-proof-verification-20261113/replay-preparation/replay.py",
+        "geometry-rational",
+        "--repository",
+        "$USER_HOME/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an/outputs/recent-research-publication-20261112/repository",
+        "--cache",
+        "$USER_HOME/verification",
+        "--prepare-only"
+      ],
+      "started_at_utc": "2026-11-13T06:42:39.482905+00:00",
+      "finished_at_utc": "2026-11-13T06:42:39.784493+00:00",
+      "exit": 0,
+      "output": "Prepared isolated project: /tmp/published-proof-replay-t9jci_e0\n",
+      "proofs_rerun": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "role": "Preserved diagnostic attempt; not an accepted proof target",
+  "source": "geometry/Closest point ambiguity/diagnostics/DerivativeProbe.lean",
+  "source_sha256": "a2951dc74fad7a7be5162277e32d5c58d2d13976cac8bf2bd57a4170c1066f8f",
+  "started_at_utc": "2026-11-13T06:32:11.024656+00:00",
+  "command": [
+    "$USER_HOME/verification/bin/lake",
+    "env",
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+    "--root=$USER_HOME/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an/outputs/recent-research-publication-20261112/repository/research/chat-research-update-2026-11-12/geometry/Closest point ambiguity/diagnostics",
+    "-o",
+    "/tmp/fresh-proof-supplement-lto4y9b5/DerivativeProbe.olean",
+    "$USER_HOME/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an/outputs/recent-research-publication-20261112/repository/research/chat-research-update-2026-11-12/geometry/Closest point ambiguity/diagnostics/DerivativeProbe.lean"
+  ],
+  "dependency_check_record": "$USER_HOME/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an/outputs/fresh-proof-verification-20261113/private-generic/geometry-real/record.json",
+  "fresh_dependency_build_reused": true,
+  "comparator_run_for_supplement": false,
+  "status": "FAIL",
+  "exit": 1,
+  "finished_at_utc": "2026-11-13T06:32:25.084483+00:00",
+  "log_sha256": "4c159f5c7bd02d9f9439e1e94bcf1a6bc6fe22d6c40ea93aa51a058b8449f2de",
+  "source_unchanged": true,
+  "object_sha256": null
+}

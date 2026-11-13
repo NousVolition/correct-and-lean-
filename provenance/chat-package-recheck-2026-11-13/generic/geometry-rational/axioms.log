@@ -1,0 +1,83 @@
+'SIMSLatentReadout.Answer.no.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Answer.ofNat_ctorIdx' does not depend on any axioms
+'SIMSLatentReadout.Answer.unavailable.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Answer.unknown.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Answer.yes.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Hypothesis.absent.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Hypothesis.changedRetained.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Hypothesis.held.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Hypothesis.ofNat_ctorIdx' does not depend on any axioms
+'SIMSLatentReadout.Hypothesis.writtenLater.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Probe.afterPresent.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Probe.componentChanged.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Probe.initialPresent.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Probe.ofNat_ctorIdx' does not depend on any axioms
+'SIMSLatentReadout.Reply.mk.inj' does not depend on any axioms
+'SIMSLatentReadout.Reply.mk.injEq' depends on axioms: [propext]
+'SIMSLatentReadout.Reply.mk.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.SavedCase.mk.inj' does not depend on any axioms
+'SIMSLatentReadout.SavedCase.mk.injEq' depends on axioms: [propext]
+'SIMSLatentReadout.SavedCase.mk.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.all_ten_filings_remain_open_without_confirmation' does not depend on any axioms
+'SIMSLatentReadout.all_ten_first_replies_survive_filing' does not depend on any axioms
+'SIMSLatentReadout.both_clay_readers_recognize_the_change_and_identity' depends on axioms: [propext]
+'SIMSLatentReadout.both_readers_recover_earlier_answer_in_all_ten' does not depend on any axioms
+'SIMSLatentReadout.clay_changes_while_sign_stays' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.clay_relative_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.erased_record_fits_none_of_current_menu' depends on axioms: [propext]
+'SIMSLatentReadout.every_saved_weight_trace_matches_finite_filtering' depends on axioms: [propext]
+'SIMSLatentReadout.exact_first_quote_counts_are_zero_and_ten' does not depend on any axioms
+'SIMSLatentReadout.filed_record_existence_score' does not depend on any axioms
+'SIMSLatentReadout.forty_weight_states_checked' does not depend on any axioms
+'SIMSLatentReadout.full_history_existence_score' does not depend on any axioms
+'SIMSLatentReadout.further_evidence_does_not_reintroduce' depends on axioms: [propext]
+'SIMSLatentReadout.historical_scores_are_seven_and_six' depends on axioms: [propext]
+'SIMSLatentReadout.instDecidableEqAnswer._proof_1' does not depend on any axioms
+FreshAxioms.lean:37:14: warning: `SIMSLatentReadout.instDecidableEqAnswer._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'SIMSLatentReadout.instDecidableEqAnswer._proof_2' does not depend on any axioms
+FreshAxioms.lean:38:14: warning: `SIMSLatentReadout.instDecidableEqAnswer._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'SIMSLatentReadout.instDecidableEqHypothesis._proof_1' does not depend on any axioms
+FreshAxioms.lean:39:14: warning: `SIMSLatentReadout.instDecidableEqHypothesis._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'SIMSLatentReadout.instDecidableEqHypothesis._proof_2' does not depend on any axioms
+FreshAxioms.lean:40:14: warning: `SIMSLatentReadout.instDecidableEqHypothesis._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'SIMSLatentReadout.instDecidableEqProbe._proof_1' does not depend on any axioms
+FreshAxioms.lean:41:14: warning: `SIMSLatentReadout.instDecidableEqProbe._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'SIMSLatentReadout.instDecidableEqProbe._proof_2' does not depend on any axioms
+FreshAxioms.lean:42:14: warning: `SIMSLatentReadout.instDecidableEqProbe._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'SIMSLatentReadout.lossless_filing_preserves_readable_fields' does not depend on any axioms
+'SIMSLatentReadout.lossless_storage_can_have_wrong_reader' does not depend on any axioms
+'SIMSLatentReadout.lossy_reader_has_no_history_and_answers_unknown' does not depend on any axioms
+'SIMSLatentReadout.negative_marks_share_reading' depends on axioms: [propext, Quot.sound]
+'SIMSLatentReadout.no_exact_reader_of_ambiguous_observation' does not depend on any axioms
+'SIMSLatentReadout.no_reader_of_the_first_display_is_always_right' does not depend on any axioms
+'SIMSLatentReadout.no_same_record_when_original_absent' depends on axioms: [propext]
+'SIMSLatentReadout.precisely_three_filed_reader_contradictions' does not depend on any axioms
+'SIMSLatentReadout.present.eq_1' does not depend on any axioms
+'SIMSLatentReadout.quarters_encoding_is_exact_for_these_traces' depends on axioms: [propext, Quot.sound]
+'SIMSLatentReadout.recorded_zero_has_opposite_histories' does not depend on any axioms
+'SIMSLatentReadout.sameRecord._sparseCasesOn_1.else_eq' depends on axioms: [propext]
+'SIMSLatentReadout.sameRecord.eq_1' depends on axioms: [propext]
+'SIMSLatentReadout.sameRecord.eq_2' depends on axioms: [propext]
+'SIMSLatentReadout.same_record_requires_original' depends on axioms: [propext]
+'SIMSLatentReadout.saved_rubric_matches_recorded_histories' depends on axioms: [propext]
+'SIMSLatentReadout.signRead.eq_1' depends on axioms: [propext, Quot.sound]
+'SIMSLatentReadout.sign_reading_does_not_determine_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.uninformative_start_keeps_four_equal_weights' depends on axioms: [propext]
+'SIMSLatentReadout.update.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.update_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.update_sums_to_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.update_sums_to_one._simp_1_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.zero_total_returns_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.zero_weight_stays_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

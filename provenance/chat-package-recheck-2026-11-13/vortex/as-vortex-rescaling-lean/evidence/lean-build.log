@@ -1,0 +1,14 @@
+ℹ [9402/9403] Replayed RescaleSolution
+info: RescaleSolution.lean:3:0: 'SignedVortex.Rescaled.support_fits_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:4:0: 'SignedVortex.Rescaled.loop_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:5:0: 'SignedVortex.Rescaled.hline_any_fit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:6:0: 'SignedVortex.Rescaled.hline_pinned_quarter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:7:0: 'SignedVortex.Rescaled.matches_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:8:0: 'SignedVortex.Rescaled.matching_force_has_zero_loop' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:9:0: 'SignedVortex.Rescaled.inward_signal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:10:0: 'SignedVortex.Rescaled.opposite_nonzero_loops' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:11:0: 'SignedVortex.Rescaled.late_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:12:0: 'SignedVortex.Rescaled.excludes_every_fitting_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:13:0: 'SignedVortex.Rescaled.candidate_for_schedule' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RescaleSolution.lean:14:0: 'SignedVortex.Rescaled.every_positive_viscosity' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9403 jobs).

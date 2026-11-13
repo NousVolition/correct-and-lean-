@@ -1,0 +1,164 @@
+[
+  {
+    "source": "energy/hug-lean-proofs/HugModel.lean",
+    "source_sha256": "6a79142d5fa42642bc47a0246f62b4ab89d0c07ba6257fd0d41e39d6f89b61f5",
+    "started_at_utc": "2026-11-13T05:27:19.253693+00:00",
+    "role": "dependency",
+    "exit": 0,
+    "status": "PASS",
+    "finished_at_utc": "2026-11-13T05:27:30.615819+00:00",
+    "command": [
+      "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+      "--root=/tmp/fresh-archived-drafts-20261113-o5wcnolc",
+      "-o",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/objects/HugModel.olean",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/HugModel.lean"
+    ],
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_unchanged": true
+  },
+  {
+    "source": "energy/hug-lean-proofs/ActiveHugModel.lean",
+    "source_sha256": "be9d734610480ae9376bfd38b287c2bb9b7758cb50e29109bcf26656a7885f19",
+    "started_at_utc": "2026-11-13T05:27:31.155429+00:00",
+    "role": "dependency",
+    "exit": 0,
+    "status": "PASS",
+    "finished_at_utc": "2026-11-13T05:27:47.929278+00:00",
+    "command": [
+      "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+      "--root=/tmp/fresh-archived-drafts-20261113-o5wcnolc",
+      "-o",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/objects/ActiveHugModel.olean",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/ActiveHugModel.lean"
+    ],
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_unchanged": true
+  },
+  {
+    "source": "energy/hug-lean-proofs/originals/BreathingDriver.lean",
+    "source_sha256": "4e89fbd2bd0c40ae1837f6a324db748ff37830c4397412dfd46e25a0e8167fd3",
+    "started_at_utc": "2026-11-13T05:27:48.114588+00:00",
+    "role": "archived original draft",
+    "exit": 0,
+    "status": "PASS",
+    "finished_at_utc": "2026-11-13T05:28:19.622007+00:00",
+    "command": [
+      "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+      "--root=/tmp/fresh-archived-drafts-20261113-o5wcnolc",
+      "-o",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/objects/BreathingDriver.olean",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/BreathingDriver.lean"
+    ],
+    "log_sha256": "d849f14227288a9f5ae9659e7dfcb0598f8059029ca90ceda3f1c458dab9a993",
+    "source_unchanged": true
+  },
+  {
+    "source": "energy/hug-lean-proofs/originals/ClayFabric.lean",
+    "source_sha256": "01c8a81fc42b6142b8d3aa17d2a7229367cec699beb596bdb7a26e5ad0237597",
+    "started_at_utc": "2026-11-13T05:28:19.774119+00:00",
+    "role": "archived original draft",
+    "exit": 0,
+    "status": "PASS",
+    "finished_at_utc": "2026-11-13T05:28:58.165635+00:00",
+    "command": [
+      "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+      "--root=/tmp/fresh-archived-drafts-20261113-o5wcnolc",
+      "-o",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/objects/ClayFabric.olean",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/ClayFabric.lean"
+    ],
+    "log_sha256": "fe46f10d93a12d965b22efcf1cfd08be9c2b88489969f5a4f5eec258bccef929",
+    "source_unchanged": true
+  },
+  {
+    "source": "energy/hug-lean-proofs/originals/ClayMemoryInstance.lean",
+    "source_sha256": "e7cea01d4871eebbb61272dc9cda6f1a7030d0557124457b42ad85046e3006d6",
+    "started_at_utc": "2026-11-13T05:28:58.886651+00:00",
+    "role": "archived original draft",
+    "exit": 0,
+    "status": "PASS",
+    "finished_at_utc": "2026-11-13T05:29:03.615640+00:00",
+    "command": [
+      "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+      "--root=/tmp/fresh-archived-drafts-20261113-o5wcnolc",
+      "-o",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/objects/ClayMemoryInstance.olean",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/ClayMemoryInstance.lean"
+    ],
+    "log_sha256": "c9388d080787a01c47d19f74ac66e8cad8705cd7a573b466f5b6770170d381fd",
+    "source_unchanged": true
+  },
+  {
+    "source": "energy/hug-lean-proofs/originals/FabricMemory.lean",
+    "source_sha256": "221f82e5f8fc87b8bb7d57ec506949b241ee947753c68396085a538e7c1a2ec3",
+    "started_at_utc": "2026-11-13T05:29:03.799690+00:00",
+    "role": "archived original draft",
+    "exit": 1,
+    "status": "FAIL",
+    "finished_at_utc": "2026-11-13T05:29:05.886344+00:00",
+    "command": [
+      "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+      "--root=/tmp/fresh-archived-drafts-20261113-o5wcnolc",
+      "-o",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/objects/FabricMemory.olean",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/FabricMemory.lean"
+    ],
+    "log_sha256": "3040bd834266278897e8f30ecda2c13c29aa75ce6c0a6e148c0819da25049c28",
+    "source_unchanged": true
+  },
+  {
+    "source": "energy/hug-lean-proofs/originals/GuardTwoEffects.lean",
+    "source_sha256": "d875a57e2586e94a2da34f71ed55f4fb15050372720ff85d112f6a8cf7d092d7",
+    "started_at_utc": "2026-11-13T05:29:06.085166+00:00",
+    "role": "archived original draft",
+    "exit": 0,
+    "status": "PASS",
+    "finished_at_utc": "2026-11-13T05:29:23.019787+00:00",
+    "command": [
+      "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+      "--root=/tmp/fresh-archived-drafts-20261113-o5wcnolc",
+      "-o",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/objects/GuardTwoEffects.olean",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/GuardTwoEffects.lean"
+    ],
+    "log_sha256": "1045c6940b21797b457ed357e9167ff61b77581afafa25f0c6953c2de59d6f1b",
+    "source_unchanged": true
+  },
+  {
+    "source": "energy/hug-lean-proofs/originals/PressureBlindToBreathing.lean",
+    "source_sha256": "5cc322b2f0b022236355992dbe59b2658ca95bc6939cb728aeb56ac563b222d0",
+    "started_at_utc": "2026-11-13T05:29:23.341986+00:00",
+    "role": "archived original draft",
+    "exit": 0,
+    "status": "PASS",
+    "finished_at_utc": "2026-11-13T05:29:59.074438+00:00",
+    "command": [
+      "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+      "--root=/tmp/fresh-archived-drafts-20261113-o5wcnolc",
+      "-o",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/objects/PressureBlindToBreathing.olean",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/PressureBlindToBreathing.lean"
+    ],
+    "log_sha256": "c2c78f896e1cc1dfe96ff19bea8e6a3aa7d0fd7eca1eb77eff527255c5f81d70",
+    "source_unchanged": true
+  },
+  {
+    "source": "geometry/SIMS rational readout check/SIMSLatentReadout.lean",
+    "source_sha256": "dab94258fd9d1ced17b880c63ccef58702d1694d76f0f6e838ed84b36e0bd909",
+    "started_at_utc": "2026-11-13T05:29:59.226776+00:00",
+    "role": "archived original draft",
+    "exit": 1,
+    "status": "FAIL",
+    "finished_at_utc": "2026-11-13T05:30:36.908010+00:00",
+    "command": [
+      "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+      "--root=/tmp/fresh-archived-drafts-20261113-o5wcnolc",
+      "-o",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/objects/SIMSLatentReadout.olean",
+      "/tmp/fresh-archived-drafts-20261113-o5wcnolc/SIMSLatentReadout.lean"
+    ],
+    "log_sha256": "4dd616fcb8f6661b964e34f90cfcee9e4e4642bd3a045d4bdee4ba2b3d697df7",
+    "source_unchanged": true
+  }
+]

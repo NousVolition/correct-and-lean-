@@ -1,0 +1,167 @@
+{
+  "batch": "geometry-rational",
+  "groups": [
+    "geometry/SIMS rational readout check/corrected"
+  ],
+  "origins": {
+    "SIMSLatentReadout.lean": [
+      "geometry/SIMS rational readout check/corrected/SIMSLatentReadout.lean"
+    ]
+  },
+  "source_hashes": {
+    "SIMSLatentReadout.lean": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4"
+  },
+  "status": "PASS",
+  "started_at_utc": "2026-11-13T06:29:16.460597+00:00",
+  "reference_kind": "published-source self-replay; no independent specification",
+  "stage": "/tmp/fresh-added-geometry-rational-20261113-svd7c7k5/package",
+  "discovery_build": {
+    "command": [
+      "$USER_HOME/verification/bin/lake",
+      "build",
+      "PublishedSolution"
+    ],
+    "started_at_utc": "2026-11-13T06:29:16.466771+00:00",
+    "finished_at_utc": "2026-11-13T06:29:51.280567+00:00",
+    "exit": 0,
+    "log_sha256": "751f269356145de54ee60ca58ee8c63e2e011919c05f5625195958c2b27fa50f"
+  },
+  "enumeration": {
+    "command": [
+      "$USER_HOME/verification/bin/lake",
+      "env",
+      "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+      "Enumerate.lean"
+    ],
+    "started_at_utc": "2026-11-13T06:29:51.292110+00:00",
+    "finished_at_utc": "2026-11-13T06:30:02.223500+00:00",
+    "exit": 0,
+    "log_sha256": "cb3c8d97202f3f316afa0370c20204446ea71a4d3285fc3e9197baf9867f6f73"
+  },
+  "targets": [
+    "SIMSLatentReadout.Answer.no.sizeOf_spec",
+    "SIMSLatentReadout.Answer.ofNat_ctorIdx",
+    "SIMSLatentReadout.Answer.unavailable.sizeOf_spec",
+    "SIMSLatentReadout.Answer.unknown.sizeOf_spec",
+    "SIMSLatentReadout.Answer.yes.sizeOf_spec",
+    "SIMSLatentReadout.Hypothesis.absent.sizeOf_spec",
+    "SIMSLatentReadout.Hypothesis.changedRetained.sizeOf_spec",
+    "SIMSLatentReadout.Hypothesis.held.sizeOf_spec",
+    "SIMSLatentReadout.Hypothesis.ofNat_ctorIdx",
+    "SIMSLatentReadout.Hypothesis.writtenLater.sizeOf_spec",
+    "SIMSLatentReadout.Probe.afterPresent.sizeOf_spec",
+    "SIMSLatentReadout.Probe.componentChanged.sizeOf_spec",
+    "SIMSLatentReadout.Probe.initialPresent.sizeOf_spec",
+    "SIMSLatentReadout.Probe.ofNat_ctorIdx",
+    "SIMSLatentReadout.Reply.mk.inj",
+    "SIMSLatentReadout.Reply.mk.injEq",
+    "SIMSLatentReadout.Reply.mk.sizeOf_spec",
+    "SIMSLatentReadout.SavedCase.mk.inj",
+    "SIMSLatentReadout.SavedCase.mk.injEq",
+    "SIMSLatentReadout.SavedCase.mk.sizeOf_spec",
+    "SIMSLatentReadout.all_ten_filings_remain_open_without_confirmation",
+    "SIMSLatentReadout.all_ten_first_replies_survive_filing",
+    "SIMSLatentReadout.both_clay_readers_recognize_the_change_and_identity",
+    "SIMSLatentReadout.both_readers_recover_earlier_answer_in_all_ten",
+    "SIMSLatentReadout.clay_changes_while_sign_stays",
+    "SIMSLatentReadout.clay_relative_change",
+    "SIMSLatentReadout.erased_record_fits_none_of_current_menu",
+    "SIMSLatentReadout.every_saved_weight_trace_matches_finite_filtering",
+    "SIMSLatentReadout.exact_first_quote_counts_are_zero_and_ten",
+    "SIMSLatentReadout.filed_record_existence_score",
+    "SIMSLatentReadout.forty_weight_states_checked",
+    "SIMSLatentReadout.full_history_existence_score",
+    "SIMSLatentReadout.further_evidence_does_not_reintroduce",
+    "SIMSLatentReadout.historical_scores_are_seven_and_six",
+    "SIMSLatentReadout.instDecidableEqAnswer._proof_1",
+    "SIMSLatentReadout.instDecidableEqAnswer._proof_2",
+    "SIMSLatentReadout.instDecidableEqHypothesis._proof_1",
+    "SIMSLatentReadout.instDecidableEqHypothesis._proof_2",
+    "SIMSLatentReadout.instDecidableEqProbe._proof_1",
+    "SIMSLatentReadout.instDecidableEqProbe._proof_2",
+    "SIMSLatentReadout.lossless_filing_preserves_readable_fields",
+    "SIMSLatentReadout.lossless_storage_can_have_wrong_reader",
+    "SIMSLatentReadout.lossy_reader_has_no_history_and_answers_unknown",
+    "SIMSLatentReadout.negative_marks_share_reading",
+    "SIMSLatentReadout.no_exact_reader_of_ambiguous_observation",
+    "SIMSLatentReadout.no_reader_of_the_first_display_is_always_right",
+    "SIMSLatentReadout.no_same_record_when_original_absent",
+    "SIMSLatentReadout.precisely_three_filed_reader_contradictions",
+    "SIMSLatentReadout.present.eq_1",
+    "SIMSLatentReadout.quarters_encoding_is_exact_for_these_traces",
+    "SIMSLatentReadout.recorded_zero_has_opposite_histories",
+    "SIMSLatentReadout.sameRecord._sparseCasesOn_1.else_eq",
+    "SIMSLatentReadout.sameRecord.eq_1",
+    "SIMSLatentReadout.sameRecord.eq_2",
+    "SIMSLatentReadout.same_record_requires_original",
+    "SIMSLatentReadout.saved_rubric_matches_recorded_histories",
+    "SIMSLatentReadout.signRead.eq_1",
+    "SIMSLatentReadout.sign_reading_does_not_determine_mark",
+    "SIMSLatentReadout.uninformative_start_keeps_four_equal_weights",
+    "SIMSLatentReadout.update.eq_1",
+    "SIMSLatentReadout.update_nonnegative",
+    "SIMSLatentReadout.update_sums_to_one",
+    "SIMSLatentReadout.update_sums_to_one._simp_1_2",
+    "SIMSLatentReadout.zero_total_returns_zero",
+    "SIMSLatentReadout.zero_weight_stays_zero"
+  ],
+  "final_stage": "/tmp/fresh-added-geometry-rational-final-20261113-ntb0vi6_",
+  "frozen_before_final_build": true,
+  "comparator": {
+    "command": [
+      "systemd-run",
+      "--user",
+      "--wait",
+      "--pipe",
+      "--collect",
+      "--property=RestrictAddressFamilies=~AF_UNIX",
+      "-E",
+      "PATH=$USER_HOME/verification/bin:/opt/lean-audit/lean-4.34.0-rc2-linux/bin:/usr/local/bin:/usr/bin:/bin",
+      "-E",
+      "COMPARATOR_LANDRUN=$USER_HOME/verification/bin/landrun",
+      "-E",
+      "COMPARATOR_LEAN4EXPORT=$USER_HOME/verification/project/.lake/packages/lean4export/.lake/build/bin/lean4export",
+      "-E",
+      "COMPARATOR_NANODA=$USER_HOME/verification/nanoda_lib/target/release/nanoda_bin",
+      "--working-directory=/tmp/fresh-added-geometry-rational-final-20261113-ntb0vi6_",
+      "--",
+      "$USER_HOME/verification/bin/lake",
+      "env",
+      "$USER_HOME/verification/project/.lake/packages/Comparator/.lake/build/bin/comparator",
+      "comparator.json"
+    ],
+    "started_at_utc": "2026-11-13T06:30:02.252086+00:00",
+    "finished_at_utc": "2026-11-13T06:31:28.332254+00:00",
+    "exit": 0,
+    "log_sha256": "857d4162bd87da6190145882b6b6b971cbc952996eb86c27acba80851010ceed"
+  },
+  "axioms": {
+    "command": [
+      "$USER_HOME/verification/bin/lake",
+      "env",
+      "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+      "FreshAxioms.lean"
+    ],
+    "started_at_utc": "2026-11-13T06:31:28.338664+00:00",
+    "finished_at_utc": "2026-11-13T06:31:37.502477+00:00",
+    "exit": 0,
+    "log_sha256": "09004198bc671f0bcbabefb8adcf61787bd0518e73a81982d68df5aef48226d6"
+  },
+  "lean_build": {
+    "command": [
+      "$USER_HOME/verification/bin/lake",
+      "build"
+    ],
+    "started_at_utc": "2026-11-13T06:31:37.506853+00:00",
+    "finished_at_utc": "2026-11-13T06:31:46.924436+00:00",
+    "exit": 0,
+    "log_sha256": "afea6bf49be0706d605a9cce4d3a5bc4e4b29c0d43845cdd7ac8b661a612cc04"
+  },
+  "sources_unchanged": true,
+  "objects": {
+    ".lake/build/lib/lean/PublishedSolution.olean": "ea03a62ca8a24ad233a402ba798be227304a34356dbbe136824703e2760a5237",
+    ".lake/build/lib/lean/PublishedReference.olean": "54d6e0653535d39d05c43478355789d88be87cad5abd43e9670c0e694537fc7f",
+    ".lake/build/lib/lean/SIMSLatentReadout.olean": "08757debb04d375bfa46fca8dec577ff6345013ffdc771ca0fa9d477c7fb5063"
+  },
+  "finished_at_utc": "2026-11-13T06:31:48.524921+00:00"
+}

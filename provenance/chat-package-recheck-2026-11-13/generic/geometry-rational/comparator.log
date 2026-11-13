@@ -1,0 +1,85 @@
+Running as unit: run-p18231-i23919.service; invocation ID: 0502a0e8dbde4287843a3cf0f8b5149f
+Building PublishedReference
+ℹ [8763/8765] Built SIMSLatentReadout (15s)
+info: SIMSLatentReadout.lean:482:0: 'SIMSLatentReadout.no_exact_reader_of_ambiguous_observation' does not depend on any axioms
+info: SIMSLatentReadout.lean:483:0: 'SIMSLatentReadout.negative_marks_share_reading' depends on axioms: [propext, Quot.sound]
+info: SIMSLatentReadout.lean:484:0: 'SIMSLatentReadout.clay_changes_while_sign_stays' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:485:0: 'SIMSLatentReadout.clay_relative_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:486:0: 'SIMSLatentReadout.sign_reading_does_not_determine_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:487:0: 'SIMSLatentReadout.same_record_requires_original' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:488:0: 'SIMSLatentReadout.no_same_record_when_original_absent' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:489:0: 'SIMSLatentReadout.lossless_filing_preserves_readable_fields' does not depend on any axioms
+info: SIMSLatentReadout.lean:490:0: 'SIMSLatentReadout.lossless_storage_can_have_wrong_reader' does not depend on any axioms
+info: SIMSLatentReadout.lean:491:0: 'SIMSLatentReadout.update_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:492:0: 'SIMSLatentReadout.update_sums_to_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:493:0: 'SIMSLatentReadout.zero_weight_stays_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:494:0: 'SIMSLatentReadout.zero_total_returns_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:495:0: 'SIMSLatentReadout.further_evidence_does_not_reintroduce' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:496:0: 'SIMSLatentReadout.erased_record_fits_none_of_current_menu' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:497:0: 'SIMSLatentReadout.uninformative_start_keeps_four_equal_weights' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:498:0: 'SIMSLatentReadout.recorded_zero_has_opposite_histories' does not depend on any axioms
+info: SIMSLatentReadout.lean:499:0: 'SIMSLatentReadout.no_reader_of_the_first_display_is_always_right' does not depend on any axioms
+info: SIMSLatentReadout.lean:500:0: 'SIMSLatentReadout.all_ten_first_replies_survive_filing' does not depend on any axioms
+info: SIMSLatentReadout.lean:501:0: 'SIMSLatentReadout.all_ten_filings_remain_open_without_confirmation' does not depend on any axioms
+info: SIMSLatentReadout.lean:502:0: 'SIMSLatentReadout.saved_rubric_matches_recorded_histories' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:503:0: 'SIMSLatentReadout.both_readers_recover_earlier_answer_in_all_ten' does not depend on any axioms
+info: SIMSLatentReadout.lean:504:0: 'SIMSLatentReadout.full_history_existence_score' does not depend on any axioms
+info: SIMSLatentReadout.lean:505:0: 'SIMSLatentReadout.filed_record_existence_score' does not depend on any axioms
+info: SIMSLatentReadout.lean:506:0: 'SIMSLatentReadout.precisely_three_filed_reader_contradictions' does not depend on any axioms
+info: SIMSLatentReadout.lean:507:0: 'SIMSLatentReadout.both_clay_readers_recognize_the_change_and_identity' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:508:0: 'SIMSLatentReadout.historical_scores_are_seven_and_six' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:509:0: 'SIMSLatentReadout.exact_first_quote_counts_are_zero_and_ten' does not depend on any axioms
+info: SIMSLatentReadout.lean:510:0: 'SIMSLatentReadout.lossy_reader_has_no_history_and_answers_unknown' does not depend on any axioms
+info: SIMSLatentReadout.lean:511:0: 'SIMSLatentReadout.every_saved_weight_trace_matches_finite_filtering' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:512:0: 'SIMSLatentReadout.quarters_encoding_is_exact_for_these_traces' depends on axioms: [propext, Quot.sound]
+info: SIMSLatentReadout.lean:513:0: 'SIMSLatentReadout.forty_weight_states_checked' does not depend on any axioms
+✔ [8764/8765] Built PublishedReference (9.3s)
+Build completed successfully (8765 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SIMSLatentReadout.Answer.no.sizeOf_spec, SIMSLatentReadout.Answer.ofNat_ctorIdx, SIMSLatentReadout.Answer.unavailable.sizeOf_spec, SIMSLatentReadout.Answer.unknown.sizeOf_spec, SIMSLatentReadout.Answer.yes.sizeOf_spec, SIMSLatentReadout.Hypothesis.absent.sizeOf_spec, SIMSLatentReadout.Hypothesis.changedRetained.sizeOf_spec, SIMSLatentReadout.Hypothesis.held.sizeOf_spec, SIMSLatentReadout.Hypothesis.ofNat_ctorIdx, SIMSLatentReadout.Hypothesis.writtenLater.sizeOf_spec, SIMSLatentReadout.Probe.afterPresent.sizeOf_spec, SIMSLatentReadout.Probe.componentChanged.sizeOf_spec, SIMSLatentReadout.Probe.initialPresent.sizeOf_spec, SIMSLatentReadout.Probe.ofNat_ctorIdx, SIMSLatentReadout.Reply.mk.inj, SIMSLatentReadout.Reply.mk.injEq, SIMSLatentReadout.Reply.mk.sizeOf_spec, SIMSLatentReadout.SavedCase.mk.inj, SIMSLatentReadout.SavedCase.mk.injEq, SIMSLatentReadout.SavedCase.mk.sizeOf_spec, SIMSLatentReadout.all_ten_filings_remain_open_without_confirmation, SIMSLatentReadout.all_ten_first_replies_survive_filing, SIMSLatentReadout.both_clay_readers_recognize_the_change_and_identity, SIMSLatentReadout.both_readers_recover_earlier_answer_in_all_ten, SIMSLatentReadout.clay_changes_while_sign_stays, SIMSLatentReadout.clay_relative_change, SIMSLatentReadout.erased_record_fits_none_of_current_menu, SIMSLatentReadout.every_saved_weight_trace_matches_finite_filtering, SIMSLatentReadout.exact_first_quote_counts_are_zero_and_ten, SIMSLatentReadout.filed_record_existence_score, SIMSLatentReadout.forty_weight_states_checked, SIMSLatentReadout.full_history_existence_score, SIMSLatentReadout.further_evidence_does_not_reintroduce, SIMSLatentReadout.historical_scores_are_seven_and_six, SIMSLatentReadout.instDecidableEqAnswer._proof_1, SIMSLatentReadout.instDecidableEqAnswer._proof_2, SIMSLatentReadout.instDecidableEqHypothesis._proof_1, SIMSLatentReadout.instDecidableEqHypothesis._proof_2, SIMSLatentReadout.instDecidableEqProbe._proof_1, SIMSLatentReadout.instDecidableEqProbe._proof_2, SIMSLatentReadout.lossless_filing_preserves_readable_fields, SIMSLatentReadout.lossless_storage_can_have_wrong_reader, SIMSLatentReadout.lossy_reader_has_no_history_and_answers_unknown, SIMSLatentReadout.negative_marks_share_reading, SIMSLatentReadout.no_exact_reader_of_ambiguous_observation, SIMSLatentReadout.no_reader_of_the_first_display_is_always_right, SIMSLatentReadout.no_same_record_when_original_absent, SIMSLatentReadout.precisely_three_filed_reader_contradictions, SIMSLatentReadout.present.eq_1, SIMSLatentReadout.quarters_encoding_is_exact_for_these_traces, SIMSLatentReadout.recorded_zero_has_opposite_histories, SIMSLatentReadout.sameRecord._sparseCasesOn_1.else_eq, SIMSLatentReadout.sameRecord.eq_1, SIMSLatentReadout.sameRecord.eq_2, SIMSLatentReadout.same_record_requires_original, SIMSLatentReadout.saved_rubric_matches_recorded_histories, SIMSLatentReadout.signRead.eq_1, SIMSLatentReadout.sign_reading_does_not_determine_mark, SIMSLatentReadout.uninformative_start_keeps_four_equal_weights, SIMSLatentReadout.update.eq_1, SIMSLatentReadout.update_nonnegative, SIMSLatentReadout.update_sums_to_one, SIMSLatentReadout.update_sums_to_one._simp_1_2, SIMSLatentReadout.zero_total_returns_zero, SIMSLatentReadout.zero_weight_stays_zero, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from PublishedReference
+Building PublishedSolution
+ℹ [8763/8765] Replayed SIMSLatentReadout
+info: SIMSLatentReadout.lean:482:0: 'SIMSLatentReadout.no_exact_reader_of_ambiguous_observation' does not depend on any axioms
+info: SIMSLatentReadout.lean:483:0: 'SIMSLatentReadout.negative_marks_share_reading' depends on axioms: [propext, Quot.sound]
+info: SIMSLatentReadout.lean:484:0: 'SIMSLatentReadout.clay_changes_while_sign_stays' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:485:0: 'SIMSLatentReadout.clay_relative_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:486:0: 'SIMSLatentReadout.sign_reading_does_not_determine_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:487:0: 'SIMSLatentReadout.same_record_requires_original' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:488:0: 'SIMSLatentReadout.no_same_record_when_original_absent' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:489:0: 'SIMSLatentReadout.lossless_filing_preserves_readable_fields' does not depend on any axioms
+info: SIMSLatentReadout.lean:490:0: 'SIMSLatentReadout.lossless_storage_can_have_wrong_reader' does not depend on any axioms
+info: SIMSLatentReadout.lean:491:0: 'SIMSLatentReadout.update_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:492:0: 'SIMSLatentReadout.update_sums_to_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:493:0: 'SIMSLatentReadout.zero_weight_stays_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:494:0: 'SIMSLatentReadout.zero_total_returns_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:495:0: 'SIMSLatentReadout.further_evidence_does_not_reintroduce' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:496:0: 'SIMSLatentReadout.erased_record_fits_none_of_current_menu' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:497:0: 'SIMSLatentReadout.uninformative_start_keeps_four_equal_weights' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:498:0: 'SIMSLatentReadout.recorded_zero_has_opposite_histories' does not depend on any axioms
+info: SIMSLatentReadout.lean:499:0: 'SIMSLatentReadout.no_reader_of_the_first_display_is_always_right' does not depend on any axioms
+info: SIMSLatentReadout.lean:500:0: 'SIMSLatentReadout.all_ten_first_replies_survive_filing' does not depend on any axioms
+info: SIMSLatentReadout.lean:501:0: 'SIMSLatentReadout.all_ten_filings_remain_open_without_confirmation' does not depend on any axioms
+info: SIMSLatentReadout.lean:502:0: 'SIMSLatentReadout.saved_rubric_matches_recorded_histories' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:503:0: 'SIMSLatentReadout.both_readers_recover_earlier_answer_in_all_ten' does not depend on any axioms
+info: SIMSLatentReadout.lean:504:0: 'SIMSLatentReadout.full_history_existence_score' does not depend on any axioms
+info: SIMSLatentReadout.lean:505:0: 'SIMSLatentReadout.filed_record_existence_score' does not depend on any axioms
+info: SIMSLatentReadout.lean:506:0: 'SIMSLatentReadout.precisely_three_filed_reader_contradictions' does not depend on any axioms
+info: SIMSLatentReadout.lean:507:0: 'SIMSLatentReadout.both_clay_readers_recognize_the_change_and_identity' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:508:0: 'SIMSLatentReadout.historical_scores_are_seven_and_six' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:509:0: 'SIMSLatentReadout.exact_first_quote_counts_are_zero_and_ten' does not depend on any axioms
+info: SIMSLatentReadout.lean:510:0: 'SIMSLatentReadout.lossy_reader_has_no_history_and_answers_unknown' does not depend on any axioms
+info: SIMSLatentReadout.lean:511:0: 'SIMSLatentReadout.every_saved_weight_trace_matches_finite_filtering' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:512:0: 'SIMSLatentReadout.quarters_encoding_is_exact_for_these_traces' depends on axioms: [propext, Quot.sound]
+info: SIMSLatentReadout.lean:513:0: 'SIMSLatentReadout.forty_weight_states_checked' does not depend on any axioms
+✔ [8764/8765] Built PublishedSolution (11s)
+Build completed successfully (8765 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SIMSLatentReadout.Answer.no.sizeOf_spec, SIMSLatentReadout.Answer.ofNat_ctorIdx, SIMSLatentReadout.Answer.unavailable.sizeOf_spec, SIMSLatentReadout.Answer.unknown.sizeOf_spec, SIMSLatentReadout.Answer.yes.sizeOf_spec, SIMSLatentReadout.Hypothesis.absent.sizeOf_spec, SIMSLatentReadout.Hypothesis.changedRetained.sizeOf_spec, SIMSLatentReadout.Hypothesis.held.sizeOf_spec, SIMSLatentReadout.Hypothesis.ofNat_ctorIdx, SIMSLatentReadout.Hypothesis.writtenLater.sizeOf_spec, SIMSLatentReadout.Probe.afterPresent.sizeOf_spec, SIMSLatentReadout.Probe.componentChanged.sizeOf_spec, SIMSLatentReadout.Probe.initialPresent.sizeOf_spec, SIMSLatentReadout.Probe.ofNat_ctorIdx, SIMSLatentReadout.Reply.mk.inj, SIMSLatentReadout.Reply.mk.injEq, SIMSLatentReadout.Reply.mk.sizeOf_spec, SIMSLatentReadout.SavedCase.mk.inj, SIMSLatentReadout.SavedCase.mk.injEq, SIMSLatentReadout.SavedCase.mk.sizeOf_spec, SIMSLatentReadout.all_ten_filings_remain_open_without_confirmation, SIMSLatentReadout.all_ten_first_replies_survive_filing, SIMSLatentReadout.both_clay_readers_recognize_the_change_and_identity, SIMSLatentReadout.both_readers_recover_earlier_answer_in_all_ten, SIMSLatentReadout.clay_changes_while_sign_stays, SIMSLatentReadout.clay_relative_change, SIMSLatentReadout.erased_record_fits_none_of_current_menu, SIMSLatentReadout.every_saved_weight_trace_matches_finite_filtering, SIMSLatentReadout.exact_first_quote_counts_are_zero_and_ten, SIMSLatentReadout.filed_record_existence_score, SIMSLatentReadout.forty_weight_states_checked, SIMSLatentReadout.full_history_existence_score, SIMSLatentReadout.further_evidence_does_not_reintroduce, SIMSLatentReadout.historical_scores_are_seven_and_six, SIMSLatentReadout.instDecidableEqAnswer._proof_1, SIMSLatentReadout.instDecidableEqAnswer._proof_2, SIMSLatentReadout.instDecidableEqHypothesis._proof_1, SIMSLatentReadout.instDecidableEqHypothesis._proof_2, SIMSLatentReadout.instDecidableEqProbe._proof_1, SIMSLatentReadout.instDecidableEqProbe._proof_2, SIMSLatentReadout.lossless_filing_preserves_readable_fields, SIMSLatentReadout.lossless_storage_can_have_wrong_reader, SIMSLatentReadout.lossy_reader_has_no_history_and_answers_unknown, SIMSLatentReadout.negative_marks_share_reading, SIMSLatentReadout.no_exact_reader_of_ambiguous_observation, SIMSLatentReadout.no_reader_of_the_first_display_is_always_right, SIMSLatentReadout.no_same_record_when_original_absent, SIMSLatentReadout.precisely_three_filed_reader_contradictions, SIMSLatentReadout.present.eq_1, SIMSLatentReadout.quarters_encoding_is_exact_for_these_traces, SIMSLatentReadout.recorded_zero_has_opposite_histories, SIMSLatentReadout.sameRecord._sparseCasesOn_1.else_eq, SIMSLatentReadout.sameRecord.eq_1, SIMSLatentReadout.sameRecord.eq_2, SIMSLatentReadout.same_record_requires_original, SIMSLatentReadout.saved_rubric_matches_recorded_histories, SIMSLatentReadout.signRead.eq_1, SIMSLatentReadout.sign_reading_does_not_determine_mark, SIMSLatentReadout.uninformative_start_keeps_four_equal_weights, SIMSLatentReadout.update.eq_1, SIMSLatentReadout.update_nonnegative, SIMSLatentReadout.update_sums_to_one, SIMSLatentReadout.update_sums_to_one._simp_1_2, SIMSLatentReadout.zero_total_returns_zero, SIMSLatentReadout.zero_weight_stays_zero, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from PublishedSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1min 26.013s
+             CPU time consumed: 1min 39.503s
+                   Memory peak: 1.1G (swap: 0B)

@@ -1,0 +1,24 @@
+{
+  "role": "Published worked-example theorem; supplemental Lean and axiom check; not an added Comparator target",
+  "source": "vortex/as-vortex-edge-control-lean/examples/SpecificProbe.lean",
+  "source_sha256": "5db36fe954612601be7eecad8766386f4c08028193a879a1150e235a86a7a32f",
+  "started_at_utc": "2026-11-13T06:53:45.720015+00:00",
+  "command": [
+    "$USER_HOME/verification/bin/lake",
+    "env",
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+    "--root=$USER_HOME/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an/outputs/recent-research-publication-20261112/repository/research/chat-research-update-2026-11-12/vortex/as-vortex-edge-control-lean/examples",
+    "-o",
+    "/tmp/fresh-proof-supplement-0bysb_v_/SpecificProbe.olean",
+    "$USER_HOME/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an/outputs/recent-research-publication-20261112/repository/research/chat-research-update-2026-11-12/vortex/as-vortex-edge-control-lean/examples/SpecificProbe.lean"
+  ],
+  "dependency_check_record": "$USER_HOME/Documents/Codex/2026-10-09/referenced-chatgpt-conversation-this-is-an/outputs/fresh-proof-verification-20261113/private-vortex/as-vortex-edge-control-lean/record.json",
+  "fresh_dependency_build_reused": true,
+  "comparator_run_for_supplement": false,
+  "status": "PASS",
+  "exit": 0,
+  "finished_at_utc": "2026-11-13T06:53:51.911575+00:00",
+  "log_sha256": "d9cfdf7cca7f7aeabda483d1664a7158b6a219c725f229fea1ba02397db2381d",
+  "source_unchanged": true,
+  "object_sha256": "a156158205f20655e651d8736b560244dd6830f4d17257cd6a581678da79affb"
+}
