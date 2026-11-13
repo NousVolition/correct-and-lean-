@@ -58,6 +58,8 @@ After A/S, we ask the same questions in models involving pressure, shape, guards
 
 Packages **6–9 approach the spatial Hug–Navier problem**. The intended formulation is one continuing system. The earlier bridge and interface constructions retain their checked mathematics, but their interpretation was subsequently corrected. Read the [single-system scope correction](../research/comparisons/hug-navier-single-system-scope-correction.md#meaning-to-preserve-across-implementations).
 
+After the reduced-model results, the next step is to control **fields that vary across space, whose spatial variation affects their evolution**. The eight-variable theorem does not supply the estimates needed to prove that a full spatial solution exists, is unique and stays within bounds over time. Packages 6–7 audit the earlier proposed construction, package 8 checks the single-system equations, and package 9 contributes diagnostics and guard-transport estimates. These are partial steps; the full spatial evolution theorem remains unfinished.
+
 6. **[hug-navier-bridge-lean](hug-navier-bridge-lean/) — An earlier compatibility comparison.**
 
    **Proved:** 14 conditional statements about when the earlier proposed coupling fits together or encounters an obstruction.
@@ -78,9 +80,9 @@ Packages **6–9 approach the spatial Hug–Navier problem**. The intended formu
 
 9. **[hug-navier-wellposedness-lean](hug-navier-wellposedness-lean/) — Diagnosing the difficult analytic step.**
 
-   **Proved:** Four diagnostic statements about smooth perturbations and the equations’ rates of change.
+   **Proved:** Four diagnostic statements about smooth perturbations and the equations’ rates of change. The current package also includes six guard-transport theorems, documented in a [separate ten-result verification record](hug-navier-wellposedness-lean/evidence-linux/source.json). The 19-package recheck above covered the four diagnostics.
 
-   **Unfinished:** The requested full existence, continuation and uniqueness theorem. Its written classical uniqueness argument has not been certified by Lean.
+   **Unfinished:** The requested full existence, continuation and uniqueness theorem. The full written classical uniqueness argument has not been certified by Lean.
 
 Packages **10–17 concern Hug v3’s evolution, memory writes, transfer and delays**. Here, “hybrid” means continuous evolution interrupted by discrete events such as writing a memory.
 
