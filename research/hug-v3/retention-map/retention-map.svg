@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="864pt" viewBox="0 0 1152 864" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Does it leave with what it came with?</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Does it leave with what it came with?</dc:title>
+    <dc:description>Historical numerical observations and separate finite Lean checks. No new simulation or theorem.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 864 
+L 1152 864 
+L 1152 0 
+L 0 0 
+z
+" style="fill: #f8fafc"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 39.168 238.464 
+L 293.76 238.464 
+Q 302.976 238.464 302.976 231.552 
+L 302.976 109.728 
+Q 302.976 102.816 293.76 102.816 
+L 39.168 102.816 
+Q 29.952 102.816 29.952 109.728 
+L 29.952 231.552 
+Q 29.952 238.464 39.168 238.464 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #eef5fb; stroke: #ccddea; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 312.192 238.464 
+L 566.784 238.464 
+Q 576 238.464 576 231.552 
+L 576 109.728 
+Q 576 102.816 566.784 102.816 
+L 312.192 102.816 
+Q 302.976 102.816 302.976 109.728 
+L 302.976 231.552 
+Q 302.976 238.464 312.192 238.464 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #eef5fb; stroke: #ccddea; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 585.216 238.464 
+L 839.808 238.464 
+Q 849.024 238.464 849.024 231.552 
+L 849.024 109.728 
+Q 849.024 102.816 839.808 102.816 
+L 585.216 102.816 
+Q 576 102.816 576 109.728 
+L 576 231.552 
+Q 576 238.464 585.216 238.464 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #eef5fb; stroke: #ccddea; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 858.24 238.464 
+L 1112.832 238.464 
+Q 1122.048 238.464 1122.048 231.552 
+L 1122.048 109.728 
+Q 1122.048 102.816 1112.832 102.816 
+L 858.24 102.816 
+Q 849.024 102.816 849.024 109.728 
+L 849.024 231.552 
+Q 849.024 238.464 858.24 238.464 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #eef5fb; stroke: #ccddea; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 39.168 464.832 
+L 385.92 464.832 
+Q 395.136 464.832 395.136 457.92 
+L 395.136 303.264 
+Q 395.136 296.352 385.92 296.352 
+L 39.168 296.352 
+Q 29.952 296.352 29.952 303.264 
+L 29.952 457.92 
+Q 29.952 464.832 39.168 464.832 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #ffffff; stroke: #d8e2e9; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 405.504 464.832 
+L 752.256 464.832 
+Q 761.472 464.832 761.472 457.92 
+L 761.472 303.264 
+Q 761.472 296.352 752.256 296.352 
+L 405.504 296.352 
+Q 396.288 296.352 396.288 303.264 
+L 396.288 457.92 
+Q 396.288 464.832 405.504 464.832 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #ffffff; stroke: #d8e2e9; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 771.84 464.832 
+L 1118.592 464.832 
+Q 1127.808 464.832 1127.808 457.92 
+L 1127.808 303.264 
+Q 1127.808 296.352 1118.592 296.352 
+L 771.84 296.352 
+Q 762.624 296.352 762.624 303.264 
+L 762.624 457.92 
+Q 762.624 464.832 771.84 464.832 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #ffffff; stroke: #d8e2e9; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 259.2 577.152 
+L 590.996606 577.152 
+L 590.996606 552.096 
+L 259.2 552.096 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #167b78; stroke: #f8fafc; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 590.996606 577.152 
+L 1002.24 577.152 
+L 1002.24 552.096 
+L 590.996606 552.096 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #dbe4eb; stroke: #f8fafc; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 259.2 627.264 
+L 590.996606 627.264 
+L 590.996606 602.208 
+L 259.2 602.208 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #167b78; stroke: #f8fafc; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 590.996606 627.264 
+L 941.380729 627.264 
+L 941.380729 602.208 
+L 590.996606 602.208 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #2867a4; stroke: #f8fafc; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 941.380729 627.264 
+L 1005.651906 627.264 
+L 1005.651906 602.208 
+L 941.380729 602.208 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #a66717; stroke: #f8fafc; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 259.2 664.416 
+L 271.872 664.416 
+L 271.872 654.912 
+L 259.2 654.912 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #167b78; stroke: #167b78; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 668.16 664.416 
+L 680.832 664.416 
+L 680.832 654.912 
+L 668.16 654.912 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #dbe4eb; stroke: #dbe4eb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 259.2 687.744 
+L 271.872 687.744 
+L 271.872 678.24 
+L 259.2 678.24 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #2867a4; stroke: #2867a4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 668.16 687.744 
+L 680.832 687.744 
+L 680.832 678.24 
+L 668.16 678.24 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #a66717; stroke: #a66717; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 39.168 811.296 
+L 559.872 811.296 
+Q 569.088 811.296 569.088 804.384 
+L 569.088 741.312 
+Q 569.088 734.4 559.872 734.4 
+L 39.168 734.4 
+Q 29.952 734.4 29.952 741.312 
+L 29.952 804.384 
+Q 29.952 811.296 39.168 811.296 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #edf6f5; stroke: #cde2df; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 589.824 811.296 
+L 1110.528 811.296 
+Q 1119.744 811.296 1119.744 804.384 
+L 1119.744 741.312 
+Q 1119.744 734.4 1110.528 734.4 
+L 589.824 734.4 
+Q 580.608 734.4 580.608 741.312 
+L 580.608 804.384 
+Q 580.608 811.296 589.824 811.296 
+z
+" clip-path="url(#p1d69dd014e)" style="fill: #f3eff9; stroke: #ded5ec; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 30px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182e40" x="40.32" y="59.718375" transform="rotate(-0 40.32 59.718375)">Does it leave with what it came with?</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #42586a" x="40.32" y="81.241062" transform="rotate(-0 40.32 81.241062)">Three completed studies  |  threshold 0.015  |  after-write tick 41: model time 1.2 to 1.3</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2867a4" x="50.688" y="141.614766" transform="rotate(-0 50.688 141.614766)">SAME IDENTITY</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 13.1px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(50.688 172.952281)">540 leaves the pair's view.</text>
+    <text style="font-size: 13.1px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(50.688 193.216344)">872 enters it.</text>
+    <text style="font-size: 13.1px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(50.688 210.942281)">Both labels stay identifiable.</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2867a4" x="323.712" y="141.614766" transform="rotate(-0 323.712 141.614766)">SAME RECORD</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 13.1px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(323.712 174.221344)">3 shared decoded records</text>
+    <text style="font-size: 13.1px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(323.712 191.947281)">stay byte-for-byte unchanged.</text>
+    <text style="font-size: 13.1px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(323.712 212.211344)">Stored material still evolves.</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2867a4" x="596.736" y="141.614766" transform="rotate(-0 596.736 141.614766)">SAME ORIGIN?</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 13.1px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(596.736 172.952281)">44.65% of starting context</text>
+    <text style="font-size: 13.1px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(596.736 192.548039)">is still inside; 55.35%</text>
+    <text style="font-size: 13.1px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(596.736 212.211344)">is elsewhere in the domain.</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2867a4" x="869.76" y="141.614766" transform="rotate(-0 869.76 141.614766)">SAME AMOUNT?</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 13.1px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(869.76 172.952281)">100.46% of the starting</text>
+    <text style="font-size: 13.1px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(869.76 193.216344)">amount is inside at the end.</text>
+    <text style="font-size: 13.1px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(869.76 210.942281)">The mix has changed.</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182e40" x="40.32" y="280.735594" transform="rotate(-0 40.32 280.735594)">The follow-up questions we already tested</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #167b78" x="54.144" y="336.848625" transform="rotate(-0 54.144 336.848625)">1  Pair 25: retention</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(54.144 365.604469)">Three shared records survive.</text>
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(54.144 383.871656)">Local readings change.</text>
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(54.144 403.446656)">A readout-boundary artifact is</text>
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(54.144 423.021656)">corrected; the failure is preserved.</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7352a2" x="54.144" y="448.417406" transform="rotate(-0 54.144 448.417406)">40 historical Lean targets</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #167b78" x="420.48" y="335.034562" transform="rotate(-0 420.48 335.034562)">2  Pair 25: origins</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(420.48 365.604469)">Wider view: 364 to 364 labels.</text>
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(420.48 384.490758)">872 arrives before 540 leaves;</text>
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(420.48 403.446656)">the count briefly reaches 365.</text>
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(420.48 423.021656)">Same endpoint count, new member.</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7352a2" x="420.48" y="448.417406" transform="rotate(-0 420.48 448.417406)">77 historical Lean targets</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #167b78" x="786.816" y="336.848625" transform="rotate(-0 786.816 336.848625)">3  Follow 540 and 872</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(786.816 364.296656)">Finest run at 1.3: original context</text>
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(786.816 383.713453)">540: 43.94% | 872: 42.95% still nearby.</text>
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(786.816 403.446656)">Each keeps its 8 starting material</text>
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(786.816 423.021656)">neighbors at recorded steps.</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7352a2" x="786.816" y="448.417406" transform="rotate(-0 786.816 448.417406)">134 historical Lean targets</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182e40" x="40.32" y="502.783594" transform="rotate(-0 40.32 502.783594)">Follow the origin as well as the total</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #42586a" x="40.32" y="527.455719" transform="rotate(-0 40.32 527.455719)">Pair 25, primary radius-0.075 union; 48³ grid, step 0.00025; read at time 1.3</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(40.32 562.465406)">Where the starting</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(40.32 582.625563)">context is now</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="425.098303" y="567.87107" transform="rotate(-0 425.098303 567.87107)">44.65%</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #182e40" x="796.618303" y="567.87107" transform="rotate(-0 796.618303 567.87107)">55.35%</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182e40" x="1042.56" y="569.708797" transform="rotate(-0 1042.56 569.708797)">100.00%</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(40.32 614.751562)">What is inside</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(40.32 633.601562)">the window now</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="425.098303" y="617.98307" transform="rotate(-0 425.098303 617.98307)">44.65%</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="766.188668" y="617.98307" transform="rotate(-0 766.188668 617.98307)">47.16%</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="973.516318" y="617.98307" transform="rotate(-0 973.516318 617.98307)">8.65%</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182e40" x="1042.56" y="619.820797" transform="rotate(-0 1042.56 619.820797)">100.46%</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #42586a" x="278.784" y="665.558781" transform="rotate(-0 278.784 665.558781)">Starting origin, still inside</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #42586a" x="687.744" y="665.558781" transform="rotate(-0 687.744 665.558781)">Starting origin, elsewhere</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #42586a" x="278.784" y="688.886781" transform="rotate(-0 278.784 688.886781)">Outside origin, now inside</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #42586a" x="687.744" y="689.414164" transform="rotate(-0 687.744 689.414164)">Later source, now inside</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 11.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #42586a" x="40.32" y="721.818875" transform="rotate(-0 40.32 721.818875)">All percentages use the amount initially inside as denominator. Context C is a model scalar, not water mass.</text>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #167b78" x="54.144" y="763.564305" transform="rotate(-0 54.144 763.564305)">NUMERICAL OBSERVATIONS</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 11.8px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(54.144 783.363063)">Recorded steps and chosen windows; full physical contents</text>
+    <text style="font-size: 11.8px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(54.144 800.473062)">and continuum convergence remain unresolved.</text>
+   </g>
+   <g id="text_39">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7352a2" x="604.8" y="763.564305" transform="rotate(-0 604.8 763.564305)">LEAN CHECKS</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 11.8px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(604.8 783.363063)">Finite rules, supplied numbers, memberships and bytes;</text>
+    <text style="font-size: 11.8px; font-family: 'DejaVu Sans'; fill: #182e40" transform="translate(604.8 800.473062)">the fluid evolution is outside these proofs.</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #42586a" x="40.32" y="840.950781" transform="rotate(-0 40.32 840.950781)">Leaving a view does not mean leaving the basin. Overlapping windows are not private holdings.</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #42586a" x="1111.68" y="856.729375" transform="rotate(-0 1111.68 856.729375)">AI-generated; dictated and directed by NousVolition.  Sources and scope in the accompanying page.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1d69dd014e">
+   <rect x="0" y="0" width="1152" height="864"/>
+  </clipPath>
+ </defs>
+</svg>
