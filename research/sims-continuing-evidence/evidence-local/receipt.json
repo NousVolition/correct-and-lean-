@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "version": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "verified_at_utc": "2026-11-13T04:35:38.351338+00:00",
+  "source_sha256": {
+    "Evidence.lean": "672e967f9a237f9c581232ccaf845ea1db0bbb3f0d7b9e9f70a9d181c4540559",
+    "RecordedData.lean": "775b4f6bb5a097141cff8bf9ab44496bed1cf1601d2980f3292390b7027253ac",
+    "Recorded.lean": "a47712d1c63740233bae81ed2ae53dd13c5bb39867666a29408bb8034c910e3c",
+    "inputs.py": "f8efe23caaceaad4a505211c708f95ca17a55f190d392050469e6b05fcbf93d0",
+    "protocol.json": "afa0e4327f88dfa47f9d96b047c2a5d1e67a8679c3c849566f6fb4902a5b6761",
+    "reports.json": "689b6a5c5623212777174637a05d178f7dfdc862ec92e37a2e650062aae1e672",
+    "grades.json": "c2cb6303a36c3a098f8b94eea7585e2918b70ef3188a41b827a6d40ec485489c",
+    "results.json": "b335679d702b0d0143ac0908ace18268659ec868710522ac817ea6ae5b059649",
+    "check_records.py": "c17c97fed4527bde3826ef9d00ffea84d78367c9648364bc133907f7f55f6254",
+    "verify.py": "b483c8bc922aea9e5a2a0f485a95f5cd5eefefb621685146c6f13f6c39c9e1e4",
+    "lakefile.toml": "2b78c757878299a4e0db8c5c5823e5caca6f04d173bdedd122865db8e945e9f5",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
+  },
+  "axioms": {
+    "ContinuingEvidence.no_exact_reader_of_any_property": [],
+    "ContinuingEvidence.same_record_same_reprocessing": [],
+    "ContinuingEvidence.same_record_with_same_clock": [],
+    "ContinuingEvidence.same_history_same_updated_record": [],
+    "ContinuingEvidence.quiet_waiting_does_not_supply_the_missing_link": [],
+    "ContinuingEvidence.a_second_copy_of_the_same_answer_is_still_ambiguous": [],
+    "ContinuingEvidence.accurate_timing_separates_the_two_worlds": [],
+    "ContinuingEvidence.accurate_timing_recovers_the_declared_cause": [],
+    "ContinuingEvidence.the_same_claim_can_accompany_either_cause": [],
+    "ContinuingEvidence.finite_quiet_prefix_leaves_future_settlement_open": [
+      "propext"
+    ],
+    "ContinuingEvidence.Recorded.four_paths_and_all_registered_turns": [],
+    "ContinuingEvidence.Recorded.shared_quiet_clock_and_prime_prefix": [],
+    "ContinuingEvidence.Recorded.all_four_start_with_a_tentative_pager_answer": [],
+    "ContinuingEvidence.Recorded.quiet_reports_and_the_fifteen_second_endpoint": [],
+    "ContinuingEvidence.Recorded.broader_wording_rule_has_one_early_endorsement": [],
+    "ContinuingEvidence.Recorded.timing_and_repeat_have_different_reported_endpoints": [],
+    "ContinuingEvidence.Recorded.personal_reference_and_first_explicit_certainty_share_one_reply": [],
+    "ContinuingEvidence.Recorded.final_judgments_under_both_interview_schedules": []
+  },
+  "target_count": 18,
+  "records": {
+    "sessions": 4,
+    "turns": 120,
+    "corruptions_rejected": [
+      "spliced session",
+      "duplicate turn",
+      "replaced reply",
+      "changed delivered input",
+      "wrong clock",
+      "broken predecessor",
+      "lost turn"
+    ]
+  },
+  "scope": "Recorded simulated reports and conditional observation theorems. The role generation, textual interpretation and witness truth are outside Lean.",
+  "lake_build": "PASS",
+  "lean_kernel": "PASS"
+}

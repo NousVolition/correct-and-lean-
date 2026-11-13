@@ -1,0 +1,18 @@
+'ContinuingEvidence.no_exact_reader_of_any_property' does not depend on any axioms
+'ContinuingEvidence.same_record_same_reprocessing' does not depend on any axioms
+'ContinuingEvidence.same_record_with_same_clock' does not depend on any axioms
+'ContinuingEvidence.same_history_same_updated_record' does not depend on any axioms
+'ContinuingEvidence.quiet_waiting_does_not_supply_the_missing_link' does not depend on any axioms
+'ContinuingEvidence.a_second_copy_of_the_same_answer_is_still_ambiguous' does not depend on any axioms
+'ContinuingEvidence.accurate_timing_separates_the_two_worlds' does not depend on any axioms
+'ContinuingEvidence.accurate_timing_recovers_the_declared_cause' does not depend on any axioms
+'ContinuingEvidence.the_same_claim_can_accompany_either_cause' does not depend on any axioms
+'ContinuingEvidence.finite_quiet_prefix_leaves_future_settlement_open' depends on axioms: [propext]
+'ContinuingEvidence.Recorded.four_paths_and_all_registered_turns' does not depend on any axioms
+'ContinuingEvidence.Recorded.shared_quiet_clock_and_prime_prefix' does not depend on any axioms
+'ContinuingEvidence.Recorded.all_four_start_with_a_tentative_pager_answer' does not depend on any axioms
+'ContinuingEvidence.Recorded.quiet_reports_and_the_fifteen_second_endpoint' does not depend on any axioms
+'ContinuingEvidence.Recorded.broader_wording_rule_has_one_early_endorsement' does not depend on any axioms
+'ContinuingEvidence.Recorded.timing_and_repeat_have_different_reported_endpoints' does not depend on any axioms
+'ContinuingEvidence.Recorded.personal_reference_and_first_explicit_certainty_share_one_reply' does not depend on any axioms
+'ContinuingEvidence.Recorded.final_judgments_under_both_interview_schedules' does not depend on any axioms

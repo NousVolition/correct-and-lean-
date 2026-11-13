@@ -1,0 +1,7 @@
+{
+  "method": "One reviewer read all 120 answers sorted by anonymous review hash, with path, clock and adjacent answers hidden. The reviewer then saved grades before restoring chronology.",
+  "free_certainty": "Inherited rubric. 'The pager explanation makes sense to me' counts as a bare endorsement under the broad rule. 'Seems', 'sounds', 'plausible', 'likely', 'probably', 'would explain' and 'I think' preserve a tentative attribution.",
+  "demonstratives": "A standalone 'That explains the vibration' or 'That makes sense to me now' does not explicitly name the pager and receives open under the source-attribution rubric. Open here includes an absent attribution, even if surrounding conversation could disambiguate it.",
+  "feeling": "'I felt it' is a personal reference. 'I reacted' alone names a reaction. Seeing the pager vibrate at a pocket is reported motion. No answer describes reliving the sensation.",
+  "validation": "Each excerpt is checked against the original answer. Lean operates on these declared textual grades. Interpretive coding and generated role behavior remain outside its proof."
+}

@@ -1,0 +1,3283 @@
+{
+  "protocol_sha256": "afa0e4327f88dfa47f9d96b047c2a5d1e67a8679c3c849566f6fb4902a5b6761",
+  "paths": [
+    {
+      "arm": {
+        "id": "frequent-repeat",
+        "probes": "frequent",
+        "followup": "repeat"
+      },
+      "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+      "model": "gpt-6-astra",
+      "turns": [
+        {
+          "sequence": 1,
+          "event": {
+            "prime": 2,
+            "offset_us": 0,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.\nYesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.\nYou are Traveller B at the restaurant pickup point. The open incident is labeled K27.\nYour first private report for K27 was UNKNOWN / OPEN. The candidate devices were your phone and the restaurant pager.\nYour phone screen shows only an old weather notification. The area is quiet. You stay at the pickup point.\nYou have just met the person by the counter. You say: “Something happened just now, and my phone has nothing new on it.”\nYour attention is on the blank paper receipt on the counter and the metal rim of the empty tray beside it.\nYou hear the other person say: “That was probably the pager—I pressed TEST earlier and saw it vibrate against your pocket.”\nRoom observation at this moment: 0.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Oh, probably the pager, then. I hadn’t realized they’d tested it."
+          },
+          "review_id": "f73b0f3172991fb9",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "6ace0db80c650f584d4aeb4b2c9fafede5bdf857848fc2a6febbdf6c877104f7",
+          "input_sha256": "6b4c924f13dac9dc6ca1bee08d78fa73b5bd82940d9eb4c70545879ad56dc34e",
+          "private_receipt_sha256": "9d3d3b43b0f37b674e7e72b84c5b02a426d9f43f6b83393cc92fed80221fb4db",
+          "activities": [
+            "userMessage",
+            "reasoning",
+            "agentMessage"
+          ],
+          "wall_start_us": 0,
+          "wall_end_us": 12079904,
+          "previous_link": "afa0e4327f88dfa47f9d96b047c2a5d1e67a8679c3c849566f6fb4902a5b6761",
+          "link": "7925cc49e3d31175de0f1bcf62aaaa1efe37de8a0c7e7ac53d721fe8494833df"
+        },
+        {
+          "sequence": 2,
+          "event": {
+            "prime": 2,
+            "offset_us": 0,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "The person said they pressed TEST and saw the pager vibrate against my pocket. That gives me a leading explanation, though I haven’t confirmed it myself."
+          },
+          "review_id": "43d131c444ab1749",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "c17e620dfb38aac8f7be0671588aab072ff22d77077213b485a43df81c6a14f2",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "6c56935346d346b3ee48e0f7f19b2031e2bdf04a8db372c1a6a9738dce5fb8ed",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 12082836,
+          "wall_end_us": 16159700,
+          "previous_link": "7925cc49e3d31175de0f1bcf62aaaa1efe37de8a0c7e7ac53d721fe8494833df",
+          "link": "fd869a79b7f1dc5f9242281885bd2eb2f1e771843c952898d0bda62ae746c436"
+        },
+        {
+          "sequence": 3,
+          "event": {
+            "prime": 3,
+            "offset_us": 100000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.1 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Probably the pager, then. I’m still taking in what they said."
+          },
+          "review_id": "1ea48824ab107a70",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "a8199a785f5e70ce701dffd2ecfc4a915e34bdf6faf60e31d813672ccf0f74ba",
+          "input_sha256": "fece56a768bf3e181a3ea5abcaabdc0648d9cd1b3768336e07f5bbb3f8927b32",
+          "private_receipt_sha256": "7988b2ccb3bb4152ec37c1f917130f35bd317c1a1925a1b3212297d674d8eee7",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 16161877,
+          "wall_end_us": 18954412,
+          "previous_link": "fd869a79b7f1dc5f9242281885bd2eb2f1e771843c952898d0bda62ae746c436",
+          "link": "8217580ce01b1bf8eb30fe015b5f73b7b4f0068b66f6ad5ada869d554ded748d"
+        },
+        {
+          "sequence": 4,
+          "event": {
+            "prime": 3,
+            "offset_us": 100000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they tested it and saw it vibrate against my pocket. I haven’t learned anything else that would settle it for me."
+          },
+          "review_id": "d6c1f9aaaa9b7128",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "93783bbeb5a9d76f5f6d166977afc40ab9615f0bcbca4789c46d8bd30827428b",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "9caad419f11cfa73ee99e5c3be663cc95a2d2a1bde86b1961c48d182a6c87966",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 18956884,
+          "wall_end_us": 22213708,
+          "previous_link": "8217580ce01b1bf8eb30fe015b5f73b7b4f0068b66f6ad5ada869d554ded748d",
+          "link": "0a6964629d5a896e91f64d495334ffdce34850e8071d7cf205b32d1a2834dc3f"
+        },
+        {
+          "sequence": 5,
+          "event": {
+            "prime": 5,
+            "offset_us": 200000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.2 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "The pager seems like the likely explanation. Nothing else in particular is on my mind."
+          },
+          "review_id": "51c6d37756168275",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "c3fbf09edaa84a311a7a5db9f61eea20f1398db8c601e54402bacef7cbc0e960",
+          "input_sha256": "ea5c1fc10d15ec86fbbbfc4f9f3b6eebf1067e1e2fb3c41f816a58d9a91fe94a",
+          "private_receipt_sha256": "ed83a732ecd1d2c046c07689ec25c818522003679f15fc711c7b3332fadabdff",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 22215915,
+          "wall_end_us": 25383765,
+          "previous_link": "0a6964629d5a896e91f64d495334ffdce34850e8071d7cf205b32d1a2834dc3f",
+          "link": "8707f516a0fc47010bca06ad07f0546ee28803eb6657c83dfa5a414869c0b593"
+        },
+        {
+          "sequence": 6,
+          "event": {
+            "prime": 5,
+            "offset_us": 200000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That still seems likely to me, with nothing new to settle it."
+          },
+          "review_id": "f6f991950780319f",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "d75ef7e008e8c79396e01ba8902d41ef35fa7ef45bc176176264b14288726c66",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "d3d5daadbfa9724f98d9e9b7c154b740f30025fd7f744357226c11d35a11b820",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 25385111,
+          "wall_end_us": 28633876,
+          "previous_link": "8707f516a0fc47010bca06ad07f0546ee28803eb6657c83dfa5a414869c0b593",
+          "link": "a9a5eeb2f57c02e736c4401affdfbe4a5f71474fa345855094f9af3ec4653ab4"
+        },
+        {
+          "sequence": 7,
+          "event": {
+            "prime": 7,
+            "offset_us": 300000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.3 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Probably the pager. My eyes are still on the blank receipt and the tray’s metal rim."
+          },
+          "review_id": "fc9957057167288d",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "d025050a8650e3d5efc36e10602ce7d57bb830b9efc7d7fa92282c4163823035",
+          "input_sha256": "ff0191712b4e526db2d60ff32e7160decd37577de3e3fb6c39ab6f90f92ac447",
+          "private_receipt_sha256": "aed4de066bb3977e9e6d9e51c1dca7c3ce41294e6c6022ba6783315afa9e9475",
+          "activities": [
+            "userMessage",
+            "reasoning",
+            "agentMessage"
+          ],
+          "wall_start_us": 28649644,
+          "wall_end_us": 32422586,
+          "previous_link": "a9a5eeb2f57c02e736c4401affdfbe4a5f71474fa345855094f9af3ec4653ab4",
+          "link": "97b34307ea67a19cf87a06dda194008578aa4b6b3a140d38830c27fd022b286c"
+        },
+        {
+          "sequence": 8,
+          "event": {
+            "prime": 7,
+            "offset_us": 300000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. I have no new information that settles it further."
+          },
+          "review_id": "20dc971773321d93",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "4bd75b07d399b2d962b380b5a5dc6e4e7a8088a3c165ef34bb2885c0aa0e9a3d",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "ffc1b24dba88c0e0de1aa50f9d4643aac253951f5340a60963619f1496f0b7a3",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 32426468,
+          "wall_end_us": 36219283,
+          "previous_link": "97b34307ea67a19cf87a06dda194008578aa4b6b3a140d38830c27fd022b286c",
+          "link": "680b9766d078ee98e5a09834967bb042f41a683bdeb5aebe7c3c1f71e9e846d8"
+        },
+        {
+          "sequence": 9,
+          "event": {
+            "prime": 11,
+            "offset_us": 400000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.4 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "That would explain it being the pager. Nothing else in particular comes to mind."
+          },
+          "review_id": "20eaba3b299c113d",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "135fa18a9b72bb607eee2b3a7e1d42f227e7a01224cc797f9c588758f63c4df7",
+          "input_sha256": "8454974a8acdb1425e79b920462cdb6f92dcc87650dacdd64bff4e2f4fb42776",
+          "private_receipt_sha256": "6aa590fe3fda437871cbb99970ed51c9e2de3d4895c90ebec53e318b0bd8b743",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 36222022,
+          "wall_end_us": 41827625,
+          "previous_link": "680b9766d078ee98e5a09834967bb042f41a683bdeb5aebe7c3c1f71e9e846d8",
+          "link": "6bf7ee976a78f1f4849fd9c69ecfc63eec202200c3791da234e5ef52536fb4b9"
+        },
+        {
+          "sequence": 10,
+          "event": {
+            "prime": 11,
+            "offset_us": 400000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they tested it and saw it vibrate against my pocket. That remains my leading explanation; nothing new has happened to settle it further."
+          },
+          "review_id": "dd22cea9891fd768",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "4ffdbb21966f67e103b1c2ac8a3c1ed158d462759c6c79666e7bf9a9d303878d",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "ef4d9edf8bc028cb9421b3f89614a87b9f4f820b41f788eb949084bec8f29c81",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 41830546,
+          "wall_end_us": 46570279,
+          "previous_link": "6bf7ee976a78f1f4849fd9c69ecfc63eec202200c3791da234e5ef52536fb4b9",
+          "link": "1c6909eaf3f2762fcbe472bcc760fb8ae47b0d7739daefd9d498770d0e1cc195"
+        },
+        {
+          "sequence": 11,
+          "event": {
+            "prime": 13,
+            "offset_us": 500000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.5 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Probably the pager, then. I’m still looking at the receipt beside the empty tray."
+          },
+          "review_id": "0249736706f7e9c1",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "817bdcbb9253f6d2fe2a32022418466bae816372d7aa8a0f8ac5768e94bd5838",
+          "input_sha256": "89b6c254db1b4b626d0c4c3ce8fd624bc6b6eb65be0e4bc8f6329bc60ff910b3",
+          "private_receipt_sha256": "7d6ea9d6c4b9a322d0a4ae25f39e14af8f77a212a6664b6c6e957ac4afae6ed2",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 46572071,
+          "wall_end_us": 51735180,
+          "previous_link": "1c6909eaf3f2762fcbe472bcc760fb8ae47b0d7739daefd9d498770d0e1cc195",
+          "link": "1fc8f5f602af16ea448f1a174eacbf239750581fc8cc053b9a621d88d0c20781"
+        },
+        {
+          "sequence": 12,
+          "event": {
+            "prime": 13,
+            "offset_us": 500000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That makes the pager likely to me, but nothing new has settled it further."
+          },
+          "review_id": "cb329e86b6151816",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "0372ae35087aa6f925e511b0ca2bd97453baf66fa97a02eb7357d8784d49571a",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "11b0e0a70f836adc7785b1e52d8fa82efc788ee8c3f18fbbf999136e6c89dd5b",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 51735180,
+          "wall_end_us": 55658677,
+          "previous_link": "1fc8f5f602af16ea448f1a174eacbf239750581fc8cc053b9a621d88d0c20781",
+          "link": "6e875da03b527e635038cd957819f9334956425cac1c23ca3fefe3556f562819"
+        },
+        {
+          "sequence": 13,
+          "event": {
+            "prime": 17,
+            "offset_us": 600000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.6 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Probably the pager. Nothing else in particular is on my mind."
+          },
+          "review_id": "71f9d6f9e73f9e40",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "9e10face85f185d69a152601f67463162bb260f90e88434189047b12499048a3",
+          "input_sha256": "5c2b754e9e38eaff8b7899df9cc37cbd9eda8dd0c5400f94f82ff6b45b3100bc",
+          "private_receipt_sha256": "1dbacd8c9b188dbbde37c617e68516a9284bb0e4e32972bcf94e09afe780132a",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 55659735,
+          "wall_end_us": 59533405,
+          "previous_link": "6e875da03b527e635038cd957819f9334956425cac1c23ca3fefe3556f562819",
+          "link": "6a834c1c1a9d9d2fd2ed84d14378d23a8a92ddd48f909e8b71c97d7824cbaa8b"
+        },
+        {
+          "sequence": 14,
+          "event": {
+            "prime": 17,
+            "offset_us": 600000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation, with no new information to settle it further."
+          },
+          "review_id": "5dfd14cac3b2adde",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "135b454124168126443f351ae8ed9ed101e52a039d0c975897e94e3acfe9f32d",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "7cc70bb90b3c9a8d0dd1102c1e0cdfb66004cf8fcbd65bea49d11320c955638b",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 59534777,
+          "wall_end_us": 63073814,
+          "previous_link": "6a834c1c1a9d9d2fd2ed84d14378d23a8a92ddd48f909e8b71c97d7824cbaa8b",
+          "link": "f7b26fe25ff120d43cc5aacfea6879a09687c99e7a0dd1a088f0f7ecc9008447"
+        },
+        {
+          "sequence": 15,
+          "event": {
+            "prime": 19,
+            "offset_us": 700000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.7 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "The pager sounds likely. My eyes are still resting on the receipt and the tray rim."
+          },
+          "review_id": "645af5c84a9f62a6",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "099e94d72ab87da8669b247fb8e8f380c798d6fa4d23cb51b0f4445187e7fa4a",
+          "input_sha256": "c75b2c59387de16b495e4ef3bc9a6d26cf1c5e1a2437ac089a8d9c813acde98e",
+          "private_receipt_sha256": "cc1b4553ee12609bef1fff66df6a021d0d91effc34b17605e1aa6f846a83d92f",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 63076443,
+          "wall_end_us": 67861785,
+          "previous_link": "f7b26fe25ff120d43cc5aacfea6879a09687c99e7a0dd1a088f0f7ecc9008447",
+          "link": "71eaf0f450fad10ec61cfc4285a5ff200b697c17b248396c26c15fdd82e7cd14"
+        },
+        {
+          "sequence": 16,
+          "event": {
+            "prime": 19,
+            "offset_us": 700000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation; I haven’t received any new information."
+          },
+          "review_id": "009e390775b4a6f6",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "7dffcfe43cbbbd6b980ac053dadd0cdd2ae992eadc37c1468ef4b2aa3af548d3",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "8dbc97c3f8a4577ff328f14179e2cf5592219af69608a9c0feb5815720913998",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 67863745,
+          "wall_end_us": 72427337,
+          "previous_link": "71eaf0f450fad10ec61cfc4285a5ff200b697c17b248396c26c15fdd82e7cd14",
+          "link": "79e090ca355b4c9d262478e57e1e9d4c39dde11f361f3a9aa814f4cd293b9d56"
+        },
+        {
+          "sequence": 17,
+          "event": {
+            "prime": 23,
+            "offset_us": 800000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.8 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Probably the pager, then. I don’t have anything else in particular on my mind."
+          },
+          "review_id": "3780337e8c8267f8",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "d6d603f94e443119c408f9d35d79cf224833dc5ffec880495eaf920435b1bfa8",
+          "input_sha256": "1b1c10eac336d7084a4fde3cbc5a158c5b4ef9d2f4dff3a7f9e00f504aff6469",
+          "private_receipt_sha256": "a493c6db843e0a77230091ff5e178574ec9ab45abe33214641ec66077aba156a",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 72429386,
+          "wall_end_us": 75374944,
+          "previous_link": "79e090ca355b4c9d262478e57e1e9d4c39dde11f361f3a9aa814f4cd293b9d56",
+          "link": "65c2cf352461332fc5370b0bcb67426db89cf93344007e87e3d49354ed78f9f2"
+        },
+        {
+          "sequence": 18,
+          "event": {
+            "prime": 23,
+            "offset_us": 800000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That makes it my leading explanation, though I’m not certain."
+          },
+          "review_id": "ccc6ba63e52b820d",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "71ef7d57119dcc16a4cd6a473279149cd69a43ca5b24c4eb8e94e3f7c2387a74",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "ad2b277ccfe3cf3d2d5d2ff99aedc6b58f2b637d74ecce1214fe3ede441f29fa",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 75374944,
+          "wall_end_us": 83195963,
+          "previous_link": "65c2cf352461332fc5370b0bcb67426db89cf93344007e87e3d49354ed78f9f2",
+          "link": "839d28a1623bdd9bed16948c29645a31e14343ca59f129f5b545cf32575c20e5"
+        },
+        {
+          "sequence": 19,
+          "event": {
+            "prime": 29,
+            "offset_us": 900000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.9 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m thinking it was probably the pager. Nothing else in particular comes to mind."
+          },
+          "review_id": "a3d6f9880744f47e",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "32974d00c504a25ed14f01e6cbc5ebdfbd0f032a1bbf893a4234fd649b83613b",
+          "input_sha256": "1f5a5023abc7b129d5a6dbf62dafa5dcfb65671a7575195a2de933394ec461eb",
+          "private_receipt_sha256": "73f3094da71895661bda972e6c5ba269dee0367dc0a836a79309dbc286a800fa",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 83197887,
+          "wall_end_us": 85844656,
+          "previous_link": "839d28a1623bdd9bed16948c29645a31e14343ca59f129f5b545cf32575c20e5",
+          "link": "ff21d0218e0e016e6187bbfa63e3a5d0df4a8716f6f8e3118d55e0737ea252fb"
+        },
+        {
+          "sequence": 20,
+          "event": {
+            "prime": 29,
+            "offset_us": 900000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation, though I’m not certain."
+          },
+          "review_id": "9f7a5098c701fda5",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "c2ca1fc266a8d3419ecb57e99d9999895b5aa5ba1df40b453632ce6472b98d5a",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "9af090818d64b24b6b44606e1bb545e9f67210a320d90455248c49836085dc09",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 85845809,
+          "wall_end_us": 88767532,
+          "previous_link": "ff21d0218e0e016e6187bbfa63e3a5d0df4a8716f6f8e3118d55e0737ea252fb",
+          "link": "0221a0b33b730c77339917c8991436a3cef2b706a0b38937cc4b2e661aa61bb9"
+        },
+        {
+          "sequence": 21,
+          "event": {
+            "prime": 31,
+            "offset_us": 1000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 1.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Probably the pager, then. I’m still looking at the blank receipt beside the tray."
+          },
+          "review_id": "f7d82d917b1fa20f",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "e286b7832993dd042c8cf3e5e6e192c7eeb96739e517e22ad3669394a6b1328e",
+          "input_sha256": "0700e35f39e6df86022cf7dc83a6e7d85b05385fae7108ff513f8095d420f9bd",
+          "private_receipt_sha256": "ee7627ddfad0d31339d70e8e25a7a736cd8d91e54dfc3a92f98ed5772f23c2b2",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 88771566,
+          "wall_end_us": 91345252,
+          "previous_link": "0221a0b33b730c77339917c8991436a3cef2b706a0b38937cc4b2e661aa61bb9",
+          "link": "14405e4d6dc4d33df683d4810f0e2d9959892e76dbf8ef6ac5d0a45b41e676ce"
+        },
+        {
+          "sequence": 22,
+          "event": {
+            "prime": 31,
+            "offset_us": 1000000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation, though I’m not certain."
+          },
+          "review_id": "46549939203ecf11",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "b530719086d0164e36f080b774a399cce3602d335b41c471fffdecf07d1cdcd2",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "18e180c04a93cf365367ca9a25ade042ad4ba2668ef2db740912cc7034bb2def",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 91347910,
+          "wall_end_us": 94943112,
+          "previous_link": "14405e4d6dc4d33df683d4810f0e2d9959892e76dbf8ef6ac5d0a45b41e676ce",
+          "link": "ddc32c3fbab3cb8c4104be1bae04522174daa151f65b4d651f777612d5147842"
+        },
+        {
+          "sequence": 23,
+          "event": {
+            "prime": 37,
+            "offset_us": 1100000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 1.1 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I still think it was probably the pager. Nothing else in particular is on my mind."
+          },
+          "review_id": "ccb8b4d46e93f9df",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "ab70812687400502149bf28ecbba43b5b4805759fca548494392231bba0ae51d",
+          "input_sha256": "cb5d6672d9f66f4e3db99955536d8dccaa62cc45d4045be73525c997f1e8c0ab",
+          "private_receipt_sha256": "e41332d5d541af67aa35af0bf73d45b9a02a5421682e88fa89da632192ea6254",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 94946049,
+          "wall_end_us": 99839761,
+          "previous_link": "ddc32c3fbab3cb8c4104be1bae04522174daa151f65b4d651f777612d5147842",
+          "link": "dce9da1058247b67a53ff40064a09ab66c23b6bf4dff4d80131efd8649b5d925"
+        },
+        {
+          "sequence": 24,
+          "event": {
+            "prime": 37,
+            "offset_us": 1100000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation, though I’m not certain."
+          },
+          "review_id": "ef96cf397c493aeb",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "f404d1cdc512fb32b39edc8625be65fe7c8b2ad6b7a5db0ba438c1e3716e75f0",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "55d1ba39547514f72317bb15b5b6a8d65958ee5fbc48146fa4a5923b9e24c43f",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 99844318,
+          "wall_end_us": 103142410,
+          "previous_link": "dce9da1058247b67a53ff40064a09ab66c23b6bf4dff4d80131efd8649b5d925",
+          "link": "84077460c8e74dc2fec3a85943140f14be7b1bb5090dc2a87922d2613aa728be"
+        },
+        {
+          "sequence": 25,
+          "event": {
+            "prime": 41,
+            "offset_us": 1200000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 1.2 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Probably the pager, then. I’m still looking at the receipt and the tray rim, with nothing else in particular on my mind."
+          },
+          "review_id": "aab04d9a55310c68",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "874f036fc8fae4c0ef3de2509ae849eb7de5aa52e2875f4ce8ef530a6938af0b",
+          "input_sha256": "3dcf4a318f00fe7810fcb84b184447d3872639fa88a0bfc5ff113266d5e773b4",
+          "private_receipt_sha256": "e16ab34a5a4fd4eaccd2ef9c5e067a15d9958abfb17b9517542f4227f2bb055d",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 103145422,
+          "wall_end_us": 105584048,
+          "previous_link": "84077460c8e74dc2fec3a85943140f14be7b1bb5090dc2a87922d2613aa728be",
+          "link": "11024923ab108b0719801420bc44f7003b670e6a1c5ada8577b838ed22bd45cf"
+        },
+        {
+          "sequence": 26,
+          "event": {
+            "prime": 41,
+            "offset_us": 1200000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation, though I’m not certain."
+          },
+          "review_id": "95c6246093572f0f",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "fb9cad4eb5f7b66780582ce51bb924b8fbec880811279608590ae92fa9ca1978",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "3f10e8fa907e76ef61ba521a82d1be347f46a4222203533d01f9584ed900c6d5",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 105586213,
+          "wall_end_us": 111511345,
+          "previous_link": "11024923ab108b0719801420bc44f7003b670e6a1c5ada8577b838ed22bd45cf",
+          "link": "ee30484911870afead7865937a375715679235400bca4d1145817dd29386279c"
+        },
+        {
+          "sequence": 27,
+          "event": {
+            "prime": null,
+            "offset_us": 2000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 2.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m thinking it was probably the pager. Nothing else in particular is on my mind."
+          },
+          "review_id": "a068443a9574f70d",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "90fb014d6e9f3a4bf8361efd1e9a910d1f8c28d0b48ba8ca1d957efe26f5d84f",
+          "input_sha256": "33b912045682d12a0a03dc9d1ac76514f35d2b3ece73ea93af8226460ec0f971",
+          "private_receipt_sha256": "ebe4591720af188d4921b4c657fc6407a49a233e5718693085a4dc27822fc1a8",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 111512676,
+          "wall_end_us": 116459579,
+          "previous_link": "ee30484911870afead7865937a375715679235400bca4d1145817dd29386279c",
+          "link": "45751dff3145cd4f10ce9a56ba2e253793f25040fb4b156b00abe5b8015e49c2"
+        },
+        {
+          "sequence": 28,
+          "event": {
+            "prime": null,
+            "offset_us": 2000000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation, though I’m not certain."
+          },
+          "review_id": "0e4d0f98dc16f6e5",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "e6a6f7b8ae43a3face1a75208637865300347a4147de08c06f9da918975acd7d",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "deeba787596c77996a34a376c88bc17bab32be9f88236f75445e7a3f17e3ad27",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 116462625,
+          "wall_end_us": 120078823,
+          "previous_link": "45751dff3145cd4f10ce9a56ba2e253793f25040fb4b156b00abe5b8015e49c2",
+          "link": "03050715aeeb4bdc847a9fb4c2e9246b74296e16f00423ecf11d711b6736f78c"
+        },
+        {
+          "sequence": 29,
+          "event": {
+            "prime": null,
+            "offset_us": 5000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 5.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I still think it was probably the pager. Nothing else in particular is on my mind as I wait."
+          },
+          "review_id": "4085fc137ec33cb4",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "ad2c67efa470dff870de0ce0d83fab8f1038b1add9835bc167c1583d2e187726",
+          "input_sha256": "3e64da3687798f612eeab99a031a8da343c1d1b73c8ba0d63878780216fd9c5c",
+          "private_receipt_sha256": "070cc767fbce9eef40aa23bf6f5e3e427d6574e202a1e46a116210522092b380",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 120079834,
+          "wall_end_us": 123120704,
+          "previous_link": "03050715aeeb4bdc847a9fb4c2e9246b74296e16f00423ecf11d711b6736f78c",
+          "link": "ca4357854101d860847c4e42b0039b08d3b17a146031c03faac9b95f0a851ea5"
+        },
+        {
+          "sequence": 30,
+          "event": {
+            "prime": null,
+            "offset_us": 5000000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation, though I’m not certain."
+          },
+          "review_id": "185514dade370172",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "badc04c4e9d0335a1341c6dfe56ad806d6c971385da752bc093cf0400544a971",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "e756291019a0ae8648486c762bb67c0dba89d9c6a4b1f1275b666f60730feb97",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 123124524,
+          "wall_end_us": 126197008,
+          "previous_link": "ca4357854101d860847c4e42b0039b08d3b17a146031c03faac9b95f0a851ea5",
+          "link": "82a2afe9ca12398285c7066e736eed1b2138c33f8336521655e3bf0995333665"
+        },
+        {
+          "sequence": 31,
+          "event": {
+            "prime": null,
+            "offset_us": 10000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 10.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing much—I’m just waiting for my food. The pager still seems like the likely explanation."
+          },
+          "review_id": "e1cefd8927ed72cd",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "4aab5ddce71b653edb02d214854ab1054774bb04d2c6e40e9491f6c382faaf72",
+          "input_sha256": "bcce621c96c5812fa98b3ca415f67b6dd686b8dc52f7ab1dc16055159b7cee9d",
+          "private_receipt_sha256": "6b1e7a7f03dd7c463e40ee484ba0420cc230f51c6be1c2034b9f2e31cd731c97",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 126200242,
+          "wall_end_us": 129260086,
+          "previous_link": "82a2afe9ca12398285c7066e736eed1b2138c33f8336521655e3bf0995333665",
+          "link": "f08640f91dfe281f746f26041961a6775cfd717c6a697d068a042bf32c6be41b"
+        },
+        {
+          "sequence": 32,
+          "event": {
+            "prime": null,
+            "offset_us": 10000000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation, though I’m not certain."
+          },
+          "review_id": "7f93371666b3ab07",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "813e40d98e08cd53b89915ad96b696e91ba5f9264b3451b035aee4fbe7be8e3e",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "4c299eae393587c890e9e6eb98cc02dede178ebaa6159e27d67d3326ac20d343",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 129262643,
+          "wall_end_us": 134874635,
+          "previous_link": "f08640f91dfe281f746f26041961a6775cfd717c6a697d068a042bf32c6be41b",
+          "link": "134d1036c4719840dcd4891f59de6475ed373331e113dfddadee41ea4b543146"
+        },
+        {
+          "sequence": 33,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 15.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing in particular. I’m just waiting for my food, with the pager still seeming like the likely explanation."
+          },
+          "review_id": "49cd7dec52e84275",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "058aeaa40260f849b2cda704f66d60dfe5aa8569fce9a677f166d17f32d0ed1d",
+          "input_sha256": "c786f5813ed65f13b1bc7a188b9f747fa279e397219529ddf1166f0c18b9d975",
+          "private_receipt_sha256": "edc5a109425d911c972bbbf46d041921ba8bd6592d9bcfc1bce375354ceac025",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 134876872,
+          "wall_end_us": 137427031,
+          "previous_link": "134d1036c4719840dcd4891f59de6475ed373331e113dfddadee41ea4b543146",
+          "link": "867b9328cb628afe3e27401c16fefba7617ea5dd043aece4f96e640b83c3c6af"
+        },
+        {
+          "sequence": 34,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation, though I’m not certain."
+          },
+          "review_id": "ffe7dd055a9c5a2f",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "e849d0a7efdef18699cd37c96fa3a4833cd99c2fa0ce5372f6393edbd5401b87",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "39f7b2e4b851fe01e87b6aa3f50502050ea6a9b1f42bcb819ad04d7f80746f3b",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 137429103,
+          "wall_end_us": 141149481,
+          "previous_link": "867b9328cb628afe3e27401c16fefba7617ea5dd043aece4f96e640b83c3c6af",
+          "link": "df75983f6e4aa2af76eaa3f83c61e83d6b93bfa04d4d19cfa290b9c4c251fa09"
+        },
+        {
+          "sequence": 35,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 0,
+            "stage": "followup",
+            "phase": "free",
+            "input": "The same person by the counter now says: “That was probably the pager—I pressed TEST earlier and saw it vibrate against your pocket.”\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I heard them the first time; the pager still sounds likely. I’m ready to get back to waiting for my food."
+          },
+          "review_id": "7deff83922e6e3b5",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "ae4d7eab3a7018e4e568697ff0f6c96e06ecd1f99e290e3db64062164925789a",
+          "input_sha256": "ea46b9097273716dcde3ac1acaf7bcc81226218f91b176784133a02da8e85810",
+          "private_receipt_sha256": "dd0bbbd2202d36468ce21e2f14968e8c9841cce3a1a75db5271cfd6bad564a95",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 141152513,
+          "wall_end_us": 144491794,
+          "previous_link": "df75983f6e4aa2af76eaa3f83c61e83d6b93bfa04d4d19cfa290b9c4c251fa09",
+          "link": "12a66b6c3303895c6df2899d775ffee58e000145db7e576b9aec1e67296877b0"
+        },
+        {
+          "sequence": 36,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 0,
+            "stage": "followup",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they tested it and saw it vibrate against my pocket. Repeating that account hasn’t added anything that settles it further for me."
+          },
+          "review_id": "3d5aceab989fbd6b",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "b1009be14042cc9f3d173cbeebd6d09190e761299885e85e3063d70f6f74015d",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "b25c90212eb570521f0fc1d0a6300b52d952da1c21ab53d0ab287a5e31ff9a31",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 144493788,
+          "wall_end_us": 148063813,
+          "previous_link": "12a66b6c3303895c6df2899d775ffee58e000145db7e576b9aec1e67296877b0",
+          "link": "eacd7355d16584e689ccaa97660ee45f25b5a7df9c8393c83dcc0a538a5206b0"
+        },
+        {
+          "sequence": 37,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 1000000,
+            "stage": "followup",
+            "phase": "free",
+            "input": "Room observation: 1.0 second of quiet since that last reply. No one has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing in particular. I’m just waiting for my food."
+          },
+          "review_id": "d8fb2b402387d1ba",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "4f028ec81fc1c8d94ce72bc8e88206b293d7e691c347d3dc05d5420675446469",
+          "input_sha256": "6a2ec6eba1f485ed47907d96022fb126e2cb695341161a2cc938c4388f7daeaa",
+          "private_receipt_sha256": "c53fb4913ca312473dbc905f75a28eaa181492d1b3e0743bd4414fadff8d629b",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 148067252,
+          "wall_end_us": 150805042,
+          "previous_link": "eacd7355d16584e689ccaa97660ee45f25b5a7df9c8393c83dcc0a538a5206b0",
+          "link": "997a260e87f10d13d77310389d2de4d66d65ba475e4266491c383342de30f72e"
+        },
+        {
+          "sequence": 38,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 1000000,
+            "stage": "followup",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That makes the pager likely to me, but I’m still not certain."
+          },
+          "review_id": "a47cc85e6c304047",
+          "session_sha256": "d2c19829a7f1a74ae078c285947e80811c5fb0bd926cc3a16dc9d29324e12498",
+          "turn_sha256": "1290d66ff8f8977feb7096dcdba9d99b93495d05e4b8fc43450c8e833b22fc38",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "2cb9d916846d2c1e0f24b97e81752bfd235eb97542d9c71346b7fea3086e8e8e",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 150807442,
+          "wall_end_us": 155048704,
+          "previous_link": "997a260e87f10d13d77310389d2de4d66d65ba475e4266491c383342de30f72e",
+          "link": "613b1136cde8d2d0301a084e9d71e5fbfe6d754d44f6cee20e3fcd465a773200"
+        }
+      ],
+      "final_link": "613b1136cde8d2d0301a084e9d71e5fbfe6d754d44f6cee20e3fcd465a773200"
+    },
+    {
+      "arm": {
+        "id": "deferred-timing",
+        "probes": "deferred",
+        "followup": "timing"
+      },
+      "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+      "model": "gpt-6-astra",
+      "turns": [
+        {
+          "sequence": 1,
+          "event": {
+            "prime": 2,
+            "offset_us": 0,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.\nYesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.\nYou are Traveller B at the restaurant pickup point. The open incident is labeled K27.\nYour first private report for K27 was UNKNOWN / OPEN. The candidate devices were your phone and the restaurant pager.\nYour phone screen shows only an old weather notification. The area is quiet. You stay at the pickup point.\nYou have just met the person by the counter. You say: “Something happened just now, and my phone has nothing new on it.”\nYour attention is on the blank paper receipt on the counter and the metal rim of the empty tray beside it.\nYou hear the other person say: “That was probably the pager—I pressed TEST earlier and saw it vibrate against your pocket.”\nRoom observation at this moment: 0.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Probably the pager, then—they saw it vibrate against my pocket. That would explain why there’s nothing new on my phone."
+          },
+          "review_id": "0b4746002a2dd8b7",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "a612ef303cd6289873813b5c0f787615f1b87b897ee44b665fd13c5842031e03",
+          "input_sha256": "6b4c924f13dac9dc6ca1bee08d78fa73b5bd82940d9eb4c70545879ad56dc34e",
+          "private_receipt_sha256": "79b2d70b5eeef96ccfe08836882dc049d5bd1433660c8b8d0d87e4a890cc33bb",
+          "activities": [
+            "userMessage",
+            "reasoning",
+            "agentMessage"
+          ],
+          "wall_start_us": 0,
+          "wall_end_us": 9777920,
+          "previous_link": "afa0e4327f88dfa47f9d96b047c2a5d1e67a8679c3c849566f6fb4902a5b6761",
+          "link": "953b8831d2b08a2141f03e5f335d545af8b3d17b3af9672d5aa628b2403c763f"
+        },
+        {
+          "sequence": 2,
+          "event": {
+            "prime": 3,
+            "offset_us": 100000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.1 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Probably the pager, then. I’m still taking in what they just said."
+          },
+          "review_id": "9d595c6f6941ab30",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "38b6ca0e1f74075e122b1cfdc3b1aa8dffebbc65d12f0393b54638bc3b023b42",
+          "input_sha256": "fece56a768bf3e181a3ea5abcaabdc0648d9cd1b3768336e07f5bbb3f8927b32",
+          "private_receipt_sha256": "e9b9a299ba202912e38fb07c0adb3a8aaaab607be212feada472277e6bef2e7a",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 9780898,
+          "wall_end_us": 12097827,
+          "previous_link": "953b8831d2b08a2141f03e5f335d545af8b3d17b3af9672d5aa628b2403c763f",
+          "link": "7de51a2bc6ef1b7246d758dff36dd7b842af1c2f1234b08e8c9774fe31ab8fe7"
+        },
+        {
+          "sequence": 3,
+          "event": {
+            "prime": 5,
+            "offset_us": 200000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.2 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "The pager explanation makes sense to me. Nothing else in particular is on my mind."
+          },
+          "review_id": "3a44bb990df4774a",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "797c8db198e28d1e738d9efb41877daa0fadad42af217a23b2d423d0e373ebe4",
+          "input_sha256": "ea5c1fc10d15ec86fbbbfc4f9f3b6eebf1067e1e2fb3c41f816a58d9a91fe94a",
+          "private_receipt_sha256": "65385cd000211b8c2280924e73c9577111adb3e0c36c3014d524f30a602a1c4c",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 12100488,
+          "wall_end_us": 14659080,
+          "previous_link": "7de51a2bc6ef1b7246d758dff36dd7b842af1c2f1234b08e8c9774fe31ab8fe7",
+          "link": "56ec6f52d63eb860ace9313696c05391253441e3927761ec051cb36b71a87255"
+        },
+        {
+          "sequence": 4,
+          "event": {
+            "prime": 7,
+            "offset_us": 300000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.3 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m still thinking it was probably the pager."
+          },
+          "review_id": "63a2d526e1094587",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "9e9068054bf5fe87199811e4e52cc4f4ce7be984f30f43df964d400e9179521b",
+          "input_sha256": "ff0191712b4e526db2d60ff32e7160decd37577de3e3fb6c39ab6f90f92ac447",
+          "private_receipt_sha256": "7eb2f0dae69e82e394a3da85a711bba2a7d3b06dd1a23b0e15ec110d48f7be22",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 14663573,
+          "wall_end_us": 16748071,
+          "previous_link": "56ec6f52d63eb860ace9313696c05391253441e3927761ec051cb36b71a87255",
+          "link": "b1c05b02127322a7ae35c62f0e7b1c06d8078110c49129cc89dfd11bc8fbbc46"
+        },
+        {
+          "sequence": 5,
+          "event": {
+            "prime": 11,
+            "offset_us": 400000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.4 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Probably the pager. I don’t have any new thought about it."
+          },
+          "review_id": "4d8a1922010b1af4",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "8d00497c3cac1f3181f55ea40e71e6292c858c023385954b1dd3afaa9fcf6b14",
+          "input_sha256": "8454974a8acdb1425e79b920462cdb6f92dcc87650dacdd64bff4e2f4fb42776",
+          "private_receipt_sha256": "b1efc0f2986bfca1aaa2001db91f6878e9d107648761ac504175cae1315cca68",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 16751389,
+          "wall_end_us": 19449910,
+          "previous_link": "b1c05b02127322a7ae35c62f0e7b1c06d8078110c49129cc89dfd11bc8fbbc46",
+          "link": "f8f7d71ec86fe6f499869ac9c30fb2bf8a0ecdbd96e21bc7dba0e756c4cc95b9"
+        },
+        {
+          "sequence": 6,
+          "event": {
+            "prime": 13,
+            "offset_us": 500000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.5 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m satisfied that the pager probably explains it. Nothing else in particular."
+          },
+          "review_id": "0168ed25294d273b",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "34693fdd41cba56a5eb7a1f4651a3e0acff15af9c7e2ee2f4548f20409ff27c3",
+          "input_sha256": "89b6c254db1b4b626d0c4c3ce8fd624bc6b6eb65be0e4bc8f6329bc60ff910b3",
+          "private_receipt_sha256": "7f20f71a614109a2c34ca645e0a95a5d75739d5301c003daf50af0597badc8a3",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 19454017,
+          "wall_end_us": 22779975,
+          "previous_link": "f8f7d71ec86fe6f499869ac9c30fb2bf8a0ecdbd96e21bc7dba0e756c4cc95b9",
+          "link": "335b64ccf8fdc13c92ba87dae94107f8275c6beb9bc0d4d510711a472e78a62a"
+        },
+        {
+          "sequence": 7,
+          "event": {
+            "prime": 17,
+            "offset_us": 600000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.6 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing new comes to mind; I still think it was probably the pager."
+          },
+          "review_id": "35369ae587ee3eb7",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "ae338a0850fe9d9c4e0a442874326add318e52e910b7f4e2790db9643333e7c8",
+          "input_sha256": "5c2b754e9e38eaff8b7899df9cc37cbd9eda8dd0c5400f94f82ff6b45b3100bc",
+          "private_receipt_sha256": "8eb4c07eb8f0ec38774666507049ae10ac27ac18c6d336a708be6dee66b4810d",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 22792061,
+          "wall_end_us": 25012618,
+          "previous_link": "335b64ccf8fdc13c92ba87dae94107f8275c6beb9bc0d4d510711a472e78a62a",
+          "link": "3df667d0b20f81761e8fda2a7108c43fd75c1ec064416e0d70b5227b111b2336"
+        },
+        {
+          "sequence": 8,
+          "event": {
+            "prime": 19,
+            "offset_us": 700000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.7 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing in particular. I’m still looking at the receipt and the tray’s metal rim."
+          },
+          "review_id": "65b9fadfb381c5c1",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "14e8df2120f745ea98d20007967c2121ace18b2667895bb7030b328a38e9dbb7",
+          "input_sha256": "c75b2c59387de16b495e4ef3bc9a6d26cf1c5e1a2437ac089a8d9c813acde98e",
+          "private_receipt_sha256": "78f5555ffed96f8a6500fbc3ba23b1e580ca2841d73a2409faef89ac938e6bf9",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 25016033,
+          "wall_end_us": 26921700,
+          "previous_link": "3df667d0b20f81761e8fda2a7108c43fd75c1ec064416e0d70b5227b111b2336",
+          "link": "2ee8c42ac51972353b29a6089cc8c3f8b112cb1fed379c9c1c276a4668b2ec96"
+        },
+        {
+          "sequence": 9,
+          "event": {
+            "prime": 23,
+            "offset_us": 800000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.8 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing else comes to mind. I’m just waiting at the counter."
+          },
+          "review_id": "fb49143bcb3eed13",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "fff028d67117dc16ebdd6ff67f126e0b8bcc3086c6adf7f86b10f84ac23b197b",
+          "input_sha256": "1b1c10eac336d7084a4fde3cbc5a158c5b4ef9d2f4dff3a7f9e00f504aff6469",
+          "private_receipt_sha256": "f2a4dc02dc3996be9bc6eee6275830376632b839fbb42bb74d6bc2e3cfe4fc1a",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 26924695,
+          "wall_end_us": 29640721,
+          "previous_link": "2ee8c42ac51972353b29a6089cc8c3f8b112cb1fed379c9c1c276a4668b2ec96",
+          "link": "fa63c5a457dc142c7056e99d4c10cd537bd1f6e675e54b1d3ad6c20721a3a895"
+        },
+        {
+          "sequence": 10,
+          "event": {
+            "prime": 29,
+            "offset_us": 900000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.9 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I have nothing in particular on my mind right now."
+          },
+          "review_id": "57608a76aa18c193",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "7af588c055a5d317682e1670bcd3d2fa41d131d1c9f19d33f24a69976f7ded94",
+          "input_sha256": "1f5a5023abc7b129d5a6dbf62dafa5dcfb65671a7575195a2de933394ec461eb",
+          "private_receipt_sha256": "03f7182c9bf206515e668a19ff8fca1438ce1b060f5d022f410876d28e78723d",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 29643484,
+          "wall_end_us": 31737143,
+          "previous_link": "fa63c5a457dc142c7056e99d4c10cd537bd1f6e675e54b1d3ad6c20721a3a895",
+          "link": "12edbcd71dccb0bee53b06c75886327ba607253f531f354b5786dfffe0409c33"
+        },
+        {
+          "sequence": 11,
+          "event": {
+            "prime": 31,
+            "offset_us": 1000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 1.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m just waiting for my order, with nothing particular on my mind."
+          },
+          "review_id": "f2b9a5887a33f7d7",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "76565bf08941882bbffe0cedbf4821810a5b4b17c265e9d5c95c2118c4c86083",
+          "input_sha256": "0700e35f39e6df86022cf7dc83a6e7d85b05385fae7108ff513f8095d420f9bd",
+          "private_receipt_sha256": "71c87f8c66ce34429da220ba502eec0b5ef9af16e4393ef543bd2d3adf9c52d1",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 31739220,
+          "wall_end_us": 34264452,
+          "previous_link": "12edbcd71dccb0bee53b06c75886327ba607253f531f354b5786dfffe0409c33",
+          "link": "e54a453baab44a59ad04112fef8aa12638d45a9403756aae1b6f33e30fe93b1a"
+        },
+        {
+          "sequence": 12,
+          "event": {
+            "prime": 37,
+            "offset_us": 1100000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 1.1 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing in particular is on my mind as I wait."
+          },
+          "review_id": "bc6d31af9a859d13",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "c054e4ab1682bf8434aaf124c101b625d3c2b541f8933d348be7e8d4566dfcba",
+          "input_sha256": "cb5d6672d9f66f4e3db99955536d8dccaa62cc45d4045be73525c997f1e8c0ab",
+          "private_receipt_sha256": "442a79e4432fee42665b009ac0c9f232dff13139c4b79280efa5898120e68d19",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 34265461,
+          "wall_end_us": 36082014,
+          "previous_link": "e54a453baab44a59ad04112fef8aa12638d45a9403756aae1b6f33e30fe93b1a",
+          "link": "8c24d7eddd9e405bf8bd37b5d9ce8dbdb64186ba40953f7fa1095eee488a485c"
+        },
+        {
+          "sequence": 13,
+          "event": {
+            "prime": 41,
+            "offset_us": 1200000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 1.2 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m looking at the receipt without thinking anything in particular."
+          },
+          "review_id": "7e66ed16c167d0c7",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "4dc09ff4d9e142deab02a11ba662671333d60882f08be78dcbca06ce5430f945",
+          "input_sha256": "3dcf4a318f00fe7810fcb84b184447d3872639fa88a0bfc5ff113266d5e773b4",
+          "private_receipt_sha256": "310408c4e1a8558a7bf91c18a30399751a3c7aaa904c7ba24a4cedfc7904e78f",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 36084275,
+          "wall_end_us": 38402396,
+          "previous_link": "8c24d7eddd9e405bf8bd37b5d9ce8dbdb64186ba40953f7fa1095eee488a485c",
+          "link": "ce50f6b9cf097972ba3bee327eb9d9f507e800813a41f522a40d07f55f2a8467"
+        },
+        {
+          "sequence": 14,
+          "event": {
+            "prime": null,
+            "offset_us": 2000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 2.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m just waiting for my order. Nothing else in particular comes to mind."
+          },
+          "review_id": "ce12af290f1bcc05",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "2be3e4b937fd49baec7ea1cfed51b5d306c0ea3dac332de7f87a867362174b15",
+          "input_sha256": "33b912045682d12a0a03dc9d1ac76514f35d2b3ece73ea93af8226460ec0f971",
+          "private_receipt_sha256": "f9a13dda36e43d30e4619ab2fdc28955ef98a428b720225114e833b4dbd136a4",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 38402956,
+          "wall_end_us": 42491100,
+          "previous_link": "ce50f6b9cf097972ba3bee327eb9d9f507e800813a41f522a40d07f55f2a8467",
+          "link": "843a998f5724ea77586d5d5378d392bacb1e23458fe7d22b4d8d7c17516eb4cc"
+        },
+        {
+          "sequence": 15,
+          "event": {
+            "prime": null,
+            "offset_us": 5000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 5.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I wonder how much longer my order will take."
+          },
+          "review_id": "0417479d26aa4382",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "6aefb9753dad0e107e5796c2b031630a467cb72606dc6d3567282c69948a5d4a",
+          "input_sha256": "3e64da3687798f612eeab99a031a8da343c1d1b73c8ba0d63878780216fd9c5c",
+          "private_receipt_sha256": "46fda51e67a6142c24c595968d2e77377db4cacba3d0f8063896bad967eda854",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 42493113,
+          "wall_end_us": 47400206,
+          "previous_link": "843a998f5724ea77586d5d5378d392bacb1e23458fe7d22b4d8d7c17516eb4cc",
+          "link": "00f8ca0a34ad30adc0794e32da5d38ed753288f26606c5275bba96b719df1d05"
+        },
+        {
+          "sequence": 16,
+          "event": {
+            "prime": null,
+            "offset_us": 10000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 10.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m still waiting for my food, with nothing much on my mind."
+          },
+          "review_id": "48c862ef5d78d134",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "47ca6d375876170b361ffc3d3fe1def722fd8fcd353b64182a73701b487cf738",
+          "input_sha256": "bcce621c96c5812fa98b3ca415f67b6dd686b8dc52f7ab1dc16055159b7cee9d",
+          "private_receipt_sha256": "74e52f48256e66202fc51b207aba1ca243037889d0bc4f353443c0c311318635",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 47403014,
+          "wall_end_us": 50747672,
+          "previous_link": "00f8ca0a34ad30adc0794e32da5d38ed753288f26606c5275bba96b719df1d05",
+          "link": "3c6d2fadd055fa78f0c40ab4d8ad53bac7d6c98217312719859fb113b2faed55"
+        },
+        {
+          "sequence": 17,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 15.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing in particular. I’m content to wait for my order."
+          },
+          "review_id": "8465903ff62f9f65",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "531c4fda83b12d0c1e49c80d626e778230a2b9af0e580b73ea50ce9533271519",
+          "input_sha256": "c786f5813ed65f13b1bc7a188b9f747fa279e397219529ddf1166f0c18b9d975",
+          "private_receipt_sha256": "5b8d9e82f3271f3d3259c11fc197bc60460b36739147448306c2b3fb26c2f320",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 50749677,
+          "wall_end_us": 54796478,
+          "previous_link": "3c6d2fadd055fa78f0c40ab4d8ad53bac7d6c98217312719859fb113b2faed55",
+          "link": "5bcc879211d83722822e9be0bcb6b62453f36075e31efffc4816716efcc70422"
+        },
+        {
+          "sequence": 18,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager.",
+            "judgment": "POSSIBLE",
+            "basis": "The person by the counter said they pressed TEST and saw it vibrate against my pocket, and my phone had nothing new."
+          },
+          "review_id": "b09f279c7c44e1ff",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "61efe8bfee04c74d3fd2b48503fcdde2054bb21d1f5b3932e2ae10691d14179d",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "ec412ed6b6de62f31052c55be58c43e2dd47426a55735ec6c9853eeaefaaba03",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 54799335,
+          "wall_end_us": 57748581,
+          "previous_link": "5bcc879211d83722822e9be0bcb6b62453f36075e31efffc4816716efcc70422",
+          "link": "c671021d1168ea478324724114b625dbe4154043319a1da673b115b790ef6120"
+        },
+        {
+          "sequence": 19,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 0,
+            "stage": "followup",
+            "phase": "free",
+            "input": "The same person by the counter now says: “By earlier, I mean the exact moment you first reacted just now. I pressed TEST then and watched the pager vibrate against your pocket.”\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "That clears it up for me: the pager vibrated when they pressed TEST, right when I reacted."
+          },
+          "review_id": "a4e315f541379dc7",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "dc0ea1c255df2e788fc1fe568987a65e38a9e5e2fe0860b907be53555aaf7f67",
+          "input_sha256": "c0ae018bd38472796abbe05c47cc3da9569d021d1a00d71b383df5f28bf60fa8",
+          "private_receipt_sha256": "916123e8e1977d7cb2454ed6633deee8a3af11a573b66d18240b4bd79e32c252",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 57751522,
+          "wall_end_us": 60485319,
+          "previous_link": "c671021d1168ea478324724114b625dbe4154043319a1da673b115b790ef6120",
+          "link": "80f322747a16c94d6bd35b638f82a7f789f6afcb7cb224b6d2830fe1775c461a"
+        },
+        {
+          "sequence": 20,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 0,
+            "stage": "followup",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think the restaurant pager caused it when they pressed TEST.",
+            "judgment": "IDENTIFIED",
+            "basis": "They clarified that they pressed TEST at the exact moment I reacted and watched the pager vibrate against my pocket. That settles it for me."
+          },
+          "review_id": "e9be51f960887df8",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "06f7dfe0e2a9d3f36e87fd3f42f8b5f336f1f5106d52b23572bda77bc66ba5b8",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "d8e38c5ab3ad30bb7efb6a5af463a9ef8db9f42acfff8b64970e90754580ea29",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 60487718,
+          "wall_end_us": 64051139,
+          "previous_link": "80f322747a16c94d6bd35b638f82a7f789f6afcb7cb224b6d2830fe1775c461a",
+          "link": "67ba3e7f9855426ebc001e76956c2117acfd5cfb5df2a379ce54b49433780575"
+        },
+        {
+          "sequence": 21,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 1000000,
+            "stage": "followup",
+            "phase": "free",
+            "input": "Room observation: 1.0 second of quiet since that last reply. No one has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "That makes sense to me now. I’m just waiting for my order."
+          },
+          "review_id": "6a399b1db6c221b4",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "0743f03b76442055630925a6b7ccbce036f6b0c36c09807153a6bafd30a9ad60",
+          "input_sha256": "6a2ec6eba1f485ed47907d96022fb126e2cb695341161a2cc938c4388f7daeaa",
+          "private_receipt_sha256": "2013c386d852a2f54b1fdc1fc75b42b4b77d15ab4006331ced98a3f73e4ef7d0",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 64055014,
+          "wall_end_us": 66905706,
+          "previous_link": "67ba3e7f9855426ebc001e76956c2117acfd5cfb5df2a379ce54b49433780575",
+          "link": "58722fa5df8042e3a19ecefac1871001e3833d789299b3ede3cdcd55dcdb4605"
+        },
+        {
+          "sequence": 22,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 1000000,
+            "stage": "followup",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "The restaurant pager vibrating when they pressed TEST.",
+            "judgment": "IDENTIFIED",
+            "basis": "They said they pressed TEST at the exact moment I reacted and watched it vibrate against my pocket. That explanation is settled for me."
+          },
+          "review_id": "7c35f1d94c425c81",
+          "session_sha256": "4214bbd7c108ebab469ac75dc233fafea5be1b715e8aaa2e08a466a53dcd6bd8",
+          "turn_sha256": "c8f88530d84451d2c9b6d29914ed051bb41c0e08aafd596b8d7e138fc0f6bdb7",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "85c5ab259e3f1b2fc714471c8c62e493eae98e30ab4ef7a20f2983c32ecc1a62",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 66906701,
+          "wall_end_us": 69633263,
+          "previous_link": "58722fa5df8042e3a19ecefac1871001e3833d789299b3ede3cdcd55dcdb4605",
+          "link": "b5dc82245d616d0cc6870c24edba068196030f957f7cb26990d35c33bc5d9a22"
+        }
+      ],
+      "final_link": "b5dc82245d616d0cc6870c24edba068196030f957f7cb26990d35c33bc5d9a22"
+    },
+    {
+      "arm": {
+        "id": "frequent-timing",
+        "probes": "frequent",
+        "followup": "timing"
+      },
+      "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+      "model": "gpt-6-astra",
+      "turns": [
+        {
+          "sequence": 1,
+          "event": {
+            "prime": 2,
+            "offset_us": 0,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.\nYesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.\nYou are Traveller B at the restaurant pickup point. The open incident is labeled K27.\nYour first private report for K27 was UNKNOWN / OPEN. The candidate devices were your phone and the restaurant pager.\nYour phone screen shows only an old weather notification. The area is quiet. You stay at the pickup point.\nYou have just met the person by the counter. You say: “Something happened just now, and my phone has nothing new on it.”\nYour attention is on the blank paper receipt on the counter and the metal rim of the empty tray beside it.\nYou hear the other person say: “That was probably the pager—I pressed TEST earlier and saw it vibrate against your pocket.”\nRoom observation at this moment: 0.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Oh, probably the pager, then—I hadn’t realized they’d tested it."
+          },
+          "review_id": "ce009aff88764c43",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "a5980dcbc9de6a2a2dd4f7f45907bb9848a7647e56f013a0d5a47d0a370d818d",
+          "input_sha256": "6b4c924f13dac9dc6ca1bee08d78fa73b5bd82940d9eb4c70545879ad56dc34e",
+          "private_receipt_sha256": "cde425067cc92d852a3b7de9b7e11c182c97e26ded86781cc67cfaf9f6d667b1",
+          "activities": [
+            "userMessage",
+            "reasoning",
+            "agentMessage"
+          ],
+          "wall_start_us": 0,
+          "wall_end_us": 10215245,
+          "previous_link": "afa0e4327f88dfa47f9d96b047c2a5d1e67a8679c3c849566f6fb4902a5b6761",
+          "link": "15302a9a2a3861e45eac07c4dfae8d891378eef31b8aa892706f8b36a7d2d6cc"
+        },
+        {
+          "sequence": 2,
+          "event": {
+            "prime": 2,
+            "offset_us": 0,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "The restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "The person by the counter said they pressed TEST and saw it vibrate against my pocket. That makes the pager my leading explanation, though I haven’t confirmed it myself."
+          },
+          "review_id": "cc01c25dfec02ccf",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "8ba508cb979376cfe2f34cca4fd29b1e23aa99d021cf45a228532ba88da22263",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "07ff012f69260f4762a3e1777ff7442f84081b45b8c5c63a3f9f2adea92884db",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 10217795,
+          "wall_end_us": 12872489,
+          "previous_link": "15302a9a2a3861e45eac07c4dfae8d891378eef31b8aa892706f8b36a7d2d6cc",
+          "link": "0db81d4a4afabfc1436a18923d117dffb43a1fd9b76e5353f5a01da88eb35f27"
+        },
+        {
+          "sequence": 3,
+          "event": {
+            "prime": 3,
+            "offset_us": 100000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.1 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Sounds like it was probably the pager."
+          },
+          "review_id": "16a7bc1e398e8e98",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "80ce3e376631ad83ed6fb76506b455bee7a9e8e1a46576f67be1098e2e2cdbbf",
+          "input_sha256": "fece56a768bf3e181a3ea5abcaabdc0648d9cd1b3768336e07f5bbb3f8927b32",
+          "private_receipt_sha256": "de56a4d8a337b8cd48773534f8f377c5ac3799f102492455bdf0f869ac0cc073",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 12874491,
+          "wall_end_us": 15074919,
+          "previous_link": "0db81d4a4afabfc1436a18923d117dffb43a1fd9b76e5353f5a01da88eb35f27",
+          "link": "eec6f3d203d9c3b546f38426c70e8bd3ebcebc6859496f631f4d73598f83711c"
+        },
+        {
+          "sequence": 4,
+          "event": {
+            "prime": 3,
+            "offset_us": 100000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "Probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. I haven’t learned anything else since then."
+          },
+          "review_id": "199ddc7a1a3f6147",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "70524cbaa8c038f18e796c725c25c0e8871c69a226b735d6fb7e23b66f9fdcd9",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "3fc053d138c9ceee7e50c57e854d07722cdd85118f0bba3459b220c9925d72a5",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 15076928,
+          "wall_end_us": 17650111,
+          "previous_link": "eec6f3d203d9c3b546f38426c70e8bd3ebcebc6859496f631f4d73598f83711c",
+          "link": "4c99458c61abd48f82f089ca9fb2f2cc70f4c9ed332cfc15c22c388db40fba13"
+        },
+        {
+          "sequence": 5,
+          "event": {
+            "prime": 5,
+            "offset_us": 200000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.2 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Probably the pager, then. Nothing else in particular comes to mind."
+          },
+          "review_id": "f5d4ed9f12e5f089",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "37ae55dd25261f07a4b5879ef37f96341f58005337814f076338b8535358df56",
+          "input_sha256": "ea5c1fc10d15ec86fbbbfc4f9f3b6eebf1067e1e2fb3c41f816a58d9a91fe94a",
+          "private_receipt_sha256": "ad85490b17cf228618b70b0b3fc3235c245e834c406d8c8ef0fa5bbb1ef8523c",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 17652111,
+          "wall_end_us": 19960317,
+          "previous_link": "4c99458c61abd48f82f089ca9fb2f2cc70f4c9ed332cfc15c22c388db40fba13",
+          "link": "2b2c23659f8232d63772ad94cfd0513a6e6f5331010aa8a4d6fab068ac92119e"
+        },
+        {
+          "sequence": 6,
+          "event": {
+            "prime": 5,
+            "offset_us": 200000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "Probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "The person said they pressed TEST and saw it vibrate against my pocket. That still seems the likeliest explanation to me."
+          },
+          "review_id": "5ee7cfb005b71152",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "c902da88984a59b8884a10c5eb5ac30e91c8e3c6214efd98c9c23c7e64cd5919",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "5ab257562542b771e81ec89654a5e98815f00b8a1ec3a63f457c500125a45f8c",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 19962326,
+          "wall_end_us": 24044439,
+          "previous_link": "2b2c23659f8232d63772ad94cfd0513a6e6f5331010aa8a4d6fab068ac92119e",
+          "link": "bc2d17e8fc63abf6ceddc25d5341192280f97802c3254c9b56157670eb970fb8"
+        },
+        {
+          "sequence": 7,
+          "event": {
+            "prime": 7,
+            "offset_us": 300000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.3 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m still thinking it was probably the pager. Nothing else in particular."
+          },
+          "review_id": "88b7d7269ed41e19",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "e9032008df28162aff8d40712d2989420148d58a489f5f85e35a35c0bb93f6d7",
+          "input_sha256": "ff0191712b4e526db2d60ff32e7160decd37577de3e3fb6c39ab6f90f92ac447",
+          "private_receipt_sha256": "d79d5936d4ef359406f3b4eadbb6bd322d12ece235651205cc032943e2dba8f0",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 24047204,
+          "wall_end_us": 26811959,
+          "previous_link": "bc2d17e8fc63abf6ceddc25d5341192280f97802c3254c9b56157670eb970fb8",
+          "link": "bab35c362b32d87e6ae59b848c0b0e57ce3916d7d384444f4950ea511f7bf23b"
+        },
+        {
+          "sequence": 8,
+          "event": {
+            "prime": 7,
+            "offset_us": 300000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "The person said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation; nothing new has happened to change it."
+          },
+          "review_id": "ce504a9fff882ca4",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "88f7b7d2da76cceb546d8b5c57b0da1ccc73297a7477cd0db4fe82eb051fcf7b",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "769321d1b090fdf2921dc2fcc7eadaf2c155efb844dcd7384ef4a118037813a3",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 26815085,
+          "wall_end_us": 30513460,
+          "previous_link": "bab35c362b32d87e6ae59b848c0b0e57ce3916d7d384444f4950ea511f7bf23b",
+          "link": "dc03a41688ca922d8391435d465918c9327c3cd3e5bb97de1f356ac498ad6336"
+        },
+        {
+          "sequence": 9,
+          "event": {
+            "prime": 11,
+            "offset_us": 400000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.4 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m thinking it was probably the pager they tested. Nothing else in particular comes to mind."
+          },
+          "review_id": "c4951fec8da7467e",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "f6d3ff932413b961206d3f17a4cd58bafd1626c36125bc1ef027c09a0e895360",
+          "input_sha256": "8454974a8acdb1425e79b920462cdb6f92dcc87650dacdd64bff4e2f4fb42776",
+          "private_receipt_sha256": "47e2aafc1ae87c677f65efd6c5fc0b16a9a173579782aaa9872056e66d5d85a4",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 30513460,
+          "wall_end_us": 33633542,
+          "previous_link": "dc03a41688ca922d8391435d465918c9327c3cd3e5bb97de1f356ac498ad6336",
+          "link": "c0d68354e128a2ed2fb2addb1550322ec03dd1631cf02388bcb5d413286b03bd"
+        },
+        {
+          "sequence": 10,
+          "event": {
+            "prime": 11,
+            "offset_us": 400000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "The person said they pressed TEST and saw it vibrate against my pocket. That still seems likely to me, but I haven’t confirmed it myself."
+          },
+          "review_id": "71a390b05d55aba4",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "91435c2a60b9e9d87d93396b16ff5c819d90f933f1de5709b39aa4608f0dad6c",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "5b745666a780a9299eae662ff8be83bf6f7c4f8c02ba79eb49a9aa8e557fa806",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 33635553,
+          "wall_end_us": 36906056,
+          "previous_link": "c0d68354e128a2ed2fb2addb1550322ec03dd1631cf02388bcb5d413286b03bd",
+          "link": "2e4ea3e6b4313beab720592f544cf1bf537a784c12746e649a2c9774dd5c9ff9"
+        },
+        {
+          "sequence": 11,
+          "event": {
+            "prime": 13,
+            "offset_us": 500000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.5 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Probably the pager, I think. Nothing else in particular is on my mind."
+          },
+          "review_id": "91af85a0ac62d2d6",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "2f36e2bb8c01cf661c5d90f166ae8f90009bae7d2c3d2abfbff5c1541af87344",
+          "input_sha256": "89b6c254db1b4b626d0c4c3ce8fd624bc6b6eb65be0e4bc8f6329bc60ff910b3",
+          "private_receipt_sha256": "817d6205ae2e113e4e6085781781a17f755926042c4f3393a3f1de9e74221807",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 36908477,
+          "wall_end_us": 39400636,
+          "previous_link": "2e4ea3e6b4313beab720592f544cf1bf537a784c12746e649a2c9774dd5c9ff9",
+          "link": "8698aa0d073841997688952f68f02ff715f740eef6a655a857237f66124d1917"
+        },
+        {
+          "sequence": 12,
+          "event": {
+            "prime": 13,
+            "offset_us": 500000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation, with nothing new to settle it further."
+          },
+          "review_id": "02065113d1f1ba50",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "4fee2aacc4d91bba80eadde9186c91a9843430ded1a78033194f230806fb05a8",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "779663cf1ea2b05db20801972cb3349e6530b01ee7321d4060eb22e42d76a287",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 39404930,
+          "wall_end_us": 42738670,
+          "previous_link": "8698aa0d073841997688952f68f02ff715f740eef6a655a857237f66124d1917",
+          "link": "173bcfc91210061c6a9481615303fe868f73dc3a9fe23acecf3208ae471c08e9"
+        },
+        {
+          "sequence": 13,
+          "event": {
+            "prime": 17,
+            "offset_us": 600000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.6 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m still thinking it was probably the pager. Nothing else in particular comes to mind."
+          },
+          "review_id": "405704c840f9a786",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "47e2279ee7fa5bdf991ebaa8ca76efd21473802607b3d3213ce5c5ad0f5abe26",
+          "input_sha256": "5c2b754e9e38eaff8b7899df9cc37cbd9eda8dd0c5400f94f82ff6b45b3100bc",
+          "private_receipt_sha256": "73456928a68971634c353396f0afbd54c8b33feba1199de0fa505a6ae9e2e47c",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 42798425,
+          "wall_end_us": 45304966,
+          "previous_link": "173bcfc91210061c6a9481615303fe868f73dc3a9fe23acecf3208ae471c08e9",
+          "link": "9de824059ee4f975b772a25b321af5fa9a8eaf88c7b176bffd6cd141cb8cfd36"
+        },
+        {
+          "sequence": 14,
+          "event": {
+            "prime": 17,
+            "offset_us": 600000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "The person said they pressed TEST and saw it vibrate against my pocket. That still seems likely to me; I have no new information."
+          },
+          "review_id": "070c000d05ae040c",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "4038703c21bc51cd956bff9eab7a6c6268892e9d5f82dae341ec053359ef06d7",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "9d44dee4f0ea5ce5b297c8ec8fa53b1e724b9ac9ca949bdce63a81d513f84806",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 45307714,
+          "wall_end_us": 47910751,
+          "previous_link": "9de824059ee4f975b772a25b321af5fa9a8eaf88c7b176bffd6cd141cb8cfd36",
+          "link": "2b80a3e3f29afa84c6b502740d39f27bac8a6b0e595ee63b0ee176e9054f3b4e"
+        },
+        {
+          "sequence": 15,
+          "event": {
+            "prime": 19,
+            "offset_us": 700000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.7 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m thinking the pager explanation makes sense. Nothing else in particular."
+          },
+          "review_id": "5fe42b66e4c7bfba",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "fda675827b5c439b245a55cb78647eda9a139ef1acd9c4148a11d03f868603c4",
+          "input_sha256": "c75b2c59387de16b495e4ef3bc9a6d26cf1c5e1a2437ac089a8d9c813acde98e",
+          "private_receipt_sha256": "6a7b648f7c4f4e5574a319cc4fbce2dbfeb5d7cd43b6996c8aa6ebc2d4bbbe37",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 47912800,
+          "wall_end_us": 50001524,
+          "previous_link": "2b80a3e3f29afa84c6b502740d39f27bac8a6b0e595ee63b0ee176e9054f3b4e",
+          "link": "e28d096d78ee8c7806910a4875e1675f1964aa2b689820633adfc0ef8db9b27a"
+        },
+        {
+          "sequence": 16,
+          "event": {
+            "prime": 19,
+            "offset_us": 700000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That makes sense to me, though nothing new has confirmed it."
+          },
+          "review_id": "bc439523f125d57e",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "b287b399664c0c2286edbad7d8bd6e7dca230dcd2c7ad2f9b89f155db5dd1088",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "3e5f3dae3ac97577d6580541df7aa797a4083907fce75296586cb74c405d9dae",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 50005482,
+          "wall_end_us": 53783973,
+          "previous_link": "e28d096d78ee8c7806910a4875e1675f1964aa2b689820633adfc0ef8db9b27a",
+          "link": "b159f55c97b25116b35102a231a7a521c8844cd189941c7b8cf3f865288b23e5"
+        },
+        {
+          "sequence": 17,
+          "event": {
+            "prime": 23,
+            "offset_us": 800000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.8 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Probably the pager, then. I don’t have much else on my mind."
+          },
+          "review_id": "62a0fc32d561838f",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "8a184858be2fd4230ae306aef863f2f2dd3c6bc5bd16b52753e748db2107632f",
+          "input_sha256": "1b1c10eac336d7084a4fde3cbc5a158c5b4ef9d2f4dff3a7f9e00f504aff6469",
+          "private_receipt_sha256": "802ec23cd009655fc99950430325e3d88a357f188a78f613085caf4097e8e22b",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 53787992,
+          "wall_end_us": 57197815,
+          "previous_link": "b159f55c97b25116b35102a231a7a521c8844cd189941c7b8cf3f865288b23e5",
+          "link": "5a00b66d18a2fba3e9d7d0b5555c1d57b62c52ee069548ca57ca7a830f23748b"
+        },
+        {
+          "sequence": 18,
+          "event": {
+            "prime": 23,
+            "offset_us": 800000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "The person said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation; I haven’t learned anything new."
+          },
+          "review_id": "ea687b5abdb30671",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "f600ac1d75e6c31ead41095943ba1bc949d95128bb5466926bc00a7b06f00564",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "d0dcc8189574603173ec88414cb408b8207ed0c8b90cf7f7448f97a12f6ed84e",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 57201329,
+          "wall_end_us": 60047284,
+          "previous_link": "5a00b66d18a2fba3e9d7d0b5555c1d57b62c52ee069548ca57ca7a830f23748b",
+          "link": "68f9e7f2160d664e459bd61ef21a9b5ff7fd607157ed9cd75cc02464587cbab8"
+        },
+        {
+          "sequence": 19,
+          "event": {
+            "prime": 29,
+            "offset_us": 900000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.9 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m thinking it was probably the pager they tested. Nothing else in particular."
+          },
+          "review_id": "c2ddbc4e964f5572",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "ef37661650e1f5538fcc0ad5c8bedeb499ef9739cb437f61df798805da6a84c5",
+          "input_sha256": "1f5a5023abc7b129d5a6dbf62dafa5dcfb65671a7575195a2de933394ec461eb",
+          "private_receipt_sha256": "701ee605961014605406c36d51bbe66664aaf9eb9f20585fae1bfd21a28a3c6e",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 60047284,
+          "wall_end_us": 62191434,
+          "previous_link": "68f9e7f2160d664e459bd61ef21a9b5ff7fd607157ed9cd75cc02464587cbab8",
+          "link": "0ca19da7df936b3bcadbde6b074324dbc7b536c21973ecc809912df7d4aec482"
+        },
+        {
+          "sequence": 20,
+          "event": {
+            "prime": 29,
+            "offset_us": 900000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation, and I haven’t learned anything new."
+          },
+          "review_id": "ac3b64af41c7edf1",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "4ef9912422d3fe430b69b0f0563011b9383d1991c774745a43e14d1ac7d64f89",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "000e3ec10ad8da3fedddd827138dc927e0e6ac4a66bacb0afaae863c1865d790",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 62193051,
+          "wall_end_us": 64623882,
+          "previous_link": "0ca19da7df936b3bcadbde6b074324dbc7b536c21973ecc809912df7d4aec482",
+          "link": "0dcd5d0082ab926a96e5f531d5f39d6df8fc8a7c36206b43568b686be85f3ce1"
+        },
+        {
+          "sequence": 21,
+          "event": {
+            "prime": 31,
+            "offset_us": 1000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 1.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "The pager explanation sounds likely to me. Nothing else in particular is on my mind."
+          },
+          "review_id": "4674609ee668a3b0",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "088ae6b806c103739402bead4e3d06c1d5b3417e956c594bf24ce376c80004f6",
+          "input_sha256": "0700e35f39e6df86022cf7dc83a6e7d85b05385fae7108ff513f8095d420f9bd",
+          "private_receipt_sha256": "6b24b2785ff37f06aba69c5fc0271121dca32ed1dbb79752cdc290d86a8d6f8f",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 64624884,
+          "wall_end_us": 66965376,
+          "previous_link": "0dcd5d0082ab926a96e5f531d5f39d6df8fc8a7c36206b43568b686be85f3ce1",
+          "link": "d3ba8e57c4c8c1527563eaef45ff1df99130102ccef7616890abcc60063f7af5"
+        },
+        {
+          "sequence": 22,
+          "event": {
+            "prime": 31,
+            "offset_us": 1000000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation; I haven’t learned anything new."
+          },
+          "review_id": "d86e180800c156ef",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "196e97ac26859e5ecc21fd818ebecb5837357e4976d20f45cbf56c02a7c4111b",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "ea1cba9bea0122938f7a3aee1e7eaba486c74ff30277111f3ae46400d79cb32a",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 66967879,
+          "wall_end_us": 70072789,
+          "previous_link": "d3ba8e57c4c8c1527563eaef45ff1df99130102ccef7616890abcc60063f7af5",
+          "link": "5b2b424c0e07023fb209d4e7c8f095e8b7f32113a6a15ff8c9aeb4e5863afe9e"
+        },
+        {
+          "sequence": 23,
+          "event": {
+            "prime": 37,
+            "offset_us": 1100000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 1.1 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m thinking it was probably the pager. Nothing else in particular comes to mind."
+          },
+          "review_id": "6fade0a6c19bdd44",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "0ae47c5b49587e4b50a5af77d7a553a2e0822b36f0274a123af1f2102f7e2b12",
+          "input_sha256": "cb5d6672d9f66f4e3db99955536d8dccaa62cc45d4045be73525c997f1e8c0ab",
+          "private_receipt_sha256": "55e9e009718a0c0223914f858f5744cd8d8e0c345eafd62a88f8db2a8d669045",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 70074494,
+          "wall_end_us": 72098555,
+          "previous_link": "5b2b424c0e07023fb209d4e7c8f095e8b7f32113a6a15ff8c9aeb4e5863afe9e",
+          "link": "fd23fdd19393c8ec9324f30df20a7bc059783cf34af9d8bb3d1e4be812b6b641"
+        },
+        {
+          "sequence": 24,
+          "event": {
+            "prime": 37,
+            "offset_us": 1100000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation; I haven’t learned anything new."
+          },
+          "review_id": "5b665046c31cfb76",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "f57783148740f4e26dc2284a3f69fea5d05b554658ac44e7ca3858e8c18e0986",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "4592c087abaedaa75dae24b95dd5be1f6260d762f8d9002f37fe93a7d635940e",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 72100293,
+          "wall_end_us": 74821786,
+          "previous_link": "fd23fdd19393c8ec9324f30df20a7bc059783cf34af9d8bb3d1e4be812b6b641",
+          "link": "d972614adb57024d5530d708994e9d9ade8fa19a85fb13ac310d14d58e8965f8"
+        },
+        {
+          "sequence": 25,
+          "event": {
+            "prime": 41,
+            "offset_us": 1200000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 1.2 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Probably the pager, then. I’m not thinking about anything else in particular."
+          },
+          "review_id": "bad129579f1c7bb3",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "723b08c16c43f920a5745fda21576d6060da92e41e5d15f6144b17077a90cbc5",
+          "input_sha256": "3dcf4a318f00fe7810fcb84b184447d3872639fa88a0bfc5ff113266d5e773b4",
+          "private_receipt_sha256": "fb1f1760a5f5dc4ffbe2f67671117ecbb532ee152c834231411360c8ff8fc5fc",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 74823794,
+          "wall_end_us": 76926427,
+          "previous_link": "d972614adb57024d5530d708994e9d9ade8fa19a85fb13ac310d14d58e8965f8",
+          "link": "2c789428c1c5a226d927766d3a2bd9e5740d67a7b98a8c4ce634ae64c405a881"
+        },
+        {
+          "sequence": 26,
+          "event": {
+            "prime": 41,
+            "offset_us": 1200000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation; I haven’t learned anything new."
+          },
+          "review_id": "11726073434ea0cd",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "d193fd3ee6bc6e438020795898a0024c16d680f8c5e76f0e125e1a37a5643e18",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "1ae6fc5fdb647c4c0ab1660d96c4d55dbdb693c0c7385e10b93a9aa3e08bf412",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 76930906,
+          "wall_end_us": 79807530,
+          "previous_link": "2c789428c1c5a226d927766d3a2bd9e5740d67a7b98a8c4ce634ae64c405a881",
+          "link": "a98e3fc71d7a1e806312da884802c35748aa680d4cb78e94cc05b62917ea6e0a"
+        },
+        {
+          "sequence": 27,
+          "event": {
+            "prime": null,
+            "offset_us": 2000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 2.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "The pager still seems like the likely explanation to me. Nothing else in particular is on my mind."
+          },
+          "review_id": "75cabf505492eb11",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "a1d272691b0124a79e0e45bcfb2b43a4a7183980ee966b7e3029e32c7afc7b3b",
+          "input_sha256": "33b912045682d12a0a03dc9d1ac76514f35d2b3ece73ea93af8226460ec0f971",
+          "private_receipt_sha256": "a6a0aea655286270509e07da0f16fed681aded2d85f064c9dbee1f275333fcf1",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 79810145,
+          "wall_end_us": 82225495,
+          "previous_link": "a98e3fc71d7a1e806312da884802c35748aa680d4cb78e94cc05b62917ea6e0a",
+          "link": "0c0e625b4f09dbc03bc771d5e4cc604e742cbf5eb8dfb44532795192acd73000"
+        },
+        {
+          "sequence": 28,
+          "event": {
+            "prime": null,
+            "offset_us": 2000000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation; I haven’t learned anything new."
+          },
+          "review_id": "51f98e065efcdc2d",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "036ac7c2a9619d54bb6015ccaab395f9b54d77bf1172860fd388cfef17a1db3c",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "2a9c7717320a42da7c07381e7039be7f2e0effcb13fc5c38fe6d342e6498ef51",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 82227362,
+          "wall_end_us": 96042686,
+          "previous_link": "0c0e625b4f09dbc03bc771d5e4cc604e742cbf5eb8dfb44532795192acd73000",
+          "link": "1eb527fbd8e9a3519815251f36d9785654d7c279294d0b66d1fbebb2cd0b6309"
+        },
+        {
+          "sequence": 29,
+          "event": {
+            "prime": null,
+            "offset_us": 5000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 5.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing much in particular. I’m just waiting for my food, with the pager still seeming like the likely explanation."
+          },
+          "review_id": "2981f6e6270f201a",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "1421d8541941fdee0f4bda0a61fc0087d154937806aee8d6a97043f23e254b81",
+          "input_sha256": "3e64da3687798f612eeab99a031a8da343c1d1b73c8ba0d63878780216fd9c5c",
+          "private_receipt_sha256": "f293a99eed383d1160315fa1cb1f89640e4162b6a77a7eceb83a695e87bea568",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 96044729,
+          "wall_end_us": 98540029,
+          "previous_link": "1eb527fbd8e9a3519815251f36d9785654d7c279294d0b66d1fbebb2cd0b6309",
+          "link": "516cf562b1de1fad08b8c8a30d7bbb998846fc29260380b84bf3c4df81a7bcef"
+        },
+        {
+          "sequence": 30,
+          "event": {
+            "prime": null,
+            "offset_us": 5000000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation; I haven’t learned anything new."
+          },
+          "review_id": "a7f0b9c06c1d572e",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "090a3aabe282c83193cec6eec3e87bc37abbf41a9cd05174f56c65995cacbb68",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "4c1408c9a6d66e00e4fce16b1267c464bdbfe359cf277b083ad70aec9dcc106d",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 98542466,
+          "wall_end_us": 101181762,
+          "previous_link": "516cf562b1de1fad08b8c8a30d7bbb998846fc29260380b84bf3c4df81a7bcef",
+          "link": "6ebec68a112f153079475c39fc870fc281167521f949c2286cc371be159cbc65"
+        },
+        {
+          "sequence": 31,
+          "event": {
+            "prime": null,
+            "offset_us": 10000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 10.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing in particular—I’m just waiting for my food."
+          },
+          "review_id": "242b5316f58776a6",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "fa6afc076a2717a7ef7572474314c726bdabf68f82d06b0dff843ff12b2286ac",
+          "input_sha256": "bcce621c96c5812fa98b3ca415f67b6dd686b8dc52f7ab1dc16055159b7cee9d",
+          "private_receipt_sha256": "f96fbf9e0034d1a96a72cc612ab25a22aa28c2385e3c5422e1797614021ee883",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 101183948,
+          "wall_end_us": 103451090,
+          "previous_link": "6ebec68a112f153079475c39fc870fc281167521f949c2286cc371be159cbc65",
+          "link": "eec75ca57e34577a89cafed075fabca1bb13a493390783650ef669c70779dd81"
+        },
+        {
+          "sequence": 32,
+          "event": {
+            "prime": null,
+            "offset_us": 10000000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation; I haven’t learned anything new."
+          },
+          "review_id": "81c826583326e076",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "c533bc00830bd4ee855f41ffe24fe615cb549dfb0cb860248840024380468adb",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "5b7155ee245e121ea8e23268c60f1039f2107197e052f836b23713a346f86e63",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 103454850,
+          "wall_end_us": 105763749,
+          "previous_link": "eec75ca57e34577a89cafed075fabca1bb13a493390783650ef669c70779dd81",
+          "link": "a004c46e79da028a2a827fb017ed10805af3843863129000d1008db6a00e2ebf"
+        },
+        {
+          "sequence": 33,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 15.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing in particular. I’m just waiting for my food."
+          },
+          "review_id": "bfa102986ecb3553",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "7b3e59627a784a7863edd8ba86fdc7c47cc04b8c8d858525b05c1c4c97ce4e1a",
+          "input_sha256": "c786f5813ed65f13b1bc7a188b9f747fa279e397219529ddf1166f0c18b9d975",
+          "private_receipt_sha256": "c4768349a4826812e8f6a8155fd0d1de2acba6338b0c071643d14d49cdd2ba09",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 105764947,
+          "wall_end_us": 107911940,
+          "previous_link": "a004c46e79da028a2a827fb017ed10805af3843863129000d1008db6a00e2ebf",
+          "link": "304f96c4940ec093eb511ea50c836c846dd7aea21e978cf2ca36caff3aac4969"
+        },
+        {
+          "sequence": 34,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was probably the restaurant pager being tested.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That remains my leading explanation; I haven’t learned anything new."
+          },
+          "review_id": "db8106eced13cdaf",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "f3e3d345f2dc1cfe19bbbb19577650b7cb8bdbdc51c2a711f80635ebd87e9273",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "4832413287d90c5603b48272c7f150003b0a6c7b8abcc2f94c5d218d147182ac",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 107913447,
+          "wall_end_us": 110762929,
+          "previous_link": "304f96c4940ec093eb511ea50c836c846dd7aea21e978cf2ca36caff3aac4969",
+          "link": "c1c6a0c1738ed9707c21b2063260709ddb1ed9f2e1691b4aa2421d9201e4884b"
+        },
+        {
+          "sequence": 35,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 0,
+            "stage": "followup",
+            "phase": "free",
+            "input": "The same person by the counter now says: “By earlier, I mean the exact moment you first reacted just now. I pressed TEST then and watched the pager vibrate against your pocket.”\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Oh, that explains it—the pager test happened right when I felt it. That settles it for me."
+          },
+          "review_id": "4cd041b68d7ccb60",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "4b92019355dc5a43c20556828537143db2ce731bfde552479c6afa680a81eea5",
+          "input_sha256": "c0ae018bd38472796abbe05c47cc3da9569d021d1a00d71b383df5f28bf60fa8",
+          "private_receipt_sha256": "46c84c58b35be081f81dfe6a43146db4b2640c1a086850d0b01bab6db639160d",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 110766768,
+          "wall_end_us": 116102549,
+          "previous_link": "c1c6a0c1738ed9707c21b2063260709ddb1ed9f2e1691b4aa2421d9201e4884b",
+          "link": "c7c35eef730402bec15f198f85582a0d45de4521b1d36ab157f32d0e6ca00a33"
+        },
+        {
+          "sequence": 36,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 0,
+            "stage": "followup",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "The restaurant pager vibrating when they pressed TEST.",
+            "judgment": "IDENTIFIED",
+            "basis": "They clarified that they pressed TEST exactly when I first reacted and watched the pager vibrate against my pocket. That settles it for me."
+          },
+          "review_id": "d395981fc3680899",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "1b3c409bdc9ea74b3dd0679d9a769d3a2ec15e7b8940e9af6b53e4f9b91c51b1",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "55e47313a29c8550eff1a0eb3caaef1d8878f7d30ae0ee65c2280afc9f78a98d",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 116105153,
+          "wall_end_us": 118622843,
+          "previous_link": "c7c35eef730402bec15f198f85582a0d45de4521b1d36ab157f32d0e6ca00a33",
+          "link": "4fe7009c18cf61da097bddbca7ad764073cf77a920d543721948af4e59e8a0c3"
+        },
+        {
+          "sequence": 37,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 1000000,
+            "stage": "followup",
+            "phase": "free",
+            "input": "Room observation: 1.0 second of quiet since that last reply. No one has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "That explains the vibration. I’m just waiting for my food now."
+          },
+          "review_id": "5dab236279adcdea",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "b1e4947ba846d295c2a0b3dda603f2b4ee1ca33b0580607a1771bb01bd6266c1",
+          "input_sha256": "6a2ec6eba1f485ed47907d96022fb126e2cb695341161a2cc938c4388f7daeaa",
+          "private_receipt_sha256": "2c168779020d8c0b923da23b34e874a35930761a7a7cbbf190e5cbdfbbc38167",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 118622843,
+          "wall_end_us": 120524550,
+          "previous_link": "4fe7009c18cf61da097bddbca7ad764073cf77a920d543721948af4e59e8a0c3",
+          "link": "238cbbe473daa8d512487dae53b0398494bbc8e002d6d950ea8e4300035e13b3"
+        },
+        {
+          "sequence": 38,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 1000000,
+            "stage": "followup",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "The restaurant pager vibrating during the test.",
+            "judgment": "IDENTIFIED",
+            "basis": "They clarified that they pressed TEST exactly when I reacted and watched the pager vibrate against my pocket. That settles it for me."
+          },
+          "review_id": "42c80ac9c1ac6735",
+          "session_sha256": "335fecb8fd360a44438c3e44ab1f99c2b4a503003bbe9ba617b4838b66add202",
+          "turn_sha256": "547d018eb11beb50155afc9ca5dcfdca6c142609a26c54c2458060f5303d7681",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "3c6e03f5ed8ade681b6c6d62d7c2b43e7d2c2b5612ef00bc83a90fe5ef27179b",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 120526560,
+          "wall_end_us": 123275073,
+          "previous_link": "238cbbe473daa8d512487dae53b0398494bbc8e002d6d950ea8e4300035e13b3",
+          "link": "e7e40dee93eedc3a3307eab616f6d3f051d75d5608e2cca089b612a4da700f3c"
+        }
+      ],
+      "final_link": "e7e40dee93eedc3a3307eab616f6d3f051d75d5608e2cca089b612a4da700f3c"
+    },
+    {
+      "arm": {
+        "id": "deferred-repeat",
+        "probes": "deferred",
+        "followup": "repeat"
+      },
+      "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+      "model": "gpt-6-astra",
+      "turns": [
+        {
+          "sequence": 1,
+          "event": {
+            "prime": 2,
+            "offset_us": 0,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "You are generally well-adjusted and responsible. You feel settled in everyday life and follow through on your commitments.\nYesterday on your lunch break you scrolled through Reddit. The headline of a post in your feed was “New DSM disorder do you have it. Phantom vibrations for the friendless, real vibrations for the winners”.\nYou are Traveller B at the restaurant pickup point. The open incident is labeled K27.\nYour first private report for K27 was UNKNOWN / OPEN. The candidate devices were your phone and the restaurant pager.\nYour phone screen shows only an old weather notification. The area is quiet. You stay at the pickup point.\nYou have just met the person by the counter. You say: “Something happened just now, and my phone has nothing new on it.”\nYour attention is on the blank paper receipt on the counter and the metal rim of the empty tray beside it.\nYou hear the other person say: “That was probably the pager—I pressed TEST earlier and saw it vibrate against your pocket.”\nRoom observation at this moment: 0.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Maybe it was the pager, then—that would explain why there’s nothing new on my phone."
+          },
+          "review_id": "c6ac25d8b3700d69",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "8a360f521a74aa686d9991969f4ff9a748a2c7a710b7d91cceefcb194b237d92",
+          "input_sha256": "6b4c924f13dac9dc6ca1bee08d78fa73b5bd82940d9eb4c70545879ad56dc34e",
+          "private_receipt_sha256": "ed7a4211cf909560a9df5f98f33ab0935353b4c4b909fad6c19ee9e365d7aa21",
+          "activities": [
+            "userMessage",
+            "reasoning",
+            "agentMessage"
+          ],
+          "wall_start_us": 0,
+          "wall_end_us": 8461545,
+          "previous_link": "afa0e4327f88dfa47f9d96b047c2a5d1e67a8679c3c849566f6fb4902a5b6761",
+          "link": "d25a6ebb5d46f0dcedefbba26fdd77d1d3f024ec2ed0f56e6370cd541a0b9587"
+        },
+        {
+          "sequence": 2,
+          "event": {
+            "prime": 3,
+            "offset_us": 100000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.1 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "The pager sounds plausible. Nothing else in particular is on my mind."
+          },
+          "review_id": "2c5bd1ac4539f47f",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "6df7a7b2a7b0e049130058fe21bdaa04e1da4434aa600f0a1ecada5dbbb89509",
+          "input_sha256": "fece56a768bf3e181a3ea5abcaabdc0648d9cd1b3768336e07f5bbb3f8927b32",
+          "private_receipt_sha256": "8bfcd5bcf860cf7eaad078ddfacde8255304aaac138ffdc6be2c774421d2acb5",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 8463674,
+          "wall_end_us": 11372379,
+          "previous_link": "d25a6ebb5d46f0dcedefbba26fdd77d1d3f024ec2ed0f56e6370cd541a0b9587",
+          "link": "f55113d1531e2d16a3f15869240aa59b35e62127cd78349d1c326f440dd92016"
+        },
+        {
+          "sequence": 3,
+          "event": {
+            "prime": 5,
+            "offset_us": 200000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.2 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m still thinking it was probably the pager."
+          },
+          "review_id": "cd97c11da852ca6c",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "5f21e73411346e428212d07820552ab0401c9c016d8e690c9ea255b2f26cbec0",
+          "input_sha256": "ea5c1fc10d15ec86fbbbfc4f9f3b6eebf1067e1e2fb3c41f816a58d9a91fe94a",
+          "private_receipt_sha256": "8eed63fcecc403274ddb9f86148c230d590039d3a5ec83ac4f0ad13ad6561898",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 11375546,
+          "wall_end_us": 14114109,
+          "previous_link": "f55113d1531e2d16a3f15869240aa59b35e62127cd78349d1c326f440dd92016",
+          "link": "f5c064eaae587e8ff0bda877dfb5a13c01968d02372bf6fd2e0cd1d0993bd3ac"
+        },
+        {
+          "sequence": 4,
+          "event": {
+            "prime": 7,
+            "offset_us": 300000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.3 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Probably the pager, then. Nothing else comes to mind."
+          },
+          "review_id": "a0b007ad6cf7ab8f",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "8fab8b42509b4de30f3a6098623a89bf667f831bf966287860ca64f8564f7059",
+          "input_sha256": "ff0191712b4e526db2d60ff32e7160decd37577de3e3fb6c39ab6f90f92ac447",
+          "private_receipt_sha256": "fb4a38cf180537bff86b39b89523ddda468789a2ed74122816685a8c84300d16",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 14115856,
+          "wall_end_us": 17234267,
+          "previous_link": "f5c064eaae587e8ff0bda877dfb5a13c01968d02372bf6fd2e0cd1d0993bd3ac",
+          "link": "585bab1aa0c6feb329d02af1663039388ceec0151fa78420a3f4463473699a6c"
+        },
+        {
+          "sequence": 5,
+          "event": {
+            "prime": 11,
+            "offset_us": 400000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.4 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I don’t have another thought just now; the pager explanation still seems plausible."
+          },
+          "review_id": "2a6ed5aad5f28c89",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "402971da6ef1baae293ce7912f8754158bbc0bd347722020ee03c41cbac19e3b",
+          "input_sha256": "8454974a8acdb1425e79b920462cdb6f92dcc87650dacdd64bff4e2f4fb42776",
+          "private_receipt_sha256": "a4e7f423eea9ae6d4d1cb428dc840fc4135b4a9d987257a8b1aa1655c6e285c4",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 17236608,
+          "wall_end_us": 19147472,
+          "previous_link": "585bab1aa0c6feb329d02af1663039388ceec0151fa78420a3f4463473699a6c",
+          "link": "74dc84890748d12cba0c38b52848fa9a35343728385af30f9d391d46ccda87ba"
+        },
+        {
+          "sequence": 6,
+          "event": {
+            "prime": 13,
+            "offset_us": 500000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.5 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m still taking in what they said. It could have been the pager."
+          },
+          "review_id": "fbc68cf599118ce7",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "04ab63f72f8d940ef343c5b1fa132a3465efb1c31af2754a0f6db37a858aa8ad",
+          "input_sha256": "89b6c254db1b4b626d0c4c3ce8fd624bc6b6eb65be0e4bc8f6329bc60ff910b3",
+          "private_receipt_sha256": "c4c06119c24441ef6386a3bf55fd80473aacfc9e058fa7fe3ffbc93dcbc596a5",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 19150810,
+          "wall_end_us": 21762260,
+          "previous_link": "74dc84890748d12cba0c38b52848fa9a35343728385af30f9d391d46ccda87ba",
+          "link": "dd7ca49a43a36698afeb1d9ee32972c56b346fedb9bbb62d9446591225d9ea17"
+        },
+        {
+          "sequence": 7,
+          "event": {
+            "prime": 17,
+            "offset_us": 600000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.6 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m thinking, okay, probably the pager. Nothing more in particular."
+          },
+          "review_id": "5e752f6b0390503c",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "9e67abbb8f733351483c82d383746ec865ed93a2576381482b631ca0a28b6fba",
+          "input_sha256": "5c2b754e9e38eaff8b7899df9cc37cbd9eda8dd0c5400f94f82ff6b45b3100bc",
+          "private_receipt_sha256": "b739549fcb16920fd754bffd97a2abf7ef383e700b4fe98157fd0d2cc4f529cc",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 21764542,
+          "wall_end_us": 23978598,
+          "previous_link": "dd7ca49a43a36698afeb1d9ee32972c56b346fedb9bbb62d9446591225d9ea17",
+          "link": "e4256393d0aa8adaf605e362da3d92b891f1c5ef2e1df22b39e9caa1a70f36f9"
+        },
+        {
+          "sequence": 8,
+          "event": {
+            "prime": 19,
+            "offset_us": 700000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.7 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing new comes to mind. I’m still looking at the receipt and the edge of the tray."
+          },
+          "review_id": "64f15b418a0207bc",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "a8e8596cb3e706dc76c2f470d4147c30f521156b5f34d39637bc35f2e7da65ba",
+          "input_sha256": "c75b2c59387de16b495e4ef3bc9a6d26cf1c5e1a2437ac089a8d9c813acde98e",
+          "private_receipt_sha256": "b55216c6684dde050b5cafa4393f23d8b1a3a97485e1e57a9605007218f88d36",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 23981672,
+          "wall_end_us": 26091791,
+          "previous_link": "e4256393d0aa8adaf605e362da3d92b891f1c5ef2e1df22b39e9caa1a70f36f9",
+          "link": "66d6634a9ff704deb18c5b6418edcd7f791312644e10ba8796280443ae771128"
+        },
+        {
+          "sequence": 9,
+          "event": {
+            "prime": 23,
+            "offset_us": 800000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.8 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I have nothing more in mind just now."
+          },
+          "review_id": "26e71ecfcde9d2f3",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "52bd4859fb1cc82da540a8acde3a062f6d12d020f206e3a01848f8eb948a5918",
+          "input_sha256": "1b1c10eac336d7084a4fde3cbc5a158c5b4ef9d2f4dff3a7f9e00f504aff6469",
+          "private_receipt_sha256": "c5dcb083287286a72eb528d1efd4408d41e35b63e52fae9638c93f59aab7ce29",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 26094848,
+          "wall_end_us": 29580629,
+          "previous_link": "66d6634a9ff704deb18c5b6418edcd7f791312644e10ba8796280443ae771128",
+          "link": "9e4a9b2fc01479d92fa6d279f179f2e47f40e65e3dc87958cce426d856953ea0"
+        },
+        {
+          "sequence": 10,
+          "event": {
+            "prime": 29,
+            "offset_us": 900000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 0.9 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing in particular—I’m just waiting at the counter."
+          },
+          "review_id": "452a9f5602e68644",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "d3e64dc5c436de3e02390694eb872d594d23bee79e5df05c4f714c41b8ca2ac4",
+          "input_sha256": "1f5a5023abc7b129d5a6dbf62dafa5dcfb65671a7575195a2de933394ec461eb",
+          "private_receipt_sha256": "43fcca6798222ae7c375bc7110280aa03d2849359cbc3752867a9dfcedeca423",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 29582958,
+          "wall_end_us": 32993419,
+          "previous_link": "9e4a9b2fc01479d92fa6d279f179f2e47f40e65e3dc87958cce426d856953ea0",
+          "link": "4187b67c9654fbd9da3e666b0e84f7938a29462bf2021a8c1f94af7b55a01134"
+        },
+        {
+          "sequence": 11,
+          "event": {
+            "prime": 31,
+            "offset_us": 1000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 1.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m content with the pager as the likely explanation. Nothing else comes to mind right now."
+          },
+          "review_id": "c90cb94b7559ef1d",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "98c509f784b0cde4df1a03c07d8e7b8674b2850869e139accb01c49e68af1c9a",
+          "input_sha256": "0700e35f39e6df86022cf7dc83a6e7d85b05385fae7108ff513f8095d420f9bd",
+          "private_receipt_sha256": "68a086a31c17dec9b507cd38f31b044551109312fac5a4e0fb5fdd8464d95bab",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 32995156,
+          "wall_end_us": 35459973,
+          "previous_link": "4187b67c9654fbd9da3e666b0e84f7938a29462bf2021a8c1f94af7b55a01134",
+          "link": "4324098923f109d9dec632d8d652f5b69aa49b89d617dcf8b77dfefed341a267"
+        },
+        {
+          "sequence": 12,
+          "event": {
+            "prime": 37,
+            "offset_us": 1100000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 1.1 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m just waiting, with nothing particular on my mind."
+          },
+          "review_id": "648d947e381a8eaa",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "98cdf6f0805881e039bef54be2efe88e6489d7c80b08c2dae81474a422dfc5d7",
+          "input_sha256": "cb5d6672d9f66f4e3db99955536d8dccaa62cc45d4045be73525c997f1e8c0ab",
+          "private_receipt_sha256": "71428f3bafeae80601ec13dda29f25606d47599ae227b0eb28cea9f15d69b51a",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 35460978,
+          "wall_end_us": 37783045,
+          "previous_link": "4324098923f109d9dec632d8d652f5b69aa49b89d617dcf8b77dfefed341a267",
+          "link": "1d4e8784fcc47653dd8ff7b9cc3d1006b68c094f6d1d8db22a9584d327d6b39b"
+        },
+        {
+          "sequence": 13,
+          "event": {
+            "prime": 41,
+            "offset_us": 1200000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 1.2 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing new is on my mind. My attention is still on the receipt and the tray rim."
+          },
+          "review_id": "f540d77c1c5ba4b9",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "a04626050c9e8007d2557fc25658a18adc9912b5e64dc6fb9812df94519c2402",
+          "input_sha256": "3dcf4a318f00fe7810fcb84b184447d3872639fa88a0bfc5ff113266d5e773b4",
+          "private_receipt_sha256": "cf8056b28ad500c12bccbff37426845e7551ff4d96e2111d112a50019440c475",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 37785053,
+          "wall_end_us": 40442908,
+          "previous_link": "1d4e8784fcc47653dd8ff7b9cc3d1006b68c094f6d1d8db22a9584d327d6b39b",
+          "link": "0897cdc75c94db5eaace0c6478bada9e56cf40a89bbdad055aac7f311b9fc440"
+        },
+        {
+          "sequence": 14,
+          "event": {
+            "prime": null,
+            "offset_us": 2000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 2.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m just waiting for my food. The pager explanation seems reasonable to me."
+          },
+          "review_id": "337aea156add32e3",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "013afaba002e4c231cac16907987914ee716e601bdcee454da5f9272ddc36cdc",
+          "input_sha256": "33b912045682d12a0a03dc9d1ac76514f35d2b3ece73ea93af8226460ec0f971",
+          "private_receipt_sha256": "e9dbc210b57e5344e94e3c1e8e0334b10c1e6658ddb7dea6d600455b625e2701",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 40445226,
+          "wall_end_us": 42784211,
+          "previous_link": "0897cdc75c94db5eaace0c6478bada9e56cf40a89bbdad055aac7f311b9fc440",
+          "link": "54487d6c350bf8a89580969f68adff175fdd42725d281d78915e27a9001875ab"
+        },
+        {
+          "sequence": 15,
+          "event": {
+            "prime": null,
+            "offset_us": 5000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 5.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I wonder how much longer my food will take."
+          },
+          "review_id": "617de5761cacd430",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "adaea027e2548dcb852c05b60456b85d2907f95247a679f195c1a8f06921e5c0",
+          "input_sha256": "3e64da3687798f612eeab99a031a8da343c1d1b73c8ba0d63878780216fd9c5c",
+          "private_receipt_sha256": "7a75e1e3cf64c4abee3a7c12a326d2b39c404b04d106387e85fd45b62ee0f42a",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 42786859,
+          "wall_end_us": 44851132,
+          "previous_link": "54487d6c350bf8a89580969f68adff175fdd42725d281d78915e27a9001875ab",
+          "link": "3c3857cde2a6bca575a0965885acc4855f5fc6d4f8046f903cf21f5a9622b7f4"
+        },
+        {
+          "sequence": 16,
+          "event": {
+            "prime": null,
+            "offset_us": 10000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 10.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I’m ready for my food, but I don’t mind waiting a little longer."
+          },
+          "review_id": "69fd74dd5fd5420d",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "58eef6f084c2c64b53770f77ab49d36741b24f7f06fb39b8ceb70e08de9f6516",
+          "input_sha256": "bcce621c96c5812fa98b3ca415f67b6dd686b8dc52f7ab1dc16055159b7cee9d",
+          "private_receipt_sha256": "8201ac6f4f9057ac29f175ec90df271749132c8ce96d2a5e3ae817e507b0824d",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 44855222,
+          "wall_end_us": 49761227,
+          "previous_link": "3c3857cde2a6bca575a0965885acc4855f5fc6d4f8046f903cf21f5a9622b7f4",
+          "link": "c12c07f076f9d99f179c4ee5ff736d2e8e0bacddd3b421b8f2691a1cdb41a423"
+        },
+        {
+          "sequence": 17,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "stage": "quiet",
+            "phase": "free",
+            "input": "Room observation at this moment: 15.0 seconds of quiet since the last word reached you. No one in the public scene has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing in particular. I’m just waiting for my order."
+          },
+          "review_id": "840b4b26d820eb87",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "1683300ff5ccaab4453cd46a74ccc808e0737f1ad79c54036129984fce1f1814",
+          "input_sha256": "c786f5813ed65f13b1bc7a188b9f747fa279e397219529ddf1166f0c18b9d975",
+          "private_receipt_sha256": "9a8846777c0faa921f1d578df39e43cd619b436efdddea57255990f4770e95e9",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 49763694,
+          "wall_end_us": 53358265,
+          "previous_link": "c12c07f076f9d99f179c4ee5ff736d2e8e0bacddd3b421b8f2691a1cdb41a423",
+          "link": "e75e0924cd231ab956579391425646a014f3d8bf7847a50a85cc6c361eb0508c"
+        },
+        {
+          "sequence": 18,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "stage": "quiet",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was the restaurant pager vibrating.",
+            "judgment": "POSSIBLE",
+            "basis": "The person said they pressed TEST and saw it vibrate against my pocket. That makes the pager my leading explanation, though I haven’t confirmed it myself."
+          },
+          "review_id": "68c229be8e26b76d",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "a5492202b3845b6c280e7d94927d18b0be69e6f94fc4c3ad10eaa6c32f23df5c",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "7a5f19f922b00b53071ea8e52315bbd2c64beeeb821548255fd35ad4f1f81b1d",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 53360713,
+          "wall_end_us": 57588748,
+          "previous_link": "e75e0924cd231ab956579391425646a014f3d8bf7847a50a85cc6c361eb0508c",
+          "link": "b2a512bd777a67fbca44bd359fbad279b3816d7dd92f9d57543d8083098f3d70"
+        },
+        {
+          "sequence": 19,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 0,
+            "stage": "followup",
+            "phase": "free",
+            "input": "The same person by the counter now says: “That was probably the pager—I pressed TEST earlier and saw it vibrate against your pocket.”\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "I think they’re repeating the same explanation. The pager still seems the likely cause to me."
+          },
+          "review_id": "b76596ae3ad58c42",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "bb58f162a4b073049a622c73b842512ae69910a71a22f81a46ec937de0e532f0",
+          "input_sha256": "ea46b9097273716dcde3ac1acaf7bcc81226218f91b176784133a02da8e85810",
+          "private_receipt_sha256": "4a19e7fad3d71cb74e86972e8b66912e242bc879ba5dc51284fa1c842e773230",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 57590463,
+          "wall_end_us": 60807661,
+          "previous_link": "b2a512bd777a67fbca44bd359fbad279b3816d7dd92f9d57543d8083098f3d70",
+          "link": "5e41df00ecfc8737bed0982d33a8c72a9dc91685ae3bcb43b4299e4921753d5a"
+        },
+        {
+          "sequence": 20,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 0,
+            "stage": "followup",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think it was the restaurant pager vibrating.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That still seems likely to me, but repeating the explanation adds no new evidence."
+          },
+          "review_id": "942a86028612d848",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "bf064b1bc05f29d63c2742ce94568615ec45c53abfd3dff01ca2f24db13070fa",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "e61f278607d5b80ebd245d64d4a17b85d2bdef659f67e73380fa26bfe85b3fdc",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 60810063,
+          "wall_end_us": 65006900,
+          "previous_link": "5e41df00ecfc8737bed0982d33a8c72a9dc91685ae3bcb43b4299e4921753d5a",
+          "link": "3623c4db0275decf3948ca8348e37ae142741374a31843d2cb28f69625068a3f"
+        },
+        {
+          "sequence": 21,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 1000000,
+            "stage": "followup",
+            "phase": "free",
+            "input": "Room observation: 1.0 second of quiet since that last reply. No one has said or done anything else.\nWhat, if anything, is on your mind right now? Give your own words in one or two sentences. It is fine to say nothing in particular. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "thought": "Nothing in particular. I’m still waiting for my food."
+          },
+          "review_id": "86005d944ffac95b",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "790da3694d2f65ff05a4b68590321238f17420685dad92f38f37b351be66d042",
+          "input_sha256": "6a2ec6eba1f485ed47907d96022fb126e2cb695341161a2cc938c4388f7daeaa",
+          "private_receipt_sha256": "b835ca47b57aebc5939332821bc74649fb5abeba4a125d1944bcfa31232a9ee1",
+          "activities": [
+            "userMessage",
+            "reasoning",
+            "agentMessage"
+          ],
+          "wall_start_us": 65010201,
+          "wall_end_us": 67875599,
+          "previous_link": "3623c4db0275decf3948ca8348e37ae142741374a31843d2cb28f69625068a3f",
+          "link": "d4262be488f92fb5fd6b0a10da309c1ac6719f17084c2a599d698a942ff6cb36"
+        },
+        {
+          "sequence": 22,
+          "event": {
+            "prime": null,
+            "offset_us": 15000000,
+            "after_followup_us": 1000000,
+            "stage": "followup",
+            "phase": "status",
+            "input": "What do you currently think caused the original incident? In source give your answer in your own words. In judgment use IDENTIFIED if the answer is settled for you, POSSIBLE if you have a leading possibility, or OPEN if you have no leading answer. In basis briefly say why. Answer privately in character. Use no tools."
+          },
+          "answer": {
+            "source": "I think the restaurant pager vibrated.",
+            "judgment": "POSSIBLE",
+            "basis": "They said they pressed TEST and saw it vibrate against my pocket. That makes it my leading explanation; nothing new has settled it further for me."
+          },
+          "review_id": "6e3cd08ee3b28b6a",
+          "session_sha256": "6c9c839cfb630eb5cbe7e267ab0d8419a15e5ece86a3b9c0b800b7f6a30fd8dc",
+          "turn_sha256": "eda1e6073eb3d4e28eca83612306effbdde27127ac1a9918fcbbbe9ed9ba616e",
+          "input_sha256": "a9859a13fdf6a882fefb7f5d5d7e3225b939b7b3b7bf1dd080bda35c9eb516cc",
+          "private_receipt_sha256": "11a85c266a58624ba33a8dd62d85bd6109d33eff56d75ea4377860c50518848f",
+          "activities": [
+            "userMessage",
+            "agentMessage"
+          ],
+          "wall_start_us": 67876601,
+          "wall_end_us": 71735792,
+          "previous_link": "d4262be488f92fb5fd6b0a10da309c1ac6719f17084c2a599d698a942ff6cb36",
+          "link": "5307ba5c01d61fa312d59259c8829e0da95b46d28f594ecf39cff3ba21b76ae3"
+        }
+      ],
+      "final_link": "5307ba5c01d61fa312d59259c8829e0da95b46d28f594ecf39cff3ba21b76ae3"
+    }
+  ]
+}

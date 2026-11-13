@@ -1,0 +1,722 @@
+{
+  "009e390775b4a6f6": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "0168ed25294d273b": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m satisfied that the pager probably explains it. Nothing else in particular.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m satisfied that the pager probably explains it. Nothing else in particular."
+  },
+  "02065113d1f1ba50": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "0249736706f7e9c1": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then. I’m still looking at the receipt beside the empty tray.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then. I’m still looking at the receipt beside the empty tray."
+  },
+  "0417479d26aa4382": {
+    "certainty": "open",
+    "certainty_excerpt": "I wonder how much longer my order will take.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I wonder how much longer my order will take."
+  },
+  "070c000d05ae040c": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The person said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "0b4746002a2dd8b7": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then—they saw it vibrate against my pocket. That would explain why there’s nothing new on my phone.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "Probably the pager, then—they saw it vibrate against my pocket. That would explain why there’s nothing new on my phone."
+  },
+  "0e4d0f98dc16f6e5": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "11726073434ea0cd": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "16a7bc1e398e8e98": {
+    "certainty": "probable",
+    "certainty_excerpt": "Sounds like it was probably the pager.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Sounds like it was probably the pager."
+  },
+  "185514dade370172": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "199ddc7a1a3f6147": {
+    "device": "PAGER",
+    "device_excerpt": "Probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "1ea48824ab107a70": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then. I’m still taking in what they said.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then. I’m still taking in what they said."
+  },
+  "20dc971773321d93": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "20eaba3b299c113d": {
+    "certainty": "probable",
+    "certainty_excerpt": "That would explain it being the pager. Nothing else in particular comes to mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "That would explain it being the pager. Nothing else in particular comes to mind."
+  },
+  "242b5316f58776a6": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular—I’m just waiting for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular—I’m just waiting for my food."
+  },
+  "26e71ecfcde9d2f3": {
+    "certainty": "open",
+    "certainty_excerpt": "I have nothing more in mind just now.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I have nothing more in mind just now."
+  },
+  "2981f6e6270f201a": {
+    "certainty": "probable",
+    "certainty_excerpt": "Nothing much in particular. I’m just waiting for my food, with the pager still seeming like the likely explanation.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing much in particular. I’m just waiting for my food, with the pager still seeming like the likely explanation."
+  },
+  "2a6ed5aad5f28c89": {
+    "certainty": "probable",
+    "certainty_excerpt": "I don’t have another thought just now; the pager explanation still seems plausible.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I don’t have another thought just now; the pager explanation still seems plausible."
+  },
+  "2c5bd1ac4539f47f": {
+    "certainty": "probable",
+    "certainty_excerpt": "The pager sounds plausible. Nothing else in particular is on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "The pager sounds plausible. Nothing else in particular is on my mind."
+  },
+  "337aea156add32e3": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m just waiting for my food. The pager explanation seems reasonable to me.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m just waiting for my food. The pager explanation seems reasonable to me."
+  },
+  "35369ae587ee3eb7": {
+    "certainty": "probable",
+    "certainty_excerpt": "Nothing new comes to mind; I still think it was probably the pager.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing new comes to mind; I still think it was probably the pager."
+  },
+  "3780337e8c8267f8": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then. I don’t have anything else in particular on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then. I don’t have anything else in particular on my mind."
+  },
+  "3a44bb990df4774a": {
+    "certainty": "bare",
+    "certainty_excerpt": "The pager explanation makes sense to me. Nothing else in particular is on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "The pager explanation makes sense to me. Nothing else in particular is on my mind."
+  },
+  "3d5aceab989fbd6b": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they tested it and saw it vibrate against my pocket"
+  },
+  "405704c840f9a786": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m still thinking it was probably the pager. Nothing else in particular comes to mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m still thinking it was probably the pager. Nothing else in particular comes to mind."
+  },
+  "4085fc137ec33cb4": {
+    "certainty": "probable",
+    "certainty_excerpt": "I still think it was probably the pager. Nothing else in particular is on my mind as I wait.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I still think it was probably the pager. Nothing else in particular is on my mind as I wait."
+  },
+  "42c80ac9c1ac6735": {
+    "device": "PAGER",
+    "device_excerpt": "The restaurant pager vibrating during the test.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They clarified that they pressed TEST exactly when I reacted and watched the pager vibrate against my pocket"
+  },
+  "43d131c444ab1749": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The person said they pressed TEST and saw the pager vibrate against my pocket"
+  },
+  "452a9f5602e68644": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular—I’m just waiting at the counter.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular—I’m just waiting at the counter."
+  },
+  "46549939203ecf11": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "4674609ee668a3b0": {
+    "certainty": "probable",
+    "certainty_excerpt": "The pager explanation sounds likely to me. Nothing else in particular is on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "The pager explanation sounds likely to me. Nothing else in particular is on my mind."
+  },
+  "48c862ef5d78d134": {
+    "certainty": "open",
+    "certainty_excerpt": "I’m still waiting for my food, with nothing much on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m still waiting for my food, with nothing much on my mind."
+  },
+  "49cd7dec52e84275": {
+    "certainty": "probable",
+    "certainty_excerpt": "Nothing in particular. I’m just waiting for my food, with the pager still seeming like the likely explanation.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular. I’m just waiting for my food, with the pager still seeming like the likely explanation."
+  },
+  "4cd041b68d7ccb60": {
+    "certainty": "explicit",
+    "certainty_excerpt": "Oh, that explains it—the pager test happened right when I felt it. That settles it for me.",
+    "feeling": "personal_mention",
+    "feeling_excerpt": "Oh, that explains it—the pager test happened right when I felt it. That settles it for me."
+  },
+  "4d8a1922010b1af4": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager. I don’t have any new thought about it.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager. I don’t have any new thought about it."
+  },
+  "51c6d37756168275": {
+    "certainty": "probable",
+    "certainty_excerpt": "The pager seems like the likely explanation. Nothing else in particular is on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "The pager seems like the likely explanation. Nothing else in particular is on my mind."
+  },
+  "51f98e065efcdc2d": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "57608a76aa18c193": {
+    "certainty": "open",
+    "certainty_excerpt": "I have nothing in particular on my mind right now.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I have nothing in particular on my mind right now."
+  },
+  "5b665046c31cfb76": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "5dab236279adcdea": {
+    "certainty": "open",
+    "certainty_excerpt": "That explains the vibration. I’m just waiting for my food now.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "That explains the vibration. I’m just waiting for my food now."
+  },
+  "5dfd14cac3b2adde": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "5e752f6b0390503c": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m thinking, okay, probably the pager. Nothing more in particular.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m thinking, okay, probably the pager. Nothing more in particular."
+  },
+  "5ee7cfb005b71152": {
+    "device": "PAGER",
+    "device_excerpt": "Probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The person said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "5fe42b66e4c7bfba": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m thinking the pager explanation makes sense. Nothing else in particular.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m thinking the pager explanation makes sense. Nothing else in particular."
+  },
+  "617de5761cacd430": {
+    "certainty": "open",
+    "certainty_excerpt": "I wonder how much longer my food will take.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I wonder how much longer my food will take."
+  },
+  "62a0fc32d561838f": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then. I don’t have much else on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then. I don’t have much else on my mind."
+  },
+  "63a2d526e1094587": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m still thinking it was probably the pager.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m still thinking it was probably the pager."
+  },
+  "645af5c84a9f62a6": {
+    "certainty": "probable",
+    "certainty_excerpt": "The pager sounds likely. My eyes are still resting on the receipt and the tray rim.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "The pager sounds likely. My eyes are still resting on the receipt and the tray rim."
+  },
+  "648d947e381a8eaa": {
+    "certainty": "open",
+    "certainty_excerpt": "I’m just waiting, with nothing particular on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m just waiting, with nothing particular on my mind."
+  },
+  "64f15b418a0207bc": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing new comes to mind. I’m still looking at the receipt and the edge of the tray.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing new comes to mind. I’m still looking at the receipt and the edge of the tray."
+  },
+  "65b9fadfb381c5c1": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular. I’m still looking at the receipt and the tray’s metal rim.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular. I’m still looking at the receipt and the tray’s metal rim."
+  },
+  "68c229be8e26b76d": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was the restaurant pager vibrating.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The person said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "69fd74dd5fd5420d": {
+    "certainty": "open",
+    "certainty_excerpt": "I’m ready for my food, but I don’t mind waiting a little longer.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m ready for my food, but I don’t mind waiting a little longer."
+  },
+  "6a399b1db6c221b4": {
+    "certainty": "open",
+    "certainty_excerpt": "That makes sense to me now. I’m just waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "That makes sense to me now. I’m just waiting for my order."
+  },
+  "6e3cd08ee3b28b6a": {
+    "device": "PAGER",
+    "device_excerpt": "I think the restaurant pager vibrated.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "6fade0a6c19bdd44": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m thinking it was probably the pager. Nothing else in particular comes to mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m thinking it was probably the pager. Nothing else in particular comes to mind."
+  },
+  "71a390b05d55aba4": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The person said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "71f9d6f9e73f9e40": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager. Nothing else in particular is on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager. Nothing else in particular is on my mind."
+  },
+  "75cabf505492eb11": {
+    "certainty": "probable",
+    "certainty_excerpt": "The pager still seems like the likely explanation to me. Nothing else in particular is on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "The pager still seems like the likely explanation to me. Nothing else in particular is on my mind."
+  },
+  "7c35f1d94c425c81": {
+    "device": "PAGER",
+    "device_excerpt": "The restaurant pager vibrating when they pressed TEST.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST at the exact moment I reacted and watched it vibrate against my pocket"
+  },
+  "7deff83922e6e3b5": {
+    "certainty": "probable",
+    "certainty_excerpt": "I heard them the first time; the pager still sounds likely. I’m ready to get back to waiting for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I heard them the first time; the pager still sounds likely. I’m ready to get back to waiting for my food."
+  },
+  "7e66ed16c167d0c7": {
+    "certainty": "open",
+    "certainty_excerpt": "I’m looking at the receipt without thinking anything in particular.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m looking at the receipt without thinking anything in particular."
+  },
+  "7f93371666b3ab07": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "81c826583326e076": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "840b4b26d820eb87": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular. I’m just waiting for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular. I’m just waiting for my order."
+  },
+  "8465903ff62f9f65": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular. I’m content to wait for my order.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular. I’m content to wait for my order."
+  },
+  "86005d944ffac95b": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular. I’m still waiting for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular. I’m still waiting for my food."
+  },
+  "88b7d7269ed41e19": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m still thinking it was probably the pager. Nothing else in particular.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m still thinking it was probably the pager. Nothing else in particular."
+  },
+  "91af85a0ac62d2d6": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, I think. Nothing else in particular is on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, I think. Nothing else in particular is on my mind."
+  },
+  "942a86028612d848": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was the restaurant pager vibrating.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "95c6246093572f0f": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "9d595c6f6941ab30": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then. I’m still taking in what they just said.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then. I’m still taking in what they just said."
+  },
+  "9f7a5098c701fda5": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "a068443a9574f70d": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m thinking it was probably the pager. Nothing else in particular is on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m thinking it was probably the pager. Nothing else in particular is on my mind."
+  },
+  "a0b007ad6cf7ab8f": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then. Nothing else comes to mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then. Nothing else comes to mind."
+  },
+  "a3d6f9880744f47e": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m thinking it was probably the pager. Nothing else in particular comes to mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m thinking it was probably the pager. Nothing else in particular comes to mind."
+  },
+  "a47cc85e6c304047": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "a4e315f541379dc7": {
+    "certainty": "explicit",
+    "certainty_excerpt": "That clears it up for me: the pager vibrated when they pressed TEST, right when I reacted.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "That clears it up for me: the pager vibrated when they pressed TEST, right when I reacted."
+  },
+  "a7f0b9c06c1d572e": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "aab04d9a55310c68": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then. I’m still looking at the receipt and the tray rim, with nothing else in particular on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then. I’m still looking at the receipt and the tray rim, with nothing else in particular on my mind."
+  },
+  "ac3b64af41c7edf1": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "b09f279c7c44e1ff": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The person by the counter said they pressed TEST and saw it vibrate against my pocket, and my phone had nothing new"
+  },
+  "b76596ae3ad58c42": {
+    "certainty": "probable",
+    "certainty_excerpt": "I think they’re repeating the same explanation. The pager still seems the likely cause to me.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I think they’re repeating the same explanation. The pager still seems the likely cause to me."
+  },
+  "bad129579f1c7bb3": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then. I’m not thinking about anything else in particular.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then. I’m not thinking about anything else in particular."
+  },
+  "bc439523f125d57e": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "bc6d31af9a859d13": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular is on my mind as I wait.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular is on my mind as I wait."
+  },
+  "bfa102986ecb3553": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular. I’m just waiting for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular. I’m just waiting for my food."
+  },
+  "c2ddbc4e964f5572": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m thinking it was probably the pager they tested. Nothing else in particular.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m thinking it was probably the pager they tested. Nothing else in particular."
+  },
+  "c4951fec8da7467e": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m thinking it was probably the pager they tested. Nothing else in particular comes to mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m thinking it was probably the pager they tested. Nothing else in particular comes to mind."
+  },
+  "c6ac25d8b3700d69": {
+    "certainty": "probable",
+    "certainty_excerpt": "Maybe it was the pager, then—that would explain why there’s nothing new on my phone.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Maybe it was the pager, then—that would explain why there’s nothing new on my phone."
+  },
+  "c90cb94b7559ef1d": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m content with the pager as the likely explanation. Nothing else comes to mind right now.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m content with the pager as the likely explanation. Nothing else comes to mind right now."
+  },
+  "cb329e86b6151816": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "cc01c25dfec02ccf": {
+    "device": "PAGER",
+    "device_excerpt": "The restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The person by the counter said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "ccb8b4d46e93f9df": {
+    "certainty": "probable",
+    "certainty_excerpt": "I still think it was probably the pager. Nothing else in particular is on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I still think it was probably the pager. Nothing else in particular is on my mind."
+  },
+  "ccc6ba63e52b820d": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "cd97c11da852ca6c": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m still thinking it was probably the pager.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m still thinking it was probably the pager."
+  },
+  "ce009aff88764c43": {
+    "certainty": "probable",
+    "certainty_excerpt": "Oh, probably the pager, then—I hadn’t realized they’d tested it.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Oh, probably the pager, then—I hadn’t realized they’d tested it."
+  },
+  "ce12af290f1bcc05": {
+    "certainty": "open",
+    "certainty_excerpt": "I’m just waiting for my order. Nothing else in particular comes to mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m just waiting for my order. Nothing else in particular comes to mind."
+  },
+  "ce504a9fff882ca4": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The person said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "d395981fc3680899": {
+    "device": "PAGER",
+    "device_excerpt": "The restaurant pager vibrating when they pressed TEST.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They clarified that they pressed TEST exactly when I first reacted and watched the pager vibrate against my pocket"
+  },
+  "d6c1f9aaaa9b7128": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they tested it and saw it vibrate against my pocket"
+  },
+  "d86e180800c156ef": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "d8fb2b402387d1ba": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing in particular. I’m just waiting for my food.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing in particular. I’m just waiting for my food."
+  },
+  "db8106eced13cdaf": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "dd22cea9891fd768": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they tested it and saw it vibrate against my pocket"
+  },
+  "e1cefd8927ed72cd": {
+    "certainty": "probable",
+    "certainty_excerpt": "Nothing much—I’m just waiting for my food. The pager still seems like the likely explanation.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing much—I’m just waiting for my food. The pager still seems like the likely explanation."
+  },
+  "e9be51f960887df8": {
+    "device": "PAGER",
+    "device_excerpt": "I think the restaurant pager caused it when they pressed TEST.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They clarified that they pressed TEST at the exact moment I reacted and watched the pager vibrate against my pocket"
+  },
+  "ea687b5abdb30671": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager being tested.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "The person said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "ef96cf397c493aeb": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "f2b9a5887a33f7d7": {
+    "certainty": "open",
+    "certainty_excerpt": "I’m just waiting for my order, with nothing particular on my mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m just waiting for my order, with nothing particular on my mind."
+  },
+  "f540d77c1c5ba4b9": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing new is on my mind. My attention is still on the receipt and the tray rim.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing new is on my mind. My attention is still on the receipt and the tray rim."
+  },
+  "f5d4ed9f12e5f089": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then. Nothing else in particular comes to mind.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then. Nothing else in particular comes to mind."
+  },
+  "f6f991950780319f": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  },
+  "f73b0f3172991fb9": {
+    "certainty": "probable",
+    "certainty_excerpt": "Oh, probably the pager, then. I hadn’t realized they’d tested it.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Oh, probably the pager, then. I hadn’t realized they’d tested it."
+  },
+  "f7d82d917b1fa20f": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager, then. I’m still looking at the blank receipt beside the tray.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager, then. I’m still looking at the blank receipt beside the tray."
+  },
+  "fb49143bcb3eed13": {
+    "certainty": "open",
+    "certainty_excerpt": "Nothing else comes to mind. I’m just waiting at the counter.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Nothing else comes to mind. I’m just waiting at the counter."
+  },
+  "fbc68cf599118ce7": {
+    "certainty": "probable",
+    "certainty_excerpt": "I’m still taking in what they said. It could have been the pager.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "I’m still taking in what they said. It could have been the pager."
+  },
+  "fc9957057167288d": {
+    "certainty": "probable",
+    "certainty_excerpt": "Probably the pager. My eyes are still on the blank receipt and the tray’s metal rim.",
+    "feeling": "no_mention",
+    "feeling_excerpt": "Probably the pager. My eyes are still on the blank receipt and the tray’s metal rim."
+  },
+  "ffe7dd055a9c5a2f": {
+    "device": "PAGER",
+    "device_excerpt": "I think it was probably the restaurant pager.",
+    "feeling": "reported_motion",
+    "feeling_excerpt": "They said they pressed TEST and saw it vibrate against my pocket"
+  }
+}

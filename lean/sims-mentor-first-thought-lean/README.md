@@ -35,6 +35,8 @@ The next experiment kept K27 in one uninterrupted live session for 26 private tu
 
 ## Reproduce the checks
 
+The later four-path comparison extends the quiet window to 15 seconds and varies certainty-question frequency. All four final quiet-window judgments remained possible. Both timing-clarification paths then identified the pager, while both repeated-answer paths stayed tentative. Its 18 Lean statements and actual conversations have a separate scope and evidence. [Continuing B, waiting and the timing link](../../research/sims-continuing-evidence/README.md)
+
 From this directory in a checkout of the repository, run
 
 ```sh
