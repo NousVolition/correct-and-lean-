@@ -38,6 +38,15 @@ The new Lean theorem `fieldproblem_guard_transport_energy_bound` proves this con
 
 ## 3. Locate the first remaining bridge: the time-dependent balance
 
+Writing the pointwise difference density as \(e_\Delta(t,x)\), the first analytic line to justify is
+
+\[
+\frac{d}{dt}\int_{\rm cell}e_\Delta(t,x)\,dx
+=\int_{\rm cell}\partial_t e_\Delta(t,x)\,dx.
+\]
+
+This requires appropriate time regularity and a justified interchange of derivative and integral. The current energy-bound theorem supplies neither this interchange nor the subsequent difference-equation balance.
+
 Under the stronger joint classical regularity in `CLASSICAL-UNIQUENESS-ARGUMENT.md`, the required two-history integrated balance has the form
 
 \[
@@ -92,3 +101,7 @@ E'\le CE,\qquad C=C_g+C_{\rm other}.
 Together with the required time regularity and \(E(a)=0\), Gronwall then gives \(E=0\). Spatial continuity converts equality almost everywhere to equality of the six fields. These final applications, the full balance and other estimates above are still to be formalized for the actual solutions. Existence, continuation, and deriving the stronger regularity from the original `FieldProblem` predicate remain separate open obligations.
 
 The new theorem has one explicit endpoint: guard transport is controlled by the full difference energy. The prime-17 numerical experiments are not premises of the theorem or substitutes for the remaining space-time arguments.
+
+## Verification
+
+The energy statement and definitions were recorded before the new proof file was written, as recorded in `energy-reference-freeze.json`. The definition and proof modules are included in the default build, and the new theorem is Comparator target 14. [The saved Linux receipt](evidence-linux/source.json) pins proof commit `fdc6b5277d67f4b9ee8d16b50641bac20a67e6df`: Comparator, Lean's kernel, nanoda, the full package build and all 14 axiom lists passed. The previous thirteen-target receipt is retained under `evidence-linux/historical-thirteen/`. These checks establish the displayed guard-to-energy bound under its hypotheses; they do not establish the still-open time-dependent energy inequality.

@@ -1,8 +1,8 @@
 {
-  "comparator": "NOT_RUN",
-  "lean_kernel": "NOT_RUN",
-  "nanoda": "NOT_RUN",
-  "lean_build": "NOT_RUN",
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
   "scope": "Four auxiliary field-rate diagnostics, nine guard transport theorems, and the bound of both guard transport residuals by the full six-field difference energy, uniform on a finite interval under the stated extra joint guard-gradient regularity. The time-dependent full difference-energy balance, remaining estimates, PDE existence and uniqueness remain open.",
   "open_items": [
     "Construct local coupled variable-viscosity PDE solutions in an appropriate spatial function space.",
