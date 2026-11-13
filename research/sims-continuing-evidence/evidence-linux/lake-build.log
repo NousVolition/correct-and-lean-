@@ -1,0 +1,6 @@
+✔ [2/6] Built Evidence (471ms)
+✔ [4/6] Built RecordedData (596ms)
+✔ [5/6] Built Recorded (715ms)
+Build completed successfully (6 jobs).
+info: ContinuingEvidence: no previous manifest, creating one from scratch
+info: toolchain not updated; already up-to-date

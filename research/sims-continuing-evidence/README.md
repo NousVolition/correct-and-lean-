@@ -58,3 +58,5 @@ lake build
 ~~~
 
 The verification creates native compiler logs, a complete axiom audit and a source-hashed receipt. All 18 named statements are checked using Lean's kernel. This study uses its own workflow and evidence, with the earlier Comparator/nanoda receipts preserved in their original packages.
+
+The local Windows check and the GitHub Linux check passed all 18 statements with matching source hashes and axiom lists. Both jobs in the new workflow passed, covering the four sessions, 120 turns and native proof build. The original Linux artifact is preserved with its checksum and tested commit. [GitHub run](https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43367150704) · [Linux receipt and original logs](evidence-linux/source.json) · [Local receipt](evidence-local/receipt.json)
