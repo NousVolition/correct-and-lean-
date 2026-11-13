@@ -13,7 +13,14 @@
     "General rational polynomial model error lemmas",
     "General normalized-component residual lemma",
     "Conditional existence-in-tube theorem with no pre-assumed trajectory",
-    "Conditional attained-minimum enclosure theorem"
+    "Conditional attained-minimum enclosure theorem",
+    "Residual-based sine/cosine enclosures and the candidate-segment phase pilot",
+    "Integer polynomial models with proved rounding and truncation errors",
+    "General tensor-factorized Fourier evaluation soundness; the concrete component pilot is excluded",
+    "Fourier remainder bounds and actual directional derivatives",
+    "Euclidean normalization bridge and global auxiliary clipped-field existence",
+    "General matrix, transformed-residual and preconditioned tube lemmas",
+    "Unit-torus distance identities and a conditional continuous-window minimum theorem"
   ],
   "missing": [
     "Closed normalized-field certificates for every required trajectory slab",
@@ -23,16 +30,7 @@
   ],
   "external_numerical_output_accepted_as_lean_bound": false,
   "submitted_additional_results": [
-    "Residual-based sine/cosine enclosure theorems with initial errors checked from sin(0)=0 and cos(0)=1",
-    "Integer polynomial models with checked coefficient rounding and truncation",
-    "Tensor-factorized Fourier evaluation soundness",
-    "One candidate segment phase and Fourier-component certificate, subject to the build and axiom audit at this revision",
-    "Global existence for a clipped auxiliary field and a general preconditioned tube theorem",
-    "Fourier first-order remainder and actual-gradient theorems",
-    "Euclidean normalization bridge and auxiliary ODE existence in maximum-norm coordinates",
-    "Matrix norm and transformed-residual lemmas",
-    "Unit-torus distance and a conditional whole-window minimum theorem",
-    "Exact rational transcriptions of all six seed and target pairs"
+    "One archived Fourier-component candidate-segment pilot remains unverified; its 16 declarations are excluded from the foundation receipt"
   ],
   "expanded_build_status": {
     "proof_head": "ab931cf3a2581153f106feb6dbac346a82e245b9",
@@ -47,5 +45,36 @@
       "FieldPilotArchiveLink"
     ],
     "reason": "Separate independent general results from the unverified component pilot; this does not certify a trace."
+  },
+  "verified_foundations": {
+    "named_theorem_count": 171,
+    "submitted_named_theorem_count": 187,
+    "excluded_modules": [
+      "FieldPilotCore",
+      "FieldPilotArchiveLink"
+    ],
+    "excluded_named_theorems": [
+      "FieldPilotCore.archiveDenominator_positive",
+      "FieldPilotCore.baseError_nonneg",
+      "FieldPilotCore.starts_cos",
+      "FieldPilotCore.starts_sin",
+      "FieldPilotCore.base_error_checked",
+      "FieldPilotCore.base_sound",
+      "FieldPilotCore.powerRE_nonneg",
+      "FieldPilotCore.powerIM_nonneg",
+      "FieldPilotCore.powers_checked",
+      "FieldPilotCore.powers_sound",
+      "FieldPilotCore.field_sound",
+      "FieldPilotCore.checked_field",
+      "FieldPilotCore.checked_error",
+      "FieldPilotCore.continuous_field_enclosure",
+      "FieldPilotArchiveLink.archive_identity",
+      "FieldPilotArchiveLink.archived_component_enclosure"
+    ],
+    "proof_head": "c5c79f3c587edfc47570d2b7f8adfdfa3ab03baf",
+    "tested_merge": "7c2bdba976b984154e35fe26ae9b3a546bf28bb0",
+    "run_id": 43382450376,
+    "receipt": "evidence-foundations-linux/receipt.json",
+    "scope": "Supporting continuous mathematical results; no closed archived trajectory or window-minimum certificate"
   }
 }

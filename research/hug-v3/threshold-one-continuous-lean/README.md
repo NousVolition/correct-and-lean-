@@ -6,8 +6,9 @@ enclosure lemmas, a candidate-segment trigonometric pilot, and an **unverified**
 Fourier-component pilot. The expanded 147-declaration build timed out; it has no
 passing receipt. The current sources submit 187 declarations. The explicitly
 limited `foundations` check selects 171 and excludes all 16 declarations in the
-component pilot. Its fresh Linux result must be assessed separately; the retained
-29-theorem receipt below covers the earlier revision only.
+component pilot. Those **171 foundation declarations passed the fresh Linux
+build and axiom audit** linked below. This receipt has a narrower scope than all
+submitted sources; the retained 29-theorem receipt covers an earlier revision.
 A successful build of
 this package must not be described as successful certification of the traces.
 `verify.py --require-trajectories` deliberately refuses that claim with exit 2.
@@ -78,9 +79,18 @@ limit; an import-only diagnostic took 193.656 seconds.
 The unchanged full calculation is not being rerun automatically. Current CI
 checks the **171-declaration foundations scope**, excluding `FieldPilotCore` and
 `FieldPilotArchiveLink` and all their declarations. The newly added general
-lemmas passed local development builds without warnings; the new foundation
-build and axiom receipt are pending at this publication checkpoint. A foundation
-receipt must list its excluded modules and declarations. It cannot validate the
+lemmas passed local development builds without warnings. The corrected
+[Linux run 43382450376](https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43382450376)
+passed the fresh foundations build, all **171** axiom reports, seven verifier
+tests, archive/coordinate regeneration, and the expected refusal of trajectory
+certification. Its original [receipt](evidence-foundations-linux/receipt.json),
+[compiler and axiom logs](evidence-foundations-linux/evidence),
+[generated audit source](evidence-foundations-linux/CheckAxioms.lean), and
+[artifact provenance](evidence-foundations-linux/source.json) are retained byte
+for byte with the original ZIP. The tested proof head is
+`c5c79f3c587edfc47570d2b7f8adfdfa3ab03baf`; the tested merge is
+`7c2bdba976b984154e35fe26ae9b3a546bf28bb0`. The receipt explicitly lists its
+excluded modules and all 16 excluded declarations. It cannot validate the
 component pilot or any trajectory. The default verifier still selects **all**
 187 declarations; a full-scope pass requires them all. The verifier now preserves
 captured timeout diagnostics and an explicit failure record, tested by a
