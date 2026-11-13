@@ -1,0 +1,898 @@
+'AmbiguityInstances.Tick41Geometry.all_saved_x_returns_open' does not depend on any axioms
+'AmbiguityInstances.Tick41Geometry.all_saved_x_returns_open._proof_1_1' does not depend on any axioms
+'AmbiguityInstances.Tick41Geometry.all_scales_positive' does not depend on any axioms
+'AmbiguityInstances.Tick41Geometry.all_scales_positive._proof_1_1' does not depend on any axioms
+'AmbiguityInstances.Tick41Geometry.exact_reader_on_saved_returns' depends on axioms: [propext, Quot.sound]
+'AmbiguityInstances.Tick41Geometry.integer_return_would_close' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AmbiguityInstances.Tick41Geometry.no_opposite_saved_closure_properties' depends on axioms: [propext, Quot.sound]
+'AmbiguityInstances.Tick41Geometry.no_saved_integer_periodic_return' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AmbiguityInstances.Tick41Geometry.saved_x_does_not_close' depends on axioms: [propext, Quot.sound]
+'AmbiguityInstances.Tick41Write.different_record_presence' does not depend on any axioms
+'AmbiguityInstances.Tick41Write.exact_reader_with_record' does not depend on any axioms
+'AmbiguityInstances.Tick41Write.no_exact_water_reader' does not depend on any axioms
+'AmbiguityInstances.Tick41Write.same_water_observation' does not depend on any axioms
+'AmbiguityInstances.YangMills.Slice._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:38:14: warning: `AmbiguityInstances.YangMills.Slice._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'AmbiguityInstances.YangMills.modified._proof_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+FreshAxioms.lean:39:14: warning: `AmbiguityInstances.YangMills.modified._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'AmbiguityInstances.YangMills.modified.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AmbiguityInstances.YangMills.modified_does_not_satisfy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AmbiguityInstances.YangMills.no_exact_slice_reader' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AmbiguityInstances.YangMills.offSlice.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AmbiguityInstances.YangMills.off_slice_curvature_distinguishes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AmbiguityInstances.YangMills.original._proof_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+FreshAxioms.lean:45:14: warning: `AmbiguityInstances.YangMills.original._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'AmbiguityInstances.YangMills.original.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AmbiguityInstances.YangMills.original_satisfies' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AmbiguityInstances.YangMills.residuals_are_zero_and_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AmbiguityInstances.YangMills.same_slice_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AmbiguityInstances.YangMills.sourceFreeAtCue.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.A_attains_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.actual_curl_integral_curve' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.advection_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.both_flows_allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.c0.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.c1.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.closedState.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.closed_witness_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.common_normalized_vortex_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.cos_transverse_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.cotCoordinate._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:61:14: warning: `ClosestPointExample.MatchingPaddle.cotCoordinate._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.MatchingPaddle.cotCoordinate._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:62:14: warning: `ClosestPointExample.MatchingPaddle.cotCoordinate._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.MatchingPaddle.cotCoordinate.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.curl_on_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.curves_start_at_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.divergence_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.every_function_of_paddle_matches' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.flow._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:68:14: warning: `ClosestPointExample.MatchingPaddle.flow._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.MatchingPaddle.flow.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.flow_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.flow_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.gain.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.gain_along_open_curve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.gain_positive_on_saved_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.material_markers_stationary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.mode.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.modeX.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.modeY.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.mode_decay_at_tick' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.mode_t' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.mode_x' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.mode_xx' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.mode_y' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.mode_yy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.no_exact_reader_even_with_paddle_wheel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.nonzero_on_full_curves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.nonzero_on_full_curves._simp_1_2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.observation.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.openState.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.openY.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.openY_has_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_1' depends on axioms: [propext]
+'ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_2' depends on axioms: [propext]
+'ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_3' depends on axioms: [propext]
+'ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_4' depends on axioms: [propext]
+'ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_5' depends on axioms: [propext]
+'ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_6' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_7' depends on axioms: [propext]
+'ClosestPointExample.MatchingPaddle.openY_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.open_forward_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.open_witness_never_returns' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.open_witness_never_returns._proof_1_2' depends on axioms: [propext, Quot.sound]
+'ClosestPointExample.MatchingPaddle.opposite_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.opposite_closure._simp_1_4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.opposite_closure._simp_1_5' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.partial_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.phase._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:108:14: warning: `ClosestPointExample.MatchingPaddle.phase._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.MatchingPaddle.phase.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.prior_trace_is_same' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.profile.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.profileX.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.profileY.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.profile_heat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.profile_x' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.profile_xx' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.profile_y' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.profile_yy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.property.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.same_enlarged_observation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.same_paddle_as_previous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.same_paddle_wheel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.sin_wave_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.solves_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.swirlScale.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.swirlScale_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.trace_tangent_is_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.transverseWave._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:129:14: warning: `ClosestPointExample.MatchingPaddle.transverseWave._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.MatchingPaddle.unchanged_closest_reading' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.vortexCurve.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.vorticity.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.MatchingPaddle.zero_is_beyond_saved_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.MatchingPaddle.zero_swirl_at_open_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Reading.mk.inj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Reading.mk.injEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Reading.mk.sizeOf_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Tick41.actual_vortex_lines_at_tick41' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Tick41.certified_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Tick41.closedState._proof_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+FreshAxioms.lean:140:14: warning: `ClosestPointExample.Tick41.closedState._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.Tick41.no_exact_reader_of_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Tick41.openState._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:142:14: warning: `ClosestPointExample.Tick41.openState._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.Tick41.openState._proof_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+FreshAxioms.lean:143:14: warning: `ClosestPointExample.Tick41.openState._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.Tick41.opposite_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Tick41.same_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.GlobalClosestAtStart._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:146:14: warning: `ClosestPointExample.Winding.GlobalClosestAtStart._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.Winding.S.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.all_curves_stay_in_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.amplitude.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.amplitude_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.angle.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.arctan_ratio_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_1' depends on axioms: [propext]
+'ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_2' depends on axioms: [propext]
+'ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_3' depends on axioms: [propext]
+'ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_4' depends on axioms: [propext]
+'ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_5' depends on axioms: [propext]
+'ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_6' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_7' depends on axioms: [propext]
+'ClosestPointExample.Winding.beltrami_advection_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.beta._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:161:14: warning: `ClosestPointExample.Winding.beta._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.Winding.beta.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.both_solve_same_fluid_equations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.clock.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.clock_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.clock_starts_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.clock_strictly_increases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.clock_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.closedState.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.closed_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.complete_vortex_curve_at_tick' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_1' depends on axioms: [propext]
+'ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_2' depends on axioms: [propext]
+'ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_3' depends on axioms: [propext]
+'ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_4' depends on axioms: [propext]
+'ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_5' depends on axioms: [propext]
+'ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_6' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_7' depends on axioms: [propext]
+'ClosestPointExample.Winding.cons_three_last' depends on axioms: [propext]
+'ClosestPointExample.Winding.cosineVector.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.cosine_denominator_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.curlOf.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.curl_at_tick' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.curl_at_tick._simp_1_3' depends on axioms: [propext]
+'ClosestPointExample.Winding.curl_at_tick._simp_1_4' depends on axioms: [propext]
+'ClosestPointExample.Winding.curl_at_tick._simp_1_5' depends on axioms: [propext]
+'ClosestPointExample.Winding.curl_at_tick._simp_1_6' depends on axioms: [propext]
+'ClosestPointExample.Winding.curl_at_tick._simp_1_7' depends on axioms: [propext]
+'ClosestPointExample.Winding.curl_at_tick._simp_1_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.curl_at_tick._simp_1_9' depends on axioms: [propext]
+'ClosestPointExample.Winding.curve.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.curve_scale_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.curve_starts_at_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.curve_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.curves_persist_at_every_finite_time' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_1' depends on axioms: [propext]
+'ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_2' depends on axioms: [propext]
+'ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_3' depends on axioms: [propext]
+'ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_4' depends on axioms: [propext]
+'ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_5' depends on axioms: [propext]
+'ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_6' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_7' depends on axioms: [propext]
+'ClosestPointExample.Winding.denominator_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.eigenvalue._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:204:14: warning: `ClosestPointExample.Winding.eigenvalue._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.Winding.eigenvalue.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.eigenvalue_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.exact_closest_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.fieldD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.fieldDD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_at_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_beltrami' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_has_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_has_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_on_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.field_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.flow.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.flowD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.flowDD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.flow_curl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.flow_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.flow_has_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.flow_has_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.flow_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.flow_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.flow_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.flow_time' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.frequency._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:233:14: warning: `ClosestPointExample.Winding.frequency._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.Winding.frequency.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.frequency_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.gain._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:236:14: warning: `ClosestPointExample.Winding.gain._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.Winding.gain._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:237:14: warning: `ClosestPointExample.Winding.gain._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.Winding.gain_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.global_clock_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.global_closest_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.lift.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.lift_at_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.lift_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.lift_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.lift_derivative._simp_1_1' depends on axioms: [propext]
+'ClosestPointExample.Winding.lift_derivative._simp_1_2' depends on axioms: [propext]
+'ClosestPointExample.Winding.lift_derivative._simp_1_3' depends on axioms: [propext]
+'ClosestPointExample.Winding.lift_derivative._simp_1_4' depends on axioms: [propext]
+'ClosestPointExample.Winding.lift_derivative._simp_1_5' depends on axioms: [propext]
+'ClosestPointExample.Winding.lift_derivative._simp_1_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.lift_derivative._simp_1_7' depends on axioms: [propext]
+'ClosestPointExample.Winding.lift_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.lift_linear_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.lift_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.lift_surjective._simp_1_1' depends on axioms: [propext]
+'ClosestPointExample.Winding.lift_surjective._simp_1_2' depends on axioms: [propext]
+'ClosestPointExample.Winding.lift_surjective._simp_1_3' depends on axioms: [propext]
+'ClosestPointExample.Winding.lift_surjective._simp_1_4' depends on axioms: [propext]
+'ClosestPointExample.Winding.lift_surjective._simp_1_5' depends on axioms: [propext]
+'ClosestPointExample.Winding.lift_surjective._simp_1_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.lift_surjective._simp_1_7' depends on axioms: [propext]
+'ClosestPointExample.Winding.mu._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:262:14: warning: `ClosestPointExample.Winding.mu._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.Winding.mu_gt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.mu_squared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.no_exact_reader_with_closest_point_and_paddle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.Winding.numerator.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.observation.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.openCurve.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.openState.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.open_curve_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.open_curve_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.open_curve_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.open_never_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.opposite_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.opposite_closure._simp_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.opposite_closure._simp_1_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.paddle_at_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.periodic_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.phase._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:280:14: warning: `ClosestPointExample.Winding.phase._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.Winding.phase.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.phaseD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.phase_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.phase_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.plane_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.plane_phase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.positive_swirl_on_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.pressure._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:288:14: warning: `ClosestPointExample.Winding.pressure._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.Winding.pressure._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:289:14: warning: `ClosestPointExample.Winding.pressure._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.Winding.pressure.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.pressure_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.property.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.ratio.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.ratio_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.rho_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.same_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.sineVector.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.smooth_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.solves_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.squareDenominator_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.squareDenominator_short' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.swirl_never_approaches_zero_on_the_line' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ClosestPointExample.Winding.tangentScale.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.targetSwirl_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.term.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.termD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.term_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.term_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.term_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.triple_last' depends on axioms: [propext]
+'ClosestPointExample.Winding.vorticity.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.waveVector.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.advection_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.all_images_all_line_points' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.arc.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.arc_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.arc_starts_at_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.arc_unit_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.closedProperty.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.coefficient.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.coordinateDerivative.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.curl.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.curl_on_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.decay_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.direction.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.divergence.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.every_family_member_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.exact_same_equation_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.force.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.imageDistanceSq._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:331:14: warning: `ClosestPointExample.imageDistanceSq._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.incompressible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.laplacian.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.laplacian_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.line.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.line_has_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.markerA.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.markerB._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:338:14: warning: `ClosestPointExample.markerB._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.markerB.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.markers_stationary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.no_exact_closest_point_reader' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.observation_is_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.observe.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.opposite_closure_values' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.opposite_closure_values._simp_1_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.opposite_closure_values._simp_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.partial_vertical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.pressure.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.same_closest_point_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.shapeZ.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.shapeZ_has_z_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.shape_has_time_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.shape_has_z_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.shape_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.smooth_velocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.space_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.space_partial_twice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.spatially_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.speed.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.speed_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.speed_squared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.sqrt_two_line_is_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.tick41._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:364:14: warning: `ClosestPointExample.tick41._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.tick41._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:365:14: warning: `ClosestPointExample.tick41._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.time_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.traceLength._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:367:14: warning: `ClosestPointExample.traceLength._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.traceLength.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.velocity._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:369:14: warning: `ClosestPointExample.velocity._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.velocity.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.vertical_image_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.vertical_image_bound._proof_1_1' depends on axioms: [propext, Quot.sound]
+'ClosestPointExample.vertical_image_bound._proof_1_2' depends on axioms: [propext, Quot.sound]
+'ClosestPointExample.viscosity._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:374:14: warning: `ClosestPointExample.viscosity._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.viscosity._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:375:14: warning: `ClosestPointExample.viscosity._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.viscosity.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.viscosity_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.vortex_line_ODE' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.vortex_parameter_scale_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.wave._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:380:14: warning: `ClosestPointExample.wave._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClosestPointExample.wave_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.zero_line_is_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.FluidState.allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.FluidState.closest_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.FluidState.line_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.FluidState.line_starts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.FluidState.line_swirl_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.FluidState.materialA' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.FluidState.mk.inj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.FluidState.mk.injEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.FluidState.mk.sizeOf_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.FluidState.paddle_at_tick' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.FluidState.positive_paddle_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.distanceToImageSq.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.full_pair_rules_out_exact_reader' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.markerA.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.markerB._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:397:14: warning: `HistoryCompletionTarget.markerB._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryCompletionTarget.markerB.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.observation.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.pathA._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:400:14: warning: `HistoryCompletionTarget.pathA._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryCompletionTarget.pathA.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.path_at_tick' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.property.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.start_attains_closest_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.tag._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:405:14: warning: `HistoryCompletionTarget.tag._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryCompletionTarget.tag._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:406:14: warning: `HistoryCompletionTarget.tag._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryCompletionTarget.tick41._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:407:14: warning: `HistoryCompletionTarget.tick41._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryCompletionTarget.tick41._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:408:14: warning: `HistoryCompletionTarget.tick41._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryMatchCore.drift_derivative_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.drift_derivative_formula._simp_1_1' depends on axioms: [propext]
+'HistoryMatchCore.drift_derivative_formula._simp_1_2' depends on axioms: [propext]
+'HistoryMatchCore.drift_derivative_formula._simp_1_3' depends on axioms: [propext]
+'HistoryMatchCore.drift_derivative_formula._simp_1_4' depends on axioms: [propext]
+'HistoryMatchCore.drift_derivative_formula._simp_1_5' depends on axioms: [propext]
+'HistoryMatchCore.drift_derivative_formula._simp_1_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.drift_derivative_formula._simp_1_7' depends on axioms: [propext]
+'HistoryMatchCore.drift_numerator_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.drift_numerator_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.fullObservation.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.global_closest_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.irrational_turn_law_prevents_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.no_exact_reader_with_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.observation_matches_on_whole_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.perturbation_keeps_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.quarter_turn_kills_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.strip_image_square_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryMatchCore.strip_image_square_bound._proof_1_1' depends on axioms: [propext, Quot.sound]
+'HistoryParameterSelection.exists_scaled_sqrt_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryParameterSelection.positive_point_from_positive_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HistoryParameterSelection.select_irrational_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryParameterSelection.select_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryParameterSelection.selected_parameters_preserve_validity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HistoryPlanarBase.addFour._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:433:14: warning: `HistoryPlanarBase.addFour._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryPlanarBase.addFour.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.advection_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.cons_four_last' depends on axioms: [propext]
+'HistoryPlanarBase.cons_four_second' depends on axioms: [propext]
+'HistoryPlanarBase.cons_three_last' depends on axioms: [propext]
+'HistoryPlanarBase.coordinateDerivative.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.curlOf.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.direction.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.eigenvalue._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:442:14: warning: `HistoryPlanarBase.eigenvalue._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryPlanarBase.eigenvalue.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.field.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.fieldD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.fieldDD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.fieldD_at_origin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.field_curl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.field_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.field_has_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.field_has_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.field_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.flow.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.flowD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.flowDD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.flow_curl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.flow_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.flow_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.flow_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.flow_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.flow_time' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.four_last' depends on axioms: [propext]
+'HistoryPlanarBase.four_second' depends on axioms: [propext]
+'HistoryPlanarBase.frequency._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:464:14: warning: `HistoryPlanarBase.frequency._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryPlanarBase.frequency.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.periodic_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.periodic_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.periodic_term' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.phase._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:470:14: warning: `HistoryPlanarBase.phase._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryPlanarBase.phase.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.phaseD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.phase_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.phase_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.pressure.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.pressure_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.profile.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.profileD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.profileD_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.profile_and_field_at_origin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.profile_has_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.profile_original_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.scalarTerm.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.scalarTermD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.scalarTerm_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.smooth_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.solves_unforced_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.stream.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.streamD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.streamD_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.stream_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.term.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.termD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.term_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.term_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.triple_last' depends on axioms: [propext]
+'HistoryPlanarBase.viscosity._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:498:14: warning: `HistoryPlanarBase.viscosity._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryPlanarBase.viscosity._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:499:14: warning: `HistoryPlanarBase.viscosity._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryPlanarBase.waveVector.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.weight._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:501:14: warning: `HistoryPlanarBase.weight._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryPlanarBase.weight.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.ScalarEvolution.equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.ScalarEvolution.initial_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.ScalarEvolution.mk.inj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.ScalarEvolution.mk.injEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.ScalarEvolution.mk.sizeOf_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.ScalarEvolution.periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.ScalarEvolution.second_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.ScalarEvolution.smooth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.ScalarEvolution.space_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.ScalarEvolution.time_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.ScalarEvolution.zero_z_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.base_pressure_z' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.base_vertical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.base_vertical_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.base_z_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.initialG._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:518:14: warning: `HistoryScalarLift.initialG._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryScalarLift.liftedD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.liftedDD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.liftedFlow._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:521:14: warning: `HistoryScalarLift.liftedFlow._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryScalarLift.liftedFlow.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.liftedTimeD.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_actual_curl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_origin_stationary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_solves_unforced_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_time' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.tick41._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:533:14: warning: `HistoryScalarLift.tick41._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HistoryScalarLift.tick41._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:534:14: warning: `HistoryScalarLift.tick41._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'SIMSLatentReadout.Answer.no.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Answer.ofNat_ctorIdx' does not depend on any axioms
+'SIMSLatentReadout.Answer.unavailable.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Answer.unknown.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Answer.yes.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Hypothesis.absent.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Hypothesis.changedRetained.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Hypothesis.held.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Hypothesis.ofNat_ctorIdx' does not depend on any axioms
+'SIMSLatentReadout.Hypothesis.writtenLater.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Probe.afterPresent.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Probe.componentChanged.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Probe.initialPresent.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.Probe.ofNat_ctorIdx' does not depend on any axioms
+'SIMSLatentReadout.Reply.mk.inj' does not depend on any axioms
+'SIMSLatentReadout.Reply.mk.injEq' depends on axioms: [propext]
+'SIMSLatentReadout.Reply.mk.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.SavedCase.mk.inj' does not depend on any axioms
+'SIMSLatentReadout.SavedCase.mk.injEq' depends on axioms: [propext]
+'SIMSLatentReadout.SavedCase.mk.sizeOf_spec' does not depend on any axioms
+'SIMSLatentReadout.all_ten_filings_remain_open_without_confirmation' does not depend on any axioms
+'SIMSLatentReadout.all_ten_first_replies_survive_filing' does not depend on any axioms
+'SIMSLatentReadout.both_clay_readers_recognize_the_change_and_identity' depends on axioms: [propext]
+'SIMSLatentReadout.both_readers_recover_earlier_answer_in_all_ten' does not depend on any axioms
+'SIMSLatentReadout.clay_changes_while_sign_stays' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.clay_relative_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.erased_record_fits_none_of_current_menu' depends on axioms: [propext]
+'SIMSLatentReadout.every_saved_weight_trace_matches_finite_filtering' depends on axioms: [propext]
+'SIMSLatentReadout.exact_first_quote_counts_are_zero_and_ten' does not depend on any axioms
+'SIMSLatentReadout.filed_record_existence_score' does not depend on any axioms
+'SIMSLatentReadout.forty_weight_states_checked' does not depend on any axioms
+'SIMSLatentReadout.full_history_existence_score' does not depend on any axioms
+'SIMSLatentReadout.further_evidence_does_not_reintroduce' depends on axioms: [propext]
+'SIMSLatentReadout.historical_scores_are_seven_and_six' depends on axioms: [propext]
+'SIMSLatentReadout.instDecidableEqAnswer._proof_1' does not depend on any axioms
+FreshAxioms.lean:569:14: warning: `SIMSLatentReadout.instDecidableEqAnswer._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'SIMSLatentReadout.instDecidableEqAnswer._proof_2' does not depend on any axioms
+FreshAxioms.lean:570:14: warning: `SIMSLatentReadout.instDecidableEqAnswer._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'SIMSLatentReadout.instDecidableEqHypothesis._proof_1' does not depend on any axioms
+FreshAxioms.lean:571:14: warning: `SIMSLatentReadout.instDecidableEqHypothesis._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'SIMSLatentReadout.instDecidableEqHypothesis._proof_2' does not depend on any axioms
+FreshAxioms.lean:572:14: warning: `SIMSLatentReadout.instDecidableEqHypothesis._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'SIMSLatentReadout.instDecidableEqProbe._proof_1' does not depend on any axioms
+FreshAxioms.lean:573:14: warning: `SIMSLatentReadout.instDecidableEqProbe._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'SIMSLatentReadout.instDecidableEqProbe._proof_2' does not depend on any axioms
+FreshAxioms.lean:574:14: warning: `SIMSLatentReadout.instDecidableEqProbe._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'SIMSLatentReadout.lossless_filing_preserves_readable_fields' does not depend on any axioms
+'SIMSLatentReadout.lossless_storage_can_have_wrong_reader' does not depend on any axioms
+'SIMSLatentReadout.lossy_reader_has_no_history_and_answers_unknown' does not depend on any axioms
+'SIMSLatentReadout.negative_marks_share_reading' depends on axioms: [propext, Quot.sound]
+'SIMSLatentReadout.no_exact_reader_of_ambiguous_observation' does not depend on any axioms
+'SIMSLatentReadout.no_reader_of_the_first_display_is_always_right' does not depend on any axioms
+'SIMSLatentReadout.no_same_record_when_original_absent' depends on axioms: [propext]
+'SIMSLatentReadout.precisely_three_filed_reader_contradictions' does not depend on any axioms
+'SIMSLatentReadout.present.eq_1' does not depend on any axioms
+'SIMSLatentReadout.quarters_encoding_is_exact_for_these_traces' depends on axioms: [propext, Quot.sound]
+'SIMSLatentReadout.recorded_zero_has_opposite_histories' does not depend on any axioms
+'SIMSLatentReadout.sameRecord._sparseCasesOn_1.else_eq' depends on axioms: [propext]
+'SIMSLatentReadout.sameRecord.eq_1' depends on axioms: [propext]
+'SIMSLatentReadout.sameRecord.eq_2' depends on axioms: [propext]
+'SIMSLatentReadout.same_record_requires_original' depends on axioms: [propext]
+'SIMSLatentReadout.saved_rubric_matches_recorded_histories' depends on axioms: [propext]
+'SIMSLatentReadout.signRead.eq_1' depends on axioms: [propext, Quot.sound]
+'SIMSLatentReadout.sign_reading_does_not_determine_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.uninformative_start_keeps_four_equal_weights' depends on axioms: [propext]
+'SIMSLatentReadout.update.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.update_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.update_sums_to_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.update_sums_to_one._simp_1_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.zero_total_returns_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SIMSLatentReadout.zero_weight_stays_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Tick41SavedReturns.Return.mk.inj' does not depend on any axioms
+'Tick41SavedReturns.Return.mk.injEq' depends on axioms: [propext]
+'Tick41SavedReturns.Return.mk.sizeOf_spec' does not depend on any axioms
+'Tick41SavedReturns.instDecidableEqReturn.decEq._proof_1' does not depend on any axioms
+FreshAxioms.lean:603:14: warning: `Tick41SavedReturns.instDecidableEqReturn.decEq._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Tick41SavedReturns.instDecidableEqReturn.decEq._proof_2' does not depend on any axioms
+FreshAxioms.lean:604:14: warning: `Tick41SavedReturns.instDecidableEqReturn.decEq._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Tick41SavedReturns.instDecidableEqReturn.decEq._proof_3' does not depend on any axioms
+FreshAxioms.lean:605:14: warning: `Tick41SavedReturns.instDecidableEqReturn.decEq._proof_3` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Tick41SavedReturns.instDecidableEqReturn.decEq._proof_4' does not depend on any axioms
+FreshAxioms.lean:606:14: warning: `Tick41SavedReturns.instDecidableEqReturn.decEq._proof_4` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Tick41SavedReturns.instDecidableEqReturn.decEq._proof_5' does not depend on any axioms
+FreshAxioms.lean:607:14: warning: `Tick41SavedReturns.instDecidableEqReturn.decEq._proof_5` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Tick41SavedReturns.xCloses.eq_1' does not depend on any axioms
+'Tick41SavedWrite.Side.after.sizeOf_spec' does not depend on any axioms
+'Tick41SavedWrite.Side.before.sizeOf_spec' does not depend on any axioms
+'Tick41SavedWrite.Side.ofNat_ctorIdx' does not depend on any axioms
+'Tick41SavedWrite.Snapshot.mk.inj' does not depend on any axioms
+'Tick41SavedWrite.Snapshot.mk.injEq' depends on axioms: [propext]
+'Tick41SavedWrite.Snapshot.mk.sizeOf_spec' does not depend on any axioms
+'Tick41SavedWrite.instDecidableEqSide._proof_1' does not depend on any axioms
+FreshAxioms.lean:615:14: warning: `Tick41SavedWrite.instDecidableEqSide._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Tick41SavedWrite.instDecidableEqSide._proof_2' does not depend on any axioms
+FreshAxioms.lean:616:14: warning: `Tick41SavedWrite.instDecidableEqSide._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'TwoMemory.memoryField._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:617:14: warning: `TwoMemory.memoryField._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'TwoMemory.recall_eq_tanh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemory.recall_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemory.unique_memory_trajectory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.along.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.along.eq_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.along.eq_def' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.closed_route' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.compose_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.cueCoefficient.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.curvature.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.endpoints_determine_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.flat_curvature' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.odds.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.odds_eq_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.odds_parallel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.partialDerivative.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.plusWeight._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:634:14: warning: `TwoMemoryTransport.plusWeight._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'TwoMemoryTransport.potential._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:635:14: warning: `TwoMemoryTransport.potential._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'TwoMemoryTransport.potential.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.readout_from_odds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.source_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.transport.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.unit_speed_fails_memory_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.update_odds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.update_odds._simp_1_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoMemoryTransport.yangMillsResidual.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Volterra.exists_unique_fixed_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Volterra.exists_unique_solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Volterra.extend.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Volterra.extend_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Volterra.extend_val' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Volterra.iterate_apply_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Volterra.iterate_apply_bound._simp_1_2' depends on axioms: [propext]
+'Volterra.iterate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Volterra.path_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Volterra.step._proof_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+FreshAxioms.lean:653:14: warning: `Volterra.step._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Volterra.step.congr_simp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Volterra.step_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMillsCueTest.agree_on_slice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMillsCueTest.endpoint_frames_cancel' depends on axioms: [propext]
+'YangMillsCueTest.endpoint_frames_cancel._simp_1_1' does not depend on any axioms
+'YangMillsCueTest.endpoint_frames_cancel._simp_1_2' does not depend on any axioms
+'YangMillsCueTest.endpoint_frames_cancel._simp_1_3' depends on axioms: [propext]
+'YangMillsCueTest.endpoint_frames_cancel._simp_1_4' does not depend on any axioms
+'YangMillsCueTest.endpoint_frames_cancel._simp_1_5' depends on axioms: [propext]
+'YangMillsCueTest.endpoint_frames_cancel._simp_1_6' depends on axioms: [propext]
+'YangMillsCueTest.endpoint_frames_cancel._simp_1_7' depends on axioms: [propext]
+'YangMillsCueTest.local_frames_conjugate_loop' depends on axioms: [propext]
+'YangMillsCueTest.local_frames_conjugate_loop._simp_1_1' does not depend on any axioms
+'YangMillsCueTest.local_frames_conjugate_loop._simp_1_2' does not depend on any axioms
+'YangMillsCueTest.local_frames_conjugate_loop._simp_1_3' depends on axioms: [propext]
+'YangMillsCueTest.local_frames_conjugate_loop._simp_1_4' does not depend on any axioms
+'YangMillsCueTest.local_frames_conjugate_loop._simp_1_5' depends on axioms: [propext]
+'YangMillsCueTest.local_frames_conjugate_loop._simp_1_6' depends on axioms: [propext]
+'YangMillsCueTest.local_frames_conjugate_loop._simp_1_7' depends on axioms: [propext]
+'YangMillsCueTest.same_data_different_field_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMillsCueTest.transversePotential._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:674:14: warning: `YangMillsCueTest.transversePotential._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'YangMillsCueTest.transversePotential.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMillsCueTest.transverse_curvature_column' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMillsCueTest.transverse_residual' depends on axioms: [propext, Classical.choice, Quot.sound]

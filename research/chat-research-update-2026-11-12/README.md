@@ -4,6 +4,10 @@ This collection adds completed AS/Hug proof work and saved audits located in rec
 
 **AI-generated; dictated and directed by NousVolition.** Individual source and model credits are retained. [Repository reuse terms](../../LICENSE).
 
+## Fresh verification after this collection
+
+On 13 November UTC (12 November Pacific), nine current check batches passed fresh local Lean, Comparator, Lean-kernel and nanoda checks with the published source equations unchanged. The [dated verification record](../../provenance/chat-package-recheck-2026-11-13/README.md) distinguishes original frozen challenges from published-source rechecks, preserves the two failing original drafts and the failed diagnostic attempt, and keeps the full-system claims open. This follow-up adds new execution evidence; the collection audit described below remains the historical file-identity audit.
+
 ## New material collected here
 
 | Work | What the retained evidence establishes | Important limit |

@@ -1,0 +1,761 @@
+Running as unit: run-p17100-i22772.service; invocation ID: 34d490e7c4764b43b97f021491d155a7
+Building PublishedReference
+⚠ [8763/8787] Built Volterra (21s)
+warning: Volterra.lean:18:0: automatically included section variable(s) unused in theorem `Volterra.extend_continuous`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Volterra.lean:21:8: automatically included section variable(s) unused in theorem `Volterra.extend_val`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+ℹ [8764/8787] Built TwoMemory (14s)
+info: TwoMemory.lean:55:0: 'TwoMemory.unique_memory_trajectory' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8765/8787] Built Tick41SavedReturns (28s)
+✔ [8766/8787] Built Tick41SavedWrite (33s)
+ℹ [8767/8787] Built TwoMemoryTransport (14s)
+info: TwoMemoryTransport.lean:117:0: 'TwoMemoryTransport.readout_from_odds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:118:0: 'TwoMemoryTransport.odds_eq_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:119:0: 'TwoMemoryTransport.update_odds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:120:0: 'TwoMemoryTransport.compose_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:121:0: 'TwoMemoryTransport.endpoints_determine_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:122:0: 'TwoMemoryTransport.closed_route' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:123:0: 'TwoMemoryTransport.odds_parallel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:124:0: 'TwoMemoryTransport.flat_curvature' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:125:0: 'TwoMemoryTransport.source_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:126:0: 'TwoMemoryTransport.unit_speed_fails_memory_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8768/8787] Built SIMSLatentReadout (40s)
+info: SIMSLatentReadout.lean:482:0: 'SIMSLatentReadout.no_exact_reader_of_ambiguous_observation' does not depend on any axioms
+info: SIMSLatentReadout.lean:483:0: 'SIMSLatentReadout.negative_marks_share_reading' depends on axioms: [propext, Quot.sound]
+info: SIMSLatentReadout.lean:484:0: 'SIMSLatentReadout.clay_changes_while_sign_stays' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:485:0: 'SIMSLatentReadout.clay_relative_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:486:0: 'SIMSLatentReadout.sign_reading_does_not_determine_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:487:0: 'SIMSLatentReadout.same_record_requires_original' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:488:0: 'SIMSLatentReadout.no_same_record_when_original_absent' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:489:0: 'SIMSLatentReadout.lossless_filing_preserves_readable_fields' does not depend on any axioms
+info: SIMSLatentReadout.lean:490:0: 'SIMSLatentReadout.lossless_storage_can_have_wrong_reader' does not depend on any axioms
+info: SIMSLatentReadout.lean:491:0: 'SIMSLatentReadout.update_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:492:0: 'SIMSLatentReadout.update_sums_to_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:493:0: 'SIMSLatentReadout.zero_weight_stays_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:494:0: 'SIMSLatentReadout.zero_total_returns_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:495:0: 'SIMSLatentReadout.further_evidence_does_not_reintroduce' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:496:0: 'SIMSLatentReadout.erased_record_fits_none_of_current_menu' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:497:0: 'SIMSLatentReadout.uninformative_start_keeps_four_equal_weights' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:498:0: 'SIMSLatentReadout.recorded_zero_has_opposite_histories' does not depend on any axioms
+info: SIMSLatentReadout.lean:499:0: 'SIMSLatentReadout.no_reader_of_the_first_display_is_always_right' does not depend on any axioms
+info: SIMSLatentReadout.lean:500:0: 'SIMSLatentReadout.all_ten_first_replies_survive_filing' does not depend on any axioms
+info: SIMSLatentReadout.lean:501:0: 'SIMSLatentReadout.all_ten_filings_remain_open_without_confirmation' does not depend on any axioms
+info: SIMSLatentReadout.lean:502:0: 'SIMSLatentReadout.saved_rubric_matches_recorded_histories' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:503:0: 'SIMSLatentReadout.both_readers_recover_earlier_answer_in_all_ten' does not depend on any axioms
+info: SIMSLatentReadout.lean:504:0: 'SIMSLatentReadout.full_history_existence_score' does not depend on any axioms
+info: SIMSLatentReadout.lean:505:0: 'SIMSLatentReadout.filed_record_existence_score' does not depend on any axioms
+info: SIMSLatentReadout.lean:506:0: 'SIMSLatentReadout.precisely_three_filed_reader_contradictions' does not depend on any axioms
+info: SIMSLatentReadout.lean:507:0: 'SIMSLatentReadout.both_clay_readers_recognize_the_change_and_identity' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:508:0: 'SIMSLatentReadout.historical_scores_are_seven_and_six' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:509:0: 'SIMSLatentReadout.exact_first_quote_counts_are_zero_and_ten' does not depend on any axioms
+info: SIMSLatentReadout.lean:510:0: 'SIMSLatentReadout.lossy_reader_has_no_history_and_answers_unknown' does not depend on any axioms
+info: SIMSLatentReadout.lean:511:0: 'SIMSLatentReadout.every_saved_weight_trace_matches_finite_filtering' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:512:0: 'SIMSLatentReadout.quarters_encoding_is_exact_for_these_traces' depends on axioms: [propext, Quot.sound]
+info: SIMSLatentReadout.lean:513:0: 'SIMSLatentReadout.forty_weight_states_checked' does not depend on any axioms
+ℹ [8769/8787] Built YangMillsCueTest (12s)
+info: YangMillsCueTest.lean:67:0: 'YangMillsCueTest.same_data_different_field_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: YangMillsCueTest.lean:68:0: 'YangMillsCueTest.endpoint_frames_cancel' depends on axioms: [propext]
+info: YangMillsCueTest.lean:69:0: 'YangMillsCueTest.local_frames_conjugate_loop' depends on axioms: [propext]
+⚠ [8770/8787] Built HistoryMatchCore (31s)
+warning: HistoryMatchCore.lean:75:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: HistoryMatchCore.lean:124:0: 'HistoryMatchCore.quarter_turn_kills_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:125:0: 'HistoryMatchCore.perturbation_keeps_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:126:0: 'HistoryMatchCore.strip_image_square_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:127:0: 'HistoryMatchCore.global_closest_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:128:0: 'HistoryMatchCore.drift_numerator_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:129:0: 'HistoryMatchCore.drift_numerator_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:130:0: 'HistoryMatchCore.drift_derivative_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:131:0: 'HistoryMatchCore.irrational_turn_law_prevents_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:132:0: 'HistoryMatchCore.observation_matches_on_whole_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:133:0: 'HistoryMatchCore.no_exact_reader_with_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8771/8787] Built AmbiguityInstances (32s)
+info: AmbiguityInstances.lean:172:0: 'AmbiguityInstances.Tick41Write.same_water_observation' does not depend on any axioms
+info: AmbiguityInstances.lean:173:0: 'AmbiguityInstances.Tick41Write.different_record_presence' does not depend on any axioms
+info: AmbiguityInstances.lean:174:0: 'AmbiguityInstances.Tick41Write.no_exact_water_reader' does not depend on any axioms
+info: AmbiguityInstances.lean:175:0: 'AmbiguityInstances.Tick41Write.exact_reader_with_record' does not depend on any axioms
+info: AmbiguityInstances.lean:176:0: 'AmbiguityInstances.YangMills.same_slice_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AmbiguityInstances.lean:177:0: 'AmbiguityInstances.YangMills.original_satisfies' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AmbiguityInstances.lean:178:0: 'AmbiguityInstances.YangMills.modified_does_not_satisfy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AmbiguityInstances.lean:179:0: 'AmbiguityInstances.YangMills.residuals_are_zero_and_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AmbiguityInstances.lean:180:0: 'AmbiguityInstances.YangMills.no_exact_slice_reader' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AmbiguityInstances.lean:181:0: 'AmbiguityInstances.YangMills.off_slice_curvature_distinguishes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AmbiguityInstances.lean:182:0: 'AmbiguityInstances.Tick41Geometry.all_scales_positive' does not depend on any axioms
+info: AmbiguityInstances.lean:183:0: 'AmbiguityInstances.Tick41Geometry.all_saved_x_returns_open' does not depend on any axioms
+info: AmbiguityInstances.lean:184:0: 'AmbiguityInstances.Tick41Geometry.saved_x_does_not_close' depends on axioms: [propext, Quot.sound]
+info: AmbiguityInstances.lean:185:0: 'AmbiguityInstances.Tick41Geometry.integer_return_would_close' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AmbiguityInstances.lean:186:0: 'AmbiguityInstances.Tick41Geometry.no_saved_integer_periodic_return' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AmbiguityInstances.lean:187:0: 'AmbiguityInstances.Tick41Geometry.no_opposite_saved_closure_properties' depends on axioms: [propext, Quot.sound]
+info: AmbiguityInstances.lean:188:0: 'AmbiguityInstances.Tick41Geometry.exact_reader_on_saved_returns' depends on axioms: [propext, Quot.sound]
+ℹ [8772/8787] Built ClosestPointGeometry (37s)
+info: ClosestPointGeometry.lean:142:0: 'ClosestPointExample.arc_unit_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:143:0: 'ClosestPointExample.arc_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:144:0: 'ClosestPointExample.zero_line_is_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:145:0: 'ClosestPointExample.sqrt_two_line_is_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:146:0: 'ClosestPointExample.all_images_all_line_points' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:147:0: 'ClosestPointExample.observation_is_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:148:0: 'ClosestPointExample.no_exact_closest_point_reader' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8773/8787] Built HistoryParameterSelection (31s)
+info: HistoryParameterSelection.lean:109:0: 'HistoryParameterSelection.exists_scaled_sqrt_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryParameterSelection.lean:110:0: 'HistoryParameterSelection.select_irrational_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryParameterSelection.lean:111:0: 'HistoryParameterSelection.positive_point_from_positive_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: HistoryParameterSelection.lean:112:0: 'HistoryParameterSelection.select_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryParameterSelection.lean:113:0: 'HistoryParameterSelection.selected_parameters_preserve_validity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [8774/8787] Built PeriodicNavierStokes (39s)
+warning: PeriodicNavierStokes.lean:96:20: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [divergence, space_partial, coefficient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PeriodicNavierStokes.lean:101:8: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [velocity, coefficient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PeriodicNavierStokes.lean:105:19: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [laplacian, space_partial_twice]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PeriodicNavierStokes.lean:123:65: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PeriodicNavierStokes.lean:124:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PeriodicNavierStokes.lean:124:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PeriodicNavierStokes.lean:124:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: PeriodicNavierStokes.lean:184:0: 'ClosestPointExample.incompressible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:185:0: 'ClosestPointExample.navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:186:0: 'ClosestPointExample.smooth_velocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:187:0: 'ClosestPointExample.spatially_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:188:0: 'ClosestPointExample.markers_stationary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:189:0: 'ClosestPointExample.curl_on_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:190:0: 'ClosestPointExample.vortex_line_ODE' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:191:0: 'ClosestPointExample.exact_same_equation_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8775/8787] Built HistoryPlanarBase (58s)
+warning: HistoryPlanarBase.lean:109:108: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: HistoryPlanarBase.lean:276:0: 'HistoryPlanarBase.profile_original_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:277:0: 'HistoryPlanarBase.fieldD_at_origin' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:278:0: 'HistoryPlanarBase.flow_curl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:279:0: 'HistoryPlanarBase.flow_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:280:0: 'HistoryPlanarBase.solves_unforced_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:281:0: 'HistoryPlanarBase.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:282:0: 'HistoryPlanarBase.smooth_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:283:0: 'HistoryPlanarBase.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:284:0: 'HistoryPlanarBase.periodic_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8776/8787] Built WindingField (37s)
+info: WindingField.lean:125:0: 'ClosestPointExample.Winding.field_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:126:0: 'ClosestPointExample.Winding.field_beltrami' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:127:0: 'ClosestPointExample.Winding.field_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:128:0: 'ClosestPointExample.Winding.field_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:129:0: 'ClosestPointExample.Winding.field_on_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:130:0: 'ClosestPointExample.Winding.field_at_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:131:0: 'ClosestPointExample.Winding.plane_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8777/8787] Built Tick41ClosestPointInstance (45s)
+info: Tick41ClosestPointInstance.lean:40:0: 'ClosestPointExample.Tick41.same_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Tick41ClosestPointInstance.lean:41:0: 'ClosestPointExample.Tick41.certified_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Tick41ClosestPointInstance.lean:42:0: 'ClosestPointExample.Tick41.actual_vortex_lines_at_tick41' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Tick41ClosestPointInstance.lean:43:0: 'ClosestPointExample.Tick41.opposite_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Tick41ClosestPointInstance.lean:44:0: 'ClosestPointExample.Tick41.no_exact_reader_of_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8778/8787] Built MatchingPaddleFluid (47s)
+warning: MatchingPaddleFluid.lean:120:8: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [flow_partial]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatchingPaddleFluid.lean:152:65: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:153:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:153:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:153:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:157:77: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:158:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:158:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: MatchingPaddleFluid.lean:205:0: 'ClosestPointExample.MatchingPaddle.solves_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:206:0: 'ClosestPointExample.MatchingPaddle.divergence_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:207:0: 'ClosestPointExample.MatchingPaddle.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:208:0: 'ClosestPointExample.MatchingPaddle.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:209:0: 'ClosestPointExample.MatchingPaddle.material_markers_stationary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleFluid.lean:210:0: 'ClosestPointExample.MatchingPaddle.curl_on_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:211:0: 'ClosestPointExample.MatchingPaddle.same_paddle_wheel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:212:0: 'ClosestPointExample.MatchingPaddle.same_paddle_as_previous' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8779/8787] Built HistoryScalarLift (34s)
+warning: HistoryScalarLift.lean:77:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+info: HistoryScalarLift.lean:169:0: 'HistoryScalarLift.lifted_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryScalarLift.lean:170:0: 'HistoryScalarLift.lifted_solves_unforced_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryScalarLift.lean:171:0: 'HistoryScalarLift.lifted_actual_curl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryScalarLift.lean:172:0: 'HistoryScalarLift.lifted_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryScalarLift.lean:173:0: 'HistoryScalarLift.lifted_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryScalarLift.lean:174:0: 'HistoryScalarLift.lifted_origin_stationary' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8780/8787] Built HistoryCompletionTarget (28s)
+info: HistoryCompletionTarget.lean:94:0: 'HistoryCompletionTarget.start_attains_closest_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryCompletionTarget.lean:95:0: 'HistoryCompletionTarget.path_at_tick' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryCompletionTarget.lean:96:0: 'HistoryCompletionTarget.full_pair_rules_out_exact_reader' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8781/8787] Built MatchingPaddleLines (38s)
+warning: MatchingPaddleLines.lean:27:84: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MatchingPaddleLines.lean:27:84: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: MatchingPaddleLines.lean:139:0: 'ClosestPointExample.MatchingPaddle.curves_start_at_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleLines.lean:140:0: 'ClosestPointExample.MatchingPaddle.actual_curl_integral_curve' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleLines.lean:141:0: 'ClosestPointExample.MatchingPaddle.open_forward_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleLines.lean:142:0: 'ClosestPointExample.MatchingPaddle.closed_witness_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleLines.lean:143:0: 'ClosestPointExample.MatchingPaddle.open_witness_never_returns' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleLines.lean:144:0: 'ClosestPointExample.MatchingPaddle.nonzero_on_full_curves' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleLines.lean:145:0: 'ClosestPointExample.MatchingPaddle.common_normalized_vortex_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleLines.lean:146:0: 'ClosestPointExample.MatchingPaddle.unchanged_closest_reading' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [8782/8787] Built WindingCurve (54s)
+warning: WindingCurve.lean:79:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingCurve.lean:80:88: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingCurve.lean:80:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WindingCurve.lean:79:19: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: WindingCurve.lean:80:88: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: WindingCurve.lean:126:48: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WindingCurve.lean:126:62: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WindingCurve.lean:126:74: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: WindingCurve.lean:221:0: 'ClosestPointExample.Winding.lift_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:222:0: 'ClosestPointExample.Winding.gain_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:223:0: 'ClosestPointExample.Winding.lift_at_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:224:0: 'ClosestPointExample.Winding.lift_linear_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:225:0: 'ClosestPointExample.Winding.curve_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:226:0: 'ClosestPointExample.Winding.curve_scale_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:227:0: 'ClosestPointExample.Winding.closed_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:228:0: 'ClosestPointExample.Winding.open_never_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:229:0: 'ClosestPointExample.Winding.global_closest_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8783/8787] Built WindingFluid (57s)
+info: WindingFluid.lean:167:0: 'ClosestPointExample.Winding.solves_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:168:0: 'ClosestPointExample.Winding.flow_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:169:0: 'ClosestPointExample.Winding.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:170:0: 'ClosestPointExample.Winding.smooth_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:171:0: 'ClosestPointExample.Winding.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:172:0: 'ClosestPointExample.Winding.periodic_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:173:0: 'ClosestPointExample.Winding.paddle_at_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:174:0: 'ClosestPointExample.Winding.positive_swirl_on_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8784/8787] Built MatchingPaddleInstance (27s)
+info: MatchingPaddleInstance.lean:58:0: 'ClosestPointExample.MatchingPaddle.both_flows_allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleInstance.lean:59:0: 'ClosestPointExample.MatchingPaddle.same_enlarged_observation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleInstance.lean:60:0: 'ClosestPointExample.MatchingPaddle.opposite_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleInstance.lean:61:0: 'ClosestPointExample.MatchingPaddle.no_exact_reader_even_with_paddle_wheel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleInstance.lean:62:0: 'ClosestPointExample.MatchingPaddle.every_function_of_paddle_matches' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleInstance.lean:63:0: 'ClosestPointExample.MatchingPaddle.zero_swirl_at_open_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleInstance.lean:64:0: 'ClosestPointExample.MatchingPaddle.zero_is_beyond_saved_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [8785/8787] Built WindingInstance (32s)
+warning: WindingInstance.lean:19:61: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingInstance.lean:20:61: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingInstance.lean:19:61: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: WindingInstance.lean:20:61: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: WindingInstance.lean:63:72: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingInstance.lean:63:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WindingInstance.lean:63:72: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: WindingInstance.lean:72:72: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingInstance.lean:72:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WindingInstance.lean:72:72: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: WindingInstance.lean:131:0: 'ClosestPointExample.Winding.lift_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:132:0: 'ClosestPointExample.Winding.global_clock_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:133:0: 'ClosestPointExample.Winding.complete_vortex_curve_at_tick' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:134:0: 'ClosestPointExample.Winding.curves_persist_at_every_finite_time' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: WindingInstance.lean:135:0: 'ClosestPointExample.Winding.swirl_never_approaches_zero_on_the_line' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: WindingInstance.lean:136:0: 'ClosestPointExample.Winding.exact_closest_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:137:0: 'ClosestPointExample.Winding.both_solve_same_fluid_equations' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:138:0: 'ClosestPointExample.Winding.same_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:139:0: 'ClosestPointExample.Winding.opposite_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:140:0: 'ClosestPointExample.Winding.no_exact_reader_with_closest_point_and_paddle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+✔ [8786/8787] Built PublishedReference (14s)
+Build completed successfully (8787 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, AmbiguityInstances.Tick41Geometry.all_saved_x_returns_open, AmbiguityInstances.Tick41Geometry.all_saved_x_returns_open._proof_1_1, AmbiguityInstances.Tick41Geometry.all_scales_positive, AmbiguityInstances.Tick41Geometry.all_scales_positive._proof_1_1, AmbiguityInstances.Tick41Geometry.exact_reader_on_saved_returns, AmbiguityInstances.Tick41Geometry.integer_return_would_close, AmbiguityInstances.Tick41Geometry.no_opposite_saved_closure_properties, AmbiguityInstances.Tick41Geometry.no_saved_integer_periodic_return, AmbiguityInstances.Tick41Geometry.saved_x_does_not_close, AmbiguityInstances.Tick41Write.different_record_presence, AmbiguityInstances.Tick41Write.exact_reader_with_record, AmbiguityInstances.Tick41Write.no_exact_water_reader, AmbiguityInstances.Tick41Write.same_water_observation, AmbiguityInstances.YangMills.Slice._proof_1, AmbiguityInstances.YangMills.modified._proof_1, AmbiguityInstances.YangMills.modified.eq_1, AmbiguityInstances.YangMills.modified_does_not_satisfy, AmbiguityInstances.YangMills.no_exact_slice_reader, AmbiguityInstances.YangMills.offSlice.eq_1, AmbiguityInstances.YangMills.off_slice_curvature_distinguishes, AmbiguityInstances.YangMills.original._proof_1, AmbiguityInstances.YangMills.original.eq_1, AmbiguityInstances.YangMills.original_satisfies, AmbiguityInstances.YangMills.residuals_are_zero_and_two, AmbiguityInstances.YangMills.same_slice_observation, AmbiguityInstances.YangMills.sourceFreeAtCue.eq_1, ClosestPointExample.A_attains_bound, ClosestPointExample.MatchingPaddle.actual_curl_integral_curve, ClosestPointExample.MatchingPaddle.advection_zero, ClosestPointExample.MatchingPaddle.both_flows_allowed, ClosestPointExample.MatchingPaddle.c0.eq_1, ClosestPointExample.MatchingPaddle.c1.eq_1, ClosestPointExample.MatchingPaddle.closedState.eq_1, ClosestPointExample.MatchingPaddle.closed_witness_returns, ClosestPointExample.MatchingPaddle.common_normalized_vortex_trace, ClosestPointExample.MatchingPaddle.cos_transverse_periodic, ClosestPointExample.MatchingPaddle.cotCoordinate._proof_1, ClosestPointExample.MatchingPaddle.cotCoordinate._proof_2, ClosestPointExample.MatchingPaddle.cotCoordinate.eq_1, ClosestPointExample.MatchingPaddle.curl_on_axis, ClosestPointExample.MatchingPaddle.curves_start_at_A, ClosestPointExample.MatchingPaddle.divergence_zero, ClosestPointExample.MatchingPaddle.every_function_of_paddle_matches, ClosestPointExample.MatchingPaddle.flow._proof_1, ClosestPointExample.MatchingPaddle.flow.eq_1, ClosestPointExample.MatchingPaddle.flow_partial, ClosestPointExample.MatchingPaddle.flow_second, ClosestPointExample.MatchingPaddle.gain.eq_1, ClosestPointExample.MatchingPaddle.gain_along_open_curve, ClosestPointExample.MatchingPaddle.gain_positive_on_saved_trace, ClosestPointExample.MatchingPaddle.material_markers_stationary, ClosestPointExample.MatchingPaddle.mode.eq_1, ClosestPointExample.MatchingPaddle.modeX.eq_1, ClosestPointExample.MatchingPaddle.modeY.eq_1, ClosestPointExample.MatchingPaddle.mode_decay_at_tick, ClosestPointExample.MatchingPaddle.mode_t, ClosestPointExample.MatchingPaddle.mode_x, ClosestPointExample.MatchingPaddle.mode_xx, ClosestPointExample.MatchingPaddle.mode_y, ClosestPointExample.MatchingPaddle.mode_yy, ClosestPointExample.MatchingPaddle.no_exact_reader_even_with_paddle_wheel, ClosestPointExample.MatchingPaddle.nonzero_on_full_curves, ClosestPointExample.MatchingPaddle.nonzero_on_full_curves._simp_1_2, ClosestPointExample.MatchingPaddle.observation.eq_1, ClosestPointExample.MatchingPaddle.openState.eq_1, ClosestPointExample.MatchingPaddle.openY.eq_1, ClosestPointExample.MatchingPaddle.openY_has_derivative, ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_1, ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_2, ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_3, ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_4, ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_5, ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_6, ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_7, ClosestPointExample.MatchingPaddle.openY_zero, ClosestPointExample.MatchingPaddle.open_forward_bounds, ClosestPointExample.MatchingPaddle.open_witness_never_returns, ClosestPointExample.MatchingPaddle.open_witness_never_returns._proof_1_2, ClosestPointExample.MatchingPaddle.opposite_closure, ClosestPointExample.MatchingPaddle.opposite_closure._simp_1_4, ClosestPointExample.MatchingPaddle.opposite_closure._simp_1_5, ClosestPointExample.MatchingPaddle.partial_plane, ClosestPointExample.MatchingPaddle.periodic_flow, ClosestPointExample.MatchingPaddle.phase._proof_1, ClosestPointExample.MatchingPaddle.phase.eq_1, ClosestPointExample.MatchingPaddle.prior_trace_is_same, ClosestPointExample.MatchingPaddle.profile.eq_1, ClosestPointExample.MatchingPaddle.profileX.eq_1, ClosestPointExample.MatchingPaddle.profileY.eq_1, ClosestPointExample.MatchingPaddle.profile_heat, ClosestPointExample.MatchingPaddle.profile_x, ClosestPointExample.MatchingPaddle.profile_xx, ClosestPointExample.MatchingPaddle.profile_y, ClosestPointExample.MatchingPaddle.profile_yy, ClosestPointExample.MatchingPaddle.property.eq_1, ClosestPointExample.MatchingPaddle.same_enlarged_observation, ClosestPointExample.MatchingPaddle.same_paddle_as_previous, ClosestPointExample.MatchingPaddle.same_paddle_wheel, ClosestPointExample.MatchingPaddle.sin_wave_periodic, ClosestPointExample.MatchingPaddle.smooth_flow, ClosestPointExample.MatchingPaddle.solves_navier_stokes, ClosestPointExample.MatchingPaddle.swirlScale.eq_1, ClosestPointExample.MatchingPaddle.swirlScale_positive, ClosestPointExample.MatchingPaddle.trace_tangent_is_unit, ClosestPointExample.MatchingPaddle.transverseWave._proof_1, ClosestPointExample.MatchingPaddle.unchanged_closest_reading, ClosestPointExample.MatchingPaddle.vortexCurve.eq_1, ClosestPointExample.MatchingPaddle.vorticity.eq_1, ClosestPointExample.MatchingPaddle.zero_is_beyond_saved_trace, ClosestPointExample.MatchingPaddle.zero_swirl_at_open_limit, ClosestPointExample.Reading.mk.inj, ClosestPointExample.Reading.mk.injEq, ClosestPointExample.Reading.mk.sizeOf_spec, ClosestPointExample.Tick41.actual_vortex_lines_at_tick41, ClosestPointExample.Tick41.certified_reading, ClosestPointExample.Tick41.closedState._proof_1, ClosestPointExample.Tick41.no_exact_reader_of_closure, ClosestPointExample.Tick41.openState._proof_1, ClosestPointExample.Tick41.openState._proof_2, ClosestPointExample.Tick41.opposite_properties, ClosestPointExample.Tick41.same_observation, ClosestPointExample.Winding.GlobalClosestAtStart._proof_1, ClosestPointExample.Winding.S.eq_1, ClosestPointExample.Winding.all_curves_stay_in_plane, ClosestPointExample.Winding.amplitude.eq_1, ClosestPointExample.Winding.amplitude_positive, ClosestPointExample.Winding.angle.eq_1, ClosestPointExample.Winding.arctan_ratio_derivative, ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_1, ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_2, ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_3, ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_4, ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_5, ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_6, ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_7, ClosestPointExample.Winding.beltrami_advection_identity, ClosestPointExample.Winding.beta._proof_1, ClosestPointExample.Winding.beta.eq_1, ClosestPointExample.Winding.both_solve_same_fluid_equations, ClosestPointExample.Winding.clock.eq_1, ClosestPointExample.Winding.clock_derivative, ClosestPointExample.Winding.clock_starts_at_zero, ClosestPointExample.Winding.clock_strictly_increases, ClosestPointExample.Winding.clock_surjective, ClosestPointExample.Winding.closedState.eq_1, ClosestPointExample.Winding.closed_returns, ClosestPointExample.Winding.complete_vortex_curve_at_tick, ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_1, ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_2, ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_3, ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_4, ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_5, ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_6, ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_7, ClosestPointExample.Winding.cons_three_last, ClosestPointExample.Winding.cosineVector.eq_1, ClosestPointExample.Winding.cosine_denominator_positive, ClosestPointExample.Winding.curlOf.eq_1, ClosestPointExample.Winding.curl_at_tick, ClosestPointExample.Winding.curl_at_tick._simp_1_3, ClosestPointExample.Winding.curl_at_tick._simp_1_4, ClosestPointExample.Winding.curl_at_tick._simp_1_5, ClosestPointExample.Winding.curl_at_tick._simp_1_6, ClosestPointExample.Winding.curl_at_tick._simp_1_7, ClosestPointExample.Winding.curl_at_tick._simp_1_8, ClosestPointExample.Winding.curl_at_tick._simp_1_9, ClosestPointExample.Winding.curve.eq_1, ClosestPointExample.Winding.curve_scale_positive, ClosestPointExample.Winding.curve_starts_at_A, ClosestPointExample.Winding.curve_tangent, ClosestPointExample.Winding.curves_persist_at_every_finite_time, ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_1, ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_2, ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_3, ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_4, ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_5, ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_6, ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_7, ClosestPointExample.Winding.denominator_positive, ClosestPointExample.Winding.eigenvalue._proof_1, ClosestPointExample.Winding.eigenvalue.eq_1, ClosestPointExample.Winding.eigenvalue_positive, ClosestPointExample.Winding.exact_closest_reading, ClosestPointExample.Winding.field.eq_1, ClosestPointExample.Winding.fieldD.eq_1, ClosestPointExample.Winding.fieldDD.eq_1, ClosestPointExample.Winding.field_at_A, ClosestPointExample.Winding.field_beltrami, ClosestPointExample.Winding.field_divergence, ClosestPointExample.Winding.field_has_derivative, ClosestPointExample.Winding.field_has_second, ClosestPointExample.Winding.field_laplacian, ClosestPointExample.Winding.field_on_plane, ClosestPointExample.Winding.field_partial, ClosestPointExample.Winding.field_periodic, ClosestPointExample.Winding.field_second, ClosestPointExample.Winding.field_smooth, ClosestPointExample.Winding.flow.eq_1, ClosestPointExample.Winding.flowD.eq_1, ClosestPointExample.Winding.flowDD.eq_1, ClosestPointExample.Winding.flow_curl, ClosestPointExample.Winding.flow_divergence, ClosestPointExample.Winding.flow_has_derivative, ClosestPointExample.Winding.flow_has_second, ClosestPointExample.Winding.flow_laplacian, ClosestPointExample.Winding.flow_partial, ClosestPointExample.Winding.flow_second, ClosestPointExample.Winding.flow_time, ClosestPointExample.Winding.frequency._proof_1, ClosestPointExample.Winding.frequency.eq_1, ClosestPointExample.Winding.frequency_positive, ClosestPointExample.Winding.gain._proof_1, ClosestPointExample.Winding.gain._proof_2, ClosestPointExample.Winding.gain_bounds, ClosestPointExample.Winding.global_clock_bijective, ClosestPointExample.Winding.global_closest_bound, ClosestPointExample.Winding.lift.eq_1, ClosestPointExample.Winding.lift_at_integer, ClosestPointExample.Winding.lift_at_zero, ClosestPointExample.Winding.lift_derivative, ClosestPointExample.Winding.lift_derivative._simp_1_1, ClosestPointExample.Winding.lift_derivative._simp_1_2, ClosestPointExample.Winding.lift_derivative._simp_1_3, ClosestPointExample.Winding.lift_derivative._simp_1_4, ClosestPointExample.Winding.lift_derivative._simp_1_5, ClosestPointExample.Winding.lift_derivative._simp_1_6, ClosestPointExample.Winding.lift_derivative._simp_1_7, ClosestPointExample.Winding.lift_factor, ClosestPointExample.Winding.lift_linear_error, ClosestPointExample.Winding.lift_surjective, ClosestPointExample.Winding.lift_surjective._simp_1_1, ClosestPointExample.Winding.lift_surjective._simp_1_2, ClosestPointExample.Winding.lift_surjective._simp_1_3, ClosestPointExample.Winding.lift_surjective._simp_1_4, ClosestPointExample.Winding.lift_surjective._simp_1_5, ClosestPointExample.Winding.lift_surjective._simp_1_6, ClosestPointExample.Winding.lift_surjective._simp_1_7, ClosestPointExample.Winding.mu._proof_1, ClosestPointExample.Winding.mu_gt_one, ClosestPointExample.Winding.mu_squared, ClosestPointExample.Winding.no_exact_reader_with_closest_point_and_paddle, ClosestPointExample.Winding.numerator.eq_1, ClosestPointExample.Winding.observation.eq_1, ClosestPointExample.Winding.openCurve.eq_1, ClosestPointExample.Winding.openState.eq_1, ClosestPointExample.Winding.open_curve_difference, ClosestPointExample.Winding.open_curve_sum, ClosestPointExample.Winding.open_curve_tangent, ClosestPointExample.Winding.open_never_returns, ClosestPointExample.Winding.opposite_closure, ClosestPointExample.Winding.opposite_closure._simp_1_4, ClosestPointExample.Winding.opposite_closure._simp_1_5, ClosestPointExample.Winding.paddle_at_A, ClosestPointExample.Winding.periodic_flow, ClosestPointExample.Winding.periodic_pressure, ClosestPointExample.Winding.phase._proof_1, ClosestPointExample.Winding.phase.eq_1, ClosestPointExample.Winding.phaseD.eq_1, ClosestPointExample.Winding.phase_derivative, ClosestPointExample.Winding.phase_shift, ClosestPointExample.Winding.plane_nonzero, ClosestPointExample.Winding.plane_phase, ClosestPointExample.Winding.positive_swirl_on_plane, ClosestPointExample.Winding.pressure._proof_1, ClosestPointExample.Winding.pressure._proof_2, ClosestPointExample.Winding.pressure.eq_1, ClosestPointExample.Winding.pressure_partial, ClosestPointExample.Winding.property.eq_1, ClosestPointExample.Winding.ratio.eq_1, ClosestPointExample.Winding.ratio_derivative, ClosestPointExample.Winding.rho_bounds, ClosestPointExample.Winding.same_observation, ClosestPointExample.Winding.sineVector.eq_1, ClosestPointExample.Winding.smooth_flow, ClosestPointExample.Winding.smooth_pressure, ClosestPointExample.Winding.solves_navier_stokes, ClosestPointExample.Winding.squareDenominator_positive, ClosestPointExample.Winding.squareDenominator_short, ClosestPointExample.Winding.swirl_never_approaches_zero_on_the_line, ClosestPointExample.Winding.tangentScale.eq_1, ClosestPointExample.Winding.targetSwirl_positive, ClosestPointExample.Winding.term.eq_1, ClosestPointExample.Winding.termD.eq_1, ClosestPointExample.Winding.term_derivative, ClosestPointExample.Winding.term_periodic, ClosestPointExample.Winding.term_second, ClosestPointExample.Winding.triple_last, ClosestPointExample.Winding.vorticity.eq_1, ClosestPointExample.Winding.waveVector.eq_1, ClosestPointExample.advection_zero, ClosestPointExample.all_images_all_line_points, ClosestPointExample.arc.eq_1, ClosestPointExample.arc_derivative, ClosestPointExample.arc_starts_at_A, ClosestPointExample.arc_unit_tangent, ClosestPointExample.closedProperty.eq_1, ClosestPointExample.coefficient.eq_1, ClosestPointExample.coordinateDerivative.eq_1, ClosestPointExample.curl.eq_1, ClosestPointExample.curl_on_line, ClosestPointExample.decay_positive, ClosestPointExample.direction.eq_1, ClosestPointExample.divergence.eq_1, ClosestPointExample.every_family_member_admissible, ClosestPointExample.exact_same_equation_witnesses, ClosestPointExample.force.eq_1, ClosestPointExample.imageDistanceSq._proof_1, ClosestPointExample.incompressible, ClosestPointExample.laplacian.eq_1, ClosestPointExample.laplacian_eq, ClosestPointExample.line.eq_1, ClosestPointExample.line_has_derivative, ClosestPointExample.markerA.eq_1, ClosestPointExample.markerB._proof_1, ClosestPointExample.markerB.eq_1, ClosestPointExample.markers_stationary, ClosestPointExample.navier_stokes, ClosestPointExample.no_exact_closest_point_reader, ClosestPointExample.observation_is_valid, ClosestPointExample.observe.eq_1, ClosestPointExample.opposite_closure_values, ClosestPointExample.opposite_closure_values._simp_1_2, ClosestPointExample.opposite_closure_values._simp_1_3, ClosestPointExample.partial_vertical, ClosestPointExample.pressure.eq_1, ClosestPointExample.same_closest_point_reading, ClosestPointExample.shapeZ.eq_1, ClosestPointExample.shapeZ_has_z_derivative, ClosestPointExample.shape_has_time_derivative, ClosestPointExample.shape_has_z_derivative, ClosestPointExample.shape_periodic, ClosestPointExample.smooth_velocity, ClosestPointExample.space_partial, ClosestPointExample.space_partial_twice, ClosestPointExample.spatially_periodic, ClosestPointExample.speed.eq_1, ClosestPointExample.speed_positive, ClosestPointExample.speed_squared, ClosestPointExample.sqrt_two_line_is_open, ClosestPointExample.tick41._proof_1, ClosestPointExample.tick41._proof_2, ClosestPointExample.time_derivative, ClosestPointExample.traceLength._proof_1, ClosestPointExample.traceLength.eq_1, ClosestPointExample.velocity._proof_1, ClosestPointExample.velocity.eq_1, ClosestPointExample.vertical_image_bound, ClosestPointExample.vertical_image_bound._proof_1_1, ClosestPointExample.vertical_image_bound._proof_1_2, ClosestPointExample.viscosity._proof_1, ClosestPointExample.viscosity._proof_2, ClosestPointExample.viscosity.eq_1, ClosestPointExample.viscosity_positive, ClosestPointExample.vortex_line_ODE, ClosestPointExample.vortex_parameter_scale_positive, ClosestPointExample.wave._proof_1, ClosestPointExample.wave_positive, ClosestPointExample.zero_line_is_closed, HistoryCompletionTarget.FluidState.allowed, HistoryCompletionTarget.FluidState.closest_bound, HistoryCompletionTarget.FluidState.line_equation, HistoryCompletionTarget.FluidState.line_starts, HistoryCompletionTarget.FluidState.line_swirl_floor, HistoryCompletionTarget.FluidState.materialA, HistoryCompletionTarget.FluidState.mk.inj, HistoryCompletionTarget.FluidState.mk.injEq, HistoryCompletionTarget.FluidState.mk.sizeOf_spec, HistoryCompletionTarget.FluidState.paddle_at_tick, HistoryCompletionTarget.FluidState.positive_paddle_history, HistoryCompletionTarget.distanceToImageSq.eq_1, HistoryCompletionTarget.full_pair_rules_out_exact_reader, HistoryCompletionTarget.markerA.eq_1, HistoryCompletionTarget.markerB._proof_1, HistoryCompletionTarget.markerB.eq_1, HistoryCompletionTarget.observation.eq_1, HistoryCompletionTarget.pathA._proof_1, HistoryCompletionTarget.pathA.eq_1, HistoryCompletionTarget.path_at_tick, HistoryCompletionTarget.property.eq_1, HistoryCompletionTarget.start_attains_closest_reading, HistoryCompletionTarget.tag._proof_1, HistoryCompletionTarget.tag._proof_2, HistoryCompletionTarget.tick41._proof_1, HistoryCompletionTarget.tick41._proof_2, HistoryMatchCore.drift_derivative_formula, HistoryMatchCore.drift_derivative_formula._simp_1_1, HistoryMatchCore.drift_derivative_formula._simp_1_2, HistoryMatchCore.drift_derivative_formula._simp_1_3, HistoryMatchCore.drift_derivative_formula._simp_1_4, HistoryMatchCore.drift_derivative_formula._simp_1_5, HistoryMatchCore.drift_derivative_formula._simp_1_6, HistoryMatchCore.drift_derivative_formula._simp_1_7, HistoryMatchCore.drift_numerator_identity, HistoryMatchCore.drift_numerator_positive, HistoryMatchCore.fullObservation.eq_1, HistoryMatchCore.global_closest_bound, HistoryMatchCore.irrational_turn_law_prevents_return, HistoryMatchCore.no_exact_reader_with_history, HistoryMatchCore.observation_matches_on_whole_interval, HistoryMatchCore.perturbation_keeps_first_jet, HistoryMatchCore.quarter_turn_kills_first_jet, HistoryMatchCore.strip_image_square_bound, HistoryMatchCore.strip_image_square_bound._proof_1_1, HistoryParameterSelection.exists_scaled_sqrt_two, HistoryParameterSelection.positive_point_from_positive_derivative, HistoryParameterSelection.select_irrational_value, HistoryParameterSelection.select_parameters, HistoryParameterSelection.selected_parameters_preserve_validity, HistoryPlanarBase.addFour._proof_1, HistoryPlanarBase.addFour.eq_1, HistoryPlanarBase.advection_identity, HistoryPlanarBase.cons_four_last, HistoryPlanarBase.cons_four_second, HistoryPlanarBase.cons_three_last, HistoryPlanarBase.coordinateDerivative.eq_1, HistoryPlanarBase.curlOf.eq_1, HistoryPlanarBase.direction.eq_1, HistoryPlanarBase.eigenvalue._proof_1, HistoryPlanarBase.eigenvalue.eq_1, HistoryPlanarBase.field.eq_1, HistoryPlanarBase.fieldD.eq_1, HistoryPlanarBase.fieldDD.eq_1, HistoryPlanarBase.fieldD_at_origin, HistoryPlanarBase.field_curl, HistoryPlanarBase.field_divergence, HistoryPlanarBase.field_has_derivative, HistoryPlanarBase.field_has_second, HistoryPlanarBase.field_laplacian, HistoryPlanarBase.flow.eq_1, HistoryPlanarBase.flowD.eq_1, HistoryPlanarBase.flowDD.eq_1, HistoryPlanarBase.flow_curl, HistoryPlanarBase.flow_divergence, HistoryPlanarBase.flow_laplacian, HistoryPlanarBase.flow_partial, HistoryPlanarBase.flow_second, HistoryPlanarBase.flow_time, HistoryPlanarBase.four_last, HistoryPlanarBase.four_second, HistoryPlanarBase.frequency._proof_1, HistoryPlanarBase.frequency.eq_1, HistoryPlanarBase.periodic_flow, HistoryPlanarBase.periodic_pressure, HistoryPlanarBase.periodic_scalar, HistoryPlanarBase.periodic_term, HistoryPlanarBase.phase._proof_1, HistoryPlanarBase.phase.eq_1, HistoryPlanarBase.phaseD.eq_1, HistoryPlanarBase.phase_derivative, HistoryPlanarBase.phase_shift, HistoryPlanarBase.pressure.eq_1, HistoryPlanarBase.pressure_partial, HistoryPlanarBase.profile.eq_1, HistoryPlanarBase.profileD.eq_1, HistoryPlanarBase.profileD_field, HistoryPlanarBase.profile_and_field_at_origin, HistoryPlanarBase.profile_has_derivative, HistoryPlanarBase.profile_original_formula, HistoryPlanarBase.scalarTerm.eq_1, HistoryPlanarBase.scalarTermD.eq_1, HistoryPlanarBase.scalarTerm_derivative, HistoryPlanarBase.smooth_flow, HistoryPlanarBase.smooth_pressure, HistoryPlanarBase.solves_unforced_navier_stokes, HistoryPlanarBase.stream.eq_1, HistoryPlanarBase.streamD.eq_1, HistoryPlanarBase.streamD_flow, HistoryPlanarBase.stream_partial, HistoryPlanarBase.term.eq_1, HistoryPlanarBase.termD.eq_1, HistoryPlanarBase.term_derivative, HistoryPlanarBase.term_second, HistoryPlanarBase.triple_last, HistoryPlanarBase.viscosity._proof_1, HistoryPlanarBase.viscosity._proof_2, HistoryPlanarBase.waveVector.eq_1, HistoryPlanarBase.weight._proof_1, HistoryPlanarBase.weight.eq_1, HistoryScalarLift.ScalarEvolution.equation, HistoryScalarLift.ScalarEvolution.initial_value, HistoryScalarLift.ScalarEvolution.mk.inj, HistoryScalarLift.ScalarEvolution.mk.injEq, HistoryScalarLift.ScalarEvolution.mk.sizeOf_spec, HistoryScalarLift.ScalarEvolution.periodic, HistoryScalarLift.ScalarEvolution.second_derivative, HistoryScalarLift.ScalarEvolution.smooth, HistoryScalarLift.ScalarEvolution.space_derivative, HistoryScalarLift.ScalarEvolution.time_derivative, HistoryScalarLift.ScalarEvolution.zero_z_derivative, HistoryScalarLift.base_pressure_z, HistoryScalarLift.base_vertical, HistoryScalarLift.base_vertical_derivative, HistoryScalarLift.base_z_derivative, HistoryScalarLift.initialG._proof_1, HistoryScalarLift.liftedD.eq_1, HistoryScalarLift.liftedDD.eq_1, HistoryScalarLift.liftedFlow._proof_1, HistoryScalarLift.liftedFlow.eq_1, HistoryScalarLift.liftedTimeD.eq_1, HistoryScalarLift.lifted_actual_curl, HistoryScalarLift.lifted_divergence, HistoryScalarLift.lifted_origin_stationary, HistoryScalarLift.lifted_partial, HistoryScalarLift.lifted_periodic, HistoryScalarLift.lifted_second, HistoryScalarLift.lifted_smooth, HistoryScalarLift.lifted_solves_unforced_navier_stokes, HistoryScalarLift.lifted_time, HistoryScalarLift.tick41._proof_1, HistoryScalarLift.tick41._proof_2, SIMSLatentReadout.Answer.no.sizeOf_spec, SIMSLatentReadout.Answer.ofNat_ctorIdx, SIMSLatentReadout.Answer.unavailable.sizeOf_spec, SIMSLatentReadout.Answer.unknown.sizeOf_spec, SIMSLatentReadout.Answer.yes.sizeOf_spec, SIMSLatentReadout.Hypothesis.absent.sizeOf_spec, SIMSLatentReadout.Hypothesis.changedRetained.sizeOf_spec, SIMSLatentReadout.Hypothesis.held.sizeOf_spec, SIMSLatentReadout.Hypothesis.ofNat_ctorIdx, SIMSLatentReadout.Hypothesis.writtenLater.sizeOf_spec, SIMSLatentReadout.Probe.afterPresent.sizeOf_spec, SIMSLatentReadout.Probe.componentChanged.sizeOf_spec, SIMSLatentReadout.Probe.initialPresent.sizeOf_spec, SIMSLatentReadout.Probe.ofNat_ctorIdx, SIMSLatentReadout.Reply.mk.inj, SIMSLatentReadout.Reply.mk.injEq, SIMSLatentReadout.Reply.mk.sizeOf_spec, SIMSLatentReadout.SavedCase.mk.inj, SIMSLatentReadout.SavedCase.mk.injEq, SIMSLatentReadout.SavedCase.mk.sizeOf_spec, SIMSLatentReadout.all_ten_filings_remain_open_without_confirmation, SIMSLatentReadout.all_ten_first_replies_survive_filing, SIMSLatentReadout.both_clay_readers_recognize_the_change_and_identity, SIMSLatentReadout.both_readers_recover_earlier_answer_in_all_ten, SIMSLatentReadout.clay_changes_while_sign_stays, SIMSLatentReadout.clay_relative_change, SIMSLatentReadout.erased_record_fits_none_of_current_menu, SIMSLatentReadout.every_saved_weight_trace_matches_finite_filtering, SIMSLatentReadout.exact_first_quote_counts_are_zero_and_ten, SIMSLatentReadout.filed_record_existence_score, SIMSLatentReadout.forty_weight_states_checked, SIMSLatentReadout.full_history_existence_score, SIMSLatentReadout.further_evidence_does_not_reintroduce, SIMSLatentReadout.historical_scores_are_seven_and_six, SIMSLatentReadout.instDecidableEqAnswer._proof_1, SIMSLatentReadout.instDecidableEqAnswer._proof_2, SIMSLatentReadout.instDecidableEqHypothesis._proof_1, SIMSLatentReadout.instDecidableEqHypothesis._proof_2, SIMSLatentReadout.instDecidableEqProbe._proof_1, SIMSLatentReadout.instDecidableEqProbe._proof_2, SIMSLatentReadout.lossless_filing_preserves_readable_fields, SIMSLatentReadout.lossless_storage_can_have_wrong_reader, SIMSLatentReadout.lossy_reader_has_no_history_and_answers_unknown, SIMSLatentReadout.negative_marks_share_reading, SIMSLatentReadout.no_exact_reader_of_ambiguous_observation, SIMSLatentReadout.no_reader_of_the_first_display_is_always_right, SIMSLatentReadout.no_same_record_when_original_absent, SIMSLatentReadout.precisely_three_filed_reader_contradictions, SIMSLatentReadout.present.eq_1, SIMSLatentReadout.quarters_encoding_is_exact_for_these_traces, SIMSLatentReadout.recorded_zero_has_opposite_histories, SIMSLatentReadout.sameRecord._sparseCasesOn_1.else_eq, SIMSLatentReadout.sameRecord.eq_1, SIMSLatentReadout.sameRecord.eq_2, SIMSLatentReadout.same_record_requires_original, SIMSLatentReadout.saved_rubric_matches_recorded_histories, SIMSLatentReadout.signRead.eq_1, SIMSLatentReadout.sign_reading_does_not_determine_mark, SIMSLatentReadout.uninformative_start_keeps_four_equal_weights, SIMSLatentReadout.update.eq_1, SIMSLatentReadout.update_nonnegative, SIMSLatentReadout.update_sums_to_one, SIMSLatentReadout.update_sums_to_one._simp_1_2, SIMSLatentReadout.zero_total_returns_zero, SIMSLatentReadout.zero_weight_stays_zero, Tick41SavedReturns.Return.mk.inj, Tick41SavedReturns.Return.mk.injEq, Tick41SavedReturns.Return.mk.sizeOf_spec, Tick41SavedReturns.instDecidableEqReturn.decEq._proof_1, Tick41SavedReturns.instDecidableEqReturn.decEq._proof_2, Tick41SavedReturns.instDecidableEqReturn.decEq._proof_3, Tick41SavedReturns.instDecidableEqReturn.decEq._proof_4, Tick41SavedReturns.instDecidableEqReturn.decEq._proof_5, Tick41SavedReturns.xCloses.eq_1, Tick41SavedWrite.Side.after.sizeOf_spec, Tick41SavedWrite.Side.before.sizeOf_spec, Tick41SavedWrite.Side.ofNat_ctorIdx, Tick41SavedWrite.Snapshot.mk.inj, Tick41SavedWrite.Snapshot.mk.injEq, Tick41SavedWrite.Snapshot.mk.sizeOf_spec, Tick41SavedWrite.instDecidableEqSide._proof_1, Tick41SavedWrite.instDecidableEqSide._proof_2, TwoMemory.memoryField._proof_1, TwoMemory.recall_eq_tanh, TwoMemory.recall_lipschitz, TwoMemory.unique_memory_trajectory, TwoMemoryTransport.along.eq_1, TwoMemoryTransport.along.eq_2, TwoMemoryTransport.along.eq_def, TwoMemoryTransport.closed_route, TwoMemoryTransport.compose_transport, TwoMemoryTransport.cueCoefficient.eq_1, TwoMemoryTransport.curvature.eq_1, TwoMemoryTransport.endpoints_determine_transport, TwoMemoryTransport.flat_curvature, TwoMemoryTransport.odds.eq_1, TwoMemoryTransport.odds_eq_exp, TwoMemoryTransport.odds_parallel, TwoMemoryTransport.partialDerivative.eq_1, TwoMemoryTransport.plusWeight._proof_1, TwoMemoryTransport.potential._proof_1, TwoMemoryTransport.potential.eq_1, TwoMemoryTransport.readout_from_odds, TwoMemoryTransport.source_free, TwoMemoryTransport.transport.eq_1, TwoMemoryTransport.unit_speed_fails_memory_at_zero, TwoMemoryTransport.update_odds, TwoMemoryTransport.update_odds._simp_1_2, TwoMemoryTransport.yangMillsResidual.eq_1, Volterra.exists_unique_fixed_point, Volterra.exists_unique_solution, Volterra.extend.eq_1, Volterra.extend_continuous, Volterra.extend_val, Volterra.iterate_apply_bound, Volterra.iterate_apply_bound._simp_1_2, Volterra.iterate_bound, Volterra.path_integrable, Volterra.step._proof_1, Volterra.step.congr_simp, Volterra.step_apply, YangMillsCueTest.agree_on_slice, YangMillsCueTest.endpoint_frames_cancel, YangMillsCueTest.endpoint_frames_cancel._simp_1_1, YangMillsCueTest.endpoint_frames_cancel._simp_1_2, YangMillsCueTest.endpoint_frames_cancel._simp_1_3, YangMillsCueTest.endpoint_frames_cancel._simp_1_4, YangMillsCueTest.endpoint_frames_cancel._simp_1_5, YangMillsCueTest.endpoint_frames_cancel._simp_1_6, YangMillsCueTest.endpoint_frames_cancel._simp_1_7, YangMillsCueTest.local_frames_conjugate_loop, YangMillsCueTest.local_frames_conjugate_loop._simp_1_1, YangMillsCueTest.local_frames_conjugate_loop._simp_1_2, YangMillsCueTest.local_frames_conjugate_loop._simp_1_3, YangMillsCueTest.local_frames_conjugate_loop._simp_1_4, YangMillsCueTest.local_frames_conjugate_loop._simp_1_5, YangMillsCueTest.local_frames_conjugate_loop._simp_1_6, YangMillsCueTest.local_frames_conjugate_loop._simp_1_7, YangMillsCueTest.same_data_different_field_equation, YangMillsCueTest.transversePotential._proof_1, YangMillsCueTest.transversePotential.eq_1, YangMillsCueTest.transverse_curvature_column, YangMillsCueTest.transverse_residual, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from PublishedReference
+Building PublishedSolution
+⚠ [8761/8781] Replayed Volterra
+warning: Volterra.lean:18:0: automatically included section variable(s) unused in theorem `Volterra.extend_continuous`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Volterra.lean:21:8: automatically included section variable(s) unused in theorem `Volterra.extend_val`:
+  [NormedSpace ℝ E]
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ E] [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+ℹ [8762/8781] Replayed TwoMemory
+info: TwoMemory.lean:55:0: 'TwoMemory.unique_memory_trajectory' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8763/8781] Replayed TwoMemoryTransport
+info: TwoMemoryTransport.lean:117:0: 'TwoMemoryTransport.readout_from_odds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:118:0: 'TwoMemoryTransport.odds_eq_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:119:0: 'TwoMemoryTransport.update_odds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:120:0: 'TwoMemoryTransport.compose_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:121:0: 'TwoMemoryTransport.endpoints_determine_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:122:0: 'TwoMemoryTransport.closed_route' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:123:0: 'TwoMemoryTransport.odds_parallel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:124:0: 'TwoMemoryTransport.flat_curvature' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:125:0: 'TwoMemoryTransport.source_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TwoMemoryTransport.lean:126:0: 'TwoMemoryTransport.unit_speed_fails_memory_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8764/8781] Replayed YangMillsCueTest
+info: YangMillsCueTest.lean:67:0: 'YangMillsCueTest.same_data_different_field_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: YangMillsCueTest.lean:68:0: 'YangMillsCueTest.endpoint_frames_cancel' depends on axioms: [propext]
+info: YangMillsCueTest.lean:69:0: 'YangMillsCueTest.local_frames_conjugate_loop' depends on axioms: [propext]
+ℹ [8767/8787] Replayed SIMSLatentReadout
+info: SIMSLatentReadout.lean:482:0: 'SIMSLatentReadout.no_exact_reader_of_ambiguous_observation' does not depend on any axioms
+info: SIMSLatentReadout.lean:483:0: 'SIMSLatentReadout.negative_marks_share_reading' depends on axioms: [propext, Quot.sound]
+info: SIMSLatentReadout.lean:484:0: 'SIMSLatentReadout.clay_changes_while_sign_stays' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:485:0: 'SIMSLatentReadout.clay_relative_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:486:0: 'SIMSLatentReadout.sign_reading_does_not_determine_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:487:0: 'SIMSLatentReadout.same_record_requires_original' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:488:0: 'SIMSLatentReadout.no_same_record_when_original_absent' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:489:0: 'SIMSLatentReadout.lossless_filing_preserves_readable_fields' does not depend on any axioms
+info: SIMSLatentReadout.lean:490:0: 'SIMSLatentReadout.lossless_storage_can_have_wrong_reader' does not depend on any axioms
+info: SIMSLatentReadout.lean:491:0: 'SIMSLatentReadout.update_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:492:0: 'SIMSLatentReadout.update_sums_to_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:493:0: 'SIMSLatentReadout.zero_weight_stays_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:494:0: 'SIMSLatentReadout.zero_total_returns_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SIMSLatentReadout.lean:495:0: 'SIMSLatentReadout.further_evidence_does_not_reintroduce' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:496:0: 'SIMSLatentReadout.erased_record_fits_none_of_current_menu' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:497:0: 'SIMSLatentReadout.uninformative_start_keeps_four_equal_weights' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:498:0: 'SIMSLatentReadout.recorded_zero_has_opposite_histories' does not depend on any axioms
+info: SIMSLatentReadout.lean:499:0: 'SIMSLatentReadout.no_reader_of_the_first_display_is_always_right' does not depend on any axioms
+info: SIMSLatentReadout.lean:500:0: 'SIMSLatentReadout.all_ten_first_replies_survive_filing' does not depend on any axioms
+info: SIMSLatentReadout.lean:501:0: 'SIMSLatentReadout.all_ten_filings_remain_open_without_confirmation' does not depend on any axioms
+info: SIMSLatentReadout.lean:502:0: 'SIMSLatentReadout.saved_rubric_matches_recorded_histories' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:503:0: 'SIMSLatentReadout.both_readers_recover_earlier_answer_in_all_ten' does not depend on any axioms
+info: SIMSLatentReadout.lean:504:0: 'SIMSLatentReadout.full_history_existence_score' does not depend on any axioms
+info: SIMSLatentReadout.lean:505:0: 'SIMSLatentReadout.filed_record_existence_score' does not depend on any axioms
+info: SIMSLatentReadout.lean:506:0: 'SIMSLatentReadout.precisely_three_filed_reader_contradictions' does not depend on any axioms
+info: SIMSLatentReadout.lean:507:0: 'SIMSLatentReadout.both_clay_readers_recognize_the_change_and_identity' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:508:0: 'SIMSLatentReadout.historical_scores_are_seven_and_six' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:509:0: 'SIMSLatentReadout.exact_first_quote_counts_are_zero_and_ten' does not depend on any axioms
+info: SIMSLatentReadout.lean:510:0: 'SIMSLatentReadout.lossy_reader_has_no_history_and_answers_unknown' does not depend on any axioms
+info: SIMSLatentReadout.lean:511:0: 'SIMSLatentReadout.every_saved_weight_trace_matches_finite_filtering' depends on axioms: [propext]
+info: SIMSLatentReadout.lean:512:0: 'SIMSLatentReadout.quarters_encoding_is_exact_for_these_traces' depends on axioms: [propext, Quot.sound]
+info: SIMSLatentReadout.lean:513:0: 'SIMSLatentReadout.forty_weight_states_checked' does not depend on any axioms
+ℹ [8770/8787] Replayed AmbiguityInstances
+info: AmbiguityInstances.lean:172:0: 'AmbiguityInstances.Tick41Write.same_water_observation' does not depend on any axioms
+info: AmbiguityInstances.lean:173:0: 'AmbiguityInstances.Tick41Write.different_record_presence' does not depend on any axioms
+info: AmbiguityInstances.lean:174:0: 'AmbiguityInstances.Tick41Write.no_exact_water_reader' does not depend on any axioms
+info: AmbiguityInstances.lean:175:0: 'AmbiguityInstances.Tick41Write.exact_reader_with_record' does not depend on any axioms
+info: AmbiguityInstances.lean:176:0: 'AmbiguityInstances.YangMills.same_slice_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AmbiguityInstances.lean:177:0: 'AmbiguityInstances.YangMills.original_satisfies' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AmbiguityInstances.lean:178:0: 'AmbiguityInstances.YangMills.modified_does_not_satisfy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AmbiguityInstances.lean:179:0: 'AmbiguityInstances.YangMills.residuals_are_zero_and_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AmbiguityInstances.lean:180:0: 'AmbiguityInstances.YangMills.no_exact_slice_reader' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AmbiguityInstances.lean:181:0: 'AmbiguityInstances.YangMills.off_slice_curvature_distinguishes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AmbiguityInstances.lean:182:0: 'AmbiguityInstances.Tick41Geometry.all_scales_positive' does not depend on any axioms
+info: AmbiguityInstances.lean:183:0: 'AmbiguityInstances.Tick41Geometry.all_saved_x_returns_open' does not depend on any axioms
+info: AmbiguityInstances.lean:184:0: 'AmbiguityInstances.Tick41Geometry.saved_x_does_not_close' depends on axioms: [propext, Quot.sound]
+info: AmbiguityInstances.lean:185:0: 'AmbiguityInstances.Tick41Geometry.integer_return_would_close' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AmbiguityInstances.lean:186:0: 'AmbiguityInstances.Tick41Geometry.no_saved_integer_periodic_return' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AmbiguityInstances.lean:187:0: 'AmbiguityInstances.Tick41Geometry.no_opposite_saved_closure_properties' depends on axioms: [propext, Quot.sound]
+info: AmbiguityInstances.lean:188:0: 'AmbiguityInstances.Tick41Geometry.exact_reader_on_saved_returns' depends on axioms: [propext, Quot.sound]
+ℹ [8771/8787] Replayed ClosestPointGeometry
+info: ClosestPointGeometry.lean:142:0: 'ClosestPointExample.arc_unit_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:143:0: 'ClosestPointExample.arc_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:144:0: 'ClosestPointExample.zero_line_is_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:145:0: 'ClosestPointExample.sqrt_two_line_is_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:146:0: 'ClosestPointExample.all_images_all_line_points' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:147:0: 'ClosestPointExample.observation_is_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ClosestPointGeometry.lean:148:0: 'ClosestPointExample.no_exact_closest_point_reader' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8772/8787] Replayed HistoryMatchCore
+warning: HistoryMatchCore.lean:75:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: HistoryMatchCore.lean:124:0: 'HistoryMatchCore.quarter_turn_kills_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:125:0: 'HistoryMatchCore.perturbation_keeps_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:126:0: 'HistoryMatchCore.strip_image_square_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:127:0: 'HistoryMatchCore.global_closest_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:128:0: 'HistoryMatchCore.drift_numerator_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:129:0: 'HistoryMatchCore.drift_numerator_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:130:0: 'HistoryMatchCore.drift_derivative_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:131:0: 'HistoryMatchCore.irrational_turn_law_prevents_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:132:0: 'HistoryMatchCore.observation_matches_on_whole_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryMatchCore.lean:133:0: 'HistoryMatchCore.no_exact_reader_with_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8773/8787] Replayed HistoryParameterSelection
+info: HistoryParameterSelection.lean:109:0: 'HistoryParameterSelection.exists_scaled_sqrt_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryParameterSelection.lean:110:0: 'HistoryParameterSelection.select_irrational_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryParameterSelection.lean:111:0: 'HistoryParameterSelection.positive_point_from_positive_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: HistoryParameterSelection.lean:112:0: 'HistoryParameterSelection.select_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryParameterSelection.lean:113:0: 'HistoryParameterSelection.selected_parameters_preserve_validity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [8774/8787] Replayed HistoryPlanarBase
+warning: HistoryPlanarBase.lean:109:108: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: HistoryPlanarBase.lean:276:0: 'HistoryPlanarBase.profile_original_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:277:0: 'HistoryPlanarBase.fieldD_at_origin' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:278:0: 'HistoryPlanarBase.flow_curl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:279:0: 'HistoryPlanarBase.flow_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:280:0: 'HistoryPlanarBase.solves_unforced_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:281:0: 'HistoryPlanarBase.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:282:0: 'HistoryPlanarBase.smooth_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:283:0: 'HistoryPlanarBase.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryPlanarBase.lean:284:0: 'HistoryPlanarBase.periodic_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8775/8787] Replayed HistoryScalarLift
+warning: HistoryScalarLift.lean:77:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+info: HistoryScalarLift.lean:169:0: 'HistoryScalarLift.lifted_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryScalarLift.lean:170:0: 'HistoryScalarLift.lifted_solves_unforced_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryScalarLift.lean:171:0: 'HistoryScalarLift.lifted_actual_curl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryScalarLift.lean:172:0: 'HistoryScalarLift.lifted_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryScalarLift.lean:173:0: 'HistoryScalarLift.lifted_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryScalarLift.lean:174:0: 'HistoryScalarLift.lifted_origin_stationary' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8776/8787] Replayed HistoryCompletionTarget
+info: HistoryCompletionTarget.lean:94:0: 'HistoryCompletionTarget.start_attains_closest_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryCompletionTarget.lean:95:0: 'HistoryCompletionTarget.path_at_tick' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HistoryCompletionTarget.lean:96:0: 'HistoryCompletionTarget.full_pair_rules_out_exact_reader' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8777/8787] Replayed PeriodicNavierStokes
+warning: PeriodicNavierStokes.lean:96:20: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [divergence, space_partial, coefficient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PeriodicNavierStokes.lean:101:8: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [velocity, coefficient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PeriodicNavierStokes.lean:105:19: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [laplacian, space_partial_twice]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PeriodicNavierStokes.lean:123:65: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PeriodicNavierStokes.lean:124:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PeriodicNavierStokes.lean:124:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PeriodicNavierStokes.lean:124:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: PeriodicNavierStokes.lean:184:0: 'ClosestPointExample.incompressible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:185:0: 'ClosestPointExample.navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:186:0: 'ClosestPointExample.smooth_velocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:187:0: 'ClosestPointExample.spatially_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:188:0: 'ClosestPointExample.markers_stationary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:189:0: 'ClosestPointExample.curl_on_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:190:0: 'ClosestPointExample.vortex_line_ODE' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicNavierStokes.lean:191:0: 'ClosestPointExample.exact_same_equation_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8778/8787] Replayed MatchingPaddleFluid
+warning: MatchingPaddleFluid.lean:120:8: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [flow_partial]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MatchingPaddleFluid.lean:152:65: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:153:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:153:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:153:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:157:77: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:158:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MatchingPaddleFluid.lean:158:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: MatchingPaddleFluid.lean:205:0: 'ClosestPointExample.MatchingPaddle.solves_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:206:0: 'ClosestPointExample.MatchingPaddle.divergence_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:207:0: 'ClosestPointExample.MatchingPaddle.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:208:0: 'ClosestPointExample.MatchingPaddle.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:209:0: 'ClosestPointExample.MatchingPaddle.material_markers_stationary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleFluid.lean:210:0: 'ClosestPointExample.MatchingPaddle.curl_on_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:211:0: 'ClosestPointExample.MatchingPaddle.same_paddle_wheel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleFluid.lean:212:0: 'ClosestPointExample.MatchingPaddle.same_paddle_as_previous' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8779/8787] Replayed MatchingPaddleLines
+warning: MatchingPaddleLines.lean:27:84: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MatchingPaddleLines.lean:27:84: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: MatchingPaddleLines.lean:139:0: 'ClosestPointExample.MatchingPaddle.curves_start_at_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleLines.lean:140:0: 'ClosestPointExample.MatchingPaddle.actual_curl_integral_curve' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleLines.lean:141:0: 'ClosestPointExample.MatchingPaddle.open_forward_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleLines.lean:142:0: 'ClosestPointExample.MatchingPaddle.closed_witness_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleLines.lean:143:0: 'ClosestPointExample.MatchingPaddle.open_witness_never_returns' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleLines.lean:144:0: 'ClosestPointExample.MatchingPaddle.nonzero_on_full_curves' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleLines.lean:145:0: 'ClosestPointExample.MatchingPaddle.common_normalized_vortex_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleLines.lean:146:0: 'ClosestPointExample.MatchingPaddle.unchanged_closest_reading' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [8780/8787] Replayed MatchingPaddleInstance
+info: MatchingPaddleInstance.lean:58:0: 'ClosestPointExample.MatchingPaddle.both_flows_allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleInstance.lean:59:0: 'ClosestPointExample.MatchingPaddle.same_enlarged_observation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleInstance.lean:60:0: 'ClosestPointExample.MatchingPaddle.opposite_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleInstance.lean:61:0: 'ClosestPointExample.MatchingPaddle.no_exact_reader_even_with_paddle_wheel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleInstance.lean:62:0: 'ClosestPointExample.MatchingPaddle.every_function_of_paddle_matches' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MatchingPaddleInstance.lean:63:0: 'ClosestPointExample.MatchingPaddle.zero_swirl_at_open_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MatchingPaddleInstance.lean:64:0: 'ClosestPointExample.MatchingPaddle.zero_is_beyond_saved_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [8781/8787] Replayed Tick41ClosestPointInstance
+info: Tick41ClosestPointInstance.lean:40:0: 'ClosestPointExample.Tick41.same_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Tick41ClosestPointInstance.lean:41:0: 'ClosestPointExample.Tick41.certified_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Tick41ClosestPointInstance.lean:42:0: 'ClosestPointExample.Tick41.actual_vortex_lines_at_tick41' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Tick41ClosestPointInstance.lean:43:0: 'ClosestPointExample.Tick41.opposite_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Tick41ClosestPointInstance.lean:44:0: 'ClosestPointExample.Tick41.no_exact_reader_of_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8782/8787] Replayed WindingField
+info: WindingField.lean:125:0: 'ClosestPointExample.Winding.field_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:126:0: 'ClosestPointExample.Winding.field_beltrami' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:127:0: 'ClosestPointExample.Winding.field_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:128:0: 'ClosestPointExample.Winding.field_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:129:0: 'ClosestPointExample.Winding.field_on_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:130:0: 'ClosestPointExample.Winding.field_at_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingField.lean:131:0: 'ClosestPointExample.Winding.plane_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8783/8787] Replayed WindingCurve
+warning: WindingCurve.lean:79:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingCurve.lean:80:88: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingCurve.lean:80:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WindingCurve.lean:79:19: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: WindingCurve.lean:80:88: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: WindingCurve.lean:126:48: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WindingCurve.lean:126:62: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WindingCurve.lean:126:74: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: WindingCurve.lean:221:0: 'ClosestPointExample.Winding.lift_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:222:0: 'ClosestPointExample.Winding.gain_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:223:0: 'ClosestPointExample.Winding.lift_at_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:224:0: 'ClosestPointExample.Winding.lift_linear_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:225:0: 'ClosestPointExample.Winding.curve_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:226:0: 'ClosestPointExample.Winding.curve_scale_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:227:0: 'ClosestPointExample.Winding.closed_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:228:0: 'ClosestPointExample.Winding.open_never_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingCurve.lean:229:0: 'ClosestPointExample.Winding.global_closest_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8784/8787] Replayed WindingFluid
+info: WindingFluid.lean:167:0: 'ClosestPointExample.Winding.solves_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:168:0: 'ClosestPointExample.Winding.flow_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:169:0: 'ClosestPointExample.Winding.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:170:0: 'ClosestPointExample.Winding.smooth_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:171:0: 'ClosestPointExample.Winding.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:172:0: 'ClosestPointExample.Winding.periodic_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:173:0: 'ClosestPointExample.Winding.paddle_at_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingFluid.lean:174:0: 'ClosestPointExample.Winding.positive_swirl_on_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8785/8787] Replayed WindingInstance
+warning: WindingInstance.lean:19:61: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingInstance.lean:20:61: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingInstance.lean:19:61: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: WindingInstance.lean:20:61: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: WindingInstance.lean:63:72: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingInstance.lean:63:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WindingInstance.lean:63:72: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: WindingInstance.lean:72:72: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: WindingInstance.lean:72:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: WindingInstance.lean:72:72: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: WindingInstance.lean:131:0: 'ClosestPointExample.Winding.lift_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:132:0: 'ClosestPointExample.Winding.global_clock_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:133:0: 'ClosestPointExample.Winding.complete_vortex_curve_at_tick' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:134:0: 'ClosestPointExample.Winding.curves_persist_at_every_finite_time' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: WindingInstance.lean:135:0: 'ClosestPointExample.Winding.swirl_never_approaches_zero_on_the_line' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: WindingInstance.lean:136:0: 'ClosestPointExample.Winding.exact_closest_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:137:0: 'ClosestPointExample.Winding.both_solve_same_fluid_equations' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:138:0: 'ClosestPointExample.Winding.same_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:139:0: 'ClosestPointExample.Winding.opposite_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: WindingInstance.lean:140:0: 'ClosestPointExample.Winding.no_exact_reader_with_closest_point_and_paddle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+✔ [8786/8787] Built PublishedSolution (16s)
+Build completed successfully (8787 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, AmbiguityInstances.Tick41Geometry.all_saved_x_returns_open, AmbiguityInstances.Tick41Geometry.all_saved_x_returns_open._proof_1_1, AmbiguityInstances.Tick41Geometry.all_scales_positive, AmbiguityInstances.Tick41Geometry.all_scales_positive._proof_1_1, AmbiguityInstances.Tick41Geometry.exact_reader_on_saved_returns, AmbiguityInstances.Tick41Geometry.integer_return_would_close, AmbiguityInstances.Tick41Geometry.no_opposite_saved_closure_properties, AmbiguityInstances.Tick41Geometry.no_saved_integer_periodic_return, AmbiguityInstances.Tick41Geometry.saved_x_does_not_close, AmbiguityInstances.Tick41Write.different_record_presence, AmbiguityInstances.Tick41Write.exact_reader_with_record, AmbiguityInstances.Tick41Write.no_exact_water_reader, AmbiguityInstances.Tick41Write.same_water_observation, AmbiguityInstances.YangMills.Slice._proof_1, AmbiguityInstances.YangMills.modified._proof_1, AmbiguityInstances.YangMills.modified.eq_1, AmbiguityInstances.YangMills.modified_does_not_satisfy, AmbiguityInstances.YangMills.no_exact_slice_reader, AmbiguityInstances.YangMills.offSlice.eq_1, AmbiguityInstances.YangMills.off_slice_curvature_distinguishes, AmbiguityInstances.YangMills.original._proof_1, AmbiguityInstances.YangMills.original.eq_1, AmbiguityInstances.YangMills.original_satisfies, AmbiguityInstances.YangMills.residuals_are_zero_and_two, AmbiguityInstances.YangMills.same_slice_observation, AmbiguityInstances.YangMills.sourceFreeAtCue.eq_1, ClosestPointExample.A_attains_bound, ClosestPointExample.MatchingPaddle.actual_curl_integral_curve, ClosestPointExample.MatchingPaddle.advection_zero, ClosestPointExample.MatchingPaddle.both_flows_allowed, ClosestPointExample.MatchingPaddle.c0.eq_1, ClosestPointExample.MatchingPaddle.c1.eq_1, ClosestPointExample.MatchingPaddle.closedState.eq_1, ClosestPointExample.MatchingPaddle.closed_witness_returns, ClosestPointExample.MatchingPaddle.common_normalized_vortex_trace, ClosestPointExample.MatchingPaddle.cos_transverse_periodic, ClosestPointExample.MatchingPaddle.cotCoordinate._proof_1, ClosestPointExample.MatchingPaddle.cotCoordinate._proof_2, ClosestPointExample.MatchingPaddle.cotCoordinate.eq_1, ClosestPointExample.MatchingPaddle.curl_on_axis, ClosestPointExample.MatchingPaddle.curves_start_at_A, ClosestPointExample.MatchingPaddle.divergence_zero, ClosestPointExample.MatchingPaddle.every_function_of_paddle_matches, ClosestPointExample.MatchingPaddle.flow._proof_1, ClosestPointExample.MatchingPaddle.flow.eq_1, ClosestPointExample.MatchingPaddle.flow_partial, ClosestPointExample.MatchingPaddle.flow_second, ClosestPointExample.MatchingPaddle.gain.eq_1, ClosestPointExample.MatchingPaddle.gain_along_open_curve, ClosestPointExample.MatchingPaddle.gain_positive_on_saved_trace, ClosestPointExample.MatchingPaddle.material_markers_stationary, ClosestPointExample.MatchingPaddle.mode.eq_1, ClosestPointExample.MatchingPaddle.modeX.eq_1, ClosestPointExample.MatchingPaddle.modeY.eq_1, ClosestPointExample.MatchingPaddle.mode_decay_at_tick, ClosestPointExample.MatchingPaddle.mode_t, ClosestPointExample.MatchingPaddle.mode_x, ClosestPointExample.MatchingPaddle.mode_xx, ClosestPointExample.MatchingPaddle.mode_y, ClosestPointExample.MatchingPaddle.mode_yy, ClosestPointExample.MatchingPaddle.no_exact_reader_even_with_paddle_wheel, ClosestPointExample.MatchingPaddle.nonzero_on_full_curves, ClosestPointExample.MatchingPaddle.nonzero_on_full_curves._simp_1_2, ClosestPointExample.MatchingPaddle.observation.eq_1, ClosestPointExample.MatchingPaddle.openState.eq_1, ClosestPointExample.MatchingPaddle.openY.eq_1, ClosestPointExample.MatchingPaddle.openY_has_derivative, ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_1, ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_2, ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_3, ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_4, ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_5, ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_6, ClosestPointExample.MatchingPaddle.openY_has_derivative._simp_1_7, ClosestPointExample.MatchingPaddle.openY_zero, ClosestPointExample.MatchingPaddle.open_forward_bounds, ClosestPointExample.MatchingPaddle.open_witness_never_returns, ClosestPointExample.MatchingPaddle.open_witness_never_returns._proof_1_2, ClosestPointExample.MatchingPaddle.opposite_closure, ClosestPointExample.MatchingPaddle.opposite_closure._simp_1_4, ClosestPointExample.MatchingPaddle.opposite_closure._simp_1_5, ClosestPointExample.MatchingPaddle.partial_plane, ClosestPointExample.MatchingPaddle.periodic_flow, ClosestPointExample.MatchingPaddle.phase._proof_1, ClosestPointExample.MatchingPaddle.phase.eq_1, ClosestPointExample.MatchingPaddle.prior_trace_is_same, ClosestPointExample.MatchingPaddle.profile.eq_1, ClosestPointExample.MatchingPaddle.profileX.eq_1, ClosestPointExample.MatchingPaddle.profileY.eq_1, ClosestPointExample.MatchingPaddle.profile_heat, ClosestPointExample.MatchingPaddle.profile_x, ClosestPointExample.MatchingPaddle.profile_xx, ClosestPointExample.MatchingPaddle.profile_y, ClosestPointExample.MatchingPaddle.profile_yy, ClosestPointExample.MatchingPaddle.property.eq_1, ClosestPointExample.MatchingPaddle.same_enlarged_observation, ClosestPointExample.MatchingPaddle.same_paddle_as_previous, ClosestPointExample.MatchingPaddle.same_paddle_wheel, ClosestPointExample.MatchingPaddle.sin_wave_periodic, ClosestPointExample.MatchingPaddle.smooth_flow, ClosestPointExample.MatchingPaddle.solves_navier_stokes, ClosestPointExample.MatchingPaddle.swirlScale.eq_1, ClosestPointExample.MatchingPaddle.swirlScale_positive, ClosestPointExample.MatchingPaddle.trace_tangent_is_unit, ClosestPointExample.MatchingPaddle.transverseWave._proof_1, ClosestPointExample.MatchingPaddle.unchanged_closest_reading, ClosestPointExample.MatchingPaddle.vortexCurve.eq_1, ClosestPointExample.MatchingPaddle.vorticity.eq_1, ClosestPointExample.MatchingPaddle.zero_is_beyond_saved_trace, ClosestPointExample.MatchingPaddle.zero_swirl_at_open_limit, ClosestPointExample.Reading.mk.inj, ClosestPointExample.Reading.mk.injEq, ClosestPointExample.Reading.mk.sizeOf_spec, ClosestPointExample.Tick41.actual_vortex_lines_at_tick41, ClosestPointExample.Tick41.certified_reading, ClosestPointExample.Tick41.closedState._proof_1, ClosestPointExample.Tick41.no_exact_reader_of_closure, ClosestPointExample.Tick41.openState._proof_1, ClosestPointExample.Tick41.openState._proof_2, ClosestPointExample.Tick41.opposite_properties, ClosestPointExample.Tick41.same_observation, ClosestPointExample.Winding.GlobalClosestAtStart._proof_1, ClosestPointExample.Winding.S.eq_1, ClosestPointExample.Winding.all_curves_stay_in_plane, ClosestPointExample.Winding.amplitude.eq_1, ClosestPointExample.Winding.amplitude_positive, ClosestPointExample.Winding.angle.eq_1, ClosestPointExample.Winding.arctan_ratio_derivative, ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_1, ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_2, ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_3, ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_4, ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_5, ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_6, ClosestPointExample.Winding.arctan_ratio_derivative._simp_1_7, ClosestPointExample.Winding.beltrami_advection_identity, ClosestPointExample.Winding.beta._proof_1, ClosestPointExample.Winding.beta.eq_1, ClosestPointExample.Winding.both_solve_same_fluid_equations, ClosestPointExample.Winding.clock.eq_1, ClosestPointExample.Winding.clock_derivative, ClosestPointExample.Winding.clock_starts_at_zero, ClosestPointExample.Winding.clock_strictly_increases, ClosestPointExample.Winding.clock_surjective, ClosestPointExample.Winding.closedState.eq_1, ClosestPointExample.Winding.closed_returns, ClosestPointExample.Winding.complete_vortex_curve_at_tick, ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_1, ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_2, ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_3, ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_4, ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_5, ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_6, ClosestPointExample.Winding.complete_vortex_curve_at_tick._simp_1_7, ClosestPointExample.Winding.cons_three_last, ClosestPointExample.Winding.cosineVector.eq_1, ClosestPointExample.Winding.cosine_denominator_positive, ClosestPointExample.Winding.curlOf.eq_1, ClosestPointExample.Winding.curl_at_tick, ClosestPointExample.Winding.curl_at_tick._simp_1_3, ClosestPointExample.Winding.curl_at_tick._simp_1_4, ClosestPointExample.Winding.curl_at_tick._simp_1_5, ClosestPointExample.Winding.curl_at_tick._simp_1_6, ClosestPointExample.Winding.curl_at_tick._simp_1_7, ClosestPointExample.Winding.curl_at_tick._simp_1_8, ClosestPointExample.Winding.curl_at_tick._simp_1_9, ClosestPointExample.Winding.curve.eq_1, ClosestPointExample.Winding.curve_scale_positive, ClosestPointExample.Winding.curve_starts_at_A, ClosestPointExample.Winding.curve_tangent, ClosestPointExample.Winding.curves_persist_at_every_finite_time, ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_1, ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_2, ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_3, ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_4, ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_5, ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_6, ClosestPointExample.Winding.curves_persist_at_every_finite_time._simp_1_7, ClosestPointExample.Winding.denominator_positive, ClosestPointExample.Winding.eigenvalue._proof_1, ClosestPointExample.Winding.eigenvalue.eq_1, ClosestPointExample.Winding.eigenvalue_positive, ClosestPointExample.Winding.exact_closest_reading, ClosestPointExample.Winding.field.eq_1, ClosestPointExample.Winding.fieldD.eq_1, ClosestPointExample.Winding.fieldDD.eq_1, ClosestPointExample.Winding.field_at_A, ClosestPointExample.Winding.field_beltrami, ClosestPointExample.Winding.field_divergence, ClosestPointExample.Winding.field_has_derivative, ClosestPointExample.Winding.field_has_second, ClosestPointExample.Winding.field_laplacian, ClosestPointExample.Winding.field_on_plane, ClosestPointExample.Winding.field_partial, ClosestPointExample.Winding.field_periodic, ClosestPointExample.Winding.field_second, ClosestPointExample.Winding.field_smooth, ClosestPointExample.Winding.flow.eq_1, ClosestPointExample.Winding.flowD.eq_1, ClosestPointExample.Winding.flowDD.eq_1, ClosestPointExample.Winding.flow_curl, ClosestPointExample.Winding.flow_divergence, ClosestPointExample.Winding.flow_has_derivative, ClosestPointExample.Winding.flow_has_second, ClosestPointExample.Winding.flow_laplacian, ClosestPointExample.Winding.flow_partial, ClosestPointExample.Winding.flow_second, ClosestPointExample.Winding.flow_time, ClosestPointExample.Winding.frequency._proof_1, ClosestPointExample.Winding.frequency.eq_1, ClosestPointExample.Winding.frequency_positive, ClosestPointExample.Winding.gain._proof_1, ClosestPointExample.Winding.gain._proof_2, ClosestPointExample.Winding.gain_bounds, ClosestPointExample.Winding.global_clock_bijective, ClosestPointExample.Winding.global_closest_bound, ClosestPointExample.Winding.lift.eq_1, ClosestPointExample.Winding.lift_at_integer, ClosestPointExample.Winding.lift_at_zero, ClosestPointExample.Winding.lift_derivative, ClosestPointExample.Winding.lift_derivative._simp_1_1, ClosestPointExample.Winding.lift_derivative._simp_1_2, ClosestPointExample.Winding.lift_derivative._simp_1_3, ClosestPointExample.Winding.lift_derivative._simp_1_4, ClosestPointExample.Winding.lift_derivative._simp_1_5, ClosestPointExample.Winding.lift_derivative._simp_1_6, ClosestPointExample.Winding.lift_derivative._simp_1_7, ClosestPointExample.Winding.lift_factor, ClosestPointExample.Winding.lift_linear_error, ClosestPointExample.Winding.lift_surjective, ClosestPointExample.Winding.lift_surjective._simp_1_1, ClosestPointExample.Winding.lift_surjective._simp_1_2, ClosestPointExample.Winding.lift_surjective._simp_1_3, ClosestPointExample.Winding.lift_surjective._simp_1_4, ClosestPointExample.Winding.lift_surjective._simp_1_5, ClosestPointExample.Winding.lift_surjective._simp_1_6, ClosestPointExample.Winding.lift_surjective._simp_1_7, ClosestPointExample.Winding.mu._proof_1, ClosestPointExample.Winding.mu_gt_one, ClosestPointExample.Winding.mu_squared, ClosestPointExample.Winding.no_exact_reader_with_closest_point_and_paddle, ClosestPointExample.Winding.numerator.eq_1, ClosestPointExample.Winding.observation.eq_1, ClosestPointExample.Winding.openCurve.eq_1, ClosestPointExample.Winding.openState.eq_1, ClosestPointExample.Winding.open_curve_difference, ClosestPointExample.Winding.open_curve_sum, ClosestPointExample.Winding.open_curve_tangent, ClosestPointExample.Winding.open_never_returns, ClosestPointExample.Winding.opposite_closure, ClosestPointExample.Winding.opposite_closure._simp_1_4, ClosestPointExample.Winding.opposite_closure._simp_1_5, ClosestPointExample.Winding.paddle_at_A, ClosestPointExample.Winding.periodic_flow, ClosestPointExample.Winding.periodic_pressure, ClosestPointExample.Winding.phase._proof_1, ClosestPointExample.Winding.phase.eq_1, ClosestPointExample.Winding.phaseD.eq_1, ClosestPointExample.Winding.phase_derivative, ClosestPointExample.Winding.phase_shift, ClosestPointExample.Winding.plane_nonzero, ClosestPointExample.Winding.plane_phase, ClosestPointExample.Winding.positive_swirl_on_plane, ClosestPointExample.Winding.pressure._proof_1, ClosestPointExample.Winding.pressure._proof_2, ClosestPointExample.Winding.pressure.eq_1, ClosestPointExample.Winding.pressure_partial, ClosestPointExample.Winding.property.eq_1, ClosestPointExample.Winding.ratio.eq_1, ClosestPointExample.Winding.ratio_derivative, ClosestPointExample.Winding.rho_bounds, ClosestPointExample.Winding.same_observation, ClosestPointExample.Winding.sineVector.eq_1, ClosestPointExample.Winding.smooth_flow, ClosestPointExample.Winding.smooth_pressure, ClosestPointExample.Winding.solves_navier_stokes, ClosestPointExample.Winding.squareDenominator_positive, ClosestPointExample.Winding.squareDenominator_short, ClosestPointExample.Winding.swirl_never_approaches_zero_on_the_line, ClosestPointExample.Winding.tangentScale.eq_1, ClosestPointExample.Winding.targetSwirl_positive, ClosestPointExample.Winding.term.eq_1, ClosestPointExample.Winding.termD.eq_1, ClosestPointExample.Winding.term_derivative, ClosestPointExample.Winding.term_periodic, ClosestPointExample.Winding.term_second, ClosestPointExample.Winding.triple_last, ClosestPointExample.Winding.vorticity.eq_1, ClosestPointExample.Winding.waveVector.eq_1, ClosestPointExample.advection_zero, ClosestPointExample.all_images_all_line_points, ClosestPointExample.arc.eq_1, ClosestPointExample.arc_derivative, ClosestPointExample.arc_starts_at_A, ClosestPointExample.arc_unit_tangent, ClosestPointExample.closedProperty.eq_1, ClosestPointExample.coefficient.eq_1, ClosestPointExample.coordinateDerivative.eq_1, ClosestPointExample.curl.eq_1, ClosestPointExample.curl_on_line, ClosestPointExample.decay_positive, ClosestPointExample.direction.eq_1, ClosestPointExample.divergence.eq_1, ClosestPointExample.every_family_member_admissible, ClosestPointExample.exact_same_equation_witnesses, ClosestPointExample.force.eq_1, ClosestPointExample.imageDistanceSq._proof_1, ClosestPointExample.incompressible, ClosestPointExample.laplacian.eq_1, ClosestPointExample.laplacian_eq, ClosestPointExample.line.eq_1, ClosestPointExample.line_has_derivative, ClosestPointExample.markerA.eq_1, ClosestPointExample.markerB._proof_1, ClosestPointExample.markerB.eq_1, ClosestPointExample.markers_stationary, ClosestPointExample.navier_stokes, ClosestPointExample.no_exact_closest_point_reader, ClosestPointExample.observation_is_valid, ClosestPointExample.observe.eq_1, ClosestPointExample.opposite_closure_values, ClosestPointExample.opposite_closure_values._simp_1_2, ClosestPointExample.opposite_closure_values._simp_1_3, ClosestPointExample.partial_vertical, ClosestPointExample.pressure.eq_1, ClosestPointExample.same_closest_point_reading, ClosestPointExample.shapeZ.eq_1, ClosestPointExample.shapeZ_has_z_derivative, ClosestPointExample.shape_has_time_derivative, ClosestPointExample.shape_has_z_derivative, ClosestPointExample.shape_periodic, ClosestPointExample.smooth_velocity, ClosestPointExample.space_partial, ClosestPointExample.space_partial_twice, ClosestPointExample.spatially_periodic, ClosestPointExample.speed.eq_1, ClosestPointExample.speed_positive, ClosestPointExample.speed_squared, ClosestPointExample.sqrt_two_line_is_open, ClosestPointExample.tick41._proof_1, ClosestPointExample.tick41._proof_2, ClosestPointExample.time_derivative, ClosestPointExample.traceLength._proof_1, ClosestPointExample.traceLength.eq_1, ClosestPointExample.velocity._proof_1, ClosestPointExample.velocity.eq_1, ClosestPointExample.vertical_image_bound, ClosestPointExample.vertical_image_bound._proof_1_1, ClosestPointExample.vertical_image_bound._proof_1_2, ClosestPointExample.viscosity._proof_1, ClosestPointExample.viscosity._proof_2, ClosestPointExample.viscosity.eq_1, ClosestPointExample.viscosity_positive, ClosestPointExample.vortex_line_ODE, ClosestPointExample.vortex_parameter_scale_positive, ClosestPointExample.wave._proof_1, ClosestPointExample.wave_positive, ClosestPointExample.zero_line_is_closed, HistoryCompletionTarget.FluidState.allowed, HistoryCompletionTarget.FluidState.closest_bound, HistoryCompletionTarget.FluidState.line_equation, HistoryCompletionTarget.FluidState.line_starts, HistoryCompletionTarget.FluidState.line_swirl_floor, HistoryCompletionTarget.FluidState.materialA, HistoryCompletionTarget.FluidState.mk.inj, HistoryCompletionTarget.FluidState.mk.injEq, HistoryCompletionTarget.FluidState.mk.sizeOf_spec, HistoryCompletionTarget.FluidState.paddle_at_tick, HistoryCompletionTarget.FluidState.positive_paddle_history, HistoryCompletionTarget.distanceToImageSq.eq_1, HistoryCompletionTarget.full_pair_rules_out_exact_reader, HistoryCompletionTarget.markerA.eq_1, HistoryCompletionTarget.markerB._proof_1, HistoryCompletionTarget.markerB.eq_1, HistoryCompletionTarget.observation.eq_1, HistoryCompletionTarget.pathA._proof_1, HistoryCompletionTarget.pathA.eq_1, HistoryCompletionTarget.path_at_tick, HistoryCompletionTarget.property.eq_1, HistoryCompletionTarget.start_attains_closest_reading, HistoryCompletionTarget.tag._proof_1, HistoryCompletionTarget.tag._proof_2, HistoryCompletionTarget.tick41._proof_1, HistoryCompletionTarget.tick41._proof_2, HistoryMatchCore.drift_derivative_formula, HistoryMatchCore.drift_derivative_formula._simp_1_1, HistoryMatchCore.drift_derivative_formula._simp_1_2, HistoryMatchCore.drift_derivative_formula._simp_1_3, HistoryMatchCore.drift_derivative_formula._simp_1_4, HistoryMatchCore.drift_derivative_formula._simp_1_5, HistoryMatchCore.drift_derivative_formula._simp_1_6, HistoryMatchCore.drift_derivative_formula._simp_1_7, HistoryMatchCore.drift_numerator_identity, HistoryMatchCore.drift_numerator_positive, HistoryMatchCore.fullObservation.eq_1, HistoryMatchCore.global_closest_bound, HistoryMatchCore.irrational_turn_law_prevents_return, HistoryMatchCore.no_exact_reader_with_history, HistoryMatchCore.observation_matches_on_whole_interval, HistoryMatchCore.perturbation_keeps_first_jet, HistoryMatchCore.quarter_turn_kills_first_jet, HistoryMatchCore.strip_image_square_bound, HistoryMatchCore.strip_image_square_bound._proof_1_1, HistoryParameterSelection.exists_scaled_sqrt_two, HistoryParameterSelection.positive_point_from_positive_derivative, HistoryParameterSelection.select_irrational_value, HistoryParameterSelection.select_parameters, HistoryParameterSelection.selected_parameters_preserve_validity, HistoryPlanarBase.addFour._proof_1, HistoryPlanarBase.addFour.eq_1, HistoryPlanarBase.advection_identity, HistoryPlanarBase.cons_four_last, HistoryPlanarBase.cons_four_second, HistoryPlanarBase.cons_three_last, HistoryPlanarBase.coordinateDerivative.eq_1, HistoryPlanarBase.curlOf.eq_1, HistoryPlanarBase.direction.eq_1, HistoryPlanarBase.eigenvalue._proof_1, HistoryPlanarBase.eigenvalue.eq_1, HistoryPlanarBase.field.eq_1, HistoryPlanarBase.fieldD.eq_1, HistoryPlanarBase.fieldDD.eq_1, HistoryPlanarBase.fieldD_at_origin, HistoryPlanarBase.field_curl, HistoryPlanarBase.field_divergence, HistoryPlanarBase.field_has_derivative, HistoryPlanarBase.field_has_second, HistoryPlanarBase.field_laplacian, HistoryPlanarBase.flow.eq_1, HistoryPlanarBase.flowD.eq_1, HistoryPlanarBase.flowDD.eq_1, HistoryPlanarBase.flow_curl, HistoryPlanarBase.flow_divergence, HistoryPlanarBase.flow_laplacian, HistoryPlanarBase.flow_partial, HistoryPlanarBase.flow_second, HistoryPlanarBase.flow_time, HistoryPlanarBase.four_last, HistoryPlanarBase.four_second, HistoryPlanarBase.frequency._proof_1, HistoryPlanarBase.frequency.eq_1, HistoryPlanarBase.periodic_flow, HistoryPlanarBase.periodic_pressure, HistoryPlanarBase.periodic_scalar, HistoryPlanarBase.periodic_term, HistoryPlanarBase.phase._proof_1, HistoryPlanarBase.phase.eq_1, HistoryPlanarBase.phaseD.eq_1, HistoryPlanarBase.phase_derivative, HistoryPlanarBase.phase_shift, HistoryPlanarBase.pressure.eq_1, HistoryPlanarBase.pressure_partial, HistoryPlanarBase.profile.eq_1, HistoryPlanarBase.profileD.eq_1, HistoryPlanarBase.profileD_field, HistoryPlanarBase.profile_and_field_at_origin, HistoryPlanarBase.profile_has_derivative, HistoryPlanarBase.profile_original_formula, HistoryPlanarBase.scalarTerm.eq_1, HistoryPlanarBase.scalarTermD.eq_1, HistoryPlanarBase.scalarTerm_derivative, HistoryPlanarBase.smooth_flow, HistoryPlanarBase.smooth_pressure, HistoryPlanarBase.solves_unforced_navier_stokes, HistoryPlanarBase.stream.eq_1, HistoryPlanarBase.streamD.eq_1, HistoryPlanarBase.streamD_flow, HistoryPlanarBase.stream_partial, HistoryPlanarBase.term.eq_1, HistoryPlanarBase.termD.eq_1, HistoryPlanarBase.term_derivative, HistoryPlanarBase.term_second, HistoryPlanarBase.triple_last, HistoryPlanarBase.viscosity._proof_1, HistoryPlanarBase.viscosity._proof_2, HistoryPlanarBase.waveVector.eq_1, HistoryPlanarBase.weight._proof_1, HistoryPlanarBase.weight.eq_1, HistoryScalarLift.ScalarEvolution.equation, HistoryScalarLift.ScalarEvolution.initial_value, HistoryScalarLift.ScalarEvolution.mk.inj, HistoryScalarLift.ScalarEvolution.mk.injEq, HistoryScalarLift.ScalarEvolution.mk.sizeOf_spec, HistoryScalarLift.ScalarEvolution.periodic, HistoryScalarLift.ScalarEvolution.second_derivative, HistoryScalarLift.ScalarEvolution.smooth, HistoryScalarLift.ScalarEvolution.space_derivative, HistoryScalarLift.ScalarEvolution.time_derivative, HistoryScalarLift.ScalarEvolution.zero_z_derivative, HistoryScalarLift.base_pressure_z, HistoryScalarLift.base_vertical, HistoryScalarLift.base_vertical_derivative, HistoryScalarLift.base_z_derivative, HistoryScalarLift.initialG._proof_1, HistoryScalarLift.liftedD.eq_1, HistoryScalarLift.liftedDD.eq_1, HistoryScalarLift.liftedFlow._proof_1, HistoryScalarLift.liftedFlow.eq_1, HistoryScalarLift.liftedTimeD.eq_1, HistoryScalarLift.lifted_actual_curl, HistoryScalarLift.lifted_divergence, HistoryScalarLift.lifted_origin_stationary, HistoryScalarLift.lifted_partial, HistoryScalarLift.lifted_periodic, HistoryScalarLift.lifted_second, HistoryScalarLift.lifted_smooth, HistoryScalarLift.lifted_solves_unforced_navier_stokes, HistoryScalarLift.lifted_time, HistoryScalarLift.tick41._proof_1, HistoryScalarLift.tick41._proof_2, SIMSLatentReadout.Answer.no.sizeOf_spec, SIMSLatentReadout.Answer.ofNat_ctorIdx, SIMSLatentReadout.Answer.unavailable.sizeOf_spec, SIMSLatentReadout.Answer.unknown.sizeOf_spec, SIMSLatentReadout.Answer.yes.sizeOf_spec, SIMSLatentReadout.Hypothesis.absent.sizeOf_spec, SIMSLatentReadout.Hypothesis.changedRetained.sizeOf_spec, SIMSLatentReadout.Hypothesis.held.sizeOf_spec, SIMSLatentReadout.Hypothesis.ofNat_ctorIdx, SIMSLatentReadout.Hypothesis.writtenLater.sizeOf_spec, SIMSLatentReadout.Probe.afterPresent.sizeOf_spec, SIMSLatentReadout.Probe.componentChanged.sizeOf_spec, SIMSLatentReadout.Probe.initialPresent.sizeOf_spec, SIMSLatentReadout.Probe.ofNat_ctorIdx, SIMSLatentReadout.Reply.mk.inj, SIMSLatentReadout.Reply.mk.injEq, SIMSLatentReadout.Reply.mk.sizeOf_spec, SIMSLatentReadout.SavedCase.mk.inj, SIMSLatentReadout.SavedCase.mk.injEq, SIMSLatentReadout.SavedCase.mk.sizeOf_spec, SIMSLatentReadout.all_ten_filings_remain_open_without_confirmation, SIMSLatentReadout.all_ten_first_replies_survive_filing, SIMSLatentReadout.both_clay_readers_recognize_the_change_and_identity, SIMSLatentReadout.both_readers_recover_earlier_answer_in_all_ten, SIMSLatentReadout.clay_changes_while_sign_stays, SIMSLatentReadout.clay_relative_change, SIMSLatentReadout.erased_record_fits_none_of_current_menu, SIMSLatentReadout.every_saved_weight_trace_matches_finite_filtering, SIMSLatentReadout.exact_first_quote_counts_are_zero_and_ten, SIMSLatentReadout.filed_record_existence_score, SIMSLatentReadout.forty_weight_states_checked, SIMSLatentReadout.full_history_existence_score, SIMSLatentReadout.further_evidence_does_not_reintroduce, SIMSLatentReadout.historical_scores_are_seven_and_six, SIMSLatentReadout.instDecidableEqAnswer._proof_1, SIMSLatentReadout.instDecidableEqAnswer._proof_2, SIMSLatentReadout.instDecidableEqHypothesis._proof_1, SIMSLatentReadout.instDecidableEqHypothesis._proof_2, SIMSLatentReadout.instDecidableEqProbe._proof_1, SIMSLatentReadout.instDecidableEqProbe._proof_2, SIMSLatentReadout.lossless_filing_preserves_readable_fields, SIMSLatentReadout.lossless_storage_can_have_wrong_reader, SIMSLatentReadout.lossy_reader_has_no_history_and_answers_unknown, SIMSLatentReadout.negative_marks_share_reading, SIMSLatentReadout.no_exact_reader_of_ambiguous_observation, SIMSLatentReadout.no_reader_of_the_first_display_is_always_right, SIMSLatentReadout.no_same_record_when_original_absent, SIMSLatentReadout.precisely_three_filed_reader_contradictions, SIMSLatentReadout.present.eq_1, SIMSLatentReadout.quarters_encoding_is_exact_for_these_traces, SIMSLatentReadout.recorded_zero_has_opposite_histories, SIMSLatentReadout.sameRecord._sparseCasesOn_1.else_eq, SIMSLatentReadout.sameRecord.eq_1, SIMSLatentReadout.sameRecord.eq_2, SIMSLatentReadout.same_record_requires_original, SIMSLatentReadout.saved_rubric_matches_recorded_histories, SIMSLatentReadout.signRead.eq_1, SIMSLatentReadout.sign_reading_does_not_determine_mark, SIMSLatentReadout.uninformative_start_keeps_four_equal_weights, SIMSLatentReadout.update.eq_1, SIMSLatentReadout.update_nonnegative, SIMSLatentReadout.update_sums_to_one, SIMSLatentReadout.update_sums_to_one._simp_1_2, SIMSLatentReadout.zero_total_returns_zero, SIMSLatentReadout.zero_weight_stays_zero, Tick41SavedReturns.Return.mk.inj, Tick41SavedReturns.Return.mk.injEq, Tick41SavedReturns.Return.mk.sizeOf_spec, Tick41SavedReturns.instDecidableEqReturn.decEq._proof_1, Tick41SavedReturns.instDecidableEqReturn.decEq._proof_2, Tick41SavedReturns.instDecidableEqReturn.decEq._proof_3, Tick41SavedReturns.instDecidableEqReturn.decEq._proof_4, Tick41SavedReturns.instDecidableEqReturn.decEq._proof_5, Tick41SavedReturns.xCloses.eq_1, Tick41SavedWrite.Side.after.sizeOf_spec, Tick41SavedWrite.Side.before.sizeOf_spec, Tick41SavedWrite.Side.ofNat_ctorIdx, Tick41SavedWrite.Snapshot.mk.inj, Tick41SavedWrite.Snapshot.mk.injEq, Tick41SavedWrite.Snapshot.mk.sizeOf_spec, Tick41SavedWrite.instDecidableEqSide._proof_1, Tick41SavedWrite.instDecidableEqSide._proof_2, TwoMemory.memoryField._proof_1, TwoMemory.recall_eq_tanh, TwoMemory.recall_lipschitz, TwoMemory.unique_memory_trajectory, TwoMemoryTransport.along.eq_1, TwoMemoryTransport.along.eq_2, TwoMemoryTransport.along.eq_def, TwoMemoryTransport.closed_route, TwoMemoryTransport.compose_transport, TwoMemoryTransport.cueCoefficient.eq_1, TwoMemoryTransport.curvature.eq_1, TwoMemoryTransport.endpoints_determine_transport, TwoMemoryTransport.flat_curvature, TwoMemoryTransport.odds.eq_1, TwoMemoryTransport.odds_eq_exp, TwoMemoryTransport.odds_parallel, TwoMemoryTransport.partialDerivative.eq_1, TwoMemoryTransport.plusWeight._proof_1, TwoMemoryTransport.potential._proof_1, TwoMemoryTransport.potential.eq_1, TwoMemoryTransport.readout_from_odds, TwoMemoryTransport.source_free, TwoMemoryTransport.transport.eq_1, TwoMemoryTransport.unit_speed_fails_memory_at_zero, TwoMemoryTransport.update_odds, TwoMemoryTransport.update_odds._simp_1_2, TwoMemoryTransport.yangMillsResidual.eq_1, Volterra.exists_unique_fixed_point, Volterra.exists_unique_solution, Volterra.extend.eq_1, Volterra.extend_continuous, Volterra.extend_val, Volterra.iterate_apply_bound, Volterra.iterate_apply_bound._simp_1_2, Volterra.iterate_bound, Volterra.path_integrable, Volterra.step._proof_1, Volterra.step.congr_simp, Volterra.step_apply, YangMillsCueTest.agree_on_slice, YangMillsCueTest.endpoint_frames_cancel, YangMillsCueTest.endpoint_frames_cancel._simp_1_1, YangMillsCueTest.endpoint_frames_cancel._simp_1_2, YangMillsCueTest.endpoint_frames_cancel._simp_1_3, YangMillsCueTest.endpoint_frames_cancel._simp_1_4, YangMillsCueTest.endpoint_frames_cancel._simp_1_5, YangMillsCueTest.endpoint_frames_cancel._simp_1_6, YangMillsCueTest.endpoint_frames_cancel._simp_1_7, YangMillsCueTest.local_frames_conjugate_loop, YangMillsCueTest.local_frames_conjugate_loop._simp_1_1, YangMillsCueTest.local_frames_conjugate_loop._simp_1_2, YangMillsCueTest.local_frames_conjugate_loop._simp_1_3, YangMillsCueTest.local_frames_conjugate_loop._simp_1_4, YangMillsCueTest.local_frames_conjugate_loop._simp_1_5, YangMillsCueTest.local_frames_conjugate_loop._simp_1_6, YangMillsCueTest.local_frames_conjugate_loop._simp_1_7, YangMillsCueTest.same_data_different_field_equation, YangMillsCueTest.transversePotential._proof_1, YangMillsCueTest.transversePotential.eq_1, YangMillsCueTest.transverse_curvature_column, YangMillsCueTest.transverse_residual, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from PublishedSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 11min 20.284s
+             CPU time consumed: 23min 27.985s
+                   Memory peak: 3.2G (swap: 0B)

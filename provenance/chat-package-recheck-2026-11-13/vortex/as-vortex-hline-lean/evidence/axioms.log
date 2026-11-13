@@ -1,0 +1,5 @@
+'SignedVortex.HLine.hline_both' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedVortex.HLine.hline_xy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedVortex.HLine.hline_yx' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedVortex.HLine.signed_excluded_at_late_times' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedVortex.HLine.no_signed_full_trajectory' depends on axioms: [propext, Classical.choice, Quot.sound]

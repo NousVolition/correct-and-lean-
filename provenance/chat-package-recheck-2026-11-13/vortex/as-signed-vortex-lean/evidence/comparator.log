@@ -1,0 +1,75 @@
+Running as unit: run-p8710-i14266.service
+Building Challenge
+✔ [9369/9372] Built SignedDefinitions (19s)
+✔ [9370/9372] Built TraceDefinitions (23s)
+⚠ [9371/9372] Built Challenge (57s)
+warning: Challenge.lean:13:8: declaration uses `sorry`
+warning: Challenge.lean:16:8: declaration uses `sorry`
+warning: Challenge.lean:19:8: declaration uses `sorry`
+warning: Challenge.lean:23:8: declaration uses `sorry`
+warning: Challenge.lean:29:8: declaration uses `sorry`
+warning: Challenge.lean:33:8: declaration uses `sorry`
+warning: Challenge.lean:44:8: declaration uses `sorry`
+warning: Challenge.lean:50:8: declaration uses `sorry`
+warning: Challenge.lean:60:8: declaration uses `sorry`
+warning: Challenge.lean:72:8: declaration uses `sorry`
+warning: Challenge.lean:77:8: declaration uses `sorry`
+warning: Challenge.lean:81:8: declaration uses `sorry`
+warning: Challenge.lean:94:8: declaration uses `sorry`
+warning: Challenge.lean:105:8: declaration uses `sorry`
+warning: Challenge.lean:109:8: declaration uses `sorry`
+warning: Challenge.lean:113:8: declaration uses `sorry`
+warning: Challenge.lean:117:8: declaration uses `sorry`
+warning: Challenge.lean:122:8: declaration uses `sorry`
+warning: Challenge.lean:132:8: declaration uses `sorry`
+warning: Challenge.lean:138:8: declaration uses `sorry`
+warning: Challenge.lean:142:8: declaration uses `sorry`
+warning: Challenge.lean:149:8: declaration uses `sorry`
+warning: Challenge.lean:156:8: declaration uses `sorry`
+warning: Challenge.lean:170:8: declaration uses `sorry`
+warning: Challenge.lean:177:8: declaration uses `sorry`
+Build completed successfully (9372 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SignedVortex.signed_flat_negative, SignedVortex.scalar_periodic, SignedVortex.scalar_gradient, SignedVortex.balanced_snapshot, SignedVortex.transverse_period, SignedVortex.cutoff_line_obstruction, SignedVortex.balanced_active_shear, SignedVortex.transverse_line_balance, SignedVortex.selected_raw_exterior, SignedVortex.exterior_primitive_positive, SignedVortex.selected_normalization_positive, SignedVortex.native_periodic_curl, SignedVortex.actual_midplane_strip, SignedVortex.shell_weight_is_native, SignedVortex.shell_trace_zero_outside, SignedVortex.shell_trace_positive, SignedVortex.shell_time_relative_bound, SignedVortex.actual_trace_heat_fails, SignedVortex.native_trace_residual_nonzero, SignedVortex.shell_time_is_derivative, SignedVortex.edge_heat_equation_fails, SignedVortex.native_transverse_signal, SignedVortex.pinned_vortex_edge_test, SignedVortex.matching_force_has_zero_loop, SignedVortex.signed_target_excluded_if_line_identified, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from Challenge
+Building Solution
+✔ [9371/9376] Built SignedSolution (33s)
+✔ [9372/9376] Built ExteriorSolution (48s)
+✔ [9373/9376] Built TraceSolution (56s)
+✔ [9374/9376] Built TargetSolution (32s)
+ℹ [9375/9376] Built Solution (24s)
+info: Solution.lean:3:0: 'SignedVortex.signed_flat_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:4:0: 'SignedVortex.scalar_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:5:0: 'SignedVortex.scalar_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:6:0: 'SignedVortex.balanced_snapshot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:7:0: 'SignedVortex.transverse_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:8:0: 'SignedVortex.cutoff_line_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:9:0: 'SignedVortex.balanced_active_shear' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:10:0: 'SignedVortex.transverse_line_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:11:0: 'SignedVortex.selected_raw_exterior' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:12:0: 'SignedVortex.exterior_primitive_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:13:0: 'SignedVortex.selected_normalization_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:14:0: 'SignedVortex.native_periodic_curl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:15:0: 'SignedVortex.actual_midplane_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:16:0: 'SignedVortex.shell_weight_is_native' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:17:0: 'SignedVortex.shell_trace_zero_outside' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:18:0: 'SignedVortex.shell_trace_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:19:0: 'SignedVortex.shell_time_relative_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:20:0: 'SignedVortex.actual_trace_heat_fails' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:21:0: 'SignedVortex.native_trace_residual_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:22:0: 'SignedVortex.shell_time_is_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:23:0: 'SignedVortex.edge_heat_equation_fails' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:24:0: 'SignedVortex.native_transverse_signal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:25:0: 'SignedVortex.pinned_vortex_edge_test' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:26:0: 'SignedVortex.matching_force_has_zero_loop' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:27:0: 'SignedVortex.signed_target_excluded_if_line_identified' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9376 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SignedVortex.signed_flat_negative, SignedVortex.scalar_periodic, SignedVortex.scalar_gradient, SignedVortex.balanced_snapshot, SignedVortex.transverse_period, SignedVortex.cutoff_line_obstruction, SignedVortex.balanced_active_shear, SignedVortex.transverse_line_balance, SignedVortex.selected_raw_exterior, SignedVortex.exterior_primitive_positive, SignedVortex.selected_normalization_positive, SignedVortex.native_periodic_curl, SignedVortex.actual_midplane_strip, SignedVortex.shell_weight_is_native, SignedVortex.shell_trace_zero_outside, SignedVortex.shell_trace_positive, SignedVortex.shell_time_relative_bound, SignedVortex.actual_trace_heat_fails, SignedVortex.native_trace_residual_nonzero, SignedVortex.shell_time_is_derivative, SignedVortex.edge_heat_equation_fails, SignedVortex.native_transverse_signal, SignedVortex.pinned_vortex_edge_test, SignedVortex.matching_force_has_zero_loop, SignedVortex.signed_target_excluded_if_line_identified, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from Solution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 1h 11min 4.780s
+             CPU time consumed: 1h 13min 50.865s
+                   Memory peak: 5.5G (swap: 2.5M)

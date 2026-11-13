@@ -1,0 +1,307 @@
+'ActiveHug.GuardTwoEffects.admittedToA_is_size' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.admittedToB_is_size' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.guard_loss_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.guard_loss_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.guard_response_cannot_tell_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ActiveHug.GuardTwoEffects.guard_response_cannot_tell_positive_motion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ActiveHug.GuardTwoEffects.guard_response_same_after_reversal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ActiveHug.GuardTwoEffects.more_open_guard_admits_more_to_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.more_open_guard_admits_more_to_B' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.more_open_guards_resist_more' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.no_exact_reader_of_any_property' does not depend on any axioms
+'ActiveHug.GuardTwoEffects.one_opening_two_effects' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.response_A_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.response_B_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.reversal_keeps_guard_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.reversal_keeps_guard_update_AB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.reversal_keeps_guard_update_BA' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.reverseMotion.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.strain_ignores_direction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.unitMotion.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Parameters.mk.inj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Parameters.mk.injEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.Parameters.mk.sizeOf_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.State.mk.inj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.State.mk.injEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.State.mk.sizeOf_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.displayShear._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:37:14: warning: `ActiveHug.displayShear._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ActiveHug.protocol._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:38:14: warning: `ActiveHug.protocol._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ActiveHug.protocol._proof_10' depends on axioms: [propext]
+FreshAxioms.lean:39:14: warning: `ActiveHug.protocol._proof_10` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ActiveHug.protocol._proof_11' depends on axioms: [propext]
+FreshAxioms.lean:40:14: warning: `ActiveHug.protocol._proof_11` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ActiveHug.protocol._proof_12' depends on axioms: [propext]
+FreshAxioms.lean:41:14: warning: `ActiveHug.protocol._proof_12` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ActiveHug.protocol._proof_13' depends on axioms: [propext]
+FreshAxioms.lean:42:14: warning: `ActiveHug.protocol._proof_13` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ActiveHug.protocol._proof_14' depends on axioms: [propext]
+FreshAxioms.lean:43:14: warning: `ActiveHug.protocol._proof_14` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ActiveHug.protocol._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:44:14: warning: `ActiveHug.protocol._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ActiveHug.protocol._proof_3' depends on axioms: [propext]
+FreshAxioms.lean:45:14: warning: `ActiveHug.protocol._proof_3` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ActiveHug.protocol._proof_4' depends on axioms: [propext]
+FreshAxioms.lean:46:14: warning: `ActiveHug.protocol._proof_4` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ActiveHug.protocol._proof_5' depends on axioms: [propext]
+FreshAxioms.lean:47:14: warning: `ActiveHug.protocol._proof_5` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ActiveHug.protocol._proof_6' depends on axioms: [propext]
+FreshAxioms.lean:48:14: warning: `ActiveHug.protocol._proof_6` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ActiveHug.protocol._proof_7' depends on axioms: [propext]
+FreshAxioms.lean:49:14: warning: `ActiveHug.protocol._proof_7` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ActiveHug.protocol._proof_8' depends on axioms: [propext]
+FreshAxioms.lean:50:14: warning: `ActiveHug.protocol._proof_8` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ActiveHug.protocol._proof_9' depends on axioms: [propext]
+FreshAxioms.lean:51:14: warning: `ActiveHug.protocol._proof_9` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ActiveHug.strainSignal._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:52:14: warning: `ActiveHug.strainSignal._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'BreathingDriver.amplitude._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:53:14: warning: `BreathingDriver.amplitude._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'BreathingDriver.amplitude_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BreathingDriver.amplitude_repeats' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BreathingDriver.feeds_one_flow_drains_its_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BreathingDriver.full_peak_at_start' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BreathingDriver.full_peak_at_tick_41' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BreathingDriver.no_exact_reader_of_any_property' does not depend on any axioms
+'BreathingDriver.power_reverses_with_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BreathingDriver.push.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BreathingDriver.push_bounded_by_pattern' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BreathingDriver.push_bounded_for_unit_pattern' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BreathingDriver.push_cannot_report_state' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BreathingDriver.push_ignores_state' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BreathingDriver.push_repeats' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BreathingDriver.vector_feeds_one_flow_drains_its_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BreathingDriver.vector_power_reverses_with_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.barrier_is_finite_and_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.boolean_bit_cannot_give_back_the_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.boolean_bit_cannot_recover_margin_accepted_marks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.distinct_marks_same_boolean_bit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.energy._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:73:14: warning: `ClayFabric.energy._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClayFabric.energy_at_a_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.energy_at_the_barrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.energy_has_derivative_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.example_marks_clear_read_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.gradient_at_lower_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.gradient_at_upper_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.heat_is_never_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.imprint_moves_toward_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.kept_shape_cannot_tell_how_hard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.lower_mark_rests' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.mark_moves_while_bit_stays' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.mismatched_strain_moves_lower_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.mismatched_strain_moves_the_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.no_exact_reader_of_any_property' does not depend on any axioms
+'ClayFabric.probe_reads_the_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.probe_reads_the_mark._simp_1_1' depends on axioms: [propext]
+'ClayFabric.probe_reads_the_mark._simp_1_2' depends on axioms: [propext]
+'ClayFabric.probe_reads_the_mark._simp_1_3' depends on axioms: [propext]
+'ClayFabric.probe_reads_the_mark._simp_1_4' depends on axioms: [propext]
+'ClayFabric.probe_reads_the_mark._simp_1_5' depends on axioms: [propext]
+'ClayFabric.probe_reads_the_mark._simp_1_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.probe_reads_the_mark._simp_1_7' depends on axioms: [propext]
+'ClayFabric.retained.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.settling_energy_rate_nonpositive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.settling_turns_energy_into_heat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.signRead.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.storedBit.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.stored_bit_cannot_give_back_the_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.upper_mark_rests' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayFabric.wellEnergy._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:103:14: warning: `ClayFabric.wellEnergy._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClayFabric.wellEnergy.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClayMemoryInstance.Group.mk.inj' does not depend on any axioms
+'ClayMemoryInstance.Group.mk.injEq' depends on axioms: [propext]
+'ClayMemoryInstance.Group.mk.sizeOf_spec' does not depend on any axioms
+'ClayMemoryInstance.different_past_stress' depends on axioms: [propext, Quot.sound]
+'ClayMemoryInstance.every_group_has_distinct_rows' does not depend on any axioms
+'ClayMemoryInstance.every_group_has_distinct_rows._proof_1_1' does not depend on any axioms
+'ClayMemoryInstance.every_group_has_two_histories' does not depend on any axioms
+'ClayMemoryInstance.every_group_has_two_histories._proof_1_1' does not depend on any axioms
+'ClayMemoryInstance.four_kPa_pair' does not depend on any axioms
+'ClayMemoryInstance.four_kPa_pair._proof_1_1' does not depend on any axioms
+'ClayMemoryInstance.group_count' does not depend on any axioms
+'ClayMemoryInstance.group_count._proof_1_1' does not depend on any axioms
+'ClayMemoryInstance.instDecidableEqGroup.decEq._proof_1' does not depend on any axioms
+FreshAxioms.lean:117:14: warning: `ClayMemoryInstance.instDecidableEqGroup.decEq._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClayMemoryInstance.instDecidableEqGroup.decEq._proof_2' does not depend on any axioms
+FreshAxioms.lean:118:14: warning: `ClayMemoryInstance.instDecidableEqGroup.decEq._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClayMemoryInstance.instDecidableEqGroup.decEq._proof_3' does not depend on any axioms
+FreshAxioms.lean:119:14: warning: `ClayMemoryInstance.instDecidableEqGroup.decEq._proof_3` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClayMemoryInstance.instDecidableEqGroup.decEq._proof_4' does not depend on any axioms
+FreshAxioms.lean:120:14: warning: `ClayMemoryInstance.instDecidableEqGroup.decEq._proof_4` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClayMemoryInstance.instDecidableEqGroup.decEq._proof_5' does not depend on any axioms
+FreshAxioms.lean:121:14: warning: `ClayMemoryInstance.instDecidableEqGroup.decEq._proof_5` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClayMemoryInstance.instDecidableEqGroup.decEq._proof_6' does not depend on any axioms
+FreshAxioms.lean:122:14: warning: `ClayMemoryInstance.instDecidableEqGroup.decEq._proof_6` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'ClayMemoryInstance.no_exact_reader_of_any_property' does not depend on any axioms
+'ClayMemoryInstance.present_stress_cannot_give_past_stress' depends on axioms: [propext, Quot.sound]
+'ClayMemoryInstance.present_values_are_distinct' does not depend on any axioms
+'ClayMemoryInstance.present_values_are_distinct._proof_1_1' does not depend on any axioms
+'ClayMemoryInstance.same_present_stress' does not depend on any axioms
+'FabricMemory.Instant.afterSecondWrite.sizeOf_spec' does not depend on any axioms
+'FabricMemory.Instant.beforeThirdWrite.sizeOf_spec' does not depend on any axioms
+'FabricMemory.Instant.ofNat_ctorIdx' does not depend on any axioms
+'FabricMemory.barrier_is_refused' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FabricMemory.barrier_is_refused._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FabricMemory.cell_zero_moved' does not depend on any axioms
+'FabricMemory.cell_zero_moved._proof_1_1' does not depend on any axioms
+'FabricMemory.decoded_records_cannot_give_the_marks' does not depend on any axioms
+'FabricMemory.denominator_is_a_power_of_two' does not depend on any axioms
+'FabricMemory.denominator_is_a_power_of_two._proof_1_1' does not depend on any axioms
+'FabricMemory.every_cell_moved_and_no_bit_flipped' does not depend on any axioms
+'FabricMemory.full_fabric_refuses' depends on axioms: [propext, Quot.sound]
+'FabricMemory.instDecidableEqInstant._proof_1' does not depend on any axioms
+FreshAxioms.lean:140:14: warning: `FabricMemory.instDecidableEqInstant._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'FabricMemory.instDecidableEqInstant._proof_2' does not depend on any axioms
+FreshAxioms.lean:141:14: warning: `FabricMemory.instDecidableEqInstant._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'FabricMemory.layout' does not depend on any axioms
+'FabricMemory.lower_mark_reads_zero' depends on axioms: [propext, Quot.sound]
+'FabricMemory.lower_mark_reads_zero._proof_1_1' depends on axioms: [propext, Quot.sound]
+'FabricMemory.lower_mark_reads_zero._proof_1_2' depends on axioms: [propext, Quot.sound]
+'FabricMemory.no_exact_reader_of_any_property' does not depend on any axioms
+'FabricMemory.repeated_event_is_refused' depends on axioms: [propext, Quot.sound]
+'FabricMemory.same_records_decoded' does not depend on any axioms
+'FabricMemory.the_three_writes_and_the_limit' depends on axioms: [propext, Quot.sound]
+'FabricMemory.third_write_touched_exactly_one_slot' does not depend on any axioms
+'FabricMemory.upper_mark_reads_one' depends on axioms: [propext, Quot.sound]
+'FabricMemory.upper_mark_reads_one._proof_1_1' depends on axioms: [propext, Quot.sound]
+'FabricMemory.write.eq_1' depends on axioms: [propext, Quot.sound]
+'FabricMemory.write_keeps_every_record' depends on axioms: [propext, Quot.sound]
+'Hug.State.mk.inj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.State.mk.injEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.State.mk.sizeOf_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hug.breathingCoefficient._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:158:14: warning: `Hug.breathingCoefficient._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Hug.breathingCoefficient._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:159:14: warning: `Hug.breathingCoefficient._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Hug.breathingCoefficient._proof_3' depends on axioms: [propext]
+FreshAxioms.lean:160:14: warning: `Hug.breathingCoefficient._proof_3` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Hug.breathingCoefficient._proof_4' depends on axioms: [propext]
+FreshAxioms.lean:161:14: warning: `Hug.breathingCoefficient._proof_4` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Hug.memoryTau._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:162:14: warning: `Hug.memoryTau._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Hug.memoryTau._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:163:14: warning: `Hug.memoryTau._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Hug.quintic._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:164:14: warning: `Hug.quintic._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Hug.quintic._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:165:14: warning: `Hug.quintic._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Hug.quintic._proof_3' depends on axioms: [propext]
+FreshAxioms.lean:166:14: warning: `Hug.quintic._proof_3` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'Hug.timedPulse._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:167:14: warning: `Hug.timedPulse._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'PressureBlindToBreathing.a_divergence_free_push_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PressureBlindToBreathing.dot._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:169:14: warning: `PressureBlindToBreathing.dot._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'PressureBlindToBreathing.dot.eq_1' depends on axioms: [propext, Quot.sound]
+'PressureBlindToBreathing.dot_add' depends on axioms: [propext, Quot.sound]
+'PressureBlindToBreathing.dot_zero' depends on axioms: [propext, Quot.sound]
+'PressureBlindToBreathing.no_exact_reader_of_any_property' does not depend on any axioms
+'PressureBlindToBreathing.pressureMode.eq_1' depends on axioms: [propext, Quot.sound]
+'PressureBlindToBreathing.pressure_cannot_read_breathing_switch' depends on axioms: [propext, Quot.sound]
+'PressureBlindToBreathing.pressure_cannot_tell_whether_breathing_is_on' depends on axioms: [propext, Quot.sound]
+'PressureBlindToBreathing.pressure_ignores_divergence_free_push' depends on axioms: [propext, Quot.sound]
+'PressureBlindToBreathing.projectMode.eq_1' depends on axioms: [propext, Quot.sound]
+'PressureBlindToBreathing.projected_rate_is_divergence_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PressureBlindToBreathing.projected_rate_is_divergence_free._simp_1_3' depends on axioms: [propext]
+'PressureBlindToBreathing.projected_rate_is_divergence_free._simp_1_4' depends on axioms: [propext]
+'PressureBlindToBreathing.projected_rate_is_divergence_free._simp_1_5' depends on axioms: [propext]
+'PressureBlindToBreathing.projected_rate_is_divergence_free._simp_1_6' depends on axioms: [propext]
+'PressureBlindToBreathing.projected_rate_is_divergence_free._simp_1_7' depends on axioms: [propext]
+'PressureBlindToBreathing.projected_rate_is_divergence_free._simp_1_8' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PressureBlindToBreathing.projected_rate_is_divergence_free._simp_1_9' depends on axioms: [propext]
+'PressureBlindToBreathing.projected_rate_is_divergence_free_including_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PressureBlindToBreathing.projection_fixes_divergence_free_push' depends on axioms: [propext, Quot.sound]
+'PressureBlindToBreathing.projection_passes_divergence_free_push' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PressureBlindToBreathing.zero_mode_pressure' depends on axioms: [propext, Quot.sound]
+'PressureBlindToBreathing.zero_mode_projection' depends on axioms: [propext, Quot.sound]

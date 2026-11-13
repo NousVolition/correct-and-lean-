@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "NavierStokesAndEuler": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+    "Comparator": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+    "mathlib": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+    "lean4export": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+    "plausible": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+    "LeanSearchClient": "ba67e212be1197b84c1f1f6299488a10a3002713",
+    "importGraph": "d8823026ac7ef130c253089d95685f9877b95323",
+    "proofwidgets": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+    "aesop": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+    "Qq": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+    "batteries": "d54dddc581e08be364c278052863524bff7a99a9",
+    "Cli": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af"
+  },
+  "files": {
+    "SignedDefinitions.lean": "085842badbc2b5d75e7749e24766a02ccc21f3cb7b3e638a6c1a4b6534cf79c8",
+    "TraceDefinitions.lean": "c04f8772aad05229fa4cbc35451ea05907ef82cf12e7c094a0579c29222a3bd0",
+    "SignedSolution.lean": "12a68f895af3bb8acdd5fa90c818c8b63024d1fe8ec5d4b5086684686eaa5b5f",
+    "ExteriorSolution.lean": "a9955dd4124841f1464e9979515b08c6d33bc2f730f267302eafbec5b2138e8d",
+    "TraceSolution.lean": "6252770325cd4025a58c3a1313ec9ccf14aac5ef6171eeef55d82e5db9f3cbbc",
+    "TargetSolution.lean": "c49fc232b620b11b99dd9f6ff0b891aa1727a2b7f3e4dbf8955ff6c985f55a84",
+    "Solution.lean": "d1645137bcbd338aa73740ca00f25192f2a2fade35ea0e314fdd616daba7076c",
+    "Challenge.lean": "41d91973d3d8d44b6f1e21773c6b224fdf17fc19bb9d90b83e5ddc0307ff1fdf",
+    "lakefile.toml": "0d1ce7b9acb6196b830e6bc7246cac226f97b3d843e77d5ca2f5aa296e3c444e",
+    "lake-manifest.json": "b6b63c57387fddcc98e260d7eb05cfde0c55c096e911b83e9bd3373fb21c3258",
+    "lean-toolchain": "b563246bde88bad741a3fe1c6b126ad8dab470340d55ac3e97cca9b3f200878b",
+    "comparator.json": "455088d99469a30516426a61b34ec4b05b112caf88359f3ccb37bf61ea2fe44d"
+  }
+}

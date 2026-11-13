@@ -1,0 +1,976 @@
+{
+  "files": {
+    "energy/as-total-energy-audit/ASCounterexample.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "d1334ab2e3f918b7c24c9260f73ea6ac7cd3c54568c1e137a5c795655581fd9c"
+    },
+    "energy/carrying-gravity-energy/ASCounterexample.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "d1334ab2e3f918b7c24c9260f73ea6ac7cd3c54568c1e137a5c795655581fd9c"
+    },
+    "energy/as-total-energy-audit/EnergyAccounting.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "d24e1c6fb0e00c35b93614c4ebd228d01e34e905b9cbfd1e3fb75de673347935"
+    },
+    "energy/carrying-gravity-energy/EnergyAccounting.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "d24e1c6fb0e00c35b93614c4ebd228d01e34e905b9cbfd1e3fb75de673347935"
+    },
+    "energy/full-carrying-energy/EnergyAccounting.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "d24e1c6fb0e00c35b93614c4ebd228d01e34e905b9cbfd1e3fb75de673347935"
+    },
+    "energy/gravity-storage-derivation/EnergyAccounting.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "d24e1c6fb0e00c35b93614c4ebd228d01e34e905b9cbfd1e3fb75de673347935"
+    },
+    "energy/s-gradient-energy/EnergyAccounting.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "d24e1c6fb0e00c35b93614c4ebd228d01e34e905b9cbfd1e3fb75de673347935"
+    },
+    "energy/unwrapped-carrying-history/EnergyAccounting.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "d24e1c6fb0e00c35b93614c4ebd228d01e34e905b9cbfd1e3fb75de673347935"
+    },
+    "energy/as-total-energy-audit/FullModel.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723"
+    },
+    "energy/carrying-gravity-energy/FullModel.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723"
+    },
+    "energy/full-carrying-energy/FullModel.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723"
+    },
+    "energy/gravity-storage-derivation/FullModel.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723"
+    },
+    "energy/hug-source-energy-connection/FullModel.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723"
+    },
+    "energy/s-gradient-energy/FullModel.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723"
+    },
+    "energy/unforced-energy-lean/FullModel.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723"
+    },
+    "energy/unwrapped-carrying-history/FullModel.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723"
+    },
+    "energy/as-total-energy-audit/OriginalAS.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5"
+    },
+    "energy/carrying-gravity-energy/OriginalAS.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5"
+    },
+    "energy/full-carrying-energy/OriginalAS.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5"
+    },
+    "energy/gravity-storage-derivation/OriginalAS.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5"
+    },
+    "energy/hug-source-energy-connection/OriginalAS.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5"
+    },
+    "energy/s-gradient-energy/OriginalAS.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5"
+    },
+    "energy/unforced-energy-lean/OriginalAS.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5"
+    },
+    "energy/unwrapped-carrying-history/OriginalAS.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5"
+    },
+    "energy/as-total-energy-audit/OriginalASBalance.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "021dae51630c16ff71e28af127f5883ba19ae243a9331bc54d3545b21124a750"
+    },
+    "energy/carrying-gravity-energy/OriginalASBalance.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "021dae51630c16ff71e28af127f5883ba19ae243a9331bc54d3545b21124a750"
+    },
+    "energy/full-carrying-energy/OriginalASBalance.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "021dae51630c16ff71e28af127f5883ba19ae243a9331bc54d3545b21124a750"
+    },
+    "energy/gravity-storage-derivation/OriginalASBalance.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "021dae51630c16ff71e28af127f5883ba19ae243a9331bc54d3545b21124a750"
+    },
+    "energy/hug-source-energy-connection/OriginalASBalance.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "021dae51630c16ff71e28af127f5883ba19ae243a9331bc54d3545b21124a750"
+    },
+    "energy/s-gradient-energy/OriginalASBalance.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "021dae51630c16ff71e28af127f5883ba19ae243a9331bc54d3545b21124a750"
+    },
+    "energy/unforced-energy-lean/OriginalASBalance.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "021dae51630c16ff71e28af127f5883ba19ae243a9331bc54d3545b21124a750"
+    },
+    "energy/unwrapped-carrying-history/OriginalASBalance.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "021dae51630c16ff71e28af127f5883ba19ae243a9331bc54d3545b21124a750"
+    },
+    "energy/as-total-energy-audit/OriginalASEnergy.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c583ee0c2b02d59fa5880f6d3429b38e0be8d0394b5d1dae4ca15c101cbf3f52"
+    },
+    "energy/carrying-gravity-energy/OriginalASEnergy.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c583ee0c2b02d59fa5880f6d3429b38e0be8d0394b5d1dae4ca15c101cbf3f52"
+    },
+    "energy/full-carrying-energy/OriginalASEnergy.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c583ee0c2b02d59fa5880f6d3429b38e0be8d0394b5d1dae4ca15c101cbf3f52"
+    },
+    "energy/gravity-storage-derivation/OriginalASEnergy.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c583ee0c2b02d59fa5880f6d3429b38e0be8d0394b5d1dae4ca15c101cbf3f52"
+    },
+    "energy/hug-source-energy-connection/OriginalASEnergy.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c583ee0c2b02d59fa5880f6d3429b38e0be8d0394b5d1dae4ca15c101cbf3f52"
+    },
+    "energy/s-gradient-energy/OriginalASEnergy.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c583ee0c2b02d59fa5880f6d3429b38e0be8d0394b5d1dae4ca15c101cbf3f52"
+    },
+    "energy/unforced-energy-lean/OriginalASEnergy.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c583ee0c2b02d59fa5880f6d3429b38e0be8d0394b5d1dae4ca15c101cbf3f52"
+    },
+    "energy/unwrapped-carrying-history/OriginalASEnergy.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c583ee0c2b02d59fa5880f6d3429b38e0be8d0394b5d1dae4ca15c101cbf3f52"
+    },
+    "energy/as-total-energy-audit/OriginalASIntegrated.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "f3b2c146ef848086ed57f7f1cb18956a78241a667e099d1ad78da1ce1bcd888e"
+    },
+    "energy/carrying-gravity-energy/OriginalASIntegrated.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "f3b2c146ef848086ed57f7f1cb18956a78241a667e099d1ad78da1ce1bcd888e"
+    },
+    "energy/full-carrying-energy/OriginalASIntegrated.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "f3b2c146ef848086ed57f7f1cb18956a78241a667e099d1ad78da1ce1bcd888e"
+    },
+    "energy/gravity-storage-derivation/OriginalASIntegrated.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "f3b2c146ef848086ed57f7f1cb18956a78241a667e099d1ad78da1ce1bcd888e"
+    },
+    "energy/hug-source-energy-connection/OriginalASIntegrated.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "f3b2c146ef848086ed57f7f1cb18956a78241a667e099d1ad78da1ce1bcd888e"
+    },
+    "energy/s-gradient-energy/OriginalASIntegrated.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "f3b2c146ef848086ed57f7f1cb18956a78241a667e099d1ad78da1ce1bcd888e"
+    },
+    "energy/unforced-energy-lean/OriginalASIntegrated.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "f3b2c146ef848086ed57f7f1cb18956a78241a667e099d1ad78da1ce1bcd888e"
+    },
+    "energy/unwrapped-carrying-history/OriginalASIntegrated.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "f3b2c146ef848086ed57f7f1cb18956a78241a667e099d1ad78da1ce1bcd888e"
+    },
+    "energy/as-total-energy-audit/TotalEnergyAudit.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "0501b2465800d91ef47f74abe5c50f4c498c6cfd6dd1dc54907578c2dbe400ab"
+    },
+    "energy/as-total-energy-audit/ViscousHeat.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "7563c883bfbf564f3692ccc4e5cb4b35092332762b0724ac9fdbe6b29a828393"
+    },
+    "energy/carrying-gravity-energy/CarryingGravity.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "e72ba3c146b36b7944e17b4a23efd65d0d32e43bfc12aac54473ce1e5b485d8d"
+    },
+    "energy/carrying-gravity-energy/GravityAudit.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "cf3f68e777d45bfb9f5bdc0779361db1fefabac850537b59b59f58116ac2211b"
+    },
+    "energy/carrying-history-G/HistoryRequirement.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "14ee9f2c8bb136a6574adea8db973277613e636c22c4d6a60235fcc3cfc8a9ff"
+    },
+    "energy/carrying-history-G/HistoryRequirementAudit.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "7288582b127cc3d98ae68af10d7fdea73d8254e19326437b708e386f3508bdd1"
+    },
+    "energy/full-carrying-energy/FullCarrying.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "4f3a0e22fe7708c32abf47f833e6ec9f208b57aa65bab57f8fd8af0f7f141cfb"
+    },
+    "energy/s-gradient-energy/FullCarrying.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "4f3a0e22fe7708c32abf47f833e6ec9f208b57aa65bab57f8fd8af0f7f141cfb"
+    },
+    "energy/full-carrying-energy/FullCarryingAudit.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "a5f36056266a5c4f7295a2863f9399da4d8750d192411cfdca469c67c0c5b7eb"
+    },
+    "energy/full-carrying-energy/StorageRequirements.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "63b3834a6bf3525e395846dd297f3488791e6426aaa72df13f179e0f6dc28524"
+    },
+    "energy/gravity-storage-derivation/StorageRequirements.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "63b3834a6bf3525e395846dd297f3488791e6426aaa72df13f179e0f6dc28524"
+    },
+    "energy/s-gradient-energy/StorageRequirements.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "63b3834a6bf3525e395846dd297f3488791e6426aaa72df13f179e0f6dc28524"
+    },
+    "energy/gravity-storage-derivation/StorageAudit.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "ed2f45d8be476a34517a14cdf4f884383c6f48c37c32d0efd6914b5ed07a5527"
+    },
+    "energy/hug-source-energy-connection/ConnectionAudit.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "d002e0f96fdf1b70e849d5d5222bd9326ea77dae2eb427b983c752767b40a044"
+    },
+    "energy/hug-source-energy-connection/MaterialConfiguration.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "9a21207513f8c1ca12a60faa45d6e27ac8b1cfc9836b6d70c2a46ad56dca130a"
+    },
+    "energy/hug-source-energy-connection/RecordEnergyConnection.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "5fbf0203b515cbf6944100c1a569d9ba98517e2b55d057f07590d1b7ea350c81"
+    },
+    "energy/paired-context-energy/PairContext.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "afdb8c18f28a3f569ee536bc84e82d7eb6ebc73beb76b3c78b32edfc7b45c518"
+    },
+    "energy/paired-context-energy/PairContextAudit.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "e783bf6d36c38b0e5bf7b7f848a31bc76a997d2acebd3652ea11aa09b8696729"
+    },
+    "energy/s-gradient-energy/GradientStorage.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "beac9bd571b1a455c1513b883983b480ac7a030a7dee3dec3ba38399bdd0d68e"
+    },
+    "energy/s-gradient-energy/GradientStorageAudit.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "c6bbc9bcb2107e2c48ae5242c7080ca28734567362dfc8100102a47fe7028165"
+    },
+    "energy/unforced-energy-lean/ProofAudit.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "86e97b2b018313a0e1d8eaedc0977f8247d64c07f0935befb6e6f3eb62a17215"
+    },
+    "energy/unwrapped-carrying-history/HistoryAudit.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "6645addd98da91576dc6b5342787a5e8bcbc8a61dd9206fe7a0a1309829db26f"
+    },
+    "energy/unwrapped-carrying-history/UnwrappedWork.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-as/record.json",
+      "module_sha256": "bbe009f0db633c967cb8b5c5baf587cc35f00091538fd2fc781840b23cb56064"
+    },
+    "energy/hug-lean-proofs/ActiveHugModel.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-hug/record.json",
+      "module_sha256": "be9d734610480ae9376bfd38b287c2bb9b7758cb50e29109bcf26656a7885f19"
+    },
+    "energy/hug-lean-proofs/BreathingDriver.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-hug/record.json",
+      "module_sha256": "6e5cb872581f7fa437861b8eb3da25d6733aeff2045235981262d1884798b48f"
+    },
+    "energy/hug-lean-proofs/ClayFabric.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-hug/record.json",
+      "module_sha256": "702bee064bdee1797ec24351a6194841b3b5efc631f52cd1ee9a4feaa8ec4e54"
+    },
+    "energy/hug-lean-proofs/ClayMemoryInstance.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-hug/record.json",
+      "module_sha256": "e6caf3155eba474e9771e88fae9edce4ce2039ca4820003627413e7c0f4e85d9"
+    },
+    "energy/hug-lean-proofs/FabricMemory.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-hug/record.json",
+      "module_sha256": "5b7a9742d85c77963ef423b0ec79347c25d9ce6ecdc1abe7ad36e7177d84c4c7"
+    },
+    "energy/hug-lean-proofs/GuardTwoEffects.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-hug/record.json",
+      "module_sha256": "37f13d3eff0eb9aff1ccd9c0750fc68a66c0f732cc782040865a6c60884df1c8"
+    },
+    "energy/hug-lean-proofs/HugModel.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-hug/record.json",
+      "module_sha256": "6a79142d5fa42642bc47a0246f62b4ab89d0c07ba6257fd0d41e39d6f89b61f5"
+    },
+    "energy/hug-lean-proofs/PressureBlindToBreathing.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-hug/record.json",
+      "module_sha256": "4457eb70cc0be8a2b6ae31cb75812acdb98fc99725b61e40d4d8705e849c9473"
+    },
+    "energy/hug-lean-proofs/ProofAudit.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/energy-hug/record.json",
+      "module_sha256": "8ab5ba14b4a26eafb635d4a4e28b6bb60d062c5324abaf8e04f8224a0c1d666b"
+    },
+    "geometry/SIMS rational readout check/corrected/SIMSLatentReadout.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-rational/record.json",
+      "module_sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4"
+    },
+    "geometry/Ambiguity theorem checks/lean/AmbiguityInstances.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "e20702c336f3b4fc31a75f3c1ed8fd201340c0b82fb898303dd0197e2ea30321"
+    },
+    "geometry/Ambiguity theorem checks/lean/SIMSLatentReadout.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4"
+    },
+    "geometry/Closest point ambiguity/lean/SIMSLatentReadout.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4"
+    },
+    "geometry/Closest point and paddle wheel/lean/SIMSLatentReadout.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4"
+    },
+    "geometry/History proof completion/lean/SIMSLatentReadout.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4"
+    },
+    "geometry/Same particle history/lean/SIMSLatentReadout.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4"
+    },
+    "geometry/Swirl without return/lean/SIMSLatentReadout.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4"
+    },
+    "geometry/Ambiguity theorem checks/lean/Tick41SavedReturns.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "8c538750548d8b287d4546c4ffc6f2bc5cf56487c862e1c1283b9e77cd007cd4"
+    },
+    "geometry/Ambiguity theorem checks/lean/Tick41SavedWrite.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "3b9078f6c7bbf521e9a6b45b513915dbf2416c1816ca231f472dfdb287e80445"
+    },
+    "geometry/Ambiguity theorem checks/lean/TwoMemory.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "d3d4384654c08975f55dcb4ec86db3830e0b8fe0b5f609b695721056aba0880a"
+    },
+    "geometry/Ambiguity theorem checks/lean/TwoMemoryTransport.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "b8681a3435b2367081d285fb83e7964a9ce5d2f7d0c9de07b87c798638a5d36e"
+    },
+    "geometry/Ambiguity theorem checks/lean/Volterra.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "26906df3b92869c297524e14c09b8bb5c15d6de60f8e7b0dbd93785d759f0952"
+    },
+    "geometry/Ambiguity theorem checks/lean/YangMillsCueTest.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "87c9d1ee4128bfcb025f8760435e592a12136ce44e159cf41085ecb7ac010c2c"
+    },
+    "geometry/Closest point ambiguity/lean/ClosestPointGeometry.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "5a4b73a2d788e5e600b4cec8a73707a47d4fd42cc26e1f592be79e245862e5ed"
+    },
+    "geometry/Closest point and paddle wheel/lean/ClosestPointGeometry.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "5a4b73a2d788e5e600b4cec8a73707a47d4fd42cc26e1f592be79e245862e5ed"
+    },
+    "geometry/Swirl without return/lean/ClosestPointGeometry.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "5a4b73a2d788e5e600b4cec8a73707a47d4fd42cc26e1f592be79e245862e5ed"
+    },
+    "geometry/Closest point ambiguity/lean/PeriodicNavierStokes.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "6f0541f30f12cb69866139d1d1c48369a6bdbab6208af9d6befbf432e21dcc2b"
+    },
+    "geometry/Closest point and paddle wheel/lean/PeriodicNavierStokes.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "6f0541f30f12cb69866139d1d1c48369a6bdbab6208af9d6befbf432e21dcc2b"
+    },
+    "geometry/Swirl without return/lean/PeriodicNavierStokes.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "6f0541f30f12cb69866139d1d1c48369a6bdbab6208af9d6befbf432e21dcc2b"
+    },
+    "geometry/Closest point ambiguity/lean/Tick41ClosestPointInstance.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "7f63c9f5ed427537220cef1a9ee2d7e28e53dc4e599794be5fe7c4e87324d3b1"
+    },
+    "geometry/Closest point and paddle wheel/lean/MatchingPaddleFluid.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "bbb4f25936857bb79611ae57584aba75ebab7272a4d84ea5d53af591dc50d243"
+    },
+    "geometry/Closest point and paddle wheel/lean/MatchingPaddleInstance.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "91a67b6f288751cfa7e116cdb1ccdac89a32eaaaedcda28cb8ffe3702c38d3ee"
+    },
+    "geometry/Closest point and paddle wheel/lean/MatchingPaddleLines.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "c393e5a3de1d34d508ad34e86bd7fd8771945d3c6807f2154eedc7a6a2af96f0"
+    },
+    "geometry/History proof completion/lean/HistoryCompletionTarget.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "1fc35437744f650c50b5f63085b2b43e9818e18f245cda6ffedb54c316448672"
+    },
+    "geometry/History proof completion/lean/HistoryMatchCore.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "9b8addd9ac4af97c34d02281b98ba6182017e0fd3a8dfc8957178d3181a806ea"
+    },
+    "geometry/Same particle history/lean/HistoryMatchCore.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "9b8addd9ac4af97c34d02281b98ba6182017e0fd3a8dfc8957178d3181a806ea"
+    },
+    "geometry/History proof completion/lean/HistoryParameterSelection.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "d9c9c3f49ecacf9631f23d171957241efaa334dc53cf9155b9a71f52495c451b"
+    },
+    "geometry/History proof completion/lean/HistoryPlanarBase.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "d75fe7c784c2a78acbe725ea904dffd6ef4c35003ae4c54a3f005c25047b0234"
+    },
+    "geometry/History proof completion/lean/HistoryScalarLift.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "6eca01c3652bef5658dfd119aa4fa9cd22c5b783c75457d62c6cb334a5f3169f"
+    },
+    "geometry/Swirl without return/lean/WindingCurve.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "9d82db519fd055d5d0b6df7cd51475230785c77d4a590d50667fb03b84fa511c"
+    },
+    "geometry/Swirl without return/lean/WindingField.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "75723e6336376a7d34057a0b1355795ac6c47df50bcf16d18d601d5926fbbf8b"
+    },
+    "geometry/Swirl without return/lean/WindingFluid.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "4b3c6917cd028b9a1e7ec98665629ae90c7e6057d30eee1f404cf803e036d5e1"
+    },
+    "geometry/Swirl without return/lean/WindingInstance.lean": {
+      "kind": "current module, fresh build and configured Comparator replay",
+      "status": "PASS",
+      "evidence": "generic/geometry-real/record.json",
+      "module_sha256": "2e3cde5be3fcee37d41c54ab65e5de2012df667e0ed6fc709e043db56770c4c4"
+    },
+    "vortex/as-signed-vortex-lean/SignedDefinitions.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-signed-vortex-lean/record.json",
+      "module_sha256": "085842badbc2b5d75e7749e24766a02ccc21f3cb7b3e638a6c1a4b6534cf79c8"
+    },
+    "vortex/as-signed-vortex-lean/TraceDefinitions.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-signed-vortex-lean/record.json",
+      "module_sha256": "c04f8772aad05229fa4cbc35451ea05907ef82cf12e7c094a0579c29222a3bd0"
+    },
+    "vortex/as-signed-vortex-lean/SignedSolution.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-signed-vortex-lean/record.json",
+      "module_sha256": "12a68f895af3bb8acdd5fa90c818c8b63024d1fe8ec5d4b5086684686eaa5b5f"
+    },
+    "vortex/as-signed-vortex-lean/ExteriorSolution.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-signed-vortex-lean/record.json",
+      "module_sha256": "a9955dd4124841f1464e9979515b08c6d33bc2f730f267302eafbec5b2138e8d"
+    },
+    "vortex/as-signed-vortex-lean/TraceSolution.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-signed-vortex-lean/record.json",
+      "module_sha256": "6252770325cd4025a58c3a1313ec9ccf14aac5ef6171eeef55d82e5db9f3cbbc"
+    },
+    "vortex/as-signed-vortex-lean/TargetSolution.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-signed-vortex-lean/record.json",
+      "module_sha256": "c49fc232b620b11b99dd9f6ff0b891aa1727a2b7f3e4dbf8955ff6c985f55a84"
+    },
+    "vortex/as-signed-vortex-lean/Solution.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-signed-vortex-lean/record.json",
+      "module_sha256": "d1645137bcbd338aa73740ca00f25192f2a2fade35ea0e314fdd616daba7076c"
+    },
+    "vortex/as-signed-vortex-lean/Challenge.lean": {
+      "kind": "trusted original Challenge",
+      "status": "REFERENCE",
+      "evidence": "vortex/as-signed-vortex-lean/record.json",
+      "module_sha256": "41d91973d3d8d44b6f1e21773c6b224fdf17fc19bb9d90b83e5ddc0307ff1fdf"
+    },
+    "vortex/as-vortex-edge-control-lean/EdgeControlChallenge.lean": {
+      "kind": "trusted original Challenge",
+      "status": "REFERENCE",
+      "evidence": "vortex/as-vortex-edge-control-lean/record.json",
+      "module_sha256": "a7413b67b10a19a1042c0c7d0228898a629deb9c173409eb2c34b136e42ad3e0"
+    },
+    "vortex/as-vortex-edge-control-lean/EdgeControlExterior.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-edge-control-lean/record.json",
+      "module_sha256": "5effe4cfc88521ddd8993b40553ea47406b49cbecaf796257997a23b40a52bc6"
+    },
+    "vortex/as-vortex-edge-control-lean/EdgeControlNative.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-edge-control-lean/record.json",
+      "module_sha256": "d1907e894da76c69bbd6bd45480fc5c6738e6e052e1b8595a138790278590afa"
+    },
+    "vortex/as-vortex-edge-control-lean/EdgeControlProofs.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-edge-control-lean/record.json",
+      "module_sha256": "dae792f175038f21f5d3ae75a3794d42082e1d271cc7b79e404f2b93f1c6123d"
+    },
+    "vortex/as-vortex-edge-control-lean/EdgeControlSolution.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-edge-control-lean/record.json",
+      "module_sha256": "2c607b41159b68bd650ddfaf173c4bee4d7ccdf8c5b367aaaa4f4a58947968e2"
+    },
+    "vortex/as-vortex-edge-control-lean/EdgeControlStatements.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-edge-control-lean/record.json",
+      "module_sha256": "66cb4eb98fa3095c02a4c0029a1c5a75f59b142eeaac06e79f01264ed70f5dbd"
+    },
+    "vortex/as-vortex-edge-control-lean/time-check/TemporalChallenge.lean": {
+      "kind": "trusted original Challenge",
+      "status": "REFERENCE",
+      "evidence": "vortex/as-vortex-edge-control-lean--time-check/record.json",
+      "module_sha256": "0c7ac8eefdab564f8794a84d7fec64eab25df1866c42e41b8f8914474d6c0618"
+    },
+    "vortex/as-vortex-edge-control-lean/time-check/TemporalProofs.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-edge-control-lean--time-check/record.json",
+      "module_sha256": "7b7694a5d96d54fe3934c5b22be133042e176dc4e9b8d9f039cf55caa0318f27"
+    },
+    "vortex/as-vortex-edge-control-lean/time-check/TemporalSolution.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-edge-control-lean--time-check/record.json",
+      "module_sha256": "da2c160f35aaf8d83ed067d78be514d0a6eba593d760adbe00f17cc61913f1f7"
+    },
+    "vortex/as-vortex-edge-control-lean/time-check/TemporalStatements.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-edge-control-lean--time-check/record.json",
+      "module_sha256": "6ba791e40ad77d5c0fbbd9671d3dad3e481db8c8ee3f2299a7c612556004e9d4"
+    },
+    "vortex/as-vortex-hline-lean/HLineStatements.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-hline-lean/record.json",
+      "module_sha256": "5598193fdc2184920e1c8a9196e3fdae3c29a7bafc7b5a678d732a4c44433a6c"
+    },
+    "vortex/as-vortex-hline-lean/HLineCalculus.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-hline-lean/record.json",
+      "module_sha256": "09bf647f9c42f3e64efba4e913342473a7c3d5b1dac55bf47f7121bd4e3f2c74"
+    },
+    "vortex/as-vortex-hline-lean/HLineOperator.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-hline-lean/record.json",
+      "module_sha256": "3af84858cbd4449a16909335f5716c6cd3ac34fd633921384853ad1265255cee"
+    },
+    "vortex/as-vortex-hline-lean/HLineGeometry.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-hline-lean/record.json",
+      "module_sha256": "d98a9bc872d637221bed38cdba33c77d640f9b9b334a58be47b27d12aebbad1d"
+    },
+    "vortex/as-vortex-hline-lean/HLineIntegral.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-hline-lean/record.json",
+      "module_sha256": "72948d9615bfa6c2f1899edd205143ad2edb8702a3b27e8e42b5ca770fde2fc5"
+    },
+    "vortex/as-vortex-hline-lean/HLineProofs.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-hline-lean/record.json",
+      "module_sha256": "55a2484ec32f2dc05237e3f930dc5b5b34d9f01a4653d391bccab6a2ad73ddc5"
+    },
+    "vortex/as-vortex-hline-lean/HLineSolution.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-hline-lean/record.json",
+      "module_sha256": "09738d71a6a5d781f1fd952441c0e48c081e34e7b501f4d0ab6b70a026ab37c6"
+    },
+    "vortex/as-vortex-hline-lean/HLineChallenge.lean": {
+      "kind": "trusted original Challenge",
+      "status": "REFERENCE",
+      "evidence": "vortex/as-vortex-hline-lean/record.json",
+      "module_sha256": "67944ffe82f15d61987a37169ad7dfb6b0e457090031ef433d3d37731c8a7ae1"
+    },
+    "vortex/as-vortex-rescaling-lean/RescaleChallenge.lean": {
+      "kind": "trusted original Challenge",
+      "status": "REFERENCE",
+      "evidence": "vortex/as-vortex-rescaling-lean/record.json",
+      "module_sha256": "40b5d01920671278bc36d8203b0378790fe6ab32b8b1056e256865bc02e7aaad"
+    },
+    "vortex/as-vortex-rescaling-lean/RescaleCorollary.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-rescaling-lean/record.json",
+      "module_sha256": "195dbadcdcf41a9f522f855f16c287b6f3de70ff23b6cf475f948af90d258ef7"
+    },
+    "vortex/as-vortex-rescaling-lean/RescaleCovariance.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-rescaling-lean/record.json",
+      "module_sha256": "8e5473c6326188f707f762b94b257927186adeb89f081bae57c5e0d984697a07"
+    },
+    "vortex/as-vortex-rescaling-lean/RescaleFields.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-rescaling-lean/record.json",
+      "module_sha256": "2ea5bd0979401329082dc23c6bbbf38c25774c0b4b43bcfdd04461efc425e562"
+    },
+    "vortex/as-vortex-rescaling-lean/RescaleForcing.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-rescaling-lean/record.json",
+      "module_sha256": "fdd76d7a9acf8021e22e4c1779400b188ebe5b162a318ce1d389fee9d21f22df"
+    },
+    "vortex/as-vortex-rescaling-lean/RescaleLoops.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-rescaling-lean/record.json",
+      "module_sha256": "9d0193bcc8fb47869dc0aa60cc4acc7500c5bfab478e314fbd186c5d27f4dfde"
+    },
+    "vortex/as-vortex-rescaling-lean/RescaleSolution.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-rescaling-lean/record.json",
+      "module_sha256": "723fc326184db450cc382273f2112062e3edd5b4e7eb6af8031fe2b1b2ecae52"
+    },
+    "vortex/as-vortex-rescaling-lean/RescaleSupport.lean": {
+      "kind": "current module in original frozen check",
+      "status": "PASS",
+      "evidence": "vortex/as-vortex-rescaling-lean/record.json",
+      "module_sha256": "d2bbabfcb60ead0eea4042033d5dd9a597537fee9ae00286db75f379c46ce02e"
+    },
+    "energy/hug-lean-proofs/originals/BreathingDriver.lean": {
+      "kind": "archived original, fresh Lean-only compilation",
+      "status": "PASS",
+      "evidence": "archived/results.json",
+      "module_sha256": "4e89fbd2bd0c40ae1837f6a324db748ff37830c4397412dfd46e25a0e8167fd3"
+    },
+    "energy/hug-lean-proofs/originals/ClayFabric.lean": {
+      "kind": "archived original, fresh Lean-only compilation",
+      "status": "PASS",
+      "evidence": "archived/results.json",
+      "module_sha256": "01c8a81fc42b6142b8d3aa17d2a7229367cec699beb596bdb7a26e5ad0237597"
+    },
+    "energy/hug-lean-proofs/originals/ClayMemoryInstance.lean": {
+      "kind": "archived original, fresh Lean-only compilation",
+      "status": "PASS",
+      "evidence": "archived/results.json",
+      "module_sha256": "e7cea01d4871eebbb61272dc9cda6f1a7030d0557124457b42ad85046e3006d6"
+    },
+    "energy/hug-lean-proofs/originals/FabricMemory.lean": {
+      "kind": "archived original, fresh Lean-only compilation",
+      "status": "FAIL",
+      "evidence": "archived/results.json",
+      "module_sha256": "221f82e5f8fc87b8bb7d57ec506949b241ee947753c68396085a538e7c1a2ec3"
+    },
+    "energy/hug-lean-proofs/originals/GuardTwoEffects.lean": {
+      "kind": "archived original, fresh Lean-only compilation",
+      "status": "PASS",
+      "evidence": "archived/results.json",
+      "module_sha256": "d875a57e2586e94a2da34f71ed55f4fb15050372720ff85d112f6a8cf7d092d7"
+    },
+    "energy/hug-lean-proofs/originals/PressureBlindToBreathing.lean": {
+      "kind": "archived original, fresh Lean-only compilation",
+      "status": "PASS",
+      "evidence": "archived/results.json",
+      "module_sha256": "5cc322b2f0b022236355992dbe59b2658ca95bc6939cb728aeb56ac563b222d0"
+    },
+    "geometry/SIMS rational readout check/SIMSLatentReadout.lean": {
+      "kind": "archived original, fresh Lean-only compilation",
+      "status": "FAIL",
+      "evidence": "archived/results.json",
+      "module_sha256": "dab94258fd9d1ced17b880c63ccef58702d1694d76f0f6e838ed84b36e0bd909"
+    },
+    "vortex/as-vortex-edge-control-lean/examples/SpecificProbe.lean": {
+      "kind": "Published worked-example theorem; supplemental Lean and axiom check; not an added Comparator target",
+      "status": "PASS",
+      "evidence": "supplemental/edge/record.json",
+      "module_sha256": "5db36fe954612601be7eecad8766386f4c08028193a879a1150e235a86a7a32f"
+    },
+    "geometry/Closest point ambiguity/diagnostics/DerivativeProbe.lean": {
+      "kind": "Preserved diagnostic attempt; not an accepted proof target",
+      "status": "FAIL",
+      "evidence": "supplemental/geometry/record.json",
+      "module_sha256": "a2951dc74fad7a7be5162277e32d5c58d2d13976cac8bf2bd57a4170c1066f8f"
+    },
+    "energy/nonlinear-history-energy/proof-evidence/full-carrying-energy/FullCarrying.lean": {
+      "kind": "byte-identical retained proof-evidence copy; fresh equivalent module checked",
+      "status": "PASS_BY_IDENTITY",
+      "evidence": "generic/energy-as/record.json",
+      "same_as": "energy/full-carrying-energy/FullCarrying.lean",
+      "module_sha256": "4f3a0e22fe7708c32abf47f833e6ec9f208b57aa65bab57f8fd8af0f7f141cfb"
+    },
+    "energy/nonlinear-history-energy/proof-evidence/hug-lean-proofs/ClayFabric.lean": {
+      "kind": "byte-identical retained proof-evidence copy; fresh equivalent module checked",
+      "status": "PASS_BY_IDENTITY",
+      "evidence": "generic/energy-hug/record.json",
+      "same_as": "energy/hug-lean-proofs/ClayFabric.lean",
+      "module_sha256": "702bee064bdee1797ec24351a6194841b3b5efc631f52cd1ee9a4feaa8ec4e54"
+    },
+    "energy/nonlinear-history-energy/proof-evidence/hug-source-energy-connection/RecordEnergyConnection.lean": {
+      "kind": "byte-identical retained proof-evidence copy; fresh equivalent module checked",
+      "status": "PASS_BY_IDENTITY",
+      "evidence": "generic/energy-as/record.json",
+      "same_as": "energy/hug-source-energy-connection/RecordEnergyConnection.lean",
+      "module_sha256": "5fbf0203b515cbf6944100c1a569d9ba98517e2b55d057f07590d1b7ea350c81"
+    },
+    "energy/nonlinear-history-energy/proof-evidence/s-gradient-energy/GradientStorage.lean": {
+      "kind": "byte-identical retained proof-evidence copy; fresh equivalent module checked",
+      "status": "PASS_BY_IDENTITY",
+      "evidence": "generic/energy-as/record.json",
+      "same_as": "energy/s-gradient-energy/GradientStorage.lean",
+      "module_sha256": "beac9bd571b1a455c1513b883983b480ac7a030a7dee3dec3ba38399bdd0d68e"
+    }
+  },
+  "count": 161,
+  "note": "Challenge modules are trusted specifications and may intentionally contain sorry. Archived/diagnostic failures are not accepted proofs. Configured declaration lists are recorded separately; source-file counts are not theorem counts."
+}

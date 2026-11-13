@@ -1,0 +1,320 @@
+'CarryingGravity.carriedHeight._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:29:14: warning: `CarryingGravity.carriedHeight._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'CarryingGravity.carriedPosition.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CarryingGravity.carried_height_cancels_original_work' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CarryingGravity.carried_height_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CarryingGravity.carried_potential_work' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CarryingGravity.exact_configuration_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CarryingGravity.matched_potential_conserves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CarryingGravity.no_periodic_potential_for_unit_force' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CarryingGravity.periodic_potential_constant_slope_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CarryingGravity.position_follows_original_velocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CarryingGravity.receipt_and_reservoir_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CarryingGravity.three_channel_account_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CarryingGravity.three_channel_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CarryingGravity.variable_strength_height_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FullCarrying.carried_gradient_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FullCarrying.carried_gradient_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FullCarrying.complete_existing_transfers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FullCarrying.pullback.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FullCarrying.pullback_rate_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FullCarrying.recover_spatial_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FullCarrying.recover_spatial_gradient._simp_1_2' does not depend on any axioms
+'FullCarrying.recover_spatial_gradient._simp_1_3' depends on axioms: [propext, Quot.sound]
+'FullCarrying.required_transfer_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FullCarrying.required_transfer_split._simp_1_1' depends on axioms: [propext, Quot.sound]
+'GradientStorage.initial_minimum_cannot_pay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GradientStorage.integrated_norm_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GradientStorage.nonnegative_quadratic_cannot_pay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GradientStorage.normStorage._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:56:14: warning: `GradientStorage.normStorage._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'GradientStorage.normStorage.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GradientStorage.norm_storage_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GradientStorage.norm_storage_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GradientStorage.norm_storage_transport_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GradientStorage.norm_storage_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryRequirement.accumulated.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryRequirement.accumulated_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryRequirement.adding_increasing_potential_increases_debit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HistoryRequirement.any_balancing_G_has_required_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierSingle.FieldDifferentialAt._proof_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+FreshAxioms.lean:66:14: warning: `HugNavierSingle.FieldDifferentialAt._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HugNavierSingle.FieldInputs.mk.inj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierSingle.FieldInputs.mk.injEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierSingle.FieldInputs.mk.sizeOf_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierSingle.Fields.mk.inj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierSingle.Fields.mk.injEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierSingle.Fields.mk.sizeOf_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugNavierSingle.PulseRecipient.A.sizeOf_spec' does not depend on any axioms
+'HugNavierSingle.PulseRecipient.B.sizeOf_spec' does not depend on any axioms
+'HugNavierSingle.PulseRecipient.none.sizeOf_spec' does not depend on any axioms
+'HugNavierSingle.fieldRates._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:76:14: warning: `HugNavierSingle.fieldRates._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HugNavierSingle.fieldRates._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:77:14: warning: `HugNavierSingle.fieldRates._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HugNavierSingle.fieldRates._proof_3' depends on axioms: [propext]
+FreshAxioms.lean:78:14: warning: `HugNavierSingle.fieldRates._proof_3` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HugNavierSingle.fieldRates._proof_4' depends on axioms: [propext]
+FreshAxioms.lean:79:14: warning: `HugNavierSingle.fieldRates._proof_4` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HugNavierSingle.fieldRates._proof_5' depends on axioms: [propext]
+FreshAxioms.lean:80:14: warning: `HugNavierSingle.fieldRates._proof_5` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HugNavierSingle.fieldRates._proof_6' depends on axioms: [propext]
+FreshAxioms.lean:81:14: warning: `HugNavierSingle.fieldRates._proof_6` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HugNavierSingle.sourceInitial._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:82:14: warning: `HugNavierSingle.sourceInitial._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HugNavierSingle.sourceInitial._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:83:14: warning: `HugNavierSingle.sourceInitial._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HugNavierSingle.stressXX._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:84:14: warning: `HugNavierSingle.stressXX._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HugNavierSingle.viscosity._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:85:14: warning: `HugNavierSingle.viscosity._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HugNavierSingle.viscosity._proof_2' depends on axioms: [propext]
+FreshAxioms.lean:86:14: warning: `HugNavierSingle.viscosity._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HugSourceEnergy.changing_records_can_change_response' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.configuration_record_energy_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.directionalRate.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.directionalStrain._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:90:14: warning: `HugSourceEnergy.directionalStrain._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HugSourceEnergy.directionalStressWork.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.directional_strain_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.expression_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.fixed_strain_and_record_energy_rate_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.materialDirection.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.material_conservation_iff_zero_source_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.material_direction_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.material_total_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.no_viscous_power_no_writing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.recordEnergy._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:100:14: warning: `HugSourceEnergy.recordEnergy._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'HugSourceEnergy.recordEnergy.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.recordStress.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.record_energy_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.record_energy_balance._simp_1_1' depends on axioms: [propext]
+'HugSourceEnergy.record_energy_balance._simp_1_2' depends on axioms: [propext]
+'HugSourceEnergy.record_energy_balance._simp_1_3' depends on axioms: [propext]
+'HugSourceEnergy.record_energy_balance._simp_1_4' depends on axioms: [propext]
+'HugSourceEnergy.record_energy_balance._simp_1_5' depends on axioms: [propext]
+'HugSourceEnergy.record_energy_balance._simp_1_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.record_energy_balance._simp_1_7' depends on axioms: [propext]
+'HugSourceEnergy.recording_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.symmetric_gradient_same_directional_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.tensor_work_matches_strain_work' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.unstrained_energy_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.unstrained_stress_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.unstrained_write_conjugate_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.writeConjugate.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.write_conjugate_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.writingLimiter.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HugSourceEnergy.zero_velocity_gradient_no_directional_strain_rate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalAS.Admissible.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Accounting.conservation_iff_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Accounting.cumulative.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Accounting.cumulative_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Accounting.exchangeLedger.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Accounting.exchange_ledger_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Accounting.heat_alone_leaves_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Accounting.heat_ledger_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Accounting.history_account_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Accounting.history_account_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Accounting.total_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Heat.bulk_heat_matches_kinetic_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Heat.source_heat_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Heat.source_stress_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Heat.source_stress_decomposition._simp_1_1' depends on axioms: [propext, Quot.sound]
+'OriginalAS.Energy.Heat.source_stress_is_strain_heat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Heat.strainSquared._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:137:14: warning: `OriginalAS.Energy.Heat.strainSquared._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OriginalAS.Energy.Heat.strain_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Heat.strain_identity._simp_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.activation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.any_AS_energy_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.channelKinetic.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.channel_energy_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.channel_kinetic_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.coupling_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.exact_solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.incompressible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.kinetic_flux_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.kinetic_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.no_conserved_state_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.no_wall_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.original_force' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.original_rates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.parameters_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.params.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.scalar._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:156:14: warning: `OriginalAS.Energy.Witness.scalar._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OriginalAS.Energy.Witness.scalar.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.scalar_advection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.scalar_diffusive_flux_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.scalar_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.scalar_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.source_stress_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.state.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.state_energy_cannot_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.stored_state_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.velocity.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.velocity_advection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.velocity_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.velocity_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.Witness.viscous_loss_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.diffusion_flux' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.diffusion_flux._simp_1_2' depends on axioms: [propext, Quot.sound]
+'OriginalAS.Energy.force_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.force_power._simp_1_3' depends on axioms: [propext]
+'OriginalAS.Energy.force_power._simp_1_4' depends on axioms: [propext]
+'OriginalAS.Energy.force_power._simp_1_5' depends on axioms: [propext]
+'OriginalAS.Energy.force_power._simp_1_6' depends on axioms: [propext]
+'OriginalAS.Energy.force_power._simp_1_7' depends on axioms: [propext]
+'OriginalAS.Energy.force_power._simp_1_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.force_power._simp_1_9' depends on axioms: [propext]
+'OriginalAS.Energy.gradSquared.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.gradSquared_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.halfSquare._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:183:14: warning: `OriginalAS.Energy.halfSquare._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OriginalAS.Energy.halfSquare.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.halfSquare_advection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.halfSquare_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.halfSquare_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.halfSquare_time_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.hugPower.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.hugPower_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.hugPower_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.integrate_zero_flux_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.kinetic.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.kineticNetFlux.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.kinetic_advection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.kinetic_global_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.kinetic_local_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.kinetic_material_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.kinetic_material_balance._simp_1_1' depends on axioms: [propext, Quot.sound]
+'OriginalAS.Energy.kinetic_material_balance._simp_1_2' depends on axioms: [propext]
+'OriginalAS.Energy.kinetic_material_balance._simp_1_3' depends on axioms: [propext]
+'OriginalAS.Energy.kinetic_material_balance._simp_1_4' depends on axioms: [propext]
+'OriginalAS.Energy.kinetic_material_balance._simp_1_5' depends on axioms: [propext]
+'OriginalAS.Energy.kinetic_material_balance._simp_1_6' depends on axioms: [propext]
+'OriginalAS.Energy.kinetic_material_balance._simp_1_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.kinetic_material_balance._simp_1_8' depends on axioms: [propext]
+'OriginalAS.Energy.kinetic_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.kinetic_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.kinetic_time_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.memory_at_baseline' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.memory_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.memory_square_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.partial_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.pressure_flux' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.pressure_flux._simp_1_2' depends on axioms: [propext, Quot.sound]
+'OriginalAS.Energy.scalarNetFlux.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.scalar_local_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.scalar_material_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.sharp_power_off' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.sharp_power_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.source_at_baseline' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.transport_flux' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.velocityGradSquared.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Energy.viscous_loss_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Fields.mk.inj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Fields.mk.injEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Fields.mk.sizeOf_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.FullDifferentialAt._proof_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+FreshAxioms.lean:228:14: warning: `OriginalAS.FullDifferentialAt._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OriginalAS.Parameters.mk.inj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Parameters.mk.injEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.Parameters.mk.sizeOf_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.advect.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.coordinatePartial.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.divergence.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.excess.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.force.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.gradMagnitude.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.laplacian.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.memory.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.rates.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.sharp.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.sourceRate.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.stress.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAS.tanhResponse._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:244:14: warning: `OriginalAS.tanhResponse._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'PairContext.log_cosh_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PairContext.moving_potential_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PairContext.potential._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:247:14: warning: `PairContext.potential._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'PairContext.potential.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PairContext.potential_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PairContext.potential_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PairContext.zero_context_cannot_pay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StorageRequirements.activation_height_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StorageRequirements.force_match_determines_storage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StorageRequirements.gradient_transport_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StorageRequirements.magnitude_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StorageRequirements.magnitude_rate._simp_1_1' depends on axioms: [propext]
+'StorageRequirements.magnitude_rate._simp_1_2' depends on axioms: [propext]
+'StorageRequirements.magnitude_rate._simp_1_3' depends on axioms: [propext]
+'StorageRequirements.magnitude_rate._simp_1_4' depends on axioms: [propext]
+'StorageRequirements.magnitude_rate._simp_1_5' depends on axioms: [propext]
+'StorageRequirements.magnitude_rate._simp_1_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StorageRequirements.magnitude_rate._simp_1_7' depends on axioms: [propext]
+'StorageRequirements.no_storage_with_unpaid_independent_activation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StorageRequirements.required_activation_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnwrappedWork.activationCorrection.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnwrappedWork.discrete_history_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnwrappedWork.history_energy_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnwrappedWork.history_is_opposite_work_receipt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnwrappedWork.history_total_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnwrappedWork.one_step_work_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnwrappedWork.pathWork._proof_1' depends on axioms: [propext]
+FreshAxioms.lean:271:14: warning: `UnwrappedWork.pathWork._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'UnwrappedWork.pathWork.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnwrappedWork.returning_endpoints_leave_history' depends on axioms: [propext, Classical.choice, Quot.sound]

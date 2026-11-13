@@ -1,0 +1,42 @@
+Running as unit: run-p21360-i27067.service; invocation ID: 23735b319e454e6a878e8f897feaae6f
+Building TemporalChallenge
+✔ [9366/9400] Built SignedDefinitions (2.2s)
+✔ [9386/9400] Built TraceDefinitions (2.4s)
+✔ [9387/9400] Built SignedSolution (3.2s)
+✔ [9388/9400] Built ExteriorSolution (5.2s)
+✔ [9389/9400] Built TraceSolution (5.9s)
+✔ [9390/9400] Built TargetSolution (4.5s)
+✔ [9391/9400] Built HLineStatements (4.4s)
+✔ [9392/9400] Built HLineCalculus (5.5s)
+✔ [9393/9400] Built HLineOperator (5.7s)
+✔ [9394/9400] Built HLineIntegral (8.3s)
+✔ [9395/9400] Built HLineGeometry (10s)
+✔ [9396/9400] Built HLineProofs (5.5s)
+✔ [9397/9400] Built RescaleFields (4.8s)
+✔ [9398/9400] Built TemporalStatements (4.6s)
+⚠ [9399/9400] Built TemporalChallenge (4.0s)
+warning: TemporalChallenge.lean:7:8: declaration uses `sorry`
+warning: TemporalChallenge.lean:10:8: declaration uses `sorry`
+Build completed successfully (9400 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SignedVortex.Rescaled.TimeControl.early_loop_zero, SignedVortex.Rescaled.TimeControl.same_loop_before_after, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from TemporalChallenge
+Building TemporalSolution
+✔ [9399/9405] Built RescaleSupport (4.5s)
+✔ [9400/9405] Built RescaleCovariance (52s)
+✔ [9401/9405] Built RescaleLoops (5.0s)
+✔ [9402/9405] Built RescaleForcing (5.6s)
+✔ [9403/9405] Built TemporalProofs (4.3s)
+ℹ [9404/9405] Built TemporalSolution (3.8s)
+info: TemporalSolution.lean:3:0: 'SignedVortex.Rescaled.TimeControl.early_loop_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TemporalSolution.lean:4:0: 'SignedVortex.Rescaled.TimeControl.same_loop_before_after' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9405 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SignedVortex.Rescaled.TimeControl.early_loop_zero, SignedVortex.Rescaled.TimeControl.same_loop_before_after, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from TemporalSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 25min 602ms
+             CPU time consumed: 25min 54.429s
+                   Memory peak: 5.9G (swap: 0B)

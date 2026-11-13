@@ -1,0 +1,88 @@
+{
+  "checked_at_utc": "2026-11-13T07:18:30.294416+00:00",
+  "status": "PASS",
+  "kind": "read-only audit of newly produced receipts; no proof rerun",
+  "checks": [
+    {
+      "id": "vortex/as-signed-vortex-lean",
+      "configured_declarations": 25,
+      "all_configured_axiom_prints_present": true,
+      "only_three_permitted_axioms": true,
+      "all_required_exits_zero": true,
+      "both_kernel_acceptance_messages_present": true,
+      "comparator_log_sha256": "deb889b6e3898bdbe473cfe6760ea85d37d230aa225076993459a72591c3f9a9"
+    },
+    {
+      "id": "vortex/as-vortex-hline-lean",
+      "configured_declarations": 5,
+      "all_configured_axiom_prints_present": true,
+      "only_three_permitted_axioms": true,
+      "all_required_exits_zero": true,
+      "both_kernel_acceptance_messages_present": true,
+      "comparator_log_sha256": "bd7fbd6d8e8db879ca8cc24b2b9f5969c8e37bc2aaa4cdc20881be33170f2434"
+    },
+    {
+      "id": "vortex/as-vortex-rescaling-lean",
+      "configured_declarations": 12,
+      "all_configured_axiom_prints_present": true,
+      "only_three_permitted_axioms": true,
+      "all_required_exits_zero": true,
+      "both_kernel_acceptance_messages_present": true,
+      "comparator_log_sha256": "1cdc33590bdad2c924589175cc3ee401af15fa259f53caa0769f5a850558d931"
+    },
+    {
+      "id": "vortex/as-vortex-edge-control-lean",
+      "configured_declarations": 6,
+      "all_configured_axiom_prints_present": true,
+      "only_three_permitted_axioms": true,
+      "all_required_exits_zero": true,
+      "both_kernel_acceptance_messages_present": true,
+      "comparator_log_sha256": "70ab04fe06218f71545179896d1fad6eceaca0fcd720dae9d4a4e513a703b566"
+    },
+    {
+      "id": "vortex/as-vortex-edge-control-lean/time-check",
+      "configured_declarations": 2,
+      "all_configured_axiom_prints_present": true,
+      "only_three_permitted_axioms": true,
+      "all_required_exits_zero": true,
+      "both_kernel_acceptance_messages_present": true,
+      "comparator_log_sha256": "bad1f01782d779a09251e9da9afb1b614593344953ab416a62480746320cdbff"
+    },
+    {
+      "id": "energy-as",
+      "configured_declarations": 245,
+      "all_configured_axiom_prints_present": true,
+      "only_three_permitted_axioms": true,
+      "all_required_exits_zero": true,
+      "both_kernel_acceptance_messages_present": true,
+      "comparator_log_sha256": "a354d0a23c399b07faf9852f2a850a0ead58d39457b76f6411d2499f62873cc6"
+    },
+    {
+      "id": "energy-hug",
+      "configured_declarations": 181,
+      "all_configured_axiom_prints_present": true,
+      "only_three_permitted_axioms": true,
+      "all_required_exits_zero": true,
+      "both_kernel_acceptance_messages_present": true,
+      "comparator_log_sha256": "393e301b274a0b08c8119864e7d07ebbd2894794130a9f7f3ac6b96497621cfc"
+    },
+    {
+      "id": "geometry-real",
+      "configured_declarations": 653,
+      "all_configured_axiom_prints_present": true,
+      "only_three_permitted_axioms": true,
+      "all_required_exits_zero": true,
+      "both_kernel_acceptance_messages_present": true,
+      "comparator_log_sha256": "f28df414028291827c07add603c866583ff1460b1f5fb076cd7cb1bfeed712b7"
+    },
+    {
+      "id": "geometry-rational",
+      "configured_declarations": 65,
+      "all_configured_axiom_prints_present": true,
+      "only_three_permitted_axioms": true,
+      "all_required_exits_zero": true,
+      "both_kernel_acceptance_messages_present": true,
+      "comparator_log_sha256": "857d4162bd87da6190145882b6b6b971cbc952996eb86c27acba80851010ceed"
+    }
+  ]
+}

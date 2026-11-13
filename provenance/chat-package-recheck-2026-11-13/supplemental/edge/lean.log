@@ -1,0 +1,3 @@
+'SignedVortex.Rescaled.EdgeControl.Examples.one_percent_probe' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

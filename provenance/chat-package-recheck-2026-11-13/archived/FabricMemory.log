@@ -1,0 +1,24 @@
+/tmp/fresh-archived-drafts-20261113-o5wcnolc/FabricMemory.lean:87:4: error: Tactic `split` failed: Could not split an `if` or `match` expression in the goal
+
+Hint: Use `set_option trace.split.failure true` to display additional diagnostic information
+
+case isFalse
+store : List Nat
+event : Nat
+full : capacity ≤ store.length
+h✝ : ¬event ∈ store
+⊢ none = none
+/tmp/fresh-archived-drafts-20261113-o5wcnolc/FabricMemory.lean:107:6: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+/tmp/fresh-archived-drafts-20261113-o5wcnolc/FabricMemory.lean:113:6: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+/tmp/fresh-archived-drafts-20261113-o5wcnolc/FabricMemory.lean:119:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+'FabricMemory.layout' does not depend on any axioms
+'FabricMemory.write_keeps_every_record' depends on axioms: [propext, Quot.sound]
+'FabricMemory.repeated_event_is_refused' depends on axioms: [propext, Quot.sound]
+'FabricMemory.full_fabric_refuses' depends on axioms: [propext, sorryAx, Quot.sound]
+'FabricMemory.the_three_writes_and_the_limit' depends on axioms: [propext, Quot.sound]
+'FabricMemory.upper_mark_reads_one' depends on axioms: [propext, Quot.sound]
+'FabricMemory.lower_mark_reads_zero' depends on axioms: [propext, Quot.sound]
+'FabricMemory.barrier_is_refused' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FabricMemory.every_cell_moved_and_no_bit_flipped' does not depend on any axioms
+'FabricMemory.third_write_touched_exactly_one_slot' does not depend on any axioms
+'FabricMemory.decoded_records_cannot_give_the_marks' does not depend on any axioms

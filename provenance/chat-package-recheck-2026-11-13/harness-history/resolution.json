@@ -1,0 +1,18 @@
+{
+  "status": "RESOLVED",
+  "enumeration": {
+    "command": [
+      "$USER_HOME/verification/bin/lake",
+      "env",
+      "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+      "Enumerate.lean"
+    ],
+    "started_at_utc": "2026-11-13T05:42:33.501075+00:00",
+    "finished_at_utc": "2026-11-13T05:43:18.745927+00:00",
+    "exit": 0,
+    "log_sha256": "2a066084d473f17b44ddb1d82f3c7418470fd93d990bff7db9b9d20cdabd00d9"
+  },
+  "elapsed_seconds_from_recovery_start": 91.124106,
+  "bound_met": true,
+  "proof_sources_changed": false
+}
