@@ -5,7 +5,7 @@
   "changes": {
     "README.md": {
       "original_sha256": "7a75263420bf8363eb357e5f780e0740a67054a31b586d6c63d8db1ceef2b674",
-      "published_sha256": "cfb817c782e486bbbffa72edb4d88f7b2d8d339918f36af442c6a26f9523df5b"
+      "published_sha256": "a16258a35c2c089723ed62016cfdbe587ebf0ee9011c7083e79d77910fbd7ce1"
     },
     "source-manifest.json": {
       "original_sha256": "5c7703f1f067c0c525697df0a1f8f1278b5ebb222790d4b01be83fe7338a8496",
@@ -35,5 +35,20 @@
   ],
   "path_renames": {
     "saved/configuration.json": "saved/run-configuration.json"
-  }
+  },
+  "later_documentation_updates": [
+    {
+      "purpose": "Link the separate threshold-1 recorded-number Lean checks; preserve numerical results and original receipts.",
+      "base_repository_commit": "a4cc130568fe8318b809ab795709df427dc1653f",
+      "file": "README.md",
+      "previous_sha256": "cfb817c782e486bbbffa72edb4d88f7b2d8d339918f36af442c6a26f9523df5b",
+      "updated_sha256": "a16258a35c2c089723ed62016cfdbe587ebf0ee9011c7083e79d77910fbd7ce1",
+      "measurement_files_unchanged": {
+        "measurements.json": "c392b4e070e0d6cc4cf44d4210d0fc0adfd8353d9ac2436db121fbaa7fa03d85",
+        "measurements.csv": "53b5b50c874dcf95c5950f587f06c77eb817d95603f26605ed2ebe1394a4f9aa",
+        "measurements-tight.json": "82888afd2eacf39f7051e9a8bd288e3cd376ce927b40df38cb4d0741f3c44880",
+        "measurements-tight.csv": "08a470393a9f167092ee21fdc87e29c15a0a174f5763b7e17b6a65f88a48c5e9"
+      }
+    }
+  ]
 }

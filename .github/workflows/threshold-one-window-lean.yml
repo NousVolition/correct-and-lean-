@@ -1,0 +1,79 @@
+name: Threshold-one recorded-window Lean checks
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "research/hug-v3/threshold-one-window-lean/**"
+      - "research/hug-v3/threshold-one-window-study/**"
+      - ".github/workflows/threshold-one-window-lean.yml"
+      - "scripts/ci-lean-toolchain.sh"
+  push:
+    branches: [main]
+    paths:
+      - "research/hug-v3/threshold-one-window-lean/**"
+      - "research/hug-v3/threshold-one-window-study/**"
+      - ".github/workflows/threshold-one-window-lean.yml"
+      - "scripts/ci-lean-toolchain.sh"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Threshold-1 saved numbers, not trajectories
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Check saved fingerprints, targets and refusal cases
+        working-directory: research/hug-v3/threshold-one-window-lean
+        run: |
+          python3 -B check_receipt.py --fresh evidence-linux/github-receipt.json
+          python3 -B -m unittest test_certificate.py
+      - name: Fetch the pinned Lean release
+        run: bash scripts/ci-lean-toolchain.sh fetch "$RUNNER_TEMP/threshold-one-tools"
+      - name: Install the checked Lean archive
+        working-directory: research/hug-v3/threshold-one-window-lean
+        run: bash "$GITHUB_WORKSPACE/scripts/ci-lean-toolchain.sh" install "$RUNNER_TEMP/threshold-one-tools" "$RUNNER_TEMP/threshold-one-lean"
+      - name: Recheck all statements in a separate build directory
+        working-directory: research/hug-v3/threshold-one-window-lean
+        run: |
+          python3 -B verify.py --work-dir "$RUNNER_TEMP/threshold-one-check"
+          python3 -B check_receipt.py --fresh "$RUNNER_TEMP/threshold-one-check/receipt.json"
+      - name: Attach this GitHub run to the matching proof receipt
+        shell: python
+        env:
+          PR_HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          import hashlib,json,os
+          from pathlib import Path
+          output=Path(os.environ["RUNNER_TEMP"])/"threshold-one-check"
+          raw=output/"receipt.json"
+          receipt=json.loads(raw.read_text(encoding="utf-8"))
+          assert receipt["status"]=="PASS"
+          receipt["execution_context"]={
+            "repository":os.environ["GITHUB_REPOSITORY"],
+            "checkout_sha":os.environ["GITHUB_SHA"],
+            "pull_request_head_sha":os.environ.get("PR_HEAD") or None,
+            "event":os.environ["GITHUB_EVENT_NAME"],
+            "run_id":int(os.environ["GITHUB_RUN_ID"]),
+            "run_attempt":int(os.environ["GITHUB_RUN_ATTEMPT"]),
+            "run_url":os.environ["GITHUB_SERVER_URL"]+"/"+os.environ["GITHUB_REPOSITORY"]+"/actions/runs/"+os.environ["GITHUB_RUN_ID"]}
+          receipt["raw_checker_receipt_sha256"]=hashlib.sha256(raw.read_bytes()).hexdigest()
+          (output/"github-receipt.json").write_text(json.dumps(receipt,indent=2)+"\n",encoding="utf-8")
+          print("BEGIN_THRESHOLD_ONE_GITHUB_RECEIPT")
+          print(json.dumps(receipt,sort_keys=True))
+          print("END_THRESHOLD_ONE_GITHUB_RECEIPT")
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        if: always()
+        with:
+          name: threshold-one-window-lean-evidence-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/threshold-one-check/github-receipt.json
+            ${{ runner.temp }}/threshold-one-check/receipt.json
+            ${{ runner.temp }}/threshold-one-check/evidence/*.log
+          if-no-files-found: warn
