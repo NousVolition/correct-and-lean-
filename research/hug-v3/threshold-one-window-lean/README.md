@@ -1,6 +1,8 @@
 # Threshold-1 recorded window comparisons in Lean
 
-**Lean checks the supplied saved numbers; it does not prove the fluid trajectories.** This package adds 23 finite statements about the [published threshold-1 window investigation](../threshold-one-window-study/README.md), which answers the viewing-window question linked from [PR #14](https://github.com/NousVolition/hug-sims-lean-proofs/pull/14). All 23 passed Lean's kernel locally, with empty axiom-dependency lists, and the Lake build passed. The [receipt](receipt.json) and [compiler/axiom logs](evidence/) record that execution. A dedicated [GitHub workflow](../../../.github/workflows/threshold-one-window-lean.yml) repeats the checks on Linux and publishes a separate run receipt.
+**Lean checks the supplied saved numbers; it does not prove the fluid trajectories.** This package adds 23 finite statements about the [published threshold-1 window investigation](../threshold-one-window-study/README.md), which answers the viewing-window question linked from [PR #14](https://github.com/NousVolition/hug-sims-lean-proofs/pull/14). All 23 passed Lean's kernel locally and on GitHub Linux, with empty axiom-dependency lists, and both Lake builds passed. The original [local receipt](receipt.json) and [local compiler/axiom logs](evidence/) are preserved separately from the actual [GitHub receipt](evidence-linux/github-receipt.json), [Linux logs](evidence-linux/evidence/) and [artifact provenance](evidence-linux/source.json).
+
+The [passing Linux run](https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43354636921) checked PR head `47e468d387cb73b136a4f8ebb1bcb7beb7e1fa95` through merge checkout `b9c7ef2064ab572fc0075945cc7831de73f06e14`. Its proof-input and numerical-source hashes match the local receipt exactly. The seven artifact files are preserved unmodified, with their archive SHA256. The separate [numerical-evidence recount](https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43354636585) also passed; that workflow does not run Lean or fluid evolution.
 
 The physical configuration and numerical records are unchanged: the same threshold-1, 16³, breathing-on history and three late saved exchange brackets. The original model's unforced meaning is preserved; the breathing branch is a numerical intervention. No new fluid simulation or line integration was performed for these Lean checks. The threshold-0.015 energy proofs and earlier finite-window package remain separate results.
 
@@ -40,6 +42,7 @@ Use Python 3.10 or later (standard library only) and the pinned **Lean 4.34.0-rc
 ```sh
 python -B generate.py
 python -B check_receipt.py
+python -B check_receipt.py --fresh evidence-linux/github-receipt.json
 python -B -m unittest test_certificate.py
 python -B verify.py --lean /path/to/lean-4.34.0-rc2/bin/lean --work-dir /tmp/threshold-one-window-check
 python -B check_receipt.py --fresh /tmp/threshold-one-window-check/receipt.json
@@ -49,7 +52,7 @@ Choose a separate disposable build directory outside this package and the numeri
 
 The six refusal tests exercise missing targets, a failed compiler result, an added axiom dependency, a stale source fingerprint, a changed input file and a missing axiom report. The read-only receipt check verifies the fixed target inventory, all source/proof hashes, generated input and saved log hashes. It is not itself a new Lean run. For the numerical replay and its larger dependencies, use the [original numerical reproduction instructions](../threshold-one-window-study/README.md#evidence-and-reproduction).
 
-The dedicated workflow uses the repository's pinned official Lean release archive and checksum, compiles in a separate directory and uploads the fresh receipt, compiler logs and GitHub execution context. Its evidence records the actual checkout and pull-request head separately. The committed local receipt remains a historical local result, not a GitHub run receipt.
+The dedicated [workflow](../../../.github/workflows/threshold-one-window-lean.yml) uses the repository's pinned official Lean release archive and checksum, compiles in a separate directory and uploads the fresh receipt, compiler logs and GitHub execution context. Its evidence records the actual checkout and pull-request head separately. `--fresh` checks a supplied receipt and its logs against the current proof/source fingerprints; when pointed at `evidence-linux`, it audits preserved evidence rather than launching a new build. The committed local receipt remains a historical local result, not a GitHub run receipt.
 
 ## What remains unproved
 

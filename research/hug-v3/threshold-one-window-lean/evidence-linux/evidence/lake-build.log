@@ -1,0 +1,6 @@
+✔ [2/5] Built WindowRecordTypes (256ms)
+✔ [3/5] Built WindowRecordData (1.5s)
+✔ [4/5] Built WindowRecordChecks (2.7s)
+Build completed successfully (5 jobs).
+info: thresholdOneWindowRecords: no previous manifest, creating one from scratch
+info: toolchain not updated; already up-to-date

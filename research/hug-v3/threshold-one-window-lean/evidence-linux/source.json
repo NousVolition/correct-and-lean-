@@ -1,0 +1,36 @@
+{
+  "kind": "Unmodified artifact files from the passing Linux Lean check, separate from the original local receipt.",
+  "repository": "NousVolition/hug-sims-lean-proofs",
+  "artifact_id": 14005995361,
+  "artifact_name": "threshold-one-window-lean-evidence-1",
+  "artifact_sha256": "dee098fa45dd8abef5315ed4edc9b95989dacf136e262f3f5471424a4cca2a0a",
+  "artifact_url": "https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43354636921/artifacts/14005995361",
+  "execution_context": {
+    "repository": "NousVolition/hug-sims-lean-proofs",
+    "checkout_sha": "b9c7ef2064ab572fc0075945cc7831de73f06e14",
+    "pull_request_head_sha": "47e468d387cb73b136a4f8ebb1bcb7beb7e1fa95",
+    "event": "pull_request",
+    "run_id": 43354636921,
+    "run_attempt": 1,
+    "run_url": "https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43354636921"
+  },
+  "files_sha256": {
+    "evidence/CheckAxioms.log": "03afcb2d5e26d9cd6cda0f8772560f61a8b22d0a699ac655f25b8023dbf0f04b",
+    "evidence/WindowRecordChecks.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/WindowRecordData.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/WindowRecordTypes.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/lake-build.log": "6387bcf4ac7dc5c4e001f8090c9e0b075b0c22cf9fe02dbf9b041cf72e0c579a",
+    "github-receipt.json": "b7651f8299b8a681f90e25427f264aca1bcf18ebd006b6bf3203bd43490ee0cd",
+    "receipt.json": "e4a386041a481d2c10f6aa2659ebe599770618a9c820efe99dc82d6764b36757"
+  },
+  "proof_inputs_match_original_local_receipt": true,
+  "scope": "Lean-kernel checks of the supplied threshold-1 recorded decimal numbers; no trajectory theorem.",
+  "limits": [
+    "Source hashing and Decimal-to-integer transcription are external Python checks, not Lean theorems.",
+    "Finite minima range over saved candidate lists, not every point of a continuous curve.",
+    "Endpoint differences do not establish continuity or absence of intervening switches.",
+    "No fluid solver or line-integrator correctness, trajectory, closure, disconnection or reconnection theorem.",
+    "No spatial or full-history convergence theorem; the original numerical history is unchanged.",
+    "Comparator and nanoda are not used for this package."
+  ]
+}

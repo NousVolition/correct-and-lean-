@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-11-13T02:48:18.295155+00:00",
+  "finished_at_utc": "2026-11-13T02:48:27.283525+00:00",
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "proof_inputs_sha256": {
+    "WindowRecordTypes.lean": "99e81296c33ba98d14503e7a26d94f0a4b1ec9f67049af32c3c6a263ec64f4b0",
+    "WindowRecordData.lean": "4b16ad74d3fe39dfdb65235498b21ce704e879ab4446e4a99962bd24b8d16ad2",
+    "WindowRecordChecks.lean": "606fc1f266a83e7738ab6ff5b7ca05481b665693a235e024662f84d0d0eb9b79",
+    "CheckAxioms.lean": "bfd6bddc9ea48a30120caa2523a4bdda06e7e9457d769978c0e22ee78ca09a1e",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "lakefile.toml": "e76334928c7f40699b5d4e2de9b07d784b7d443f1eacd5006ce0bdf5b0498474",
+    "source-inputs.json": "fb0a0d720c7eaebd1d037e5391045884260270eba89140e6ad1c6a9bd6deefad",
+    "generate.py": "6e1dd5a30e4e4b21d4b1e6db528b0825ff8459ec4dbd7a77ffe95ab72a661fb8",
+    "certificate.py": "de3c93da53c4d57002d3de87cccbf4240ad20438d4dca6adc4dec393613f7dac",
+    "verify.py": "ea86f1f8e4c60ad3b10d17c6319a8ad7de36c1428e6a45003a971a448bf7529e",
+    "check_receipt.py": "c9bf2b1b127768fe0d7c06d9431ad4c3d59a485fca6e922c782fc813b587f3f6",
+    "test_certificate.py": "11611345a9f764670d4d471c55f43aa14be935f59ca461d681a97abc50744ff8"
+  },
+  "source_data_sha256": {
+    "measurements.json": "c392b4e070e0d6cc4cf44d4210d0fc0adfd8353d9ac2436db121fbaa7fa03d85",
+    "measurements.csv": "53b5b50c874dcf95c5950f587f06c77eb817d95603f26605ed2ebe1394a4f9aa",
+    "measurements-tight.json": "82888afd2eacf39f7051e9a8bd288e3cd376ce927b40df38cb4d0741f3c44880",
+    "measurements-tight.csv": "08a470393a9f167092ee21fdc87e29c15a0a174f5763b7e17b6a65f88a48c5e9"
+  },
+  "source_commit": "a4cc130568fe8318b809ab795709df427dc1653f",
+  "targets": [
+    "ThresholdOneRecords.decimal_scale_positive",
+    "ThresholdOneRecords.complete_record_counts",
+    "ThresholdOneRecords.forty_distinct_sample_labels",
+    "ThresholdOneRecords.recorded_candidate_count",
+    "ThresholdOneRecords.all_240_recorded_gaps_positive",
+    "ThresholdOneRecords.all_240_selected_arclengths_in_window",
+    "ThresholdOneRecords.all_recorded_candidates_in_window",
+    "ThresholdOneRecords.all_240_saved_minima_attained_and_minimal",
+    "ThresholdOneRecords.all_480_recorded_nested_window_inequalities",
+    "ThresholdOneRecords.all_18_event_side_backward_gaps_strictly_smaller",
+    "ThresholdOneRecords.all_18_event_side_selected_arclengths_negative",
+    "ThresholdOneRecords.six_backward075_improvements_exceed_0002",
+    "ThresholdOneRecords.three_saved_time_brackets_narrow",
+    "ThresholdOneRecords.three_original_recorded_arclength_changes_large",
+    "ThresholdOneRecords.nine_backward_recorded_arclength_changes_below_two_millionths",
+    "ThresholdOneRecords.first_two_forward150_recorded_gaps_improve",
+    "ThresholdOneRecords.third_forward_extensions_preserve_recorded_selection",
+    "ThresholdOneRecords.third_original_left_selection_is_A",
+    "ThresholdOneRecords.first_two_both300_recorded_gaps_improve_on_both150",
+    "ThresholdOneRecords.third_both300_and_both150_recorded_selections_agree",
+    "ThresholdOneRecords.tighter_records_match_event_labels_and_times",
+    "ThresholdOneRecords.all_36_tighter_distance_differences_bounded",
+    "ThresholdOneRecords.all_36_tighter_arclength_differences_bounded"
+  ],
+  "theorem_count": 23,
+  "axioms": {
+    "ThresholdOneRecords.decimal_scale_positive": [],
+    "ThresholdOneRecords.complete_record_counts": [],
+    "ThresholdOneRecords.forty_distinct_sample_labels": [],
+    "ThresholdOneRecords.recorded_candidate_count": [],
+    "ThresholdOneRecords.all_240_recorded_gaps_positive": [],
+    "ThresholdOneRecords.all_240_selected_arclengths_in_window": [],
+    "ThresholdOneRecords.all_recorded_candidates_in_window": [],
+    "ThresholdOneRecords.all_240_saved_minima_attained_and_minimal": [],
+    "ThresholdOneRecords.all_480_recorded_nested_window_inequalities": [],
+    "ThresholdOneRecords.all_18_event_side_backward_gaps_strictly_smaller": [],
+    "ThresholdOneRecords.all_18_event_side_selected_arclengths_negative": [],
+    "ThresholdOneRecords.six_backward075_improvements_exceed_0002": [],
+    "ThresholdOneRecords.three_saved_time_brackets_narrow": [],
+    "ThresholdOneRecords.three_original_recorded_arclength_changes_large": [],
+    "ThresholdOneRecords.nine_backward_recorded_arclength_changes_below_two_millionths": [],
+    "ThresholdOneRecords.first_two_forward150_recorded_gaps_improve": [],
+    "ThresholdOneRecords.third_forward_extensions_preserve_recorded_selection": [],
+    "ThresholdOneRecords.third_original_left_selection_is_A": [],
+    "ThresholdOneRecords.first_two_both300_recorded_gaps_improve_on_both150": [],
+    "ThresholdOneRecords.third_both300_and_both150_recorded_selections_agree": [],
+    "ThresholdOneRecords.tighter_records_match_event_labels_and_times": [],
+    "ThresholdOneRecords.all_36_tighter_distance_differences_bounded": [],
+    "ThresholdOneRecords.all_36_tighter_arclength_differences_bounded": []
+  },
+  "counts": {
+    "decimal_places": 19,
+    "samples": 40,
+    "windows_per_sample": 6,
+    "candidate_count": 1995,
+    "recorded_nested_comparisons": 480,
+    "event_side_backward_comparisons": 18,
+    "tighter_comparisons": 36
+  },
+  "runs": [
+    {
+      "module": "WindowRecordTypes",
+      "exit_code": 0,
+      "command": [
+        "lean",
+        "-DwarningAsError=true",
+        "-o",
+        "WindowRecordTypes.olean",
+        "WindowRecordTypes.lean"
+      ],
+      "log": "evidence/WindowRecordTypes.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "WindowRecordData",
+      "exit_code": 0,
+      "command": [
+        "lean",
+        "-DwarningAsError=true",
+        "-o",
+        "WindowRecordData.olean",
+        "WindowRecordData.lean"
+      ],
+      "log": "evidence/WindowRecordData.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "WindowRecordChecks",
+      "exit_code": 0,
+      "command": [
+        "lean",
+        "-DwarningAsError=true",
+        "-o",
+        "WindowRecordChecks.olean",
+        "WindowRecordChecks.lean"
+      ],
+      "log": "evidence/WindowRecordChecks.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "CheckAxioms",
+      "exit_code": 0,
+      "command": [
+        "lean",
+        "-DwarningAsError=true",
+        "CheckAxioms.lean"
+      ],
+      "log": "evidence/CheckAxioms.log",
+      "log_sha256": "03afcb2d5e26d9cd6cda0f8772560f61a8b22d0a699ac655f25b8023dbf0f04b"
+    },
+    {
+      "module": "lake build",
+      "exit_code": 0,
+      "command": [
+        "lake",
+        "build"
+      ],
+      "log": "evidence/lake-build.log",
+      "log_sha256": "6387bcf4ac7dc5c4e001f8090c9e0b075b0c22cf9fe02dbf9b041cf72e0c579a"
+    }
+  ],
+  "generated_input_matches": true,
+  "source_inputs_unchanged": true,
+  "native_decide_used": false,
+  "scope": "Lean-kernel checks of the supplied threshold-1 recorded decimal numbers; no trajectory theorem.",
+  "limits": [
+    "Source hashing and Decimal-to-integer transcription are external Python checks, not Lean theorems.",
+    "Finite minima range over saved candidate lists, not every point of a continuous curve.",
+    "Endpoint differences do not establish continuity or absence of intervening switches.",
+    "No fluid solver or line-integrator correctness, trajectory, closure, disconnection or reconnection theorem.",
+    "No spatial or full-history convergence theorem; the original numerical history is unchanged.",
+    "Comparator and nanoda are not used for this package."
+  ],
+  "execution_context": {
+    "repository": "NousVolition/hug-sims-lean-proofs",
+    "checkout_sha": "b9c7ef2064ab572fc0075945cc7831de73f06e14",
+    "pull_request_head_sha": "47e468d387cb73b136a4f8ebb1bcb7beb7e1fa95",
+    "event": "pull_request",
+    "run_id": 43354636921,
+    "run_attempt": 1,
+    "run_url": "https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43354636921"
+  },
+  "raw_checker_receipt_sha256": "e4a386041a481d2c10f6aa2659ebe599770618a9c820efe99dc82d6764b36757"
+}
