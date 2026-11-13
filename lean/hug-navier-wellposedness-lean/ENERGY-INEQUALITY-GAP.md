@@ -36,16 +36,9 @@ Because \(U\le2E\) and \(H+J\le2E\),
 
 The new Lean theorem `fieldproblem_guard_transport_energy_bound` proves this connection as \(\exists C_g\ge0,\ \forall t\in[a,b],\ |R_{AB}|+|R_{BA}|\le C_g E(t)\), with witness \(C_g=2+M^2\). This is a convenient, nonoptimal constant. Its proof establishes integrability from spatial regularity and compactness, splits the actual energy integral into its components, and invokes the previous uniform guard estimate. It does not assume the desired energy inequality.
 
-## 3. Locate the first remaining bridge: the time-dependent balance
+## 3. The time interchange is now conditional and checked; the full balance remains
 
-Writing the pointwise difference density as \(e_\Delta(t,x)\), the first analytic line to justify is
-
-\[
-\frac{d}{dt}\int_{\rm cell}e_\Delta(t,x)\,dx
-=\int_{\rm cell}\partial_t e_\Delta(t,x)\,dx.
-\]
-
-This requires appropriate time regularity and a justified interchange of derivative and integral. The current energy-bound theorem supplies neither this interchange nor the subsequent difference-equation balance.
+`TimeIntegral.lean` now proves the pointwise difference-density chain rule and passes its derivative through the fixed cell integral at interior times. Its extra hypothesis is joint continuity of the explicitly defined scalar rate density on the closed time-cell. This condition is not derived from the previous guard-gradient assumption or the original `FieldProblem`. [The exact assumptions and proof steps](TIME-DERIVATIVE-ASSUMPTIONS.md) are recorded separately.
 
 Under the stronger joint classical regularity in `CLASSICAL-UNIQUENESS-ARGUMENT.md`, the required two-history integrated balance has the form
 
@@ -67,7 +60,7 @@ D_r=\|\alpha\|_2^2+\|\beta\|_2^2+\tfrac53(H+J).
 
 This identity must be derived from the actual difference equations: justify differentiating the cell integral in time, cancel pressure and common transport, and integrate the complete variable-viscosity stress and scalar diffusion terms by parts. The single-history pointwise `full_material_energy_balance` in `FullChecks.lean` and the checked common-transport cancellation are useful ingredients; neither alone supplies this integrated difference balance.
 
-**This integrated two-history balance is the first unformalized bridge after the new bound.** The current guard-gradient continuity assumption alone is not the stronger joint classical regularity needed for all these steps.
+**The remaining bridge is the stress, pressure and diffusion part of this integrated two-history balance.** The time-interchange part has a conditional Lean proof. The guard-gradient condition alone does not supply its new rate-density hypothesis or the stronger component regularity needed for all later steps.
 
 ## 4. Bound every remaining term and retain positive viscosity
 
@@ -104,4 +97,4 @@ The new theorem has one explicit endpoint: guard transport is controlled by the 
 
 ## Verification
 
-The energy statement and definitions were recorded before the new proof file was written, as recorded in `energy-reference-freeze.json`. The definition and proof modules are included in the default build, and the new theorem is Comparator target 14. [The saved Linux receipt](evidence-linux/source.json) pins proof commit `fdc6b5277d67f4b9ee8d16b50641bac20a67e6df`: Comparator, Lean's kernel, nanoda, the full package build and all 14 axiom lists passed. The previous thirteen-target receipt is retained under `evidence-linux/historical-thirteen/`. These checks establish the displayed guard-to-energy bound under its hypotheses; they do not establish the still-open time-dependent energy inequality.
+The energy statement and definitions were recorded before the new proof file was written, as recorded in `energy-reference-freeze.json`. The definition and proof modules are included in the default build, and the new theorem is Comparator target 14. [The saved fourteen-target Linux receipt](evidence-linux/historical-fourteen/source.json) pins proof commit `fdc6b5277d67f4b9ee8d16b50641bac20a67e6df`: Comparator, Lean's kernel, nanoda, the full package build and all 14 axiom lists passed. The previous thirteen-target receipt is retained under `evidence-linux/historical-thirteen/`. These checks establish the displayed guard-to-energy bound under its hypotheses; they do not establish the still-open time-dependent energy inequality.

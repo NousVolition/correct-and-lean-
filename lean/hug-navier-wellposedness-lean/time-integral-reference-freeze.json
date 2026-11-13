@@ -1,0 +1,7 @@
+{
+  "statement_sha256": "5f50d5221dae3bd602778f8db0899ec595fe00b4f7afad97672ca0e3adc19e76",
+  "definitions_sha256": "f2438e008ad48fa9ef49123c66c8d1325b88fc9a7496fd1b935b441ab671f22d",
+  "recorded_utc": "2026-11-13T05:47:30.012072+00:00",
+  "frozen_before_time_integral_proof_file": true,
+  "scope": "Pointwise difference-energy derivative and its passage through the fixed cell integral, under explicit joint rate-density regularity; no integrated dissipation identity claimed."
+}

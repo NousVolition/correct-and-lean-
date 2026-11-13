@@ -1,6 +1,6 @@
 # A uniqueness argument for the unchanged full PDE
 
-**Status: written argument with Lean-checked guard transport steps. The full argument is written. It proves an at-most-one result in the regularity class below, provided solutions exist. It does not construct a solution, establish global existence, or prove the broader saved Lean uniqueness target.**
+**Status: written argument with Lean-checked transport and time-interchange steps. The full argument is written. It proves an at-most-one result in the regularity class below, provided solutions exist. It does not construct a solution, establish global existence, or prove the broader saved Lean uniqueness target.**
 
 Consider the exact six-field directional system in `FullModel.lean`, on the same two-dimensional periodic square, with the same initial data and the same prescribed inputs for both candidate solutions. The agent and idea are unchanged; the comparison is between two candidate mathematical histories of that same encounter.
 
@@ -75,6 +75,8 @@ Here $v=u-\tilde u$ is the difference of the two candidate velocities. The numer
 The theorem `integrated_residual_bound` bounds the absolute integral of the residual by $\frac12(\|v\|_2^2+M^2\|h\|_2^2)$ given $|\nabla\tilde g|^2\le M^2$. Use $j$ for the second guard difference. [Lean declarations](GuardTransport.lean) · [Withheld-field tests](../../research/matched-stretch/guard-transport/README.md)
 
 The next connection is formalized in `EnergyEstimate.lean`: the sum of the two absolute guard residual integrals is at most `(2 + M^2) E(t)`, with one constant throughout the chosen interval. The definition is the full six-field difference energy integrated over the periodic cell. [The energy walkthrough](ENERGY-INEQUALITY-GAP.md) identifies the still-unformalized integrated difference balance, invariant guard range, and remaining estimates needed before the following assembly becomes a Lean theorem for the actual PDE solutions.
+
+`TimeIntegral.lean` now proves the pointwise difference-density derivative from the actual PDE rates and its passage through the fixed cell integral, at interior times, under the explicit extra joint continuity of that rate density. The derivative is the integral of the full six-field rate pairing. This does not yet integrate the stress or diffusion terms by parts or derive the remaining bounds. [Exact assumptions](TIME-DERIVATIVE-ASSUMPTIONS.md)
 
 Choose the two Young-inequality parameters so their total is less than (2\nu_0). Summing all six component balances gives
 

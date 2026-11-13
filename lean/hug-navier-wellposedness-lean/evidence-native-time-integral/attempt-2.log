@@ -1,0 +1,6 @@
+REUSE TimeIntegralDefs source_sha256=f2438e008ad48fa9ef49123c66c8d1325b88fc9a7496fd1b935b441ab671f22d
+MODULE TimeIntegral SOURCE_SHA256 984e5e13ee79e19feeccf95af361ef0cc62fa2328efd89c7163d7db455db10a5
+TimeIntegral.lean:23:75: error: `ring_nf` made no progress on the goal
+TimeIntegral.lean:23:75: error: `ring_nf` made no progress on the goal
+
+EXIT 1

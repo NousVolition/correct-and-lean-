@@ -10,6 +10,8 @@ The [time-uniform extension](GuardTransportTime.lean) derives the guard-gradient
 
 The [full-energy guard bound](EnergyEstimate.lean) now controls the sum of both guard transport residual magnitudes by one constant times the full six-field difference energy throughout the interval. It supplies that term in the energy argument; it does not prove the time-dependent energy inequality. [The exact remaining gap](ENERGY-INEQUALITY-GAP.md) starts with the integrated two-history energy balance and includes the invariant guard range and remaining stress, transport and reaction bounds.
 
+The [time-interchange step](TimeIntegral.lean) proves the exact pointwise difference-energy derivative and passes it through the fixed cell integral at interior times, under the additional `JointDifferenceRateRegularity` condition. This is a sufficient analytic hypothesis on the unchanged rates; it is not derived from the original predicate or the earlier guard-gradient condition. The remaining integrated stress/diffusion balance is still open. [Assumptions and source-context distinctions](TIME-DERIVATIVE-ASSUMPTIONS.md)
+
 `RequestedExistenceAndUniqueness` names the conjunction of the two previously saved full-system targets. It is a proposition, not an asserted axiom or a proved theorem. No new claim of full existence or uniqueness is made by this package.
 
 ## The proof routes examined

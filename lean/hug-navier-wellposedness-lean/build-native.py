@@ -13,7 +13,7 @@ label=sys.argv[1]
 log=pkg/f'native-{label}.log'
 if log.exists():raise FileExistsError(log)
 with log.open('w',encoding='utf-8') as handle:
- for name in (sys.argv[2:] or ('WellposednessTargets','GuardTransportDefs','GuardTransport','GuardTransportTimeDefs','GuardTransportTime','EnergyDefs','EnergyEstimate','WellposednessProofs')):
+ for name in (sys.argv[2:] or ('WellposednessTargets','GuardTransportDefs','GuardTransport','GuardTransportTimeDefs','GuardTransportTime','EnergyDefs','EnergyEstimate','TimeIntegralDefs','TimeIntegral','WellposednessProofs')):
   print('Checking '+name,flush=True)
   started=time.monotonic()
   result=subprocess.run([str(lean),'-o',str(lib/(name+'.olean')),name+'.lean'],cwd=pkg,env=env,
