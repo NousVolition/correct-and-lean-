@@ -1,0 +1,290 @@
+[
+  {
+    "time": 1.4,
+    "stage": "47-to-41 exact",
+    "dominant_wave": [
+      0,
+      0,
+      0
+    ],
+    "dominant_q2": 0.0,
+    "high_q2_ge_50_fraction": 0,
+    "outside_native_retained_cube_fraction": 0
+  },
+  {
+    "time": 1.2,
+    "stage": "47-to-41 exact",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9993933356765256,
+    "outside_native_retained_cube_fraction": 2.6189923173898917e-10
+  },
+  {
+    "time": 1.2,
+    "stage": "41-to-23",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9993933356765256,
+    "outside_native_retained_cube_fraction": 2.6189923173898917e-10
+  },
+  {
+    "time": 1.1,
+    "stage": "41-to-23",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9998993325509129,
+    "outside_native_retained_cube_fraction": 6.85420233867406e-14
+  },
+  {
+    "time": 1.0,
+    "stage": "41-to-23",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9999646254995193,
+    "outside_native_retained_cube_fraction": 1.927538283237744e-17
+  },
+  {
+    "time": 0.9,
+    "stage": "41-to-23",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.999982871348257,
+    "outside_native_retained_cube_fraction": 3.884655073038196e-21
+  },
+  {
+    "time": 0.8,
+    "stage": "41-to-23",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9999892663867306,
+    "outside_native_retained_cube_fraction": 7.13108974659488e-25
+  },
+  {
+    "time": 0.8,
+    "stage": "23-to-0.532",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9999892663867306,
+    "outside_native_retained_cube_fraction": 7.13108974659488e-25
+  },
+  {
+    "time": 0.7000000000000001,
+    "stage": "23-to-0.532",
+    "dominant_wave": [
+      -5,
+      5,
+      5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9999913417315297,
+    "outside_native_retained_cube_fraction": 1.5106456318257323e-28
+  },
+  {
+    "time": 0.6,
+    "stage": "23-to-0.532",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9999918264231222,
+    "outside_native_retained_cube_fraction": 5.930628246547519e-32
+  },
+  {
+    "time": 0.58,
+    "stage": "23-to-0.532",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.999992171132889,
+    "outside_native_retained_cube_fraction": 3.9443190609095643e-32
+  },
+  {
+    "time": 0.56,
+    "stage": "23-to-0.532",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9999920987658932,
+    "outside_native_retained_cube_fraction": 2.8600587433629346e-32
+  },
+  {
+    "time": 0.55,
+    "stage": "23-to-0.532",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9999919988372334,
+    "outside_native_retained_cube_fraction": 2.9717438530013063e-32
+  },
+  {
+    "time": 0.54,
+    "stage": "23-to-0.532",
+    "dominant_wave": [
+      -5,
+      5,
+      5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.99998620512368,
+    "outside_native_retained_cube_fraction": 3.10629939111004e-32
+  },
+  {
+    "time": 0.532,
+    "stage": "23-to-0.532",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9999723114620519,
+    "outside_native_retained_cube_fraction": 3.18924675814018e-32
+  },
+  {
+    "time": 0.532,
+    "stage": "recovery",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9999723114620519,
+    "outside_native_retained_cube_fraction": 3.18924675814018e-32
+  },
+  {
+    "time": 0.524,
+    "stage": "damped continuation",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9999423676793817,
+    "outside_native_retained_cube_fraction": 3.167102095050494e-32
+  },
+  {
+    "time": 0.524,
+    "stage": "extended precision",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9999423676793817,
+    "outside_native_retained_cube_fraction": 3.167102095050494e-32
+  },
+  {
+    "time": 0.52,
+    "stage": "extended precision",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9999202094775015,
+    "outside_native_retained_cube_fraction": 3.0150053593669484e-32
+  },
+  {
+    "time": 0.51,
+    "stage": "triangular solve",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9998838503953857,
+    "outside_native_retained_cube_fraction": 2.3089132836241006e-32
+  },
+  {
+    "time": 0.506,
+    "stage": "Anderson",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9999107188863038,
+    "outside_native_retained_cube_fraction": 2.1016731765331992e-32
+  },
+  {
+    "time": 0.504,
+    "stage": "current accepted chain",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9999326163465354,
+    "outside_native_retained_cube_fraction": 9.653131158768609e-34
+  },
+  {
+    "time": 0.5,
+    "stage": "current accepted chain",
+    "dominant_wave": [
+      5,
+      -5,
+      -5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9999508044467865,
+    "outside_native_retained_cube_fraction": 5.83994515580927e-34
+  },
+  {
+    "time": 0.494,
+    "stage": "current accepted chain",
+    "dominant_wave": [
+      -5,
+      5,
+      5
+    ],
+    "dominant_q2": 75.0,
+    "high_q2_ge_50_fraction": 0.9988077906719894,
+    "outside_native_retained_cube_fraction": 2.737064814087527e-34
+  }
+]

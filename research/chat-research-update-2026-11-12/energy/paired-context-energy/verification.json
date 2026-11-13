@@ -1,0 +1,42 @@
+{
+  "checked_utc": "2026-11-12T10:59:17.780715+00:00",
+  "source_trace": "CHECKED: old pair law is an added, later superseded realization; not derived from carrying continuity alone",
+  "requested_energy_closure": "NOT ESTABLISHED: this specific canonical potential cannot pay the positive net residual from zero initial context. Additional configuration/history energy remains unspecified.",
+  "numerical_checks": "PASS",
+  "Lean_compilation": "PASS",
+  "axiom_audit": "PASS",
+  "new_proved_statements": [
+    "PairContext.log_cosh_rate",
+    "PairContext.potential_nonnegative",
+    "PairContext.potential_zero",
+    "PairContext.moving_potential_rate",
+    "PairContext.zero_context_cannot_pay"
+  ],
+  "Lean_version": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "build_attempts": {
+    "first_two": "Unsuccessful local proof drafts, preserved in work/logs-proof-1 and work/logs-proof-2",
+    "final": "logs-proof-3: both final modules exit 0; no unresolved formalization in the five stated lemmas"
+  },
+  "formal_scope": "Finite log-cosh chain rule and initial-minimum result, conditional on the declared derivatives and nonnegative weights. Moving-kernel adjoint collapse is an analytic derivation with numerical checks, not additionally formalized here.",
+  "saved_states": 62,
+  "new_solver_steps": 0,
+  "physical_equation_changes": 0,
+  "diagnostic_potential_change": 7.604657325036376e-09,
+  "diagnostic_units": "context squared * volume / time, not calibrated physical energy; any positive energy conversion preserves the sign obstruction",
+  "remaining_energy_demand": {
+    "amount": 1.0654747938026771e-05,
+    "units": "model energy",
+    "provenance": "Earlier endpoint activation-height account, retained as historical numerical evidence",
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\full-carrying-energy\\activation-results.json",
+    "sha256": "60079339442449beadcbfc52344ba8420b78617601fdd1edaa79317703ce4cf2"
+  },
+  "source_notes_equations_and_saved_states_unchanged": true,
+  "limitations": [
+    "The old reference-pair prescription is evaluated diagnostically at the current saved resolution, not activated in the equations",
+    "No physical energy conversion or independent configuration/history-only energy law has been supplied",
+    "No universal impossibility theorem for gravitational or all-history energy",
+    "No new full-corpus or live-board search; prior readable-source coverage and exclusions are retained",
+    "The full PDE and its numerical trajectory are not formally verified by these finite lemmas"
+  ]
+}

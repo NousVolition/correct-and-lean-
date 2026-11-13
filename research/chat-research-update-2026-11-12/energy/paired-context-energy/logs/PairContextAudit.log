@@ -1,0 +1,5 @@
+'PairContext.log_cosh_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PairContext.potential_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PairContext.potential_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PairContext.moving_potential_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PairContext.zero_context_cannot_pay' depends on axioms: [propext, Classical.choice, Quot.sound]

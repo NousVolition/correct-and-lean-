@@ -1,0 +1,123 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Every positive viscosity, every genuinely selected native schedule and every compression scale > 1 fitting its compact support cylinder in the open unit cell. The two transverse residual integrals for the periodized velocity have opposite signs at some common offset at every sufficiently late presingular time. No scalar field and spatially C¹ periodic pressure can reproduce the exact velocity with the original signed force along any fixed Cartesian axis. The pinned quarter-cube construction also has both identities across the entire original edge window and a joint witness for the original breakdown theorem.",
+  "open_items": [
+    "The corpus glosses e_k as a fixed unit direction. If this includes an oblique vector with both horizontal components nonzero, that case is outside the Cartesian two-loop proof.",
+    "Numerical onset times, witness offsets and a quantitative lower bound uniform across viscosities were not obtained.",
+    "Approximation, other periodic velocities or alternative localizations each require their own comparison.",
+    "Which complete A/S histories can sustain nontrivial vortex motion or whole-box cancellation over time remains open."
+  ],
+  "number_of_new_targets": 12,
+  "targets": [
+    "SignedVortex.Rescaled.support_fits_iff",
+    "SignedVortex.Rescaled.loop_transfer",
+    "SignedVortex.Rescaled.hline_any_fit",
+    "SignedVortex.Rescaled.hline_pinned_quarter",
+    "SignedVortex.Rescaled.matches_at_one",
+    "SignedVortex.Rescaled.matching_force_has_zero_loop",
+    "SignedVortex.Rescaled.inward_signal",
+    "SignedVortex.Rescaled.opposite_nonzero_loops",
+    "SignedVortex.Rescaled.late_exclusion",
+    "SignedVortex.Rescaled.excludes_every_fitting_scale",
+    "SignedVortex.Rescaled.candidate_for_schedule",
+    "SignedVortex.Rescaled.every_positive_viscosity"
+  ],
+  "axioms_by_target": {
+    "SignedVortex.Rescaled.support_fits_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.Rescaled.loop_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.Rescaled.hline_any_fit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.Rescaled.hline_pinned_quarter": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.Rescaled.matches_at_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.Rescaled.matching_force_has_zero_loop": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.Rescaled.inward_signal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.Rescaled.opposite_nonzero_loops": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.Rescaled.late_exclusion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.Rescaled.excludes_every_fitting_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.Rescaled.candidate_for_schedule": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.Rescaled.every_positive_viscosity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "upstream_commit": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "corpus_commit": "b4ae2c54cd85bfef282c501ecfca83de274e2070",
+  "original_force_definition_sha256": "085842badbc2b5d75e7749e24766a02ccc21f3cb7b3e638a6c1a4b6534cf79c8",
+  "original_force_match_predicate_module_sha256": "c04f8772aad05229fa4cbc35451ea05907ef82cf12e7c094a0579c29222a3bd0",
+  "earlier_audits": {
+    "as-signed-vortex-lean": 25,
+    "as-vortex-hline-lean": 5
+  },
+  "prior_freezes": {
+    "as-signed-vortex-lean": "fd16dc9105dad775a7850396b40602ad201a6d8c4a95ba1a912a4dfa5497117c",
+    "as-vortex-hline-lean": "33c1197c9e1e7076d129960329375bb2de5dc96de9ee62a18e254109cfbc14b0"
+  },
+  "corpus_docx_sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+  "source_integrity": {
+    "sources_unchanged": true,
+    "dependencies_clean": true
+  },
+  "new_and_inherited_builds_started_empty": true,
+  "exit_codes": {
+    "comparator": 0,
+    "lean_build": 0,
+    "axiom_report": 0
+  },
+  "started_utc": "2026-11-09T04:46:28+00:00",
+  "finished_utc": "2026-11-09T05:09:21+00:00",
+  "evidence": {
+    "comparator": "evidence/comparator.log",
+    "lean_build": "evidence/lean-build.log",
+    "axioms": "evidence/axioms.log",
+    "inputs": "reference-freeze.json",
+    "preflight": "evidence/preflight.json",
+    "postflight": "evidence/postflight.json"
+  }
+}

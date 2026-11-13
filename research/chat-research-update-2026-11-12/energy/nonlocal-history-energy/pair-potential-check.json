@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "scope": "Small frozen-geometry algebra check of a derived potential for the older mirrored pair law; not a simulation, calibration, physical energy identification, or Lean theorem.",
+  "checks": [
+    {
+      "epsilon": 0.001,
+      "directional_finite_difference": -0.00010830433045461499,
+      "analytic": -0.0001083043318729545,
+      "difference": 1.4183395126779463e-12
+    },
+    {
+      "epsilon": 0.0001,
+      "directional_finite_difference": -0.0001083043318583451,
+      "analytic": -0.0001083043318729545,
+      "difference": 1.4609407433807675e-14
+    },
+    {
+      "epsilon": 1e-05,
+      "directional_finite_difference": -0.00010830433187379496,
+      "analytic": -0.0001083043318729545,
+      "difference": -8.40459971583607e-16
+    }
+  ],
+  "pair_only_potential_rate": -7.324022027147426e-07,
+  "negative_grid_norm_squared": -7.324022027658977e-07,
+  "potential_at_zero": 0.0,
+  "potential_at_test_state": 0.00011185573239507385,
+  "relation_to_saved_run": "The old direct paired-context term is identically zero in the actual threshold-1 solver; this law is not activated.",
+  "source": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\coupled_hug.py",
+  "source_sha256": "652d74a84af3489993222b2663b55eaa9ac51816aae8fa8287f9003e4a580235",
+  "source_unchanged": true,
+  "script_sha256": "b1176e855191506c75c0ce83de3a10cf99ba9de70f3589f9d5f6c9710c9c5e20"
+}

@@ -1,0 +1,3 @@
+'HistoryCompletionTarget.start_attains_closest_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.path_at_tick' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryCompletionTarget.full_pair_rules_out_exact_reader' depends on axioms: [propext, Classical.choice, Quot.sound]

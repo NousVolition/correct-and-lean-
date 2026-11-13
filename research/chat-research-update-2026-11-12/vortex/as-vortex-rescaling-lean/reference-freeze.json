@@ -1,0 +1,48 @@
+{
+  "files": {
+    "comparator.json": "cb68c35fb79b4230bdab7223ac64e176d8e11062dec25ef4143bede8594ef011",
+    "lake-manifest.json": "3b094057247829daf0dc2008fb2d47bd2f1b1402e1cc61fd58e726c0c3a95585",
+    "lakefile.toml": "dee0765b422f7963db253896da18ee7e4fadf5a9c9d229ce8aa726053d264b02",
+    "lean-toolchain": "b563246bde88bad741a3fe1c6b126ad8dab470340d55ac3e97cca9b3f200878b",
+    "RescaleChallenge.lean": "40b5d01920671278bc36d8203b0378790fe6ab32b8b1056e256865bc02e7aaad",
+    "RescaleCorollary.lean": "195dbadcdcf41a9f522f855f16c287b6f3de70ff23b6cf475f948af90d258ef7",
+    "RescaleCovariance.lean": "8e5473c6326188f707f762b94b257927186adeb89f081bae57c5e0d984697a07",
+    "RescaleFields.lean": "2ea5bd0979401329082dc23c6bbbf38c25774c0b4b43bcfdd04461efc425e562",
+    "RescaleForcing.lean": "fdd76d7a9acf8021e22e4c1779400b188ebe5b162a318ce1d389fee9d21f22df",
+    "RescaleLoops.lean": "9d0193bcc8fb47869dc0aa60cc4acc7500c5bfab478e314fbd186c5d27f4dfde",
+    "RescaleSolution.lean": "723fc326184db450cc382273f2112062e3edd5b4e7eb6af8031fe2b1b2ecae52",
+    "RescaleSupport.lean": "d2bbabfcb60ead0eea4042033d5dd9a597537fee9ae00286db75f379c46ce02e",
+    "run-check.sh": "4ce791a762a27776915495af112067c01ecc90f4a0b321a701bb1418d77b70bc"
+  },
+  "solution_modules": [
+    "RescaleFields.lean",
+    "RescaleSupport.lean",
+    "RescaleCovariance.lean",
+    "RescaleLoops.lean",
+    "RescaleForcing.lean",
+    "RescaleCorollary.lean",
+    "RescaleSolution.lean"
+  ],
+  "theorems": [
+    "SignedVortex.Rescaled.support_fits_iff",
+    "SignedVortex.Rescaled.loop_transfer",
+    "SignedVortex.Rescaled.hline_any_fit",
+    "SignedVortex.Rescaled.hline_pinned_quarter",
+    "SignedVortex.Rescaled.matches_at_one",
+    "SignedVortex.Rescaled.matching_force_has_zero_loop",
+    "SignedVortex.Rescaled.inward_signal",
+    "SignedVortex.Rescaled.opposite_nonzero_loops",
+    "SignedVortex.Rescaled.late_exclusion",
+    "SignedVortex.Rescaled.excludes_every_fitting_scale",
+    "SignedVortex.Rescaled.candidate_for_schedule",
+    "SignedVortex.Rescaled.every_positive_viscosity"
+  ],
+  "prior_freezes": {
+    "as-signed-vortex-lean": "fd16dc9105dad775a7850396b40602ad201a6d8c4a95ba1a912a4dfa5497117c",
+    "as-vortex-hline-lean": "33c1197c9e1e7076d129960329375bb2de5dc96de9ee62a18e254109cfbc14b0"
+  },
+  "upstream_commit": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "corpus_commit": "b4ae2c54cd85bfef282c501ecfca83de274e2070",
+  "original_force_definition_sha256": "085842badbc2b5d75e7749e24766a02ccc21f3cb7b3e638a6c1a4b6534cf79c8",
+  "original_force_match_predicate_module_sha256": "c04f8772aad05229fa4cbc35451ea05907ef82cf12e7c094a0579c29222a3bd0"
+}

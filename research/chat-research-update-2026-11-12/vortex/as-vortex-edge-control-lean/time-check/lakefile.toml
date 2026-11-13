@@ -1,0 +1,19 @@
+name = "VortexTimeControl"
+version = "0.1.0"
+defaultTargets = ["TemporalSolution"]
+
+[[require]]
+name = "RescaledVortexAudit"
+path = "../../as-vortex-rescaling-lean"
+
+[[lean_lib]]
+name = "TemporalStatements"
+
+[[lean_lib]]
+name = "TemporalProofs"
+
+[[lean_lib]]
+name = "TemporalChallenge"
+
+[[lean_lib]]
+name = "TemporalSolution"

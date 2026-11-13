@@ -1,0 +1,30 @@
+name = "VortexHLine"
+version = "0.1.0"
+defaultTargets = ["HLineSolution"]
+
+[[require]]
+name = "SignedVortex"
+path = "../as-signed-vortex-lean"
+
+[[lean_lib]]
+name = "HLineStatements"
+[[lean_lib]]
+name = "HLineCalculus"
+
+[[lean_lib]]
+name = "HLineGeometry"
+
+[[lean_lib]]
+name = "HLineOperator"
+
+[[lean_lib]]
+name = "HLineIntegral"
+
+[[lean_lib]]
+name = "HLineProofs"
+
+[[lean_lib]]
+name = "HLineSolution"
+
+[[lean_lib]]
+name = "HLineChallenge"

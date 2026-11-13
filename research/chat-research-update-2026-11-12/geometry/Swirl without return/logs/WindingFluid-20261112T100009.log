@@ -1,0 +1,52 @@
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingFluid.lean:71:65: error: linarith failed to find a contradiction
+case «0».h1
+b t : ℝ
+p : Point
+h : fieldD b p 2 1 - fieldD b p 1 2 = eigenvalue * field b p 0
+a✝ : amplitude t * fieldD b p 2 1 - amplitude t * fieldD b p 1 2 < eigenvalue * (amplitude t * field b p 0)
+⊢ False
+failed
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingFluid.lean:71:65: error: linarith failed to find a contradiction
+case «1».h1
+b t : ℝ
+p : Point
+h : fieldD b p 0 2 - fieldD b p 2 0 = eigenvalue * field b p 1
+a✝ : amplitude t * fieldD b p 0 2 - amplitude t * fieldD b p 2 0 < eigenvalue * (amplitude t * field b p 1)
+⊢ False
+failed
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingFluid.lean:71:65: error: linarith failed to find a contradiction
+case «2».h1
+b t : ℝ
+p : Point
+h : fieldD b p 1 0 - fieldD b p 0 1 = eigenvalue * field b p 2
+a✝ : amplitude t * fieldD b p 1 0 - amplitude t * fieldD b p 0 1 < eigenvalue * (amplitude t * field b p 2)
+⊢ False
+failed
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingFluid.lean:136:2: error: `fun_prop` was unable to prove `ContDiff ℝ ⊤ fun tx => -(flow b tx.1 tx.2 0 ^ 2 + flow b tx.1 tx.2 1 ^ 2 + flow b tx.1 tx.2 2 ^ 2) / 2`
+
+Issues:
+  No theorems found for `ClosestPointExample.Winding.flow` in order to prove `ContDiff ℝ ⊤ fun x => flow b x.1 x.2 0`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingFluid.lean:148:58: error: unsolved goals
+b : ℝ
+p : Point
+i : Fin 3
+hn : eigenvalue ≠ 0
+⊢ eigenvalue * (targetSwirl / eigenvalue * field b p i) = targetSwirl * field b p i
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingFluid.lean:151:25: warning: This simp argument is unused:
+  hn
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [flow, amplitude]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'ClosestPointExample.Winding.solves_navier_stokes' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.flow_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.smooth_pressure' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.periodic_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.paddle_at_A' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ClosestPointExample.Winding.positive_swirl_on_plane' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

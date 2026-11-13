@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "tool": "Node DOM interaction test and JavaScript syntax check",
+  "preset_runs": 4,
+  "saved_readings_per_run": 654,
+  "material_samples_per_run": 651,
+  "checks": ["Independent starts", "Both meters", "Timeline", "Next outcome write", "Actual speck paths and coordinates", "Material-decoded trust", "Cumulative supplied write work"],
+  "rendered_visual_inspection": false
+}

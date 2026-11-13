@@ -1,0 +1,17 @@
+{
+  "module": "ClayFabric",
+  "exit_code": 1,
+  "started_utc": "2026-11-12T06:51:32.1530641Z",
+  "finished_utc": "2026-11-12T06:51:53.4099981Z",
+  "source_sha256": "BBABEC21B6A059C5D0FE3DFDDCD3729A69D3A1A7AB23F0D559CC3D7A179F3D2E",
+  "source_unchanged": true,
+  "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\ClayFabric.lean",
+  "command": [
+    "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+    "-o",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\build-final\\ClayFabric.olean",
+    "ClayFabric.lean"
+  ],
+  "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\logs\\final-repair\\ClayFabric.log",
+  "log_sha256": "75D5FB9A09676D894B525BFC6F0D182CAA8663B4BCDD197A1ABE8E6E1C13B796"
+}

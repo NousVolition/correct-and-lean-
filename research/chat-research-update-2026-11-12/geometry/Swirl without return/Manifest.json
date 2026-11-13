@@ -1,0 +1,154 @@
+{
+  "files": [
+    {
+      "path": "lean/ClosestPointGeometry.lean",
+      "bytes": 5814,
+      "sha256": "5a4b73a2d788e5e600b4cec8a73707a47d4fd42cc26e1f592be79e245862e5ed"
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "bytes": 530,
+      "sha256": "accf0b1a5f190a65c5ed09d777348072eaa8b3e768c3cde31518c16fad3a0515"
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "bytes": 29,
+      "sha256": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
+    },
+    {
+      "path": "lean/PeriodicNavierStokes.lean",
+      "bytes": 8950,
+      "sha256": "6f0541f30f12cb69866139d1d1c48369a6bdbab6208af9d6befbf432e21dcc2b"
+    },
+    {
+      "path": "lean/SIMSLatentReadout.lean",
+      "bytes": 21445,
+      "sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4"
+    },
+    {
+      "path": "lean/WindingCurve.lean",
+      "bytes": 9198,
+      "sha256": "9d82db519fd055d5d0b6df7cd51475230785c77d4a590d50667fb03b84fa511c"
+    },
+    {
+      "path": "lean/WindingField.lean",
+      "bytes": 5914,
+      "sha256": "75723e6336376a7d34057a0b1355795ac6c47df50bcf16d18d601d5926fbbf8b"
+    },
+    {
+      "path": "lean/WindingFluid.lean",
+      "bytes": 7411,
+      "sha256": "4b3c6917cd028b9a1e7ec98665629ae90c7e6057d30eee1f404cf803e036d5e1"
+    },
+    {
+      "path": "lean/WindingInstance.lean",
+      "bytes": 6545,
+      "sha256": "2e3cde5be3fcee37d41c54ab65e5de2012df667e0ed6fc709e043db56770c4c4"
+    },
+    {
+      "path": "logs/WindingCurve-20261112T100009.log",
+      "bytes": 5170,
+      "sha256": "f496927e29d2b16148b1fb86ded9931ba7960bd9ce22e560e95adde8737fd9c6"
+    },
+    {
+      "path": "logs/WindingCurve-20261112T100239.log",
+      "bytes": 2930,
+      "sha256": "1bbb997bd1eaf61ec39053083515f956dec6c32b92a0140144940a9865e59e5c"
+    },
+    {
+      "path": "logs/WindingField-20261112T095216.log",
+      "bytes": 16928,
+      "sha256": "a9ef3806206b1fcaf7333d2de0b854626c13a158b20d7348235a9b368e35a0d4"
+    },
+    {
+      "path": "logs/WindingField-20261112T095350.log",
+      "bytes": 12585,
+      "sha256": "bf8e590474e192ef65e47a07c5c3e5ea4aa66d388dcff9b0a9cc2793c50428b4"
+    },
+    {
+      "path": "logs/WindingField-20261112T095557.log",
+      "bytes": 996,
+      "sha256": "24270d154baa178628c03c36078412e7d4fcaf1ed4f3f4cca60ff621f9347cd9"
+    },
+    {
+      "path": "logs/WindingField-20261112T095728.log",
+      "bytes": 724,
+      "sha256": "f3da9e616b48ae065dae8fa6ae7d1fe89480d116b520249559e6db0c1598c9d5"
+    },
+    {
+      "path": "logs/WindingFluid-20261112T100009.log",
+      "bytes": 2985,
+      "sha256": "dc875a31b9dee86ffa9cd538dc8cff76e75afb99f0d836c2326fee7a68bab7f0"
+    },
+    {
+      "path": "logs/WindingFluid-20261112T100239.log",
+      "bytes": 845,
+      "sha256": "7ab30b7a33856731b71d673ea21aa4ae0b1ef33edfb25de217e96b81929ff4b1"
+    },
+    {
+      "path": "logs/WindingInstance-20261112T100602.log",
+      "bytes": 2494,
+      "sha256": "16e7d56f47c2c8ec911cf06a0aa0c2edebb781df34240c30c03fd2b168ca9612"
+    },
+    {
+      "path": "logs/WindingInstance-20261112T100802.log",
+      "bytes": 3599,
+      "sha256": "9914f32e85bf5bedc00843e7db9737f9ec7f29b902595440d7716b41713a7071"
+    },
+    {
+      "path": "Nonzero winding comparison.png",
+      "bytes": 180732,
+      "sha256": "68584dec51e504829af250a2dc87e43535095b627cfadfb14461bed954f288d3"
+    },
+    {
+      "path": "Nonzero winding comparison.svg",
+      "bytes": 94300,
+      "sha256": "68c596019df73bdb3fd4d996b33039a27ce5d5c68f44c3985ce45d19f68d14b1"
+    },
+    {
+      "path": "Readout.md",
+      "bytes": 8459,
+      "sha256": "8a9756c8565bb224a27395757ea4b60fc793332faa5aa455a5669ed96dfa2831"
+    },
+    {
+      "path": "scripts/check_winding_example.py",
+      "bytes": 3499,
+      "sha256": "d469784661667901de4879e7c1db1b8440cf0422f3842f594a49c97000336514"
+    },
+    {
+      "path": "scripts/package_winding_example.py",
+      "bytes": 4355,
+      "sha256": "4be693e1edda6b4a0fe17ceb5013ff7d74da53d78ab17ecc0b0094ae29d01dcc"
+    },
+    {
+      "path": "scripts/plot_winding_example.py",
+      "bytes": 2831,
+      "sha256": "015f4a32618f63b1718693c292518edb6f5718ea55aac04451328710ec5901eb"
+    },
+    {
+      "path": "Verification.json",
+      "bytes": 9744,
+      "sha256": "9110f0d59b77bf6d03a94666532ca924ea6d9b092d1591b79110b158d0c90b5f"
+    },
+    {
+      "path": "WindingCurve verification.json",
+      "bytes": 1743,
+      "sha256": "1bcd955ed456d75100eefe3e8d5235a4e19482b167e352869b9b0847554835f8"
+    },
+    {
+      "path": "WindingField verification.json",
+      "bytes": 1622,
+      "sha256": "df9260b9041aadffdbc27608222c04580dc08dd34bb2f0b0bbb94962cc9fce30"
+    },
+    {
+      "path": "WindingFluid verification.json",
+      "bytes": 1689,
+      "sha256": "cc587dd49b6559868b09cdd09d6f9c738ee9ce288ed01eb6edeaaa85e72e2c77"
+    },
+    {
+      "path": "WindingInstance verification.json",
+      "bytes": 1917,
+      "sha256": "790faddf70b4586750c90527fc8598524eb7eb3acbae3c4d98c38e8dc03dafbf"
+    }
+  ]
+}

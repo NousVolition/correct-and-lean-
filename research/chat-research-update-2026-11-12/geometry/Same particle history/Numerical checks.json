@@ -1,0 +1,63 @@
+{
+  "status": "NUMERICAL ILLUSTRATION ONLY",
+  "mathematical_claim": "The proof uses an exactly selected irrational drift; the decimal root here only approximates that selection.",
+  "viscosity": 0.015,
+  "tagging_time": 1.178,
+  "tick41": 1.2,
+  "epsilon": 0.001,
+  "beta": 0.125,
+  "target_swirl": 0.7324048672809587,
+  "target_drift_formula": "sqrt(2)/100000",
+  "target_drift_float": 1.4142135623730951e-05,
+  "runs": [
+    {
+      "n": 32,
+      "dt": 0.002,
+      "scale": -0.11674652371860131,
+      "scalar_residual": 1.1073788659177389e-06,
+      "horizontal_residual": 1.4543423355458328e-17,
+      "eta": 0.09936009180635412,
+      "drift": 1.4142135623730916e-05,
+      "min_x": -0.03946984256817305,
+      "max_x": 2.4333560731645532e-17,
+      "min_wx": 6.2429812232030955,
+      "min_swirl": 0.7306095441994724,
+      "closest_distance": 0.24999999999999997,
+      "max_level_residual": 6.938893903907228e-17,
+      "history_samples": 12,
+      "max_perturbation_first_jet": 1.1612970944503747e-16,
+      "max_history_vector_difference": 1.3557739878159344e-17
+    },
+    {
+      "n": 48,
+      "dt": 0.001,
+      "scale": -0.11674652371860006,
+      "scalar_residual": 2.7684481119654215e-07,
+      "horizontal_residual": 3.0688374255937725e-17,
+      "eta": 0.09936009180635426,
+      "drift": 1.4142135623730916e-05,
+      "min_x": -0.03946984256817282,
+      "max_x": 8.84856753878009e-18,
+      "min_wx": 6.2429812232031505,
+      "min_swirl": 0.7306095441994729,
+      "closest_distance": 0.25,
+      "max_level_residual": 6.938893903907228e-17,
+      "history_samples": 23,
+      "max_perturbation_first_jet": 1.0428397144632002e-16,
+      "max_history_vector_difference": 1.2174791145927611e-17
+    }
+  ],
+  "resolution_changes": {
+    "eta": 1.3877787807814457e-16,
+    "drift": 0.0,
+    "min_swirl": 4.440892098500626e-16,
+    "closest_distance": 2.7755575615628914e-17
+  },
+  "elapsed_seconds": 2.930675983428955,
+  "limitations": [
+    "No interval enclosure of the PDE or parameter root.",
+    "Irrational nonreturn is proved analytically, never inferred from a floating-point trace.",
+    "The existence proof takes sufficiently small epsilon; epsilon=0.001 is an illustration checked at two resolutions, not a certified admissible parameter bound.",
+    "The saved Hug simulation was not rerun or used as an initial condition."
+  ]
+}

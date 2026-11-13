@@ -1,0 +1,119 @@
+{
+  "files": [
+    {
+      "path": "lean/ClosestPointGeometry.lean",
+      "bytes": 5814,
+      "sha256": "5a4b73a2d788e5e600b4cec8a73707a47d4fd42cc26e1f592be79e245862e5ed"
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "bytes": 524,
+      "sha256": "8f8a903bd5bda3d48450fc6277dd5ae9ab2d4d3c048a1305cbf136d0187de2d9"
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "bytes": 29,
+      "sha256": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
+    },
+    {
+      "path": "lean/MatchingPaddleFluid.lean",
+      "bytes": 9937,
+      "sha256": "bbb4f25936857bb79611ae57584aba75ebab7272a4d84ea5d53af591dc50d243"
+    },
+    {
+      "path": "lean/MatchingPaddleInstance.lean",
+      "bytes": 2845,
+      "sha256": "91a67b6f288751cfa7e116cdb1ccdac89a32eaaaedcda28cb8ffe3702c38d3ee"
+    },
+    {
+      "path": "lean/MatchingPaddleLines.lean",
+      "bytes": 6261,
+      "sha256": "c393e5a3de1d34d508ad34e86bd7fd8771945d3c6807f2154eedc7a6a2af96f0"
+    },
+    {
+      "path": "lean/PeriodicNavierStokes.lean",
+      "bytes": 8950,
+      "sha256": "6f0541f30f12cb69866139d1d1c48369a6bdbab6208af9d6befbf432e21dcc2b"
+    },
+    {
+      "path": "lean/SIMSLatentReadout.lean",
+      "bytes": 21445,
+      "sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4"
+    },
+    {
+      "path": "logs/MatchingPaddleFluid-20261112T091926.log",
+      "bytes": 7413,
+      "sha256": "72bc2306c04772481c47572580d1eeee3789b7220326325d533667e764d1c7eb"
+    },
+    {
+      "path": "logs/MatchingPaddleFluid-20261112T092026.log",
+      "bytes": 3194,
+      "sha256": "28ee1ff35f321d2e9c9bd550a03abeefe95b0badb696e7e4e5de265646a8da31"
+    },
+    {
+      "path": "logs/MatchingPaddleInstance-20261112T092539.log",
+      "bytes": 866,
+      "sha256": "3757277b61c092aeeed7544d4a649ac9451dd06c4832836f80349c6f5718097a"
+    },
+    {
+      "path": "logs/MatchingPaddleLines-20261112T092236.log",
+      "bytes": 2526,
+      "sha256": "ab392c041455b0606e8f1446ee6d8cfcbc7df0c1cb3da67a86d8f4038f587590"
+    },
+    {
+      "path": "logs/MatchingPaddleLines-20261112T092406.log",
+      "bytes": 1474,
+      "sha256": "aec5ce2a001f0901b5e199a8c90ef39bc0ccfaca57564b35ca17c7bb0e9331b3"
+    },
+    {
+      "path": "MatchingPaddleFluid verification.json",
+      "bytes": 1826,
+      "sha256": "6090b97e705cb2a5c7c2b65c83fbbcbd2f4c8b7e6549da76d43ff1c1010d3cdb"
+    },
+    {
+      "path": "MatchingPaddleInstance verification.json",
+      "bytes": 1836,
+      "sha256": "bbe0a7a2dcdd38a12c59bb7f84ed12f355234723891d4c4ea91deaffc7cb14da"
+    },
+    {
+      "path": "MatchingPaddleLines verification.json",
+      "bytes": 1875,
+      "sha256": "add20c2dbc241c16c16d87d7fbc34cb2b58b21982a2cbbaedff8048711445736"
+    },
+    {
+      "path": "Readout.md",
+      "bytes": 7620,
+      "sha256": "2de63b987fe6b4f0bb0790d9af134996307f472088c1a7c29df157f3096ceff9"
+    },
+    {
+      "path": "scripts/check_paddle_example.py",
+      "bytes": 3425,
+      "sha256": "6da81c2003ec4c94918e7e65733e24f1d217665124a5733c592a6067c18b3bc6"
+    },
+    {
+      "path": "scripts/package_matching_paddle.py",
+      "bytes": 4143,
+      "sha256": "83b43ecdcf278732162a03e69ad6d129439ca5f3fa02ff968136c6ef3c42b09f"
+    },
+    {
+      "path": "scripts/plot_matching_paddle.py",
+      "bytes": 2255,
+      "sha256": "02bdeafb0656fae6ccbf95ac9dab5620edfd7267bbc53fc6fcc9599bc06b988d"
+    },
+    {
+      "path": "Swirl along the two lines.png",
+      "bytes": 121851,
+      "sha256": "0053e5412b7114e0d49dd06cde2127c4ba27bca98dd8d01129010513074538f5"
+    },
+    {
+      "path": "Swirl along the two lines.svg",
+      "bytes": 71309,
+      "sha256": "9e4f08c51d378a01b57887f9e603b8ffe7a0a31219cdf837c067b292cf65943c"
+    },
+    {
+      "path": "Verification.json",
+      "bytes": 7847,
+      "sha256": "468071078989eeef2c766ba93b6c42a6e563405190184f63b26cc1ea6f1f59c2"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+✔ [8672/8957] Built SignedDefinitions (1.4s)
+✔ [9371/9383] Built TraceDefinitions (1.6s)
+✔ [9372/9383] Built SignedSolution (2.2s)
+✔ [9373/9383] Built ExteriorSolution (3.6s)
+✔ [9374/9383] Built TraceSolution (4.6s)
+✔ [9375/9383] Built TargetSolution (3.3s)
+✔ [9376/9383] Built HLineStatements (2.7s)
+✔ [9377/9383] Built HLineCalculus (3.6s)
+✔ [9378/9383] Built HLineOperator (3.4s)
+✔ [9379/9383] Built HLineIntegral (3.7s)
+✔ [9380/9383] Built HLineGeometry (4.6s)
+✔ [9381/9383] Built HLineProofs (2.9s)
+ℹ [9382/9383] Built HLineSolution (2.2s)
+info: HLineSolution.lean:3:0: 'SignedVortex.HLine.hline_both' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HLineSolution.lean:4:0: 'SignedVortex.HLine.hline_xy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HLineSolution.lean:5:0: 'SignedVortex.HLine.hline_yx' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HLineSolution.lean:6:0: 'SignedVortex.HLine.signed_excluded_at_late_times' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HLineSolution.lean:7:0: 'SignedVortex.HLine.no_signed_full_trajectory' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9383 jobs).

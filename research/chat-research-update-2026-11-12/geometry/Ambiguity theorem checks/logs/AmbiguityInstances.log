@@ -1,0 +1,23 @@
+'AmbiguityInstances.Tick41Write.same_water_observation' does not depend on any axioms
+'AmbiguityInstances.Tick41Write.different_record_presence' does not depend on any axioms
+'AmbiguityInstances.Tick41Write.no_exact_water_reader' does not depend on any axioms
+'AmbiguityInstances.Tick41Write.exact_reader_with_record' does not depend on any axioms
+'AmbiguityInstances.YangMills.same_slice_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AmbiguityInstances.YangMills.original_satisfies' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AmbiguityInstances.YangMills.modified_does_not_satisfy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AmbiguityInstances.YangMills.residuals_are_zero_and_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AmbiguityInstances.YangMills.no_exact_slice_reader' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AmbiguityInstances.YangMills.off_slice_curvature_distinguishes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AmbiguityInstances.Tick41Geometry.all_scales_positive' does not depend on any axioms
+'AmbiguityInstances.Tick41Geometry.all_saved_x_returns_open' does not depend on any axioms
+'AmbiguityInstances.Tick41Geometry.saved_x_does_not_close' depends on axioms: [propext, Quot.sound]
+'AmbiguityInstances.Tick41Geometry.integer_return_would_close' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AmbiguityInstances.Tick41Geometry.no_saved_integer_periodic_return' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AmbiguityInstances.Tick41Geometry.no_opposite_saved_closure_properties' depends on axioms: [propext, Quot.sound]
+'AmbiguityInstances.Tick41Geometry.exact_reader_on_saved_returns' depends on axioms: [propext, Quot.sound]

@@ -1,0 +1,41 @@
+Running as unit: run-p633-i987.service; invocation ID: ce55953c59634e9e855207ef5fc79b6b
+Building HLineChallenge
+✔ [9370/9378] Built SignedDefinitions (8.6s)
+✔ [9371/9378] Built SignedSolution (2.5s)
+✔ [9372/9378] Built TraceDefinitions (2.7s)
+✔ [9373/9378] Built ExteriorSolution (15s)
+✔ [9374/9378] Built TraceSolution (4.3s)
+✔ [9375/9378] Built TargetSolution (3.2s)
+✔ [9376/9378] Built HLineStatements (2.1s)
+⚠ [9377/9378] Built HLineChallenge (2.6s)
+warning: HLineChallenge.lean:7:8: declaration uses `sorry`
+warning: HLineChallenge.lean:13:8: declaration uses `sorry`
+warning: HLineChallenge.lean:17:8: declaration uses `sorry`
+warning: HLineChallenge.lean:21:8: declaration uses `sorry`
+warning: HLineChallenge.lean:28:8: declaration uses `sorry`
+Build completed successfully (9378 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SignedVortex.HLine.hline_both, SignedVortex.HLine.hline_xy, SignedVortex.HLine.hline_yx, SignedVortex.HLine.signed_excluded_at_late_times, SignedVortex.HLine.no_signed_full_trajectory, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from HLineChallenge
+Building HLineSolution
+✔ [9377/9383] Built HLineCalculus (3.2s)
+✔ [9378/9383] Built HLineOperator (3.2s)
+✔ [9379/9383] Built HLineIntegral (4.0s)
+✔ [9380/9383] Built HLineGeometry (5.1s)
+✔ [9381/9383] Built HLineProofs (2.8s)
+ℹ [9382/9383] Built HLineSolution (2.3s)
+info: HLineSolution.lean:3:0: 'SignedVortex.HLine.hline_both' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HLineSolution.lean:4:0: 'SignedVortex.HLine.hline_xy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HLineSolution.lean:5:0: 'SignedVortex.HLine.hline_yx' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HLineSolution.lean:6:0: 'SignedVortex.HLine.signed_excluded_at_late_times' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HLineSolution.lean:7:0: 'SignedVortex.HLine.no_signed_full_trajectory' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9383 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SignedVortex.HLine.hline_both, SignedVortex.HLine.hline_xy, SignedVortex.HLine.hline_yx, SignedVortex.HLine.signed_excluded_at_late_times, SignedVortex.HLine.no_signed_full_trajectory, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from HLineSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 7min 55.639s
+             CPU time consumed: 8min 13.558s
+                   Memory peak: 14.6G (swap: 0B)

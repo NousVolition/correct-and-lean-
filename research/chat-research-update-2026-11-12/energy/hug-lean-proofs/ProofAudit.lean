@@ -1,0 +1,101 @@
+import GuardTwoEffects
+import BreathingDriver
+import PressureBlindToBreathing
+import ClayFabric
+import ClayMemoryInstance
+import FabricMemory
+
+/-! Complete axiom report for every theorem in the six authored proof files. -/
+
+#print axioms ActiveHug.GuardTwoEffects.response_A_formula
+#print axioms ActiveHug.GuardTwoEffects.response_B_formula
+#print axioms ActiveHug.GuardTwoEffects.guard_loss_formula
+#print axioms ActiveHug.GuardTwoEffects.admittedToA_is_size
+#print axioms ActiveHug.GuardTwoEffects.admittedToB_is_size
+#print axioms ActiveHug.GuardTwoEffects.guard_loss_nonnegative
+#print axioms ActiveHug.GuardTwoEffects.more_open_guard_admits_more_to_A
+#print axioms ActiveHug.GuardTwoEffects.more_open_guard_admits_more_to_B
+#print axioms ActiveHug.GuardTwoEffects.more_open_guards_resist_more
+#print axioms ActiveHug.GuardTwoEffects.one_opening_two_effects
+#print axioms ActiveHug.GuardTwoEffects.strain_ignores_direction
+#print axioms ActiveHug.GuardTwoEffects.reversal_keeps_guard_update_AB
+#print axioms ActiveHug.GuardTwoEffects.reversal_keeps_guard_update_BA
+#print axioms ActiveHug.GuardTwoEffects.reversal_keeps_guard_loss
+#print axioms ActiveHug.GuardTwoEffects.no_exact_reader_of_any_property
+#print axioms ActiveHug.GuardTwoEffects.guard_response_same_after_reversal
+#print axioms ActiveHug.GuardTwoEffects.guard_response_cannot_tell_direction
+#print axioms ActiveHug.GuardTwoEffects.guard_response_cannot_tell_positive_motion
+#print axioms BreathingDriver.push_ignores_state
+#print axioms BreathingDriver.no_exact_reader_of_any_property
+#print axioms BreathingDriver.push_cannot_report_state
+#print axioms BreathingDriver.amplitude_repeats
+#print axioms BreathingDriver.amplitude_bounded
+#print axioms BreathingDriver.push_repeats
+#print axioms BreathingDriver.push_bounded_by_pattern
+#print axioms BreathingDriver.push_bounded_for_unit_pattern
+#print axioms BreathingDriver.full_peak_at_tick_41
+#print axioms BreathingDriver.full_peak_at_start
+#print axioms BreathingDriver.power_reverses_with_flow
+#print axioms BreathingDriver.feeds_one_flow_drains_its_reverse
+#print axioms BreathingDriver.vector_power_reverses_with_flow
+#print axioms BreathingDriver.vector_feeds_one_flow_drains_its_reverse
+#print axioms PressureBlindToBreathing.dot_add
+#print axioms PressureBlindToBreathing.pressure_ignores_divergence_free_push
+#print axioms PressureBlindToBreathing.projection_passes_divergence_free_push
+#print axioms PressureBlindToBreathing.projection_fixes_divergence_free_push
+#print axioms PressureBlindToBreathing.projected_rate_is_divergence_free
+#print axioms PressureBlindToBreathing.zero_mode_pressure
+#print axioms PressureBlindToBreathing.zero_mode_projection
+#print axioms PressureBlindToBreathing.projected_rate_is_divergence_free_including_zero
+#print axioms PressureBlindToBreathing.no_exact_reader_of_any_property
+#print axioms PressureBlindToBreathing.dot_zero
+#print axioms PressureBlindToBreathing.pressure_cannot_tell_whether_breathing_is_on
+#print axioms PressureBlindToBreathing.a_divergence_free_push_exists
+#print axioms PressureBlindToBreathing.pressure_cannot_read_breathing_switch
+#print axioms ClayFabric.upper_mark_rests
+#print axioms ClayFabric.lower_mark_rests
+#print axioms ClayFabric.gradient_at_upper_mark
+#print axioms ClayFabric.mismatched_strain_moves_the_mark
+#print axioms ClayFabric.gradient_at_lower_mark
+#print axioms ClayFabric.mismatched_strain_moves_lower_mark
+#print axioms ClayFabric.energy_at_a_mark
+#print axioms ClayFabric.energy_at_the_barrier
+#print axioms ClayFabric.barrier_is_finite_and_positive
+#print axioms ClayFabric.energy_has_derivative_gradient
+#print axioms ClayFabric.heat_is_never_negative
+#print axioms ClayFabric.settling_turns_energy_into_heat
+#print axioms ClayFabric.settling_energy_rate_nonpositive
+#print axioms ClayFabric.probe_reads_the_mark
+#print axioms ClayFabric.mark_moves_while_bit_stays
+#print axioms ClayFabric.no_exact_reader_of_any_property
+#print axioms ClayFabric.stored_bit_cannot_give_back_the_mark
+#print axioms ClayFabric.distinct_marks_same_boolean_bit
+#print axioms ClayFabric.boolean_bit_cannot_give_back_the_mark
+#print axioms ClayFabric.example_marks_clear_read_margin
+#print axioms ClayFabric.boolean_bit_cannot_recover_margin_accepted_marks
+#print axioms ClayFabric.imprint_moves_toward_pressure
+#print axioms ClayFabric.kept_shape_cannot_tell_how_hard
+#print axioms ClayMemoryInstance.group_count
+#print axioms ClayMemoryInstance.every_group_has_two_histories
+#print axioms ClayMemoryInstance.present_values_are_distinct
+#print axioms ClayMemoryInstance.every_group_has_distinct_rows
+#print axioms ClayMemoryInstance.same_present_stress
+#print axioms ClayMemoryInstance.different_past_stress
+#print axioms ClayMemoryInstance.no_exact_reader_of_any_property
+#print axioms ClayMemoryInstance.present_stress_cannot_give_past_stress
+#print axioms ClayMemoryInstance.four_kPa_pair
+#print axioms FabricMemory.layout
+#print axioms FabricMemory.write_keeps_every_record
+#print axioms FabricMemory.repeated_event_is_refused
+#print axioms FabricMemory.full_fabric_refuses
+#print axioms FabricMemory.the_three_writes_and_the_limit
+#print axioms FabricMemory.upper_mark_reads_one
+#print axioms FabricMemory.lower_mark_reads_zero
+#print axioms FabricMemory.barrier_is_refused
+#print axioms FabricMemory.denominator_is_a_power_of_two
+#print axioms FabricMemory.every_cell_moved_and_no_bit_flipped
+#print axioms FabricMemory.third_write_touched_exactly_one_slot
+#print axioms FabricMemory.same_records_decoded
+#print axioms FabricMemory.cell_zero_moved
+#print axioms FabricMemory.no_exact_reader_of_any_property
+#print axioms FabricMemory.decoded_records_cannot_give_the_marks

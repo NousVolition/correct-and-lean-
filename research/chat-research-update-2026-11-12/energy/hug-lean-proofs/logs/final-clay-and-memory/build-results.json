@@ -1,0 +1,36 @@
+[
+  {
+    "module": "ClayFabric",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T06:55:38.5572781Z",
+    "finished_utc": "2026-11-12T06:55:57.4185571Z",
+    "source_sha256": "702BEE064BDEE1797EC24351A6194841B3B5EFC631F52CD1EE9A4FEAA8EC4E54",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\ClayFabric.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\build-final\\ClayFabric.olean",
+      "ClayFabric.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\logs\\final-clay-and-memory\\ClayFabric.log",
+    "log_sha256": "C09C136C3FDACF1ED85791A9CCDAEAF9F73D58DF9FAF1F9855FFE12878B882A5"
+  },
+  {
+    "module": "FabricMemory",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T06:55:57.4359401Z",
+    "finished_utc": "2026-11-12T06:55:59.6976039Z",
+    "source_sha256": "5B7A9742D85C77963EF423B0EC79347C25D9CE6ECDC1ABE7AD36E7177D84C4C7",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\FabricMemory.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\build-final\\FabricMemory.olean",
+      "FabricMemory.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\logs\\final-clay-and-memory\\FabricMemory.log",
+    "log_sha256": "89B6D5A1217DD197274BFC0650C24E5AC64E3620062C897B6B1681DF6DC7332F"
+  }
+]

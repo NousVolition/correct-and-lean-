@@ -1,0 +1,46 @@
+{
+  "checked_utc": "2026-11-12T09:39:12.292248+00:00",
+  "lean": "PASS",
+  "new_theorem_count": 6,
+  "theorems": [
+    "StorageRequirements.magnitude_rate",
+    "StorageRequirements.gradient_transport_contraction",
+    "StorageRequirements.activation_height_residual",
+    "StorageRequirements.force_match_determines_storage",
+    "StorageRequirements.required_activation_conjugate",
+    "StorageRequirements.no_storage_with_unpaid_independent_activation"
+  ],
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "sorryAx": false,
+  "requested_gravitational_storage_law": "NOT ESTABLISHED from checked notes: required activation-energy exchange derived; two-variable closure obstruction proved under independent-rate assumptions",
+  "original_equations_and_read_sources_unchanged": true,
+  "new_numerical_runs": 0,
+  "source_scope": "Corrected corpus; five archived readable board selections; retained meaning correction and two later proposals. No exhaustive search of all chats, unread board images, or current board state.",
+  "proven": [
+    "Nonzero gradient magnitude chain rule",
+    "Source/deformation contraction split",
+    "Activation-height residual given gradient derivatives",
+    "Form of force-matched two-variable storage",
+    "Required activation conjugate",
+    "Restricted incompatibility of independent unpaid activation"
+  ],
+  "limitations": [
+    "Spatial material-gradient PDE commutator is analytically derived under smoothness assumptions, not formalized here",
+    "No universal no-go result for constrained states, nonlocal functionals or larger histories",
+    "No independently identified gravitational storage or general conservation theorem",
+    "Historical board exports have skipped foreign/image content; live board not checked",
+    "No independent external kernel run"
+  ],
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "dependency": {
+    "head": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+    "tracked_clean": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\NavierStokesAndEuler-audit\\.lake\\packages\\mathlib",
+    "checked_utc": "2026-11-12T08:10:24.4285603Z"
+  },
+  "dependency_status": "Inherited pinned cache; no fresh remote revision check"
+}

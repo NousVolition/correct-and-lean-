@@ -1,0 +1,371 @@
+{
+  "schema": "social-fluidity-source-lock-v1",
+  "revision": 1,
+  "model_id": "corpus-as-field-exact-v1",
+  "scope": "Exact corrected-corpus A–S field equations; executable accumulator/source subset only. Full coupled field evolution is not implemented or claimed.",
+  "source": {
+    "title": "Corrected corpus — A–S transport, accumulation, threshold and feedback passages",
+    "path": "external-source/1525b7f7b63bdb08/corrected-corpus.docx",
+    "sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+    "extract_sha256": "91b28ea1bc55d0d7ed1cb747af53f46820284155743fb1e655b5619861ccc114",
+    "register_sha256": "ce32b9ce0fa72e9b3339b967f5aea01f2e5322bbda121c752dc920728d7a427b",
+    "fresh_docx_passages_matched": 15
+  },
+  "horizon": 16,
+  "horizon_source": "Current user request; no physical/social clock calibration inferred",
+  "equations": [
+    {
+      "id": "C1",
+      "title": "Accumulated input and source",
+      "paragraphs": [
+        518
+      ],
+      "display": "A(t) = ∫₀ᵗ γ[U(s) − Ubaseline] ds; J(t) = κA(t)",
+      "limit": "Source integral starts at its declared origin. At an observation start, carry A(t₀) as unknown until sourced; do not reset history to zero."
+    },
+    {
+      "id": "C2",
+      "title": "Signed field transport",
+      "paragraphs": [
+        517,
+        519
+      ],
+      "display": "∂S/∂t + u · ∇S = D_diff ∇²S + Kₕ(x − x₀)J(t)",
+      "limit": "S is a field over a specified spatial embedding, not a psychological percentage or two substituted scalar positions."
+    },
+    {
+      "id": "C3",
+      "title": "Flow and incompressibility",
+      "paragraphs": [
+        229
+      ],
+      "display": "∂u/∂t + (u · ∇)u = −∇p + ν∇²u + f; ∇ · u = 0",
+      "limit": "This is the source mathematical analogy for social fluidity. No measured water property is imported."
+    },
+    {
+      "id": "C4",
+      "title": "Response and threshold",
+      "paragraphs": [
+        230
+      ],
+      "display": "f = −(σ/ρ)a(q)eₖ; q = |∇S| − Γcrit",
+      "limit": "Response-law choice stays blank. No solo/group cutoff is implied."
+    },
+    {
+      "id": "C5",
+      "title": "Stress",
+      "paragraphs": [
+        545
+      ],
+      "display": "T = µ₀[∇u + (∇u)ᵀ]; µ₀ > 0",
+      "limit": "No unprovided identification of µ₀ with another coefficient."
+    },
+    {
+      "id": "C6",
+      "title": "Dimensional sharp-law form",
+      "paragraphs": [
+        549,
+        550
+      ],
+      "display": "ρ[∂u/∂t + (u · ∇)u] = −∇P + µ∇²u − σa₀(q)eₖ; ∇ · u = 0",
+      "limit": "The notes give p=P/ρ and ν=µ/ρ for constant coefficients. This form explicitly uses the sharp response."
+    },
+    {
+      "id": "C7",
+      "title": "Sharp response alternative",
+      "paragraphs": [
+        261,
+        548
+      ],
+      "display": "a₀(q) = max(q,0)",
+      "limit": "Exactly off at and below threshold; a derivative kink at zero."
+    },
+    {
+      "id": "C8",
+      "title": "Tanh response alternative",
+      "paragraphs": [
+        262
+      ],
+      "display": "aₜ(q) = q[1 + tanh(q/ε)]/2; ε > 0",
+      "limit": "Signed negative tail is retained. No clipping and no automatic substitution."
+    },
+    {
+      "id": "C9",
+      "title": "Exact-off response alternative",
+      "paragraphs": [
+        264
+      ],
+      "display": "aε(q) = 0 for q ≤ 0; aε(q) = q exp[−(ε/q)²] for q > 0",
+      "limit": "An explicitly distinct alternative. The optional qδ and qδ* remain separate source choices, not defaults."
+    }
+  ],
+  "fields": [
+    {
+      "key": "gamma",
+      "symbol": "γ",
+      "label": "Utility-to-accumulation coefficient",
+      "equation": "C1",
+      "value": null,
+      "source": null,
+      "units": null,
+      "would_resolve": "Coefficient and its units"
+    },
+    {
+      "key": "baseline",
+      "symbol": "Ubaseline",
+      "label": "Utility baseline",
+      "equation": "C1",
+      "value": null,
+      "source": null,
+      "units": null,
+      "would_resolve": "Operational utility definition and baseline"
+    },
+    {
+      "key": "initialA",
+      "symbol": "A(t₀)",
+      "label": "Accumulated history at observation start",
+      "equation": "C1",
+      "value": null,
+      "source": null,
+      "units": null,
+      "would_resolve": "Documented prior input integral or an explicitly established source origin"
+    },
+    {
+      "key": "kappa",
+      "symbol": "κ",
+      "label": "Stored-input-to-source coefficient",
+      "equation": "C1",
+      "value": null,
+      "source": null,
+      "units": null,
+      "would_resolve": "Coefficient and compatible units"
+    },
+    {
+      "key": "initialM",
+      "symbol": "M(t₀)",
+      "label": "Initial field total",
+      "equation": "C2",
+      "value": null,
+      "source": null,
+      "units": null,
+      "would_resolve": "Integral of the sourced initial field over the specified domain"
+    },
+    {
+      "key": "diffusion",
+      "symbol": "D_diff",
+      "label": "Field diffusion coefficient",
+      "equation": "C2",
+      "value": null,
+      "source": null,
+      "units": null,
+      "would_resolve": "Nonnegative coefficient and spatial/time units"
+    },
+    {
+      "key": "nu",
+      "symbol": "ν",
+      "label": "Normalized flow coefficient",
+      "equation": "C3",
+      "value": null,
+      "source": null,
+      "units": null,
+      "would_resolve": "Coefficient and compatible units"
+    },
+    {
+      "key": "rho",
+      "symbol": "ρ",
+      "label": "Normalization coefficient",
+      "equation": "C4",
+      "value": null,
+      "source": null,
+      "units": null,
+      "would_resolve": "Positive coefficient; no water-density substitution"
+    },
+    {
+      "key": "sigma",
+      "symbol": "σ",
+      "label": "Response strength",
+      "equation": "C4",
+      "value": null,
+      "source": null,
+      "units": null,
+      "would_resolve": "Nonnegative coefficient"
+    },
+    {
+      "key": "threshold",
+      "symbol": "Γcrit",
+      "label": "Gradient threshold",
+      "equation": "C4",
+      "value": null,
+      "source": null,
+      "units": null,
+      "would_resolve": "Nonnegative threshold in the same units as the gradient"
+    },
+    {
+      "key": "mu0",
+      "symbol": "µ₀",
+      "label": "Stress coefficient",
+      "equation": "C5",
+      "value": null,
+      "source": null,
+      "units": null,
+      "would_resolve": "Positive coefficient; keep distinct from µ unless a mapping is supplied"
+    },
+    {
+      "key": "epsilon",
+      "symbol": "ε",
+      "label": "Response smoothing scale",
+      "equation": "C8/C9",
+      "value": null,
+      "source": null,
+      "units": null,
+      "would_resolve": "Positive scale if a smooth response is selected"
+    },
+    {
+      "key": "delta",
+      "symbol": "δ",
+      "label": "Optional gradient smoothing",
+      "equation": "C9",
+      "value": null,
+      "source": null,
+      "units": null,
+      "would_resolve": "Only needed for an explicitly selected optional gradient measure"
+    },
+    {
+      "key": "width",
+      "symbol": "h",
+      "label": "Kernel width",
+      "equation": "C2",
+      "value": null,
+      "source": null,
+      "units": null,
+      "would_resolve": "Positive width in the declared spatial embedding"
+    }
+  ],
+  "structural_inputs": [
+    {
+      "key": "timeUnits",
+      "label": "Model-time unit and observation origin",
+      "value": null,
+      "source": null,
+      "would_resolve": "A documented mapping; interview offsets alone are not model time."
+    },
+    {
+      "key": "domain",
+      "label": "Spatial embedding and domain",
+      "value": null,
+      "source": null,
+      "would_resolve": "A specified geometry and interpretation of spatial coordinates."
+    },
+    {
+      "key": "initialS",
+      "label": "Initial field S(x,t₀)",
+      "value": null,
+      "source": null,
+      "would_resolve": "A sourced spatial field; not a single invented scalar."
+    },
+    {
+      "key": "initialU",
+      "label": "Initial flow u(x,t₀)",
+      "value": null,
+      "source": null,
+      "would_resolve": "A sourced divergence-free field and compatible boundary conditions."
+    },
+    {
+      "key": "boundary",
+      "label": "Boundary conditions",
+      "value": null,
+      "source": null,
+      "would_resolve": "Scalar and flow boundary conditions; zero net scalar flux cannot be assumed."
+    },
+    {
+      "key": "kernel",
+      "label": "Kₕ and source location x₀",
+      "value": null,
+      "source": null,
+      "would_resolve": "A smooth normalized spatial kernel on the declared domain, or a separately declared distributional source."
+    },
+    {
+      "key": "direction",
+      "label": "Direction eₖ",
+      "value": null,
+      "source": null,
+      "would_resolve": "A specified unit direction and social interpretation."
+    },
+    {
+      "key": "responseLaw",
+      "label": "Response law a",
+      "value": null,
+      "source": null,
+      "would_resolve": "Choose a documented source alternative; no automatic choice."
+    },
+    {
+      "key": "gradientMeasure",
+      "label": "Gradient measure",
+      "value": null,
+      "source": null,
+      "would_resolve": "Original |∇S| or one explicitly selected optional source alternative."
+    },
+    {
+      "key": "participationMap",
+      "label": "Solo / group mapping",
+      "value": null,
+      "source": null,
+      "would_resolve": "An operational observation-to-variable map. Guard averages and 0.5 are not given by these notes."
+    },
+    {
+      "key": "meaningMap",
+      "label": "Meaning and encounter mapping",
+      "value": null,
+      "source": null,
+      "would_resolve": "An operational mapping for the same person and idea. No semantic encoder is supplied by C1–C9."
+    }
+  ],
+  "alternatives": {
+    "response": [
+      "sharp",
+      "tanh",
+      "exact-off"
+    ],
+    "gradient": [
+      "original",
+      "q_delta",
+      "q_delta_star"
+    ],
+    "selection": null
+  },
+  "history_policy": "Append only. Retain all previous results, including failures and unsupported interpretations. Never label a synthetic fixture as a measurement.",
+  "family_boundary": [
+    {
+      "name": "Corrected-corpus A–S field system",
+      "status": "Active source C1–C9; incomplete inputs stay null."
+    },
+    {
+      "name": "Executive report E1–E16",
+      "status": "A later explicitly assumed candidate: discrete inward states, load, meaning and encounter laws. Preserved separately; not silently substituted for the corpus PDE."
+    },
+    {
+      "name": "General directed-guard working equation",
+      "status": "Provisional structure with unspecified f, R and H. Its sigmoid example is assistant-proposed; not a calibrated social law."
+    },
+    {
+      "name": "Eight-state HUG mechanical realization",
+      "status": "Historical synthetic approximation; its hashes establish preservation only, not fidelity to every corpus equation."
+    }
+  ],
+  "forbidden_defaults": [
+    "Unknown numeric value becomes zero",
+    "Water LDL/HDL measurements become social scores",
+    "Solo/group cutoff chosen automatically",
+    "Prior synthetic coefficients become real encounters",
+    "Source family silently switched",
+    "Saved labels treated as semantic retention"
+  ],
+  "verification_plan": [
+    "Fresh DOCX text comparison",
+    "Symbolic accumulation and conditional field-total identities through t=16",
+    "Unknown input rejection and source attribution",
+    "Save/reload of nulls, identity and encounter records",
+    "Prior evidence hashes and archive copies",
+    "No new empirical trajectory or coupled stability claim"
+  ]
+}

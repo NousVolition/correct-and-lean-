@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "upstream_files_preserved": 25,
+  "github_structural_matches": true,
+  "github_rule_changes_matches": true,
+  "checked_commit": "feda10a4f73d314f25691c127c83662c8b9b8b03",
+  "local_check_read_only": true
+}

@@ -1,0 +1,55 @@
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/AmbiguityInstances.lean:61:39: warning: `if_true` has been deprecated: Use `ite_true` instead
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/AmbiguityInstances.lean:62:4: error: `fun_prop` was unable to prove `ContDiff ℝ ⊤ (transversePotential 2)`
+
+Issues:
+  No theorems found for `YangMillsCueTest.transversePotential` in order to prove `ContDiff ℝ ⊤ fun p => transversePotential 2 p`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/AmbiguityInstances.lean:63:39: warning: `if_false` has been deprecated: Use `ite_false` instead
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/AmbiguityInstances.lean:63:4: error: `simp` made no progress
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/AmbiguityInstances.lean:61:15: warning: This simp argument is unused:
+  transversePotential
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/AmbiguityInstances.lean:61:39: warning: This simp argument is unused:
+  if_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [transversePotential, h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Ambiguity theorem checks/lean/AmbiguityInstances.lean:101:25: warning: declaration uses `sorry`
+'AmbiguityInstances.Tick41Write.same_water_observation' does not depend on any axioms
+'AmbiguityInstances.Tick41Write.different_record_presence' does not depend on any axioms
+'AmbiguityInstances.Tick41Write.no_exact_water_reader' does not depend on any axioms
+'AmbiguityInstances.Tick41Write.exact_reader_with_record' does not depend on any axioms
+'AmbiguityInstances.YangMills.same_slice_observation' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'AmbiguityInstances.YangMills.original_satisfies' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AmbiguityInstances.YangMills.modified_does_not_satisfy' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'AmbiguityInstances.YangMills.residuals_are_zero_and_two' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'AmbiguityInstances.YangMills.no_exact_slice_reader' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'AmbiguityInstances.YangMills.off_slice_curvature_distinguishes' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'AmbiguityInstances.Tick41Geometry.all_scales_positive' does not depend on any axioms
+'AmbiguityInstances.Tick41Geometry.all_saved_x_returns_open' does not depend on any axioms
+'AmbiguityInstances.Tick41Geometry.saved_x_does_not_close' depends on axioms: [propext, Quot.sound]
+'AmbiguityInstances.Tick41Geometry.integer_return_would_close' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AmbiguityInstances.Tick41Geometry.no_saved_integer_periodic_return' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AmbiguityInstances.Tick41Geometry.no_opposite_saved_closure_properties' depends on axioms: [propext, Quot.sound]
+'AmbiguityInstances.Tick41Geometry.exact_reader_on_saved_returns' depends on axioms: [propext, Quot.sound]

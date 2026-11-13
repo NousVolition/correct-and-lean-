@@ -1,0 +1,46 @@
+{
+  "status": "Explicit added-law material-journal candidate; not unchanged-original or corpus validation",
+  "inherits": "Sealed threshold_1 physical equations and fixture; v2 moving A/B binding and prefix relevance",
+  "journal": {
+    "capacity": 801,
+    "row_bytes": 66,
+    "added_cells": 422928,
+    "original_event_cells": 149056,
+    "total_cells": 571984,
+    "sample_times": "0, 0.002, ..., 1.6; one committed material row per accepted time",
+    "row_fields": "magic, clock, A/B actor IDs, seed 12, six actor context/strain features, both A/B trust values, both 3D positions, CRC32",
+    "feature_trust_position_quantum": 0.0001,
+    "clock_quantum": 0.001,
+    "read_path": "two-load mechanical probe -> residual-strain signs -> int16/CRC row -> event prefix -> original kernel/trust RHS",
+    "software_history_role": "diagnostics only; neither recall nor later writing may consume it",
+    "failure": "Reject overflow, duplicate sample, noncontiguous sample times, range/schema error, ambiguous wells or CRC failure. No overwrite or archive repair."
+  },
+  "physics": {
+    "body_points": 384,
+    "cell_weight": "Keep the original per-cell weights and append journal cell weights using original point counts; no renormalization that erases the added cost",
+    "constitutive_law": "Original bistable energy, stress, gradient-flow and dissipation for all cells",
+    "write_law": "Original fixed-F linear stroke, stored energy plus drag heat, quartic peak and conservative budget bound",
+    "budget_per_jump": 0.02,
+    "stroke_duration_accounting_parameter": 0.02,
+    "timing_limit": "Additional scheduled jumps every accepted step. Stroke duration is an inherited accounting parameter, not a simulated actuator path; physical overlap is not modeled.",
+    "growth": "All internal degrees allocated at initialization; no dynamic creation of body points or storage"
+  },
+  "validation": [
+    "Physical encode/probe/decode of all retained samples within half quantum",
+    "Independent binary initial trust combinations",
+    "Delete/poison software archives: identical decoded records and RHS",
+    "Body-only restart, including new material writes, reproduces future exactly",
+    "Corruption fails even with intact software audit logs",
+    "Finite capacity, duplicate, range and zero-budget refusal without mutation",
+    "Journal write work = stored change + heat; thermal increment accounts for heat",
+    "Trust meter equals full solver trust RHS",
+    "Changed earlier material code changes recall with event outcome payload and current trust fixed",
+    "Four 650-step runs with original event schedule and full mechanical checks"
+  ],
+  "unresolved": [
+    "No universal continuation or forever-readable-memory proof",
+    "No empirical clay or human-trust calibration",
+    "Neighbor/family-specific trust coefficients and luck attribution remain unspecified",
+    "Future cannot be inferred from two positions alone; no ambiguity-rule counterexample claimed"
+  ]
+}

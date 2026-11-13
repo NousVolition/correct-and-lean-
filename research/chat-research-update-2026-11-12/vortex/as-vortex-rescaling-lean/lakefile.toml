@@ -1,0 +1,31 @@
+name = "RescaledVortexAudit"
+version = "0.1.0"
+defaultTargets = ["RescaleSolution"]
+
+[[require]]
+name = "VortexHLine"
+path = "../as-vortex-hline-lean"
+
+[[lean_lib]]
+name = "RescaleFields"
+
+[[lean_lib]]
+name = "RescaleSupport"
+
+[[lean_lib]]
+name = "RescaleCovariance"
+
+[[lean_lib]]
+name = "RescaleLoops"
+
+[[lean_lib]]
+name = "RescaleForcing"
+
+[[lean_lib]]
+name = "RescaleCorollary"
+
+[[lean_lib]]
+name = "RescaleChallenge"
+
+[[lean_lib]]
+name = "RescaleSolution"

@@ -1,0 +1,10 @@
+ℹ [9407/9408] Replayed EdgeControlSolution
+info: EdgeControlSolution.lean:4:0: 'SignedVortex.Rescaled.EdgeControl.edge_signal_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EdgeControlSolution.lean:5:0: 'SignedVortex.Rescaled.EdgeControl.native_in_every_collar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EdgeControlSolution.lean:6:0: 'SignedVortex.Rescaled.EdgeControl.inward_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EdgeControlSolution.lean:7:0: 'SignedVortex.Rescaled.EdgeControl.control_for_pinned_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EdgeControlSolution.lean:8:0: 'SignedVortex.Rescaled.EdgeControl.every_viscosity_has_control' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: EdgeControlSolution.lean:9:0: 'SignedVortex.Rescaled.EdgeControl.exterior_from_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9408 jobs).

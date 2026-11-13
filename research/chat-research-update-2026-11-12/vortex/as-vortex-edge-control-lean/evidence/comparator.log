@@ -1,0 +1,55 @@
+Running as unit: run-p629-i974.service; invocation ID: 42cbef9bf9b146c0baf2861fc9ca0a50
+Building EdgeControlChallenge
+✔ [9385/9400] Built SignedDefinitions (8.7s)
+✔ [9386/9400] Built SignedSolution (2.3s)
+✔ [9387/9400] Built TraceDefinitions (2.5s)
+✔ [9388/9400] Built ExteriorSolution (15s)
+✔ [9389/9400] Built TraceSolution (4.6s)
+✔ [9390/9400] Built TargetSolution (3.3s)
+✔ [9391/9400] Built HLineStatements (2.5s)
+✔ [9392/9400] Built HLineCalculus (3.2s)
+✔ [9393/9400] Built HLineOperator (3.1s)
+✔ [9394/9400] Built HLineIntegral (3.9s)
+✔ [9395/9400] Built HLineGeometry (4.9s)
+✔ [9396/9400] Built HLineProofs (3.0s)
+✔ [9397/9400] Built RescaleFields (2.9s)
+✔ [9398/9400] Built EdgeControlStatements (2.4s)
+⚠ [9399/9400] Built EdgeControlChallenge (2.8s)
+warning: EdgeControlChallenge.lean:7:8: declaration uses `sorry`
+warning: EdgeControlChallenge.lean:9:8: declaration uses `sorry`
+warning: EdgeControlChallenge.lean:12:8: declaration uses `sorry`
+warning: EdgeControlChallenge.lean:15:8: declaration uses `sorry`
+warning: EdgeControlChallenge.lean:21:8: declaration uses `sorry`
+warning: EdgeControlChallenge.lean:24:8: declaration uses `sorry`
+Build completed successfully (9400 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SignedVortex.Rescaled.EdgeControl.edge_signal_zero, SignedVortex.Rescaled.EdgeControl.native_in_every_collar, SignedVortex.Rescaled.EdgeControl.inward_small, SignedVortex.Rescaled.EdgeControl.control_for_pinned_scale, SignedVortex.Rescaled.EdgeControl.every_viscosity_has_control, SignedVortex.Rescaled.EdgeControl.exterior_from_support, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from EdgeControlChallenge
+Building EdgeControlSolution
+✔ [9399/9408] Built EdgeControlNative (3.2s)
+✔ [9400/9408] Built RescaleSupport (3.2s)
+✔ [9401/9408] Built EdgeControlExterior (3.4s)
+✔ [9402/9408] Built RescaleCovariance (80s)
+✔ [9403/9408] Built RescaleLoops (10s)
+✔ [9404/9408] Built RescaleForcing (11s)
+✔ [9405/9408] Built RescaleCorollary (11s)
+✔ [9406/9408] Built EdgeControlProofs (9.8s)
+ℹ [9407/9408] Built EdgeControlSolution (9.1s)
+info: EdgeControlSolution.lean:4:0: 'SignedVortex.Rescaled.EdgeControl.edge_signal_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EdgeControlSolution.lean:5:0: 'SignedVortex.Rescaled.EdgeControl.native_in_every_collar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EdgeControlSolution.lean:6:0: 'SignedVortex.Rescaled.EdgeControl.inward_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EdgeControlSolution.lean:7:0: 'SignedVortex.Rescaled.EdgeControl.control_for_pinned_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EdgeControlSolution.lean:8:0: 'SignedVortex.Rescaled.EdgeControl.every_viscosity_has_control' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: EdgeControlSolution.lean:9:0: 'SignedVortex.Rescaled.EdgeControl.exterior_from_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9408 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, SignedVortex.Rescaled.EdgeControl.edge_signal_zero, SignedVortex.Rescaled.EdgeControl.native_in_every_collar, SignedVortex.Rescaled.EdgeControl.inward_small, SignedVortex.Rescaled.EdgeControl.control_for_pinned_scale, SignedVortex.Rescaled.EdgeControl.every_viscosity_has_control, SignedVortex.Rescaled.EdgeControl.exterior_from_support, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from EdgeControlSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 12min 8.711s
+             CPU time consumed: 12min 45.311s
+                   Memory peak: 14.9G (swap: 0B)

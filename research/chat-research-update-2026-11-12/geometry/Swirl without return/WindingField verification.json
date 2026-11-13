@@ -1,0 +1,36 @@
+{
+  "module": "WindingField",
+  "status": "PASS",
+  "source_sha256": "75723e6336376a7d34057a0b1355795ac6c47df50bcf16d18d601d5926fbbf8b",
+  "object_sha256": "dfe37ff02ac62607df80567a96a696535a581472be858c1eaf634168afa857f2",
+  "exit_code": 0,
+  "log": "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/logs/WindingField-20261112T095728.log",
+  "log_sha256": "f3da9e616b48ae065dae8fa6ae7d1fe89480d116b520249559e6db0c1598c9d5",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_reports": [
+    "ClosestPointExample.Winding.field_divergence",
+    "ClosestPointExample.Winding.field_beltrami",
+    "ClosestPointExample.Winding.field_laplacian",
+    "ClosestPointExample.Winding.field_smooth",
+    "ClosestPointExample.Winding.field_on_plane",
+    "ClosestPointExample.Winding.field_at_A",
+    "ClosestPointExample.Winding.plane_nonzero"
+  ],
+  "command": [
+    "$USER_HOME/verification/bin/lake",
+    "env",
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+    "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean",
+    "-o",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingField.olean",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingField.lean"
+  ],
+  "started_at_utc": "2026-11-12T09:57:28.804384+00:00",
+  "finished_at_utc": "2026-11-12T09:58:27.202377+00:00",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+}

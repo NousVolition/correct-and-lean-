@@ -1,0 +1,9 @@
+{
+  "module": "FabricMemory",
+  "exit_code": 1,
+  "started_utc": "2026-11-12T06:54:55.2366925Z",
+  "finished_utc": "2026-11-12T06:54:57.6938659Z",
+  "source_sha256": "221F82E5F8FC87B8BB7D57EC506949B241EE947753C68396085A538E7C1A2EC3",
+  "source_unchanged": true,
+  "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\logs-original-fabric-memory\\FabricMemory.log"
+}

@@ -1,0 +1,27 @@
+{
+  "purpose": "Verify full-flow energy accounting and extra work from the finite material journal",
+  "initial_trust": [1, 0],
+  "horizon": 1.3,
+  "integration_steps": [0.002, 0.001],
+  "journal_sample_interval_in_both_resolutions": 0.002,
+  "control": "No journal cells or journal writes; same moving specks, original event fabric/fixture and same quantized feature-prefix recall supplied in software",
+  "interpretation": "Matched material-storage comparison, not a comparison to a physically realized cost-free memory device or an unchanged endpoint-only model",
+  "energy": "Kinetic + continuum elastic + event/journal fabric energy + excess thermal energy; constant thermal baseline cancels",
+  "initial_energy": "Measure each arm before any time-zero write; retain and report their difference",
+  "input_work": "Signed threshold-force work + signed breathing-force work + event and journal write work",
+  "net_heat": "Independent Heun-stage integral of viscous heat + fabric relaxation heat - diversion into directional material storage, plus stroke heat",
+  "numerical_residual": "Work - (total energy - own initial total energy); never corrected into heat",
+  "source_absolute_energy_tolerance": 0.000001,
+  "incremental_precision_screen": "Report differential residual / final extra work; require below 1% for quantitative extra-work allocation",
+  "time_refinement": "Same physical journal schedule and capacity at both integration resolutions; report residual reduction and endpoint comparison",
+  "checks": [
+    "Energy functional matches original diagnostic",
+    "Instantaneous RHS chain-rule total power matches supplied continuous power",
+    "Independent thermal and directional-storage rates match source equations",
+    "All write jumps account for initial/final energy and heat",
+    "Instrumented standard-step journal final state is exactly the previously saved state",
+    "Both arms meet the original absolute energy criterion",
+    "Compare extra input work, net heat and initial-corrected mechanical storage",
+    "Keep initial absolute energy offset visible; include residual and time-refinement evidence"
+  ]
+}

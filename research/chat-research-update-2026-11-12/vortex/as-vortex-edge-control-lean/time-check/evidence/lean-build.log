@@ -1,0 +1,4 @@
+ℹ [9404/9405] Replayed TemporalSolution
+info: TemporalSolution.lean:3:0: 'SignedVortex.Rescaled.TimeControl.early_loop_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TemporalSolution.lean:4:0: 'SignedVortex.Rescaled.TimeControl.same_loop_before_after' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9405 jobs).

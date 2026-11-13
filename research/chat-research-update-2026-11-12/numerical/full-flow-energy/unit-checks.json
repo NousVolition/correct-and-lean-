@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "tests": 3,
+  "elapsed_seconds": 5.941,
+  "checks": [
+    "Energy functional matches original full diagnostic; instantaneous total, thermal and directional-storage power identities and write jumps agree within 1e-13 in short runs",
+    "Each arm's pre-write initial energy is recorded separately and the time-zero journal write is included",
+    "Halving the integration step preserves journal sampling times, capacity and number of sample writes"
+  ],
+  "full_flow_verification": "verification.json",
+  "scope": "These short checks validate measurement plumbing; the four complete flows supply the full energy evidence."
+}

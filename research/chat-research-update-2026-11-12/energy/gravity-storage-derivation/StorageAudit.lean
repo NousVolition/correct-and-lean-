@@ -1,0 +1,8 @@
+import StorageRequirements
+
+#print axioms StorageRequirements.magnitude_rate
+#print axioms StorageRequirements.gradient_transport_contraction
+#print axioms StorageRequirements.activation_height_residual
+#print axioms StorageRequirements.force_match_determines_storage
+#print axioms StorageRequirements.required_activation_conjugate
+#print axioms StorageRequirements.no_storage_with_unpaid_independent_activation

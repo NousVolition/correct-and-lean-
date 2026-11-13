@@ -1,0 +1,2043 @@
+{
+  "checked_utc": "2026-11-12T10:09:54.810067+00:00",
+  "read_only": true,
+  "input_sha256": {
+    "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Combined_Google_Docs.docx": "948bb455efd1076ec8bc4f340e4e3fc8f75632907acde7ed11989d55b669f664",
+    "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Math_and_Logic_Corrected.docx": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+    "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\00_Corpus_Language_Standard_and_Index.docx": "733e7f6739d09c863b59605cec2a9e755152c152d86d5e804cd3fe27d730945c",
+    "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\01_Cybernetic_State_Vector_Plain_Language.docx": "b015232edb78a3239b59e18a71f3684d4fce19a202fb5fbac48e3ff99673017b",
+    "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\02_True_B_Lister_Framework_Plain_Language.docx": "167dc05e0aba7139104fb95d7ea5cc021ffea403c6a3e1b752e8b7d09da0042c",
+    "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\03_Moderation_Policy_Scenario_Plain_Language.docx": "561fdc6880d5434029cd5ea67a7bca1218b0d2ee955f3f626381d52c708be07a",
+    "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\04_Navier_Stokes_Framework_Plain_Language.docx": "640c354a95f2c7f1feaca8a0538aa5ab8af9c5309c39a10336585cf64b42b4e4",
+    "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\05_Evaluative_Terminology_Report_Plain_Language.docx": "6ff583382dfb2b01f22d4078c2a20ab52b47f0fb42c56485fbd87fc8882017bb",
+    "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\06_Recommendation_Threshold_Audit_Plain_Language.docx": "4b88d86d1d702100f11dc8909e9c5d8ab9e84d54cee2333c901188cb7061cb8e",
+    "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\07_Representation_of_Left_Plain_Language.docx": "aaf389a0ad3626bdff631ab4ae4732124b1d0840695844b05a291aee65700c22",
+    "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\08_Fauxmoi_Case_Study_Plain_Language_Working_Draft.docx": "9ea6a690925c36aca6f910cac0cad678d44bf700cb0103d0abe8f60abd736d19",
+    "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\09_Architecture_of_Digital_Border_Enforcement_Plain_Language.docx": "e8e35aed6d6cf3db3dfc56f8dc7e44d52b29496763e9d3519b601da4a7da873c",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-coupled-extra.json": "78d79b41db2d89f6315103ef230f7d82c679627cd8a11c96ddbd5acb3c4becdd",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-coupled-read-0.json": "92aaccac3f56fe7f597cebe543c9d632d4b6e10a84d8409af1d9c7066d1d5976",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-coupled-read-1.json": "6a5f6fa8e47c110601964921983db4f2a0a5c3a8b4dc930999edf69647ff17cb",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-coupled-read-2.json": "eab6842d92e6f52b00071a018e70a8e61a86b5132ff9105909002dbfc4acb68a",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-coupled-read-3.json": "4f7f573250ef99b71c65995f104f9afc3ca717ebd53f808a55b85bb9f773e887",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-coupled-read-4.json": "55cfac23a37f9f2fe97302db6f941a6d8d4a4becfad46a836fef7475a677e2b3",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-holding-review-2026-10-23.json": "57c0653301dbfbcff50ab39174f3cfe50c1befb586c591c22c5a9fe1708d11c5",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-review.json": "b9e1f785fb18b25bfce3f33b6da4c2ce416d558f462d55972ad1a8338a1a81bb",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-structural-review-2026-10-23.json": "6f65c4fb00f16700b7ff2e3d769e6b2d6b28b13f605248c473de030657712ec3",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\SPECIFICATION.md": "a88c6fa919360ce26efd7d5ea83448ac54ce401ae36cfd04e2f5e6530c10ac58",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\SOURCES.md": "920bafeaa07a7f356fb84cb141514ab17ca4ee559fb56d5648575b5dc9ac1a75",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\HOLDING_AND_ENERGY.md": "e95018bdd8428b92229aff5ab31656bfb8dd3b6b9df0ae8293784182a0d60dba",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\STRUCTURAL_MEMORY.md": "c55aaa99a5d07c4f211b0433b33c3af8b5d5d0ef0d00c1cfc85160aa77a688a2",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\COUPLED_FIELD.md": "148d7ac174c9ea033b98a1ca4b54f40c5111a84a4c5fa80a4035635873325a2d",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\ASSUMPTION_AUDIT.md": "8908a44829f2b80d32fcb28a25a879a1d18deecd7ff7c3a428ab59275a847176"
+  },
+  "sources_unchanged": true,
+  "documents": [
+    {
+      "source": "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Combined_Google_Docs.docx",
+      "paragraph_count": 563,
+      "excerpts": [
+        {
+          "paragraph": 9,
+          "text": "4. Moderation Policy Scenario"
+        },
+        {
+          "paragraph": 10,
+          "text": "5. Smoothed Navier-Stokes Yield-Stress Framework"
+        },
+        {
+          "paragraph": 11,
+          "text": "6. Evaluative Terminology in Academic Discourse"
+        },
+        {
+          "paragraph": 25,
+          "text": "• Keep metaphor visibly metaphorical: Terms such as border, gate, flow, pressure, sink, and shibboleth are modeling language, not claims of literal hostility, intent, or physical mechanism."
+        },
+        {
+          "paragraph": 26,
+          "text": "• Prefer gradients over camps: Treat epistemological orientations as dimensions or situational priorities rather than fixed kinds of people."
+        },
+        {
+          "paragraph": 27,
+          "text": "• Separate source from inference: Do not turn an analytical category into the author’s identity, motive, diagnosis, or personal strategy."
+        },
+        {
+          "paragraph": 41,
+          "text": "Revised as a tension between universal consistency and context-sensitive thresholds."
+        },
+        {
+          "paragraph": 42,
+          "text": "Smoothed Navier-Stokes Framework"
+        },
+        {
+          "paragraph": 43,
+          "text": "Technical language retained; scope claims narrowed and activation terminology neutralized."
+        },
+        {
+          "paragraph": 211,
+          "text": ""
+        },
+        {
+          "paragraph": 212,
+          "text": "Smoothed Navier-Stokes Yield-Stress Framework"
+        },
+        {
+          "paragraph": 213,
+          "text": "Mathematical Specification for Boundary-Response Modeling"
+        },
+        {
+          "paragraph": 215,
+          "text": "1. Mathematical Context"
+        },
+        {
+          "paragraph": 216,
+          "text": "This document uses a smooth approximation for a threshold-activated forcing term in a Navier-Stokes-like model. The regularization replaces a sharp switch with a differentiable transition. It is a modeling choice for this framework; it does not establish a solution to the Clay Mathematics Institute Navier-Stokes Millennium Prize problem."
+        },
+        {
+          "paragraph": 217,
+          "text": "2. Governing Momentum Equation"
+        },
+        {
+          "paragraph": 218,
+          "text": "∂u/∂t + (u · ∇)u = -∇p + ν∇²u - (σ/ρ)(|∇S| - Γcrit) · [1/2 + 1/2 tanh((|∇S| - Γcrit)/ε)] eₖ"
+        },
+        {
+          "paragraph": 219,
+          "text": "3. Variable Definitions"
+        },
+        {
+          "paragraph": 226,
+          "text": "∇"
+        },
+        {
+          "paragraph": 227,
+          "text": "Spatial gradient operator."
+        },
+        {
+          "paragraph": 228,
+          "text": "p"
+        },
+        {
+          "paragraph": 230,
+          "text": "ν"
+        },
+        {
+          "paragraph": 231,
+          "text": "Kinematic viscosity µ/ρ; the model's smoothing or friction coefficient."
+        },
+        {
+          "paragraph": 232,
+          "text": "∇²"
+        },
+        {
+          "paragraph": 239,
+          "text": "Modeled field distributed over spatial coordinates."
+        },
+        {
+          "paragraph": 240,
+          "text": "|∇S|"
+        },
+        {
+          "paragraph": 241,
+          "text": "Magnitude of local field variation."
+        },
+        {
+          "paragraph": 246,
+          "text": "tanh"
+        },
+        {
+          "paragraph": 247,
+          "text": "Hyperbolic tangent used to create a smooth step."
+        },
+        {
+          "paragraph": 248,
+          "text": "eₖ"
+        },
+        {
+          "paragraph": 454,
+          "text": "System 2: The Fluid Continuity Model"
+        },
+        {
+          "paragraph": 455,
+          "text": "Treats status or contextual information as a field that changes over time. Advection represents directional movement, diffusion represents spreading or smoothing, and the source term represents a localized contribution to the field."
+        },
+        {
+          "paragraph": 456,
+          "text": "∂S(x, t) / ∂t = - u · ∇S(x, t) + D ∇²S(x, t) + δ(x - x₀) · P(U)"
+        },
+        {
+          "paragraph": 457,
+          "text": "Where: P(U) = ∫₀ᵗ γ · [U(τ) - Ubaseline] dτ"
+        },
+        {
+          "paragraph": 465,
+          "text": "D"
+        },
+        {
+          "paragraph": 466,
+          "text": "The diffusion coefficient: how strongly local differences spread or smooth out over time."
+        },
+        {
+          "paragraph": 467,
+          "text": "δ(x - x₀)"
+        },
+        {
+          "paragraph": 482,
+          "text": "Γcrit = τ₀ / η"
+        },
+        {
+          "paragraph": 483,
+          "text": "Condition for Activation: |∇S| > Γcrit"
+        },
+        {
+          "paragraph": 484,
+          "text": "ρ ( ∂u/∂t + u · ∇u ) = -∇P + µ ∇²u - σ ( |∇S| - Γcrit ) eₖ"
+        },
+        {
+          "paragraph": 485,
+          "text": "System 3 Variable Registry"
+        },
+        {
+          "paragraph": 499,
+          "text": "The rigidity parameter, representing how strongly the local rules resist change."
+        },
+        {
+          "paragraph": 500,
+          "text": "|∇S|"
+        },
+        {
+          "paragraph": 501,
+          "text": "The magnitude of the local status or context gradient."
+        },
+        {
+          "paragraph": 502,
+          "text": "ρ"
+        },
+        {
+          "paragraph": 504,
+          "text": "-∇P"
+        },
+        {
+          "paragraph": 505,
+          "text": "A pressure-gradient term representing forces that push the system toward a local equilibrium."
+        },
+        {
+          "paragraph": 506,
+          "text": "µ"
+        },
+        {
+          "paragraph": 507,
+          "text": "The dynamic viscosity term, representing dissipation during movement or shear."
+        },
+        {
+          "paragraph": 508,
+          "text": "σ"
+        }
+      ],
+      "embedded_math_objects": 0,
+      "embedded_media_files": []
+    },
+    {
+      "source": "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Math_and_Logic_Corrected.docx",
+      "paragraph_count": 638,
+      "excerpts": [
+        {
+          "paragraph": 10,
+          "text": "4. Moderation Policy Scenario"
+        },
+        {
+          "paragraph": 11,
+          "text": "5. Smoothed Navier-Stokes Yield-Stress Framework"
+        },
+        {
+          "paragraph": 12,
+          "text": "6. Evaluative Terminology in Academic Discourse"
+        },
+        {
+          "paragraph": 20,
+          "text": "∇ · u₀ = −AHCφ + AHCφ = 0."
+        },
+        {
+          "paragraph": 21,
+          "text": "The field is smooth through the axis, rapidly decreasing, and finite-energy. The analytic derivation establishes these properties; finite tests support the implementation. These statements use the checked construction with finite parameters R ≥ 0, a > 0, b > 0, and real A and B."
+        },
+        {
+          "paragraph": 22,
+          "text": "The claim being withheld concerns global smooth evolution. “Not proved here” does not mean false, concealed, or that the initial-field proof failed. Separately justified short-time existence remains possible. Changing the forcing alone does not undo the identity for an unchanged initial field; it changes what must be justified about its evolution."
+        },
+        {
+          "paragraph": 23,
+          "text": "Preserve “preserves Sens while adjusting Sin.” Here, Sens means personal intent or intended meaning, and Sin means socially constrained or encoded expression. Keep the unusual wording and its distinction. It does not need conventional replacement or treatment as a mathematical theorem."
+        },
+        {
+          "paragraph": 35,
+          "text": "• Keep metaphor visibly metaphorical: Terms such as border, gate, flow, pressure, sink, and shibboleth are modeling language, not claims of literal hostility, intent, or physical mechanism."
+        },
+        {
+          "paragraph": 36,
+          "text": "• Prefer gradients over camps: Treat epistemological orientations as dimensions or situational priorities rather than fixed kinds of people."
+        },
+        {
+          "paragraph": 37,
+          "text": "• Separate source from inference: Do not turn an analytical category into the author’s identity, motive, diagnosis, or personal strategy."
+        },
+        {
+          "paragraph": 51,
+          "text": "Within-context consistency is distinguished from invariance across contexts and from fairness."
+        },
+        {
+          "paragraph": 52,
+          "text": "Smoothed Navier-Stokes Framework"
+        },
+        {
+          "paragraph": 53,
+          "text": "Sharp, signed tanh, and smooth exact-off responses are distinguished; zero-gradient regularity and proof scope are explicit."
+        },
+        {
+          "paragraph": 54,
+          "text": "Terminology Report"
+        },
+        {
+          "paragraph": 97,
+          "text": "4. Interpretation"
+        },
+        {
+          "paragraph": 98,
+          "text": "The zero residual establishes Y-coordinate alignment for these four positions. It is a coordinate difference, not a gradient. The earlier phrase closed-loop stability expresses a proposed architectural interpretation; stability over time would require a specified evolution or feedback law and a stability argument. Alignment alone does not establish that result."
+        },
+        {
+          "paragraph": 99,
+          "text": ""
+        },
+        {
+          "paragraph": 223,
+          "text": ""
+        },
+        {
+          "paragraph": 224,
+          "text": "Smoothed Navier-Stokes Yield-Stress Framework"
+        },
+        {
+          "paragraph": 225,
+          "text": "Mathematical Specification for Boundary-Response Modeling"
+        },
+        {
+          "paragraph": 227,
+          "text": "1. Mathematical Context"
+        },
+        {
+          "paragraph": 228,
+          "text": "This section distinguishes three response laws: a sharp threshold with exact inactivity below it, the original tanh approximation with a signed response below threshold, and an optional smooth law with exact inactivity. Smoothness of a scalar switch and smoothness of its composition with a gradient magnitude are separate questions. None establishes a solution to the Clay Mathematics Institute Navier–Stokes problem."
+        },
+        {
+          "paragraph": 229,
+          "text": "2. Governing Momentum Equation"
+        },
+        {
+          "paragraph": 230,
+          "text": "∂u/∂t + (u · ∇)u = −∇p + ν∇²u + f,     ∇ · u = 0."
+        },
+        {
+          "paragraph": 231,
+          "text": "f = −(σ/ρ) a(q) eₖ,     q = |∇S| − Γcrit."
+        },
+        {
+          "paragraph": 232,
+          "text": "3. Variable Definitions"
+        },
+        {
+          "paragraph": 235,
+          "text": "u, t, ∇"
+        },
+        {
+          "paragraph": 236,
+          "text": "Velocity field, time, and spatial gradient in a specified continuous domain."
+        },
+        {
+          "paragraph": 237,
+          "text": "p = P/ρ"
+        },
+        {
+          "paragraph": 246,
+          "text": "Modeled field; its regularity and coupling need specifying."
+        },
+        {
+          "paragraph": 247,
+          "text": "|∇S|"
+        },
+        {
+          "paragraph": 248,
+          "text": "Euclidean gradient magnitude; not differentiable as a function of the gradient at zero."
+        },
+        {
+          "paragraph": 249,
+          "text": "Γcrit ≥ 0"
+        },
+        {
+          "paragraph": 250,
+          "text": "Threshold in gradient units; τ₀/η is an optional dimensionally compatible calibration."
+        },
+        {
+          "paragraph": 251,
+          "text": "q"
+        },
+        {
+          "paragraph": 252,
+          "text": "Gradient magnitude minus threshold."
+        },
+        {
+          "paragraph": 253,
+          "text": "ε > 0"
+        },
+        {
+          "paragraph": 255,
+          "text": "δ > 0"
+        },
+        {
+          "paragraph": 256,
+          "text": "Gradient regularization scale in gδ; same units as the gradient. Distinct from a Dirac delta."
+        },
+        {
+          "paragraph": 257,
+          "text": "a₀, aₜ, aε"
+        },
+        {
+          "paragraph": 258,
+          "text": "Sharp exact-off, original signed tanh, and optional smooth exact-off response laws."
+        },
+        {
+          "paragraph": 259,
+          "text": "eₖ"
+        },
+        {
+          "paragraph": 262,
+          "text": "Choose the response law a before using the equation. Sharp threshold: a₀(q) = max(q, 0), so the added force is zero for q ≤ 0 and proportional to q for q > 0. This law is continuous but not differentiable at q = 0."
+        },
+        {
+          "paragraph": 263,
+          "text": "Original tanh choice: aₜ(q) = q[1 + tanh(q/ε)]/2, with ε > 0. It is smooth as a function of q, but for finite q < 0 it is negative and nonzero. For example, aₜ(−ε) ≈ −0.119203ε. The force therefore reverses direction below threshold when σ > 0; it does not simply switch off. A small tail may be intentional, but its sign and interpretation must be stated."
+        },
+        {
+          "paragraph": 264,
+          "text": "Zero-gradient concern: |v| is not differentiable at v = 0. Composing it with tanh does not automatically remove that issue; a particular composition can have cancellations, which need checking. For a smooth alternative, use gδ(v) = √(v · v + δ²) − δ with δ > 0, and qδ = gδ(∇S) − Γcrit. This changes the gradient measure near zero and is a modeling choice."
+        },
+        {
+          "paragraph": 265,
+          "text": "Optional smooth exact-off response: aε(q) = 0 for q ≤ 0, and aε(q) = q exp[−(ε/q)²] for q > 0. For fixed ε > 0 this scalar function is C∞, including the join at zero. Using aε(qδ) with fixed δ > 0 makes the constitutive response smooth in the gradient variable and exactly zero when qδ ≤ 0. This is an alternative to the tanh law, not a property of it. Its positive onset in the original magnitude is |∇S| > √(Γcrit² + 2δΓcrit), so the threshold must be calibrated in the chosen measure. To retain the original cutoff |∇S| = Γcrit instead, use the calibrated excess qδ* = √(|∇S|² + δ²) − √(Γcrit² + δ²). It has the same sign as |∇S| − Γcrit for Γcrit ≥ 0. Using aε(qδ*) gives a smooth exact-off alternative with that original cutoff; the response above it is still a changed constitutive law."
+        },
+        {
+          "paragraph": 266,
+          "text": "A fixed eₖ specifies direction; it does not guarantee drag or energy dissipation. For f to remove kinetic energy pointwise, u · f must be nonpositive. The model still needs a domain, initial and boundary data, a definition or equation for S, and compatible coefficient units. A smooth constitutive response is not a proof of smooth solutions for all time. Pressure, viscosity, yield, and boundary remain modeling language unless independently operationalized."
+        },
+        {
+          "paragraph": 267,
+          "text": "Name the result and its domain: smoothness of the response function in its argument, or a property of the initial field at initialization. Neither description, by itself, establishes a theorem about subsequent evolution. A response function can be smooth for every scalar argument while global PDE regularity remains unestablished here. An initial-field identity reported without its derivation should retain that attribution; reporting it is not independent verification."
+        },
+        {
+          "paragraph": 268,
+          "text": ""
+        },
+        {
+          "paragraph": 516,
+          "text": "System 2: The Fluid Continuity Model"
+        },
+        {
+          "paragraph": 517,
+          "text": "Treats status or context as a signed field over a specified spatial embedding. Advection carries the field, diffusion spreads it, and a localized source changes it. A network alone does not specify the continuous geometry needed for these derivatives. With constant D_diff ≥ 0 and ∇ · u = 0, the following transport form is also a conservative continuity form."
+        },
+        {
+          "paragraph": 518,
+          "text": "∂S/∂t + u · ∇S = D_diff ∇²S + Kₕ(x − x₀) J(t)."
+        },
+        {
+          "paragraph": 519,
+          "text": "A(t) = ∫₀ᵗ γ[U(s) − Ubaseline] ds,     J(t) = κ A(t)."
+        },
+        {
+          "paragraph": 520,
+          "text": "Kₕ is a smooth localized kernel of width h > 0 with spatial integral 1. The original δ(x − x₀) is an alternative point-source idealization interpreted as a distribution, not an ordinary smooth function. A stores accumulated input; κ converts that stored quantity to a source rate with the required units. This retains the original memory choice explicitly. Under closed or periodic boundaries, constant positive excess utility can make the total field grow quadratically in time because the stored input is integrated again by the evolution equation. If instantaneous production is intended instead, specify J(t) = γ[U(t) − Ubaseline] with suitable units; that is a different model. Negative excess input may lower this signed field. Initial and boundary data remain necessary. For compressible transport, replace u · ∇S by ∇ · (Su)."
+        },
+        {
+          "paragraph": 521,
+          "text": "System 2 Variable Registry"
+        },
+        {
+          "paragraph": 528,
+          "text": "D_diff ≥ 0"
+        },
+        {
+          "paragraph": 529,
+          "text": "Constant diffusion coefficient, with units length²/time."
+        },
+        {
+          "paragraph": 530,
+          "text": "Kₕ(x − x₀)"
+        },
+        {
+          "paragraph": 531,
+          "text": "Smooth localized source kernel, width h > 0, integral 1; units inverse spatial volume."
+        },
+        {
+          "paragraph": 532,
+          "text": "A(t)"
+        },
+        {
+          "paragraph": 542,
+          "text": "δ(x − x₀)"
+        },
+        {
+          "paragraph": 543,
+          "text": "Optional Dirac point-source distribution replacing Kₕ; not a smooth ordinary function."
+        },
+        {
+          "paragraph": 544,
+          "text": "System 3  The Boundary Threshold and Response Model"
+        },
+        {
+          "paragraph": 545,
+          "text": "The sharp version defines exactly what happens on both sides: the additional boundary force is zero at and below threshold, and active above it. Zero added force does not mean the whole system is stable; the other terms still evolve. The smooth alternatives and their distinct behavior are specified in the earlier threshold section."
+        },
+        {
+          "paragraph": 546,
+          "text": "T = µ₀[∇u + (∇u)ᵀ],     µ₀ > 0."
+        },
+        {
+          "paragraph": 547,
+          "text": "T is the symmetric viscous stress for the stated incompressible Newtonian analogy. The earlier µ₀∇u was a scaled velocity-gradient tensor, not this full stress. This constitutive choice does not establish literal fluid behavior in a social system."
+        },
+        {
+          "paragraph": 548,
+          "text": "Γcrit ≥ 0. Optional calibration: Γcrit = τ₀/η, with τ₀ ≥ 0 and η > 0."
+        },
+        {
+          "paragraph": 549,
+          "text": "q = |∇S| − Γcrit;     a₀(q) = 0 if q ≤ 0, and a₀(q) = q if q > 0."
+        },
+        {
+          "paragraph": 550,
+          "text": "ρ[∂u/∂t + (u · ∇)u] = −∇P + µ∇²u − σ a₀(q)eₖ,     ∇ · u = 0."
+        },
+        {
+          "paragraph": 551,
+          "text": "Assume constant ρ > 0, µ > 0, and σ ≥ 0; p = P/ρ and ν = µ/ρ connect this equation to the earlier normalized form. The calibration η must give Γcrit the same units as |∇S|. Increasing η lowers Γcrit at fixed τ₀, so the label rigidity does not by itself establish stronger resistance. Fixed-direction forcing is not necessarily dissipative. Initial and boundary data, the S coupling, and a domain are required; smooth activation alone does not establish well-posedness or global regularity."
+        },
+        {
+          "paragraph": 552,
+          "text": "System 3 Variable Registry"
+        },
+        {
+          "paragraph": 559,
+          "text": "∇u"
+        },
+        {
+          "paragraph": 560,
+          "text": "Velocity-gradient tensor."
+        },
+        {
+          "paragraph": 561,
+          "text": "Γcrit ≥ 0"
+        },
+        {
+          "paragraph": 562,
+          "text": "Boundary-response threshold in gradient units."
+        },
+        {
+          "paragraph": 563,
+          "text": "τ₀ ≥ 0"
+        },
+        {
+          "paragraph": 565,
+          "text": "η > 0"
+        },
+        {
+          "paragraph": 566,
+          "text": "Calibration scale with units chosen so τ₀/η is a gradient. Rigidity is an interpretive label."
+        },
+        {
+          "paragraph": 567,
+          "text": "q = |∇S| − Γcrit"
+        },
+        {
+          "paragraph": 568,
+          "text": "Threshold excess."
+        },
+        {
+          "paragraph": 573,
+          "text": "P"
+        },
+        {
+          "paragraph": 574,
+          "text": "Pressure variable; −∇P is a pressure-gradient force, not an equilibrium guarantee."
+        },
+        {
+          "paragraph": 575,
+          "text": "µ > 0"
+        }
+      ],
+      "embedded_math_objects": 0,
+      "embedded_media_files": []
+    },
+    {
+      "source": "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\00_Corpus_Language_Standard_and_Index.docx",
+      "paragraph_count": 35,
+      "excerpts": [
+        {
+          "paragraph": 9,
+          "text": "• Keep metaphor visibly metaphorical: Terms such as border, gate, flow, pressure, sink, and shibboleth are modeling language, not claims of literal hostility, intent, or physical mechanism."
+        },
+        {
+          "paragraph": 10,
+          "text": "• Prefer gradients over camps: Treat epistemological orientations as dimensions or situational priorities rather than fixed kinds of people."
+        },
+        {
+          "paragraph": 11,
+          "text": "• Separate source from inference: Do not turn an analytical category into the author’s identity, motive, diagnosis, or personal strategy."
+        },
+        {
+          "paragraph": 25,
+          "text": "Revised as a tension between universal consistency and context-sensitive thresholds."
+        },
+        {
+          "paragraph": 26,
+          "text": "Smoothed Navier-Stokes Framework"
+        },
+        {
+          "paragraph": 27,
+          "text": "Technical language retained; scope claims narrowed and activation terminology neutralized."
+        }
+      ],
+      "embedded_math_objects": 0,
+      "embedded_media_files": []
+    },
+    {
+      "source": "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\01_Cybernetic_State_Vector_Plain_Language.docx",
+      "paragraph_count": 36,
+      "excerpts": [],
+      "embedded_math_objects": 0,
+      "embedded_media_files": []
+    },
+    {
+      "source": "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\02_True_B_Lister_Framework_Plain_Language.docx",
+      "paragraph_count": 84,
+      "excerpts": [],
+      "embedded_math_objects": 0,
+      "embedded_media_files": []
+    },
+    {
+      "source": "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\03_Moderation_Policy_Scenario_Plain_Language.docx",
+      "paragraph_count": 36,
+      "excerpts": [],
+      "embedded_math_objects": 0,
+      "embedded_media_files": []
+    },
+    {
+      "source": "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\04_Navier_Stokes_Framework_Plain_Language.docx",
+      "paragraph_count": 40,
+      "excerpts": [
+        {
+          "paragraph": 1,
+          "text": "Smoothed Navier-Stokes Yield-Stress Framework"
+        },
+        {
+          "paragraph": 2,
+          "text": "Mathematical Specification for Boundary-Response Modeling"
+        },
+        {
+          "paragraph": 4,
+          "text": "1. Mathematical Context"
+        },
+        {
+          "paragraph": 5,
+          "text": "This document uses a smooth approximation for a threshold-activated forcing term in a Navier-Stokes-like model. The regularization replaces a sharp switch with a differentiable transition. It is a modeling choice for this framework; it does not establish a solution to the Clay Mathematics Institute Navier-Stokes Millennium Prize problem."
+        },
+        {
+          "paragraph": 6,
+          "text": "2. Governing Momentum Equation"
+        },
+        {
+          "paragraph": 7,
+          "text": "∂u/∂t + (u · ∇)u = -∇p + ν∇²u - (σ/ρ)(|∇S| - Γcrit) · [1/2 + 1/2 tanh((|∇S| - Γcrit)/ε)] eₖ"
+        },
+        {
+          "paragraph": 8,
+          "text": "3. Variable Definitions"
+        },
+        {
+          "paragraph": 15,
+          "text": "∇"
+        },
+        {
+          "paragraph": 16,
+          "text": "Spatial gradient operator."
+        },
+        {
+          "paragraph": 17,
+          "text": "p"
+        },
+        {
+          "paragraph": 19,
+          "text": "ν"
+        },
+        {
+          "paragraph": 20,
+          "text": "Kinematic viscosity µ/ρ; the model's smoothing or friction coefficient."
+        },
+        {
+          "paragraph": 21,
+          "text": "∇²"
+        },
+        {
+          "paragraph": 28,
+          "text": "Modeled field distributed over spatial coordinates."
+        },
+        {
+          "paragraph": 29,
+          "text": "|∇S|"
+        },
+        {
+          "paragraph": 30,
+          "text": "Magnitude of local field variation."
+        },
+        {
+          "paragraph": 35,
+          "text": "tanh"
+        },
+        {
+          "paragraph": 36,
+          "text": "Hyperbolic tangent used to create a smooth step."
+        },
+        {
+          "paragraph": 37,
+          "text": "eₖ"
+        }
+      ],
+      "embedded_math_objects": 0,
+      "embedded_media_files": []
+    },
+    {
+      "source": "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\05_Evaluative_Terminology_Report_Plain_Language.docx",
+      "paragraph_count": 64,
+      "excerpts": [],
+      "embedded_math_objects": 0,
+      "embedded_media_files": []
+    },
+    {
+      "source": "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\06_Recommendation_Threshold_Audit_Plain_Language.docx",
+      "paragraph_count": 40,
+      "excerpts": [],
+      "embedded_math_objects": 0,
+      "embedded_media_files": []
+    },
+    {
+      "source": "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\07_Representation_of_Left_Plain_Language.docx",
+      "paragraph_count": 28,
+      "excerpts": [],
+      "embedded_math_objects": 0,
+      "embedded_media_files": []
+    },
+    {
+      "source": "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\08_Fauxmoi_Case_Study_Plain_Language_Working_Draft.docx",
+      "paragraph_count": 40,
+      "excerpts": [],
+      "embedded_math_objects": 0,
+      "embedded_media_files": []
+    },
+    {
+      "source": "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Revision_Pack\\09_Architecture_of_Digital_Border_Enforcement_Plain_Language.docx",
+      "paragraph_count": 135,
+      "excerpts": [
+        {
+          "paragraph": 26,
+          "text": "System 2: The Fluid Continuity Model"
+        },
+        {
+          "paragraph": 27,
+          "text": "Treats status or contextual information as a field that changes over time. Advection represents directional movement, diffusion represents spreading or smoothing, and the source term represents a localized contribution to the field."
+        },
+        {
+          "paragraph": 28,
+          "text": "∂S(x, t) / ∂t = - u · ∇S(x, t) + D ∇²S(x, t) + δ(x - x₀) · P(U)"
+        },
+        {
+          "paragraph": 29,
+          "text": "Where: P(U) = ∫₀ᵗ γ · [U(τ) - Ubaseline] dτ"
+        },
+        {
+          "paragraph": 37,
+          "text": "D"
+        },
+        {
+          "paragraph": 38,
+          "text": "The diffusion coefficient: how strongly local differences spread or smooth out over time."
+        },
+        {
+          "paragraph": 39,
+          "text": "δ(x - x₀)"
+        },
+        {
+          "paragraph": 54,
+          "text": "Γcrit = τ₀ / η"
+        },
+        {
+          "paragraph": 55,
+          "text": "Condition for Activation: |∇S| > Γcrit"
+        },
+        {
+          "paragraph": 56,
+          "text": "ρ ( ∂u/∂t + u · ∇u ) = -∇P + µ ∇²u - σ ( |∇S| - Γcrit ) eₖ"
+        },
+        {
+          "paragraph": 57,
+          "text": "System 3 Variable Registry"
+        },
+        {
+          "paragraph": 71,
+          "text": "The rigidity parameter, representing how strongly the local rules resist change."
+        },
+        {
+          "paragraph": 72,
+          "text": "|∇S|"
+        },
+        {
+          "paragraph": 73,
+          "text": "The magnitude of the local status or context gradient."
+        },
+        {
+          "paragraph": 74,
+          "text": "ρ"
+        },
+        {
+          "paragraph": 76,
+          "text": "-∇P"
+        },
+        {
+          "paragraph": 77,
+          "text": "A pressure-gradient term representing forces that push the system toward a local equilibrium."
+        },
+        {
+          "paragraph": 78,
+          "text": "µ"
+        },
+        {
+          "paragraph": 79,
+          "text": "The dynamic viscosity term, representing dissipation during movement or shear."
+        },
+        {
+          "paragraph": 80,
+          "text": "σ"
+        }
+      ],
+      "embedded_math_objects": 0,
+      "embedded_media_files": []
+    }
+  ],
+  "board_read_scope": [
+    {
+      "file": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-coupled-extra.json",
+      "svg_record_count": 1,
+      "readable_items": 80,
+      "skipped_counts": [
+        100
+      ],
+      "top_keys": [
+        "success",
+        "message",
+        "svg",
+        "item_count",
+        "skipped_count",
+        "miro_url",
+        "scope_x",
+        "scope_y",
+        "scope_width",
+        "scope_height"
+      ]
+    },
+    {
+      "file": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-coupled-read-0.json",
+      "svg_record_count": 1,
+      "readable_items": 145,
+      "skipped_counts": [
+        98
+      ],
+      "top_keys": [
+        "success",
+        "message",
+        "svg",
+        "item_count",
+        "skipped_count",
+        "miro_url",
+        "scope_x",
+        "scope_y",
+        "scope_width",
+        "scope_height"
+      ]
+    },
+    {
+      "file": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-coupled-read-1.json",
+      "svg_record_count": 1,
+      "readable_items": 149,
+      "skipped_counts": [
+        70
+      ],
+      "top_keys": [
+        "success",
+        "message",
+        "svg",
+        "item_count",
+        "skipped_count",
+        "miro_url",
+        "scope_x",
+        "scope_y",
+        "scope_width",
+        "scope_height"
+      ]
+    },
+    {
+      "file": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-coupled-read-2.json",
+      "svg_record_count": 1,
+      "readable_items": 97,
+      "skipped_counts": [
+        84
+      ],
+      "top_keys": [
+        "success",
+        "message",
+        "svg",
+        "item_count",
+        "skipped_count",
+        "miro_url",
+        "scope_x",
+        "scope_y",
+        "scope_width",
+        "scope_height"
+      ]
+    },
+    {
+      "file": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-coupled-read-3.json",
+      "svg_record_count": 1,
+      "readable_items": 114,
+      "skipped_counts": [
+        68
+      ],
+      "top_keys": [
+        "success",
+        "message",
+        "svg",
+        "item_count",
+        "skipped_count",
+        "miro_url",
+        "scope_x",
+        "scope_y",
+        "scope_width",
+        "scope_height"
+      ]
+    },
+    {
+      "file": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-coupled-read-4.json",
+      "svg_record_count": 1,
+      "readable_items": 13,
+      "skipped_counts": [
+        105
+      ],
+      "top_keys": [
+        "success",
+        "message",
+        "svg",
+        "item_count",
+        "skipped_count",
+        "miro_url",
+        "scope_x",
+        "scope_y",
+        "scope_width",
+        "scope_height"
+      ]
+    },
+    {
+      "file": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-holding-review-2026-10-23.json",
+      "svg_record_count": 1,
+      "readable_items": 72,
+      "skipped_counts": [
+        78
+      ],
+      "top_keys": [
+        "success",
+        "message",
+        "svg",
+        "item_count",
+        "skipped_count",
+        "miro_url",
+        "scope_x",
+        "scope_y",
+        "scope_width",
+        "scope_height"
+      ]
+    },
+    {
+      "file": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-review.json",
+      "svg_record_count": 3,
+      "readable_items": 89,
+      "skipped_counts": [
+        72,
+        85,
+        89
+      ],
+      "top_keys": [
+        "review_date",
+        "board_url",
+        "reads",
+        "search",
+        "overview"
+      ]
+    },
+    {
+      "file": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\work\\hug-field-specification-source\\miro-structural-review-2026-10-23.json",
+      "svg_record_count": 1,
+      "readable_items": 85,
+      "skipped_counts": [
+        72
+      ],
+      "top_keys": [
+        "reviewed",
+        "query",
+        "read"
+      ]
+    }
+  ],
+  "unique_readable_board_items": 598,
+  "selected_board_items": [
+    {
+      "id": "3458764688054153142",
+      "text": "14 · Where evidence changes the claim15 · What measurement misses20 · A smooth switchIdea 5 · Response lawsSWOT · Which idea next",
+      "sources": [
+        "miro-coupled-extra.json"
+      ]
+    },
+    {
+      "id": "3458764688054153643",
+      "text": "Taylor expansion misses the onset.The gradient norm loses direction.Fixed eₖ doesn't guarantee drag.",
+      "sources": [
+        "miro-coupled-extra.json"
+      ]
+    },
+    {
+      "id": "3458764688054153649",
+      "text": "Probe the onset at set values.Mirror the gradient and compare the force.Register disconfirming results.",
+      "sources": [
+        "miro-coupled-extra.json"
+      ]
+    },
+    {
+      "id": "3458764687917934072",
+      "text": "Check energy sign",
+      "sources": [
+        "miro-coupled-extra.json",
+        "miro-holding-review-2026-10-23.json"
+      ]
+    },
+    {
+      "id": "3458764687912872509",
+      "text": "Fields and response laws  Contents 5 · Smoothed Navier-Stokes Yield-Stress Framework Contents 10 · The Architecture of Digital Border Enforcement Read for: reciprocal scaling, accumulated sources, threshold choices, and conditions still required.",
+      "sources": [
+        "miro-coupled-read-0.json"
+      ]
+    },
+    {
+      "id": "3458764687912872550",
+      "text": "f = −(σ/ρ) a(q) eₖ, q = |∇S| − Γcrit, ε > 0",
+      "sources": [
+        "miro-coupled-read-0.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json"
+      ]
+    },
+    {
+      "id": "3458764687912872552",
+      "text": "Original signed tanh  aₜ(q) = q[1 + tanh(q/ε)] / 2 Smooth in q; negative and nonzero at finite q  aₜ(−ε) ≈ −0.119203ε. For σ > 0, the force reverses below threshold.",
+      "sources": [
+        "miro-coupled-read-0.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json"
+      ]
+    },
+    {
+      "id": "3458764687912872553",
+      "text": "Optional smooth exact-off  aε(q) = 0 for q ≤ 0 aε(q) = q exp[−(ε/q)²] for q > 0 C∞ in q, including the join. A distinct law.",
+      "sources": [
+        "miro-coupled-read-0.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json"
+      ]
+    },
+    {
+      "id": "3458764687912872555",
+      "text": "Regularize the gradient measure  gδ(v) = √(v · v + δ²) − δ qδ = gδ(∇S) − Γcrit, δ > 0 aε(qδ) is smooth in the gradient and exactly off below its cutoff. Onset shifts to |∇S| > √(Γcrit² + 2δΓcrit).",
+      "sources": [
+        "miro-coupled-read-0.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json"
+      ]
+    },
+    {
+      "id": "3458764687912872557",
+      "text": "Retain the original cutoff  qδ* = √(|∇S|² + δ²) − √(Γcrit² + δ²) For Γcrit ≥ 0, its sign matches |∇S| − Γcrit. Using aε(qδ*) retains that cutoff while changing the law above it.",
+      "sources": [
+        "miro-coupled-read-0.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json"
+      ]
+    },
+    {
+      "id": "3458764687912872558",
+      "text": "Direction and proof scope  Fixed eₖ does not guarantee drag. Pointwise energy removal requires u · f ≤ 0. Specify domain, initial/boundary data, S coupling, and units. Smooth response is not global solution regularity.",
+      "sources": [
+        "miro-coupled-read-0.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json"
+      ]
+    },
+    {
+      "id": "3458764687912872559",
+      "text": "Parameter conditionsρ > 0, ν > 0, σ ≥ 0, Γcrit ≥ 0. The scales ε and δ must have compatible gradient units.The norm |v| is not differentiable at v = 0; scalar smoothness alone does not settle smoothness after composition.",
+      "sources": [
+        "miro-coupled-read-0.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json"
+      ]
+    },
+    {
+      "id": "3458764687912872566",
+      "text": "Transport law and conditions∂S/∂t + u · ∇S = D_diff ∇²S + Kₕ(x − x₀)J(t)For the conservative interpretation shown: constant D_diff ≥ 0 and ∇ · u = 0. Compressible transport instead uses ∇ · (Su).Specify the continuous embedding, initial/boundary data, and units. Kₕ has integral 1; a Dirac point source is a distributional alternative.",
+      "sources": [
+        "miro-coupled-read-0.json",
+        "miro-review.json",
+        "miro-structural-review-2026-10-23.json"
+      ]
+    },
+    {
+      "id": "3458764687916065207",
+      "text": "Field S(x,t)  Transport + diffusion + localized source KₕJ",
+      "sources": [
+        "miro-coupled-read-0.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json",
+        "miro-structural-review-2026-10-23.json"
+      ]
+    },
+    {
+      "id": "3458764687916065210",
+      "text": "Threshold excess q  |∇S| − Γcrit",
+      "sources": [
+        "miro-coupled-read-0.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json",
+        "miro-structural-review-2026-10-23.json"
+      ]
+    },
+    {
+      "id": "3458764687916065214",
+      "text": "Strengthen the couplingSpecify a shared domain, initial and boundary data, compatible units, the meaning of S, and one response law. Distinguish accumulation from instant production.Keep the proof obligations separate: rᵧ = 0 is coordinate alignment; SR is a static invariant; neither proves dynamic stability. Fixed-direction forcing requires its own energy-sign check.",
+      "sources": [
+        "miro-coupled-read-0.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json",
+        "miro-structural-review-2026-10-23.json"
+      ]
+    },
+    {
+      "id": "3458764687916065220",
+      "text": "take gradient magnitude",
+      "sources": [
+        "miro-coupled-read-0.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json",
+        "miro-structural-review-2026-10-23.json"
+      ]
+    },
+    {
+      "id": "3458764687918055262",
+      "text": "Smooth, flat—and still active  The smooth exact-off law has every derivative equal to zero at q = 0. Yet it is positive for every q > 0.  Its Taylor series there is zero: C∞ smoothness does not imply analyticity.",
+      "sources": [
+        "miro-coupled-read-1.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json"
+      ]
+    },
+    {
+      "id": "3458764687918055263",
+      "text": "The gradient loses its direction  ∇S = v and ∇S = −v give the same |∇S|. At fixed Γcrit, σ, ρ and eₖ, they give the same q and added force.  Is that symmetry intended, or is relevant direction being discarded?",
+      "sources": [
+        "miro-coupled-read-1.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json"
+      ]
+    },
+    {
+      "id": "3458764687918055264",
+      "text": "Three small probes  Compare laws at q/ε = −1, −0.639, 0, 0.1, 1. For the exact-off law and z = q/ε > 0: log(a/ε) = log z − 1/z². Use this to distinguish tiny from exact zero. Then mirror ∇S and compare the force.",
+      "sources": [
+        "miro-coupled-read-1.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json"
+      ]
+    },
+    {
+      "id": "3458764687918055265",
+      "text": "20 · A smooth switch hides several different effects",
+      "sources": [
+        "miro-coupled-read-1.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json"
+      ]
+    },
+    {
+      "id": "3458764687918055267",
+      "text": "The connection to the rest of the corpus: a zero, an unchanged output or a smooth curve can hide a meaningful distinction. Specify what would make that distinction observable before interpreting the result.",
+      "sources": [
+        "miro-coupled-read-1.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-review.json"
+      ]
+    },
+    {
+      "id": "3458764687933519961",
+      "text": "Taylor expansion misses the onset.The gradient norm loses direction.",
+      "sources": [
+        "miro-coupled-read-1.json"
+      ]
+    },
+    {
+      "id": "3458764687933519966",
+      "text": "Probe the onset at set values.Mirror the gradient and compare.Register disconfirming results.",
+      "sources": [
+        "miro-coupled-read-1.json"
+      ]
+    },
+    {
+      "id": "3458764688184880756",
+      "text": "Smooth switch  Onset, gradient and force  Priority 4 · Stage 4",
+      "sources": [
+        "miro-coupled-read-1.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-structural-review-2026-10-23.json"
+      ]
+    },
+    {
+      "id": "3458764688184880757",
+      "text": "Does the model still hold where the Taylor expansion misses the onset and the gradient norm loses direction?",
+      "sources": [
+        "miro-coupled-read-1.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-structural-review-2026-10-23.json"
+      ]
+    },
+    {
+      "id": "3458764688184880758",
+      "text": "Register refuting outcomes before the run. Probe at set values around the onset and mirror the gradient to compare the force.",
+      "sources": [
+        "miro-coupled-read-1.json",
+        "miro-holding-review-2026-10-23.json",
+        "miro-structural-review-2026-10-23.json"
+      ]
+    },
+    {
+      "id": "3458764687912872522",
+      "text": "Exact result  r_Y = [Y(a) − 3; Y(b) − 3; Y(c) − 3; Y(d) − 3] r_Y = [0; 0; 0; 0] This is a coordinate residual, not a spatial gradient.",
+      "sources": [
+        "miro-coupled-read-3.json"
+      ]
+    },
+    {
+      "id": "3458764687918055208",
+      "text": "D · A smooth switch   Can reverse sign—or hide every local derivative.",
+      "sources": [
+        "miro-coupled-read-3.json"
+      ]
+    }
+  ],
+  "later_note_excerpts": [
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\SPECIFICATION.md",
+      "lines": [
+        {
+          "line": 22,
+          "text": "| Doubling | Separate graded upper-half interaction | Its evolution and coupling to the newly defined flow; the reference region defining “upper” must be explicit |"
+        },
+        {
+          "line": 23,
+          "text": ""
+        },
+        {
+          "line": 24,
+          "text": "The corpus's scalar context field will be called **S_c when distinguishing it from the newly intended S**. The source formulas below retain their original symbol S for traceability; there it means S_c, not an already established energy-flow variable. The scalar source law, gradient activation, exchange D2 and boundary law T3 belong to that earlier representation. Their checks remain checks of those formulas only."
+        },
+        {
+          "line": 25,
+          "text": ""
+        },
+        {
+          "line": 26,
+          "text": "Velocity and energy transfer are related but different mathematical quantities. Choosing either as S requires a corresponding law and units; using the same letter does not establish equivalence. In particular, the source's scalar ∇S and its source rate cannot simply be reused for a directional energy flow without defining what those operations now mean. No new gravity or energy equation is selected by this clarification alone."
+        },
+        {
+          "line": 27,
+          "text": ""
+        },
+        {
+          "line": 75,
+          "text": "SOURCE: S is a signed status/context field over a specified continuous embedding. A is accumulated excess input. Neither is identified by the corpus with clay strain, water concentration, neurological memory, or the static scalar S in the separate reciprocal-scaling example. The utility U in this source law is not automatically a physical energy."
+        },
+        {
+          "line": 76,
+          "text": ""
+        },
+        {
+          "line": 77,
+          "text": "SOURCE above records the earlier scalar meaning S_c and does not override the user's correction. INTENT now assigns the holding role to the Hug and the movement/energy-transfer role to S. In C1–C2, the original S is scalar and u is velocity. Mapping the intended S to u, an energy flux or a separate flow field requires an explicit revision, including the gradient response, units, source and observation law. The electrical comparison from the preceding clarification is not a selection of charge or potential as S."
+        },
+        {
+          "line": 78,
+          "text": ""
+        },
+        {
+          "line": 79,
+          "text": "## Response branches remain separate"
+        },
+        {
+          "line": 80,
+          "text": ""
+        },
+        {
+          "line": 307,
+          "text": "There is no added self-excitation oscillator in M2. A source-driven motion may settle, drift, oscillate or lose rhythm. Do not tune in a van der Pol term merely to guarantee a cycle. A physical active mechanism would require its own supplied energy and calibrated coupling."
+        },
+        {
+          "line": 308,
+          "text": ""
+        },
+        {
+          "line": 309,
+          "text": "## Energy and information accounting"
+        },
+        {
+          "line": 310,
+          "text": ""
+        },
+        {
+          "line": 311,
+          "text": "DERIVED for smooth solutions of the moving-body candidate, constant G, fixed support and zero external traction:"
+        },
+        {
+          "line": 312,
+          "text": ""
+        },
+        {
+          "line": 319,
+          "text": "\\]"
+        },
+        {
+          "line": 320,
+          "text": ""
+        },
+        {
+          "line": 321,
+          "text": "The fixed-direction context force can supply or remove mechanical work. Record its signed power and accumulated work separately from orbital power and viscous loss. The corpus does not give S a physical free energy or a finite fuel reservoir. In this candidate b_S is an imposed active body-force channel; its power must not be presented as energy created by passive clay. A closed physical energy model needs a specified actuator/reservoir and feedback, which remains OPEN. If G changes in time, add (Ġ/2)∫Ω₀[tr(FᵀF)−3]dV₀ to the energy accounting."
+        },
+        {
+          "line": 322,
+          "text": ""
+        },
+        {
+          "line": 323,
+          "text": "For the scalar field:"
+        },
+        {
+          "line": 324,
+          "text": ""
+        },
+        {
+          "line": 326,
+          "text": "\\frac{d}{dt}\\frac12\\int S^2dV"
+        },
+        {
+          "line": 327,
+          "text": "=-D_S\\int|\\nabla S|^2dV+\\kappa A\\int SK_hdV+\\int SI_mdV."
+        },
+        {
+          "line": 328,
+          "text": "\\tag{E2}"
+        },
+        {
+          "line": 329,
+          "text": "\\]"
+        },
+        {
+          "line": 330,
+          "text": ""
+        },
+        {
+          "line": 331,
+          "text": "E2 is a mathematical field-norm balance, not an established physical memory energy. It distinguishes conserved signed total, changing spatial structure, continuous production and paired alignment."
+        },
+        {
+          "line": 332,
+          "text": ""
+        },
+        {
+          "line": 333,
+          "text": "## Earlier scalar internal and external transfer proposal"
+        },
+        {
+          "line": 334,
+          "text": ""
+        },
+        {
+          "line": 396,
+          "text": "| Internal and external transfer | Equal opposite interface contributions; both transfer directions; moving-boundary relative flux; no duplicated J; separate body, exterior and combined totals |"
+        },
+        {
+          "line": 397,
+          "text": "| Detection | Undetected nonzero patterns; signed cancellation; resolution/noise sweeps; no state reset on detection changes |"
+        },
+        {
+          "line": 398,
+          "text": "| Work | E1 and E2 residuals converge; report every source of positive work and fixture work when applicable |"
+        },
+        {
+          "line": 399,
+          "text": "| Physical calibration | Independently fit geometry, rheology and observation map; retain uncertainties and held-out tests; no inference of S scale from motion alone |"
+        },
+        {
+          "line": 400,
+          "text": ""
+        },
+        {
+          "line": 401,
+          "text": "PROPOSAL numerical approach: boundary-fitted 3D material mesh with displacement/velocity and a stable mixed pressure space (for example quadratic displacement/velocity with linear pressure on suitable elements). Use a conservative weak form of S2 and volume-consistent quadrature. Evaluate pair exchange by matched material quadrature pairs with equal reference volumes, rather than unconstrained nearest-neighbor interpolation. Apply equal opposite weighted exchange contributions to avoid introducing net S numerically."
+        }
+      ]
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\SOURCES.md",
+      "lines": [
+        {
+          "line": 11,
+          "text": "Local source: `$USER_HOME/OneDrive/Desktop/Plain_Language_Corpus_Math_and_Logic_Corrected.docx`."
+        },
+        {
+          "line": 12,
+          "text": ""
+        },
+        {
+          "line": 13,
+          "text": "SHA-256: `01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf`."
+        },
+        {
+          "line": 14,
+          "text": ""
+        },
+        {
+          "line": 15,
+          "text": "The prior extraction contains 624 nonempty paragraphs, including tables. It has no embedded math objects or images; the equations are text. The unchanged file hash makes that extraction applicable to this review. Paragraph numbers below identify XML paragraphs, not rendered pages."
+        },
+        {
+          "line": 16,
+          "text": ""
+        },
+        {
+          "line": 48,
+          "text": "Read local `work/My-Sources-Project-ALL/math/hug_envelope.py` and `math/notes/hug-boundary.md`. The code describes its own timed outline as a prescribed geometry prototype. Its midpoint closed pose has horizontal scale 1.08 and reciprocal vertical scale. Thickening that curve into a 3D material body is explicitly new; so are its support and stress law."
+        },
+        {
+          "line": 49,
+          "text": ""
+        },
+        {
+          "line": 50,
+          "text": "Geometry file SHA-256: `e0ef7fbb71e561d8875e1efc02e2ebf79558a8d0eae5e2e03ef9ee3045d9bdb6`."
+        },
+        {
+          "line": 51,
+          "text": ""
+        },
+        {
+          "line": 52,
+          "text": "## External technical references"
+        },
+        {
+          "line": 53,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\HOLDING_AND_ENERGY.md",
+      "lines": [
+        {
+          "line": 83,
+          "text": "\\]"
+        },
+        {
+          "line": 84,
+          "text": ""
+        },
+        {
+          "line": 85,
+          "text": "Φ_H is potential energy per unit mass (J/kg = m²/s²); b_H is force per volume (N/m³). An individual mass m experiences −m∇Φ_H. The word holding means that the chosen field and boundary conditions admit the intended supported or confined configuration. A negative gradient alone does not guarantee that: the potential must have the appropriate geometry, and escape, loading and boundary conditions must be tested."
+        },
+        {
+          "line": 86,
+          "text": ""
+        },
+        {
+          "line": 87,
+          "text": "This uses the conventional relation between a conservative force and potential energy; choosing it as the Hug's realization is new. See [OpenStax's force–potential relation](https://openstax.org/books/university-physics-volume-1/pages/8-2-conservative-and-non-conservative-forces)."
+        },
+        {
+          "line": 88,
+          "text": ""
+        },
+        {
+          "line": 127,
+          "text": "\\]"
+        },
+        {
+          "line": 128,
+          "text": ""
+        },
+        {
+          "line": 129,
+          "text": "G≥0 is an elastic modulus and W is elastic energy per current volume. With det F=1, current and reference volume agree. G=0 recovers the source Newtonian stress. The derived identity \\(D_tW=G(B-I):D\\) means the elastic part stores work rather than silently destroying it. The viscous dissipation is \\(\\mathcal Q_v=2\\mu D:D\\geq0\\)."
+        },
+        {
+          "line": 130,
+          "text": ""
+        },
+        {
+          "line": 131,
+          "text": "M-E supplies an energy-consistent material comparison; it is not established for the user's clay. It does not reproduce Burgers creep, yield, plasticity, hydration, damage or fracture. The earlier one-mode Burgers simulation is not automatically a three-dimensional constitutive law. To use a different clay law, replace both its stress/internal-state evolution and W/dissipation together, and check its energy inequality. F and u describe material, not the identity of the Hug. See [Bower on hyperelastic stress and stored energy](https://solidmechanics.org/Text/Chapter3_5/Chapter3_5.htm)."
+        },
+        {
+          "line": 132,
+          "text": ""
+        },
+        {
+          "line": 153,
+          "text": "The components are energy carried with moving material, mechanical work transmitted by stress (including pressure), and heat transfer. Omitting stress work would miss energy transmitted across a moving clay boundary. This is a proposed use of the user's S symbol, with a conventional continuum-energy definition; see [COMSOL's continuum energy-balance derivation](https://www.comsol.com/multiphysics/heat-transfer-conservation-of-energy?parent=fluid-flow-heat-transfer-and-mass-transport-0402-442)."
+        },
+        {
+          "line": 154,
+          "text": ""
+        },
+        {
+          "line": 155,
+          "text": "**DERIVED E2:** dot the momentum equation with u. Use symmetry of T and"
+        },
+        {
+          "line": 156,
+          "text": "\\(u\\cdot\\nabla\\cdot T=\\nabla\\cdot(Tu)-T:\\nabla u\\), incompressibility, the elastic identity above, and"
+        },
+        {
+          "line": 157,
+          "text": "\\(D_t\\Phi_H=\\partial_t\\Phi_H+u\\cdot\\nabla\\Phi_H\\). Then"
+        },
+        {
+          "line": 158,
+          "text": ""
+        },
+        {
+          "line": 161,
+          "text": "\\nabla\\cdot(\\mathcal E_m u-Tu)"
+        },
+        {
+          "line": 162,
+          "text": "=b_C\\cdot u+b_{ext}\\cdot u+"
+        },
+        {
+          "line": 163,
+          "text": "\\rho\\partial_t\\Phi_H-\\mathcal Q_v."
+        },
+        {
+          "line": 164,
+          "text": "\\]"
+        },
+        {
+          "line": 165,
+          "text": ""
+        },
+        {
+          "line": 166,
+          "text": "**ADDED first-law closure E3:**"
+        },
+        {
+          "line": 168,
+          "text": "\\["
+        },
+        {
+          "line": 169,
+          "text": "\\partial_t(\\rho e_{th})+"
+        },
+        {
+          "line": 170,
+          "text": "\\nabla\\cdot(\\rho e_{th}u+j_T)=\\mathcal Q_v+r,"
+        },
+        {
+          "line": 171,
+          "text": "\\]"
+        },
+        {
+          "line": 172,
+          "text": ""
+        },
+        {
+          "line": 173,
+          "text": "where r is any explicitly supplied heat power per volume. Add E2 and E3:"
+        },
+        {
+          "line": 174,
+          "text": ""
+        },
+        {
+          "line": 175,
+          "text": "\\["
+        },
+        {
+          "line": 176,
+          "text": "\\boxed{\\partial_t\\mathcal E+\\nabla\\cdot\\boldsymbol S_E"
+        },
+        {
+          "line": 182,
+          "text": "**No unlimited energy hidden inside memory:** A and C have context units, not joules. The original b_C can do positive work even after U returns to baseline. The physical interpretation must name the source of that work. **ADDED accounting reservoir:** let \\(P_C(t)=\\int b_C\\cdot u\\,dV\\), and record \\(\\dot E_{supply}=-P_C\\). This ledger closes the accounting for that channel; it does not explain its actuator or identify A as fuel. A physical finite reservoir requires an initial capacity and a conversion mechanism. Until specified, call this an externally powered comparison. Never silently clamp or reset A or C to make the energy ledger look bounded. If a finite supply is modeled, reaching its limit is a declared model-validity event requiring a force law for exhaustion."
+        },
+        {
+          "line": 183,
+          "text": ""
+        },
+        {
+          "line": 184,
+          "text": "A static holding potential with viscosity and no continuing power does not by itself produce a self-sustained rhythm. A periodic mechanical state must balance its mean dissipation with supplied work. Source-driven repetition is not evidence of a free energy source. Stored history can remain when u=0; heat may still transfer with u=0; conversely zero detected net flux does not establish absence of local movement or stored energy."
+        },
+        {
+          "line": 185,
+          "text": ""
+        },
+        {
+          "line": 186,
+          "text": "## 5. Internal and external transfer"
+        },
+        {
+          "line": 187,
+          "text": ""
+        },
+        {
+          "line": 200,
+          "text": "\\]"
+        },
+        {
+          "line": 201,
+          "text": ""
+        },
+        {
+          "line": 202,
+          "text": "**Concrete comparison interface:** no mass transfer, continuous velocity \\(u_b=u_e=v_\\Gamma\\), continuous traction \\(T_bn=T_en\\), continuous temperature, and continuous conductive normal flux. Then the relative energy flux is \\((-Tu+j_T)\\cdot n\\), which matches on both sides. Mechanical work and heat can transfer even though material does not cross. Surface tension, frictional slip, phase change, water loss and chemical transport require corresponding surface/mass/latent-energy terms; they are not represented by this interface."
+        },
+        {
+          "line": 203,
+          "text": ""
+        },
+        {
+          "line": 204,
+          "text": "Keep context transfer separate. One possible retained comparison is"
+        },
+        {
+          "line": 205,
+          "text": "\\((Cu-D_C^{diff}\\nabla C-Cv_\\Gamma)\\cdot n=q_C^\\Gamma\\), matched on both sides, with added closure \\(q_C^\\Gamma=\\Lambda(C_b-C_e)\\). Its units are context·m/s, not watts. It must not be used as an energy flux. Apply the normalized source once, in a declared region; do not duplicate K_hJ in the exterior."
+        },
+        {
+          "line": 221,
+          "text": "For an incompressible one-to-one deformation, this is a volume-preserving involution. A symmetry-plane point pairs with itself and has zero difference. For a nonsymmetric body use a separately specified measure-preserving pairing; nearest-neighbor rematching does not automatically preserve the following identities."
+        },
+        {
+          "line": 222,
+          "text": ""
+        },
+        {
+          "line": 223,
+          "text": "**ADDED D-E2: a concrete pair-alignment comparison on the retained context field**"
+        },
+        {
+          "line": 224,
+          "text": ""
+        },
+        {
+          "line": 225,
+          "text": "\\["
+        },
+        {
+          "line": 226,
+          "text": "\\boxed{\\mathcal D_C(x)=k_m\\,w(H_x)w(H_{\\pi x})\\,B_m"
+        }
+      ]
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\STRUCTURAL_MEMORY.md",
+      "lines": [
+        {
+          "line": 26,
+          "text": "| Gravity/confinement | Optional historical comparison | No longer the defining law of the Hug |"
+        },
+        {
+          "line": 27,
+          "text": ""
+        },
+        {
+          "line": 28,
+          "text": "The DOCX hash is unchanged: `01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf`. Relevant paragraphs are 517–539 for accumulated input/transport and 546–551, with the earlier threshold section, for stress and force."
+        },
+        {
+          "line": 29,
+          "text": ""
+        },
+        {
+          "line": 30,
+          "text": "The targeted Miro read covered [06: static/dynamic distinction](https://miro.com/app/board/uXjVEXBJz3k=/?moveToWidget=3458764687912872500), [13: coupled field and threshold response](https://miro.com/app/board/uXjVEXBJz3k=/?moveToWidget=3458764687916065203), [16: the past survives zero input](https://miro.com/app/board/uXjVEXBJz3k=/?moveToWidget=3458764687918055185), [18: identical readings can hide different states](https://miro.com/app/board/uXjVEXBJz3k=/?moveToWidget=3458764687918055187), and the theory map. It returned 107 managed items and reported 72 foreign/skipped items. Readable text supports the distinctions above; it does not supply the material laws introduced below. This is not a claim to have parsed every image on the board."
+        },
+        {
+          "line": 31,
+          "text": ""
+        },
+        {
+          "line": 107,
+          "text": "Here m is dimensionless, m≥0, and 0≤f(m)<1 for finite m in exact arithmetic. Machine arithmetic can round f to one at large m; the record itself is still stored. Saturating expression is not truncating or resetting m. At rest the recording rate below is zero, so the already encoded state remains."
+        },
+        {
+          "line": 108,
+          "text": ""
+        },
+        {
+          "line": 109,
+          "text": "This is a finite directional summary of experience. It is **not** a complete recoverable record of every event or human memory. Different histories can lead to the same m. The saved chronological CSV records preserve the tested trajectory separately; the constitutive law does not secretly read that file. Literal concentric layers, permanent plastic shape change, chemical history and biological inheritance are not asserted by these variables."
+        },
+        {
+          "line": 110,
+          "text": ""
+        },
+        {
+          "line": 111,
+          "text": "## 4. How memory becomes part of material response — ADDED"
+        },
+        {
+          "line": 112,
+          "text": ""
+        },
+        {
+          "line": 157,
+          "text": "They lie between zero and k_w. Extending and shortening enter their own channels. New evidence can change the relative pattern of channel expression while older records remain present."
+        },
+        {
+          "line": 158,
+          "text": ""
+        },
+        {
+          "line": 159,
+          "text": "Define viscous stress power Q_v=2μD:D≥0, proposed writing power P_raw=ΣY N, an allocation fraction 0≤η≤1 and a strictly positive power scale P_*. Then"
+        },
+        {
+          "line": 160,
+          "text": ""
+        },
+        {
+          "line": 161,
+          "text": "\\["
+        },
+        {
+          "line": 162,
+          "text": "\\lambda=\\frac{\\eta Q_v}{P_*+\\eta Q_v+P_{raw}},\\qquad"
+        },
+        {
+          "line": 163,
+          "text": "D_tm_{k,s}=\\lambda N_{k,s}."
+        },
+        {
+          "line": 164,
+          "text": "\\]"
+        },
+        {
+          "line": 165,
+          "text": ""
+        },
+        {
+          "line": 167,
+          "text": ""
+        },
+        {
+          "line": 168,
+          "text": "\\["
+        },
+        {
+          "line": 169,
+          "text": "0\\le P_{write}=\\sum Y_{k,s}D_tm_{k,s}\\le\\eta Q_v,"
+        },
+        {
+          "line": 170,
+          "text": "\\qquad Q_{heat}=Q_v-P_{write}\\ge0."
+        },
+        {
+          "line": 171,
+          "text": "\\]"
+        },
+        {
+          "line": 172,
+          "text": ""
+        },
+        {
+          "line": 173,
+          "text": "The derivation of the mechanical power identity is"
+        },
+        {
+          "line": 177,
+          "text": "\\]"
+        },
+        {
+          "line": 178,
+          "text": ""
+        },
+        {
+          "line": 179,
+          "text": "Accordingly, the heat equation uses Q_heat, **not Q_v a second time**. A numerical implementation that changes stiffness while leaving both W and heat unchanged would violate this accounting."
+        },
+        {
+          "line": 180,
+          "text": ""
+        },
+        {
+          "line": 181,
+          "text": "This assigns some mechanical dissipation budget to restructuring. It does not establish a molecular writing cost. In particular, Y can be zero at an unstrained instant: this candidate charges only the change in its declared W, not an invented universal cost per memory. Temperature-only exposure does not write m in this candidate. Hydration, permanent rearrangement, softening or chemical storage require distinct added laws and evidence."
+        },
+        {
+          "line": 182,
+          "text": ""
+        },
+        {
+          "line": 183,
+          "text": "Units: F, e^{str}, m, f and λ are dimensionless; D, r, r_* and k_w are s⁻¹; G and Y are Pa=J/m³; Q_v, P_raw, P_write and P_* are W/m³. These units prohibit treating the input accumulator A as an energy budget without a separate conversion law."
+        },
+        {
+          "line": 184,
+          "text": ""
+        },
+        {
+          "line": 185,
+          "text": "## 6. How S passes through the changed structure — ADDED"
+        },
+        {
+          "line": 186,
+          "text": ""
+        },
+        {
+          "line": 213,
+          "text": "\\]"
+        },
+        {
+          "line": 214,
+          "text": ""
+        },
+        {
+          "line": 215,
+          "text": "This result assumes the stated temperature-independent mechanical W, constant heat capacity and no extra thermomechanical constitutive terms. These assumptions must be revised together if temperature or hydration is allowed to change elasticity."
+        },
+        {
+          "line": 216,
+          "text": ""
+        },
+        {
+          "line": 217,
+          "text": "The source-force power remains an **external signed power entry**. A supply ledger can use E_supply′=−∫b_C·u dx; this is bookkeeping, not a specified physical generator with unlimited free fuel. Any physical implementation must name that generator and its limits. A passive, undriven version of these additions does not establish a self-sustained rhythm."
+        },
+        {
+          "line": 218,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\COUPLED_FIELD.md",
+      "lines": [
+        {
+          "line": 124,
+          "text": "The base fluid fills the domain; elastic response and added conductivity are immersed through material quadrature. Base density, viscosity and heat capacity are equal inside and outside. This deliberately avoids claiming a measured clay/air interface. It is one consistent regularized material-surroundings model, not the earlier sharp-interface membrane law. Its finite interaction widths are tested as model choices rather than hidden numerical constants."
+        },
+        {
+          "line": 125,
+          "text": ""
+        },
+        {
+          "line": 126,
+          "text": "Increasing expression hardens this candidate and increases conduction. Fading expression can soften the added response while m remains. Plastic strain, hydration, chemical storage and material growth are not covertly inferred from these formulas. A physical alternative must change the energy and evolution laws together."
+        },
+        {
+          "line": 127,
+          "text": ""
+        },
+        {
+          "line": 128,
+          "text": "## 6. Recording, fading and the combined energy balance"
+        },
+        {
+          "line": 129,
+          "text": ""
+        },
+        {
+          "line": 130,
+          "text": "Let Q_v=2νD:D be grid viscous power and α=R_h*{V_p} the nonnegative material occupancy density. To prevent spatial spreading from overdrawing a local heat budget, define each parcel's available share"
+        },
+        {
+          "line": 131,
+          "text": ""
+        },
+        {
+          "line": 132,
+          "text": "\\["
+        },
+        {
+          "line": 133,
+          "text": "B_p=R_h\\{Q_v/(1+\\alpha)\\},\\quad"
+        },
+        {
+          "line": 134,
+          "text": "P_{raw,p}=\\sum Y_{p,k,s}N_{p,k,s},"
+        },
+        {
+          "line": 135,
+          "text": "\\quad\\lambda_p=\\frac{\\eta B_p}{P_*+\\eta B_p+P_{raw,p}}."
+        },
+        {
+          "line": 136,
+          "text": "\\]"
+        },
+        {
+          "line": 139,
+          "text": ""
+        },
+        {
+          "line": 140,
+          "text": "\\["
+        },
+        {
+          "line": 141,
+          "text": "Q_{write}(x)=\\frac{\\eta Q_v(x)}{1+\\alpha(x)}R_h^*\\{V_p\\chi_p^w\\}."
+        },
+        {
+          "line": 142,
+          "text": "\\]"
+        },
+        {
+          "line": 143,
+          "text": ""
+        },
+        {
+          "line": 144,
+          "text": "It satisfies 0≤Q_write≤ηQ_v pointwise and ∫Q_write dx=ΣV_pΣY ṁ. No energy is counted twice. The release when expression fades is"
+        },
+        {
+          "line": 152,
+          "text": "\\["
+        },
+        {
+          "line": 153,
+          "text": "\\partial_t\\theta+\\nabla\\cdot(u\\theta+j_T)"
+        },
+        {
+          "line": 154,
+          "text": "=Q_v-Q_{write}+R_h^*\\{V_pP_{release,p}\\}."
+        },
+        {
+          "line": 155,
+          "text": "\\]"
+        },
+        {
+          "line": 156,
+          "text": ""
+        },
+        {
+          "line": 157,
+          "text": "Temperature represents an explicit mechanical/thermal transfer channel; it is not assigned a hydration or electrical meaning. These constitutive coefficients are temperature-independent, so thermal expansion is absent rather than silently included. Mechanical work changes the thermal field and structure changes conduction; temperature is not claimed to feed back on elasticity in this chosen branch."
+        },
+        {
+          "line": 198,
+          "text": "## 8. Numerical method and what the tests must distinguish"
+        },
+        {
+          "line": 199,
+          "text": ""
+        },
+        {
+          "line": 200,
+          "text": "Velocity and temperature use Fourier collocation, a strict two-thirds retained-mode cutoff, periodic Gaussian-smoothed material interpolation and its adjoint stress spreading. The velocity equation uses the rotational form u×curl u and a Leray projection; the reported physical pressure subtracts the kinetic-energy pressure offset. Material velocity gradients are the derivatives of the same interpolant that moves the parcels."
+        },
+        {
+          "line": 201,
+          "text": ""
+        },
+        {
+          "line": 202,
+          "text": "Context uses conservative finite volumes with centered face states, centered diffusion and face-averaged normal velocities derived from the divergence-free Fourier velocity. Their discrete divergence is zero. This keeps the compactly gated pair source exact at lower grid locations and preserves ∫C without pretending a Fourier truncation preserves pointwise support. The context gradient in b_C uses centered differences, making its finite-grid approximation explicit."
+        },
+        {
+          "line": 203,
+          "text": ""
+        },
+        {
+          "line": 215,
+          "text": "8. Chronological reconstruction of encoded increments and a same-total/different-timing response comparison."
+        },
+        {
+          "line": 216,
+          "text": ""
+        },
+        {
+          "line": 217,
+          "text": "`check_coupled_analytic.py` additionally evolves an independent exact-solution control through the same full solver: a decaying transverse shear, a passive context mode, its viscous heating and thermal diffusion, and the corresponding smoothed material trajectory and deformation gradient. Three time steps are compared to analytic formulas. Elastic feedback, history writing and pairing are set to zero for this analytic control; they remain active in the main experiment. Rigid-rotation tests independently check the material energy, stress, conductivity and recording drivers."
+        },
+        {
+          "line": 218,
+          "text": ""
+        },
+        {
+          "line": 219,
+          "text": "`check_coupled_transfer_budget.py` repeats the main trajectory with extra diagnostic counters only. It integrates net advective/conductive heat transport into the fixed region |x| > 0.32 separately from heat generated there by viscosity and expression release. That region is an observation control volume, not an asserted sharp material boundary. The final grid is compared with the uninstrumented main run; a locally generated temperature increase is not counted as transported heat."
+        },
+        {
+          "line": 220,
+          "text": ""
+        },
+        {
+          "line": 225,
+          "text": "[Chen and Peskin's Fourier spectral immersed-boundary method](https://arxiv.org/abs/2302.08694) motivates divergence-free interpolation and adjoint interaction work. This implementation uses direct tensor-product interpolation matrices, not their NUFFT implementation or their validated solver. Their convergence results are not imported as evidence for this code."
+        },
+        {
+          "line": 226,
+          "text": ""
+        },
+        {
+          "line": 227,
+          "text": "[Peskin's immersed-boundary formulation](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/95ECDAC5D1824285563270D6DD70DA9A/S0962492902000077a.pdf/div-class-title-the-immersed-boundary-method-div.pdf), [Bower's constitutive requirements](https://solidmechanics.org/Text/Chapter3_1/Chapter3_1.php) and [Berezovski on internal variables](https://pmc.ncbi.nlm.nih.gov/articles/PMC10217598/) provide general numerical and thermodynamic context. The specific Hug memory, thermal allocation and upper-half laws remain the additions declared here."
+        },
+        {
+          "line": 228,
+          "text": ""
+        },
+        {
+          "line": 229,
+          "text": "The runnable source is `coupled_hug.py`; the case matrix and batch runner are `run_coupled_suite.py`; the independent checks are `check_coupled_hug.py`. The report must be built from saved outputs and their source hashes. The visualizations show solved material parcels and field slices; no drawing map enforces closure or supplies an uncomputed trajectory."
+        }
+      ]
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\ASSUMPTION_AUDIT.md",
+      "lines": []
+    }
+  ],
+  "limits": [
+    "Archived readable board text only; skipped foreign/image objects and live-board updates not audited",
+    "Later specifications are proposals, not automatically original user laws"
+  ]
+}

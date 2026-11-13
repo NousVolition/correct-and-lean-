@@ -1,0 +1,60 @@
+{
+  "proof_verification": "PASS",
+  "requested_physical_AS_energy_connection": "PARTIAL: source candidate found and its stated material-work connection proved; original AS power cancellation not established",
+  "checked_utc": "2026-11-12T08:48:59.179627+00:00",
+  "new_theorem_count": 18,
+  "theorems": [
+    "HugSourceEnergy.expression_derivative",
+    "HugSourceEnergy.record_energy_balance",
+    "HugSourceEnergy.unstrained_energy_zero",
+    "HugSourceEnergy.unstrained_stress_zero",
+    "HugSourceEnergy.unstrained_write_conjugate_zero",
+    "HugSourceEnergy.write_conjugate_nonnegative",
+    "HugSourceEnergy.changing_records_can_change_response",
+    "HugSourceEnergy.no_viscous_power_no_writing",
+    "HugSourceEnergy.recording_power_bound",
+    "HugSourceEnergy.material_total_residual",
+    "HugSourceEnergy.material_conservation_iff_zero_source_power",
+    "HugSourceEnergy.fixed_strain_and_record_energy_rate_zero",
+    "HugSourceEnergy.material_direction_derivative",
+    "HugSourceEnergy.directional_strain_derivative",
+    "HugSourceEnergy.symmetric_gradient_same_directional_rate",
+    "HugSourceEnergy.tensor_work_matches_strain_work",
+    "HugSourceEnergy.configuration_record_energy_balance",
+    "HugSourceEnergy.zero_velocity_gradient_no_directional_strain_rate"
+  ],
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "sorryAx_present": false,
+  "original_equations_unchanged": true,
+  "source_documents_unchanged": true,
+  "source_status": "Material energy and its extra stress explicitly marked ADDED in the retained notes; not inserted into OriginalAS.rates",
+  "proven": [
+    "Single-channel record energy chain rule",
+    "F-to-direction-to-strain-to-stress-work connection in 3D",
+    "Writing-power allocation bound",
+    "Zero-strain energy does not identify a unique record",
+    "Conditional material/heat transfer cancellation leaves original AS work"
+  ],
+  "unproved": [
+    "An AS internal energy with rate equal to negative coupling power",
+    "The complete immersed continuum energy theorem",
+    "Correspondence with the floating-point solver",
+    "Physical calibration",
+    "Complete review of all notes/chats/board images"
+  ],
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "compiler_sha256": "37dfe799f69b990251f3b6bcff8a1c10c1afe2adcdecc5c580cc6726ffb63433",
+  "dependency": {
+    "head": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+    "tracked_clean": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\NavierStokesAndEuler-audit\\.lake\\packages\\mathlib",
+    "checked_utc": "2026-11-12T08:10:24.4285603Z"
+  },
+  "dependency_note": "Pinned cache and check inherited from preceding package; not a new remote freshness claim",
+  "clean_download_lake_build_tested": false,
+  "independent_external_kernel_checked": false
+}

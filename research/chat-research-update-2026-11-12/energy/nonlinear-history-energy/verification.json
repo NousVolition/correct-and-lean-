@@ -1,0 +1,65 @@
+{
+  "checked_utc": "2026-11-12T10:27:17.104468+00:00",
+  "source_check": "COMPLETE within declared readable-source scope",
+  "numerical_checks": "PASS",
+  "requested_nonlinear_storage": "NOT IDENTIFIED from checked original notes. Known later nonlinear stored-energy terms are already included and their releases go through existing heat/stress transfers.",
+  "new_solver_steps": 0,
+  "new_Lean_compilations": 0,
+  "new_theorems": 0,
+  "saved_states": 62,
+  "proof_evidence": [
+    {
+      "package": "hug-lean-proofs",
+      "module": "ClayFabric",
+      "targets": [
+        "ClayFabric.energy_has_derivative_gradient",
+        "ClayFabric.settling_turns_energy_into_heat"
+      ],
+      "source_sha256": "702bee064bdee1797ec24351a6194841b3b5efc631f52cd1ee9a4feaa8ec4e54",
+      "receipt_sha256": "f4ce596d69d116cb37cb68490076a0df48bf29a60f7f18de5c3811a1fe2ac5cb",
+      "audit_sha256": "54212f2a3f2a902474958134052d5452be33d2d3af537c08c33076e8d476ddcf",
+      "status": "Inherited successful proof evidence, hashes checked; not recompiled in this task"
+    },
+    {
+      "package": "hug-source-energy-connection",
+      "module": "RecordEnergyConnection",
+      "targets": [
+        "HugSourceEnergy.record_energy_balance"
+      ],
+      "source_sha256": "5fbf0203b515cbf6944100c1a569d9ba98517e2b55d057f07590d1b7ea350c81",
+      "receipt_sha256": "4cf2a51aab15cb7fe241f9805d28122a1dbffbcc3f537ba928bc486e54b1a0d5",
+      "audit_sha256": "16e455e560d795b2bef6b7b0b9a99f1f2ab3fceea480077cb9814198a9aeb44e",
+      "status": "Inherited successful proof evidence, hashes checked; not recompiled in this task"
+    },
+    {
+      "package": "full-carrying-energy",
+      "module": "FullCarrying",
+      "targets": [
+        "FullCarrying.complete_existing_transfers"
+      ],
+      "source_sha256": "4f3a0e22fe7708c32abf47f833e6ec9f208b57aa65bab57f8fd8af0f7f141cfb",
+      "receipt_sha256": "4d6245e6c8eb04b140eb34b02cdcc320a056345894fe28f0494c22ae401271ef",
+      "audit_sha256": "4f93016a406356a497385efe6c3cb139b76aa24142a1cbefb43efb62ab999025",
+      "status": "Inherited successful proof evidence, hashes checked; not recompiled in this task"
+    },
+    {
+      "package": "s-gradient-energy",
+      "module": "GradientStorage",
+      "targets": [
+        "GradientStorage.initial_minimum_cannot_pay"
+      ],
+      "source_sha256": "beac9bd571b1a455c1513b883983b480ac7a030a7dee3dec3ba38399bdd0d68e",
+      "receipt_sha256": "739491b0aad90c561197092cfbab64d0c5ae51e9070f3a061e99883194db5aea",
+      "audit_sha256": "cba8aa4a1d1d50ddf1413a2cc9f093ba4878076f8845809ca8852a37b6e1b3a1",
+      "status": "Inherited successful proof evidence, hashes checked; not recompiled in this task"
+    }
+  ],
+  "original_equations_notes_and_saved_states_unchanged": true,
+  "missing_specification": "An independently defined full-state/history energy functional whose derivative cancels the activation remainder along the unchanged evolution, including event balance and without double-counting material/heat energy.",
+  "limitations": [
+    "No universal no-go theorem for nonlinear/nonlocal/history-dependent functionals",
+    "Archived readable source text only, not skipped board objects/images or live updates",
+    "Floating-point saved-state checks do not prove a continuum trajectory",
+    "Original A/S branch and later nonlinear material implementation retain distinct provenance"
+  ]
+}

@@ -1,0 +1,41 @@
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean/PeriodicNavierStokes.lean:96:20: warning: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [divergence, space_partial, coefficient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean/PeriodicNavierStokes.lean:101:8: warning: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [velocity, coefficient]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean/PeriodicNavierStokes.lean:105:19: warning: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [laplacian, space_partial_twice]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean/PeriodicNavierStokes.lean:123:65: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean/PeriodicNavierStokes.lean:124:14: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean/PeriodicNavierStokes.lean:124:30: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean/PeriodicNavierStokes.lean:124:42: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'ClosestPointExample.incompressible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.smooth_velocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.spatially_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.markers_stationary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.curl_on_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.vortex_line_ODE' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.exact_same_equation_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]

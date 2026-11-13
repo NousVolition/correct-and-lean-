@@ -1,0 +1,62 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "For any selected schedule, positive viscosity and admissible compression, all loop readings are zero while the rescaled source clock is negative. For every sufficiently late time one offset has opposite nonzero readings then and was zero throughout the nonempty early interval at the identical spatial position. The loop may depend on the late time.",
+  "open_items": [
+    "An identified numerical offset, onset time, sign and calibrated force magnitude.",
+    "A single offset that works for every late time, or a nonzero–zero–nonzero recurrence."
+  ],
+  "number_of_new_targets": 2,
+  "targets": [
+    "SignedVortex.Rescaled.TimeControl.early_loop_zero",
+    "SignedVortex.Rescaled.TimeControl.same_loop_before_after"
+  ],
+  "axioms_by_target": {
+    "SignedVortex.Rescaled.TimeControl.early_loop_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.Rescaled.TimeControl.same_loop_before_after": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "upstream_commit": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "corpus_commit": "b4ae2c54cd85bfef282c501ecfca83de274e2070",
+  "original_force_definition_sha256": "085842badbc2b5d75e7749e24766a02ccc21f3cb7b3e638a6c1a4b6534cf79c8",
+  "original_force_match_predicate_module_sha256": "c04f8772aad05229fa4cbc35451ea05907ef82cf12e7c094a0579c29222a3bd0",
+  "prior_freezes": {
+    "as-signed-vortex-lean": "fd16dc9105dad775a7850396b40602ad201a6d8c4a95ba1a912a4dfa5497117c",
+    "as-vortex-hline-lean": "33c1197c9e1e7076d129960329375bb2de5dc96de9ee62a18e254109cfbc14b0",
+    "as-vortex-rescaling-lean": "8f597419767ec35082935f23110e0748d9774ab3949525095b10a7957460ec47"
+  },
+  "source_integrity": {
+    "sources_unchanged": true,
+    "dependencies_clean": true
+  },
+  "earlier_target_counts": {
+    "as-signed-vortex-lean": 25,
+    "as-vortex-hline-lean": 5,
+    "as-vortex-rescaling-lean": 12
+  },
+  "independence": "The early zero is computed from the clock, zero-before extension, periodization and zero residual on a neighborhood. The late pair uses the pinned nonzero-loop theorem.",
+  "exit_codes": {
+    "comparator": 0,
+    "lean-build": 0,
+    "axioms": 0
+  },
+  "started_utc": "2026-11-09T07:03:21+00:00",
+  "finished_utc": "2026-11-09T07:15:44+00:00",
+  "evidence": {
+    "comparator": "evidence/comparator.log",
+    "lean_build": "evidence/lean-build.log",
+    "axioms": "evidence/axioms.log",
+    "preflight": "evidence/preflight.json",
+    "postflight": "evidence/postflight.json",
+    "inputs": "reference-freeze.json"
+  }
+}

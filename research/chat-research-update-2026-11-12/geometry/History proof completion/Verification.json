@@ -1,0 +1,101 @@
+{
+  "status": "PARTIAL",
+  "requested_full_pair": "UNPROVED",
+  "end_to_end_fluid_pair_checked": false,
+  "fluid_specific_parameter_selection_checked": false,
+  "abstract_parameter_selection_checked": true,
+  "common_planar_fluid_checked": true,
+  "scalar_to_fluid_construction": "CHECKED CONDITIONAL ON ACTUAL SCALAR SOLUTION",
+  "three_scalar_existence": "UNPROVED",
+  "actual_winding_and_history_properties": "UNPROVED",
+  "complete_target": "HistoryCompletionTarget.FullPairExists",
+  "new_modules_checked": 4,
+  "new_principal_reports": 23,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "lean_version": "4.34.0-rc2",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "smoothness_correction": {
+    "intended": "C-infinity on forward time t >= 0",
+    "corrected_draft_interfaces": [
+      "HistoryScalarLift.ScalarEvolution.smooth",
+      "HistoryCompletionTarget.Allowed"
+    ],
+    "base_retains_proved_stronger_analytic_regularity": true,
+    "affected_modules_rechecked": [
+      "HistoryScalarLift",
+      "HistoryCompletionTarget"
+    ]
+  },
+  "modules": [
+    {
+      "name": "HistoryParameterSelection",
+      "status": "PASS",
+      "principal_reports": 5,
+      "checked_at_utc": "2026-11-12T10:57:28.535494+00:00",
+      "source_sha256": "d9c9c3f49ecacf9631f23d171957241efaa334dc53cf9155b9a71f52495c451b",
+      "object_sha256": "98f3707be8b66f18f30436a89f6ef339f9669e1fbc23b489004650ee37fcf5bc",
+      "verification_file": "HistoryParameterSelection verification.json",
+      "verification_sha256": "d53085b98f528457da94ce71576038a871f86490eb94d24d3b4d479c3da9c609",
+      "latest_log": "logs/HistoryParameterSelection-20261112T105637.log",
+      "log_sha256": "5b887b19314696007fe368706ab20daf13895efb00431a1a150dcf6a3eede3bc",
+      "checker_hash_recorded_in_original_run": false
+    },
+    {
+      "name": "HistoryPlanarBase",
+      "status": "PASS",
+      "principal_reports": 9,
+      "checked_at_utc": "2026-11-12T11:03:54.585910+00:00",
+      "source_sha256": "d75fe7c784c2a78acbe725ea904dffd6ef4c35003ae4c54a3f005c25047b0234",
+      "object_sha256": "0b9a2c6bbfe5b95bae5412cd5e46a55938e08a6369867bce0402d148a01c7252",
+      "verification_file": "HistoryPlanarBase verification.json",
+      "verification_sha256": "fd9170b415c5071f11fd3a6e96a3a3d95303b753debf18266ae37c25e9fbc5db",
+      "latest_log": "logs/HistoryPlanarBase-20261112T110342.log",
+      "log_sha256": "5455798e6d1e73b55ed4922dc3211aaf83fed1234f89d128f3860cb610d44afd",
+      "checker_hash_recorded_in_original_run": false
+    },
+    {
+      "name": "HistoryScalarLift",
+      "status": "PASS",
+      "principal_reports": 6,
+      "checked_at_utc": "2026-11-12T11:21:12.378706+00:00",
+      "source_sha256": "6eca01c3652bef5658dfd119aa4fa9cd22c5b783c75457d62c6cb334a5f3169f",
+      "object_sha256": "3b52aab5c2969d3127f2fa5ed1fd11bc0d9b1b36e85e7f98c3071c393dc93bc5",
+      "verification_file": "HistoryScalarLift verification.json",
+      "verification_sha256": "dd179ed581ca69eb8902704417b7527ea22b5dcba64422fd18468f5d6b06bf0c",
+      "latest_log": "logs/HistoryScalarLift-20261112T112022.log",
+      "log_sha256": "84b7463fe3086c15f1effdcdf5546f3734b0d99df3109ecb92a757eac756f77f",
+      "checker_hash_recorded_in_original_run": true
+    },
+    {
+      "name": "HistoryCompletionTarget",
+      "status": "PASS",
+      "principal_reports": 3,
+      "checked_at_utc": "2026-11-12T11:21:41.517329+00:00",
+      "source_sha256": "1fc35437744f650c50b5f63085b2b43e9818e18f245cda6ffedb54c316448672",
+      "object_sha256": "fb9c1673eef81244f6fda4f77129b4debe49f473b397003a51ae3d74beba72c3",
+      "verification_file": "HistoryCompletionTarget verification.json",
+      "verification_sha256": "b3b855b1d79be59c87cd2b6e86c02f8aa7355afc2381b47c42ea47c52e53c90c",
+      "latest_log": "logs/HistoryCompletionTarget-20261112T112129.log",
+      "log_sha256": "960476fb46bec6f32e941bb5b63c204515e40d9334c09285d5fa27e9ba2ccdb1",
+      "checker_hash_recorded_in_original_run": true
+    }
+  ],
+  "historical_dependencies": {
+    "reused_after_source_and_object_hash_checks": [
+      "HistoryMatchCore",
+      "SIMSLatentReadout"
+    ],
+    "recompiled_in_this_check": false,
+    "original_record_sha256": "9770bb2c7cef1ac50a5a315470df6cc1c494db37b699d27e040825746a3d7cff"
+  },
+  "fresh_environment_build_tested": false,
+  "new_numerical_simulation_run": false,
+  "original_history_package_preserved": true,
+  "scope_note": "A passing conditional theorem or target definition is not a proof of the complete pair.",
+  "metadata_verified_at_utc": "2026-11-13T03:26:10.781003+00:00"
+}

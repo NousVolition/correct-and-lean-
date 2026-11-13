@@ -82,3 +82,6 @@ The **threshold-1 tick-41 fine-to-broad test** continues the saved breathing-off
 
 See the [package index](lean/README.md) for every original status, and [provenance](provenance/files.json) for exact file identities. This overview does not replace the hypotheses and limitations in those records.
 
+## Research collection from recent chats (12 November 2026)
+
+The [new collection](research/chat-research-update-2026-11-12/README.md) adds 161 unchanged Lean source files, historical proof logs and saved numerical audits. It includes signed A/S vortex comparisons with recorded Comparator/kernel/nanoda/Lake checks, local Lean energy and observation-geometry packages, and the completed finite full-flow journal energy comparison. Publication checks verify file identities and source-manifest bindings; they are not new kernel or simulation runs. The [same-history fluid pair remains PARTIAL](research/chat-research-update-2026-11-12/geometry/History%20proof%20completion/Readout.md), and the earlier broad existence wording is visibly corrected. General physical A/S energy closure and full Hug evolution remain open. Active follow-up work is listed without claiming its completion.

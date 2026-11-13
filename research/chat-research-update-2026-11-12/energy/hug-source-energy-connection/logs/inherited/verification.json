@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-11-12T08:11:31.009708+00:00",
+  "scope": "Kernel-checked local A/S kinetic and scalar square balances, original memory budgets, coupling-work signs, and conditional integrated kinetic balance.",
+  "theorem_count": 29,
+  "theorem_names": [
+    "OriginalAS.Energy.halfSquare_time_derivative",
+    "OriginalAS.Energy.halfSquare_partial",
+    "OriginalAS.Energy.halfSquare_advection",
+    "OriginalAS.Energy.kinetic_time_derivative",
+    "OriginalAS.Energy.kinetic_partial",
+    "OriginalAS.Energy.kinetic_advection",
+    "OriginalAS.Energy.force_power",
+    "OriginalAS.Energy.kinetic_material_balance",
+    "OriginalAS.Energy.scalar_material_balance",
+    "OriginalAS.Energy.partial_mul",
+    "OriginalAS.Energy.pressure_flux",
+    "OriginalAS.Energy.diffusion_flux",
+    "OriginalAS.Energy.gradSquared_nonneg",
+    "OriginalAS.Energy.viscous_loss_nonneg",
+    "OriginalAS.Energy.hugPower_nonpos",
+    "OriginalAS.Energy.hugPower_pos",
+    "OriginalAS.Energy.halfSquare_regular",
+    "OriginalAS.Energy.kinetic_regular",
+    "OriginalAS.Energy.transport_flux",
+    "OriginalAS.Energy.kinetic_local_balance",
+    "OriginalAS.Energy.scalar_local_balance",
+    "OriginalAS.Energy.memory_derivative",
+    "OriginalAS.Energy.memory_square_balance",
+    "OriginalAS.Energy.memory_at_baseline",
+    "OriginalAS.Energy.source_at_baseline",
+    "OriginalAS.Energy.sharp_power_off",
+    "OriginalAS.Energy.sharp_power_positive",
+    "OriginalAS.Energy.integrate_zero_flux_balance",
+    "OriginalAS.Energy.kinetic_global_balance"
+  ],
+  "source_modules_built": 6,
+  "axioms_used": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "sorryAx_present": false,
+  "compiler_sha256": "37dfe799f69b990251f3b6bcff8a1c10c1afe2adcdecc5c580cc6726ffb63433",
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "dependency": {
+    "head": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+    "tracked_clean": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\NavierStokesAndEuler-audit\\.lake\\packages\\mathlib",
+    "checked_utc": "2026-11-12T08:10:24.4285603Z"
+  },
+  "build_method": "Native Lean with the existing pinned dependency cache. Each final source hash is matched to a successful compilation receipt.",
+  "clean_download_lake_build_tested": false,
+  "independent_external_kernel_checked": false,
+  "equation_sources_unchanged": true,
+  "assumptions_remaining": [
+    "Domain and boundary data",
+    "Differentiation under the spatial integral",
+    "Integrability and zero net energy flux",
+    "Existence of a sufficiently regular solution",
+    "An endogenous U law for a fully autonomous system",
+    "A/S physical internal energy and exchange closure"
+  ],
+  "not_proved": [
+    "Total-energy conservation",
+    "Global regularity or uniqueness",
+    "Numerical solver correctness"
+  ]
+}

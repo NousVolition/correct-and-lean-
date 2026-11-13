@@ -1,0 +1,349 @@
+{
+  "version": 6,
+  "status": "Implemented fully coupled 3-D regularized candidate; synthetic dimensionless configuration, physical calibration unavailable",
+  "prepared": "2026-10-23",
+  "source_docx_sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+  "board_url": "https://miro.com/app/board/uXjVEXBJz3k=/",
+  "source_definition_S": "Signed status/context field over a specified continuous embedding",
+  "user_intent": {
+    "mimetic_region": "Upper physical half",
+    "mimetic_strength": "Graded",
+    "direct_mimetic_at_lower_locations": "Exactly off for arbitrary finite local states",
+    "field_may_flow_and_change": true,
+    "undetected_does_not_mean_absent": true,
+    "no_automatic_memory_reset": true,
+    "S_description": "Movement and energy transfer through changing structure and surroundings",
+    "field_regions": "Internal and external, with transfer between regions",
+    "electrical_comparison": "Analogy; no physical identification with charge, potential or energy selected",
+    "Hug_description": "Gathering and restructuring process whose retained traces become part of its changing structure",
+    "Hug_is_not_automatically_material_body": true,
+    "literal_gravity_not_established": true,
+    "structural_scope": "Changes within existing material first",
+    "literal_material_growth_or_loss": false
+  },
+  "source_laws": {
+    "accumulator": "A_dot = gamma_U*(U-U_b); A(0)=0",
+    "source": "J=kappa*A",
+    "kernel_normalization": "integral_over_current_volume(K_h)=1",
+    "force": "b_S=-sigma_r*a(q)*e_k",
+    "automatic_source_cap": false,
+    "automatic_expression_relaxation": false,
+    "application_status": "Original scalar context laws preserved as C; all couplings and additions specified in COUPLED_FIELD.md"
+  },
+  "choices": [
+    {
+      "id": "carrier",
+      "selected": "Internal and external regions with transfer",
+      "proposal": "Internal/external extent remains intent; former scalar interface law is an unselected reference",
+      "alternatives": [],
+      "status": "INTENT"
+    },
+    {
+      "id": "S_measurement",
+      "selected": null,
+      "proposal": "Fixed-surface energy flux integral or moving-surface relative flux, plus velocity/traction/thermal observations; uncalibrated",
+      "status": "PROPOSAL"
+    },
+    {
+      "id": "domain",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "synthetic_realization": "Periodic unit cube, ellipsoid axes 0.22/0.17/0.19, material quadrature; finite-width immersed coupling"
+    },
+    {
+      "id": "material",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "not_derived_from_corpus": true,
+      "not_Burgers": true,
+      "synthetic_realization": "COUPLED_FIELD.md sections 4-6; added energy, records, expression, stress and conductivity"
+    },
+    {
+      "id": "boundary",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "synthetic_realization": "Periodic outer boundary; regularized immersed momentum/thermal exchange, no sharp membrane"
+    },
+    {
+      "id": "initial_state",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "synthetic_realization": "u=C=A=m=z=0; F=I; declared localized excess temperature 0.03"
+    },
+    {
+      "id": "response",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "alternatives": [
+        "sharp_exact_off",
+        "signed_tanh"
+      ],
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "synthetic_realization": "smooth exact-off, with sharp and signed controls"
+    },
+    {
+      "id": "gradient",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "alternatives": [
+        "original_norm",
+        "regularized_shifted_cutoff"
+      ],
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "synthetic_realization": "cutoff-preserving regularized centered context gradient"
+    },
+    {
+      "id": "force_direction",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "synthetic_realization": "fixed negative x through -sigma*a(q)*e_x"
+    },
+    {
+      "id": "kernel",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "synthetic_realization": "Single normalized material-carried Gaussian source spread with positive R_h"
+    },
+    {
+      "id": "mimetic_evolution",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "not_a_derived_Girard_law": true,
+      "synthetic_realization": "Conservative bounded upper pair exchange on C"
+    },
+    {
+      "id": "pairing",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "synthetic_realization": "Equal-volume reference x-reflection transported by solved motion"
+    },
+    {
+      "id": "upper_gate",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "synthetic_realization": "Current physical height above volume centroid; partner and receiving-grid gates"
+    },
+    {
+      "id": "energy_supply",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "synthetic_realization": "Signed source-force work integrated independently; C is not fuel"
+    },
+    {
+      "id": "forcing",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "synthetic_realization": "No orbit or optional gravity; source context force only"
+    },
+    {
+      "id": "S_representation",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "synthetic_realization": "Resolved energy flux including declared nonlocal interaction convention"
+    },
+    {
+      "id": "interface_transfer_law",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "synthetic_realization": "Finite-width immersed adjoint mechanical exchange and positive thermal kernel; no sharp-interface limit claimed"
+    },
+    {
+      "id": "source_allocation",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "synthetic_realization": "Once over full periodic domain through normalized kernel including tails"
+    },
+    {
+      "id": "exterior_closure",
+      "selected": null,
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "synthetic_realization": "Same resolved incompressible base carrier and thermal field outside material"
+    },
+    {
+      "id": "Hug_holding_law",
+      "selected": null,
+      "proposal": "Optional potential force from previous formulation; no longer defines Hug",
+      "status": "HISTORICAL_COMPARISON"
+    },
+    {
+      "id": "structural_record",
+      "selected": null,
+      "status": "SYNTHETIC_IMPLEMENTED_PHYSICAL_UNCALIBRATED",
+      "proposal": "Physical realization remains uncalibrated; synthetic realization specified separately",
+      "synthetic_realization": "Six directional extending/shortening channels; every-step chronology retained"
+    },
+    {
+      "id": "structural_writing",
+      "selected": null,
+      "status": "ADDED_IMPLEMENTED_CANDIDATE",
+      "proposal": "See STRUCTURAL_MEMORY.md; synthetic demonstrations do not select physical coefficients"
+    },
+    {
+      "id": "structural_transport",
+      "selected": null,
+      "status": "ADDED_IMPLEMENTED_CANDIDATE",
+      "proposal": "See STRUCTURAL_MEMORY.md; synthetic demonstrations do not select physical coefficients"
+    }
+  ],
+  "required_run_parameters": {
+    "R_m": null,
+    "r_m": null,
+    "s_h": null,
+    "rho_kg_m3": null,
+    "mu_Pa_s": null,
+    "G_Pa": null,
+    "D_S_m2_s": null,
+    "sigma_r_Pa_per_Q": null,
+    "Gamma_Q_per_m": null,
+    "epsilon_Q_per_m": null,
+    "delta_Q_per_m": null,
+    "source_point_reference_m": null,
+    "kernel_h_m": null,
+    "gamma_U_Q_m3_per_VU_s": null,
+    "kappa_per_s": null,
+    "U_baseline_VU": null,
+    "input_history": null,
+    "ell_m_m": null,
+    "k_m_per_s": null,
+    "B_m_Q": null,
+    "orbit_T_s": null,
+    "orbit_e": null,
+    "orbit_g_per_s2": null,
+    "orbit_phase": null,
+    "detector_kernels": null,
+    "detector_noise": null,
+    "detector_limits_Q": null,
+    "reference_scales": null,
+    "mesh_specification": null,
+    "time_integration": null,
+    "solver_tolerances": null,
+    "repeat_error_tolerances": null,
+    "horizon_s": null,
+    "perturbation_protocol": null,
+    "exterior_geometry": null,
+    "exterior_carrier_equations": null,
+    "D_exterior_m2_s": null,
+    "Lambda_interface_m_s": null,
+    "initial_S_exterior": null,
+    "outer_boundary_condition": null,
+    "interface_mechanical_condition": null,
+    "holding_realization": null,
+    "g_H_m_s2": null,
+    "K_H_s_minus2": null,
+    "holding_reference_point_m": null,
+    "thermal_c_v_J_kg_K": null,
+    "thermal_conductivity_W_m_K": null,
+    "initial_temperature_K": null,
+    "initial_equilibrated_deformation": null,
+    "initial_equilibrated_stress": null,
+    "external_power_supply_capacity_J": null,
+    "external_power_conversion_law": null,
+    "outer_energy_boundary": null,
+    "upper_plane_convention": null,
+    "material_reference_directions": null,
+    "G_history_Pa": null,
+    "m_scale": null,
+    "initial_structural_records": null,
+    "structural_write_rate_per_s": null,
+    "structural_rate_scale_per_s": null,
+    "structural_write_fraction": null,
+    "structural_power_floor_W_m3": null,
+    "conductivity_history_W_m_K": null
+  },
+  "physical_calibration": {
+    "available": false,
+    "S_observation_map": null,
+    "material_parameters": null
+  },
+  "is_run_configuration": false,
+  "claims_excluded": [
+    "physical clay validation",
+    "biological memory mechanism",
+    "full-state limit cycle from a repeating outline",
+    "global PDE regularity proof",
+    "physical calibration from synthetic coefficients",
+    "certified sharp-interface zero-width limit",
+    "unique microscopic S flux route"
+  ],
+  "proposed_formulation": {
+    "document": "COUPLED_FIELD.md",
+    "status": "ADDED_IMPLEMENTED_COUPLED_CANDIDATE_NOT_CALIBRATED_MATERIAL",
+    "source_scalar_renamed": "C = corpus scalar S; source accumulation and threshold laws preserved",
+    "movement": "Solved dimensionless u; physical conversion requires L0/T0",
+    "S_definition": "Resolved S_E = E*u - T*u + j_T + J_interaction; explicit periodic minimum-norm nonlocal flux convention",
+    "material": "Fixed-mass immersed incompressible elastic structure with retained directional traces and a separate fading expression state",
+    "writing": "Power-limited monotone m; all time-step increments retained; writing cost and fading energy release included",
+    "transfer": "Positive history-dependent conductivity in a jointly evolved 3-D thermal field; common base carrier inside and outside",
+    "doubling": "Separate graded conservative upper-half exchange on C; exact lower partner and direct lower grid exclusion",
+    "source_and_doubling_are_separate": true,
+    "holding": "Source fixed-direction force retained; no optional gravity or orbital force in this experiment",
+    "scope": "Full coupled synthetic finite-width immersed continuum in a periodic cube; not a calibrated clay/air sharp interface"
+  },
+  "legacy_parameter_notation": "Existing D_S/initial_S/Q parameters refer to original scalar C, not new energy flux S_E.",
+  "social_case_study": {
+    "document": "FAUXMOI_CASE_STUDY.md",
+    "status": "Targeted claim audit; only individually supported observations used",
+    "image_is_dataset": false,
+    "physical_calibration_from_social_data": false,
+    "physical_upper_is_social_rank": false
+  },
+  "previous_formulation": {
+    "document": "HOLDING_AND_ENERGY.md",
+    "status": "HISTORICAL_COMPARISON_SUPERSEDED_ROLE_DEFINITION",
+    "source_scalar_renamed": "C = corpus S_c; original equations preserved",
+    "movement": "u, m/s, from the supplied momentum equation",
+    "S_definition": "S_E = E*u - T*u + j_T, vector energy flux W/m^2; added interpretation",
+    "holding": "b_H=-rho*grad(Phi_H), external conservative field; added",
+    "holding_checks": [
+      "H1a uniform gravity-like field with explicit stationary support",
+      "H1b positive-definite quadratic confinement comparison"
+    ],
+    "doubling": "D-E2 pair exchange on C, separately gated by both current physical upper heights; no duplicate body force",
+    "mechanical_energy_channel": "C influences supplied b_C; work b_C dot u counted against external supply",
+    "material": "M-E proposed neo-Hookean plus source Newtonian viscosity; not calibrated clay and not Burgers",
+    "heat": "Added thermal storage and Fourier transport; explicit viscous conversion",
+    "scope": "Mechanical and thermal continuum transfer, not electromagnetic or molecular dynamics",
+    "source_and_doubling_are_separate": true
+  },
+  "component_experiments": {
+    "configuration": "run_structural_memory.py:synthetic_parameters",
+    "results": "structural_memory_results.json",
+    "checks": "structural_memory_checks.json",
+    "physical_measurements": false,
+    "full_moving_body_solver": false,
+    "protocols": [
+      "imposed material shear followed by rest and instantaneous re-probe",
+      "stationary body/exterior finite-volume heat transfer with matched initial thermal data"
+    ],
+    "numerical_values_are_declared_synthetic": true
+  },
+  "synthetic_coupled_run_configuration": {
+    "file": "coupled_case_matrix.json",
+    "runner": "run_coupled_suite.py",
+    "solver": "coupled_hug.py",
+    "source_of_numbers": "Explicit added synthetic dimensionless coefficients",
+    "physical_measurements": false,
+    "full_moving_body_solver": true,
+    "finite_width_regularization": true,
+    "three_dimensional": true,
+    "all_fields_evolved_together": true,
+    "checks": "coupled_checks.json",
+    "independent_transfer_check": "coupled_transfer_budget.json",
+    "old_component_decisions": "component_decisions_v5.json"
+  }
+}

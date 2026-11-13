@@ -1,0 +1,217 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Exact instantaneous signed cancellation from one periodic S, an active transverse shear example, the actual pinned exterior at viscosity one, a nonzero line signal from its true cutoff heat potential, and exclusion of a signed A/S match conditional on identifying the full native transverse residual.",
+  "open_items": [
+    "Discharge hline for both horizontal orientations. It identifies the line integral of the native 3D pressure-free residual with the oriented derivative of the native heat defect. The research note gives the classical calculation.",
+    "Transport the new exclusion through the final viscosity/box rescaling and periodization. Different localizations and other vortices have their own conditions.",
+    "Determine which full A/S inputs, source kernels, initial states and scalar histories can sustain nonzero signed mean cancellation over time for other flows. The explicit witness is one spatial instant."
+  ],
+  "checked_targets": 25,
+  "targets": [
+    "SignedVortex.signed_flat_negative",
+    "SignedVortex.scalar_periodic",
+    "SignedVortex.scalar_gradient",
+    "SignedVortex.balanced_snapshot",
+    "SignedVortex.transverse_period",
+    "SignedVortex.cutoff_line_obstruction",
+    "SignedVortex.balanced_active_shear",
+    "SignedVortex.transverse_line_balance",
+    "SignedVortex.selected_raw_exterior",
+    "SignedVortex.exterior_primitive_positive",
+    "SignedVortex.selected_normalization_positive",
+    "SignedVortex.native_periodic_curl",
+    "SignedVortex.actual_midplane_strip",
+    "SignedVortex.shell_weight_is_native",
+    "SignedVortex.shell_trace_zero_outside",
+    "SignedVortex.shell_trace_positive",
+    "SignedVortex.shell_time_relative_bound",
+    "SignedVortex.actual_trace_heat_fails",
+    "SignedVortex.native_trace_residual_nonzero",
+    "SignedVortex.shell_time_is_derivative",
+    "SignedVortex.edge_heat_equation_fails",
+    "SignedVortex.native_transverse_signal",
+    "SignedVortex.pinned_vortex_edge_test",
+    "SignedVortex.matching_force_has_zero_loop",
+    "SignedVortex.signed_target_excluded_if_line_identified"
+  ],
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axioms_by_target": {
+    "SignedVortex.signed_flat_negative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.scalar_periodic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.scalar_gradient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.balanced_snapshot": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.transverse_period": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.cutoff_line_obstruction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.balanced_active_shear": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.transverse_line_balance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.selected_raw_exterior": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.exterior_primitive_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.selected_normalization_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.native_periodic_curl": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.actual_midplane_strip": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.shell_weight_is_native": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.shell_trace_zero_outside": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.shell_trace_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.shell_time_relative_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.actual_trace_heat_fails": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.native_trace_residual_nonzero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.shell_time_is_derivative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.edge_heat_equation_fails": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.native_transverse_signal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.pinned_vortex_edge_test": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.matching_force_has_zero_loop": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SignedVortex.signed_target_excluded_if_line_identified": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "openai_commit": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "corpus_commit": "b4ae2c54cd85bfef282c501ecfca83de274e2070",
+  "corpus_docx_sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+  "matched_corpus_paragraphs": [
+    229,
+    230,
+    262,
+    517,
+    518,
+    519,
+    545,
+    547,
+    548,
+    549,
+    550
+  ],
+  "snapshot_test": {
+    "scope": "floating-point quadrature of a single spatial snapshot",
+    "runs": [
+      {
+        "midpoints": 8192,
+        "amplitude": 1.3132166859768972,
+        "mean": 1.7221129961999257e-14,
+        "push_at_zero": -0.2041171441607107,
+        "push_at_quarter": 0.11920292202211757
+      },
+      {
+        "midpoints": 65536,
+        "amplitude": 1.313216680662265,
+        "mean": -1.0837150813967082e-14,
+        "push_at_zero": -0.20411713994154987,
+        "push_at_quarter": 0.11920292202211757
+      }
+    ]
+  },
+  "started_utc": "2026-11-09T03:39:56+00:00",
+  "finished_utc": "2026-11-09T03:48:21+00:00",
+  "evidence": {
+    "comparator": "evidence/comparator.log",
+    "build": "evidence/lean-build.log",
+    "axioms": "evidence/axioms.log",
+    "preflight": "evidence/preflight.json",
+    "postflight": "evidence/postflight.json",
+    "reference": "reference-freeze.json"
+  }
+}

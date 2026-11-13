@@ -1,0 +1,29 @@
+{
+  "scope": "Fresh read-only hash comparison with preserved local source files. No new DOCX or remote-source audit.",
+  "files": [
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\ang-mills-as-an-instance-the\\work\\github-publication\\lean\\hug-navier-single-system-lean\\FullModel.lean",
+      "packaged": "FullModel.lean",
+      "sha256": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
+      "identical": true
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\ang-mills-as-an-instance-the\\work\\github-publication\\lean\\hug-navier-single-system-lean\\OriginalAS.lean",
+      "packaged": "OriginalAS.lean",
+      "sha256": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5",
+      "identical": true
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\ang-mills-as-an-instance-the\\work\\github-publication\\lean\\hug-navier-single-system-lean\\sources\\original-corpus-passages.json",
+      "packaged": "sources\\original-corpus-passages.json",
+      "sha256": "5945c73a3a47d787db4b45640675555c08a23b0daa863ce863c92a8e1fb723fa",
+      "identical": true
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\ang-mills-as-an-instance-the\\work\\github-publication\\lean\\hug-navier-single-system-lean\\sources\\original-source-manifest.json",
+      "packaged": "sources\\original-source-manifest.json",
+      "sha256": "0a93f00b13f08c799b507ec4900a673bd45280f75015aa70fda77aae046a9639",
+      "identical": true
+    }
+  ]
+}

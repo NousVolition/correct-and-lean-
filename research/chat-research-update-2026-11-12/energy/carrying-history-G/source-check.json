@@ -1,0 +1,452 @@
+{
+  "checked_utc": "2026-11-12T11:09:09.326037+00:00",
+  "read_only": true,
+  "original_docx": "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Math_and_Logic_Corrected.docx",
+  "original_docx_paragraphs": 638,
+  "matches_prior_docx_hash": true,
+  "original_passages": [
+    {
+      "paragraph": 228,
+      "text": "This section distinguishes three response laws: a sharp threshold with exact inactivity below it, the original tanh approximation with a signed response below threshold, and an optional smooth law with exact inactivity. Smoothness of a scalar switch and smoothness of its composition with a gradient magnitude are separate questions. None establishes a solution to the Clay Mathematics Institute Navier–Stokes problem."
+    },
+    {
+      "paragraph": 229,
+      "text": "2. Governing Momentum Equation"
+    },
+    {
+      "paragraph": 230,
+      "text": "∂u/∂t + (u · ∇)u = −∇p + ν∇²u + f,     ∇ · u = 0."
+    },
+    {
+      "paragraph": 231,
+      "text": "f = −(σ/ρ) a(q) eₖ,     q = |∇S| − Γcrit."
+    },
+    {
+      "paragraph": 232,
+      "text": "3. Variable Definitions"
+    },
+    {
+      "paragraph": 233,
+      "text": "Symbol"
+    },
+    {
+      "paragraph": 234,
+      "text": "Definition"
+    },
+    {
+      "paragraph": 235,
+      "text": "u, t, ∇"
+    },
+    {
+      "paragraph": 236,
+      "text": "Velocity field, time, and spatial gradient in a specified continuous domain."
+    },
+    {
+      "paragraph": 237,
+      "text": "p = P/ρ"
+    },
+    {
+      "paragraph": 238,
+      "text": "Pressure divided by constant density; distinct from the actor set P elsewhere."
+    },
+    {
+      "paragraph": 239,
+      "text": "ν = µ/ρ > 0"
+    },
+    {
+      "paragraph": 240,
+      "text": "Kinematic viscosity in the chosen analogy."
+    },
+    {
+      "paragraph": 241,
+      "text": "∇²"
+    },
+    {
+      "paragraph": 242,
+      "text": "Spatial Laplacian."
+    },
+    {
+      "paragraph": 243,
+      "text": "σ ≥ 0, ρ > 0"
+    },
+    {
+      "paragraph": 244,
+      "text": "Response-strength and density parameters; σ a(q)/ρ has acceleration units."
+    },
+    {
+      "paragraph": 245,
+      "text": "S"
+    },
+    {
+      "paragraph": 246,
+      "text": "Modeled field; its regularity and coupling need specifying."
+    },
+    {
+      "paragraph": 247,
+      "text": "|∇S|"
+    },
+    {
+      "paragraph": 248,
+      "text": "Euclidean gradient magnitude; not differentiable as a function of the gradient at zero."
+    },
+    {
+      "paragraph": 249,
+      "text": "Γcrit ≥ 0"
+    },
+    {
+      "paragraph": 250,
+      "text": "Threshold in gradient units; τ₀/η is an optional dimensionally compatible calibration."
+    },
+    {
+      "paragraph": 251,
+      "text": "q"
+    },
+    {
+      "paragraph": 252,
+      "text": "Gradient magnitude minus threshold."
+    },
+    {
+      "paragraph": 253,
+      "text": "ε > 0"
+    },
+    {
+      "paragraph": 254,
+      "text": "Response transition scale, with the same units as q."
+    },
+    {
+      "paragraph": 255,
+      "text": "δ > 0"
+    },
+    {
+      "paragraph": 256,
+      "text": "Gradient regularization scale in gδ; same units as the gradient. Distinct from a Dirac delta."
+    },
+    {
+      "paragraph": 257,
+      "text": "a₀, aₜ, aε"
+    },
+    {
+      "paragraph": 258,
+      "text": "Sharp exact-off, original signed tanh, and optional smooth exact-off response laws."
+    },
+    {
+      "paragraph": 259,
+      "text": "eₖ"
+    },
+    {
+      "paragraph": 260,
+      "text": "Fixed unit direction; no automatic claim of opposition to motion."
+    },
+    {
+      "paragraph": 261,
+      "text": "4. Scope Note"
+    },
+    {
+      "paragraph": 262,
+      "text": "Choose the response law a before using the equation. Sharp threshold: a₀(q) = max(q, 0), so the added force is zero for q ≤ 0 and proportional to q for q > 0. This law is continuous but not differentiable at q = 0."
+    },
+    {
+      "paragraph": 263,
+      "text": "Original tanh choice: aₜ(q) = q[1 + tanh(q/ε)]/2, with ε > 0. It is smooth as a function of q, but for finite q < 0 it is negative and nonzero. For example, aₜ(−ε) ≈ −0.119203ε. The force therefore reverses direction below threshold when σ > 0; it does not simply switch off. A small tail may be intentional, but its sign and interpretation must be stated."
+    },
+    {
+      "paragraph": 264,
+      "text": "Zero-gradient concern: |v| is not differentiable at v = 0. Composing it with tanh does not automatically remove that issue; a particular composition can have cancellations, which need checking. For a smooth alternative, use gδ(v) = √(v · v + δ²) − δ with δ > 0, and qδ = gδ(∇S) − Γcrit. This changes the gradient measure near zero and is a modeling choice."
+    },
+    {
+      "paragraph": 265,
+      "text": "Optional smooth exact-off response: aε(q) = 0 for q ≤ 0, and aε(q) = q exp[−(ε/q)²] for q > 0. For fixed ε > 0 this scalar function is C∞, including the join at zero. Using aε(qδ) with fixed δ > 0 makes the constitutive response smooth in the gradient variable and exactly zero when qδ ≤ 0. This is an alternative to the tanh law, not a property of it. Its positive onset in the original magnitude is |∇S| > √(Γcrit² + 2δΓcrit), so the threshold must be calibrated in the chosen measure. To retain the original cutoff |∇S| = Γcrit instead, use the calibrated excess qδ* = √(|∇S|² + δ²) − √(Γcrit² + δ²). It has the same sign as |∇S| − Γcrit for Γcrit ≥ 0. Using aε(qδ*) gives a smooth exact-off alternative with that original cutoff; the response above it is still a changed constitutive law."
+    },
+    {
+      "paragraph": 266,
+      "text": "A fixed eₖ specifies direction; it does not guarantee drag or energy dissipation. For f to remove kinetic energy pointwise, u · f must be nonpositive. The model still needs a domain, initial and boundary data, a definition or equation for S, and compatible coefficient units. A smooth constitutive response is not a proof of smooth solutions for all time. Pressure, viscosity, yield, and boundary remain modeling language unless independently operationalized."
+    },
+    {
+      "paragraph": 498,
+      "text": "Tracks a paired rescaling of two scalar variables. For λ > 0, scaling S by λ and R by 1/λ preserves their product. This is an algebraic invariance under a specified transformation; no equilibrium or time conservation follows without a dynamical model. The precise description is a product preserved under reciprocal scaling. This transformation property does not establish stability or boundedness of a subsequent time evolution."
+    },
+    {
+      "paragraph": 499,
+      "text": "x = [S ; R]"
+    },
+    {
+      "paragraph": 500,
+      "text": "M = [λ, 0; 0, 1/λ],     λ > 0."
+    },
+    {
+      "paragraph": 501,
+      "text": "M x = [λ S ; (1/λ) R]"
+    },
+    {
+      "paragraph": 502,
+      "text": "(λ S) · ((1/λ) R) = S R = Q"
+    },
+    {
+      "paragraph": 503,
+      "text": "System 1 Variable Registry"
+    },
+    {
+      "paragraph": 504,
+      "text": "Symbol"
+    },
+    {
+      "paragraph": 505,
+      "text": "Definition / Structural Parameter"
+    },
+    {
+      "paragraph": 506,
+      "text": "x"
+    },
+    {
+      "paragraph": 507,
+      "text": "Two-component vector of scalar variables for this model; distinct from spatial x elsewhere."
+    },
+    {
+      "paragraph": 508,
+      "text": "λ > 0"
+    },
+    {
+      "paragraph": 509,
+      "text": "Paired scaling factor; division requires nonzero λ, and positivity preserves signs."
+    },
+    {
+      "paragraph": 510,
+      "text": "S"
+    },
+    {
+      "paragraph": 511,
+      "text": "Scalar environmental-context variable in this static model."
+    },
+    {
+      "paragraph": 512,
+      "text": "R"
+    },
+    {
+      "paragraph": 513,
+      "text": "Scalar behavioral or response variable."
+    },
+    {
+      "paragraph": 514,
+      "text": "Q = SR"
+    },
+    {
+      "paragraph": 515,
+      "text": "Product invariant under the stated reciprocal rescaling; not an established dynamic equilibrium."
+    },
+    {
+      "paragraph": 516,
+      "text": "System 2: The Fluid Continuity Model"
+    },
+    {
+      "paragraph": 517,
+      "text": "Treats status or context as a signed field over a specified spatial embedding. Advection carries the field, diffusion spreads it, and a localized source changes it. A network alone does not specify the continuous geometry needed for these derivatives. With constant D_diff ≥ 0 and ∇ · u = 0, the following transport form is also a conservative continuity form."
+    },
+    {
+      "paragraph": 518,
+      "text": "∂S/∂t + u · ∇S = D_diff ∇²S + Kₕ(x − x₀) J(t)."
+    },
+    {
+      "paragraph": 519,
+      "text": "A(t) = ∫₀ᵗ γ[U(s) − Ubaseline] ds,     J(t) = κ A(t)."
+    },
+    {
+      "paragraph": 520,
+      "text": "Kₕ is a smooth localized kernel of width h > 0 with spatial integral 1. The original δ(x − x₀) is an alternative point-source idealization interpreted as a distribution, not an ordinary smooth function. A stores accumulated input; κ converts that stored quantity to a source rate with the required units. This retains the original memory choice explicitly. Under closed or periodic boundaries, constant positive excess utility can make the total field grow quadratically in time because the stored input is integrated again by the evolution equation. If instantaneous production is intended instead, specify J(t) = γ[U(t) − Ubaseline] with suitable units; that is a different model. Negative excess input may lower this signed field. Initial and boundary data remain necessary. For compressible transport, replace u · ∇S by ∇ · (Su)."
+    },
+    {
+      "paragraph": 521,
+      "text": "System 2 Variable Registry"
+    },
+    {
+      "paragraph": 522,
+      "text": "Symbol"
+    },
+    {
+      "paragraph": 523,
+      "text": "Definition / Structural Parameter"
+    },
+    {
+      "paragraph": 524,
+      "text": "S(x, t)"
+    },
+    {
+      "paragraph": 525,
+      "text": "Signed status or context field over a specified continuous spatial embedding."
+    },
+    {
+      "paragraph": 526,
+      "text": "u"
+    },
+    {
+      "paragraph": 527,
+      "text": "Advection velocity; divergence-free for the displayed conservative interpretation."
+    },
+    {
+      "paragraph": 528,
+      "text": "D_diff ≥ 0"
+    },
+    {
+      "paragraph": 529,
+      "text": "Constant diffusion coefficient, with units length²/time."
+    },
+    {
+      "paragraph": 545,
+      "text": "The sharp version defines exactly what happens on both sides: the additional boundary force is zero at and below threshold, and active above it. Zero added force does not mean the whole system is stable; the other terms still evolve. The smooth alternatives and their distinct behavior are specified in the earlier threshold section."
+    },
+    {
+      "paragraph": 546,
+      "text": "T = µ₀[∇u + (∇u)ᵀ],     µ₀ > 0."
+    },
+    {
+      "paragraph": 547,
+      "text": "T is the symmetric viscous stress for the stated incompressible Newtonian analogy. The earlier µ₀∇u was a scaled velocity-gradient tensor, not this full stress. This constitutive choice does not establish literal fluid behavior in a social system."
+    },
+    {
+      "paragraph": 548,
+      "text": "Γcrit ≥ 0. Optional calibration: Γcrit = τ₀/η, with τ₀ ≥ 0 and η > 0."
+    },
+    {
+      "paragraph": 549,
+      "text": "q = |∇S| − Γcrit;     a₀(q) = 0 if q ≤ 0, and a₀(q) = q if q > 0."
+    },
+    {
+      "paragraph": 550,
+      "text": "ρ[∂u/∂t + (u · ∇)u] = −∇P + µ∇²u − σ a₀(q)eₖ,     ∇ · u = 0."
+    },
+    {
+      "paragraph": 551,
+      "text": "Assume constant ρ > 0, µ > 0, and σ ≥ 0; p = P/ρ and ν = µ/ρ connect this equation to the earlier normalized form. The calibration η must give Γcrit the same units as |∇S|. Increasing η lowers Γcrit at fixed τ₀, so the label rigidity does not by itself establish stronger resistance. Fixed-direction forcing is not necessarily dissipative. Initial and boundary data, the S coupling, and a domain are required; smooth activation alone does not establish well-posedness or global regularity."
+    },
+    {
+      "paragraph": 552,
+      "text": "System 3 Variable Registry"
+    },
+    {
+      "paragraph": 553,
+      "text": "Symbol"
+    },
+    {
+      "paragraph": 554,
+      "text": "Definition / Structural Parameter"
+    },
+    {
+      "paragraph": 555,
+      "text": "T"
+    }
+  ],
+  "implementation_and_intent_passages": [
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\ang-mills-as-an-instance-the\\work\\github-publication\\research\\comparisons\\hug-navier-single-system-scope-correction.md",
+      "start_line": 3,
+      "end_line": 35,
+      "text": "3: The user's current correction is: “its in there and i told you yesterday, its the same thing as the navier stokes.” An earlier message in the same chat states “it has to be in tandem with the navier stokes” (turn `01a19499-5e7f-7523-94bd-d012e93ce393`, chat `01a185c4-9743-7872-829c-7168b91c2532`). Those messages were freshly retrieved with the chat reader. The exact calendar meaning of “yesterday” was not needed to identify the instruction.\n4: \n5: The interpretation to preserve is **one intended HugandNavier system**. Hug must first be traced within the user's continuum formulation. Do not assume an additional mechanical object alongside a fluid, and do not require an independently invented fluid/body interface merely because a reduced eight-state implementation was selected in an earlier audit.\n6: \n7: The inspected `reports/interaction-equation.md` explicitly states that all fields use one carrier velocity and gives the loop: flow and participant states → directed guards → interaction and stress → later flow and states. The guards belong to relationships inside the evolution. This is direct source support for examining the existing single-field feedback structure. The particular reduced eight-state Hug implementation has its own scope and additional modeling choices; preserving its code does not by itself establish that it is the user's intended full source model.\n8: \n9: ## Meaning to preserve across implementations\n10: \n11: These words were already supplied in the working conversation and must remain available when interpreting a new analogy or implementation:\n12: \n13: | User's words | Meaning to carry forward |\n14: | --- | --- |\n15: | “its the loop, the carrying is fixed” | Follow the continuing carrying relationship while configurations change. “Fixed” does not mean every position, shape or internal value stays constant. |\n16: | “this is navier stokes” | Examine Hug within the intended shared evolution. Do not silently substitute a separate mechanical object attached to another fluid system. |\n17: | “mine is unforced” | Preserve the unforced underlying formulation as the target. Identify added drives in individual experiments by their own equations and settings. |\n18: | “the hug is only a way gravity can exist here” | The hug gives gravity a role within the user's setup. Preserve that conceptual role without replacing it with an imposed actuator or claiming that a particular generated force law is its definition. |\n19: \n20: The connected-strand description supplies the same continuity: one path can take different shapes while remaining connected. A finite viewing window may stop before that continuation is visible. A selected nearest point, displayed gap or changing configuration does not by itself define the whole relationship.\n21: \n22: The seed and hold discussion introduces a further distinction: a thing can remain carried while a selected state is held. The hold or release rule has to be identified in the model that implements it. A later visible effect does not by itself identify when its underlying record began. These connections should be developed from the user's existing distinctions rather than treated as requests to invent a new mechanism each time.\n23: \n24: This section records the intended meaning; verified results retain their own scope. Further work should retrieve this explanation, trace a particular equation or result back to it, and identify a concrete unresolved mapping. Do not ask the user to repeat an established definition when the record already supplies it.\n25: \n26: ## Correction to the previous conclusions\n27: \n28: The prior 14-claim bridge and 7-claim audit imposed a comparison between that reduced Hug implementation and a separately represented field problem. Their requirements for a reciprocal load/interface and a state-to-field conversion belong to that chosen construction. They do **not** establish that the user's intended single continuum system lacks those connections.\n29: \n30: The mathematical propositions already checked remain propositions about their stated definitions and hypotheses. Their compiler and Comparator records are preserved. Their success does not establish source fidelity or a full evolution theorem for the user's intended system. No claim is made here that the eight-state ODE and the spatial PDE are mathematically identical, or that an unproved full-system theorem has become proved through this interpretation correction.\n31: \n32: ## Continuing the verification\n33: \n34: ### Unforced system and added interventions\n35: "
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\ang-mills-as-an-instance-the\\work\\github-publication\\lean\\hug-existence-lean\\sources\\interaction-equation.md",
+      "start_line": 8,
+      "end_line": 67,
+      "text": "8: **How do participants change through an interaction when the boundary regulating that interaction also changes, and the influence can differ in each direction?**\n9: \n10: The guard belongs to the relationship. It remains a state of the model throughout the evolution. It can regulate what is transmitted, resisted or allowed, and the interaction can change that regulation. It need not be a separate participant or a physical wall.\n11: \n12: The earlier document supplies a starting idea. Its terminology and formulas remain provisional. This revision does not impose equal weighting, identical responses, maximization of a particular objective, or permanent operation at a threshold.\n13: \n14: ## The essential correction\n15: \n16: For participant i, with j acting on i:\n17: \n18: $$\n19: \\boxed{\n20: \\frac{d x_i}{dt}\n21: =\n22: f_i(x_i,t)\n23: +\n24: \\sum_{j\\ne i} R_{i\\leftarrow j}\n25: \\bigl(x_i,x_j,g_{i\\leftarrow j},t\\bigr)\n26: }\n27: $$\n28: \n29: $$\n30: \\boxed{\n31: \\frac{d g_{i\\leftarrow j}}{dt}\n32: =\n33: H_{i\\leftarrow j}\n34: \\bigl(x_i,x_j,g_{i\\leftarrow j},g_{j\\leftarrow i},t\\bigr)\n35: }\n36: $$\n37: \n38: | Symbol | Meaning |\n39: | --- | --- |\n40: | `x_i` | Participant i's current state; it may have several components. |\n41: | `f_i` | Its own response or tendency, apart from this pair interaction. |\n42: | `g_(i←j)` | The guard state governing the effect of j on i. |\n43: | `R_(i←j)` | What the interaction actually does to i, given the current guard. |\n44: | `H_(i←j)` | How that directional guard responds to the current participants and relationship. |\n45: \n46: **Both directions are represented separately:**\n47: \n48: $$\n49: g_{A\\leftarrow B}\\ \\text{need not equal}\\ g_{B\\leftarrow A}.\n50: $$\n51: \n52: Their response times, strengths and rules may differ. Compare the response laws after exchanging the participants: opposite-signed changes alone do not establish asymmetry. A larger participant is not automatically assigned more influence; that requires an explicit model choice or evidence.\n53: \n54: At every evolution step, the current guard enters the interaction, and the current interaction state enters the guard update. A guard may settle to a steady value; remaining part of the equations does not require it to change at every instant.\n55: \n56: This is the **structure** of the revision. The functions R and H still require a stated choice before it becomes an executable model. They must have genuine dependence on the guard and participants respectively; simply listing an unused argument does not create feedback.\n57: \n58: <details>\n59: <summary><strong>One explicit, provisional example for two abstract participants</strong></summary>\n60: \n61: The following smooth example makes the structure concrete. It is an assistant-proposed modeling choice, not a formula derived uniquely from the original document.\n62: \n63: Let x_A and x_B be dimensionless scalar response states, and let g_AB mean g_(A←B), with g_BA meaning g_(B←A). Choose:\n64: \n65: $$\n66: \\dot x_A=\\lambda_A(b_A-x_A)+k_{AB}g_{AB}(x_B-x_A)+s_A(t),\n67: $$"
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\ang-mills-as-an-instance-the\\work\\github-publication\\lean\\hug-existence-lean\\sources\\interaction-equation.md",
+      "start_line": 125,
+      "end_line": 163,
+      "text": "125: $$\n126: \n127: The standard fluid part uses stress divergence. This form retains stress contributions when material properties vary; replacing a varying-viscosity stress by only μΔu would omit terms. See the [conservation-law reference](https://www.comsol.com/multiphysics/fluid-flow-conservation-of-momentum-mass-and-energy).\n128: \n129: Here Σ_g is a **proposed guard-dependent stress**, with stress units. It must be given a constitutive rule. The abstract relationship does not determine that rule by itself.\n130: \n131: A field realization also evolves the participant states and directed guards:\n132: \n133: $$\n134: (\\partial_t+u\\cdot\\nabla)x_i\n135: =\n136: \\kappa_i\\Delta x_i+f_i(x_i,t)\n137: +\\sum_{j\\ne i}R_{i\\leftarrow j}(x_i,x_j,g_{i\\leftarrow j},t),\n138: $$\n139: \n140: $$\n141: (\\partial_t+u\\cdot\\nabla)g_{i\\leftarrow j}\n142: =\n143: \\kappa^g_{ij}\\Delta g_{i\\leftarrow j}\n144: +\n145: H_{i\\leftarrow j}(x_i,x_j,g_{i\\leftarrow j},g_{j\\leftarrow i},D(u),t).\n146: $$\n147: \n148: In these equations x_i is an internal state field for population i at each position, not its spatial coordinate or mass fraction. All fields use one carrier velocity u. Diffusivities κ are nonnegative. Modeling separate material velocities or actual chemical concentrations would require additional conservation equations and a new mapping.\n149: \n150: ### One possible closure, kept explicitly optional\n151: \n152: To demonstrate a complete feedback path, use the two-participant example above for the local reactions, add χ_ij times the squared strain magnitude to each sigmoid argument, and choose\n153: \n154: $$\n155: \\Sigma_g=2\\eta_g D(u),\n156: \\qquad\n157: \\eta_g=a_{AB}g_{AB}+a_{BA}g_{BA},\n158: \\qquad\n159: a_{AB},a_{BA}\\ge 0,\\quad \\mu>0.\n160: $$\n161: \n162: Thus the sigmoid argument becomes θ_ij + β_ij(x_j-x_i) + χ_ij [D(u):D(u)]. In dimensional form a_ij has viscosity units and χ_ij has time-squared units. At least one nonzero χ and a connected nonzero a are needed for this direct strain→guard→stress loop; the local interaction also needs nonzero k and dependence of its guard on the state.\n163: "
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\ang-mills-as-an-instance-the\\work\\github-publication\\lean\\hug-navier-single-system-lean\\FullModel.lean",
+      "start_line": 1,
+      "end_line": 15,
+      "text": "1: import Mathlib.Analysis.Calculus.ContDiff.Basic\n2: import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv\n3: import Mathlib.Analysis.SpecialFunctions.ExpDeriv\n4: import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus\n5: import Mathlib.Tactic\n6: \n7: /- One shared continuum. Exact coefficients and equations from\n8:    sources/ns_fields_methods.md and its directional mode.\n9:    This does not import, attach, or substitute the reduced mechanical Hug ODE.\n10:    Encoding the equations is NOT an existence theorem.\n11:    This corpus closure is explicitly provisional, not a unique derivation\n12:    of the author's entire conceptual framework. -/\n13: namespace HugNavierSingle\n14: noncomputable section\n15: open Set"
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\ang-mills-as-an-instance-the\\work\\github-publication\\lean\\hug-navier-single-system-lean\\FullModel.lean",
+      "start_line": 89,
+      "end_line": 117,
+      "text": "89:     HasDerivAt (fun s => (z s).xB r) (rates.xB r) t ∧\n90:     HasDerivAt (fun s => (z s).gAB r) (rates.gAB r) t ∧\n91:     HasDerivAt (fun s => (z s).gBA r) (rates.gBA r) t\n92: \n93: def FieldProblem (input : FieldInputs) (a b : ℝ) (initial : Fields)\n94:     (z : ℝ → Fields) (pressure : ℝ → ScalarField) : Prop :=\n95:   z a=initial ∧\n96:   (∀ r, ContinuousOn (fun t => (z t).ux r) (Icc a b) ∧\n97:     ContinuousOn (fun t => (z t).uy r) (Icc a b) ∧\n98:     ContinuousOn (fun t => (z t).xA r) (Icc a b) ∧\n99:     ContinuousOn (fun t => (z t).xB r) (Icc a b) ∧\n100:     ContinuousOn (fun t => (z t).gAB r) (Icc a b) ∧\n101:     ContinuousOn (fun t => (z t).gBA r) (Icc a b)) ∧\n102:   (∀ t ∈ Icc a b, SpatialRegularity (z t) (pressure t) ∧\n103:     PeriodicFields (z t) (pressure t) ∧ Incompressible (z t)) ∧\n104:   (∀ t ∈ Ioo a b, FieldDifferentialAt input z pressure t)\n105: \n106: \n107: -- The source's exact, nonuniform initial data. No numerical grid is used.\n108: def sourceInitial : Fields :=\n109:   ⟨(fun r => Real.sin r.1 * Real.cos r.2 - (1/4)*Real.sin (2*r.1+r.2)\n110:        - (3/10)*Real.cos (r.1-2*r.2)),\n111:    (fun r => -Real.cos r.1 * Real.sin r.2 + (1/2)*Real.sin (2*r.1+r.2)\n112:        - (3/20)*Real.cos (r.1-2*r.2)),\n113:    (fun r => -11/20+(3/20)*Real.cos r.1+(1/10)*Real.sin r.2),\n114:    (fun r => 7/20+(1/10)*Real.sin r.1-(3/20)*Real.cos r.2),\n115:    (fun _ => 1/2), (fun _ => 1/2)⟩\n116: \n117: def pulseProfile (r : Point) : ℝ :="
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\latest_interaction_design.json",
+      "start_line": 1,
+      "end_line": 58,
+      "text": "1: {\n2:   \"date\": \"2026-10-23\",\n3:   \"status\": \"IMPLEMENTED_AND_TESTED_AS_EXPLICIT_SYNTHETIC_CANDIDATE\",\n4:   \"supersedes\": \"Physical upper-half eligibility as the requested social interaction rule\",\n5:   \"previous_tested_model\": \"coupled_hug.py and coupled_case_matrix.json\",\n6:   \"previous_tested_decisions\": \"decisions.json version 6 describes the completed spatial experiment, not this new intent\",\n7:   \"audit\": \"ASSUMPTION_AUDIT.md\",\n8:   \"user_requirements\": {\n9:     \"fixed_physical_half\": false,\n10:     \"standing_changes_with_context_and_time\": true,\n11:     \"multiple_simultaneous_social_contexts\": true,\n12:     \"map_and_response_evolve_in_one_feedback_system\": true,\n13:     \"response_types_not_forced_into_a_single_mutually_exclusive_choice\": true,\n14:     \"context_switch_does_not_erase_retained_history\": true,\n15:     \"current_clay_scope\": \"Changes within existing material first remains the last selected material scope\"\n16:   },\n17:   \"interpretations_to_make_explicit\": {\n18:     \"staircase\": \"Incremental changes in relationships, recognition or access\",\n19:     \"elevator\": \"A shared affiliation or context change can shift several relationships together\",\n20:     \"teleporter\": \"An event or context switch can abruptly change applicable relationships or permissions\",\n21:     \"tag_or_password\": \"A contextual recognition/access relation, not a permanent rank or a security implementation\",\n22:     \"standing\": \"May differ by observer, audience, institution and dimension; no universal scalar ladder assumed\",\n23:     \"possible_response_modes\": [\n24:       \"imitation\",\n25:       \"rivalry\",\n26:       \"cooperation\",\n27:       \"refusal\",\n28:       \"coercion\"\n29:     ],\n30:     \"response_catalog_is_exhaustive\": false,\n31:     \"prejudice\": \"May be an explicit simulated observer bias or action; not intrinsic superiority or a universal group rule\"\n32:   },\n33:   \"joint_feedback_requirement\": \"Current context, relationships and retained history affect responses; responses alter relationships, context, access, encounters and new records; those changes affect subsequent responses in the same evolving system.\",\n34:   \"new_social_coefficients\": \"../hug-social-feedback/EQUATIONS.md and case_matrix.json\",\n35:   \"new_social_simulation_results\": \"../hug-social-feedback/report.html\",\n36:   \"source_equations_silently_replaced\": false,\n37:   \"historical_implementation_obligations\": [\n38:     \"Define observable state dimensions and observer-dependent relations without assuming one total ranking\",\n39:     \"Define simultaneous response modes and their feedback instead of choosing imitation or competition as disconnected rules\",\n40:     \"Define event-triggered jumps and continuous evolution with an explicit time mapping\",\n41:     \"Specify how retained history informs response and how new encounters are recorded\",\n42:     \"Specify any social-to-material coupling with units and an energy account; do not equate rank with force or energy\",\n43:     \"Replace the fixed mirrored partner and spatial half gate in a separately versioned implementation\",\n44:     \"Test context reversals, observer disagreements, mixed responses, persistence, and event timing without predetermining every outcome\"\n45:   ],\n46:   \"candidate_scope\": {\n47:     \"specification\": \"../hug-social-feedback/MODEL.md\",\n48:     \"trace\": \"../hug-social-feedback/connection_trace.json\",\n49:     \"checks\": \"../hug-social-feedback/checks.json\",\n50:     \"archive\": \"append-only modeled episodes; no erasure\",\n51:     \"event_interpretation\": \"smooth scheduled context transitions including a fast transition; not literal instantaneous state jumps\",\n52:     \"time_mapping\": \"dimensionless; no calibrated seconds\",\n53:     \"physical_bridge\": \"added aggregate utility and normalized patch weights; not a lossless encoding of every social distinction\",\n54:     \"open_measurement_requirements\": [\n55:       \"social feature measurements\",\n56:       \"response coefficients\",\n57:       \"material constitutive calibration\",\n58:       \"physical actuation mapping\","
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\COUPLED_FIELD.md",
+      "start_line": 9,
+      "end_line": 22,
+      "text": "9: ## 1. Source and addition ledger\n10: \n11: | Component | Origin and treatment |\n12: |---|---|\n13: | A′=γ(U−U_b), J=κA | **SOURCE**, DOCX paragraphs 517–539; Miro 06, 13 and 16. Accumulation is not replaced with instantaneous production or reset. |\n14: | C_t+u·∇C=D_diff ΔC+K_hJ | **SOURCE**, with the corpus scalar S written C to distinguish its units from energy transfer. A separate mimetic term is added. |\n15: | ρD_tu=−∇P+μΔu−σa(q)e_k; div u=0 | **SOURCE**, DOCX 230–266 and 546–551, Miro 05 and 20. Elastic stress is an explicit addition. |\n16: | Smooth exact-off response and cutoff-preserving regularized gradient | A declared **SOURCE BRANCH**; sharp and signed-tanh branches are separately tested. Their below-threshold behavior is not interchangeable. |\n17: | Memory changes structure, S transfers through it and surroundings | **USER INTENT**. The rock/tree/onion analogy is not claimed to supply a constitutive formula. |\n18: | Elastic energy, directional records, bounded expression, thermal conductivity | **ADDED constitutive hypotheses**. They were absent from the supplied equations. |\n19: | Chronological retained records plus a separately fading expression state | **ADDED**. The board discusses persistence alternatives; the user's no-erasure requirement selects retention of the encoded traces. Fading applies to expression, not A or the retained record. |\n20: | Graded upper-half paired influence | **ADDED**, separate from source K_hJ and from recording. Both partner eligibility and the receiving spatial kernel are gated. |\n21: | Moving immersed body, periodic surroundings, equal density and base viscosity | **ADDED computational realization**. No claim that these synthetic parameters describe clay, air or water. |\n22: | Nonlocal interaction flux in S | **ADDED closure convention**, derived to account for spatially regularized interaction power. It is explicitly shown rather than hidden in a heat source. |"
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\COUPLED_FIELD.md",
+      "start_line": 70,
+      "end_line": 87,
+      "text": "70: ## 4. Moving structure and retained chronology — ADDED\n71: \n72: Let I_h interpolate the band-limited velocity to a material parcel, using a Gaussian spectral smoothing width ℓ_v. Its derivative is evaluated consistently:\n73: \n74: \\[\n75: \\dot\\chi_p=I_hu(\\chi_p),\\quad\n76: L_p=\\nabla(I_hu)(\\chi_p),\\quad \\dot F_p=L_pF_p.\n77: \\]\n78: \n79: I_hu is analytically divergence-free in the retained Fourier space, hence det F is constant in the continuous-time semi-discrete equations. Time-integration drift is measured; F is **not** renormalized to hide it. This is a regularized no-slip coupling to the interpolated velocity, not an assertion that the unfiltered grid value equals parcel velocity at finite ℓ_v.\n80: \n81: Choose six reference directions: the three axes and the positive xy, xz and yz diagonals. For each direction k there are separate extending/shortening channels s=+,−. Set d_k=F a_k, strain e_k=(|d_k|²−1)/2 and rate r_k=d_k·sym(L)d_k.\n82: \n83: Retained traces m never decay:\n84: \n85: \\[\n86: \\dot m_{k,s}=\\lambda N_{k,s}\\ge0,\\qquad\n87: N_{k,\\pm}=k_w\\frac{[\\pm r_k]_+^2}{[\\pm r_k]_+^2+r_*^2}."
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\COUPLED_FIELD.md",
+      "start_line": 181,
+      "end_line": 199,
+      "text": "181: \n182: ## 7. The upper-half pair interaction remains its own law\n183: \n184: Pair reference material parcels by reflection in reference x, with equal V_p and an involutive partner map. Transport both partners by the solved flow. Their current heights H_p are measured above the moving body's volume-weighted centroid in the fixed laboratory z direction.\n185: \n186: Use w(H)=0 for H≤0 and H²/(H²+ℓ_m²) for H>0. The receiving kernel is R_h multiplied by the **current grid-height gate** and renormalized. Call this positive operator R_U; its values are exactly zero below the physical mid-plane. Let c_p=R_U C and\n187: \n188: \\[\n189: d_p=k_{pair}w(H_p)w(H_{\\pi p})B_m\\tanh[(c_{\\pi p}-c_p)/B_m].\n190: \\]\n191: \n192: The reverse term is −d_p. Both are explicitly set to zero if either partner is lower or on the plane. The direct grid term is D_pair=R_U*{V_pd_p}. This ensures exact lower-grid exclusion and zero integrated paired production. It also gives ∫C D_pair dx=ΣV_pc_pd_p≤0.\n193: \n194: Only this direct interaction is off below the mid-plane. Advection, diffusion, stress and heat can still carry consequences there. A global Fourier filter is deliberately **not** applied to D_pair, because that would spread a sharply excluded source back into lower grid locations.\n195: \n196: This is a proposed bounded alignment exchange, not a Girard-derived rivalry or amplification law. Its mechanical influence remains through C and the original b_C. It does not overwrite the material's retained records or stand in for K_hJ.\n197: \n198: ## 8. Numerical method and what the tests must distinguish\n199: "
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\structural_hug.py",
+      "start_line": 48,
+      "end_line": 77,
+      "text": "48:     def __init__(self,config,X,V):\n49:         self.c=config;self.X=X.copy();self.V=V.copy();self.P=len(V)\n50:         self.byte_count=2*(HEADER+6*self.P)+4\n51:         self.bits_per_slot=self.byte_count*8\n52:         self.size=config.capacity*self.bits_per_slot\n53:         index=np.arange(self.size);self.point=index%self.P;self.axis=(index//self.P)%3\n54:         counts=np.bincount(self.point,minlength=self.P)\n55:         self.local_weight=1/counts[self.point]\n56:         self.weight=self.V[self.point]*self.local_weight\n57:     def initial(self):return np.full(self.size,-self.c.rest_amplitude)\n58:     def local_strain(self,F):\n59:         ea=(np.sum(F*F,axis=1)-1)/2\n60:         return ea[self.point,self.axis]\n61:     def energy_force(self,e,b):\n62:         c=self.c\n63:         w=.5*c.micro_k*(e-b)**2+c.well_height/4*((b/c.rest_amplitude)**2-1)**2\n64:         stress=c.micro_k*(e-b)\n65:         gradient=c.micro_k*(b-e)+c.well_height*b/c.rest_amplitude**2*((b/c.rest_amplitude)**2-1)\n66:         return w,stress,gradient\n67:     def constitutive(self,F,b):\n68:         e=self.local_strain(F);w,force,g=self.energy_force(e,b);c=self.c\n69:         bd=-c.fabric_mobility*g\n70:         W=np.bincount(self.point,weights=self.local_weight*w,minlength=self.P)\n71:         heat=np.bincount(self.point,weights=self.local_weight*c.fabric_mobility*g*g,minlength=self.P)\n72:         coefficients=np.bincount(self.point*3+self.axis,weights=self.local_weight*force,minlength=self.P*3).reshape(self.P,3)\n73:         tau=np.einsum('pa,pia,pja->pij',coefficients,F,F)\n74:         return W,tau,heat,bd\n75:     def probe(self,F,b,noise=None):\n76:         \"\"\"Virtual two-load microtraction experiment; no metadata returned.\"\"\"\n77:         e=self.local_strain(F);q=self.c.probe_strain"
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\structural_hug.py",
+      "start_line": 175,
+      "end_line": 226,
+      "text": "175:     def initial(self):\n176:         s=super().initial();s['b']=self.fabric.initial();s['write_work']=np.array(0.)\n177:         self.utility_baseline=self.utility(s,np.zeros((self.N,3)))\n178:         return s\n179:     def extra_constitutive(self,s,L):\n180:         W,tau,heat,bd=self.fabric.constitutive(s['F'],s['b'])\n181:         return W,tau,heat,dict(b=bd,write_work=np.array(0.))\n182:     def read_material(self,s):\n183:         return self.fabric.read(s['F'],s['b'])\n184:     def retrieve(self,t,s):\n185:         mem=np.zeros((self.N,self.N,4));exposure=np.zeros((self.N,self.N));old=np.zeros_like(exposure)\n186:         if 'b' not in s:return mem,exposure,old\n187:         numerator=np.zeros_like(mem);cue=self.memory_feature(s)+.15*np.tanh(s['association'])\n188:         for _,r in self.read_material(s):\n189:             i,j=r['recipient'],r['origin']\n190:             y=outcome_score(r['observed'],r['recipient_report'])\n191:             if y is None:continue\n192:             tensor=np.zeros((self.P,3,3))\n193:             for k,(a,b) in enumerate(COMP):tensor[:,a,b]=tensor[:,b,a]=r['delta_E'][:,k]\n194:             change=np.linalg.norm(tensor,axis=(1,2))\n195:             feature=np.r_[r['context'],np.tanh(.5*((self.attach[i]+self.attach[j])@change)/.12)]\n196:             diff=feature-cue[i,j];diff[2]*=self.c.field_feedback\n197:             weight=(r['end']-r['start'])*np.exp(-np.dot(diff,diff)/(2*self.c.history_width**2))\n198:             evidence=np.array([max(y,0),max(-y,0),r['recognition'],r['authority']])\n199:             numerator[i,j]+=weight*evidence;exposure[i,j]+=weight\n200:             if r['end']<.9:old[i,j]+=weight\n201:         mem=numerator/(self.c.history_prior+exposure)[...,None]\n202:         return self.c.read_feedback*mem,exposure,old/(self.c.history_prior+exposure)\n203:     def utility(self,s,obs):\n204:         mem,exposure,_=self.retrieve(0,s)\n205:         outcome=float(np.sum(mem[...,0]-mem[...,1])/(self.N*(self.N-1)))\n206:         meaning=np.mean(np.sum((s['expression']-self.intent)**2,axis=-1))\n207:         reception=np.sum(np.tanh(self.margins(s)/.4)*self.mask_social)/(self.N*(self.N-1))\n208:         return .35*outcome-.2*meaning+.2*reception+.08*np.mean(np.tanh(obs[:,0]))\n209:     def step(self,t,s,dt):\n210:         k1=self.rhs(t,s);pred={k:s[k]+dt*k1[k] for k in s}\n211:         k2=self.rhs(t+dt,pred)\n212:         return {k:s[k]+dt/2*(k1[k]+k2[k]) for k in s}\n213:     def make_event(self,s,Fstart,event):\n214:         origin,recipient=event['origin'],event['recipient']\n215:         delta=strain_tensor(s['F'])-strain_tensor(Fstart)\n216:         predecessors=sum(1<<r['event_id'] for _,r in self.read_material(s) if r['end']<=event['start'])\n217:         return dict(origin=origin,recipient=recipient,event_id=event['event_id'],start=event['start'],end=event['end'],\n218:                     predecessors=predecessors,observed=event['observed'],recipient_report=event['recipient_report'],\n219:                     context=.5*(s['context'][origin]+s['context'][recipient]),\n220:                     recognition=float(s['relation'][recipient,origin,0]),authority=float(s['relation'][recipient,origin,1]),\n221:                     actions=s['responses'][origin,recipient].copy(),\n222:                     delta_E=np.stack([delta[:,a,b] for a,b in COMP],axis=-1))\n223:     def write_event(self,s,record,budget=None):\n224:         target,heat,account=self.fabric.prepare_write(s['F'],s['b'],record,self.c.write_budget if budget is None else budget)\n225:         # No mutation occurs before validation of capacity/schema/range/energy.\n226:         out={k:v.copy() for k,v in s.items()};out['b']=target"
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\continuum.py",
+      "start_line": 158,
+      "end_line": 176,
+      "text": "158:     def material(self,F,m,L):\n159:         c=self.c\n160:         d=np.einsum('pij,kj->pki',F,self.directions)\n161:         strain=(np.sum(d*d,-1)-1)/2\n162:         D=(L+L.transpose(0,2,1))/2\n163:         rate=np.einsum('pki,pij,pkj->pk',d,D,d)\n164:         # No imposed fading or 35% expression floor in this new candidate.\n165:         # F moves the retained directional structure; the full episode archive\n166:         # is a separate social history, not these material constitutive variables.\n167:         effective=m\n168:         f=-np.expm1(-effective/c.mscale)\n169:         weights=c.Gm*f.sum(-1)*self.direction_weights\n170:         B=F@F.transpose(0,2,1)\n171:         W=c.G0/2*(np.trace(B,axis1=1,axis2=2)-3)+.5*np.sum(weights*strain**2,axis=1)\n172:         tau=c.G0*(B-np.eye(3))+np.einsum('pk,pki,pkj->pij',weights*strain,d,d)\n173:         Y=.5*c.Gm*np.exp(-effective/c.mscale)/c.mscale*strain[:,:,None]**2*self.direction_weights[None,:,None]\n174:         rate_pm=np.stack([np.maximum(rate,0),np.maximum(-rate,0)],axis=-1)\n175:         raw=c.write_rate*(rate_pm/np.hypot(rate_pm,c.rate_scale))**2\n176:         n=d/np.linalg.norm(d,axis=-1)[:,:,None]"
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\continuum.py",
+      "start_line": 186,
+      "end_line": 232,
+      "text": "186:     def rhs(self,t,s,details=False):\n187:         c=self.c; g=s['g']; u=g[...,:3]; C=g[...,3]; theta=g[...,4]\n188:         grad=self.grad(g); Lu=grad[...,:3,:]; D=(Lu+Lu.swapaxes(-1,-2))/2\n189:         nu=c.nu*np.exp(-c.thermal_feedback*np.tanh(theta/.03))\n190:         Qv=2*nu*np.sum(D*D,axis=(-1,-2))\n191:         M,R=self.matrices(s['X'])\n192:         pu=(M@u.reshape(-1,3)); L=(M@Lu.reshape(-1,9)).reshape(self.P,3,3)\n193:         W,tau,Y,raw,Kextra=self.material(s['F'],s['m'],L)\n194:         Ws,taus,structure_heat,structure_rates=self.extra_constitutive(s,L)\n195:         W=W+Ws; tau=tau+taus\n196:         stress=(M.T@(self.V[:,None]*tau.reshape(self.P,9))/self.dv).reshape(self.n,self.n,self.n,3,3)\n197:         elastic_force=self.divergence(stress)\n198:         occupancy=(R.T@self.V/self.dv).reshape(self.n,self.n,self.n)\n199:         available=R@(Qv/(1+occupancy)).ravel()\n200:         rawpower=np.sum(Y*raw,axis=(1,2))\n201:         denominator=c.power_floor+c.eta*available+rawpower\n202:         limiter=c.eta*available/denominator\n203:         mdot=limiter[:,None,None]*raw\n204:         release=structure_heat\n205:         release_grid=(R.T@(self.V*release)/self.dv).reshape(Qv.shape)\n206:         extraction=c.eta*Qv/(1+occupancy)*(R.T@(self.V*rawpower/denominator)/self.dv).reshape(Qv.shape)\n207:         K=(R.T@(self.V[:,None]*Kextra.reshape(self.P,9))/self.dv).reshape(self.n,self.n,self.n,3,3)+c.k0*np.eye(3)\n208:         heatflux=-np.einsum('...ij,...j->...i',K,grad[...,4,:])\n209: \n210:         social, extra_derivatives = self.coupling(t,s,M,R,L)\n211:         kernel=(R.T@social['source_weights']/self.dv).reshape(C.shape)\n212:         source=c.kappa*float(s['A'])*kernel\n213:         # Superseded spatial gate and mirrored-pair exchange removed entirely.\n214:         RU=R; pair=np.zeros(self.P); pairgrid=np.zeros_like(C)\n215:         gradC=np.stack([(np.roll(C,-1,axis=j)-np.roll(C,1,axis=j))/(2*self.dx) for j in range(3)],-1)\n216:         q=np.sqrt(np.sum(gradC**2,-1)+c.delta**2)-np.sqrt(c.threshold**2+c.delta**2)\n217:         if c.branch=='sharp': activation=np.maximum(q,0)\n218:         elif c.branch=='tanh':activation=q*(1+np.tanh(q/c.epsilon))/2\n219:         else:\n220:             activation=np.zeros_like(q); on=q>0\n221:             activation[on]=q[on]*np.exp(-(c.epsilon/q[on])**2)\n222:         force=np.zeros_like(u); force[...,0]=-c.sigma*activation\n223:         curl=np.stack([Lu[...,2,1]-Lu[...,1,2],Lu[...,0,2]-Lu[...,2,0],Lu[...,1,0]-Lu[...,0,1]],-1)\n224:         viscous_force=self.divergence(2*nu[...,None,None]*D)\n225:         du,pi=self.project(np.cross(u,curl)+viscous_force+elastic_force+force,True)\n226:         dC=self.context_transport(C,u)+source+pairgrid\n227:         dtheta=-self.divergence(u*theta[...,None]+heatflux)+Qv-extraction+release_grid\n228:         dg=self.filter(np.concatenate([du,dC[...,None],dtheta[...,None]],-1))\n229:         dg[...,3]=dC\n230:         source_work=np.mean(np.sum(u*force,-1))\n231:         # Ledgers are integrated independently of state energies.\n232:         ledger=np.array([c.kappa*float(s['A']),source_work,np.mean(extraction),np.mean(Qv-extraction+release_grid)])"
+    },
+    {
+      "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\continuum.py",
+      "start_line": 242,
+      "end_line": 260,
+      "text": "242:         stored_grid=(M.T@(self.V*W)/self.dv).reshape(C.shape)\n243:         E=.5*np.sum(u*u,-1)+stored_grid+1+theta\n244:         SE=E[...,None]*u-np.einsum('...ij,...j->...i',totalstress,u)+heatflux\n245:         # Account for nonlocal interaction power and Galerkin truncation locally.\n246:         # There is no expression-decay release in this version; m is retained.\n247:         Wdot=np.sum(tau*L,axis=(1,2))+np.sum(Y*mdot,axis=(1,2))-release\n248:         stored_dot=(M.T@(self.V*Wdot)/self.dv).reshape(C.shape)-self.divergence(\n249:             (M.T@(self.V[:,None]*W[:,None]*pu)/self.dv).reshape(u.shape))\n250:         Edot=np.sum(u*dg[...,:3],-1)+dg[...,4]+stored_dot\n251:         # Resolve local products in the same Galerkin space as the fields.\n252:         Edot_resolved=self.filter(Edot)\n253:         SE=self.filter(SE)\n254:         source_power_resolved=self.filter(np.sum(u*force,-1))\n255:         residual=Edot_resolved+self.divergence(SE)-source_power_resolved\n256:         # A declared minimum-L2 periodic interaction-flux convention. Keep and\n257:         # report the zero-mode defect; never remove a mean energy error as heat.\n258:         rh=self.hat(residual); den=np.where(self.k2==0,1,self.k2)\n259:         correction=self.real(1j*self.k*(rh/den)[...,None])\n260:         SE_coupled=SE+correction"
+    }
+  ],
+  "distinctions": [
+    "The original A/S equations specify transport, source accumulation, activation and momentum; the checked passages do not specify a gravitational G.",
+    "Carrying continuity is preserved through changing configurations; it is not interpreted as a constant energy or frozen state.",
+    "The broader guard relationship leaves its response functions and physical stress as choices; it does not supply an A/S energy mapping.",
+    "The retained scalar product S*R in the reciprocal-scaling example is a static algebraic relation, not the identified dynamic spatial-field energy.",
+    "In the actual record implementation delta_E is a symmetric strain change. Material record energy is the already-accounted fabric energy, not another energy named delta_E.",
+    "Social retrieval depends on retained records and feeds utility/source selection, but these passages do not assign its own independent energy debit."
+  ],
+  "historical_review": "The broader original-corpus and archived-board searches remain historical evidence. No new exhaustive search of all notes, chats, images, or live boards is claimed.",
+  "input_sha256": {
+    "$USER_HOME\\OneDrive\\Desktop\\Plain_Language_Corpus_Math_and_Logic_Corrected.docx": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\ang-mills-as-an-instance-the\\work\\github-publication\\research\\comparisons\\hug-navier-single-system-scope-correction.md": "100e289c6c96c6796b5841596c64bf4396a4c5cc5b4c027e5011b08f04e78c8a",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\ang-mills-as-an-instance-the\\work\\github-publication\\lean\\hug-existence-lean\\sources\\interaction-equation.md": "5b3621f4832403dd14a07a032b593afed53b53c122d96b858e4a2c6fc959b0ac",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\ang-mills-as-an-instance-the\\work\\github-publication\\lean\\hug-navier-single-system-lean\\FullModel.lean": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\latest_interaction_design.json": "09e9c32b89e5ed443c8870c3f83e58b52577aa05825a27422e716cbc43b5095c",
+    "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\COUPLED_FIELD.md": "148d7ac174c9ea033b98a1ca4b54f40c5111a84a4c5fa80a4035635873325a2d",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\structural_hug.py": "054953ef78fb8ae95eb518acc17b9920d99eb016897db69c538844a0ff48253a",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\declared-source\\continuum.py": "bfd00a7227b375aee4ae9480b2cdfded70f42042afaaae5d11e2ba87952aecc3",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\unwrapped-carrying-history\\path-history-12-16.csv": "0b4885f50c6a81e5355e7d85bc99b1ac4fabf9d461d77224cd8fdbeeaaac4a6b",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\full-carrying-energy\\activation-history.csv": "3179c84c360bdc4a412e84608c0ce5924bac0a10c5cf96b5e9e0e3968c7917ef",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\paired-context-energy\\checkpoints.csv": "ebc51fe774757f425d902313ef72f5859ac25b4828b814f477f66231cfb302b0",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\unwrapped-carrying-history\\verification.json": "bf7e61fd2ad06c5ed130957f634e22656e1de062267f7fbdf5a434f3eea44790",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\full-carrying-energy\\verification.json": "4d6245e6c8eb04b140eb34b02cdcc320a056345894fe28f0494c22ae401271ef",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\paired-context-energy\\verification.json": "f109e20ef8a0cbf84a9fda5b1ca654bc301b298a5fe4766a4bddff7971629297",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\nonlocal-history-energy\\source-check.json": "3a12cc699431f32e28f1b6fb60d138c10eecd7a84aaa043e9fb3c8e30911e035",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\unwrapped-carrying-history\\UnwrappedWork.lean": "bbe009f0db633c967cb8b5c5baf587cc35f00091538fd2fc781840b23cb56064",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\full-carrying-energy\\FullCarrying.lean": "4f3a0e22fe7708c32abf47f833e6ec9f208b57aa65bab57f8fd8af0f7f141cfb"
+  },
+  "script_sha256": "972336056ecc1004147827fb523ef9e019ec9abff30480c2b9bbd8d7eab4c499"
+}

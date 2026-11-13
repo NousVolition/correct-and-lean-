@@ -1,0 +1,135 @@
+{
+  "checked_at_utc": "2026-11-12T06:00:20.238853+00:00",
+  "source_hashes": {
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\for-the-after-breathing-stopped-figure\\work\\original-yang-build\\Volterra.lean": "26906df3b92869c297524e14c09b8bb5c15d6de60f8e7b0dbd93785d759f0952",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\for-the-after-breathing-stopped-figure\\work\\original-yang-build\\TwoMemory.lean": "d3d4384654c08975f55dcb4ec86db3830e0b8fe0b5f609b695721056aba0880a",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\outputs\\SIMS rational readout check\\corrected\\SIMSLatentReadout.lean": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\go\\outputs\\Yang-Mills - readings and proof sources.zip": "9e094c371515b523c656ac09b4aacadf6c35d8a0e26baa4a051c846e64bcaf2a",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\for-the-after-breathing-stopped-figure\\work\\original-yang-build\\TwoMemoryTransport.lean": "b8681a3435b2367081d285fb83e7964a9ce5d2f7d0c9de07b87c798638a5d36e",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\go\\work\\threshold-one-pair\\on\\prime-41-before_write.npz": "1cc023ac925b99126a5b1ce6a295b6b7fd6cc879bf34cc7113eba71e408c3947",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\go\\work\\threshold-one-pair\\on\\prime-41-after_write.npz": "796ecef6967278c3f6a3dbb65f9f2b7d2b2e2b8ff3117b28cc3539ae2f4ddca5",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\lo\\work\\threshold-one\\threshold-1\\state-0600.npz": "5d95941ffb5e8e230dd538aa7d681dd8d9cb042b3cac11de1b3346ecb1739204",
+    "$USER_HOME\\Documents\\Codex\\2026-11-07\\mathlib4-the-main-library-good-first\\outputs\\hug-threshold1-refinement\\tick41-lean\\exact-data.json": "0701748ff9f86a066ae405c7736e2932853c5de8184d343d63af243114f78acb",
+    "$USER_HOME\\Documents\\Codex\\2026-11-07\\mathlib4-the-main-library-good-first\\outputs\\hug-threshold1-refinement\\tick41-lean\\manifest.json": "79e55e15bc723a09c811f85cade8c06e97059c8ad79a0a310cc87080655c6dd6",
+    "$USER_HOME\\Documents\\Codex\\2026-11-10\\go\\work\\threshold-one-pair\\on\\configuration.json": "feb89fe7cc3c9748d63c42a1a56186198bfe13d6914ec583a77a48bedddbd77e"
+  },
+  "snapshot_paths": {
+    "before": "$USER_HOME\\Documents\\Codex\\2026-11-10\\go\\work\\threshold-one-pair\\on\\prime-41-before_write.npz",
+    "after": "$USER_HOME\\Documents\\Codex\\2026-11-10\\go\\work\\threshold-one-pair\\on\\prime-41-after_write.npz"
+  },
+  "decoded_event_ids": {
+    "before": [
+      0,
+      1
+    ],
+    "after": [
+      0,
+      1,
+      2
+    ]
+  },
+  "velocity_shape": [
+    16,
+    16,
+    16,
+    3
+  ],
+  "marker_shape": [
+    804,
+    3
+  ],
+  "velocity_bytes_equal": true,
+  "marker_bytes_equal": true,
+  "velocity_bytes": 98304,
+  "marker_bytes": 19296,
+  "fabric_changed": true,
+  "temperature_changed": true,
+  "mean_temperature_change": 1.5674081804063902e-05,
+  "changed_fabric_values": 37264,
+  "comparison_to_prior_A_run": {
+    "g": {
+      "bytes_equal": false,
+      "max_absolute_difference": 5.551115123125783e-17
+    },
+    "X": {
+      "bytes_equal": false,
+      "max_absolute_difference": 2.7755575615628914e-17
+    },
+    "F": {
+      "bytes_equal": false,
+      "max_absolute_difference": 4.440892098500626e-16
+    },
+    "m": {
+      "bytes_equal": false,
+      "max_absolute_difference": 7.771561172376096e-16
+    },
+    "A": {
+      "bytes_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    "ledger": {
+      "bytes_equal": false,
+      "max_absolute_difference": 1.3552527156068805e-20
+    },
+    "expression": {
+      "bytes_equal": false,
+      "max_absolute_difference": 5.551115123125783e-17
+    },
+    "context": {
+      "bytes_equal": false,
+      "max_absolute_difference": 1.1102230246251565e-16
+    },
+    "norm": {
+      "bytes_equal": false,
+      "max_absolute_difference": 5.551115123125783e-17
+    },
+    "logradius": {
+      "bytes_equal": false,
+      "max_absolute_difference": 5.551115123125783e-17
+    },
+    "relation": {
+      "bytes_equal": false,
+      "max_absolute_difference": 1.1102230246251565e-16
+    },
+    "responses": {
+      "bytes_equal": false,
+      "max_absolute_difference": 1.6653345369377348e-16
+    },
+    "association": {
+      "bytes_equal": false,
+      "max_absolute_difference": 2.3418766925686896e-17
+    },
+    "b": {
+      "bytes_equal": false,
+      "max_absolute_difference": 3.469446951953614e-18
+    },
+    "write_work": {
+      "bytes_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    "observer_X": {
+      "bytes_equal": false,
+      "max_absolute_difference": 2.7755575615628914e-17
+    },
+    "breathing_work": {
+      "bytes_equal": true,
+      "max_absolute_difference": 0.0
+    }
+  },
+  "witnesses_are_before_after_from_one_archived_run_not_mixed_replays": true,
+  "threshold": 1.0,
+  "breathing": {
+    "arm": "on",
+    "peak": 0.5,
+    "period": 0.6,
+    "actual_step": 0.002,
+    "end": 1.2
+  },
+  "new_fluid_steps": 0,
+  "new_model_calls": 0,
+  "saved_return_count": 24,
+  "saved_periodically_closed_x_count": 0,
+  "saved_geometry_manifest_files_verified": 67,
+  "trust_boundary": "The source files and exact byte export/event decoding were checked in Python, not proved by Lean.",
+  "reviewed_sources_preserved": true
+}

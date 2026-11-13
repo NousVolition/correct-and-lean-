@@ -1,0 +1,37 @@
+{
+  "module": "WindingFluid",
+  "status": "PASS",
+  "source_sha256": "4b3c6917cd028b9a1e7ec98665629ae90c7e6057d30eee1f404cf803e036d5e1",
+  "object_sha256": "8bc8e5453cbce7263b284db0fc9a94746ba533e6c4b0414563b61f7cf5146b92",
+  "exit_code": 0,
+  "log": "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/logs/WindingFluid-20261112T100239.log",
+  "log_sha256": "7ab30b7a33856731b71d673ea21aa4ae0b1ef33edfb25de217e96b81929ff4b1",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_reports": [
+    "ClosestPointExample.Winding.solves_navier_stokes",
+    "ClosestPointExample.Winding.flow_divergence",
+    "ClosestPointExample.Winding.smooth_flow",
+    "ClosestPointExample.Winding.smooth_pressure",
+    "ClosestPointExample.Winding.periodic_flow",
+    "ClosestPointExample.Winding.periodic_pressure",
+    "ClosestPointExample.Winding.paddle_at_A",
+    "ClosestPointExample.Winding.positive_swirl_on_plane"
+  ],
+  "command": [
+    "$USER_HOME/verification/bin/lake",
+    "env",
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+    "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean",
+    "-o",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingFluid.olean",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingFluid.lean"
+  ],
+  "started_at_utc": "2026-11-12T10:02:39.098447+00:00",
+  "finished_at_utc": "2026-11-12T10:03:40.535743+00:00",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+}

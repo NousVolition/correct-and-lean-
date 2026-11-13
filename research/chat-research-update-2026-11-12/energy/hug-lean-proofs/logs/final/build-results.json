@@ -1,0 +1,104 @@
+[
+  {
+    "module": "HugModel",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T06:48:53.3152654Z",
+    "finished_utc": "2026-11-12T06:49:14.1582141Z",
+    "source_sha256": "6A79142D5FA42642BC47A0246F62B4AB89D0C07BA6257FD0D41E39D6F89B61F5",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\HugModel.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\build-final\\HugModel.olean",
+      "HugModel.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\logs\\final\\HugModel.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "module": "ActiveHugModel",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T06:49:14.1691213Z",
+    "finished_utc": "2026-11-12T06:49:34.1159028Z",
+    "source_sha256": "BE9D734610480AE9376BFD38B287C2BB9B7758CB50E29109BCF26656A7885F19",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\ActiveHugModel.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\build-final\\ActiveHugModel.olean",
+      "ActiveHugModel.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\logs\\final\\ActiveHugModel.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "module": "GuardTwoEffects",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T06:49:34.1198304Z",
+    "finished_utc": "2026-11-12T06:49:54.3731999Z",
+    "source_sha256": "37F13D3EFF0EB9AFF1CCD9C0750FC68A66C0F732CC782040865A6C60884DF1C8",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\GuardTwoEffects.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\build-final\\GuardTwoEffects.olean",
+      "GuardTwoEffects.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\logs\\final\\GuardTwoEffects.log",
+    "log_sha256": "DB977EB3BAC37F180D73D17116D3CC103D9F04AE3E46C00DB0092F9B9D901695"
+  },
+  {
+    "module": "BreathingDriver",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T06:49:54.3894640Z",
+    "finished_utc": "2026-11-12T06:50:13.1996476Z",
+    "source_sha256": "6E5CB872581F7FA437861B8EB3DA25D6733AEFF2045235981262D1884798B48F",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\BreathingDriver.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\build-final\\BreathingDriver.olean",
+      "BreathingDriver.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\logs\\final\\BreathingDriver.log",
+    "log_sha256": "017681951B7CAAAE8179C28D598A7449103FC4AB097DA85F4F242D9189596B92"
+  },
+  {
+    "module": "PressureBlindToBreathing",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T06:50:13.2113988Z",
+    "finished_utc": "2026-11-12T06:50:32.2157681Z",
+    "source_sha256": "4457EB70CC0BE8A2B6AE31CB75812ACDB98FC99725B61E40D4D8705E849C9473",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\PressureBlindToBreathing.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\build-final\\PressureBlindToBreathing.olean",
+      "PressureBlindToBreathing.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\logs\\final\\PressureBlindToBreathing.log",
+    "log_sha256": "A6322E6EF0CD5089344255831A7E8E81B5FE59BA3520F903CDA024D97197A755"
+  },
+  {
+    "module": "ClayFabric",
+    "exit_code": 1,
+    "started_utc": "2026-11-12T06:50:32.2268157Z",
+    "finished_utc": "2026-11-12T06:50:52.2801352Z",
+    "source_sha256": "BE6DA9C9B06DAAE90470030E0611A366843F89C8395393330D98935ED100FBB8",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\ClayFabric.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\lean-check\\build-final\\ClayFabric.olean",
+      "ClayFabric.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-lean-proofs\\logs\\final\\ClayFabric.log",
+    "log_sha256": "6433C6C6DD12B847EE990977D1221E4E359CAF29789469D2405122E585C9E885"
+  }
+]

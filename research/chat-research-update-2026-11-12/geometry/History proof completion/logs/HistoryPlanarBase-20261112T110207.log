@@ -1,0 +1,201 @@
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean/HistoryPlanarBase.lean:94:79: error: unsolved goals
+case «2»
+p : Point
+⊢ -(weight 0 * Real.sin (phase 0 p) * phaseD 0 ⟨2, ⋯⟩) - weight 1 * Real.sin (phase 1 p) * phaseD 1 ⟨2, ⋯⟩ -
+        weight 2 * Real.sin (phase 2 p) * phaseD 2 ⟨2, ⋯⟩ -
+      weight 3 * Real.sin (phase 3 p) * phaseD 3 ⟨2, ⋯⟩ =
+    0
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean/HistoryPlanarBase.lean:102:84: error: unsolved goals
+case «0»
+p : Point
+⊢ ((![1 / 4, -1 / 4, -1 / 4, 1 / 4] 2 = 0 ∨
+        frequency = 0 ∨
+          Matrix.vecCons 2 (fun i => Matrix.vecCons 2 (fun i => Matrix.vecCons 1 (fun i => 1) i) i) 2 = 0) ∨
+      Real.cos (phase 2 p) = 0) ∨
+    frequency = 0 ∨ Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => 0) i) i) 2 = 0
+
+case «1»
+p : Point
+⊢ ((![1 / 4, -1 / 4, -1 / 4, 1 / 4] 2 = 0 ∨
+        frequency = 0 ∨
+          Matrix.vecCons (-1) (fun i => Matrix.vecCons 1 (fun i => Matrix.vecCons (-2) (fun i => 2) i) i) 2 = 0) ∨
+      Real.cos (phase 2 p) = 0) ∨
+    frequency = 0 ∨ Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => 0) i) i) 2 = 0
+
+case «2»
+p : Point
+⊢ frequency ^ 2 * Real.cos (phase 0 p) * (5 / 4) + frequency ^ 2 * Real.cos (phase 1 p) * (-5 / 4) +
+          frequency ^ 2 * ![1 / 4, -1 / 4, -1 / 4, 1 / 4] 2 *
+              Matrix.vecCons 2 (fun i => Matrix.vecCons 2 (fun i => Matrix.vecCons 1 (fun i => 1) i) i) 2 ^ 2 *
+            Real.cos (phase 2 p) +
+        frequency ^ 2 * ![1 / 4, -1 / 4, -1 / 4, 1 / 4] 2 * Real.cos (phase 2 p) *
+          Matrix.vecCons (-1) (fun i => Matrix.vecCons 1 (fun i => Matrix.vecCons (-2) (fun i => 2) i) i) 2 ^ 2 +
+      frequency ^ 2 * Real.cos (phase 3 p) * (5 / 4) =
+    frequency ^ 2 * Real.cos (phase 0 p) * (5 / 4) + frequency ^ 2 * Real.cos (phase 1 p) * (-5 / 4) +
+        frequency ^ 2 * ![1 / 4, -1 / 4, -1 / 4, 1 / 4] 2 * Real.cos (phase 2 p) * 5 +
+      frequency ^ 2 * Real.cos (phase 3 p) * (5 / 4)
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean/HistoryPlanarBase.lean:108:60: error: unsolved goals
+p : Point
+i : Fin 3
+⊢ -(frequency ^ 2 * term 0 p i * 5) - frequency ^ 2 * term 1 p i * 5 -
+            frequency ^ 2 *
+                Matrix.vecCons 2 (fun i => Matrix.vecCons 2 (fun i => Matrix.vecCons 1 (fun i => 1) i) i) 2 ^ 2 *
+              term 2 p i -
+          frequency ^ 2 * term 2 p i *
+            Matrix.vecCons (-1) (fun i => Matrix.vecCons 1 (fun i => Matrix.vecCons (-2) (fun i => 2) i) i) 2 ^ 2 -
+        frequency ^ 2 * term 2 p i *
+          Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => 0) i) i) 2 ^ 2 -
+      frequency ^ 2 * term 3 p i * 5 =
+    -(frequency ^ 2 * term 0 p i * 5) - frequency ^ 2 * term 1 p i * 5 - frequency ^ 2 * term 2 p i * 5 -
+      frequency ^ 2 * term 3 p i * 5
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean/HistoryPlanarBase.lean:119:61: error: unsolved goals
+p : Point
+h0 : phase 0 p = 2 * (frequency * p 0) - frequency * p 1
+h1 : phase 1 p = 2 * (frequency * p 0) + frequency * p 1
+⊢ frequency * Matrix.vecCons 2 (fun i => Matrix.vecCons 2 (fun i => Matrix.vecCons 1 (fun i => 1) i) i) 2 * p 0 +
+        frequency * Matrix.vecCons (-1) (fun i => Matrix.vecCons 1 (fun i => Matrix.vecCons (-2) (fun i => 2) i) i) 2 *
+          p 1 +
+      frequency * Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => 0) i) i) 2 * p 2 =
+    frequency * p 0 - frequency * p 1 * 2
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean/HistoryPlanarBase.lean:114:61: error: unsolved goals
+p : Point
+h0 : phase 0 p = 2 * (frequency * p 0) - frequency * p 1
+h1 : phase 1 p = 2 * (frequency * p 0) + frequency * p 1
+h2 : phase 2 p = frequency * p 0 - 2 * (frequency * p 1)
+h3 : phase 3 p = frequency * p 0 + 2 * (frequency * p 1)
+⊢ Real.cos (frequency * p 1) * Real.sin (frequency * p 0) * Real.sin (frequency * p 1) * (-1 / 2) +
+            Real.cos (frequency * p 1) * Real.sin (frequency * p 0) * Real.sin (frequency * p 1) *
+                ![1 / 4, -1 / 4, -1 / 4, 1 / 4] 2 *
+              2 +
+          Real.sin (frequency * p 0) * Real.cos (frequency * p 0) * Real.sin (frequency * p 1) +
+        Real.cos (frequency * p 0) * ![1 / 4, -1 / 4, -1 / 4, 1 / 4] 2 * Real.cos (frequency * p 1 * 2) +
+      Real.cos (frequency * p 0) * Real.cos (frequency * p 1 * 2) * (1 / 4) =
+    -(Real.cos (frequency * p 1) * Real.sin (frequency * p 0) * Real.sin (frequency * p 1)) +
+      Real.sin (frequency * p 0) * Real.cos (frequency * p 0) * Real.sin (frequency * p 1)
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean/HistoryPlanarBase.lean:129:2: error: unsolved goals
+case left
+⊢ ![1 / 4, -(1 / 4), -(1 / 4), 1 / 4] 2 + 1 / 4 = 0
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean/HistoryPlanarBase.lean:133:72: error: unsolved goals
+case «0».«0»
+⊢ frequency ^ 2 * (1 / 2) -
+      frequency ^ 2 * ![1 / 4, -1 / 4, -1 / 4, 1 / 4] 2 *
+          Matrix.vecCons (-1) (fun i => Matrix.vecCons 1 (fun i => Matrix.vecCons (-2) (fun i => 2) i) i) 2 *
+        Matrix.vecCons 2 (fun i => Matrix.vecCons 2 (fun i => Matrix.vecCons 1 (fun i => 1) i) i) 2 =
+    0
+
+case «0».«1»
+⊢ -(![1 / 4, -1 / 4, -1 / 4, 1 / 4] 2 * frequency ^ 2 *
+          Matrix.vecCons (-1) (fun i => Matrix.vecCons 1 (fun i => Matrix.vecCons (-2) (fun i => 2) i) i) 2 ^ 2) -
+      frequency ^ 2 =
+    0
+
+case «0».«2»
+⊢ (![1 / 4, -1 / 4, -1 / 4, 1 / 4] 2 = 0 ∨
+      frequency = 0 ∨
+        Matrix.vecCons (-1) (fun i => Matrix.vecCons 1 (fun i => Matrix.vecCons (-2) (fun i => 2) i) i) 2 = 0) ∨
+    frequency = 0 ∨ Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => 0) i) i) 2 = 0
+
+case «1».«0»
+⊢ ![1 / 4, -1 / 4, -1 / 4, 1 / 4] 2 * frequency ^ 2 *
+        Matrix.vecCons 2 (fun i => Matrix.vecCons 2 (fun i => Matrix.vecCons 1 (fun i => 1) i) i) 2 ^ 2 +
+      frequency ^ 2 * (1 / 4) =
+    0
+
+case «1».«1»
+⊢ frequency ^ 2 * (-1 / 2) +
+      frequency ^ 2 * ![1 / 4, -1 / 4, -1 / 4, 1 / 4] 2 *
+          Matrix.vecCons 2 (fun i => Matrix.vecCons 2 (fun i => Matrix.vecCons 1 (fun i => 1) i) i) 2 *
+        Matrix.vecCons (-1) (fun i => Matrix.vecCons 1 (fun i => Matrix.vecCons (-2) (fun i => 2) i) i) 2 =
+    0
+
+case «1».«2»
+⊢ (![1 / 4, -1 / 4, -1 / 4, 1 / 4] 2 = 0 ∨
+      frequency = 0 ∨ Matrix.vecCons 2 (fun i => Matrix.vecCons 2 (fun i => Matrix.vecCons 1 (fun i => 1) i) i) 2 = 0) ∨
+    frequency = 0 ∨ Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => Matrix.vecCons 0 (fun i => 0) i) i) 2 = 0
+'HistoryPlanarBase.profile_original_formula' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'HistoryPlanarBase.fieldD_at_origin' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'HistoryPlanarBase.flow_curl' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'HistoryPlanarBase.flow_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.solves_unforced_navier_stokes' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'HistoryPlanarBase.smooth_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.smooth_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.periodic_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryPlanarBase.periodic_pressure' depends on axioms: [propext, Classical.choice, Quot.sound]

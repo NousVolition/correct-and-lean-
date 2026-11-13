@@ -1,0 +1,11 @@
+{
+  "archived_steps_checked": 100,
+  "historical_mismatches": 32,
+  "wrapper_mismatches": 0,
+  "complete_carried_state_passed_through_without_replacement": true,
+  "unchanged_time_step": 0.002,
+  "inverse_acceptance_tolerance_not_modified": true,
+  "no_native_inverse_run_performed": true,
+  "no_accumulated_error_repair_claim": true,
+  "wrapper_sha256": "2ffd73824611b0fd945c2a4ab7c811420e0a992d661a730e4a768dee167bb850"
+}

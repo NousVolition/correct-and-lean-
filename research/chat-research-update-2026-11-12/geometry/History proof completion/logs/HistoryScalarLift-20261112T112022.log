@@ -1,0 +1,7 @@
+$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean/HistoryScalarLift.lean:77:32: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+'HistoryScalarLift.lifted_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_solves_unforced_navier_stokes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_actual_curl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryScalarLift.lifted_origin_stationary' depends on axioms: [propext, Classical.choice, Quot.sound]

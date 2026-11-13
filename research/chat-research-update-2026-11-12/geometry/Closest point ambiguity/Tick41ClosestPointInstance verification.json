@@ -1,0 +1,36 @@
+{
+  "module": "Tick41ClosestPointInstance",
+  "status": "PASS",
+  "exit_code": 0,
+  "source_sha256": "7f63c9f5ed427537220cef1a9ee2d7e28e53dc4e599794be5fe7c4e87324d3b1",
+  "object_sha256": "2b01500025a8197346c0119bf37f43072b4b575c653165ce600b98bdde75000d",
+  "log": "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/logs/Tick41ClosestPointInstance-20261112T084602.log",
+  "log_sha256": "2306a16ac1d67965f9f3cc2fe9db398998afacf0d03ee6d982ae46ed5e0e412c",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_reports": [
+    "ClosestPointExample.Tick41.same_observation",
+    "ClosestPointExample.Tick41.certified_reading",
+    "ClosestPointExample.Tick41.actual_vortex_lines_at_tick41",
+    "ClosestPointExample.Tick41.opposite_properties",
+    "ClosestPointExample.Tick41.no_exact_reader_of_closure"
+  ],
+  "started_at_utc": "2026-11-12T08:46:02.641245+00:00",
+  "finished_at_utc": "2026-11-12T08:46:06.589942+00:00",
+  "command": [
+    "$USER_HOME/verification/bin/lake",
+    "env",
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+    "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean",
+    "-o",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean/Tick41ClosestPointInstance.olean",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Closest point ambiguity/lean/Tick41ClosestPointInstance.lean"
+  ],
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "base_theorem_source_sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4",
+  "base_theorem_object_sha256": "5860a186bc09c71b24206815b8c95b14214984264d90b98920dfb18a9d66a402"
+}

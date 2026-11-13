@@ -1,0 +1,9 @@
+'HistoryParameterSelection.exists_scaled_sqrt_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryParameterSelection.select_irrational_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryParameterSelection.positive_point_from_positive_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HistoryParameterSelection.select_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HistoryParameterSelection.selected_parameters_preserve_validity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

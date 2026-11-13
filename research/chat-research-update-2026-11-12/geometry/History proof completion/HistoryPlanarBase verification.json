@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "module": "HistoryPlanarBase",
+  "source_sha256": "d75fe7c784c2a78acbe725ea904dffd6ef4c35003ae4c54a3f005c25047b0234",
+  "object_sha256": "0b9a2c6bbfe5b95bae5412cd5e46a55938e08a6369867bce0402d148a01c7252",
+  "exit_code": 0,
+  "log": "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/logs/HistoryPlanarBase-20261112T110342.log",
+  "log_sha256": "5455798e6d1e73b55ed4922dc3211aaf83fed1234f89d128f3860cb610d44afd",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_reports": [
+    "HistoryPlanarBase.profile_original_formula",
+    "HistoryPlanarBase.fieldD_at_origin",
+    "HistoryPlanarBase.flow_curl",
+    "HistoryPlanarBase.flow_divergence",
+    "HistoryPlanarBase.solves_unforced_navier_stokes",
+    "HistoryPlanarBase.smooth_flow",
+    "HistoryPlanarBase.smooth_pressure",
+    "HistoryPlanarBase.periodic_flow",
+    "HistoryPlanarBase.periodic_pressure"
+  ],
+  "command": [
+    "$USER_HOME/verification/bin/lake",
+    "env",
+    "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+    "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean",
+    "-o",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean/HistoryPlanarBase.olean",
+    "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/History proof completion/lean/HistoryPlanarBase.lean"
+  ],
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "base_dependency_verification_sha256": "9770bb2c7cef1ac50a5a315470df6cc1c494db37b699d27e040825746a3d7cff",
+  "checked_at_utc": "2026-11-12T11:03:54.585910+00:00"
+}

@@ -1,0 +1,121 @@
+{
+  "method": "Read-only NumPy loads with allow_pickle=False; independently apply inspected noiseless probe and little-endian header/CRC rules. Original solver and full schema decoder were not rerun.",
+  "configuration_sha256": "325ef616bb10d71acb7a72e200988ec9ffae7a18795fcaf68d2dd2886f74f07d",
+  "snapshots": [
+    {
+      "path": "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\snapshots\\state-0400.npz",
+      "sha256": "cd03624d238969bd24121d736cecb1e10be64704bfa09b7de6540401301bc011",
+      "shape": [
+        149056
+      ],
+      "cell0": 0.01998557262231108,
+      "cell0_ratio": [
+        5760449114536075,
+        288230376151711744
+      ],
+      "probe_shape_valid": true,
+      "probe_finite": true,
+      "probe_clears_margin": true,
+      "probe_bits_equal_mark_signs": true,
+      "independently_read_event_ids": [
+        0,
+        1
+      ],
+      "crc_checks_pass": true
+    },
+    {
+      "path": "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\snapshots\\state-0599.npz",
+      "sha256": "2f3f76434d1f29cc5ce5a01d249e120b7dbcb701136fcc7250a260aa85ccdaf6",
+      "shape": [
+        149056
+      ],
+      "cell0": 0.019974321339023573,
+      "cell0_ratio": [
+        5757206152921927,
+        288230376151711744
+      ],
+      "probe_shape_valid": true,
+      "probe_finite": true,
+      "probe_clears_margin": true,
+      "probe_bits_equal_mark_signs": true,
+      "independently_read_event_ids": [
+        0,
+        1
+      ],
+      "crc_checks_pass": true
+    },
+    {
+      "path": "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\inputs\\snapshots\\state-0600.npz",
+      "sha256": "5d95941ffb5e8e230dd538aa7d681dd8d9cb042b3cac11de1b3346ecb1739204",
+      "shape": [
+        149056
+      ],
+      "cell0": 0.019974273196704494,
+      "cell0_ratio": [
+        2878596138421595,
+        144115188075855872
+      ],
+      "probe_shape_valid": true,
+      "probe_finite": true,
+      "probe_clears_margin": true,
+      "probe_bits_equal_mark_signs": true,
+      "independently_read_event_ids": [
+        0,
+        1,
+        2
+      ],
+      "crc_checks_pass": true
+    },
+    {
+      "path": "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\results\\tick41-before-write.npz",
+      "sha256": "f1b0a625ea92f7fe565e18fda208f35f0a155eb2fe321ef537b6b6c545c6dfbd",
+      "shape": [
+        149056
+      ],
+      "cell0": 0.019974273196704494,
+      "cell0_ratio": [
+        2878596138421595,
+        144115188075855872
+      ],
+      "probe_shape_valid": true,
+      "probe_finite": true,
+      "probe_clears_margin": true,
+      "probe_bits_equal_mark_signs": true,
+      "independently_read_event_ids": [
+        0,
+        1
+      ],
+      "crc_checks_pass": true
+    },
+    {
+      "path": "$USER_HOME\\Documents\\Codex\\2026-11-11\\new-chat-13\\tick41-readonly-check\\results\\tick41-after-write.npz",
+      "sha256": "5d95941ffb5e8e230dd538aa7d681dd8d9cb042b3cac11de1b3346ecb1739204",
+      "shape": [
+        149056
+      ],
+      "cell0": 0.019974273196704494,
+      "cell0_ratio": [
+        2878596138421595,
+        144115188075855872
+      ],
+      "probe_shape_valid": true,
+      "probe_finite": true,
+      "probe_clears_margin": true,
+      "probe_bits_equal_mark_signs": true,
+      "independently_read_event_ids": [
+        0,
+        1,
+        2
+      ],
+      "crc_checks_pass": true
+    }
+  ],
+  "comparisons": {
+    "cells_moved_400_to_599": 149056,
+    "sign_changes_400_to_599": 0,
+    "packed_payloads_400_and_599_identical": true,
+    "cells_changed_by_third_write": 37264,
+    "upper_marks_in_third_slot_after_write": 18726,
+    "frame_600_matches_saved_after_write": true
+  }
+}

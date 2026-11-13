@@ -1,0 +1,15 @@
+{
+  "read_only": true,
+  "no_inverse_continuation": true,
+  "native_step_budget": 16,
+  "elapsed_bound_seconds": 300,
+  "unchanged_accepted_state": true,
+  "controls": [
+    "Fresh one-step native velocity sensitivity to low and high retained modes, two amplitudes for the high mode",
+    "Frozen-viscosity linear Heun mode gain with native spatial operators",
+    "Energy minus accumulated external work at existing full checkpoints",
+    "Historical forward versus inverse clock-grid representations"
+  ],
+  "reference_states_used_only_in_isolated_controls": true,
+  "not_a_new_acceptance_policy": true
+}

@@ -1,0 +1,18 @@
+{
+  "build-native.ps1": "9acdcde118c6134a0c4d558c6d0971ac999c07a82e5aa97d6ce6369590d6b29d",
+  "checkpoints.csv": "ebc51fe774757f425d902313ef72f5859ac25b4828b814f477f66231cfb302b0",
+  "logs\\build-results.json": "8785b195277020babffd6b93f66e84949aefd29dae7670b0fb09fe0f8075acce",
+  "logs\\lean-version.txt": "87b9d84c24871d31d733f3c474b1372aeba74b55e40dcd54247ecf506523e850",
+  "logs\\PairContext.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "logs\\PairContextAudit.log": "11eb63fa8ec0f56faa3ae0a1a8c9ee208ee4b2296d7759500b49f3beda2675c1",
+  "PairContext.lean": "afdb8c18f28a3f569ee536bc84e82d7eb6ebc73beb76b3c78b32edfc7b45c518",
+  "PairContextAudit.lean": "e783bf6d36c38b0e5bf7b7f848a31bc76a997d2acebd3652ea11aa09b8696729",
+  "PLAN.md": "2e43fcff388771f4e6d27e0b4a804985fb4603311656f59dfac439fd58ff37f9",
+  "potential-check.json": "6815d82bc436c8ef96d9b318b7cc6467d280a748406b961b866f898c9ce29828",
+  "README.md": "b1e5db513ab12a64d2d719a6443bedd088fe8618a9f29c0ab8cfb08138d644e0",
+  "scripts\\check_potential.py": "061b4a1edec44f587ab6d48471ea2ae272a9bd74f62e59cb1f0fbb9e85491014",
+  "scripts\\package.py": "a2352319ade7a3683e3aa1a8a7ceb6000cf09fb79f2e2dd30089cf519a767dc9",
+  "scripts\\source_check.py": "0e1da6b5cc93b748a3e0d686c2fef1a2c234b17ae0262c43ec3a78bf1c782cd1",
+  "source-check.json": "1ecde4261527803aff5e2dd369959bcf1e4e785a2e8ddce2b36f4c1702c4a628",
+  "verification.json": "f109e20ef8a0cbf84a9fda5b1ca654bc301b298a5fe4766a4bddff7971629297"
+}

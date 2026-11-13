@@ -1,0 +1,5 @@
+'ClosestPointExample.Tick41.same_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Tick41.certified_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Tick41.actual_vortex_lines_at_tick41' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Tick41.opposite_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClosestPointExample.Tick41.no_exact_reader_of_closure' depends on axioms: [propext, Classical.choice, Quot.sound]

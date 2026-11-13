@@ -1,0 +1,42 @@
+{
+  "checked_utc": "2026-11-12T10:16:53.495686+00:00",
+  "lean": "PASS",
+  "new_theorem_count": 7,
+  "theorems": [
+    "GradientStorage.norm_storage_rate",
+    "GradientStorage.norm_storage_transport_rate",
+    "GradientStorage.norm_storage_nonnegative",
+    "GradientStorage.norm_storage_zero",
+    "GradientStorage.initial_minimum_cannot_pay",
+    "GradientStorage.nonnegative_quadratic_cannot_pay",
+    "GradientStorage.integrated_norm_budget"
+  ],
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "sorryAx": false,
+  "source_energy_law": "NOT IDENTIFIED in checked readable original material. Transport/source and norm budgets found; no independently specified store paying the activation demand.",
+  "positive_quadratic_candidate_result": "Fails the required net-release sign from the saved zero initial scalar/gradient/A state; any-sign single-constant endpoint fits also fail earlier saved times.",
+  "original_equations_and_read_sources_unchanged": true,
+  "new_solver_steps": 0,
+  "saved_states_read": 62,
+  "document_count": 12,
+  "board_export_count": 9,
+  "unique_readable_board_items": 598,
+  "limitations": [
+    "Initial-minimum and quadratic candidate classes only; no universal no-go for larger histories or nonlinear energies",
+    "Gradient PDE commutator and spatial integration assumptions are explained analytically, not newly formalized",
+    "Numerical observations are saved floating-point states, not a verified continuum trajectory",
+    "Archived board readable text only; skipped foreign/image content and live updates untested",
+    "No external kernel run; pinned dependency cache evidence inherited"
+  ],
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "dependency": {
+    "head": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+    "tracked_clean": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\NavierStokesAndEuler-audit\\.lake\\packages\\mathlib",
+    "checked_utc": "2026-11-12T08:10:24.4285603Z"
+  }
+}

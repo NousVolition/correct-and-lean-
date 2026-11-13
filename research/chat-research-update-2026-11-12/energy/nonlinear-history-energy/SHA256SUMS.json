@@ -1,0 +1,23 @@
+{
+  "nonlinear-storage-check.json": "7079f2193162850f4b94ead15fc5043e74023dff4d1188be67be7211075f909b",
+  "nonlinear-storage-history.csv": "6bbdddb71ae16217f24a3cff405a86cde5084da4fab9389f93bf4ce004321382",
+  "PLAN.md": "82f80cdde59d36f18b47133083ab6b8bc97bf2cecc648f754a7f901faf29bc52",
+  "proof-evidence\\full-carrying-energy\\FullCarrying.lean": "4f3a0e22fe7708c32abf47f833e6ec9f208b57aa65bab57f8fd8af0f7f141cfb",
+  "proof-evidence\\full-carrying-energy\\FullCarryingAudit.log": "4f93016a406356a497385efe6c3cb139b76aa24142a1cbefb43efb62ab999025",
+  "proof-evidence\\full-carrying-energy\\verification.json": "4d6245e6c8eb04b140eb34b02cdcc320a056345894fe28f0494c22ae401271ef",
+  "proof-evidence\\hug-lean-proofs\\ClayFabric.lean": "702bee064bdee1797ec24351a6194841b3b5efc631f52cd1ee9a4feaa8ec4e54",
+  "proof-evidence\\hug-lean-proofs\\ProofAudit.log": "54212f2a3f2a902474958134052d5452be33d2d3af537c08c33076e8d476ddcf",
+  "proof-evidence\\hug-lean-proofs\\verification.json": "f4ce596d69d116cb37cb68490076a0df48bf29a60f7f18de5c3811a1fe2ac5cb",
+  "proof-evidence\\hug-source-energy-connection\\ConnectionAudit.log": "16e455e560d795b2bef6b7b0b9a99f1f2ab3fceea480077cb9814198a9aeb44e",
+  "proof-evidence\\hug-source-energy-connection\\RecordEnergyConnection.lean": "5fbf0203b515cbf6944100c1a569d9ba98517e2b55d057f07590d1b7ea350c81",
+  "proof-evidence\\hug-source-energy-connection\\verification.json": "4cf2a51aab15cb7fe241f9805d28122a1dbffbcc3f537ba928bc486e54b1a0d5",
+  "proof-evidence\\s-gradient-energy\\GradientStorage.lean": "beac9bd571b1a455c1513b883983b480ac7a030a7dee3dec3ba38399bdd0d68e",
+  "proof-evidence\\s-gradient-energy\\GradientStorageAudit.log": "cba8aa4a1d1d50ddf1413a2cc9f093ba4878076f8845809ca8852a37b6e1b3a1",
+  "proof-evidence\\s-gradient-energy\\verification.json": "739491b0aad90c561197092cfbab64d0c5ae51e9070f3a061e99883194db5aea",
+  "README.md": "538a40cb4a3c8c24cc95eca6bc5f6a87ac4793a9e8f333ac480b749e6b04bbd3",
+  "scripts\\decompose_storage.py": "abdc6aaeb270293fdaba107fa6a629678dbab4d3e6b9931d4fd91467b84d933a",
+  "scripts\\package.py": "8c94b7c9b94664ebaaf24578f51e985c94f04d27b47cd5937d6a8582a4ea2ee3",
+  "scripts\\source_check.py": "49f31824453a3586036a71e18cf9eda49f53ff831ea02c26891434aecb502bb2",
+  "source-check.json": "b4c5a86b70b80a30f940bf9970738089228da465b2d5faaf1b015bbea28a6e50",
+  "verification.json": "d7d2de6326cc852e0a06090b0cbe7f8d3fbcd196dcc826b427739563904a55f2"
+}

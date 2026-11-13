@@ -1,0 +1,20 @@
+{
+  "checked_utc": "2026-11-12T10:36:24.802459+00:00",
+  "source_check": "COMPLETE within declared readable-source scope",
+  "numerical_checks": "PASS",
+  "requested_nonlocal_energy": "NOT IDENTIFIED from checked original notes. Specified nonlocal redistribution/adjoint transfers preserve the global account; no separate stored-energy functional paying the activation remainder was supplied.",
+  "new_solver_steps": 0,
+  "new_Lean_compilations": 0,
+  "new_theorems": 0,
+  "saved_states": 62,
+  "original_equations_notes_and_saved_states_unchanged": true,
+  "global_flux_result": "The diagnostic correction changes spatial variation only; its mean residual is unchanged and equals A/S power after breathing power is subtracted.",
+  "pair_potential_result": "A log-cosh context potential is derivable for the older fixed-geometry pair law; it is absent in the saved run and is not a demonstrated physical energy closure.",
+  "independent_report_agreement": "User-pasted four-frame endpoint changes match the prior 62-frame check at displayed precision; heat and source review remain separately attributed.",
+  "limitations": [
+    "No universal impossibility claim for nonlocal/history-dependent stored energy",
+    "Periodic/closed boundary assumptions are essential for the no-net-flux statement",
+    "Archived readable sources only; skipped images/foreign objects and live changes untested",
+    "Finite numerical algebra and saved-state checks, not a formally verified continuum trajectory"
+  ]
+}

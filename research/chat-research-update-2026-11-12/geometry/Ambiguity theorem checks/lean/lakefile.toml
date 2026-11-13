@@ -1,0 +1,32 @@
+name = "ambiguity_instances"
+version = "0.1.0"
+defaultTargets = ["AmbiguityInstances"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+
+[[lean_lib]]
+name = "SIMSLatentReadout"
+
+[[lean_lib]]
+name = "Volterra"
+
+[[lean_lib]]
+name = "TwoMemory"
+
+[[lean_lib]]
+name = "TwoMemoryTransport"
+
+[[lean_lib]]
+name = "YangMillsCueTest"
+
+[[lean_lib]]
+name = "Tick41SavedWrite"
+
+[[lean_lib]]
+name = "Tick41SavedReturns"
+
+[[lean_lib]]
+name = "AmbiguityInstances"

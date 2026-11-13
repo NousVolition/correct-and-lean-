@@ -1,0 +1,20 @@
+[
+  {
+    "file": "EARLY_HUG_README.md",
+    "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/b20d1dcf25fb7e97bcceb9a09d0883d30bf08e8c/reports/hug-dynamics/README.md",
+    "ref": "b20d1dcf25fb7e97bcceb9a09d0883d30bf08e8c",
+    "operation": "Read through GitHub connector; stored text with normalized line endings; originals not edited"
+  },
+  {
+    "file": "early_pressure_envelope.py",
+    "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/b20d1dcf25fb7e97bcceb9a09d0883d30bf08e8c/reports/hug-dynamics/source/pressure_envelope.py",
+    "ref": "b20d1dcf25fb7e97bcceb9a09d0883d30bf08e8c",
+    "operation": "Read through GitHub connector; stored text with normalized line endings; originals not edited"
+  },
+  {
+    "file": "early_hug_envelope.py",
+    "url": "https://github.com/NousVolition/My-Sources-Project-ALL/blob/b20d1dcf25fb7e97bcceb9a09d0883d30bf08e8c/reports/hug-dynamics/source/hug_envelope.py",
+    "ref": "b20d1dcf25fb7e97bcceb9a09d0883d30bf08e8c",
+    "operation": "Read through GitHub connector; stored text with normalized line endings; originals not edited"
+  }
+]

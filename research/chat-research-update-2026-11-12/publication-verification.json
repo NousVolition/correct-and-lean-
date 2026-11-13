@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "copied_files_checked": 811,
+  "lean_sources": 161,
+  "lean_sources_unchanged": true,
+  "source_manifest_entries_checked_at_collection": 487,
+  "source_manifest_matches_at_collection": true,
+  "new_Lean_or_simulation_runs": false,
+  "failures": []
+}

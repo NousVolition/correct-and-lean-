@@ -1,0 +1,248 @@
+{
+  "file": "$USER_HOME\\Downloads\\CLAY_10_7490E.xlsx",
+  "sha256": "161bd7dc873d62d3d48a69ee55e2549c9a91f5c3c570c3055a093dfffd4b3c73",
+  "hash_matches_supplied": true,
+  "method": "Read ZIP/XML and decimal strings directly; no workbook changes or recalculation",
+  "checks": [
+    {
+      "interpretation": "exact serialized XLSX decimal",
+      "paired_numeric_rows": 4319,
+      "past_greater_than_present": 3330,
+      "ambiguous_present_values": 252,
+      "supplied_groups": 252,
+      "mismatched_supplied_groups": 74,
+      "mismatch_examples": [
+        {
+          "rows": [
+            9651,
+            9625
+          ],
+          "expected": [
+            "11.4",
+            "10.21",
+            "13.81"
+          ],
+          "actual": [
+            "11.4",
+            "10.210000000000001",
+            "13.81"
+          ],
+          "high_present": "11.4"
+        },
+        {
+          "rows": [
+            9642,
+            686
+          ],
+          "expected": [
+            "15.68",
+            "9.2",
+            "392"
+          ],
+          "actual": [
+            "15.68",
+            "9.1999999999999993",
+            "392"
+          ],
+          "high_present": "15.68"
+        },
+        {
+          "rows": [
+            2431,
+            3964
+          ],
+          "expected": [
+            "16.1765",
+            "33.0882",
+            "91.3399"
+          ],
+          "actual": [
+            "16.176500000000001",
+            "33.088200000000001",
+            "91.3399"
+          ],
+          "high_present": "16.176500000000001"
+        },
+        {
+          "rows": [
+            5140,
+            5139
+          ],
+          "expected": [
+            "16.6667",
+            "18.6408",
+            "55.9223"
+          ],
+          "actual": [
+            "16.666699999999999",
+            "18.640799999999999",
+            "55.9223"
+          ],
+          "high_present": "16.666699999999999"
+        },
+        {
+          "rows": [
+            4131,
+            4142
+          ],
+          "expected": [
+            "16.67",
+            "50",
+            "59"
+          ],
+          "actual": [
+            "16.670000000000002",
+            "50",
+            "59"
+          ],
+          "high_present": "16.670000000000002"
+        },
+        {
+          "rows": [
+            6480,
+            9230
+          ],
+          "expected": [
+            "17.4",
+            "35",
+            "90"
+          ],
+          "actual": [
+            "17.399999999999999",
+            "35",
+            "90"
+          ],
+          "high_present": "17.399999999999999"
+        },
+        {
+          "rows": [
+            4661,
+            4552
+          ],
+          "expected": [
+            "21.0672",
+            "42.1344",
+            "119.7"
+          ],
+          "actual": [
+            "21.0672",
+            "42.134399999999999",
+            "119.7"
+          ],
+          "high_present": "21.0672"
+        },
+        {
+          "rows": [
+            4655,
+            4673
+          ],
+          "expected": [
+            "22.982400000000002",
+            "33.516",
+            "124.48800000000001"
+          ],
+          "actual": [
+            "22.982400000000002",
+            "33.515999999999998",
+            "124.48800000000001"
+          ],
+          "high_present": "22.982400000000002"
+        },
+        {
+          "rows": [
+            5787,
+            5795
+          ],
+          "expected": [
+            "24.2424",
+            "58.3333",
+            "70.4545"
+          ],
+          "actual": [
+            "24.2424",
+            "58.333300000000001",
+            "70.454499999999996"
+          ],
+          "high_present": "24.2424"
+        },
+        {
+          "rows": [
+            1757,
+            6684
+          ],
+          "expected": [
+            "24.525",
+            "588.5999999999999",
+            "1177.1999999999998"
+          ],
+          "actual": [
+            "24.524999999999999",
+            "588.59999999999991",
+            "1177.1999999999998"
+          ],
+          "high_present": "24.524999999999999"
+        },
+        {
+          "rows": [
+            711,
+            3425
+          ],
+          "expected": [
+            "27.9585",
+            "44.145",
+            "61.17135864"
+          ],
+          "actual": [
+            "27.958500000000001",
+            "44.145000000000003",
+            "61.171358640000001"
+          ],
+          "high_present": "27.958500000000001"
+        },
+        {
+          "rows": [
+            4656,
+            4672
+          ],
+          "expected": [
+            "28.728",
+            "53.625600000000006",
+            "296.85600000000005"
+          ],
+          "actual": [
+            "28.728000000000002",
+            "53.625600000000006",
+            "296.85600000000005"
+          ],
+          "high_present": "28.728000000000002"
+        }
+      ],
+      "keys_match_complete_ambiguous_set": false,
+      "extremes_mismatch_count": 25
+    },
+    {
+      "interpretation": "shortest decimal of parsed binary64",
+      "paired_numeric_rows": 4319,
+      "past_greater_than_present": 3330,
+      "ambiguous_present_values": 252,
+      "supplied_groups": 252,
+      "mismatched_supplied_groups": 0,
+      "mismatch_examples": [],
+      "keys_match_complete_ambiguous_set": true,
+      "extremes_mismatch_count": 0
+    }
+  ],
+  "four_kPa_rows": {
+    "7053": {
+      "B7053": "Canada",
+      "C7053": "Saint-Alban, Quebec",
+      "G7053": "4",
+      "H7053": "22"
+    },
+    "9593": {
+      "C9593": "Vaasa test embankment",
+      "G9593": "4",
+      "H9593": "165"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+'ActiveHug.GuardTwoEffects.one_opening_two_effects' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.reversal_keeps_guard_update_AB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.reversal_keeps_guard_update_BA' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.reversal_keeps_guard_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.guard_response_same_after_reversal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ActiveHug.GuardTwoEffects.guard_response_cannot_tell_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ActiveHug.GuardTwoEffects.admittedToB_is_size' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.guard_loss_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ActiveHug.GuardTwoEffects.guard_response_cannot_tell_positive_motion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

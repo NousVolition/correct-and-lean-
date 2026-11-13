@@ -1,0 +1,201 @@
+{
+  "status": "PASS",
+  "principal_axiom_reports": 34,
+  "new_modules": [
+    {
+      "module": "WindingField",
+      "status": "PASS",
+      "source_sha256": "75723e6336376a7d34057a0b1355795ac6c47df50bcf16d18d601d5926fbbf8b",
+      "object_sha256": "dfe37ff02ac62607df80567a96a696535a581472be858c1eaf634168afa857f2",
+      "exit_code": 0,
+      "log": "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/logs/WindingField-20261112T095728.log",
+      "log_sha256": "f3da9e616b48ae065dae8fa6ae7d1fe89480d116b520249559e6db0c1598c9d5",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axiom_reports": [
+        "ClosestPointExample.Winding.field_divergence",
+        "ClosestPointExample.Winding.field_beltrami",
+        "ClosestPointExample.Winding.field_laplacian",
+        "ClosestPointExample.Winding.field_smooth",
+        "ClosestPointExample.Winding.field_on_plane",
+        "ClosestPointExample.Winding.field_at_A",
+        "ClosestPointExample.Winding.plane_nonzero"
+      ],
+      "command": [
+        "$USER_HOME/verification/bin/lake",
+        "env",
+        "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+        "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean",
+        "-o",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingField.olean",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingField.lean"
+      ],
+      "started_at_utc": "2026-11-12T09:57:28.804384+00:00",
+      "finished_at_utc": "2026-11-12T09:58:27.202377+00:00",
+      "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+    },
+    {
+      "module": "WindingFluid",
+      "status": "PASS",
+      "source_sha256": "4b3c6917cd028b9a1e7ec98665629ae90c7e6057d30eee1f404cf803e036d5e1",
+      "object_sha256": "8bc8e5453cbce7263b284db0fc9a94746ba533e6c4b0414563b61f7cf5146b92",
+      "exit_code": 0,
+      "log": "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/logs/WindingFluid-20261112T100239.log",
+      "log_sha256": "7ab30b7a33856731b71d673ea21aa4ae0b1ef33edfb25de217e96b81929ff4b1",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axiom_reports": [
+        "ClosestPointExample.Winding.solves_navier_stokes",
+        "ClosestPointExample.Winding.flow_divergence",
+        "ClosestPointExample.Winding.smooth_flow",
+        "ClosestPointExample.Winding.smooth_pressure",
+        "ClosestPointExample.Winding.periodic_flow",
+        "ClosestPointExample.Winding.periodic_pressure",
+        "ClosestPointExample.Winding.paddle_at_A",
+        "ClosestPointExample.Winding.positive_swirl_on_plane"
+      ],
+      "command": [
+        "$USER_HOME/verification/bin/lake",
+        "env",
+        "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+        "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean",
+        "-o",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingFluid.olean",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingFluid.lean"
+      ],
+      "started_at_utc": "2026-11-12T10:02:39.098447+00:00",
+      "finished_at_utc": "2026-11-12T10:03:40.535743+00:00",
+      "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+    },
+    {
+      "module": "WindingCurve",
+      "status": "PASS",
+      "source_sha256": "9d82db519fd055d5d0b6df7cd51475230785c77d4a590d50667fb03b84fa511c",
+      "object_sha256": "31b441d7f26103e5a326341f42b2b91282b4efa24a9650f9470ee5875a8a8492",
+      "exit_code": 0,
+      "log": "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/logs/WindingCurve-20261112T100239.log",
+      "log_sha256": "1bbb997bd1eaf61ec39053083515f956dec6c32b92a0140144940a9865e59e5c",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axiom_reports": [
+        "ClosestPointExample.Winding.lift_derivative",
+        "ClosestPointExample.Winding.gain_bounds",
+        "ClosestPointExample.Winding.lift_at_integer",
+        "ClosestPointExample.Winding.lift_linear_error",
+        "ClosestPointExample.Winding.curve_tangent",
+        "ClosestPointExample.Winding.curve_scale_positive",
+        "ClosestPointExample.Winding.closed_returns",
+        "ClosestPointExample.Winding.open_never_returns",
+        "ClosestPointExample.Winding.global_closest_bound"
+      ],
+      "command": [
+        "$USER_HOME/verification/bin/lake",
+        "env",
+        "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+        "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean",
+        "-o",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingCurve.olean",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingCurve.lean"
+      ],
+      "started_at_utc": "2026-11-12T10:02:39.097839+00:00",
+      "finished_at_utc": "2026-11-12T10:03:41.299975+00:00",
+      "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+    },
+    {
+      "module": "WindingInstance",
+      "status": "PASS",
+      "source_sha256": "2e3cde5be3fcee37d41c54ab65e5de2012df667e0ed6fc709e043db56770c4c4",
+      "object_sha256": "dbfede18a9f80cb4fde24a6b64ef31c16ee68b9f9b86f717ed22ec7baae93965",
+      "exit_code": 0,
+      "log": "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/logs/WindingInstance-20261112T100802.log",
+      "log_sha256": "9914f32e85bf5bedc00843e7db9737f9ec7f29b902595440d7716b41713a7071",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axiom_reports": [
+        "ClosestPointExample.Winding.lift_surjective",
+        "ClosestPointExample.Winding.global_clock_bijective",
+        "ClosestPointExample.Winding.complete_vortex_curve_at_tick",
+        "ClosestPointExample.Winding.curves_persist_at_every_finite_time",
+        "ClosestPointExample.Winding.swirl_never_approaches_zero_on_the_line",
+        "ClosestPointExample.Winding.exact_closest_reading",
+        "ClosestPointExample.Winding.both_solve_same_fluid_equations",
+        "ClosestPointExample.Winding.same_observation",
+        "ClosestPointExample.Winding.opposite_closure",
+        "ClosestPointExample.Winding.no_exact_reader_with_closest_point_and_paddle"
+      ],
+      "command": [
+        "$USER_HOME/verification/bin/lake",
+        "env",
+        "/opt/lean-audit/lean-4.34.0-rc2-linux/bin/lean",
+        "--root=$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean",
+        "-o",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingInstance.olean",
+        "$USER_HOME/Documents/Codex/2026-11-10/lo/outputs/Swirl without return/lean/WindingInstance.lean"
+      ],
+      "started_at_utc": "2026-11-12T10:08:02.811627+00:00",
+      "finished_at_utc": "2026-11-12T10:08:58.151422+00:00",
+      "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "mathlib_commit": "85e3a25e006c35636f0e53b0e9296caca2685bc0"
+    }
+  ],
+  "retained_dependencies": [
+    {
+      "module": "SIMSLatentReadout",
+      "source_sha256": "37b84f3dc6192262aa15840af6ab5cb79b12a0a76fcd1e43e061dd1e69b75ce4",
+      "object_sha256": "5860a186bc09c71b24206815b8c95b14214984264d90b98920dfb18a9d66a402",
+      "status": "prior successful check retained; hashes match"
+    },
+    {
+      "module": "ClosestPointGeometry",
+      "source_sha256": "5a4b73a2d788e5e600b4cec8a73707a47d4fd42cc26e1f592be79e245862e5ed",
+      "object_sha256": "ad4f96f176b3487484be5f2dad49d9edc7fb5d53caf3f3fe5006f2e010f15893",
+      "status": "prior successful check retained; hashes match"
+    },
+    {
+      "module": "PeriodicNavierStokes",
+      "source_sha256": "6f0541f30f12cb69866139d1d1c48369a6bdbab6208af9d6befbf432e21dcc2b",
+      "object_sha256": "7e7e93ac94f16d68bf8d1d5b94562fc8f924540879c64f6b830fb354a47c1507",
+      "status": "prior successful check retained; hashes match"
+    }
+  ],
+  "scope": "Same closest-point reading and full vorticity at A; open line has a positive spatial swirl bound and never returns",
+  "observation": {
+    "time": "6/5",
+    "closest_point": [
+      "0",
+      "0",
+      "0"
+    ],
+    "arclength": "0",
+    "distance": "1/4",
+    "vorticity": [
+      "0",
+      "4*pi*exp(-(3/200)*(4*pi)^2*(6/5))",
+      "0"
+    ]
+  },
+  "spatial_swirl_strength_lower_bound_relative_to_A": "1/sqrt(2)",
+  "closure_proof": "Irrational winding: any return would force sqrt(2) times a positive integer to be an integer",
+  "global_parameter": "strictly increasing bijection from R to R; derivative relation to actual curl verified",
+  "geometry_persists_at_all_finite_fluid_times": true,
+  "external_force": "zero",
+  "pressure": "-squared Euclidean velocity norm / 2",
+  "previous_stationary_material_histories_preserved": false,
+  "original_data_and_proofs": "read only; no simulation rerun",
+  "fresh_installation_tested": false
+}

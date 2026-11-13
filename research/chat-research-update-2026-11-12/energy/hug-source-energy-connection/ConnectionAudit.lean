@@ -1,0 +1,20 @@
+import MaterialConfiguration
+
+#print axioms HugSourceEnergy.expression_derivative
+#print axioms HugSourceEnergy.record_energy_balance
+#print axioms HugSourceEnergy.unstrained_energy_zero
+#print axioms HugSourceEnergy.unstrained_stress_zero
+#print axioms HugSourceEnergy.unstrained_write_conjugate_zero
+#print axioms HugSourceEnergy.write_conjugate_nonnegative
+#print axioms HugSourceEnergy.changing_records_can_change_response
+#print axioms HugSourceEnergy.no_viscous_power_no_writing
+#print axioms HugSourceEnergy.recording_power_bound
+#print axioms HugSourceEnergy.material_total_residual
+#print axioms HugSourceEnergy.material_conservation_iff_zero_source_power
+#print axioms HugSourceEnergy.fixed_strain_and_record_energy_rate_zero
+#print axioms HugSourceEnergy.material_direction_derivative
+#print axioms HugSourceEnergy.directional_strain_derivative
+#print axioms HugSourceEnergy.symmetric_gradient_same_directional_rate
+#print axioms HugSourceEnergy.tensor_work_matches_strain_work
+#print axioms HugSourceEnergy.configuration_record_energy_balance
+#print axioms HugSourceEnergy.zero_velocity_gradient_no_directional_strain_rate

@@ -1,0 +1,35 @@
+{
+  "source": "User-pasted independent report in this chat; independent script and intermediate values not supplied",
+  "claimed_frames": [
+    0,
+    400,
+    599,
+    600
+  ],
+  "labels": [
+    "Base strain",
+    "Memory-weighted strain",
+    "Fabric total (microstrain plus quartic wells)",
+    "Total"
+  ],
+  "user_displayed_changes": [
+    1.092613e-06,
+    7.824692e-07,
+    4.320524e-08,
+    1.918287e-06
+  ],
+  "previous_62_frame_check_changes": [
+    1.0926125217812286e-06,
+    7.82469164008826e-07,
+    4.3205244336092364e-08,
+    1.9182869301261462e-06
+  ],
+  "all_match_at_displayed_precision": true,
+  "preserved_limits": [
+    "Four frames, not 62",
+    "Independent report did not check relaxation-to-heat accounting",
+    "Independent report did not inspect the original notes"
+  ],
+  "interpretation": "Endpoint arithmetic corroboration only; the pasted fabric category groups two terms, not the quartic term alone.",
+  "comparison_evidence_sha256": "7079f2193162850f4b94ead15fc5043e74023dff4d1188be67be7211075f909b"
+}

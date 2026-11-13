@@ -1,0 +1,48 @@
+{
+  "checked_utc": "2026-11-12T10:07:10.000744+00:00",
+  "lean": "PASS",
+  "new_theorem_count": 6,
+  "theorems": [
+    "FullCarrying.pullback_rate_algebra",
+    "FullCarrying.carried_gradient_rate",
+    "FullCarrying.recover_spatial_gradient",
+    "FullCarrying.carried_gradient_history",
+    "FullCarrying.required_transfer_split",
+    "FullCarrying.complete_existing_transfers"
+  ],
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "sorryAx": false,
+  "requested_physical_storage": "NOT IDENTIFIED. Full carrying activation relation derived; demand decomposed; existing material/heat transfers verified and already accounted.",
+  "original_equations_and_read_sources_unchanged": true,
+  "original_run_replayed_steps": 600,
+  "pair25_new_solver_steps": 0,
+  "pair25_membership_bits_recomputed": 9452916,
+  "native_rate_balance_max_error": 3.2526065174565133e-19,
+  "source_sha256": {
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-source-energy-connection\\sources\\STRUCTURAL_MEMORY.md": "c55aaa99a5d07c4f211b0433b33c3af8b5d5d0ef0d00c1cfc85160aa77a688a2",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-source-energy-connection\\sources\\COUPLED_FIELD.md": "148d7ac174c9ea033b98a1ca4b54f40c5111a84a4c5fa80a4035635873325a2d",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\hug-source-energy-connection\\sources\\HOLDING_AND_ENERGY.md": "e95018bdd8428b92229aff5ab31656bfb8dd3b6b9df0ae8293784182a0d60dba",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\gravity-storage-derivation\\source-check.json": "8d66fb443ac8231bab98c5a6f99ce21ea0187eaa4d1e9221a13d684819f5dc4f",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\unwrapped-carrying-history\\path-results-12-16.json": "5f15297c03d6f4fcab9d3106edbd8250ef38739b00f2aad807fe9c0842befeb7",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\full-carrying\\activation-stage-parts.npz": "152edf70dafffe8e6852b71028ea7adaf6b65280099c671e502d203d8546968a",
+    "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unwrapped-history\\force-history.npz": "0a51f2641b1a65f6b9531126d5b360ecec055a453005772d591bee51bd16cc17"
+  },
+  "limitations": [
+    "Conditional finite-dimensional Lean identities, not a full PDE evolution or commutator proof",
+    "No independently identified gravitational store or general total-energy conservation theorem",
+    "Numerical activation split is resolution-dependent and includes a retained transport/discretization term",
+    "Pair 25 and threshold-1 are different saved experiments",
+    "No independent external kernel run; dependency cache pin inherited"
+  ],
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "dependency": {
+    "head": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+    "tracked_clean": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\NavierStokesAndEuler-audit\\.lake\\packages\\mathlib",
+    "checked_utc": "2026-11-12T08:10:24.4285603Z"
+  }
+}

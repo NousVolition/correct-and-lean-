@@ -1,0 +1,54 @@
+{
+  "checked_utc": "2026-11-12T08:42:24.988696+00:00",
+  "scope": "Fresh local source reads; no original source edited. Historical stage labels retained. Latest user meaning takes precedence over old role interpretations.",
+  "sources": [
+    {
+      "path": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\STRUCTURAL_MEMORY.md",
+      "copy": "sources/STRUCTURAL_MEMORY.md",
+      "sha256": "c55aaa99a5d07c4f211b0433b33c3af8b5d5d0ef0d00c1cfc85160aa77a688a2",
+      "unchanged": true
+    },
+    {
+      "path": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\HOLDING_AND_ENERGY.md",
+      "copy": "sources/HOLDING_AND_ENERGY.md",
+      "sha256": "e95018bdd8428b92229aff5ab31656bfb8dd3b6b9df0ae8293784182a0d60dba",
+      "unchanged": true
+    },
+    {
+      "path": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\COUPLED_FIELD.md",
+      "copy": "sources/COUPLED_FIELD.md",
+      "sha256": "148d7ac174c9ea033b98a1ca4b54f40c5111a84a4c5fa80a4035635873325a2d",
+      "unchanged": true
+    },
+    {
+      "path": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\structural_memory.py",
+      "copy": "sources/structural_memory.py",
+      "sha256": "f0365c6d888a8cc0300fc817dfae3c6b5acdcf8e60a3364949a13bb3fb475188",
+      "unchanged": true
+    },
+    {
+      "path": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\decisions.json",
+      "copy": "sources/decisions.json",
+      "sha256": "042723daa7f10fa2b31e55db508ba7b806c02cb76bba4a5ab318e62a24ba3187",
+      "unchanged": true
+    },
+    {
+      "path": "$USER_HOME\\Documents\\Codex\\2026-10-08\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\hug-field-specification\\SOURCES.md",
+      "copy": "sources/SOURCES.md",
+      "sha256": "920bafeaa07a7f356fb84cb141514ab17ca4ee559fb56d5648575b5dc9ac1a75",
+      "unchanged": true
+    },
+    {
+      "path": "$USER_HOME\\Documents\\Codex\\2026-10-05\\ca\\outputs\\sims-framework-correction-20261022\\sources\\corrected-corpus.docx",
+      "sha256": "01f9ab0942f9c88982863e2ffc1e3c495786b5e6b67a26ae77d18235e7058acf",
+      "unchanged": true,
+      "operation": "Read-only XML text extraction; 638 paragraphs exactly matched retained extraction"
+    },
+    {
+      "path": "$USER_HOME\\Documents\\Codex\\2026-10-05\\ca\\outputs\\sims-framework-correction-20261022\\sources\\original-framework.pdf",
+      "sha256": "9a923cd9d8ad6798d125424e8c3adc9ec7af74dd459089b277620e7843333d77",
+      "unchanged": true,
+      "operation": "Read-only PDF text extraction; no rendered-layout claim"
+    }
+  ]
+}

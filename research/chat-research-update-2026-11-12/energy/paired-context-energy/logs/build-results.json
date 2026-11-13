@@ -1,0 +1,36 @@
+[
+  {
+    "module": "PairContext",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T10:55:48.3700957Z",
+    "finished_utc": "2026-11-12T10:57:08.9831688Z",
+    "source_sha256": "AFDB8C18F28A3F569EE536BC84E82D7EB6EBC73BEB76B3C78B32EDFC7B45C518",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\paired-context-energy\\PairContext.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\build\\PairContext.olean",
+      "PairContext.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\paired-context-energy\\logs-proof-3\\PairContext.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "module": "PairContextAudit",
+    "exit_code": 0,
+    "started_utc": "2026-11-12T10:57:09.0159030Z",
+    "finished_utc": "2026-11-12T10:58:22.2987052Z",
+    "source_sha256": "E783BF6D36C38B0E5BF7B7F848A31BC76A997D2ACEBD3652EA11AA09B8696729",
+    "source_unchanged": true,
+    "source": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\outputs\\paired-context-energy\\PairContextAudit.lean",
+    "command": [
+      "$USER_HOME\\Documents\\Codex\\2026-10-28\\new-chat-4\\work\\toolchains\\lean-4.34.0-rc2-windows\\bin\\lean.exe",
+      "-o",
+      "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\unforced-energy\\build\\PairContextAudit.olean",
+      "PairContextAudit.lean"
+    ],
+    "log": "$USER_HOME\\Documents\\Codex\\2026-11-11\\files-pasted-by-the-user-import\\work\\paired-context-energy\\logs-proof-3\\PairContextAudit.log",
+    "log_sha256": "11EB63FA8EC0F56FAA3AE0A1A8C9EE208EE4B2296D7759500B49F3BEDA2675C1"
+  }
+]
