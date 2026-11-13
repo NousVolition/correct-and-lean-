@@ -1,4 +1,9 @@
+/.gitattributes text eol=lf
 *.json text eol=lf
 *.py text eol=lf
 *.md text eol=lf
 data/** -text
+
+# Preserve the committed bytes of these published audit records.
+/results.json -text
+/source-manifest.json -text

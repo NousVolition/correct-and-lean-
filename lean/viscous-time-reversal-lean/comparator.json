@@ -1,0 +1,26 @@
+{
+  "challenge_module": "ViscousTimeReversalChallenge",
+  "solution_module": "ViscousTimeReversalProofs",
+  "enable_nanoda": true,
+  "theorem_names": [
+    "ViscousTimeReversal.reverseTime_twice",
+    "ViscousTimeReversal.timeReverse_derivative",
+    "ViscousTimeReversal.viscosity_reversal",
+    "ViscousTimeReversal.whole_rhs_reversal",
+    "ViscousTimeReversal.forwardFactor_derivative",
+    "ViscousTimeReversal.backwardFactor_derivative",
+    "ViscousTimeReversal.forward_damping",
+    "ViscousTimeReversal.backward_amplification",
+    "ViscousTimeReversal.forward_strict_damping",
+    "ViscousTimeReversal.backward_strict_amplification",
+    "ViscousTimeReversal.higher_frequency_amplification",
+    "ViscousTimeReversal.factor_cancellation",
+    "ViscousTimeReversal.negative_step_reverses_rate",
+    "ViscousTimeReversal.double_sign_flip_restores_forward"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

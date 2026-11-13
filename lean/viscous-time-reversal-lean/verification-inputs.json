@@ -1,0 +1,12 @@
+{
+  "files": {
+    "ViscousTimeReversalDefinitions.lean": "adcbcbd8dcedeac9cb6336d740468fd6fa5f20ed740edf5bdb98ce5db3b86810",
+    "ViscousTimeReversalChallenge.lean": "35b9e74f470f755eb0ea0a5210be0848570b6cedda974ebccb85231af2c4db98",
+    "ViscousTimeReversalProofs.lean": "9d9ad45142d9c8974495da5217b83dc56768d605c1bbb35a1c7c9fc80165adea",
+    "comparator.json": "a40dd78bc693e065dc20c84498c2d2af40f58b470928c9899908bdb80d8131c3",
+    "lakefile.toml": "05a5b10ba80278aef97cf0a7cd501dc4a95ccb8c2a2e8d4112e945e7f988ae4b",
+    "lake-manifest.json": "10b1ae73dc69f16c055fe9fef3b3271670780276c27dae479a13652ad34e4605",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
+  },
+  "scope": "Fourteen real-scalar statements: the time-reversal chain rule, sign reversal of a given viscous rate and complete scalar RHS, exponential damping/amplification for an assumed Laplacian eigenmode, and Euler-increment sign identities."
+}

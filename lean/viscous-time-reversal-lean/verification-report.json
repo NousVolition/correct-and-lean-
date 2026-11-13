@@ -1,0 +1,14 @@
+{
+  "comparator": "NOT_RUN",
+  "lean_kernel": "NOT_RUN",
+  "nanoda": "NOT_RUN",
+  "lean_build": "NOT_RUN",
+  "scope": "Fourteen real-scalar statements: the time-reversal chain rule, sign reversal of a given viscous rate and complete scalar RHS, exponential damping/amplification for an assumed Laplacian eigenmode, and Euler-increment sign identities.",
+  "open_items": [
+    "No proof of the coupled Hug solver, threshold switching, path convergence, or residual balance.",
+    "No spatial PDE construction or spectral decomposition; q is a supplied Laplacian eigenvalue magnitude.",
+    "No stable backward reconstruction theorem; exact exponential cancellation does not imply numerical stability.",
+    "No claim that a negative step of a finite-step integrator is its exact inverse.",
+    "No Yang-Mills or readJet result."
+  ]
+}
