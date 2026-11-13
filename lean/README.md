@@ -42,6 +42,8 @@ We start here because this smaller model separates three questions that recur la
 
 The **next two concern particular reduced Hug models**.
 
+After A/S, we ask the same questions in models involving pressure, shape, guards and energy: **which component rules hold, and can a specified model evolve uniquely while keeping its guards within bounds?** Package 4 checks particular properties and limitations; package 5 answers the evolution question for the specified eight-variable model. These packages have their own equations and assumptions. The full unforced continuum and separate memory-field evolution remain unfinished; the spatial questions follow in packages 6–9.
+
 4. **[hug-squeeze-lean](hug-squeeze-lean/) — Pressure, shape, guards and energy.**
 
    **Proved:** 51 specified properties, including pressure-response formulas, retention, reversible geometric transformations, guard bounds and energy accounting. It also proves limitations: a numerical “connected” flag can allow a small gap, and the active model can gain energy.
