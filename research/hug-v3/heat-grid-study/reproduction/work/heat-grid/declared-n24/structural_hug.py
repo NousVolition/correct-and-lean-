@@ -1,0 +1,231 @@
+"""Declared synthetic material-memory candidate, not calibrated clay or human memory."""
+from dataclasses import dataclass
+from pathlib import Path
+import json, struct, zlib
+import numpy as np
+from social_base import Config as BaseConfig, Solver as BaseSolver
+from continuum import strain_tensor, strain_magnitude
+
+ROOT=Path(__file__).resolve().parent
+COMP=((0,0),(1,1),(2,2),(0,1),(0,2),(1,2))
+HEADER=23
+MAGIC=1729
+
+@dataclass
+class Config(BaseConfig):
+    n:int=16
+    radial:int=4
+    polar:int=8
+    azimuth:int=12
+    end:float=1.6
+    capacity:int=4
+    micro_k:float=.04
+    well_height:float=.002
+    rest_amplitude:float=.02
+    fabric_mobility:float=.05
+    strain_quantum:float=.0001
+    feature_quantum:float=.0001
+    clock_quantum:float=.001
+    probe_strain:float=.001
+    read_margin:float=.25
+    stroke_drag:float=.05
+    stroke_duration:float=.02
+    write_budget:float=.02
+    read_feedback:float=1.
+
+class MemoryReadError(RuntimeError):pass
+class CapacityError(RuntimeError):pass
+
+def outcome_score(observed,recipient_report):
+    """Action label is deliberately absent. None denotes missing evidence."""
+    vals=[x for x in (observed,recipient_report) if x is not None]
+    if not vals:return None
+    if not all(np.isfinite(x) and -1<=x<=1 for x in vals):raise ValueError('outcome outside declared [-1,1]')
+    return float(np.mean(vals))
+
+class Fabric:
+    """Bistable rest-strain inclusions with material-addressed traction probes."""
+    def __init__(self,config,X,V):
+        self.c=config;self.X=X.copy();self.V=V.copy();self.P=len(V)
+        self.byte_count=2*(HEADER+6*self.P)+4
+        self.bits_per_slot=self.byte_count*8
+        self.size=config.capacity*self.bits_per_slot
+        index=np.arange(self.size);self.point=index%self.P;self.axis=(index//self.P)%3
+        counts=np.bincount(self.point,minlength=self.P)
+        self.local_weight=1/counts[self.point]
+        self.weight=self.V[self.point]*self.local_weight
+    def initial(self):return np.full(self.size,-self.c.rest_amplitude)
+    def local_strain(self,F):
+        ea=(np.sum(F*F,axis=1)-1)/2
+        return ea[self.point,self.axis]
+    def energy_force(self,e,b):
+        c=self.c
+        w=.5*c.micro_k*(e-b)**2+c.well_height/4*((b/c.rest_amplitude)**2-1)**2
+        stress=c.micro_k*(e-b)
+        gradient=c.micro_k*(b-e)+c.well_height*b/c.rest_amplitude**2*((b/c.rest_amplitude)**2-1)
+        return w,stress,gradient
+    def constitutive(self,F,b):
+        e=self.local_strain(F);w,force,g=self.energy_force(e,b);c=self.c
+        bd=-c.fabric_mobility*g
+        W=np.bincount(self.point,weights=self.local_weight*w,minlength=self.P)
+        heat=np.bincount(self.point,weights=self.local_weight*c.fabric_mobility*g*g,minlength=self.P)
+        coefficients=np.bincount(self.point*3+self.axis,weights=self.local_weight*force,minlength=self.P*3).reshape(self.P,3)
+        tau=np.einsum('pa,pia,pja->pij',coefficients,F,F)
+        return W,tau,heat,bd
+    def probe(self,F,b,noise=None):
+        """Virtual two-load microtraction experiment; no metadata returned."""
+        e=self.local_strain(F);q=self.c.probe_strain
+        loads=np.stack([e-q,e+q])
+        tractions=np.stack([self.energy_force(load,b)[1] for load in loads])
+        if noise is not None:tractions=tractions+np.asarray(noise)
+        return loads,tractions
+    def bits_from_probe(self,loads,tractions):
+        c=self.c
+        estimated=np.mean(loads-tractions/c.micro_k,axis=0)
+        if estimated.shape!=(self.size,) or not np.isfinite(estimated).all():raise MemoryReadError('invalid probe shape/value')
+        if np.min(np.abs(estimated))<c.read_margin*c.rest_amplitude:raise MemoryReadError('ambiguous rest-strain well; no repair or archive fallback')
+        return (estimated>0).astype(np.uint8)
+    def quant(self,x,quantum):
+        q=np.rint(np.asarray(x)/quantum)
+        if not np.isfinite(q).all() or np.any(q<-32768) or np.any(q>32767):raise ValueError('declared encoding range exceeded; no clipping')
+        return q.astype('<i2')
+    def payload(self,record):
+        c=self.c
+        required={'origin','recipient','event_id','start','end','predecessors','observed','recipient_report','context','recognition','authority','actions','delta_E'}
+        if set(record)!=required:raise ValueError('event schema mismatch: '+str(set(record)^required))
+        if record['origin']==record['recipient'] or not all(isinstance(record[k],int) and 0<=record[k]<6 for k in ['origin','recipient']):raise ValueError('distinct directed actor IDs required')
+        if not isinstance(record['event_id'],int) or not 0<=record['event_id']<15:raise ValueError('event ID outside finite codebook')
+        if not 0<=record['start']<record['end'] or not isinstance(record['predecessors'],int) or not 0<=record['predecessors']<32768:raise ValueError('invalid interval/order mask')
+        for value in (record['observed'],record['recipient_report']):outcome_score(value,None)
+        de=np.asarray(record['delta_E'])
+        if de.shape!=(self.P,6):raise ValueError('full resolved symmetric material-change field required')
+        feature=np.r_[record['context'],record['recognition'],record['authority'],record['actions']]
+        if feature.shape!=(11,):raise ValueError('feature schema mismatch')
+        h=np.zeros(HEADER,dtype='<i2')
+        h[:5]=[MAGIC,1,record['origin'],record['recipient'],record['event_id']]
+        h[5:7]=self.quant([record['start'],record['end']],c.clock_quantum)
+        h[7]=record['predecessors']
+        h[8:10]=[record['observed'] is not None,record['recipient_report'] is not None]
+        h[10:12]=self.quant([record['observed'] or 0.,record['recipient_report'] or 0.],c.feature_quantum)
+        h[12:]=self.quant(feature,c.feature_quantum)
+        body=h.tobytes()+self.quant(de,c.strain_quantum).tobytes()
+        return body+struct.pack('<I',zlib.crc32(body))
+    def unpack(self,payload):
+        if not any(payload):return None
+        body,crc=payload[:-4],payload[-4:]
+        if zlib.crc32(body)!=struct.unpack('<I',crc)[0]:raise MemoryReadError('material probe checksum failed; no archive fallback')
+        h=np.frombuffer(body,dtype='<i2')[:HEADER];c=self.c
+        if tuple(h[:2])!=(MAGIC,1):raise MemoryReadError('material code header failed')
+        if h[2]==h[3] or not (0<=h[2]<6 and 0<=h[3]<6 and 0<=h[4]<15):raise MemoryReadError('invalid material actor/event code')
+        de=np.frombuffer(body,dtype='<i2')[HEADER:].reshape(self.P,6)*c.strain_quantum
+        return dict(origin=int(h[2]),recipient=int(h[3]),event_id=int(h[4]),start=float(h[5]*c.clock_quantum),end=float(h[6]*c.clock_quantum),
+                    predecessors=int(h[7]),observed=float(h[10]*c.feature_quantum) if h[8] else None,
+                    recipient_report=float(h[11]*c.feature_quantum) if h[9] else None,context=h[12:14]*c.feature_quantum,
+                    recognition=float(h[14]*c.feature_quantum),authority=float(h[15]*c.feature_quantum),
+                    actions=h[16:23]*c.feature_quantum,delta_E=de)
+    def decode_probe(self,loads,tractions):
+        bits=self.bits_from_probe(loads,tractions)
+        packed=np.packbits(bits,bitorder='little').reshape(self.c.capacity,self.byte_count)
+        records=[]
+        for slot,row in enumerate(packed):
+            decoded=self.unpack(row.tobytes())
+            if decoded is not None:records.append((slot,decoded))
+        return records
+    def read(self,F,b):return self.decode_probe(*self.probe(F,b))
+    def energy(self,F,b):return float(np.dot(self.weight,self.energy_force(self.local_strain(F),b)[0]))
+    def prepare_write(self,F,b,record,budget):
+        decoded=self.read(F,b)
+        if any(r['event_id']==record['event_id'] for _,r in decoded):raise ValueError('duplicate event ID')
+        used={slot for slot,_ in decoded}
+        free=[i for i in range(self.c.capacity) if i not in used]
+        if not free:raise CapacityError('declared material capacity exhausted; no overwrite')
+        payload=self.payload(record);bits=np.unpackbits(np.frombuffer(payload,dtype=np.uint8),bitorder='little')
+        slot=free[0];sl=slice(slot*self.bits_per_slot,(slot+1)*self.bits_per_slot)
+        target=b.copy();target[sl]=self.c.rest_amplitude*(2*bits.astype(float)-1)
+        delta=target-b
+        heat_cell=self.c.stroke_drag*delta*delta/self.c.stroke_duration
+        heat=np.bincount(self.point,weights=self.local_weight*heat_cell,minlength=self.P)
+        stored=self.energy(F,target)-self.energy(F,b)
+        dissipation=float(np.dot(self.V,heat));work=stored+dissipation
+        # Peak net supplied work along the declared linear stroke, not just its end.
+        e=self.local_strain(F);c=self.c;a=c.rest_amplitude;d=delta
+        # Exact quartic work along the linear stroke; no sampled peak shortcut.
+        coefficients=np.array([0.,
+            np.dot(self.weight,(-c.micro_k*(e-b)+c.well_height*b/a**2*((b/a)**2-1))*d)+dissipation,
+            np.dot(self.weight,(.5*c.micro_k+c.well_height*(3*b*b-a*a)/(2*a**4))*d*d),
+            np.dot(self.weight,c.well_height*b*d**3/a**4),
+            np.dot(self.weight,c.well_height*d**4/(4*a**4))])
+        stationary=np.polynomial.polynomial.polyroots(np.arange(1,5)*coefficients[1:])
+        candidates=[0.,1.]+[float(z.real) for z in stationary if abs(z.imag)<1e-10 and 0<z.real<1]
+        peak=max(float(np.polynomial.polynomial.polyval(x,coefficients)) for x in candidates)
+        # For 0<=x<=1, the sum of positive coefficients is a conservative upper bound.
+        required_budget=float(np.maximum(coefficients,0).sum())
+        if not np.isfinite(budget) or budget<required_budget or work<0:raise ValueError('insufficient writing work budget or undeclared recovery path')
+        return target,heat,dict(slot=slot,work=work,stored=stored,heat=dissipation,peak_work=peak,
+                               required_budget=required_budget,crc=zlib.crc32(payload[:-4]))
+
+class Solver(BaseSolver):
+    def __init__(self,c):
+        from preflight import guard_config
+        guard_config(c)
+        super().__init__(c)
+        self.fabric=Fabric(c,self.X0,self.V)
+    def append_record(self,*args,**kwargs):return None
+    def episode(self,*args,**kwargs):raise RuntimeError('External episodic archive is disabled in structural v3')
+    def initial(self):
+        s=super().initial();s['b']=self.fabric.initial();s['write_work']=np.array(0.)
+        self.utility_baseline=self.utility(s,np.zeros((self.N,3)))
+        return s
+    def extra_constitutive(self,s,L):
+        W,tau,heat,bd=self.fabric.constitutive(s['F'],s['b'])
+        return W,tau,heat,dict(b=bd,write_work=np.array(0.))
+    def read_material(self,s):
+        return self.fabric.read(s['F'],s['b'])
+    def retrieve(self,t,s):
+        mem=np.zeros((self.N,self.N,4));exposure=np.zeros((self.N,self.N));old=np.zeros_like(exposure)
+        if 'b' not in s:return mem,exposure,old
+        numerator=np.zeros_like(mem);cue=self.memory_feature(s)+.15*np.tanh(s['association'])
+        for _,r in self.read_material(s):
+            i,j=r['recipient'],r['origin']
+            y=outcome_score(r['observed'],r['recipient_report'])
+            if y is None:continue
+            tensor=np.zeros((self.P,3,3))
+            for k,(a,b) in enumerate(COMP):tensor[:,a,b]=tensor[:,b,a]=r['delta_E'][:,k]
+            change=np.linalg.norm(tensor,axis=(1,2))
+            feature=np.r_[r['context'],np.tanh(.5*((self.attach[i]+self.attach[j])@change)/.12)]
+            diff=feature-cue[i,j];diff[2]*=self.c.field_feedback
+            weight=(r['end']-r['start'])*np.exp(-np.dot(diff,diff)/(2*self.c.history_width**2))
+            evidence=np.array([max(y,0),max(-y,0),r['recognition'],r['authority']])
+            numerator[i,j]+=weight*evidence;exposure[i,j]+=weight
+            if r['end']<.9:old[i,j]+=weight
+        mem=numerator/(self.c.history_prior+exposure)[...,None]
+        return self.c.read_feedback*mem,exposure,old/(self.c.history_prior+exposure)
+    def utility(self,s,obs):
+        mem,exposure,_=self.retrieve(0,s)
+        outcome=float(np.sum(mem[...,0]-mem[...,1])/(self.N*(self.N-1)))
+        meaning=np.mean(np.sum((s['expression']-self.intent)**2,axis=-1))
+        reception=np.sum(np.tanh(self.margins(s)/.4)*self.mask_social)/(self.N*(self.N-1))
+        return .35*outcome-.2*meaning+.2*reception+.08*np.mean(np.tanh(obs[:,0]))
+    def step(self,t,s,dt):
+        k1=self.rhs(t,s);pred={k:s[k]+dt*k1[k] for k in s}
+        k2=self.rhs(t+dt,pred)
+        return {k:s[k]+dt/2*(k1[k]+k2[k]) for k in s}
+    def make_event(self,s,Fstart,event):
+        origin,recipient=event['origin'],event['recipient']
+        delta=strain_tensor(s['F'])-strain_tensor(Fstart)
+        predecessors=sum(1<<r['event_id'] for _,r in self.read_material(s) if r['end']<=event['start'])
+        return dict(origin=origin,recipient=recipient,event_id=event['event_id'],start=event['start'],end=event['end'],
+                    predecessors=predecessors,observed=event['observed'],recipient_report=event['recipient_report'],
+                    context=.5*(s['context'][origin]+s['context'][recipient]),
+                    recognition=float(s['relation'][recipient,origin,0]),authority=float(s['relation'][recipient,origin,1]),
+                    actions=s['responses'][origin,recipient].copy(),
+                    delta_E=np.stack([delta[:,a,b] for a,b in COMP],axis=-1))
+    def write_event(self,s,record,budget=None):
+        target,heat,account=self.fabric.prepare_write(s['F'],s['b'],record,self.c.write_budget if budget is None else budget)
+        # No mutation occurs before validation of capacity/schema/range/energy.
+        out={k:v.copy() for k,v in s.items()};out['b']=target
+        R=self.matrices(s['X'])[1]
+        heat_grid=(R.T@(self.V*heat)/self.dv).reshape(self.n,self.n,self.n)
+        out['g'][...,4]+=self.filter(heat_grid)
+        out['write_work']+=account['work']
+        return out,account

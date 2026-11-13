@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "run": "n40_dt0p001",
+  "grid": 40,
+  "actual_step": 0.001,
+  "started_utc": "2026-11-12T09:55:19.047240+00:00",
+  "completed_steps": 1600,
+  "total_steps": 1600,
+  "model_time": 1.6,
+  "elapsed_seconds": 4684.735000000001
+}

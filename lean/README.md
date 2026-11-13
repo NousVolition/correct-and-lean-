@@ -191,9 +191,13 @@ The [combined package](../research/combined-yang-mills-lean/README.md) imports b
 
 [The observer-follow package](../research/hug-v3/observer-follow-lean/README.md) has 134 finite checks of the recorded neighborhood histories, crossings, context-origin accounts and shared bytes. Its [GitHub receipt](../research/hug-v3/observer-follow-study/github-lean-receipt.json) binds the exact proof inputs, targets and run. Fluid evolution and whether everything stays with either label remain unproved. Earlier 77- and 40-statement studies remain separate.
 
+## Finer-grid recorded heat
+
+[The finer-grid package](../research/hug-v3/heat-grid-lean/README.md) has **414 passing checks**: five finite rules and 409 recorded claims, including 4,820 global-account rows and complete saved-word comparisons. [Fresh GitHub build and dependency receipt](../research/hug-v3/heat-grid-lean/github-lean-receipt.json). The separate [numerical study](../research/hug-v3/heat-grid-study/README.md) passes its finest-grid time-step heat control, but the declared grid-settling test still fails. A proved recorded exceedance is not a convergence result. Lean does not verify fluid evolution or derive array measurements. This package does not change the earlier 56-check study, 12-check draft or 540/872 study.
+
 ## Following the recorded heat
 
-[The heat follow-up package](../research/hug-v3/heat-follow-lean/README.md) has **56 checks**: four general finite rules and 52 declarations covering 2,408 recorded rows and scalar diagnostics. Its [GitHub receipt](../research/hug-v3/heat-follow-lean/github-lean-receipt.json) records a fresh full Lake build, all dependency lists and exact input/target matching. The separate [numerical study](../research/hug-v3/heat-follow-study/README.md) passes time-step criteria on 16³; finer grids remain unchecked. Lean does not verify fluid evolution or spatial convergence. The earlier 12-check draft and 134-check observer study retain their separate scopes.
+[The heat follow-up package](../research/hug-v3/heat-follow-lean/README.md) has **56 checks**: four general finite rules and 52 declarations covering 2,408 recorded rows and scalar diagnostics. Its [GitHub receipt](../research/hug-v3/heat-follow-lean/github-lean-receipt.json) records a fresh full Lake build, all dependency lists and exact input/target matching. The separate [numerical study](../research/hug-v3/heat-follow-study/README.md) passes time-step criteria on 16³; finer grids were outside that historical study; see the separate finer-grid package above. Lean does not verify fluid evolution or spatial convergence. The earlier 12-check draft and 134-check observer study retain their separate scopes.
 
 ## Heat from writing
 

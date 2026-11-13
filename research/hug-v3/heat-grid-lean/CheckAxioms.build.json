@@ -1,0 +1,13 @@
+{
+  "module": "CheckAxioms",
+  "exit_code": 0,
+  "source_sha256": "6b74a8ee8ba7e5aea6e82e18cfaebb69e84f560da857e7a5b82232a4c98e2604",
+  "local_dependency_artifacts": {
+    "RecordedHeatGrid.olean": "a3b38c186f717c6cafba38a89613495b97357649e1589e2cae1b13da6264939c",
+    "RecordedWords.olean": "6765ea64352faacb2b5ffd478bc98d35870c921015ac4ad3a1dca340768a2d6b"
+  },
+  "artifact_sha256": "6b8b588f990adc59ae7d58cbf08ad68b084b0fc0d979fc0471476e0981291d65",
+  "started_utc": "2026-11-13T01:57:51.7840317+00:00",
+  "completed_utc": "2026-11-13T02:03:19.6103054+00:00",
+  "seconds": 327.827571
+}

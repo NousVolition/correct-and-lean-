@@ -1,0 +1,9 @@
+{
+  "stage": "completed",
+  "verified_utc": "2026-11-13T02:09:55.9733234+00:00",
+  "simulation_runs": 5,
+  "lean_targets": 414,
+  "time_step_heat_criteria": "PASS",
+  "grid_settling": "FAIL",
+  "publication": "local"
+}

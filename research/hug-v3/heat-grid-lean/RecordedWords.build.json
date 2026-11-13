@@ -1,0 +1,12 @@
+{
+  "module": "RecordedWords",
+  "exit_code": 0,
+  "source_sha256": "84a2966df6c546f27b93a37b885f0084ab6736cf9a7f7c9a27a75420765a1480",
+  "local_dependency_artifacts": {
+    "WordAccounting.olean": "af65ec3004777137f421aea3bca621e23e4107ab56be4ceecddc12b62f2ac17f"
+  },
+  "artifact_sha256": "6765ea64352faacb2b5ffd478bc98d35870c921015ac4ad3a1dca340768a2d6b",
+  "started_utc": "2026-11-12T11:19:28.4020402+00:00",
+  "completed_utc": "2026-11-12T11:24:29.7718929+00:00",
+  "seconds": 301.3699447
+}

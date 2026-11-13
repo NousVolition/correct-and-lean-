@@ -1,0 +1,414 @@
+'HeatAccounting.zero_sum_heun_preserves_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeatAccounting.write_adds_its_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeatAccounting.three_positive_writes_accumulate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeatAccounting.source_account_rearranges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WordAccounting.fixed_reference_cost_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RecordedHeatGrid.run0Rows0_accounts' does not depend on any axioms
+'RecordedHeatGrid.run0Rows1_accounts' does not depend on any axioms
+'RecordedHeatGrid.run0Rows2_accounts' does not depend on any axioms
+'RecordedHeatGrid.run0Rows3_accounts' does not depend on any axioms
+'RecordedHeatGrid.run0Rows4_accounts' does not depend on any axioms
+'RecordedHeatGrid.run0Rows5_accounts' does not depend on any axioms
+'RecordedHeatGrid.run0Rows6_accounts' does not depend on any axioms
+'RecordedHeatGrid.run0Rows7_accounts' does not depend on any axioms
+'RecordedHeatGrid.run0Rows8_accounts' does not depend on any axioms
+'RecordedHeatGrid.run0_coverage' does not depend on any axioms
+'RecordedHeatGrid.run0_three_writes_accumulate' does not depend on any axioms
+'RecordedHeatGrid.run0Write0_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run0Write0_recorded_signed_ripples' does not depend on any axioms
+'RecordedHeatGrid.run0Write0_observation96_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run0Write0_observation128_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run0Write1_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run0Write1_recorded_signed_ripples' does not depend on any axioms
+'RecordedHeatGrid.run0Write1_observation96_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run0Write1_observation128_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run0Write2_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run0Write2_recorded_signed_ripples' does not depend on any axioms
+'RecordedHeatGrid.run0Write2_observation96_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run0Write2_observation128_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run0_write_share_rounding' does not depend on any axioms
+'RecordedHeatGrid.run0_reported_solver_bounds' does not depend on any axioms
+'RecordedHeatGrid.run1Rows0_accounts' does not depend on any axioms
+'RecordedHeatGrid.run1Rows1_accounts' does not depend on any axioms
+'RecordedHeatGrid.run1Rows2_accounts' does not depend on any axioms
+'RecordedHeatGrid.run1Rows3_accounts' does not depend on any axioms
+'RecordedHeatGrid.run1Rows4_accounts' does not depend on any axioms
+'RecordedHeatGrid.run1Rows5_accounts' does not depend on any axioms
+'RecordedHeatGrid.run1Rows6_accounts' does not depend on any axioms
+'RecordedHeatGrid.run1Rows7_accounts' does not depend on any axioms
+'RecordedHeatGrid.run1Rows8_accounts' does not depend on any axioms
+'RecordedHeatGrid.run1_coverage' does not depend on any axioms
+'RecordedHeatGrid.run1_three_writes_accumulate' does not depend on any axioms
+'RecordedHeatGrid.run1Write0_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run1Write0_recorded_signed_ripples' does not depend on any axioms
+'RecordedHeatGrid.run1Write0_observation96_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run1Write0_observation128_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run1Write1_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run1Write1_recorded_signed_ripples' does not depend on any axioms
+'RecordedHeatGrid.run1Write1_observation96_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run1Write1_observation128_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run1Write2_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run1Write2_recorded_signed_ripples' does not depend on any axioms
+'RecordedHeatGrid.run1Write2_observation96_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run1Write2_observation128_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run1_write_share_rounding' does not depend on any axioms
+'RecordedHeatGrid.run1_reported_solver_bounds' does not depend on any axioms
+'RecordedHeatGrid.run2Rows0_accounts' does not depend on any axioms
+'RecordedHeatGrid.run2Rows1_accounts' does not depend on any axioms
+'RecordedHeatGrid.run2Rows2_accounts' does not depend on any axioms
+'RecordedHeatGrid.run2Rows3_accounts' does not depend on any axioms
+'RecordedHeatGrid.run2Rows4_accounts' does not depend on any axioms
+'RecordedHeatGrid.run2Rows5_accounts' does not depend on any axioms
+'RecordedHeatGrid.run2Rows6_accounts' does not depend on any axioms
+'RecordedHeatGrid.run2Rows7_accounts' does not depend on any axioms
+'RecordedHeatGrid.run2Rows8_accounts' does not depend on any axioms
+'RecordedHeatGrid.run2_coverage' does not depend on any axioms
+'RecordedHeatGrid.run2_three_writes_accumulate' does not depend on any axioms
+'RecordedHeatGrid.run2Write0_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run2Write0_recorded_signed_ripples' does not depend on any axioms
+'RecordedHeatGrid.run2Write0_observation96_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run2Write0_observation128_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run2Write1_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run2Write1_recorded_signed_ripples' does not depend on any axioms
+'RecordedHeatGrid.run2Write1_observation96_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run2Write1_observation128_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run2Write2_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run2Write2_recorded_signed_ripples' does not depend on any axioms
+'RecordedHeatGrid.run2Write2_observation96_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run2Write2_observation128_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run2_write_share_rounding' does not depend on any axioms
+'RecordedHeatGrid.run2_reported_solver_bounds' does not depend on any axioms
+'RecordedHeatGrid.run3Rows0_accounts' does not depend on any axioms
+'RecordedHeatGrid.run3Rows1_accounts' does not depend on any axioms
+'RecordedHeatGrid.run3Rows2_accounts' does not depend on any axioms
+'RecordedHeatGrid.run3Rows3_accounts' does not depend on any axioms
+'RecordedHeatGrid.run3Rows4_accounts' does not depend on any axioms
+'RecordedHeatGrid.run3Rows5_accounts' does not depend on any axioms
+'RecordedHeatGrid.run3Rows6_accounts' does not depend on any axioms
+'RecordedHeatGrid.run3Rows7_accounts' does not depend on any axioms
+'RecordedHeatGrid.run3Rows8_accounts' does not depend on any axioms
+'RecordedHeatGrid.run3_coverage' does not depend on any axioms
+'RecordedHeatGrid.run3_three_writes_accumulate' does not depend on any axioms
+'RecordedHeatGrid.run3Write0_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run3Write0_recorded_signed_ripples' does not depend on any axioms
+'RecordedHeatGrid.run3Write0_observation96_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run3Write0_observation128_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run3Write1_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run3Write1_recorded_signed_ripples' does not depend on any axioms
+'RecordedHeatGrid.run3Write1_observation96_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run3Write1_observation128_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run3Write2_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run3Write2_recorded_signed_ripples' does not depend on any axioms
+'RecordedHeatGrid.run3Write2_observation96_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run3Write2_observation128_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run3_write_share_rounding' does not depend on any axioms
+'RecordedHeatGrid.run3_reported_solver_bounds' does not depend on any axioms
+'RecordedHeatGrid.run4Rows0_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows1_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows2_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows3_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows4_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows5_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows6_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows7_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows8_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows9_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows10_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows11_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows12_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows13_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows14_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows15_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4Rows16_accounts' does not depend on any axioms
+'RecordedHeatGrid.run4_coverage' does not depend on any axioms
+'RecordedHeatGrid.run4_three_writes_accumulate' does not depend on any axioms
+'RecordedHeatGrid.run4Write0_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run4Write0_recorded_signed_ripples' does not depend on any axioms
+'RecordedHeatGrid.run4Write0_observation96_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run4Write0_observation128_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run4Write1_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run4Write1_recorded_signed_ripples' does not depend on any axioms
+'RecordedHeatGrid.run4Write1_observation96_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run4Write1_observation128_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run4Write2_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run4Write2_recorded_signed_ripples' does not depend on any axioms
+'RecordedHeatGrid.run4Write2_observation96_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run4Write2_observation128_recorded_spread' does not depend on any axioms
+'RecordedHeatGrid.run4_write_share_rounding' does not depend on any axioms
+'RecordedHeatGrid.run4_reported_solver_bounds' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write0_criteria_classification' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write0_exact_deposit_comparison' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write0_recorded_snapshot_maxima_normalized_field_L1' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write0_recorded_snapshot_maxima_outside_share_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write0_recorded_snapshot_maxima_effective_volume_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write0_recorded_snapshot_maxima_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write0_recorded_snapshot_maxima_normalized_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write1_criteria_classification' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write1_exact_deposit_comparison' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write1_recorded_snapshot_maxima_normalized_field_L1' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write1_recorded_snapshot_maxima_outside_share_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write1_recorded_snapshot_maxima_effective_volume_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write1_recorded_snapshot_maxima_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write1_recorded_snapshot_maxima_normalized_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write2_criteria_classification' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write2_exact_deposit_comparison' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write2_recorded_snapshot_maxima_normalized_field_L1' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write2_recorded_snapshot_maxima_outside_share_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write2_recorded_snapshot_maxima_effective_volume_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write2_recorded_snapshot_maxima_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison0Write2_recorded_snapshot_maxima_normalized_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison0_cumulative_heat' does not depend on any axioms
+'RecordedHeatGrid.comparison0_observation_quadrature' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write0_criteria_classification' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write0_exact_deposit_comparison' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write0_recorded_snapshot_maxima_normalized_field_L1' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write0_recorded_snapshot_maxima_outside_share_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write0_recorded_snapshot_maxima_effective_volume_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write0_recorded_snapshot_maxima_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write0_recorded_snapshot_maxima_normalized_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write1_criteria_classification' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write1_exact_deposit_comparison' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write1_recorded_snapshot_maxima_normalized_field_L1' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write1_recorded_snapshot_maxima_outside_share_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write1_recorded_snapshot_maxima_effective_volume_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write1_recorded_snapshot_maxima_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write1_recorded_snapshot_maxima_normalized_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write2_criteria_classification' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write2_exact_deposit_comparison' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write2_recorded_snapshot_maxima_normalized_field_L1' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write2_recorded_snapshot_maxima_outside_share_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write2_recorded_snapshot_maxima_effective_volume_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write2_recorded_snapshot_maxima_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison1Write2_recorded_snapshot_maxima_normalized_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison1_cumulative_heat' does not depend on any axioms
+'RecordedHeatGrid.comparison1_observation_quadrature' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write0_criteria_classification' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write0_exact_deposit_comparison' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write0_recorded_snapshot_maxima_normalized_field_L1' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write0_recorded_snapshot_maxima_outside_share_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write0_recorded_snapshot_maxima_effective_volume_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write0_recorded_snapshot_maxima_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write0_recorded_snapshot_maxima_normalized_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write1_criteria_classification' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write1_exact_deposit_comparison' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write1_recorded_snapshot_maxima_normalized_field_L1' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write1_recorded_snapshot_maxima_outside_share_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write1_recorded_snapshot_maxima_effective_volume_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write1_recorded_snapshot_maxima_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write1_recorded_snapshot_maxima_normalized_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write2_criteria_classification' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write2_exact_deposit_comparison' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write2_recorded_snapshot_maxima_normalized_field_L1' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write2_recorded_snapshot_maxima_outside_share_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write2_recorded_snapshot_maxima_effective_volume_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write2_recorded_snapshot_maxima_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison2Write2_recorded_snapshot_maxima_normalized_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison2_cumulative_heat' does not depend on any axioms
+'RecordedHeatGrid.comparison2_observation_quadrature' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write0_criteria_classification' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write0_exact_deposit_comparison' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write0_recorded_snapshot_maxima_normalized_field_L1' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write0_recorded_snapshot_maxima_outside_share_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write0_recorded_snapshot_maxima_effective_volume_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write0_recorded_snapshot_maxima_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write0_recorded_snapshot_maxima_normalized_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write1_criteria_classification' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write1_exact_deposit_comparison' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write1_recorded_snapshot_maxima_normalized_field_L1' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write1_recorded_snapshot_maxima_outside_share_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write1_recorded_snapshot_maxima_effective_volume_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write1_recorded_snapshot_maxima_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write1_recorded_snapshot_maxima_normalized_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write2_criteria_classification' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write2_exact_deposit_comparison' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write2_recorded_snapshot_maxima_normalized_field_L1' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write2_recorded_snapshot_maxima_outside_share_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write2_recorded_snapshot_maxima_effective_volume_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write2_recorded_snapshot_maxima_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison3Write2_recorded_snapshot_maxima_normalized_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.comparison3_cumulative_heat' does not depend on any axioms
+'RecordedHeatGrid.comparison3_observation_quadrature' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_write0_relative_deposited_heat_change' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_write0_normalized_field_L1' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_write0_outside_share_difference' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_write0_effective_volume_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_write0_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_write1_relative_deposited_heat_change' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_write1_normalized_field_L1' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_write1_outside_share_difference' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_write1_effective_volume_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_write1_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_write2_relative_deposited_heat_change' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_write2_normalized_field_L1' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_write2_outside_share_difference' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_write2_effective_volume_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_write2_peak_relative_difference' does not depend on any axioms
+'RecordedHeatGrid.finest_trend_cumulative_heat' does not depend on any axioms
+'RecordedWords.pair0_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair0_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair0_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair0_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair0_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair0_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair0_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair0_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair1_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair1_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair1_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair1_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair1_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair1_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair1_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair1_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair2_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair2_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair2_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair2_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair2_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair2_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair2_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair2_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair3_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair3_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair3_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair3_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair3_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair3_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair3_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair3_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair4_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair4_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair4_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair4_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair4_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair4_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair4_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair4_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair5_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair5_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair5_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair5_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair5_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair5_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair5_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair5_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair6_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair6_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair6_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair6_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair6_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair6_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair6_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair6_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair7_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair7_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair7_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair7_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair7_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair7_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair7_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair7_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair8_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair8_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair8_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair8_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair8_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair8_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair8_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair8_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair9_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair9_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair9_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair9_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair9_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair9_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair9_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair9_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair10_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair10_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair10_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair10_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair10_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair10_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair10_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair10_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair11_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair11_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair11_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair11_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair11_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair11_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair11_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair11_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair12_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair12_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair12_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair12_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair12_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair12_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair12_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair12_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair13_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair13_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair13_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair13_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair13_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair13_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair13_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair13_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair14_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair14_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair14_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair14_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair14_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair14_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair14_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair14_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair15_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair15_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair15_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair15_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair15_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair15_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair15_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair15_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair16_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair16_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair16_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair16_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair16_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair16_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair16_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair16_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair17_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair17_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair17_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair17_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair17_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair17_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair17_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair17_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair18_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair18_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair18_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair18_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair18_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair18_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair18_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair18_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair19_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair19_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair19_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair19_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair19_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair19_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair19_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair19_checksum_recorded_cost_partition' does not depend on any axioms
+'RecordedWords.pair20_header_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair20_strain_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair20_checksum_exact_word_comparison' depends on axioms: [propext]
+'RecordedWords.pair20_checksum_relation' does not depend on any axioms
+'RecordedHeatGrid.pair20_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair20_header_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair20_strain_recorded_cost_partition' does not depend on any axioms
+'RecordedHeatGrid.pair20_checksum_recorded_cost_partition' does not depend on any axioms

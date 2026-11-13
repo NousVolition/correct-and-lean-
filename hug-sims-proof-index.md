@@ -72,7 +72,9 @@ The [single-system meaning](research/comparisons/hug-navier-single-system-scope-
 
 ## Proof readers and verification receipts
 
-- [Heat after three writes: signed spread/accumulation; time-step checks pass, finer grids unchecked](research/hug-v3/heat-follow-study/README.md)
+- [Finer-grid heat: time-step checks pass, grid settling still fails; four diagrams](research/hug-v3/heat-grid-study/README.md)
+- [414 Lean checks of recorded heat numbers/bits and finite rules, separate from the simulation](research/hug-v3/heat-grid-lean/README.md)
+- [Heat after three writes: signed spread/accumulation; historical 16³ time-step checks pass](research/hug-v3/heat-follow-study/README.md)
 - [Heat follow-up: 56 finite Lean checks and full package build, separate from the simulation](research/hug-v3/heat-follow-lean/README.md)
 - [Heat from writing: 12 scalar and recorded-number checks; separate threshold-1 replay](research/hug-v3/heat-writing-lean/README.md)
 

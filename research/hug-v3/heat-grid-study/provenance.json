@@ -1,0 +1,15 @@
+{
+  "original_study_receipt_sha256": "d8e571118d2b7cb90b4ff4ea2de33f6314c0f9720d4ef6a6645d8784d5611083",
+  "original_proof_receipt_sha256": "4c12876d7d40af81f594383e73738d398ebb30a4f9f0a30b9c3c96d92ae3265d",
+  "original_proof_input_fingerprint": "cbaf5f091a76d42848263fb4cbc98e76e49da92bf4019f5216f52494bfe4877b",
+  "original_runner_sha256": "33c0ae97e37f57ba9a3ffd44b4e277886d999f00f55c16d86cbbdb5bb042bf66",
+  "original_analyzer_sha256": "abdeb02566cdcf48f7184cd668bbbcbe77ff2d30a839d04a7a0c0bf46783aefa",
+  "original_input_manifest_sha256": "1a3709e0658378dcc82450ac6c14398f9a14e47e63968e2a91ad139c6fee956c",
+  "frozen_input_count": 100,
+  "original_receipts_unchanged": true,
+  "solver_arrays_record_bytes_and_proof_inputs_unchanged": true,
+  "publication_edits": "README links and publication status only; original local receipts and evidence remain unchanged. The machine-specific build-local.ps1 helper and compiled artifacts are omitted. Fresh GitHub build evidence is separate.",
+  "original_receipt_paths": "The historical review-receipt.json retains paths relative to the original workspace. outputs/heat-grid maps to this study; outputs/heat-grid-lean maps to the sibling Lean package. Selected work/heat-grid sources map to reproduction/work/heat-grid.",
+  "reproduction": "The public runner and 100 frozen inputs retain their bytes. reproduce.py copies them into a separate scratch workspace and normalizes Windows separators in the copied input manifest for Linux. A new simulation therefore creates its own input-manifest hash and receipt; it is not relabeled as the historical run.",
+  "scope": "Threshold 1, breathing intervention peak 0.5/period 0.6, periodic domain and 384 fixed material quadrature points. Not a redefinition of the intended unforced underlying system. No fluid simulation is executed by the Lean workflow."
+}

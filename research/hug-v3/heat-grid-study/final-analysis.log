@@ -1,0 +1,6 @@
+{"analyzed": "n40_dt0p001", "recount": {"saved_grid_values_recounted": 14080000, "snapshot_means_max_error": 2.3418766925686896e-17, "reconstruction_max": 1.214306433183765e-16, "budget_max": 8.334804200982315e-19, "component_sum_max": 6.028164079019405e-17, "tag_integral_max": 6.028164079019405e-17, "discarded_unresolved_roundoff_max": 2.4530074152484538e-18, "normalized_integral_error": 5.551115123125783e-16, "quadrature_96_vs_128_outside_share_max": 0.00021141690017517645, "source_receipt_sha256": "0a7203fe8607450facf0b09d49353ca9a136b1e48d6cdb00547a4d2a89c362b3"}}
+{"compared": "n16_dt0p002 -> n24_dt0p002", "heat_criteria_pass": false, "quadrature_control_pass": true}
+{"compared": "n24_dt0p002 -> n32_dt0p002", "heat_criteria_pass": false, "quadrature_control_pass": true}
+{"compared": "n32_dt0p002 -> n40_dt0p002", "heat_criteria_pass": false, "quadrature_control_pass": true}
+{"compared": "n40_dt0p002 -> n40_dt0p001", "heat_criteria_pass": true, "quadrature_control_pass": true}
+{"complete": true, "settled": false, "time_step_pass": true, "trend": {"relative_deposited_heat_change": true, "normalized_field_L1": true, "outside_share_difference": true, "effective_volume_relative_difference": true, "peak_relative_difference": false, "cumulative_heat": true}}
