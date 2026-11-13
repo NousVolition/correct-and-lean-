@@ -1,7 +1,16 @@
 import Mathlib.Analysis.ODE.ExistUnique
 import Mathlib.Analysis.Calculus.Deriv.Add
 import Mathlib.Topology.Order.Compact
-import Mathlib.Tactic
+import Mathlib.Tactic.Abel
+import Mathlib.Tactic.Convert
+import Mathlib.Tactic.FinCases
+import Mathlib.Tactic.FunProp
+import Mathlib.Tactic.GCongr
+import Mathlib.Tactic.Linarith
+import Mathlib.Tactic.NormNum
+import Mathlib.Tactic.Positivity
+import Mathlib.Tactic.Push
+import Mathlib.Tactic.Ring
 
 /-! A posteriori existence and whole-window minimum bounds.
 

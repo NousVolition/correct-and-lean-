@@ -16,10 +16,17 @@
     "Conditional attained-minimum enclosure theorem"
   ],
   "missing": [
-    "Lean-checked trigonometric and normalized-field slab certificates",
+    "Closed normalized-field certificates for every required trajectory slab",
     "Nonvanishing vorticity over every full tube",
     "Closed exact-seed, join, uniqueness and error propagation proofs for all twelve directions",
     "Universal periodic-distance bounds and witnesses for all 36 windows"
   ],
-  "external_numerical_output_accepted_as_lean_bound": false
+  "external_numerical_output_accepted_as_lean_bound": false,
+  "submitted_additional_results": [
+    "Residual-based sine/cosine enclosure theorems with initial errors checked from sin(0)=0 and cos(0)=1",
+    "Integer polynomial models with checked coefficient rounding and truncation",
+    "Tensor-factorized Fourier evaluation soundness",
+    "One candidate segment phase and Fourier-component certificate, subject to the build and axiom audit at this revision",
+    "Global existence for a clipped auxiliary field and a general preconditioned tube theorem"
+  ]
 }

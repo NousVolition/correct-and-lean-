@@ -1,0 +1,13 @@
+{
+  "status": "CANDIDATE_NOT_YET_CHECKED",
+  "archived_label": "event-1-left",
+  "coordinate": 0,
+  "physical_interval": [
+    0.0,
+    0.001
+  ],
+  "source_npz_sha256": "eebd442c11e378ac8115a4bed4efd42d234d596865f38667e2cf02565c2f1a19",
+  "candidate_trigonometric_error": 7.759299476385455e-53,
+  "candidate_phase_error": 9.925051012782026e-21,
+  "claim_scope": "Trigonometric approximation on a candidate polynomial segment, not an ODE trajectory."
+}

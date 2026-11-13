@@ -10,7 +10,7 @@ from pathlib import Path
 from generate_archive import generate
 
 ROOT=Path(__file__).resolve().parent
-MODULES=['FrozenPolynomial','FrozenNormalization','FrozenODE','FrozenField','FrozenArchive']
+MODULES=['FrozenPolynomial', 'FrozenNormalization', 'FrozenODE', 'FrozenField', 'FrozenArchive', 'FrozenTrig', 'FrozenRational', 'FrozenTrigModel', 'FrozenConstants', 'PhasePilot', 'FrozenIntPolynomial', 'FrozenIntTrig', 'FrozenIntModel', 'FrozenComplexModel', 'FrozenIntTrigModel', 'FrozenDyadicConstants', 'FrozenIntEnclosure', 'FrozenFourierModel', 'FrozenClippedODE', 'FrozenPrecondition', 'FieldPilotCore', 'FieldPilotArchiveLink']
 ALLOWED={'propext','Classical.choice','Quot.sound'}
 PIN='85e3a25e006c35636f0e53b0e9296caca2685bc0'
 
@@ -83,7 +83,7 @@ def run(args):
         mode='fresh Lake build and explicit axiom report'
     axioms=validate_axioms((evidence/'CheckAxioms.log').read_text(encoding='utf-8'),targets)
     receipt={'verification_status':'PASS','requested_trajectory_certificate':'NOT_CERTIFIED',
-        'scope':'General enclosure lemmas and global bounds on the six archived Fourier fields.',
+        'scope':'General enclosure lemmas, global archived-field bounds, and one candidate-segment field evaluation; no certified trajectory or window minimum.',
         'certified_full_signed_traces':0,'required_full_signed_traces':6,
         'certified_directional_traces':0,'required_directional_traces':12,
         'certified_window_minima':0,'required_window_minima':36,

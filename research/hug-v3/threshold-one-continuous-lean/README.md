@@ -1,8 +1,11 @@
 # Threshold-1 continuous frozen-field proof development
 
 **PARTIAL. The requested continuous traces and 36 window minima are not certified.**
-This package proves global bounds on the six archived Fourier fields and supplies
-general Lean lemmas for a future trajectory certificate. A successful build of
+This package contains global bounds on the six archived Fourier fields, general
+enclosure lemmas, and candidate-segment trigonometric and Fourier evaluation
+certificates. The expanded revision requires its own passing build and axiom
+receipt; the retained 29-theorem receipt below covers the earlier revision only.
+A successful build of
 this package must not be described as successful certification of the traces.
 `verify.py --require-trajectories` deliberately refuses that claim with exit 2.
 
@@ -15,14 +18,18 @@ certificate in this package.
 
 ## What Lean establishes
 
-The [29 named declarations](targets.json) have distinct roles:
+The [147 submitted named declarations](targets.json) have distinct roles:
 
 | File | Established result | What it does not establish |
 | --- | --- | --- |
 | [FrozenArchive.lean](FrozenArchive.lean) and [FrozenField.lean](FrozenField.lean) | For all real spatial points, each of the 18 scalar components of the six archived **unnormalized** Fourier fields has absolute value at most 1. Each component changes by at most `32 * ‖x-y‖∞`. Integer coefficient sums discharge these particular global bounds in Lean. | A positive lower bound on the vorticity norm, a bound on the normalized field's derivative along a trace, or a trajectory enclosure. |
 | [FrozenPolynomial.lean](FrozenPolynomial.lean) | Real-valued error bounds for rational polynomial models under addition, negation, multiplication, coefficient replacement and truncation on `|u| ≤ 1`. | Trigonometric composition or an instantiated archived-field residual. |
+| [FrozenTrig.lean](FrozenTrig.lean), [FrozenTrigModel.lean](FrozenTrigModel.lean), and [PhasePilot.lean](PhasePilot.lean) | A complex-rotation argument bounds sine/cosine errors by polynomial residuals. The starting error is checked from the exact values at zero. The pilot concerns a polynomial candidate on the first `[0, .001]` segment of the first left snapshot, using true real π. | That the candidate is an exact ODE solution, or that a tube contains an exact solution. |
+| [FrozenIntPolynomial.lean](FrozenIntPolynomial.lean), [FrozenIntModel.lean](FrozenIntModel.lean), [FrozenIntTrig.lean](FrozenIntTrig.lean), and [FrozenIntTrigModel.lean](FrozenIntTrigModel.lean) | Shared-denominator integer arithmetic with real-valued soundness proofs, including computed errors from coefficient rounding and truncation. | Permission to accept the generator's floating-point or Arb error estimates. |
+| [FrozenComplexModel.lean](FrozenComplexModel.lean), [FrozenFourierModel.lean](FrozenFourierModel.lean), [FieldPilotCore.lean](FieldPilotCore.lean), and [FieldPilotArchiveLink.lean](FieldPilotArchiveLink.lean) | The submitted pilot bounds one archived scalar Fourier component along that candidate polynomial to `10^-18` on every `|u| ≤ 1`. All 1,331 modes remain present. A separate equality check links the grouped coefficient tree to the archive. This claim requires the expanded revision's build and axiom audit to pass. | A normalized-field ODE residual, a complete trace, or a window minimum. |
 | [FrozenNormalization.lean](FrozenNormalization.lean) | A normalized-component error bound from proved positive denominator bounds and proved square/component residuals. | Those required bounds for any of the six traces. |
 | [FrozenODE.lean](FrozenODE.lean) | An exact solution exists and remains in a candidate tube when the stated continuity, Lipschitz, residual, initial-error and step-size inequalities hold. A separate theorem encloses an attained continuous-window minimum from a universal lower bound and an upper witness. | A solution obtained merely by assuming that a saved numerical path satisfies the ODE. No archived case currently discharges all these hypotheses. |
+| [FrozenClippedODE.lean](FrozenClippedODE.lean) and [FrozenPrecondition.lean](FrozenPrecondition.lean) | Existence for an auxiliary field with a positive normalization cutoff, and a tube theorem using approximate inverse matrices and a boundary derivative inequality. Right derivatives allow continuous piecewise polynomial candidates. | Agreement of the auxiliary solution with the requested normalized field; this still needs nonvanishing vorticity throughout the tube. Every concrete matrix and boundary bound remains to be supplied. |
 
 The ODE existence theorem retains the closed-ball conclusion from Mathlib's
 Picard–Lindelöf construction. It does **not** assume the existence of a solution
@@ -37,7 +44,7 @@ axiom, or `Lean.ofReduceBool` is accepted. The three finite archive checks use
 ordinary kernel-checked `decide`. Comparator and nanoda are not part of this check.
 
 The independent [Linux run 43364713158](https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43364713158)
-passed the Lake build, all 29 axiom reports, input regeneration, five verifier
+passed the earlier Lake build, all 29 earlier axiom reports, input regeneration, five verifier
 tests and the expected refusal of full trajectory certification. Its original
 [receipt](evidence-linux/receipt.json), [compiler and axiom logs](evidence-linux/evidence),
 and [artifact provenance](evidence-linux/source.json) are retained byte for byte,
@@ -45,6 +52,14 @@ including the original ZIP. That receipt belongs to proof head
 `3d35b2b844ef6ea82c3a99a1b3fde37caa376cd4` and tested merge
 `a70a0d320df2d0ce23d3543526e6ffe8a7a6dad6`. It explicitly records
 `requested_trajectory_certificate: NOT_CERTIFIED`.
+
+That historical receipt does not verify the added declarations in this revision.
+The current proof sources, target inventory, and compiler logs must be checked
+together; a new receipt is accepted only after every submitted module and all
+147 axiom reports pass. The local development builds checked the trigonometric
+pilot and generic lemmas, but the full Fourier-component calculation reached a
+four-minute local limit. An import-only diagnostic took 193.656 seconds. The
+expanded Linux build is therefore the pending check for the component pilot.
 
 ## Archived-field assumptions
 
@@ -103,7 +118,9 @@ are a third, distinct result; they cover none of these threshold-1 trajectories.
 ## Remaining certificate obligations
 
 1. Prove correlation-preserving sine/cosine enclosures, their remainders, and
-   the necessary normalized-field bounds inside Lean for every accepted slab.
+   the necessary normalized-field bounds inside Lean for every required slab.
+   The new generic trigonometric proofs and single-segment pilot do not provide
+   the required full coverage.
 2. Prove a strictly positive vorticity lower bound over each entire tube.
 3. Discharge the ODE existence/error inequalities, exact seed condition, joins,
    and uniqueness along the complete `[-3,3]` trace for all six archives. A
@@ -132,7 +149,7 @@ python -B verify.py --output /tmp/frozen-evidence
 
 Use a fresh checkout for that Lake build and a new output directory. The verifier
 regenerates the archived coefficient inputs byte for byte, builds all project
-modules, checks all 29 axiom reports, and writes source and log hashes. Offline
+modules, checks all 147 axiom reports, and writes source and log hashes. Offline
 verification is also supported with `--lean PATH_TO_LEAN --packages PATH_TO_PACKAGES`;
 it compiles the project afresh using compiled dependencies at the pinned Mathlib
 revision. That mode reports a direct Lean build, not a Lake build.
@@ -149,6 +166,26 @@ Reproduce the separate floating-point diagnostic with:
 python -m pip install -r diagnostics/requirements.txt
 python -B diagnostics/conditioning.py --output /tmp/conditioning.json
 ```
+
+To propose the candidate-segment polynomial inputs again:
+
+```sh
+python -m pip install -r candidate-requirements.txt
+python -B generate_phase_pilot.py --output /tmp/frozen-candidates
+python -B generate_field_pilot.py --output /tmp/frozen-candidates
+python -B split_field_pilot.py --directory /tmp/frozen-candidates
+```
+
+SciPy and Arb propose coefficients; neither supplies an accepted error bound.
+The saved `PhasePilot.json` and `FieldPilot.json` are generator records, not Lean
+receipts. Floating-point proposal regeneration can vary across platforms. The
+reproducible mathematical check is the kernel build of the saved coefficient
+lists: the sine/cosine residuals, true-π input errors, arithmetic rounding,
+Fourier coefficient identity, and final inequality are checked inside Lean.
+The [local regeneration record](generator-evidence.json) records byte-for-byte
+agreement for the five saved candidate files, the dependency versions, and the
+source-archive hash. This is an external provenance check, separate from the
+Lean build and axiom receipt.
 
 Floating-point diagnostics may vary across platforms; their values are not used
 to establish the Lean results. The input and proof checks above require exact

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "kind": "External proposal regeneration; not a Lean proof",
+  "recorded_at_utc": "2026-11-13T06:05:21.255862+00:00",
+  "python_version": "3.12.14",
+  "platform": "win32",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.16.3",
+    "python-flint": "0.8.0"
+  },
+  "source_npz_sha256": "eebd442c11e378ac8115a4bed4efd42d234d596865f38667e2cf02565c2f1a19",
+  "commands": [
+    "python -B generate_phase_pilot.py --output OUTPUT",
+    "python -B generate_field_pilot.py --output OUTPUT",
+    "python -B split_field_pilot.py --directory OUTPUT"
+  ],
+  "byte_identical_files": {
+    "PhasePilot.lean": "90e1c8678885f8efa080b0694137d307d2a3c4e192da85b81104e7f93052b61e",
+    "PhasePilot.json": "5f326c8758b7be1a0ce95605689b2d751f01552c441f8c0561da724f15932c99",
+    "FieldPilotCore.lean": "f4fa48d2f41cc2305f8bffc49f0f05487e270666adbd03b468cef7c28bd3ebc0",
+    "FieldPilotArchiveLink.lean": "39f8a76ab12dfd70ebb29182aa55a45308450e7e8780dd9118cd72492fb35006",
+    "FieldPilot.json": "99017ffe59e07e03bdd40309fa8e03e68727aeaadb2526c0347b4f2772232ddb"
+  },
+  "limitation": "Floating-point proposal regeneration can vary across platforms; Lean checks the saved rational and integer witnesses."
+}
