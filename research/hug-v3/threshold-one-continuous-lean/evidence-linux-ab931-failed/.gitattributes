@@ -1,0 +1,2 @@
+# Retain the decoded CI log verbatim, including timestamped blank lines.
+job.log -whitespace
