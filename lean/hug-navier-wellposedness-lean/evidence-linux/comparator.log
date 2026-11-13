@@ -1,0 +1,44 @@
+Running as unit: run-u0.service; invocation ID: ed539d2000a545a8ad49e3add730f1aa
+Building WellposednessChallenge
+✔ [3368/3375] Built FullModel (2.2s)
+✔ [3369/3375] Built GuardTransportDefs (1.7s)
+✔ [3370/3375] Built OriginalAS (1.9s)
+✔ [3371/3375] Built GuardTransportTimeDefs (1.6s)
+✔ [3372/3375] Built FullChecks (2.8s)
+✔ [3373/3375] Built WellposednessTargets (1.5s)
+⚠ [3374/3375] Built WellposednessChallenge (1.8s)
+warning: WellposednessChallenge.lean:10:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:14:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:17:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:20:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:29:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:33:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:40:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:46:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:52:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:60:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:65:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:72:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:88:8: declaration uses `sorry`
+Build completed successfully (3375 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugNavierWellposedness.Verified.perturbation_regular, HugNavierWellposedness.Verified.nearby_uniform_bound, HugNavierWellposedness.Verified.exact_rate_difference, HugNavierWellposedness.Verified.no_uniform_local_rate_bound, HugNavierSingle.GuardTransport.transport_of_blend, HugNavierSingle.GuardTransport.directional_guard_rates, HugNavierSingle.GuardTransport.advection_difference, HugNavierSingle.GuardTransport.residual_energy_bound, HugNavierSingle.GuardTransport.integrated_residual_bound, HugNavierSingle.GuardTransport.common_transport_cancels, HugNavierSingle.GuardTransport.uniform_gradient_bound, HugNavierSingle.GuardTransport.integrated_residual_bound_uniform, HugNavierSingle.GuardTransport.fieldproblem_guard_transport_bounds, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from WellposednessChallenge
+Building WellposednessProofs
+✔ [3374/3377] Built GuardTransport (2.5s)
+✔ [3375/3377] Built GuardTransportTime (2.1s)
+⚠ [3376/3377] Built WellposednessProofs (3.9s)
+warning: WellposednessProofs.lean:83:13: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3377 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugNavierWellposedness.Verified.perturbation_regular, HugNavierWellposedness.Verified.nearby_uniform_bound, HugNavierWellposedness.Verified.exact_rate_difference, HugNavierWellposedness.Verified.no_uniform_local_rate_bound, HugNavierSingle.GuardTransport.transport_of_blend, HugNavierSingle.GuardTransport.directional_guard_rates, HugNavierSingle.GuardTransport.advection_difference, HugNavierSingle.GuardTransport.residual_energy_bound, HugNavierSingle.GuardTransport.integrated_residual_bound, HugNavierSingle.GuardTransport.common_transport_cancels, HugNavierSingle.GuardTransport.uniform_gradient_bound, HugNavierSingle.GuardTransport.integrated_residual_bound_uniform, HugNavierSingle.GuardTransport.fieldproblem_guard_transport_bounds, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from WellposednessProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 1min 48.399s
+CPU time consumed: 1min 58.729s
+Memory peak: 256.0K
+Memory swap peak: 0B

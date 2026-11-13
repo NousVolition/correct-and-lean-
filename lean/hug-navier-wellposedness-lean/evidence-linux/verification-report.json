@@ -1,0 +1,13 @@
+{
+  "comparator": "PASS",
+  "lean_kernel": "PASS",
+  "nanoda": "PASS",
+  "lean_build": "PASS",
+  "scope": "Four auxiliary field-rate diagnostics and nine guard transport theorems, including a gradient bound uniform on a finite time interval derived from joint continuity and periodicity, and its application to both guards of two existing FieldProblem solutions with the stated extra joint regularity. Full PDE existence and uniqueness remain open.",
+  "open_items": [
+    "Construct local coupled variable-viscosity PDE solutions in an appropriate spatial function space.",
+    "Prove continuation/global estimates for the every-finite-horizon existence target.",
+    "Formalize the full classical uniqueness argument and specify its relation to the saved solution class.",
+    "Submit actual existence and uniqueness proofs to Comparator."
+  ]
+}
