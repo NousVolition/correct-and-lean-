@@ -1,13 +1,13 @@
 {
   "files": {
-    "comparator.json": "c1612c03859a672a08a4be758f23e13af26eec052879a89973e16efe09b61eaa",
+    "comparator.json": "ea0c694825e6d7411448da7b0eae2d928bc7a5c90f34c4b2ab1606f0513e73da",
     "FullChecks.lean": "f838c6dd4855e2d8f0c0ab1c49ee73259ace3f9d13695dd18351a09a9ac7c24f",
     "FullModel.lean": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
     "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
-    "lakefile.toml": "a246aeeea35982cdda9b19a52bad5e6a8742c5820d9f58037e4f95aea13bdd8b",
+    "lakefile.toml": "27a51331612cbe353752c1abd42ba8ce7c9b8bbb3138c7027c7b3582f39d72be",
     "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
     "OriginalAS.lean": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5",
-    "reference-freeze.json": "48249cdfd012558b090791367572fe3043f2f78b29e016d586472df096c67b54",
+    "reference-freeze.json": "f504f5b90d9b0e9ed17f1f1e5f21bd5740b27e3022cf882902ef1e896cf8b0ae",
     "run-linux-check.sh": "36fb47d476e639f8c54de3f138060ab21db46a5737d211f3c0a7edb39da51a40",
     "source-audit.json": "5374586d8232a9a1104e62fb8b2f90992749ede2b1df6f25108983cb95ac3c21",
     "sources/interaction.md": "aa9af72b9762ff70204131bc160aec712e4071ec17e6a4f3ac832e2e7a4a5808",
@@ -16,20 +16,24 @@
     "sources/ns_protocol.json": "ba767c26ec3324f0441e158475910e12b9d225ab1f99859b534f51c280a3ebae",
     "sources/original-corpus-passages.json": "5945c73a3a47d787db4b45640675555c08a23b0daa863ce863c92a8e1fb723fa",
     "sources/original-source-manifest.json": "0a93f00b13f08c799b507ec4900a673bd45280f75015aa70fda77aae046a9639",
-    "WellposednessChallenge.lean": "7beae32b25866bb0518949d961ab0e7519fe866f2fb884be5dae2d15ac117ad5",
-    "WellposednessProofs.lean": "de4926cc50aafe65cb67cbecd73754a33683dcc7a103fd8fcea000b6698ca7dc",
+    "WellposednessChallenge.lean": "8863efbcd942f447eef3937e9b6847c13e4741395de5202ea544542216276be6",
+    "WellposednessProofs.lean": "331e6f113dcfaeccca704540024621c19883234e27bd803e47552c5b56d72d1d",
     "WellposednessTargets.lean": "033e1809bf8071ef1a1922d24c4591ad63a5d6c547ca6d4222a55af4ad7e9d47",
     "GuardTransport.lean": "8702842bb028913050cc5872124fefca796dad223160dde6ff8209344c0ee16c",
     "GuardTransportDefs.lean": "9dc397770fefb8f3de2d2f93a5fb277a6414a0f834a7fe96d7759ffbec5ce8fa",
     "GuardTransportTimeDefs.lean": "af88aef25732658a956d883b851aaa79e987638890a8aa1f5285b54528e9f9e9",
-    "GuardTransportTime.lean": "0ace9ebcc584aa36c38c1ebf01b3898d4e38a180a05406cd82e4ecd97d4298f9"
+    "GuardTransportTime.lean": "0ace9ebcc584aa36c38c1ebf01b3898d4e38a180a05406cd82e4ecd97d4298f9",
+    "EnergyDefs.lean": "81ac6744c05a6cffb74efb65b279c567446595fe0a00cd01c9c040c06e1eb2da",
+    "EnergyEstimate.lean": "6579086ed4be3da82e9b6ca261b614b84be28368277de3734b6f9ba98d9c4840",
+    "energy-reference.txt": "531346201c9c71518da4f1660631a93f2532c6af20d1c89535113156706e27c6",
+    "energy-reference-freeze.json": "af115afea1b0ebf0d503ac4819c721db6affd13092427620f0031100d83597c5"
   },
   "requested_existence_and_uniqueness": "UNPROVED",
   "diagnostic_theorem_count": 4,
   "source_equations_changed": false,
   "source_initial_data_changed": false,
   "diagnostic_fields_are_not_replacement_initial_data": true,
-  "ordinary_written_uniqueness_argument": "The guard residual integral, shared transport cancellation, and the bridge from joint guard-gradient continuity to a common interval-wide transport bound are formalized. The remaining energy argument and full system targets remain open.",
+  "ordinary_written_uniqueness_argument": "The guard residual integral, shared transport cancellation, uniform gradient bridge, and bound of both guard residuals by the full difference energy are formalized. The integrated two-history energy balance and remaining full-system estimates remain open.",
   "development_notes": [
     "The initial native target compile completed after 114.6 seconds; its shell was interrupted as it began the challenge compile.",
     "An early proof compile failed because the target build had not yet returned its module; this was an orchestration error.",
@@ -37,5 +41,6 @@
     "All mathematical challenge statements and source equations remained unchanged."
   ],
   "guard_transport_theorem_count": 9,
-  "gradient_bridge_assumptions": "FieldProblem for both existing candidate histories, plus JointGuardGradientRegularity for the comparison history. The extra joint continuity is not deduced from the original pointwise-in-time FieldProblem predicate."
+  "gradient_bridge_assumptions": "FieldProblem for both existing candidate histories, plus JointGuardGradientRegularity for the comparison history. The extra joint continuity is not deduced from the original pointwise-in-time FieldProblem predicate.",
+  "guard_energy_theorem_count": 1
 }

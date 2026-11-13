@@ -43,3 +43,9 @@ name = "GuardTransportTimeDefs"
 
 [[lean_lib]]
 name = "GuardTransportTime"
+
+[[lean_lib]]
+name = "EnergyDefs"
+
+[[lean_lib]]
+name = "EnergyEstimate"

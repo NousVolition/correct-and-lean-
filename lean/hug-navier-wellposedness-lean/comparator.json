@@ -15,7 +15,8 @@
     "HugNavierSingle.GuardTransport.common_transport_cancels",
     "HugNavierSingle.GuardTransport.uniform_gradient_bound",
     "HugNavierSingle.GuardTransport.integrated_residual_bound_uniform",
-    "HugNavierSingle.GuardTransport.fieldproblem_guard_transport_bounds"
+    "HugNavierSingle.GuardTransport.fieldproblem_guard_transport_bounds",
+    "HugNavierSingle.EnergyEstimate.fieldproblem_guard_transport_energy_bound"
   ],
   "permitted_axioms": [
     "propext",

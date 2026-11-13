@@ -1,5 +1,5 @@
 {
-  "scope": "Four auxiliary field-rate diagnostics and nine guard transport theorems, including a gradient bound uniform on a finite time interval derived from joint continuity and periodicity, and its application to both guards of two existing FieldProblem solutions with the stated extra joint regularity. Full PDE existence and uniqueness remain open.",
+  "scope": "Four auxiliary field-rate diagnostics, nine guard transport theorems, and the bound of both guard transport residuals by the full six-field difference energy, uniform on a finite interval under the stated extra joint guard-gradient regularity. The time-dependent full difference-energy balance, remaining estimates, PDE existence and uniqueness remain open.",
   "theorems": [
     "HugNavierWellposedness.Verified.perturbation_regular",
     "HugNavierWellposedness.Verified.nearby_uniform_bound",
@@ -13,22 +13,26 @@
     "HugNavierSingle.GuardTransport.common_transport_cancels",
     "HugNavierSingle.GuardTransport.uniform_gradient_bound",
     "HugNavierSingle.GuardTransport.integrated_residual_bound_uniform",
-    "HugNavierSingle.GuardTransport.fieldproblem_guard_transport_bounds"
+    "HugNavierSingle.GuardTransport.fieldproblem_guard_transport_bounds",
+    "HugNavierSingle.EnergyEstimate.fieldproblem_guard_transport_energy_bound"
   ],
   "files": {
     "FullModel.lean": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
     "OriginalAS.lean": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5",
     "FullChecks.lean": "f838c6dd4855e2d8f0c0ab1c49ee73259ace3f9d13695dd18351a09a9ac7c24f",
     "WellposednessTargets.lean": "033e1809bf8071ef1a1922d24c4591ad63a5d6c547ca6d4222a55af4ad7e9d47",
-    "WellposednessChallenge.lean": "7beae32b25866bb0518949d961ab0e7519fe866f2fb884be5dae2d15ac117ad5",
-    "comparator.json": "c1612c03859a672a08a4be758f23e13af26eec052879a89973e16efe09b61eaa",
+    "WellposednessChallenge.lean": "8863efbcd942f447eef3937e9b6847c13e4741395de5202ea544542216276be6",
+    "comparator.json": "ea0c694825e6d7411448da7b0eae2d928bc7a5c90f34c4b2ab1606f0513e73da",
     "source-audit.json": "5374586d8232a9a1104e62fb8b2f90992749ede2b1df6f25108983cb95ac3c21",
-    "lakefile.toml": "a246aeeea35982cdda9b19a52bad5e6a8742c5820d9f58037e4f95aea13bdd8b",
+    "lakefile.toml": "27a51331612cbe353752c1abd42ba8ce7c9b8bbb3138c7027c7b3582f39d72be",
     "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
     "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
     "run-linux-check.sh": "36fb47d476e639f8c54de3f138060ab21db46a5737d211f3c0a7edb39da51a40",
     "GuardTransportDefs.lean": "9dc397770fefb8f3de2d2f93a5fb277a6414a0f834a7fe96d7759ffbec5ce8fa",
-    "GuardTransportTimeDefs.lean": "af88aef25732658a956d883b851aaa79e987638890a8aa1f5285b54528e9f9e9"
+    "GuardTransportTimeDefs.lean": "af88aef25732658a956d883b851aaa79e987638890a8aa1f5285b54528e9f9e9",
+    "EnergyDefs.lean": "81ac6744c05a6cffb74efb65b279c567446595fe0a00cd01c9c040c06e1eb2da",
+    "energy-reference.txt": "531346201c9c71518da4f1660631a93f2532c6af20d1c89535113156706e27c6",
+    "energy-reference-freeze.json": "af115afea1b0ebf0d503ac4819c721db6affd13092427620f0031100d83597c5"
   },
   "source_files": {
     "sources/interaction.md": "aa9af72b9762ff70204131bc160aec712e4071ec17e6a4f3ac832e2e7a4a5808",
@@ -42,5 +46,12 @@
   "requested_target_status": "OPEN",
   "frozen_before_solution_file": false,
   "historical_four_target_freeze": "05ad7171937a080cafe3f3a12d7e0641baaf6214",
-  "gradient_extension_note": "Reference declarations were extracted after local proof development. The challenge imports definitions only, never solution proofs."
+  "gradient_extension_note": "Reference declarations were extracted after local proof development. The challenge imports definitions only, never solution proofs.",
+  "energy_extension_freeze": {
+    "statement_sha256": "531346201c9c71518da4f1660631a93f2532c6af20d1c89535113156706e27c6",
+    "definitions_sha256": "81ac6744c05a6cffb74efb65b279c567446595fe0a00cd01c9c040c06e1eb2da",
+    "recorded_utc": "2026-11-13T05:10:45.056594+00:00",
+    "frozen_before_energy_proof_file": true,
+    "scope": "One guard-to-full-difference-energy bound; no energy derivative or full PDE uniqueness claimed."
+  }
 }

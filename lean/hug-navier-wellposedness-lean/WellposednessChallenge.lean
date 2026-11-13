@@ -1,3 +1,4 @@
+import EnergyDefs
 import WellposednessTargets
 import GuardTransportDefs
 import GuardTransportTimeDefs
@@ -102,3 +103,17 @@ theorem fieldproblem_guard_transport_bounds (input : FieldInputs) (a b : ℝ)
 
 end
 end HugNavierSingle.GuardTransport
+
+namespace HugNavierSingle.EnergyEstimate
+noncomputable section
+
+theorem fieldproblem_guard_transport_energy_bound (input : FieldInputs) (a b : ℝ)
+    (initial : Fields) (z w : ℝ → Fields) (pz pw : ℝ → ScalarField)
+    (hz : FieldProblem input a b initial z pz)
+    (hw : FieldProblem input a b initial w pw)
+    (joint : GuardTransport.JointGuardGradientRegularity w a b) :
+    ∃ Cg : ℝ, 0 ≤ Cg ∧ ∀ t ∈ Set.Icc a b,
+      guardTransportMagnitude (z t) (w t) ≤ Cg * differenceEnergy (z t) (w t) := by sorry
+
+end
+end HugNavierSingle.EnergyEstimate

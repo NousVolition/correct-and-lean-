@@ -8,6 +8,8 @@ The [guard transport supplement](GuardTransport.lean) now proves the two pointwi
 
 The [time-uniform extension](GuardTransportTime.lean) derives the guard-gradient bound from joint continuity on the compact time-cell and spatial periodicity, then applies the integral estimate to both guards of two existing `FieldProblem` solutions. One constant works throughout the chosen finite interval. The comparison history's extra joint guard-gradient continuity remains an explicit assumption, as in the stronger classical argument. This completes that connection, while the remaining energy estimates, existence, continuation, and broader saved uniqueness target remain open. [Walkthrough](GRADIENT-TRANSPORT-BRIDGE.md)
 
+The [full-energy guard bound](EnergyEstimate.lean) now controls the sum of both guard transport residual magnitudes by one constant times the full six-field difference energy throughout the interval. It supplies that term in the energy argument; it does not prove the time-dependent energy inequality. [The exact remaining gap](ENERGY-INEQUALITY-GAP.md) starts with the integrated two-history energy balance and includes the invariant guard range and remaining stress, transport and reaction bounds.
+
 `RequestedExistenceAndUniqueness` names the conjunction of the two previously saved full-system targets. It is a proposition, not an asserted axiom or a proved theorem. No new claim of full existence or uniqueness is made by this package.
 
 ## The proof routes examined

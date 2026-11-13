@@ -1,0 +1,7 @@
+{
+  "statement_sha256": "531346201c9c71518da4f1660631a93f2532c6af20d1c89535113156706e27c6",
+  "definitions_sha256": "81ac6744c05a6cffb74efb65b279c567446595fe0a00cd01c9c040c06e1eb2da",
+  "recorded_utc": "2026-11-13T05:10:45.056594+00:00",
+  "frozen_before_energy_proof_file": true,
+  "scope": "One guard-to-full-difference-energy bound; no energy derivative or full PDE uniqueness claimed."
+}
