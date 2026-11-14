@@ -1,5 +1,5 @@
 {
-  "scope": "Four auxiliary field-rate diagnostics and six guard transport theorems, including a full-cell energy bound and periodic shared-transport cancellation. The full PDE existence and uniqueness targets remain open.",
+  "scope": "Four field-rate diagnostics, nine guard transport theorems, one full-difference-energy guard bound, and two time-derivative theorems: the exact pointwise difference-density chain rule and passage of its derivative through the fixed cell integral at interior times under explicit joint rate-density continuity. The integrated stress/diffusion balance, remaining estimates, PDE existence and uniqueness remain open.",
   "theorems": [
     "HugNavierWellposedness.Verified.perturbation_regular",
     "HugNavierWellposedness.Verified.nearby_uniform_bound",
@@ -10,21 +10,34 @@
     "HugNavierSingle.GuardTransport.advection_difference",
     "HugNavierSingle.GuardTransport.residual_energy_bound",
     "HugNavierSingle.GuardTransport.integrated_residual_bound",
-    "HugNavierSingle.GuardTransport.common_transport_cancels"
+    "HugNavierSingle.GuardTransport.common_transport_cancels",
+    "HugNavierSingle.GuardTransport.uniform_gradient_bound",
+    "HugNavierSingle.GuardTransport.integrated_residual_bound_uniform",
+    "HugNavierSingle.GuardTransport.fieldproblem_guard_transport_bounds",
+    "HugNavierSingle.EnergyEstimate.fieldproblem_guard_transport_energy_bound",
+    "HugNavierSingle.EnergyEstimate.difference_density_hasDerivAt",
+    "HugNavierSingle.EnergyEstimate.fieldproblem_energy_derivative_under_integral"
   ],
   "files": {
     "FullModel.lean": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
     "OriginalAS.lean": "c3427004582da214115240e6b3014d5a40ecbc3dfa98ce8919c916ddae2e81c5",
     "FullChecks.lean": "f838c6dd4855e2d8f0c0ab1c49ee73259ace3f9d13695dd18351a09a9ac7c24f",
     "WellposednessTargets.lean": "033e1809bf8071ef1a1922d24c4591ad63a5d6c547ca6d4222a55af4ad7e9d47",
-    "WellposednessChallenge.lean": "0046f71cd9327893c9212ee192b0eab63894743235d79278c34aa4c948d1404a",
-    "comparator.json": "da2e3f38f71f9f73069f342148fc3940cf1da690e3a3758d1aa34d5bd367e95b",
+    "WellposednessChallenge.lean": "e2844687b98c199ccaa75d2e25d25c96df6ead8987ff0013b2e4034527b66a94",
+    "comparator.json": "d8c6131c90567536428e8ac6dbf1f6d6e2591e929aba08cf676e06c0c5e7b218",
     "source-audit.json": "5374586d8232a9a1104e62fb8b2f90992749ede2b1df6f25108983cb95ac3c21",
-    "lakefile.toml": "7ba3f37f05ec3baee46ac0d0525e0f502c8b67ab04f7dd8e0a1b87fa4d147ebd",
+    "lakefile.toml": "21454531e7834cf8d3114870556985edbb1933992d291e768ff0748f233a3e2c",
     "lake-manifest.json": "2f249a87bb4c32de17548242a5e5c0b219a63cb5612005f2d3a402e2a71e9029",
     "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
     "run-linux-check.sh": "36fb47d476e639f8c54de3f138060ab21db46a5737d211f3c0a7edb39da51a40",
-    "GuardTransportDefs.lean": "9dc397770fefb8f3de2d2f93a5fb277a6414a0f834a7fe96d7759ffbec5ce8fa"
+    "GuardTransportDefs.lean": "9dc397770fefb8f3de2d2f93a5fb277a6414a0f834a7fe96d7759ffbec5ce8fa",
+    "GuardTransportTimeDefs.lean": "af88aef25732658a956d883b851aaa79e987638890a8aa1f5285b54528e9f9e9",
+    "EnergyDefs.lean": "81ac6744c05a6cffb74efb65b279c567446595fe0a00cd01c9c040c06e1eb2da",
+    "energy-reference.txt": "531346201c9c71518da4f1660631a93f2532c6af20d1c89535113156706e27c6",
+    "energy-reference-freeze.json": "af115afea1b0ebf0d503ac4819c721db6affd13092427620f0031100d83597c5",
+    "TimeIntegralDefs.lean": "f2438e008ad48fa9ef49123c66c8d1325b88fc9a7496fd1b935b441ab671f22d",
+    "time-integral-reference.txt": "5f50d5221dae3bd602778f8db0899ec595fe00b4f7afad97672ca0e3adc19e76",
+    "time-integral-reference-freeze.json": "dfae6ffae27408c5d3411ddb6e892e62b000c1e54774f41aab7ed3d6eba92bf0"
   },
   "source_files": {
     "sources/interaction.md": "aa9af72b9762ff70204131bc160aec712e4071ec17e6a4f3ac832e2e7a4a5808",
@@ -37,5 +50,20 @@
   "requested_target": "HugNavierWellposedness.RequestedExistenceAndUniqueness",
   "requested_target_status": "OPEN",
   "frozen_before_solution_file": false,
-  "historical_four_target_freeze": "05ad7171937a080cafe3f3a12d7e0641baaf6214"
+  "historical_four_target_freeze": "05ad7171937a080cafe3f3a12d7e0641baaf6214",
+  "gradient_extension_note": "Reference declarations were extracted after local proof development. The challenge imports definitions only, never solution proofs.",
+  "energy_extension_freeze": {
+    "statement_sha256": "531346201c9c71518da4f1660631a93f2532c6af20d1c89535113156706e27c6",
+    "definitions_sha256": "81ac6744c05a6cffb74efb65b279c567446595fe0a00cd01c9c040c06e1eb2da",
+    "recorded_utc": "2026-11-13T05:10:45.056594+00:00",
+    "frozen_before_energy_proof_file": true,
+    "scope": "One guard-to-full-difference-energy bound; no energy derivative or full PDE uniqueness claimed."
+  },
+  "time_integral_extension_freeze": {
+    "statement_sha256": "5f50d5221dae3bd602778f8db0899ec595fe00b4f7afad97672ca0e3adc19e76",
+    "definitions_sha256": "f2438e008ad48fa9ef49123c66c8d1325b88fc9a7496fd1b935b441ab671f22d",
+    "recorded_utc": "2026-11-13T05:47:30.012072+00:00",
+    "frozen_before_time_integral_proof_file": true,
+    "scope": "Pointwise difference-energy derivative and its passage through the fixed cell integral, under explicit joint rate-density regularity; no integrated dissipation identity claimed."
+  }
 }

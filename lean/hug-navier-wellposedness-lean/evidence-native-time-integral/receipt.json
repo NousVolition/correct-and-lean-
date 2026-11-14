@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-11-13T06:02:22.404272+00:00",
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "lean_binary_sha256": "37dfe799f69b990251f3b6bcff8a1c10c1afe2adcdecc5c580cc6726ffb63433",
+  "modules": [
+    {
+      "module": "TimeIntegralDefs",
+      "exit_code": 0,
+      "elapsed_seconds": 108.57800000000134,
+      "source_sha256": "f2438e008ad48fa9ef49123c66c8d1325b88fc9a7496fd1b935b441ab671f22d",
+      "log": "attempt-1.log",
+      "olean_sha256": "e74a5dcdf78e4932e1967d48efb9f9bef609a79fba3c266ad9b27f501d5c06c3"
+    },
+    {
+      "module": "TimeIntegral",
+      "exit_code": 0,
+      "elapsed_seconds": 107.39099999999962,
+      "source_sha256": "71057a7d59aaec191342772589e449f6b0fe329fd809249f31b6a608aa476530",
+      "log": "attempt-3.log",
+      "olean_sha256": "40438fc7fc15fdac5a17a692cbbbcf4e57ee94540de035d390e341bab01f908e"
+    },
+    {
+      "module": "TimeIntegralAudit",
+      "exit_code": 0,
+      "elapsed_seconds": 160.5779999999977,
+      "source_sha256": "3700450b808b4d26dddc5bcef4ad8366bcecf06707f780067e14df512ee25f66",
+      "log": "attempt-3.log",
+      "olean_sha256": "ed55b06ad8036e53d5a142ee217fd84c5a79c56e2723920db3bcc33a289492b6"
+    }
+  ],
+  "baseline_source_sha256": {
+    "FullModel.lean": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
+    "GuardTransportDefs.lean": "9dc397770fefb8f3de2d2f93a5fb277a6414a0f834a7fe96d7759ffbec5ce8fa",
+    "GuardTransportTimeDefs.lean": "af88aef25732658a956d883b851aaa79e987638890a8aa1f5285b54528e9f9e9",
+    "EnergyDefs.lean": "81ac6744c05a6cffb74efb65b279c567446595fe0a00cd01c9c040c06e1eb2da"
+  },
+  "scope": "Native compilation and axiom audits of the pointwise difference-density derivative and its passage through the fixed cell integral.",
+  "baseline_note": "Baseline sources match the previously checked energy package byte for byte. The prior native baseline normalization is documented in evidence-native-gradient/receipt.json. CI rebuilds the whole package.",
+  "comparator": "NOT_RUN",
+  "nanoda": "NOT_RUN"
+}

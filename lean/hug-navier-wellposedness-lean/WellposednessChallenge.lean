@@ -1,5 +1,8 @@
+import TimeIntegralDefs
+import EnergyDefs
 import WellposednessTargets
 import GuardTransportDefs
+import GuardTransportTimeDefs
 
 namespace HugNavierWellposedness.Verified
 noncomputable section
@@ -61,5 +64,82 @@ theorem common_transport_cancels (z : Fields) (h : ScalarField)
     (px : Periodic z.ux) (py : Periodic z.uy) (ph : Periodic h) (div : Incompressible z) :
     (∫ r, h r * advection z h r ∂cellMeasure) = 0 := by sorry
 
+theorem uniform_gradient_bound (g : ℝ → ScalarField) (a b : ℝ)
+    (gx : ContinuousOn (fun p : ℝ × Point => partialX (g p.1) p.2) (timeCell a b))
+    (gy : ContinuousOn (fun p : ℝ × Point => partialY (g p.1) p.2) (timeCell a b))
+    (gp : ∀ t ∈ Icc a b, Periodic (g t)) :
+    ∃ M : ℝ, 0 ≤ M ∧ ∀ t ∈ Icc a b, ∀ r,
+      (partialX (g t) r)^2 + (partialY (g t) r)^2 ≤ M^2 := by sorry
+
+theorem integrated_residual_bound_uniform (z w : ℝ → Fields)
+    (g h : ℝ → ScalarField) (a b : ℝ)
+    (gx : ContinuousOn (fun p : ℝ × Point => partialX (g p.1) p.2) (timeCell a b))
+    (gy : ContinuousOn (fun p : ℝ × Point => partialY (g p.1) p.2) (timeCell a b))
+    (gp : ∀ t ∈ Icc a b, Periodic (g t))
+    (zX : ∀ t ∈ Icc a b, Continuous (z t).ux)
+    (zY : ∀ t ∈ Icc a b, Continuous (z t).uy)
+    (wX : ∀ t ∈ Icc a b, Continuous (w t).ux)
+    (wY : ∀ t ∈ Icc a b, Continuous (w t).uy)
+    (hg : ∀ t ∈ Icc a b, ContDiff ℝ 1 (g t))
+    (hh : ∀ t ∈ Icc a b, Continuous (h t)) :
+    ∃ M : ℝ, 0 ≤ M ∧ ∀ t ∈ Icc a b,
+      |∫ r, h t r * residual (velocityAt (z t) r) (w t) (g t) r ∂cellMeasure| ≤
+        ((∫ r, ((z t).ux r-(w t).ux r)^2 + ((z t).uy r-(w t).uy r)^2 ∂cellMeasure) +
+          M^2 * ∫ r, (h t r)^2 ∂cellMeasure) / 2 := by sorry
+
+theorem fieldproblem_guard_transport_bounds (input : FieldInputs) (a b : ℝ)
+    (initial : Fields) (z w : ℝ → Fields) (pz pw : ℝ → ScalarField)
+    (hz : FieldProblem input a b initial z pz)
+    (hw : FieldProblem input a b initial w pw)
+    (joint : JointGuardGradientRegularity w a b) :
+    ∃ M : ℝ, 0 ≤ M ∧ ∀ t ∈ Icc a b,
+      (|∫ r, ((z t).gAB r-(w t).gAB r) *
+          residual (velocityAt (z t) r) (w t) (w t).gAB r ∂cellMeasure| ≤
+        ((∫ r, ((z t).ux r-(w t).ux r)^2 + ((z t).uy r-(w t).uy r)^2 ∂cellMeasure) +
+          M^2 * ∫ r, ((z t).gAB r-(w t).gAB r)^2 ∂cellMeasure) / 2) ∧
+      (|∫ r, ((z t).gBA r-(w t).gBA r) *
+          residual (velocityAt (z t) r) (w t) (w t).gBA r ∂cellMeasure| ≤
+        ((∫ r, ((z t).ux r-(w t).ux r)^2 + ((z t).uy r-(w t).uy r)^2 ∂cellMeasure) +
+          M^2 * ∫ r, ((z t).gBA r-(w t).gBA r)^2 ∂cellMeasure) / 2) := by sorry
+
 end
 end HugNavierSingle.GuardTransport
+
+namespace HugNavierSingle.EnergyEstimate
+noncomputable section
+
+theorem fieldproblem_guard_transport_energy_bound (input : FieldInputs) (a b : ℝ)
+    (initial : Fields) (z w : ℝ → Fields) (pz pw : ℝ → ScalarField)
+    (hz : FieldProblem input a b initial z pz)
+    (hw : FieldProblem input a b initial w pw)
+    (joint : GuardTransport.JointGuardGradientRegularity w a b) :
+    ∃ Cg : ℝ, 0 ≤ Cg ∧ ∀ t ∈ Set.Icc a b,
+      guardTransportMagnitude (z t) (w t) ≤ Cg * differenceEnergy (z t) (w t) := by sorry
+
+end
+end HugNavierSingle.EnergyEstimate
+
+namespace HugNavierSingle.EnergyEstimate
+noncomputable section
+
+theorem difference_density_hasDerivAt (input : FieldInputs) (z w : ℝ → Fields)
+    (pz pw : ℝ → ScalarField) (t : ℝ) (r : Point)
+    (hz : FieldDifferentialAt input z pz t)
+    (hw : FieldDifferentialAt input w pw t) :
+    HasDerivAt (fun s => energy (differenceFields (z s) (w s)) r)
+      (differenceRateDensity input t (z t) (w t) (pz t) (pw t) r) t := by sorry
+
+theorem fieldproblem_energy_derivative_under_integral (input : FieldInputs) (a b : ℝ)
+    (initial : Fields) (z w : ℝ → Fields) (pz pw : ℝ → ScalarField)
+    (hz : FieldProblem input a b initial z pz)
+    (hw : FieldProblem input a b initial w pw)
+    (joint : JointDifferenceRateRegularity input z w pz pw a b)
+    (t : ℝ) (ht : t ∈ Set.Ioo a b) :
+    MeasureTheory.Integrable
+      (differenceRateDensity input t (z t) (w t) (pz t) (pw t)) GuardTransport.cellMeasure ∧
+    HasDerivAt (fun s => differenceEnergy (z s) (w s))
+      (∫ r, differenceRateDensity input t (z t) (w t) (pz t) (pw t) r
+        ∂GuardTransport.cellMeasure) t := by sorry
+
+end
+end HugNavierSingle.EnergyEstimate

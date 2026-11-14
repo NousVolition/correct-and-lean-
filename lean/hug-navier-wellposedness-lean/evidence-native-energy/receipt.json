@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-11-13T05:19:38.013601+00:00",
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "lean_binary_sha256": "37dfe799f69b990251f3b6bcff8a1c10c1afe2adcdecc5c580cc6726ffb63433",
+  "modules": [
+    {
+      "module": "EnergyEstimate",
+      "exit_code": 0,
+      "elapsed_seconds": 89.71899999999732,
+      "source_sha256": "6579086ed4be3da82e9b6ca261b614b84be28368277de3734b6f9ba98d9c4840"
+    },
+    {
+      "module": "EnergyAudit",
+      "exit_code": 0,
+      "elapsed_seconds": 89.13999999999942,
+      "source_sha256": "85bbf41fa9b55cf690674863c9b4e3d1fecd16adb538969e23a7f79ee7ccf997"
+    }
+  ],
+  "baseline_source_sha256": {
+    "FullModel.lean": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
+    "GuardTransportDefs.lean": "9dc397770fefb8f3de2d2f93a5fb277a6414a0f834a7fe96d7759ffbec5ce8fa",
+    "GuardTransport.lean": "8702842bb028913050cc5872124fefca796dad223160dde6ff8209344c0ee16c",
+    "GuardTransportTimeDefs.lean": "af88aef25732658a956d883b851aaa79e987638890a8aa1f5285b54528e9f9e9",
+    "GuardTransportTime.lean": "0ace9ebcc584aa36c38c1ebf01b3898d4e38a180a05406cd82e4ecd97d4298f9"
+  },
+  "scope": "Native compilation and axiom check of the new guard-to-full-difference-energy bound.",
+  "definitions_source_sha256": "81ac6744c05a6cffb74efb65b279c567446595fe0a00cd01c9c040c06e1eb2da",
+  "definitions_note": "EnergyDefs compiled successfully on the first attempt and was unchanged. Its compile result is preserved in development-attempt1.log.",
+  "baseline_note": "Sources match the previously checked gradient package byte for byte. Its native baseline CRLF normalization is documented in evidence-native-gradient/receipt.json. Repository CI rebuilds the entire package.",
+  "comparator": "NOT_RUN",
+  "nanoda": "NOT_RUN"
+}

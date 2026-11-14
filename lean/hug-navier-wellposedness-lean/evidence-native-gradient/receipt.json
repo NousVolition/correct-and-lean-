@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-11-13T04:39:49.442346+00:00",
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-w64-windows-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "lean_binary_sha256": "37dfe799f69b990251f3b6bcff8a1c10c1afe2adcdecc5c580cc6726ffb63433",
+  "modules": [
+    {
+      "module": "GuardTransportTimeDefs",
+      "exit_code": 0,
+      "elapsed_seconds": 104.64099999999962,
+      "source_sha256": "af88aef25732658a956d883b851aaa79e987638890a8aa1f5285b54528e9f9e9"
+    },
+    {
+      "module": "GuardTransportTime",
+      "exit_code": 0,
+      "elapsed_seconds": 70.03100000000086,
+      "source_sha256": "0ace9ebcc584aa36c38c1ebf01b3898d4e38a180a05406cd82e4ecd97d4298f9"
+    },
+    {
+      "module": "GradientAudit",
+      "exit_code": 0,
+      "elapsed_seconds": 62.4369999999999,
+      "source_sha256": "b8824f9decee35fd708b9675c07315cc0b08440e81a2047430324d88623bbd79"
+    }
+  ],
+  "baseline_source_sha256": {
+    "FullModel.lean": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
+    "GuardTransportDefs.lean": "9dc397770fefb8f3de2d2f93a5fb277a6414a0f834a7fe96d7759ffbec5ce8fa",
+    "GuardTransport.lean": "8702842bb028913050cc5872124fefca796dad223160dde6ff8209344c0ee16c"
+  },
+  "baseline_compiled_source_sha256": {
+    "FullModel.lean": "edbb83823ea0b59fb76477166c3b5020f8de549ef7da3ff81cdb451f213d9723",
+    "GuardTransportDefs.lean": "9dc397770fefb8f3de2d2f93a5fb277a6414a0f834a7fe96d7759ffbec5ce8fa",
+    "GuardTransport.lean": "2b4fef493e2ede02a8ceb045abd2cc75b60ad45e08c830570946eab7e174fc14"
+  },
+  "scope": "Native Lean compilation and printed axiom dependencies of the 3 new bridge declarations",
+  "baseline_note": "Previously compiled baseline source text matches after CRLF-to-LF normalization only. Both raw hashes are recorded. The repository CI performs a fresh full package build and both-kernel comparison.",
+  "comparator": "NOT_RUN",
+  "nanoda": "NOT_RUN"
+}

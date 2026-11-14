@@ -1,0 +1,9 @@
+MODULE EnergyEstimate
+
+EXIT 0
+MODULE EnergyAudit
+'HugNavierSingle.EnergyEstimate.fieldproblem_guard_transport_energy_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT 0

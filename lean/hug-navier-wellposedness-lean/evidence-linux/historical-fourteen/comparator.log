@@ -1,0 +1,47 @@
+Running as unit: run-u0.service; invocation ID: 6b665008fed64262a93d4741a0ed0f6a
+Building WellposednessChallenge
+✔ [3368/3376] Built FullModel (2.5s)
+✔ [3369/3376] Built GuardTransportDefs (2.1s)
+✔ [3370/3376] Built OriginalAS (2.2s)
+✔ [3371/3376] Built GuardTransportTimeDefs (1.9s)
+✔ [3372/3376] Built FullChecks (3.4s)
+✔ [3373/3376] Built EnergyDefs (2.3s)
+✔ [3374/3376] Built WellposednessTargets (1.9s)
+⚠ [3375/3376] Built WellposednessChallenge (2.3s)
+warning: WellposednessChallenge.lean:11:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:15:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:18:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:21:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:30:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:34:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:41:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:47:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:53:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:61:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:66:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:73:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:89:8: declaration uses `sorry`
+warning: WellposednessChallenge.lean:110:8: declaration uses `sorry`
+Build completed successfully (3376 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugNavierWellposedness.Verified.perturbation_regular, HugNavierWellposedness.Verified.nearby_uniform_bound, HugNavierWellposedness.Verified.exact_rate_difference, HugNavierWellposedness.Verified.no_uniform_local_rate_bound, HugNavierSingle.GuardTransport.transport_of_blend, HugNavierSingle.GuardTransport.directional_guard_rates, HugNavierSingle.GuardTransport.advection_difference, HugNavierSingle.GuardTransport.residual_energy_bound, HugNavierSingle.GuardTransport.integrated_residual_bound, HugNavierSingle.GuardTransport.common_transport_cancels, HugNavierSingle.GuardTransport.uniform_gradient_bound, HugNavierSingle.GuardTransport.integrated_residual_bound_uniform, HugNavierSingle.GuardTransport.fieldproblem_guard_transport_bounds, HugNavierSingle.EnergyEstimate.fieldproblem_guard_transport_energy_bound, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from WellposednessChallenge
+Building WellposednessProofs
+✔ [3375/3379] Built GuardTransport (2.8s)
+✔ [3376/3379] Built GuardTransportTime (2.4s)
+✔ [3377/3379] Built EnergyEstimate (2.4s)
+⚠ [3378/3379] Built WellposednessProofs (4.2s)
+warning: WellposednessProofs.lean:84:13: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3379 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, HugNavierWellposedness.Verified.perturbation_regular, HugNavierWellposedness.Verified.nearby_uniform_bound, HugNavierWellposedness.Verified.exact_rate_difference, HugNavierWellposedness.Verified.no_uniform_local_rate_bound, HugNavierSingle.GuardTransport.transport_of_blend, HugNavierSingle.GuardTransport.directional_guard_rates, HugNavierSingle.GuardTransport.advection_difference, HugNavierSingle.GuardTransport.residual_energy_bound, HugNavierSingle.GuardTransport.integrated_residual_bound, HugNavierSingle.GuardTransport.common_transport_cancels, HugNavierSingle.GuardTransport.uniform_gradient_bound, HugNavierSingle.GuardTransport.integrated_residual_bound_uniform, HugNavierSingle.GuardTransport.fieldproblem_guard_transport_bounds, HugNavierSingle.EnergyEstimate.fieldproblem_guard_transport_energy_bound, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from WellposednessProofs
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 1min 58.633s
+CPU time consumed: 2min 12.307s
+Memory peak: 256.0K
+Memory swap peak: 0B

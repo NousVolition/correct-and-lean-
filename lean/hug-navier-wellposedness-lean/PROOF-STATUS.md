@@ -6,6 +6,12 @@ The requested theorem has **not** been established. The source's full six-field 
 
 The [guard transport supplement](GuardTransport.lean) now proves the two pointwise directional identities, the integrated guard energy bound and shared-transport cancellation on the periodic square. Its [test and checking record](../../research/matched-stretch/guard-transport/README.md) connects these lemmas to the classical uniqueness argument.
 
+The [time-uniform extension](GuardTransportTime.lean) derives the guard-gradient bound from joint continuity on the compact time-cell and spatial periodicity, then applies the integral estimate to both guards of two existing `FieldProblem` solutions. One constant works throughout the chosen finite interval. The comparison history's extra joint guard-gradient continuity remains an explicit assumption, as in the stronger classical argument. This completes that connection, while the remaining energy estimates, existence, continuation, and broader saved uniqueness target remain open. [Walkthrough](GRADIENT-TRANSPORT-BRIDGE.md)
+
+The [full-energy guard bound](EnergyEstimate.lean) now controls the sum of both guard transport residual magnitudes by one constant times the full six-field difference energy throughout the interval. It supplies that term in the energy argument; it does not prove the time-dependent energy inequality. [The exact remaining gap](ENERGY-INEQUALITY-GAP.md) starts with the integrated two-history energy balance and includes the invariant guard range and remaining stress, transport and reaction bounds.
+
+The [time-interchange step](TimeIntegral.lean) proves the exact pointwise difference-energy derivative and passes it through the fixed cell integral at interior times, under the additional `JointDifferenceRateRegularity` condition. This is a sufficient analytic hypothesis on the unchanged rates; it is not derived from the original predicate or the earlier guard-gradient condition. The remaining integrated stress/diffusion balance is still open. [Assumptions and source-context distinctions](TIME-DERIVATIVE-ASSUMPTIONS.md)
+
 `RequestedExistenceAndUniqueness` names the conjunction of the two previously saved full-system targets. It is a proposition, not an asserted axiom or a proved theorem. No new claim of full existence or uniqueness is made by this package.
 
 ## The proof routes examined

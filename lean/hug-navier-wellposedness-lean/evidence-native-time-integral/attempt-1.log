@@ -1,0 +1,84 @@
+MODULE TimeIntegralDefs SOURCE_SHA256 f2438e008ad48fa9ef49123c66c8d1325b88fc9a7496fd1b935b441ab671f22d
+
+EXIT 0
+MODULE TimeIntegral SOURCE_SHA256 8a5d1822839cb569ac855718fb316405d065f4241c1d3dcff45a1afbc9387c24
+TimeIntegral.lean:22:4: error: `simp` made no progress
+TimeIntegral.lean:22:4: error: `simp` made no progress
+TimeIntegral.lean:15:71: error: unsolved goals
+case e'_9
+input : FieldInputs
+z w : ℝ → Fields
+pz pw : ℝ → ScalarField
+t : ℝ
+r : Point
+hz : FieldDifferentialAt input z pz t
+hw : FieldDifferentialAt input w pw t
+zu : HasDerivAt (fun s => (z s).ux r) ((fieldRates input t (z t) (pz t)).ux r) t
+zv : HasDerivAt (fun s => (z s).uy r) ((fieldRates input t (z t) (pz t)).uy r) t
+za : HasDerivAt (fun s => (z s).xA r) ((fieldRates input t (z t) (pz t)).xA r) t
+zb : HasDerivAt (fun s => (z s).xB r) ((fieldRates input t (z t) (pz t)).xB r) t
+zh : HasDerivAt (fun s => (z s).gAB r) ((fieldRates input t (z t) (pz t)).gAB r) t
+zj : HasDerivAt (fun s => (z s).gBA r) ((fieldRates input t (z t) (pz t)).gBA r) t
+wu : HasDerivAt (fun s => (w s).ux r) ((fieldRates input t (w t) (pw t)).ux r) t
+wv : HasDerivAt (fun s => (w s).uy r) ((fieldRates input t (w t) (pw t)).uy r) t
+wa : HasDerivAt (fun s => (w s).xA r) ((fieldRates input t (w t) (pw t)).xA r) t
+wb : HasDerivAt (fun s => (w s).xB r) ((fieldRates input t (w t) (pw t)).xB r) t
+wh : HasDerivAt (fun s => (w s).gAB r) ((fieldRates input t (w t) (pw t)).gAB r) t
+wj : HasDerivAt (fun s => (w s).gBA r) ((fieldRates input t (w t) (pw t)).gBA r) t
+hd :
+  HasDerivAt
+    (fun x =>
+      (((fun s => (z s).ux r) - fun s => (w s).ux r) ^ 2 + ((fun s => (z s).uy r) - fun s => (w s).uy r) ^ 2 +
+                  ((fun s => (z s).xA r) - fun s => (w s).xA r) ^ 2 +
+                ((fun s => (z s).xB r) - fun s => (w s).xB r) ^ 2 +
+              ((fun s => (z s).gAB r) - fun s => (w s).gAB r) ^ 2 +
+            ((fun s => (z s).gBA r) - fun s => (w s).gBA r) ^ 2)
+          x /
+        2)
+    ((↑2 * ((fun s => (z s).ux r) - fun s => (w s).ux r) t ^ (2 - 1) *
+                  ((fieldRates input t (z t) (pz t)).ux r - (fieldRates input t (w t) (pw t)).ux r) +
+                ↑2 * ((fun s => (z s).uy r) - fun s => (w s).uy r) t ^ (2 - 1) *
+                  ((fieldRates input t (z t) (pz t)).uy r - (fieldRates input t (w t) (pw t)).uy r) +
+              ↑2 * ((fun s => (z s).xA r) - fun s => (w s).xA r) t ^ (2 - 1) *
+                ((fieldRates input t (z t) (pz t)).xA r - (fieldRates input t (w t) (pw t)).xA r) +
+            ↑2 * ((fun s => (z s).xB r) - fun s => (w s).xB r) t ^ (2 - 1) *
+              ((fieldRates input t (z t) (pz t)).xB r - (fieldRates input t (w t) (pw t)).xB r) +
+          ↑2 * ((fun s => (z s).gAB r) - fun s => (w s).gAB r) t ^ (2 - 1) *
+            ((fieldRates input t (z t) (pz t)).gAB r - (fieldRates input t (w t) (pw t)).gAB r) +
+        ↑2 * ((fun s => (z s).gBA r) - fun s => (w s).gBA r) t ^ (2 - 1) *
+          ((fieldRates input t (z t) (pz t)).gBA r - (fieldRates input t (w t) (pw t)).gBA r)) /
+      2)
+    t
+⊢ ((z t).ux r - (w t).ux r) * ((fieldRates input t (z t) (pz t)).ux r - (fieldRates input t (w t) (pw t)).ux r) +
+              ((z t).uy r - (w t).uy r) *
+                ((fieldRates input t (z t) (pz t)).uy r - (fieldRates input t (w t) (pw t)).uy r) +
+            ((z t).xA r - (w t).xA r) *
+              ((fieldRates input t (z t) (pz t)).xA r - (fieldRates input t (w t) (pw t)).xA r) +
+          ((z t).xB r - (w t).xB r) *
+            ((fieldRates input t (z t) (pz t)).xB r - (fieldRates input t (w t) (pw t)).xB r) +
+        ((z t).gAB r - (w t).gAB r) *
+          ((fieldRates input t (z t) (pz t)).gAB r - (fieldRates input t (w t) (pw t)).gAB r) +
+      ((z t).gBA r - (w t).gBA r) *
+        ((fieldRates input t (z t) (pz t)).gBA r - (fieldRates input t (w t) (pw t)).gBA r) =
+    (2 * ((z t).ux r - (w t).ux r) * ((fieldRates input t (z t) (pz t)).ux r - (fieldRates input t (w t) (pw t)).ux r) +
+                2 * ((z t).uy r - (w t).uy r) *
+                  ((fieldRates input t (z t) (pz t)).uy r - (fieldRates input t (w t) (pw t)).uy r) +
+              2 * ((z t).xA r - (w t).xA r) *
+                ((fieldRates input t (z t) (pz t)).xA r - (fieldRates input t (w t) (pw t)).xA r) +
+            2 * ((z t).xB r - (w t).xB r) *
+              ((fieldRates input t (z t) (pz t)).xB r - (fieldRates input t (w t) (pw t)).xB r) +
+          2 * ((z t).gAB r - (w t).gAB r) *
+            ((fieldRates input t (z t) (pz t)).gAB r - (fieldRates input t (w t) (pw t)).gAB r) +
+        2 * ((z t).gBA r - (w t).gBA r) *
+          ((fieldRates input t (z t) (pz t)).gBA r - (fieldRates input t (w t) (pw t)).gBA r)) /
+      2
+TimeIntegral.lean:55:55: error: Application type mismatch: The argument
+  hr
+has type
+  r ∈ closedCell
+but is expected to have type
+  ?m.295.2 ∈ closedCell
+in the application
+  ⟨⟨?m.307, ?m.314⟩, hr⟩
+
+EXIT 1

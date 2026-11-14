@@ -1,0 +1,13 @@
+REUSE TimeIntegralDefs source_sha256=f2438e008ad48fa9ef49123c66c8d1325b88fc9a7496fd1b935b441ab671f22d
+MODULE TimeIntegral SOURCE_SHA256 71057a7d59aaec191342772589e449f6b0fe329fd809249f31b6a608aa476530
+
+EXIT 0
+MODULE TimeIntegralAudit SOURCE_SHA256 3700450b808b4d26dddc5bcef4ad8366bcecf06707f780067e14df512ee25f66
+'HugNavierSingle.EnergyEstimate.difference_density_hasDerivAt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HugNavierSingle.EnergyEstimate.fieldproblem_energy_derivative_under_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT 0

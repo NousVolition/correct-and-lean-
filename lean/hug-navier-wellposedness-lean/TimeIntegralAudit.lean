@@ -1,0 +1,4 @@
+import TimeIntegral
+
+#print axioms HugNavierSingle.EnergyEstimate.difference_density_hasDerivAt
+#print axioms HugNavierSingle.EnergyEstimate.fieldproblem_energy_derivative_under_integral

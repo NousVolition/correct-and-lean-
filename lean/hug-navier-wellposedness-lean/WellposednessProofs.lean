@@ -1,5 +1,8 @@
+import TimeIntegral
+import EnergyEstimate
 import WellposednessTargets
 import GuardTransport
+import GuardTransportTime
 
 namespace HugNavierWellposedness.Verified
 noncomputable section

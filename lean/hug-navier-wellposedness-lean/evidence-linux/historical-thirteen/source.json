@@ -1,0 +1,21 @@
+{
+  "repository": "NousVolition/hug-sims-lean-proofs",
+  "workflow_run": 43367124678,
+  "job_id": 131694905113,
+  "workflow_url": "https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43367124678",
+  "checked_head": "5bf12a2f6567bffdee473c68d14e3ba85d888d05",
+  "artifact_id": 14011087643,
+  "artifact_name": "proof-hug-navier-wellposedness-lean-1",
+  "artifact_zip_sha256": "3759dd8c1260d444142065b1acff593d474b247c66ee8c2f7fca1395442980c1",
+  "members_sha256": {
+    "comparator.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "comparator.log": "a550a0d604b156c006204a53c36dffec5ec96bbdc17871992ec0b27207824adb",
+    "lake-build.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "axioms.json": "51498dfe8ffbcfeac2c12c0b7e56c653c93aba70192914ce14d6ead80254f677",
+    "lake-build.log": "17e6a9eb5aae811eadc90d93d65886feb115ea66aa5e4c22cfe24e8865d04fd3",
+    "verification-report.json": "1596a48a1e276d779a837f08ab329ac129ce1cc3539a36ca067815141a3e83ad"
+  },
+  "named_theorems": 13,
+  "new_gradient_bridge_theorems": 3,
+  "source_note": "All six artifact members are preserved byte-for-byte. This receipt checks the stated proof commit. Later receipt-only edits do not change its proof inputs."
+}

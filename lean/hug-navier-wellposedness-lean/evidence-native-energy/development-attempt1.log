@@ -1,0 +1,55 @@
+MODULE EnergyDefs
+
+EXIT 0
+MODULE EnergyEstimate
+EnergyEstimate.lean:30:20: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ∫ (a : Point),
+    ((z.ux - w.ux) ^ 2 + (z.uy - w.uy) ^ 2 + (z.xA - w.xA) ^ 2 + (z.xB - w.xB) ^ 2 + (z.gAB - w.gAB) ^ 2) a +
+      ((z.gBA - w.gBA) ^ 2) a ∂cellMeasure
+in the target expression
+  (∫ (a : Point),
+        (z.ux a - w.ux a) ^ 2 + (z.uy a - w.uy a) ^ 2 + (z.xA a - w.xA a) ^ 2 + (z.xB a - w.xB a) ^ 2 +
+            (z.gAB a - w.gAB a) ^ 2 +
+          (z.gBA a - w.gBA a) ^ 2 ∂cellMeasure) /
+      2 =
+    (∫ (r : Point), (z.ux r - w.ux r) ^ 2 + (z.uy r - w.uy r) ^ 2 ∂cellMeasure +
+              ∫ (r : Point), (z.xA r - w.xA r) ^ 2 ∂cellMeasure +
+            ∫ (r : Point), (z.xB r - w.xB r) ^ 2 ∂cellMeasure +
+          ∫ (r : Point), (z.gAB r - w.gAB r) ^ 2 ∂cellMeasure +
+        ∫ (r : Point), (z.gBA r - w.gBA r) ^ 2 ∂cellMeasure) /
+      2
+
+z w : Fields
+p q : ScalarField
+zu : ContDiff ℝ 2 z.ux
+zv : ContDiff ℝ 2 z.uy
+za : ContDiff ℝ 2 z.xA
+zb : ContDiff ℝ 2 z.xB
+zh : ContDiff ℝ 2 z.gAB
+zj : ContDiff ℝ 2 z.gBA
+zp : ContDiff ℝ 1 p
+wu : ContDiff ℝ 2 w.ux
+wv : ContDiff ℝ 2 w.uy
+wa : ContDiff ℝ 2 w.xA
+wb : ContDiff ℝ 2 w.xB
+wh : ContDiff ℝ 2 w.gAB
+wj : ContDiff ℝ 2 w.gBA
+wp : ContDiff ℝ 1 q
+iu : Integrable ((z.ux - w.ux) ^ 2 + (z.uy - w.uy) ^ 2) cellMeasure
+ia : Integrable ((z.xA - w.xA) ^ 2) cellMeasure
+ib : Integrable ((z.xB - w.xB) ^ 2) cellMeasure
+ih : Integrable ((z.gAB - w.gAB) ^ 2) cellMeasure
+ij : Integrable ((z.gBA - w.gBA) ^ 2) cellMeasure
+⊢ (∫ (a : Point),
+        (z.ux a - w.ux a) ^ 2 + (z.uy a - w.uy a) ^ 2 + (z.xA a - w.xA a) ^ 2 + (z.xB a - w.xB a) ^ 2 +
+            (z.gAB a - w.gAB a) ^ 2 +
+          (z.gBA a - w.gBA a) ^ 2 ∂cellMeasure) /
+      2 =
+    (∫ (r : Point), (z.ux r - w.ux r) ^ 2 + (z.uy r - w.uy r) ^ 2 ∂cellMeasure +
+              ∫ (r : Point), (z.xA r - w.xA r) ^ 2 ∂cellMeasure +
+            ∫ (r : Point), (z.xB r - w.xB r) ^ 2 ∂cellMeasure +
+          ∫ (r : Point), (z.gAB r - w.gAB r) ^ 2 ∂cellMeasure +
+        ∫ (r : Point), (z.gBA r - w.gBA r) ^ 2 ∂cellMeasure) /
+      2
+
+EXIT 1
