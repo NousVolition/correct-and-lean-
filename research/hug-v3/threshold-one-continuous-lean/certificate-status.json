@@ -1,0 +1,80 @@
+{
+  "requested_outcome": "Continuous normalized frozen-field traces and window minima at six archived threshold-1 bracket sides",
+  "status": "NOT_CERTIFIED",
+  "bound_verification_requirement": "Every mathematical bound used must be verified inside Lean",
+  "certified_full_signed_traces": 0,
+  "required_full_signed_traces": 6,
+  "certified_directional_traces": 0,
+  "required_directional_traces": 12,
+  "certified_window_minima": 0,
+  "required_window_minima": 36,
+  "proved_partial_results": [
+    "Global continuous upper and Lipschitz bounds for the 18 unnormalized archived Fourier components",
+    "General rational polynomial model error lemmas",
+    "General normalized-component residual lemma",
+    "Conditional existence-in-tube theorem with no pre-assumed trajectory",
+    "Conditional attained-minimum enclosure theorem",
+    "Residual-based sine/cosine enclosures and the candidate-segment phase pilot",
+    "Integer polynomial models with proved rounding and truncation errors",
+    "General tensor-factorized Fourier evaluation soundness; the concrete component pilot is excluded",
+    "Fourier remainder bounds and actual directional derivatives",
+    "Euclidean normalization bridge and global auxiliary clipped-field existence",
+    "General matrix, transformed-residual and preconditioned tube lemmas",
+    "Unit-torus distance identities and a conditional continuous-window minimum theorem"
+  ],
+  "missing": [
+    "Closed normalized-field certificates for every required trajectory slab",
+    "Nonvanishing vorticity over every full tube",
+    "Closed exact-seed, join, uniqueness and error propagation proofs for all twelve directions",
+    "Universal periodic-distance bounds and witnesses for all 36 windows"
+  ],
+  "external_numerical_output_accepted_as_lean_bound": false,
+  "submitted_additional_results": [
+    "One archived Fourier-component candidate-segment pilot remains unverified; its 16 declarations are excluded from the foundation receipt"
+  ],
+  "expanded_build_status": {
+    "proof_head": "ab931cf3a2581153f106feb6dbac346a82e245b9",
+    "run_id": 43376452721,
+    "status": "TIMEOUT",
+    "timeout_seconds": 1800,
+    "axiom_audit_ran": false
+  },
+  "foundation_scope": {
+    "excluded_modules": [
+      "FieldPilotCore",
+      "FieldPilotArchiveLink"
+    ],
+    "reason": "Separate independent general results from the unverified component pilot; this does not certify a trace."
+  },
+  "verified_foundations": {
+    "named_theorem_count": 171,
+    "submitted_named_theorem_count": 187,
+    "excluded_modules": [
+      "FieldPilotCore",
+      "FieldPilotArchiveLink"
+    ],
+    "excluded_named_theorems": [
+      "FieldPilotCore.archiveDenominator_positive",
+      "FieldPilotCore.baseError_nonneg",
+      "FieldPilotCore.starts_cos",
+      "FieldPilotCore.starts_sin",
+      "FieldPilotCore.base_error_checked",
+      "FieldPilotCore.base_sound",
+      "FieldPilotCore.powerRE_nonneg",
+      "FieldPilotCore.powerIM_nonneg",
+      "FieldPilotCore.powers_checked",
+      "FieldPilotCore.powers_sound",
+      "FieldPilotCore.field_sound",
+      "FieldPilotCore.checked_field",
+      "FieldPilotCore.checked_error",
+      "FieldPilotCore.continuous_field_enclosure",
+      "FieldPilotArchiveLink.archive_identity",
+      "FieldPilotArchiveLink.archived_component_enclosure"
+    ],
+    "proof_head": "c5c79f3c587edfc47570d2b7f8adfdfa3ab03baf",
+    "tested_merge": "7c2bdba976b984154e35fe26ae9b3a546bf28bb0",
+    "run_id": 43382450376,
+    "receipt": "evidence-foundations-linux/receipt.json",
+    "scope": "Supporting continuous mathematical results; no closed archived trajectory or window-minimum certificate"
+  }
+}

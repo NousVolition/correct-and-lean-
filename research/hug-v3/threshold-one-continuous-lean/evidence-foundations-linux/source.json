@@ -1,0 +1,28 @@
+{
+  "verification_status": "PASS",
+  "verification_scope": "foundations",
+  "requested_trajectory_certificate": "NOT_CERTIFIED",
+  "run_id": 43382450376,
+  "run_url": "https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43382450376",
+  "artifact_id": 14017855722,
+  "artifact_sha256": "8a511e77be319c4fba7bbfa624aca854dbb4f9f721c7fab9c1f9e6f6cc75238a",
+  "proof_head": "c5c79f3c587edfc47570d2b7f8adfdfa3ab03baf",
+  "tested_merge": "7c2bdba976b984154e35fe26ae9b3a546bf28bb0",
+  "retained_at_utc": "2026-11-13T07:04:30.969840+00:00",
+  "files_retained_byte_for_byte": {
+    "receipt.json": "b9481d8c5ffb4910545c82b918c285226ea79571c60697b99c390d72ab628745",
+    "CheckAxioms.lean": "a6f8b3ee4f910f106d05ed0c5da51de242a0950c2949653cd3891c04b7933f30",
+    "evidence/CheckAxioms.log": "c0a51a788d2124b77a898ba26a4ef5e82339127ae7c50f642aac14afce04d8ae",
+    "evidence/lake-build.log": "2ef1d787e297251087c5eb2fae0c6faceec9712ddf59797faa2286a44134feb6"
+  },
+  "named_theorem_count": 171,
+  "excluded_named_theorem_count": 16,
+  "excluded_modules": [
+    "FieldPilotCore",
+    "FieldPilotArchiveLink"
+  ],
+  "certified_directional_traces": 0,
+  "certified_window_minima": 0,
+  "all_recorded_source_hashes_matched_at_retention": true,
+  "axiom_report_reparsed_and_matched": true
+}

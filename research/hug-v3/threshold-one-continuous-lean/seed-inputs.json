@@ -1,0 +1,99 @@
+{
+  "status": "INPUT_TRANSCRIPTION_ONLY",
+  "denominator": "1208925819614629174706176",
+  "source_files": {
+    "snapshots.npz": "eebd442c11e378ac8115a4bed4efd42d234d596865f38667e2cf02565c2f1a19",
+    "snapshots.json": "29c983c63e7a5150970d3f2086a44629f9df60df49b168c5b31916d5d5f3c414"
+  },
+  "labels": [
+    "event-1-left",
+    "event-1-right",
+    "event-2-left",
+    "event-2-right",
+    "event-3-left",
+    "event-3-right"
+  ],
+  "indices": [
+    25,
+    26,
+    27,
+    28,
+    38,
+    39
+  ],
+  "seed_and_target_hex": [
+    [
+      [
+        "-0x1.eb2f8c27596d7p-9",
+        "-0x1.05045bd5ddeb8p-4",
+        "-0x1.7618ee96f4152p-7"
+      ],
+      [
+        "-0x1.098930ee0c79dp-6",
+        "-0x1.a1c55ea890c1dp-3",
+        "0x1.36797e32c8428p-4"
+      ]
+    ],
+    [
+      [
+        "-0x1.eb2f8c7e75c55p-9",
+        "-0x1.05045bd5d6b58p-4",
+        "-0x1.7618ee96a3117p-7"
+      ],
+      [
+        "-0x1.098930f372fe1p-6",
+        "-0x1.a1c55ea88e906p-3",
+        "0x1.36797e32c8912p-4"
+      ]
+    ],
+    [
+      [
+        "-0x1.ee60cc689236bp-9",
+        "-0x1.050418ccd252ep-4",
+        "-0x1.7615f169423b1p-7"
+      ],
+      [
+        "-0x1.09bb85ac764abp-6",
+        "-0x1.a1c54a586b038p-3",
+        "0x1.3679850c28401p-4"
+      ]
+    ],
+    [
+      [
+        "-0x1.ee60ccc0947b2p-9",
+        "-0x1.050418cccb2b9p-4",
+        "-0x1.7615f168ef477p-7"
+      ],
+      [
+        "-0x1.09bb85b1d8b3fp-6",
+        "-0x1.a1c54a5868daap-3",
+        "0x1.3679850c29694p-4"
+      ]
+    ],
+    [
+      [
+        "-0x1.109a384e81a94p-8",
+        "-0x1.0500792cd089dp-4",
+        "-0x1.75e116ebabd19p-7"
+      ],
+      [
+        "-0x1.0c8fcf6d5ee83p-6",
+        "-0x1.a1c441920fb8dp-3",
+        "0x1.367d90628ffa5p-4"
+      ]
+    ],
+    [
+      [
+        "-0x1.109a3880fc2b3p-8",
+        "-0x1.0500792cca33bp-4",
+        "-0x1.75e116eb392edp-7"
+      ],
+      [
+        "-0x1.0c8fcf72820f4p-6",
+        "-0x1.a1c441920e059p-3",
+        "0x1.367d90629de70p-4"
+      ]
+    ]
+  ],
+  "generated_lean_sha256": "63ac780fef9bb5c66551dfb6ef1ce9925e12f8c03a23e264001f51936ffd471f"
+}

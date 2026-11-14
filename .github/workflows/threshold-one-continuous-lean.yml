@@ -1,0 +1,52 @@
+name: Threshold-one continuous proof development
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "research/hug-v3/threshold-one-continuous-lean/**"
+      - ".github/workflows/threshold-one-continuous-lean.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: General bounds only; Fourier pilot and trajectories unverified
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Install the input-transcription dependency
+        run: python3 -m pip install numpy==2.5.4
+      - name: Fetch the pinned Lean release
+        run: bash scripts/ci-lean-toolchain.sh fetch "$RUNNER_TEMP/frozen-tools"
+      - name: Install the checked Lean archive
+        working-directory: research/hug-v3/threshold-one-continuous-lean
+        run: bash "$GITHUB_WORKSPACE/scripts/ci-lean-toolchain.sh" install "$RUNNER_TEMP/frozen-tools" "$RUNNER_TEMP/frozen-lean"
+      - name: Fetch the pinned Mathlib cache
+        working-directory: research/hug-v3/threshold-one-continuous-lean
+        env:
+          MATHLIB_CACHE_GET_URL: https://cache.mathlib.org/mathlib4
+        run: lake exe cache get
+      - name: Check foundations and preserve the excluded pilot status
+        working-directory: research/hug-v3/threshold-one-continuous-lean
+        env:
+          PR_HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          python3 -B -m unittest test_verification.py
+          python3 -B verify.py --scope foundations --output "$RUNNER_TEMP/frozen-evidence"
+          python3 -B verify.py --output "$RUNNER_TEMP/unused" --require-trajectories && exit 1 || test "$?" = 2
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        if: always()
+        with:
+          name: threshold-one-continuous-development-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/frozen-evidence/receipt.json
+            ${{ runner.temp }}/frozen-evidence/failure.json
+            ${{ runner.temp }}/frozen-evidence/CheckAxioms.lean
+            ${{ runner.temp }}/frozen-evidence/evidence/*.log
+          if-no-files-found: warn

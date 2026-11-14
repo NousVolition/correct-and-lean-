@@ -1,0 +1,28 @@
+{
+  "repository": "NousVolition/hug-sims-lean-proofs",
+  "pull_request": 54,
+  "run_id": 43364713158,
+  "run_attempt": 1,
+  "run_url": "https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43364713158",
+  "artifact_id": 14009962636,
+  "artifact_name": "threshold-one-continuous-development-1",
+  "artifact_url": "https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43364713158/artifacts/14009962636",
+  "github_digest": "sha256:1510d0b134fa6b1ba06328510ae8471dcc4823410facddf2f2c221472f75a2ab",
+  "downloaded_archive_sha256": "1510d0b134fa6b1ba06328510ae8471dcc4823410facddf2f2c221472f75a2ab",
+  "checked_at_utc": "2026-11-13T04:23:52.998357+00:00",
+  "tested_pull_request_head": "3d35b2b844ef6ea82c3a99a1b3fde37caa376cd4",
+  "execution_context_from_receipt": {
+    "repository": "NousVolition/hug-sims-lean-proofs",
+    "checkout_sha": "a70a0d320df2d0ce23d3543526e6ffe8a7a6dad6",
+    "pull_request_head_sha": "3d35b2b844ef6ea82c3a99a1b3fde37caa376cd4",
+    "run_id": "43364713158",
+    "run_attempt": "1"
+  },
+  "unmodified_files": {
+    "receipt.json": "53c6ae05c5006294c3af771677e1f6b52943d063a0a17b1c47bdcb8c8a3a5e87",
+    "evidence/CheckAxioms.log": "f9dcdff3c02db1feba9d63a32bdce5202d7f0b0d3230ec8ef3869a248c94542f",
+    "evidence/lake-build.log": "904ce4954ee605c1c1bdc2414dea433d09e55ebdc3cf0da887ef31fc3ef0249e"
+  },
+  "archive_retained_as": "artifact.zip",
+  "scope": "Passing Linux verification of the partial results, not certification of the requested trajectories or minima."
+}

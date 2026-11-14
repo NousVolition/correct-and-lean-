@@ -1,0 +1,19 @@
+{
+  "status": "PROPOSED_NOT_YET_CHECKED",
+  "scope": "One archived Fourier component along a candidate segment; not an ODE trajectory",
+  "archived_label": "event-1-left",
+  "component": 0,
+  "physical_interval": [
+    0.0,
+    0.001
+  ],
+  "source_npz_sha256": "eebd442c11e378ac8115a4bed4efd42d234d596865f38667e2cf02565c2f1a19",
+  "field_model_error_proposal": 3.056596741630226e-21,
+  "field_model_center": -0.0002264186079953251,
+  "field_model_tail_mass": 4.831248456679312e-06,
+  "phase_model_error_proposals": [
+    9.925051012782026e-21,
+    8.725502803914825e-21,
+    9.786466240585668e-21
+  ]
+}

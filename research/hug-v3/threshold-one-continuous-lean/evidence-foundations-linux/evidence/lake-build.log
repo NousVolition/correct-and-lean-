@@ -1,0 +1,66 @@
+✔ [2733/2786] Built FrozenNormalization (2.9s)
+✔ [2735/2786] Built FrozenPolynomial (4.2s)
+✔ [2737/2786] Built FrozenField (3.0s)
+✔ [2739/2786] Built FrozenODE (4.7s)
+✔ [2741/2786] Built FrozenRational (2.0s)
+✔ [2743/2786] Built FrozenConstants (3.1s)
+✔ [2745/2786] Built FrozenIntPolynomial (3.2s)
+✔ [2747/2786] Built FrozenTrig (3.6s)
+✔ [2749/2786] Built FrozenSeeds (3.4s)
+✔ [2751/2786] Built FrozenMatrixBounds (4.1s)
+✔ [2753/2786] Built FrozenFieldTaylor (4.9s)
+✔ [2755/2786] Built FrozenPrecondition (3.9s)
+✔ [2757/2786] Built FrozenEuclidean (4.7s)
+✔ [2759/2786] Built FrozenClippedODE (4.7s)
+✔ [2761/2786] Built FrozenIntTrig (5.1s)
+✔ [2763/2786] Built FrozenIntModel (6.0s)
+✔ [2765/2786] Built FrozenTrigModel (5.1s)
+✔ [2767/2786] Built FrozenFieldGradient (4.3s)
+✔ [2769/2786] Built FrozenPeriodicDistance (5.3s)
+✔ [2771/2786] Built FrozenTubeResidual (4.7s)
+✔ [2773/2786] Built FrozenIntTrigModel (4.0s)
+✔ [2775/2786] Built FrozenDyadicConstants (3.7s)
+✔ [2777/2786] Built FrozenIntEnclosure (4.3s)
+✔ [2779/2786] Built FrozenComplexModel (3.6s)
+✔ [2781/2786] Built FrozenFourierModel (4.8s)
+ℹ [2783/2786] Built PhasePilot (10s)
+info: PhasePilot.lean:67:0: elaboration took 129ms
+info: PhasePilot.lean:132:0: elaboration took 139ms
+info: PhasePilot.lean:200:0: tactic execution of Mathlib.Tactic.normNum took 176ms
+tactic execution of Mathlib.Tactic.normNum took 160ms
+info: PhasePilot.lean:204:0: tactic execution of Mathlib.Tactic.normNum took 225ms
+tactic execution of Mathlib.Tactic.normNum took 174ms
+info: PhasePilot.lean:204:8: type checking took 112ms
+info: PhasePilot.lean:208:0: type checking took 3.44s
+info: PhasePilot.lean:209:0: type checking took 5.15s
+info: PhasePilot.lean:220:0: 'PhasePilot.whole_interval_cosine' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PhasePilot.lean:220:0: elaboration took 5.1s
+info: PhasePilot.lean:221:0: 'PhasePilot.whole_interval_sine' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: stderr:
+.olean serialization took 110ms
+cumulative profiling times:
+	.olean serialization 110ms
+	attribute application 0.153ms
+	compilation (IR) 5.6ms
+	compilation (LCNF base) 53.7ms
+	compilation (LCNF impure) 37.8ms
+	compilation (LCNF mono) 43.1ms
+	congr simp thm 5.39ms
+	elaboration 5.53s
+	fix level params 3.61ms
+	instantiate metavars 1.38ms
+	let-to-have transformation 1.75ms
+	linting 192ms
+	module linting 0.00153ms
+	norm_num 1.94s
+	overlappingInstancesLinter 4.2ms
+	parsing 19.5ms
+	process pre-definitions 48.5ms
+	share common exprs 92ms
+	simp 29.6ms
+	tactic execution 793ms
+	tacticAnalysis 65.7ms
+	type checking 8.8s
+	typeclass inference 2.67s
+✔ [2785/2786] Built FrozenArchive (102s)
+Build completed successfully (2786 jobs).

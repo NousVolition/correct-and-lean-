@@ -1,0 +1,2 @@
+# Preserve whitespace in the published CI log, including timestamped blank lines.
+job.log -whitespace

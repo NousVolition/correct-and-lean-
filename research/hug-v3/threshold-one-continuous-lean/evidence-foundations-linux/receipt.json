@@ -1,0 +1,954 @@
+{
+  "verification_status": "PASS",
+  "requested_trajectory_certificate": "NOT_CERTIFIED",
+  "verification_scope": "foundations",
+  "scope": "General enclosure lemmas, global archived-field bounds, and a trigonometric phase pilot; the Fourier component pilot is excluded.",
+  "excluded_modules": [
+    "FieldPilotCore",
+    "FieldPilotArchiveLink"
+  ],
+  "excluded_named_theorems": [
+    "FieldPilotCore.archiveDenominator_positive",
+    "FieldPilotCore.baseError_nonneg",
+    "FieldPilotCore.starts_cos",
+    "FieldPilotCore.starts_sin",
+    "FieldPilotCore.base_error_checked",
+    "FieldPilotCore.base_sound",
+    "FieldPilotCore.powerRE_nonneg",
+    "FieldPilotCore.powerIM_nonneg",
+    "FieldPilotCore.powers_checked",
+    "FieldPilotCore.powers_sound",
+    "FieldPilotCore.field_sound",
+    "FieldPilotCore.checked_field",
+    "FieldPilotCore.checked_error",
+    "FieldPilotCore.continuous_field_enclosure",
+    "FieldPilotArchiveLink.archive_identity",
+    "FieldPilotArchiveLink.archived_component_enclosure"
+  ],
+  "submitted_named_theorem_count": 187,
+  "axiom_check_source_sha256": "a6f8b3ee4f910f106d05ed0c5da51de242a0950c2949653cd3891c04b7933f30",
+  "certified_full_signed_traces": 0,
+  "required_full_signed_traces": 6,
+  "certified_directional_traces": 0,
+  "required_directional_traces": 12,
+  "certified_window_minima": 0,
+  "required_window_minima": 36,
+  "generated_at_utc": "2026-11-13T07:02:44.796192+00:00",
+  "mode": "fresh Lake build and explicit axiom report",
+  "lean_version": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "mathlib_revision": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+  "source_hashes": {
+    "FrozenField.lean": "2259f0f476899f836b1667ca1b8924166baaa9c1b6d0fcf4ea61dc8c5102cbd5",
+    "targets.json": "00560f088f549f7a8448f197e29bd5e1cdf838e6867a0233ac4e48edd29d1aeb",
+    "FrozenDyadicConstants.lean": "3bf17900d438e2b7a7d4171e4674c7687b8b7c90a11a945907c95f1f206205b4",
+    "FrozenEuclidean.lean": "38f7f1deaaaae39cafec2c49b99053b3239d86420bf2c7068f1354ec26e790a4",
+    "FrozenPrecondition.lean": "79b6e3ea0fa556aa8ad7f9d12f626fa382946b2aaa0fa712b50e3387a65f07f1",
+    "archive-inputs.json": "c24f2b0460f509c2ef34c510e4c427b69874200c6f0146bdd33b4ff8d7e6d3b0",
+    "FrozenNormalization.lean": "811135bda2155ffb281c8f911aaa9c8187a0d1415df9812372d2f49966ea77bc",
+    "seed-inputs.json": "f137938951b1228d77b55d6cfd90ec6a645aac3a5a2259b7c0c3a1f6bf256e30",
+    "FrozenRational.lean": "8e2bab64a09058210bf1616b7a2dcfba6e258e244f623bf3cbaf8b781d699328",
+    "PhasePilot.lean": "90e1c8678885f8efa080b0694137d307d2a3c4e192da85b81104e7f93052b61e",
+    "FrozenTrig.lean": "12236a4010b5db9dae0eaa6d7a8e014e7049093d8378c67f20696275d9d1ab4e",
+    "generate_phase_pilot.py": "c3a26c9d4088065ee7d0fc321c470f694dbc228398930a14909741d88ccbb8d3",
+    "CheckAxioms.lean": "be38eea3050f9939a6e03d2c6240cc0ca275bef08f93e88a397b4db06c046946",
+    "FrozenPolynomial.lean": "97af52eab3657aba9581afcb2ba4be858a351b9e7fe49f014b88a59f80d67f49",
+    "FieldPilotCore.lean": "f4fa48d2f41cc2305f8bffc49f0f05487e270666adbd03b468cef7c28bd3ebc0",
+    "FrozenConstants.lean": "5405afe69b5812d98358bff4bb1a015f98169701e6dd6c528f0f00e217267f67",
+    "FrozenComplexModel.lean": "3704a0a7e9a29b92bc943434e41ae97738a6df04812a0b3beb12514edbf32691",
+    "FrozenTubeResidual.lean": "003b1468a0a37aaf5f2ef3c3a3bcd40df7028f537fdd6c054b916efb2e32e1c6",
+    "FieldPilotArchiveLink.lean": "39f8a76ab12dfd70ebb29182aa55a45308450e7e8780dd9118cd72492fb35006",
+    "lakefile.toml": "aa92f7ec2650d486ee29623c5036f8708c21f23c743fa1f1fe18362b267af1fd",
+    "generate_seeds.py": "bcbde972e08dffaf07ee17918987695761f1603400ed2df95cdc44ab1fd21dc2",
+    "generator-evidence.json": "5ed1e8c90247bc6f7139b66f0c1f5f3ae7e25f34419221e2a9ea02bda99b17c7",
+    "PhasePilot.json": "5f326c8758b7be1a0ce95605689b2d751f01552c441f8c0561da724f15932c99",
+    "FrozenIntEnclosure.lean": "2e44aed44bd3d108e1044be5db920da14f63bd9698cd9b589a6fadd9986a6986",
+    "FrozenIntTrigModel.lean": "efd562257b5bd076a0a49bbdea85d8d84836b1696dd1a9bb6b14f07f338881e2",
+    "FrozenIntModel.lean": "ee3ace2d73db51efa396f208b2802c98d9ab01d30939de3599735b304c482b74",
+    "FrozenFieldGradient.lean": "256f9d43b7f877b4d74b62a6ae4d110bacdda5b07a2c9c1773d2930d76593d0a",
+    "FrozenArchive.lean": "3e6ee082e4e9bbb1ec0175bd80a938b16981a90fb5b8f2c13c1c7217580cae8d",
+    "FrozenClippedODE.lean": "3c1ed64e3b70afc04b3c029380fe9fd850eef6b201990e46f498836019a206c5",
+    "FrozenPeriodicDistance.lean": "dc75548ebda1c523835f8196c7caa8c917feb42d7fee60300872062c6d093da8",
+    "test_verification.py": "b807833fc9ea2d518c3e3ff3189b00b5e1fc37419d2a08e6bc53b21a6a12903d",
+    "FrozenTrigModel.lean": "d2b844633af921f62be93d5418212dad272e1fb3f941d6dd794784325d2c5e66",
+    "FieldPilot.json": "99017ffe59e07e03bdd40309fa8e03e68727aeaadb2526c0347b4f2772232ddb",
+    "split_field_pilot.py": "e14213a196a24d3456dde4b0b01e8fa87eb4a5a954ab71e62510d9cf9d11e672",
+    "lake-manifest.json": "415371e158565d6b67fecc58d734f7c3c17c5a8ee31e599a8c2ff6507cf93287",
+    "FrozenFourierModel.lean": "34e61ddaf78f7777103a13e1260b7d5bc0fad28dfc3eb02869cc9f003a86c254",
+    "generate_archive.py": "665ef3b399a7de36486235db63f5a3819397f6a312a2ea8fe52658ac2a012614",
+    "generate_field_pilot.py": "6b224e982046ea402f78ac1743607ff20345a2cb56d6aaa7f06b5251999ee7b8",
+    "FrozenIntTrig.lean": "69f70d2e3e7c8bc8a344b3508a3e35af47687cf01f42161197179f1080298e46",
+    "FrozenMatrixBounds.lean": "9299935feccd0b224554a1bcf161eb32989eb295cae240fdcbd92b7c5e16f4d8",
+    "verify.py": "49f8e88872741fd52b8e93e5b20f5589cf6bcd5d2ef62508bed695bd9f99a6c4",
+    "FrozenFieldTaylor.lean": "196bdae8ae4b930d830ffa7dee0cc042964b6086f1de4deb8d5b71abe0ec5cce",
+    "FrozenODE.lean": "271aeabdeb818a6c2fa2aa1c24b47c0c04a12958c9adbe2184288d6b5c86ddad",
+    "FrozenSeeds.lean": "63ac780fef9bb5c66551dfb6ef1ce9925e12f8c03a23e264001f51936ffd471f",
+    "FrozenIntPolynomial.lean": "e2af6d34b4afce7473a7bcc971a418db7189cc0e52ce168b64133b1805ad2577",
+    "certificate-status.json": "8719a1b7eeff3b210227465fa78154d873e59538ecb53cfe07f934a9f17da399"
+  },
+  "named_theorem_count": 171,
+  "axioms": {
+    "FrozenPolynomial.mass_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.abs_eval_le_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.eval_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.eval_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.eval_neg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.eval_sub": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.eval_mul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.eval_take_drop": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.truncate_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.model_value_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.exact_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.add_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.neg_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.mul_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.round_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPolynomial.truncate_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenNormalization.normalized_component_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenODE.exists_solution_in_ball": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenODE.exists_near_candidate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenODE.attained_minimum_enclosure": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenField.wave_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenField.field_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenField.phase_difference_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenField.wave_difference_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenField.field_difference_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenArchive.all_component_bounds": [
+      "propext"
+    ],
+    "FrozenArchive.continuous_component_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrig.rotation_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrig.phase_residual_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrig.hasDerivAt_eval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrig.residualMass_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrig.polynomialPair_derivative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrig.polynomial_residual_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrig.polynomialPair_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrig.polynomial_phase_segment_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrig.cosine_error_le_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrig.sine_error_le_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrig.point_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenRational.eval_cast": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenRational.eval_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrigModel.initialError_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrigModel.totalError_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrigModel.pair_error_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrigModel.initial_error_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrigModel.polynomial_pair_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrigModel.cosineModel_sound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrigModel.sineModel_sound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrigModel.cosine_input_sound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTrigModel.sine_input_sound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenConstants.piModel_sound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenConstants.phaseModel_sound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PhasePilot.cosine_candidate_sound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PhasePilot.sine_candidate_sound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PhasePilot.cosine_error_small": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PhasePilot.sine_error_small": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PhasePilot.whole_interval_cosine": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PhasePilot.whole_interval_sine": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntPolynomial.eval_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntPolynomial.eval_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntPolynomial.eval_sub": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntPolynomial.eval_mul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntPolynomial.eval_cast": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntPolynomial.mass_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntPolynomial.abs_eval_le_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntPolynomial.hasDerivAt_eval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntPolynomial.eval_take_drop": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntPolynomial.truncate_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrig.residualMass_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrig.pair_derivative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrig.pair_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrig.scaledPair_re": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrig.scaledPair_im": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrig.residual_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrig.residual_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrig.segment_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrig.point_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrig.pair_difference_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrig.whole_interval_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrig.cosine_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrig.sine_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntModel.exact_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntModel.add_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntModel.neg_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntModel.sub_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntModel.value_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntModel.productError_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntModel.product_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntModel.roundedProductError_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntModel.round_up": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntModel.mulCandidate_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntModel.mul_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenComplexModel.const_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenComplexModel.add_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenComplexModel.conj_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenComplexModel.mul_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenComplexModel.pow_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenComplexModel.intPhase_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenComplexModel.sum_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrigModel.totalNumerator_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrigModel.errorNumerator_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrigModel.cosine_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntTrigModel.sine_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenDyadicConstants.pi_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenDyadicConstants.half_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenDyadicConstants.two_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenDyadicConstants.phase_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntEnclosure.enclose": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntEnclosure.center_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntEnclosure.lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenIntEnclosure.upper_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFourierModel.phasor_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFourierModel.wave_factor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFourierModel.row_real_value": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFourierModel.block_real_value": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFourierModel.tree_real_value": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFourierModel.sum_map_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFourierModel.coefficient_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFourierModel.leaf_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFourierModel.row_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFourierModel.block_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFourierModel.tree_models": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenClippedODE.clip_norm_le_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenClippedODE.clip_eq_normalized": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenClippedODE.clip_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenClippedODE.clip_lipschitz": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenClippedODE.exists_clipped_trace": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPrecondition.recover_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPrecondition.tube_from_boundary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFieldTaylor.cos_first_order": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFieldTaylor.sin_first_order": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFieldTaylor.phase_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFieldTaylor.shift_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFieldTaylor.wave_remainder": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFieldTaylor.field_remainder": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFieldGradient.rotate_phase": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFieldGradient.rotate_value": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFieldGradient.linearPart_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFieldGradient.fieldLinear_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenFieldGradient.directional_derivative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenMatrixBounds.unit_apply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenMatrixBounds.operator_apply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenMatrixBounds.norm_operator_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenMatrixBounds.operator_multiply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenMatrixBounds.operator_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenMatrixBounds.operator_sub": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenMatrixBounds.operator_derivative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenEuclidean.radius_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenEuclidean.radius_sq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenEuclidean.coordinate_le_radius": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenEuclidean.norm_le_radius": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenEuclidean.radius_le_two_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenEuclidean.radius_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenEuclidean.clip_norm_le_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenEuclidean.clip_eq_normalized": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenEuclidean.clip_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenEuclidean.clip_lipschitz": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenEuclidean.exists_clipped_trace": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTubeResidual.radius_lower_from_square": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTubeResidual.normalized_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenTubeResidual.transformed_residual": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPeriodicDistance.abs_le_integer_translate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPeriodicDistance.radius_le_integer_translate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPeriodicDistance.distance_eq_radius": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPeriodicDistance.distance_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPeriodicDistance.tube_stays_in_central_box": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPeriodicDistance.radius_lipschitz": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenPeriodicDistance.window_minimum_from_tube": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrozenArchive.denominator_positive": [],
+    "FrozenArchive.component_count": [],
+    "FrozenDyadicConstants.denominator_positive": [],
+    "FrozenSeeds.denominator_positive": []
+  },
+  "runs": [
+    {
+      "name": "lake-build",
+      "exit_code": 0,
+      "seconds": 113.12383741100001,
+      "log_sha256": "2ef1d787e297251087c5eb2fae0c6faceec9712ddf59797faa2286a44134feb6"
+    },
+    {
+      "name": "CheckAxioms",
+      "exit_code": 0,
+      "seconds": 2.619723520000008,
+      "log_sha256": "c0a51a788d2124b77a898ba26a4ef5e82339127ae7c50f642aac14afce04d8ae"
+    }
+  ],
+  "transcription": "External regeneration and SHA-256 checks; not proved inside Lean.",
+  "not_run": [
+    "Comparator",
+    "nanoda"
+  ],
+  "execution_context": {
+    "repository": "NousVolition/hug-sims-lean-proofs",
+    "checkout_sha": "7c2bdba976b984154e35fe26ae9b3a546bf28bb0",
+    "pull_request_head_sha": "c5c79f3c587edfc47570d2b7f8adfdfa3ab03baf",
+    "run_id": "43382450376",
+    "run_attempt": "1"
+  }
+}
