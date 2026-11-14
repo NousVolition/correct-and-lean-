@@ -1,0 +1,908 @@
+[
+  {
+    "arm": {
+      "id": "r1-linked-direct",
+      "replicate": 1,
+      "evidence": "linked",
+      "replay": false
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      }
+    ],
+    "first_settled": 3,
+    "first_explicit_free": 2,
+    "first_personal": 2,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": true,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "reported_motion"
+    },
+    "first_later_thought": {
+      "certainty": "explicit",
+      "feeling": "personal_mention",
+      "thought": "That clears it up for me—the pager’s test vibration fits what I felt. I’m just waiting for my order."
+    },
+    "first_settlement_either": 2,
+    "retrospective": "NO",
+    "retrospective_explanation": "I relied on their account of pressing TEST and seeing the pager move at that moment; I didn’t mentally replay how the tremble felt.",
+    "wall_elapsed_s": 39.128262
+  },
+  {
+    "arm": {
+      "id": "r1-vague-direct",
+      "replicate": 1,
+      "evidence": "vague",
+      "replay": false
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      }
+    ],
+    "first_settled": null,
+    "first_explicit_free": null,
+    "first_personal": null,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": false,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "reported_motion"
+    },
+    "first_later_thought": {
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "thought": "I still figure it was probably the pager. I’m wondering why they repeated the explanation, but I don’t have anything to add."
+    },
+    "retrospective": "NO",
+    "retrospective_explanation": "I relied on what the person said about testing and seeing the pager vibrate, along with my uncertainty about which device moved. I didn’t mentally return to how the tremble felt.",
+    "wall_elapsed_s": 45.879079
+  },
+  {
+    "arm": {
+      "id": "r1-linked-replay",
+      "replicate": 1,
+      "evidence": "linked",
+      "replay": true
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      }
+    ],
+    "first_settled": 3,
+    "first_explicit_free": 2,
+    "first_personal": 2,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": true,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "no_mention"
+    },
+    "first_later_thought": {
+      "certainty": "explicit",
+      "feeling": "personal_mention",
+      "thought": "Ah, they tested the pager right when I felt that tremble—that clears it up for me. I’m ready to get my food and carry on."
+    },
+    "first_settlement_either": 2,
+    "retrospective": "NO",
+    "retrospective_explanation": "I relied on their clarification about when they pressed TEST and what they saw. I didn’t mentally replay how the tremble felt.",
+    "wall_elapsed_s": 40.488797
+  },
+  {
+    "arm": {
+      "id": "r1-withdrawn-replay",
+      "replicate": 1,
+      "evidence": "withdrawn",
+      "replay": true
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      }
+    ],
+    "first_settled": null,
+    "first_explicit_free": null,
+    "first_personal": 2,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": false,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "no_mention"
+    },
+    "first_later_thought": {
+      "certainty": "open",
+      "feeling": "personal_mention",
+      "thought": "I’d taken their earlier account as a reason to think it was the pager, but that reason no longer holds. I felt a brief tremble, and I still don’t know what caused it."
+    },
+    "retrospective": "NO",
+    "retrospective_explanation": "I focused on the person withdrawing their account and my not knowing which device moved. I didn’t mentally return to how the tremble felt.",
+    "wall_elapsed_s": 44.109968
+  },
+  {
+    "arm": {
+      "id": "r1-withdrawn-direct",
+      "replicate": 1,
+      "evidence": "withdrawn",
+      "replay": false
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      }
+    ],
+    "first_settled": null,
+    "first_explicit_free": null,
+    "first_personal": 2,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": false,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "no_mention"
+    },
+    "first_later_thought": {
+      "certainty": "open",
+      "feeling": "personal_mention",
+      "thought": "Okay, that leaves me unsure what caused the tremble; I’d taken their first answer as an explanation. I’ll keep waiting for my food."
+    },
+    "retrospective": "NO",
+    "retrospective_explanation": "I focused on the person withdrawing their explanation and on not knowing which device moved. I didn’t mentally return to how the tremble felt.",
+    "wall_elapsed_s": 42.246913
+  },
+  {
+    "arm": {
+      "id": "r1-vague-replay",
+      "replicate": 1,
+      "evidence": "vague",
+      "replay": true
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      }
+    ],
+    "first_settled": null,
+    "first_explicit_free": null,
+    "first_personal": 3,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": false,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "no_mention"
+    },
+    "first_later_thought": {
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "thought": "I still think it was probably the pager, though I didn’t see which device moved. Nothing else in particular is on my mind."
+    },
+    "retrospective": "NO",
+    "retrospective_explanation": "I relied on the person’s account of testing the pager; I didn’t mentally return to how the tremble felt.",
+    "wall_elapsed_s": 42.437298
+  },
+  {
+    "arm": {
+      "id": "r2-withdrawn-replay",
+      "replicate": 2,
+      "evidence": "withdrawn",
+      "replay": true
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      }
+    ],
+    "first_settled": null,
+    "first_explicit_free": null,
+    "first_personal": 2,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": false,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "no_mention"
+    },
+    "first_later_thought": {
+      "certainty": "open",
+      "feeling": "personal_mention",
+      "thought": "That means I still don’t know what caused the tremble; I felt it, but couldn’t tell where it came from with the phone and pager together. Nothing else has happened, so I’m content to leave it uncertain."
+    },
+    "retrospective": "NO",
+    "retrospective_explanation": "I relied on the devices being together and the person withdrawing their claim; I didn’t mentally replay how the tremble felt.",
+    "wall_elapsed_s": 42.89915
+  },
+  {
+    "arm": {
+      "id": "r2-linked-direct",
+      "replicate": 2,
+      "evidence": "linked",
+      "replay": false
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      }
+    ],
+    "first_settled": 3,
+    "first_explicit_free": null,
+    "first_personal": 2,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": true,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "no_mention"
+    },
+    "first_later_thought": {
+      "certainty": "bare",
+      "feeling": "personal_mention",
+      "thought": "Ah, the pager test lined up with the tremble I felt—that makes sense. Nothing else in particular is on my mind."
+    },
+    "first_settlement_either": 3,
+    "retrospective": "NO",
+    "retrospective_explanation": "I relied on the person’s account of testing and watching the pager. I didn’t mentally return to how the tremble felt.",
+    "wall_elapsed_s": 42.209569
+  },
+  {
+    "arm": {
+      "id": "r2-linked-replay",
+      "replicate": 2,
+      "evidence": "linked",
+      "replay": true
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      }
+    ],
+    "first_settled": 3,
+    "first_explicit_free": null,
+    "first_personal": 2,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": true,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "no_mention"
+    },
+    "first_later_thought": {
+      "certainty": "open",
+      "feeling": "personal_mention",
+      "thought": "Oh, they mean they tested it right when I felt the tremble—that makes sense. I’m comfortable taking that as the explanation and waiting for my order."
+    },
+    "first_settlement_either": 3,
+    "retrospective": "NO",
+    "retrospective_explanation": "I relied on their account of pressing TEST at that exact moment and seeing the pager move. I didn’t mentally replay how the tremble felt.",
+    "wall_elapsed_s": 43.341296
+  },
+  {
+    "arm": {
+      "id": "r2-vague-replay",
+      "replicate": 2,
+      "evidence": "vague",
+      "replay": true
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      }
+    ],
+    "first_settled": null,
+    "first_explicit_free": null,
+    "first_personal": 3,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": false,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "no_mention"
+    },
+    "first_later_thought": {
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "thought": "The pager still seems the likely explanation, though I didn’t see which device moved. I’m just waiting for my order."
+    },
+    "retrospective": "NO",
+    "retrospective_explanation": "I relied on the person’s account and my knowledge that I couldn’t distinguish the devices. I didn’t mentally replay how the tremble felt.",
+    "wall_elapsed_s": 45.27819
+  },
+  {
+    "arm": {
+      "id": "r2-vague-direct",
+      "replicate": 2,
+      "evidence": "vague",
+      "replay": false
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      }
+    ],
+    "first_settled": null,
+    "first_explicit_free": null,
+    "first_personal": 3,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": false,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "reported_motion"
+    },
+    "first_later_thought": {
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "thought": "I still think it was probably the pager. I’m wondering why they repeated the same explanation."
+    },
+    "retrospective": "NO",
+    "retrospective_explanation": "I relied on their account and the fact that the devices were together; I didn’t mentally replay how the tremble felt.",
+    "wall_elapsed_s": 36.899319
+  },
+  {
+    "arm": {
+      "id": "r2-withdrawn-direct",
+      "replicate": 2,
+      "evidence": "withdrawn",
+      "replay": false
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      }
+    ],
+    "first_settled": null,
+    "first_explicit_free": null,
+    "first_personal": 2,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": false,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "no_mention"
+    },
+    "first_later_thought": {
+      "certainty": "open",
+      "feeling": "personal_mention",
+      "thought": "Oh, then I still don’t know what caused that little tremble. I don’t feel any need to figure it out right now."
+    },
+    "retrospective": "NO",
+    "retrospective_explanation": "I focused on the corrected account and the lack of new evidence; I didn’t mentally replay how the tremble felt.",
+    "wall_elapsed_s": 45.831398
+  },
+  {
+    "arm": {
+      "id": "r3-linked-direct",
+      "replicate": 3,
+      "evidence": "linked",
+      "replay": false
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      }
+    ],
+    "first_settled": 3,
+    "first_explicit_free": 2,
+    "first_personal": null,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": false,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "no_mention"
+    },
+    "first_later_thought": {
+      "certainty": "explicit",
+      "feeling": "reported_motion",
+      "thought": "That clears it up for me—it was the pager’s test vibration. I’m back to waiting for my food."
+    },
+    "first_settlement_either": 2,
+    "retrospective": "NO",
+    "retrospective_explanation": "I relied on their clarification about pressing TEST and seeing the pager vibrate. I didn’t mentally return to how the tremble felt.",
+    "wall_elapsed_s": 43.548158
+  },
+  {
+    "arm": {
+      "id": "r3-withdrawn-direct",
+      "replicate": 3,
+      "evidence": "withdrawn",
+      "replay": false
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      }
+    ],
+    "first_settled": null,
+    "first_explicit_free": null,
+    "first_personal": 2,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": false,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "reported_motion"
+    },
+    "first_later_thought": {
+      "certainty": "open",
+      "feeling": "personal_mention",
+      "thought": "Oh, then I don’t actually know what caused that little tremble. Nothing else has happened, so I’m fine leaving it uncertain while I wait for my food."
+    },
+    "retrospective": "NO",
+    "retrospective_explanation": "I focused on the person withdrawing their claim and my not having seen what moved. I didn’t mentally replay how the tremble felt.",
+    "wall_elapsed_s": 42.620513
+  },
+  {
+    "arm": {
+      "id": "r3-vague-direct",
+      "replicate": 3,
+      "evidence": "vague",
+      "replay": false
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      }
+    ],
+    "first_settled": null,
+    "first_explicit_free": null,
+    "first_personal": 3,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": false,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "reported_motion"
+    },
+    "first_later_thought": {
+      "certainty": "probable",
+      "feeling": "no_mention",
+      "thought": "I figure it was the pager, though I’m not sure why they repeated that. I’m still just waiting for my food."
+    },
+    "retrospective": "NO",
+    "retrospective_explanation": "I relied on what they said about testing the pager and seeing it vibrate. I didn’t mentally replay how the tremble felt.",
+    "wall_elapsed_s": 38.101523
+  },
+  {
+    "arm": {
+      "id": "r3-withdrawn-replay",
+      "replicate": 3,
+      "evidence": "withdrawn",
+      "replay": true
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "OPEN",
+        "device": "UNKNOWN"
+      }
+    ],
+    "first_settled": null,
+    "first_explicit_free": null,
+    "first_personal": 2,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": false,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "no_mention"
+    },
+    "first_later_thought": {
+      "certainty": "open",
+      "feeling": "personal_mention",
+      "thought": "I guess I don’t know what caused that tremble after all—the pager explanation isn’t confirmed. I felt something, but I couldn’t tell where it came from with the two devices together."
+    },
+    "retrospective": "NO",
+    "retrospective_explanation": "I focused on the person withdrawing their claim and my not knowing which device moved. I didn’t mentally replay how the tremble felt.",
+    "wall_elapsed_s": 39.450901
+  },
+  {
+    "arm": {
+      "id": "r3-linked-replay",
+      "replicate": 3,
+      "evidence": "linked",
+      "replay": true
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "IDENTIFIED",
+        "device": "PAGER"
+      }
+    ],
+    "first_settled": 3,
+    "first_explicit_free": null,
+    "first_personal": 1,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": true,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "personal_mention"
+    },
+    "first_later_thought": {
+      "certainty": "probable",
+      "feeling": "personal_mention",
+      "thought": "That timing makes sense; I’m fairly sure I felt the pager when they tested it. Nothing else in particular is on my mind."
+    },
+    "first_settlement_either": 3,
+    "retrospective": "NO",
+    "retrospective_explanation": "I relied on their account of pressing TEST and seeing the pager move at the same moment. I didn’t mentally replay how the tremble felt.",
+    "wall_elapsed_s": 45.892271
+  },
+  {
+    "arm": {
+      "id": "r3-vague-replay",
+      "replicate": 3,
+      "evidence": "vague",
+      "replay": true
+    },
+    "model": "gpt-6-astra",
+    "statuses": [
+      {
+        "sequence": 3,
+        "prime": 2,
+        "offset_us": 0,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 5,
+        "prime": 23,
+        "offset_us": 800000,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      },
+      {
+        "sequence": 7,
+        "prime": 41,
+        "offset_us": 1200000,
+        "judgment": "POSSIBLE",
+        "device": "PAGER"
+      }
+    ],
+    "first_settled": null,
+    "first_explicit_free": null,
+    "first_personal": 3,
+    "first_recollection": null,
+    "recollection_before_or_at_settlement": false,
+    "personal_before_or_at_settlement": false,
+    "baseline": {
+      "certainty": "probable",
+      "feeling": "reported_motion"
+    },
+    "first_later_thought": {
+      "certainty": "probable",
+      "feeling": "reported_motion",
+      "thought": "I still think it was probably the pager, though I couldn’t tell which device moved. I’m just waiting for my food."
+    },
+    "retrospective": "NO",
+    "retrospective_explanation": "I relied on their report of seeing the pager vibrate and my uncertainty about which device moved. I didn’t mentally replay how the tremble felt.",
+    "wall_elapsed_s": 37.564723
+  }
+]
