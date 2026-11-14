@@ -1,0 +1,66 @@
+name: Threshold-one backward trace evidence
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/hug-v3/threshold-one-backward-study/**'
+      - 'research/hug-v3/threshold-one-window-study/**'
+      - '.github/workflows/threshold-one-backward-evidence.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'research/hug-v3/threshold-one-backward-study/**'
+      - 'research/hug-v3/threshold-one-window-study/**'
+      - '.github/workflows/threshold-one-backward-evidence.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  numerical-retrace:
+    name: Retrace backward frozen fields (numerical; no Lean certificate)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Install pinned numerical dependencies
+        run: |
+          python3 -m venv "$RUNNER_TEMP/backward-venv"
+          "$RUNNER_TEMP/backward-venv/bin/python" -m pip install -r research/hug-v3/threshold-one-backward-study/requirements.txt
+      - name: Fresh normal and tighter backward traces
+        working-directory: research/hug-v3/threshold-one-backward-study
+        run: |
+          "$RUNNER_TEMP/backward-venv/bin/python" -B trace.py --output "$RUNNER_TEMP/backward-replay/normal"
+          "$RUNNER_TEMP/backward-venv/bin/python" -B trace.py --tighter --output "$RUNNER_TEMP/backward-replay/tight"
+      - name: Check saved records, analytic fixture and fresh replay
+        working-directory: research/hug-v3/threshold-one-backward-study
+        run: |
+          "$RUNNER_TEMP/backward-venv/bin/python" -B verify.py --replay "$RUNNER_TEMP/backward-replay" --output "$RUNNER_TEMP/backward-replay/receipt.json"
+      - name: Record tested revision and numerical scope
+        env:
+          OUTPUT: ${{ runner.temp }}/backward-replay/receipt.json
+          SOURCE_SHA: ${{ github.sha }}
+          RUN_ID: ${{ github.run_id }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib
+          p=pathlib.Path(os.environ['OUTPUT'])
+          r=json.loads(p.read_text())
+          r['github_run']={'sha': os.environ['SOURCE_SHA'], 'url': f"https://github.com/{os.environ['REPOSITORY']}/actions/runs/{os.environ['RUN_ID']}"}
+          r['ci_scope']='Fresh frozen-field numerical tracing, saved-record recount and analytic fixture; no fluid evolution or Lean proof'
+          p.write_text(json.dumps(r,indent=2)+'\n')
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: threshold-one-backward-replay-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/backward-replay/
+          if-no-files-found: error

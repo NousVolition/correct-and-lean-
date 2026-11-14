@@ -1,0 +1,42 @@
+{
+  "scope": "NUMERICAL_ONLY; no Lean result or rigorous continuous error bound",
+  "completed_utc": "2026-11-14T02:45:56.867262+00:00",
+  "direction": "Negative signed arclength from A; frozen snapshot time",
+  "lengths": [
+    0.75,
+    1.5,
+    3.0,
+    6.0,
+    12.0
+  ],
+  "tighter": false,
+  "settings": {
+    "rtol": 2e-12,
+    "atol": 3e-14,
+    "max_step": 0.004,
+    "search_spacing": 0.000244140625
+  },
+  "input_sha256": {
+    "snapshots.npz": "eebd442c11e378ac8115a4bed4efd42d234d596865f38667e2cf02565c2f1a19",
+    "snapshots.json": "29c983c63e7a5150970d3f2086a44629f9df60df49b168c5b31916d5d5f3c414",
+    "measure.py": "645410a12168e1483fb929411cd688e783826c0ffe708112e5b66eae10bd57ea",
+    "measurements.json": "c392b4e070e0d6cc4cf44d4210d0fc0adfd8353d9ac2436db121fbaa7fa03d85",
+    "measurements-tight.json": "82888afd2eacf39f7051e9a8bd288e3cd376ce927b40df38cb4d0741f3c44880",
+    "saved/run-configuration.json": "7d17cf3675db6692159284d88c40c7d740e707e64c5c37ae549b15e92c8189f9",
+    "saved/Configuration.json": "7d17cf3675db6692159284d88c40c7d740e707e64c5c37ae549b15e92c8189f9",
+    "saved/Resolved switches.json": "e92906c4c90e670f4f4d11c2b313899a4452297a4bbb3991ee5af47d314e475f"
+  },
+  "code_sha256": "271f1c94b4ea2980ef29178e1c850895cbd7c8a63dfdeff9badf86717390e054",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.16.3",
+    "system": "Windows"
+  },
+  "elapsed_seconds": 13.182532899998478,
+  "outputs_sha256": {
+    "measurements.json": "1a25a61269d75c01e3e7250936604c721496b4d49c7ea4a6b1748c0ca186a8be",
+    "measurements.csv": "627d9acd5e97c2dc708a5bc715c73144bbe03029bbae681c9ce0463401719f79",
+    "traces.npz": "8fdd565bd07823e84f425d211b3e626d80fb2459447061b4766f774de1ef9f66"
+  }
+}

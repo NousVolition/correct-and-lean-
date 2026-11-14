@@ -1,0 +1,33 @@
+{
+  "scope": "NUMERICAL_ONLY: fresh frozen-field tracing and numerical comparisons, no Lean proof",
+  "repository": "NousVolition/hug-sims-lean-proofs",
+  "pr": 70,
+  "run_id": 43548745504,
+  "job_id": 132306039211,
+  "artifact_id": 14094628038,
+  "run_url": "https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43548745504",
+  "source_head": "7c60cc1346736546ec60fe107d59ea0725cfaa7f",
+  "tested_merge": "73a33eacb30ec7330e57850e73d192e5506151b4",
+  "artifact_sha256": "9056586e6304068a34a6109133213270e6045a8a2dbd116eac399d29d39db899",
+  "github_artifact_digest_matched": true,
+  "archive_members_sha256": {
+    "normal/measurements.csv": "5a7ba8e60480dc8ba3679e73b11bc5ce7041bbcc2137bc0657eb16a15bd8f52c",
+    "normal/measurements.json": "47285d901a1a291e21f9f9055ff1f9a7040eccabe13cd45794474b9a4bff7a79",
+    "normal/provenance.json": "8aceb69d57e8426b4aac81b6e4ee97222c70258804aa974b4c6af061910708a2",
+    "normal/traces.npz": "c2cbecbbec61ac41e8e6cabb5a459e64d0bb32a44d9e69f4e73c79e1c61b4791",
+    "receipt.json": "0a5b88b62abdc8f8ee139e9892aab87f5f3ff755dca7e6a223251353cf1b9aa4",
+    "tight/measurements.csv": "710753561e52c72af0c33436c89cb73cc9fdd46e8acce6731f5d3db54f0277eb",
+    "tight/measurements.json": "41033e8bf258147694cd0800654b7fc638d1bd3d8e81eaa2b6c3a344329fd8ca",
+    "tight/provenance.json": "4ec7c66fc861e2396d7bb4d7b2dc3413df400f74a3f9ebe1dd7facaf38f7fbb5",
+    "tight/traces.npz": "b0edf23ed6aac12760fe6596aef7b43db39c9c4d90de6f0a204ef16b00e82d3b"
+  },
+  "preservation": "Original ZIP, receipt and both provenance files retained byte for byte; all nine original files are inside the ZIP.",
+  "retention_checks": [
+    "Artifact digest matches GitHub metadata",
+    "Exact expected nine archive members",
+    "Passing receipt names actual tested merge and run",
+    "Both pass output hashes match original ZIP members",
+    "All frozen inputs and tracing source match the current checkout",
+    "Both Linux replays meet recorded comparison tolerances"
+  ]
+}
