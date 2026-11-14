@@ -1,0 +1,19 @@
+{
+  ".gitattributes": "8aa67d55dd95ed34e795d70b0db562ea684d40260dae9ef3345fbb6324f9f39e",
+  "figures/backward-distance.png": "f8f08aa99f38b8db1aca814101630244b15b22e3246562647ce4ebc9bfea165c",
+  "figures/backward-distance.svg": "23255a6708cc3350ef7380f4dfbfffe5712ddd5cef239d66f27e8c3c77eb501f",
+  "normal/measurements.csv": "627d9acd5e97c2dc708a5bc715c73144bbe03029bbae681c9ce0463401719f79",
+  "normal/measurements.json": "1a25a61269d75c01e3e7250936604c721496b4d49c7ea4a6b1748c0ca186a8be",
+  "normal/provenance.json": "e8c8ca54c05bc37864b48a0be8370671413a3253444ed24d5a5918e472bd6131",
+  "normal/traces.npz": "8fdd565bd07823e84f425d211b3e626d80fb2459447061b4766f774de1ef9f66",
+  "plot.py": "ca1f1f76e513d5a3688ee0f98ad63edbeed40c362631bfbcc823b28dd6cb1cff",
+  "README.md": "3b2632db3f77cae424b6e04078a173d20453719345efa69a8fb84dff59a0a7cf",
+  "requirements.txt": "45f81080c406f73f8e1e7affcc262678179308fadef3ef18cdff34d1edb6905f",
+  "tight/measurements.csv": "660d39883bfdfcae3c95d0b9ca1d0041e112fb31eeb0437d6edaa74374ff1405",
+  "tight/measurements.json": "f3882b191e51899849a4c05d85b9ab16be714492b5a3bbb12fc904f1f4913bd0",
+  "tight/provenance.json": "99bab704976d547cbbc07b59d58978dfdf2875284912b16cf6566409acd6c2d1",
+  "tight/traces.npz": "252393e6c17735a11083e6b3c4490b1381e4f0dfabc5e0b08765c51d2b8eaba3",
+  "trace.py": "271f1c94b4ea2980ef29178e1c850895cbd7c8a63dfdeff9badf86717390e054",
+  "verification.json": "19018b8017ef814fc7f423e3d020ee95d0600fbc4de99d4bce1da894246aa7c3",
+  "verify.py": "f2eb16b68da7d0d5e58fa8158d8b191b03bdb16d01e3c94247603d330d1ac946"
+}
