@@ -1,0 +1,340 @@
+{
+  "status": "PASS",
+  "scope": "NUMERICAL_ONLY; no Lean result",
+  "checked_utc": "2026-11-14T02:54:10.809389+00:00",
+  "runtime": {
+    "python": "3.12.3",
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "system": "Linux"
+  },
+  "normal": {
+    "readings": 54,
+    "nested_comparisons": 162,
+    "candidate_entries_recounted": 1260,
+    "maximum_winner_stationarity_residual": 1.3949962350483976e-14,
+    "observed_min_rhs_omega": 0.0034565456315347135,
+    "observed_min_sampled_omega": 0.003456406292254144,
+    "maximum_original_distance_difference": 0.0,
+    "maximum_original_arclength_difference": 0.0
+  },
+  "tight": {
+    "readings": 54,
+    "nested_comparisons": 162,
+    "candidate_entries_recounted": 1260,
+    "maximum_winner_stationarity_residual": 1.6150929245517416e-14,
+    "observed_min_rhs_omega": 0.0034563359542633116,
+    "observed_min_sampled_omega": 0.0034564062921637276,
+    "maximum_original_distance_difference": 0.0,
+    "maximum_original_arclength_difference": 0.0
+  },
+  "normal_vs_tight": {
+    "winner_distance": 7.685518887967646e-14,
+    "winner_arclength": 1.155875395397743e-11,
+    "winner_position": 9.767787021373103e-14,
+    "sampled_trace_position": 6.537849188568767e-10
+  },
+  "analytic_fixture": {
+    "status": "PASS",
+    "maximum_position_error": 5.872733501212416e-14,
+    "expected_minimum": 0.1,
+    "scope": "Numerical direction, joins and periodic minima for an analytic constant field"
+  },
+  "events": [
+    {
+      "event": 1,
+      "bracket": [
+        1.1809101657867431,
+        1.1809101676940919
+      ],
+      "sides": {
+        "left": {
+          "winners": {
+            "3": {
+              "s": -1.9462150729220984,
+              "d": 0.1136558768533691,
+              "p": [
+                0.030913557966722644,
+                -0.10113441371019304,
+                0.06493244311465615
+              ],
+              "kind": "interior"
+            },
+            "6": {
+              "s": -1.9462150729220984,
+              "d": 0.1136558768533691,
+              "p": [
+                0.030913557966722644,
+                -0.10113441371019304,
+                0.06493244311465615
+              ],
+              "kind": "interior"
+            },
+            "12": {
+              "s": -1.9462150729220984,
+              "d": 0.1136558768533691,
+              "p": [
+                0.030913557966722644,
+                -0.10113441371019304,
+                0.06493244311465615
+              ],
+              "kind": "interior"
+            }
+          },
+          "improvement_from_3_to_12": 0.0,
+          "improvement_from_original_forward": 0.006257694705215269
+        },
+        "right": {
+          "winners": {
+            "3": {
+              "s": -1.946214296089772,
+              "d": 0.11365588850891742,
+              "p": [
+                0.030913503050949722,
+                -0.10113437849095472,
+                0.06493241652078119
+              ],
+              "kind": "interior"
+            },
+            "6": {
+              "s": -1.946214296089772,
+              "d": 0.11365588850891742,
+              "p": [
+                0.030913503050949722,
+                -0.10113437849095472,
+                0.06493241652078119
+              ],
+              "kind": "interior"
+            },
+            "12": {
+              "s": -1.946214296089772,
+              "d": 0.11365588850891742,
+              "p": [
+                0.030913503050949722,
+                -0.10113437849095472,
+                0.06493241652078119
+              ],
+              "kind": "interior"
+            }
+          },
+          "improvement_from_3_to_12": 0.0,
+          "improvement_from_original_forward": 0.006257719860277913
+        }
+      },
+      "winner_position_change_across_bracket": 7.045119622016817e-08
+    },
+    {
+      "event": 2,
+      "bracket": [
+        1.1820768680572509,
+        1.1820768699645996
+      ],
+      "sides": {
+        "left": {
+          "winners": {
+            "3": {
+              "s": -2.882354004020698,
+              "d": 0.12740731216203988,
+              "p": [
+                0.01231675110966657,
+                -0.08425386785061187,
+                0.04291040952680636
+              ],
+              "kind": "interior"
+            },
+            "6": {
+              "s": -4.34195264713558,
+              "d": 0.11759347958749201,
+              "p": [
+                0.03180993777528871,
+                -0.09810607144282575,
+                0.05818905604195069
+              ],
+              "kind": "interior"
+            },
+            "12": {
+              "s": -4.34195264713558,
+              "d": 0.11759347958749201,
+              "p": [
+                0.03180993777528871,
+                -0.09810607144282575,
+                0.05818905604195069
+              ],
+              "kind": "interior"
+            }
+          },
+          "improvement_from_3_to_12": 0.009813832574547862,
+          "improvement_from_original_forward": 0.01862771932257816
+        },
+        "right": {
+          "winners": {
+            "3": {
+              "s": -2.882353192085226,
+              "d": 0.12740735789741273,
+              "p": [
+                0.012316704191347005,
+                -0.08425382468931103,
+                0.04291034879576293
+              ],
+              "kind": "interior"
+            },
+            "6": {
+              "s": -4.341950815745436,
+              "d": 0.11759350384783111,
+              "p": [
+                0.03180978199966987,
+                -0.09810598784091298,
+                0.058188971909969786
+              ],
+              "kind": "interior"
+            },
+            "12": {
+              "s": -4.341950815745436,
+              "d": 0.11759350384783111,
+              "p": [
+                0.03180978199966987,
+                -0.09810598784091298,
+                0.058188971909969786
+              ],
+              "kind": "interior"
+            }
+          },
+          "improvement_from_3_to_12": 0.009813854049581613,
+          "improvement_from_original_forward": 0.018627713340452864
+        }
+      },
+      "winner_position_change_across_bracket": 1.9578946206200516e-07
+    },
+    {
+      "event": 3,
+      "bracket": [
+        1.1992811927795408,
+        1.1992811946868895
+      ],
+      "sides": {
+        "left": {
+          "winners": {
+            "3": {
+              "s": -0.7559818983185294,
+              "d": 0.1646782282138803,
+              "p": [
+                -0.009019624614995116,
+                -0.06758989896230998,
+                -0.016176198175994284
+              ],
+              "kind": "interior"
+            },
+            "6": {
+              "s": -0.7559818983185294,
+              "d": 0.1646782282138803,
+              "p": [
+                -0.009019624614995116,
+                -0.06758989896230998,
+                -0.016176198175994284
+              ],
+              "kind": "interior"
+            },
+            "12": {
+              "s": -11.547836579103052,
+              "d": 0.13851126653203863,
+              "p": [
+                -0.09116495631707872,
+                -0.10351491255424491,
+                0.016646181815945266
+              ],
+              "kind": "interior"
+            }
+          },
+          "improvement_from_3_to_12": 0.026166961681841683,
+          "improvement_from_original_forward": 0.02711014214678259
+        },
+        "right": {
+          "winners": {
+            "3": {
+              "s": -0.7559819365926231,
+              "d": 0.1646782275559795,
+              "p": [
+                -0.00901962534004345,
+                -0.06758990160969373,
+                -0.01617620098005306
+              ],
+              "kind": "interior"
+            },
+            "6": {
+              "s": -0.7559819365926231,
+              "d": 0.1646782275559795,
+              "p": [
+                -0.00901962534004345,
+                -0.06758990160969373,
+                -0.01617620098005306
+              ],
+              "kind": "interior"
+            },
+            "12": {
+              "s": -11.547835345562659,
+              "d": 0.13851129173456053,
+              "p": [
+                -0.09116496735126071,
+                -0.10351489566724419,
+                0.016646165411182953
+              ],
+              "kind": "interior"
+            }
+          },
+          "improvement_from_3_to_12": 0.026166935821418963,
+          "improvement_from_original_forward": 0.027110116681183433
+        }
+      },
+      "winner_position_change_across_bracket": 2.60007729213267e-08
+    }
+  ],
+  "limitations": [
+    "Tighter agreement is not an error bound against an exact trace.",
+    "Sampled root searches do not prove exhaustive continuous minima.",
+    "Six frozen fields only; no new fluid evolution or convergence test.",
+    "No new Lean proof; full trajectories and minima remain uncertified."
+  ],
+  "fresh_replay": {
+    "normal": {
+      "checks": {
+        "readings": 54,
+        "nested_comparisons": 162,
+        "candidate_entries_recounted": 1260,
+        "maximum_winner_stationarity_residual": 1.5664696736477714e-14,
+        "observed_min_rhs_omega": 0.0034565456304954337,
+        "observed_min_sampled_omega": 0.003456406292250475,
+        "maximum_original_distance_difference": 2.831068712794149e-15,
+        "maximum_original_arclength_difference": 5.684341886080802e-14
+      },
+      "comparison_to_published": {
+        "winner_distance": 2.831068712794149e-15,
+        "winner_arclength": 5.098144129078719e-13,
+        "winner_position": 9.850160115262431e-15,
+        "sampled_trace_position": 2.579018132221002e-11
+      }
+    },
+    "tight": {
+      "checks": {
+        "readings": 54,
+        "nested_comparisons": 162,
+        "candidate_entries_recounted": 1260,
+        "maximum_winner_stationarity_residual": 1.631879789687253e-14,
+        "observed_min_rhs_omega": 0.0034563359543128293,
+        "observed_min_sampled_omega": 0.0034564062921627107,
+        "maximum_original_distance_difference": 2.0261570199409107e-15,
+        "maximum_original_arclength_difference": 4.707345624410664e-14
+      },
+      "comparison_to_published": {
+        "winner_distance": 2.0261570199409107e-15,
+        "winner_arclength": 9.947598300641403e-14,
+        "winner_position": 8.293360072201e-15,
+        "sampled_trace_position": 1.0579815688041636e-11
+      }
+    }
+  },
+  "github_run": {
+    "sha": "73a33eacb30ec7330e57850e73d192e5506151b4",
+    "url": "https://github.com/NousVolition/hug-sims-lean-proofs/actions/runs/43548745504"
+  },
+  "ci_scope": "Fresh frozen-field numerical tracing, saved-record recount and analytic fixture; no fluid evolution or Lean proof"
+}
